@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Qien DFW AI/ML Job Monitor + Application Tracker</title>
+
+<style>
+:root{color-scheme:dark}
+body{font-family:Arial,Helvetica,sans-serif;background:#0b1020;color:#e8edf7;margin:0;padding:28px}
+h1{margin:0 0 8px}.sub,.note{color:#aeb9cf}.cards{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}
+.card{background:#151d33;border:1px solid #293554;border-radius:12px;padding:14px 18px;min-width:150px}
+.num{font-size:28px;font-weight:700}.panel{background:#11192c;border:1px solid #293554;border-radius:14px;padding:18px;margin:18px 0;overflow:auto}
+.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:10px 0 14px}
+.search{padding:10px;width:340px;max-width:90vw;background:#0b1020;color:white;border:1px solid #435174;border-radius:8px}
+table{border-collapse:collapse;width:100%;min-width:1900px;font-size:13px}
+th,td{border-bottom:1px solid #293554;padding:9px;vertical-align:top}
+th{position:sticky;top:0;background:#1b2742;text-align:left;z-index:2}
+a{color:#7fc7ff}.actions{white-space:nowrap}
+button{border:0;border-radius:7px;padding:7px 10px;margin:2px;cursor:pointer;font-weight:600}
+.apply-btn{background:#1f8f58;color:white}.delete-btn{background:#9b2c2c;color:white}
+.restore-btn{background:#334155;color:#e8edf7}.clear-btn{background:#7c3aed;color:white}
+.badge{display:inline-block;border:1px solid #435174;border-radius:999px;padding:3px 8px;color:#b9c7df;font-size:12px}
+.empty{color:#8e9bb4;padding:20px;text-align:center}
+</style>
+
+</head>
+<body>
+<h1>Qien · DFW 2027 Full-Time AI / ML / Data Engineering Monitor</h1>
+<div class="sub">Applied AI / Machine Learning / Data Science 三条核心主线 · Ryan 为基准线 · 公司级别服从岗位级别。</div>
+
+<div class="cards">
+  <div class="card"><div class="num">22</div><div>核心企业</div></div>
+  <div class="card"><div class="num" id="currentCount">0</div><div>待评估 / 待投岗位</div></div>
+  <div class="card"><div class="num" id="appliedCount">0</div><div>已投递</div></div>
+  <div class="card"><div class="num" id="deletedCount">0</div><div>已删除</div></div>
+</div>
+
+<div class="panel">
+<h2>使用规则</h2>
+<div class="note">点击 <b>✓ 已投递</b>：岗位从第二张表移入第三张“已投递记录”，自动记录本机投递时间。点击 <b>删除</b>：先弹出确认，确认后岗位从第二张表永久隐藏。状态保存在浏览器本地存储中，刷新页面仍保留。</div>
+<div class="note" style="margin-top:8px">当前在线版已更新：Goldman Sachs 标记为 2026-09-07 已投递；Kyndryl R-66739 已加入监控。后续固定使用这个在线 URL，页面内容可持续更新；已投递/已删除状态仍保存在同一浏览器中。</div></div>
+
+<div class="panel"><h2>职业筛选标准</h2><div class="note"><b>核心标签：Applied AI / Machine Learning / Data Science。</b> AI Data Platform/Data Engineering 仅在直接服务 AI/ML/DS 时保留；纯 BI、Reporting、传统 Analytics、纯金融 Analyst 不进入核心职位池。最终看岗位是否强化 Qien 的 AI/ML/DS 技术资本，并且相对 Ryan 构成真正升级。</div></div><div class="panel">
+<h2>1 · Focused Company Universe — Applied AI / ML / DS</h2>
+<div class="toolbar"><input class="search" id="q1" placeholder="搜索公司、Tier、技术方向…" onkeyup="filter('q1','t1')"></div>
+<table id="t1"><thead><tr><th>Company</th><th>Area</th><th>Business / Domain</th><th>Tier</th><th>Strategy</th><th>Target roles</th><th>Base Salary</th><th>Bonus / Sign-on</th><th>Equity</th><th>Estimated TC</th><th>薪资置信度</th><th>薪资依据</th><th>Why fit</th><th>Visa / sponsorship</th><th>Official careers</th><th>核心赛道</th><th>相对Ryan升级判断</th></tr></thead><tbody><tr><td>Google</td><td>Addison</td><td>Cloud / AI / Software</td><td>S</td><td>Stretch</td><td>Data Science / ML / Cloud / Software</td><td>$130K–$180K</td><td>$10K–$30K</td><td>常见</td><td>$180K–$280K+</td><td>中</td><td>大型科技公司 Early Career DS/ML 市场估算</td><td>Google 在 Addison 有 Dallas-area office。若出现本地 Early Career Data/AI/Cloud 技术岗，Qien 的 AI/ML、研究和企业 AI 经历具备冲刺价值；但本地岗位数量通常有限。</td><td>逐岗位确认</td><td><a href="https://www.google.com/about/careers/applications/" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / Machine Learning / Data Science</td><td>强升级候选：岗位本身属于核心技术线且 seniority 合适时优先申请。</td></tr><tr><td>Microsoft</td><td>Dallas area</td><td>Cloud / AI / Software</td><td>S</td><td>Stretch</td><td>Data Science / ML / Applied AI</td><td>$120K–$160K</td><td>$10K–$30K</td><td>常见</td><td>$150K–$220K</td><td>中</td><td>大型科技公司 Early Career 市场估算</td><td>品牌和技术上限高，AI/ML/Data 岗位与 Qien 的技术背景匹配；但 DFW New Grad 岗位数量有限，属于高难度冲刺。</td><td>Verify role-specific sponsorship</td><td><a href="https://jobs.careers.microsoft.com/" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / Machine Learning / Data Science</td><td>强升级候选：岗位本身属于核心技术线且 seniority 合适时优先申请。</td></tr><tr><td>Amazon</td><td>Dallas area</td><td>Cloud / AI / Data</td><td>S</td><td>Stretch</td><td>Applied Scientist / Data Science / ML</td><td>$120K–$160K</td><td>Sign-on 常见</td><td>常见</td><td>$160K–$230K</td><td>中</td><td>大型科技公司 DS/Applied Science 市场估算</td><td>Applied Science、ML 和 Data Science 与 Qien 的研究及工程背景匹配，但 DFW 具体岗位数量随招聘周期变化，属于冲刺目标。</td><td>Verify role-specific sponsorship</td><td><a href="https://www.amazon.jobs/" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / Machine Learning / Data Science</td><td>强升级候选：岗位本身属于核心技术线且 seniority 合适时优先申请。</td></tr><tr><td>NVIDIA</td><td>DFW / remote eligible</td><td>AI / Semiconductor</td><td>S</td><td>Stretch</td><td>ML / Applied AI / Data</td><td>$130K–$180K</td><td>$10K–$30K</td><td>常见且重要</td><td>$180K–$280K+</td><td>中</td><td>AI/ML 技术岗市场估算</td><td>Qien 的 AI/ML、研究和数学基础具有较好技术匹配，但 DFW Entry-Level 岗位较少、竞争极强，属于超级冲刺。</td><td>Verify role-specific sponsorship</td><td><a href="https://www.nvidia.com/en-us/about-nvidia/careers/" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / Machine Learning / Data Science</td><td>强升级候选：岗位本身属于核心技术线且 seniority 合适时优先申请。</td></tr><tr><td>Intuit</td><td>Frisco / Plano</td><td>FinTech / SaaS / AI</td><td>S</td><td>High priority</td><td>Data Science / ML / AI / Data</td><td>$120K–$165K</td><td>$10K–$25K</td><td>常见</td><td>$150K–$220K</td><td>中</td><td>FinTech/SaaS DS/ML 市场估算</td><td>Intuit 在 Frisco/Plano 有大型业务与技术团队，QuickBooks/ProConnect 等产品天然依赖数据、风控、推荐和 GenAI；Qien 的 DS、统计、LLM/AI Agent 和企业数据经历高度匹配。</td><td>逐岗位确认；优先检查 New Grad/Early Career 岗位</td><td><a href="https://www.intuit.com/careers/" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / Machine Learning / Data Science</td><td>强升级候选：岗位本身属于核心技术线且 seniority 合适时优先申请。</td></tr><tr><td>Match Group</td><td>Dallas</td><td>Consumer Tech / AI / Recommendations</td><td>A+</td><td>High priority</td><td>Data Science / ML / Recommendation / Analytics</td><td>$110K–$155K</td><td>$10K–$30K</td><td>常见</td><td>$135K–$210K</td><td>中</td><td>Consumer Tech DS/ML 市场估算</td><td>Match Group 总部在 Dallas，旗下产品高度依赖推荐系统、用户行为建模、Trust &amp; Safety 和 ML；Qien 的 DS/ML、研究和数据建模背景很适合，但 Dallas 当前技术岗数量会波动。</td><td>逐岗位确认</td><td><a href="https://jobs.lever.co/matchgroup" target="_blank" rel="noopener">Careers ↗</a></td><td>ML / Product DS / Applied AI</td><td>推荐系统、NLP、ML/AI 或高质量 Product DS 才算明显升级。</td></tr><tr><td>Toyota Connected North America</td><td>Plano</td><td>Mobility Tech / Connected Data / GenAI</td><td>S</td><td>High priority</td><td>Data Science / ML / AI / Software / Data</td><td>$100K–$145K</td><td>$5K–$20K</td><td>可能有</td><td>$115K–$175K</td><td>中</td><td>市场估算；官网仅笼统称薪酬有竞争力</td><td>这是 Toyota 在 Plano 的技术与数据型组织，公开案例直接涉及 LLM、GenAI、IoT 和 connected-vehicle data；与 Qien 的 AI Agent、DS、CV/音频研究和企业 AI 经历高度契合。</td><td>逐岗位确认；与 Toyota Motor North America 的签证政策需分开核实</td><td><a href="https://toyotaconnected.com/careers/" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / Machine Learning / Data Science</td><td>强升级候选：岗位本身属于核心技术线且 seniority 合适时优先申请。</td></tr><tr><td>Capital One</td><td>Plano</td><td>Banking / Data &amp; AI</td><td>S</td><td>High priority</td><td>Data Science / ML / Technology</td><td>$100K–$140K</td><td>$0–$20K</td><td>可能有</td><td>$105K–$160K</td><td>中</td><td>DFW Early Career DS/Tech 市场估算</td><td>Plano 核心 Data Science/ML 雇主；Qien 的统计、DS、Python/SQL、企业级 AI Agent 与数据治理经历与其岗位高度匹配。</td><td>Internship no sponsorship; FT sponsorship may be eligible</td><td><a href="https://www.capitalonecareers.com/" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / Machine Learning / Data Science</td><td>强升级候选：岗位本身属于核心技术线且 seniority 合适时优先申请。</td></tr><tr><td>JPMorgan Chase</td><td>Dallas</td><td>Banking / Data &amp; AI</td><td>S</td><td>High priority</td><td>Data &amp; AI / Data Scientist / ML</td><td>$100K–$130K</td><td>$5K–$25K</td><td>岗位相关</td><td>$110K–$155K</td><td>中</td><td>Dallas Data/AI 市场估算</td><td>其 Data &amp; AI 岗位重视 Python、SQL、AWS、Databricks、LLM 与数据治理，和 Qien 在 Ryan 的企业级 AI/Databricks 经历高度重合。</td><td>Verify role-specific sponsorship</td><td><a href="https://www.jpmorganchase.com/careers" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / Machine Learning / Data Science</td><td>强升级候选：岗位本身属于核心技术线且 seniority 合适时优先申请。</td></tr><tr><td>Goldman Sachs</td><td>Dallas/Richardson</td><td>Quant / Finance / Engineering</td><td>S</td><td>High priority</td><td>Quant Strats / Engineering / Data</td><td>$110K–$150K</td><td>$20K–$70K+</td><td>岗位相关</td><td>$135K–$220K+</td><td>中</td><td>Dallas Quant/Strats 市场估算</td><td>Qien 的统计、数学竞赛和 DS 背景适合 Quant Strats、数据建模和工程方向；属于高回报但竞争很强的冲刺目标。</td><td>Verify role-specific sponsorship</td><td><a href="https://www.goldmansachs.com/careers/students" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / Machine Learning / Data Science</td><td>强升级候选：岗位本身属于核心技术线且 seniority 合适时优先申请。</td></tr><tr><td>Citi</td><td>Irving</td><td>Banking / AI / Data</td><td>S</td><td>High priority</td><td>Data Science / AI Engineering / Analytics / Data Engineering</td><td>$95K–$130K</td><td>$5K–$25K</td><td>岗位相关</td><td>$105K–$155K</td><td>中</td><td>Irving Early Career Data/AI 市场估算</td><td>Cit​​i 在 Irving 有大规模 Technology/Data 团队，当前招聘中直接出现 Agentic AI、Python、Data Analytics 等方向；Qien 的企业 AI Agent、Python/SQL、数据治理经历匹配度很高。</td><td>逐岗位确认</td><td><a href="https://jobs.citi.com/location/irving/5441/6252001-4736286-4700168/4/1" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / Machine Learning / Data Science</td><td>强升级候选：岗位本身属于核心技术线且 seniority 合适时优先申请。</td></tr><tr><td>Charles Schwab</td><td>Westlake / Southlake</td><td>FinTech / Data / Technology</td><td>A+</td><td>High priority</td><td>Data Engineering / Analytics / AI/ML / Software</td><td>$90K–$130K</td><td>岗位相关</td><td>可能有</td><td>$100K–$150K</td><td>低-中</td><td>同地区/同类岗位市场估算</td><td>Schwab 在 Westlake/Southlake 有大型技术团队，当前就有 AI/ML Ops、Data Engineering、Analytics 等岗位；Qien 的 DS、Python/SQL 和企业数据工程经历具有较强匹配。</td><td>逐岗位确认</td><td><a href="https://www.schwabjobs.com/" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / ML / DS</td><td>只保留真正 AI/ML/DS；泛 Analytics、BI、Reporting 不算升级。</td></tr><tr><td>Bank of America</td><td>Plano</td><td>Banking / Global Technology / AI</td><td>A+</td><td>High priority</td><td>Data Science / Data Engineering / GenAI / Technology</td><td>$90K–$130K</td><td>岗位相关</td><td>可能有</td><td>$100K–$150K</td><td>低-中</td><td>同地区/同类岗位市场估算</td><td>Bank of America 在 Plano 有规模很大的 Global Technology 团队，当前招聘覆盖 Data Engineering、AI Infrastructure 和 GenAI；Qien 的企业 AI 与数据平台经历很适合。</td><td>逐岗位确认</td><td><a href="https://careers.bankofamerica.com/" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / ML / DS</td><td>只保留真正 AI/ML/DS；泛 Analytics、BI、Reporting 不算升级。</td></tr><tr><td>Wells Fargo</td><td>Irving</td><td>Banking / Data / AI</td><td>A+</td><td>High priority</td><td>Data Science / Data Engineering / Analytics / AI</td><td>$90K–$130K</td><td>岗位相关</td><td>可能有</td><td>$100K–$150K</td><td>低-中</td><td>同地区/同类岗位市场估算</td><td>Irving 是 Wells Fargo 的重要技术据点，持续招聘 Data Engineering、Analytics 等岗位；Qien 的统计、DS、SQL/Python 和企业数据经历适合其金融数据与 AI 场景。</td><td>逐岗位确认</td><td><a href="https://www.wellsfargojobs.com/" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / ML / DS</td><td>只保留真正 AI/ML/DS；泛 Analytics、BI、Reporting 不算升级。</td></tr><tr><td>McKinsey</td><td>Dallas</td><td>Consulting / Analytics</td><td>S</td><td>Stretch</td><td>QuantumBlack / Analytics / AI</td><td>$100K–$150K</td><td>岗位相关</td><td>可能有</td><td>$115K–$190K</td><td>低-中</td><td>同地区/同类岗位市场估算</td><td>QuantumBlack/Analytics 方向与 Qien 的数学、统计、AI 和研究背景契合，但筛选标准极高，属于高价值超级冲刺。</td><td>Verify role-specific sponsorship</td><td><a href="https://www.mckinsey.com/careers" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / ML Engineering</td><td>仅 hands-on AI/ML engineering / GenAI delivery；传统咨询不进入核心职位池。</td></tr><tr><td>EY</td><td>Dallas</td><td>Consulting / Data / AI</td><td>A+</td><td>High priority</td><td>Data Scientist / AI / Tax Tech</td><td>$90K–$130K</td><td>岗位相关</td><td>可能有</td><td>$100K–$150K</td><td>低-中</td><td>同地区/同类岗位市场估算</td><td>企业数据、Tax Tech、AI 自动化与 Data Scientist 岗位和 Qien 的企业级 AI Agent、合规自动化及数据治理经历很契合。</td><td>Verify role-specific sponsorship</td><td><a href="https://careers.ey.com/" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / ML Engineering</td><td>仅 hands-on AI/ML engineering / GenAI delivery；传统咨询不进入核心职位池。</td></tr><tr><td>Deloitte</td><td>Dallas</td><td>Consulting / AI / Analytics</td><td>A+</td><td>High priority</td><td>AI/Data Scientist / Analytics</td><td>$90K–$130K</td><td>岗位相关</td><td>可能有</td><td>$100K–$150K</td><td>低-中</td><td>同地区/同类岗位市场估算</td><td>Dallas 有较大的 AI/Analytics 咨询业务；Qien 的技术栈、企业 AI 项目和跨团队交付经历适合 AI/Data 咨询。</td><td>Verify role-specific sponsorship</td><td><a href="https://apply.deloitte.com/" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / ML Engineering</td><td>仅 hands-on AI/ML engineering / GenAI delivery；传统咨询不进入核心职位池。</td></tr><tr><td>PwC</td><td>Dallas</td><td>Consulting / Data / AI</td><td>A+</td><td>High priority</td><td>Data/AI/Analytics</td><td>$90K–$130K</td><td>岗位相关</td><td>可能有</td><td>$100K–$150K</td><td>低-中</td><td>同地区/同类岗位市场估算</td><td>Data/AI/Analytics 咨询强调技术能力与业务落地，Qien 同时具备 DS、研究和企业项目经验，适合技术咨询与数据岗位。</td><td>Verify role-specific sponsorship</td><td><a href="https://jobs.us.pwc.com/" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / ML Engineering</td><td>仅 hands-on AI/ML engineering / GenAI delivery；传统咨询不进入核心职位池。</td></tr><tr><td>Forest Creek Capital</td><td>Dallas</td><td>Quant Trading / Investment Management</td><td>S</td><td>Stretch</td><td>Quant Research / Quant Developer / ML / Trading Systems</td><td>$120K–$180K</td><td>$30K–$150K+</td><td>未知</td><td>$160K–$300K+</td><td>低</td><td>Dallas 私募 Quant 行业估算</td><td>Dallas 本地真正以 quantitative trading 为核心的投资公司，官网明确强调 cutting-edge analytics、technology、ML/AI 和 quantitative models。Qien 的数学、统计、DS、研究能力与其人才画像非常接近，是高价值冲刺目标。</td><td>逐岗位确认</td><td><a href="https://forestcreekcap.com/" target="_blank" rel="noopener">Careers ↗</a></td><td>ML / Quant ML / Applied AI</td><td>Stretch：只看 ML/AI/Quant-ML 技术岗。</td></tr><tr><td>Citadel</td><td>Dallas</td><td>Hedge Fund / Quant / Investment</td><td>S</td><td>Stretch</td><td>Quant Research / Data / Software / Investment</td><td>$235K–$300K</td><td>高额 discretionary</td><td>未知</td><td>$300K–$500K+</td><td>高*</td><td>官方 University Graduate QR base；*参考岗位并非 Dallas</td><td>Citadel 在 Dallas 有办公室。若本地出现 Quant Research、Data、Software 或投资技术岗，Qien 的数学、统计、AI/ML 和研究背景具备冲刺价值；但招聘门槛极高。</td><td>逐岗位确认；具体 Dallas 岗位需核实</td><td><a href="https://www.citadel.com/careers/" target="_blank" rel="noopener">Careers ↗</a></td><td>ML / Quant ML / Applied AI</td><td>Stretch：只看 ML/AI/Quant-ML 技术岗。</td></tr><tr><td>Capitalogix</td><td>Coppell</td><td>AI / Quant Trading / FinTech</td><td>A+</td><td>High priority</td><td>Data Science / ML / Quant Research / Trading Technology</td><td>$90K–$140K</td><td>$10K–$60K+</td><td>未知</td><td>$105K–$200K+</td><td>低</td><td>小型 Quant/AI firm 公开数据有限</td><td>Capitalogix 位于 Coppell，核心就是使用 AI、ML、Data Science 和统计研究开发全球期货交易技术。规模较小但与 Qien 的技术背景非常直接匹配，是容易被大公司名单漏掉的本地 Quant/AI 目标。</td><td>逐岗位确认</td><td><a href="https://capitalogix.com/" target="_blank" rel="noopener">Careers ↗</a></td><td>ML / Quant ML / Applied AI</td><td>Stretch：只看 ML/AI/Quant-ML 技术岗。</td></tr><tr><td>Kyndryl</td><td>Dallas / Frisco AI HUB</td><td>Enterprise Technology / AI / Consulting</td><td>A+</td><td>High priority</td><td>Associate AI Engineer / Applied AI / GenAI / ML / Data Engineering</td><td>$63,360–$114,120</td><td>Discretionary annual bonus</td><td>未披露</td><td>约 $65K–$125K+</td><td>高</td><td>Kyndryl 官方岗位范围</td><td>Dallas/Frisco 本地 Early Career AI Engineering 项目，直接覆盖 GenAI、intelligent agents、RAG、ML、Python/SQL、cloud、data pipelines 与 responsible AI；与 Qien 的 Ryan LLM Agent、Databricks、Python/SQL、AI research 经历高度匹配。</td><td>岗位未明确说明 sponsorship；申请前需核实</td><td><a href="https://kyndryl.wd5.myworkdayjobs.com/kyndrylprofessionalcareers/job/USDALFRI---Dallas-Frisco-AI-HUB-FRI/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739-2" target="_blank" rel="noopener">Careers ↗</a></td><td>Applied AI / Machine Learning / Data Science</td><td>技术方向非常匹配；是否明显优于 Ryan 取决于实际团队、hands-on AI 比例、入职时间与签证支持。</td></tr></tbody></table>
+</div>
+
+<div class="panel">
+<h2>2 · Current Full-Time Jobs — 核心技术线</h2>
+<div class="toolbar">
+<input class="search" id="q2" placeholder="搜索公司、岗位、资格判断…" onkeyup="filter('q2','t2')">
+<span class="badge">✓ 已投递 → 自动移入第3表</span>
+<span class="badge">删除 → 二次确认后隐藏</span>
+<button class="restore-btn" onclick="restoreAllDeleted()">恢复全部已删除岗位</button>
+</div>
+<table id="t2"><thead><tr><th>Company</th><th>Tier</th><th>Area</th><th>Full-time job / program</th><th>Employment type (Full-time only)</th><th>Grad year</th><th>Qien match</th><th>Eligibility assessment</th><th>Visa / sponsorship</th><th>Posted / found</th><th>Official link</th><th>操作</th></tr></thead><tbody><tr data-jobkey="Capital One||Principal Associate, Data Scientist - Financial Services||https://www.capitalonecareers.com/employment/plano-texas-united-states-data-science-jobs/1732/24980/6252001-4736286-4682500-4719457/4"><td>Capital One</td><td>S</td><td>Plano</td><td>Principal Associate, Data Scientist - Financial Services</td><td>Full-time</td><td>2026</td><td>Medium</td><td>当前岗位级别偏高，不适合应届本科生直接申请；重点监控该公司的 New Grad / Early Career DS、ML、AI 岗位。</td><td>Role-specific</td><td>2026-08-28</td><td><a href="https://www.capitalonecareers.com/employment/plano-texas-united-states-data-science-jobs/1732/24980/6252001-4736286-4682500-4719457/4" target="_blank" rel="noopener">Open ↗</a></td><td class="actions"><button class="apply-btn" onclick="markApplied(this)" data-jobkey="Capital One||Principal Associate, Data Scientist - Financial Services||https://www.capitalonecareers.com/employment/plano-texas-united-states-data-science-jobs/1732/24980/6252001-4736286-4682500-4719457/4">✓ 已投递</button><button class="delete-btn" onclick="deleteJob(this)" data-jobkey="Capital One||Principal Associate, Data Scientist - Financial Services||https://www.capitalonecareers.com/employment/plano-texas-united-states-data-science-jobs/1732/24980/6252001-4736286-4682500-4719457/4">删除</button></td></tr><tr data-jobkey="EY||Tax Technology &amp; Transformation - Advanced Technologies - Data Scientist - Analyst||https://careers.ey.com/ey/job/New-York-Tax-Technology-and-Transformation-Advanced-Technologies-Data-Scientist-Staff-NY-10001-8604/1414547433/"><td>EY</td><td>A+</td><td>Dallas</td><td>Tax Technology &amp; Transformation - Advanced Technologies - Data Scientist - Analyst</td><td>Full-time</td><td>2026</td><td>Very High</td><td>与 Qien 的 DS + 企业 AI 自动化经历高度匹配；需要进一步核实具体岗位对学历、工作年限和 2027 入职时间的要求。</td><td>Verify role-specific sponsorship</td><td>2026-08-11</td><td><a href="https://careers.ey.com/ey/job/New-York-Tax-Technology-and-Transformation-Advanced-Technologies-Data-Scientist-Staff-NY-10001-8604/1414547433/" target="_blank" rel="noopener">Open ↗</a></td><td class="actions"><button class="apply-btn" onclick="markApplied(this)" data-jobkey="EY||Tax Technology &amp; Transformation - Advanced Technologies - Data Scientist - Analyst||https://careers.ey.com/ey/job/New-York-Tax-Technology-and-Transformation-Advanced-Technologies-Data-Scientist-Staff-NY-10001-8604/1414547433/">✓ 已投递</button><button class="delete-btn" onclick="deleteJob(this)" data-jobkey="EY||Tax Technology &amp; Transformation - Advanced Technologies - Data Scientist - Analyst||https://careers.ey.com/ey/job/New-York-Tax-Technology-and-Transformation-Advanced-Technologies-Data-Scientist-Staff-NY-10001-8604/1414547433/">删除</button></td></tr><tr data-jobkey="EY||EY-Parthenon Growth Platforms - Data Scientist||https://careers.ey.com/ey/job/New-York-EY-Parthenon-Strategy-and-Execution-Growth-Platforms-Data-Scientist-Sr-AssociateConsultant-NY-10001-8604/1412436133/"><td>EY</td><td>A+</td><td>Dallas</td><td>EY-Parthenon Growth Platforms - Data Scientist</td><td>Full-time</td><td>2026</td><td>Medium</td><td>与 Qien 的 DS + 企业 AI 自动化经历高度匹配；需要进一步核实具体岗位对学历、工作年限和 2027 入职时间的要求。</td><td>Verify role-specific sponsorship</td><td>2026-08-05</td><td><a href="https://careers.ey.com/ey/job/New-York-EY-Parthenon-Strategy-and-Execution-Growth-Platforms-Data-Scientist-Sr-AssociateConsultant-NY-10001-8604/1412436133/" target="_blank" rel="noopener">Open ↗</a></td><td class="actions"><button class="apply-btn" onclick="markApplied(this)" data-jobkey="EY||EY-Parthenon Growth Platforms - Data Scientist||https://careers.ey.com/ey/job/New-York-EY-Parthenon-Strategy-and-Execution-Growth-Platforms-Data-Scientist-Sr-AssociateConsultant-NY-10001-8604/1412436133/">✓ 已投递</button><button class="delete-btn" onclick="deleteJob(this)" data-jobkey="EY||EY-Parthenon Growth Platforms - Data Scientist||https://careers.ey.com/ey/job/New-York-EY-Parthenon-Strategy-and-Execution-Growth-Platforms-Data-Scientist-Sr-AssociateConsultant-NY-10001-8604/1412436133/">删除</button></td></tr><tr data-jobkey="Kyndryl||Early Career Consult Program - Associate AI Engineer||https://kyndryl.wd5.myworkdayjobs.com/kyndrylprofessionalcareers/job/USDALFRI---Dallas-Frisco-AI-HUB-FRI/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739-2"><td>Kyndryl</td><td>A+</td><td>Dallas / Frisco AI HUB</td><td>Early Career Consult Program - Associate AI Engineer (R-66739)</td><td>Full-time · Partially Remote</td><td>Early Career / 0–3 YOE</td><td>Very High</td><td>高度适合 Qien：entry-level AI Engineer；覆盖 GenAI applications、intelligent agents、RAG、ML、Python、SQL、cloud、APIs、data pipelines、MLOps 与 responsible AI。最大待核实项是 2027 年 6 月入职窗口及具体团队配置。</td><td>官方 posting 未明确说明 sponsorship；需逐岗位确认</td><td>2026-09-08</td><td><a href="https://kyndryl.wd5.myworkdayjobs.com/kyndrylprofessionalcareers/job/USDALFRI---Dallas-Frisco-AI-HUB-FRI/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739-2" target="_blank" rel="noopener">Open ↗</a></td><td class="actions"><button class="apply-btn" onclick="markApplied(this)" data-jobkey="Kyndryl||Early Career Consult Program - Associate AI Engineer||https://kyndryl.wd5.myworkdayjobs.com/kyndrylprofessionalcareers/job/USDALFRI---Dallas-Frisco-AI-HUB-FRI/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739-2">✓ 已投递</button><button class="delete-btn" onclick="deleteJob(this)" data-jobkey="Kyndryl||Early Career Consult Program - Associate AI Engineer||https://kyndryl.wd5.myworkdayjobs.com/kyndrylprofessionalcareers/job/USDALFRI---Dallas-Frisco-AI-HUB-FRI/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739-2">删除</button></td></tr><tr data-jobkey="Goldman Sachs||Engineering-L2-Dallas-Analyst-Software Engineering — Data Platform||https://higher.gs.com/roles/181810"><td>Goldman Sachs</td><td>S</td><td>Dallas</td><td>Engineering-L2-Dallas-Analyst-Software Engineering — Data Platform</td><td>Full-time</td><td>2027 / Early Career</td><td>Very High</td><td>非常适合 Qien：Bachelor/Master 均可，要求 Python 或 Java、SQL；工作直接涉及 Lakehouse/AI data platform、batch/streaming pipelines、Spark、Kafka、Databricks、Snowflake、Iceberg。Ryan 的 Databricks、enterprise data intelligence、Python/SQL 经历可直接迁移。建议立即申请。</td><td>逐岗位确认</td><td>2026-09-07</td><td><a href="https://higher.gs.com/roles/181810" target="_blank" rel="noopener">Open ↗</a></td><td class="actions"><button class="apply-btn" onclick="markApplied(this)" data-jobkey="Goldman Sachs||Engineering-L2-Dallas-Analyst-Software Engineering — Data Platform||https://higher.gs.com/roles/181810">✓ 已投递</button><button class="delete-btn" onclick="deleteJob(this)" data-jobkey="Goldman Sachs||Engineering-L2-Dallas-Analyst-Software Engineering — Data Platform||https://higher.gs.com/roles/181810">删除</button></td></tr><tr data-jobkey="Citi||Junior Generative AI Application Developer — recurrence watch||https://jobs.citi.com/job/-/-/287/94846498992?ss=paid"><td>Citi</td><td>S</td><td>Irving</td><td>Junior Generative AI Application Developer — recurrence watch</td><td>Full-time</td><td>Early Career</td><td>Very High (watch)</td><td>近期曾出现真正 Junior GenAI 工程岗，官方 base $84,580–$118,020；上一轮 posting close date 已过，因此不作为当前可投岗位，但强烈说明 Citi Irving 应作为 Qien 的 GenAI/AI Engineer 核心监控对象。</td><td>逐岗位确认</td><td>2026-09-07</td><td><a href="https://jobs.citi.com/job/-/-/287/94846498992?ss=paid" target="_blank" rel="noopener">Open ↗</a></td><td class="actions"><button class="apply-btn" onclick="markApplied(this)" data-jobkey="Citi||Junior Generative AI Application Developer — recurrence watch||https://jobs.citi.com/job/-/-/287/94846498992?ss=paid">✓ 已投递</button><button class="delete-btn" onclick="deleteJob(this)" data-jobkey="Citi||Junior Generative AI Application Developer — recurrence watch||https://jobs.citi.com/job/-/-/287/94846498992?ss=paid">删除</button></td></tr></tbody></table>
+</div>
+
+<div class="panel">
+<h2>3 · 已投递记录</h2>
+<div class="toolbar"><input class="search" id="q3" placeholder="搜索已投递公司或岗位…" onkeyup="filter('q3','t3')"></div>
+<table id="t3">
+<thead><tr><th>Company</th><th>Tier</th><th>Area</th><th>Full-time job / program</th><th>Employment type (Full-time only)</th><th>Grad year</th><th>Qien match</th><th>Eligibility assessment</th><th>Visa / sponsorship</th><th>Posted / found</th><th>Official link</th><th>投递时间</th><th>操作</th></tr></thead>
+<tbody></tbody>
+</table>
+</div>
+
+
+<script>
+const STORE_APPLIED = 'qien_dfw_applied_jobs_v1';
+const STORE_DELETED = 'qien_dfw_deleted_jobs_v1';
+
+function loadJSON(key){
+  try { return JSON.parse(localStorage.getItem(key) || '{}'); }
+  catch(e){ return {}; }
+}
+
+function saveJSON(key,obj){ localStorage.setItem(key, JSON.stringify(obj)); }
+function escapeHTML(s){
+  return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
+}
+
+function currentRows(){ return [...document.querySelectorAll('#t2 tbody tr')]; }
+
+function rowData(tr){
+  const cells=[...tr.querySelectorAll('td')];
+  return cells.slice(0, -1).map(td => td.innerHTML);
+}
+function rowTextData(tr){
+  const cells=[...tr.querySelectorAll('td')];
+  return cells.slice(0, -1).map(td => td.innerText.trim());
+}
+
+function markApplied(btn){
+  const tr=btn.closest('tr');
+  const key=tr.dataset.jobkey;
+  const applied=loadJSON(STORE_APPLIED);
+  const now=new Date();
+  applied[key]={
+    htmlCells: rowData(tr),
+    textCells: rowTextData(tr),
+    appliedAt: now.toISOString(),
+    appliedAtDisplay: now.toLocaleString()
+  };
+  saveJSON(STORE_APPLIED, applied);
+  tr.remove();
+  renderApplied();
+  updateCounts();
+}
+
+function deleteJob(btn){
+  const tr=btn.closest('tr');
+  const key=tr.dataset.jobkey;
+  const title=tr.children[3]?.innerText || '这条岗位';
+  const company=tr.children[0]?.innerText || '';
+  if(!confirm(`确认删除并永久隐藏：\n${company} — ${title}\n\n此岗位在本监控网页中将不再出现。`)) return;
+  const deleted=loadJSON(STORE_DELETED);
+  deleted[key]={company,title,deletedAt:new Date().toISOString()};
+  saveJSON(STORE_DELETED, deleted);
+  tr.remove();
+  updateCounts();
+}
+
+function restoreApplied(key){
+  const applied=loadJSON(STORE_APPLIED);
+  delete applied[key];
+  saveJSON(STORE_APPLIED, applied);
+  location.reload();
+}
+
+function deleteApplied(key){
+  if(!confirm('确认从“已投递”记录中删除这条记录？')) return;
+  const applied=loadJSON(STORE_APPLIED);
+  delete applied[key];
+  saveJSON(STORE_APPLIED, applied);
+  renderApplied();
+  updateCounts();
+}
+
+function restoreAllDeleted(){
+  const deleted=loadJSON(STORE_DELETED);
+  const n=Object.keys(deleted).length;
+  if(!n){ alert('当前没有已删除岗位。'); return; }
+  if(!confirm(`确认恢复全部 ${n} 条已删除岗位？`)) return;
+  localStorage.removeItem(STORE_DELETED);
+  location.reload();
+}
+
+function renderApplied(){
+  const tbody=document.querySelector('#t3 tbody');
+  const applied=loadJSON(STORE_APPLIED);
+  const keys=Object.keys(applied).sort((a,b)=>new Date(applied[b].appliedAt)-new Date(applied[a].appliedAt));
+  if(!keys.length){
+    tbody.innerHTML='<tr><td colspan="13" class="empty">还没有标记“已投递”的岗位。</td></tr>';
+    return;
+  }
+  tbody.innerHTML=keys.map(key=>{
+    const x=applied[key];
+    const cells=(x.htmlCells||[]).map(v=>`<td>${v}</td>`).join('');
+    return `<tr>${cells}<td>${escapeHTML(x.appliedAtDisplay)}</td><td class="actions">
+      <button class="restore-btn" onclick='restoreApplied(${JSON.stringify(key)})'>恢复到待投</button>
+      <button class="delete-btn" onclick='deleteApplied(${JSON.stringify(key)})'>删除记录</button>
+    </td></tr>`;
+  }).join('');
+}
+
+function seedKnownState(){
+  const gsKey='Goldman Sachs||Engineering-L2-Dallas-Analyst-Software Engineering — Data Platform||https://higher.gs.com/roles/181810';
+  const applied=loadJSON(STORE_APPLIED);
+  const deleted=loadJSON(STORE_DELETED);
+  if(!applied[gsKey] && !deleted[gsKey]){
+    const row=[...document.querySelectorAll('#t2 tbody tr')].find(tr=>tr.dataset.jobkey===gsKey);
+    if(row){
+      applied[gsKey]={
+        htmlCells: rowData(row),
+        textCells: rowTextData(row),
+        appliedAt: '2026-09-07T12:00:00-05:00',
+        appliedAtDisplay: '2026/9/7（已投递）'
+      };
+      saveJSON(STORE_APPLIED, applied);
+    }
+  }
+}
+
+function applySavedState(){
+  const applied=loadJSON(STORE_APPLIED);
+  const deleted=loadJSON(STORE_DELETED);
+  currentRows().forEach(tr=>{
+    const key=tr.dataset.jobkey;
+    if(applied[key] || deleted[key]) tr.remove();
+  });
+}
+
+function filter(inputId,tableId){
+  const q=document.getElementById(inputId).value.toLowerCase();
+  document.querySelectorAll('#'+tableId+' tbody tr').forEach(r=>{
+    r.style.display=r.innerText.toLowerCase().includes(q)?'':'none';
+  });
+}
+
+function updateCounts(){
+  const current=document.querySelectorAll('#t2 tbody tr').length;
+  const applied=Object.keys(loadJSON(STORE_APPLIED)).length;
+  const deleted=Object.keys(loadJSON(STORE_DELETED)).length;
+  document.getElementById('currentCount').textContent=current;
+  document.getElementById('appliedCount').textContent=applied;
+  document.getElementById('deletedCount').textContent=deleted;
+}
+
+window.addEventListener('DOMContentLoaded',()=>{
+  seedKnownState();
+  applySavedState();
+  renderApplied();
+  updateCounts();
+});
+</script>
+
+</body>
+</html>
