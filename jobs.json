@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-09-09T22:24:00-05:00",
+  "updatedAt": "2026-09-10T00:28:00-05:00",
   "jobs": [
+    {
+      "company": "Apple",
+      "tier": "S",
+      "area": "Austin",
+      "title": "Software Engineer - AiDP Reliability Engineering, IS&T, Early Career Opportunities (200677645-0157)",
+      "employment": "Full-time · 40 hours",
+      "gradYear": "Early Career · Bachelor + relevant internship",
+      "match": "Very High · 94/100",
+      "ngCompatibility": "High",
+      "assessment": "明确 Early Career。最低资格为 CS/CE 或同等技术本科、Python/Java/Go 编程能力、相关 internship experience；未要求 2+ 年全职经验。团队属于 Applied Machine Learning / AI & Data Platform，直接建设和运营 ML、GenAI、Inference、Big Data 平台，方向与 Qien 的 Ryan AI/Agent/Databricks 背景高度匹配。按 NG-first / 0–2 YOE 规则进入 Austin 核心表2，建议立即认真评估并申请。",
+      "visa": "官方 JD 未明确 sponsorship；需在申请/招聘流程中确认",
+      "found": "2026-09-10",
+      "url": "https://jobs.apple.com/en-us/search?location=austin-AST&team=devops-site-reliability-SFTWR-DSR",
+      "status": "current",
+      "finalPriority": "立即投",
+      "roleTrack": "Applied AI / ML Platform / Reliability Engineering",
+      "technicalGrowth": "96/100",
+      "brandPlatform": "99/100",
+      "ryanUpgrade": "96/100"
+    },
     {
       "company": "Kyndryl",
       "tier": "A+",
