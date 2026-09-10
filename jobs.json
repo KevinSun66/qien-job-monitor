@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T00:28:00-05:00",
+  "updatedAt": "2026-09-10T00:40:00-05:00",
   "jobs": [
     {
       "company": "Apple",
@@ -20,6 +20,26 @@
       "technicalGrowth": "96/100",
       "brandPlatform": "99/100",
       "ryanUpgrade": "96/100"
+    },
+    {
+      "company": "Goldman Sachs",
+      "tier": "S",
+      "area": "Dallas",
+      "title": "2027 | Americas | Dallas Metro Area | Engineering | New Analyst (171568)",
+      "employment": "Full-time · New Analyst Program",
+      "gradYear": "2027 · final-year undergraduate/graduate",
+      "match": "High · 88/100",
+      "ngCompatibility": "Very High · explicit 2027 New Analyst",
+      "assessment": "Goldman Sachs 官方 2027 Dallas Engineering New Analyst Program，明确面向 final-year undergraduate/graduate students，属于真正的 2027 NG 岗。Engineering 涵盖大规模软件系统、big data、machine learning 与 financial engineering。岗位比 181810 更宽泛，不保证分到 AI/ML 团队，但品牌、工程平台和 New Grad 适配度都很高。Qien 已投 181810；Goldman 每个 recruiting year 最多允许申请 4 个 business/location combinations，因此该岗位值得作为另一独立申请认真考虑。",
+      "visa": "官方该页面未明确 sponsorship；申请前/流程中确认",
+      "found": "2026-09-10",
+      "url": "https://higher.gs.com/roles/171568",
+      "status": "current",
+      "finalPriority": "立即投",
+      "roleTrack": "Engineering / Data / ML opportunity",
+      "technicalGrowth": "90/100",
+      "brandPlatform": "97/100",
+      "ryanUpgrade": "90/100"
     },
     {
       "company": "Kyndryl",
