@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T06:50:00-05:00",
+  "updatedAt": "2026-09-10T11:16:00-05:00",
   "jobs": [
     {
       "company": "Apple",
@@ -23,6 +23,30 @@
       "ryanUpgrade": "96/100",
       "compensation": "Austin 官方职位页未披露具体薪资区间；申请/面试阶段核实 base + bonus + RSU",
       "officePerks": "Austin · 40 hours；具体 hybrid/餐食福利以团队和 offer 为准"
+    },
+    {
+      "company": "IBM",
+      "tier": "S-",
+      "area": "Austin",
+      "market": "Austin",
+      "title": "ELH Software Engineer / Agent Engineer - EDA - Austin 2027 (130382)",
+      "employment": "Full-time · Regular · Entry Level",
+      "gradYear": "2027 · Entry Level",
+      "match": "Very High · 91/100",
+      "ngCompatibility": "Very High · explicit Austin 2027 / Entry Level",
+      "assessment": "IBM EDA 团队的 2027 Early Career/Entry Level 岗，直接开发 Agentic AI 与 machine learning 自动化，用于 synthesis、place-and-route、verification 等芯片设计流程，同时涉及 Python、C++/Java/Rust、算法和大规模软件系统。Qien 的 Python、AI/Agent、ML 背景高度匹配；半导体/EDA 知识是主要补课项。相较 Ryan，IBM 全球品牌与 Agentic AI + systems/algorithm 技术平台更强，但方向更偏 AI + semiconductor tooling，因此列为 Austin 核心“可以投”。",
+      "visa": "JD 写明不提供现在或未来 visa sponsorship，并要求可在无需 current/future sponsorship 情况下工作；未明确点名排除 F-1 OPT。按当前规则不自动淘汰，但 OPT/尤其 STEM OPT 兼容性必须在申请前核实。",
+      "found": "2026-09-10",
+      "url": "https://www.ibm.com/careers/search",
+      "status": "austin-current",
+      "finalPriority": "可以投",
+      "roleTrack": "Agentic AI / ML / Software Engineering / EDA",
+      "technicalGrowth": "93/100",
+      "brandPlatform": "94/100",
+      "ryanUpgrade": "88/100",
+      "compensation": "$61,200–$176,400 base projected range (IBM posting data; actual offer depends on level/location/skills)",
+      "officePerks": "Austin · Hybrid · No Travel",
+      "jobId": "130382"
     },
     {
       "company": "PwC",
