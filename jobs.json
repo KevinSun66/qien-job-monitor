@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T06:17:00-05:00",
+  "updatedAt": "2026-09-11T15:20:00-05:00",
   "jobs": [
     {
       "company": "Apple",
@@ -47,6 +47,30 @@
       "compensation": "$61,200–$176,400 base projected range (IBM posting data; actual offer depends on level/location/skills)",
       "officePerks": "Austin · Hybrid · No Travel",
       "jobId": "130382"
+    },
+    {
+      "company": "IBM",
+      "tier": "S-",
+      "area": "Austin",
+      "market": "Austin",
+      "title": "SW Developer | AI Center of Excellence - Austin, TX - 2027 (131165)",
+      "employment": "Full-time · Regular · Entry Level",
+      "gradYear": "2027 · Entry Level · Bachelor's/Master's",
+      "match": "Very High · 96/100",
+      "ngCompatibility": "Very High · explicit 2027 / Entry Level",
+      "assessment": "IBM AI Center of Excellence 的真正 2027 Entry-Level AI Software Engineer。工作直接设计、开发和测试 AI applications/services，使用 watsonx、Granite 等模型及 IBM Cloud；要求/偏好覆盖 Python/Java/Node.js、PyTorch/Hugging Face/OpenAI API、LLM prompt engineering、RAG、Docker/Kubernetes、Kafka、模型部署和微服务。与 Qien 的 LLM/Agent、Python、AI application、数据/云端经历高度贴合，方向比 IBM EDA 岗更直接对应 Applied AI/GenAI。",
+      "visa": "IBM 写明不提供 current/future visa sponsorship，并要求可无需 sponsorship 工作；公开 JD 未明确点名排除 F-1 OPT/STEM OPT。按当前规则标记 OPT需核实，不因 no H-1B 自动排除；若 IBM 招聘团队确认 OPT/STEM 不接受则立即移出核心池。",
+      "found": "2026-09-11",
+      "url": "https://www.linkedin.com/jobs/view/sw-developer-ai-center-of-excellence-austin-tx-2027-at-ibm-4459571212",
+      "status": "austin-current",
+      "finalPriority": "立即投",
+      "roleTrack": "Applied AI / Generative AI / LLM-RAG / AI Software Engineering",
+      "technicalGrowth": "97/100",
+      "brandPlatform": "95/100",
+      "ryanUpgrade": "94/100",
+      "compensation": "$100,800–$151,200 base (IBM-provided range)",
+      "officePerks": "Austin · Hybrid · No Travel",
+      "jobId": "131165"
     },
     {
       "company": "Arm",
