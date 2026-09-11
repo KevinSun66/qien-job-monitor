@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T11:16:00-05:00",
+  "updatedAt": "2026-09-11T06:17:00-05:00",
   "jobs": [
     {
       "company": "Apple",
@@ -47,6 +47,30 @@
       "compensation": "$61,200–$176,400 base projected range (IBM posting data; actual offer depends on level/location/skills)",
       "officePerks": "Austin · Hybrid · No Travel",
       "jobId": "130382"
+    },
+    {
+      "company": "Arm",
+      "tier": "S-",
+      "area": "Austin",
+      "market": "Austin",
+      "title": "Graduate Program - Engineering Pathways (2026-19311)",
+      "employment": "Full-time · Graduate Program · Hybrid",
+      "gradYear": "Graduate / degree completed by program start",
+      "match": "Very High · 92/100",
+      "ngCompatibility": "Very High · explicit Graduate Program; exact 2027 start date to confirm",
+      "assessment": "Arm 官方 Graduate Program，Austin 在可选地点中，岗位明确覆盖 AI & Machine Learning、LLMs、agentic AI、Software & Tools，并接受本科/硕士/博士在项目开始前完成学位的毕业生。Qien 的 Data Science + Statistics + CS、Python、AI/Agent、研究与实习经历与 AI/ML pathway 高度匹配。项目并非保证分配到 AI/ML 团队，因此低于 Apple AiDP 的确定性，但薪资、品牌、半导体/AI 平台和职业资本都明显高于普通通用 NG 岗，值得进入 Austin 核心池。",
+      "visa": "官方明确：Visa sponsorship support is available for candidates who require it；OPT/未来身份风险低于多数 no-sponsorship NG 岗，但具体 STEM OPT/E-Verify 仍按 offer 核实。",
+      "found": "2026-09-11",
+      "url": "https://careers.arm.com/job/austin/graduate-program-engineering-pathways/33099/100011168736",
+      "status": "austin-current",
+      "finalPriority": "立即投",
+      "roleTrack": "AI/ML / LLM / Agentic AI / Software Engineering Graduate Pathway",
+      "technicalGrowth": "94/100",
+      "brandPlatform": "95/100",
+      "ryanUpgrade": "91/100",
+      "compensation": "$119,400–$161,600 base (official range) + total rewards",
+      "officePerks": "Austin · Hybrid pattern determined by team · domestic relocation support · Global Graduate Conference",
+      "jobId": "2026-19311"
     },
     {
       "company": "PwC",
