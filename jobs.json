@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T10:19:00-05:00",
+  "updatedAt": "2026-09-12T17:50:00-05:00",
   "jobs": [
     {
       "company": "Apple",
@@ -145,7 +145,11 @@
       "ryanUpgrade": "98/100",
       "compensation": "$110,000–$190,000 first-year base (official posting range) + BCG benefits/profit-sharing",
       "deadline": "2026-09-17 23:59 ET",
-      "jobId": "59068"
+      "jobId": "59068",
+      "seedAppliedAt": "2026-09-12T11:39:08-05:00",
+      "seedAppliedDisplay": "2026/9/12 11:39:08",
+      "archiveUrl": "job-archive/bcg-x/59068/BCG X-FDE AI Scientist.pdf",
+      "archiveLabel": "JD 快照"
     },
     {
       "company": "PwC",
@@ -172,7 +176,7 @@
     {
       "company": "PMG",
       "tier": "A+",
-      "area": "Dallas",
+      "area": "Dallas Uptown",
       "title": "Graduate Leadership Program - AI & Software Engineering (June Start)",
       "employment": "Full-time · Graduate Leadership Program · On-site",
       "gradYear": "Fall 2026–Spring 2027 graduates · June 7, 2027 start",
