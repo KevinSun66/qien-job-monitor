@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T22:16:31-05:00",
+  "updatedAt": "2026-09-13T03:31:13.844Z",
   "jobs": [
     {
       "company": "Apple",
@@ -83,13 +83,13 @@
       "employment": "Full-time · Graduate Program · Hybrid",
       "gradYear": "Graduate / degree completed by program start",
       "match": "Very High · 92/100",
-      "ngCompatibility": "Very High · official Graduate Program currently accepting applications",
-      "assessment": "2026-09-12 官方 Arm Careers 页面重新确认该职位为 Active / Apply。Graduate Program 覆盖 AI & Machine Learning、LLMs、agentic AI、Software & Tools，接受在 program start 前完成 Bachelor's/Master's/PhD 的技术或定量专业毕业生；没有 2+ YOE 门槛。此前因页面短暂 404 被误判关闭，现恢复 Austin 表2。",
+      "ngCompatibility": "Closed / no longer accepting applications",
+      "assessment": "Arm 官方职位链接现已返回 404，说明 Graduate Program - Engineering Pathways (2026-19311) 已关闭或撤下，因此已从 Austin 当前表2移除并保留为历史监控记录。后续若 Arm 发布新的 2027 AI/ML/Software Graduate 岗位，再重新纳入。",
       "visa": "官方职位此前明确 Visa sponsorship support is available；本轮官方 active page 未见相反限制，仍按签证友好核心岗监控",
       "found": "2026-09-11",
       "url": "https://careers.arm.com/job/austin/graduate-program-engineering-pathways/33099/100011168736",
-      "status": "austin-current",
-      "finalPriority": "立即投",
+      "status": "closed-watch",
+      "finalPriority": "已关闭",
       "roleTrack": "AI/ML / LLM / Agentic AI / Software Engineering Graduate Pathway",
       "technicalGrowth": "94/100",
       "brandPlatform": "95/100",
@@ -97,7 +97,8 @@
       "compensation": "$119,400–$161,600 base (official posting range) + total rewards",
       "officePerks": "Austin · Hybrid pattern determined by team · domestic relocation support · Global Graduate Conference",
       "jobId": "2026-19311",
-      "reopenedDate": "2026-09-12"
+      "reopenedDate": "2026-09-12",
+      "closedDate": "2026-09-13"
     },
     {
       "company": "BCG X",
