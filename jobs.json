@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T04:17:30.386Z",
+  "updatedAt": "2026-09-13T12:19:56.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -259,6 +259,30 @@
       "officePerks": "Dallas · On-site；具体福利以 GS offer 为准",
       "jobId": "179758",
       "relatedJobId": "181810"
+    },
+    {
+      "company": "Asure Software",
+      "tier": "A",
+      "area": "Addison",
+      "market": "DFW",
+      "title": "Associate AI Software Engineer",
+      "employment": "Full-time · Associate · Early Career · On-site",
+      "gradYear": "Bachelor/Master accepted · coursework/projects/internships accepted · start date not disclosed",
+      "match": "Very High · 95/100",
+      "ngCompatibility": "Compatible profile; May 2027 start timing must be confirmed",
+      "assessment": "JD 明确写这是为 early-career engineers 设计的岗位，并由 senior team 指导成长；要求可通过 coursework、projects、internships 或 personal development 证明能力，没有最低 YOE。工作内容直接覆盖 Python、LLM integration、Agentic AI、MCP、RAG/vector search、data pipelines、AI evaluation 与 AWS production services。Qien 的 Statistics + Data Science + CS/Math 背景高度匹配。主要风险是职位未披露入职日期，需确认是否接受 2027年5月毕业后入职；$80K base 与品牌平台未必高于 Ryan，但技术方向更直接。",
+      "visa": "JD 要求 legally authorized to work in US，并写明目前不能 sponsor/transfer visas；这不等同于明确排除 F-1 OPT。申请前需确认 OPT 可入职、STEM OPT 延期所需 E-Verify，以及公司对未来 sponsorship 的口径。",
+      "found": "2026-09-13",
+      "url": "https://www.asuresoftware.com/careers/",
+      "status": "current",
+      "finalPriority": "可以投 · 技术方向优先 / 入职时间先核实",
+      "roleTrack": "Applied AI Engineering / Agentic AI / LLM Applications",
+      "technicalGrowth": "95/100",
+      "brandPlatform": "78/100",
+      "ryanUpgrade": "86/100",
+      "compensation": "$80,000 starting base (employer posting) + employee stock purchase program; bonus/equity/estimated TC not disclosed",
+      "officePerks": "Addison · On-site；Day-1 medical/dental/vision、401(k) 3% safe harbor、ESPP、self-managed PTO、fitness reimbursement",
+      "jobId": "indeed-aad7eaf60ccf42f2"
     }
   ]
 }
