@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T03:33:53.058Z",
+  "updatedAt": "2026-09-13T03:45:49.152Z",
   "jobs": [
     {
       "company": "IBM",
@@ -234,6 +234,31 @@
       "seedAppliedDisplay": "2026/9/7（已投递）",
       "archiveUrl": "job-archive/goldman-sachs/181810/job-description.md",
       "archiveLabel": "JD 快照"
+    },
+    {
+      "company": "Goldman Sachs",
+      "tier": "S",
+      "area": "Dallas",
+      "market": "DFW",
+      "title": "Software Engineering - Data, Lakehouse and AI Data Platform Engineer - Associate - Dallas (179758)",
+      "employment": "Full-time · Associate · On-site",
+      "gradYear": "Bachelor/Master accepted · no explicit minimum YOE · start date not disclosed",
+      "match": "High · 87/100",
+      "ngCompatibility": "Potentially compatible · Associate title allowed; graduation/start timing must be confirmed",
+      "assessment": "独立 requisition 179758，与已投递的 181810 Data Platform 岗位 JD 高度相似但编号不同。要求 Python 或 Java、SQL、Spark、Kafka、Lakehouse、Databricks/Snowflake/Iceberg，并服务 analytics 与 emerging AI use cases。未规定最低工作年限，把更高级的设计/领导职责单列给 more experienced candidates，因此 Qien 可以作为冲刺申请；主要缺口是 production pipeline、Spark/Avro/Parquet 的直接证据及未披露的 2027 入职时间。",
+      "visa": "职位未披露 OPT/H-1B policy；F-1 OPT/STEM OPT 与未来 sponsorship 需在申请流程确认",
+      "found": "2026-09-13",
+      "url": "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/job/179758/",
+      "status": "current",
+      "finalPriority": "可以投 · 冲刺",
+      "roleTrack": "AI Data Platform / Data Engineering / Lakehouse",
+      "technicalGrowth": "92/100",
+      "brandPlatform": "97/100",
+      "ryanUpgrade": "90/100",
+      "compensation": "官方职位未披露",
+      "officePerks": "Dallas · On-site；具体福利以 GS offer 为准",
+      "jobId": "179758",
+      "relatedJobId": "181810"
     }
   ]
 }
