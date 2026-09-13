@@ -1,6 +1,29 @@
 {
-  "updatedAt": "2026-09-13T02:29:09.644Z",
+  "updatedAt": "2026-09-12T22:16:31-05:00",
   "jobs": [
+    {
+      "company": "Apple",
+      "tier": "S",
+      "area": "Austin",
+      "market": "Austin",
+      "title": "Software Engineer - AiDP Reliability Engineering, IS&T, Early Career Opportunities (200677645-0157)",
+      "employment": "Full-time · 40 hours",
+      "gradYear": "Early Career · Bachelor + relevant internship",
+      "match": "Very High · 94/100",
+      "ngCompatibility": "High",
+      "assessment": "明确 Early Career。最低资格为 CS/CE 或同等技术本科、Python/Java/Go 编程能力、相关 internship experience；未要求 2+ 年全职经验。团队属于 Applied Machine Learning / AI & Data Platform，直接建设和运营 ML、GenAI、Inference、Big Data 平台，方向与 Qien 高度匹配。",
+      "visa": "OPT兼容性需在申请/招聘流程确认；官方职位未写必须公民/绿卡",
+      "found": "2026-09-10",
+      "url": "https://jobs.apple.com/en-us/search?location=austin-AST&team=devops-site-reliability-SFTWR-DSR",
+      "status": "austin-current",
+      "finalPriority": "立即投",
+      "roleTrack": "Applied AI / ML Platform / Reliability Engineering",
+      "technicalGrowth": "96/100",
+      "brandPlatform": "99/100",
+      "ryanUpgrade": "96/100",
+      "compensation": "Austin 官方职位页未披露具体薪资区间；申请/面试阶段核实 base + bonus + RSU",
+      "officePerks": "Austin · 40 hours；具体 hybrid/餐食福利以团队和 offer 为准"
+    },
     {
       "company": "IBM",
       "tier": "S-",
