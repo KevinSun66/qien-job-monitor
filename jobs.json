@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T12:57:18.060Z",
+  "updatedAt": "2026-09-13T15:41:24.972Z",
   "jobs": [
     {
       "company": "IBM",
@@ -311,7 +311,11 @@
       "companyProfile": "全球技术与研究驱动的做市商；Austin 团队重点建设机器学习、研究基础设施和大数据计算，把数据与模型转成实时交易系统。",
       "whyRyan": "$200K base 加奖金/全球利润分享，薪资、工程密度、训练体系与平台均显著高于 Ryan；唯一重大风险是 JD 限定 CS/CE 专业名称。",
       "targetRoles": "Graduate Software Engineer；后续监控 BS-level ML / Research Engineering",
-      "careersUrl": "https://www.optiver.com/join-us/jobs/technology/austin/"
+      "careersUrl": "https://www.optiver.com/join-us/jobs/technology/austin/",
+      "seedAppliedAt": "2026-09-13T15:38:00.000Z",
+      "seedAppliedDisplay": "2026-09-13",
+      "archiveUrl": "job-archive/optiver-graduate-software-engineer-2027-start.pdf",
+      "archiveLabel": "JD PDF 快照"
     }
   ]
 }
