@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T15:41:24.972Z",
+  "updatedAt": "2026-09-14T00:17:13.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -316,6 +316,35 @@
       "seedAppliedDisplay": "2026-09-13",
       "archiveUrl": "job-archive/optiver-graduate-software-engineer-2027-start.pdf",
       "archiveLabel": "JD PDF 快照"
+    },
+    {
+      "company": "Bitdeer",
+      "tier": "A+",
+      "area": "Austin",
+      "market": "Austin",
+      "title": "AI & Cloud Infra Software Engineer (Fresh Grad)",
+      "employment": "Full-time · Fresh Grad · AI Cloud · location subject to confirmation",
+      "gradYear": "Fresh Grad · 0–2 YOE · start date not disclosed",
+      "match": "Very High · 92/100",
+      "ngCompatibility": "Potentially compatible · explicit Fresh Grad / 0–2 YOE; May 2027 start must be confirmed",
+      "assessment": "Bitdeer 官方 Fresh Grad AI Cloud 岗，Austin 为列出的地点之一（JD 同时说明最终地点可协商）。核心工作是构建集群管理、调度与资源分配的分布式系统，以及支撑大规模 AI training/inference 的基础设施；覆盖 container orchestration、workload isolation、compute/network/storage performance。Qien 的 Python、Data Science/Statistics 与 AI 经历匹配应用背景，但操作系统、网络、分布式系统及 Go/C++/Rust 的生产级证据是主要缺口。未披露入职日期，必须先确认可在 2027年5月毕业后入职。",
+      "visa": "官方 JD 未披露 sponsorship、F-1 OPT 或 STEM OPT；未明确排除 OPT，按规则标记需核实。申请前确认 OPT 可入职、E-Verify/STEM OPT 延期及未来 sponsorship。",
+      "found": "2026-09-13",
+      "url": "https://bitdeer.breezy.hr/p/611f14be34db-ai-cloud-infra-software-engineer-fresh-grad",
+      "status": "current",
+      "finalPriority": "可以投 · 高技术成长冲刺（先确认 2027 入职与 OPT）",
+      "roleTrack": "AI Infrastructure / Distributed Systems / AI Cloud Platform",
+      "technicalGrowth": "97/100",
+      "brandPlatform": "88/100",
+      "ryanUpgrade": "89/100",
+      "compensation": "官方职位未披露；第三方估算不作为决策依据",
+      "officePerks": "Austin / Massillon / Tennessee 多地点，最终地点可协商；办公模式与福利未可靠披露",
+      "jobId": "bitdeer-611f14be34db",
+      "strategyPriority": "A级 · 可以投（AI infra 技术升级；时间/授权待核实）",
+      "companyProfile": "NASDAQ: BTDR 上市技术公司，业务覆盖 Bitcoin mining、ASIC、数据中心与 AI Cloud；该团队建设 AI 训练/推理所需的集群调度和云基础设施。",
+      "whyRyan": "相对 Ryan 的明确价值是从应用型 Data Science 升级到大规模 AI training/inference infrastructure；但官方薪资、2027入职和OPT均未披露，因此不是无条件替代 Ryan。",
+      "targetRoles": "Fresh Grad AI/Cloud Infrastructure；后续监控 Applied AI、ML Platform、Model Serving、Distributed Systems",
+      "careersUrl": "https://bitdeer.breezy.hr/"
     }
   ]
 }
