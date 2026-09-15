@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T03:30:00.000Z",
+  "updatedAt": "2026-09-15T04:05:00.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -227,7 +227,9 @@
       "seedAppliedAt": "2026-09-12T19:44:10-05:00",
       "seedAppliedDisplay": "2026/9/12 19:44:10",
       "archiveUrl": "job-archive/Goldman Sachs  _ New Analyst _ .pdf",
-      "archiveLabel": "JD 快照"
+      "archiveLabel": "JD 快照",
+      "jobId": "171568",
+      "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。"
     },
     {
       "company": "Kyndryl",
