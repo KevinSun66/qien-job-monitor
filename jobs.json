@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T00:21:00.000Z",
+  "updatedAt": "2026-09-15T00:44:00.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -129,6 +129,36 @@
       "archiveUrl": "job-archive/bcg-x/59068/BCG X-FDE AI Scientist.pdf",
       "archiveLabel": "JD 快照",
       "closedDate": "2026-09-14"
+    },
+    {
+      "company": "Apple",
+      "tier": "S",
+      "area": "Austin",
+      "market": "Austin",
+      "title": "Machine Learning Engineer - Strategic Data Solutions (200677912-0157)",
+      "employment": "Full-time · On-site",
+      "gradYear": "Bachelor’s quantitative field accepted · start date not disclosed",
+      "match": "Very High · 93/100",
+      "ngCompatibility": "Potentially compatible · no explicit minimum YOE; May 2027 start must be confirmed",
+      "assessment": "Apple Strategic Data Solutions 的生产型 ML 岗，覆盖预测建模、分类/回归/聚类/异常检测、SQL、Hadoop/Spark，以及 Python/Scala/Java 数据科学 pipeline，直接服务安全、反欺诈与运营效率。官方最低资格写明量化专业教育背景（CS/Applied Math/Statistics 等）或 4+ 年相关经验，因而 4 年不是对相关本科申请人的强制工作年限；Qien 的 Statistics + Data Science、CS/Math 背景、Ryan DS 实习和研究/项目与技术要求高度匹配。职位未标 Campus/2027，也未披露入职时间，应在 recruiter screen 前确认可否 2027年5–6月入职。",
+      "visa": "官方 JD 未披露 sponsorship、F-1 OPT 或 STEM OPT；未明确排除 OPT，按规则标记需核实。申请前确认 OPT 入职、E-Verify/STEM OPT extension 及未来 sponsorship。",
+      "found": "2026-09-14",
+      "url": "https://jobs.apple.com/en-us/details/200677912-0157/machine-learning-engineer-strategic-data-solutions",
+      "status": "current",
+      "finalPriority": "可以投 · 高价值冲刺（NG/入职时间需核实）",
+      "roleTrack": "Machine Learning Engineering / Applied Data Science / Fraud & Security ML",
+      "seniorityGap": "Low–Moderate · technical fit strong; non-campus hiring timing is the main gap",
+      "technicalGrowth": "97/100",
+      "brandPlatform": "100/100",
+      "ryanUpgrade": "96/100",
+      "compensation": "Austin base/bonus/equity/estimated TC not disclosed in the official posting; do not rely on third-party estimates",
+      "officePerks": "Austin · On-site；Apple benefits/stock programs generally available, role-specific package not verified",
+      "jobId": "200677912-0157",
+      "strategyPriority": "S级 · 可以投；先确认 2027年5–6月 start-date compatibility",
+      "companyProfile": "Apple 是全球顶级消费科技与平台公司；Strategic Data Solutions 使用大规模数据和生产 ML 保护交易与供应链、降低欺诈并优化运营。",
+      "whyRyan": "Apple 品牌、数据规模、生产 ML 平台和长期流动性显著高于 Ryan；即使薪资尚未披露，平台升级足以支持冲刺申请。",
+      "targetRoles": "Machine Learning Engineer / Applied Data Scientist / AI Platform / Strategic Data Solutions",
+      "careersUrl": "https://jobs.apple.com/en-us/search?location=austin-AST"
     },
     {
       "company": "PwC",
