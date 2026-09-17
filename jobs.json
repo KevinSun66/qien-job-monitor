@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T05:25:00.000Z",
+  "updatedAt": "2026-09-17T04:16:02.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -380,6 +380,38 @@
       "whyRyan": "AI Cloud 业务规模尚小，挖矿周期、能源成本和资本开支风险较高；岗位方向也偏底层系统与硬件，综合确定性不足以替代 Ryan。",
       "targetRoles": "Fresh Grad AI/Cloud Infrastructure；后续监控 Applied AI、ML Platform、Model Serving、Distributed Systems",
       "careersUrl": "https://bitdeer.breezy.hr/"
+    },
+    {
+      "company": "AT&T",
+      "tier": "A+",
+      "area": "Dallas",
+      "market": "DFW",
+      "title": "AT&T Technology Development Program — Data Science Engineer Track (R-121905)",
+      "employment": "Full-time · Recent Graduate · 24–36 month rotational program · On-site 5 days/week",
+      "gradYear": "Degree completed before start · full-time by July 2027",
+      "match": "Very High · 94/100",
+      "ngCompatibility": "Excellent · explicit recent-graduate program; no prior full-time YOE required; July 2027 compatible",
+      "assessment": "AT&T 官方 New Grad 技术轮岗项目，Data Science Engineer track 明确覆盖 data science、machine learning、generative AI、AI agents、automation、模型、数据管道、Python/SQL，并把 LLM、RAG、prompt engineering、model evaluation 列为加分项。Qien 的 Statistics + Data Science、CS 背景与 Ryan Applied DS 经历高度匹配。AT&T 的品牌、企业级数据/AI平台和 24–36 个月轮岗培养体系相对 Ryan 构成平台升级；但必须确认能够锁定/优先选择 Data Science Engineer track，且办公要求为每周5天现场。",
+      "visa": "官方要求现在及未来均无需 employer sponsorship，并明确不雇用需要当前或未来 sponsorship 的 TDP Full-Time 申请人；没有单独点名排除 F-1 OPT。按用户规则不因 no-future-sponsorship 自动淘汰，但申请前必须向 recruiter 确认 OPT 入职、STEM OPT/E-Verify，以及申请表对 future sponsorship 的口径。",
+      "found": "2026-09-16",
+      "url": "https://att.wd1.myworkdayjobs.com/ATTCollegeSpecialInvite/job/Dallas-Texas/AT-T-Technology-Development-Program_R-121905",
+      "status": "current",
+      "finalPriority": "立即投 · 截止 2026-09-22；Visa/OPT 先核实",
+      "roleTrack": "Data Science Engineering / ML / Generative AI / AI Agents / Data Pipelines",
+      "seniorityGap": "None · recent-graduate program; no prior professional experience minimum",
+      "technicalGrowth": "95/100",
+      "brandPlatform": "94/100",
+      "ryanUpgrade": "92/100",
+      "compensation": "Official base range $77,800–$130,800; bonus/equity/estimated TC not disclosed. Actual starting salary depends on geography, experience and education.",
+      "officePerks": "Dallas · Office Worker (not remote) · minimum 5 days/week on-site · no relocation; 401(k), tuition reimbursement, 23+ vacation days, 9 holidays, medical/dental/vision and employee discounts",
+      "jobId": "R-121905",
+      "deadline": "2026-09-22",
+      "startDate": "By July 2027",
+      "strategyPriority": "A+ · 立即投（Data Science Engineer track；平台/品牌升级；签证口径需先核实）",
+      "companyProfile": "AT&T 是总部位于 Dallas 的美国大型通信与技术平台公司，拥有全国级 5G、光纤、网络、客户与运营数据资产；TDP 通过跨团队项目培养早期技术人才。",
+      "whyRyan": "薪资区间可能与 Ryan 重叠，但 AT&T 的品牌、企业级数据规模、AI/ML应用场景和轮岗培养平台更强；若能进入 Data Science Engineer track，值得作为 Ryan 的升级选项。",
+      "targetRoles": "TDP Data Science Engineer；Software Engineer；后续 Applied AI/ML/Data Platform",
+      "careersUrl": "https://www.att.jobs/"
     }
   ]
 }
