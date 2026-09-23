@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T05:00:00.000Z",
+  "updatedAt": "2026-09-23T11:08:07.676Z",
   "jobs": [
     {
       "company": "IBM",
@@ -413,6 +413,39 @@
       "targetRoles": "TDP Data Science Engineer；Software Engineer；后续 Applied AI/ML/Data Platform",
       "careersUrl": "https://www.att.jobs/",
       "rejectedDate": "2026-09-17"
+    },
+    {
+      "company": "JPMorgan Chase",
+      "tier": "S",
+      "area": "Plano, TX",
+      "market": "DFW",
+      "title": "2027 Data & AI Program - Full Time - Analyst - United States (210773954)",
+      "employment": "Full-time · 2027 Analyst Program · office mode not verified",
+      "gradYear": "December 2026–August 2027 graduates · no prior work experience required",
+      "match": "Very High technical fit · 96/100; work authorization incompatible as written",
+      "ngCompatibility": "2027 graduation/start cohort compatible; OPT explicitly unsupported",
+      "assessment": "Qien 的统计+数据科学、Python、ML 与 AI 背景符合技术和毕业窗口；Data & AI 项目涉及生产 ML/GenAI/agent、数据平台和实验。JPMorganChase 官方 JD 要求永久工作授权，明确表示不会协助或签署 OPT/CPT 相关文件。按用户意愿保留为招聘方书面例外核验机会；若公司确认可接受 F-1 OPT 且履行必要手续，才重新判断是否进入当前表2。不要在申请表中误称拥有永久工作授权。",
+      "visa": "官方明确要求永久工作授权；不提供任何 employment-based sponsorship，也不协助/签署 OPT 或 CPT 文件。F-1 OPT 目前不符合；仅在招聘方书面确认该 requisition 例外或 Qien 入职前已获得永久授权时重评。",
+      "found": "2026-09-23",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773954",
+      "status": "visa-exception-watch",
+      "finalPriority": "特殊争取 · 先向招聘团队核实 OPT 例外；未获确认不投/不进表2",
+      "roleTrack": "Applied AI / ML / Data Science / Data Platform",
+      "seniorityGap": "None · no prior work experience required",
+      "technicalGrowth": "96/100",
+      "brandPlatform": "97/100",
+      "ryanUpgrade": "95/100 (conditional on authorization eligibility)",
+      "compensation": "$110,000–$115,000 base reported as employer-provided on LinkedIn; Plano-specific base, bonus, equity and TC not verified",
+      "officePerks": "Plano office; work arrangement unverified; commute from Plano 75075 likely manageable, exact site and traffic unverified",
+      "jobId": "210773954",
+      "deadline": "2026-11-06",
+      "strategyPriority": "高价值签证例外观察；先核验招聘团队能否接受 OPT 并完成文件",
+      "companyProfile": "JPMorganChase 大型金融与技术平台；Data & AI 体系覆盖机器学习、GenAI、生产数据平台与模型治理。",
+      "whyRyan": "品牌、规模和可能的薪资明显高于 Ryan；但官方工作授权条件构成当前资格障碍。",
+      "targetRoles": "Data & AI Analyst / Applied ML / Data Science",
+      "careersUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/data-ai-opportunities",
+      "verificationSource": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210773954/?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000086144235",
+      "reviewedAt": "2026-09-23"
     }
   ]
 }
