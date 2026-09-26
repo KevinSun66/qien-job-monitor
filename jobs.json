@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T11:08:07.676Z",
+  "updatedAt": "2026-09-26T17:16:13.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -446,6 +446,38 @@
       "careersUrl": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/data-ai-opportunities",
       "verificationSource": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/210773954/?lastSelectedFacet=CATEGORIES&selectedCategoriesFacet=300000086144235",
       "reviewedAt": "2026-09-23"
+    },
+    {
+      "company": "Amazon",
+      "tier": "S",
+      "area": "Austin",
+      "market": "Austin",
+      "title": "Software Development Engineer I, Annapurna Labs, Early Career - 2027 (10558915)",
+      "employment": "Full-time · Early Career · 2027 · official page has Apply now",
+      "gradYear": "Final graduation date May 2027 or later · Bachelor's/Master's in CS/CE or related field",
+      "match": "Very High · 92/100",
+      "ngCompatibility": "High · explicit Early Career 2027; exact start date must be confirmed",
+      "assessment": "Amazon Annapurna Labs 的 2027 Early Career SDE I，官方页仍显示 Apply now。工作覆盖 Trainium/Inferentia ML 加速器编译器、PyTorch/JAX/TensorFlow runtime、性能优化及分布式训练/推理基础设施，技术方向与 AI Infrastructure 高度相关。Qien 的 Python、PyTorch、研究工程和 CS 课程可迁移；主要缺口是 JD 对操作系统、计算机体系结构、系统编程及 C/C++ 的重视。官方正文有一处将岗位误写为 internship，但职位名称、SDE I 级别、年度 base 与 Early Career 2027 招聘画像均指向全职岗位；申请前仍应确认正式 start date。",
+      "visa": "官方 JD 未披露 sponsorship、F-1 OPT 或 STEM OPT；未明确排除 OPT，按规则标记需核实。申请前确认 OPT 可入职、E-Verify/STEM OPT extension 及未来 sponsorship 口径。",
+      "found": "2026-09-26",
+      "url": "https://www.amazon.jobs/en/jobs/10558915/software-development-engineer-i-annapurna-labs-early-career-2027",
+      "status": "current",
+      "finalPriority": "立即投 · S级 AI Infrastructure 冲刺",
+      "roleTrack": "ML Infrastructure / Compilers & Runtimes / Distributed Training & Inference",
+      "seniorityGap": "Low–Moderate · no professional YOE minimum; systems/C++ depth is the main gap",
+      "technicalGrowth": "98/100",
+      "brandPlatform": "100/100",
+      "ryanUpgrade": "97/100",
+      "compensation": "Austin starting base $128,700 annually (official posting); bonus, sign-on, equity and estimated TC not disclosed in the posting",
+      "officePerks": "Austin；办公/Hybrid 模式、relocation、meals 与岗位专属福利未披露；官方列出 Day-1 EAP、mental-health support、medical advice line 与 401(k) matching",
+      "jobId": "10558915",
+      "strategyPriority": "S级 · 立即投（薪资、AWS/Annapurna 平台与 ML Infra 成长均显著升级）",
+      "companyProfile": "Amazon Annapurna Labs 为 AWS 设计 Graviton、Trainium、Inferentia 与 Nitro，从芯片延伸到编译器、runtime、driver、框架和分布式训练/推理软件。",
+      "whyRyan": "Austin 官方 base $128.7K 已显著高于 Ryan，且 AWS 定制 AI 芯片、ML runtime 与大规模训练/推理平台带来明显的品牌和技术成长升级。",
+      "targetRoles": "Early Career SDE I；ML Infrastructure；Compiler/Runtime；Distributed Training & Inference",
+      "careersUrl": "https://www.amazon.jobs/en/teams/annapurna-labs",
+      "archiveUrl": "job-archive/amazon/10558915/job-description.md",
+      "archiveLabel": "JD 快照"
     }
   ]
 }
