@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T17:26:02.111Z",
+  "updatedAt": "2026-09-26T19:23:35.008Z",
   "jobs": [
     {
       "company": "IBM",
@@ -478,6 +478,42 @@
       "careersUrl": "https://www.amazon.jobs/en/teams/annapurna-labs",
       "archiveUrl": "job-archive/amazon/10558915/job-description.md",
       "archiveLabel": "JD 快照"
+    },
+    {
+      "company": "Southwest Airlines",
+      "tier": "A+",
+      "area": "Dallas Love Field / remote in Texas",
+      "market": "DFW",
+      "title": "Associate Data Scientist - Direct College Hire (R-2026-72885)",
+      "employment": "Full-time · 2027 Direct College Hire · remote, periodic travel",
+      "gradYear": "Recent college graduates / up to 2 YOE · June or August 2027 cohort compatible",
+      "match": "Very High · 96/100",
+      "ngCompatibility": "High · explicit early career; June/August 2027 cohorts after May graduation (confirm assigned cohort)",
+      "assessment": "This is a separate Data Scientist requisition from the Associate Software Engineer position the user paused. Both potential teams are AI Delivery (Air Operations or Technical/Ground Operations), building ML, optimization and GenAI solutions for forecasting, crew/ground planning and disruption management. Bachelor in a related field and entry-level DS experience accepted; intermediate experience is preferred, not required. Qien's Statistics + Data Science, Python/SQL and ML background match well. $103,750–$115,300 official posted base is above the known Ryan ~$83K base; stronger applied AI lifecycle exposure and remote Texas work make this a meaningful upgrade. Confirm June/August cohort and F-1 OPT acceptance before application; official direct posting and live application state should be rechecked.",
+      "visa": "US citizenship or current US work authorization required; no current/future work authorization sponsorship. JD does not explicitly exclude F-1 OPT, so OPT eligibility requires recruiter confirmation; STEM OPT/E-Verify and any employer I-983 support must be checked separately. Do not claim permanent authorization.",
+      "found": "2026-09-26",
+      "url": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+      "status": "current",
+      "finalPriority": "可以投 · 先核实 F-1 OPT 与官方申请入口；9/28 截止",
+      "roleTrack": "Applied AI / Data Science / ML & Optimization / GenAI",
+      "seniorityGap": "Low · required entry-level DS experience; up to 2 professional YOE",
+      "technicalGrowth": "95/100",
+      "brandPlatform": "89/100",
+      "ryanUpgrade": "90/100 (conditional on OPT acceptance)",
+      "compensation": "$103,750–$115,300 base (employer-posted JD); discretionary bonus eligibility; equity not stated; reliable estimated TC not available",
+      "officePerks": "Remote in eligible states including Texas; occasional training/meetings at Dallas campus, no relocation assistance. Plano 75075 to Love Field commute only for required visits; free standby flights, health benefits, up to 9.3% 401(k) contribution and possible profit sharing per JD.",
+      "jobId": "R-2026-72885",
+      "deadline": "2026-09-28",
+      "startDate": "2027-06 or 2027-08",
+      "strategyPriority": "A+ · 可以投；与用户暂缓的 SWE 岗为不同 requisition",
+      "companyProfile": "US airline with large operational data and optimization problems; AI Delivery teams deploy ML, GenAI and decision tools for Air and Ground Operations.",
+      "whyRyan": "Official base above Ryan's known base, direct AI Delivery team assignment and broader ML product lifecycle; OPT acceptance remains a gating verification.",
+      "targetRoles": "Associate Data Scientist / AI Delivery / Applied ML / Operations Research",
+      "careersUrl": "https://careers.southwestair.com/us/en/",
+      "archiveUrl": "job-archive/southwest-airlines/R-2026-72885/job-description.md",
+      "archiveLabel": "JD 快照",
+      "relatedJobId": "R-2026-72886 (separate SWE role; user paused)",
+      "reviewedAt": "2026-09-26"
     }
   ]
 }
