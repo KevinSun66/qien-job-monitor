@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T01:26:26.467Z",
+  "updatedAt": "2026-09-27T01:29:51.091Z",
   "jobs": [
     {
       "company": "IBM",
@@ -488,13 +488,13 @@
       "employment": "全职 · 2027 届直接校园招聘 · 远程办公，偶尔出差",
       "gradYear": "近期大学毕业生 / 最多 2 年专业经验 · 2027 年 6 月或 8 月批次匹配",
       "match": "很高 · 96/100",
-      "ngCompatibility": "高 · 明确面向职场早期；2027 年 6 月/8 月批次在毕业后（需确认分配批次）",
-      "assessment": "这是与用户暂缓的 Southwest 软件工程岗不同编号的数据科学职位。两个可能团队均属 AI Delivery（航空运营或技术/地面运营），负责预测、机组与地面规划、航班扰动管理中的 ML、优化和 GenAI 方案。接受相关专业本科及入门级数据科学经验，中级经验仅为优先条件。Qien 的统计、数据科学、Python/SQL 和 ML 背景高度匹配。官方基本年薪 $103,750–$115,300，高于 Ryan 已知约 $83,000 基本年薪；AI 产品全流程经验及德州远程办公也有价值。申请前须确认具体入职批次、F‑1 OPT 接受情况及官方申请入口开放状态。",
+      "ngCompatibility": "已关闭 · Southwest 官方页面明确显示该职位目前不接受申请",
+      "assessment": "这是与用户暂缓的 Southwest 软件工程岗不同编号的数据科学职位。两个可能团队均属 AI Delivery（航空运营或技术/地面运营），负责预测、机组与地面规划、航班扰动管理中的 ML、优化和 GenAI 方案。接受相关专业本科及入门级数据科学经验，中级经验仅为优先条件。Qien 的统计、数据科学、Python/SQL 和 ML 背景高度匹配。官方基本年薪 $103,750–$115,300，高于 Ryan 已知约 $83,000 基本年薪；AI 产品全流程经验及德州远程办公也有价值。申请前须确认具体入职批次、F‑1 OPT 接受情况及官方申请入口开放状态。 2026-09-26 复核 Southwest 官方申请链接，页面明确显示职位已关闭。该职位移出当前表2；保留公司画像及 JD 快照，后续若新编号或官方重新开放再逐项核验。",
       "visa": "要求美国公民身份或当前美国工作授权；不提供当前或未来工作授权担保。JD 未明确排除 F‑1 OPT，需向招聘方确认；STEM OPT、E‑Verify 及雇主 I‑983 配合条件须另行核实。申请表不能填报永久工作授权。",
       "found": "2026-09-26",
       "url": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
-      "status": "current",
-      "finalPriority": "可以投 · 先核实 F-1 OPT 与官方申请入口；9/28 截止",
+      "status": "closed-watch",
+      "finalPriority": "已关闭 · 从 Dallas 表2移除；等待新职位编号或重新开放",
       "roleTrack": "应用 AI / 数据科学 / ML 与优化 / GenAI",
       "seniorityGap": "低 · 要求入门级数据科学经验；专业工作经验最多 2 年",
       "technicalGrowth": "95/100",
@@ -513,7 +513,8 @@
       "archiveUrl": "job-archive/southwest-airlines/R-2026-72885/job-description.md",
       "archiveLabel": "JD 快照",
       "relatedJobId": "R-2026-72886（独立 SWE 职位，用户暂缓）",
-      "reviewedAt": "2026-09-26"
+      "reviewedAt": "2026-09-26",
+      "closedDate": "2026-09-26"
     }
   ]
 }
