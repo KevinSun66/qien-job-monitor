@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T01:29:51.091Z",
+  "updatedAt": "2026-09-27T02:54:57.954Z",
   "jobs": [
     {
       "company": "IBM",
@@ -457,12 +457,12 @@
       "gradYear": "最终毕业日期为 2027 年 5 月或之后 · CS/计算机工程或相关专业本科/硕士",
       "match": "有挑战、可以投 · 80/100（Python/PyTorch 与 ML 运行时相关；系统方向有缺口）",
       "ngCompatibility": "2027 Early Career 资格窗口匹配；具体入职日期与团队需核实",
-      "assessment": "2027 届 SDE I，接受相关专业本科/硕士且未列最低全职工作年限。基本资格可由 Python 或 Java 满足，C/C++ 系统编程经验列在优先资格中。Qien 的 Python、PyTorch、研究及 CS 课程可对应 ML 运行时和分布式训练/推理；操作系统、计算机体系结构或系统编程知识属于基本要求，低层驱动或内核团队与当前背景有距离。申请时突出系统课程及项目，争取 ML 运行时或分布式推理团队，并确认团队及入职日期。",
+      "assessment": "2027 届 SDE I，接受相关专业本科/硕士且未列最低全职工作年限。基本资格可由 Python 或 Java 满足，C/C++ 系统编程经验列在优先资格中。Qien 的 Python、PyTorch、研究及 CS 课程可对应 ML 运行时和分布式训练/推理；操作系统、计算机体系结构或系统编程知识属于基本要求，低层驱动或内核团队与当前背景有距离。申请时突出系统课程及项目，争取 ML 运行时或分布式推理团队，并确认团队及入职日期。 用户于 2026-09-26 复核完整 JD 后认为岗位偏硬件、编译器和底层 AI 基础设施，与目标 Data/Applied AI 方向差距较大，决定暂不考虑；从 Austin 当前表2移除。",
       "visa": "官方 JD 未披露签证支持或 F‑1 OPT/STEM OPT 政策，也未明确排除 OPT；申请前核实 OPT 入职、E‑Verify、STEM OPT 延期和未来签证支持。",
       "found": "2026-09-26",
       "url": "https://www.amazon.jobs/en/jobs/10558915/software-development-engineer-i-annapurna-labs-early-career-2027",
-      "status": "current",
-      "finalPriority": "可以投 · AI Infrastructure 跨方向冲刺",
+      "status": "user-declined",
+      "finalPriority": "暂不考虑 · 偏硬件与底层 AI 基础设施",
       "roleTrack": "ML 基础设施 / 编译器与运行时 / 分布式训练和推理",
       "seniorityGap": "无工作年限缺口；系统技术缺口中等（OS/architecture/systems 基础要求，C/C++ 为 preferred）",
       "technicalGrowth": "98/100",
@@ -471,13 +471,14 @@
       "compensation": "Austin 官方起薪：基本年薪 $128,700；奖金、签约奖金、股权及可靠总薪酬未披露",
       "officePerks": "Austin；现场/混合办公、搬迁支持、餐饮及岗位专属福利未披露；官方列有入职首日员工援助、心理健康、医疗咨询及 401(k) 匹配",
       "jobId": "10558915",
-      "strategyPriority": "S级 · 可以投（C/C++ 非硬门槛；系统基础和团队分配需核实）",
+      "strategyPriority": "历史观察 · 用户决定不投递此岗位；关注其他 Austin Applied AI/ML/DS 职位",
       "companyProfile": "Amazon Annapurna Labs 为 AWS 设计 Graviton、Trainium、Inferentia 与 Nitro，从芯片延伸到编译器、runtime、driver、框架和分布式训练/推理软件。",
       "whyRyan": "Austin 官方 base $128.7K 已显著高于 Ryan，且 AWS 定制 AI 芯片、ML runtime 与大规模训练/推理平台带来明显的品牌和技术成长升级。",
       "targetRoles": "职场早期 SDE I；ML 基础设施；编译器/运行时；分布式训练和推理",
       "careersUrl": "https://www.amazon.jobs/en/teams/annapurna-labs",
       "archiveUrl": "job-archive/amazon/10558915/job-description.md",
-      "archiveLabel": "JD 快照"
+      "archiveLabel": "JD 快照",
+      "userDeclinedAt": "2026-09-26"
     },
     {
       "company": "Southwest Airlines",
