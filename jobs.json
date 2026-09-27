@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T17:00:05.973Z",
+  "updatedAt": "2026-09-27T23:20:00.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -527,7 +527,7 @@
       "gradYear": "接受量化专业本科；2027 年 5 月毕业后入职时间未披露",
       "match": "很高 · 应用 AI/智能体与数据科学背景匹配",
       "ngCompatibility": "入门级 · 无全职经验要求；2027 年入职批次需核实",
-      "assessment": "岗位直接开发并部署企业 AI 智能体、LLM 应用及内部系统集成，涉及评估、权限控制、上线监控和 CI/CD；本科量化专业及实习、课程、研究或个人 AI 项目经验均可。Qien 的统计/数据科学、Python/SQL、LLM/Agent 经历契合。职位没有披露能否等到 2027 年 5 月毕业后入职；申请前确认批次、办公地址、OPT 与薪酬。相较 Ryan，应用 AI 工程成长更直接，但基本工资/奖金/股权未知，尚无法确定整体升级。",
+      "assessment": "岗位直接开发并部署企业 AI 智能体、LLM 应用及内部系统集成，涉及评估、权限控制、上线监控和 CI/CD；本科量化专业及实习、课程、研究或个人 AI 项目经验均可。Qien 的统计/数据科学、Python/SQL、LLM/Agent 经历契合。职位没有披露能否等到 2027 年 5 月毕业后入职；申请前确认批次、办公地址与 OPT。官方未披露薪资；综合 Dallas AI Engineer I 市场数据和第三方岗位估值，基本工资估算约 $90K–$110K，较可能 $95K–$105K。相较 Ryan（$83K 基本工资、约 5% 奖金），技术成长更直接，现金薪酬可能提高，但品牌平台不构成明显升级；若底薪达到 $100K–$105K 以上，才算较明确的综合升级。",
       "visa": "官方注明参与 E-Verify；未披露是否接受 F-1 OPT，STEM OPT 延期及 I-983 配合需核实。",
       "found": "2026-09-27",
       "url": "https://trinity.referrals.selectminds.com/jobs/ai-engineer-associate-13885",
@@ -537,8 +537,8 @@
       "seniorityGap": "低 · 明确入门级，学生项目可作为经历",
       "technicalGrowth": "高 · 企业智能体从原型到生产部署",
       "brandPlatform": "A+ · 企业级 Databricks / Palantir Foundry 实践",
-      "ryanUpgrade": "待核实 · 技术方向升级；薪酬及品牌综合增益未验证",
-      "compensation": "基本工资、奖金、股权及预计总薪酬：官方未披露，可靠数据未核实",
+      "ryanUpgrade": "约 86/100 · 技术方向明显升级；按市场估算现金 TC 可能比 Ryan 高约 $3K–$23K。若底薪达到 $100K–$105K 以上，才构成较明确综合升级；实际薪资待面试核实",
+      "compensation": "官方未披露。市场估算：基本工资约 $90K–$110K，较可能 $95K–$105K；奖金与股权未核实，暂按 $0 计；预计现金 TC 约 $90K–$110K。以上为 Dallas AI Engineer I 市场数据及第三方岗位估值推算，并非 Trinity 报价。另有 401(k) 最高 6% 等额匹配（不计入现金 TC）。",
       "officePerks": "Dallas 办公室；现场/混合安排及从 Plano 75075 通勤时间待核实",
       "jobId": "2600865",
       "strategyPriority": "用户要求先加入表2供查看；投递前核实 2027 入职、OPT 与薪酬",
