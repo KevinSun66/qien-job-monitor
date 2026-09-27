@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T02:54:57.954Z",
+  "updatedAt": "2026-09-27T17:00:05.973Z",
   "jobs": [
     {
       "company": "IBM",
@@ -516,6 +516,37 @@
       "relatedJobId": "R-2026-72886（独立 SWE 职位，用户暂缓）",
       "reviewedAt": "2026-09-26",
       "closedDate": "2026-09-26"
+    },
+    {
+      "company": "Trinity Industries",
+      "tier": "A+",
+      "area": "Dallas（办公室具体地址待核实）",
+      "market": "DFW",
+      "title": "AI Engineer Associate (2600865)",
+      "employment": "全职 · 入门级 · Dallas 办公室",
+      "gradYear": "接受量化专业本科；2027 年 5 月毕业后入职时间未披露",
+      "match": "很高 · 应用 AI/智能体与数据科学背景匹配",
+      "ngCompatibility": "入门级 · 无全职经验要求；2027 年入职批次需核实",
+      "assessment": "岗位直接开发并部署企业 AI 智能体、LLM 应用及内部系统集成，涉及评估、权限控制、上线监控和 CI/CD；本科量化专业及实习、课程、研究或个人 AI 项目经验均可。Qien 的统计/数据科学、Python/SQL、LLM/Agent 经历契合。职位没有披露能否等到 2027 年 5 月毕业后入职；申请前确认批次、办公地址、OPT 与薪酬。相较 Ryan，应用 AI 工程成长更直接，但基本工资/奖金/股权未知，尚无法确定整体升级。",
+      "visa": "官方注明参与 E-Verify；未披露是否接受 F-1 OPT，STEM OPT 延期及 I-983 配合需核实。",
+      "found": "2026-09-27",
+      "url": "https://trinity.referrals.selectminds.com/jobs/ai-engineer-associate-13885",
+      "status": "current",
+      "finalPriority": "可以投 · 先核实入职时间、OPT 与薪酬",
+      "roleTrack": "应用 AI 工程 / 智能体 / LLM 应用",
+      "seniorityGap": "低 · 明确入门级，学生项目可作为经历",
+      "technicalGrowth": "高 · 企业智能体从原型到生产部署",
+      "brandPlatform": "A+ · 企业级 Databricks / Palantir Foundry 实践",
+      "ryanUpgrade": "待核实 · 技术方向升级；薪酬及品牌综合增益未验证",
+      "compensation": "基本工资、奖金、股权及预计总薪酬：官方未披露，可靠数据未核实",
+      "officePerks": "Dallas 办公室；现场/混合安排及从 Plano 75075 通勤时间待核实",
+      "jobId": "2600865",
+      "strategyPriority": "用户要求先加入表2供查看；投递前核实 2027 入职、OPT 与薪酬",
+      "companyProfile": "总部位于 Dallas 的北美铁路车辆租赁、制造、维护及物流服务公司；其企业 IT 团队建设智能体与 AI 应用。",
+      "whyRyan": "可获得企业 AI 智能体、LLM、Databricks 与 Palantir Foundry 的生产部署经验；薪酬未核实，暂不能断言优于 Ryan。",
+      "targetRoles": "AI Engineer Associate / 应用 AI 工程 / 智能体开发",
+      "careersUrl": "https://trinity.referrals.selectminds.com/",
+      "reviewedAt": "2026-09-27"
     }
   ]
 }
