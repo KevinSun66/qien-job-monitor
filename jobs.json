@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T04:19:00.000Z",
+  "updatedAt": "2026-09-28T10:20:00.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -579,6 +579,37 @@
       "targetRoles": "后续重点监控 Applied AI / ML Engineer / Data Scientist / AI Platform New College Grad",
       "careersUrl": "https://jobs.appliedmaterials.com/",
       "reviewedAt": "2026-09-27"
+    },
+    {
+      "company": "Vistra",
+      "tier": "A+",
+      "area": "Irving, TX",
+      "market": "DFW",
+      "title": "Data Scientist (40016531)",
+      "employment": "Full-time · Hybrid · Data Analytics",
+      "gradYear": "未注明毕业年份或 2027 入职批次；要求硕士或博士",
+      "match": "技术方向较高，但学历不符合 · 74/100",
+      "ngCompatibility": "不兼容 · 官方要求 Master's 或 Ph.D.，Qien 预计 2027 年 5 月本科毕业",
+      "assessment": "完整 JD 涉及统计分析、机器学习、MLOps、数据可视化、数据管道和数据库，方向与 Qien 的 Data Science/Statistics 背景相关；但官方 Education, Experience, & Skill Requirements 明确要求 quantitative field 的 Master's 或 Ph.D.。该学历要求属于当前硬门槛，不能仅凭职位标题或第三方 new-grad 收录判断为本科 NG 岗，因此不进入 Dallas 当前表2。",
+      "visa": "官方 JD 未披露 F-1 OPT、STEM OPT、E-Verify 或未来 sponsorship；因学历硬门槛已不进入表2，无需优先核实。",
+      "found": "2026-09-28",
+      "url": "https://vst.wd5.myworkdayjobs.com/en-US/vistra_careers/job/Irving-Texas/Data-Scientist_40016531-1",
+      "status": "education-rejected",
+      "finalPriority": "不投 · 硕士/博士学历硬门槛",
+      "roleTrack": "Data Science / Statistical Modeling / Machine Learning / MLOps",
+      "seniorityGap": "未列最低工作年限，但存在明确研究生学历缺口",
+      "technicalGrowth": "88/100 · 覆盖统计建模、ML、MLOps、数据管道与可视化",
+      "brandPlatform": "86/100 · Fortune 500 综合能源与电力平台，Irving 总部",
+      "ryanUpgrade": "不适用（未通过学历硬门槛；且薪资/TC未披露）",
+      "compensation": "官方 JD 未披露 base、bonus、equity 或 estimated TC，无法可靠计算与 Ryan 的现金差额。",
+      "officePerks": "Irving · Hybrid（JD 标注 #LI-Hybrid）；从 Plano 75075 通勤可行但高峰拥堵，具体到岗频率未披露",
+      "jobId": "40016531",
+      "strategyPriority": "排除归档 · 不进入表2；未来若出现 Bachelor's accepted 的独立 requisition 再评估",
+      "companyProfile": "Vistra 是总部位于 Irving 的 Fortune 500 综合电力与零售能源公司，拥有大规模发电、客户及能源市场数据场景。",
+      "whyRyan": "该岗位的数据科学技术覆盖更广，但学历不符合且薪资未披露，不能作为 Ryan offer 的可执行升级选项。",
+      "targetRoles": "Bachelor's accepted 的 Data Scientist I / Applied AI / ML Engineer / Analytics Engineer",
+      "careersUrl": "https://vistracorp.com/careers/",
+      "reviewedAt": "2026-09-28"
     }
   ]
 }
