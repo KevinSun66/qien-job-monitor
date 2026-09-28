@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T19:21:00.000Z",
+  "updatedAt": "2026-09-28T22:20:00.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -675,6 +675,39 @@
       "careersUrl": "https://careers.usbank.com/",
       "reviewedAt": "2026-09-28",
       "sourceStatus": "2026-09-28 监控源撤下；官方 Workday 页面不可访问，第三方残留仍在"
+    },
+    {
+      "company": "Vizient",
+      "tier": "A+",
+      "area": "Irving / DFW（location preference survey，具体办公室需确认）",
+      "market": "DFW",
+      "title": "Associate AI Engineer — Technology Early Career Program (Handshake 11444573)",
+      "employment": "Full-time early-career program · office/hybrid arrangement not disclosed",
+      "gradYear": "Early Career · 0–2 years · full-time experience not required",
+      "match": "Excellent · 97/100",
+      "ngCompatibility": "High · explicit 0–2 years; internships, research, academic projects and hackathons accepted; 2027 post-graduation start date must be confirmed",
+      "assessment": "Vizient Technology Early Career Program 的纯 Applied AI/AI Engineering 岗。完整 JD 覆盖 GenAI、LLM/RAG、AI agents、tool calling、LangGraph/LangChain/Semantic Kernel/AutoGen、ML model training/evaluation、Python/SQL、data pipelines、cloud、CI/CD、observability 与 production deployment；明确写 0–2 年，且不要求全职 AI/SWE 经验，Ryan 实习、研究和项目均可计入。招聘始于 2026-09-16，申请截止 2026-10-17。职位未披露统一入职日期，申请时需确认可在 2027 年 5 月毕业后入职；地点需通过 VTEP survey 选择，UNT Dallas 将其列为 Local Opportunity，Vizient 总部位于 Irving。",
+      "visa": "职位 JD 未披露 F-1 OPT/STEM OPT 或 sponsorship 限制；不因未披露而排除。Vizient 有公开 H-1B 申报历史，但不能替代本岗位确认；申请前核实 initial OPT、E-Verify/STEM OPT extension 和未来 sponsorship。",
+      "found": "2026-09-28",
+      "url": "https://celcs.untdallas.edu/jobs/vizient-inc-associate-ai-engineer/",
+      "status": "current",
+      "finalPriority": "立即投 · 截止 2026-10-17；同步填写 VTEP location/domain survey",
+      "roleTrack": "Applied AI Engineering / GenAI / LLM-RAG / Agentic AI / ML / AI Platform & MLOps",
+      "seniorityGap": "Low · explicit 0–2 years; professional full-time experience not required",
+      "technicalGrowth": "98/100 · end-to-end AI delivery lifecycle, RAG/agents, ML, data pipelines, deployment and observability",
+      "brandPlatform": "90/100 · national healthcare performance/data platform; 3,000+ healthcare organizations served",
+      "ryanUpgrade": "93/100 · Applied AI 技术栈与生产部署成长显著升级；品牌/平台有提升，薪资尚未披露",
+      "compensation": "Official posting does not disclose base, bonus, equity or TC; must confirm. Do not assume a salary premium over Ryan until an official range/offer is obtained.",
+      "officePerks": "Location preference survey required; DFW/Irving placement and hybrid cadence must be confirmed. If Irving, commute from Plano 75075 is feasible but can be 35–60+ minutes in peak traffic. Vizient lists comprehensive benefits; role-specific details not disclosed.",
+      "jobId": "11444573",
+      "deadline": "2026-10-17",
+      "strategyPriority": "High Priority · apply now; confirm Irving placement, May–August 2027 start, OPT/STEM OPT and compensation",
+      "companyProfile": "Vizient is an Irving-headquartered, member-driven healthcare performance improvement and data platform serving 3,000+ U.S. healthcare organizations. Its enterprise AI work applies large healthcare/business datasets, GenAI, ML and production AI engineering to provider operations and decision support.",
+      "whyRyan": "Compared with Ryan Associate Data Scientist, this role offers a much more direct Applied AI/Agentic AI engineering path and broader production AI lifecycle. Ryan remains safer on known compensation, location and work authorization; Vizient becomes a clear overall upgrade only after confirming DFW placement, 2027 start, OPT and TC.",
+      "targetRoles": "Associate AI Engineer / Applied AI Engineer / ML Engineer / AI Platform / Agentic AI",
+      "careersUrl": "https://www.vizientinc.com/about-us/careers",
+      "applyInstructions": "Apply through Handshake job 11444573 and also complete the VTEP Location and Domain Preferences survey linked in the public posting.",
+      "reviewedAt": "2026-09-28"
     }
   ]
 }
