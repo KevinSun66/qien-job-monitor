@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T22:20:00.000Z",
+  "updatedAt": "2026-09-28T23:20:00.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -707,6 +707,37 @@
       "targetRoles": "Associate AI Engineer / Applied AI Engineer / ML Engineer / AI Platform / Agentic AI",
       "careersUrl": "https://www.vizientinc.com/about-us/careers",
       "applyInstructions": "Apply through Handshake job 11444573 and also complete the VTEP Location and Domain Preferences survey linked in the public posting.",
+      "reviewedAt": "2026-09-28"
+    },
+    {
+      "company": "Metrum AI",
+      "tier": "Unrated / below core A+ threshold",
+      "area": "Austin / Round Rock, TX",
+      "market": "Austin",
+      "title": "Applied AI Junior Software Engineer",
+      "employment": "Full-time · Austin/Round Rock area · office model not disclosed",
+      "gradYear": "Junior title, but explicit 2–3 years Python experience",
+      "match": "Technical fit high, eligibility and Ryan-upgrade fit low · 58/100",
+      "ngCompatibility": "Not NG-compatible under Qien's rule · official careers page explicitly asks for 2–3 years of Python experience",
+      "assessment": "Official careers page describes a hands-on Applied AI role using Python, LLMs, RAG, NumPy/Pandas, data pipelines, Docker/Linux, with Go/Rust/React/Next.js as pluses. Despite the Junior title and strong technical alignment, it explicitly requires 2–3 years of Python experience. Qien's NG-first rule excludes any role whose stated experience floor begins at 1 year or more. Compensation, graduation window, start date and OPT policy are not disclosed; the company/platform also does not provide a demonstrated brand or compensation upgrade over the known Ryan offer.",
+      "visa": "Not disclosed; because the role already fails the explicit experience rule and Ryan-upgrade test, no priority OPT verification.",
+      "found": "2026-09-28",
+      "url": "https://www.metrum.ai/career",
+      "status": "seniority-rejected",
+      "finalPriority": "Do not apply · explicit 2–3 years requirement and no demonstrated Ryan upgrade",
+      "roleTrack": "Applied AI / LLM-RAG / AI Software Engineering / Data Pipelines",
+      "seniorityGap": "High for NG-first screening · explicit 2–3 years Python experience",
+      "technicalGrowth": "90/100 · production Python, LLM/RAG, Docker and data workflows",
+      "brandPlatform": "65/100 · small AI consultancy/platform; scale and employer brand not independently verified",
+      "ryanUpgrade": "45/100 · stronger AI title, but compensation, platform scale and work authorization are unknown",
+      "compensation": "Base, bonus, equity and TC not disclosed; no reliable evidence of compensation exceeding Ryan.",
+      "officePerks": "Austin/Round Rock area; onsite/hybrid cadence, meals, relocation and benefits not disclosed.",
+      "jobId": "metrum-ai-applied-ai-junior-software-engineer",
+      "strategyPriority": "Archive exclusion; reconsider only if Metrum removes the 2–3 year requirement and discloses a package that materially upgrades Ryan",
+      "companyProfile": "Metrum AI advertises AI engineering and consulting work around LLM/RAG applications, data pipelines and automation in the Austin/Round Rock area.",
+      "whyRyan": "The technical direction is more directly Applied AI, but Ryan provides a confirmed Dallas offer, known compensation and established employment path. Metrum has no verified compensation or platform advantage and requires 2–3 years.",
+      "targetRoles": "True 0–2 years / New Grad Applied AI or AI Software Engineer roles",
+      "careersUrl": "https://www.metrum.ai/career",
       "reviewedAt": "2026-09-28"
     }
   ]
