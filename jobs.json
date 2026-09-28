@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T10:20:00.000Z",
+  "updatedAt": "2026-09-28T17:23:00.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -609,6 +609,38 @@
       "whyRyan": "该岗位的数据科学技术覆盖更广，但学历不符合且薪资未披露，不能作为 Ryan offer 的可执行升级选项。",
       "targetRoles": "Bachelor's accepted 的 Data Scientist I / Applied AI / ML Engineer / Analytics Engineer",
       "careersUrl": "https://vistracorp.com/careers/",
+      "reviewedAt": "2026-09-28"
+    },
+    {
+      "company": "Amazon Web Services",
+      "tier": "S",
+      "area": "Austin",
+      "market": "Austin",
+      "title": "Associate Solutions Architect, AGI-Tech, Early Career - 2027 (10558472)",
+      "employment": "Full-time · Early Career cohort · Austin / Arlington / Seattle hub",
+      "gradYear": "2027 Early Career；统一入职日期 2027-01-25",
+      "match": "技术与品牌匹配很高，但入职时间不兼容 · 78/100",
+      "ngCompatibility": "不兼容 · 官方要求全体 cohort 于 2027-01-25 同日入职，早于 Qien 2027 年 5 月毕业",
+      "assessment": "官方 JD 是 AWS 结构化 Early Career Solutions Architect 项目，包含云架构、AI/ML、Amazon Bedrock、客户 POC、导师制和 cohort 培训；接受在读或已取得相关本科及以上学位，课程、个人项目、黑客松和实习均可作为经验。岗位方向和 AWS 平台对 Qien 很有价值，但官方明确全体项目成员暂定于 2027-01-25 同日入职，无法等到 Qien 2027 年 5 月毕业后。因此未通过入职时间硬门槛，不进入 Austin 当前表2；若 Amazon 后续发布 2027 年 5–8 月入职的新 requisition，再单独评估。",
+      "visa": "官方 JD 未披露 F-1 OPT、STEM OPT、E-Verify 或未来 sponsorship；因入职时间已不兼容，无需优先核实。",
+      "found": "2026-09-28",
+      "url": "https://www.amazon.jobs/en/jobs/10558472/associate-solutions-architect-agi-tech-early-career-2027",
+      "status": "start-date-rejected",
+      "finalPriority": "不投 · 2027-01-25 入职早于毕业",
+      "roleTrack": "AI/ML Solutions Architecture / AWS Cloud / Amazon Bedrock / 客户解决方案",
+      "seniorityGap": "无明显工作年限缺口；入职时间构成硬门槛",
+      "technicalGrowth": "93/100 · 云架构、AI/ML、Bedrock、客户 POC 与 AWS 认证路径",
+      "brandPlatform": "99/100 · AWS 顶级云与 AI 平台",
+      "ryanUpgrade": "不适用（未通过入职时间硬门槛）",
+      "compensation": "官方页面仅显示 Seattle 起薪 $121,500；Austin 基本工资、奖金、签约奖金、股权和可靠 TC 未披露，不能直接套用 Seattle 数字。",
+      "officePerks": "Austin hub；结构化 cohort、专属导师、onboarding buddy、项目式学习、AWS 认证与客户实战；具体现场/混合安排及搬迁支持未披露",
+      "jobId": "10558472",
+      "startDate": "2027-01-25（tentative；全体 cohort 统一）",
+      "strategyPriority": "排除归档 · 不进入表2；只在新职位明确允许 2027 年 5–8 月毕业后入职时重新评估",
+      "companyProfile": "Amazon Web Services 是全球头部云与 AI 平台；AGI-Tech Early Career 项目培养兼具云架构、AI/ML 与客户解决方案能力的 Solutions Architect。",
+      "whyRyan": "AWS 品牌、云/AI 平台和长期职业流动性显著高于 Ryan，但该 requisition 的统一入职日早于毕业，无法成为可执行替代方案。",
+      "targetRoles": "2027 Summer/Fall start 的 Applied AI / ML Engineer / Solutions Architect / AI Platform Early Career",
+      "careersUrl": "https://www.amazon.jobs/en/teams/aws",
       "reviewedAt": "2026-09-28"
     }
   ]
