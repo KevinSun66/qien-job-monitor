@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T17:23:00.000Z",
+  "updatedAt": "2026-09-28T19:21:00.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -642,6 +642,39 @@
       "targetRoles": "2027 Summer/Fall start 的 Applied AI / ML Engineer / Solutions Architect / AI Platform Early Career",
       "careersUrl": "https://www.amazon.jobs/en/teams/aws",
       "reviewedAt": "2026-09-28"
+    },
+    {
+      "company": "U.S. Bank",
+      "tier": "A+",
+      "area": "Irving, TX",
+      "market": "DFW",
+      "title": "Software Engineer 1 (AI, Python, LLM, RAG, CI/CD) (2026-0029593)",
+      "employment": "Full-time · Irving/Hopkins · 每周至少 3 天现场",
+      "gradYear": "非 NG-first · 明确要求 2–3 年相关/软件工程经验",
+      "match": "技术方向很高，但经验不符合 · 72/100",
+      "ngCompatibility": "不兼容 · Basic Qualifications 明确要求 2–3 years relevant experience，完整 JD 再次要求 2–3 years software engineering experience",
+      "assessment": "岗位实际工作直接覆盖 LLM、Prompt Engineering、RAG、LangChain/LangGraph、Microsoft Foundry Agent Services、Python API/微服务、Docker/Kubernetes、Azure/AWS 与 CI/CD，技术方向高度契合 Qien。但完整 JD 明确要求 2–3 年相关经验及 2–3 年软件工程经验，属于最低经验硬门槛；不能因标题为 Software Engineer 1 或第三方标注 Entry Level 而按 New Grad 岗处理。2026-09-28 招聘监控源撤下该记录，官方 Workday 页面亦无法正常访问；第三方仍有残留页面，因此关闭状态不作绝对判断。无论是否仍开放，Qien 都不应投递。",
+      "visa": "JD 写明不提供 visa sponsorship，但未单独说明 OPT；因 2–3 年经验硬门槛已排除，无需优先核实。",
+      "found": "2026-09-28",
+      "url": "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Irving-TX/Software-Engineer-1--AI--Python--LLM--RAG--CI-CD-_2026-0029593",
+      "status": "seniority-rejected",
+      "finalPriority": "不投 · 明确 2–3 年经验门槛",
+      "roleTrack": "Applied GenAI / LLM-RAG / AI Software Engineering / Cloud-native APIs",
+      "seniorityGap": "高 · 明确最低 2–3 年相关及软件工程经验",
+      "technicalGrowth": "95/100 · LLM/RAG、Agent 工作流、Python 微服务、云与 MLOps",
+      "brandPlatform": "90/100 · 美国大型银行与企业 AI 平台",
+      "ryanUpgrade": "不适用（未通过经验硬门槛）",
+      "compensation": "公开职位副本显示基本工资 $92,820–$109,200；奖金、股权和可靠 TC 未披露。即使薪资可能高于 Ryan，也不能覆盖经验资格缺口。",
+      "officePerks": "Irving · 每周至少 3 天现场；从 Plano 75075 通勤可行但高峰拥堵；福利列有医疗、401(k)/雇主退休金、带薪休假等，具体资格依雇佣条款",
+      "jobId": "2026-0029593",
+      "deadline": "第三方归档曾显示 2026-10-02；官方页面当前不可访问，不能确认",
+      "strategyPriority": "排除归档 · 不进入表2；未来仅评估明确 0–2 年或真正 Campus/New Grad 的独立 requisition",
+      "companyProfile": "U.S. Bank 是美国大型商业银行，持续建设企业级云、支付、数字化与生成式 AI 平台。",
+      "whyRyan": "该岗位 Applied GenAI 技术栈和薪资上沿可能优于 Ryan，但 2–3 年最低经验使其不是 Qien 可执行的 NG 升级机会。",
+      "targetRoles": "0–2 years / Campus / New Grad 的 Applied AI、ML Engineer、Software Engineer AI/ML",
+      "careersUrl": "https://careers.usbank.com/",
+      "reviewedAt": "2026-09-28",
+      "sourceStatus": "2026-09-28 监控源撤下；官方 Workday 页面不可访问，第三方残留仍在"
     }
   ]
 }
