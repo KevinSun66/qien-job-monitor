@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T16:18:00Z",
+  "updatedAt": "2026-09-29T17:21:42Z",
   "jobs": [
     {
       "company": "IBM",
@@ -919,6 +919,45 @@
       "archiveUrl": "job-archive/visa/REF088586W/job-description.md",
       "archiveLabel": "JD 快照",
       "deadline": "2026-09-24 (career-center campaign mirror; official Workday listing appeared active in current indexes on 2026-09-29)"
+    },
+    {
+      "company": "MyFunded Futures",
+      "tier": "A",
+      "area": "Plano, TX",
+      "market": "DFW",
+      "title": "Junior Machine Learning Engineer (4390595009)",
+      "employment": "Full-time · Junior / Early Career · Plano",
+      "gradYear": "Early career · bachelor's accepted; start date not disclosed",
+      "match": "Very High technical fit; work authorization incompatible",
+      "ngCompatibility": "Seniority compatible; May 2027 start unverified; F-1 OPT incompatible as written",
+      "assessment": "Official Greenhouse JD is a direct applied-ML engineering role covering model development, validation, forecasting, experimentation, data pipelines, production monitoring and deployment. It does not state a hard minimum number of years; similar-role experience is only a plus. The application, however, asks whether the candidate is authorized to work without restriction, and the employer says it cannot provide sponsorship or immigration assistance. Under the monitor's OPT hard gate this excludes Qien. This was first captured 2026-09-29 from a source dated 2026-09-01, a 28-day late backfill; the specific cause of the delay is not proven.",
+      "visa": "Hard fail: application asks for current U.S. work authorization without restriction; employer also says no sponsorship or immigration assistance. This conflicts with F-1 OPT/STEM OPT under the user's rule.",
+      "found": "2026-09-29",
+      "sourcePostedDate": "2026-09-01 (ApplyGuy 2027 New Grad feed; official Greenhouse page did not display a posting date)",
+      "firstSeen": "2026-09-29",
+      "firstArchived": "2026-09-29",
+      "firstNotifiedDate": "2026-09-29",
+      "lastChecked": "2026-09-29",
+      "source": "MyFunded Futures official Greenhouse JD; surfaced through ApplyGuy 2027 New Grad feed",
+      "url": "https://job-boards.greenhouse.io/myfundedfutures/jobs/4390595009",
+      "status": "visa-rejected",
+      "finalPriority": "不投 · 明确要求 unrestricted work authorization，F-1 OPT/STEM OPT 不兼容",
+      "roleTrack": "Applied ML / Machine Learning Engineering / Trading Models",
+      "seniorityGap": "Low · no hard minimum YOE; bachelor's accepted; similar-role experience is a plus",
+      "technicalGrowth": "95/100 · production models, forecasting, experimentation, pipelines and monitoring",
+      "brandPlatform": "78/100 · smaller proprietary-trading platform; scale and career mobility not independently verified",
+      "ryanUpgrade": "Not applicable because work authorization hard-fails; compensation is also undisclosed",
+      "compensation": "Base, bonus, equity and estimated TC not disclosed; no reliable evidence of a compensation upgrade over Ryan.",
+      "officePerks": "Plano; office cadence, commute details, meals, relocation and benefits were not disclosed on the official page.",
+      "jobId": "4390595009",
+      "archiveUrl": "job-archive/myfunded-futures/4390595009/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "deadline": "Not disclosed",
+      "strategyPriority": "Archive exclusion; reconsider only if the employer explicitly accepts F-1 OPT/STEM OPT or removes the unrestricted-authorization requirement",
+      "companyProfile": "MyFunded Futures operates a proprietary-trading/futures platform and applies ML to forecasting, experimentation and product/business decision systems.",
+      "whyRyan": "The ML content is more direct than Ryan, but the role is not legally compatible as written and offers no disclosed compensation or established platform advantage.",
+      "targetRoles": "Junior ML Engineer / Applied ML Engineer / Data Scientist",
+      "careersUrl": "https://job-boards.greenhouse.io/myfundedfutures"
     }
   ]
 }
