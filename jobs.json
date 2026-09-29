@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T01:10:20.060Z",
+  "updatedAt": "2026-09-29T01:25:09.292Z",
   "jobs": [
     {
       "company": "IBM",
@@ -772,6 +772,36 @@
       "whyRyan": "Official base floor exceeds Ryan's known $83k base and physical AI engineering platform could upgrade technical growth; eligibility for a 2027 graduate remains unresolved.",
       "targetRoles": "Data Engineer / ML Data Platform / Applied AI / Autonomy Software Engineer",
       "careersUrl": "https://careers.caterpillar.com/en/"
+    },
+    {
+      "company": "The Cigna Group",
+      "tier": "A+",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Technology Development Program – Artificial Intelligence Track – July 12, 2027 (26010465)",
+      "employment": "Full-time · Hybrid 3 office days · 2027 graduate program",
+      "gradYear": "Bachelor's/Master's completed by July 12, 2027",
+      "match": "AI curriculum aligns, but explicit OPT exclusion",
+      "ngCompatibility": "Graduation/start date compatible; F-1 OPT/STEM OPT incompatible",
+      "assessment": "Official indexed JD and ASU career-center copy show Austin as one of four offices, an AI track covering ML/LLM/agents, and a July 12, 2027 start. Work Authorization explicitly excludes CPT/OPT/STEM, so Qien cannot enter with F-1 OPT; do not present as core opportunity.",
+      "visa": "Explicitly excludes CPT/OPT/STEM as well as future sponsorship; hard exclusion.",
+      "found": "2026-09-29",
+      "postedDate": "2026-09-10 (ASU mirror recruitment began)",
+      "reviewedAt": "2026-09-29",
+      "url": "https://cigna.wd5.myworkdayjobs.com/en-US/CIGNACAREERS/job/Bloomfield-CT/Technology-Development-Program--TECDP----Artificial-Intelligence-Track---Start-Date--July-12--2027_26010465",
+      "status": "visa-rejected",
+      "finalPriority": "不投 · 明确排除 OPT/STEM OPT",
+      "roleTrack": "AI Engineering / ML / LLM / Graduate Development",
+      "seniorityGap": "Low; degree and 2027 start align",
+      "technicalGrowth": "AI track with structured training; actual team/project placement not guaranteed",
+      "brandPlatform": "Large healthcare insurer and technology platform",
+      "ryanUpgrade": "Not applicable due to OPT hard exclusion",
+      "compensation": "ASU mirror reports $86,000 bachelor base; bonus/equity/TC not disclosed.",
+      "officePerks": "Austin, 11501 Alterra Pkwy; hybrid at least three days on site; no relocation; meals/perks not verified.",
+      "jobId": "26010465",
+      "startDate": "2027-07-12",
+      "deadline": "Mirror says mid-October or once filled; ASU page lists October 30 expiry, so exact employer deadline is uncertain.",
+      "careersUrl": "https://jobs.thecignagroup.com/"
     }
   ]
 }
