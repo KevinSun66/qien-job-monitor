@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T18:23:29Z",
+  "updatedAt": "2026-09-29T19:17:20Z",
   "jobs": [
     {
       "company": "IBM",
@@ -973,6 +973,48 @@
       "whyRyan": "The ML content is more direct than Ryan, but the role is not legally compatible as written and offers no disclosed compensation or established platform advantage.",
       "targetRoles": "Junior ML Engineer / Applied ML Engineer / Data Scientist",
       "careersUrl": "https://job-boards.greenhouse.io/myfundedfutures"
+    },
+    {
+      "company": "Amazon Web Services",
+      "tier": "S",
+      "area": "Dallas, TX for first 6 months; later U.S. relocation may be required",
+      "market": "DFW",
+      "title": "Solutions Architect, AWSI - 2027 (10506956)",
+      "employment": "Full-time · AWS Emerging Talent · customer-facing cloud architecture",
+      "gradYear": "2027 graduate · choose July 6, 2027 cohort",
+      "match": "High overall · 87/100; brand/compensation upgrade, AI/ML placement not guaranteed",
+      "ngCompatibility": "Compatible only with tentative July 6, 2027 start; January 4 cohort is before graduation",
+      "assessment": "AWS Industries and Strategic Accounts Emerging Talent program with six months of mentorship and direct customer solution architecture. No numeric minimum YOE; bachelor's candidates and school-project experience are accepted. The role materially upgrades Ryan on official base and platform, but is broader cloud/customer architecture rather than a guaranteed Applied AI/ML role. Dallas is guaranteed only for the first six months; subsequent customer-account assignment may require relocation anywhere in the U.S.",
+      "visa": "Official JD does not require permanent/unrestricted work authorization and does not expressly exclude F-1 OPT/STEM OPT, but it does not promise sponsorship. Confirm initial OPT, E-Verify/STEM extension and future sponsorship before accepting.",
+      "found": "2026-09-29",
+      "firstSeen": "2026-09-29",
+      "firstArchived": "2026-09-29",
+      "firstNotifiedDate": "2026-09-29",
+      "officialPostedDate": "Not displayed",
+      "lastChecked": "2026-09-29",
+      "lastCheckedAt": "2026-09-29T19:17:20Z",
+      "officialStatus": "Official role and Apply link active",
+      "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
+      "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
+      "status": "current",
+      "finalPriority": "可以投 · 只接受 2027-07-06 cohort；申请前确认 OPT 与六个月后的地点安排",
+      "roleTrack": "AWS Solutions Architecture / Cloud Engineering / AI-enabled Customer Solutions",
+      "seniorityGap": "None · early-career cohort; coursework and projects accepted",
+      "technicalGrowth": "87/100 · AWS architecture, strategic customer solutions and possible ML workloads; not a guaranteed hands-on Applied AI build role",
+      "brandPlatform": "98/100 · AWS strategic-account platform and strong career signaling",
+      "ryanUpgrade": "91/100 conditional · $121.5K base and AWS brand clearly exceed Ryan; reduced by role-track and relocation uncertainty",
+      "compensation": "Official Dallas starting base $121,500. Bonus, equity and estimated TC are not disclosed in the posting.",
+      "officePerks": "Dallas for the first six months; exact office/hybrid cadence, Plano 75075 commute, meals and relocation assistance not disclosed. Later U.S. relocation may be required.",
+      "jobId": "10506956",
+      "startDate": "Tentative cohorts 2027-01-04 and 2027-07-06; Qien is eligible only for July",
+      "deadline": "Not disclosed",
+      "archiveUrl": "job-archive/amazon/10506956/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "strategyPriority": "Apply if July cohort is selectable; verify OPT and long-term Texas placement before treating as an offer-level Ryan replacement",
+      "companyProfile": "Amazon Web Services is a global cloud platform. The AWSI Emerging Talent program develops Solutions Architects serving influential enterprise customers across cloud, data, analytics and possible ML workloads.",
+      "whyRyan": "Official base is roughly $38.5K above Ryan's known $83K base and AWS is a major platform upgrade. The role is only a true fit if Qien can remain in Texas and obtain an AI/ML-oriented account or project mix.",
+      "targetRoles": "Solutions Architect / Cloud AI / ML Solutions / Customer Engineering",
+      "careersUrl": "https://www.amazon.jobs/"
     }
   ]
 }
