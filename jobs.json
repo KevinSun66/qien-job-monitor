@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28",
+  "updatedAt": "2026-09-29T03:17:10Z",
   "jobs": [
     {
       "company": "IBM",
@@ -807,6 +807,43 @@
       "startDate": "2027-07-12",
       "deadline": "Mirror says mid-October or once filled; ASU page lists October 30 expiry, so exact employer deadline is uncertain.",
       "careersUrl": "https://jobs.thecignagroup.com/"
+    },
+    {
+      "company": "The Home Depot / BlackLocus",
+      "tier": "A+",
+      "area": "Austin listing · Remote/virtual from Texas appears permitted (Plano eligibility must be confirmed)",
+      "market": "Austin",
+      "title": "Associate Data Scientist – BlackLocus (Req194426)",
+      "employment": "Full-time · Remote/virtual · No travel",
+      "gradYear": "0 years minimum · not labeled Campus/New Grad; May 2027 start must be confirmed",
+      "match": "High technical fit · 92/100; start-date eligibility unverified",
+      "ngCompatibility": "NG/start-date verification · official minimum work experience is 0; 3+ years BI/analytics is preferred, not required; no 2027 cohort/start date disclosed",
+      "assessment": "Official JD is a genuine associate-level data science role supporting large-scale modeling and analytics, with possible specialization in optimization, computer vision, recommendation, search or NLP. It explicitly lists 0 minimum years of work experience and a bachelor's-level minimum, while 3+ years appears only under Preferred Qualifications. The posting is ongoing and not a campus/2027 requisition, so it is not yet proven that the team will wait until Qien graduates in May 2027. Added as a high-value verification lead rather than current Table 2. First discovered 2026-09-29 although the official page dates the posting 2026-08-20: a 40-day backfill discovery; the evidence does not establish why it was indexed late.",
+      "visa": "Official JD only says the candidate must be legally permitted to work in the United States; it does not expressly require permanent/unrestricted authorization and does not disclose OPT, STEM OPT, E-Verify or future sponsorship. Initial F-1 OPT and STEM-extension compatibility must be confirmed.",
+      "found": "2026-09-29",
+      "postedDate": "2026-08-20",
+      "firstSeen": "2026-09-29",
+      "firstNotifiedDate": "2026-09-29",
+      "lastChecked": "2026-09-29",
+      "source": "The Home Depot official careers page; surfaced in Zapply new-grad data-science repository",
+      "url": "https://careers.homedepot.com/job/23923861/associate-data-scientist-blacklocus-remote/",
+      "status": "ng-verification",
+      "finalPriority": "及时核实 · 先确认可在 2027 年 5–8 月毕业后入职及 F-1 OPT；确认后可升级为“可以投”并进入表2",
+      "roleTrack": "Product Data Science / ML Modeling / Recommendation / Search / NLP / Optimization",
+      "seniorityGap": "Low on stated minimums · 0 years required; 3+ years is preferred only",
+      "technicalGrowth": "93/100 · large datasets, applied modeling, recommendation/search/NLP and business deployment",
+      "brandPlatform": "92/100 · The Home Depot scale plus BlackLocus retail data-science innovation lab",
+      "ryanUpgrade": "89/100 conditional · direct applied DS/ML, remote-from-Texas potential and $130K range ceiling; must confirm start timing, OPT and actual offer at or above Ryan",
+      "compensation": "Official base range $70,000–$130,000; bonus or profit sharing may apply. Equity is not stated, though ESPP is listed. Actual TC is unknown; an offer near the lower end would not beat Ryan.",
+      "officePerks": "Official title/page identifies the role as remote/virtual and Texas is not among excluded virtual-employment states; confirm Plano 75075 as the approved work location. No travel. Benefits list medical, 401(k) match, ESPP, PTO and success-sharing/performance bonus.",
+      "jobId": "Req194426",
+      "deadline": "Ongoing; official page does not provide a fixed close date",
+      "strategyPriority": "High-value verification watch · do not show in Table 2 until 2027 start and OPT are confirmed",
+      "companyProfile": "BlackLocus is The Home Depot's Austin-based data-science innovation lab, building pricing, competitive-intelligence and recommendation capabilities at enterprise retail scale.",
+      "whyRyan": "The role is more directly product data science/ML and may allow Qien to remain in Plano while accessing a larger consumer-data platform. It is a true upgrade only if the team accepts a post-May-2027 start, accepts OPT/STEM OPT and the offer is not below Ryan's known package.",
+      "targetRoles": "Associate Data Scientist / Product Data Scientist / Applied ML / Recommendation & Search",
+      "careersUrl": "https://careers.homedepot.com/our-companies/blacklocus/",
+      "reviewedAt": "2026-09-29"
     }
   ]
 }
