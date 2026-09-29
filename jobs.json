@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T17:21:42Z",
+  "updatedAt": "2026-09-29T18:23:29Z",
   "jobs": [
     {
       "company": "IBM",
@@ -229,7 +229,10 @@
       "archiveUrl": "job-archive/Goldman Sachs  _ New Analyst _ .pdf",
       "archiveLabel": "JD 快照",
       "jobId": "171568",
-      "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。"
+      "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
+      "lastChecked": "2026-09-29",
+      "lastCheckedAt": "2026-09-29T18:23:29Z",
+      "officialStatus": "Official role and Apply link active"
     },
     {
       "company": "Kyndryl",
@@ -267,7 +270,10 @@
       "seedAppliedAt": "2026-09-07T12:00:00-05:00",
       "seedAppliedDisplay": "2026/9/7（已投递）",
       "archiveUrl": "job-archive/goldman-sachs/181810/job-description.md",
-      "archiveLabel": "JD 快照"
+      "archiveLabel": "JD 快照",
+      "lastChecked": "2026-09-29",
+      "lastCheckedAt": "2026-09-29T18:23:29Z",
+      "officialStatus": "Official role and Apply link active"
     },
     {
       "company": "Goldman Sachs",
@@ -350,7 +356,10 @@
       "seedAppliedAt": "2026-09-13T15:38:00.000Z",
       "seedAppliedDisplay": "2026-09-13",
       "archiveUrl": "job-archive/optiver-graduate-software-engineer-2027-start.pdf",
-      "archiveLabel": "JD PDF 快照"
+      "archiveLabel": "JD PDF 快照",
+      "lastChecked": "2026-09-29",
+      "lastCheckedAt": "2026-09-29T18:23:29Z",
+      "officialStatus": "Official role and Apply link active"
     },
     {
       "company": "Bitdeer",
@@ -550,7 +559,10 @@
       "seedAppliedAt": "2026-09-28",
       "seedAppliedDisplay": "2026/9/28（已投递；具体时间未核实）",
       "archiveUrl": "job-archive/trinity/2600865/job-description.md",
-      "archiveLabel": "JD 快照（原始 PDF 另存）"
+      "archiveLabel": "JD 快照（原始 PDF 另存）",
+      "lastChecked": "2026-09-29",
+      "lastCheckedAt": "2026-09-29T18:23:29Z",
+      "officialStatus": "Official role and Apply link active"
     },
     {
       "company": "Applied Materials",
@@ -715,7 +727,10 @@
       "seedAppliedAt": "2026-09-28",
       "seedAppliedDisplay": "2026/9/28（已投递）",
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
-      "archiveLabel": "JD 归档摘要（原始 PDF 另存）"
+      "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
+      "lastChecked": "2026-09-29",
+      "lastCheckedAt": "2026-09-29T18:23:29Z",
+      "officialStatus": "Campus mirror temporarily rate-limited; no closure evidence or status change"
     },
     {
       "company": "Metrum AI",
