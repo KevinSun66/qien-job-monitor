@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T04:36:00Z",
+  "updatedAt": "2026-09-29T10:32:00Z",
   "jobs": [
     {
       "company": "IBM",
@@ -848,6 +848,45 @@
       "targetRoles": "Associate Data Scientist / Product Data Scientist / Applied ML / Recommendation & Search",
       "careersUrl": "https://careers.homedepot.com/our-companies/blacklocus/",
       "reviewedAt": "2026-09-29"
+    },
+    {
+      "company": "Infosys",
+      "tier": "A",
+      "area": "DFW / placement pending (UNT Dallas Local Opportunity; relocation anywhere in US preferred)",
+      "market": "DFW",
+      "title": "Specialist Programmer — AI Engineering / Data Engineering campus track",
+      "employment": "Full-time · Campus hiring · exact office/team placement not disclosed",
+      "gradYear": "Recent graduate or graduated within prior 0–18 months; degree completed upon joining",
+      "match": "High technical relevance; execution details unverified · 82/100",
+      "ngCompatibility": "NG-compatible profile, but May–August 2027 start and DFW placement must be confirmed",
+      "assessment": "UNT Dallas public Handshake mirror lists a campus Specialist Programmer role with an AI Engineering track covering Python, Agentic AI, LangChain, LangGraph, NLP, MCP and prompt/context engineering. It accepts recent graduates or students within 0–18 months of graduation and requires the degree to be completed upon joining. Recruitment began 2026-06-24 and expires 2026-09-30; first surfaced in this monitor on 2026-09-29, so this is a late backfill discovery. The mirror labels it Local Opportunity, but the JD asks candidates to be willing to relocate anywhere in the US and does not confirm a DFW assignment. Start date, team placement, compensation and OPT/STEM OPT remain unresolved. Notify promptly because of the imminent deadline, but keep out of Table 2 until the hard gates and Ryan-upgrade case are confirmed.",
+      "visa": "JD says candidates authorized to work for any employer without employer-based visa sponsorship are welcome and Infosys cannot sponsor this role. It does not explicitly exclude initial F-1 OPT/STEM OPT; confirm whether OPT is accepted and whether the employing entity/location is E-Verify.",
+      "found": "2026-09-29",
+      "postedDate": "2026-06-24",
+      "firstSeen": "2026-09-29",
+      "firstNotifiedDate": "2026-09-29",
+      "lastChecked": "2026-09-29",
+      "source": "UNT Dallas CELCS public Handshake mirror",
+      "url": "https://celcs.untdallas.edu/jobs/infosys-specialist-programmer/",
+      "status": "ng-verification",
+      "finalPriority": "临近截止 · 如仍可申请可先投，同时立即确认 2027 入职、DFW placement、OPT/STEM OPT 与薪资；不进入表2",
+      "roleTrack": "AI Engineering / Agentic AI / Software Engineering / Data Engineering",
+      "seniorityGap": "Low · explicit campus/recent-graduate 0–18 month window",
+      "technicalGrowth": "88/100 · potential AI Engineering track with Agentic AI, LangGraph, MCP and NLP; actual project/team allocation not guaranteed",
+      "brandPlatform": "82/100 · large global consulting and delivery platform, but project placement variability",
+      "ryanUpgrade": "70/100 conditional · AI direction may be stronger, but brand/platform is not a clear upgrade and compensation/location/team are unknown",
+      "compensation": "Official mirror says competitive salary and benefits but provides no base, bonus, equity or TC range; cannot establish an upgrade over Ryan.",
+      "officePerks": "UNT Dallas labels Local Opportunity, but preferred qualification says willingness to relocate anywhere in the US. DFW office, hybrid model, commute, meals and relocation package are not verified.",
+      "jobId": "infosys-specialist-programmer-handshake",
+      "deadline": "2026-09-30",
+      "strategyPriority": "Urgent verification lead only; exclude from Table 2 until DFW/2027 start/OPT and Ryan-upgrade are confirmed",
+      "companyProfile": "Infosys is a global IT services and consulting company. Its Power Programmers track places campus hires on large-scale platforms, cloud-native systems, data engineering and AI engineering work.",
+      "whyRyan": "The Agentic AI stack is attractive, but Ryan remains stronger on confirmed Dallas placement, offer certainty and known compensation. Infosys becomes worth replacing Ryan only with confirmed AI-track placement and materially better TC/career trajectory.",
+      "targetRoles": "Specialist Programmer / AI Engineering / Agentic AI / Data Engineering",
+      "careersUrl": "https://www.infosys.com/careers/",
+      "reviewedAt": "2026-09-29",
+      "archiveUrl": "job-archive/infosys/specialist-programmer/job-description.md",
+      "archiveLabel": "JD 归档摘要"
     }
   ]
 }
