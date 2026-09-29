@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T22:21:01Z",
+  "updatedAt": "2026-09-29T23:24:11Z",
   "jobs": [
     {
       "company": "IBM",
@@ -1197,6 +1197,47 @@
       "archiveUrl": "job-archive/microsoft/1970393556928331/job-description.md",
       "archiveLabel": "核验记录",
       "strategyPriority": "High-value manual verification only; never show in Table 2 without official Texas location and hard-gate evidence"
+    },
+    {
+      "company": "Vizient",
+      "tier": "A+",
+      "area": "Irving, TX 75062 · exact office cadence not disclosed",
+      "market": "DFW",
+      "title": "Data Engineer (35028R)",
+      "employment": "Full-time · official Workday role; LinkedIn labels Entry level but this is not used as eligibility proof",
+      "gradYear": "Not disclosed; May–August 2027 start unverified",
+      "match": "High technical relevance; eligibility incomplete · 84/100",
+      "ngCompatibility": "NG verification · official accessible text omits degree, minimum experience and start-date requirements",
+      "assessment": "Vizient's official Workday listing is active for an Irving Data Engineer. The available JD responsibilities cover Azure Data Factory, Databricks, SQL/Python/Java, Azure SQL, lakehouse platforms, cloud infrastructure, data quality, CI/CD, and preparing/integrating data for AI, machine learning, automation and advanced analytics. However, the accessible official page does not expose the qualifications section, and the complete LinkedIn mirror also omits degree and experience requirements. LinkedIn's 'Entry level' label is only a discovery signal and is not sufficient to pass the NG hard gate. Preserve as ng-verification until the official minimum experience, post-May-2027 start and OPT/STEM OPT terms are confirmed.",
+      "visa": "Not disclosed in the accessible official/mirror text. Confirm F-1 OPT acceptance, E-Verify/STEM OPT extension eligibility and future sponsorship; do not infer from Vizient's other requisitions.",
+      "found": "2026-09-29",
+      "officialPostedDate": "Not displayed; official search index surfaced the role as approximately five days old on 2026-09-29",
+      "firstSeen": "2026-09-29",
+      "firstArchived": "2026-09-29",
+      "firstNotifiedDate": "2026-09-29",
+      "lastChecked": "2026-09-29",
+      "lastCheckedAt": "2026-09-29T23:24:11Z",
+      "officialStatus": "Official Workday listing and manual-apply endpoint indexed as active",
+      "source": "Vizient official Workday listing; LinkedIn full responsibility/compensation mirror",
+      "url": "https://vizient.wd1.myworkdayjobs.com/en-US/Vizient_Careers/job/Data-Engineer_35028R",
+      "status": "ng-verification",
+      "finalPriority": "及时核实 · 暂不进入表2；确认 0 YOE/无最低经验、2027年5月后入职、OPT 与实际薪资后再决定",
+      "roleTrack": "AI Data Platform / Data Engineering / Lakehouse / ML-enabling Infrastructure",
+      "seniorityGap": "Unknown · official qualifications were not accessible; third-party Entry-level tag is not treated as proof",
+      "technicalGrowth": "86/100 · production Azure/Databricks/lakehouse pipelines directly enabling AI/ML, but not a model-development role",
+      "brandPlatform": "88/100 · strong healthcare data platform, but not by itself a clear brand upgrade over Ryan",
+      "ryanUpgrade": "78/100 conditional · better cloud/lakehouse engineering exposure and a higher salary ceiling, but actual compensation and eligibility must be confirmed",
+      "compensation": "Official employer range shown in the mirrored JD: $77,400–$135,400 base; incentive eligible. Bonus amount, equity and estimated TC are not disclosed.",
+      "officePerks": "Irving corporate location; hybrid/on-site cadence, meals, relocation and exact Plano 75075 commute schedule not disclosed",
+      "jobId": "35028R",
+      "deadline": "Not disclosed",
+      "archiveUrl": "job-archive/vizient/35028R/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "strategyPriority": "High-value verification lead only; do not show in Table 2 until all hard gates and Ryan-upgrade economics are established",
+      "companyProfile": "Vizient is a healthcare performance-improvement and data platform company headquartered in Irving, serving major U.S. health systems with large healthcare datasets and analytics.",
+      "whyRyan": "This role could improve cloud/lakehouse and AI-data-platform engineering depth, but Vizient's brand and the lower end of the pay range do not automatically beat Ryan. It becomes worth switching only with confirmed eligibility and an offer materially above Ryan or a substantially stronger AI/data-platform team.",
+      "targetRoles": "Data Engineer / AI Data Platform Engineer / ML Data Infrastructure",
+      "careersUrl": "https://www.vizientinc.com/about-us/careers"
     }
   ]
 }
