@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T19:17:20Z",
+  "updatedAt": "2026-09-29T20:20:06Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,7 +231,7 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-29T19:17:20Z",
+      "lastCheckedAt": "2026-09-29T20:20:06Z",
       "officialStatus": "Official role and Apply link active"
     },
     {
@@ -358,7 +358,7 @@
       "archiveUrl": "job-archive/optiver-graduate-software-engineer-2027-start.pdf",
       "archiveLabel": "JD PDF 快照",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-29T19:17:20Z",
+      "lastCheckedAt": "2026-09-29T20:20:06Z",
       "officialStatus": "Official role and Apply link active"
     },
     {
@@ -561,7 +561,7 @@
       "archiveUrl": "job-archive/trinity/2600865/job-description.md",
       "archiveLabel": "JD 快照（原始 PDF 另存）",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-29T19:17:20Z",
+      "lastCheckedAt": "2026-09-29T20:20:06Z",
       "officialStatus": "Official role and Apply link active"
     },
     {
@@ -992,7 +992,7 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-29T19:17:20Z",
+      "lastCheckedAt": "2026-09-29T20:20:06Z",
       "officialStatus": "Official role and Apply link active",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
@@ -1015,6 +1015,46 @@
       "whyRyan": "Official base is roughly $38.5K above Ryan's known $83K base and AWS is a major platform upgrade. The role is only a true fit if Qien can remain in Texas and obtain an AI/ML-oriented account or project mix.",
       "targetRoles": "Solutions Architect / Cloud AI / ML Solutions / Customer Engineering",
       "careersUrl": "https://www.amazon.jobs/"
+    },
+    {
+      "company": "Apple",
+      "tier": "S",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Software Devlopment Engineer - Kubernetes (200686299-0157)",
+      "employment": "Full-time · 40 hours · Apple Software and Services",
+      "gradYear": "Not labeled Campus/New Grad; May–August 2027 start not disclosed",
+      "match": "Very High technical fit · 94/100; NG/start-date/OPT unverified",
+      "ngCompatibility": "NG verification · no numeric minimum YOE, but production software, Kubernetes and cloud hands-on experience are required",
+      "assessment": "Apple official JD is a direct AI infrastructure/platform engineering role: Python/Go software and automation, Kubernetes, cloud platforms, observability, analytics, AI/ML training infrastructure, LLM inference and GPU workloads. It asks for production-software, Kubernetes and cloud experience but gives no numeric YOE floor, and says the engineer will work alongside experienced engineers, architects, SREs and AI/ML teams. Because it is not a Campus/New Grad/2027 requisition and does not disclose a start date or degree window, it is a high-value NG verification lead rather than a current Table 2 role.",
+      "visa": "Official JD does not state sponsorship or explicitly exclude F-1 OPT/STEM OPT. Apple says it participates in E-Verify in certain locations; confirm the employing entity/location, initial OPT, STEM extension and future sponsorship.",
+      "found": "2026-09-29",
+      "officialPostedDate": "2026-09-28",
+      "firstSeen": "2026-09-29",
+      "firstArchived": "2026-09-29",
+      "firstNotifiedDate": "2026-09-29",
+      "lastChecked": "2026-09-29",
+      "lastCheckedAt": "2026-09-29T20:20:06Z",
+      "source": "Apple official Careers JD; surfaced by targeted Apple Austin careers check",
+      "url": "https://jobs.apple.com/en-us/details/200686299-0157/software-devlopment-engineer-kubernetes",
+      "status": "ng-verification",
+      "finalPriority": "及时核实 · 可先准备材料，但确认 2027年5月后入职、F-1 OPT 与实际 seniority 后才升级到表2",
+      "roleTrack": "AI Infrastructure / ML Platform / Kubernetes / Cloud Reliability Engineering",
+      "seniorityGap": "Unclear · no numeric YOE minimum; hands-on production software, Kubernetes and cloud experience required",
+      "technicalGrowth": "97/100 · AI/ML training, LLM inference, GPU workloads, Kubernetes, observability and automation",
+      "brandPlatform": "100/100 · Apple platform and engineering brand",
+      "ryanUpgrade": "95/100 conditional · major brand/platform and technical-growth upgrade if NG/start timing and OPT are compatible",
+      "compensation": "Austin base, bonus, equity and estimated TC are not disclosed in the official posting.",
+      "officePerks": "Austin · official JD does not disclose hybrid cadence, meals, relocation or role-specific perks.",
+      "jobId": "200686299-0157",
+      "deadline": "Ongoing; Apple states applications are accepted on an ongoing basis",
+      "archiveUrl": "job-archive/apple/200686299-0157/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "strategyPriority": "High-value verification watch; do not show in Table 2 until NG/start-date/OPT gates are confirmed",
+      "companyProfile": "Apple is a global consumer-technology and platform company. This Austin role sits in Software and Services and supports cloud-native production platforms plus emerging AI/ML workloads.",
+      "whyRyan": "If eligible, Apple is a clear brand/platform and AI-infrastructure upgrade over Ryan. Eligibility and timing uncertainty are the only reasons it is not yet a core apply-now role.",
+      "targetRoles": "AI Infrastructure Engineer / ML Platform Engineer / Cloud Platform Engineer / Kubernetes Software Engineer",
+      "careersUrl": "https://jobs.apple.com/en-us/search?location=austin-AST"
     }
   ]
 }
