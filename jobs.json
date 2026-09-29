@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T01:25:09.292Z",
+  "updatedAt": "2026-09-29T02:15:22Z",
   "jobs": [
     {
       "company": "IBM",
@@ -686,12 +686,12 @@
       "gradYear": "Early Career · 0–2 years · full-time experience not required",
       "match": "Excellent · 97/100",
       "ngCompatibility": "High · explicit 0–2 years; internships, research, academic projects and hackathons accepted; 2027 post-graduation start date must be confirmed",
-      "assessment": "Vizient Technology Early Career Program 的纯 Applied AI/AI Engineering 岗。完整 JD 覆盖 GenAI、LLM/RAG、AI agents、tool calling、LangGraph/LangChain/Semantic Kernel/AutoGen、ML model training/evaluation、Python/SQL、data pipelines、cloud、CI/CD、observability 与 production deployment；明确写 0–2 年，且不要求全职 AI/SWE 经验，Ryan 实习、研究和项目均可计入。招聘始于 2026-09-16，申请截止 2026-10-17。职位未披露统一入职日期，申请时需确认可在 2027 年 5 月毕业后入职；地点需通过 VTEP survey 选择，UNT Dallas 将其列为 Local Opportunity，Vizient 总部位于 Irving。",
+      "assessment": "Vizient Technology Early Career Program 的纯 Applied AI/AI Engineering 岗。完整 JD 覆盖 GenAI、LLM/RAG、AI agents、tool calling、LangGraph/LangChain/Semantic Kernel/AutoGen、ML model training/evaluation、Python/SQL、data pipelines、cloud、CI/CD、observability 与 production deployment；明确写 0–2 年，且不要求全职 AI/SWE 经验，Ryan 实习、研究和项目均可计入。招聘始于 2026-09-16，申请截止 2026-10-17。职位未披露统一入职日期，申请时需确认可在 2027 年 5 月毕业后入职；地点需通过 VTEP survey 选择，UNT Dallas 将其列为 Local Opportunity，Vizient 总部位于 Irving。 Qien 已于 2026-09-28 完成投递；后续重点跟踪面试进展及地点、入职日期和工作授权确认。",
       "visa": "职位 JD 未披露 F-1 OPT/STEM OPT 或 sponsorship 限制；不因未披露而排除。Vizient 有公开 H-1B 申报历史，但不能替代本岗位确认；申请前核实 initial OPT、E-Verify/STEM OPT extension 和未来 sponsorship。",
       "found": "2026-09-28",
       "url": "https://celcs.untdallas.edu/jobs/vizient-inc-associate-ai-engineer/",
       "status": "current",
-      "finalPriority": "立即投 · 截止 2026-10-17；同步填写 VTEP location/domain survey",
+      "finalPriority": "已投递 · 持续监控岗位状态；待确认 DFW/Irving placement、2027 年毕业后入职、OPT/STEM OPT 与薪资",
       "roleTrack": "Applied AI Engineering / GenAI / LLM-RAG / Agentic AI / ML / AI Platform & MLOps",
       "seniorityGap": "Low · explicit 0–2 years; professional full-time experience not required",
       "technicalGrowth": "98/100 · end-to-end AI delivery lifecycle, RAG/agents, ML, data pipelines, deployment and observability",
@@ -707,7 +707,9 @@
       "targetRoles": "Associate AI Engineer / Applied AI Engineer / ML Engineer / AI Platform / Agentic AI",
       "careersUrl": "https://www.vizientinc.com/about-us/careers",
       "applyInstructions": "Apply through Handshake job 11444573 and also complete the VTEP Location and Domain Preferences survey linked in the public posting.",
-      "reviewedAt": "2026-09-28"
+      "reviewedAt": "2026-09-28",
+      "seedAppliedAt": "2026-09-28",
+      "seedAppliedDisplay": "2026/9/28（已投递）"
     },
     {
       "company": "Metrum AI",
