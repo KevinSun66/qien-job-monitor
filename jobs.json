@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T23:20:00.000Z",
+  "updatedAt": "2026-09-29T01:10:20.060Z",
   "jobs": [
     {
       "company": "IBM",
@@ -739,6 +739,39 @@
       "targetRoles": "True 0–2 years / New Grad Applied AI or AI Software Engineer roles",
       "careersUrl": "https://www.metrum.ai/career",
       "reviewedAt": "2026-09-28"
+    },
+    {
+      "company": "Caterpillar",
+      "tier": "A+",
+      "area": "Irving, TX",
+      "market": "DFW",
+      "title": "Data Engineer – Physical AI Platform (R0000395610)",
+      "employment": "Full-time · Regular · on-site five days/week",
+      "gradYear": "No campus cohort or graduation year disclosed",
+      "match": "High technical relevance; NG timing unverified",
+      "ngCompatibility": "NG/start-date verification · no explicit minimum years in What You Will Have; preferred Top Candidates list 2+ years platform and 3+ years production Java/Python; 2027 post-graduation start unconfirmed",
+      "assessment": "2026-09-24 official posting discovered in backfill. Python real-time/batch pipelines, microservices and AWS ingestion directly support physical AI, autonomy and connected machine data. Minimum section asks for backend/pipeline and agile experience without a numeric floor; 2+/3+ years appear only under Top Candidates. This does not prove a 2027 graduate can defer start until May–August 2027. Keep as manual verification, not current Table 2, until hiring timeline and new-grad suitability are confirmed.",
+      "visa": "Official listing says visa sponsorship available for eligible applicants; confirm F-1 OPT start and E-Verify/STEM OPT extension specifically.",
+      "found": "2026-09-29",
+      "postedDate": "2026-09-24",
+      "reviewedAt": "2026-09-29",
+      "url": "https://careers.caterpillar.com/en/jobs/r0000395610/data-engineer-physical-ai-platform/",
+      "status": "ng-verification",
+      "finalPriority": "人工核验 · 先确认 2027 年毕业后入职及 NG 接受度；暂不进入表2",
+      "roleTrack": "AI Data Platform / Physical AI / Autonomy Data Engineering",
+      "seniorityGap": "Uncertain · 2+/3+ production experience is preferred, not listed as hard minimum",
+      "technicalGrowth": "93/100 · physical AI data foundation, AWS streaming, Python microservices, autonomous equipment",
+      "brandPlatform": "92/100 · Caterpillar global industrial and autonomy platform",
+      "ryanUpgrade": "Potentially high on technical platform and official base, contingent on NG/start eligibility and actual offer",
+      "compensation": "Official base $97,530–$158,480; incentive bonus eligible, amount/equity/TC not disclosed.",
+      "officePerks": "Irving on-site five days/week; Plano 75075 commute broadly feasible but rush-hour route and exact office should be checked; relocation available.",
+      "jobId": "R0000395610",
+      "deadline": "2026-10-29",
+      "strategyPriority": "High-value verification watch; do not present as application-ready core until graduation/start-date compatibility is established",
+      "companyProfile": "Caterpillar builds heavy equipment and connected autonomy systems; its technology group uses fleet telemetry and AI infrastructure for construction and mining.",
+      "whyRyan": "Official base floor exceeds Ryan's known $83k base and physical AI engineering platform could upgrade technical growth; eligibility for a 2027 graduate remains unresolved.",
+      "targetRoles": "Data Engineer / ML Data Platform / Applied AI / Autonomy Software Engineer",
+      "careersUrl": "https://careers.caterpillar.com/en/"
     }
   ]
 }
