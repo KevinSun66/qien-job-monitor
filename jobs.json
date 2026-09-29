@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T10:32:00Z",
+  "updatedAt": "2026-09-29T16:18:00Z",
   "jobs": [
     {
       "company": "IBM",
@@ -887,6 +887,38 @@
       "reviewedAt": "2026-09-29",
       "archiveUrl": "job-archive/infosys/specialist-programmer/job-description.md",
       "archiveLabel": "JD 归档摘要"
+    },
+    {
+      "company": "Visa",
+      "tier": "S-",
+      "area": "Austin",
+      "market": "Austin",
+      "title": "Software Engineer, New College Grad - 2027, Austin, TX (REF088586W)",
+      "employment": "Full-time · New College Graduate · Austin",
+      "gradYear": "Graduating May 2026–August 2027 · less than 6 months relevant experience",
+      "match": "High technical/NG fit; work authorization incompatible",
+      "ngCompatibility": "Excellent 2027 cohort fit; OPT/STEM OPT excluded by permanent-authorization requirement",
+      "assessment": "Visa Austin 2027 New College Graduate Software Engineer，毕业窗口与经验要求适合 Qien，$108,160 base 且可能有 bonus/equity，品牌和平台相对 Ryan 有明显升级。但岗位明确要求 permanent authorization to work in the U.S.，并写明不提供现在或未来的工作签证支持。该措辞实际排除 F-1 OPT/STEM OPT，因此不得进入 Austin 表2。",
+      "visa": "Hard fail: permanent U.S. work authorization is a precondition; Visa will not sponsor work visas and future sponsorship will not be considered. F-1 OPT/STEM OPT is not compatible as written.",
+      "found": "2026-09-29",
+      "firstSeen": "2026-09-29",
+      "firstArchived": "2026-09-29",
+      "officialPostedDate": "2026-09-17",
+      "lastChecked": "2026-09-29",
+      "url": "https://visa.wd5.myworkdayjobs.com/Visa_Early_Careers/job/US---Austin-TX/Software-Engineer--New-College-Grad---2027--Austin--TX_REF088586W-2",
+      "status": "visa-rejected",
+      "finalPriority": "不投 · 明确要求永久工作授权，F-1 OPT/STEM OPT 不兼容",
+      "roleTrack": "Software Engineering / Payments Platform; AI/ML team assignment not guaranteed",
+      "seniorityGap": "None · less than 6 months relevant experience",
+      "technicalGrowth": "91/100",
+      "brandPlatform": "96/100",
+      "ryanUpgrade": "不适用（未通过工作授权硬门槛）",
+      "compensation": "Official employer-provided estimate: $108,160 base; may be eligible for bonus and equity; comprehensive benefits",
+      "officePerks": "Austin · on-site listing · 5–10% travel; medical/dental/vision, 401(k), FSA/HSA, PTO and wellness programs",
+      "jobId": "REF088586W",
+      "archiveUrl": "job-archive/visa/REF088586W/job-description.md",
+      "archiveLabel": "JD 快照",
+      "deadline": "2026-09-24 (career-center campaign mirror; official Workday listing appeared active in current indexes on 2026-09-29)"
     }
   ]
 }
