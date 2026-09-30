@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T19:20:51Z",
+  "updatedAt": "2026-09-30T20:18:39Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,7 +231,7 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T19:20:51Z",
+      "lastCheckedAt": "2026-09-30T20:18:39Z",
       "officialStatus": "Official Goldman role and Apply link active"
     },
     {
@@ -272,7 +272,7 @@
       "archiveUrl": "job-archive/goldman-sachs/181810/job-description.md",
       "archiveLabel": "JD 快照",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T19:20:51Z",
+      "lastCheckedAt": "2026-09-30T20:18:39Z",
       "officialStatus": "Official Goldman role and Apply link active"
     },
     {
@@ -358,8 +358,8 @@
       "archiveUrl": "job-archive/optiver-graduate-software-engineer-2027-start.pdf",
       "archiveLabel": "JD PDF 快照",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T19:20:51Z",
-      "officialStatus": "Official Optiver role page and Apply link active"
+      "lastCheckedAt": "2026-09-30T20:18:39Z",
+      "officialStatus": "Official Optiver role and Apply link active"
     },
     {
       "company": "Bitdeer",
@@ -730,8 +730,8 @@
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
       "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T19:20:51Z",
-      "officialStatus": "UNT Dallas mirror returned 404 this check, while a search index refreshed today still shows the full posting; closure not confirmed, retained pending source recovery"
+      "lastCheckedAt": "2026-09-30T20:18:39Z",
+      "officialStatus": "UNT Dallas mirror returns 404; same-day indexed posting evidence still exists, but official closure is not confirmed; retain pending source recovery"
     },
     {
       "company": "Metrum AI",
@@ -993,8 +993,8 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T19:20:51Z",
-      "officialStatus": "Official Amazon job page and Apply now link active",
+      "lastCheckedAt": "2026-09-30T20:18:39Z",
+      "officialStatus": "Official Amazon role and Apply now link active",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
       "status": "current",
@@ -1922,6 +1922,48 @@
       "targetRoles": "Futureforce AMTS / Software Engineer / Einstein Platform / Agentforce / AI Platform",
       "careersUrl": "https://careers.salesforce.com/en/jobs/",
       "discoveryNote": "补发现：official post predates first discovery by 6 days. The specific cause of delayed discovery is not proven."
+    },
+    {
+      "company": "Caterpillar",
+      "tier": "A+",
+      "area": "Irving, TX",
+      "market": "DFW",
+      "title": "AI Automation Engineer, Data Annotation Services (R0000395384)",
+      "employment": "Full-time · Regular · onsite five days/week",
+      "gradYear": "Bachelor's accepted · no Campus/Early Career label · start date not disclosed",
+      "match": "Very High technical fit · 95/100; NG eligibility unconfirmed",
+      "ngCompatibility": "NG verification · no minimum YOE stated, but production/distributed-systems/ML-deployment and sensor-data experience is required; May-2027 start unconfirmed",
+      "assessment": "Caterpillar's official role builds production annotation automation for robotics, autonomy, computer vision and Vision-Language-Action systems, including model training/fine-tuning, NVIDIA Cosmos, data pipelines and human-in-the-loop QA. It is a strong Applied AI/Physical AI and compensation upgrade over Ryan. However, the posting is not Campus/Early Career, does not disclose a graduation/start window, and its required experience bundle may indicate an immediate experienced hire. Confirm that May-2027 graduates can qualify and start after graduation before promotion to Table 2.",
+      "visa": "Official JD states visa sponsorship is available for eligible applicants. F-1 OPT, STEM OPT, E-Verify and I-983 support are not explicitly stated; verify before promotion to Table 2.",
+      "found": "2026-09-30",
+      "officialPostedDate": "2026-09-18",
+      "firstSeen": "2026-09-30",
+      "firstArchived": "2026-09-30",
+      "firstNotifiedDate": "2026-09-30",
+      "lastChecked": "2026-09-30",
+      "lastCheckedAt": "2026-09-30T20:18:39Z",
+      "officialStatus": "Official Caterpillar Careers page open; Apply link active; official deadline 2026-10-15",
+      "source": "Caterpillar official Careers JD; surfaced by targeted Caterpillar backfill search and verified against the complete official posting",
+      "url": "https://careers.caterpillar.com/en/jobs/r0000395384/ai-automation-engineer-data-annotation-services/",
+      "status": "ng-verification",
+      "finalPriority": "及时核实 · 技术方向/薪资/签证支持很强；确认应届生资格与2027年5月后入职后可升级为立即投",
+      "roleTrack": "Physical AI / Computer Vision / Robotics Data / ML Engineering / AI Automation",
+      "seniorityGap": "Unclear · no explicit YOE floor, but extensive production software, distributed systems, ML deployment, sensor-dataset and annotation-QA experience required",
+      "technicalGrowth": "99/100 · production multimodal/vision/VLA data systems, NVIDIA Cosmos, MLOps and autonomy",
+      "brandPlatform": "92/100 · global industrial AI platform with 1.6M+ connected assets and real-world autonomy data",
+      "ryanUpgrade": "94/100 conditional · clear technical and likely compensation upgrade; NG/start and OPT gates must clear",
+      "compensation": "Official base $97,530–$158,480 + incentive bonus; equity and reliable estimated TC not disclosed",
+      "officePerks": "Irving · onsite five days/week · domestic relocation available; from Plano 75075 roughly 25–40 minutes off-peak and materially longer in peak traffic",
+      "jobId": "R0000395384",
+      "deadline": "2026-10-15",
+      "archiveUrl": "job-archive/caterpillar/R0000395384/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "strategyPriority": "Highest-value Caterpillar verification lead; do not show in Table 2 until NG/start-date and OPT/STEM OPT gates are confirmed",
+      "companyProfile": "Caterpillar's Cat Technology organization develops connected, autonomous and AI-enabled heavy equipment using fleet-scale sensor and machine data.",
+      "whyRyan": "Direct Physical AI, computer vision, robotics, VLA data and production MLOps work plus an official base floor above Ryan makes this a potential major upgrade if entry-level eligibility clears.",
+      "targetRoles": "AI Automation Engineer / Physical AI Engineer / Computer Vision ML Engineer / Robotics Data Engineer",
+      "careersUrl": "https://careers.caterpillar.com/en/jobs/",
+      "discoveryNote": "补发现：official post predates first discovery by 12 days. The specific cause of delayed discovery is not proven."
     }
   ]
 }
