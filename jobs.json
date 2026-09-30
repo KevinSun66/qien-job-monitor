@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T12:15:08Z",
+  "updatedAt": "2026-09-30T13:21:47Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,7 +231,7 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T12:15:08Z",
+      "lastCheckedAt": "2026-09-30T13:21:47Z",
       "officialStatus": "Official Goldman role and Apply link active"
     },
     {
@@ -272,7 +272,7 @@
       "archiveUrl": "job-archive/goldman-sachs/181810/job-description.md",
       "archiveLabel": "JD 快照",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T12:15:08Z",
+      "lastCheckedAt": "2026-09-30T13:21:47Z",
       "officialStatus": "Official Goldman role and Apply link active"
     },
     {
@@ -358,8 +358,8 @@
       "archiveUrl": "job-archive/optiver-graduate-software-engineer-2027-start.pdf",
       "archiveLabel": "JD PDF 快照",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T12:15:08Z",
-      "officialStatus": "Official Optiver role and Apply link active"
+      "lastCheckedAt": "2026-09-30T13:21:47Z",
+      "officialStatus": "Official Optiver role and Apply action active"
     },
     {
       "company": "Bitdeer",
@@ -730,8 +730,8 @@
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
       "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T12:15:08Z",
-      "officialStatus": "UNT Dallas posting and Apply Now link active; expires 2026-10-17"
+      "lastCheckedAt": "2026-09-30T13:21:47Z",
+      "officialStatus": "No closure evidence; UNT Dallas mirror had a transient retrieval error during this check (active in prior same-day check)"
     },
     {
       "company": "Metrum AI",
@@ -993,8 +993,8 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T12:15:08Z",
-      "officialStatus": "Official Amazon role and Apply link active",
+      "lastCheckedAt": "2026-09-30T13:21:47Z",
+      "officialStatus": "Official Amazon job page active",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
       "status": "current",
@@ -1672,6 +1672,49 @@
       "strategyPriority": "Authorization-rejected historical record; reconsider only if a different PNC requisition explicitly supports OPT/STEM OPT",
       "careersUrl": "https://careers.pnc.com/global/en/c/students-graduates-jobs",
       "discoveryNote": "30-day backfill discovery through UNT Dallas public mirror. Exact delay cause is not proven."
+    },
+    {
+      "company": "Caterpillar",
+      "tier": "A+",
+      "area": "Irving, TX / Dallas-area placement (official header also Mossville, IL)",
+      "market": "DFW",
+      "title": "Autonomy and Robotics Engineer (R0000392427)",
+      "employment": "Full-time · Regular · Early Career · On-site 5 days/week",
+      "gradYear": "Degree completed by start date · fixed start date/graduation window not disclosed",
+      "match": "Very High technical fit · 94/100; Irving placement, start date and OPT remain gating items",
+      "ngCompatibility": "NG verification · official 0–2 years / first 24 months; 2027 post-graduation start not explicitly confirmed",
+      "assessment": "The Autonomous & Intelligent Systems team builds Physical AI for autonomous construction equipment across robotics, AI/ML, computer vision, sensor fusion, navigation, machine control, digital twins, simulation and scalable software platforms. The JD explicitly targets foundational talent generally within the first 24 months and accepts 0–2 years, with internships/projects counted. Qien's Data Science background, Python/ML experience and applied-AI direction align strongly. The official header includes Irving and the JD says placements are typically Peoria IL or Dallas TX, but it does not guarantee Irving selection or disclose a start date. Confirm Irving/Dallas placement, post-May-2027 start, and OPT before upgrading to Table 2.",
+      "visa": "JD says sponsorship now or in the future and visa sponsorship are not available, but does not explicitly mention or exclude F-1 OPT/STEM OPT. Under monitor rules, verify initial OPT acceptance, employing entity E-Verify/I-983 support, STEM extension, and future status strategy.",
+      "found": "2026-09-30",
+      "officialPostedDate": "2026-09-11",
+      "firstSeen": "2026-09-30",
+      "firstArchived": "2026-09-30",
+      "firstNotifiedDate": "2026-09-30",
+      "lastChecked": "2026-09-30",
+      "lastCheckedAt": "2026-09-30T13:21:47Z",
+      "officialStatus": "Official Caterpillar page open; Apply Now active; deadline 2026-11-13",
+      "source": "Caterpillar official Careers JD; surfaced by targeted Caterpillar Irving backfill",
+      "url": "https://careers.caterpillar.com/en/jobs/r0000392427/autonomy-and-robotics-engineer/",
+      "status": "ng-verification",
+      "finalPriority": "及时核实 · 可先准备/申请；确认 Irving/Dallas placement、2027年5月后入职及 F-1 OPT 后可升级为立即投",
+      "roleTrack": "Physical AI / Robotics / Autonomy / Computer Vision / ML Software Engineering",
+      "seniorityGap": "Low · official 0–2 years; foundational talent generally within first 24 months; internships/projects count",
+      "technicalGrowth": "97/100 · robotics, autonomy, perception, sensor fusion, simulation/digital twins and production physical-AI systems",
+      "brandPlatform": "93/100 · global industrial and autonomous-equipment platform with real-world AI deployment",
+      "ryanUpgrade": "93/100 conditional · substantially stronger Physical AI/ML engineering growth and higher base ceiling; location/start/OPT must clear",
+      "compensation": "Official base $89,210–$144,960; incentive bonus eligible; equity and reliable estimated TC not disclosed",
+      "officePerks": "Irving/Dallas-area placement must be confirmed; onsite 5 days/week; relocation may be available. From Plano 75075, Irving is generally feasible but traffic-sensitive (~30–50+ minutes each way). Meals not disclosed.",
+      "jobId": "R0000392427",
+      "relatedJobId": "R0000392872 / R0000392873",
+      "deadline": "2026-11-13",
+      "archiveUrl": "job-archive/caterpillar/R0000392427/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "strategyPriority": "Highest-value Caterpillar verification lead; do not show in Table 2 until location/start-date/OPT gates are confirmed",
+      "companyProfile": "Caterpillar's Autonomous & Intelligent Systems organization develops AI-powered machines that perceive, reason and act in complex physical environments.",
+      "whyRyan": "If Dallas/Irving and OPT-compatible, this is a clear technical-growth upgrade over Ryan: direct Physical AI, autonomy, perception and robotics software at global equipment scale, with a higher official base ceiling.",
+      "targetRoles": "Early Career Autonomy Engineer / Robotics Software Engineer / Physical AI Engineer / Computer Vision Engineer",
+      "careersUrl": "https://careers.caterpillar.com/en/jobs/",
+      "discoveryNote": "补发现：official post predates first discovery by 19 days. The specific cause of delayed discovery is not proven."
     }
   ]
 }
