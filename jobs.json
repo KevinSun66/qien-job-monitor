@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T22:18:10Z",
+  "updatedAt": "2026-09-30T23:22:08Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,7 +231,7 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T22:18:10Z",
+      "lastCheckedAt": "2026-09-30T23:22:08Z",
       "officialStatus": "Official Goldman role and Apply link active"
     },
     {
@@ -272,7 +272,7 @@
       "archiveUrl": "job-archive/goldman-sachs/181810/job-description.md",
       "archiveLabel": "JD 快照",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T22:18:10Z",
+      "lastCheckedAt": "2026-09-30T23:22:08Z",
       "officialStatus": "Official Goldman role and Apply link active"
     },
     {
@@ -358,8 +358,8 @@
       "archiveUrl": "job-archive/optiver-graduate-software-engineer-2027-start.pdf",
       "archiveLabel": "JD PDF 快照",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T22:18:10Z",
-      "officialStatus": "Official Optiver Austin technology listing still includes this graduate role, but the linked detail page returned 404 on 2026-09-30; closure unconfirmed; retain pending link recovery"
+      "lastCheckedAt": "2026-09-30T23:22:08Z",
+      "officialStatus": "Official Optiver Austin technology listing still includes the 2027 graduate role on 2026-09-30, but linked detail page returns 404; closure unconfirmed; retain pending link recovery"
     },
     {
       "company": "Bitdeer",
@@ -730,8 +730,8 @@
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
       "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T22:18:10Z",
-      "officialStatus": "UNT Dallas mirror intermittently returns 404/429; official employer closure unconfirmed; retain pending source recovery"
+      "lastCheckedAt": "2026-09-30T23:22:08Z",
+      "officialStatus": "UNT Dallas mirror returned 429 on 2026-09-30; employer closure unconfirmed; retain pending source recovery"
     },
     {
       "company": "Metrum AI",
@@ -993,7 +993,7 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T22:18:10Z",
+      "lastCheckedAt": "2026-09-30T23:22:08Z",
       "officialStatus": "Official Amazon role and Apply now link active",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
@@ -1899,8 +1899,8 @@
       "firstArchived": "2026-09-30",
       "firstNotifiedDate": "2026-09-30",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T22:18:10Z",
-      "officialStatus": "Official Salesforce Futureforce listing/search still indexed today with JR355250; individual Workday page yields blank in web tool; closure unconfirmed; start and OPT unverified",
+      "lastCheckedAt": "2026-09-30T23:22:08Z",
+      "officialStatus": "Salesforce Futureforce search and JR355250 remain indexed; detail page yields blank in web tool; closure unconfirmed; start and OPT unverified",
       "source": "Salesforce official Careers/Workday; surfaced by Simplify New Grad repository backfill and verified against the complete official posting",
       "url": "https://www.salesforce.com/company/careers/jobs/JR355250/software-engineering-amts-college-grad/",
       "status": "current",
@@ -1964,6 +1964,66 @@
       "targetRoles": "AI Automation Engineer / Physical AI Engineer / Computer Vision ML Engineer / Robotics Data Engineer",
       "careersUrl": "https://careers.caterpillar.com/en/jobs/",
       "discoveryNote": "补发现：official post predates first discovery by 12 days. The specific cause of delayed discovery is not proven."
+    },
+    {
+      "company": "Micron Technology",
+      "tier": "A",
+      "area": "Richardson, TX",
+      "market": "DFW",
+      "title": "New College Grad - AI Infrastructure & HBM Architecture Engineer (JR109578)",
+      "employment": "Full-time · New College Grad · Richardson",
+      "gradYear": "Master's or PhD required; bachelor's-only Qien ineligible",
+      "match": "Low · hardware architecture focus and degree mismatch",
+      "ngCompatibility": "New College Grad title; degree hard gate fails",
+      "assessment": "Official Micron Workday req JR109578 (posted 2026-09-17) requires currently pursuing a Master's or PhD in EE, CE, CS, or related field. Work concerns HBM memory architecture, AI cluster performance modeling, and hardware/software interaction. Qien is graduating with a bachelor's degree in May 2027, so exclude despite the title and Richardson location. Backfilled 13 days after official posted date; no claim about cause.",
+      "visa": "Not evaluated after degree exclusion",
+      "found": "2026-09-30",
+      "firstSeen": "2026-09-30",
+      "officialPostedDate": "2026-09-17",
+      "lastChecked": "2026-09-30",
+      "lastCheckedAt": "2026-09-30T23:22:08Z",
+      "officialStatus": "Official Micron Workday application indexed and active on 2026-09-30",
+      "source": "Micron Workday official; surfaced from 2027 AI new-grad repository",
+      "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/New-College-Grad---AI-Infrastructure---HBM-Architecture-Engineer_JR109578",
+      "status": "degree-rejected",
+      "finalPriority": "不投 · 硕士/博士学位硬门槛",
+      "roleTrack": "AI Infrastructure / HBM Architecture",
+      "technicalGrowth": "高，但偏硬件系统架构",
+      "brandPlatform": "较 Ryan 更强的半导体 AI 基础设施平台",
+      "ryanUpgrade": "不适用 · 学位不符",
+      "compensation": "未在官方 JD 核实",
+      "jobId": "JR109578",
+      "deadline": "未披露"
+    },
+    {
+      "company": "Cirrus Logic",
+      "tier": "A",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "AI Applications Engineer (Lever 39e72f1c-e12b-4395-8f42-7e23b4928e98)",
+      "employment": "Full-time · On-site · Austin",
+      "gradYear": "Not a 0-year entry role; 1+ years relevant SWE required",
+      "match": "High technical fit, but fails Qien's minimum-experience rule",
+      "ngCompatibility": "Not confirmed for 2027; explicit 1+ years requirement",
+      "assessment": "Official Cirrus Lever JD covers AI-enabled tools, agent workflows and AI platform infrastructure for engineering operations. It explicitly requires 1+ years of relevant software engineering experience. Qien's rule excludes any minimum that starts at 1 year, so keep out of Table2. The JD also states candidates must be authorized to work for any US employer and no employment-visa sponsorship; OPT interpretation was not verified because experience gate already fails.",
+      "visa": "Requires authorization for any employer and says no employment-visa sponsorship; F-1 OPT not confirmed",
+      "found": "2026-09-30",
+      "firstSeen": "2026-09-30",
+      "officialPostedDate": "未披露",
+      "lastChecked": "2026-09-30",
+      "lastCheckedAt": "2026-09-30T23:22:08Z",
+      "officialStatus": "Official Lever page with Apply link active on 2026-09-30",
+      "source": "Cirrus Logic official Lever; surfaced from 2027 AI new-grad repository",
+      "url": "https://jobs.eu.lever.co/cirrus/39e72f1c-e12b-4395-8f42-7e23b4928e98",
+      "status": "seniority-rejected",
+      "finalPriority": "不投 · 1+ 年最低经验要求",
+      "roleTrack": "Applied AI Engineering / AI Developer Tools",
+      "technicalGrowth": "高",
+      "brandPlatform": "相对 Ryan 的技术成长可能提升；薪资未核实",
+      "ryanUpgrade": "不适用 · 经验门槛不符",
+      "compensation": "官方未披露",
+      "jobId": "39e72f1c-e12b-4395-8f42-7e23b4928e98",
+      "deadline": "未披露"
     }
   ]
 }
