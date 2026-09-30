@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T05:21:35Z",
+  "updatedAt": "2026-09-30T06:17:16Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,8 +231,8 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T05:21:35Z",
-      "officialStatus": "Official role remains indexed active; application link retained"
+      "lastCheckedAt": "2026-09-30T06:17:16Z",
+      "officialStatus": "Official Goldman Sachs role remains active and indexed"
     },
     {
       "company": "Kyndryl",
@@ -272,7 +272,7 @@
       "archiveUrl": "job-archive/goldman-sachs/181810/job-description.md",
       "archiveLabel": "JD 快照",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T05:21:35Z",
+      "lastCheckedAt": "2026-09-30T06:17:16Z",
       "officialStatus": "Official role and Apply link active"
     },
     {
@@ -358,7 +358,7 @@
       "archiveUrl": "job-archive/optiver-graduate-software-engineer-2027-start.pdf",
       "archiveLabel": "JD PDF 快照",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T05:21:35Z",
+      "lastCheckedAt": "2026-09-30T06:17:16Z",
       "officialStatus": "Official role and Apply link active"
     },
     {
@@ -730,7 +730,7 @@
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
       "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T05:21:35Z",
+      "lastCheckedAt": "2026-09-30T06:17:16Z",
       "officialStatus": "UNT Dallas public mirror remains active; expires 2026-10-17"
     },
     {
@@ -993,7 +993,7 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T05:21:35Z",
+      "lastCheckedAt": "2026-09-30T06:17:16Z",
       "officialStatus": "Official Amazon Jobs role and Apply now link active",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
@@ -1314,6 +1314,43 @@
       "archiveUrl": "job-archive/caterpillar/R0000380992/job-description.md",
       "archiveLabel": "JD 归档摘要",
       "strategyPriority": "High-value manual verification only; distinct from user-rejected Caterpillar R0000395610"
+    },
+    {
+      "company": "Verizon",
+      "tier": "A+",
+      "area": "Irving, TX / Basking Ridge, NJ",
+      "market": "DFW",
+      "title": "AI Engineer — AI Platform Engineering",
+      "employment": "Full-time · Hybrid · on-call rotation",
+      "gradYear": "Experienced hire · explicit 4+ years relevant experience",
+      "match": "Excellent technical direction; seniority hard fail",
+      "ngCompatibility": "Not NG-compatible · explicit four or more years required",
+      "assessment": "A new-grad aggregation repository surfaced this Irving role, but the complete mirrored JD requires four or more years of relevant experience. The work is highly relevant—enterprise AI gateway, model routing, Verizon Agent SDK, MCP integrations, evaluation pipelines, Kubernetes, multi-cloud LLM infrastructure and DevSecOps—but it is an experienced production-platform hire and cannot enter Table 2.",
+      "visa": "Not adjudicated because the explicit 4+ years experience requirement already hard-fails.",
+      "found": "2026-09-30",
+      "officialPostedDate": "2026-09-08",
+      "firstSeen": "2026-09-30",
+      "firstArchived": "2026-09-30",
+      "firstNotifiedDate": "2026-09-30",
+      "lastChecked": "2026-09-30",
+      "lastCheckedAt": "2026-09-30T06:17:16Z",
+      "officialStatus": "Exact Verizon requisition page/job ID not recovered in live search; complete mirrored JD remains indexed",
+      "source": "Verizon complete-JD mirrors; new-grad repository used only as discovery source",
+      "url": "https://mycareer.verizon.com/jobs/",
+      "status": "seniority-rejected",
+      "finalPriority": "不投 · 明确要求4年以上相关经验",
+      "roleTrack": "AI Platform Engineering / LLM Infrastructure / Agentic AI / MLOps",
+      "seniorityGap": "High · explicit 4+ years",
+      "technicalGrowth": "98/100",
+      "brandPlatform": "95/100",
+      "ryanUpgrade": "Not applicable because seniority hard-fails",
+      "compensation": "Mirrored employer range $101,000–$194,000 base; bonus/equity/estimated TC not verified",
+      "officePerks": "Irving hybrid; manager-set minimum office cadence not recovered for this exact requisition; on-call required",
+      "jobId": "verizon-ai-platform-engineering-irving-2026-09-08",
+      "deadline": "Not recovered",
+      "archiveUrl": "job-archive/verizon/verizon-ai-platform-engineering-irving-2026-09-08/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "strategyPriority": "Archive exclusion; do not re-alert from new-grad aggregators unless Verizon publishes a distinct 0-YOE/Campus requisition"
     }
   ]
 }
