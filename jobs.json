@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T01:19:17Z",
+  "updatedAt": "2026-09-30T02:20:24Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,7 +231,7 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-30T01:19:17Z",
+      "lastCheckedAt": "2026-09-30T02:20:24Z",
       "officialStatus": "Official fetch restricted this check; no new closure evidence"
     },
     {
@@ -272,7 +272,7 @@
       "archiveUrl": "job-archive/goldman-sachs/181810/job-description.md",
       "archiveLabel": "JD 快照",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-30T01:19:17Z",
+      "lastCheckedAt": "2026-09-30T02:20:24Z",
       "officialStatus": "Official role and Apply link active"
     },
     {
@@ -358,8 +358,8 @@
       "archiveUrl": "job-archive/optiver-graduate-software-engineer-2027-start.pdf",
       "archiveLabel": "JD PDF 快照",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-30T01:19:17Z",
-      "officialStatus": "Official fetch restricted this check; confirmed active during the previous hourly check and no closure evidence"
+      "lastCheckedAt": "2026-09-30T02:20:24Z",
+      "officialStatus": "Official role and Apply link active"
     },
     {
       "company": "Bitdeer",
@@ -730,8 +730,8 @@
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
       "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-30T01:19:17Z",
-      "officialStatus": "Source fetch restricted this check; no new closure evidence"
+      "lastCheckedAt": "2026-09-30T02:20:24Z",
+      "officialStatus": "Source fetch rate-limited this check; no new closure evidence"
     },
     {
       "company": "Metrum AI",
@@ -993,8 +993,8 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-30T01:19:17Z",
-      "officialStatus": "Official fetch restricted this check; no new closure evidence",
+      "lastCheckedAt": "2026-09-30T02:20:24Z",
+      "officialStatus": "Official role and Apply link active",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
       "status": "current",
