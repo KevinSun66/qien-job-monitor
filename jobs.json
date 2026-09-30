@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T06:17:16Z",
+  "updatedAt": "2026-09-30T07:18:42Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,8 +231,8 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T06:17:16Z",
-      "officialStatus": "Official Goldman Sachs role remains active and indexed"
+      "lastCheckedAt": "2026-09-30T07:18:42Z",
+      "officialStatus": "Official Goldman Sachs role and Apply link active"
     },
     {
       "company": "Kyndryl",
@@ -730,8 +730,8 @@
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
       "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T06:17:16Z",
-      "officialStatus": "UNT Dallas public mirror remains active; expires 2026-10-17"
+      "lastCheckedAt": "2026-09-30T07:18:42Z",
+      "officialStatus": "UNT Dallas public career mirror remains active; recruitment began 2026-09-16 and expires 2026-10-17"
     },
     {
       "company": "Metrum AI",
@@ -993,7 +993,7 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T06:17:16Z",
+      "lastCheckedAt": "2026-09-30T07:18:42Z",
       "officialStatus": "Official Amazon Jobs role and Apply now link active",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
@@ -1351,6 +1351,47 @@
       "archiveUrl": "job-archive/verizon/verizon-ai-platform-engineering-irving-2026-09-08/job-description.md",
       "archiveLabel": "JD 归档摘要",
       "strategyPriority": "Archive exclusion; do not re-alert from new-grad aggregators unless Verizon publishes a distinct 0-YOE/Campus requisition"
+    },
+    {
+      "company": "Expedia Group",
+      "tier": "S-",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Forward Deployed AI Engineer III (R-108423)",
+      "employment": "Full-Time Regular · AI & Automation Team · platform/enterprise AI",
+      "gradYear": "Experienced hire · explicit 5+ years, or 3+ years with a Master's degree",
+      "match": "Excellent technical direction; seniority hard fail",
+      "ngCompatibility": "Not NG-compatible · explicit 5+ years minimum (3+ with Master's)",
+      "assessment": "Expedia's AI & Automation Team role owns cloud infrastructure and enterprise AI systems, including service/integration architecture, IaC and policy-as-code, SLOs and observability, enterprise SaaS integrations, AI guardrails, LLM/RAG/agentic workflows, incident leadership and mentorship. A new-grad aggregation repository surfaced the role, but the official complete JD requires 5+ years in infrastructure/platform/enterprise systems engineering, or 3+ years with a Master's degree. It is an experienced production-platform hire and cannot enter Table 2.",
+      "visa": "Official page states Expedia participates in E-Verify. F-1 OPT/STEM OPT and sponsorship are not expressly disclosed; not adjudicated further because seniority already hard-fails.",
+      "found": "2026-09-30",
+      "officialPostedDate": "2026-09-14",
+      "firstSeen": "2026-09-30",
+      "firstArchived": "2026-09-30",
+      "firstNotifiedDate": "2026-09-30",
+      "lastChecked": "2026-09-30",
+      "lastCheckedAt": "2026-09-30T07:18:42Z",
+      "officialStatus": "Official Expedia Group Careers page and application route active",
+      "source": "Expedia Group official Careers JD; new-grad repository used only as discovery source",
+      "url": "https://careers.expediagroup.com/job/enterprise-ai-engineer-iii/austin-tx/R-108423/",
+      "status": "seniority-rejected",
+      "finalPriority": "不投 · 明确要求5年以上经验（硕士也需3年以上）",
+      "roleTrack": "Forward Deployed AI / AI Platform Engineering / Enterprise AI Infrastructure",
+      "seniorityGap": "High · explicit 5+ years, or 3+ years with Master's",
+      "technicalGrowth": "97/100",
+      "brandPlatform": "95/100",
+      "ryanUpgrade": "Not applicable because seniority hard-fails",
+      "compensation": "Official Austin total-cash range $116,500–$163,000; potential progression up to $186,500 based on sustained performance. Bonus/equity and estimated TC not separately disclosed.",
+      "officePerks": "Austin · exact hybrid/on-site cadence, meals and role-specific perks not disclosed",
+      "jobId": "R-108423",
+      "deadline": "Not disclosed",
+      "archiveUrl": "job-archive/expedia/R-108423/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "strategyPriority": "Archive exclusion; do not re-alert from new-grad aggregators unless Expedia publishes a distinct 0-YOE/Campus requisition",
+      "companyProfile": "Expedia Group operates global travel brands and platforms; its AI & Automation Team enables enterprise AI tools, assistants and production AI infrastructure.",
+      "whyRyan": "The brand and AI-platform scope are stronger than Ryan, but the role is categorically unavailable under the new-graduate seniority gate.",
+      "targetRoles": "Campus/Early Career AI Engineer / ML Engineer / AI Platform Engineer / Software Engineer",
+      "careersUrl": "https://careers.expediagroup.com/jobs/"
     }
   ]
 }
