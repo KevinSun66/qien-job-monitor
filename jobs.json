@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T23:24:11Z",
+  "updatedAt": "2026-09-30T00:22:19Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,8 +231,8 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-29T23:24:11Z",
-      "officialStatus": "Official fetch restricted this check; active earlier today and no closure evidence"
+      "lastCheckedAt": "2026-09-30T00:22:19Z",
+      "officialStatus": "Official fetch restricted this check; no new closure evidence"
     },
     {
       "company": "Kyndryl",
@@ -358,7 +358,7 @@
       "archiveUrl": "job-archive/optiver-graduate-software-engineer-2027-start.pdf",
       "archiveLabel": "JD PDF 快照",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-29T23:24:11Z",
+      "lastCheckedAt": "2026-09-30T00:22:19Z",
       "officialStatus": "Official role and Apply link active"
     },
     {
@@ -535,13 +535,13 @@
       "employment": "全职 · 入门级 · Dallas 办公室",
       "gradYear": "接受量化专业本科；2027 年 5 月毕业后入职时间未披露",
       "match": "很高 · 应用 AI/智能体与数据科学背景匹配",
-      "ngCompatibility": "入门级 · 无全职经验要求；2027 年入职批次需核实",
-      "assessment": "岗位直接开发并部署企业 AI 智能体、LLM 应用及内部系统集成，涉及评估、权限控制、上线监控和 CI/CD；本科量化专业及实习、课程、研究或个人 AI 项目经验均可。Qien 的统计/数据科学、Python/SQL、LLM/Agent 经历契合。职位没有披露能否等到 2027 年 5 月毕业后入职；已于 2026-09-28 报告投递；继续确认 2027 入职批次、办公地址与 OPT。官方未披露薪资；综合 Dallas AI Engineer I 市场数据和第三方岗位估值，基本工资估算约 $90K–$110K，较可能 $95K–$105K。相较 Ryan（$83K 基本工资、约 5% 奖金），技术成长更直接，现金薪酬可能提高，但品牌平台不构成明显升级；若底薪达到 $100K–$105K 以上，才算较明确的综合升级。",
+      "ngCompatibility": "Closed / official Trinity page says the position has been closed",
+      "assessment": "岗位直接开发并部署企业 AI 智能体、LLM 应用及内部系统集成，涉及评估、权限控制、上线监控和 CI/CD；本科量化专业及实习、课程、研究或个人 AI 项目经验均可。Qien 的统计/数据科学、Python/SQL、LLM/Agent 经历契合。职位没有披露能否等到 2027 年 5 月毕业后入职；已于 2026-09-28 报告投递；继续确认 2027 入职批次、办公地址与 OPT。官方未披露薪资；综合 Dallas AI Engineer I 市场数据和第三方岗位估值，基本工资估算约 $90K–$110K，较可能 $95K–$105K。相较 Ryan（$83K 基本工资、约 5% 奖金），技术成长更直接，现金薪酬可能提高，但品牌平台不构成明显升级；若底薪达到 $100K–$105K 以上，才算较明确的综合升级。 2026-09-29 晚间复核官方 Trinity Careers 页面时，页面已明确显示该职位已关闭，因此从 Dallas 当前表2移除；保留历史申请/监控记录与 JD 归档。",
       "visa": "官方注明参与 E-Verify；未披露是否接受 F-1 OPT，STEM OPT 延期及 I-983 配合需核实。",
       "found": "2026-09-27",
       "url": "https://trinity.referrals.selectminds.com/jobs/ai-engineer-associate-13885",
-      "status": "current",
-      "finalPriority": "已投递 · 跟踪申请进展；核实 2027 入职、OPT 与薪酬",
+      "status": "closed-watch",
+      "finalPriority": "已关闭 · 从 Dallas 当前表2移除",
       "roleTrack": "应用 AI 工程 / 智能体 / LLM 应用",
       "seniorityGap": "低 · 明确入门级，学生项目可作为经历",
       "technicalGrowth": "高 · 企业智能体从原型到生产部署",
@@ -561,8 +561,9 @@
       "archiveUrl": "job-archive/trinity/2600865/job-description.md",
       "archiveLabel": "JD 快照（原始 PDF 另存）",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-29T23:24:11Z",
-      "officialStatus": "Official fetch restricted this check; search index still shows active Apply action"
+      "lastCheckedAt": "2026-09-30T00:22:19Z",
+      "officialStatus": "Closed — official Trinity Careers page states the position has been closed",
+      "closedDate": "2026-09-29"
     },
     {
       "company": "Applied Materials",
@@ -729,8 +730,8 @@
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
       "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-29T23:24:11Z",
-      "officialStatus": "No new closure evidence; retained at last-known open/applied status"
+      "lastCheckedAt": "2026-09-30T00:22:19Z",
+      "officialStatus": "Source fetch rate-limited this check; no new closure evidence"
     },
     {
       "company": "Metrum AI",
@@ -992,8 +993,8 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-29T23:24:11Z",
-      "officialStatus": "Official role and Apply link active",
+      "lastCheckedAt": "2026-09-30T00:22:19Z",
+      "officialStatus": "Official fetch restricted this check; no new closure evidence",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
       "status": "current",
