@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T02:20:24Z",
+  "updatedAt": "2026-09-30T03:16:48Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,7 +231,7 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-30T02:20:24Z",
+      "lastCheckedAt": "2026-09-30T03:16:48Z",
       "officialStatus": "Official fetch restricted this check; no new closure evidence"
     },
     {
@@ -272,7 +272,7 @@
       "archiveUrl": "job-archive/goldman-sachs/181810/job-description.md",
       "archiveLabel": "JD 快照",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-30T02:20:24Z",
+      "lastCheckedAt": "2026-09-30T03:16:48Z",
       "officialStatus": "Official role and Apply link active"
     },
     {
@@ -358,7 +358,7 @@
       "archiveUrl": "job-archive/optiver-graduate-software-engineer-2027-start.pdf",
       "archiveLabel": "JD PDF 快照",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-30T02:20:24Z",
+      "lastCheckedAt": "2026-09-30T03:16:48Z",
       "officialStatus": "Official role and Apply link active"
     },
     {
@@ -730,8 +730,8 @@
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
       "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-30T02:20:24Z",
-      "officialStatus": "Source fetch rate-limited this check; no new closure evidence"
+      "lastCheckedAt": "2026-09-30T03:16:48Z",
+      "officialStatus": "Official mirror retrieval unavailable this check; no new closure evidence"
     },
     {
       "company": "Metrum AI",
@@ -993,8 +993,8 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-30T02:20:24Z",
-      "officialStatus": "Official role and Apply link active",
+      "lastCheckedAt": "2026-09-30T03:16:48Z",
+      "officialStatus": "Official page retrieval unavailable this check; no new closure evidence",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
       "status": "current",
@@ -1239,6 +1239,44 @@
       "whyRyan": "This role could improve cloud/lakehouse and AI-data-platform engineering depth, but Vizient's brand and the lower end of the pay range do not automatically beat Ryan. It becomes worth switching only with confirmed eligibility and an offer materially above Ryan or a substantially stronger AI/data-platform team.",
       "targetRoles": "Data Engineer / AI Data Platform Engineer / ML Data Infrastructure",
       "careersUrl": "https://www.vizientinc.com/about-us/careers"
+    },
+    {
+      "company": "Charles Schwab",
+      "tier": "A+",
+      "area": "Southlake, TX / Austin, TX / Orlando, FL",
+      "market": "DFW / Austin",
+      "title": "Associate - Software Development & Engineering (2026-126526)",
+      "employment": "Full-time · Regular · Early Career · New Employee Recruitment Development Program",
+      "gradYear": "New college graduate program; mandatory February 1, 2027 start",
+      "match": "High early-career software fit; start-date hard fail",
+      "ngCompatibility": "Not compatible · official full-time start is 2027-02-01, before Qien's May 2027 graduation",
+      "assessment": "Schwab's official JD is a genuine nine-month early-career technology development program with training, mentorship and hands-on software engineering across front-end, back-end and full-stack teams. It accepts bachelor's/master's candidates and experience from coursework, projects, internships or technical training, with no numeric YOE floor. However, the official JD requires availability to start full-time on February 1, 2027, which is before Qien's expected May 2027 graduation. The application deadline was September 28, 2026, one day before this backfill discovery.",
+      "visa": "Official JD requires current full-time U.S. work authorization without employer sponsorship but does not expressly mention F-1 OPT/STEM OPT. OPT was not further adjudicated because the start date already hard-fails.",
+      "found": "2026-09-29",
+      "officialPostedDate": "Not displayed on the accessible official page",
+      "firstSeen": "2026-09-29",
+      "firstArchived": "2026-09-29",
+      "firstNotifiedDate": "2026-09-29",
+      "lastChecked": "2026-09-29",
+      "lastCheckedAt": "2026-09-30T03:16:48Z",
+      "officialStatus": "Official page accessible; application deadline passed 2026-09-28",
+      "source": "Charles Schwab official careers JD; surfaced by 30-day early-career backfill",
+      "url": "https://www.schwabjobs.com/en/job/southlake/associate-software-development-and-engineering/33727/101131278688",
+      "status": "start-date-rejected",
+      "finalPriority": "不投 · 2027-02-01 入职早于毕业，且申请截止日已过",
+      "roleTrack": "General Software Engineering / Early Career Development Program; AI team assignment unknown",
+      "seniorityGap": "None · true early-career/new-college-graduate program",
+      "technicalGrowth": "86/100 · structured training and broad SWE exposure; AI/ML assignment not indicated",
+      "brandPlatform": "91/100 · strong financial-services technology platform",
+      "ryanUpgrade": "Not applicable because start-date hard-fails",
+      "compensation": "Official $27.60–$52.74/hour (approximately $57.4K–$109.7K annualized at 2,080 hours); bonus/equity not disclosed",
+      "officePerks": "Southlake/Austin/Orlando · in-office collaboration expected; exact cadence and location-selection mechanics not disclosed",
+      "jobId": "2026-126526",
+      "startDate": "2027-02-01",
+      "deadline": "2026-09-28",
+      "archiveUrl": "job-archive/charles-schwab/2026-126526/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "strategyPriority": "Archive exclusion; monitor later June/September NERD cohorts compatible with May 2027 graduation"
     }
   ]
 }
