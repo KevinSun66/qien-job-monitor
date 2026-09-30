@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T10:20:00Z",
+  "updatedAt": "2026-09-30T11:17:40Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,7 +231,7 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T10:20:00Z",
+      "lastCheckedAt": "2026-09-30T11:17:40Z",
       "officialStatus": "Official Goldman role and Apply link active"
     },
     {
@@ -272,7 +272,7 @@
       "archiveUrl": "job-archive/goldman-sachs/181810/job-description.md",
       "archiveLabel": "JD 快照",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T10:20:00Z",
+      "lastCheckedAt": "2026-09-30T11:17:40Z",
       "officialStatus": "Official Goldman role and Apply link active"
     },
     {
@@ -358,7 +358,7 @@
       "archiveUrl": "job-archive/optiver-graduate-software-engineer-2027-start.pdf",
       "archiveLabel": "JD PDF 快照",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T10:20:00Z",
+      "lastCheckedAt": "2026-09-30T11:17:40Z",
       "officialStatus": "Official Optiver role and Apply link active"
     },
     {
@@ -730,8 +730,8 @@
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
       "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T10:20:00Z",
-      "officialStatus": "UNT Dallas mirror returned transient 429 this check; no closure evidence; last verified open with 2026-10-17 deadline"
+      "lastCheckedAt": "2026-09-30T11:17:40Z",
+      "officialStatus": "No closure evidence; UNT Dallas mirror returned transient HTTP 429 during this check"
     },
     {
       "company": "Metrum AI",
@@ -993,8 +993,8 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T10:20:00Z",
-      "officialStatus": "Official Amazon role and Apply now link active",
+      "lastCheckedAt": "2026-09-30T11:17:40Z",
+      "officialStatus": "Official Amazon role and Apply link active",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
       "status": "current",
@@ -1588,6 +1588,49 @@
       "companyProfile": "Caterpillar's Cat Digital organization builds connectivity, enterprise data, analytics and AI for connected equipment, fleet management and predictive maintenance at global industrial scale.",
       "whyRyan": "If Irving and OPT-compatible, the role offers stronger hands-on ML/GenAI/IoT modeling and a higher base ceiling than Ryan, with a distinctive industrial-AI platform; location and authorization uncertainty are the main blockers.",
       "targetRoles": "Early Career Data Scientist / ML Engineer / GenAI Engineer / IoT Analytics",
+      "careersUrl": "https://careers.caterpillar.com/en/jobs/",
+      "discoveryNote": "补发现：official post predates first discovery by 19 days. The specific cause of delayed discovery is not proven."
+    },
+    {
+      "company": "Caterpillar",
+      "tier": "A+",
+      "area": "Irving, TX (limited Dallas-area placements; primary locations Illinois)",
+      "market": "DFW",
+      "title": "Software Engineer (R0000392873)",
+      "employment": "Full-time · Regular · Early Career (generally first 24 months)",
+      "gradYear": "Degree must be completed by start date · fixed start date/graduation window not disclosed",
+      "match": "High · 90/100; team, Irving placement, start date and OPT remain gating items",
+      "ngCompatibility": "NG verification · official 0–2 years; 2027 post-graduation start not explicitly confirmed",
+      "assessment": "Cat Digital explicitly frames this as an early-career launch point, generally within the first 24 months, and accepts 0–2 years while valuing internships, projects, research and coursework. Depending on team placement, work may include AI-powered solutions, .NET AI agents, Python data pipelines/SageMaker notebooks, GenAI tooling, cloud platforms and enterprise software. The official header includes Irving, but the JD says Dallas placements are limited and primary locations are Chicago/Peoria. The start date and graduation window are not disclosed. Confirm an Irving opening, post-May-2027 start, AI/data-oriented team placement and OPT before upgrading to Table 2.",
+      "visa": "JD says sponsorship now or in the future is not available, but does not explicitly mention or exclude F-1 OPT/STEM OPT. Verify initial OPT acceptance, employing entity E-Verify/I-983 support, STEM extension and future status strategy.",
+      "found": "2026-09-30",
+      "officialPostedDate": "2026-09-11",
+      "firstSeen": "2026-09-30",
+      "firstArchived": "2026-09-30",
+      "firstNotifiedDate": "2026-09-30",
+      "lastChecked": "2026-09-30",
+      "lastCheckedAt": "2026-09-30T11:17:40Z",
+      "officialStatus": "Official Caterpillar page open; Apply Now active; deadline 2026-11-13",
+      "source": "Caterpillar official Careers JD; surfaced by targeted Caterpillar Irving backfill",
+      "url": "https://careers.caterpillar.com/en/jobs/r0000392873/software-engineer/",
+      "status": "ng-verification",
+      "finalPriority": "及时核实 · 确认 Irving placement、2027年5月后入职、AI/数据团队及 F-1 OPT 后可升级为可以投",
+      "roleTrack": "Software Engineering / Applied AI / GenAI / Data Pipelines",
+      "seniorityGap": "Low · official 0–2 years; internships, projects, research and coursework valued",
+      "technicalGrowth": "91/100 conditional · AI agents, GenAI, SageMaker/Python pipelines, cloud and enterprise software depend on team placement",
+      "brandPlatform": "92/100 · Cat Digital global connected-equipment and industrial technology platform",
+      "ryanUpgrade": "88/100 conditional · higher base ceiling and stronger engineering upside, but AI team placement is not guaranteed",
+      "compensation": "Official base $89,210–$144,960; incentive bonus eligible; equity and reliable estimated TC not disclosed",
+      "officePerks": "Irving option is limited and must be selected/confirmed; relocation may be available. From Plano 75075, Irving is generally feasible but traffic-sensitive (~30–50+ minutes each way). Hybrid/onsite cadence and meals not disclosed.",
+      "jobId": "R0000392873",
+      "relatedJobId": "R0000392872",
+      "deadline": "2026-11-13",
+      "archiveUrl": "job-archive/caterpillar/R0000392873/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "strategyPriority": "High-value DFW verification lead; do not show in Table 2 until location/start-date/OPT gates are confirmed",
+      "companyProfile": "Caterpillar's Cat Digital organization builds connectivity, enterprise data, analytics, AI and digital platforms for connected equipment at global industrial scale.",
+      "whyRyan": "If assigned to an AI/GenAI or data-platform team in Irving and OPT-compatible, it offers stronger software/AI engineering breadth and a higher base ceiling than Ryan; team, location and authorization uncertainty are the blockers.",
+      "targetRoles": "Early Career Software Engineer / Applied AI Engineer / GenAI Engineer / Data Platform Engineer",
       "careersUrl": "https://careers.caterpillar.com/en/jobs/",
       "discoveryNote": "补发现：official post predates first discovery by 19 days. The specific cause of delayed discovery is not proven."
     }
