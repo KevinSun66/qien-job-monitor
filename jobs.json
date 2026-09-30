@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T07:18:42Z",
+  "updatedAt": "2026-09-30T08:16:06Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,7 +231,7 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T07:18:42Z",
+      "lastCheckedAt": "2026-09-30T08:16:06Z",
       "officialStatus": "Official Goldman Sachs role and Apply link active"
     },
     {
@@ -272,7 +272,7 @@
       "archiveUrl": "job-archive/goldman-sachs/181810/job-description.md",
       "archiveLabel": "JD 快照",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T07:18:42Z",
+      "lastCheckedAt": "2026-09-30T08:16:06Z",
       "officialStatus": "Official Goldman Sachs role and Apply link active"
     },
     {
@@ -358,8 +358,8 @@
       "archiveUrl": "job-archive/optiver-graduate-software-engineer-2027-start.pdf",
       "archiveLabel": "JD PDF 快照",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T07:18:42Z",
-      "officialStatus": "Official Optiver role and Apply link active; Austin Graduate Software Engineer (2027 Start)"
+      "lastCheckedAt": "2026-09-30T08:16:06Z",
+      "officialStatus": "Official Optiver role and Apply link active"
     },
     {
       "company": "Bitdeer",
@@ -730,8 +730,8 @@
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
       "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T07:18:42Z",
-      "officialStatus": "UNT Dallas public career mirror remains active; recruitment began 2026-09-16 and expires 2026-10-17"
+      "lastCheckedAt": "2026-09-30T08:16:06Z",
+      "officialStatus": "UNT Dallas public career mirror remains active; expires 2026-10-17"
     },
     {
       "company": "Metrum AI",
@@ -993,7 +993,7 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T07:18:42Z",
+      "lastCheckedAt": "2026-09-30T08:16:06Z",
       "officialStatus": "Official Amazon Jobs role and Apply now link active",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
@@ -1392,6 +1392,81 @@
       "whyRyan": "The brand and AI-platform scope are stronger than Ryan, but the role is categorically unavailable under the new-graduate seniority gate.",
       "targetRoles": "Campus/Early Career AI Engineer / ML Engineer / AI Platform Engineer / Software Engineer",
       "careersUrl": "https://careers.expediagroup.com/jobs/"
+    },
+    {
+      "company": "Kyndryl",
+      "tier": "A+",
+      "area": "Dallas–Frisco AI HUB, Frisco, TX",
+      "market": "DFW",
+      "title": "Data Engineer / AI Data Engineer (R-66870)",
+      "employment": "Full-time · Partially Remote · indexed on Kyndryl Early Careers and Professional Careers",
+      "gradYear": "Early Careers channel; graduation window and start date not disclosed",
+      "match": "Very High technical fit; eligibility incomplete · 92/100",
+      "ngCompatibility": "NG verification · no numeric YOE minimum, but post-May-2027 start and OPT are unconfirmed",
+      "assessment": "Kyndryl's R-66870 builds the production data backbone for autonomous and agentic AI: RAG pipelines over unstructured IT data, vector embeddings/databases, knowledge graphs and semantic layers, data guardrails for bias/PII, source-quality remediation, and CI/CD for AI data infrastructure. The accessible official JD states no numeric minimum years requirement; prior Data Engineer/cloud modernization exposure and certifications are preferred rather than listed as mandatory. Because the start date/graduation window and OPT terms are not disclosed, preserve as a high-priority ng-verification lead instead of Table 2.",
+      "visa": "Official JD does not expressly confirm F-1 OPT/STEM OPT, employing-entity E-Verify, or sponsorship. It only states compliance with citizenship and immigration-status employment practices. Must verify before Table 2.",
+      "found": "2026-09-30",
+      "officialPostedDate": "Official page displayed Posted 14 Days Ago in current index; exact calendar date not exposed. UNT Dallas recruitment began 2026-09-17.",
+      "firstSeen": "2026-09-30",
+      "firstArchived": "2026-09-30",
+      "firstNotifiedDate": "2026-09-30",
+      "lastChecked": "2026-09-30",
+      "lastCheckedAt": "2026-09-30T08:16:06Z",
+      "officialStatus": "Official Kyndryl Early Careers and Professional Careers requisition pages indexed as active; campus mirror expires 2026-10-18",
+      "source": "Kyndryl official Workday requisition; UNT Dallas public campus mirror",
+      "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/USDALFRI---Dallas-Frisco-AI-HUB-FRI/Data-Engineer_R-66870-1",
+      "status": "ng-verification",
+      "finalPriority": "及时核实 / 可以先投 · 暂不进入表2；确认2027年5月后入职和OPT",
+      "roleTrack": "AI Data Engineering / RAG Infrastructure / Agentic AI / Vector Data Platform",
+      "seniorityGap": "Low to uncertain · no numeric minimum; required stack is substantial but early-careers channel is active",
+      "technicalGrowth": "96/100",
+      "brandPlatform": "89/100",
+      "ryanUpgrade": "88/100 conditional · much stronger RAG/agentic-AI infrastructure growth, but offer pay and eligibility must at least match Ryan",
+      "compensation": "Official U.S. base $63,360–$114,120 + discretionary annual bonus; equity and estimated TC not disclosed",
+      "officePerks": "Dallas–Frisco AI HUB · partially remote; exact hybrid cadence and Plano 75075 commute schedule not disclosed",
+      "jobId": "R-66870",
+      "deadline": "Campus mirror expires 2026-10-18; official application says rolling",
+      "archiveUrl": "job-archive/kyndryl/R-66870/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "relatedJobId": "R-66739",
+      "strategyPriority": "High-priority manual verification; distinct requisition from previously rejected R-66739"
+    },
+    {
+      "company": "Crowe",
+      "tier": "A",
+      "area": "Dallas option within 37 U.S. locations; exact office selection requires confirmation",
+      "market": "DFW",
+      "title": "Machine Learning Software Engineer 1 (R-71006)",
+      "employment": "Full-time · multi-location",
+      "gradYear": "Engineer I profile; not labeled Campus/New Grad; start date undisclosed",
+      "match": "High technical fit; Ryan-upgrade and eligibility incomplete · 85/100",
+      "ngCompatibility": "NG verification · no numeric YOE minimum, but graduation window/start date and OPT unconfirmed",
+      "assessment": "Crowe's Data Science Toolkit Team builds reusable Python libraries and services and helps move ML models from prototype to production. The JD includes Python, algorithms/data structures, Linux, Docker, REST APIs, cloud/distributed systems, CI/CD and ML familiarity. It requires no numeric YOE and accepts educational, research or hobby evidence, while describing execution with some direction and support. However, it is not a Campus/New Grad posting, does not disclose a summer-2027 start, and does not yet demonstrate a clear compensation/brand upgrade over Ryan.",
+      "visa": "Crowe says it is not sponsoring for work authorization at this time. The JD does not expressly exclude initial F-1 OPT, so OPT/STEM OPT and E-Verify require confirmation.",
+      "found": "2026-09-30",
+      "officialPostedDate": "Official page displayed Posted 30 Days Ago on 2026-09-30; exact date not exposed. UNT Dallas mirror recruitment began 2026-08-18.",
+      "firstSeen": "2026-09-30",
+      "firstArchived": "2026-09-30",
+      "firstNotifiedDate": "2026-09-30",
+      "lastChecked": "2026-09-30",
+      "lastCheckedAt": "2026-09-30T08:16:06Z",
+      "officialStatus": "Official Crowe Workday requisition and Apply route active; end date 2026-12-31",
+      "source": "Crowe official Workday JD; UNT Dallas public campus mirror and location index as discovery support",
+      "url": "https://crowe.wd12.myworkdayjobs.com/en-US/External_Careers/job/Machine-Learning-Software-Engineer-1_R-71006",
+      "status": "ng-verification",
+      "finalPriority": "核实后再决定 · 不进入表2",
+      "roleTrack": "ML Software Engineering / ML Platform Tooling / Model Productionization",
+      "seniorityGap": "Unclear but potentially junior · no numeric YOE; some-direction/support language",
+      "technicalGrowth": "91/100",
+      "brandPlatform": "84/100",
+      "ryanUpgrade": "76/100 conditional · stronger ML engineering scope, but pay/brand do not clearly beat Ryan",
+      "compensation": "Official estimated base $62,000–$100,000; bonus, equity and estimated TC not disclosed",
+      "officePerks": "Dallas is indexed among the multi-location options; exact hybrid/on-site cadence and Plano commute not confirmed",
+      "jobId": "R-71006",
+      "deadline": "2026-12-31; Crowe also states ongoing acceptance",
+      "archiveUrl": "job-archive/crowe/R-71006/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "strategyPriority": "Verification lead only; promote to Table 2 only with summer-2027 start, OPT compatibility and Ryan-competitive compensation"
     }
   ]
 }
