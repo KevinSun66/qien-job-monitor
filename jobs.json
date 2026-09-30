@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T18:16:55Z",
+  "updatedAt": "2026-09-30T19:20:51Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,7 +231,7 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T18:16:55Z",
+      "lastCheckedAt": "2026-09-30T19:20:51Z",
       "officialStatus": "Official Goldman role and Apply link active"
     },
     {
@@ -272,7 +272,7 @@
       "archiveUrl": "job-archive/goldman-sachs/181810/job-description.md",
       "archiveLabel": "JD 快照",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T18:16:55Z",
+      "lastCheckedAt": "2026-09-30T19:20:51Z",
       "officialStatus": "Official Goldman role and Apply link active"
     },
     {
@@ -358,8 +358,8 @@
       "archiveUrl": "job-archive/optiver-graduate-software-engineer-2027-start.pdf",
       "archiveLabel": "JD PDF 快照",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T18:16:55Z",
-      "officialStatus": "Official Optiver Austin Technology jobs page still lists the graduate role; indexed official role page shows Apply active"
+      "lastCheckedAt": "2026-09-30T19:20:51Z",
+      "officialStatus": "Official Optiver role page and Apply link active"
     },
     {
       "company": "Bitdeer",
@@ -730,8 +730,8 @@
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
       "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T18:16:55Z",
-      "officialStatus": "UNT Dallas mirror temporarily rate-limited (429) this check; no closure evidence; retained from prior active verification with 2026-10-17 deadline"
+      "lastCheckedAt": "2026-09-30T19:20:51Z",
+      "officialStatus": "UNT Dallas mirror returned 404 this check, while a search index refreshed today still shows the full posting; closure not confirmed, retained pending source recovery"
     },
     {
       "company": "Metrum AI",
@@ -993,7 +993,7 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T18:16:55Z",
+      "lastCheckedAt": "2026-09-30T19:20:51Z",
       "officialStatus": "Official Amazon job page and Apply now link active",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
@@ -1880,6 +1880,48 @@
       "strategyPriority": "Historical role-fit rejection; monitor Graphcore for future Applied AI/ML or ML software graduate openings",
       "whyRyan": "Ryan provides much more direct Data Science/Applied AI experience for Qien.",
       "targetRoles": "Monitor Graphcore Applied AI / ML Software / ML Kernels graduate roles instead"
+    },
+    {
+      "company": "Salesforce",
+      "tier": "S-",
+      "area": "Dallas, TX",
+      "market": "DFW",
+      "title": "Software Engineering AMTS (College Grad) (JR355250)",
+      "employment": "Full-time · Futureforce University Recruiting · Office Tech-Flexible",
+      "gradYear": "College Grad · graduation window and fixed start date not disclosed",
+      "match": "Very High · 93/100 conditional on related-degree acceptance and 2027 start",
+      "ngCompatibility": "NG verification · genuine college-graduate program, but May-2027 post-graduation start not explicitly confirmed",
+      "assessment": "Salesforce's official Futureforce posting recruits college graduates into a year-long program across scalable cloud products and platforms. Dallas is one of six official locations. Possible teams include Platform, IoT and Einstein Platform, and the JD values LLM coding assistants and agentic tools, but AI/ML team placement is not guaranteed. Qien's Python/Java/SQL, applied-AI projects and internship experience align; confirm whether Statistics + Data Science with a CS minor satisfies the related-engineering background and whether a post-May-2027 start is available.",
+      "visa": "Official JD does not disclose F-1 OPT, STEM OPT, E-Verify or sponsorship policy. Verify initial OPT acceptance, employing entity/E-Verify and I-983 support before promotion to Table 2.",
+      "found": "2026-09-30",
+      "officialPostedDate": "2026-09-24",
+      "firstSeen": "2026-09-30",
+      "firstArchived": "2026-09-30",
+      "firstNotifiedDate": "2026-09-30",
+      "lastChecked": "2026-09-30",
+      "lastCheckedAt": "2026-09-30T19:20:51Z",
+      "officialStatus": "Official Salesforce careers page and Workday application active",
+      "source": "Salesforce official Careers/Workday; surfaced by Simplify New Grad repository backfill and verified against the complete official posting",
+      "url": "https://www.salesforce.com/company/careers/jobs/JR355250/software-engineering-amts-college-grad/",
+      "status": "ng-verification",
+      "finalPriority": "及时核实并建议尽快申请 · 先确认 2027年5月毕业后入职、相关专业认定和 F-1 OPT；确认后可升级为立即投",
+      "roleTrack": "General Software Engineering / Cloud Platform / potential Einstein Platform & Agentforce",
+      "seniorityGap": "Low · genuine college-graduate program; academic, internship and professional coding experience accepted",
+      "technicalGrowth": "92/100 · large-scale cloud engineering, platform scalability and possible AI-platform placement; team assignment unknown",
+      "brandPlatform": "97/100 · top-tier cloud and enterprise AI platform with strong internal mobility",
+      "ryanUpgrade": "94/100 conditional · clear brand/platform and likely compensation upgrade; AI team, start date and OPT must clear",
+      "compensation": "Official typical U.S. base $110,000–$153,000; certain roles may include incentive compensation and equity. Dallas-specific bonus, equity and reliable estimated TC are not disclosed.",
+      "officePerks": "Dallas · Office Tech-Flexible; exact Dallas office cadence/address, meals and relocation not disclosed. Commute from Plano 75075 depends on assigned office.",
+      "jobId": "JR355250",
+      "deadline": "No official closing date disclosed",
+      "archiveUrl": "job-archive/salesforce/JR355250/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "strategyPriority": "High-value S-tier campus verification lead; do not show in Table 2 until post-May-2027 start and OPT gates are confirmed",
+      "companyProfile": "Salesforce is a global cloud-software leader and the leading CRM platform, with major investments in Agentforce, Einstein AI and enterprise-scale cloud infrastructure.",
+      "whyRyan": "Salesforce offers a substantial brand, platform, compensation and long-term mobility upgrade over Ryan, even if initial team placement is general SWE; the main uncertainties are start date, degree interpretation, OPT and AI-team allocation.",
+      "targetRoles": "Futureforce AMTS / Software Engineer / Einstein Platform / Agentforce / AI Platform",
+      "careersUrl": "https://careers.salesforce.com/en/jobs/",
+      "discoveryNote": "补发现：official post predates first discovery by 6 days. The specific cause of delayed discovery is not proven."
     }
   ]
 }
