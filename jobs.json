@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T01:59:52.419Z",
+  "updatedAt": "2026-10-01T02:37:37.873Z",
   "jobs": [
     {
       "company": "IBM",
@@ -986,7 +986,7 @@
       "gradYear": "2027 届 · 可选择 2027 年 7 月 6 日入职批次",
       "match": "整体较高 · 87/100；品牌和薪酬明显升级，但不保证进入 AI/ML 方向",
       "ngCompatibility": "Compatible only with tentative July 6, 2027 start; January 4 cohort is before graduation",
-      "assessment": "这是 AWS Industries and Strategic Accounts 的 Emerging Talent 项目，前 6 个月提供导师培养，并直接参与客户解决方案架构。JD 没有最低工作年限要求，接受本科生以及课程/学校项目经验。相较 Ryan，AWS 的官方 base、品牌和平台明显升级；但岗位本质更偏 Cloud / 客户解决方案架构，并非保证进入 Applied AI / ML。Dallas 只保证前 6 个月，之后可能因客户账户分配需要调往美国其他城市。",
+      "assessment": "已投递。AWS Industries and Strategic Accounts 的 Emerging Talent 项目，前 6 个月提供导师培养并直接参与客户解决方案架构。JD 没有最低工作年限要求，接受本科生及课程/学校项目经验。相较 Ryan，AWS 的官方 base、品牌和平台明显升级；但岗位本质更偏 Cloud / 客户解决方案架构，并非保证进入 Applied AI / ML。Dallas 只保证前 6 个月，之后可能因客户账户分配需要调往美国其他城市。",
       "visa": "官方 JD 未要求永久或无限制工作授权，也未明确排除 F-1 OPT / STEM OPT，但没有承诺 sponsorship。接受 offer 前需确认 initial OPT、E-Verify / STEM extension 和未来 sponsorship。",
       "found": "2026-09-29",
       "firstSeen": "2026-09-29",
@@ -1010,13 +1010,15 @@
       "jobId": "10506956",
       "startDate": "Tentative cohorts 2027-01-04 and 2027-07-06; Qien is eligible only for July",
       "deadline": "Not disclosed",
-      "archiveUrl": "job-archive/amazon/10506956/job-description.md",
-      "archiveLabel": "JD 归档摘要",
+      "archiveUrl": "https://github.com/KevinSun66/qien-job-monitor/blob/main/job-archive/amazon-10506956-solutions-architect-awsi-2027.md",
+      "archiveLabel": "JD 快照",
       "strategyPriority": "Apply if July cohort is selectable; verify OPT and long-term Texas placement before treating as an offer-level Ryan replacement",
       "companyProfile": "Amazon Web Services is a global cloud platform. The AWSI Emerging Talent program develops Solutions Architects serving influential enterprise customers across cloud, data, analytics and possible ML workloads.",
       "whyRyan": "Official base is roughly $38.5K above Ryan's known $83K base and AWS is a major platform upgrade. The role is only a true fit if Qien can remain in Texas and obtain an AI/ML-oriented account or project mix.",
       "targetRoles": "Solutions Architect / Cloud AI / ML Solutions / Customer Engineering",
-      "careersUrl": "https://www.amazon.jobs/"
+      "careersUrl": "https://www.amazon.jobs/",
+      "seedAppliedAt": "2026-10-01T02:37:00-05:00",
+      "seedAppliedDisplay": "2026-10-01"
     },
     {
       "company": "Apple",
