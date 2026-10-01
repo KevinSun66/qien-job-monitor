@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T23:22:08Z",
+  "updatedAt": "2026-10-01T00:23:43Z",
   "jobs": [
     {
       "company": "IBM",
@@ -334,13 +334,13 @@
       "employment": "全职 · 应届生 · 现场办公",
       "gradYear": "毕业窗口：2026 年 12 月至 2027 年 6 月 · 本科/硕士/博士",
       "match": "高 · 86/100",
-      "ngCompatibility": "2027 年入职窗口明确匹配；要求 CS/计算机工程专业名称是主要资格风险",
+      "ngCompatibility": "官方申请入口已不可访问；原 JD 的 2026 年 12 月至 2027 年 6 月毕业窗口与 Qien 匹配",
       "assessment": "明确面向 2027 届毕业生，提供 8 周全球培训和专属导师。工作涉及低延迟交易系统、AI 工具、数据密集型市场及研究基础设施。Qien 的 Python、数据科学、统计和 CS 课程背景相关。主要缺口是 JD 要求在读 CS 或计算机工程，而 Qien 是数据科学与统计双专业、CS 辅修；申请材料应突出 CS 课程、软件工程和系统项目。",
       "visa": "官方明确可为该岗位提供美国移民支持；F‑1 OPT 入职及 STEM OPT/E‑Verify 细节仍需在录用流程确认",
       "found": "2026-09-13",
       "url": "https://www.optiver.com/join-us/jobs/technology/austin/graduate-software-engineer-2027-start/",
-      "status": "current",
-      "finalPriority": "立即投 · 高薪高成长冲刺（专业名称风险）",
+      "status": "closed-watch",
+      "finalPriority": "已关闭 · 已投递记录及 JD 快照保留",
       "roleTrack": "软件工程 / AI 辅助交易系统 / 研究基础设施",
       "technicalGrowth": "96/100",
       "brandPlatform": "97/100",
@@ -358,8 +358,9 @@
       "archiveUrl": "job-archive/optiver-graduate-software-engineer-2027-start.pdf",
       "archiveLabel": "JD PDF 快照",
       "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T23:22:08Z",
-      "officialStatus": "Official Optiver Austin technology listing still includes the 2027 graduate role on 2026-09-30, but linked detail page returns 404; closure unconfirmed; retain pending link recovery"
+      "lastCheckedAt": "2026-10-01T00:23:43Z",
+      "officialStatus": "2026-09-30: official Austin technology jobs list no longer includes Graduate Software Engineer (2027 Start); original official detail URL returns 404. Search index still shows yesterday's listing, so monitor for reopening.",
+      "closedDate": "2026-09-30"
     },
     {
       "company": "Bitdeer",
