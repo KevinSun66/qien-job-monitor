@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T02:37:37.873Z",
+  "updatedAt": "2026-10-01T02:38:38.395Z",
   "jobs": [
     {
       "company": "IBM",
@@ -1894,7 +1894,7 @@
       "gradYear": "College Grad · 2027 年 5 月毕业后入职待核实",
       "match": "很高 · 93/100；前提是专业背景和 2027 入职时间满足要求",
       "ngCompatibility": "College Grad 项目确认；2027年5月毕业后入职日期未确认（表2展示例外，申请前核实）",
-      "assessment": "按当前筛选规则列入 Dallas 表2：这是 Salesforce Futureforce 的 College Grad 一年期 SWE 项目，Dallas 为官方可选地点；接受课程、实习或工作中的编程经历，没有列出最低工作年限。相较 Ryan，品牌、平台和官方 base 都有明显升级。需要重点核实：是否接受 Qien 的 Data Science + Statistics / CS minor 背景、是否允许 2027 年 5 月毕业后入职、F-1 OPT 是否可用于入职；Einstein / Agentforce 团队并不保证分配。",
+      "assessment": "已从 Dallas 表2移除：该 College Grad AMTS 岗位整体过于偏通用 Software Engineering / SDE，与 Qien 当前 Applied AI / ML / Data Science 主线不够贴合。仅排除这一具体职位，不排除 Salesforce 公司；后续继续监控 Salesforce 的 Applied AI、ML、Data Science、AI Engineer、Agentforce、Einstein 等更匹配岗位。",
       "visa": "⚠ F-1 OPT 尚未确认；STEM OPT、E-Verify / I-983 和未来 sponsorship 均未披露。不能把“未明确拒绝”理解为“已经接受”。",
       "found": "2026-09-30",
       "officialPostedDate": "2026-09-24",
@@ -1906,8 +1906,8 @@
       "officialStatus": "Salesforce Futureforce search and JR355250 remain indexed; detail page yields blank in web tool; closure unconfirmed; start and OPT unverified",
       "source": "Salesforce official Careers/Workday; surfaced by Simplify New Grad repository backfill and verified against the complete official posting",
       "url": "https://www.salesforce.com/company/careers/jobs/JR355250/software-engineering-amts-college-grad/",
-      "status": "current",
-      "finalPriority": "可以投／用户要求表2展示 · 申请前优先确认2027年5月后入职、专业资格与F-1 OPT",
+      "status": "excluded",
+      "finalPriority": "暂不考虑：岗位过于偏 Software Engineering / SDE；继续监控 Salesforce 其他更适合 Qien 的 Applied AI / ML / Data Science / AI Engineer / Agentforce / Einstein 岗位。",
       "roleTrack": "General Software Engineering / Cloud Platform / potential Einstein Platform & Agentforce",
       "seniorityGap": "Low · genuine college-graduate program; academic, internship and professional coding experience accepted",
       "technicalGrowth": "92/100 · large-scale cloud engineering, platform scalability and possible AI-platform placement; team assignment unknown",
