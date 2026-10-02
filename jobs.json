@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T02:38:38.395Z",
+  "updatedAt": "2026-10-02T20:30:00.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -2027,6 +2027,65 @@
       "compensation": "官方未披露",
       "jobId": "39e72f1c-e12b-4395-8f42-7e23b4928e98",
       "deadline": "未披露"
+    },
+    {
+      "company": "Liberty Mutual",
+      "tier": "A+",
+      "area": "Plano, TX",
+      "market": "DFW",
+      "title": "2027 TechStart Full-Time Program",
+      "employment": "Full-time · Early Career / TechStart",
+      "gradYear": "2027 · 0–2 years",
+      "match": "High · early-career technology program",
+      "ngCompatibility": "2027 cohort compatible; F-1 OPT/work-authorization wording requires verification",
+      "assessment": "查缺补漏新增。官方项目明确面向 2027 Full-Time、0–2 years，Plano 为地点之一，涉及 AI-assisted development / agentic AI exposure。先进入核验层，不因 work-authorization 文案在发现阶段静默过滤。",
+      "visa": "Official wording requires full U.S. work authorization without restrictions; verify whether this requisition accepts F-1 OPT/STEM OPT before application.",
+      "found": "2026-10-02",
+      "url": "https://campus-libertymutual.icims.com/jobs/77144/2027-techstart-full-time-program/job",
+      "status": "visa-verification",
+      "finalPriority": "及时核实 · 确认 F-1 OPT 后决定是否进入表2",
+      "roleTrack": "Early Career Software Engineering / AI-assisted Development",
+      "compensation": "Official range observed in audit: $95,000–$105,000; verify location-specific offer details.",
+      "strategyPriority": "Verification layer; do not silently filter"
+    },
+    {
+      "company": "D3V Technology Solutions",
+      "tier": "A",
+      "area": "Plano, TX",
+      "market": "DFW",
+      "title": "Associate AI/ML Engineer",
+      "employment": "Full-time · Associate / Early Career",
+      "gradYear": "0–2 years profile; 2027 start timing unverified",
+      "match": "Very High technical fit",
+      "ngCompatibility": "Early-career profile; May-2027+ start and OPT require verification",
+      "assessment": "查缺补漏新增。Plano 本地 Associate AI/ML 岗，公开职位信息显示 0–2 years。技术方向与 Qien 高度匹配，但公司平台、薪资和相对 Ryan 的升级幅度尚未验证，因此保留在发现/核验层。",
+      "visa": "F-1 OPT/STEM OPT policy not verified; confirm before promotion to Table 2.",
+      "found": "2026-10-02",
+      "url": "https://www.d3vtech.com/careers/",
+      "status": "ng-verification",
+      "finalPriority": "核验中 · 薪资/OPT/2027入职/Ryan升级均确认后再进表2",
+      "roleTrack": "Applied AI / Machine Learning Engineering",
+      "strategyPriority": "Discovery + verification; preserve even if later opportunity-cost rejected"
+    },
+    {
+      "company": "Wipro",
+      "tier": "A+",
+      "area": "Texas / location to verify",
+      "market": "TX",
+      "title": "Junior Forward Deployed Engineer",
+      "employment": "Full-time · Junior / Early Career",
+      "gradYear": "Recent graduate / 0–2 years",
+      "match": "High technical fit; weak Ryan upgrade",
+      "ngCompatibility": "Early-career compatible; exact Texas placement/start/OPT to verify if reconsidered",
+      "assessment": "查缺补漏留痕。岗位涉及 Applied AI、LLM 与 AI agents，0–2 years/recent graduate 画像符合，但公开薪资约 $68.4K–$79K，明显低于 Ryan baseline，且客户交付/FDE 属性更强，因此不进入核心表2。保留排除记录，避免以后重复发现。",
+      "visa": "Not needed for current decision because Ryan opportunity-cost gate already fails; verify only if compensation/role changes materially.",
+      "found": "2026-10-02",
+      "url": "https://careers.wipro.com/job/Junior-Forward-Deployed-Engineer/160018-en_US/",
+      "status": "opportunity-cost-rejected",
+      "finalPriority": "不投 · 薪资与综合机会成本弱于 Ryan",
+      "roleTrack": "Forward Deployed Engineering / Applied AI / LLM Agents",
+      "compensation": "Public posting range observed in audit: approximately $68.4K–$79K; verify if posting changes.",
+      "strategyPriority": "Archive exclusion; do not re-alert unless materially changed"
     }
   ]
 }
