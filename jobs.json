@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T23:22:55.000Z",
+  "updatedAt": "2026-10-03T01:15:00.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -2513,6 +2513,47 @@
       "jobId": "3004",
       "deadline": "2026-09-09 stated; rolling consideration may continue pending availability",
       "strategyPriority": "Do not apply under current role-direction preference; retain audit because OPT policy and compensation are unusually favorable"
+    },
+    {
+      "company": "Vizient",
+      "tier": "A+",
+      "area": "Irving, TX 75062 · Vizient Corporate HQ",
+      "market": "DFW",
+      "title": "Data Engineer (32661R)",
+      "employment": "Full-time · Experienced hire",
+      "gradYear": "Not New Grad / Early Career compatible",
+      "match": "Technical fit moderate; eligibility hard fail",
+      "ngCompatibility": "Not compatible · official JD requires 2 or more years of relevant experience",
+      "assessment": "Anti-miss audit discovery. The official JD covers Azure SQL, Databricks, Spark/PySpark, ETL/ELT, AI/ML feature pipelines and model operationalization. However, it explicitly requires 2 or more years of relevant experience, which fails Qien's 0–2 / no minimum-2+ hard gate. It also requires authorization to work in the United States without sponsorship now and in the future, which is not compatible with Qien's F-1 OPT/STEM OPT path under the monitor rules. Preserve as an exclusion record and do not add to Table 2.",
+      "visa": "Hard fail · official JD requires U.S. work authorization without sponsorship now and in the future; this wording excludes Qien's temporary F-1 OPT/STEM OPT pathway under the monitor rules.",
+      "found": "2026-10-02",
+      "discoveredDate": "2026-10-02",
+      "sourcePostedDate": "Posted 30+ Days Ago (official Workday; exact date not disclosed)",
+      "firstSeen": "2026-10-02",
+      "firstArchived": "2026-10-02",
+      "firstNotifiedDate": "2026-10-02",
+      "lastChecked": "2026-10-02",
+      "lastCheckedAt": "2026-10-03T01:15:00Z",
+      "source": "Vizient official Workday JD",
+      "url": "https://vizient.wd1.myworkdayjobs.com/en-US/Vizient_Careers/job/Software-Engineer_32661R",
+      "status": "experience-visa-rejected",
+      "officialStatus": "Official Workday page and Apply button active on 2026-10-02",
+      "rejectionReason": "Explicit 2+ years required and unrestricted/no-sponsorship work authorization requirement",
+      "finalPriority": "不投 · 经验与工作授权双重硬门槛不兼容",
+      "roleTrack": "Data Engineering / AI-ML Data Platform",
+      "seniorityGap": "High · explicit 2 or more years relevant experience required",
+      "technicalGrowth": "87/100 · Azure SQL, Databricks, Spark/PySpark, feature pipelines and ML operationalization",
+      "brandPlatform": "86/100 · healthcare data platform; same employer as Qien's applied Associate AI Engineer role",
+      "ryanUpgrade": "Not applicable because experience and work-authorization hard gates fail",
+      "compensation": "$77,400–$135,400 official salary range; incentive eligible",
+      "officePerks": "Irving corporate HQ; office cadence and relocation not disclosed",
+      "jobId": "32661R",
+      "deadline": "Not disclosed",
+      "strategyPriority": "Audit exclusion; reconsider only if Vizient reposts at 0–2 / Associate level and removes the unrestricted authorization requirement",
+      "companyProfile": "Vizient is a healthcare performance improvement and data platform company headquartered in Irving.",
+      "whyRyan": "The data-platform stack is relevant, but Qien is not eligible as written; Ryan remains the valid baseline.",
+      "targetRoles": "Associate AI Engineer / Early Career Data Engineer / AI-ML Engineer",
+      "careersUrl": "https://vizient.wd1.myworkdayjobs.com/en-US/Vizient_Careers"
     }
   ]
 }
