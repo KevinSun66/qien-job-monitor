@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T15:16:59Z",
+  "updatedAt": "2026-10-03T16:16:47Z",
   "jobs": [
     {
       "company": "IBM",
@@ -1454,13 +1454,13 @@
       "firstSeen": "2026-09-30",
       "firstArchived": "2026-09-30",
       "firstNotifiedDate": "2026-09-30",
-      "lastChecked": "2026-10-02",
-      "lastCheckedAt": "2026-10-02T22:24:07Z",
-      "officialStatus": "UNT Dallas mirror and Apply route active on 2026-10-02; recruitment began 2026-08-18 and expires 2027-01-01. OPT remains unconfirmed because 'not sponsoring for work authorization' does not explicitly exclude initial OPT.",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-03T16:16:47Z",
+      "officialStatus": "Official Crowe careers page states the job has been filled on 2026-10-03.",
       "source": "Crowe official Workday JD; UNT Dallas public campus mirror and location index as discovery support",
       "url": "https://crowe.wd12.myworkdayjobs.com/en-US/External_Careers/job/Machine-Learning-Software-Engineer-1_R-71006",
-      "status": "ng-verification",
-      "finalPriority": "核实后再决定 · 不进入表2",
+      "status": "closed-watch",
+      "finalPriority": "归档 · 官方已招满，不再核验",
       "roleTrack": "ML Software Engineering / ML Platform Tooling / Model Productionization",
       "seniorityGap": "Unclear but potentially junior · no numeric YOE; some-direction/support language",
       "technicalGrowth": "91/100",
@@ -1472,7 +1472,9 @@
       "deadline": "2026-12-31; Crowe also states ongoing acceptance",
       "archiveUrl": "job-archive/crowe/R-71006/job-description.md",
       "archiveLabel": "JD 归档摘要",
-      "strategyPriority": "Verification lead only; promote to Table 2 only with summer-2027 start, OPT compatibility and Ryan-competitive compensation"
+      "strategyPriority": "Closed-watch; monitor only for a distinct new requisition or official reopening.",
+      "statusChangedDate": "2026-10-03",
+      "rejectionReason": "Official Crowe page reports the requisition has been filled; preserve discovery, verification and JD archive."
     },
     {
       "company": "Apple",
