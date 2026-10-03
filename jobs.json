@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T14:19:28Z",
+  "updatedAt": "2026-10-03T15:16:59Z",
   "jobs": [
     {
       "company": "IBM",
@@ -2924,6 +2924,46 @@
         "Salary/TC",
         "Whether any direct AI/ML infrastructure scope exists"
       ]
+    },
+    {
+      "company": "NXP Semiconductors",
+      "tier": "A",
+      "area": "Austin (Oak Hill), TX",
+      "market": "Austin",
+      "title": "Entry Level — Systems & Applications Engineer (R-10066569)",
+      "employment": "Full-time · Entry Level · In-office",
+      "gradYear": "Anticipated hire Q1 2027; Bachelor's in Computer Engineering or Computer Science required",
+      "match": "Low for Qien's Applied AI/ML/DS path · embedded/SoC applications and customer support",
+      "ngCompatibility": "0–2 years accepted, but start timing and degree requirements are incompatible",
+      "assessment": "Anti-miss discovery retained and excluded after verification. The role supports NXP i.MX processors through customer board bring-up, embedded firmware/drivers, Linux/Android debugging, reference designs and technical documentation. Although it is explicitly entry level and permits up to two years of experience, the JD says anticipated hire date is Q1 2027, before Qien's May 2027 graduation. It also requires a bachelor's specifically in Computer Engineering or Computer Science, while Qien's degree plan is Data Science + Statistics with a CS minor. The work is embedded/SoC applications engineering rather than Applied AI/ML/DS and does not justify replacing the Ryan Associate Data Scientist offer.",
+      "visa": "Official accessible JD does not disclose F-1 OPT, STEM OPT, E-Verify or sponsorship; no further verification needed after start-date, degree and role-fit hard fails.",
+      "found": "2026-10-03",
+      "discoveredDate": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotifiedDate": "2026-10-03",
+      "officialPostedDate": "Not displayed on official Workday page; Built In mirror displayed Posted 8 Days Ago when checked 2026-10-03",
+      "discoveryTiming": "补发现 · third-party mirror indicates approximately 8 days between posting and first discovery; exact official posting date not available",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-03T15:16:59Z",
+      "source": "NXP official Workday requisition and active application page; full JD cross-checked against Built In mirror",
+      "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/ENTRY-LEVEL---SYSTEMS---APPLICATIONS-ENGINEER_R-10066569",
+      "status": "start-date-degree-role-fit-rejected",
+      "officialStatus": "Official NXP Workday requisition and application flow active on 2026-10-03",
+      "rejectionReason": "Anticipated Q1 2027 hire is before Qien's May 2027 graduation; bachelor's must be in Computer Engineering or Computer Science; work centers on embedded/SoC applications rather than Applied AI/ML/DS.",
+      "finalPriority": "不投 · 入职时间、学位专业和方向均不兼容",
+      "roleTrack": "Embedded Systems / SoC Applications / Firmware / Customer Engineering",
+      "seniorityGap": "None · entry level, up to 2 years",
+      "technicalGrowth": "Strong for embedded systems; low relevance to Qien's Applied AI/ML/DS target",
+      "brandPlatform": "Strong semiconductor platform, but role path is misaligned",
+      "ryanUpgrade": "No · Ryan is better aligned with Qien's Data Science and Applied AI trajectory and has compatible post-graduation timing",
+      "compensation": "Official compensation not disclosed; third-party estimates excluded from decision",
+      "officePerks": "Austin Oak Hill · in-office; detailed benefits/perks not verified",
+      "jobId": "R-10066569",
+      "startDate": "Q1 2027 (official JD wording)",
+      "deadline": "Not disclosed",
+      "strategyPriority": "Audit exclusion; monitor NXP only for distinct May–August 2027 or later Applied AI/ML/DS early-career roles",
+      "careersUrl": "https://nxp.wd3.myworkdayjobs.com/careers"
     }
   ]
 }
