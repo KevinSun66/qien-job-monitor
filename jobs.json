@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T16:16:47Z",
+  "updatedAt": "2026-10-03T17:19:34.363Z",
   "jobs": [
     {
       "company": "IBM",
@@ -2966,6 +2966,49 @@
       "deadline": "Not disclosed",
       "strategyPriority": "Audit exclusion; monitor NXP only for distinct May–August 2027 or later Applied AI/ML/DS early-career roles",
       "careersUrl": "https://nxp.wd3.myworkdayjobs.com/careers"
+    },
+    {
+      "company": "Tata Consultancy Services",
+      "tier": "未评级",
+      "area": "Dallas, TX（校园索引；官方待确认）",
+      "market": "DFW",
+      "title": "AI Engineer — Entry-Level AI/ML Engineer（校园历史线索）",
+      "jobId": "tcs-shu-ai-engineer-19",
+      "employment": "校园索引同时标示 Full-time / Internship；实际雇佣类型待核实",
+      "url": "https://shuconnect.sacredheart.edu/jobs/tata-consultancy-services-ai-engineer-19/",
+      "status": "expired-source-watch",
+      "found": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotified": "2026-10-03",
+      "lastChecked": "2026-10-03",
+      "source": "Sacred Heart University career mirror/search index; TCS USA careers",
+      "sourcePostedDate": "2026-07-14",
+      "officialPostedDate": null,
+      "deadline": "2026-08-14（校园镜像截止日期，非官方ATS确认）",
+      "discoveryTiming": "补发现：校园招聘开始日期距发现81天；无法确认首次索引时间或漏抓原因。",
+      "officialStatus": "未匹配到官方 requisition；校园镜像再次读取返回410 Gone；搜索索引显示已于2026-08-14到期，不等同于雇主官方关闭证明。",
+      "roleTrack": "Applied AI / ML / GenAI / Agentic AI（校园摘要）",
+      "ngCompatibility": "学位、最低经验及2027年5月后入职均未核实",
+      "visa": "F-1 OPT/STEM OPT/E-Verify 未核实",
+      "compensation": "Base/Bonus/Equity/TC 均未核实",
+      "match": "技术方向可能匹配；完整JD及资格未核实",
+      "seniorityGap": "未核实；Entry-Level仅为发现信号",
+      "technicalGrowth": "未核实",
+      "brandPlatform": "咨询交付平台；团队及客户项目未核实",
+      "ryanUpgrade": "无法判断；不进入表2",
+      "finalPriority": "历史发现归档；校园来源已到期，等待可核验的官方新requisition",
+      "rejectionReason": "校园来源截止日期已过且当前镜像410；没有已确认开放的官方申请入口。资格/签证未知不是排除依据。",
+      "careersUrl": "https://www.tcs.com/careers/united-states",
+      "unverifiedItems": [
+        "官方job ID及当前开闭状态",
+        "完整JD及学位/最低经验",
+        "全职与实习分类",
+        "Dallas办公地点/模式/Plano通勤",
+        "2027毕业后入职",
+        "OPT/STEM OPT/E-Verify",
+        "薪资及Ryan升级价值"
+      ]
     }
   ]
 }
