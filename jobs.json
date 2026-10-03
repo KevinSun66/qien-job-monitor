@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T18:17:27.197Z",
+  "updatedAt": "2026-10-03T19:14:25Z",
   "jobs": [
     {
       "company": "IBM",
@@ -3134,7 +3134,7 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-03T18:17:27.197Z",
+    "lastCheckedAt": "2026-10-03T19:14:25Z",
     "scope": "Partial coverage; not a complete ATS pagination census",
     "currentChecks": [
       {
@@ -3177,6 +3177,14 @@
       {
         "jobId": "33536R",
         "status": "geography-rejected"
+      },
+      {
+        "jobId": "JR-202620428",
+        "status": "visa-rejected"
+      },
+      {
+        "jobId": "JR-202620418",
+        "status": "visa-rejected"
       }
     ],
     "unknownIndexTiming": "No claim about exact historical search indexing or missed-source causation"
