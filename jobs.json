@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T07:15:26.000Z",
+  "updatedAt": "2026-10-03T08:14:08.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -2808,6 +2808,40 @@
       "whyRyan": "Would be directionally stronger for enterprise AI enablement, but the degree requirement and closure make it non-actionable.",
       "targetRoles": "Bachelor's-eligible 2027 NCG Applied AI / AI Enablement / ML Engineer",
       "careersUrl": "https://globalfoundries.eightfold.ai/careers"
+    },
+    {
+      "company": "Arm",
+      "tier": "S-",
+      "area": "Austin",
+      "market": "Austin",
+      "title": "Graduate Applications Engineer (2026-17691)",
+      "employment": "Full-time · Graduate · Hybrid",
+      "gradYear": "Graduate program · start/graduation window not disclosed",
+      "match": "Low for Qien · 42/100",
+      "ngCompatibility": "Graduate-level, but degree/discipline and role-fit hard mismatch",
+      "assessment": "补发现：Arm 官方于 2026-09-16 发布的 Austin Graduate Applications Engineer。完整 JD 要求 BSc 或更高的 Electrical Engineering/ECE or equivalent，并要求 HDL（Verilog/SystemVerilog/VHDL）、CPU/SoC 架构与 RTL 仿真调试。岗位核心是 Arm CPU/System IP 集成、SoC build review、RTL debugging 与客户技术支持，不属于 Applied AI/ML/DS，也不匹配 Qien 的 Statistics + Data Science/CS/Math 主线。虽然是 Graduate 岗且薪资/品牌强，但方向和硬件课程要求不足，不能作为 Ryan Associate Data Scientist 的战略替代。",
+      "visa": "官方写明该岗位不满足 sponsorship eligibility，候选人须无需 Arm sponsorship 即可在美工作；该措辞未明确点名排除 initial F-1 OPT，因此不单独按签证硬拒，但因学历/方向已不合格，无需继续 OPT 核验。",
+      "found": "2026-10-03",
+      "officialPostedDate": "2026-09-16",
+      "discoveryTiming": "补发现 · 官方发布日期早于首次发现 17 天；未对延迟原因作无证据归因",
+      "firstSeen": "2026-10-03",
+      "firstNotified": "2026-10-03",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-03T08:14:08Z",
+      "officialStatus": "Arm official job page and Emerging Talent apply link active on 2026-10-03",
+      "url": "https://careers.arm.com/en/job/austin/graduate-applications-engineer/33099/97112476448",
+      "status": "degree-role-fit-rejected",
+      "rejectionReason": "Requires ECE/equivalent plus HDL, CPU/SoC and RTL simulation skills; role is hardware applications/SoC integration rather than Applied AI/ML/DS.",
+      "finalPriority": "不投 · 学历/硬件技能与方向不符",
+      "roleTrack": "Hardware Applications Engineering / CPU & System IP / SoC Integration",
+      "seniorityGap": "None · graduate program",
+      "technicalGrowth": "78/100 for hardware/SoC; 35/100 for Qien's Applied AI/ML/DS track",
+      "brandPlatform": "95/100",
+      "ryanUpgrade": "Not applicable · fails degree/role-fit gates",
+      "compensation": "$119,400–$161,600 base (official range) + total rewards",
+      "officePerks": "Austin · Hybrid pattern determined by team · Global Graduate Conference · possible rotations",
+      "jobId": "2026-17691",
+      "deadline": "Not disclosed"
     }
   ]
 }
