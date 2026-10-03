@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T04:23:33.000Z",
+  "updatedAt": "2026-10-03T07:15:26.000Z",
   "jobs": [
     {
       "company": "IBM",
@@ -2037,16 +2037,25 @@
       "employment": "Full-time · Early Career / TechStart",
       "gradYear": "2027 · 0–2 years",
       "match": "High · early-career technology program",
-      "ngCompatibility": "2027 cohort compatible; F-1 OPT/work-authorization wording requires verification",
-      "assessment": "查缺补漏新增。官方项目明确面向 2027 Full-Time、0–2 years，Plano 为地点之一，涉及 AI-assisted development / agentic AI exposure。先进入核验层，不因 work-authorization 文案在发现阶段静默过滤。",
-      "visa": "Official wording requires full U.S. work authorization without restrictions; verify whether this requisition accepts F-1 OPT/STEM OPT before application.",
+      "ngCompatibility": "Academic/experience fit: 0–2 years and bachelor's accepted; work-authorization hard fail.",
+      "assessment": "Official full JD verification resolves the prior visa uncertainty. The Plano option is a 2027 full-time entry-level TechStart program with 0–2 years accepted, $95,000–$105,000 salary, six-month engineering development, AI-assisted development and exposure to agentic AI. However, Required Qualifications explicitly state the candidate must be fully authorized to work in the U.S. without restrictions. This is the permanent/unrestricted wording that the monitor treats as incompatible with Qien's F-1 OPT/STEM OPT pathway. Move from visa-verification to visa-rejected; do not add to Table 2.",
+      "visa": "Hard fail · official JD explicitly requires candidates to be fully authorized to work in the U.S. without restrictions. Under the monitor's established rule, this excludes Qien's temporary F-1 OPT/STEM OPT pathway.",
       "found": "2026-10-02",
       "url": "https://campus-libertymutual.icims.com/jobs/77144/2027-techstart-full-time-program/job",
-      "status": "visa-verification",
-      "finalPriority": "及时核实 · 确认 F-1 OPT 后决定是否进入表2",
-      "roleTrack": "Early Career Software Engineering / AI-assisted Development",
-      "compensation": "Official range observed in audit: $95,000–$105,000; verify location-specific offer details.",
-      "strategyPriority": "Verification layer; do not silently filter"
+      "status": "visa-rejected",
+      "finalPriority": "不投 · 官方 unrestricted work authorization 硬门槛",
+      "roleTrack": "TechStart / Software Engineering / AI-assisted Development / Agentic AI exposure",
+      "compensation": "Official salary range $95,000–$105,000; benefits include 15 days flexible time off annual accrual.",
+      "strategyPriority": "Verification layer; do not silently filter",
+      "jobId": "2026-77144",
+      "rejectionReason": "Official JD requires full U.S. work authorization without restrictions, which excludes F-1 OPT/STEM OPT under the monitor rules.",
+      "officialStatus": "Official iCIMS page and application remain active; eligibility changed from unknown to confirmed work-authorization rejection on 2026-10-03.",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-03T07:15:26Z",
+      "source": "Liberty Mutual official campus iCIMS full JD",
+      "seniorityGap": "None · official 0–2 years",
+      "ryanUpgrade": "Would offer higher base and stronger Fortune 100 engineering platform, but work-authorization hard gate makes it non-actionable.",
+      "deadline": "Not disclosed"
     },
     {
       "company": "D3V Technology Solutions",
