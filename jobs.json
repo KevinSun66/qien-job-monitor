@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T19:14:25Z",
+  "updatedAt": "2026-10-03T20:16:56Z",
   "jobs": [
     {
       "company": "IBM",
@@ -3131,10 +3131,52 @@
       "rejectionReason": "该独立requisition历史完整地点仅Edina/Chicago，没有DFW/Austin；不与已投VTEP 11444573混淆。实时地点及是否重开尚未知。",
       "finalPriority": "地域排除归档，不进入Dallas/Austin表2",
       "discoveryTiming": "补发现；官方索引仅相对posted3daysago且缓存4个月，不能推算可靠首次发布日期"
+    },
+    {
+      "company": "Jacobs",
+      "tier": "A",
+      "area": "Fort Worth, TX 76102",
+      "market": "DFW",
+      "title": "Junior Data Scientist (46034)",
+      "jobId": "46034",
+      "employment": "Full-time · Junior / Early Career · Hybrid",
+      "url": "https://www.indeed.com/viewjob?jk=d571f58db0ba82de",
+      "status": "citizenship-rejected",
+      "found": "2026-10-03",
+      "discoveredDate": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotifiedDate": "2026-10-03",
+      "officialPostedDate": "2026-09-27 (employer-supplied full JD mirror)",
+      "discoveryTiming": "补发现 · 发布日期比首次发现早6天；无法确认搜索源首次索引时间，不归因具体漏抓原因",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-03T20:16:56Z",
+      "deadline": "Official text says open for at least 3 days; fixed closing date not disclosed",
+      "source": "Indeed employer-supplied full JD with Apply on company site; Jacobs direct careers detail URL was not recovered",
+      "officialStatus": "Employer-supplied full JD and company-site application handoff active on 2026-10-03; direct Jacobs detail page not independently retrieved",
+      "roleTrack": "Applied Data Science / Palantir Foundry / Data Applications / Analytics Engineering",
+      "gradYear": "Bachelor's in DS/CS/SE/DE/AI/Applied Math/Statistics or related; recent graduates encouraged",
+      "ngCompatibility": "Explicit up to 2 years; academic projects and internships count; start date not disclosed",
+      "seniorityGap": "None · true junior/early-career profile",
+      "match": "Very high academic and role-content fit before work-authorization screen",
+      "assessment": "Anti-miss discovery retained after reading the complete employer-supplied JD. The Fort Worth hybrid role is explicitly junior, accepts up to two years with academic projects and internships, and combines Python/SQL data science with Palantir Foundry, React and decision-support applications. However, it supports Federal clients, requires eligibility for a Common Access Card and government clearance, and explicitly requires U.S. citizenship. Qien is an F-1 student and therefore fails the work-authorization/citizenship hard gate.",
+      "visa": "Hard fail: complete employer JD explicitly requires U.S. citizenship for the government-facing role and says visa sponsorship is unavailable; F-1 OPT cannot satisfy citizenship.",
+      "rejectionReason": "U.S. citizenship is explicitly required to support Federal clients and obtain/maintain government credentials/clearance.",
+      "finalPriority": "排除：美国公民身份硬门槛",
+      "technicalGrowth": "Strong early-career DS/application development: Palantir Foundry, React, Python/SQL, data models and analytical workflows",
+      "brandPlatform": "Recognized engineering/consulting platform; federal-client scope limits accessibility",
+      "ryanUpgrade": "Not applicable · citizenship hard gate; salary range overlaps/extends above Ryan but is non-actionable",
+      "compensation": "Employer-supplied range $69,500–$121,500 base; possible discretionary bonus/stock eligibility not guaranteed",
+      "officePerks": "Fort Worth hybrid · up to 20% travel · health/401(k)/stock purchase/PPTO benefits listed",
+      "unverifiedItems": [
+        "Direct Jacobs careers detail URL",
+        "Exact post-graduation start date",
+        "Fixed application deadline"
+      ]
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-03T19:14:25Z",
+    "lastCheckedAt": "2026-10-03T20:16:56Z",
     "scope": "Partial coverage; not a complete ATS pagination census",
     "currentChecks": [
       {
@@ -3157,8 +3199,9 @@
     "coverageLimitations": [
       "Intuit search first page and NCG category inspected; full 39-page census not completed",
       "Apple/Expedia/MS/JPM dynamic search/ATS did not expose complete location-filtered inventory",
-      "SimplifyJobs GitHub page README not rendered; not treated as no new jobs",
-      "Vizient33536R live JD empty; historical official index only"
+      "SimplifyJobs listings.json could not be read as content; search results/issues used only as discovery signals",
+      "Vizient11444573 campus mirror returned HTTP429; no closure inferred",
+      "Jacobs46034 complete employer-supplied JD was readable, but the direct Jacobs careers detail URL was not recovered"
     ],
     "campusSources": [
       "Austin Community College",
@@ -3185,6 +3228,10 @@
       {
         "jobId": "JR-202620418",
         "status": "visa-rejected"
+      },
+      {
+        "jobId": "46034",
+        "status": "citizenship-rejected"
       }
     ],
     "unknownIndexTiming": "No claim about exact historical search indexing or missed-source causation"
