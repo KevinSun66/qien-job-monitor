@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T17:19:34.363Z",
+  "updatedAt": "2026-10-03T18:17:27.197Z",
   "jobs": [
     {
       "company": "IBM",
@@ -3009,6 +3009,176 @@
         "OPT/STEM OPT/E-Verify",
         "薪资及Ryan升级价值"
       ]
+    },
+    {
+      "found": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotified": "2026-10-03",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-03T18:17:27.197Z",
+      "officialPostedDate": null,
+      "deadline": "未披露",
+      "employment": "Full-time",
+      "visa": "F-1 OPT/STEM OPT/E-Verify 未披露，未作签证排除",
+      "ryanUpgrade": "未通过硬门槛，不进入当前表2",
+      "company": "Upland Capital Group",
+      "tier": "未评级",
+      "area": "Remote — Dallas, TX",
+      "market": "DFW",
+      "jobId": "1051528",
+      "title": "Data Scientist, P&C Insurance — Remote (1051528)",
+      "url": "https://upland-capital-group-inc.gnahiring.com/job/1051528/data-scientist-p-c-insurance-remote",
+      "status": "experience-rejected",
+      "source": "雇主 G&A Hiring 完整JD；第三方发现线索",
+      "officialStatus": "雇主招聘平台完整JD可读取；申请开放状态未独立核验",
+      "roleTrack": "Applied DS / ML / Azure MLOps / LLM applications",
+      "gradYear": "Mathematics/Statistics/Data Science 等本科或硕士为preferred",
+      "ngCompatibility": "介绍允许early-career，但Required明确2–5+ years technical experience；2027入职未披露",
+      "seniorityGap": "明确最低2年且须有生产部署经验",
+      "technicalGrowth": "生产模型全周期、Docker/Azure、CI/CD/漂移监控及LLM应用，技术匹配高",
+      "brandPlatform": "特种财产险小团队；相对Ryan品牌升级未证实",
+      "match": "专业与技术方向高匹配，最低经验不符",
+      "compensation": "官方 Pay Estimate $110,000–$165,000；annual incentive，equity/TC未披露",
+      "rejectionReason": "完整Required要求2–5+年DS/actuarial/analytics/predictive modeling技术经验；不能用摘要early-career覆盖最低经验。",
+      "finalPriority": "排除：经验不符",
+      "discoveryTiming": "补发现；官方发布日期未知，不能计算发布到发现天数",
+      "unverifiedItems": [
+        "官方发布日期",
+        "2027入职",
+        "OPT/STEM OPT/E-Verify",
+        "申请按钮开闭状态"
+      ]
+    },
+    {
+      "found": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotified": "2026-10-03",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-03T18:17:27.197Z",
+      "officialPostedDate": null,
+      "deadline": "未披露",
+      "employment": "Full-time",
+      "visa": "F-1 OPT/STEM OPT/E-Verify 未披露，未作签证排除",
+      "ryanUpgrade": "未通过硬门槛，不进入当前表2",
+      "company": "Google",
+      "tier": "S",
+      "area": "Austin, TX / 另11个美国地点",
+      "market": "Austin",
+      "jobId": "84680705375642310",
+      "title": "Software Engineer, Infrastructure, PhD, Early Career, 2027 Start (84680705375642310)",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/84680705375642310-software-engineer-infrastructure-phd-early-career-2027-start",
+      "status": "degree-rejected",
+      "source": "Austin Community College校园镜像发现；Google官方完整JD核验",
+      "officialStatus": "官方JD与Apply显示可访问",
+      "locations": [
+        "Sunnyvale CA",
+        "Atlanta GA",
+        "Austin TX",
+        "Kirkland WA",
+        "Los Angeles CA",
+        "Madison WI",
+        "Mountain View CA",
+        "New York NY",
+        "Raleigh NC",
+        "Durham NC",
+        "San Bruno CA",
+        "Seattle WA"
+      ],
+      "roleTrack": "Infrastructure SWE / distributed systems / AI infrastructure；团队分配不保证AI",
+      "gradYear": "PhD in CS/related field or equivalent practical experience",
+      "ngCompatibility": "Preferred支持2027全职；未确认5月后具体日期。Qien本科与该博士招聘路径不符",
+      "seniorityGap": "博士研究深度或等效经验，不满足",
+      "match": "本科生不符合该博士招聘路径",
+      "technicalGrowth": "顶级分布式系统/AI基础设施",
+      "brandPlatform": "S级平台明显升级；学位资格不通过",
+      "compensation": "官方美国base $147,000–$210,000 +15% bonus target+equity；TC因equity未知不估算",
+      "rejectionReason": "完整JD面向PhD毕业生，最低PhD或等效实践经验；Qien当前本科经历无证据满足等效路径。",
+      "finalPriority": "排除：博士路径学位/等效经验不符",
+      "discoveryTiming": "补发现；官方发布日期未披露，差距天数未知"
+    },
+    {
+      "found": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotified": "2026-10-03",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-03T18:17:27.197Z",
+      "officialPostedDate": null,
+      "deadline": "未披露",
+      "employment": "Full-time",
+      "visa": "F-1 OPT/STEM OPT/E-Verify 未披露，未作签证排除",
+      "ryanUpgrade": "未通过硬门槛，不进入当前表2",
+      "company": "Vizient",
+      "tier": "A",
+      "area": "Edina, MN / Chicago, IL（官方历史索引完整location list）",
+      "market": "Outside-Texas",
+      "jobId": "33536R",
+      "title": "Associate AI/ML Engineer (33536R)",
+      "url": "https://vizient.wd1.myworkdayjobs.com/en-US/Vizient_Careers/job/Associate-AI-ML-Engineer_33536R",
+      "status": "geography-rejected",
+      "source": "官方Workday历史搜索索引完整JD；实时页面空白",
+      "officialStatus": "实时官方页面0行，当前开闭未核实；历史索引不能证明仍开放",
+      "roleTrack": "AI/ML / Palantir / production model lifecycle",
+      "gradYear": "BS CS/DS/Engineering/Mathematics/related；no prior experience required",
+      "ngCompatibility": "零经验可接受；2027入职未披露",
+      "match": "技术/学位匹配，但已披露地点不在Texas",
+      "seniorityGap": "无最低经验",
+      "technicalGrowth": "模型、数据管线、生产部署与监控",
+      "brandPlatform": "医疗企业平台；地域门槛未通过",
+      "compensation": "历史官方索引 $68,500–$116,300 + incentive；当前范围未重新确认",
+      "rejectionReason": "该独立requisition历史完整地点仅Edina/Chicago，没有DFW/Austin；不与已投VTEP 11444573混淆。实时地点及是否重开尚未知。",
+      "finalPriority": "地域排除归档，不进入Dallas/Austin表2",
+      "discoveryTiming": "补发现；官方索引仅相对posted3daysago且缓存4个月，不能推算可靠首次发布日期"
     }
-  ]
+  ],
+  "monitorAudit": {
+    "lastCheckedAt": "2026-10-03T18:17:27.197Z",
+    "scope": "Partial coverage; not a complete ATS pagination census",
+    "currentChecks": [
+      {
+        "jobId": "171568",
+        "result": "officialJD+Apply readable"
+      },
+      {
+        "jobId": "181810",
+        "result": "officialJD+Apply readable"
+      },
+      {
+        "jobId": "10506956",
+        "result": "officialJD+Apply readable"
+      },
+      {
+        "jobId": "11444573",
+        "result": "campus mirror HTTP429; employer status unconfirmed; preserved applied record"
+      }
+    ],
+    "coverageLimitations": [
+      "Intuit search first page and NCG category inspected; full 39-page census not completed",
+      "Apple/Expedia/MS/JPM dynamic search/ATS did not expose complete location-filtered inventory",
+      "SimplifyJobs GitHub page README not rendered; not treated as no new jobs",
+      "Vizient33536R live JD empty; historical official index only"
+    ],
+    "campusSources": [
+      "Austin Community College",
+      "UNT Dallas targeted search",
+      "Texas Woman's University targeted search"
+    ],
+    "decisions": [
+      {
+        "jobId": "1051528",
+        "status": "experience-rejected"
+      },
+      {
+        "jobId": "84680705375642310",
+        "status": "degree-rejected"
+      },
+      {
+        "jobId": "33536R",
+        "status": "geography-rejected"
+      }
+    ],
+    "unknownIndexTiming": "No claim about exact historical search indexing or missed-source causation"
+  }
 }
