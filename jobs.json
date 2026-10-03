@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T12:20:24.000Z",
+  "updatedAt": "2026-10-03T14:19:28Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,7 +231,7 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-03T12:20:24Z",
+      "lastCheckedAt": "2026-10-03T14:19:28Z",
       "officialStatus": "Goldman Sachs official role page and Apply link active on 2026-10-03"
     },
     {
@@ -272,7 +272,7 @@
       "archiveUrl": "job-archive/goldman-sachs/181810/job-description.md",
       "archiveLabel": "JD 快照",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-03T12:20:24Z",
+      "lastCheckedAt": "2026-10-03T14:19:28Z",
       "officialStatus": "Goldman Sachs official role page and Apply link active on 2026-10-03"
     },
     {
@@ -731,8 +731,8 @@
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
       "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-03T08:14:08Z",
-      "officialStatus": "UNT Dallas public mirror returned 429 on 2026-10-03 after returning 404 on 2026-10-02; employer closure remains unconfirmed. Qien already applied; retain current/applied record pending Handshake or employer confirmation."
+      "lastCheckedAt": "2026-10-03T14:19:28Z",
+      "officialStatus": "UNT Dallas public mirror returned 404 on 2026-10-03; official employer/Handshake closure remains unconfirmed. Preserve applied record and JD archive."
     },
     {
       "company": "Metrum AI",
@@ -994,7 +994,7 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-03T12:20:24Z",
+      "lastCheckedAt": "2026-10-03T14:19:28Z",
       "officialStatus": "Amazon official role page and Apply now active on 2026-10-03",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
@@ -1077,12 +1077,12 @@
       "firstSeen": "2026-09-29",
       "firstArchived": "2026-09-29",
       "firstNotifiedDate": "2026-09-29",
-      "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-29T21:59:03Z",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-03T14:19:28Z",
       "source": "Google Careers official JD",
       "url": "https://www.google.com/about/careers/applications/jobs/results/78703249065943750-software-engineer-early-career-campus",
-      "status": "geography-rejected",
-      "finalPriority": "不进入 Texas 候选池 · 官方完整地点列表无 Dallas/Austin",
+      "status": "closed-geography-rejected",
+      "finalPriority": "历史排除 · 原地点无 Texas，官方岗位现已下架",
       "roleTrack": "General Software Engineering; AI team assignment unknown",
       "seniorityGap": "None indicated · early-career campus role",
       "technicalGrowth": "96/100",
@@ -1094,7 +1094,10 @@
       "deadline": "Open until at least 2026-09-30",
       "archiveUrl": "job-archive/google/78703249065943750/job-description.md",
       "archiveLabel": "JD 归档摘要",
-      "strategyPriority": "Monitor for a separate Austin or DFW requisition; do not treat this multi-location posting as Texas-compatible"
+      "strategyPriority": "Monitor for a separate Austin or DFW requisition; do not treat this multi-location posting as Texas-compatible",
+      "officialStatus": "Official Google Careers requisition displays Job not found / This job may have been taken down on 2026-10-03; checked both recorded and alternate title URL.",
+      "statusChangedDate": "2026-10-03",
+      "rejectionReason": "Original complete location list contained no DFW/Austin. Official requisition is now unavailable; preserve prior JD archive and geographic exclusion."
     },
     {
       "company": "General Motors",
@@ -2876,6 +2879,51 @@
       "officePerks": "Plano, TX or McLean, VA; work mode not disclosed in official JD",
       "jobId": "R1002940",
       "deadline": "No fixed deadline disclosed; official page says applications expected for at least 5 business days"
+    },
+    {
+      "company": "Apple",
+      "tier": "S",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Network Engineer - Infrastructure Services, IS&T Early Career (200685805-0157)",
+      "jobId": "200685805-0157",
+      "url": "https://jobs.apple.com/en-us/details/200685805-0157/network-engineer-infrastructure-services-is-t-early-career",
+      "employment": "40 hours/week · Early Career; full-time employment classification pending complete official JD",
+      "gradYear": "Third-party JD mirror accepts Bachelor's in Networking, Software Development, CS/Engineering or equivalent; official graduation/start window unavailable",
+      "found": "2026-10-03",
+      "discoveredDate": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotifiedDate": "2026-10-03",
+      "officialPostedDate": "2026-10-01 (official Austin search index; detail page did not render JD)",
+      "discoveryTiming": "补发现 · 官方搜索索引标示发布日期早于首次发现 2 天；不推断索引延迟原因",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-03T14:19:28Z",
+      "source": "Apple official Austin search index plus LocalJobs full JD mirror https://www.localjobs.com/job/austin-tx-network-engineer-infrastructure-services-ist-early-career",
+      "officialStatus": "Listed in official search index; official detail page currently returns header-only/inaccessible content. Application availability not independently confirmed.",
+      "status": "ng-verification",
+      "finalPriority": "核验中 · 不进入表2；完整官方 JD、2027 入职、OPT 与方向待核实",
+      "roleTrack": "Retail Network Support / Global Network Services / Infrastructure Operations; no AI/ML team evidence",
+      "match": "Preliminary low for Applied AI/ML/DS; strong company brand",
+      "ngCompatibility": "No numeric YOE floor in third-party full JD; official degree, experience and May 2027-after start must be verified",
+      "seniorityGap": "Early Career; mirror has networking fundamentals required and networking internship preferred",
+      "assessment": "Discovery retained before decision filtering. Official Austin search index lists this Early Career role with 40 weekly hours and Oct 1 posting date. The full LocalJobs mirror describes retail network operations/support, network troubleshooting, shifts and scripting automation, rather than AI/ML/model infrastructure. Do not infer an AI role from the broad Infrastructure Services title. Because the official detail JD could not be rendered, retain in manual verification, not Table 2 or a definitive eligibility rejection.",
+      "visa": "Initial OPT / STEM OPT / E-Verify / future sponsorship not disclosed in accessible sources; verification required.",
+      "compensation": "Base, bonus, equity and estimated TC not verified",
+      "technicalGrowth": "Network operations and automation; Applied AI/ML growth not demonstrated",
+      "brandPlatform": "Major platform/brand upgrade relative to Ryan",
+      "ryanUpgrade": "Unscored pending full JD; network-support direction currently weak against Ryan DS baseline",
+      "deadline": "Not disclosed",
+      "officePerks": "Austin; early/late shifts mentioned in mirror; office/hybrid and perks unverified",
+      "unverifiedItems": [
+        "Full official JD and active application status",
+        "Full-time classification",
+        "Degree/equivalent fit",
+        "2027 May-after start",
+        "F-1 OPT / STEM OPT and E-Verify",
+        "Salary/TC",
+        "Whether any direct AI/ML infrastructure scope exists"
+      ]
     }
   ]
 }
