@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T04:21:57Z",
+  "updatedAt": "2026-10-04T05:14:40Z",
   "jobs": [
     {
       "company": "IBM",
@@ -3538,79 +3538,124 @@
       "discoveryTiming": "补发现；官方当前显示Oct1，较firstSeen晚2天发现；这不是原始发布日期或已证明索引延迟",
       "archiveUrl": "job-archive/apple/200674218-0157/verification.md",
       "archiveLabel": "JD核验摘要"
+    },
+    {
+      "company": "Intuit",
+      "tier": "S-",
+      "market": "Out-of-scope",
+      "area": "Mountain View, CA; Atlanta, GA; Charlotte, NC; New York, NY; San Diego, CA (official complete location list; no DFW/Austin)",
+      "jobId": "14930",
+      "title": "Software Engineer 1 (14930)",
+      "url": "https://jobs.intuit.com/job/mountain-view/software-engineer-1/27595/87369448720",
+      "employment": "Full-time signal / New College Grad general SWE; exact schedule not separately stated",
+      "status": "location-rejected",
+      "officialStatus": "Official page open with Apply Now",
+      "found": "2026-10-04",
+      "firstSeen": "2026-10-04",
+      "firstArchived": "2026-10-04",
+      "firstNotifiedDate": "2026-10-04",
+      "lastChecked": "2026-10-04",
+      "lastCheckedAt": "2026-10-04T05:14:40Z",
+      "officialPostedDate": null,
+      "deadline": "Not disclosed",
+      "roleTrack": "General Software Engineering / New College Grad; team assignment based on skills and interests; AI/ML team not guaranteed",
+      "gradYear": "No fixed graduation year disclosed",
+      "ngCompatibility": "Official New College Grad category; less than two years industry experience",
+      "match": "Strong NG/platform fit if Texas were offered, but outside the authorized DFW/Austin geography",
+      "seniorityGap": "Low · official less-than-two-years profile",
+      "technicalGrowth": "General frontend/backend/full-stack/mobile and cloud/SaaS; potential AI/ML exposure is not a team guarantee",
+      "brandPlatform": "S- · material brand/platform upgrade over Ryan",
+      "compensation": "Official page lists Mountain View $55.5–$75, New York $57.5–$78, San Diego $53.5–$72 plus bonus/equity; unit not stated in retrieved text, so no annual TC estimate",
+      "visa": "F-1 OPT/STEM OPT/E-Verify/I-983 not disclosed; not prioritized because no Texas location",
+      "ryanUpgrade": "Would be a brand/platform upgrade, but geographic hard gate fails",
+      "finalPriority": "不投 · 官方完整地点不含DFW或Austin",
+      "assessment": "Discovery layer captured the official New College Grad requisition instead of filtering it by geography or team. The complete official location list is Mountain View, Atlanta, Charlotte, New York and San Diego; footer snippets mentioning Frisco are unrelated job/navigation content, not a location for this requisition. Therefore it is recorded and excluded from Texas Table 2.",
+      "source": "Intuit official job page",
+      "sourceEvidence": "Category New College Grad; less than two years; official locations exclude Texas"
+    },
+    {
+      "company": "Caterpillar",
+      "tier": "A+",
+      "market": "DFW",
+      "area": "Irving, TX plus Tucson/Peoria/Lafayette/Houston/Seguin; 13-week training in Peoria and relocation based on business needs",
+      "jobId": "R0000390317",
+      "title": "2027 Field Representative Development Program (R0000390317)",
+      "url": "https://careers.caterpillar.com/en/jobs/r0000390317/2027-field-representative-development-program/",
+      "employment": "Official header says Part time · Regular · onsite five days/week; 50–75% travel",
+      "status": "direction-rejected",
+      "officialStatus": "Official page open with Apply Now through 2026-10-16",
+      "found": "2026-10-04",
+      "firstSeen": "2026-10-04",
+      "firstArchived": "2026-10-04",
+      "firstNotifiedDate": "2026-10-04",
+      "lastChecked": "2026-10-04",
+      "lastCheckedAt": "2026-10-04T05:14:40Z",
+      "officialPostedDate": "2026-09-29",
+      "deadline": "2026-10-16",
+      "roleTrack": "Field representative / dealer support / sales / digital adoption; not Applied AI/ML/DS engineering",
+      "gradYear": "2027 recent-graduate program; June 2027 and September 2027 start dates are compatible with May 2027 graduation",
+      "ngCompatibility": "NG/start compatible, but fails full-time and direction requirements",
+      "match": "Low for Qien's core path despite a Digital Adoption Representative option and analytics exposure",
+      "seniorityGap": "None · students/recent graduates",
+      "technicalGrowth": "Broad product/dealer/customer exposure; limited direct AI/ML engineering or data-science ownership",
+      "brandPlatform": "A+ industrial platform, but role path is sales/field support rather than Applied AI/ML/DS",
+      "compensation": "Official summary pay range $81,370–$169,060 plus incentive bonus; header also says part time, so comparability/annualization requires clarification",
+      "visa": "Official JD requires US work authorization now and in the future and says sponsorship is unavailable; initial OPT/STEM OPT support is not confirmed. This is an additional concern, not the primary exclusion.",
+      "ryanUpgrade": "No · role direction and employment type do not improve on Ryan Associate Data Scientist",
+      "finalPriority": "不投 · Part-time header + Sales/Field方向，不符合Full-Time Applied AI/ML/DS范围",
+      "assessment": "Discovery layer captured the nationwide/multi-city 2027 program because Irving is in the complete location list and June/September 2027 starts fit Qien. Verification shows the official header says Part time, Career Area is Sales, and the long-term tracks center on dealer/customer field representation with 50–75% travel. Digital adoption and business analytics are secondary options, not an Applied AI/ML/DS role, so it is retained in the rejection audit and excluded from Table 2.",
+      "source": "Caterpillar official careers",
+      "sourceEvidence": "Posted 2026-09-29; deadline 2026-10-16; Part time; Sales; June/September 2027 starts; Irving in location list"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-04T04:21:57Z",
-    "scope": "Official entry-point,7-day targeted search and repository backfill; partial ATS coverage, not a complete inventory",
+    "lastCheckedAt": "2026-10-04T05:14:40Z",
+    "scope": "Official entry-point, 7-day targeted search and repository backfill; partial ATS coverage, not a complete inventory",
     "currentChecks": [
       {
         "jobId": "171568",
-        "result": "Official JD+Apply active"
+        "result": "Official JD and Apply entry remain active"
       },
       {
         "jobId": "181810",
-        "result": "Official JD+Apply active"
+        "result": "Official listing remains retrievable; applied record preserved"
       },
       {
         "jobId": "10506956",
-        "result": "Official JD+Apply active"
+        "result": "Official Amazon job page remains retrievable; applied record preserved"
       },
       {
         "jobId": "11444573",
         "result": "UNT mirror inaccessible; closure not inferred; applied record preserved"
-      },
-      {
-        "jobId": "2600865",
-        "result": "Still officially closed; applied archive preserved"
       }
     ],
     "newDiscoveries": [
       {
-        "jobId": "8002515003",
-        "status": "citizenship-rejected"
+        "jobId": "14930",
+        "status": "location-rejected",
+        "reason": "Official complete location list excludes DFW/Austin"
       },
       {
-        "jobId": "200674218-0157",
-        "status": "ng-verification"
+        "jobId": "R0000390317",
+        "status": "direction-rejected",
+        "reason": "Official header Part time; Sales/field representative path, not Applied AI/ML/DS"
       }
     ],
-    "verificationChanges": [
-      {
-        "jobId": "59461",
-        "from": "ng-verification",
-        "to": "closed-watch",
-        "evidence": "Official page explicitly says filled"
-      }
-    ],
+    "verificationChanges": [],
     "sourcesChecked": [
-      "BCG59461",
-      "Goldman171568/181810",
-      "Amazon10506956",
-      "Vizient official careers + UNT mirror",
-      "Trinity2600865 full officialJD",
-      "D3V careers",
-      "Intuit entry-level;Plano/Dallas/Austin city lists;Frisco pages1–4",
-      "Google EarlyCareer/Campus search + known nationwide requisition",
-      "Microsoft Early-in-Profession campus search",
-      "Toyota Connected careers",
-      "Caterpillar official careers + Irving graduate search",
-      "Southwest official search",
-      "CapitalOne official/search attempted",
-      "JPMorgan programs",
-      "Apple Austin official list +200674218/200671401/200685805",
-      "Arm2026-17691 fullJD (known rejected)",
-      "Expedia official/search attempted",
-      "speedyapply NEW_GRAD_USA",
-      "zapplyjobs NewGradDS",
-      "UNT Dallas campus mirrors/search"
+      "Goldman Sachs 171568/181810 official",
+      "Amazon 10506956 official",
+      "Vizient 11444573 UNT mirror",
+      "Caterpillar official R0000392872 and R0000390317",
+      "Intuit official entry-level and Texas search pages",
+      "Salesforce Futureforce and Texas targeted search",
+      "DFW/Austin targeted early-career web and official-source sweep"
     ],
     "coverageLimitations": [
-      "Several dynamic ATS/fullJDs could not be read; no exhaustive pagination across all companies",
-      "Intuit Frisco pagination returned differing count snapshots (39/41/50); cannot certify coherent complete inventory",
-      "Apple200674218 live detailJS-only; official historical indexed and syndicated conditions are preliminary, not proof of current hard-gate verification",
-      "Vizient public mirror still inaccessible; no employer closure inferred",
-      "7-day and older open-job backfill searched; no result is not proof of no openings"
+      "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
+      "Vizient public mirror is inaccessible; no employer closure inferred",
+      "Intuit search snippets can include unrelated Frisco navigation/related-job text; only the requisition header location list was treated as authoritative",
+      "No claim is made about exact historical indexing or the cause of delayed discovery"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery"
   }
