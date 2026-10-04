@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T03:15:50Z",
+  "updatedAt": "2026-10-04T04:21:57Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,7 +231,7 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-04T03:15:50Z",
+      "lastCheckedAt": "2026-10-04T04:21:57Z",
       "officialStatus": "Goldman Sachs official role page and Apply link active on 2026-10-03"
     },
     {
@@ -272,7 +272,7 @@
       "archiveUrl": "job-archive/goldman-sachs/181810/job-description.md",
       "archiveLabel": "JD 快照",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-04T03:15:50Z",
+      "lastCheckedAt": "2026-10-04T04:21:57Z",
       "officialStatus": "Goldman Sachs official role page and Apply link active on 2026-10-03"
     },
     {
@@ -561,8 +561,8 @@
       "seedAppliedDisplay": "2026/9/28（已投递；具体时间未核实）",
       "archiveUrl": "job-archive/trinity/2600865/job-description.md",
       "archiveLabel": "JD 快照（原始 PDF 另存）",
-      "lastChecked": "2026-09-29",
-      "lastCheckedAt": "2026-09-30T00:22:19Z",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-04T04:21:57Z",
       "officialStatus": "Closed — official Trinity Careers page states the position has been closed",
       "closedDate": "2026-09-29"
     },
@@ -731,7 +731,7 @@
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
       "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-04T03:15:50Z",
+      "lastCheckedAt": "2026-10-04T04:21:57Z",
       "officialStatus": "UNT Dallas public mirror returned 404 on 2026-10-03; official employer/Handshake closure remains unconfirmed. Preserve applied record and JD archive."
     },
     {
@@ -994,7 +994,7 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-04T03:15:50Z",
+      "lastCheckedAt": "2026-10-04T04:21:57Z",
       "officialStatus": "Amazon official role page and Apply now active on 2026-10-03",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
@@ -3413,8 +3413,8 @@
       "employment": "Full-time · FDE AI Engineer I–Senior multi-level requisition",
       "gradYear": "Degree must be completed before BCG start; exact degree/2027 hiring window not disclosed",
       "match": "Very high technical and platform fit; hiring level/start/OPT pending",
-      "ngCompatibility": "NG/start-date verification · JD includes Engineer I compensation and no numeric minimum YOE, but does not confirm May-2027+ start",
-      "assessment": "新增全国统一多城市requisition，完整地点明确含Dallas；与历史59067/59068为不同job ID，单独记录。职责覆盖端到端AI analytics value chain、算法设计、Python、production deployment及直接客户合作。可按Forward Deployed AI Engineer I起薪层级招聘，JD未写数字化最低年限或固定学位门槛，仅要求入职前完成所有学位项目，因此不能按Senior标题或第三方Entry Level标签自动判断。2027年5月后入职、Qien应聘时的实际level、F-1 OPT/STEM OPT和出差比例均待官方确认；在此之前不进表2。",
+      "ngCompatibility": "Closed; historical level/start/OPT questions remain unresolved",
+      "assessment": "新增全国统一多城市requisition，完整地点明确含Dallas；与历史59067/59068为不同job ID，单独记录。职责覆盖端到端AI analytics value chain、算法设计、Python、production deployment及直接客户合作。可按Forward Deployed AI Engineer I起薪层级招聘，JD未写数字化最低年限或固定学位门槛，仅要求入职前完成所有学位项目，因此不能按Senior标题或第三方Entry Level标签自动判断。2027年5月后入职、Qien应聘时的实际level、F-1 OPT/STEM OPT和出差比例均待官方确认；在此之前不进表2。 2026-10-03后续复核官网明确显示职位已填补，改为closed-watch；不再视为可申请的核验线索。",
       "visa": "Official JD does not disclose F-1 OPT/STEM OPT, permanent/unrestricted authorization, or sponsorship terms. BCG E-Verify signal appears in syndicated employer content, but job-specific OPT/I-983 support remains unconfirmed.",
       "found": "2026-10-03",
       "firstSeen": "2026-10-03",
@@ -3423,8 +3423,8 @@
       "officialPostedDate": "Not displayed; syndicated pages appeared within the prior week",
       "deadline": "Not disclosed",
       "url": "https://careers.bcg.com/global/en/job/59461/Forward-Deployed-AI-Engineer-United-States-BCG-X",
-      "status": "ng-verification",
-      "finalPriority": "高价值核验 · 暂不进表2；确认2027入职、Engineer I映射、OPT和出差后决定",
+      "status": "closed-watch",
+      "finalPriority": "已关闭 · 保留JD核验快照",
       "roleTrack": "Forward Deployed AI Engineering / Applied AI / Production AI / Client Engineering",
       "seniorityGap": "Unknown · no numeric minimum YOE; multi-level I/II/III/Senior pay bands",
       "technicalGrowth": "98/100 · end-to-end AI build/deploy plus direct client ownership",
@@ -3439,105 +3439,178 @@
         "https://careers.bcg.com/global/en/job/59461/Forward-Deployed-AI-Engineer-United-States-BCG-X",
         "https://www.indeed.com/viewjob?jk=b463dc6604f34484"
       ],
-      "officialStatus": "BCG official requisition and employer Apply path accessible on 2026-10-03",
+      "officialStatus": "Closed — official BCG requisition displays the job has been filled; checked 2026-10-03",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-04T03:15:50Z",
+      "lastCheckedAt": "2026-10-04T04:21:57Z",
       "archiveUrl": "job-archive/bcg-x/59461/job-description.md",
       "archiveLabel": "JD 核验快照",
       "relatedJobId": [
         "59067",
         "59068"
       ],
-      "discoveryTiming": "补发现；官方发布日期未披露，不能计算发布至发现间隔"
+      "discoveryTiming": "补发现；官方发布日期未披露，不能计算发布至发现间隔",
+      "closedDate": "2026-10-03",
+      "statusHistory": [
+        {
+          "at": "2026-10-04T04:22:00Z",
+          "from": "ng-verification",
+          "to": "closed-watch",
+          "evidenceUrl": "https://careers.bcg.com/global/en/job/59461/Forward-Deployed-AI-Engineer-United-States-BCG-X",
+          "evidence": "the job you are trying to apply for has been filled"
+        }
+      ]
+    },
+    {
+      "found": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotifiedDate": "2026-10-03",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-04T04:21:57Z",
+      "officialPostedDate": null,
+      "deadline": "Not disclosed",
+      "company": "Striveworks",
+      "tier": "未评级 · 资格排除",
+      "market": "Austin",
+      "area": "Austin, TX · hybrid/on-site · travel up to25%; not commutable from Plano as daily office",
+      "jobId": "8002515003",
+      "title": "Junior Machine Learning Engineer (8002515003)",
+      "employment": "Full-time per discovery mirror; employer asks earliest full-time start",
+      "url": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+      "status": "citizenship-rejected",
+      "officialStatus": "Open — employer full JD and application form readable",
+      "gradYear": "BS CS/ML/related;0–2 relevant years; start window not disclosed",
+      "ngCompatibility": "Degree/0–2 entry level satisfied in principle; US citizenship gate fails;2027 start unconfirmed",
+      "match": "Technical fit high; not eligible under citizenship requirement",
+      "roleTrack": "Applied ML / Agentic AI / AI operations / production deployment",
+      "seniorityGap": "Low; explicit0–2 years",
+      "technicalGrowth": "Strong multimodal AI pipelines,agentic workflows,RAG,evaluation and observability exposure",
+      "brandPlatform": "Specialist AI operations vendor; platform value not scored after hard gate fails",
+      "compensation": "Official anticipated base $100,000–$130,000/year; cash bonuses and equity included but amounts not disclosed; no reliable estimatedTC",
+      "visa": "US citizenship and eligibility/willingness to obtain Secret-or-above clearance explicitly required; F-1 OPT cannot satisfy. Employer E-Verify participation does not override citizenship gate.",
+      "ryanUpgrade": "不评分 · 未通过工作授权硬门槛",
+      "finalPriority": "排除 · 美国公民及安全许可资格硬门槛",
+      "rejectionReason": "Official JD and application form explicitly require US citizenship and eligibility for Secret-or-above security clearance",
+      "assessment": "先发现后核验：本科相关专业、0–2年经验，Python/PyTorch/TensorFlow/sklearn，生产AI与ML管道方向高度相关；官方明确公民及安全许可要求，Qien不满足。2027入职、截止日未披露。保留发现/排除记录，不进入表2。",
+      "source": "speedyapply NEW_GRAD_USA backfill → Striveworks official Greenhouse full JD",
+      "discoveryTiming": "补发现；仓库age不是官方发布时间，首次发布日期与精确漏抓间隔无法确定",
+      "archiveUrl": "job-archive/striveworks/8002515003/verification.md",
+      "archiveLabel": "资格核验快照"
+    },
+    {
+      "found": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotifiedDate": "2026-10-03",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-04T04:21:57Z",
+      "officialPostedDate": null,
+      "deadline": "Not disclosed",
+      "company": "Apple",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin, TX; work arrangement not verified",
+      "jobId": "200674218-0157",
+      "title": "Software Engineer, Cloud Services ASE (200674218-0157)",
+      "url": "https://jobs.apple.com/en-us/details/200674218-0157/software-engineer-cloud-services-ase",
+      "employment": "40 hours/week per official list; full-time type pending exact JD",
+      "status": "ng-verification",
+      "officialDisplayedDate": "2026-10-01",
+      "sourceHistoricalDate": "Apple locale indexed page Jul31; Muse metadata Aug4; original first publication unresolved",
+      "officialStatus": "Listed with Submit Resume on official Austin result list; live detail returns JS shell only",
+      "roleTrack": "General SWE / cloud services; AI/ML team not confirmed",
+      "gradYear": "Syndicated JD accepts BS CS/CE or equivalent practical experience; no graduation window",
+      "ngCompatibility": "2027年5月后入职待确认；不是已确认Campus入口",
+      "match": "Discovery only; experience profile appears beyond fresh graduate",
+      "seniorityGap": "Official indexed locale + syndicated JD list extensive enterprise-scale architecture experience and1+YOE each in cloud,CI/CD/Kubernetes,Golang; final current USJD verification pending",
+      "technicalGrowth": "Cloud infrastructure,distributed services,CI/CD and security; AI team unconfirmed",
+      "brandPlatform": "S Apple platform; scope alone does not prove eligibility",
+      "compensation": "Austin base/bonus/equity/TC not disclosed in retrieved sources",
+      "visa": "F-1 OPT/STEM OPT/E-Verify/I-983 not confirmed; no inference from missing sponsorship language",
+      "ryanUpgrade": "待核验 · 平台强但资格未通过",
+      "finalPriority": "核验中 · 经验画像偏有经验；不进入表2",
+      "assessment": "官网Austin名单列出200674218-0157；不能把Oct1显示日期当首次发布日期，历史官方locale索引与镜像已有Jul/Aug记录。完整当前官网JD只返回JS shell；镜像及官方历史索引的最低条件含多项1+YOE及大型企业架构经验，明显不应作为已确认NG。保留核验线索，入职日/OPT/实际经验口径待核实。",
+      "source": "Apple official Austin list; official locale indexedJD; Muse complete syndicatedJD",
+      "sourceUrls": [
+        "https://jobs.apple.com/en-ua/details/200674218-0157/software-engineer-cloud-services-ase?team=SFTWR",
+        "https://www.themuse.com/jobs/apple/software-engineer-cloud-services-ase"
+      ],
+      "discoveryTiming": "补发现；官方当前显示Oct1，较firstSeen晚2天发现；这不是原始发布日期或已证明索引延迟",
+      "archiveUrl": "job-archive/apple/200674218-0157/verification.md",
+      "archiveLabel": "JD核验摘要"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-04T03:15:50Z",
-    "scope": "Incremental official/campus/repository check; NOT a complete ATS pagination census",
+    "lastCheckedAt": "2026-10-04T04:21:57Z",
+    "scope": "Official entry-point,7-day targeted search and repository backfill; partial ATS coverage, not a complete inventory",
     "currentChecks": [
       {
         "jobId": "171568",
-        "result": "officialJD+Apply active"
+        "result": "Official JD+Apply active"
       },
       {
         "jobId": "181810",
-        "result": "officialJD+Apply active"
+        "result": "Official JD+Apply active"
       },
       {
         "jobId": "10506956",
-        "result": "officialJD+Apply active"
+        "result": "Official JD+Apply active"
       },
       {
         "jobId": "11444573",
-        "result": "UNT mirror internal error/404; employer closure unconfirmed; applied record preserved"
+        "result": "UNT mirror inaccessible; closure not inferred; applied record preserved"
+      },
+      {
+        "jobId": "2600865",
+        "result": "Still officially closed; applied archive preserved"
       }
     ],
     "newDiscoveries": [
       {
-        "jobId": "R-109164",
-        "status": "ng-verification"
-      },
-      {
-        "jobId": "75131",
-        "status": "ng-verification"
-      },
-      {
-        "jobId": "200671401-0157",
-        "status": "ng-verification"
-      },
-      {
-        "jobId": "8250197",
-        "status": "ng-verification"
-      },
-      {
-        "jobId": "R_00047702",
+        "jobId": "8002515003",
         "status": "citizenship-rejected"
       },
       {
-        "jobId": "R_00047743",
-        "status": "citizenship-rejected"
-      },
-      {
-        "jobId": "59461",
+        "jobId": "200674218-0157",
         "status": "ng-verification"
       }
     ],
     "verificationChanges": [
       {
-        "company": "D3V",
-        "change": "official JD degree/0–2/technical requirements verified; further gates pending"
-      },
-      {
         "jobId": "59461",
-        "change": "Official nationwide requisition contains Dallas; full readable employer JD has no numeric minimum YOE and includes Engineer I pay band; start/OPT/level/travel pending"
+        "from": "ng-verification",
+        "to": "closed-watch",
+        "evidence": "Official page explicitly says filled"
       }
     ],
     "sourcesChecked": [
-      "Goldman official171568/181810",
+      "BCG59461",
+      "Goldman171568/181810",
       "Amazon10506956",
-      "Intuit careers + entry-level + Plano complete2-job list",
-      "Google campus search",
-      "Microsoft1970393556928331",
-      "Trinity2600865",
+      "Vizient official careers + UNT mirror",
+      "Trinity2600865 full officialJD",
       "D3V careers",
-      "Vizient careers + UNT mirror",
-      "Caterpillar official R0000392872 indexed JD",
+      "Intuit entry-level;Plano/Dallas/Austin city lists;Frisco pages1–4",
+      "Google EarlyCareer/Campus search + known nationwide requisition",
+      "Microsoft Early-in-Profession campus search",
       "Toyota Connected careers",
+      "Caterpillar official careers + Irving graduate search",
       "Southwest official search",
-      "JPMorgan campus programs",
-      "Capital One search",
-      "Apple Austin/200671401",
-      "Expedia Austin search",
-      "Arm Austin attempted",
-      "UNT Dallas/TWU/ACC campus searches",
-      "speedyapply 2027-AI-College-Jobs",
-      "zapplyjobs New-Grad-Data-Science-Jobs-2027 README"
+      "CapitalOne official/search attempted",
+      "JPMorgan programs",
+      "Apple Austin official list +200674218/200671401/200685805",
+      "Arm2026-17691 fullJD (known rejected)",
+      "Expedia official/search attempted",
+      "speedyapply NEW_GRAD_USA",
+      "zapplyjobs NewGradDS",
+      "UNT Dallas campus mirrors/search"
     ],
     "coverageLimitations": [
-      "Full ATS pagination not completed for all monitored companies; no search hit is not proof of no openings",
-      "BCG official rendering omitted detailed JD text; employer-supplied syndicated full JD used alongside official requisition",
-      "Vizient 11444573 UNT mirror remains inaccessible; no closure inferred",
-      "Dynamic Microsoft/Apple/Workday records remain subject to manual verification"
+      "Several dynamic ATS/fullJDs could not be read; no exhaustive pagination across all companies",
+      "Intuit Frisco pagination returned differing count snapshots (39/41/50); cannot certify coherent complete inventory",
+      "Apple200674218 live detailJS-only; official historical indexed and syndicated conditions are preliminary, not proof of current hard-gate verification",
+      "Vizient public mirror still inaccessible; no employer closure inferred",
+      "7-day and older open-job backfill searched; no result is not proof of no openings"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery"
   }

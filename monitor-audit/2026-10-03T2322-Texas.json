@@ -1,0 +1,74 @@
+{
+  "lastCheckedAt": "2026-10-04T04:21:57Z",
+  "scope": "Official entry-point,7-day targeted search and repository backfill; partial ATS coverage, not a complete inventory",
+  "currentChecks": [
+    {
+      "jobId": "171568",
+      "result": "Official JD+Apply active"
+    },
+    {
+      "jobId": "181810",
+      "result": "Official JD+Apply active"
+    },
+    {
+      "jobId": "10506956",
+      "result": "Official JD+Apply active"
+    },
+    {
+      "jobId": "11444573",
+      "result": "UNT mirror inaccessible; closure not inferred; applied record preserved"
+    },
+    {
+      "jobId": "2600865",
+      "result": "Still officially closed; applied archive preserved"
+    }
+  ],
+  "newDiscoveries": [
+    {
+      "jobId": "8002515003",
+      "status": "citizenship-rejected"
+    },
+    {
+      "jobId": "200674218-0157",
+      "status": "ng-verification"
+    }
+  ],
+  "verificationChanges": [
+    {
+      "jobId": "59461",
+      "from": "ng-verification",
+      "to": "closed-watch",
+      "evidence": "Official page explicitly says filled"
+    }
+  ],
+  "sourcesChecked": [
+    "BCG59461",
+    "Goldman171568/181810",
+    "Amazon10506956",
+    "Vizient official careers + UNT mirror",
+    "Trinity2600865 full officialJD",
+    "D3V careers",
+    "Intuit entry-level;Plano/Dallas/Austin city lists;Frisco pages1–4",
+    "Google EarlyCareer/Campus search + known nationwide requisition",
+    "Microsoft Early-in-Profession campus search",
+    "Toyota Connected careers",
+    "Caterpillar official careers + Irving graduate search",
+    "Southwest official search",
+    "CapitalOne official/search attempted",
+    "JPMorgan programs",
+    "Apple Austin official list +200674218/200671401/200685805",
+    "Arm2026-17691 fullJD (known rejected)",
+    "Expedia official/search attempted",
+    "speedyapply NEW_GRAD_USA",
+    "zapplyjobs NewGradDS",
+    "UNT Dallas campus mirrors/search"
+  ],
+  "coverageLimitations": [
+    "Several dynamic ATS/fullJDs could not be read; no exhaustive pagination across all companies",
+    "Intuit Frisco pagination returned differing count snapshots (39/41/50); cannot certify coherent complete inventory",
+    "Apple200674218 live detailJS-only; official historical indexed and syndicated conditions are preliminary, not proof of current hard-gate verification",
+    "Vizient public mirror still inaccessible; no employer closure inferred",
+    "7-day and older open-job backfill searched; no result is not proof of no openings"
+  ],
+  "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery"
+}

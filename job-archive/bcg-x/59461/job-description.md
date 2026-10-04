@@ -37,3 +37,7 @@ Bonus, equity and total compensation are not disclosed.
 ## Decision
 
 High-value S-tier lead. Preserve as ng-verification and do not show in current Table 2 until the unresolved hard gates are confirmed. This is a separate requisition from historical BCG X IDs 59067 and 59068.
+
+## Status update — 2026-10-03
+
+The official BCG page explicitly states that the requisition has been filled. Moved from ng-verification to closed-watch. The earlier readable JD and compensation details above are retained as historical evidence, not an active application recommendation.
