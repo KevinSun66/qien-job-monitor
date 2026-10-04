@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T05:14:40Z",
+  "updatedAt": "2026-10-04T08:14:50Z",
   "jobs": [
     {
       "company": "IBM",
@@ -3674,10 +3674,46 @@
       "assessment": "Discovery layer retained the Engineer I requisition rather than silently dropping it. Retrieved JD content centers on data structures, enterprise reports, dashboards, visualizations, recurring performance reporting, IVR/workforce/contact-center operations and process automation. No applied ML, model serving, GenAI or ML platform ownership is established. Even if the seniority gate later clears, the role does not beat Ryan on technical direction or platform value, so it is recorded as direction-rejected and excluded from Table 2.",
       "source": "GEICO official Workday index + GEICO-provided LinkedIn/mirror JD",
       "sourceEvidence": "R0066162; Richardson/Dallas hybrid; base $79,950–$141,450; reporting/dashboard/contact-center analytics scope"
+    },
+    {
+      "found": "2026-10-04",
+      "firstSeen": "2026-10-04",
+      "firstArchived": "2026-10-04",
+      "firstNotifiedDate": "2026-10-04",
+      "lastChecked": "2026-10-04",
+      "lastCheckedAt": "2026-10-04T08:14:50Z",
+      "officialPostedDate": "2026-09-30 (official detail metadata); Apple search list displays 2026-10-01",
+      "deadline": "2026-10-08 on accessibility mirror; not confirmed by Apple official page",
+      "company": "Apple",
+      "tier": "S",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "jobId": "200683761-0157",
+      "title": "People Analytics Full Stack Developer",
+      "url": "https://jobs.apple.com/en-us/details/200683761-0157/people-analytics-full-stack-developer",
+      "employment": "Full-time · 40 hours/week · permanent",
+      "status": "seniority-rejected",
+      "officialStatus": "Listed with Submit Resume on Apple official Austin/People search results on 2026-10-04",
+      "roleTrack": "People Analytics Engineering / Data Engineering / Full Stack / AI-assisted development",
+      "gradYear": "Experienced hire · explicit 7+ years",
+      "ngCompatibility": "Not NG-compatible · explicit 7+ years developing analytics products, reports and dashboards",
+      "match": "Technical adjacency high; eligibility fails hard gate",
+      "seniorityGap": "Very high · 7+ years minimum",
+      "technicalGrowth": "Snowflake, SQL/ETL, Python APIs, dashboards, Linux/containers, MCP and agentic AI coding tools",
+      "brandPlatform": "S Apple platform",
+      "compensation": "Indexed Austin copy: $149,200–$249,000 base + potential RSU/bonus/benefits; not an eligible Qien opportunity",
+      "visa": "F-1 OPT/STEM OPT/E-Verify not disclosed; not prioritized because seniority already excludes the role",
+      "ryanUpgrade": "Not applicable · fails experience hard gate despite Apple brand and compensation",
+      "finalPriority": "不投 · 明确 7+ 年经验门槛",
+      "assessment": "Apple Austin官网当前列出该岗位，方向为People Analytics产品全栈交付：Snowflake、SQL/ETL、Python服务/API、Dashboard、Linux/容器与agentic AI coding tools。完整JD明确要求7+年开发维护analytics products/reports/dashboards经验，并要求高度自主的生产运维与敏感员工数据治理；属于资深岗位，不符合Qien的0–2年/NG硬门槛。保存发现与排除记录，避免聚合源重复提醒。",
+      "source": "Apple official Austin/People search list + matching complete syndicated JD + accessibility mirror",
+      "discoveryTiming": "补发现；官方detail metadata为Sep30、搜索列表显示Oct1，firstSeen为Oct4；显示日期差异不归因于索引原因",
+      "archiveUrl": "job-archive/apple/200683761-0157/verification.md",
+      "archiveLabel": "JD核验摘要"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-04T05:14:40Z",
+    "lastCheckedAt": "2026-10-04T08:14:50Z",
     "scope": "Official entry-point, 7-day targeted search and repository backfill; partial ATS coverage, not a complete inventory",
     "currentChecks": [
       {
@@ -3717,6 +3753,11 @@
         "jobId": "R0066162",
         "status": "direction-rejected",
         "reason": "Traditional contact-center reporting/analytics; no Ryan upgrade"
+      },
+      {
+        "jobId": "200683761-0157",
+        "status": "seniority-rejected",
+        "reason": "Officially listed in Austin; complete matching JD explicitly requires 7+ years analytics-product/dashboard experience"
       }
     ],
     "verificationChanges": [],
@@ -3731,7 +3772,10 @@
       "speedyapply NEW_GRAD_USA incremental Texas lines",
       "zapplyjobs New-Grad Data Science incremental Texas lines",
       "Toyota 10337203 official index + syndicated full JD",
-      "GEICO R0066162 official index + syndicated JD"
+      "GEICO R0066162 official index + syndicated JD",
+      "zapplyjobs incremental commits through 440f31d13a7d26e76e44489d8b7e47842ca84e0e",
+      "Apple official Austin and Corporate Functions: People search results",
+      "Apple 200683761 complete matching JD mirror"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -3739,7 +3783,8 @@
       "Intuit search snippets can include unrelated Frisco navigation/related-job text; only the requisition header location list was treated as authoritative",
       "No claim is made about exact historical indexing or the cause of delayed discovery",
       "Toyota 10337203 full official page returned 403; exact-role requirements use official index plus complete syndicated JD and are labeled accordingly",
-      "GEICO R0066162 official Workday detail returned no readable body; experience and visa remain unverified, while direction rejection is based on retrieved employer-provided scope"
+      "GEICO R0066162 official Workday detail returned no readable body; experience and visa remain unverified, while direction rejection is based on retrieved employer-provided scope",
+      "Apple detail pages are JavaScript-rendered; open status used Apple official search list, while qualification text used a complete matching role-number copy and is labeled accordingly"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery"
   }
