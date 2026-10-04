@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T02:15:35Z",
+  "updatedAt": "2026-10-04T03:15:50Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,7 +231,7 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-04T02:15:35Z",
+      "lastCheckedAt": "2026-10-04T03:15:50Z",
       "officialStatus": "Goldman Sachs official role page and Apply link active on 2026-10-03"
     },
     {
@@ -272,7 +272,7 @@
       "archiveUrl": "job-archive/goldman-sachs/181810/job-description.md",
       "archiveLabel": "JD 快照",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-04T02:15:35Z",
+      "lastCheckedAt": "2026-10-04T03:15:50Z",
       "officialStatus": "Goldman Sachs official role page and Apply link active on 2026-10-03"
     },
     {
@@ -731,7 +731,7 @@
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
       "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-04T02:15:35Z",
+      "lastCheckedAt": "2026-10-04T03:15:50Z",
       "officialStatus": "UNT Dallas public mirror returned 404 on 2026-10-03; official employer/Handshake closure remains unconfirmed. Preserve applied record and JD archive."
     },
     {
@@ -994,7 +994,7 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-04T02:15:35Z",
+      "lastCheckedAt": "2026-10-04T03:15:50Z",
       "officialStatus": "Amazon official role page and Apply now active on 2026-10-03",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
@@ -3403,27 +3403,73 @@
       "rejectionReason": "Employer's indexed Workday JD explicitly requires US Citizen/security investigation. Complete live JD not readable; preserve source limitation and recheck if qualification changes.",
       "assessment": "两个不同requisition分别发现和记录。官方Workday索引写明US Citizen及government security investigation，Qien工作授权不满足。完整动态JD未读取成功，学历/经验/薪资不得编造；不进表2。",
       "sourceEvidence": "US Citizen: Applicant selected will be subject to a government security investigation"
+    },
+    {
+      "company": "BCG X",
+      "tier": "S",
+      "area": "Dallas, TX（全国多城市统一requisition；需选择Dallas home office）",
+      "market": "DFW",
+      "title": "Forward Deployed AI Engineer, United States - BCG X (59461)",
+      "employment": "Full-time · FDE AI Engineer I–Senior multi-level requisition",
+      "gradYear": "Degree must be completed before BCG start; exact degree/2027 hiring window not disclosed",
+      "match": "Very high technical and platform fit; hiring level/start/OPT pending",
+      "ngCompatibility": "NG/start-date verification · JD includes Engineer I compensation and no numeric minimum YOE, but does not confirm May-2027+ start",
+      "assessment": "新增全国统一多城市requisition，完整地点明确含Dallas；与历史59067/59068为不同job ID，单独记录。职责覆盖端到端AI analytics value chain、算法设计、Python、production deployment及直接客户合作。可按Forward Deployed AI Engineer I起薪层级招聘，JD未写数字化最低年限或固定学位门槛，仅要求入职前完成所有学位项目，因此不能按Senior标题或第三方Entry Level标签自动判断。2027年5月后入职、Qien应聘时的实际level、F-1 OPT/STEM OPT和出差比例均待官方确认；在此之前不进表2。",
+      "visa": "Official JD does not disclose F-1 OPT/STEM OPT, permanent/unrestricted authorization, or sponsorship terms. BCG E-Verify signal appears in syndicated employer content, but job-specific OPT/I-983 support remains unconfirmed.",
+      "found": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotifiedDate": "2026-10-03",
+      "officialPostedDate": "Not displayed; syndicated pages appeared within the prior week",
+      "deadline": "Not disclosed",
+      "url": "https://careers.bcg.com/global/en/job/59461/Forward-Deployed-AI-Engineer-United-States-BCG-X",
+      "status": "ng-verification",
+      "finalPriority": "高价值核验 · 暂不进表2；确认2027入职、Engineer I映射、OPT和出差后决定",
+      "roleTrack": "Forward Deployed AI Engineering / Applied AI / Production AI / Client Engineering",
+      "seniorityGap": "Unknown · no numeric minimum YOE; multi-level I/II/III/Senior pay bands",
+      "technicalGrowth": "98/100 · end-to-end AI build/deploy plus direct client ownership",
+      "brandPlatform": "99/100 · BCG X S-tier AI consulting/platform",
+      "ryanUpgrade": "Potentially 95/100 if Engineer I, May-2027 start and OPT are confirmed; $120K Dallas base would materially exceed Ryan",
+      "compensation": "Official-employer-supplied Dallas syndicated JD: first-year base Engineer I $120K; II $155K; III $171K; Senior $200K. Bonus/equity/TC not disclosed. Level assignment not confirmed.",
+      "officePerks": "Dallas home office, in-office as directed; must live within reasonable commuting distance. JD warns of extended hours and client-site travel; travel percentage not disclosed. From Plano 75075 to 2051 N Harwood St is generally feasible but peak commute should be expected.",
+      "jobId": "59461",
+      "strategyPriority": "Verify quickly; high-value lead but do not promote without hard-gate confirmation",
+      "source": "BCG official requisition; employer-supplied full JD mirrored on Indeed for readable details",
+      "sourceUrls": [
+        "https://careers.bcg.com/global/en/job/59461/Forward-Deployed-AI-Engineer-United-States-BCG-X",
+        "https://www.indeed.com/viewjob?jk=b463dc6604f34484"
+      ],
+      "officialStatus": "BCG official requisition and employer Apply path accessible on 2026-10-03",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-04T03:15:50Z",
+      "archiveUrl": "job-archive/bcg-x/59461/job-description.md",
+      "archiveLabel": "JD 核验快照",
+      "relatedJobId": [
+        "59067",
+        "59068"
+      ],
+      "discoveryTiming": "补发现；官方发布日期未披露，不能计算发布至发现间隔"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-04T02:15:35Z",
-    "scope": "Partial official/campus/repository backfill; NOT a complete ATS pagination census",
+    "lastCheckedAt": "2026-10-04T03:15:50Z",
+    "scope": "Incremental official/campus/repository check; NOT a complete ATS pagination census",
     "currentChecks": [
       {
         "jobId": "171568",
-        "result": "official JD+Apply active"
+        "result": "officialJD+Apply active"
       },
       {
         "jobId": "181810",
-        "result": "official JD+Apply active"
+        "result": "officialJD+Apply active"
       },
       {
         "jobId": "10506956",
-        "result": "official JD+Apply active"
+        "result": "officialJD+Apply active"
       },
       {
         "jobId": "11444573",
-        "result": "UNT mirror404/internal error; employer closure unconfirmed; applied record preserved"
+        "result": "UNT mirror internal error/404; employer closure unconfirmed; applied record preserved"
       }
     ],
     "newDiscoveries": [
@@ -3450,12 +3496,20 @@
       {
         "jobId": "R_00047743",
         "status": "citizenship-rejected"
+      },
+      {
+        "jobId": "59461",
+        "status": "ng-verification"
       }
     ],
     "verificationChanges": [
       {
         "company": "D3V",
         "change": "official JD degree/0–2/technical requirements verified; further gates pending"
+      },
+      {
+        "jobId": "59461",
+        "change": "Official nationwide requisition contains Dallas; full readable employer JD has no numeric minimum YOE and includes Engineer I pay band; start/OPT/level/travel pending"
       }
     ],
     "sourcesChecked": [
@@ -3480,12 +3534,11 @@
       "zapplyjobs New-Grad-Data-Science-Jobs-2027 README"
     ],
     "coverageLimitations": [
-      "Full ATS pagination not completed for all monitored companies; search no-results is not evidence of no openings",
-      "Microsoft/Apple/Workday details dynamic or unreadable; preserved leads with unknown gates",
-      "Intuit entry-level job link/Frisco retrieval failed; nationwide full inventory not completed",
-      "UT Austin citizenship exclusion uses indexed employer text; direct complete JD retrieval returned empty",
-      "Syndicated Expedia/AMD experience clauses are preliminary until official complete JD is readable"
+      "Full ATS pagination not completed for all monitored companies; no search hit is not proof of no openings",
+      "BCG official rendering omitted detailed JD text; employer-supplied syndicated full JD used alongside official requisition",
+      "Vizient 11444573 UNT mirror remains inaccessible; no closure inferred",
+      "Dynamic Microsoft/Apple/Workday records remain subject to manual verification"
     ],
-    "unknownIndexTiming": "No claim about exact historical source indexing or root cause of discovery delay"
+    "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery"
   }
 }
