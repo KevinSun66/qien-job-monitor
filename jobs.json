@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T20:16:56Z",
+  "updatedAt": "2026-10-04T01:43:13Z",
   "jobs": [
     {
       "company": "IBM",
@@ -2858,7 +2858,7 @@
       "gradYear": "Bachelor's + 2 years data analytics, or Master's/MBA quantitative concentration",
       "match": "Technical fit very high; eligibility low for 2027 bachelor's graduate",
       "ngCompatibility": "Not NG-compatible for Qien's bachelor's path · explicit 2 years experience",
-      "assessment": "Capital One 官方 Applied AI / GenAI Data Scientist 岗，负责 Multi-Agent systems、advanced RAG、fine-tuning、evaluation 与 deployment，技术方向和平台价值明显高于 Ryan。完整 JD 的 Basic Qualifications 规定：量化本科必须另有 2 年 data analytics 经验；只有量化硕士或定量 MBA 路径无需该 2 年经验。Qien 预计 2027 年本科毕业，不满足当前本科路径硬门槛，因此不进入表2；若官方降低经验要求或 Qien 后续取得符合条件的硕士学位再重评。",
+      "assessment": "用户于 2026-10-03 确认已投递，保留表3申请记录与完整 JD 快照。负责 GenAI、Multi-Agent systems、advanced RAG、context engineering、fine-tuning、evaluation、validation 和 deployment；技术栈 Python、PyTorch、LangChain、AWS、Spark、Vector Databases。Plano base $123,300–$140,700，另可有绩效现金奖金和/或 LTI。官方 Basic Qualifications：量化本科加 2 年 data analytics 经验，或量化硕士/定量 MBA；Qien 本科路径的经验差距仍需招聘方判断。JD 要求学位在 scheduled start date 前获得，但未披露具体入职日期；2027 年5月后入职待确认。用户主动投递不改变既有资格审计结论。",
       "visa": "官方明确写明 Capital One will consider sponsoring a new qualified applicant for employment authorization；对 F-1 OPT/未来 sponsorship 友好度高于仅写 no sponsorship 的岗位。STEM OPT/E-Verify 细节仍需入职前确认，但本次排除原因是经验门槛而非签证。",
       "found": "2026-10-03",
       "officialPostedDate": "2026-10-02",
@@ -2871,7 +2871,7 @@
       "url": "https://www.capitalonecareers.com/job/plano/senior-associate-data-scientist-applied-ai-financial-services/1732/101460825408",
       "status": "seniority-rejected",
       "rejectionReason": "Bachelor's route explicitly requires 2 years of data analytics experience; Qien is a May 2027 bachelor's graduate. Master's/MBA alternative does not match Qien's current degree plan.",
-      "finalPriority": "不投 · 本科路径明确要求 2 年经验",
+      "finalPriority": "已投递 · 等待招聘方反馈",
       "roleTrack": "Applied AI / Generative AI / Multi-Agent Systems / RAG / Data Science",
       "seniorityGap": "High · Senior Associate; bachelor's + 2 years data analytics required",
       "technicalGrowth": "98/100",
@@ -2880,7 +2880,14 @@
       "compensation": "Plano base $123,300–$140,700 + performance-based cash bonus and/or LTI (official range)",
       "officePerks": "Plano, TX or McLean, VA; work mode not disclosed in official JD",
       "jobId": "R1002940",
-      "deadline": "No fixed deadline disclosed; official page says applications expected for at least 5 business days"
+      "deadline": "No fixed deadline disclosed; official page says applications expected for at least 5 business days",
+      "seedAppliedAt": "2026-10-03T20:43:13-05:00",
+      "seedAppliedDisplay": "2026/10/3（用户确认已投递；具体投递时间未提供）",
+      "appliedDate": "2026-10-03",
+      "applicationStatus": "applied",
+      "archiveUrl": "job-archive/capital-one/R1002940/job-description.pdf",
+      "archiveLabel": "JD 快照（原始 PDF）",
+      "archiveSource": "User-uploaded official JD PDF captured 2026-10-03 20:40; archived upon user's application confirmation"
     },
     {
       "company": "Apple",
