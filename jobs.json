@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T08:14:50Z",
+  "updatedAt": "2026-10-04T09:20:30Z",
   "jobs": [
     {
       "company": "IBM",
@@ -3710,10 +3710,51 @@
       "discoveryTiming": "补发现；官方detail metadata为Sep30、搜索列表显示Oct1，firstSeen为Oct4；显示日期差异不归因于索引原因",
       "archiveUrl": "job-archive/apple/200683761-0157/verification.md",
       "archiveLabel": "JD核验摘要"
+    },
+    {
+      "company": "NXP Semiconductors",
+      "tier": "A",
+      "area": "Austin (Oak Hill), TX",
+      "market": "Austin",
+      "title": "Data Engineer / Data Analyst — Data & Analytics Engineer (R-10066856)",
+      "employment": "Full-time · On-site",
+      "gradYear": "Experienced hire · explicit at least 3+ years data engineering experience",
+      "match": "Technical relevance moderate; eligibility fails hard gate",
+      "ngCompatibility": "Not NG-compatible · explicit minimum starts at 3+ years",
+      "assessment": "NXP Design Enablement团队为全球芯片设计组提供EDA流程与研发计算分析支持。岗位使用AWS Athena/RDS/Glue/CloudFormation/Spark/Lambda/S3/EC2/ECS、SQL、Python/Pandas/Boto3、DBT/Dagster、BI、forecasting/prediction engines；agentic AI workflow tools仅为加分项。完整JD明确要求at least 3+ years data engineering experience，属于最低经验硬门槛，不符合Qien的0–2年/NG规则。技术内容偏EDA研发流程数据工程与运营分析，而非Applied AI/ML模型ownership。",
+      "visa": "F-1 OPT/STEM OPT/E-Verify及本岗位sponsorship未披露；雇主H-1B历史不等于本岗承诺。因3+年硬门槛已排除，不优先继续签证核验。",
+      "found": "2026-10-04",
+      "discoveredDate": "2026-10-04",
+      "firstSeen": "2026-10-04",
+      "firstArchived": "2026-10-04",
+      "firstNotifiedDate": "2026-10-04",
+      "officialPostedDate": "Matching syndicated copy says 2026-10-01; official Workday exact date not preserved",
+      "discoveryTiming": "补发现 · matching copy indicates Oct 1 posting and Oct 4 first discovery; exact official posting timestamp and indexing cause not claimed",
+      "lastChecked": "2026-10-04",
+      "lastCheckedAt": "2026-10-04T09:20:30Z",
+      "source": "NXP official Workday requisition + complete matching syndicated JD",
+      "url": "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Data-Engineer---Data-Analyst_R-10066856",
+      "status": "seniority-rejected",
+      "officialStatus": "Official NXP Workday requisition indexed/live on 2026-10-04",
+      "rejectionReason": "Complete matching JD explicitly requires at least 3+ years of data engineering experience",
+      "finalPriority": "不投 · 明确至少3+年数据工程经验",
+      "roleTrack": "EDA Data Engineering / AWS Data Platform / Operational Analytics",
+      "seniorityGap": "High · explicit at least 3+ years",
+      "technicalGrowth": "AWS data pipelines, Spark, SQL, Python/Pandas, DBT/Dagster and forecasting; AI tooling only a plus",
+      "brandPlatform": "Strong semiconductor platform; below current core S/A+ priority and requisition is ineligible",
+      "ryanUpgrade": "Not applicable · fails experience hard gate; role is less aligned with Qien's Applied AI/ML target",
+      "compensation": "Official base/bonus/equity/TC not disclosed; third-party estimates not used",
+      "officePerks": "Austin Oak Hill · on-site; detailed benefits and relocation not verified",
+      "jobId": "R-10066856",
+      "deadline": "Not disclosed",
+      "strategyPriority": "Audit exclusion; continue monitoring NXP only for distinct 0–2 years / Entry Level Applied AI, ML, DS or AI-data-platform openings",
+      "careersUrl": "https://nxp.wd3.myworkdayjobs.com/careers",
+      "archiveUrl": "job-archive/nxp/R-10066856/verification.md",
+      "archiveLabel": "JD核验摘要"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-04T08:14:50Z",
+    "lastCheckedAt": "2026-10-04T09:20:30Z",
     "scope": "Official entry-point, 7-day targeted search and repository backfill; partial ATS coverage, not a complete inventory",
     "currentChecks": [
       {
@@ -3758,6 +3799,11 @@
         "jobId": "200683761-0157",
         "status": "seniority-rejected",
         "reason": "Officially listed in Austin; complete matching JD explicitly requires 7+ years analytics-product/dashboard experience"
+      },
+      {
+        "jobId": "R-10066856",
+        "status": "seniority-rejected",
+        "reason": "Complete matching JD explicitly requires at least 3+ years of data engineering experience"
       }
     ],
     "verificationChanges": [],
@@ -3775,7 +3821,9 @@
       "GEICO R0066162 official index + syndicated JD",
       "zapplyjobs incremental commits through 440f31d13a7d26e76e44489d8b7e47842ca84e0e",
       "Apple official Austin and Corporate Functions: People search results",
-      "Apple 200683761 complete matching JD mirror"
+      "Apple 200683761 complete matching JD mirror",
+      "zapplyjobs incremental commits through a903491cd96f01a40aba07610ace5b6ed7831ea1",
+      "NXP official Workday R-10066856 + matching full JD"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -3784,7 +3832,8 @@
       "No claim is made about exact historical indexing or the cause of delayed discovery",
       "Toyota 10337203 full official page returned 403; exact-role requirements use official index plus complete syndicated JD and are labeled accordingly",
       "GEICO R0066162 official Workday detail returned no readable body; experience and visa remain unverified, while direction rejection is based on retrieved employer-provided scope",
-      "Apple detail pages are JavaScript-rendered; open status used Apple official search list, while qualification text used a complete matching role-number copy and is labeled accordingly"
+      "Apple detail pages are JavaScript-rendered; open status used Apple official search list, while qualification text used a complete matching role-number copy and is labeled accordingly",
+      "NXP R-10066856 official Workday body is dynamically rendered; exact role/location were confirmed officially and the 3+ years requirement was cross-checked in complete matching syndicated copies"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery"
   }
