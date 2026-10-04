@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T01:43:13Z",
+  "updatedAt": "2026-10-04T02:15:35Z",
   "jobs": [
     {
       "company": "IBM",
@@ -231,7 +231,7 @@
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-03T14:19:28Z",
+      "lastCheckedAt": "2026-10-04T02:15:35Z",
       "officialStatus": "Goldman Sachs official role page and Apply link active on 2026-10-03"
     },
     {
@@ -272,7 +272,7 @@
       "archiveUrl": "job-archive/goldman-sachs/181810/job-description.md",
       "archiveLabel": "JD 快照",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-03T14:19:28Z",
+      "lastCheckedAt": "2026-10-04T02:15:35Z",
       "officialStatus": "Goldman Sachs official role page and Apply link active on 2026-10-03"
     },
     {
@@ -731,7 +731,7 @@
       "archiveUrl": "job-archive/vizient/11444573/job-description.md",
       "archiveLabel": "JD 归档摘要（原始 PDF 另存）",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-03T14:19:28Z",
+      "lastCheckedAt": "2026-10-04T02:15:35Z",
       "officialStatus": "UNT Dallas public mirror returned 404 on 2026-10-03; official employer/Handshake closure remains unconfirmed. Preserve applied record and JD archive."
     },
     {
@@ -994,7 +994,7 @@
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
       "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-03T14:19:28Z",
+      "lastCheckedAt": "2026-10-04T02:15:35Z",
       "officialStatus": "Amazon official role page and Apply now active on 2026-10-03",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
@@ -2069,17 +2069,29 @@
       "market": "DFW",
       "title": "Associate AI/ML Engineer",
       "employment": "Full-time · Associate / Early Career",
-      "gradYear": "0–2 years profile; 2027 start timing unverified",
+      "gradYear": "Official 0–2 years; Bachelor's in Computer Science or equivalent degree",
       "match": "Very High technical fit",
-      "ngCompatibility": "Early-career profile; May-2027+ start and OPT require verification",
-      "assessment": "查缺补漏新增。Plano 本地 Associate AI/ML 岗，公开职位信息显示 0–2 years。技术方向与 Qien 高度匹配，但公司平台、薪资和相对 Ryan 的升级幅度尚未验证，因此保留在发现/核验层。",
+      "ngCompatibility": "0–2年已由官方确认；Statistics/DS是否视为equivalent及2027年5月后入职待确认",
+      "assessment": "官方完整JD确认0–2 years；Bachelor's in CS or equivalent degree，GenAI prior experience非必须；要求AI/ML基础、模型设计开发部署、LLM/prompting、Python/Golang/NodeJS项目、TensorFlow/PyTorch、pandas/NumPy、DSA/OOP/DB/system design、SQL/NoSQL/vector DB、REST/Git；Google Cloud BigQueryML/VertexAI/Document AI为加分。官方页面未将该岗位明确绑定Plano办公室，不能把公司地址作为岗位地点证明；全职雇佣性质、Texas placement、2027毕业后入职、OPT/STEM和薪资仍待确认，不进表2。",
       "visa": "F-1 OPT/STEM OPT policy not verified; confirm before promotion to Table 2.",
       "found": "2026-10-02",
       "url": "https://www.d3vtech.com/careers/",
       "status": "ng-verification",
       "finalPriority": "核验中 · 薪资/OPT/2027入职/Ryan升级均确认后再进表2",
       "roleTrack": "Applied AI / Machine Learning Engineering",
-      "strategyPriority": "Discovery + verification; preserve even if later opportunity-cost rejected"
+      "strategyPriority": "Discovery + verification; preserve even if later opportunity-cost rejected",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-04T02:15:35Z",
+      "officialStatus": "Official careers lists Associate AI/ML Engineer and Apply Now; complete qualifications readable",
+      "source": "D3V official careers complete role section; ClickUp Apply Now link",
+      "seniorityGap": "Low on official0–2; degree-equivalence pending",
+      "applyUrl": "https://forms.clickup.com/8594056/f/868m8-30376/PGC3C3UU73Z7VYFOUR",
+      "verificationChanges": [
+        {
+          "date": "2026-10-03",
+          "change": "Official complete degree/experience/technical conditions verified; job-specific Texas location, full-time status, start, OPT and pay remain unknown"
+        }
+      ]
     },
     {
       "company": "Wipro",
@@ -3180,67 +3192,300 @@
         "Exact post-graduation start date",
         "Fixed application deadline"
       ]
+    },
+    {
+      "found": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotifiedDate": "2026-10-03",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-04T02:15:35Z",
+      "officialPostedDate": null,
+      "deadline": "Not disclosed",
+      "employment": "Full-time per discovery source; official conditions pending",
+      "status": "ng-verification",
+      "finalPriority": "核验中 · 不进入表2",
+      "ngCompatibility": "2027年5月后入职待确认；未将未知项视为通过",
+      "visa": "Initial F-1 OPT / STEM OPT / E-Verify 未确认；不因未来无sponsorship单独排除",
+      "compensation": "Syndicated JD Austin total cash $87K–$121.5K, growth ceiling $139K; not verified directly with employer; bonus/equity breakdown unknown",
+      "ryanUpgrade": "待核验；目前不评分，不进入表2",
+      "seniorityGap": "Likely hard fail: syndicated JD bachelor's 3+ years / master's 1+; official confirmation pending",
+      "technicalGrowth": "High AI/cloud infrastructure relevance; experienced ownership required",
+      "brandPlatform": "A+ platform; qualification remains unresolved",
+      "match": "Discovery only; qualification not confirmed",
+      "discoveryTiming": "补发现；官方发布日期未确认，无法计算发布至发现间隔",
+      "company": "Expedia Group",
+      "tier": "A+",
+      "area": "Austin Domain 11 / Austin, TX（来源显示；官方地点待确认）",
+      "market": "Austin",
+      "jobId": "R-109164",
+      "title": "Forward Deployed AI Engineer II",
+      "url": "https://expedia.wd108.myworkdayjobs.com/en-US/private/job/Austin-Domain-11---HomeAway/Forward-Deployed-AI-Engineer-II_R-109164",
+      "source": "zapplyjobs/New-Grad-Data-Science-Jobs-2027 README job-ID link; Simplify full syndicated JD",
+      "officialStatus": "Official detail retrieval failed; Austin search page does not establish this requisition's closure",
+      "roleTrack": "AI Platform / Forward Deployed AI / Enterprise AI Infrastructure",
+      "assessment": "新发现ID R-109164，与历史R-108423和R-109446-1分别记录，不按相似JD去重。第三方完整JD：Bachelor或等效；基础设施/平台/企业系统3+ years，或Master+1 year。Qien本科路径很可能经验不符；官方完整JD未读取成功，保留核验，未确认硬门槛。涉及LLM/RAG/agentic systems、IaC、cloud、AI copilot、SLO/observability。第三方显示2026-10-02，非官方发布日期。",
+      "discoverySourceDate": "2026-10-02",
+      "sourceUrls": [
+        "https://github.com/zapplyjobs/New-Grad-Data-Science-Jobs-2027",
+        "https://simplify.jobs/p/3566a011-6f1f-476b-81f3-7a95f93c54a6/Forward-Deployed-AI-Engineer-2"
+      ]
+    },
+    {
+      "found": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotifiedDate": "2026-10-03",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-04T02:15:35Z",
+      "officialPostedDate": null,
+      "deadline": "Not disclosed",
+      "employment": "Full-time per discovery source; official conditions pending",
+      "status": "ng-verification",
+      "finalPriority": "核验中 · 不进入表2",
+      "ngCompatibility": "2027年5月后入职待确认；未将未知项视为通过",
+      "visa": "Initial F-1 OPT / STEM OPT / E-Verify 未确认；不因未来无sponsorship单独排除",
+      "compensation": "Third-party advertised $98K–$168K; not verified directly; no reliable TC",
+      "ryanUpgrade": "待核验；目前不评分，不进入表2",
+      "seniorityGap": "Likely hard fail: syndicated minimum3+ years; official JD pending",
+      "technicalGrowth": "Relevant end-to-end applied ML/GenAI if qualified",
+      "brandPlatform": "A+ semiconductor/AI platform; team is Sales Operations",
+      "match": "Discovery only; qualification not confirmed",
+      "discoveryTiming": "补发现；官方发布日期未确认，无法计算发布至发现间隔",
+      "company": "AMD",
+      "tier": "A+",
+      "area": "Austin, TX · hybrid per syndicated JD",
+      "market": "Austin",
+      "jobId": "75131",
+      "title": "Data Scientist (Sales Operations)",
+      "url": "https://careers-amd.icims.com/jobs/75131/login",
+      "source": "zapplyjobs repo; applinity complete syndicated JD with official iCIMS application link",
+      "officialStatus": "Official application login reachable; official complete JD not readable",
+      "roleTrack": "Applied ML / Predictive Modeling / GenAI / Sales Operations DS",
+      "assessment": "Bachelor in DS/CS/Statistics/Applied Math accepted, Master preferred；第三方完整JD最低3+ years，可能经验硬门槛不符。职责覆盖XGBoost、RF、ML pipelines、time-series forecasting、LLM/GenAI及cloud data。官方iCIMS 75131申请入口可达，但完整JD未读取成功；不把第三方NG仓库标签视为NG证明。no sponsorship措辞只保留OPT待核验。",
+      "sourceUrls": [
+        "https://www.applinity.com/jobs/5ead1ee6-7229-4248-9b06-4b9f0372c190"
+      ]
+    },
+    {
+      "found": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotifiedDate": "2026-10-03",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-04T02:15:35Z",
+      "officialPostedDate": null,
+      "deadline": "Not disclosed",
+      "employment": "Full-time per discovery source; official conditions pending",
+      "status": "ng-verification",
+      "finalPriority": "核验中 · 不进入表2",
+      "ngCompatibility": "2027年5月后入职待确认；未将未知项视为通过",
+      "visa": "Initial F-1 OPT / STEM OPT / E-Verify 未确认；不因未来无sponsorship单独排除",
+      "compensation": "官方薪资未核实；bonus/equity/TC未知",
+      "ryanUpgrade": "待核验；目前不评分，不进入表2",
+      "seniorityGap": "完整官方JD待核验",
+      "technicalGrowth": "Potentially high ML/GenAI evaluation relevance",
+      "brandPlatform": "S platform",
+      "match": "Discovery only; qualification not confirmed",
+      "discoveryTiming": "补发现；官方发布日期未确认，无法计算发布至发现间隔",
+      "company": "Apple",
+      "tier": "S",
+      "area": "Austin, TX per repo; official city and degree requirements pending",
+      "market": "Austin",
+      "jobId": "200671401-0157",
+      "title": "Machine Learning Engineer, ML/GenAI Evaluation",
+      "url": "https://jobs.apple.com/en-us/details/200671401-0157/machine-learning-engineer-ml-genai-evaluation",
+      "source": "zapplyjobs discovery; Apple official URL redirects to Austin-suffix requisition but renders JS shell only",
+      "officialStatus": "JS shell only; no opening/closure conclusion",
+      "roleTrack": "ML / GenAI Evaluation",
+      "assessment": "Apple高价值ML/GenAI评估线索；官方200671401-0157完整JD未读到。另一城市200671401-3543官方索引显示M.S.要求，但不能直接套用到Austin requisition，学位/经验/2027入职/OPT/地点均待核验。不同城市后缀单独记录。",
+      "relatedJobId": "200671401-3543"
+    },
+    {
+      "found": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotifiedDate": "2026-10-03",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-04T02:15:35Z",
+      "officialPostedDate": null,
+      "deadline": "Not disclosed",
+      "employment": "Full-time per discovery source; official conditions pending",
+      "status": "ng-verification",
+      "finalPriority": "核验中 · 不进入表2",
+      "ngCompatibility": "2027年5月后入职待确认；未将未知项视为通过",
+      "visa": "Initial F-1 OPT / STEM OPT / E-Verify 未确认；不因未来无sponsorship单独排除",
+      "compensation": "官方薪资未核实；bonus/equity/TC未知",
+      "ryanUpgrade": "待核验；目前不评分，不进入表2",
+      "seniorityGap": "完整官方JD待核验",
+      "technicalGrowth": "待官方职责核验",
+      "brandPlatform": "待核验",
+      "match": "Discovery only; qualification not confirmed",
+      "discoveryTiming": "补发现；官方发布日期未确认，无法计算发布至发现间隔",
+      "company": "Oscar Health",
+      "tier": "A",
+      "area": "Dallas, TX per repo; job-specific office assignment pending",
+      "market": "DFW",
+      "jobId": "8250197",
+      "title": "Strategic Insights Associate, Data Analytics",
+      "url": "https://job-boards.greenhouse.io/oscar/jobs/8250197",
+      "source": "zapplyjobs New-Grad-DS repo",
+      "officialStatus": "Official Greenhouse detail could not be retrieved",
+      "roleTrack": "Healthcare Data Analytics; applied ML/DS depth unverified",
+      "assessment": "先保留Dallas Associate发现项，不按薪资/方向未知静默过滤。相近其他城市JD偏财务/利用率指标、insights/dashboard，但8250197完整官方JD不可访问，不能套用其他ID的地点、经验、薪资或方向。待核验是否真实AI/ML/DS方向及Ryan升级。Plano75075通勤因地址未知不估算。"
+    },
+    {
+      "found": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotifiedDate": "2026-10-03",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-04T02:15:35Z",
+      "officialPostedDate": null,
+      "deadline": "Not disclosed",
+      "employment": "Full-time per discovery source; official conditions pending",
+      "status": "citizenship-rejected",
+      "finalPriority": "排除 · 官方索引明确US Citizen",
+      "ngCompatibility": "Not eligible because of explicit citizenship gate; 2027 start not disclosed",
+      "visa": "Official Workday indexed JD explicitly requires US Citizen; F-1 OPT does not satisfy",
+      "compensation": "官方薪资未核实；bonus/equity/TC未知",
+      "ryanUpgrade": "待核验；目前不评分，不进入表2",
+      "seniorityGap": "完整官方JD待核验",
+      "technicalGrowth": "待官方职责核验",
+      "brandPlatform": "待核验",
+      "match": "Discovery only; qualification not confirmed",
+      "discoveryTiming": "补发现；官方发布日期未确认，无法计算发布至发现间隔",
+      "company": "University of Texas at Austin",
+      "tier": "A",
+      "area": "Austin · Pickle Research / Applied Research Laboratories",
+      "market": "Austin",
+      "jobId": "R_00047702",
+      "title": "R&D Data Analysis and Machine Learning Software Engineer (Engineering Scientist Associate)",
+      "url": "https://utaustin.wd1.myworkdayjobs.com/en-US/UTstaff/job/R-D-Data-Analysis-and-Machine-Learning-Software-Engineer--Engineering-Scientist-Associate-_R_00047702",
+      "source": "zapplyjobs discovery; employer Workday indexed qualification clause",
+      "officialStatus": "Official Workday requisition indexed; direct page exposes no text",
+      "roleTrack": "R&D / Applied ML / Research Software",
+      "rejectionReason": "Employer's indexed Workday JD explicitly requires US Citizen/security investigation. Complete live JD not readable; preserve source limitation and recheck if qualification changes.",
+      "assessment": "两个不同requisition分别发现和记录。官方Workday索引写明US Citizen及government security investigation，Qien工作授权不满足。完整动态JD未读取成功，学历/经验/薪资不得编造；不进表2。",
+      "sourceEvidence": "US Citizen: Applicant selected will be subject to a government security investigation"
+    },
+    {
+      "found": "2026-10-03",
+      "firstSeen": "2026-10-03",
+      "firstArchived": "2026-10-03",
+      "firstNotifiedDate": "2026-10-03",
+      "lastChecked": "2026-10-03",
+      "lastCheckedAt": "2026-10-04T02:15:35Z",
+      "officialPostedDate": null,
+      "deadline": "Not disclosed",
+      "employment": "Full-time per discovery source; official conditions pending",
+      "status": "citizenship-rejected",
+      "finalPriority": "排除 · 官方索引明确US Citizen",
+      "ngCompatibility": "Not eligible because of explicit citizenship gate; 2027 start not disclosed",
+      "visa": "Official Workday indexed JD explicitly requires US Citizen; F-1 OPT does not satisfy",
+      "compensation": "官方薪资未核实；bonus/equity/TC未知",
+      "ryanUpgrade": "待核验；目前不评分，不进入表2",
+      "seniorityGap": "完整官方JD待核验",
+      "technicalGrowth": "待官方职责核验",
+      "brandPlatform": "待核验",
+      "match": "Discovery only; qualification not confirmed",
+      "discoveryTiming": "补发现；官方发布日期未确认，无法计算发布至发现间隔",
+      "company": "University of Texas at Austin",
+      "tier": "A",
+      "area": "Austin · Pickle Research / Applied Research Laboratories",
+      "market": "Austin",
+      "jobId": "R_00047743",
+      "title": "R&D Data Analysis and Machine Learning Software Engineer",
+      "url": "https://utaustin.wd1.myworkdayjobs.com/en-US/UTstaff/job/R-D-Data-Analysis-and-Machine-Learning-Software-Engineer_R_00047743",
+      "source": "zapplyjobs discovery; employer Workday indexed qualification clause",
+      "officialStatus": "Official Workday requisition indexed; direct page exposes no text",
+      "roleTrack": "R&D / Applied ML / Research Software",
+      "rejectionReason": "Employer's indexed Workday JD explicitly requires US Citizen/security investigation. Complete live JD not readable; preserve source limitation and recheck if qualification changes.",
+      "assessment": "两个不同requisition分别发现和记录。官方Workday索引写明US Citizen及government security investigation，Qien工作授权不满足。完整动态JD未读取成功，学历/经验/薪资不得编造；不进表2。",
+      "sourceEvidence": "US Citizen: Applicant selected will be subject to a government security investigation"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-03T20:16:56Z",
-    "scope": "Partial coverage; not a complete ATS pagination census",
+    "lastCheckedAt": "2026-10-04T02:15:35Z",
+    "scope": "Partial official/campus/repository backfill; NOT a complete ATS pagination census",
     "currentChecks": [
       {
         "jobId": "171568",
-        "result": "officialJD+Apply readable"
+        "result": "official JD+Apply active"
       },
       {
         "jobId": "181810",
-        "result": "officialJD+Apply readable"
+        "result": "official JD+Apply active"
       },
       {
         "jobId": "10506956",
-        "result": "officialJD+Apply readable"
+        "result": "official JD+Apply active"
       },
       {
         "jobId": "11444573",
-        "result": "campus mirror HTTP429; employer status unconfirmed; preserved applied record"
+        "result": "UNT mirror404/internal error; employer closure unconfirmed; applied record preserved"
       }
     ],
-    "coverageLimitations": [
-      "Intuit search first page and NCG category inspected; full 39-page census not completed",
-      "Apple/Expedia/MS/JPM dynamic search/ATS did not expose complete location-filtered inventory",
-      "SimplifyJobs listings.json could not be read as content; search results/issues used only as discovery signals",
-      "Vizient11444573 campus mirror returned HTTP429; no closure inferred",
-      "Jacobs46034 complete employer-supplied JD was readable, but the direct Jacobs careers detail URL was not recovered"
-    ],
-    "campusSources": [
-      "Austin Community College",
-      "UNT Dallas targeted search",
-      "Texas Woman's University targeted search"
-    ],
-    "decisions": [
+    "newDiscoveries": [
       {
-        "jobId": "1051528",
-        "status": "experience-rejected"
+        "jobId": "R-109164",
+        "status": "ng-verification"
       },
       {
-        "jobId": "84680705375642310",
-        "status": "degree-rejected"
+        "jobId": "75131",
+        "status": "ng-verification"
       },
       {
-        "jobId": "33536R",
-        "status": "geography-rejected"
+        "jobId": "200671401-0157",
+        "status": "ng-verification"
       },
       {
-        "jobId": "JR-202620428",
-        "status": "visa-rejected"
+        "jobId": "8250197",
+        "status": "ng-verification"
       },
       {
-        "jobId": "JR-202620418",
-        "status": "visa-rejected"
+        "jobId": "R_00047702",
+        "status": "citizenship-rejected"
       },
       {
-        "jobId": "46034",
+        "jobId": "R_00047743",
         "status": "citizenship-rejected"
       }
     ],
-    "unknownIndexTiming": "No claim about exact historical search indexing or missed-source causation"
+    "verificationChanges": [
+      {
+        "company": "D3V",
+        "change": "official JD degree/0–2/technical requirements verified; further gates pending"
+      }
+    ],
+    "sourcesChecked": [
+      "Goldman official171568/181810",
+      "Amazon10506956",
+      "Intuit careers + entry-level + Plano complete2-job list",
+      "Google campus search",
+      "Microsoft1970393556928331",
+      "Trinity2600865",
+      "D3V careers",
+      "Vizient careers + UNT mirror",
+      "Caterpillar official R0000392872 indexed JD",
+      "Toyota Connected careers",
+      "Southwest official search",
+      "JPMorgan campus programs",
+      "Capital One search",
+      "Apple Austin/200671401",
+      "Expedia Austin search",
+      "Arm Austin attempted",
+      "UNT Dallas/TWU/ACC campus searches",
+      "speedyapply 2027-AI-College-Jobs",
+      "zapplyjobs New-Grad-Data-Science-Jobs-2027 README"
+    ],
+    "coverageLimitations": [
+      "Full ATS pagination not completed for all monitored companies; search no-results is not evidence of no openings",
+      "Microsoft/Apple/Workday details dynamic or unreadable; preserved leads with unknown gates",
+      "Intuit entry-level job link/Frisco retrieval failed; nationwide full inventory not completed",
+      "UT Austin citizenship exclusion uses indexed employer text; direct complete JD retrieval returned empty",
+      "Syndicated Expedia/AMD experience clauses are preliminary until official complete JD is readable"
+    ],
+    "unknownIndexTiming": "No claim about exact historical source indexing or root cause of discovery delay"
   }
 }
