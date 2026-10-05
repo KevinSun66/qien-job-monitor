@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T03:23:34.719Z",
+  "updatedAt": "2026-10-05T05:23:45.135Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4145,10 +4145,35 @@
       "compensation": "$78,800–$148,584 in indexed copy; irrelevant due to qualification mismatch",
       "jobId": "R110146",
       "deadline": "Not disclosed"
+    },
+    {
+      "company": "Apple",
+      "jobId": "200677645-0157",
+      "title": "Software Engineer - AiDP Reliability Engineering, IS&T, Early Career Opportunities (200677645-0157)",
+      "tier": "S",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "employment": "Full-time · Early Career",
+      "found": "2026-10-05",
+      "discoveredAt": "2026-10-05T05:23:45.135Z",
+      "postedDate": "2026-08-12",
+      "url": "https://jobs.apple.com/en-us/details/200677645-0157/software-engineer-aidp-reliability-engineering-is-t-early-career-opportunities",
+      "status": "seniority-rejected",
+      "roleTrack": "AI/ML Platform / Reliability Engineering",
+      "match": "High technical fit; ineligible under Qien experience rule",
+      "ngCompatibility": "不通过：完整匹配JD最低要求2年以上Python/Java/Go编程经验，并要求2年以上Kubernetes/Docker/容器编排经验。",
+      "visa": "Not evaluated after minimum-experience disqualification.",
+      "assessment": "Apple官方搜索页确认Austin、40小时、Early Career标题及Role Number 200677645-0157；职责覆盖ML、GenAI、Inference及大数据平台。完整匹配JD显示两项最低2+ years经验，触发Qien“最低经验从1年起即排除”的硬规则，不进入表2。",
+      "rejectionReason": "Minimum qualifications require 2+ years programming and 2+ years container orchestration; exceeds Qien's allowed 0–2-from-zero rule.",
+      "finalPriority": "新发现后排除 · 经验硬门槛不符",
+      "officialStatus": "Apple official listing remains visible and accepts CV",
+      "source": "Apple official Austin search/detail page; exact-role matching JD used for complete qualifications",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T05:23:45.135Z"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-04T09:20:30Z",
+    "lastCheckedAt": "2026-10-05T05:23:45.135Z",
     "scope": "Official entry-point, 7-day targeted search and repository backfill; partial ATS coverage, not a complete inventory",
     "currentChecks": [
       {
@@ -4198,6 +4223,11 @@
         "jobId": "R-10066856",
         "status": "seniority-rejected",
         "reason": "Complete matching JD explicitly requires at least 3+ years of data engineering experience"
+      },
+      {
+        "jobId": "200677645-0157",
+        "status": "seniority-rejected",
+        "reason": "Apple official Austin Early Career listing; exact matching JD requires 2+ years programming and 2+ years Kubernetes/Docker/container orchestration"
       }
     ],
     "verificationChanges": [],
@@ -4217,7 +4247,10 @@
       "Apple official Austin and Corporate Functions: People search results",
       "Apple 200683761 complete matching JD mirror",
       "zapplyjobs incremental commits through a903491cd96f01a40aba07610ace5b6ed7831ea1",
-      "NXP official Workday R-10066856 + matching full JD"
+      "NXP official Workday R-10066856 + matching full JD",
+      "Apple official Austin Early Career search/detail — 200677645-0157",
+      "Intuit official New College Grad and Frisco/Plano search",
+      "Microsoft/Caterpillar targeted official-source search"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
