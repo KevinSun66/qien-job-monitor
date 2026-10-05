@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T12:30:55Z",
+  "updatedAt": "2026-10-05T14:21:25Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4305,10 +4305,115 @@
       "rejectionReason": "Traditional data analysis, visualization and consulting scope without Applied AI/ML model ownership; $77,000 salary is below Ryan baseline and no compensating brand/platform upgrade.",
       "ryanUpgrade": "No · lower disclosed base than Ryan and weaker Applied AI/ML ownership",
       "strategyPriority": "Discovery retained; excluded by Ryan opportunity-cost rule after full JD verification"
+    },
+    {
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T14:21:25Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T14:21:25Z",
+      "company": "OneStream",
+      "tier": "待评估",
+      "market": "Remote",
+      "area": "美国远程；Texas可雇佣范围未明确",
+      "title": "Associate AI Engineer (4426260009)",
+      "jobId": "4426260009",
+      "url": "https://job-boards.greenhouse.io/onestream/jobs/4426260009",
+      "status": "seniority-rejected",
+      "employment": "全职性质待确认；官方标注美国远程",
+      "ngCompatibility": "官方要求1–2年生产级ML及编程经验，不符合当前零经验入口规则",
+      "minimumQualifications": "本科或同等经验；1–2年生产级机器学习部署经验、1–2年编程经验。",
+      "compensation": "官方底薪 $86,000–$100,500",
+      "assessment": "财务产品AI与软件工程方向，含预测、异常检测和NLP。先发现后核验，因明确1–2年门槛排除；签证与Texas远程资格不作为本次排除依据。",
+      "rejectionReason": "官方最低要求1–2年经验；按用户零经验入口规则排除。",
+      "visa": "visa-verification：官方要求无需赞助的工作授权，申请问题涵盖现有工作授权；未明确OPT/STEM OPT，不能仅据无赞助判定初始OPT不兼容。",
+      "gradYear": "2027年5月后入职未明确",
+      "verificationFlags": [
+        "visa-verification",
+        "start-date-verification"
+      ],
+      "officialStatus": "官方Greenhouse页面有申请入口",
+      "source": "OneStream官方Greenhouse完整JD",
+      "finalPriority": "不投 · 经验门槛排除",
+      "roleTrack": "Applied AI / ML产品工程"
+    },
+    {
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T14:21:25Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T14:21:25Z",
+      "company": "Avathon",
+      "tier": "待评估",
+      "market": "Outside scope",
+      "area": "Pleasanton, California",
+      "title": "Associate AI Engineer, Physical AI (4736834005)",
+      "jobId": "4736834005",
+      "url": "https://avathon.com/company/careers/associate-ai-engineer-physical-ai-4736834005/",
+      "status": "location-rejected",
+      "employment": "应届生AI工程；全职性质待进一步确认",
+      "ngCompatibility": "官方面向计算机科学新毕业生；本次因地点排除，未继续适配核验",
+      "assessment": "Physical AI、agent、知识图谱与多模态方向；官方地点仅列Pleasanton，加州，不在DFW/Austin范围。",
+      "rejectionReason": "官方地点仅Pleasanton, CA，不符合DFW/Austin地域要求。",
+      "officialPostedDate": "2026-09-22",
+      "officialLocations": [
+        "Pleasanton, California, United States"
+      ],
+      "officialStatus": "官方Careers提供申请入口",
+      "visa": "未核验：因地点已排除",
+      "compensation": "未继续核验：因地点已排除",
+      "verificationFlags": [],
+      "source": "Avathon官方Careers JD",
+      "finalPriority": "不投 · 地点排除"
+    },
+    {
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T14:21:25Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T14:21:25Z",
+      "company": "NVIDIA",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin为官方索引列明地点；完整六地列表待核验",
+      "title": "Developer Technology Engineer, AI — New College Grad 2026 (JR2014130)",
+      "jobId": "JR2014130",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Developer-Technology-Engineer--AI---New-College-Grad-2026_JR2014130-1",
+      "status": "ng-verification",
+      "employment": "全职 · New College Grad 2026",
+      "gradYear": "2026届；2027年5月毕业后入职待核验",
+      "ngCompatibility": "硕士/博士或同等经验；本科同等经验路径须确认",
+      "minimumQualifications": "相关工程/CS硕士或博士在读或近期毕业，或同等经验；强C/C++、AI算法和并行编程（CUDA优先）。",
+      "assessment": "GPU上的深度学习技术与性能优化，并与客户和内部研究/架构团队合作。官方索引包含Austin，但动态正文无可读内容；不得将旧索引Apply视为实时开放证明。",
+      "compensation": "官方索引底薪：Level 2 $124,000–$195,500；Level 3 $152,000–$241,500，另有股权福利。",
+      "visa": "visa-verification：未取得本岗位OPT/STEM OPT、E-Verify/I-983或赞助承诺。",
+      "officialStatus": "官方索引列有Apply；实时开放状态待核验。at least until July 28, 2026不是确认关闭日。",
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, TX, Austin",
+        "US, NC, Durham",
+        "US, CO, Boulder",
+        "US, WA, Redmond"
+      ],
+      "locationListComplete": false,
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification",
+        "status-verification",
+        "location-verification"
+      ],
+      "source": "NVIDIA官方Workday搜索索引；实时正文动态不可读",
+      "finalPriority": "待核验 · 不进入表2",
+      "roleTrack": "Applied AI / GPU性能优化 / Developer Technology",
+      "whyRyan": "品牌、GPU技术成长及薪资有潜在提升；需核实学位同等经验、系统技能与2027入职。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-05T12:30:55Z",
+    "lastCheckedAt": "2026-10-05T14:21:25Z",
     "scope": "Official entry-point, 7-day targeted search and repository backfill; partial ATS coverage, not a complete inventory",
     "currentChecks": [
       {
@@ -4382,6 +4487,27 @@
         "jobId": "R-69022",
         "status": "ng-verification",
         "reason": "Official ATS requisition discovered with DFW/Austin location; full dynamic JD requires verification before decision."
+      },
+      {
+        "checkedAt": "2026-10-05T14:21:25Z",
+        "jobId": "4426260009",
+        "company": "OneStream",
+        "status": "seniority-rejected",
+        "reason": "官方最低要求1–2年经验；按用户零经验入口规则排除。"
+      },
+      {
+        "checkedAt": "2026-10-05T14:21:25Z",
+        "jobId": "4736834005",
+        "company": "Avathon",
+        "status": "location-rejected",
+        "reason": "官方地点仅Pleasanton, CA，不符合DFW/Austin地域要求。"
+      },
+      {
+        "checkedAt": "2026-10-05T14:21:25Z",
+        "jobId": "JR2014130",
+        "company": "NVIDIA",
+        "status": "ng-verification",
+        "reason": "硕士/博士或同等经验；本科同等经验路径须确认"
       }
     ],
     "verificationChanges": [
@@ -4569,6 +4695,24 @@
         "coverageLimitations": [
           "本轮未完成全部公司官方ATS完整分页遍历，不能据此断言全范围无新增。",
           "两岗OPT/STEM OPT、E-Verify/I-983支持未在完整JD中明确；Adobe本科同等经验路径及NVIDIA2027入职仍待确认。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-05T14:21:25Z",
+        "scope": "重点公司官方检索与全国/多城市候选补查；TI跳过，非全范围完整ATS遍历",
+        "sourcesChecked": [
+          "https://job-boards.greenhouse.io/onestream/jobs/4426260009",
+          "https://avathon.com/company/careers/associate-ai-engineer-physical-ai-4736834005/",
+          "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Developer-Technology-Engineer--AI---New-College-Grad-2026_JR2014130-1",
+          "Caterpillar R0000395384官方完整JD",
+          "Trinity 2600865官方关闭状态",
+          "D3V官方Careers",
+          "Intuit官方Data/Campus检索"
+        ],
+        "result": "①无新增表2；②NVIDIA JR2014130新发现待核验；③OneStream 4426260009经验排除，Avathon 4736834005地点排除；④所核验已知岗位未发现实质变化。",
+        "coverageLimitations": [
+          "未完成全部监控公司完整ATS分页及多城市列表，不能据此断言全范围无其他新增。",
+          "NVIDIA JR2014130动态正文不可读，官方索引时间较旧；实时状态和第六地点、2027入职、同等经验及OPT仍待核验。"
         ]
       }
     ]
