@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T18:19:35Z",
+  "updatedAt": "2026-10-05T18:51:12Z",
   "jobs": [
     {
       "company": "IBM",
@@ -136,25 +136,25 @@
       "area": "Austin, TX",
       "market": "Austin",
       "title": "Machine Learning Engineer - Strategic Data Solutions (200677912-0157)",
-      "employment": "Full-time · 40 hours",
+      "employment": "全职 · 每周40小时",
       "gradYear": "未限定毕业年份；量化专业教育背景可满足学历路径，2027年5月后入职兼容性待确认",
-      "match": "High technical fit · start date and visa pending",
+      "match": "技术方向匹配度高 · 已投递，入职时间和OPT待核实",
       "ngCompatibility": "官方最低资格为“量化专业教育背景，或4+年相关经验”两条替代路径；没有对量化专业学历申请者单列最低工作年限。Qien的Statistics/Data Science背景可走学历路径。",
-      "assessment": "纠正此前误读：官方Minimum Qualifications将“Computer Science、Applied Mathematics、Statistics等量化专业教育背景”与“4+年相关经验”用or连接，4+年是没有该教育背景时的替代路径，不是所有申请者的硬门槛。岗位覆盖分类、回归、聚类、异常检测、SQL、Hadoop/Spark及Python/Scala/Java，技术与Qien高度匹配；但并非Campus/New Grad requisition，未说明2027年5月后入职或OPT，因此先保留核验，不进当前表2。",
+      "assessment": "纠正此前误读：官方Minimum Qualifications将“Computer Science、Applied Mathematics、Statistics等量化专业教育背景”与“4+年相关经验”用or连接，4+年是没有该教育背景时的替代路径，不是所有申请者的硬门槛。岗位覆盖分类、回归、聚类、异常检测、SQL、Hadoop/Spark及Python/Scala/Java，技术与Qien高度匹配；但并非Campus/New Grad requisition，未说明2027年5月后入职或OPT，用户于2026-10-05确认已投递，官方PDF显示Submitted；记录已进入Austin表3，2027年5月后入职与OPT继续核验。",
       "visa": "官方JD未披露F-1 OPT/STEM OPT、E-Verify/I-983或未来sponsorship规则；visa-verification。",
       "found": "2026-09-14",
       "url": "https://jobs.apple.com/en-us/details/200677912-0157/machine-learning-engineer-strategic-data-solutions",
-      "status": "start-date-verification",
-      "finalPriority": "核验中 · 确认2027年5月后入职与OPT后再决定是否进入表2",
-      "roleTrack": "Machine Learning Engineering / Applied Data Science / Fraud & Security ML",
-      "seniorityGap": "No explicit minimum experience for the quantitative-education path; start timing unresolved",
+      "status": "current",
+      "finalPriority": "表3 · 已投递 · 2027入职与OPT继续核验",
+      "roleTrack": "机器学习工程 / 应用数据科学 / 欺诈防控与安全ML",
+      "seniorityGap": "量化专业教育背景路径没有明确最低工作年限；入职时间待确认",
       "technicalGrowth": "97/100",
       "brandPlatform": "100/100",
-      "ryanUpgrade": "Potentially yes · Apple brand and production ML scope; start-date/visa unresolved",
+      "ryanUpgrade": "潜在明显升级 · Apple品牌和生产ML平台；入职时间、OPT及实际薪酬待确认",
       "compensation": "Austin官方职位未披露该requisition具体薪资；不得用其他地区或第三方范围替代。",
-      "officePerks": "Austin · On-site；Apple benefits/stock programs generally available, role-specific package not verified",
+      "officePerks": "Austin；每周40小时。到岗频率、办公方式、福利及股权方案未在本JD披露。",
       "jobId": "200677912-0157",
-      "strategyPriority": "资格误读已纠正；先核验2027入职和OPT，再评估表2",
+      "strategyPriority": "表3 · 已投递 · 保留JD及核验信息",
       "companyProfile": "Apple 是全球顶级消费科技与平台公司；Strategic Data Solutions 使用大规模数据和生产 ML 保护交易与供应链、降低欺诈并优化运营。",
       "whyRyan": "Apple 品牌、数据规模、生产 ML 平台和长期流动性显著高于 Ryan；即使薪资尚未披露，平台升级足以支持冲刺申请。",
       "targetRoles": "Machine Learning Engineer / Applied Data Scientist / AI Platform / Strategic Data Solutions",
@@ -165,7 +165,23 @@
         "start-date-verification",
         "visa-verification",
         "compensation-verification"
-      ]
+      ],
+      "previousStatus": "start-date-verification",
+      "seedAppliedAt": "2026-10-05T18:51:12Z",
+      "seedAppliedDisplay": "2026/10/05（用户确认；官方快照显示Submitted）",
+      "applicationStatus": "applied",
+      "appliedDate": "2026-10-05",
+      "applicationConfirmedAt": "2026-10-05T18:51:12Z",
+      "applicationEvidence": "用户确认已申请；上传的Apple官方JD PDF首页及末页显示Submitted，打印时间2026/10/5 13:47。",
+      "archiveUrl": "job-archive/apple/200677912-0157/job-description.pdf",
+      "archiveTextUrl": "job-archive/apple/200677912-0157/job-description.md",
+      "archivedAt": "2026-10-05T18:51:12Z",
+      "archiveSha256": "51e7f3a6cfe637ce330834677f8295cceaf5bb1763ced992944a0b46c82037e5",
+      "archiveNote": "用户上传的Apple官方JD原始PDF，含Submitted确认、职位资格、职责和原始URL；完整原样保存。",
+      "userPromotedToTable2At": "2026-10-05T18:51:12Z",
+      "userPromotionReason": "用户要求先纳入表2，再标记已投递进入Austin表3；不代表待核验资格已确认。",
+      "officialStatus": "用户提供的2026-10-05官方JD快照显示Submitted，已投递；持续招聘说明在快照中。",
+      "qualificationVerifiedAt": "2026-10-05T18:51:12Z"
     },
     {
       "company": "PwC",
@@ -4832,6 +4848,18 @@
           "Associate AI/ML Engineer"
         ],
         "archivesPreserved": true
+      },
+      {
+        "at": "2026-10-05T18:51:12Z",
+        "action": "promote-then-mark-applied-and-archive-jd",
+        "company": "Apple",
+        "jobIds": [
+          "200677912-0157"
+        ],
+        "appliedDate": "2026-10-05",
+        "reason": "用户确认申请完成，要求纳入表2后进入Austin表3，保留全部相关信息和JD快照。",
+        "archivesPreserved": true,
+        "verificationContinues": true
       }
     ],
     "runHistory": [
