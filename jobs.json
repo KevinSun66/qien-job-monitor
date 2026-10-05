@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T16:23:43Z",
+  "updatedAt": "2026-10-05T16:31:34Z",
   "jobs": [
     {
       "company": "IBM",
@@ -2080,10 +2080,10 @@
       "visa": "F-1 OPT/STEM OPT policy not verified; confirm before promotion to Table 2.",
       "found": "2026-10-02",
       "url": "https://www.d3vtech.com/careers/",
-      "status": "ng-verification",
-      "finalPriority": "核验中 · 薪资/OPT/2027入职/Ryan升级均确认后再进表2",
+      "status": "user-rejected",
+      "finalPriority": "用户暂停公司监控 · 不再推荐/核验；保留历史",
       "roleTrack": "Applied AI / Machine Learning Engineering",
-      "strategyPriority": "Discovery + verification; preserve even if later opportunity-cost rejected",
+      "strategyPriority": "用户公司级暂停；仅明确恢复后重新监控",
       "lastChecked": "2026-10-05",
       "lastCheckedAt": "2026-10-05T16:17:38Z",
       "officialStatus": "Official careers lists Associate AI/ML Engineer and Apply Now; complete qualifications readable",
@@ -2104,7 +2104,12 @@
         "compensation-verification"
       ],
       "compensation": "官方未披露本岗位工资/奖金/股权；不得把Glassdoor估算当作雇主报价。",
-      "ryanUpgrade": "技术方向贴合，但未证实薪资、平台或技术成长明显优于Ryan Associate Data Scientist；继续核验，不进入表2。"
+      "ryanUpgrade": "技术方向贴合，但未证实薪资、平台或技术成长明显优于Ryan Associate Data Scientist；继续核验，不进入表2。",
+      "previousStatus": "ng-verification",
+      "monitoringEnabled": false,
+      "userDeclinedAt": "2026-10-05T16:31:34Z",
+      "statusChangedDate": "2026-10-05",
+      "rejectionReason": "用户暂时不考虑 D3V：团队人数较少，缺乏大公司平台与锻炼机会。仅在用户明确要求恢复后重新监控。"
     },
     {
       "company": "Wipro",
@@ -4805,6 +4810,16 @@
         "reason": "用户确认该岗位已申请，要求放入表3并备份JD快照。",
         "archivesPreserved": true,
         "verificationContinues": true
+      },
+      {
+        "at": "2026-10-05T16:31:34Z",
+        "company": "D3V Technology Solutions",
+        "action": "pause-company-monitoring",
+        "reason": "用户暂时不考虑 D3V：团队人数较少，缺乏大公司平台与锻炼机会。仅在用户明确要求恢复后重新监控。",
+        "affectedJobTitles": [
+          "Associate AI/ML Engineer"
+        ],
+        "archivesPreserved": true
       }
     ],
     "runHistory": [
@@ -4936,6 +4951,20 @@
       "decision": "user-company-excluded",
       "reason": "用户明确要求移除 TI 全公司监控，所有 TI 职位均不再考虑；停止发现、核验、推荐和提醒，仅保留历史与 JD 备份。",
       "decidedAt": "2026-10-05T03:23:34.719Z"
+    },
+    {
+      "company": "D3V Technology Solutions",
+      "aliases": [
+        "D3V",
+        "D3V Tech"
+      ],
+      "monitoringEnabled": false,
+      "decision": "user-company-paused",
+      "temporary": true,
+      "reason": "用户暂时不考虑 D3V：团队人数较少，缺乏大公司平台与锻炼机会。仅在用户明确要求恢复后重新监控。",
+      "decidedAt": "2026-10-05T16:31:34Z",
+      "resumeCondition": "用户明确要求恢复",
+      "archivesPreserved": true
     }
   ]
 }
