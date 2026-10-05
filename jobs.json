@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T14:21:25Z",
+  "updatedAt": "2026-10-05T15:21:04Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4410,10 +4410,52 @@
       "finalPriority": "待核验 · 不进入表2",
       "roleTrack": "Applied AI / GPU性能优化 / Developer Technology",
       "whyRyan": "品牌、GPU技术成长及薪资有潜在提升；需核实学位同等经验、系统技能与2027入职。"
+    },
+    {
+      "company": "Barry-Wehmiller / Design Group",
+      "tier": "不进入表1",
+      "area": "Dallas, TX；官方完整5地点之一",
+      "market": "DFW",
+      "title": "Entry Level Software Engineer (R022649)",
+      "employment": "Full-time · Entry Level",
+      "gradYear": "招聘期延续至2027-06-01的校园镜像；官方未承诺2027年5月后入职",
+      "match": "早期职业资格可行，但方向偏工业自动化/SCADA，不属于Qien核心Applied AI/ML/DS路径",
+      "ngCompatibility": "接受课程、项目、实习、co-op或entry-level软件开发/工业自动化经验；未列最低专业工作年数",
+      "assessment": "官方JD聚焦制造业系统集成：SCADA、PLC、数据库、控制算法、C#/Visual C++、现场安装与启动。虽属于真正Entry Level并包含数据分析，但没有机器学习模型、GenAI或Applied AI职责；还要求按项目出差。相对Ryan的Applied Data Science路径、已知约$83k底薪+5%奖金及Dallas稳定性，不构成足够技术或薪资升级。",
+      "visa": "visa-verification：官方说明使用E-Verify，但未明确F-1 OPT/STEM OPT、I-983或未来赞助；不是本次排除理由。",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T15:21:04Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T15:21:04Z",
+      "source": "Barry-Wehmiller官方Workday索引与完整官方JD；由SimplifyJobs New-Grad feed反漏抓发现",
+      "url": "https://barrywehmiller.wd1.myworkdayjobs.com/en-US/BWConfidential/job/Entry-Level-Software-Engineer_R022649",
+      "status": "direction-rejected",
+      "finalPriority": "不投 · 工业自动化/SCADA方向，且薪资与成长不高于Ryan",
+      "roleTrack": "Industrial Automation Software / SCADA / Controls Integration",
+      "jobId": "R022649",
+      "officialStatus": "官方Workday索引显示Apply；全职；Dallas为5个地点之一",
+      "officialLocations": [
+        "Dallas, TX",
+        "St. Louis, MO",
+        "Raleigh, NC",
+        "Eau Claire, WI",
+        "Denver, CO"
+      ],
+      "compensation": "官方估算底薪 $75,000–$90,000",
+      "minimumQualifications": "相关技术本科；课程/项目/实习/co-op/entry-level经验均可；基础编程、调试、数据结构、数据库或软件故障排查；能按项目出差。",
+      "rejectionReason": "职责主要为工业自动化、SCADA、PLC、控制系统和现场启动，不是Applied AI/ML/DS；$75k–$90k也不足以弥补相对Ryan的方向与稳定性损失。",
+      "verificationFlags": [
+        "start-date-verification",
+        "visa-verification"
+      ],
+      "whyRyan": "Ryan更贴近Qien的Data Science/Applied AI方向；本岗薪资最多接近Ryan且需要项目出差。",
+      "discoveryNote": "Feed显示约1个月；官方索引约3周。本次为补发现，不对延迟原因作推断。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-05T14:21:25Z",
+    "lastCheckedAt": "2026-10-05T15:21:04Z",
     "scope": "Official entry-point, 7-day targeted search and repository backfill; partial ATS coverage, not a complete inventory",
     "currentChecks": [
       {
@@ -4508,6 +4550,13 @@
         "company": "NVIDIA",
         "status": "ng-verification",
         "reason": "硕士/博士或同等经验；本科同等经验路径须确认"
+      },
+      {
+        "checkedAt": "2026-10-05T15:21:04Z",
+        "jobId": "R022649",
+        "company": "Barry-Wehmiller / Design Group",
+        "status": "direction-rejected",
+        "reason": "真正Entry Level，但职责为工业自动化/SCADA/PLC与现场启动，$75k–$90k且需出差，不构成相对Ryan的Applied AI/ML升级。"
       }
     ],
     "verificationChanges": [
@@ -4713,6 +4762,22 @@
         "coverageLimitations": [
           "未完成全部监控公司完整ATS分页及多城市列表，不能据此断言全范围无其他新增。",
           "NVIDIA JR2014130动态正文不可读，官方索引时间较旧；实时状态和第六地点、2027入职、同等经验及OPT仍待核验。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-05T15:21:04Z",
+        "scope": "GitHub New-Grad feed增量与遗漏回填；重点待核验官方JD复查；TI跳过",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions README，modified 2026-10-05T15:02:06Z",
+          "Barry-Wehmiller官方Workday R022649",
+          "The Home Depot/BlackLocus Req194426官方JD",
+          "Graphcore 8841990002官方Greenhouse",
+          "Vizient 35028R、Kyndryl R-66870、Microsoft 200059108官方入口"
+        ],
+        "result": "①无新增表2；②无新增待核验；③补发现并排除Barry-Wehmiller R022649（工业自动化/SCADA方向，不高于Ryan）；④已知职位无实质变化。",
+        "coverageLimitations": [
+          "本轮为增量与重点复查，未完成所有监控公司ATS全量分页；不能据此断言全范围无其他新增。",
+          "Vizient、Kyndryl和Microsoft部分动态ATS正文仍不可读，未据此推断关闭。"
         ]
       }
     ]
