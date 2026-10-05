@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T19:22:06Z",
+  "updatedAt": "2026-10-05T20:21:10Z",
   "jobs": [
     {
       "company": "IBM",
@@ -3314,7 +3314,7 @@
       "firstArchived": "2026-10-03",
       "firstNotifiedDate": "2026-10-03",
       "lastChecked": "2026-10-05",
-      "lastCheckedAt": "2026-10-05T16:17:38Z",
+      "lastCheckedAt": "2026-10-05T20:21:10Z",
       "officialPostedDate": null,
       "deadline": "Not disclosed",
       "employment": "Full-time per discovery source; official conditions pending",
@@ -3337,7 +3337,7 @@
       "title": "Machine Learning Engineer, ML/GenAI Evaluation",
       "url": "https://jobs.apple.com/en-us/details/200671401-0157/machine-learning-engineer-ml-genai-evaluation",
       "source": "zapplyjobs discovery; Apple official URL redirects to Austin-suffix requisition but renders JS shell only",
-      "officialStatus": "2026-10-05官方搜索列表仍含Austin同编号及Submit Resume；不代表符合应届资格。详情页动态正文不可读。",
+      "officialStatus": "2026-10-05 Apple官方Texas/Austin搜索列表仍显示Submit Resume；Qien已投递，表3与JD快照继续保留。",
       "roleTrack": "ML / GenAI Evaluation",
       "assessment": "工作内容为Wallet/Payments/Commerce的ML及GenAI评估、质量门槛和上线判断，方向相关，但同一200671401-0157官方JD索引要求5+年ML经验，本科路径7+年相关经验。Qien的RA、项目和暑期实习不足以满足该年限；按用户最低经验从1年起即排除规则归入经验排除历史。2026-10-05实时美区详情只呈现JS壳，完整资格文本来自较早官方索引，并有同编号Austin完整转载交叉支持；不声称实时JD已全量读取。",
       "relatedJobId": "200671401-3543",
@@ -5030,11 +5030,71 @@
       "finalPriority": "发现后排除 · 保留审计，不进入表2",
       "whyRyan": "主职责不符合Qien的应用AI/ML/DS方向，不因品牌或薪酬高而推荐。",
       "rejectionReason": "芯片物理设计、形式验证、时钟域检查与逻辑综合；AI使用仅为流程生产率加分，不是应用ML建模。"
+    },
+    {
+      "company": "Apple",
+      "tier": "S",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Data Scientist (200685128-0157)",
+      "jobId": "200685128-0157",
+      "url": "https://jobs.apple.com/en-us/details/200685128-0157/data-scientist",
+      "employment": "全职 · 每周40小时",
+      "gradYear": "未限定毕业年份",
+      "match": "职责相关，但最低经验不符合既定0–2筛选规则",
+      "ngCompatibility": "不符合：官方要求本科及2年相关经验，最低经验从2年起",
+      "assessment": "官方JD为Apple Wallet交易欺诈风险分析，使用Python、PySpark、SQL、Airflow、统计实验及可视化，方向与Qien数据科学背景相关；但最低资格明确要求本科及2年相关经验。根据用户既定规则，最低经验从1年或2年起的岗位排除，不因Apple品牌或技术方向破例。",
+      "visa": "官方JD未披露OPT/STEM OPT；因经验门槛已排除，不再以签证未知作为排除理由。",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T20:21:10Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T20:21:10Z",
+      "status": "seniority-rejected",
+      "finalPriority": "发现后排除 · 官方最低2年经验",
+      "roleTrack": "Data Science / Fraud Risk Analytics / Apple Wallet",
+      "minimumQualifications": "数学、商业分析、数据科学或相关专业本科（或国外同等学历）+ 2年相关经验；并要求Python、大规模分析、BI可视化、SQL/PySpark及身份验证领域知识。",
+      "compensation": "Austin岗位官方JD未披露薪资、奖金或股权范围。",
+      "officialStatus": "2026-10-05 Apple官方页面显示Submit Resume并称持续接受申请；开放不改变经验不符合结论。",
+      "source": "Apple official Careers full JD",
+      "rejectionReason": "官方最低要求为本科+2年相关经验；用户规则排除所有最低经验从1年起的岗位。",
+      "whyRyan": "Apple平台和数据规模有提升，但Qien不满足硬性2年相关经验，不进入表2。"
+    },
+    {
+      "company": "Apple",
+      "tier": "S",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Software Engineer (Framework Solutions), AI & Data Platforms (AiDP) (200656819-0157)",
+      "jobId": "200656819-0157",
+      "url": "https://jobs.apple.com/en-us/details/200656819-0157/software-engineer-framework-solutions-ai-data-platforms-aidp",
+      "employment": "全职 · 每周40小时 · On-site（第三方同步）",
+      "gradYear": "未限定毕业年份",
+      "match": "AI/数据平台方向相关，但经验门槛不符合",
+      "ngCompatibility": "不符合：完整同步JD至少要求2+年Java/Python；部分当前同步副本显示4年多栈经验，均超过Qien范围",
+      "assessment": "职责建设Data/ML平台工具，包括数据处理、可观测性、血缘、model hub和可视化，平台价值很高。但完整JD同步副本最低要求至少2+年Java/Python；另一个当前同步版本列4年Java/Python及前端栈。即使采用较宽松的2+年版本，也违反用户对1+年起岗位一律排除的规则。",
+      "visa": "官方页面未披露OPT/STEM OPT或赞助承诺；第三方H-1B标签不代表本岗位承诺，不据此判断。",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T20:21:10Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T20:21:10Z",
+      "status": "seniority-rejected",
+      "finalPriority": "发现后排除 · 最低至少2+年经验",
+      "roleTrack": "AI & Data Platforms / ML Platform / Framework Software Engineering",
+      "minimumQualifications": "至少2+年Java/Python或类似语言、数据结构算法、微服务/REST API与云平台；部分当前同步副本列4年Java/Python和前端框架经验。",
+      "compensation": "Apple Austin官方详情未检索到职位专属薪资；第三方范围不作为官方薪资结论。",
+      "officialStatus": "2026-10-05 Apple官方Austin列表显示Submit Resume；旧第三方关闭记录与当前官方开放列表冲突，按当前官方列表记为开放。",
+      "source": "Apple official Careers listing; complete matching JD copies on The Muse/Dice used only for qualification text",
+      "rejectionReason": "最低至少2+年编程经验；用户规则排除最低经验从1年起的岗位。",
+      "whyRyan": "平台、品牌与潜在薪酬明显高于Ryan，但硬性经验不符合，不进入表2。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-05T19:22:06Z",
-    "scope": "Texas New-Grad发现源增量和NVIDIA Austin多城市早期职业官方索引回填；Trinity/Caterpillar/Applied Materials/MyFundedFutures官方JD复核；非全部公司完整ATS遍历",
+    "lastCheckedAt": "2026-10-05T20:21:10Z",
+    "scope": "Apple Austin官方列表增量、SimplifyJobs Texas feed增量及Microsoft/Intuit/Toyota重点官方检索；TI和D3V跳过；非全部公司ATS全量分页",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -5233,6 +5293,20 @@
         "company": "NVIDIA",
         "status": "direction-rejected",
         "reason": "芯片物理设计、形式验证、时钟域检查与逻辑综合；AI使用仅为流程生产率加分，不是应用ML建模。"
+      },
+      {
+        "checkedAt": "2026-10-05T20:21:10Z",
+        "jobId": "200685128-0157",
+        "company": "Apple",
+        "status": "seniority-rejected",
+        "reason": "官方最低要求为本科+2年相关经验；用户规则排除所有最低经验从1年起的岗位。"
+      },
+      {
+        "checkedAt": "2026-10-05T20:21:10Z",
+        "jobId": "200656819-0157",
+        "company": "Apple",
+        "status": "seniority-rejected",
+        "reason": "最低至少2+年编程经验；用户规则排除最低经验从1年起的岗位。"
       }
     ],
     "verificationChanges": [
@@ -5344,12 +5418,10 @@
       }
     ],
     "sourcesChecked": [
+      "Apple official Texas/Austin search and 200685128-0157 full JD",
+      "Apple official 200656819-0157 listing plus matching full JD copies for qualification text",
       "SimplifyJobs/New-Grad-Positions README SHA 7375782e84ea526e1011db06fdd1530b49db5997",
-      "NVIDIA官方Workday 13个2026早期职业索引，含完整已列出location list",
-      "Trinity 2600865官方closed页",
-      "Caterpillar R0000392872官方完整JD",
-      "Applied Materials R2627684官方完整JD",
-      "MyFundedFutures 4390595009官方完整JD与授权问卷"
+      "Microsoft/Intuit/Toyota targeted official-source search"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -5361,7 +5433,9 @@
       "Apple detail pages are JavaScript-rendered; open status used Apple official search list, while qualification text used a complete matching role-number copy and is labeled accordingly",
       "NXP R-10066856 official Workday body is dynamically rendered; exact role/location were confirmed officially and the 3+ years requirement was cross-checked in complete matching syndicated copies",
       "未完成所有监控公司官方ATS全量分页，不能断言全范围无其他新增。",
-      "NVIDIA旧搜索索引不等同实时开放；新记录均保留status-verification，2026标签不自动当作2027入职不兼容。"
+      "NVIDIA旧搜索索引不等同实时开放；新记录均保留status-verification，2026标签不自动当作2027入职不兼容。",
+      "本轮未完成所有监控公司ATS全量分页，不能断言全范围无其他新增。",
+      "Apple 200656819-0157动态官方正文未完整渲染；经验门槛采用同编号完整同步JD的较宽松2+年版本，已足以按用户规则排除。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -5591,6 +5665,21 @@
         "coverageLimitations": [
           "未完成所有监控公司官方ATS全量分页，不能断言全范围无其他新增。",
           "NVIDIA旧搜索索引不等同实时开放；新记录均保留status-verification，2026标签不自动当作2027入职不兼容。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-05T20:21:10Z",
+        "scope": "Apple Austin官方列表增量、SimplifyJobs Texas feed增量及Microsoft/Intuit/Toyota重点官方检索；TI和D3V跳过；非全部公司ATS全量分页",
+        "sourcesChecked": [
+          "Apple official Texas/Austin search and 200685128-0157 full JD",
+          "Apple official 200656819-0157 listing plus matching full JD copies for qualification text",
+          "SimplifyJobs/New-Grad-Positions README SHA 7375782e84ea526e1011db06fdd1530b49db5997",
+          "Microsoft/Intuit/Toyota targeted official-source search"
+        ],
+        "result": "①无新进表2；②无新待核验；③Apple 200685128-0157和200656819-0157补发现并因最低2年/2+年经验排除；④Apple 200671401-0157官方列表仍开放，已投递表3与JD快照保留，无状态变化。",
+        "coverageLimitations": [
+          "本轮未完成所有监控公司ATS全量分页，不能断言全范围无其他新增。",
+          "Apple 200656819-0157动态官方正文未完整渲染；经验门槛采用同编号完整同步JD的较宽松2+年版本，已足以按用户规则排除。"
         ]
       }
     ]
