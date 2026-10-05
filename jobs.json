@@ -133,32 +133,39 @@
     {
       "company": "Apple",
       "tier": "S",
-      "area": "Austin",
+      "area": "Austin, TX",
       "market": "Austin",
       "title": "Machine Learning Engineer - Strategic Data Solutions (200677912-0157)",
-      "employment": "Full-time · On-site",
-      "gradYear": "Experienced hire · 4+ years relevant experience required",
-      "match": "Technical fit high, eligibility low",
-      "ngCompatibility": "Not NG-compatible · explicit 4+ years minimum experience",
-      "assessment": "复核 Apple 官方完整 JD 后纠正：Minimum Qualifications 明确单列 “4+ years of relevant experience”，并非量化学位的替代路径。该职位也没有 Campus / Early Career / New Grad / 2027 标识，职责涉及生产级预测模型、数据管道与跨团队交付，招聘画像是已有工作经验的在职候选人。Qien 虽然专业和技术方向匹配，但截至 2027 年毕业时不满足 4+ 年最低相关经验，因此不应进入当前表2。",
-      "visa": "官方 JD 未披露 sponsorship、F-1 OPT 或 STEM OPT；未明确排除 OPT，按规则标记需核实。申请前确认 OPT 入职、E-Verify/STEM OPT extension 及未来 sponsorship。",
+      "employment": "Full-time · 40 hours",
+      "gradYear": "未限定毕业年份；量化专业教育背景可满足学历路径，2027年5月后入职兼容性待确认",
+      "match": "High technical fit · start date and visa pending",
+      "ngCompatibility": "官方最低资格为“量化专业教育背景，或4+年相关经验”两条替代路径；没有对量化专业学历申请者单列最低工作年限。Qien的Statistics/Data Science背景可走学历路径。",
+      "assessment": "纠正此前误读：官方Minimum Qualifications将“Computer Science、Applied Mathematics、Statistics等量化专业教育背景”与“4+年相关经验”用or连接，4+年是没有该教育背景时的替代路径，不是所有申请者的硬门槛。岗位覆盖分类、回归、聚类、异常检测、SQL、Hadoop/Spark及Python/Scala/Java，技术与Qien高度匹配；但并非Campus/New Grad requisition，未说明2027年5月后入职或OPT，因此先保留核验，不进当前表2。",
+      "visa": "官方JD未披露F-1 OPT/STEM OPT、E-Verify/I-983或未来sponsorship规则；visa-verification。",
       "found": "2026-09-14",
       "url": "https://jobs.apple.com/en-us/details/200677912-0157/machine-learning-engineer-strategic-data-solutions",
-      "status": "seniority-rejected",
-      "finalPriority": "不投 · 明确 4+ 年经验门槛",
+      "status": "start-date-verification",
+      "finalPriority": "核验中 · 确认2027年5月后入职与OPT后再决定是否进入表2",
       "roleTrack": "Machine Learning Engineering / Applied Data Science / Fraud & Security ML",
-      "seniorityGap": "High · explicit 4+ years relevant experience",
+      "seniorityGap": "No explicit minimum experience for the quantitative-education path; start timing unresolved",
       "technicalGrowth": "97/100",
       "brandPlatform": "100/100",
-      "ryanUpgrade": "不适用（未通过 NG/经验硬门槛）",
-      "compensation": "Austin base/bonus/equity/estimated TC not disclosed in the official posting; do not rely on third-party estimates",
+      "ryanUpgrade": "Potentially yes · Apple brand and production ML scope; start-date/visa unresolved",
+      "compensation": "Austin官方职位未披露该requisition具体薪资；不得用其他地区或第三方范围替代。",
       "officePerks": "Austin · On-site；Apple benefits/stock programs generally available, role-specific package not verified",
       "jobId": "200677912-0157",
-      "strategyPriority": "历史观察 · 不进入表2；仅当 Apple 修改为 Early Career/New Grad 或取消 4+ 年最低经验时重新评估",
+      "strategyPriority": "资格误读已纠正；先核验2027入职和OPT，再评估表2",
       "companyProfile": "Apple 是全球顶级消费科技与平台公司；Strategic Data Solutions 使用大规模数据和生产 ML 保护交易与供应链、降低欺诈并优化运营。",
       "whyRyan": "Apple 品牌、数据规模、生产 ML 平台和长期流动性显著高于 Ryan；即使薪资尚未披露，平台升级足以支持冲刺申请。",
       "targetRoles": "Machine Learning Engineer / Applied Data Scientist / AI Platform / Strategic Data Solutions",
-      "careersUrl": "https://jobs.apple.com/en-us/search?location=austin-AST"
+      "careersUrl": "https://jobs.apple.com/en-us/search?location=austin-AST",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T17:17:24Z",
+      "verificationFlags": [
+        "start-date-verification",
+        "visa-verification",
+        "compensation-verification"
+      ]
     },
     {
       "company": "PwC",
@@ -4728,6 +4735,13 @@
         "from": "closed-watch",
         "to": "closed-watch",
         "change": "发现源与较早官方Apply索引冲突于10/3招满记录；新增status-verification，实时正文不可读，未认定重新开放。"
+      },
+      {
+        "checkedAt": "2026-10-05T17:17:24Z",
+        "jobId": "200677912-0157",
+        "from": "seniority-rejected",
+        "to": "start-date-verification",
+        "change": "纠正资格误读：官方原文为量化专业教育背景 OR 4+年相关经验；Qien可走学历路径，不存在统一4+年硬门槛。仍待确认2027年5月后入职与OPT，未进表2。"
       }
     ],
     "sourcesChecked": [
@@ -4926,7 +4940,7 @@
           "Adobe/NVIDIA/Intuit/Apple targeted official-source searches",
           "Current GitHub audit state and company exclusion rules"
         ],
-        "result": "四类均无变化。",
+        "result": "①无新进表2；②无全新职位；③无新排除；④Apple 200677912-0157从经验排除纠正为入职时间/签证待核验，仍不进表2。",
         "coverageLimitations": [
           "未完成全部监控公司官方ATS完整分页，不能据此断言全范围没有其他新增。",
           "Apple动态页面正文依赖索引；官方Search与Submit Resume确认开放，但Texas薪资、2027入职和OPT未披露。"
