@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T02:21:05Z",
+  "updatedAt": "2026-10-05T03:23:34.719Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4029,7 +4029,7 @@
       "gradYear": "Recent college graduate program; bachelor's accepted; exact 2027 start window not disclosed",
       "match": "Very high technical and platform fit; start-date and visa verification pending",
       "ngCompatibility": "NG-compatible on education/experience · bachelor's + internship experience; no 1+ year minimum",
-      "assessment": "TI Digital Experience Analytics团队的应届生Data Scientist岗位，直接负责个性化与客户旅程优化ML模型、推荐系统组件、行为聚类/分群、A/B测试、因果推断、实时可扩展落地及GenAI/Human-in-the-Loop应用。最低要求为相关本科、DS/相关实习、生产模型部署经验，以及Python/R、scikit-learn/PyTorch、SQL、云平台和Linux；没有从1年起的最低工作年限。Qien的Ryan DS实习、Python/PyTorch/LLM/SQL背景高度匹配，TI品牌与生产ML职责相对Ryan构成潜在升级。官方未给出2027年5月后具体入职批次，也未明确本岗位OPT/STEM OPT/sponsorship，因此保留待核验，不先静默排除，也暂不进表2。",
+      "assessment": "用户明确要求移除 TI 全公司监控，所有 TI 职位均不再考虑；停止发现、核验、推荐和提醒，仅保留历史与 JD 备份。",
       "visa": "Official JD says TI does not make hiring decisions based on citizenship, immigration status or national origin, with an export-control license reservation. This is not an OPT ban, but exact F-1 OPT/STEM OPT, E-Verify and future sponsorship treatment for requisition 25017931 is not stated; visa-verification required.",
       "found": "2026-10-04",
       "discoveredDate": "2026-10-04",
@@ -4042,9 +4042,9 @@
       "lastCheckedAt": "2026-10-05T02:21:05Z",
       "source": "TI official Careers requisition + matching complete syndicated JD",
       "url": "https://careers.ti.com/en/sites/CX/job/25017931",
-      "status": "ng-verification",
+      "status": "user-rejected",
       "officialStatus": "Official TI requisition indexed/live on 2026-10-04",
-      "finalPriority": "待核验 · 高价值候选 · 暂不进表2",
+      "finalPriority": "用户排除 · TI全公司停止监控 · 仅保留历史",
       "roleTrack": "Applied Data Science / ML Personalization / Recommender Systems / Experimentation / GenAI",
       "seniorityGap": "None identified · bachelor's + internship experience",
       "technicalGrowth": "95/100 · production ML, recommender systems, experimentation, causal inference, real-time implementation and GenAI",
@@ -4054,12 +4054,15 @@
       "officePerks": "Dallas HQ · in-office; benefits stated generally, relocation not verified",
       "jobId": "25017931",
       "deadline": "Not disclosed",
-      "verificationFlags": [
-        "visa-verification",
-        "start-date-verification"
-      ],
+      "verificationFlags": [],
       "archiveUrl": "job-archive/texas-instruments/25017931/verification.md",
-      "archiveLabel": "JD核验摘要"
+      "archiveLabel": "JD核验摘要",
+      "previousStatus": "ng-verification",
+      "previousAssessment": "TI Digital Experience Analytics团队的应届生Data Scientist岗位，直接负责个性化与客户旅程优化ML模型、推荐系统组件、行为聚类/分群、A/B测试、因果推断、实时可扩展落地及GenAI/Human-in-the-Loop应用。最低要求为相关本科、DS/相关实习、生产模型部署经验，以及Python/R、scikit-learn/PyTorch、SQL、云平台和Linux；没有从1年起的最低工作年限。Qien的Ryan DS实习、Python/PyTorch/LLM/SQL背景高度匹配，TI品牌与生产ML职责相对Ryan构成潜在升级。官方未给出2027年5月后具体入职批次，也未明确本岗位OPT/STEM OPT/sponsorship，因此保留待核验，不先静默排除，也暂不进表2。",
+      "monitoringEnabled": false,
+      "companyExcluded": true,
+      "userRejectedAt": "2026-10-05T03:23:34.719Z",
+      "rejectionReason": "用户明确要求移除 TI 全公司监控，所有 TI 职位均不再考虑；停止发现、核验、推荐和提醒，仅保留历史与 JD 备份。"
     },
     {
       "company": "Texas Instruments",
@@ -4071,7 +4074,7 @@
       "gradYear": "Recent college graduate program; exact start window not disclosed",
       "match": "Eligibility appears entry-level; strategic fit below Ryan baseline",
       "ngCompatibility": "NG-compatible signal · recent college grads and minimum GPA 3.0; exact full qualification list archived",
-      "assessment": "岗位分析TI.com客户旅程、营销归因、数字体验项目效果与海量客户/广告数据，并与数据工程、架构、营销和销售团队协作。属于应届生入口，但核心是Web/marketing analytics、数据采集与业务洞察，未显示Applied ML模型ownership；相对Ryan Associate Data Scientist在技术方向上更弱，薪资也未披露，暂不足以满足Ryan机会成本基准。保留发现/排除记录，继续监控TI的Data Scientist/AI/ML岗位。",
+      "assessment": "用户明确要求移除 TI 全公司监控，所有 TI 职位均不再考虑；停止发现、核验、推荐和提醒，仅保留历史与 JD 备份。",
       "visa": "F-1 OPT/STEM OPT/E-Verify and requisition-specific sponsorship language not disclosed; not the exclusion reason.",
       "found": "2026-10-04",
       "discoveredDate": "2026-10-04",
@@ -4084,10 +4087,10 @@
       "lastCheckedAt": "2026-10-05T02:21:05Z",
       "source": "TI official Careers requisition + official program page + matching syndicated JD",
       "url": "https://careers.ti.com/en/sites/CX/job/25017806",
-      "status": "direction-rejected",
+      "status": "user-rejected",
       "officialStatus": "Official TI requisition indexed/live on 2026-10-04",
-      "rejectionReason": "Role is primarily web/marketing analytics and digital-experience measurement, without Applied ML model ownership; no demonstrated compensation advantage over Ryan.",
-      "finalPriority": "不进表2 · 方向/机会成本不足",
+      "rejectionReason": "用户明确要求移除 TI 全公司监控，所有 TI 职位均不再考虑；停止发现、核验、推荐和提醒，仅保留历史与 JD 备份。",
+      "finalPriority": "用户排除 · TI全公司停止监控 · 仅保留历史",
       "roleTrack": "Digital Experience Analytics / Web Marketing Data",
       "seniorityGap": "No hard experience gap identified",
       "technicalGrowth": "Customer journey analytics, attribution, data collection and automation; limited evidence of ML ownership",
@@ -4098,7 +4101,14 @@
       "jobId": "25017806",
       "deadline": "Not disclosed",
       "archiveUrl": "job-archive/texas-instruments/25017806/verification.md",
-      "archiveLabel": "JD核验摘要"
+      "archiveLabel": "JD核验摘要",
+      "previousStatus": "direction-rejected",
+      "previousAssessment": "岗位分析TI.com客户旅程、营销归因、数字体验项目效果与海量客户/广告数据，并与数据工程、架构、营销和销售团队协作。属于应届生入口，但核心是Web/marketing analytics、数据采集与业务洞察，未显示Applied ML模型ownership；相对Ryan Associate Data Scientist在技术方向上更弱，薪资也未披露，暂不足以满足Ryan机会成本基准。保留发现/排除记录，继续监控TI的Data Scientist/AI/ML岗位。",
+      "previousRejectionReason": "Role is primarily web/marketing analytics and digital-experience measurement, without Applied ML model ownership; no demonstrated compensation advantage over Ryan.",
+      "monitoringEnabled": false,
+      "companyExcluded": true,
+      "userRejectedAt": "2026-10-05T03:23:34.719Z",
+      "verificationFlags": []
     },
     {
       "company": "RELX / Elsevier",
@@ -4219,6 +4229,32 @@
       "Apple detail pages are JavaScript-rendered; open status used Apple official search list, while qualification text used a complete matching role-number copy and is labeled accordingly",
       "NXP R-10066856 official Workday body is dynamically rendered; exact role/location were confirmed officially and the 3+ years requirement was cross-checked in complete matching syndicated copies"
     ],
-    "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery"
-  }
+    "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
+    "userDecisions": [
+      {
+        "at": "2026-10-05T03:23:34.719Z",
+        "company": "Texas Instruments",
+        "action": "remove-company-from-monitor",
+        "reason": "用户明确要求移除 TI 全公司监控，所有 TI 职位均不再考虑；停止发现、核验、推荐和提醒，仅保留历史与 JD 备份。",
+        "affectedJobIds": [
+          "25017931",
+          "25017806"
+        ],
+        "archivesPreserved": true
+      }
+    ]
+  },
+  "companyExclusions": [
+    {
+      "company": "Texas Instruments",
+      "aliases": [
+        "TI",
+        "德州仪器"
+      ],
+      "monitoringEnabled": false,
+      "decision": "user-company-excluded",
+      "reason": "用户明确要求移除 TI 全公司监控，所有 TI 职位均不再考虑；停止发现、核验、推荐和提醒，仅保留历史与 JD 备份。",
+      "decidedAt": "2026-10-05T03:23:34.719Z"
+    }
+  ]
 }
