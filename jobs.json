@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T11:15:51Z",
+  "updatedAt": "2026-10-05T11:47:41Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4180,8 +4180,8 @@
       "employment": "Full-time · 2027 University Graduate",
       "gradYear": "2027 University Graduate",
       "match": "Very High directional fit; full eligibility pending",
-      "ngCompatibility": "ng-verification · official ATS title confirms 2027 University Graduate; degree and experience requirements not yet readable",
-      "assessment": "Adobe官方JD确认：全职、2027 University Graduate、Austin属于7个地点之一，截止2026-12-31。职责是将AI/ML用于大数据客户生命周期问题，覆盖预测建模、实验设计、归因、media-mix modeling、预算优化、个性化、因果分析与时间序列，和Qien的DS/Statistics、Python/PyTorch及Applied ML方向高度契合，品牌与平台相对Ryan构成明确潜在升级。当前索引仍未返回完整最低学历/经验和职位级签证措辞，因此继续保留ng/visa-verification，待完整资格确认后再进入表2。",
+      "ngCompatibility": "2027届全职已确认；最低学历/经验待核验",
+      "assessment": "Adobe官方JD确认：全职、2027 University Graduate、Austin属于7个地点之一，截止2026-12-31。职责是将AI/ML用于大数据客户生命周期问题，覆盖预测建模、实验设计、归因、media-mix modeling、预算优化、个性化、因果分析与时间序列，和Qien的DS/Statistics、Python/PyTorch及Applied ML方向高度契合，品牌与平台相对Ryan构成明确潜在升级。当前索引仍未返回完整最低学历/经验和职位级签证措辞，因此继续保留ng/visa-verification，按用户明确决定先进入表2，同时继续核验最低资格和OPT/STEM OPT。",
       "visa": "visa-verification · official readable content did not expose F-1 OPT/STEM OPT, sponsorship, E-Verify or permanent-authorization language",
       "found": "2026-10-05",
       "discoveredDate": "2026-10-05",
@@ -4189,8 +4189,8 @@
       "firstSeen": "2026-10-05",
       "source": "Adobe official Workday requisition; discovered through SimplifyJobs/New-Grad-Positions dev feed",
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Machine-Learning-Engineer_R172085",
-      "status": "ng-verification",
-      "finalPriority": "最高优先核验 · 2027/Austin/全职/职责已确认；待最低资格与OPT确认后进入表2",
+      "status": "current",
+      "finalPriority": "表2 · 用户指定纳入 · 持续核验",
       "roleTrack": "Machine Learning Engineering / Applied AI / Customer Analytics / Causal Inference / Optimization",
       "jobId": "R172085",
       "officialStatus": "Official Adobe Workday page active; full-time; Austin among 7 locations; application end date 2026-12-31",
@@ -4204,7 +4204,11 @@
       "lastChecked": "2026-10-05",
       "lastCheckedAt": "2026-10-05T11:15:51Z",
       "officialPostedDate": "2026-10-02 (official page: posted 3 days ago at check)",
-      "deadline": "2026-12-31"
+      "deadline": "2026-12-31",
+      "previousStatus": "ng-verification",
+      "userPromotedToTable2At": "2026-10-05T11:47:41Z",
+      "userPromotionReason": "用户明确要求先放入表2，同时继续核验；展示不代表资格/签证已确认。",
+      "strategyPriority": "表2 · 用户指定纳入 · 持续核验"
     },
     {
       "company": "NVIDIA",
@@ -4215,8 +4219,8 @@
       "employment": "Full-time · Entry Level · New College Grad 2026",
       "gradYear": "New College Grad 2026; compatibility with May-2027 graduation unverified",
       "match": "Very High technical fit; graduation/start-date compatibility pending",
-      "ngCompatibility": "start-date-verification · New College Grad title, but 2026 cohort label may not accept a May-2027 graduate",
-      "assessment": "NVIDIA官方JD确认Austin、全职、Entry Level，并聚焦大规模分布式LLM训练/推理的bring-up、benchmark、debug、性能分析与优化，涉及multi-GPU/multi-node、benchmarking tooling、automation和故障定位。技术、品牌及薪资平台显著高于Ryan；Level 1官方base为$108,000–$178,250，另有equity和benefits。但标题明确New College Grad 2026，仍未确认是否接受Qien在2027年5月毕业后入职；职位级OPT/STEM OPT也未披露。因此继续start-date/visa-verification，不进入表2。",
+      "ngCompatibility": "New College Grad 2026；2027年5月毕业后入职兼容性待核验",
+      "assessment": "NVIDIA官方JD确认Austin、全职、Entry Level，并聚焦大规模分布式LLM训练/推理的bring-up、benchmark、debug、性能分析与优化，涉及multi-GPU/multi-node、benchmarking tooling、automation和故障定位。技术、品牌及薪资平台显著高于Ryan；Level 1官方base为$108,000–$178,250，另有equity和benefits。但标题明确New College Grad 2026，仍未确认是否接受Qien在2027年5月毕业后入职；职位级OPT/STEM OPT也未披露。按用户明确决定先进入表2，同时继续核验2027年5月后入职及OPT/STEM OPT。",
       "visa": "visa-verification · requisition-specific OPT/STEM OPT, sponsorship and E-Verify/I-983 language not recovered",
       "found": "2026-10-05",
       "discoveredDate": "2026-10-05",
@@ -4224,8 +4228,8 @@
       "firstSeen": "2026-10-05",
       "source": "NVIDIA official Workday requisition; discovered through SimplifyJobs/New-Grad-Positions dev feed",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--DGX-Cloud-AI-Infrastructure---New-College-Grad-2026_JR2026477",
-      "status": "start-date-verification",
-      "finalPriority": "高价值核验中 · 仅在确认接受2027年5月毕业后入职及OPT后进入表2",
+      "status": "current",
+      "finalPriority": "表2 · 用户指定纳入 · 持续核验",
       "roleTrack": "AI Infrastructure / DGX Cloud / ML Platform Engineering",
       "jobId": "JR2026477",
       "officialStatus": "Official NVIDIA page active with Apply entry; Austin listed; full-time; posting stated applications accepted at least through 2026-10-03",
@@ -4238,7 +4242,11 @@
       "whyRyan": "If 2027-compatible and OPT-eligible, this is a major technical, brand and compensation-platform upgrade over Ryan.",
       "lastChecked": "2026-10-05",
       "lastCheckedAt": "2026-10-05T11:15:51Z",
-      "officialPostedDate": "2026-10-02 (official page: posted 3 days ago at check)"
+      "officialPostedDate": "2026-10-02 (official page: posted 3 days ago at check)",
+      "previousStatus": "start-date-verification",
+      "userPromotedToTable2At": "2026-10-05T11:47:41Z",
+      "userPromotionReason": "用户明确要求先放入表2，同时继续核验；展示不代表资格/签证已确认。",
+      "strategyPriority": "表2 · 用户指定纳入 · 持续核验"
     },
     {
       "company": "Kyndryl",
@@ -4380,6 +4388,20 @@
         "from": "ng-verification",
         "to": "opportunity-cost-rejected",
         "change": "Full official JD confirmed traditional data analysis/BI/consulting scope and $77,000 salary; excluded versus Ryan baseline despite early-career eligibility."
+      },
+      {
+        "checkedAt": "2026-10-05T11:47:41Z",
+        "jobId": "R172085",
+        "from": "ng-verification",
+        "to": "current",
+        "change": "User explicitly requested Table 2 inclusion while verification continues. Existing verification flags retained; no new qualification or visa conclusion."
+      },
+      {
+        "checkedAt": "2026-10-05T11:47:41Z",
+        "jobId": "JR2026477",
+        "from": "start-date-verification",
+        "to": "current",
+        "change": "User explicitly requested Table 2 inclusion while verification continues. Existing verification flags retained; no new qualification or visa conclusion."
       }
     ],
     "sourcesChecked": [
@@ -4431,6 +4453,16 @@
           "25017806"
         ],
         "archivesPreserved": true
+      },
+      {
+        "at": "2026-10-05T11:47:41Z",
+        "action": "promote-to-table2-with-verification",
+        "jobIds": [
+          "R172085",
+          "JR2026477"
+        ],
+        "reason": "用户要求Adobe和NVIDIA两个职位放进表2，同时核验。",
+        "verificationContinues": true
       }
     ],
     "runHistory": [
