@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T21:25:49Z",
+  "updatedAt": "2026-10-05T23:18:22Z",
   "jobs": [
     {
       "company": "IBM",
@@ -5431,11 +5431,32 @@
         "start-date-verification",
         "status-verification"
       ]
+    },
+    {
+      "company": "RTX",
+      "tier": "发现后排除",
+      "area": "McKinney, TX",
+      "market": "DFW",
+      "title": "FPGA / Digital Design Engineer I — Onsite (01879328)",
+      "employment": "Full-time · Onsite（官方URL标题；完整JD动态正文未取得）",
+      "gradYear": "New Grad发现源；2027年5月后入职兼容性未核验",
+      "match": "不适合 Qien · 硬件方向",
+      "ngCompatibility": "发现后排除：FPGA/数字逻辑设计，不属于 Applied AI/ML/DS、AI Engineer 或 MLE",
+      "assessment": "上轮后新增于Texas New-Grad发现源，官方RTX Workday链接明确为McKinney的FPGA/Digital Design Engineer I。岗位归入Hardware Engineering，核心方向是FPGA/数字逻辑设计而非应用AI、机器学习或数据科学；相对Ryan不构成目标方向升级，因此不进表2。官方动态JD正文当前不可读，经验、薪资、2027入职和授权项不作臆测。",
+      "visa": "未核验；因岗位方向已不符合，不据此作签证结论。",
+      "found": "2026-10-05",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WA--2501-W-University-Dr--WING-A-BLDG/FPGA--Digital-Design-Engineer-I---Onsite_01879328",
+      "status": "direction-rejected",
+      "finalPriority": "发现后排除 · 保留审计",
+      "roleTrack": "Hardware Engineering / FPGA / Digital Design",
+      "compensation": "未披露/未核验",
+      "officePerks": "McKinney · Onsite",
+      "jobId": "01879328"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-05T21:25:49Z",
-    "scope": "重点官方检索、多城市早期职业遗漏回填和Texas New-Grad增量；TI/D3V跳过，非全部ATS全量",
+    "lastCheckedAt": "2026-10-05T23:18:22Z",
+    "scope": "上轮后增量发现源复查；Texas New-Grad新增项与官方ATS链接核验；TI/D3V跳过，非全部ATS全量",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -5730,6 +5751,13 @@
         "jobId": "cc4fc0be-c414-4aba-a15d-64daa03476a0",
         "status": "ng-verification",
         "reason": "全国发现源含Dallas，官方Ashby仅提示启用JavaScript；完整最低资格、全部9地点、AI项目分配、薪资、OPT和2027入职未确认，保留发现记录。"
+      },
+      {
+        "checkedAt": "2026-10-05T23:18:22Z",
+        "company": "RTX",
+        "jobId": "01879328",
+        "status": "direction-rejected",
+        "reason": "McKinney硬件岗位，核心为FPGA/数字逻辑设计；非Qien目标Applied AI/ML/DS、AI Engineer或MLE方向，不进表2。"
       }
     ],
     "verificationChanges": [
@@ -5856,7 +5884,9 @@
       "Liberty Mutual 618519224159官方多城市页",
       "PayPal R0137237官方索引",
       "GM Financial 260957 Oracle ATS",
-      "Pariveda官方Ashby"
+      "Pariveda官方Ashby",
+      "SimplifyJobs/New-Grad-Positions README SHA 0212c40b2374bac39f511d61f1c737b5d8a07eeb（23:02 UTC增量）",
+      "RTX官方Workday requisition 01879328链接"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -5874,7 +5904,8 @@
       "未完成全部监控公司ATS全量分页，不能断言全范围无其他新增。",
       "官方历史索引不等于实时开放；动态正文不可读项继续status-verification。",
       "NVIDIA JR2024557列6地点，目前只获取5个，缺第六地点。",
-      "Liberty Mutual ADP完整官方授权未取得，第三方OPT限制不能当作本岗官方确认。"
+      "Liberty Mutual ADP完整官方授权未取得，第三方OPT限制不能当作本岗官方确认。",
+      "RTX 01879328官方Workday动态正文不可读；经验、薪资、2027入职和授权未臆测，方向排除仅依据官方职位标题与发现源Hardware分类。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -6141,6 +6172,19 @@
           "官方历史索引不等于实时开放；动态正文不可读项继续status-verification。",
           "NVIDIA JR2024557列6地点，目前只获取5个，缺第六地点。",
           "Liberty Mutual ADP完整官方授权未取得，第三方OPT限制不能当作本岗官方确认。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-05T23:18:22Z",
+        "scope": "上轮提交后的Texas增量发现与官方链接复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions b617876→f3627e9 diff",
+          "RTX Workday 01879328"
+        ],
+        "result": "新增发现1个：RTX McKinney FPGA/Digital Design Engineer I；因硬件方向与Qien Applied AI/ML/DS目标不符，记录为direction-rejected，不进入表2。其余三类无变化。",
+        "coverageLimitations": [
+          "本轮为增量扫描，不代表全部监控公司ATS完成全量分页。",
+          "RTX动态官方JD正文未取得，未对经验、薪资、入职时间或OPT作推断。"
         ]
       }
     ]
