@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T05:23:45.135Z",
+  "updatedAt": "2026-10-05T09:16:54Z",
   "jobs": [
     {
       "company": "IBM",
@@ -1566,21 +1566,21 @@
       "employment": "Full-time · Regular · Early Career (generally first 24 months)",
       "gradYear": "Degree must be completed by start date · fixed start date/graduation window not disclosed",
       "match": "Very High technical fit · 92/100; Irving placement and OPT remain gating items",
-      "ngCompatibility": "NG verification · official 0–2 years and internships/projects count; 2027 post-graduation start not explicitly confirmed",
-      "assessment": "Cat Digital explicitly presents this as a launch point for candidates generally within the first 24 months of their career. The posting accepts 0–2 years and values internships, research, coursework and projects. Work can include ML/deep-learning/time-series models for equipment failure and remaining useful life, GenAI model training/evaluation, prompt engineering, agents/chatbots, IoT/telematics and cloud analytics. Qien's Data Science + Statistics degrees, Python/SQL/PyTorch, research and GPA fit well. The official header includes Irving, but the JD says Dallas opportunities are limited and primary placements are Chicago/Peoria. It also lacks a fixed 2027 start date. Confirm an Irving opening, post-May-2027 start, and OPT before upgrading to Table 2.",
-      "visa": "JD says sponsorship now or in the future and visa sponsorship are not available, but does not explicitly mention or exclude F-1 OPT/STEM OPT. Under the monitor rule, initial OPT remains unconfirmed; verify OPT acceptance, employing entity E-Verify/I-983 support, STEM extension and future status strategy.",
+      "ngCompatibility": "Verified early-career fit · official 0–2 years, generally first 24 months; 2027 post-graduation start remains unconfirmed",
+      "assessment": "Official JD confirms an Irving, TX location option (with limited Dallas opportunities), full-time regular employment, a bachelor’s requirement, 0–2 years of relevant experience, and an early-career profile generally within the first 24 months. Scope includes ML/deep learning/time-series, GenAI evaluation and training, prompt engineering, agents/chatbots, IoT/telematics and cloud analytics. Official base is $89,210–$144,960 plus incentive eligibility. Qien is technically qualified and this can exceed the Ryan baseline if Irving placement is available. Keep out of Table 2 until two gates are cleared: a post-May-2027 start and initial F-1 OPT/STEM OPT plus E-Verify/I-983 compatibility.",
+      "visa": "Official JD says sponsorship now or in the future and visa sponsorship are not available. It does not explicitly require permanent/unrestricted authorization or explicitly exclude initial OPT/CPT, so under the monitor rule initial OPT/STEM OPT is not auto-rejected; employer confirmation of OPT acceptance, E-Verify/I-983 support and future-status expectations is required.",
       "found": "2026-09-30",
       "officialPostedDate": "2026-09-11",
       "firstSeen": "2026-09-30",
       "firstArchived": "2026-09-30",
       "firstNotifiedDate": "2026-09-30",
-      "lastChecked": "2026-09-30",
-      "lastCheckedAt": "2026-09-30T10:20:00Z",
-      "officialStatus": "Official Caterpillar page open; Apply Now active; deadline 2026-11-13",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T09:16:54Z",
+      "officialStatus": "Official Caterpillar page active; Apply Now available; deadline 2026-11-13",
       "source": "Caterpillar official Careers JD; surfaced by targeted Caterpillar Irving backfill",
       "url": "https://careers.caterpillar.com/en/jobs/r0000392872/data-scientist-technical-analyst/",
-      "status": "ng-verification",
-      "finalPriority": "及时核实 · 确认 Irving placement、2027年5月后入职及 F-1 OPT 后可升级为立即投",
+      "status": "start-date-visa-verification",
+      "finalPriority": "高价值核验中 · 仅待确认 Irving placement、2027年5月后入职及 F-1 OPT/STEM OPT；通过后可进入表2",
       "roleTrack": "Applied Data Science / Machine Learning / GenAI / IoT & Telematics Analytics",
       "seniorityGap": "Low · official 0–2 years; internships, projects, research and coursework valued",
       "technicalGrowth": "94/100 · production ML, GenAI agents, time-series/IoT models and cloud analytics",
@@ -1592,7 +1592,7 @@
       "deadline": "2026-11-13",
       "archiveUrl": "job-archive/caterpillar/R0000392872/job-description.md",
       "archiveLabel": "JD 归档摘要",
-      "strategyPriority": "High-value DFW verification lead; do not show in Table 2 until location/start-date/OPT gates are confirmed",
+      "strategyPriority": "High-value DFW verification lead; early-career requirements and pay verified; hold outside Table 2 pending Irving/start-date/OPT gates",
       "companyProfile": "Caterpillar's Cat Digital organization builds connectivity, enterprise data, analytics and AI for connected equipment, fleet management and predictive maintenance at global industrial scale.",
       "whyRyan": "If Irving and OPT-compatible, the role offers stronger hands-on ML/GenAI/IoT modeling and a higher base ceiling than Ryan, with a distinctive industrial-AI platform; location and authorization uncertainty are the main blockers.",
       "targetRoles": "Early Career Data Scientist / ML Engineer / GenAI Engineer / IoT Analytics",
@@ -4173,7 +4173,7 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-05T05:23:45.135Z",
+    "lastCheckedAt": "2026-10-05T09:16:54Z",
     "scope": "Official entry-point, 7-day targeted search and repository backfill; partial ATS coverage, not a complete inventory",
     "currentChecks": [
       {
@@ -4191,6 +4191,10 @@
       {
         "jobId": "11444573",
         "result": "UNT mirror inaccessible; closure not inferred; applied record preserved"
+      },
+      {
+        "jobId": "R0000392872",
+        "result": "Official JD active; NG fit verified; moved from ng-verification to start-date-visa-verification"
       }
     ],
     "newDiscoveries": [
@@ -4230,7 +4234,15 @@
         "reason": "Apple official Austin Early Career listing; exact matching JD requires 2+ years programming and 2+ years Kubernetes/Docker/container orchestration"
       }
     ],
-    "verificationChanges": [],
+    "verificationChanges": [
+      {
+        "checkedAt": "2026-10-05T09:16:54Z",
+        "jobId": "R0000392872",
+        "from": "ng-verification",
+        "to": "start-date-visa-verification",
+        "change": "Official JD verified Irving option, full-time status, 0–2 years/first-24-months fit, bachelor’s requirement, Applied ML/GenAI/IoT scope, $89,210–$144,960 base and 2026-11-13 deadline. Initial OPT/STEM OPT and post-May-2027 start remain unconfirmed."
+      }
+    ],
     "sourcesChecked": [
       "Goldman Sachs 171568/181810 official",
       "Amazon 10506956 official",
@@ -4250,7 +4262,8 @@
       "NXP official Workday R-10066856 + matching full JD",
       "Apple official Austin Early Career search/detail — 200677645-0157",
       "Intuit official New College Grad and Frisco/Plano search",
-      "Microsoft/Caterpillar targeted official-source search"
+      "Microsoft/Caterpillar targeted official-source search",
+      "Caterpillar R0000392872 official JD re-verification — location, 0–2 years, compensation, sponsorship language, deadline"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
