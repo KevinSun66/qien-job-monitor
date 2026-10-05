@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T16:31:34Z",
+  "updatedAt": "2026-10-05T17:17:24Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4532,8 +4532,8 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-05T16:23:43Z",
-    "scope": "Official entry-point, 7-day targeted search and repository backfill; partial ATS coverage, not a complete inventory",
+    "lastCheckedAt": "2026-10-05T17:17:24Z",
+    "scope": "Apple Austin官方关键词补查、SimplifyJobs Texas增量与重点官方来源复核；非全部公司ATS全量遍历",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -4731,31 +4731,10 @@
       }
     ],
     "sourcesChecked": [
-      "Goldman Sachs 171568/181810 official",
-      "Amazon 10506956 official",
-      "Vizient 11444573 UNT mirror",
-      "Caterpillar official R0000392872 and R0000390317",
-      "Intuit official entry-level and Texas search pages",
-      "Salesforce Futureforce and Texas targeted search",
-      "DFW/Austin targeted early-career web and official-source sweep",
-      "speedyapply NEW_GRAD_USA incremental Texas lines",
-      "zapplyjobs New-Grad Data Science incremental Texas lines",
-      "Toyota 10337203 official index + syndicated full JD",
-      "GEICO R0066162 official index + syndicated JD",
-      "zapplyjobs incremental commits through 440f31d13a7d26e76e44489d8b7e47842ca84e0e",
-      "Apple official Austin and Corporate Functions: People search results",
-      "Apple 200683761 complete matching JD mirror",
-      "zapplyjobs incremental commits through a903491cd96f01a40aba07610ace5b6ed7831ea1",
-      "NXP official Workday R-10066856 + matching full JD",
-      "Apple official Austin Early Career search/detail — 200677645-0157",
-      "Intuit official New College Grad and Frisco/Plano search",
-      "Microsoft/Caterpillar targeted official-source search",
-      "Caterpillar R0000392872 official JD re-verification — location, 0–2 years, compensation, sponsorship language, deadline",
-      "SimplifyJobs/New-Grad-Positions dev feed SHA 9bcc5dc79ea3b823e5045280c80bcac3a14949a0 — open DFW/Austin rows cross-checked to official ATS URLs",
-      "Adobe R172085, NVIDIA JR2026477 and Kyndryl R-69022 official Workday URLs",
-      "Adobe official Workday R172085 indexed full-time/location/deadline/scope",
-      "NVIDIA official Workday JR2026477 indexed location/scope/compensation",
-      "Kyndryl official Workday R-69022 complete JD and compensation"
+      "Apple official Careers 200677912-0157 and Austin search results",
+      "SimplifyJobs/New-Grad-Positions README feed SHA 6c3aeb16a585c853beae175d9fc1fa71245ba0ee",
+      "Adobe/NVIDIA/Intuit/Apple targeted official-source searches",
+      "Current GitHub audit state and company exclusion rules"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -4936,6 +4915,21 @@
           "未完成全部公司官方ATS完整分页遍历，不能据此断言全范围无其他新增。",
           "部分动态ATS正文不可读；搜索索引的Apply不证明实时重开。",
           "Adobe R172083共6地点，官方索引露出5个含Austin，第6地点尚待官方核实。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-05T17:17:24Z",
+        "scope": "Apple Austin官方关键词补查、SimplifyJobs Texas增量与重点官方来源复核；非全部公司ATS全量遍历",
+        "sourcesChecked": [
+          "Apple official Careers 200677912-0157 and Austin search results",
+          "SimplifyJobs/New-Grad-Positions README feed SHA 6c3aeb16a585c853beae175d9fc1fa71245ba0ee",
+          "Adobe/NVIDIA/Intuit/Apple targeted official-source searches",
+          "Current GitHub audit state and company exclusion rules"
+        ],
+        "result": "四类均无变化。",
+        "coverageLimitations": [
+          "未完成全部监控公司官方ATS完整分页，不能据此断言全范围没有其他新增。",
+          "Apple动态页面正文依赖索引；官方Search与Submit Resume确认开放，但Texas薪资、2027入职和OPT未披露。"
         ]
       }
     ]
