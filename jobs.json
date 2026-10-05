@@ -4242,6 +4242,22 @@
         ],
         "archivesPreserved": true
       }
+    ],
+    "runHistory": [
+      {
+        "checkedAt": "2026-10-05T04:17:02.035Z",
+        "scope": "Partial targeted official-source recheck; not full company/ATS inventory",
+        "sourcesChecked": [
+          "https://higher.gs.com/roles/171568",
+          "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
+          "https://www.d3vtech.com/careers/",
+          "https://careers.bcg.com/global/en/job/59461/Forward-Deployed-AI-Engineer-United-States-BCG-X"
+        ],
+        "result": "No verified job-state or qualification change in checked records. BCG 59461 detail explicitly says filled despite search/landing-page card; retained closed-watch. TI skipped.",
+        "coverageLimitations": [
+          "Full monitored-company inventory and complete multi-location discovery were not completed in this run; no claim of zero new eligible jobs across entire scope."
+        ]
+      }
     ]
   },
   "companyExclusions": [
