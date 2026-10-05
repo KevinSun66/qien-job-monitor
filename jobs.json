@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T16:17:38Z",
+  "updatedAt": "2026-10-05T16:23:43Z",
   "jobs": [
     {
       "company": "IBM",
@@ -1454,8 +1454,8 @@
       "firstSeen": "2026-09-30",
       "firstArchived": "2026-09-30",
       "firstNotifiedDate": "2026-09-30",
-      "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-03T16:16:47Z",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T16:23:43Z",
       "officialStatus": "Official Crowe careers page states the job has been filled on 2026-10-03.",
       "source": "Crowe official Workday JD; UNT Dallas public campus mirror and location index as discovery support",
       "url": "https://crowe.wd12.myworkdayjobs.com/en-US/External_Careers/job/Machine-Learning-Software-Engineer-1_R-71006",
@@ -1474,7 +1474,11 @@
       "archiveLabel": "JD 归档摘要",
       "strategyPriority": "Closed-watch; monitor only for a distinct new requisition or official reopening.",
       "statusChangedDate": "2026-10-03",
-      "rejectionReason": "Official Crowe page reports the requisition has been filled; preserve discovery, verification and JD archive."
+      "rejectionReason": "Official Crowe page reports the requisition has been filled; preserve discovery, verification and JD archive.",
+      "statusVerificationNote": "2026-10-05发现源列为开放、较早官方Workday索引仍有Apply，但2026-10-03官方招满记录尚未被实时可读正文推翻。保留closed-watch，不据缓存宣布重开；需继续核验渠道状态冲突。",
+      "verificationFlags": [
+        "status-verification"
+      ]
     },
     {
       "company": "Apple",
@@ -4477,10 +4481,53 @@
       ],
       "whyRyan": "Ryan更贴近Qien的Data Science/Applied AI方向；本岗薪资最多接近Ryan且需要项目出差。",
       "discoveryNote": "Feed显示约1个月；官方索引约3周。本次为补发现，不对延迟原因作推断。"
+    },
+    {
+      "company": "Adobe",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin，TX（官方多城市岗位）",
+      "title": "2027 University Graduate — Software Engineer (R172083)",
+      "jobId": "R172083",
+      "url": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/XMLNAME-2027-University-Graduate---Software-Engineer_R172083",
+      "employment": "全职 · 2027届大学毕业生",
+      "gradYear": "2026年12月–2027年6月毕业",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T16:23:43Z",
+      "firstSeen": "2026-10-05",
+      "status": "visa-verification",
+      "verificationFlags": [
+        "visa-verification",
+        "team-verification",
+        "location-list-verification"
+      ],
+      "finalPriority": "核验中 · OPT及具体团队方向待确认",
+      "ngCompatibility": "官方JD索引明确相关本科/硕士，毕业窗口2026年12月–2027年6月，经验0–1+年并接受课程、实习、研究及个人项目；Qien毕业时间符合，DS/Statistics是否视为相关专业仍需确认。",
+      "match": "早期职业时间窗口匹配 · 应用AI团队匹配待核验",
+      "assessment": "完整官方JD索引已读到，含Austin，全职且经验从0年起。本岗位覆盖web/mobile/data/platform，AI-assisted tooling指开发工具使用，不等同于Applied AI/ML职责。不得仅凭AI字样推荐。Adobe品牌有潜在Ryan升级价值，但需确认具体分配团队为AI/ML、数据或相关平台及OPT/STEM支持后再进入表2。实时Workday正文为空，不根据空页断言关闭。",
+      "visa": "未明确本岗位OPT/STEM OPT、E-Verify、I-983或签证赞助；待核验，不推断拒绝。",
+      "compensation": "官方美国底薪总区间$76,700–$152,200；另有年度激励，部分岗位可能获股权。Austin独立区间未披露，不套用CA/NY区间。",
+      "deadline": "2026-12-31（ATS索引；正文另有按需求持续招聘说明）",
+      "officialLocations": [
+        "San Jose",
+        "San Francisco",
+        "Austin",
+        "Seattle",
+        "Lehi"
+      ],
+      "locationListNote": "官方索引显示共6地点，已露出5个；发现源完整列表另含New York，待核验第6个官方地点。",
+      "officialStatus": "官方ATS昨日索引含Apply；实时正文为空，未确认关闭或完整实时状态。",
+      "source": "SimplifyJobs/New-Grad-Positions增量/回填；Adobe官方Workday完整索引核验",
+      "roleTrack": "软件工程 / 数据与平台工程 · 非明确Applied AI岗位",
+      "whyRyan": "Adobe品牌和平台可能升级；Austin薪资、团队技术方向、OPT待核验，目前不认定优于Ryan。",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T16:23:43Z",
+      "minimumQualifications": "相关本科/硕士；2026年12月–2027年6月毕业；0–1+年课程、实习、研究或个人项目经验；DSA、编程及软件开发基础。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-05T15:21:04Z",
+    "lastCheckedAt": "2026-10-05T16:23:43Z",
     "scope": "Official entry-point, 7-day targeted search and repository backfill; partial ATS coverage, not a complete inventory",
     "currentChecks": [
       {
@@ -4582,6 +4629,13 @@
         "company": "Barry-Wehmiller / Design Group",
         "status": "direction-rejected",
         "reason": "真正Entry Level，但职责为工业自动化/SCADA/PLC与现场启动，$75k–$90k且需出差，不构成相对Ryan的Applied AI/ML升级。"
+      },
+      {
+        "checkedAt": "2026-10-05T16:23:43Z",
+        "jobId": "R172083",
+        "company": "Adobe",
+        "status": "visa-verification",
+        "reason": "新补发现Austin本科/硕士2027届SWE，官方经验0–1+年；OPT和具体AI/数据团队方向未知，保留核验记录，不静默过滤。"
       }
     ],
     "verificationChanges": [
@@ -4662,6 +4716,13 @@
         "from": "ng-verification",
         "to": "ng-verification",
         "change": "官方Careers再次确认0–2年和完整技术要求；补充岗位地点、薪资及Ryan机会成本未核实，保持待核验。"
+      },
+      {
+        "checkedAt": "2026-10-05T16:23:43Z",
+        "jobId": "R-71006",
+        "from": "closed-watch",
+        "to": "closed-watch",
+        "change": "发现源与较早官方Apply索引冲突于10/3招满记录；新增status-verification，实时正文不可读，未认定重新开放。"
       }
     ],
     "sourcesChecked": [
@@ -4837,6 +4898,29 @@
         "coverageLimitations": [
           "本轮为增量与重点复查，未完成所有监控公司ATS全量分页；不能据此断言全范围无其他新增。",
           "Vizient、Kyndryl和Microsoft部分动态ATS正文仍不可读，未据此推断关闭。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-05T16:23:43Z",
+        "scope": "新增毕业生源完整Texas行检查及重点官方入口复查；TI跳过；非全公司ATS全量分页",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions README",
+          "Adobe R172083完整官方Workday索引",
+          "Crowe R-71006官方入口及索引",
+          "Trinity 2600865官方关闭页",
+          "Applied Materials R2627684完整官方JD",
+          "Caterpillar R0000395384完整官方JD",
+          "D3V Careers完整JD",
+          "MyFundedFutures 4390595009完整官方JD/申请问卷",
+          "Liberty Mutual 77144官方入口",
+          "Vizient 35028R官方入口",
+          "Intuit Frisco/Plano及Campus/early-career检索"
+        ],
+        "result": "①无新进表2；②Adobe R172083新补发现待OPT/团队核验；③无新排除；④Crowe R-71006新增状态渠道冲突待核验，保留关闭观察。此前用户请求的Adobe投递归档及Apple/D3V核验已保留，不重复提醒。",
+        "coverageLimitations": [
+          "未完成全部公司官方ATS完整分页遍历，不能据此断言全范围无其他新增。",
+          "部分动态ATS正文不可读；搜索索引的Apply不证明实时重开。",
+          "Adobe R172083共6地点，官方索引露出5个含Austin，第6地点尚待官方核实。"
         ]
       }
     ]
