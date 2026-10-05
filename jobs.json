@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T18:51:12Z",
+  "updatedAt": "2026-10-05T19:22:06Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4557,11 +4557,484 @@
       "statusChangedDate": "2026-10-05",
       "closedAt": "2026-10-05T18:19:35Z",
       "strategyPriority": "关闭历史保留；仅在同一requisition重新开放时复核"
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin为官方JD索引列明地点；详见地点列表",
+      "title": "ASIC Design Verification Engineer — New College Grad 2026 (JR2010391)",
+      "jobId": "JR2010391",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/ASIC-Design-Verification-Engineer---New-College-Grad-2026_JR2010391",
+      "status": "direction-rejected",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T19:22:06Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T19:22:06Z",
+      "employment": "全职 · New College Grad 2026",
+      "gradYear": "2026届标签；2027年5月后入职未知",
+      "ngCompatibility": "早期职业标签已发现；因主职责方向排除，未认定学历/签证不合格",
+      "assessment": "SOC/系统IP的ASIC验证；不是应用AI、MLE或数据科学工作。",
+      "visa": "未确认本requisition的OPT/STEM OPT及E-Verify/I-983政策；未以无未来赞助推断不接受OPT。",
+      "compensation": "来源为官方历史JD索引；未取得实时Austin薪酬，不作为当前offer承诺。",
+      "officialLocations": [
+        "US, TX, Austin"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "官方历史索引收录；动态Workday正文不可读。旧Apply和at least until日期均不证明当前开放或关闭。",
+      "source": "NVIDIA官方Workday JD搜索索引；非实时完整ATS分页",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "finalPriority": "发现后排除 · 保留审计，不进入表2",
+      "whyRyan": "主职责不符合Qien的应用AI/ML/DS方向，不因品牌或薪酬高而推荐。",
+      "rejectionReason": "SOC/系统IP的ASIC验证；不是应用AI、MLE或数据科学工作。"
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin为官方JD索引列明地点；详见地点列表",
+      "title": "Signal and Power Integrity Engineer — New College Grad 2026 (JR2015067)",
+      "jobId": "JR2015067",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Signal-and-Power-Integrity-Engineer---New-College-Grad-2026_JR2015067",
+      "status": "direction-rejected",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T19:22:06Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T19:22:06Z",
+      "employment": "全职 · New College Grad 2026",
+      "gradYear": "2026届标签；2027年5月后入职未知",
+      "ngCompatibility": "早期职业标签已发现；因主职责方向排除，未认定学历/签证不合格",
+      "assessment": "信号/电源完整性工程；与Qien应用AI/ML/DS方向不符。",
+      "visa": "未确认本requisition的OPT/STEM OPT及E-Verify/I-983政策；未以无未来赞助推断不接受OPT。",
+      "compensation": "来源为官方历史JD索引；未取得实时Austin薪酬，不作为当前offer承诺。",
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, TX, Austin"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "官方历史索引收录；动态Workday正文不可读。旧Apply和at least until日期均不证明当前开放或关闭。",
+      "source": "NVIDIA官方Workday JD搜索索引；非实时完整ATS分页",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "finalPriority": "发现后排除 · 保留审计，不进入表2",
+      "whyRyan": "主职责不符合Qien的应用AI/ML/DS方向，不因品牌或薪酬高而推荐。",
+      "rejectionReason": "信号/电源完整性工程；与Qien应用AI/ML/DS方向不符。"
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin为官方JD索引列明地点；详见地点列表",
+      "title": "CAD Engineer — New College Grad 2026 (JR2013740)",
+      "jobId": "JR2013740",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/CAD-Engineer---New-College-Grad-2026_JR2013740-1",
+      "status": "direction-rejected",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T19:22:06Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T19:22:06Z",
+      "employment": "全职 · New College Grad 2026",
+      "gradYear": "2026届标签；2027年5月后入职未知",
+      "ngCompatibility": "早期职业标签已发现；因主职责方向排除，未认定学历/签证不合格",
+      "assessment": "VLSI/封装数据流程、Python/Perl自动化和内部网页维护；未见ML模型开发或AI平台职责。",
+      "visa": "未确认本requisition的OPT/STEM OPT及E-Verify/I-983政策；未以无未来赞助推断不接受OPT。",
+      "compensation": "历史官方底薪L1 $100,000–$166,750；L2 $116,000–$189,750，另有股权福利。地点/经验/职级相关，Austin当前offer待核实。",
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, TX, Austin"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "官方历史索引收录；动态Workday正文不可读。旧Apply和at least until日期均不证明当前开放或关闭。",
+      "source": "NVIDIA官方Workday JD搜索索引；非实时完整ATS分页",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "finalPriority": "发现后排除 · 保留审计，不进入表2",
+      "whyRyan": "主职责不符合Qien的应用AI/ML/DS方向，不因品牌或薪酬高而推荐。",
+      "rejectionReason": "VLSI/封装数据流程、Python/Perl自动化和内部网页维护；未见ML模型开发或AI平台职责。",
+      "minimumQualifications": "BS/MS EE/CS或同等经验；VLSI CAD或封装流程、Python/Perl"
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin为官方JD索引列明地点；详见地点列表",
+      "title": "ASIC Clocks Design Engineer — New College Grad 2026 (JR2019229)",
+      "jobId": "JR2019229",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/ASIC-Clocks-Design-Engineer---New-College-Grad-2026_JR2019229-1",
+      "status": "direction-rejected",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T19:22:06Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T19:22:06Z",
+      "employment": "全职 · New College Grad 2026",
+      "gradYear": "2026届标签；2027年5月后入职未知",
+      "ngCompatibility": "早期职业标签已发现；因主职责方向排除，未认定学历/签证不合格",
+      "assessment": "芯片时钟RTL、逻辑综合和PPA优化；不是Qien的应用AI/ML方向。",
+      "visa": "未确认本requisition的OPT/STEM OPT及E-Verify/I-983政策；未以无未来赞助推断不接受OPT。",
+      "compensation": "来源为官方历史JD索引；未取得实时Austin薪酬，不作为当前offer承诺。",
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, TX, Austin"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "官方历史索引收录；动态Workday正文不可读。旧Apply和at least until日期均不证明当前开放或关闭。",
+      "source": "NVIDIA官方Workday JD搜索索引；非实时完整ATS分页",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "finalPriority": "发现后排除 · 保留审计，不进入表2",
+      "whyRyan": "主职责不符合Qien的应用AI/ML/DS方向，不因品牌或薪酬高而推荐。",
+      "rejectionReason": "芯片时钟RTL、逻辑综合和PPA优化；不是Qien的应用AI/ML方向。"
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin为官方JD索引列明地点；详见地点列表",
+      "title": "Software R&D Engineer, VLSI Physical Design — New College Grad 2026 (JR2018183)",
+      "jobId": "JR2018183",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-TX-Austin/Software-R-D-Engineer--VLSI-Physical-Design---New-College-Grad-2026_JR2018183",
+      "status": "ng-verification",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T19:22:06Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T19:22:06Z",
+      "employment": "全职 · New College Grad 2026",
+      "gradYear": "2026届标签；2027年5月后入职未知",
+      "ngCompatibility": "ng-verification：学历/领域技能与2027年入职仍待确认",
+      "assessment": "EDA工具结合机器学习与并行计算；需VLSI物理设计算法实践。官方搜索另有不再接受申请摘要，与旧Workday Apply索引冲突，实时开放状态待确认。",
+      "visa": "未确认本requisition的OPT/STEM OPT及E-Verify/I-983政策；未以无未来赞助推断不接受OPT。",
+      "compensation": "来源为官方历史JD索引；未取得实时Austin薪酬，不作为当前offer承诺。",
+      "officialLocations": [
+        "US, TX, Austin"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "官方历史索引收录；动态Workday正文不可读。旧Apply和at least until日期均不证明当前开放或关闭。",
+      "source": "NVIDIA官方Workday JD搜索索引；非实时完整ATS分页",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification",
+        "status-verification"
+      ],
+      "finalPriority": "待核验 · 不进入表2",
+      "whyRyan": "NVIDIA品牌/平台有潜在升级，实际技能门槛、2027入职及OPT未通过，不据此推荐申请。",
+      "rejectionReason": null
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin为官方JD索引列明地点；详见地点列表",
+      "title": "Compiler Verification Engineer, Compute Performance – GPU — New College Grad 2026 (JR2016459)",
+      "jobId": "JR2016459",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Compiler-Verification-Engineer--Compute-Performance---GPU--New-College-Grad-2026_JR2016459",
+      "status": "direction-rejected",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T19:22:06Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T19:22:06Z",
+      "employment": "全职 · New College Grad 2026",
+      "gradYear": "2026届标签；2027年5月后入职未知",
+      "ngCompatibility": "早期职业标签已发现；因主职责方向排除，未认定学历/签证不合格",
+      "assessment": "编译器回归测试、测试自动化与性能验证为主；未见直接应用AI/ML建模职责。",
+      "visa": "未确认本requisition的OPT/STEM OPT及E-Verify/I-983政策；未以无未来赞助推断不接受OPT。",
+      "compensation": "历史官方底薪L1 $100,000–$166,750；L2 $116,000–$189,750，另有股权福利。地点/经验/职级相关，Austin当前offer待核实。",
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, TX, Austin"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "官方历史索引收录；动态Workday正文不可读。旧Apply和at least until日期均不证明当前开放或关闭。",
+      "source": "NVIDIA官方Workday JD搜索索引；非实时完整ATS分页",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "finalPriority": "发现后排除 · 保留审计，不进入表2",
+      "whyRyan": "主职责不符合Qien的应用AI/ML/DS方向，不因品牌或薪酬高而推荐。",
+      "rejectionReason": "编译器回归测试、测试自动化与性能验证为主；未见直接应用AI/ML建模职责。",
+      "minimumQualifications": "本科/硕士或同等经验；生产软件测试、编译器知识、C/C++/CUDA"
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin为官方JD索引列明地点；详见地点列表",
+      "title": "Verification Engineer — New College Grad 2026 (JR2017633)",
+      "jobId": "JR2017633",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Verification-Engineer---New-College-Grad-2026_JR2017633",
+      "status": "direction-rejected",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T19:22:06Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T19:22:06Z",
+      "employment": "全职 · New College Grad 2026",
+      "gradYear": "2026届标签；2027年5月后入职未知",
+      "ngCompatibility": "早期职业标签已发现；因主职责方向排除，未认定学历/签证不合格",
+      "assessment": "内存子系统与高速互连的SystemVerilog验证；与应用AI/ML/DS方向不符。",
+      "visa": "未确认本requisition的OPT/STEM OPT及E-Verify/I-983政策；未以无未来赞助推断不接受OPT。",
+      "compensation": "来源为官方历史JD索引；未取得实时Austin薪酬，不作为当前offer承诺。",
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, MA, Westford",
+        "US, TX, Austin"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "官方历史索引收录；动态Workday正文不可读。旧Apply和at least until日期均不证明当前开放或关闭。",
+      "source": "NVIDIA官方Workday JD搜索索引；非实时完整ATS分页",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "finalPriority": "发现后排除 · 保留审计，不进入表2",
+      "whyRyan": "主职责不符合Qien的应用AI/ML/DS方向，不因品牌或薪酬高而推荐。",
+      "rejectionReason": "内存子系统与高速互连的SystemVerilog验证；与应用AI/ML/DS方向不符。"
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin为官方JD索引列明地点；详见地点列表",
+      "title": "Power Architect — New College Grad 2026 (JR2017842)",
+      "jobId": "JR2017842",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Power-Architect---New-College-Grad-2026_JR2017842",
+      "status": "ng-verification",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T19:22:06Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T19:22:06Z",
+      "employment": "全职 · New College Grad 2026",
+      "gradYear": "2026届标签；2027年5月后入职未知",
+      "ngCompatibility": "ng-verification：学历/领域技能与2027年入职仍待确认",
+      "assessment": "包含ML功耗/性能建模，但核心是GPU电源架构；MS/PhD或同等经验，Qien同等经验路径、低功耗技能及2027入职待核验。",
+      "visa": "未确认本requisition的OPT/STEM OPT及E-Verify/I-983政策；未以无未来赞助推断不接受OPT。",
+      "compensation": "历史官方底薪L2 $116,000–$189,750；L3 $136,000–$218,500，另有股权福利。地点/经验/职级相关，Austin当前offer待核实。",
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, TX, Austin"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "官方历史索引收录；动态Workday正文不可读。旧Apply和at least until日期均不证明当前开放或关闭。",
+      "source": "NVIDIA官方Workday JD搜索索引；非实时完整ATS分页",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification",
+        "status-verification"
+      ],
+      "finalPriority": "待核验 · 不进入表2",
+      "whyRyan": "NVIDIA品牌/平台有潜在升级，实际技能门槛、2027入职及OPT未通过，不据此推荐申请。",
+      "rejectionReason": null,
+      "minimumQualifications": "MS/PhD EE/CE或同等经验；GPU功耗架构，ML功耗/性能模型"
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin为官方JD索引列明地点；详见地点列表",
+      "title": "Software R&D Engineer, Digital Logic Synthesis — New College Grad 2026 (JR2018263)",
+      "jobId": "JR2018263",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-R-D-Engineer--Digital-Logic-Synthesis---New-College-Grad-2026_JR2018263",
+      "status": "ng-verification",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T19:22:06Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T19:22:06Z",
+      "employment": "全职 · New College Grad 2026",
+      "gradYear": "2026届标签；2027年5月后入职未知",
+      "ngCompatibility": "ng-verification：学历/领域技能与2027年入职仍待确认",
+      "assessment": "明确用GNN/RL指导逻辑综合优化；MS/PhD或同等经验，并要求EDA/VLSI、RTL和现代C++。Qien领域技能证据及同等经验资格待核验。",
+      "visa": "未确认本requisition的OPT/STEM OPT及E-Verify/I-983政策；未以无未来赞助推断不接受OPT。",
+      "compensation": "历史官方底薪L2 $116,000–$189,750；L3 $136,000–$218,500，另有股权福利。地点/经验/职级相关，Austin当前offer待核实。",
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, TX, Austin"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "官方历史索引收录；动态Workday正文不可读。旧Apply和at least until日期均不证明当前开放或关闭。",
+      "source": "NVIDIA官方Workday JD搜索索引；非实时完整ATS分页",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification",
+        "status-verification"
+      ],
+      "finalPriority": "待核验 · 不进入表2",
+      "whyRyan": "NVIDIA品牌/平台有潜在升级，实际技能门槛、2027入职及OPT未通过，不据此推荐申请。",
+      "rejectionReason": null,
+      "minimumQualifications": "MS/PhD EE/CS或同等经验；EDA/VLSI、RTL、逻辑综合、现代C++"
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin为官方JD索引列明地点；详见地点列表",
+      "title": "Compiler Engineer, Compute Front-End — New College Grad 2026 (JR2013488)",
+      "jobId": "JR2013488",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Compiler-Engineer---Compute-Front-End--New-College-Grad-2026_JR2013488",
+      "status": "ng-verification",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T19:22:06Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T19:22:06Z",
+      "employment": "全职 · New College Grad 2026",
+      "gradYear": "2026届标签；2027年5月后入职未知",
+      "ngCompatibility": "ng-verification：学历/领域技能与2027年入职仍待确认",
+      "assessment": "CUDA C++编译器前端支持深度学习等计算；BS/MS/PhD或同等经验，要求1+年生产编译器/相关软件和高级C++。Qien相关经验尚无确认，保留核验。",
+      "visa": "未确认本requisition的OPT/STEM OPT及E-Verify/I-983政策；未以无未来赞助推断不接受OPT。",
+      "compensation": "历史官方底薪L2 $124,000–$195,500；L3 $152,000–$241,500，另有股权福利。地点/经验/职级相关，Austin当前offer待核实。",
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, TX, Austin",
+        "US, WA, Redmond"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "官方历史索引收录；动态Workday正文不可读。旧Apply和at least until日期均不证明当前开放或关闭。",
+      "source": "NVIDIA官方Workday JD搜索索引；非实时完整ATS分页",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification",
+        "status-verification"
+      ],
+      "finalPriority": "待核验 · 不进入表2",
+      "whyRyan": "NVIDIA品牌/平台有潜在升级，实际技能门槛、2027入职及OPT未通过，不据此推荐申请。",
+      "rejectionReason": null,
+      "minimumQualifications": "BS/MS/PhD或同等经验；1+年生产编译器或相关软件、高级C++与前端知识"
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin为官方JD索引列明地点；详见地点列表",
+      "title": "GPU Architecture Engineer — New College Grad 2026 (JR2021615)",
+      "jobId": "JR2021615",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/GPU-Architecture-Engineer---New-College-Grad-2026_JR2021615",
+      "status": "direction-rejected",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T19:22:06Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T19:22:06Z",
+      "employment": "全职 · New College Grad 2026",
+      "gradYear": "2026届标签；2027年5月后入职未知",
+      "ngCompatibility": "早期职业标签已发现；因主职责方向排除，未认定学历/签证不合格",
+      "assessment": "GPU架构模拟器、功能/性能模型验证为主；ML背景为加分项，主职责不是应用ML模型工程。",
+      "visa": "未确认本requisition的OPT/STEM OPT及E-Verify/I-983政策；未以无未来赞助推断不接受OPT。",
+      "compensation": "来源为官方历史JD索引；未取得实时Austin薪酬，不作为当前offer承诺。",
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, TX, Austin",
+        "US, NC, Durham"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "官方历史索引收录；动态Workday正文不可读。旧Apply和at least until日期均不证明当前开放或关闭。",
+      "source": "NVIDIA官方Workday JD搜索索引；非实时完整ATS分页",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "finalPriority": "发现后排除 · 保留审计，不进入表2",
+      "whyRyan": "主职责不符合Qien的应用AI/ML/DS方向，不因品牌或薪酬高而推荐。",
+      "rejectionReason": "GPU架构模拟器、功能/性能模型验证为主；ML背景为加分项，主职责不是应用ML模型工程。"
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin为官方JD索引列明地点；详见地点列表",
+      "title": "ASIC Verification Engineer — New College Grad 2026 (JR2012573)",
+      "jobId": "JR2012573",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-TX-Austin/ASIC-Verification-Engineer---New-College-Grad-2026_JR2012573",
+      "status": "direction-rejected",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T19:22:06Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T19:22:06Z",
+      "employment": "全职 · New College Grad 2026",
+      "gradYear": "2026届标签；2027年5月后入职未知",
+      "ngCompatibility": "早期职业标签已发现；因主职责方向排除，未认定学历/签证不合格",
+      "assessment": "SoC/GPU硬件与固件交互验证，要求SystemVerilog/UVM；不是应用AI/ML/DS。",
+      "visa": "未确认本requisition的OPT/STEM OPT及E-Verify/I-983政策；未以无未来赞助推断不接受OPT。",
+      "compensation": "来源为官方历史JD索引；未取得实时Austin薪酬，不作为当前offer承诺。",
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, TX, Austin"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "官方历史索引收录；动态Workday正文不可读。旧Apply和at least until日期均不证明当前开放或关闭。",
+      "source": "NVIDIA官方Workday JD搜索索引；非实时完整ATS分页",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "finalPriority": "发现后排除 · 保留审计，不进入表2",
+      "whyRyan": "主职责不符合Qien的应用AI/ML/DS方向，不因品牌或薪酬高而推荐。",
+      "rejectionReason": "SoC/GPU硬件与固件交互验证，要求SystemVerilog/UVM；不是应用AI/ML/DS。"
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin为官方JD索引列明地点；详见地点列表",
+      "title": "ASIC Physical Design Engineer, Netlisting — New College Grad 2026 (JR2017681)",
+      "jobId": "JR2017681",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/ASIC-Physical-Design-Engineer--Netlisting---New-College-Grad-2026_JR2017681",
+      "status": "direction-rejected",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T19:22:06Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T19:22:06Z",
+      "employment": "全职 · New College Grad 2026",
+      "gradYear": "2026届标签；2027年5月后入职未知",
+      "ngCompatibility": "早期职业标签已发现；因主职责方向排除，未认定学历/签证不合格",
+      "assessment": "芯片物理设计、形式验证、时钟域检查与逻辑综合；AI使用仅为流程生产率加分，不是应用ML建模。",
+      "visa": "未确认本requisition的OPT/STEM OPT及E-Verify/I-983政策；未以无未来赞助推断不接受OPT。",
+      "compensation": "来源为官方历史JD索引；未取得实时Austin薪酬，不作为当前offer承诺。",
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, TX, Austin"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "官方历史索引收录；动态Workday正文不可读。旧Apply和at least until日期均不证明当前开放或关闭。",
+      "source": "NVIDIA官方Workday JD搜索索引；非实时完整ATS分页",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "finalPriority": "发现后排除 · 保留审计，不进入表2",
+      "whyRyan": "主职责不符合Qien的应用AI/ML/DS方向，不因品牌或薪酬高而推荐。",
+      "rejectionReason": "芯片物理设计、形式验证、时钟域检查与逻辑综合；AI使用仅为流程生产率加分，不是应用ML建模。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-05T18:19:35Z",
-    "scope": "Adobe官方状态复核、SimplifyJobs Texas增量与Apple/NVIDIA/Intuit重点官方检索；非全部公司ATS全量遍历",
+    "lastCheckedAt": "2026-10-05T19:22:06Z",
+    "scope": "Texas New-Grad发现源增量和NVIDIA Austin多城市早期职业官方索引回填；Trinity/Caterpillar/Applied Materials/MyFundedFutures官方JD复核；非全部公司完整ATS遍历",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -4669,6 +5142,97 @@
         "company": "Adobe",
         "status": "visa-verification",
         "reason": "新补发现Austin本科/硕士2027届SWE，官方经验0–1+年；OPT和具体AI/数据团队方向未知，保留核验记录，不静默过滤。"
+      },
+      {
+        "checkedAt": "2026-10-05T19:22:06Z",
+        "jobId": "JR2010391",
+        "company": "NVIDIA",
+        "status": "direction-rejected",
+        "reason": "SOC/系统IP的ASIC验证；不是应用AI、MLE或数据科学工作。"
+      },
+      {
+        "checkedAt": "2026-10-05T19:22:06Z",
+        "jobId": "JR2015067",
+        "company": "NVIDIA",
+        "status": "direction-rejected",
+        "reason": "信号/电源完整性工程；与Qien应用AI/ML/DS方向不符。"
+      },
+      {
+        "checkedAt": "2026-10-05T19:22:06Z",
+        "jobId": "JR2013740",
+        "company": "NVIDIA",
+        "status": "direction-rejected",
+        "reason": "VLSI/封装数据流程、Python/Perl自动化和内部网页维护；未见ML模型开发或AI平台职责。"
+      },
+      {
+        "checkedAt": "2026-10-05T19:22:06Z",
+        "jobId": "JR2019229",
+        "company": "NVIDIA",
+        "status": "direction-rejected",
+        "reason": "芯片时钟RTL、逻辑综合和PPA优化；不是Qien的应用AI/ML方向。"
+      },
+      {
+        "checkedAt": "2026-10-05T19:22:06Z",
+        "jobId": "JR2018183",
+        "company": "NVIDIA",
+        "status": "ng-verification",
+        "reason": "EDA工具结合机器学习与并行计算；需VLSI物理设计算法实践。官方搜索另有不再接受申请摘要，与旧Workday Apply索引冲突，实时开放状态待确认。"
+      },
+      {
+        "checkedAt": "2026-10-05T19:22:06Z",
+        "jobId": "JR2016459",
+        "company": "NVIDIA",
+        "status": "direction-rejected",
+        "reason": "编译器回归测试、测试自动化与性能验证为主；未见直接应用AI/ML建模职责。"
+      },
+      {
+        "checkedAt": "2026-10-05T19:22:06Z",
+        "jobId": "JR2017633",
+        "company": "NVIDIA",
+        "status": "direction-rejected",
+        "reason": "内存子系统与高速互连的SystemVerilog验证；与应用AI/ML/DS方向不符。"
+      },
+      {
+        "checkedAt": "2026-10-05T19:22:06Z",
+        "jobId": "JR2017842",
+        "company": "NVIDIA",
+        "status": "ng-verification",
+        "reason": "包含ML功耗/性能建模，但核心是GPU电源架构；MS/PhD或同等经验，Qien同等经验路径、低功耗技能及2027入职待核验。"
+      },
+      {
+        "checkedAt": "2026-10-05T19:22:06Z",
+        "jobId": "JR2018263",
+        "company": "NVIDIA",
+        "status": "ng-verification",
+        "reason": "明确用GNN/RL指导逻辑综合优化；MS/PhD或同等经验，并要求EDA/VLSI、RTL和现代C++。Qien领域技能证据及同等经验资格待核验。"
+      },
+      {
+        "checkedAt": "2026-10-05T19:22:06Z",
+        "jobId": "JR2013488",
+        "company": "NVIDIA",
+        "status": "ng-verification",
+        "reason": "CUDA C++编译器前端支持深度学习等计算；BS/MS/PhD或同等经验，要求1+年生产编译器/相关软件和高级C++。Qien相关经验尚无确认，保留核验。"
+      },
+      {
+        "checkedAt": "2026-10-05T19:22:06Z",
+        "jobId": "JR2021615",
+        "company": "NVIDIA",
+        "status": "direction-rejected",
+        "reason": "GPU架构模拟器、功能/性能模型验证为主；ML背景为加分项，主职责不是应用ML模型工程。"
+      },
+      {
+        "checkedAt": "2026-10-05T19:22:06Z",
+        "jobId": "JR2012573",
+        "company": "NVIDIA",
+        "status": "direction-rejected",
+        "reason": "SoC/GPU硬件与固件交互验证，要求SystemVerilog/UVM；不是应用AI/ML/DS。"
+      },
+      {
+        "checkedAt": "2026-10-05T19:22:06Z",
+        "jobId": "JR2017681",
+        "company": "NVIDIA",
+        "status": "direction-rejected",
+        "reason": "芯片物理设计、形式验证、时钟域检查与逻辑综合；AI使用仅为流程生产率加分，不是应用ML建模。"
       }
     ],
     "verificationChanges": [
@@ -4780,10 +5344,12 @@
       }
     ],
     "sourcesChecked": [
-      "Adobe official Careers R172085 and R172083 filled pages",
-      "Adobe Workday R172085/R172083 realtime empty detail responses",
-      "SimplifyJobs/New-Grad-Positions README feed SHA 70cd32d66d6b7707e6231ab9f3d4c461596e0692",
-      "Apple/NVIDIA/Intuit targeted official-source search"
+      "SimplifyJobs/New-Grad-Positions README SHA 7375782e84ea526e1011db06fdd1530b49db5997",
+      "NVIDIA官方Workday 13个2026早期职业索引，含完整已列出location list",
+      "Trinity 2600865官方closed页",
+      "Caterpillar R0000392872官方完整JD",
+      "Applied Materials R2627684官方完整JD",
+      "MyFundedFutures 4390595009官方完整JD与授权问卷"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -4793,7 +5359,9 @@
       "Toyota 10337203 full official page returned 403; exact-role requirements use official index plus complete syndicated JD and are labeled accordingly",
       "GEICO R0066162 official Workday detail returned no readable body; experience and visa remain unverified, while direction rejection is based on retrieved employer-provided scope",
       "Apple detail pages are JavaScript-rendered; open status used Apple official search list, while qualification text used a complete matching role-number copy and is labeled accordingly",
-      "NXP R-10066856 official Workday body is dynamically rendered; exact role/location were confirmed officially and the 3+ years requirement was cross-checked in complete matching syndicated copies"
+      "NXP R-10066856 official Workday body is dynamically rendered; exact role/location were confirmed officially and the 3+ years requirement was cross-checked in complete matching syndicated copies",
+      "未完成所有监控公司官方ATS全量分页，不能断言全范围无其他新增。",
+      "NVIDIA旧搜索索引不等同实时开放；新记录均保留status-verification，2026标签不自动当作2027入职不兼容。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -5006,6 +5574,23 @@
         "coverageLimitations": [
           "未完成全部监控公司官方ATS完整分页；不能据此断言全范围没有其他新增。",
           "本轮未发现经官方核验的其他实质变化。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-05T19:22:06Z",
+        "scope": "Texas New-Grad发现源增量和NVIDIA Austin多城市早期职业官方索引回填；Trinity/Caterpillar/Applied Materials/MyFundedFutures官方JD复核；非全部公司完整ATS遍历",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions README SHA 7375782e84ea526e1011db06fdd1530b49db5997",
+          "NVIDIA官方Workday 13个2026早期职业索引，含完整已列出location list",
+          "Trinity 2600865官方closed页",
+          "Caterpillar R0000392872官方完整JD",
+          "Applied Materials R2627684官方完整JD",
+          "MyFundedFutures 4390595009官方完整JD与授权问卷"
+        ],
+        "result": "①无新增表2；②4个NVIDIA软件/ML相关岗位补发现待核验；③9个NVIDIA硬件/测试/CAD岗位发现后方向排除并保留原因；④所复查已知岗位无实质变化。",
+        "coverageLimitations": [
+          "未完成所有监控公司官方ATS全量分页，不能断言全范围无其他新增。",
+          "NVIDIA旧搜索索引不等同实时开放；新记录均保留status-verification，2026标签不自动当作2027入职不兼容。"
         ]
       }
     ]
