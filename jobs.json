@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T09:16:54Z",
+  "updatedAt": "2026-10-05T10:18:01Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4170,10 +4170,106 @@
       "source": "Apple official Austin search/detail page; exact-role matching JD used for complete qualifications",
       "lastChecked": "2026-10-05",
       "lastCheckedAt": "2026-10-05T05:23:45.135Z"
+    },
+    {
+      "company": "Adobe",
+      "tier": "S",
+      "area": "Austin, TX (one of 7 listed locations)",
+      "market": "Austin",
+      "title": "2027 University Graduate — Machine Learning Engineer (R172085)",
+      "employment": "Full-time signal · University Graduate",
+      "gradYear": "2027 University Graduate",
+      "match": "Very High directional fit; full eligibility pending",
+      "ngCompatibility": "ng-verification · official ATS title confirms 2027 University Graduate; degree and experience requirements not yet readable",
+      "assessment": "Adobe官方Workday requisition及增量New Grad源确认这是2027 University Graduate Machine Learning Engineer，完整地点列表包含Austin。职位方向与Qien的Applied AI/ML、PyTorch、LLM及数据科学背景高度匹配，Adobe品牌与ML平台相对Ryan可能构成明显升级。动态ATS本轮未返回完整JD，最低学历/经验、入职日期、Austin实际名额、薪资及OPT/STEM OPT尚不能核实；按反漏抓规则保留待核验，暂不进入表2。",
+      "visa": "visa-verification · official readable content did not expose F-1 OPT/STEM OPT, sponsorship, E-Verify or permanent-authorization language",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T10:18:01Z",
+      "firstSeen": "2026-10-05",
+      "source": "Adobe official Workday requisition; discovered through SimplifyJobs/New-Grad-Positions dev feed",
+      "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Machine-Learning-Engineer_R172085",
+      "status": "ng-verification",
+      "finalPriority": "高优先核验 · 完整JD、Austin地点、2027入职及OPT确认后决定是否进入表2",
+      "roleTrack": "Machine Learning Engineering / Applied AI",
+      "jobId": "R172085",
+      "officialStatus": "Official Adobe Workday URL resolves; dynamic body not readable in this run",
+      "compensation": "Not yet verified",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification"
+      ],
+      "companyProfile": "Adobe is a top-tier software and creative-cloud platform with large-scale ML, generative AI and personalization systems.",
+      "whyRyan": "If eligibility and Austin placement are confirmed, Adobe offers a clear brand/platform and production-ML upgrade over Ryan."
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "area": "Austin, TX (one of 5 listed locations)",
+      "market": "Austin",
+      "title": "Software Engineer — DGX Cloud AI Infrastructure — New College Grad 2026 (JR2026477)",
+      "employment": "Full-time signal · New College Grad 2026",
+      "gradYear": "New College Grad 2026; compatibility with May-2027 graduation unverified",
+      "match": "Very High technical fit; graduation/start-date compatibility pending",
+      "ngCompatibility": "start-date-verification · New College Grad title, but 2026 cohort label may not accept a May-2027 graduate",
+      "assessment": "NVIDIA官方Workday requisition及增量New Grad源确认DGX Cloud AI Infrastructure新毕业生岗位的完整地点列表包含Austin。AI基础设施、云平台和大规模模型工作具备极高技术成长与品牌价值。但标题明确标注New College Grad 2026，Qien于2027年5月毕业，必须核实毕业窗口和入职时间；动态ATS未返回完整JD，最低经验、学历、薪资与OPT/STEM OPT也仍未知。先保留核验，不因年份标签直接静默删除。",
+      "visa": "visa-verification · requisition-specific OPT/STEM OPT, sponsorship and E-Verify/I-983 language not recovered",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T10:18:01Z",
+      "firstSeen": "2026-10-05",
+      "source": "NVIDIA official Workday requisition; discovered through SimplifyJobs/New-Grad-Positions dev feed",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--DGX-Cloud-AI-Infrastructure---New-College-Grad-2026_JR2026477",
+      "status": "start-date-verification",
+      "finalPriority": "核验中 · 先确认是否接受2027年5月毕业/之后入职，再核实OPT与完整资格",
+      "roleTrack": "AI Infrastructure / DGX Cloud / ML Platform Engineering",
+      "jobId": "JR2026477",
+      "officialStatus": "Official NVIDIA Workday URL resolves; dynamic body not readable in this run",
+      "compensation": "Not yet verified",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification"
+      ],
+      "companyProfile": "NVIDIA is the leading accelerated-computing and AI infrastructure platform; DGX Cloud supports frontier-model and production AI workloads.",
+      "whyRyan": "If 2027-compatible and OPT-eligible, this is a major technical, brand and compensation-platform upgrade over Ryan."
+    },
+    {
+      "company": "Kyndryl",
+      "tier": "A+",
+      "area": "Dallas / Frisco AI HUB",
+      "market": "DFW",
+      "title": "Early Careers Consult Program — Data Operations Associate (R-69022)",
+      "employment": "Full-time signal · Early Careers Consult Program",
+      "gradYear": "New Grad / Early Careers; exact graduation and start window unverified",
+      "match": "Potential data-platform fit; exact Applied AI/ML depth and Ryan upgrade pending",
+      "ngCompatibility": "ng-verification · official ATS title confirms Early Careers; full requirements not yet readable",
+      "assessment": "Kyndryl官方Early Careers Workday requisition显示Dallas/Frisco AI HUB的Data Operations Associate。它属于明确早期职业入口，可能覆盖数据平台、云数据运营与咨询交付，但本轮动态ATS未返回完整JD，尚不能确认是否具备Applied AI/ML模型职责、最低经验、2027年5月后入职、薪资与OPT/STEM OPT。考虑Qien此前已投Kyndryl Associate AI Engineer但被拒，本职位仍按独立requisition核验，不以历史拒信自动排除。",
+      "visa": "visa-verification · requisition-specific OPT/STEM OPT, E-Verify/I-983 and sponsorship language not recovered",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T10:18:01Z",
+      "firstSeen": "2026-10-05",
+      "source": "Kyndryl official Early Careers Workday requisition; discovered through SimplifyJobs/New-Grad-Positions dev feed",
+      "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Dallas-USDALFRI-Frisco-AI-HUB/Early-Careers-Consult-Program---Data-Operations-Associate_R-69022-2",
+      "status": "ng-verification",
+      "finalPriority": "核验中 · 确认Applied AI/ML深度、Ryan升级价值、2027入职及OPT后决定",
+      "roleTrack": "Data Operations / Data Platform / Early Career Consulting",
+      "jobId": "R-69022",
+      "officialStatus": "Official Kyndryl Early Careers Workday URL resolves; dynamic body not readable in this run",
+      "compensation": "Not yet verified",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification"
+      ],
+      "companyProfile": "Kyndryl operates enterprise cloud, data and AI infrastructure and maintains a Dallas/Frisco AI Hub.",
+      "whyRyan": "Could add enterprise data/cloud scale, but must show substantive AI/ML ownership or a meaningful compensation/platform gain to clear the Ryan baseline."
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-05T09:16:54Z",
+    "lastCheckedAt": "2026-10-05T10:18:01Z",
     "scope": "Official entry-point, 7-day targeted search and repository backfill; partial ATS coverage, not a complete inventory",
     "currentChecks": [
       {
@@ -4232,6 +4328,21 @@
         "jobId": "200677645-0157",
         "status": "seniority-rejected",
         "reason": "Apple official Austin Early Career listing; exact matching JD requires 2+ years programming and 2+ years Kubernetes/Docker/container orchestration"
+      },
+      {
+        "jobId": "R172085",
+        "status": "ng-verification",
+        "reason": "Official ATS requisition discovered with DFW/Austin location; full dynamic JD requires verification before decision."
+      },
+      {
+        "jobId": "JR2026477",
+        "status": "start-date-verification",
+        "reason": "Official ATS requisition discovered with DFW/Austin location; full dynamic JD requires verification before decision."
+      },
+      {
+        "jobId": "R-69022",
+        "status": "ng-verification",
+        "reason": "Official ATS requisition discovered with DFW/Austin location; full dynamic JD requires verification before decision."
       }
     ],
     "verificationChanges": [
@@ -4263,7 +4374,9 @@
       "Apple official Austin Early Career search/detail — 200677645-0157",
       "Intuit official New College Grad and Frisco/Plano search",
       "Microsoft/Caterpillar targeted official-source search",
-      "Caterpillar R0000392872 official JD re-verification — location, 0–2 years, compensation, sponsorship language, deadline"
+      "Caterpillar R0000392872 official JD re-verification — location, 0–2 years, compensation, sponsorship language, deadline",
+      "SimplifyJobs/New-Grad-Positions dev feed SHA 9bcc5dc79ea3b823e5045280c80bcac3a14949a0 — open DFW/Austin rows cross-checked to official ATS URLs",
+      "Adobe R172085, NVIDIA JR2026477 and Kyndryl R-69022 official Workday URLs"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -4302,6 +4415,21 @@
         "result": "No verified job-state or qualification change in checked records. BCG 59461 detail explicitly says filled despite search/landing-page card; retained closed-watch. TI skipped.",
         "coverageLimitations": [
           "Full monitored-company inventory and complete multi-location discovery were not completed in this run; no claim of zero new eligible jobs across entire scope."
+        ]
+      },
+      {
+        "checkedAt": "2026-10-05T10:18:01Z",
+        "scope": "Incremental GitHub New Grad feed scan plus official ATS URL verification; TI excluded",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions dev feed SHA 9bcc5dc79ea3b823e5045280c80bcac3a14949a0",
+          "Adobe official Workday R172085",
+          "NVIDIA official Workday JR2026477",
+          "Kyndryl official Early Careers Workday R-69022"
+        ],
+        "result": "Three previously unrecorded DFW/Austin roles discovered and retained for verification; none promoted to Table 2 because complete JD/eligibility/visa/start-date fields remain unreadable.",
+        "coverageLimitations": [
+          "Dynamic Workday bodies returned no readable text in this run; no qualification, compensation, visa or precise start-date conclusion was inferred.",
+          "Feed is incremental discovery support, not authoritative qualification evidence; official ATS URLs are retained for follow-up."
         ]
       }
     ]
