@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T15:21:04Z",
+  "updatedAt": "2026-10-05T16:09:42Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4181,7 +4181,7 @@
       "gradYear": "2027届应届生",
       "match": "方向匹配度高 · 硕士／博士或同等经验门槛待核验",
       "ngCompatibility": "经验要求0–2+年；毕业窗口2026年12月–2027年6月符合时间范围；要求MS/PhD或同等经验，本科是否可按同等经验接受待确认",
-      "assessment": "实时官方 Workday 仍有申请入口，完整7个地点含 Austin。职责包括预测建模、因果分析、客户分析与优化，应用机器学习方向与 Qien 背景相关。完整 JD 要求 MS/PhD 或同等经验、0–2+年相关技能经验，毕业时间2026年12月–2027年6月。Qien 的2027年5月毕业时间在窗口内，但不能把本科及实习自动视为研究生同等经验，学历资格需公司确认。按用户决定保留表2并继续核验 OPT/STEM OPT。Adobe Careers 同一职位ID显示已招满，与实时 Workday 冲突；以实时 ATS 的申请入口为当前可行动依据，并保留冲突记录。",
+      "assessment": "实时官方 Workday 仍有申请入口，完整7个地点含 Austin。职责包括预测建模、因果分析、客户分析与优化，应用机器学习方向与 Qien 背景相关。完整 JD 要求 MS/PhD 或同等经验、0–2+年相关技能经验，毕业时间2026年12月–2027年6月。Qien 的2027年5月毕业时间在窗口内，但不能把本科及实习自动视为研究生同等经验，学历资格需公司确认。用户于2026-10-05确认已投递，已移入表3并备份官方JD；学历同等经验与 OPT/STEM OPT 继续核验。Adobe Careers 同一职位ID显示已招满，与实时 Workday 冲突；以实时 ATS 的申请入口为当前可行动依据，并保留冲突记录。",
       "visa": "待核验：官方已读取内容尚未明确本岗位的 F-1 OPT/STEM OPT、签证赞助、E-Verify 或永久工作授权要求。",
       "found": "2026-10-05",
       "discoveredDate": "2026-10-05",
@@ -4190,7 +4190,7 @@
       "source": "Adobe official Workday requisition; discovered through SimplifyJobs/New-Grad-Positions dev feed",
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Machine-Learning-Engineer_R172085",
       "status": "current",
-      "finalPriority": "表2 · 用户指定纳入 · 持续核验",
+      "finalPriority": "表3 · 已投递 · 资格及OPT继续核验",
       "roleTrack": "机器学习工程 / 应用 AI / 客户分析 / 因果推断 / 优化",
       "jobId": "R172085",
       "officialStatus": "2026-10-05实时 Workday 有申请入口，Austin 在完整7个地点中，截止2026-12-31；Adobe Careers 同ID显示已招满，存在渠道状态冲突。",
@@ -4209,7 +4209,7 @@
       "previousStatus": "ng-verification",
       "userPromotedToTable2At": "2026-10-05T11:47:41Z",
       "userPromotionReason": "用户明确要求先放入表2，同时继续核验；展示不代表资格/签证已确认。",
-      "strategyPriority": "表2 · 用户指定纳入 · 持续核验",
+      "strategyPriority": "表3 · 已投递 · 资格及OPT继续核验",
       "officePerks": "Austin 办公方式、到岗频率、福利及搬迁支持待核验。",
       "officialLocations": [
         "San Jose",
@@ -4221,7 +4221,18 @@
         "New York"
       ],
       "minimumQualifications": "MS/PhD相关专业或同等经验；0–2+年相关技能经验；统计/机器学习/深度学习/数据挖掘、编程、建模工具与SQL；毕业窗口2026年12月–2027年6月。",
-      "qualificationVerifiedAt": "2026-10-05T12:30:55Z"
+      "qualificationVerifiedAt": "2026-10-05T12:30:55Z",
+      "seedAppliedAt": "2026-10-05T16:09:42Z",
+      "seedAppliedDisplay": "2026/10/05（用户确认已投递）",
+      "applicationStatus": "applied",
+      "appliedDate": "2026-10-05",
+      "applicationConfirmedAt": "2026-10-05T16:09:42Z",
+      "applicationEvidence": "用户确认已投递；上传的官方Workday PDF首页显示 You applied for this job on October 5, 2026.",
+      "archiveUrl": "job-archive/adobe/R172085/job-description.pdf",
+      "archiveTextUrl": "job-archive/adobe/R172085/job-description.md",
+      "archivedAt": "2026-10-05T16:09:42Z",
+      "archiveSha256": "891f2fb7f13e312fe88c21b06151dbda9ff763b450f5696fbd39166e82b8ec49",
+      "archiveNote": "官方JD及投递确认快照；仅去除页眉邮箱，职位正文和投递日期保留。"
     },
     {
       "company": "NVIDIA",
@@ -4615,6 +4626,13 @@
         "from": "current",
         "to": "current",
         "change": "实时Workday确认Apply及全部5地点含Austin。补齐本科/硕士、无最低年数及多GPU、CUDA分布式、容器集群和强Python+C/C++要求；下调此前过高匹配判断。2027入职和OPT未知，继续表2核验。"
+      },
+      {
+        "checkedAt": "2026-10-05T16:09:42Z",
+        "jobId": "R172085",
+        "from": "table2-current",
+        "to": "table3-applied",
+        "change": "用户确认已投递，上传官方Workday PDF首页证实2026-10-05申请。通过seedAppliedAt移入Austin表3并从待投表2排除；PDF及完整JD文字已备份，学历/OPT及渠道状态冲突记录保留。"
       }
     ],
     "sourcesChecked": [
@@ -4685,6 +4703,18 @@
           "Austin"
         ],
         "reason": "Austin表2与DFW一致：说明字段使用中文，公司名、职位名及技术专有名词保留；今后新增或更新岗位继续遵守。"
+      },
+      {
+        "at": "2026-10-05T16:09:42Z",
+        "action": "mark-applied-and-archive-jd",
+        "company": "Adobe",
+        "jobIds": [
+          "R172085"
+        ],
+        "appliedDate": "2026-10-05",
+        "reason": "用户确认该岗位已申请，要求放入表3并备份JD快照。",
+        "archivesPreserved": true,
+        "verificationContinues": true
       }
     ],
     "runHistory": [
