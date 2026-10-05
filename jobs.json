@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T20:21:10Z",
+  "updatedAt": "2026-10-05T21:25:49Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4893,17 +4893,17 @@
       "title": "Compiler Engineer, Compute Front-End — New College Grad 2026 (JR2013488)",
       "jobId": "JR2013488",
       "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Senior-Compiler-Engineer---Compute-Front-End--New-College-Grad-2026_JR2013488",
-      "status": "ng-verification",
+      "status": "seniority-rejected",
       "found": "2026-10-05",
       "discoveredDate": "2026-10-05",
       "discoveredAt": "2026-10-05T19:22:06Z",
       "firstSeen": "2026-10-05",
       "lastChecked": "2026-10-05",
-      "lastCheckedAt": "2026-10-05T19:22:06Z",
+      "lastCheckedAt": "2026-10-05T21:25:49Z",
       "employment": "全职 · New College Grad 2026",
       "gradYear": "2026届标签；2027年5月后入职未知",
-      "ngCompatibility": "ng-verification：学历/领域技能与2027年入职仍待确认",
-      "assessment": "CUDA C++编译器前端支持深度学习等计算；BS/MS/PhD或同等经验，要求1+年生产编译器/相关软件和高级C++。Qien相关经验尚无确认，保留核验。",
+      "ngCompatibility": "不符合：最低1+年经验。",
+      "assessment": "重新核对已有官方门槛1+年；先前保留ng-verification与用户规则不一致，纠正为经验排除。不是新JD变化，全部历史薪资/地点保留。",
       "visa": "未确认本requisition的OPT/STEM OPT及E-Verify/I-983政策；未以无未来赞助推断不接受OPT。",
       "compensation": "历史官方底薪L2 $124,000–$195,500；L3 $152,000–$241,500，另有股权福利。地点/经验/职级相关，Austin当前offer待核实。",
       "officialLocations": [
@@ -4915,14 +4915,11 @@
       "officialStatus": "官方历史索引收录；动态Workday正文不可读。旧Apply和at least until日期均不证明当前开放或关闭。",
       "source": "NVIDIA官方Workday JD搜索索引；非实时完整ATS分页",
       "verificationFlags": [
-        "ng-verification",
-        "visa-verification",
-        "start-date-verification",
         "status-verification"
       ],
-      "finalPriority": "待核验 · 不进入表2",
+      "finalPriority": "经验排除 · 保留历史",
       "whyRyan": "NVIDIA品牌/平台有潜在升级，实际技能门槛、2027入职及OPT未通过，不据此推荐申请。",
-      "rejectionReason": null,
+      "rejectionReason": "官方同编号JD明确最低1年以上生产编译器/相关软件经验，按用户最低1年起规则排除。",
       "minimumQualifications": "BS/MS/PhD或同等经验；1+年生产编译器或相关软件、高级C++与前端知识"
     },
     {
@@ -5090,11 +5087,355 @@
       "source": "Apple official Careers listing; complete matching JD copies on The Muse/Dice used only for qualification text",
       "rejectionReason": "最低至少2+年编程经验；用户规则排除最低经验从1年起的岗位。",
       "whyRyan": "平台、品牌与潜在薪酬明显高于Ryan，但硬性经验不符合，不进入表2。"
+    },
+    {
+      "company": "NVIDIA",
+      "jobId": "JR2024557",
+      "title": "Developer Technology Engineer, AI — New College Graduate 2026 (JR2024557)",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Technology-Engineer--AI---New-College-Graduate-2026_JR2024557",
+      "market": "Austin",
+      "area": "Austin",
+      "tier": "S",
+      "status": "ng-verification",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T21:25:49Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T21:25:49Z",
+      "assessment": "新requisition，不能与JR2014130合并。官方历史索引含Austin；AI算法与GPU优化，要求MS/PhD或同等经验、C/C++和CUDA并行编程。Qien本科替代路径、技能、2027入职与OPT未知。",
+      "ngCompatibility": "尚未完成全部资格核验",
+      "visa": "本岗位OPT/STEM OPT未确认；不以无未来赞助直接推断不接受初始OPT。",
+      "gradYear": "2027年5月后入职兼容性未确认",
+      "officialStatus": "动态正文/实时开放未核验；索引Apply不证明当前开放。",
+      "source": "官方Careers/ATS与增量发现源",
+      "finalPriority": "待核验 · 不进入表2",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification",
+        "status-verification"
+      ],
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, TX, Austin",
+        "US, NC, Durham",
+        "US, CO, Boulder",
+        "US, WA, Redmond"
+      ],
+      "locationListComplete": false,
+      "locationCount": 6,
+      "compensation": "官方历史L1底薪$108,000–$178,250，L2 $124,000–$195,500，另有股权。",
+      "minimumQualifications": "MS/PhD或同等经验、C/C++与AI算法、并行编程。",
+      "whyRyan": "品牌/平台潜在升级，资格和技能证据未通过。"
+    },
+    {
+      "company": "NVIDIA",
+      "jobId": "JR2015952",
+      "title": "Systems Software Engineer, Workstation Performance — New College Grad 2026 (JR2015952)",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Systems-Software-Engineer--Workstation-Performance---New-College-Grad-2026_JR2015952",
+      "market": "Austin",
+      "area": "Santa Clara, CA（不在范围）",
+      "tier": "S",
+      "status": "location-rejected",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T21:25:49Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T21:25:49Z",
+      "assessment": "官方已列完整地点只有Santa Clara, CA，没有DFW/Austin；即使AI方向相关也不推荐。",
+      "ngCompatibility": "尚未完成全部资格核验",
+      "visa": "本岗位OPT/STEM OPT未确认；不以无未来赞助直接推断不接受初始OPT。",
+      "gradYear": "2027年5月后入职兼容性未确认",
+      "officialStatus": "动态正文/实时开放未核验；索引Apply不证明当前开放。",
+      "source": "官方Careers/ATS与增量发现源",
+      "finalPriority": "发现后排除 · 保留审计",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "officialLocations": [
+        "US, CA, Santa Clara"
+      ],
+      "locationListComplete": true,
+      "rejectionReason": "官方完整已列地点仅Santa Clara, CA。"
+    },
+    {
+      "company": "NVIDIA",
+      "jobId": "JR2016276",
+      "title": "Software Engineer, Machine Learning Inference — New College Grad 2026 (JR2016276)",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineer--Machine-Learning-Inference---New-College-Grad-2026_JR2016276-1",
+      "market": "Austin",
+      "area": "Santa Clara, CA（不在范围）",
+      "tier": "S",
+      "status": "location-rejected",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T21:25:49Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T21:25:49Z",
+      "assessment": "官方已列完整地点只有Santa Clara, CA，没有DFW/Austin；即使AI方向相关也不推荐。",
+      "ngCompatibility": "尚未完成全部资格核验",
+      "visa": "本岗位OPT/STEM OPT未确认；不以无未来赞助直接推断不接受初始OPT。",
+      "gradYear": "2027年5月后入职兼容性未确认",
+      "officialStatus": "动态正文/实时开放未核验；索引Apply不证明当前开放。",
+      "source": "官方Careers/ATS与增量发现源",
+      "finalPriority": "发现后排除 · 保留审计",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "officialLocations": [
+        "US, CA, Santa Clara"
+      ],
+      "locationListComplete": true,
+      "rejectionReason": "官方完整已列地点仅Santa Clara, CA。"
+    },
+    {
+      "company": "University of Texas at Austin",
+      "jobId": "R_00048016",
+      "title": "Data Scientist (R_00048016)",
+      "url": "https://utaustin.wd1.myworkdayjobs.com/en-US/UTstaff/job/Data-Scientist_R_00048016",
+      "market": "Austin",
+      "area": "UT MAIN CAMPUS, Austin",
+      "tier": "待核验",
+      "status": "seniority-rejected",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T21:25:49Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T21:25:49Z",
+      "assessment": "官方要求硕士+至少1年协作统计经验，相关教育经验可适当替代但未给出本科零经验入口；按1年起规则排除。立即入职、预计持续至2027-08-31，不能认定支持2027毕业后入职。",
+      "ngCompatibility": "尚未完成全部资格核验",
+      "visa": "官方E-Verify ID 854197，不等于本岗OPT/STEM支持已确认。",
+      "gradYear": "2027年5月后入职兼容性未确认",
+      "officialStatus": "动态正文/实时开放未核验；索引Apply不证明当前开放。",
+      "source": "官方Careers/ATS与增量发现源",
+      "finalPriority": "发现后排除 · 保留审计",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "compensation": "官方起薪$77,000+，按资格确定。",
+      "minimumQualifications": "统计/生物统计/DS硕士+至少1年协作统计经验；教育/经验可适当替代。",
+      "rejectionReason": "最低至少1年经验，违反零经验入口规则；硕士替代路径未确认。"
+    },
+    {
+      "company": "University of Texas at Austin",
+      "jobId": "R_00047575",
+      "title": "Data Scientist, Statistician (R_00047575)",
+      "url": "https://utaustin.wd1.myworkdayjobs.com/en-US/UTstaff/job/Data-Scientist--Statistician_R_00047575",
+      "market": "Austin",
+      "area": "UT MAIN CAMPUS, Austin",
+      "tier": "待核验",
+      "status": "seniority-rejected",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T21:25:49Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T21:25:49Z",
+      "assessment": "官方要求硕士+至少1年协作统计经验，相关教育经验可适当替代但未给出本科零经验入口；按1年起规则排除。立即入职、预计持续至2027-08-31，不能认定支持2027毕业后入职。",
+      "ngCompatibility": "尚未完成全部资格核验",
+      "visa": "官方E-Verify ID 854197，不等于本岗OPT/STEM支持已确认。",
+      "gradYear": "2027年5月后入职兼容性未确认",
+      "officialStatus": "动态正文/实时开放未核验；索引Apply不证明当前开放。",
+      "source": "官方Careers/ATS与增量发现源",
+      "finalPriority": "发现后排除 · 保留审计",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "compensation": "官方起薪$70,000+，按资格确定。",
+      "minimumQualifications": "统计/生物统计/DS硕士+至少1年协作统计经验；教育/经验可适当替代。",
+      "rejectionReason": "最低至少1年经验，违反零经验入口规则；硕士替代路径未确认。"
+    },
+    {
+      "company": "Liberty Mutual",
+      "jobId": "618519224159",
+      "title": "Analyst Development Program — January, June, September 2027 (618519224159)",
+      "url": "https://searchjobs.libertymutualgroup.com/careers/job/618519224159-analyst-development-program-boston-ma-plano-tx-seattle-wa-january-june-and-september-2027--boston-massachusetts-united-states?domain=libertymutual.com",
+      "market": "DFW",
+      "area": "Plano为官方标题地点；全国完整列表待核验",
+      "tier": "待核验",
+      "status": "ng-verification",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T21:25:49Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T21:25:49Z",
+      "assessment": "官方标题有Plano及2027 June/September入口；完整最低资格、ATS job ID和全部地点未取得。第三方有OPT/CPT限制线索，待核实本requisition，不能套用别岗政策。",
+      "ngCompatibility": "尚未完成全部资格核验",
+      "visa": "本岗位OPT/STEM OPT未确认；不以无未来赞助直接推断不接受初始OPT。",
+      "gradYear": "2027年6月/9月入口方向兼容毕业时间；具体分配待确认。",
+      "officialStatus": "动态正文/实时开放未核验；索引Apply不证明当前开放。",
+      "source": "官方Careers/ATS与增量发现源",
+      "finalPriority": "待核验 · 不进入表2",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "status-verification"
+      ],
+      "compensation": "第三方$50,000–$90,000，尚非本岗官方核实范围。",
+      "whyRyan": "大公司分析轮岗潜在价值；AI深度及薪资升级未确认。"
+    },
+    {
+      "company": "PayPal",
+      "jobId": "R0137237",
+      "title": "Software Engineer — Recent Graduate (R0137237)",
+      "url": "https://paypal.wd1.myworkdayjobs.com/en-US/jobs/job/Software-Engineer---Recent-Graduate_R0137237",
+      "market": "Austin",
+      "area": "Austin",
+      "tier": "S",
+      "status": "ng-verification",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T21:25:49Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T21:25:49Z",
+      "assessment": "官方索引含Austin、2027春毕业窗口；本科+1年以上经验 OR 同等教育/经验组合。替代路径没有明确零经验标准，需核验，不能直接认定符合。增量源锁定与旧Apply冲突，实时状态未知。",
+      "ngCompatibility": "尚未完成全部资格核验",
+      "visa": "官方现在及未来不提供签证赞助；没有明确OPT/CPT或永久授权限制，初始OPT仍待核验。",
+      "gradYear": "2027年5月后入职兼容性未确认",
+      "officialStatus": "动态正文/实时开放未核验；索引Apply不证明当前开放。",
+      "source": "官方Careers/ATS与增量发现源",
+      "finalPriority": "待核验 · 不进入表2",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification",
+        "status-verification"
+      ],
+      "officialLocations": [
+        "San Jose, California",
+        "Chicago, Illinois",
+        "Austin, Texas"
+      ],
+      "locationListComplete": true,
+      "minimumQualifications": "本科+1年以上相关经验，或同等教育/经验组合；2027春前毕业。",
+      "compensation": "官方索引Austin底薪$113,400–$124,500，可能另有奖金/股权。",
+      "whyRyan": "品牌薪酬潜在升级；一般SWE方向、经验替代路径、实时状态和OPT未通过。"
+    },
+    {
+      "company": "Applied Materials",
+      "jobId": "R2619452",
+      "title": "2026 Data Engineer New College Grad — Bachelor's/Master's (R2619452)",
+      "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/XMLNAME-2026-Data-Engineer-New-College-Grad--Bachelor-s-Master-s--Austin--TX-_R2619452-1",
+      "market": "Austin",
+      "area": "Austin",
+      "tier": "待核验",
+      "status": "opportunity-cost-rejected",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T21:25:49Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T21:25:49Z",
+      "assessment": "官方历史JD为Python/SQL云数据管道、ETL与数据质量；本科/硕士无最低年数。与同公司R2627684一致，薪资与Ryan重叠且无明确直接Applied AI升级。2026标签不单独作为排除理由。",
+      "ngCompatibility": "尚未完成全部资格核验",
+      "visa": "本岗位OPT/STEM OPT未确认；不以无未来赞助直接推断不接受初始OPT。",
+      "gradYear": "2027年5月后入职兼容性未确认",
+      "officialStatus": "动态正文/实时开放未核验；索引Apply不证明当前开放。",
+      "source": "官方Careers/ATS与增量发现源",
+      "finalPriority": "发现后排除 · 保留审计",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "compensation": "官方历史$76,000–$104,500，非当前offer。",
+      "minimumQualifications": "本科/硕士相关专业、Python/SQL与云服务，无最低年数。",
+      "rejectionReason": "通用数据管道，薪资与Ryan重叠、Austin地域成本增加，综合升级不足。"
+    },
+    {
+      "company": "Applied Materials",
+      "jobId": "R2628156",
+      "title": "Non-Technical Project/Program Management — New College Grad (R2628156)",
+      "url": "https://jobs.appliedmaterials.com/job/austin/non-technical-project-program-management-new-college-grad-bachelor-s-master-s-austin-tx/95/101167774832",
+      "market": "Austin",
+      "area": "Austin",
+      "tier": "待核验",
+      "status": "direction-rejected",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T21:25:49Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T21:25:49Z",
+      "assessment": "官方2026-09-26发布；备件业务需求、Agile backlog、流程优化与用户培训，非AI/ML/DS。SQL/Power BI仅加分。",
+      "ngCompatibility": "尚未完成全部资格核验",
+      "visa": "本岗位OPT/STEM OPT未确认；不以无未来赞助直接推断不接受初始OPT。",
+      "gradYear": "2027年5月后入职兼容性未确认",
+      "officialStatus": "官方完整详情显示Apply，截止2026-11-30，可能提前关闭。",
+      "source": "官方Careers/ATS与增量发现源",
+      "finalPriority": "发现后排除 · 保留审计",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "compensation": "官方$60,000–$77,000，10%出差、无搬迁补助。",
+      "rejectionReason": "非技术项目/产品流程方向不符，薪资低于Ryan。"
+    },
+    {
+      "company": "GM Financial",
+      "jobId": "260957",
+      "title": "Software Development Engineer I — Mobile (260957)",
+      "url": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260957",
+      "market": "DFW",
+      "area": "Irving, TX（发现源，官方待核验）",
+      "tier": "待核验",
+      "status": "ng-verification",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T21:25:49Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T21:25:49Z",
+      "assessment": "发现源显示Irving，官方Oracle ATS无可读正文。最低经验、全部地点、OPT、2027入职和薪资未知；同编号同步JD有React Native移动开发线索，实际方向和Ryan价值待核验。",
+      "ngCompatibility": "尚未完成全部资格核验",
+      "visa": "本岗位OPT/STEM OPT未确认；不以无未来赞助直接推断不接受初始OPT。",
+      "gradYear": "2027年5月后入职兼容性未确认",
+      "officialStatus": "动态正文/实时开放未核验；索引Apply不证明当前开放。",
+      "source": "官方Careers/ATS与增量发现源",
+      "finalPriority": "待核验 · 不进入表2",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification",
+        "status-verification"
+      ]
+    },
+    {
+      "company": "Pariveda",
+      "jobId": "cc4fc0be-c414-4aba-a15d-64daa03476a0",
+      "title": "Entry-Level Software Engineer",
+      "url": "https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0",
+      "market": "DFW",
+      "area": "Dallas（发现源）；官方完整列表待确认",
+      "tier": "待核验",
+      "status": "ng-verification",
+      "found": "2026-10-05",
+      "discoveredDate": "2026-10-05",
+      "discoveredAt": "2026-10-05T21:25:49Z",
+      "firstSeen": "2026-10-05",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T21:25:49Z",
+      "assessment": "全国发现源含Dallas，官方Ashby仅提示启用JavaScript；完整最低资格、全部9地点、AI项目分配、薪资、OPT和2027入职未确认，保留发现记录。",
+      "ngCompatibility": "尚未完成全部资格核验",
+      "visa": "本岗位OPT/STEM OPT未确认；不以无未来赞助直接推断不接受初始OPT。",
+      "gradYear": "2027年5月后入职兼容性未确认",
+      "officialStatus": "动态正文/实时开放未核验；索引Apply不证明当前开放。",
+      "source": "官方Careers/ATS与增量发现源",
+      "finalPriority": "待核验 · 不进入表2",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification",
+        "status-verification"
+      ]
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-05T20:21:10Z",
-    "scope": "Apple Austin官方列表增量、SimplifyJobs Texas feed增量及Microsoft/Intuit/Toyota重点官方检索；TI和D3V跳过；非全部公司ATS全量分页",
+    "lastCheckedAt": "2026-10-05T21:25:49Z",
+    "scope": "重点官方检索、多城市早期职业遗漏回填和Texas New-Grad增量；TI/D3V跳过，非全部ATS全量",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -5115,6 +5456,11 @@
       {
         "jobId": "R0000392872",
         "result": "Official JD active; NG fit verified; moved from ng-verification to start-date-visa-verification"
+      },
+      {
+        "checkedAt": "2026-10-05T21:25:49Z",
+        "jobId": "2600865",
+        "result": "Trinity官方仍明确关闭，未重新开放。"
       }
     ],
     "newDiscoveries": [
@@ -5307,6 +5653,83 @@
         "company": "Apple",
         "status": "seniority-rejected",
         "reason": "最低至少2+年编程经验；用户规则排除最低经验从1年起的岗位。"
+      },
+      {
+        "checkedAt": "2026-10-05T21:25:49Z",
+        "company": "NVIDIA",
+        "jobId": "JR2024557",
+        "status": "ng-verification",
+        "reason": "新requisition，不能与JR2014130合并。官方历史索引含Austin；AI算法与GPU优化，要求MS/PhD或同等经验、C/C++和CUDA并行编程。Qien本科替代路径、技能、2027入职与OPT未知。"
+      },
+      {
+        "checkedAt": "2026-10-05T21:25:49Z",
+        "company": "NVIDIA",
+        "jobId": "JR2015952",
+        "status": "location-rejected",
+        "reason": "官方完整已列地点仅Santa Clara, CA。"
+      },
+      {
+        "checkedAt": "2026-10-05T21:25:49Z",
+        "company": "NVIDIA",
+        "jobId": "JR2016276",
+        "status": "location-rejected",
+        "reason": "官方完整已列地点仅Santa Clara, CA。"
+      },
+      {
+        "checkedAt": "2026-10-05T21:25:49Z",
+        "company": "University of Texas at Austin",
+        "jobId": "R_00048016",
+        "status": "seniority-rejected",
+        "reason": "最低至少1年经验，违反零经验入口规则；硕士替代路径未确认。"
+      },
+      {
+        "checkedAt": "2026-10-05T21:25:49Z",
+        "company": "University of Texas at Austin",
+        "jobId": "R_00047575",
+        "status": "seniority-rejected",
+        "reason": "最低至少1年经验，违反零经验入口规则；硕士替代路径未确认。"
+      },
+      {
+        "checkedAt": "2026-10-05T21:25:49Z",
+        "company": "Liberty Mutual",
+        "jobId": "618519224159",
+        "status": "ng-verification",
+        "reason": "官方标题有Plano及2027 June/September入口；完整最低资格、ATS job ID和全部地点未取得。第三方有OPT/CPT限制线索，待核实本requisition，不能套用别岗政策。"
+      },
+      {
+        "checkedAt": "2026-10-05T21:25:49Z",
+        "company": "PayPal",
+        "jobId": "R0137237",
+        "status": "ng-verification",
+        "reason": "官方索引含Austin、2027春毕业窗口；本科+1年以上经验 OR 同等教育/经验组合。替代路径没有明确零经验标准，需核验，不能直接认定符合。增量源锁定与旧Apply冲突，实时状态未知。"
+      },
+      {
+        "checkedAt": "2026-10-05T21:25:49Z",
+        "company": "Applied Materials",
+        "jobId": "R2619452",
+        "status": "opportunity-cost-rejected",
+        "reason": "通用数据管道，薪资与Ryan重叠、Austin地域成本增加，综合升级不足。"
+      },
+      {
+        "checkedAt": "2026-10-05T21:25:49Z",
+        "company": "Applied Materials",
+        "jobId": "R2628156",
+        "status": "direction-rejected",
+        "reason": "非技术项目/产品流程方向不符，薪资低于Ryan。"
+      },
+      {
+        "checkedAt": "2026-10-05T21:25:49Z",
+        "company": "GM Financial",
+        "jobId": "260957",
+        "status": "ng-verification",
+        "reason": "发现源显示Irving，官方Oracle ATS无可读正文。最低经验、全部地点、OPT、2027入职和薪资未知；同编号同步JD有React Native移动开发线索，实际方向和Ryan价值待核验。"
+      },
+      {
+        "checkedAt": "2026-10-05T21:25:49Z",
+        "company": "Pariveda",
+        "jobId": "cc4fc0be-c414-4aba-a15d-64daa03476a0",
+        "status": "ng-verification",
+        "reason": "全国发现源含Dallas，官方Ashby仅提示启用JavaScript；完整最低资格、全部9地点、AI项目分配、薪资、OPT和2027入职未确认，保留发现记录。"
       }
     ],
     "verificationChanges": [
@@ -5415,13 +5838,25 @@
         "from": "current",
         "to": "closed",
         "change": "Adobe官方Careers现明确显示filled；已投递记录和JD快照保留在表3。"
+      },
+      {
+        "checkedAt": "2026-10-05T21:25:49Z",
+        "jobId": "JR2013488",
+        "from": "ng-verification",
+        "to": "seniority-rejected",
+        "change": "官方同编号JD明确最低1年以上生产编译器/相关软件经验，按用户最低1年起规则排除。 纠正已有门槛判断，非新JD变化。"
       }
     ],
     "sourcesChecked": [
-      "Apple official Texas/Austin search and 200685128-0157 full JD",
-      "Apple official 200656819-0157 listing plus matching full JD copies for qualification text",
-      "SimplifyJobs/New-Grad-Positions README SHA 7375782e84ea526e1011db06fdd1530b49db5997",
-      "Microsoft/Intuit/Toyota targeted official-source search"
+      "SimplifyJobs/New-Grad-Positions dev SHA 5e1eef3fa7a31da76018ad37408201e2815e6567",
+      "Trinity 2600865官方closed页",
+      "Applied Materials R2627684/R2628156/R2619452官方JD",
+      "NVIDIA JR2013488/JR2024557/JR2015952/JR2016276官方索引",
+      "UT Austin R_00048016/R_00047575官方索引",
+      "Liberty Mutual 618519224159官方多城市页",
+      "PayPal R0137237官方索引",
+      "GM Financial 260957 Oracle ATS",
+      "Pariveda官方Ashby"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -5435,7 +5870,11 @@
       "未完成所有监控公司官方ATS全量分页，不能断言全范围无其他新增。",
       "NVIDIA旧搜索索引不等同实时开放；新记录均保留status-verification，2026标签不自动当作2027入职不兼容。",
       "本轮未完成所有监控公司ATS全量分页，不能断言全范围无其他新增。",
-      "Apple 200656819-0157动态官方正文未完整渲染；经验门槛采用同编号完整同步JD的较宽松2+年版本，已足以按用户规则排除。"
+      "Apple 200656819-0157动态官方正文未完整渲染；经验门槛采用同编号完整同步JD的较宽松2+年版本，已足以按用户规则排除。",
+      "未完成全部监控公司ATS全量分页，不能断言全范围无其他新增。",
+      "官方历史索引不等于实时开放；动态正文不可读项继续status-verification。",
+      "NVIDIA JR2024557列6地点，目前只获取5个，缺第六地点。",
+      "Liberty Mutual ADP完整官方授权未取得，第三方OPT限制不能当作本岗官方确认。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -5680,6 +6119,28 @@
         "coverageLimitations": [
           "本轮未完成所有监控公司ATS全量分页，不能断言全范围无其他新增。",
           "Apple 200656819-0157动态官方正文未完整渲染；经验门槛采用同编号完整同步JD的较宽松2+年版本，已足以按用户规则排除。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-05T21:25:49Z",
+        "scope": "重点官方检索、多城市早期职业遗漏回填和Texas New-Grad增量；TI/D3V跳过，非全部ATS全量",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions dev SHA 5e1eef3fa7a31da76018ad37408201e2815e6567",
+          "Trinity 2600865官方closed页",
+          "Applied Materials R2627684/R2628156/R2619452官方JD",
+          "NVIDIA JR2013488/JR2024557/JR2015952/JR2016276官方索引",
+          "UT Austin R_00048016/R_00047575官方索引",
+          "Liberty Mutual 618519224159官方多城市页",
+          "PayPal R0137237官方索引",
+          "GM Financial 260957 Oracle ATS",
+          "Pariveda官方Ashby"
+        ],
+        "result": "①无新增表2；②5条新待核验；③6条新排除；④NVIDIA JR2013488按已有1+年门槛纠正为经验排除；已投递及JD不变。",
+        "coverageLimitations": [
+          "未完成全部监控公司ATS全量分页，不能断言全范围无其他新增。",
+          "官方历史索引不等于实时开放；动态正文不可读项继续status-verification。",
+          "NVIDIA JR2024557列6地点，目前只获取5个，缺第六地点。",
+          "Liberty Mutual ADP完整官方授权未取得，第三方OPT限制不能当作本岗官方确认。"
         ]
       }
     ]
