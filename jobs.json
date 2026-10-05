@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T17:17:24Z",
+  "updatedAt": "2026-10-05T18:19:35Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4219,27 +4219,26 @@
       "firstSeen": "2026-10-05",
       "source": "Adobe official Workday requisition; discovered through SimplifyJobs/New-Grad-Positions dev feed",
       "url": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Machine-Learning-Engineer_R172085",
-      "status": "current",
-      "finalPriority": "表3 · 已投递 · 资格及OPT继续核验",
+      "status": "closed",
+      "finalPriority": "表3 · 已投递 · 职位现已关闭，保留JD快照与申请记录",
       "roleTrack": "机器学习工程 / 应用 AI / 客户分析 / 因果推断 / 优化",
       "jobId": "R172085",
-      "officialStatus": "2026-10-05实时 Workday 有申请入口，Austin 在完整7个地点中，截止2026-12-31；Adobe Careers 同ID显示已招满，存在渠道状态冲突。",
+      "officialStatus": "Adobe官方Careers页面明确显示该职位已招满（filled）；对应Workday正文为空。",
       "compensation": "官方美国底薪总区间 $102,400–$202,250；非销售岗另有年度激励计划，部分岗位可能有股权。Austin 独立区间未公布，不套用加州等地区区间。",
       "verificationFlags": [
         "ng-verification",
-        "visa-verification",
-        "status-verification"
+        "visa-verification"
       ],
       "companyProfile": "Adobe 是顶级软件与创意云平台，拥有大规模机器学习、生成式 AI 和个性化应用场景。",
       "whyRyan": "应用机器学习方向、品牌与平台有潜在升级价值；须先确认本科能否满足同等经验路径及 OPT 资格，不能仅凭品牌认定已通过资格。",
       "lastChecked": "2026-10-05",
-      "lastCheckedAt": "2026-10-05T12:30:55Z",
+      "lastCheckedAt": "2026-10-05T18:19:35Z",
       "officialPostedDate": "未取得绝对发布日期；2026-10-05实时页面显示Posted 11 Days Ago；此前搜索缓存的3天前不再作为发布日期依据。",
       "deadline": "2026-12-31",
-      "previousStatus": "ng-verification",
+      "previousStatus": "current",
       "userPromotedToTable2At": "2026-10-05T11:47:41Z",
       "userPromotionReason": "用户明确要求先放入表2，同时继续核验；展示不代表资格/签证已确认。",
-      "strategyPriority": "表3 · 已投递 · 资格及OPT继续核验",
+      "strategyPriority": "已投递历史保留；等待招聘流程邮件，不重复申请",
       "officePerks": "Austin 办公方式、到岗频率、福利及搬迁支持待核验。",
       "officialLocations": [
         "San Jose",
@@ -4262,7 +4261,9 @@
       "archiveTextUrl": "job-archive/adobe/R172085/job-description.md",
       "archivedAt": "2026-10-05T16:09:42Z",
       "archiveSha256": "891f2fb7f13e312fe88c21b06151dbda9ff763b450f5696fbd39166e82b8ec49",
-      "archiveNote": "官方JD及投递确认快照；仅去除页眉邮箱，职位正文和投递日期保留。"
+      "archiveNote": "官方JD及投递确认快照；仅去除页眉邮箱，职位正文和投递日期保留。",
+      "statusChangedDate": "2026-10-05",
+      "closedAt": "2026-10-05T18:19:35Z"
     },
     {
       "company": "NVIDIA",
@@ -4508,13 +4509,13 @@
       "discoveredDate": "2026-10-05",
       "discoveredAt": "2026-10-05T16:23:43Z",
       "firstSeen": "2026-10-05",
-      "status": "visa-verification",
+      "status": "closed",
       "verificationFlags": [
         "visa-verification",
         "team-verification",
         "location-list-verification"
       ],
-      "finalPriority": "核验中 · OPT及具体团队方向待确认",
+      "finalPriority": "已关闭 · 从当前待核验移出，保留发现/排除审计",
       "ngCompatibility": "官方JD索引明确相关本科/硕士，毕业窗口2026年12月–2027年6月，经验0–1+年并接受课程、实习、研究及个人项目；Qien毕业时间符合，DS/Statistics是否视为相关专业仍需确认。",
       "match": "早期职业时间窗口匹配 · 应用AI团队匹配待核验",
       "assessment": "完整官方JD索引已读到，含Austin，全职且经验从0年起。本岗位覆盖web/mobile/data/platform，AI-assisted tooling指开发工具使用，不等同于Applied AI/ML职责。不得仅凭AI字样推荐。Adobe品牌有潜在Ryan升级价值，但需确认具体分配团队为AI/ML、数据或相关平台及OPT/STEM支持后再进入表2。实时Workday正文为空，不根据空页断言关闭。",
@@ -4529,18 +4530,22 @@
         "Lehi"
       ],
       "locationListNote": "官方索引显示共6地点，已露出5个；发现源完整列表另含New York，待核验第6个官方地点。",
-      "officialStatus": "官方ATS昨日索引含Apply；实时正文为空，未确认关闭或完整实时状态。",
+      "officialStatus": "Adobe官方Careers页面明确显示该职位已招满（filled）；对应Workday正文为空。",
       "source": "SimplifyJobs/New-Grad-Positions增量/回填；Adobe官方Workday完整索引核验",
       "roleTrack": "软件工程 / 数据与平台工程 · 非明确Applied AI岗位",
       "whyRyan": "Adobe品牌和平台可能升级；Austin薪资、团队技术方向、OPT待核验，目前不认定优于Ryan。",
       "lastChecked": "2026-10-05",
-      "lastCheckedAt": "2026-10-05T16:23:43Z",
-      "minimumQualifications": "相关本科/硕士；2026年12月–2027年6月毕业；0–1+年课程、实习、研究或个人项目经验；DSA、编程及软件开发基础。"
+      "lastCheckedAt": "2026-10-05T18:19:35Z",
+      "minimumQualifications": "相关本科/硕士；2026年12月–2027年6月毕业；0–1+年课程、实习、研究或个人项目经验；DSA、编程及软件开发基础。",
+      "previousStatus": "visa-verification",
+      "statusChangedDate": "2026-10-05",
+      "closedAt": "2026-10-05T18:19:35Z",
+      "strategyPriority": "关闭历史保留；仅在同一requisition重新开放时复核"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-05T17:17:24Z",
-    "scope": "Apple Austin官方关键词补查、SimplifyJobs Texas增量与重点官方来源复核；非全部公司ATS全量遍历",
+    "lastCheckedAt": "2026-10-05T18:19:35Z",
+    "scope": "Adobe官方状态复核、SimplifyJobs Texas增量与Apple/NVIDIA/Intuit重点官方检索；非全部公司ATS全量遍历",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -4742,13 +4747,27 @@
         "from": "seniority-rejected",
         "to": "start-date-verification",
         "change": "纠正资格误读：官方原文为量化专业教育背景 OR 4+年相关经验；Qien可走学历路径，不存在统一4+年硬门槛。仍待确认2027年5月后入职与OPT，未进表2。"
+      },
+      {
+        "checkedAt": "2026-10-05T18:19:35Z",
+        "jobId": "R172083",
+        "from": "visa-verification",
+        "to": "closed",
+        "change": "Adobe官方Careers现明确显示filled；从待核验移出，保留历史。"
+      },
+      {
+        "checkedAt": "2026-10-05T18:19:35Z",
+        "jobId": "R172085",
+        "from": "current",
+        "to": "closed",
+        "change": "Adobe官方Careers现明确显示filled；已投递记录和JD快照保留在表3。"
       }
     ],
     "sourcesChecked": [
-      "Apple official Careers 200677912-0157 and Austin search results",
-      "SimplifyJobs/New-Grad-Positions README feed SHA 6c3aeb16a585c853beae175d9fc1fa71245ba0ee",
-      "Adobe/NVIDIA/Intuit/Apple targeted official-source searches",
-      "Current GitHub audit state and company exclusion rules"
+      "Adobe official Careers R172085 and R172083 filled pages",
+      "Adobe Workday R172085/R172083 realtime empty detail responses",
+      "SimplifyJobs/New-Grad-Positions README feed SHA 70cd32d66d6b7707e6231ab9f3d4c461596e0692",
+      "Apple/NVIDIA/Intuit targeted official-source search"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -4944,6 +4963,21 @@
         "coverageLimitations": [
           "未完成全部监控公司官方ATS完整分页，不能据此断言全范围没有其他新增。",
           "Apple动态页面正文依赖索引；官方Search与Submit Resume确认开放，但Texas薪资、2027入职和OPT未披露。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-05T18:19:35Z",
+        "scope": "Adobe官方状态复核、SimplifyJobs Texas增量与Apple/NVIDIA/Intuit重点官方检索；非全部公司ATS全量遍历",
+        "sourcesChecked": [
+          "Adobe official Careers R172085 and R172083 filled pages",
+          "Adobe Workday R172085/R172083 realtime empty detail responses",
+          "SimplifyJobs/New-Grad-Positions README feed SHA 70cd32d66d6b7707e6231ab9f3d4c461596e0692",
+          "Apple/NVIDIA/Intuit targeted official-source search"
+        ],
+        "result": "①无新进表2；②无新待核验；③无新发现后排除；④Adobe R172085与R172083官方状态改为filled。R172085已投递记录/JD快照保留表3，R172083移入关闭历史。",
+        "coverageLimitations": [
+          "未完成全部监控公司官方ATS完整分页；不能据此断言全范围没有其他新增。",
+          "本轮未发现经官方核验的其他实质变化。"
         ]
       }
     ]
