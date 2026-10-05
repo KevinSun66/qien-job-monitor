@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T12:17:51Z",
+  "updatedAt": "2026-10-05T12:30:55Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4179,9 +4179,9 @@
       "title": "2027 University Graduate — Machine Learning Engineer (R172085)",
       "employment": "全职 · 2027届应届生项目",
       "gradYear": "2027届应届生",
-      "match": "方向匹配度很高 · 完整资格待核验",
-      "ngCompatibility": "2027届全职已确认；最低学历/经验待核验",
-      "assessment": "官方 JD 已确认全职、2027届应届生项目，Austin 为7个可选地点之一，申请截止2026-12-31。职责包括使用 AI/ML 解决客户生命周期中的大数据问题，涉及预测建模、实验设计、归因、营销媒体组合建模、预算优化、个性化、因果分析和时间序列。与 Qien 的 Data Science/Statistics、Python/PyTorch 和应用机器学习背景高度契合，品牌与平台相对 Ryan 有明显潜在提升。最低学历、经验及 OPT/STEM OPT 仍待核验；按用户决定先展示在表2，同时继续核验。",
+      "match": "方向匹配度高 · 硕士／博士或同等经验门槛待核验",
+      "ngCompatibility": "经验要求0–2+年；毕业窗口2026年12月–2027年6月符合时间范围；要求MS/PhD或同等经验，本科是否可按同等经验接受待确认",
+      "assessment": "实时官方 Workday 仍有申请入口，完整7个地点含 Austin。职责包括预测建模、因果分析、客户分析与优化，应用机器学习方向与 Qien 背景相关。完整 JD 要求 MS/PhD 或同等经验、0–2+年相关技能经验，毕业时间2026年12月–2027年6月。Qien 的2027年5月毕业时间在窗口内，但不能把本科及实习自动视为研究生同等经验，学历资格需公司确认。按用户决定保留表2并继续核验 OPT/STEM OPT。Adobe Careers 同一职位ID显示已招满，与实时 Workday 冲突；以实时 ATS 的申请入口为当前可行动依据，并保留冲突记录。",
       "visa": "待核验：官方已读取内容尚未明确本岗位的 F-1 OPT/STEM OPT、签证赞助、E-Verify 或永久工作授权要求。",
       "found": "2026-10-05",
       "discoveredDate": "2026-10-05",
@@ -4193,23 +4193,35 @@
       "finalPriority": "表2 · 用户指定纳入 · 持续核验",
       "roleTrack": "机器学习工程 / 应用 AI / 客户分析 / 因果推断 / 优化",
       "jobId": "R172085",
-      "officialStatus": "官方职位页面可访问；全职，Austin 在7个地点中；申请截止2026-12-31。",
-      "compensation": "Austin 官方薪资尚未核实；不套用其他地区的薪资区间。",
+      "officialStatus": "2026-10-05实时 Workday 有申请入口，Austin 在完整7个地点中，截止2026-12-31；Adobe Careers 同ID显示已招满，存在渠道状态冲突。",
+      "compensation": "官方美国底薪总区间 $102,400–$202,250；非销售岗另有年度激励计划，部分岗位可能有股权。Austin 独立区间未公布，不套用加州等地区区间。",
       "verificationFlags": [
         "ng-verification",
-        "visa-verification"
+        "visa-verification",
+        "status-verification"
       ],
       "companyProfile": "Adobe 是顶级软件与创意云平台，拥有大规模机器学习、生成式 AI 和个性化应用场景。",
-      "whyRyan": "若资格及 Austin 名额确认，Adobe 的品牌、平台和生产级机器学习工作相对 Ryan 有明显提升。",
+      "whyRyan": "应用机器学习方向、品牌与平台有潜在升级价值；须先确认本科能否满足同等经验路径及 OPT 资格，不能仅凭品牌认定已通过资格。",
       "lastChecked": "2026-10-05",
-      "lastCheckedAt": "2026-10-05T11:15:51Z",
-      "officialPostedDate": "2026-10-02 (official page: posted 3 days ago at check)",
+      "lastCheckedAt": "2026-10-05T12:30:55Z",
+      "officialPostedDate": "未取得绝对发布日期；2026-10-05实时页面显示Posted 11 Days Ago；此前搜索缓存的3天前不再作为发布日期依据。",
       "deadline": "2026-12-31",
       "previousStatus": "ng-verification",
       "userPromotedToTable2At": "2026-10-05T11:47:41Z",
       "userPromotionReason": "用户明确要求先放入表2，同时继续核验；展示不代表资格/签证已确认。",
       "strategyPriority": "表2 · 用户指定纳入 · 持续核验",
-      "officePerks": "Austin 办公方式、到岗频率、福利及搬迁支持待核验。"
+      "officePerks": "Austin 办公方式、到岗频率、福利及搬迁支持待核验。",
+      "officialLocations": [
+        "San Jose",
+        "Waltham",
+        "San Francisco",
+        "Austin",
+        "Seattle",
+        "Lehi",
+        "New York"
+      ],
+      "minimumQualifications": "MS/PhD相关专业或同等经验；0–2+年相关技能经验；统计/机器学习/深度学习/数据挖掘、编程、建模工具与SQL；毕业窗口2026年12月–2027年6月。",
+      "qualificationVerifiedAt": "2026-10-05T12:30:55Z"
     },
     {
       "company": "NVIDIA",
@@ -4219,9 +4231,9 @@
       "title": "Software Engineer — DGX Cloud AI Infrastructure — New College Grad 2026 (JR2026477)",
       "employment": "全职 · 初级职位 · New College Grad 2026",
       "gradYear": "岗位标注2026届；能否接受2027年5月毕业后入职待核验",
-      "match": "技术匹配度很高 · 毕业批次与入职时间待核验",
-      "ngCompatibility": "New College Grad 2026；2027年5月毕业后入职兼容性待核验",
-      "assessment": "官方 JD 已确认 Austin、全职和初级职位。工作聚焦大规模分布式 LLM 训练与推理的启动验证、基准测试、调试、性能分析及优化，涉及多 GPU/多节点、测试工具、自动化和故障定位。技术、品牌及薪资平台相对 Ryan 有明显提升。但岗位标注 New College Grad 2026，仍需确认是否接受 Qien 在2027年5月毕业后入职，以及本岗位的 OPT/STEM OPT 支持。按用户决定先展示在表2，同时继续核验完整资格、入职时间及工作授权。",
+      "match": "AI系统方向相关 · 多GPU／分布式系统及C/C++技能适配待核验",
+      "ngCompatibility": "接受本科或硕士相关专业／同等经验，未列最低工作年数；标注2026届，能否2027年5月后入职仍待确认",
+      "assessment": "实时官方 Workday 有申请入口，完整5个地点包含 Austin。职责聚焦多GPU/多节点 LLM 训练和推理、性能调优、集群故障定位与自动化。完整必备要求包括 AI/HPC/系统软件开发、CUDA感知的分布式执行、多GPU/多节点实践、分布式系统调试与扩展、容器化集群调度，以及强 Python 和 C/C++ 编程。PyTorch/Python 重合不足以证明符合全部要求；现有背景信息尚不能确认 Qien 的系统实践，原“技术匹配度很高”改为技能适配待核验。接受本科/硕士且未列最低年数，但2026届标签、2027年入职和 OPT/STEM OPT 仍待确认。按用户决定保留表2。",
       "visa": "待核验：尚未取得本岗位明确的 OPT/STEM OPT、签证赞助及 E-Verify/I-983 支持口径。",
       "found": "2026-10-05",
       "discoveredDate": "2026-10-05",
@@ -4233,22 +4245,32 @@
       "finalPriority": "表2 · 用户指定纳入 · 持续核验",
       "roleTrack": "AI 基础设施 / DGX Cloud / 机器学习平台工程",
       "jobId": "JR2026477",
-      "officialStatus": "官方页面可访问并有申请入口；Austin 可选、全职；页面写明至少接受申请至2026-10-03，该日期不代表确定关闭日。",
+      "officialStatus": "2026-10-05实时 Workday 有申请入口，Austin 可选、全职；至少接受申请至2026-10-03不等于关闭日。",
       "compensation": "官方底薪：Level 1 为 $108,000–$178,250；Level 2 为 $124,000–$195,500；另有股权和福利，具体金额按地点、经验及职级确定。",
       "verificationFlags": [
+        "ng-verification",
         "start-date-verification",
         "visa-verification"
       ],
       "companyProfile": "NVIDIA 是领先的加速计算与 AI 基础设施平台；DGX Cloud 支持前沿模型及生产级 AI 工作负载。",
-      "whyRyan": "若2027年入职时间及 OPT 资格确认，该岗位在技术、品牌和薪资平台上均明显高于 Ryan。",
+      "whyRyan": "品牌、薪资和AI基础设施技术成长有潜在提升；实际技能门槛高于仅Python/PyTorch建模，需要相关系统项目证据及2027年入职、OPT确认。",
       "lastChecked": "2026-10-05",
-      "lastCheckedAt": "2026-10-05T11:15:51Z",
-      "officialPostedDate": "2026-10-02 (official page: posted 3 days ago at check)",
+      "lastCheckedAt": "2026-10-05T12:30:55Z",
+      "officialPostedDate": "未取得绝对发布日期；2026-10-05实时页面显示Posted 6 Days Ago；此前搜索缓存的3天前不再作为发布日期依据。",
       "previousStatus": "start-date-verification",
       "userPromotedToTable2At": "2026-10-05T11:47:41Z",
       "userPromotionReason": "用户明确要求先放入表2，同时继续核验；展示不代表资格/签证已确认。",
       "strategyPriority": "表2 · 用户指定纳入 · 持续核验",
-      "officePerks": "Austin 办公方式、到岗频率、福利细项及搬迁支持待核验。"
+      "officePerks": "Austin 办公方式、到岗频率、福利细项及搬迁支持待核验。",
+      "minimumQualifications": "本科／硕士相关专业或同等经验；未列最低工作年数；AI/HPC/系统软件、多GPU／多节点与CUDA分布式执行、分布式系统调试、容器化集群调度、强Python及C/C++。",
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, TX, Austin",
+        "US, OR, Remote",
+        "US, WA, Remote",
+        "US, WA, Redmond"
+      ],
+      "qualificationVerifiedAt": "2026-10-05T12:30:55Z"
     },
     {
       "company": "Kyndryl",
@@ -4286,7 +4308,7 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-05T11:15:51Z",
+    "lastCheckedAt": "2026-10-05T12:30:55Z",
     "scope": "Official entry-point, 7-day targeted search and repository backfill; partial ATS coverage, not a complete inventory",
     "currentChecks": [
       {
@@ -4404,6 +4426,20 @@
         "from": "start-date-verification",
         "to": "current",
         "change": "User explicitly requested Table 2 inclusion while verification continues. Existing verification flags retained; no new qualification or visa conclusion."
+      },
+      {
+        "checkedAt": "2026-10-05T12:30:55Z",
+        "jobId": "R172085",
+        "from": "current",
+        "to": "current",
+        "change": "完整官方JD补齐MS/PhD或同等经验门槛、0–2+年和2026年12月–2027年6月毕业窗口。实时Workday有Apply及全部7地点含Austin；Careers显示已招满，保留渠道冲突，不因缓存或单一渠道误判关闭。全国薪资补齐，Austin区间未知。"
+      },
+      {
+        "checkedAt": "2026-10-05T12:30:55Z",
+        "jobId": "JR2026477",
+        "from": "current",
+        "to": "current",
+        "change": "实时Workday确认Apply及全部5地点含Austin。补齐本科/硕士、无最低年数及多GPU、CUDA分布式、容器集群和强Python+C/C++要求；下调此前过高匹配判断。2027入职和OPT未知，继续表2核验。"
       }
     ],
     "sourcesChecked": [
@@ -4519,6 +4555,20 @@
         "coverageLimitations": [
           "Adobe minimum qualifications and requisition-specific visa language were not exposed in retrieved index text.",
           "NVIDIA 2027 graduation compatibility and requisition-specific visa language remain unconfirmed."
+        ]
+      },
+      {
+        "checkedAt": "2026-10-05T12:30:55Z",
+        "scope": "本轮重点补齐Adobe/NVIDIA官方资格并核验实时ATS；重点来源搜索补查，TI跳过",
+        "sourcesChecked": [
+          "Adobe R172085实时Workday和Careers",
+          "NVIDIA JR2026477实时Workday",
+          "Vizient/Trinity/Liberty Mutual/D3V重点检索"
+        ],
+        "result": "①无确认新增；②无确认新增；③无确认新增；④两岗资格核验更新，均按用户决定保留表2；Adobe渠道状态冲突已记录。",
+        "coverageLimitations": [
+          "本轮未完成全部公司官方ATS完整分页遍历，不能据此断言全范围无新增。",
+          "两岗OPT/STEM OPT、E-Verify/I-983支持未在完整JD中明确；Adobe本科同等经验路径及NVIDIA2027入职仍待确认。"
         ]
       }
     ]
