@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T16:09:42Z",
+  "updatedAt": "2026-10-05T16:17:38Z",
   "jobs": [
     {
       "company": "IBM",
@@ -2065,7 +2065,7 @@
     {
       "company": "D3V Technology Solutions",
       "tier": "A",
-      "area": "Plano, TX",
+      "area": "岗位地点待核验（公司有Plano地址，不能代替该岗美国雇佣地点证明）",
       "market": "DFW",
       "title": "Associate AI/ML Engineer",
       "employment": "Full-time · Associate / Early Career",
@@ -2080,8 +2080,8 @@
       "finalPriority": "核验中 · 薪资/OPT/2027入职/Ryan升级均确认后再进表2",
       "roleTrack": "Applied AI / Machine Learning Engineering",
       "strategyPriority": "Discovery + verification; preserve even if later opportunity-cost rejected",
-      "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-04T02:15:35Z",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T16:17:38Z",
       "officialStatus": "Official careers lists Associate AI/ML Engineer and Apply Now; complete qualifications readable",
       "source": "D3V official careers complete role section; ClickUp Apply Now link",
       "seniorityGap": "Low on official0–2; degree-equivalence pending",
@@ -2091,7 +2091,16 @@
           "date": "2026-10-03",
           "change": "Official complete degree/experience/technical conditions verified; job-specific Texas location, full-time status, start, OPT and pay remain unknown"
         }
-      ]
+      ],
+      "verificationFlags": [
+        "location-verification",
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification",
+        "compensation-verification"
+      ],
+      "compensation": "官方未披露本岗位工资/奖金/股权；不得把Glassdoor估算当作雇主报价。",
+      "ryanUpgrade": "技术方向贴合，但未证实薪资、平台或技术成长明显优于Ryan Associate Data Scientist；继续核验，不进入表2。"
     },
     {
       "company": "Wipro",
@@ -3272,34 +3281,39 @@
       "firstSeen": "2026-10-03",
       "firstArchived": "2026-10-03",
       "firstNotifiedDate": "2026-10-03",
-      "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-04T02:15:35Z",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-05T16:17:38Z",
       "officialPostedDate": null,
       "deadline": "Not disclosed",
       "employment": "Full-time per discovery source; official conditions pending",
-      "status": "ng-verification",
-      "finalPriority": "核验中 · 不进入表2",
-      "ngCompatibility": "2027年5月后入职待确认；未将未知项视为通过",
+      "status": "seniority-rejected",
+      "finalPriority": "排除 · 最低5年ML经验，本科路径7年以上",
+      "ngCompatibility": "取得同一Austin职位编号的Apple官方JD索引：5+年ML经验；本科路径需7+年相关经验。超出Qien应届生范围。",
       "visa": "Initial F-1 OPT / STEM OPT / E-Verify 未确认；不因未来无sponsorship单独排除",
       "compensation": "官方薪资未核实；bonus/equity/TC未知",
       "ryanUpgrade": "待核验；目前不评分，不进入表2",
-      "seniorityGap": "完整官方JD待核验",
+      "seniorityGap": "硬性经验差距：5+年ML；本科学历路径7+年ML评估/质量/应用研究。",
       "technicalGrowth": "Potentially high ML/GenAI evaluation relevance",
       "brandPlatform": "S platform",
-      "match": "Discovery only; qualification not confirmed",
+      "match": "方向相关 · 经验不符",
       "discoveryTiming": "补发现；官方发布日期未确认，无法计算发布至发现间隔",
       "company": "Apple",
       "tier": "S",
-      "area": "Austin, TX per repo; official city and degree requirements pending",
+      "area": "Austin，TX（官方同编号索引及当前官方搜索列表确认）",
       "market": "Austin",
       "jobId": "200671401-0157",
       "title": "Machine Learning Engineer, ML/GenAI Evaluation",
       "url": "https://jobs.apple.com/en-us/details/200671401-0157/machine-learning-engineer-ml-genai-evaluation",
       "source": "zapplyjobs discovery; Apple official URL redirects to Austin-suffix requisition but renders JS shell only",
-      "officialStatus": "JS shell only; no opening/closure conclusion",
+      "officialStatus": "2026-10-05官方搜索列表仍含Austin同编号及Submit Resume；不代表符合应届资格。详情页动态正文不可读。",
       "roleTrack": "ML / GenAI Evaluation",
-      "assessment": "Apple高价值ML/GenAI评估线索；官方200671401-0157完整JD未读到。另一城市200671401-3543官方索引显示M.S.要求，但不能直接套用到Austin requisition，学位/经验/2027入职/OPT/地点均待核验。不同城市后缀单独记录。",
-      "relatedJobId": "200671401-3543"
+      "assessment": "工作内容为Wallet/Payments/Commerce的ML及GenAI评估、质量门槛和上线判断，方向相关，但同一200671401-0157官方JD索引要求5+年ML经验，本科路径7+年相关经验。Qien的RA、项目和暑期实习不足以满足该年限；按用户最低经验从1年起即排除规则归入经验排除历史。2026-10-05实时美区详情只呈现JS壳，完整资格文本来自较早官方索引，并有同编号Austin完整转载交叉支持；不声称实时JD已全量读取。",
+      "relatedJobId": "200671401-3543",
+      "rejectionReason": "seniority-rejected：官方同编号JD索引最低5+年ML经验，本科路径7+年；超出0年起入口。",
+      "qualificationEvidenceUrl": "https://jobs.apple.com/en-in/details/200671401-0157/machine-learning-engineer-ml-genai-evaluation?team=SFTWR",
+      "qualificationEvidenceType": "同一Austin requisition的官方搜索索引；约2个月前抓取文本，当前动态详情未读取到完整正文",
+      "qualificationCorroborationUrl": "https://www.localjobs.com/job/austin-tx-machine-learning-engineer-ml-genai-evaluation-0",
+      "qualificationVerifiedAt": "2026-10-05T16:17:38Z"
     },
     {
       "found": "2026-10-03",
@@ -4633,6 +4647,21 @@
         "from": "table2-current",
         "to": "table3-applied",
         "change": "用户确认已投递，上传官方Workday PDF首页证实2026-10-05申请。通过seedAppliedAt移入Austin表3并从待投表2排除；PDF及完整JD文字已备份，学历/OPT及渠道状态冲突记录保留。"
+      },
+      {
+        "checkedAt": "2026-10-05T16:17:38Z",
+        "jobId": "200671401-0157",
+        "from": "ng-verification",
+        "to": "seniority-rejected",
+        "change": "同一Austin编号Apple官方JD索引补齐5+年ML经验及本科7+年门槛；保留官方索引时效及动态详情限制，转经验排除历史，不进表2。"
+      },
+      {
+        "checkedAt": "2026-10-05T16:17:38Z",
+        "company": "D3V Technology Solutions",
+        "title": "Associate AI/ML Engineer",
+        "from": "ng-verification",
+        "to": "ng-verification",
+        "change": "官方Careers再次确认0–2年和完整技术要求；补充岗位地点、薪资及Ryan机会成本未核实，保持待核验。"
       }
     ],
     "sourcesChecked": [
