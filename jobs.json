@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T04:22:00Z",
+  "updatedAt": "2026-10-06T07:16:00Z",
   "jobs": [
     {
       "company": "IBM",
@@ -5509,11 +5509,47 @@
       "lastCheckedAt": "2026-10-06T04:22:00Z",
       "officialStatus": "Apple Austin官方搜索列表显示Submit Resume",
       "rejectionReason": "官方最低BS+10年相关经验；同时为SoC硬件设计方向，不属于Qien目标Applied AI/ML/DS。"
+    },
+    {
+      "company": "RTX",
+      "tier": "A+",
+      "area": "Richardson, TX",
+      "market": "DFW",
+      "title": "Software Engineer I — Onsite (01875418)",
+      "employment": "全职 · Onsite · Software Engineer I",
+      "gradYear": "发现源归入New Grad；同步记录显示可能为2027 Conversion，官方正文待核验",
+      "match": "方向偏SDE/国防任务软件 · 待核验",
+      "ngCompatibility": "ng-verification · 官方动态正文未完整取得",
+      "assessment": "新增发现于RTX官方Workday入口，地点为Richardson。职位标题为Software Engineer I；同步的同岗信息指向Collins Aerospace/Strategic Solutions、Java与任务关键型国防软件，并可能属于2027 Conversion岗位。其技术方向偏通用/国防SDE，并非Qien重点Applied AI/ML/DS；但因当前官方正文未完整渲染，尚不能确认是否只面向既有实习生、最低经验、完整职责及实时资格，因此先保留核验记录，不进入表2。",
+      "visa": "visa-verification：同标题/同地点同步JD含安全许可与美国公民要求线索，但当前01875418官方正文不可读，按规则不把第三方文本当作本requisition最终官方确认。",
+      "found": "2026-10-06",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/fr-CA/Private_Posting_No_TMP/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineer-I--Onsite-_01875418",
+      "status": "visa-verification",
+      "finalPriority": "待核验 · 暂不进表2",
+      "roleTrack": "Mission-critical Software Engineering / Java / Defense Systems",
+      "technicalGrowth": "待核验；当前方向偏SDE而非Applied AI/ML",
+      "brandPlatform": "88/100",
+      "ryanUpgrade": "暂不构成明确升级：公开薪资线索$57,200–$108,800与Ryan重叠，且方向偏国防SDE；须先核验官方资格与授权。",
+      "compensation": "同步职位信息显示$57,200–$108,800；当前01875418官方正文未完整取得，薪资需官方核验。",
+      "officePerks": "Richardson · Onsite",
+      "jobId": "01875418",
+      "lastChecked": "2026-10-06",
+      "lastCheckedAt": "2026-10-06T07:16:00Z",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "status-verification",
+        "conversion-eligibility-verification",
+        "official-jd-verification"
+      ],
+      "officialStatus": "官方Workday链接由最新New Grad发现源提供；动态正文未完整渲染。",
+      "discoverySource": "SimplifyJobs/New-Grad-Positions README commit 0a80ec98045889e7f01bd7ead2e608906a3bca95",
+      "rejectionReason": "尚未最终排除；若官方确认美国公民/安全许可硬要求、仅限conversion候选人，或职责继续为非AI国防SDE，则移入对应排除记录。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-06T04:22:00Z",
-    "scope": "Apple Austin官方当天增量与Texas New-Grad发现源复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-06T07:16:00Z",
+    "scope": "Texas New-Grad GitHub增量与RTX Richardson官方Workday入口复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -5829,6 +5865,13 @@
         "jobId": "200687311-0157",
         "status": "seniority-direction-rejected",
         "reason": "官方最低BS+10年相关经验；同时为SoC硬件设计方向，不属于Qien目标Applied AI/ML/DS。"
+      },
+      {
+        "checkedAt": "2026-10-06T07:16:00Z",
+        "company": "RTX",
+        "jobId": "01875418",
+        "status": "visa-verification",
+        "reason": "Richardson Software Engineer I新增发现；官方动态正文不可读，conversion资格、最低经验、美国公民/安全许可、薪资、2027入职及实际AI/ML相关度待核验。暂不进表2。"
       }
     ],
     "verificationChanges": [
@@ -5961,7 +6004,10 @@
       "Apple Austin官方搜索列表（2026-10-05）",
       "Apple 200687311-0157官方详情/最低资格",
       "Apple 200687294-0157官方详情入口",
-      "SimplifyJobs/New-Grad-Positions listings 449763e3（2026-10-06T04:01:08Z）"
+      "SimplifyJobs/New-Grad-Positions listings 449763e3（2026-10-06T04:01:08Z）",
+      "SimplifyJobs/New-Grad-Positions README commit 0a80ec98045889e7f01bd7ead2e608906a3bca95",
+      "RTX官方Workday 01875418",
+      "01875418同标题/同地点同步职位资料（仅作核验线索）"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -5982,7 +6028,8 @@
       "Liberty Mutual ADP完整官方授权未取得，第三方OPT限制不能当作本岗官方确认。",
       "RTX 01879328官方Workday动态正文不可读；经验、薪资、2027入职和授权未臆测，方向排除仅依据官方职位标题与发现源Hardware分类。",
       "Apple 200687294-0157动态详情未完整渲染；按官方Hardware/SoC分类作方向排除，未推断经验、薪资、签证或入职时间。",
-      "本轮为增量与重点复核，未完成全部监控公司ATS全量分页。"
+      "本轮为增量与重点复核，未完成全部监控公司ATS全量分页。",
+      "RTX 01875418官方Workday动态正文未完整取得；未把同步站的美国公民/安全许可或conversion表述当作本requisition最终官方确认。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -6277,6 +6324,20 @@
         "coverageLimitations": [
           "200687294-0157动态正文未完整渲染，未推断经验、薪资、签证或入职时间。",
           "本轮为增量扫描，未完成全部公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-06T07:16:00Z",
+        "scope": "Texas New-Grad GitHub增量与RTX Richardson官方Workday入口复核；TI/D3V跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions README 5216496→0a80ec9",
+          "RTX官方Workday 01875418",
+          "同标题/同地点同步JD线索"
+        ],
+        "result": "①无新增表2；②新增RTX Richardson Software Engineer I（01875418）待核验；③无新增最终排除；④已知职位无状态变化。",
+        "coverageLimitations": [
+          "官方动态正文不可读，conversion资格、最低经验、美国公民/安全许可、薪资和2027入职仍待核验。",
+          "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
         ]
       }
     ]
