@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T07:16:00Z",
+  "updatedAt": "2026-10-06T15:25:08Z",
   "jobs": [
     {
       "company": "IBM",
@@ -237,7 +237,7 @@
       "gradYear": "2027 届 · 本科或研究生最后一年",
       "match": "高 · 88/100",
       "ngCompatibility": "很高 · 明确面向 2027 届应届生",
-      "assessment": "Goldman Sachs 官方 2027 Dallas 工程应届生项目，明确面向本科或研究生最后一年学生。工作方向涵盖大规模软件系统、大数据、Machine Learning 与金融工程。具体团队尚未分配，需要进一步确认是否能进入 AI/ML 相关团队；品牌、工程平台和应届生适配度较高。",
+      "assessment": "Goldman Sachs 官方 2027 Dallas 工程应届生项目，明确面向本科或研究生最后一年学生。工作方向涵盖大规模软件系统、大数据、Machine Learning 与金融工程。具体团队尚未分配，需要进一步确认是否能进入 AI/ML 相关团队；品牌、工程平台和应届生适配度较高。2026-10-06出现状态信号冲突：官方详情页仍显示Apply，第三方发现源标记inactive；在官方未明确显示关闭前不移出current，继续核验。",
       "visa": "F-1 OPT / 工作授权需在申请流程中逐项确认",
       "found": "2026-09-10",
       "url": "https://higher.gs.com/roles/171568",
@@ -253,9 +253,12 @@
       "archiveLabel": "JD 快照",
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
-      "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-04T04:21:57Z",
-      "officialStatus": "Goldman Sachs official role page and Apply link active on 2026-10-03"
+      "lastChecked": "2026-10-06",
+      "lastCheckedAt": "2026-10-06T15:25:08Z",
+      "officialStatus": "2026-10-06核验：Goldman官方详情页仍展示Apply；点击后进入Oracle申请URL，但页面为空白，未出现“职位关闭/不可用”的官方提示。第三方New-Grad发现源在2026-10-06将该职位标为inactive，关闭尚未获官方确认，因此继续保留current并标记status-verification。",
+      "verificationFlags": [
+        "status-verification"
+      ]
     },
     {
       "company": "Kyndryl",
@@ -5545,11 +5548,49 @@
       "officialStatus": "官方Workday链接由最新New Grad发现源提供；动态正文未完整渲染。",
       "discoverySource": "SimplifyJobs/New-Grad-Positions README commit 0a80ec98045889e7f01bd7ead2e608906a3bca95",
       "rejectionReason": "尚未最终排除；若官方确认美国公民/安全许可硬要求、仅限conversion候选人，或职责继续为非AI国防SDE，则移入对应排除记录。"
+    },
+    {
+      "company": "Baker Tilly",
+      "tier": "发现/排除审计",
+      "area": "Frisco, TX",
+      "market": "DFW",
+      "title": "Associate Data Engineer (JR106581)",
+      "employment": "全职 · Associate Data Engineer（发现源）",
+      "gradYear": "早期职业标题；2027年5月后入职兼容性未核验",
+      "match": "发现时已关闭 · 无法行动",
+      "ngCompatibility": "ng-verification：最低学历/经验与2027入职未完成官方核验",
+      "assessment": "2026-10-06通过Texas New-Grad增量发现源补抓到Baker Tilly Frisco Associate Data Engineer。该源在本轮由active变为inactive；官方Workday动态页无法取得可读正文，因此未臆测最低经验、职责、签证或薪资。因发现时已无可行动申请入口，不进入表2，但保留发现/排除审计以避免重复漏抓。",
+      "visa": "visa-verification：官方正文不可读，F-1 OPT/STEM OPT/E-Verify及永久授权措辞未核验。",
+      "found": "2026-10-06",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-06T15:25:08Z",
+      "firstSeen": "2026-10-06",
+      "url": "https://bakertilly.wd5.myworkdayjobs.com/BTCareers/job/USA-TX-Frisco/Associate-Data-Engineer_JR106581",
+      "status": "closed-at-discovery",
+      "finalPriority": "已关闭 · 发现/排除审计保留",
+      "roleTrack": "Data Engineering",
+      "technicalGrowth": "未完成核验",
+      "brandPlatform": "未评估",
+      "ryanUpgrade": "未评估；发现时已关闭",
+      "compensation": "官方未取得/未核验",
+      "officePerks": "Frisco, TX",
+      "jobId": "JR106581",
+      "lastChecked": "2026-10-06",
+      "lastCheckedAt": "2026-10-06T15:25:08Z",
+      "officialStatus": "增量发现源于2026-10-06将active由true改为false；官方Workday动态正文不可读，独立官方关闭文案未取得。",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification",
+        "status-verification"
+      ],
+      "discoverySource": "SimplifyJobs/New-Grad-Positions listings commit 6ecc11eb53525f7a75035da87ed0dff046b38dad",
+      "rejectionReason": "发现时已关闭/不可行动；保留审计，不进入表2。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-06T07:16:00Z",
-    "scope": "Texas New-Grad GitHub增量与RTX Richardson官方Workday入口复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-06T15:25:08Z",
+    "scope": "Texas New-Grad增量、Goldman官方详情/申请入口与Baker Tilly官方Workday入口复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -5575,6 +5616,16 @@
         "checkedAt": "2026-10-05T21:25:49Z",
         "jobId": "2600865",
         "result": "Trinity官方仍明确关闭，未重新开放。"
+      },
+      {
+        "checkedAt": "2026-10-06T15:25:08Z",
+        "jobId": "171568",
+        "result": "第三方发现源标记inactive，但Goldman官方详情仍展示Apply；Oracle申请页为空白且无官方关闭提示。关闭未确认，保留current并加入status-verification。"
+      },
+      {
+        "checkedAt": "2026-10-06T15:25:08Z",
+        "jobId": "JR106581",
+        "result": "补抓到Frisco Associate Data Engineer；增量源本轮由active变为inactive，官方动态正文不可读。按closed-at-discovery保留审计，不进表2。"
       }
     ],
     "newDiscoveries": [
@@ -5872,6 +5923,13 @@
         "jobId": "01875418",
         "status": "visa-verification",
         "reason": "Richardson Software Engineer I新增发现；官方动态正文不可读，conversion资格、最低经验、美国公民/安全许可、薪资、2027入职及实际AI/ML相关度待核验。暂不进表2。"
+      },
+      {
+        "checkedAt": "2026-10-06T15:25:08Z",
+        "company": "Baker Tilly",
+        "jobId": "JR106581",
+        "status": "closed-at-discovery",
+        "reason": "Frisco Associate Data Engineer在发现时已被增量源标为inactive；官方正文不可读，资格/签证/薪资未知。保留发现/排除记录，不进入表2。"
       }
     ],
     "verificationChanges": [
@@ -5987,6 +6045,13 @@
         "from": "ng-verification",
         "to": "seniority-rejected",
         "change": "官方同编号JD明确最低1年以上生产编译器/相关软件经验，按用户最低1年起规则排除。 纠正已有门槛判断，非新JD变化。"
+      },
+      {
+        "checkedAt": "2026-10-06T15:25:08Z",
+        "jobId": "171568",
+        "from": "official-active",
+        "to": "status-conflict-verification",
+        "change": "第三方New-Grad发现源改为inactive，但Goldman官方详情仍显示Apply且无关闭文案；不自动判定关闭，继续核验。"
       }
     ],
     "sourcesChecked": [
@@ -6007,7 +6072,11 @@
       "SimplifyJobs/New-Grad-Positions listings 449763e3（2026-10-06T04:01:08Z）",
       "SimplifyJobs/New-Grad-Positions README commit 0a80ec98045889e7f01bd7ead2e608906a3bca95",
       "RTX官方Workday 01875418",
-      "01875418同标题/同地点同步职位资料（仅作核验线索）"
+      "01875418同标题/同地点同步职位资料（仅作核验线索）",
+      "SimplifyJobs/New-Grad-Positions listings commit 7187b3d713632254fea94defab7988e54dcce396",
+      "SimplifyJobs/New-Grad-Positions listings commit 6ecc11eb53525f7a75035da87ed0dff046b38dad",
+      "Goldman Sachs官方Higher页面171568及Oracle申请入口",
+      "Baker Tilly官方Workday JR106581入口"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -6337,6 +6406,21 @@
         "result": "①无新增表2；②新增RTX Richardson Software Engineer I（01875418）待核验；③无新增最终排除；④已知职位无状态变化。",
         "coverageLimitations": [
           "官方动态正文不可读，conversion资格、最低经验、美国公民/安全许可、薪资和2027入职仍待核验。",
+          "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-06T15:25:08Z",
+        "scope": "Texas New-Grad增量、Goldman官方详情/申请入口与Baker Tilly官方Workday入口复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 7187b3d7与6ecc11eb",
+          "Goldman Sachs官方Higher页面171568及Oracle申请入口",
+          "Baker Tilly官方Workday JR106581入口"
+        ],
+        "result": "①无新增表2；②无新增可行动待核验岗；③补抓Baker Tilly Frisco Associate Data Engineer（JR106581），发现时已关闭，保留审计；④Goldman 171568出现第三方inactive与官方仍显示Apply的冲突，关闭未确认，保留current并加入status-verification。",
+        "coverageLimitations": [
+          "Goldman Oracle申请页在核验环境中为空白且无关闭文案，不能仅凭第三方inactive认定官方关闭。",
+          "Baker Tilly官方Workday动态正文不可读，最低经验、2027入职、OPT和薪资未核验。",
           "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
         ]
       }
