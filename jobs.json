@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T19:13:59Z",
+  "updatedAt": "2026-10-06T20:16:35Z",
   "jobs": [
     {
       "company": "IBM",
@@ -5663,11 +5663,47 @@
       ],
       "discoverySource": "SimplifyJobs/New-Grad-Positions listings commits 57e2904f26c430a7214b4e57c3fbc688cb340fc0 / 0d948bffb87c0ece7df9dcc6e574623890060d59；JPMorgan官方搜索索引",
       "rejectionReason": "方向不符/相对Ryan升级不足：通用SDE，未确认Applied AI/ML建模或数据科学职责；开放状态冲突另行核验。"
+    },
+    {
+      "company": "Vestwell",
+      "tier": "发现/排除审计",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Associate, Software Engineer (7983915003)",
+      "employment": "全职 · Hybrid · Entry-level Software Engineering",
+      "gradYear": "0–2年经验兼容；2027年5月后入职未核验",
+      "match": "发现时已关闭 · 且方向偏前端通用SDE",
+      "ngCompatibility": "经验门槛通过：classwork/bootcamp/internship/personal projects/0–2年均可",
+      "assessment": "2026-10-06增量补抓到Vestwell Austin Associate Software Engineer。官方公司职位页保留完整JD与Apply按钮，但Apply已跳转Greenhouse error页面，且Greenhouse现有职位清单不再包含该岗位，判定发现时已关闭。JD主要为React/TypeScript前端、单元测试和产品门户开发，不是Applied AI/ML/DS；即使开放，相对Ryan的目标技术路线升级也不足。保留发现/排除审计，避免重复发现。",
+      "visa": "visa-verification：官方JD未提供OPT、STEM OPT、E-Verify或永久授权措辞。",
+      "found": "2026-10-06",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-06T20:16:35Z",
+      "firstSeen": "2026-10-06",
+      "url": "https://www.vestwell.com/careers/7983915003",
+      "status": "closed-at-discovery",
+      "finalPriority": "已关闭 · 发现/排除审计保留",
+      "roleTrack": "Software Engineering / Frontend",
+      "technicalGrowth": "React、TypeScript、Jest、React Testing Library；通用前端产品工程",
+      "brandPlatform": "成长型FinTech，但平台与岗位方向均不足以替代Ryan",
+      "ryanUpgrade": "不足：底薪可能略高，但品牌/平台无明显升级，且偏前端SDE而非Applied AI/ML/DS",
+      "compensation": "$95K–$110K base；Bonus Pool + new-hire equity（官方JD）",
+      "officePerks": "Austin hybrid",
+      "jobId": "7983915003",
+      "lastChecked": "2026-10-06",
+      "lastCheckedAt": "2026-10-06T20:16:35Z",
+      "officialStatus": "Vestwell静态职位页仍显示JD，但Apply跳转Greenhouse error=true；Greenhouse现有24个职位中无该岗位。结合增量源active由true改为false，判定关闭。",
+      "verificationFlags": [
+        "visa-verification",
+        "start-date-verification"
+      ],
+      "discoverySource": "SimplifyJobs/New-Grad-Positions listings commit 1378f740418b9b80664a703030400b2198ad48b4；Vestwell官方职位页及Greenhouse职位板",
+      "rejectionReason": "发现时已关闭；且职责偏React/TypeScript前端通用SDE，相对Ryan的Applied AI/ML/DS技术路线升级不足。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-06T19:13:59Z",
-    "scope": "18:01 UTC后New-Grad增量与Texas地点变化复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-06T20:16:35Z",
+    "scope": "19:02 UTC后New-Grad增量与Texas地点变化复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -5713,6 +5749,11 @@
         "checkedAt": "2026-10-06T19:13:59Z",
         "jobId": "210794232",
         "result": "Plano Software Engineer I被增量源改为inactive，但JPMorgan官方索引仍可检索，标记status-verification；通用SDE方向相对Ryan升级不足，不进入表2。"
+      },
+      {
+        "checkedAt": "2026-10-06T20:16:35Z",
+        "jobId": "7983915003",
+        "result": "Vestwell Austin Associate Software Engineer官方静态JD仍在，但Greenhouse申请链接报错且现有职位清单无此岗；按closed-at-discovery归档。"
       }
     ],
     "newDiscoveries": [
@@ -6031,6 +6072,13 @@
         "jobId": "210794232",
         "status": "direction-excluded-status-verification",
         "reason": "Plano entry-level Software Engineer I；职责偏通用SDE/SDLC自动化，未见Applied AI/ML建模价值，相对Ryan升级不足。增量源inactive与官方索引可检索冲突，未武断判定关闭。"
+      },
+      {
+        "checkedAt": "2026-10-06T20:16:35Z",
+        "company": "Vestwell",
+        "jobId": "7983915003",
+        "status": "closed-at-discovery",
+        "reason": "Austin 0–2年Associate Software Engineer，$95K–$110K+bonus/equity；发现时Greenhouse已移除。职责偏React/TypeScript前端SDE，相对Ryan技术路线升级不足。"
       }
     ],
     "verificationChanges": [
@@ -6184,7 +6232,10 @@
       "SimplifyJobs/New-Grad-Positions README commit ed783ebfaa57a06afa6c689560e41bc83e4e9637",
       "SimplifyJobs/New-Grad-Positions listings commit 57e2904f26c430a7214b4e57c3fbc688cb340fc0",
       "SimplifyJobs/New-Grad-Positions listings commit 0d948bffb87c0ece7df9dcc6e574623890060d59",
-      "JPMorgan Chase官方职位索引 210794232"
+      "JPMorgan Chase官方职位索引 210794232",
+      "SimplifyJobs/New-Grad-Positions listings commit a40fb1dde78157f15545cb69351f44ae06f5971e",
+      "SimplifyJobs/New-Grad-Positions listings commit 1378f740418b9b80664a703030400b2198ad48b4",
+      "Vestwell官方职位页/Greenhouse 7983915003"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -6208,6 +6259,8 @@
       "本轮为增量与重点复核，未完成全部监控公司ATS全量分页。",
       "RTX 01875418官方Workday动态正文未完整取得；未把同步站的美国公民/安全许可或conversion表述当作本requisition最终官方确认。",
       "210794232官方动态申请页无法直接渲染；初始OPT、2027年5月后入职、薪资和完整资格继续核验。",
+      "本轮为增量扫描，未完成全部监控公司ATS全量分页。",
+      "Vestwell 7983915003官方JD未披露OPT/E-Verify或2027入职时间；职位已关闭，不作臆测。",
       "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
@@ -6559,6 +6612,19 @@
         "result": "①无新增表2；②无新增待核验可行动岗；③新增排除JPMorgan Chase Plano Software Engineer I（210794232）：通用SDE方向，相对Ryan升级不足；同时保留status-verification，未因第三方inactive武断判定关闭；④已知职位无新状态变化。",
         "coverageLimitations": [
           "官方动态申请页无法直接渲染，OPT、2027入职、薪资及完整资格未核验。",
+          "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-06T20:16:35Z",
+        "scope": "19:02 UTC后New-Grad增量及Texas地点变化复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs listings a40fb1dd与1378f740",
+          "Vestwell官方职位页与Greenhouse 7983915003"
+        ],
+        "result": "①无新增表2；②无新增待核验可行动岗；③补抓Vestwell Austin Associate Software Engineer（7983915003），官方申请入口已失效，按closed-at-discovery归档；职责偏前端SDE，相对Ryan升级不足；④已知职位无新状态变化。",
+        "coverageLimitations": [
+          "该岗位OPT/E-Verify与2027入职时间未披露。",
           "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
         ]
       }
