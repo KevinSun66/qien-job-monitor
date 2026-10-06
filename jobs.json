@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T16:23:04Z",
+  "updatedAt": "2026-10-06T19:13:59Z",
   "jobs": [
     {
       "company": "IBM",
@@ -5625,11 +5625,49 @@
       ],
       "discoverySource": "SimplifyJobs/New-Grad-Positions README commit a93d506de6041c14f7a0ba2181bdae33b712a82c / listings commit 6ad486404cce0ae6c39e27f43c7af102c4c72ab0",
       "rejectionReason": "发现时已关闭/不可行动；同时标题为通用SDE，未确认Applied AI/ML升级价值。"
+    },
+    {
+      "company": "JPMorgan Chase",
+      "tier": "发现/排除审计",
+      "area": "Plano, TX",
+      "market": "DFW",
+      "title": "Software Engineer I (210794232)",
+      "employment": "全职 · Entry-level Software Engineering",
+      "gradYear": "Entry-level；2027年5月后入职兼容性未核验",
+      "match": "方向排除 · 同时开放状态冲突",
+      "ngCompatibility": "基础资格看似面向entry-level；官方完整资格与毕业时间未核验",
+      "assessment": "2026-10-06通过New Grad增量源发现JPMorgan Chase Plano Software Engineer I。可检索的JPMorgan官方职位索引确认编号、Plano地点和entry-level定位，但职责主要是通用软件开发、SDLC自动化及AI辅助工程实践，并非Applied AI/ML模型或数据科学岗位。相对Ryan Associate Data Scientist没有明确目标技术路线升级，因此不进入表2。增量源随后将active改为false，但官方职位索引仍可检索，故不把职位定性为已关闭，保留status-verification。",
+      "visa": "visa-verification：本requisition未取得官方OPT/永久授权条款；不把JPMorgan另一2027 Data & AI项目的OPT限制自动套用于本职位。",
+      "found": "2026-10-06",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-06T19:13:59Z",
+      "firstSeen": "2026-10-06",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210794232",
+      "status": "direction-excluded-status-verification",
+      "finalPriority": "不进入表2 · 发现/排除审计保留",
+      "roleTrack": "Software Engineering / General SDE",
+      "technicalGrowth": "通用SDE、SDLC自动化和AI辅助开发；未见Applied AI/ML建模职责",
+      "brandPlatform": "JPMorgan平台强，但岗位方向与Qien目标不够贴合",
+      "ryanUpgrade": "不足：品牌有价值，但未形成相对Ryan的Applied AI/ML技术升级",
+      "compensation": "官方未披露/未核验",
+      "officePerks": "Plano, TX",
+      "jobId": "210794232",
+      "lastChecked": "2026-10-06",
+      "lastCheckedAt": "2026-10-06T19:13:59Z",
+      "officialStatus": "JPMorgan官方职位索引在本轮仍可检索；SimplifyJobs listings commit 0d948bff将active由true改为false，存在状态冲突，继续status-verification。",
+      "verificationFlags": [
+        "visa-verification",
+        "start-date-verification",
+        "status-verification",
+        "official-jd-verification"
+      ],
+      "discoverySource": "SimplifyJobs/New-Grad-Positions listings commits 57e2904f26c430a7214b4e57c3fbc688cb340fc0 / 0d948bffb87c0ece7df9dcc6e574623890060d59；JPMorgan官方搜索索引",
+      "rejectionReason": "方向不符/相对Ryan升级不足：通用SDE，未确认Applied AI/ML建模或数据科学职责；开放状态冲突另行核验。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-06T16:23:04Z",
-    "scope": "上轮提交后的New-Grad增量与Texas地点变动复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-06T19:13:59Z",
+    "scope": "18:01 UTC后New-Grad增量与Texas地点变化复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -5670,6 +5708,11 @@
         "checkedAt": "2026-10-06T16:23:04Z",
         "jobId": "210795475",
         "result": "Plano Software Engineer 1上线当天由active变为inactive；官方Oracle正文不可读。按closed-at-discovery保留审计，不进入表2。"
+      },
+      {
+        "checkedAt": "2026-10-06T19:13:59Z",
+        "jobId": "210794232",
+        "result": "Plano Software Engineer I被增量源改为inactive，但JPMorgan官方索引仍可检索，标记status-verification；通用SDE方向相对Ryan升级不足，不进入表2。"
       }
     ],
     "newDiscoveries": [
@@ -5981,6 +6024,13 @@
         "jobId": "210795475",
         "status": "closed-at-discovery",
         "reason": "Plano New Grad Software Engineer 1上线当天关闭；官方资格、2027入职、OPT和薪资未取得。通用SDE方向且不可行动，保留审计。"
+      },
+      {
+        "checkedAt": "2026-10-06T19:13:59Z",
+        "company": "JPMorgan Chase",
+        "jobId": "210794232",
+        "status": "direction-excluded-status-verification",
+        "reason": "Plano entry-level Software Engineer I；职责偏通用SDE/SDLC自动化，未见Applied AI/ML建模价值，相对Ryan升级不足。增量源inactive与官方索引可检索冲突，未武断判定关闭。"
       }
     ],
     "verificationChanges": [
@@ -6131,7 +6181,10 @@
       "SimplifyJobs/New-Grad-Positions listings commit 6ad486404cce0ae6c39e27f43c7af102c4c72ab0",
       "SimplifyJobs/New-Grad-Positions README commit a93d506de6041c14f7a0ba2181bdae33b712a82c",
       "SimplifyJobs/New-Grad-Positions listings commit 975645b2292c02645338d8bc11bac4b9e1aca7b5",
-      "SimplifyJobs/New-Grad-Positions README commit ed783ebfaa57a06afa6c689560e41bc83e4e9637"
+      "SimplifyJobs/New-Grad-Positions README commit ed783ebfaa57a06afa6c689560e41bc83e4e9637",
+      "SimplifyJobs/New-Grad-Positions listings commit 57e2904f26c430a7214b4e57c3fbc688cb340fc0",
+      "SimplifyJobs/New-Grad-Positions listings commit 0d948bffb87c0ece7df9dcc6e574623890060d59",
+      "JPMorgan Chase官方职位索引 210794232"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -6153,7 +6206,9 @@
       "RTX 01879328官方Workday动态正文不可读；经验、薪资、2027入职和授权未臆测，方向排除仅依据官方职位标题与发现源Hardware分类。",
       "Apple 200687294-0157动态详情未完整渲染；按官方Hardware/SoC分类作方向排除，未推断经验、薪资、签证或入职时间。",
       "本轮为增量与重点复核，未完成全部监控公司ATS全量分页。",
-      "RTX 01875418官方Workday动态正文未完整取得；未把同步站的美国公民/安全许可或conversion表述当作本requisition最终官方确认。"
+      "RTX 01875418官方Workday动态正文未完整取得；未把同步站的美国公民/安全许可或conversion表述当作本requisition最终官方确认。",
+      "210794232官方动态申请页无法直接渲染；初始OPT、2027年5月后入职、薪资和完整资格继续核验。",
+      "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -6492,6 +6547,19 @@
           "210795475官方Oracle正文不可读，最低经验、2027入职、OPT、薪资及完整职责未核验。",
           "不将另一JPMorgan Data & AI requisition的OPT限制自动套用于本职位。",
           "本轮为上轮后的增量扫描，未完成全部公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-06T19:13:59Z",
+        "scope": "18:01 UTC后New-Grad增量及Texas地点变化复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs listings 57e2904f与0d948bff",
+          "JPMorgan Chase官方职位索引210794232"
+        ],
+        "result": "①无新增表2；②无新增待核验可行动岗；③新增排除JPMorgan Chase Plano Software Engineer I（210794232）：通用SDE方向，相对Ryan升级不足；同时保留status-verification，未因第三方inactive武断判定关闭；④已知职位无新状态变化。",
+        "coverageLimitations": [
+          "官方动态申请页无法直接渲染，OPT、2027入职、薪资及完整资格未核验。",
+          "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
         ]
       }
     ]
