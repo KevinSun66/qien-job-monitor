@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T15:25:08Z",
+  "updatedAt": "2026-10-06T16:23:04Z",
   "jobs": [
     {
       "company": "IBM",
@@ -5586,11 +5586,50 @@
       ],
       "discoverySource": "SimplifyJobs/New-Grad-Positions listings commit 6ecc11eb53525f7a75035da87ed0dff046b38dad",
       "rejectionReason": "发现时已关闭/不可行动；保留审计，不进入表2。"
+    },
+    {
+      "company": "JPMorgan Chase",
+      "tier": "发现/排除审计",
+      "area": "Plano, TX",
+      "market": "DFW",
+      "title": "Software Engineer 1 (210795475)",
+      "employment": "全职 · New Grad Software Engineering（发现源）",
+      "gradYear": "New Grad；2027年5月后入职兼容性未核验",
+      "match": "发现时已关闭 · 且方向偏通用SDE",
+      "ngCompatibility": "ng-verification：官方完整资格未取得",
+      "assessment": "2026-10-06通过New Grad增量源发现JPMorgan Chase Plano Software Engineer 1；该职位上线不足一天即由active变为inactive。官方Oracle详情当前无法取得可读正文，因此最低经验、职责、2027入职和授权条款均不臆测。岗位标题偏通用SDE，且发现时已关闭，不能形成相对Ryan的可行动升级；不进入表2，但保留发现/排除审计。",
+      "visa": "visa-verification：该编号官方授权条款未取得；不把已记录的JPMorgan 2027 Data & AI Program限制自动套用于此不同requisition。",
+      "found": "2026-10-06",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-06T16:23:04Z",
+      "firstSeen": "2026-10-06",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210795475",
+      "status": "closed-at-discovery",
+      "finalPriority": "已关闭 · 发现/排除审计保留",
+      "roleTrack": "Software Engineering / General SDE",
+      "technicalGrowth": "官方JD未取得；标题偏通用SDE",
+      "brandPlatform": "JPMorgan平台强，但职位已关闭",
+      "ryanUpgrade": "未形成可行动升级：职位已关闭，且未确认Applied AI/ML职责",
+      "compensation": "官方未取得/未核验",
+      "officePerks": "Plano, TX",
+      "jobId": "210795475",
+      "lastChecked": "2026-10-06",
+      "lastCheckedAt": "2026-10-06T16:23:04Z",
+      "officialStatus": "New-Grad发现源于2026-10-06上线后同日将active由true改为false；官方Oracle页面无法由当前核验工具读取，未取得独立官方关闭文案。",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification",
+        "status-verification",
+        "official-jd-verification"
+      ],
+      "discoverySource": "SimplifyJobs/New-Grad-Positions README commit a93d506de6041c14f7a0ba2181bdae33b712a82c / listings commit 6ad486404cce0ae6c39e27f43c7af102c4c72ab0",
+      "rejectionReason": "发现时已关闭/不可行动；同时标题为通用SDE，未确认Applied AI/ML升级价值。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-06T15:25:08Z",
-    "scope": "Texas New-Grad增量、Goldman官方详情/申请入口与Baker Tilly官方Workday入口复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-06T16:23:04Z",
+    "scope": "上轮提交后的New-Grad增量与Texas地点变动复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -5626,6 +5665,11 @@
         "checkedAt": "2026-10-06T15:25:08Z",
         "jobId": "JR106581",
         "result": "补抓到Frisco Associate Data Engineer；增量源本轮由active变为inactive，官方动态正文不可读。按closed-at-discovery保留审计，不进表2。"
+      },
+      {
+        "checkedAt": "2026-10-06T16:23:04Z",
+        "jobId": "210795475",
+        "result": "Plano Software Engineer 1上线当天由active变为inactive；官方Oracle正文不可读。按closed-at-discovery保留审计，不进入表2。"
       }
     ],
     "newDiscoveries": [
@@ -5930,6 +5974,13 @@
         "jobId": "JR106581",
         "status": "closed-at-discovery",
         "reason": "Frisco Associate Data Engineer在发现时已被增量源标为inactive；官方正文不可读，资格/签证/薪资未知。保留发现/排除记录，不进入表2。"
+      },
+      {
+        "checkedAt": "2026-10-06T16:23:04Z",
+        "company": "JPMorgan Chase",
+        "jobId": "210795475",
+        "status": "closed-at-discovery",
+        "reason": "Plano New Grad Software Engineer 1上线当天关闭；官方资格、2027入职、OPT和薪资未取得。通用SDE方向且不可行动，保留审计。"
       }
     ],
     "verificationChanges": [
@@ -6076,7 +6127,11 @@
       "SimplifyJobs/New-Grad-Positions listings commit 7187b3d713632254fea94defab7988e54dcce396",
       "SimplifyJobs/New-Grad-Positions listings commit 6ecc11eb53525f7a75035da87ed0dff046b38dad",
       "Goldman Sachs官方Higher页面171568及Oracle申请入口",
-      "Baker Tilly官方Workday JR106581入口"
+      "Baker Tilly官方Workday JR106581入口",
+      "SimplifyJobs/New-Grad-Positions listings commit 6ad486404cce0ae6c39e27f43c7af102c4c72ab0",
+      "SimplifyJobs/New-Grad-Positions README commit a93d506de6041c14f7a0ba2181bdae33b712a82c",
+      "SimplifyJobs/New-Grad-Positions listings commit 975645b2292c02645338d8bc11bac4b9e1aca7b5",
+      "SimplifyJobs/New-Grad-Positions README commit ed783ebfaa57a06afa6c689560e41bc83e4e9637"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -6422,6 +6477,21 @@
           "Goldman Oracle申请页在核验环境中为空白且无关闭文案，不能仅凭第三方inactive认定官方关闭。",
           "Baker Tilly官方Workday动态正文不可读，最低经验、2027入职、OPT和薪资未核验。",
           "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-06T16:23:04Z",
+        "scope": "上轮提交后的New-Grad增量与Texas地点变动复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions 15:31与16:03 UTC增量",
+          "JPMorgan Chase Oracle 210795475入口",
+          "qien-job-monitor最新Pages运行状态"
+        ],
+        "result": "①无新增表2；②无新增待核验可行动岗；③补抓JPMorgan Chase Plano Software Engineer 1（210795475），上线当天关闭，保留发现/排除审计；④已知职位无新状态变化。上轮GitHub Pages部署已成功。",
+        "coverageLimitations": [
+          "210795475官方Oracle正文不可读，最低经验、2027入职、OPT、薪资及完整职责未核验。",
+          "不将另一JPMorgan Data & AI requisition的OPT限制自动套用于本职位。",
+          "本轮为上轮后的增量扫描，未完成全部公司ATS全量分页。"
         ]
       }
     ]
