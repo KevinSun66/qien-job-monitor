@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T23:18:22Z",
+  "updatedAt": "2026-10-06T04:22:00Z",
   "jobs": [
     {
       "company": "IBM",
@@ -5452,11 +5452,68 @@
       "compensation": "未披露/未核验",
       "officePerks": "McKinney · Onsite",
       "jobId": "01879328"
+    },
+    {
+      "company": "Apple",
+      "tier": "S",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "SoC Machine Learning Design Engineer (200687294-0157)",
+      "employment": "全职 · Hardware · 每周40小时",
+      "gradYear": "非Early Career；完整最低资格未从动态正文取得",
+      "match": "不匹配Qien目标方向",
+      "ngCompatibility": "不适合 · SoC硬件设计岗，非Applied AI/ML/DS或MLE",
+      "assessment": "Apple Austin官方职位列表于2026-10-05发布。标题虽含Machine Learning，但所属Hardware/Silicon Technologies，核心方向是SoC处理器设计，不是Qien目标的Applied AI、数据科学、AI Engineer或机器学习工程软件岗位；按方向排除，不进入表2。动态官方详情未完整渲染，因此未臆测该编号的具体经验、薪资、签证或入职时间。",
+      "visa": "官方JD未取得可读授权条款；因方向已排除，不继续签证核验。",
+      "found": "2026-10-05",
+      "url": "https://jobs.apple.com/en-us/details/200687294-0157/soc-machine-learning-design-engineer?team=HRDWR",
+      "status": "direction-rejected",
+      "finalPriority": "不投 · SoC硬件方向不符",
+      "roleTrack": "SoC / Silicon Hardware / ML accelerator design",
+      "technicalGrowth": "与Qien目标赛道不匹配",
+      "brandPlatform": "100/100",
+      "ryanUpgrade": "Apple平台强，但岗位方向偏离Qien Applied AI/ML/DS路径",
+      "compensation": "Austin该requisition具体薪资未核实。",
+      "officePerks": "Austin · 每周40小时",
+      "jobId": "200687294-0157",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-06T04:22:00Z",
+      "officialStatus": "Apple Austin官方搜索列表显示Submit Resume",
+      "rejectionReason": "标题含Machine Learning但职位归属Hardware/SoC设计，不属于Qien目标Applied AI/ML/DS、AI Engineer或MLE软件方向。"
+    },
+    {
+      "company": "Apple",
+      "tier": "S",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "SoC Machine Learning Design Engineer (200687311-0157)",
+      "employment": "全职 · Hardware · 每周40小时",
+      "gradYear": "资深岗位；官方最低资格为BS + 10年相关经验",
+      "match": "不匹配 · 经验与方向均不符",
+      "ngCompatibility": "不兼容 · 最低BS + 10年相关经验",
+      "assessment": "Apple Austin官方职位列表于2026-10-05发布，完整官方同编号页面明确最低资格为BS加10年相关经验。岗位属于Hardware/Silicon Technologies与SoC设计，即使标题含Machine Learning，也不是Qien目标的Applied AI/ML/DS、AI Engineer或MLE软件岗位；同时远超0–2年范围，按经验与方向双重排除，不进入表2。",
+      "visa": "官方JD未披露F-1 OPT/STEM OPT；因10年经验和方向已明确不符，不继续签证核验。",
+      "found": "2026-10-05",
+      "url": "https://jobs.apple.com/en-us/details/200687311-0157/soc-machine-learning-design-engineer?team=HRDWR",
+      "status": "seniority-direction-rejected",
+      "finalPriority": "不投 · 10年经验且SoC硬件方向不符",
+      "roleTrack": "SoC / Silicon Hardware / ML accelerator design",
+      "seniorityGap": "最低BS + 10年相关经验，远超Qien 0–2年目标范围",
+      "technicalGrowth": "与Qien目标赛道不匹配",
+      "brandPlatform": "100/100",
+      "ryanUpgrade": "不构成可行升级：资格差距和赛道偏离均过大",
+      "compensation": "Austin该requisition具体薪资未核实。",
+      "officePerks": "Austin · 每周40小时",
+      "jobId": "200687311-0157",
+      "lastChecked": "2026-10-05",
+      "lastCheckedAt": "2026-10-06T04:22:00Z",
+      "officialStatus": "Apple Austin官方搜索列表显示Submit Resume",
+      "rejectionReason": "官方最低BS+10年相关经验；同时为SoC硬件设计方向，不属于Qien目标Applied AI/ML/DS。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-05T23:18:22Z",
-    "scope": "上轮后增量发现源复查；Texas New-Grad新增项与官方ATS链接核验；TI/D3V跳过，非全部ATS全量",
+    "lastCheckedAt": "2026-10-06T04:22:00Z",
+    "scope": "Apple Austin官方当天增量与Texas New-Grad发现源复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -5758,6 +5815,20 @@
         "jobId": "01879328",
         "status": "direction-rejected",
         "reason": "McKinney硬件岗位，核心为FPGA/数字逻辑设计；非Qien目标Applied AI/ML/DS、AI Engineer或MLE方向，不进表2。"
+      },
+      {
+        "checkedAt": "2026-10-06T04:22:00Z",
+        "company": "Apple",
+        "jobId": "200687294-0157",
+        "status": "direction-rejected",
+        "reason": "标题含Machine Learning但职位归属Hardware/SoC设计，不属于Qien目标Applied AI/ML/DS、AI Engineer或MLE软件方向。"
+      },
+      {
+        "checkedAt": "2026-10-06T04:22:00Z",
+        "company": "Apple",
+        "jobId": "200687311-0157",
+        "status": "seniority-direction-rejected",
+        "reason": "官方最低BS+10年相关经验；同时为SoC硬件设计方向，不属于Qien目标Applied AI/ML/DS。"
       }
     ],
     "verificationChanges": [
@@ -5886,7 +5957,11 @@
       "GM Financial 260957 Oracle ATS",
       "Pariveda官方Ashby",
       "SimplifyJobs/New-Grad-Positions README SHA 0212c40b2374bac39f511d61f1c737b5d8a07eeb（23:02 UTC增量）",
-      "RTX官方Workday requisition 01879328链接"
+      "RTX官方Workday requisition 01879328链接",
+      "Apple Austin官方搜索列表（2026-10-05）",
+      "Apple 200687311-0157官方详情/最低资格",
+      "Apple 200687294-0157官方详情入口",
+      "SimplifyJobs/New-Grad-Positions listings 449763e3（2026-10-06T04:01:08Z）"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -5905,7 +5980,9 @@
       "官方历史索引不等于实时开放；动态正文不可读项继续status-verification。",
       "NVIDIA JR2024557列6地点，目前只获取5个，缺第六地点。",
       "Liberty Mutual ADP完整官方授权未取得，第三方OPT限制不能当作本岗官方确认。",
-      "RTX 01879328官方Workday动态正文不可读；经验、薪资、2027入职和授权未臆测，方向排除仅依据官方职位标题与发现源Hardware分类。"
+      "RTX 01879328官方Workday动态正文不可读；经验、薪资、2027入职和授权未臆测，方向排除仅依据官方职位标题与发现源Hardware分类。",
+      "Apple 200687294-0157动态详情未完整渲染；按官方Hardware/SoC分类作方向排除，未推断经验、薪资、签证或入职时间。",
+      "本轮为增量与重点复核，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -6185,6 +6262,21 @@
         "coverageLimitations": [
           "本轮为增量扫描，不代表全部监控公司ATS完成全量分页。",
           "RTX动态官方JD正文未取得，未对经验、薪资、入职时间或OPT作推断。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-06T04:22:00Z",
+        "scope": "Apple Austin官方当天增量与Texas New-Grad发现源复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "Apple Austin官方职位搜索（SoC Machine Learning Design Engineer）",
+          "Apple 200687311-0157官方详情",
+          "Apple 200687294-0157官方详情入口",
+          "SimplifyJobs/New-Grad-Positions listings 449763e3"
+        ],
+        "result": "①无新增表2；②无新增待核验；③新增发现并排除Apple SoC Machine Learning Design Engineer两条Austin requisition：200687294-0157因SoC硬件方向不符，200687311-0157因最低BS+10年且硬件方向不符；④已知职位无状态变化。",
+        "coverageLimitations": [
+          "200687294-0157动态正文未完整渲染，未推断经验、薪资、签证或入职时间。",
+          "本轮为增量扫描，未完成全部公司ATS全量分页。"
         ]
       }
     ]
