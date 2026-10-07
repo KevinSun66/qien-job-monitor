@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T20:16:28Z",
+  "updatedAt": "2026-10-07T23:22:48Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6288,11 +6288,183 @@
       ],
       "discoverySource": "SimplifyJobs/New-Grad-Positions commit dba68eba777c8a27ef828ec2045e16911904587f；Pariveda官方Ashby搜索索引；Jobright同步JD",
       "rejectionReason": "通用咨询型SDE而非专门Applied AI/ML/DS；$79.8K–$87.8K与Ryan基本重叠，品牌/平台不足以构成升级。"
+    },
+    {
+      "company": "Deloitte",
+      "tier": "发现/待核验",
+      "area": "Austin, TX（同一 requisition 另含 Boston、Denver、Nashville、Portland、Sacramento）",
+      "market": "Austin",
+      "title": "Consultative Offerings – Government & Public Services – Analyst – Business Analytics (358043)",
+      "employment": "Full-time · Entry Level / Campus Analyst",
+      "gradYear": "2027 compatible · expected graduation by Summer 2027",
+      "match": "较高潜力 · 数据分析方向与Deloitte品牌相对Ryan有升级，但签证可行性待核验",
+      "ngCompatibility": "符合 · 官方明确为entry-level，接受预计Summer 2027前毕业者，无最低工作年限",
+      "assessment": "官方JD确认Austin为六个地点之一，面向Summer 2027前毕业的Analytics/Data Science/Statistics/CS等专业学生。职责是定量/定性分析、统计分析、数据管理与决策支持；底薪$88,000–$91,000，品牌平台较Ryan明显提升，但Applied AI/ML技术深度仅中等。JD要求无需雇主赞助现在或未来并需可获得美国安全许可，但未明确写U.S. citizen、permanent/unrestricted authorization或不接受OPT/CPT；按用户规则不得自动等同于初始OPT不兼容，保留visa-verification，暂不进入表2。",
+      "visa": "visa-verification · 官方写legally authorized without employer sponsorship now or in future，并需ability to obtain U.S. Security Clearance；未明确公民/永久居民或OPT禁令。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-07T23:22:48Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Government-Public-Services-Analyst-Business-Analytics/358043",
+      "status": "visa-verification",
+      "finalPriority": "待核验 · 若确认接受初始OPT，值得投递",
+      "roleTrack": "Business Analytics / Data Analytics Consulting",
+      "technicalGrowth": "76/100 · 统计分析、研究、数据管理和业务决策；Applied AI/ML深度未体现",
+      "brandPlatform": "92/100 · Deloitte GPS全国咨询平台",
+      "ryanUpgrade": "品牌/平台明显升级；薪资小幅提升；技术方向偏Analytics consulting而非深度AI",
+      "compensation": "$88,000–$91,000 official range",
+      "officePerks": "Austin；需居住在office约100 miles内；平均约50% travel",
+      "jobId": "358043",
+      "deadline": "2026-10-25",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T23:22:48Z",
+      "officialStatus": "Deloitte官方页面active，显示Apply now；Austin在六个地点列表中。",
+      "verificationFlags": [
+        "visa-verification"
+      ],
+      "discoverySource": "SimplifyJobs listings commit 29571db；Deloitte官方Careers",
+      "rejectionReason": null
+    },
+    {
+      "company": "Charles Schwab",
+      "tier": "发现/排除",
+      "area": "Southlake, TX",
+      "market": "DFW",
+      "title": "Associate – Java Developer (2026-126708)",
+      "employment": "Full-time · Campus / Associate Software Development Engineer",
+      "gradYear": "不符合 · 官方按字面要求本科/研究生学位于May 2023或更早完成",
+      "match": "方向与时间硬门槛不符",
+      "ngCompatibility": "不符合 · Qien预计May 2027毕业，晚于JD按字面限定",
+      "assessment": "官方iCIMS页面于2026-10-07发布，职责为Thematic Investing平台的Java/Angular/API/数据库通用软件开发，薪资$85,000–$92,000。JD按字面明确要求degree completed in May 2023 or earlier；Qien 2027毕业不满足。即使忽略该异常措辞，岗位偏通用SDE且薪资与Ryan重叠，不构成足够的Applied AI升级。保留排除记录。",
+      "visa": "未披露/未核验；已有毕业年份硬门槛，无需继续签证决策。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-07T23:22:48Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://career-schwab.icims.com/jobs/126708/job?mobile=true&needsRedirect=false",
+      "status": "grad-year-direction-rejected",
+      "finalPriority": "不投 · 官方毕业年份不兼容，且通用SDE不构成Ryan升级",
+      "roleTrack": "Software Engineering / Fintech Web & API",
+      "technicalGrowth": "72/100 · Java、Angular、REST、SQL/NoSQL；非Applied AI/ML",
+      "brandPlatform": "88/100 · Charles Schwab金融科技平台",
+      "ryanUpgrade": "品牌可能提升，但薪资基本重叠且AI技术成长不足；资格又不兼容",
+      "compensation": "$85,000–$92,000 plus bonus/incentive",
+      "officePerks": "Southlake onsite；hybrid policy details未具体说明",
+      "jobId": "2026-126708",
+      "deadline": "2026-10-09",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T23:22:48Z",
+      "officialStatus": "Charles Schwab官方iCIMS active，Posted 2026-10-07并显示Apply。",
+      "verificationFlags": [],
+      "discoverySource": "SimplifyJobs listings commit 29571db；Charles Schwab官方iCIMS",
+      "rejectionReason": "Official JD as written requires degree completed May 2023 or earlier; Qien graduates May 2027. Generalist SDE and compensation do not materially beat Ryan."
+    },
+    {
+      "company": "L3Harris Technologies",
+      "tier": "发现/排除",
+      "area": "Plano, TX",
+      "market": "DFW",
+      "title": "Associate, Systems Engineering (45787)",
+      "employment": "Full-time · New Grads",
+      "gradYear": "早期职业兼容 · pursuing bachelor or completed within last 12 months",
+      "match": "方向不符 · 系统工程/测试与软硬件集成，不是Applied AI/ML/DS",
+      "ngCompatibility": "符合早期职业学历条件；无最低工作年限",
+      "assessment": "官方JD确认Plano New Grads岗位，工作包括operational analysis、CONOPS、测试计划/执行、系统需求、脚本及软硬件故障排查。虽接受CS/Math等本科背景，但核心是国防系统工程与验证，不是Applied AI/ML/DS；薪资未披露，且相对Ryan的技术路线升级不足，按方向排除。",
+      "visa": "visa-verification未展开；官方可见正文未写公民/绿卡/OPT条款。排除依据不是签证。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-07T23:22:48Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://jobs.l3harris.com/job/Plano-Associate,-Systems-Engineering-TX-75074/1437945300/",
+      "status": "direction-rejected",
+      "finalPriority": "不投 · 系统/测试工程方向偏离Applied AI/ML",
+      "roleTrack": "Systems Engineering / Test & Integration",
+      "technicalGrowth": "60/100 for Qien target · scripting和系统设计，但AI/ML内容未体现",
+      "brandPlatform": "82/100 · 大型国防技术平台",
+      "ryanUpgrade": "品牌不构成足够补偿，技术路径明显偏离Ryan与Qien目标",
+      "compensation": "未披露",
+      "officePerks": "Plano；9/80 schedule，每两周一个周五休息",
+      "jobId": "45787",
+      "deadline": "未披露",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T23:22:48Z",
+      "officialStatus": "L3Harris官方页面active并显示Apply now。",
+      "verificationFlags": [],
+      "discoverySource": "SimplifyJobs listings commit 29571db；L3Harris官方Careers",
+      "rejectionReason": "Role is systems engineering, testing and hardware/software integration rather than Applied AI/ML/DS."
+    },
+    {
+      "company": "CVS Health",
+      "tier": "发现/排除",
+      "area": "Texas / Nationwide remote listing",
+      "market": "Texas multi-location",
+      "title": "Associate Software Development Engineer – Conversion (R1056490)",
+      "employment": "Private Posting · Intern Conversion Only",
+      "gradYear": "不适用 · 仅面向内部实习转正候选人",
+      "match": "资格硬门槛不符",
+      "ngCompatibility": "不符合 · Qien不是CVS intern conversion candidate",
+      "assessment": "发现源列出全国多州（含Texas）的Associate SDE，但官方URL位于Private_Postings_Intern_Conversion_ONLY，并明确为Conversion；本轮官方Workday已显示page does not exist。属于内部实习转正且已下架，保留发现/排除审计，不进入表2。",
+      "visa": "不适用；Conversion-only与关闭状态已先行排除。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-07T23:22:48Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://cvshealth.wd1.myworkdayjobs.com/Private_Postings_Intern_Conversion_ONLY/job/CT---Work-from-home/Associate-Software-Development-Engineer--Conversion-_R1056490",
+      "status": "closed-conversion-rejected",
+      "finalPriority": "不投 · Intern Conversion Only且官方页面已不存在",
+      "roleTrack": "Software Engineering / Intern Conversion",
+      "technicalGrowth": "未核验完整JD",
+      "brandPlatform": "CVS Health",
+      "ryanUpgrade": "不适用：不具备Conversion资格",
+      "compensation": "未披露",
+      "officePerks": "Work from home / nationwide listing",
+      "jobId": "R1056490",
+      "deadline": "Closed / page unavailable",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T23:22:48Z",
+      "officialStatus": "CVS官方Workday显示The page you are looking for doesn't exist。",
+      "verificationFlags": [],
+      "discoverySource": "SimplifyJobs listings commit 29571db；CVS官方Workday",
+      "rejectionReason": "Private intern-conversion-only posting; Qien is not an eligible CVS intern, and the official page is no longer available."
+    },
+    {
+      "company": "RTX / Raytheon",
+      "tier": "发现/排除",
+      "area": "Plano, TX",
+      "market": "DFW",
+      "title": "Production Support Engineer I – Onsite (01876984)",
+      "employment": "Full-time · Engineer I · Onsite",
+      "gradYear": "本科于入职日前取得；无最低工作年限",
+      "match": "身份与方向双重硬门槛不符",
+      "ngCompatibility": "早期职业学历条件可满足，但身份不兼容",
+      "assessment": "官方JD确认2026-10-07发布，负责Airborne RF Electronics生产测试、硬件/测试设备故障排查、模拟/数字/RF电路和测试数据分析。明确要求U.S. citizenship、Top Secret clearance且入职后需现有active clearance；Qien F-1 OPT/STEM OPT硬性不兼容。岗位也不属于Applied AI/ML/DS。",
+      "visa": "Hard fail · U.S. citizenship required; Top Secret clearance required and active clearance after day 1.",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-07T23:22:48Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-PLANO-465--465-Independence-Pkwy--INDEPENDENCE/Production-Support-Engineer-I---Onsite_01876984",
+      "status": "citizenship-direction-rejected",
+      "finalPriority": "不投 · 美国公民/Top Secret硬门槛且方向偏硬件生产支持",
+      "roleTrack": "Electrical/RF Production Support Engineering",
+      "technicalGrowth": "45/100 for Qien target · RF/数字硬件测试；Python仅preferred",
+      "brandPlatform": "85/100 · RTX/Raytheon国防平台",
+      "ryanUpgrade": "不适用：身份硬门槛失败，且技术路径偏离",
+      "compensation": "$57,200–$108,800 official range",
+      "officePerks": "Plano onsite；up to 25% travel",
+      "jobId": "01876984",
+      "deadline": "预计发布后约40天（可调整）",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T23:22:48Z",
+      "officialStatus": "RTX官方Workday active，Posted 2026-10-07并显示Apply。",
+      "verificationFlags": [],
+      "discoverySource": "SimplifyJobs listings commit 29571db；RTX官方Workday",
+      "rejectionReason": "Explicit U.S. citizenship and Top Secret clearance requirement; role is RF/electrical production support rather than Applied AI/ML/DS."
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-07T20:16:28Z",
-    "scope": "19:02 UTC后Texas New-Grad增量与已知岗位状态核验；TI/D3V跳过。",
+    "lastCheckedAt": "2026-10-07T23:22:48Z",
+    "scope": "22:01 UTC后Texas New-Grad增量与5个新增岗位官方核验；TI/D3V跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6840,6 +7012,41 @@
         "jobId": "48cfdabe-9dcc-4324-8e07-4a5ddf3af2e1",
         "status": "opportunity-cost-rejected-status-verification",
         "reason": "Dallas Software Engineer II为通用咨询型SDE；薪资$79.8K–$87.8K与Ryan基本重叠，品牌/平台和Applied AI深度均无明确升级。增量源转inactive，官方关闭仍待确认。"
+      },
+      {
+        "checkedAt": "2026-10-07T23:22:48Z",
+        "company": "Deloitte",
+        "jobId": "358043",
+        "status": "visa-verification",
+        "reason": "2027 entry-level Austin数据分析岗；品牌/薪资有升级潜力，但OPT与security-clearance可行性待核验。"
+      },
+      {
+        "checkedAt": "2026-10-07T23:22:48Z",
+        "company": "Charles Schwab",
+        "jobId": "2026-126708",
+        "status": "grad-year-direction-rejected",
+        "reason": "官方按字面要求学位于May 2023或更早完成；且通用Java SDE不足以升级Ryan。"
+      },
+      {
+        "checkedAt": "2026-10-07T23:22:48Z",
+        "company": "L3Harris Technologies",
+        "jobId": "45787",
+        "status": "direction-rejected",
+        "reason": "New Grad兼容，但职责为系统工程、测试与软硬件集成，偏离Applied AI/ML。"
+      },
+      {
+        "checkedAt": "2026-10-07T23:22:48Z",
+        "company": "CVS Health",
+        "jobId": "R1056490",
+        "status": "closed-conversion-rejected",
+        "reason": "Intern Conversion Only且官方页面已不存在。"
+      },
+      {
+        "checkedAt": "2026-10-07T23:22:48Z",
+        "company": "RTX / Raytheon",
+        "jobId": "01876984",
+        "status": "citizenship-direction-rejected",
+        "reason": "明确U.S. citizenship与Top Secret硬门槛；RF/电气生产支持方向不符。"
       }
     ],
     "verificationChanges": [
@@ -6993,12 +7200,17 @@
       }
     ],
     "sourcesChecked": [
-      "SimplifyJobs listings commits dba68eb与bb568e4",
-      "Texas Capital官方Workday JR105779（动态正文不可访问）"
+      "SimplifyJobs listings commits c16fd51与29571db",
+      "Deloitte官方Careers 358043",
+      "Charles Schwab官方iCIMS 2026-126708",
+      "L3Harris官方Careers 45787",
+      "CVS Health官方Workday R1056490",
+      "RTX官方Workday 01876984"
     ],
     "coverageLimitations": [
-      "JR105779官方Workday动态正文仍不可直接读取；本轮仅确认增量源由active转inactive，未将其断言为官方关闭。",
-      "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
+      "Deloitte签证措辞未明确说明初始F-1 OPT，按规则保留visa-verification。",
+      "L3Harris官方页面未披露薪资或签证条款；按方向不符排除。",
+      "CVS完整JD已下架，仅可确认Conversion-only路径及官方页面不存在。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -7519,6 +7731,24 @@
         "coverageLimitations": [
           "JR105779官方Workday动态正文仍不可直接读取；本轮仅确认增量源由active转inactive，未将其断言为官方关闭。",
           "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-07T23:22:48Z",
+        "scope": "22:01 UTC后Texas New-Grad增量与5个新增岗位官方核验；TI/D3V跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs listings commits c16fd51与29571db",
+          "Deloitte官方Careers 358043",
+          "Charles Schwab官方iCIMS 2026-126708",
+          "L3Harris官方Careers 45787",
+          "CVS Health官方Workday R1056490",
+          "RTX官方Workday 01876984"
+        ],
+        "result": "①无新增进入表2；②新增Deloitte Austin Business Analytics Analyst（358043）待签证核验；③新增排除Schwab 2026-126708、L3Harris 45787、CVS R1056490、RTX 01876984；④无既有已记录职位状态变化。",
+        "coverageLimitations": [
+          "Deloitte签证措辞未明确说明初始F-1 OPT，按规则保留visa-verification。",
+          "L3Harris官方页面未披露薪资或签证条款；按方向不符排除。",
+          "CVS完整JD已下架，仅可确认Conversion-only路径及官方页面不存在。"
         ]
       }
     ]
