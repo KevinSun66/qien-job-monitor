@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T14:16:48Z",
+  "updatedAt": "2026-10-07T15:23:54Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6213,11 +6213,48 @@
       "roleTrack": "电力电子测试 / 工厂生产支持 / 硬件故障分析",
       "whyRyan": "相对Ryan没有Applied AI/ML技术升级，薪资区间也未形成稳定优势；更关键是美国公民与Secret许可为硬性门槛。",
       "rejectionReason": "authorization-and-direction-rejected：官方明确要求美国公民及DoD Secret安全许可，F-1 OPT不兼容；职责为电力电子硬件测试和工厂支持，非Applied AI/ML/DS。"
+    },
+    {
+      "company": "Emerson / NI",
+      "tier": "发现/排除审计",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Digital Hardware Engineer I (26011531)",
+      "employment": "全职 · Entry Level · Hybrid",
+      "gradYear": "Entry level；本科最低学历；2027年5月后入职未确认",
+      "match": "签证与方向排除 · FPGA/PCB数字硬件",
+      "ngCompatibility": "早期职业门槛表面匹配，但F-1 OPT/CPT被明确排除",
+      "assessment": "职位为Austin入门级数字硬件工程师，核心职责是FPGA逻辑、寄存器映射、测试平台、时序分析、PCB原理图/布局、信号完整性与样机验证，不是Qien目标Applied AI/ML/DS、AI Engineer或MLE路线。公开同步JD还明确写明临时签证（包括F-1 OPT/CPT）不符合雇佣资格，因此按用户签证规则与方向规则双重排除。",
+      "visa": "明确不兼容：同步JD写明F-1（包括OPT/CPT）等临时签证不符合雇佣资格，且不提供sponsorship。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-07T15:23:54Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26011531",
+      "status": "visa-and-direction-rejected",
+      "finalPriority": "排除 · 不推荐/不进表2 · 发现审计保留",
+      "roleTrack": "Digital Hardware / FPGA / PCB",
+      "technicalGrowth": "FPGA、VHDL/Verilog/SystemVerilog、PCB、信号完整性、硬件验证",
+      "brandPlatform": "Emerson/NI工业测试与测量平台；但岗位方向不匹配",
+      "ryanUpgrade": "不足：非Applied AI/ML/DS，且F-1 OPT明确不兼容",
+      "compensation": "官方Austin职位未披露薪资",
+      "officePerks": "Austin · Hybrid；需可通勤或搬迁",
+      "jobId": "26011531",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T15:23:54Z",
+      "officialStatus": "Simplify增量源显示active并指向Emerson官方Oracle requisition；官方动态页面无法直接读取，公开同步JD提供完整职责与授权条款。",
+      "verificationFlags": [
+        "official-status-verification",
+        "start-date-verification",
+        "compensation-verification"
+      ],
+      "discoverySource": "SimplifyJobs/New-Grad-Positions commit 382987fbc56d647115b2b5de01fa01559fc1e2c5；Emerson官方Oracle 26011531；Built In Austin同步完整JD",
+      "rejectionReason": "公开同步JD明确排除F-1 OPT/CPT；同时职责为FPGA/PCB数字硬件，不是Applied AI/ML/DS、AI Engineer或MLE。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-07T14:16:48Z",
-    "scope": "执行用户新增身份硬过滤规则，并复查现有表2/待核验记录；TI/D3V规则不变。",
+    "lastCheckedAt": "2026-10-07T15:23:54Z",
+    "scope": "14:16 UTC后Texas New-Grad增量与Emerson/NI Austin官方入口及完整同步JD核验；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6751,6 +6788,13 @@
         "jobId": "01879531",
         "status": "authorization-and-direction-rejected",
         "reason": "官方明确要求美国公民及DoD Secret安全许可，F-1 OPT不兼容；职责为电力电子测试/工厂生产支持，非Applied AI/ML/DS。"
+      },
+      {
+        "checkedAt": "2026-10-07T15:23:54Z",
+        "company": "Emerson / NI",
+        "jobId": "26011531",
+        "status": "visa-and-direction-rejected",
+        "reason": "同步完整JD明确写明F-1（包括OPT/CPT）不符合雇佣资格；核心为FPGA/PCB数字硬件，非Applied AI/ML/DS。"
       }
     ],
     "verificationChanges": [
@@ -6949,44 +6993,13 @@
       "NVIDIA官方Workday JR2026967完整JD与官方搜索索引（2026-10-07）",
       "SimplifyJobs/New-Grad-Positions listings ec391caf与8e1e4b6e（2026-10-07 12:31/13:01 UTC）",
       "RTX官方Workday 01879531完整JD（2026-10-07）",
-      "qien-job-monitor现有172+岗位身份措辞复查（2026-10-07）"
+      "qien-job-monitor现有172+岗位身份措辞复查（2026-10-07）",
+      "SimplifyJobs/New-Grad-Positions listings commits 382987fbc56d647115b2b5de01fa01559fc1e2c5与f02e70aa47ca736f5cd39700953b10b124296281",
+      "Emerson官方Oracle requisition 26011531与Built In Austin完整同步JD"
     ],
     "coverageLimitations": [
-      "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
-      "Vizient public mirror is inaccessible; no employer closure inferred",
-      "Intuit search snippets can include unrelated Frisco navigation/related-job text; only the requisition header location list was treated as authoritative",
-      "No claim is made about exact historical indexing or the cause of delayed discovery",
-      "Toyota 10337203 full official page returned 403; exact-role requirements use official index plus complete syndicated JD and are labeled accordingly",
-      "GEICO R0066162 official Workday detail returned no readable body; experience and visa remain unverified, while direction rejection is based on retrieved employer-provided scope",
-      "Apple detail pages are JavaScript-rendered; open status used Apple official search list, while qualification text used a complete matching role-number copy and is labeled accordingly",
-      "NXP R-10066856 official Workday body is dynamically rendered; exact role/location were confirmed officially and the 3+ years requirement was cross-checked in complete matching syndicated copies",
-      "未完成所有监控公司官方ATS全量分页，不能断言全范围无其他新增。",
-      "NVIDIA旧搜索索引不等同实时开放；新记录均保留status-verification，2026标签不自动当作2027入职不兼容。",
-      "本轮未完成所有监控公司ATS全量分页，不能断言全范围无其他新增。",
-      "Apple 200656819-0157动态官方正文未完整渲染；经验门槛采用同编号完整同步JD的较宽松2+年版本，已足以按用户规则排除。",
-      "未完成全部监控公司ATS全量分页，不能断言全范围无其他新增。",
-      "官方历史索引不等于实时开放；动态正文不可读项继续status-verification。",
-      "NVIDIA JR2024557列6地点，目前只获取5个，缺第六地点。",
-      "Liberty Mutual ADP完整官方授权未取得，第三方OPT限制不能当作本岗官方确认。",
-      "RTX 01879328官方Workday动态正文不可读；经验、薪资、2027入职和授权未臆测，方向排除仅依据官方职位标题与发现源Hardware分类。",
-      "Apple 200687294-0157动态详情未完整渲染；按官方Hardware/SoC分类作方向排除，未推断经验、薪资、签证或入职时间。",
-      "本轮为增量与重点复核，未完成全部监控公司ATS全量分页。",
-      "RTX 01875418官方Workday动态正文未完整取得；未把同步站的美国公民/安全许可或conversion表述当作本requisition最终官方确认。",
-      "210794232官方动态申请页无法直接渲染；初始OPT、2027年5月后入职、薪资和完整资格继续核验。",
-      "本轮为增量扫描，未完成全部监控公司ATS全量分页。",
-      "Vestwell 7983915003官方JD未披露OPT/E-Verify或2027入职时间；职位已关闭，不作臆测。",
-      "本轮为增量扫描，未完成全部监控公司ATS全量分页。",
-      "Visa REF082600W与Texas Capital JR105779的初始OPT/2027入职兼容性未获官方确认；未将无签证表述自动当作拒绝OPT。",
-      "Texas Capital JR105779动态完整JD未取得，职责、最低经验与薪资继续ng-verification。",
-      "本轮为增量与重点官方核验，未完成全部监控公司ATS全量分页。",
-      "Apple 200687472-0157的2027年5月后入职、F-1 OPT/STEM OPT及Austin具体薪资未披露，保留start-date/visa/compensation verification。",
-      "R-10064599第三方inactive与官方Apply冲突；官方未披露本岗OPT、2027入职及Austin薪资。",
-      "本轮为上次运行后的增量和状态冲突复核；未完成全部监控公司ATS全量分页。",
-      "AMD 91410官方完整JD受访问限制，经验、2027入职、OPT和薪资未核验；方向排除可由职位标题与硬件类别确定。",
-      "RTX 01875418第三方inactive但官方正文不可读，关闭状态未获官方确认。",
-      "JR2026967未披露OPT/E-Verify/I-983或2027年5月后入职；Qien是否满足MS同等经验与GPU低层优化门槛仍待核验。",
-      "本轮为上次运行后的增量与NVIDIA重点补抓，未完成全部公司ATS全量分页。",
-      "本轮为上次运行后的增量与RTX官方核验，未完成全部公司ATS全量分页。"
+      "Emerson 26011531官方Oracle动态正文无法直接读取；职位状态以增量源active为准，职责与授权条款来自公开同步完整JD。",
+      "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -7466,6 +7479,20 @@
         "result": "①无新增表2；②无新增待核验；③无新增职位排除（明确公民硬门槛的既有岗位此前均已排除）；④监控资格规则更新：明确要求美国公民或绿卡且Qien不满足的职位今后一律排除，不推荐、不进表2、不提醒。",
         "coverageLimitations": [
           "RTX 01875418当前只有第三方公民/许可线索，官方正文仍不可读；按“明确要求”标准继续待核验。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-07T15:23:54Z",
+        "scope": "14:16 UTC后Texas New-Grad增量与Emerson/NI Austin职位核验；TI/D3V跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs listings 382987f与f02e70a",
+          "Emerson官方Oracle 26011531",
+          "Built In Austin同步完整JD"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③新增排除Emerson/NI Austin Digital Hardware Engineer I（26011531）：公开同步JD明确排除F-1 OPT/CPT，且职责为FPGA/PCB数字硬件；④无已知职位状态变化。",
+        "coverageLimitations": [
+          "官方Oracle动态正文无法直接读取，实时状态以发现源active为准。",
+          "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
         ]
       }
     ]
