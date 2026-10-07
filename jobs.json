@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T04:21:02Z",
+  "updatedAt": "2026-10-07T05:16:22Z",
   "jobs": [
     {
       "company": "IBM",
@@ -5918,11 +5918,147 @@
       ],
       "discoverySource": "SimplifyJobs listings commit 77a1e8be31643f3b35ccf79293f2d40bfaab4da9；Micron官方Workday",
       "rejectionReason": "要求PhD或硕士+相关经验，Qien本科不满足；且职责为HBM/DRAM硬件架构，非Applied AI/ML/DS。"
+    },
+    {
+      "company": "Apple",
+      "tier": "S待核验",
+      "area": "Austin, TX / San Jose, CA",
+      "market": "Austin",
+      "title": "CAD Engineer – Signoff Infrastructure (200687472-0157)",
+      "employment": "全职 · Hardware Technology · 官方页面持续接受申请",
+      "gradYear": "本科即可；未限定毕业年份，2027年5月后入职兼容性待确认",
+      "match": "高潜力 · Apple品牌、Python/全栈、AI/RAG，但入职与授权待核验",
+      "ngCompatibility": "ng-verification：最低资格仅要求Computer Science或相关专业本科；未列最低工作年限，项目和课程经验可满足多项偏好条件",
+      "assessment": "Apple Signoff基础设施软件岗位，使用Python、JavaScript/TypeScript、SQL、后端API和前端dashboard，并参与Signoff AI assistant及现代AI/RAG能力集成。Qien的Data Science/Statistics+CS minor、Python、AI/LLM项目与实习背景具有较好匹配；Apple品牌、工程平台和AI/RAG成长相对Ryan有明显潜在升级。但该岗隶属芯片Signoff CAD基础设施，并非Campus/New Grad requisition，2027年5月后入职和F-1 OPT仍未确认，因此先列待核验，不进入当前表2。",
+      "visa": "visa-verification：官方JD仅说明Apple在法律要求的部分地点参与E-Verify，未披露本岗F-1 OPT/STEM OPT、I-983或未来sponsorship政策。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-07T05:16:22Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://jobs.apple.com/en-us/details/200687472-0157/cad-engineer-signoff-infrastructure",
+      "status": "verification",
+      "finalPriority": "待核验 · 潜在S",
+      "roleTrack": "Software Engineering / Full-stack / AI-RAG / EDA Signoff Infrastructure",
+      "technicalGrowth": "Python、JavaScript/TypeScript、SQL、后端API、可视化dashboard、CI/CD、AI assistant与RAG",
+      "brandPlatform": "Apple顶级品牌与大规模SoC工程平台",
+      "ryanUpgrade": "潜在明显升级：品牌、薪资上限和工程/AI平台更强；但EDA硬件域与2027入职、OPT仍待确认",
+      "compensation": "Austin官方JD未披露该requisition具体薪资。",
+      "officePerks": "Austin为首选地点之一；到岗频率和具体福利未在JD披露。",
+      "jobId": "200687472-0157",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T05:16:22Z",
+      "officialStatus": "Apple官方职位页显示Submit Resume并接受持续申请。",
+      "verificationFlags": [
+        "start-date-verification",
+        "visa-verification",
+        "compensation-verification"
+      ],
+      "discoverySource": "Apple Austin官方职位列表与Apple官方JD（2026-10-07核验）",
+      "rejectionReason": null
+    },
+    {
+      "company": "Apple",
+      "tier": "发现/排除审计",
+      "area": "Austin, TX / Sunnyvale, CA",
+      "market": "Austin",
+      "title": "Gate-level IR/EM CAD/NLP Engineer (200687474-0157)",
+      "employment": "全职 · Hardware · 官方页面持续接受申请",
+      "gradYear": "未限定；最低BS + 3年相关行业经验",
+      "match": "经验与方向排除",
+      "ngCompatibility": "不通过：官方最低要求BS + 3年相关行业经验，超过Qien的0–2年范围",
+      "assessment": "职责包含ML、NLP、LLM、RAG与Python，但核心是Apple Silicon的IR/EM、EDA、CAD和芯片signoff分析。官方最低要求本科加3年相关行业经验，超过用户明确允许的0–2年范围；且硬件EDA方向并非Qien主线。",
+      "visa": "无需以签证作为排除依据；官方未披露本岗具体OPT政策。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-07T05:16:22Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://jobs.apple.com/en-us/details/200687474-0157/gate-level-ir-em-cad-nlp-engineer",
+      "status": "experience-and-direction-rejected",
+      "finalPriority": "排除 · 发现审计保留",
+      "roleTrack": "EDA / CAD / IR-EM Signoff / ML-NLP-LLM",
+      "technicalGrowth": "ML、NLP、LLM、RAG与EDA集成，但核心为芯片signoff",
+      "brandPlatform": "Apple顶级品牌与Apple Silicon平台",
+      "ryanUpgrade": "不具可行动性：最低3年经验不符；方向偏芯片EDA",
+      "compensation": "Austin官方JD未披露该requisition具体薪资。",
+      "officePerks": "Austin或Sunnyvale；持续接受申请。",
+      "jobId": "200687474-0157",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T05:16:22Z",
+      "officialStatus": "Apple官方职位页显示Submit Resume并接受持续申请。",
+      "verificationFlags": [],
+      "discoverySource": "Apple Austin官方职位列表与Apple官方JD（2026-10-07核验）",
+      "rejectionReason": "最低BS + 3年相关行业经验，超过0–2年范围；同时核心职责为芯片EDA/IR-EM signoff。"
+    },
+    {
+      "company": "Apple",
+      "tier": "发现/排除审计",
+      "area": "Austin, TX / Sunnyvale, CA",
+      "market": "Austin",
+      "title": "Gate-level IR/EM CAD/NLP Engineer (200687477-0157)",
+      "employment": "全职 · Hardware · 官方页面持续接受申请",
+      "gradYear": "未限定；最低BS + 3年相关行业经验",
+      "match": "经验与方向排除",
+      "ngCompatibility": "不通过：官方最低要求BS + 3年相关行业经验，超过Qien的0–2年范围",
+      "assessment": "与同系列岗位相同，工作将ML、NLP、LLM/RAG用于EDA与IR/EM signoff，但官方最低要求本科加3年相关行业经验；超过用户明确允许的0–2年范围，且属于芯片EDA硬件域。",
+      "visa": "无需以签证作为排除依据；官方未披露本岗具体OPT政策。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-07T05:16:22Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://jobs.apple.com/en-us/details/200687477-0157/gate-level-ir-em-cad-nlp-engineer",
+      "status": "experience-and-direction-rejected",
+      "finalPriority": "排除 · 发现审计保留",
+      "roleTrack": "EDA / CAD / IR-EM Signoff / ML-NLP-LLM",
+      "technicalGrowth": "ML、NLP、LLM、RAG与EDA集成，但核心为芯片signoff",
+      "brandPlatform": "Apple顶级品牌与Apple Silicon平台",
+      "ryanUpgrade": "不具可行动性：最低3年经验不符；方向偏芯片EDA",
+      "compensation": "Austin官方JD未披露该requisition具体薪资。",
+      "officePerks": "Austin或Sunnyvale；持续接受申请。",
+      "jobId": "200687477-0157",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T05:16:22Z",
+      "officialStatus": "Apple官方职位页显示Submit Resume并接受持续申请。",
+      "verificationFlags": [],
+      "discoverySource": "Apple Austin官方职位列表与Apple官方JD（2026-10-07核验）",
+      "rejectionReason": "最低BS + 3年相关行业经验，超过0–2年范围；同时核心职责为芯片EDA/IR-EM signoff。"
+    },
+    {
+      "company": "Apple",
+      "tier": "发现/排除审计",
+      "area": "Austin, TX / Sunnyvale, CA",
+      "market": "Austin",
+      "title": "Gate-level IR/EM CAD/NLP Engineer (200687478-0157)",
+      "employment": "全职 · Hardware · 官方页面持续接受申请",
+      "gradYear": "未限定；最低BS + 10年相关行业经验",
+      "match": "经验与方向排除",
+      "ngCompatibility": "不通过：官方最低要求BS + 10年相关行业经验",
+      "assessment": "岗位把ML、NLP、LLM/RAG用于EDA与IR/EM signoff，但官方最低要求本科加10年相关行业经验，远超Qien范围；核心业务仍是Apple Silicon芯片signoff与CAD。",
+      "visa": "无需以签证作为排除依据；官方未披露本岗具体OPT政策。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-07T05:16:22Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://jobs.apple.com/en-us/details/200687478-0157/gate-level-ir-em-cad-nlp-engineer",
+      "status": "experience-and-direction-rejected",
+      "finalPriority": "排除 · 发现审计保留",
+      "roleTrack": "EDA / CAD / IR-EM Signoff / ML-NLP-LLM",
+      "technicalGrowth": "ML、NLP、LLM、RAG与EDA集成，但核心为芯片signoff",
+      "brandPlatform": "Apple顶级品牌与Apple Silicon平台",
+      "ryanUpgrade": "不具可行动性：最低10年经验不符；方向偏芯片EDA",
+      "compensation": "Austin官方JD未披露该requisition具体薪资。",
+      "officePerks": "Austin或Sunnyvale；持续接受申请。",
+      "jobId": "200687478-0157",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T05:16:22Z",
+      "officialStatus": "Apple官方职位页显示Submit Resume并接受持续申请。",
+      "verificationFlags": [],
+      "discoverySource": "Apple Austin官方职位列表与Apple官方JD（2026-10-07核验）",
+      "rejectionReason": "最低BS + 10年相关行业经验，远超0–2年范围；同时核心职责为芯片EDA/IR-EM signoff。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-07T04:21:02Z",
-    "scope": "2026-10-06 20:01 UTC后New-Grad增量与Texas官方JD复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-07T05:16:22Z",
+    "scope": "04:21 UTC后Texas早期职业/AI关键词增量、Apple Austin官方当日列表与完整JD复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6370,6 +6506,34 @@
         "jobId": "JR107044",
         "status": "education-and-direction-rejected-status-conflict",
         "reason": "要求PhD或硕士+相关经验，Qien本科不满足；且职责为HBM/DRAM硬件架构，非Applied AI/ML/DS。"
+      },
+      {
+        "checkedAt": "2026-10-07T05:16:22Z",
+        "company": "Apple",
+        "jobId": "200687472-0157",
+        "status": "verification",
+        "reason": "最低资格未列工作年限，Apple品牌与AI/RAG工程平台可能明显升级；2027入职和OPT仍待核验。"
+      },
+      {
+        "checkedAt": "2026-10-07T05:16:22Z",
+        "company": "Apple",
+        "jobId": "200687474-0157",
+        "status": "experience-and-direction-rejected",
+        "reason": "最低BS + 3年相关行业经验，超过0–2年范围；同时核心职责为芯片EDA/IR-EM signoff。"
+      },
+      {
+        "checkedAt": "2026-10-07T05:16:22Z",
+        "company": "Apple",
+        "jobId": "200687477-0157",
+        "status": "experience-and-direction-rejected",
+        "reason": "最低BS + 3年相关行业经验，超过0–2年范围；同时核心职责为芯片EDA/IR-EM signoff。"
+      },
+      {
+        "checkedAt": "2026-10-07T05:16:22Z",
+        "company": "Apple",
+        "jobId": "200687478-0157",
+        "status": "experience-and-direction-rejected",
+        "reason": "最低BS + 10年相关行业经验，远超0–2年范围；同时核心职责为芯片EDA/IR-EM signoff。"
       }
     ],
     "verificationChanges": [
@@ -6532,7 +6696,10 @@
       "Texas Capital Bank官方Careers/Workday JR105779",
       "L3Harris官方JD 45702/45704",
       "Analog Devices官方Workday R265415",
-      "Micron官方Workday JR107044"
+      "Micron官方Workday JR107044",
+      "Apple Austin官方职位列表（2026-10-07最新排序）",
+      "Apple官方JD：200687472-0157、200687474-0157、200687477-0157、200687478-0157",
+      "SimplifyJobs listings增量 c08b61a→d6dacf7"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -6561,7 +6728,8 @@
       "本轮为增量扫描，未完成全部监控公司ATS全量分页。",
       "Visa REF082600W与Texas Capital JR105779的初始OPT/2027入职兼容性未获官方确认；未将无签证表述自动当作拒绝OPT。",
       "Texas Capital JR105779动态完整JD未取得，职责、最低经验与薪资继续ng-verification。",
-      "本轮为增量与重点官方核验，未完成全部监控公司ATS全量分页。"
+      "本轮为增量与重点官方核验，未完成全部监控公司ATS全量分页。",
+      "Apple 200687472-0157的2027年5月后入职、F-1 OPT/STEM OPT及Austin具体薪资未披露，保留start-date/visa/compensation verification。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -6943,6 +7111,20 @@
         "coverageLimitations": [
           "Visa与Texas Capital的OPT及2027入职未确认；Texas Capital完整JD未取得。",
           "本轮未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-07T05:16:22Z",
+        "scope": "04:21 UTC后Texas早期职业/AI关键词增量、Apple Austin官方当日列表与完整JD复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "Apple Austin官方职位列表",
+          "Apple官方JD 200687472-0157/200687474-0157/200687477-0157/200687478-0157",
+          "SimplifyJobs listings c08b61a→d6dacf7"
+        ],
+        "result": "①无新增进入表2；②新增Apple Austin CAD Engineer – Signoff Infrastructure（200687472-0157）待核验；③排除Apple Gate-level IR/EM CAD/NLP Engineer 200687474-0157、200687477-0157（最低3年）及200687478-0157（最低10年），同时核心为芯片EDA/signoff；④无已知职位状态变化。",
+        "coverageLimitations": [
+          "200687472-0157的2027入职、OPT和Austin具体薪资未确认。",
+          "本轮为上次运行后的增量与Apple重点补抓，未完成全部监控公司ATS全量分页。"
         ]
       }
     ]
