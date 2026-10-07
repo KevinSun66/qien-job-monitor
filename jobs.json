@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T05:16:22Z",
+  "updatedAt": "2026-10-07T06:20:02Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6054,11 +6054,49 @@
       "verificationFlags": [],
       "discoverySource": "Apple Austin官方职位列表与Apple官方JD（2026-10-07核验）",
       "rejectionReason": "最低BS + 10年相关行业经验，远超0–2年范围；同时核心职责为芯片EDA/IR-EM signoff。"
+    },
+    {
+      "company": "NXP Semiconductors",
+      "tier": "发现/排除审计",
+      "area": "Austin (Oakhill), TX",
+      "market": "Austin",
+      "title": "Entry Level Software Product Manager (R-10064599)",
+      "employment": "全职 · Entry Level · Product Management",
+      "gradYear": "Recent BS or MS graduate",
+      "match": "资格匹配但方向排除",
+      "ngCompatibility": "通过早期职业发现层：官方资格要求近期CS、Software Engineering、Computer Engineering或相关专业BS/MS毕业生",
+      "assessment": "官方页面显示Austin Entry Level Software Product Manager并仍有Apply入口。职责重点是嵌入式软件产品规划、客户/市场需求、产品发布材料、培训与技术内容，属于产品管理而非Applied AI/ML/DS、AI Engineer或MLE。虽然NXP具有较强半导体品牌，但相对Ryan会偏离Qien已确定的技术路线，故不进入表2。",
+      "visa": "visa-verification：官方可检索内容未披露F-1 OPT/STEM OPT、E-Verify或永久授权条款；方向已排除，无需以签证作为排除依据。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-07T06:20:02Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Entry-Level-Software-Product-Manager_R-10064599",
+      "status": "direction-rejected-status-conflict",
+      "finalPriority": "排除 · 发现审计保留",
+      "roleTrack": "Embedded Software Product Management / Semiconductor",
+      "technicalGrowth": "产品路线、市场需求、跨团队协调与发布内容；非AI/ML开发岗位",
+      "brandPlatform": "NXP全球半导体平台，但岗位为产品管理",
+      "ryanUpgrade": "不构成目标升级：品牌尚可，但会离开Applied AI/ML/DS技术主线",
+      "compensation": "官方本轮未取得Austin具体薪资。",
+      "officePerks": "Austin Oakhill Office；具体办公模式未核验。",
+      "jobId": "R-10064599",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T06:20:02Z",
+      "officialStatus": "Simplify增量源于2026-10-07 06:01 UTC标记inactive，但NXP官方Workday仍显示Apply；保留status-verification，不认定官方关闭。",
+      "verificationFlags": [
+        "status-verification",
+        "visa-verification",
+        "start-date-verification",
+        "compensation-verification"
+      ],
+      "discoverySource": "SimplifyJobs listings commit a49b0aa691d17a0c4ca723c3d7af545e14a57c8a；NXP官方Workday",
+      "rejectionReason": "职责为嵌入式软件产品管理、市场需求与产品发布支持，不是Qien目标Applied AI/ML/DS、AI Engineer或MLE技术路线；相对Ryan缺乏技术成长升级。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-07T05:16:22Z",
-    "scope": "04:21 UTC后Texas早期职业/AI关键词增量、Apple Austin官方当日列表与完整JD复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-07T06:20:02Z",
+    "scope": "05:16 UTC后Texas New-Grad增量与NXP Austin官方Workday状态复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6534,6 +6572,13 @@
         "jobId": "200687478-0157",
         "status": "experience-and-direction-rejected",
         "reason": "最低BS + 10年相关行业经验，远超0–2年范围；同时核心职责为芯片EDA/IR-EM signoff。"
+      },
+      {
+        "checkedAt": "2026-10-07T06:20:02Z",
+        "company": "NXP Semiconductors",
+        "jobId": "R-10064599",
+        "status": "direction-rejected-status-conflict",
+        "reason": "职责为嵌入式软件产品管理、市场需求与产品发布支持，不是Qien目标Applied AI/ML/DS、AI Engineer或MLE技术路线；相对Ryan缺乏技术成长升级。"
       }
     ],
     "verificationChanges": [
@@ -6699,7 +6744,9 @@
       "Micron官方Workday JR107044",
       "Apple Austin官方职位列表（2026-10-07最新排序）",
       "Apple官方JD：200687472-0157、200687474-0157、200687477-0157、200687478-0157",
-      "SimplifyJobs listings增量 c08b61a→d6dacf7"
+      "SimplifyJobs listings增量 c08b61a→d6dacf7",
+      "SimplifyJobs listings增量 77a7bd0与a49b0aa",
+      "NXP官方Workday R-10064599"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -6729,7 +6776,8 @@
       "Visa REF082600W与Texas Capital JR105779的初始OPT/2027入职兼容性未获官方确认；未将无签证表述自动当作拒绝OPT。",
       "Texas Capital JR105779动态完整JD未取得，职责、最低经验与薪资继续ng-verification。",
       "本轮为增量与重点官方核验，未完成全部监控公司ATS全量分页。",
-      "Apple 200687472-0157的2027年5月后入职、F-1 OPT/STEM OPT及Austin具体薪资未披露，保留start-date/visa/compensation verification。"
+      "Apple 200687472-0157的2027年5月后入职、F-1 OPT/STEM OPT及Austin具体薪资未披露，保留start-date/visa/compensation verification。",
+      "R-10064599第三方inactive与官方Apply冲突；官方未披露本岗OPT、2027入职及Austin薪资。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -7125,6 +7173,19 @@
         "coverageLimitations": [
           "200687472-0157的2027入职、OPT和Austin具体薪资未确认。",
           "本轮为上次运行后的增量与Apple重点补抓，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-07T06:20:02Z",
+        "scope": "05:16 UTC后Texas New-Grad增量与NXP Austin官方Workday状态复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs listings 77a7bd0与a49b0aa",
+          "NXP官方Workday R-10064599"
+        ],
+        "result": "①无新增表2；②无新增待核验可行动岗；③补抓NXP Austin Entry Level Software Product Manager（R-10064599），因产品管理方向相对Ryan缺乏AI/ML技术升级而排除；④该岗出现第三方inactive与官方仍显示Apply的状态冲突，保留status-verification。",
+        "coverageLimitations": [
+          "官方未披露R-10064599的OPT、2027入职及Austin薪资。",
+          "本轮为上次运行后的增量扫描，未完成全部公司ATS全量分页。"
         ]
       }
     ]
