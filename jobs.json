@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T06:20:02Z",
+  "updatedAt": "2026-10-07T07:20:44Z",
   "jobs": [
     {
       "company": "IBM",
@@ -5863,7 +5863,7 @@
       "discoveredAt": "2026-10-07T04:21:02Z",
       "firstSeen": "2026-10-06",
       "url": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/Associate-Design-Verification-Engineer_R265415",
-      "status": "direction-rejected-status-conflict",
+      "status": "direction-rejected",
       "finalPriority": "排除 · 发现审计保留",
       "roleTrack": "Semiconductor Design Verification / Hardware",
       "technicalGrowth": "SystemVerilog、RTL、UVM、EDA、混合信号验证",
@@ -5872,11 +5872,10 @@
       "compensation": "官方本轮未显示薪资",
       "officePerks": "Dallas Tollway；10% travel",
       "jobId": "R265415",
-      "lastChecked": "2026-10-06",
-      "lastCheckedAt": "2026-10-07T04:21:02Z",
-      "officialStatus": "Simplify增量源标记inactive，但Analog Devices官方Workday仍显示Apply，保留status-verification。",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T07:20:44Z",
+      "officialStatus": "2026-10-07核验：Simplify增量源已由inactive恢复为active，与Analog Devices官方Workday仍显示Apply一致；此前状态冲突已解除。岗位仍因芯片设计验证硬件方向排除，并非重新纳入表2。",
       "verificationFlags": [
-        "status-verification",
         "visa-verification",
         "start-date-verification"
       ],
@@ -6095,8 +6094,8 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-07T06:20:02Z",
-    "scope": "05:16 UTC后Texas New-Grad增量与NXP Austin官方Workday状态复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-07T07:20:44Z",
+    "scope": "06:20 UTC后Texas New-Grad增量与已知岗位状态复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6177,6 +6176,11 @@
         "checkedAt": "2026-10-07T04:21:02Z",
         "jobId": "JR107044",
         "result": "Micron Technology Sr HBM Design Architect, PhD NCG (JR107044)：education-and-direction-rejected-status-conflict。要求PhD或硕士+相关经验，Qien本科不满足；且职责为HBM/DRAM硬件架构，非Applied AI/ML/DS。"
+      },
+      {
+        "checkedAt": "2026-10-07T07:20:44Z",
+        "jobId": "R265415",
+        "result": "Analog Devices Associate Design Verification Engineer：第三方发现源恢复active，与官方Workday Apply状态一致；status-verification解除。岗位继续按direction-rejected保留审计，不进入表2。"
       }
     ],
     "newDiscoveries": [
@@ -6701,6 +6705,13 @@
         "from": "official-active",
         "to": "status-conflict-verification",
         "change": "第三方New-Grad发现源改为inactive，但Goldman官方详情仍显示Apply且无关闭文案；不自动判定关闭，继续核验。"
+      },
+      {
+        "checkedAt": "2026-10-07T07:20:44Z",
+        "jobId": "R265415",
+        "from": "direction-rejected-status-conflict",
+        "to": "direction-rejected",
+        "change": "Simplify增量源由inactive恢复为active，与Analog Devices官方Workday仍显示Apply一致；此前状态冲突解除。岗位方向排除结论不变。"
       }
     ],
     "sourcesChecked": [
@@ -6746,7 +6757,9 @@
       "Apple官方JD：200687472-0157、200687474-0157、200687477-0157、200687478-0157",
       "SimplifyJobs listings增量 c08b61a→d6dacf7",
       "SimplifyJobs listings增量 77a7bd0与a49b0aa",
-      "NXP官方Workday R-10064599"
+      "NXP官方Workday R-10064599",
+      "SimplifyJobs listings增量 3508a58与09f9593",
+      "Analog Devices官方Workday R265415"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -6777,7 +6790,8 @@
       "Texas Capital JR105779动态完整JD未取得，职责、最低经验与薪资继续ng-verification。",
       "本轮为增量与重点官方核验，未完成全部监控公司ATS全量分页。",
       "Apple 200687472-0157的2027年5月后入职、F-1 OPT/STEM OPT及Austin具体薪资未披露，保留start-date/visa/compensation verification。",
-      "R-10064599第三方inactive与官方Apply冲突；官方未披露本岗OPT、2027入职及Austin薪资。"
+      "R-10064599第三方inactive与官方Apply冲突；官方未披露本岗OPT、2027入职及Austin薪资。",
+      "本轮为上次运行后的增量和状态冲突复核；未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -7186,6 +7200,19 @@
         "coverageLimitations": [
           "官方未披露R-10064599的OPT、2027入职及Austin薪资。",
           "本轮为上次运行后的增量扫描，未完成全部公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-07T07:20:44Z",
+        "scope": "06:20 UTC后Texas New-Grad增量与已知岗位状态复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs listings 3508a58与09f9593",
+          "Analog Devices官方Workday R265415"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③无新增发现后排除；④Analog Devices R265415第三方状态由inactive恢复active，与官方Apply一致，解除status-verification；方向排除结论不变。",
+        "coverageLimitations": [
+          "Goldman Sachs 171569/171570的恢复active仅对应NYC与Salt Lake City，不属于Texas范围。",
+          "本轮为增量和状态复核，未完成全部公司ATS全量分页。"
         ]
       }
     ]
