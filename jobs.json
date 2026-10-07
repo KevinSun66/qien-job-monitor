@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T13:21:26Z",
+  "updatedAt": "2026-10-07T14:16:48Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6216,8 +6216,8 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-07T13:21:26Z",
-    "scope": "12:02 UTC后Texas New-Grad增量与RTX McKinney官方JD核验；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-07T14:16:48Z",
+    "scope": "执行用户新增身份硬过滤规则，并复查现有表2/待核验记录；TI/D3V规则不变。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6323,6 +6323,11 @@
         "checkedAt": "2026-10-07T13:21:26Z",
         "jobId": "01879531",
         "result": "RTX官方完整JD确认McKinney onsite、STEM学士且无最低年限，但硬性要求美国公民及DoD Secret许可；同时为电力电子硬件测试方向。按身份不兼容+方向不符排除。"
+      },
+      {
+        "checkedAt": "2026-10-07T14:16:48Z",
+        "jobId": "policy:exclude-explicit-citizen-lpr-only",
+        "result": "已新增美国公民/绿卡硬门槛过滤。复查现有记录：明确硬门槛岗位此前均已排除；当前表2没有需移出的岗位。RTX 01875418仅有第三方公民要求线索、官方未确认，继续status/visa verification，不误判。"
       }
     ],
     "newDiscoveries": [
@@ -6882,6 +6887,13 @@
         "from": "aggregator-active-status-verification",
         "to": "aggregator-inactive-status-verification",
         "change": "Simplify增量源将01875418改为inactive；官方Private Posting正文仍不可读取，未据此直接判定关闭。"
+      },
+      {
+        "checkedAt": "2026-10-07T14:16:48Z",
+        "jobId": "policy:exclude-explicit-citizen-lpr-only",
+        "from": "case-by-case recorded exclusions",
+        "to": "global hard filter",
+        "reason": "用户明确新增身份硬过滤规则；仅适用于JD明确要求美国公民或绿卡的岗位。"
       }
     ],
     "sourcesChecked": [
@@ -6936,7 +6948,8 @@
       "SimplifyJobs/New-Grad-Positions listings 38830ffa与bf6a9eff（2026-10-07 10:31/11:01 UTC）",
       "NVIDIA官方Workday JR2026967完整JD与官方搜索索引（2026-10-07）",
       "SimplifyJobs/New-Grad-Positions listings ec391caf与8e1e4b6e（2026-10-07 12:31/13:01 UTC）",
-      "RTX官方Workday 01879531完整JD（2026-10-07）"
+      "RTX官方Workday 01879531完整JD（2026-10-07）",
+      "qien-job-monitor现有172+岗位身份措辞复查（2026-10-07）"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -7040,6 +7053,13 @@
         "reason": "用户确认申请完成，要求纳入表2后进入Austin表3，保留全部相关信息和JD快照。",
         "archivesPreserved": true,
         "verificationContinues": true
+      },
+      {
+        "at": "2026-10-07T14:16:48Z",
+        "action": "exclude-explicit-citizen-lpr-only",
+        "reason": "用户明确要求：凡岗位明确要求美国公民、美国公民身份，或仅限美国公民/合法永久居民/绿卡持有人，而Qien当前身份不满足，一律排除，不推荐、不进表2、不提醒。",
+        "preserveAuditAndArchives": true,
+        "doNotOvergeneralize": true
       }
     ],
     "runHistory": [
@@ -7436,6 +7456,17 @@
         "coverageLimitations": [
           "本轮未完成全部监控公司ATS全量分页。"
         ]
+      },
+      {
+        "checkedAt": "2026-10-07T14:16:48Z",
+        "scope": "新增身份硬过滤规则并复查现有表2/待核验岗位。",
+        "sourcesChecked": [
+          "qien-job-monitor jobs.json现有身份字段与状态"
+        ],
+        "result": "①无新增表2；②无新增待核验；③无新增职位排除（明确公民硬门槛的既有岗位此前均已排除）；④监控资格规则更新：明确要求美国公民或绿卡且Qien不满足的职位今后一律排除，不推荐、不进表2、不提醒。",
+        "coverageLimitations": [
+          "RTX 01875418当前只有第三方公民/许可线索，官方正文仍不可读；按“明确要求”标准继续待核验。"
+        ]
       }
     ]
   },
@@ -7464,6 +7495,16 @@
       "decidedAt": "2026-10-05T16:31:34Z",
       "resumeCondition": "用户明确要求恢复",
       "archivesPreserved": true
+    }
+  ],
+  "eligibilityRules": [
+    {
+      "ruleId": "exclude-explicit-citizen-lpr-only",
+      "enabled": true,
+      "decidedAt": "2026-10-07T14:16:48Z",
+      "rule": "职位若明确要求U.S. citizen/U.S. citizenship required、仅限U.S. citizen或lawful permanent resident/Green Card holder，而Qien当前身份不满足，则直接排除。",
+      "action": "不进入推荐、表2或提醒；保留发现/排除审计及历史/JD快照。",
+      "exceptions": "仅写一般work authorization、未来不赞助或未明确身份限制的岗位不自动排除；继续按OPT规则逐岗核验。"
     }
   ]
 }
