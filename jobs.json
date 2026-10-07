@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T19:19:13Z",
+  "updatedAt": "2026-10-07T20:16:28Z",
   "jobs": [
     {
       "company": "IBM",
@@ -5746,15 +5746,15 @@
       "gradYear": "学历/经验门槛与2027入职待核验",
       "match": "待核验 · 本地便利但相对Ryan升级尚不明确",
       "ngCompatibility": "ng-verification：官方动态正文未完整取得",
-      "assessment": "增量源确认Texas Capital Bank Richardson Associate Engineer。官方Careers将Students & Graduates列为独立通道，且Workday相似职位中可见该岗位，但本轮未取得JR105779完整职责、最低经验和薪资。标题偏通用工程，本地通勤便利，但相对Ryan的品牌、薪资与Applied AI/ML成长升级尚未成立；保留待核验，不进入表2。",
+      "assessment": "已知岗位状态变化：Texas增量源将Texas Capital Bank Richardson Associate Engineer（JR105779）由active改为inactive。官方Workday动态正文仍无法完整取得，因此按status-verification保留历史，不把聚合源inactive自动等同于官方关闭；该岗位此前未进入表2。",
       "visa": "visa-verification：官方授权条款未取得。",
       "found": "2026-10-06",
       "discoveredDate": "2026-10-06",
       "discoveredAt": "2026-10-07T04:21:02Z",
       "firstSeen": "2026-10-06",
       "url": "https://texascapitalbank.wd12.myworkdayjobs.com/Careers/job/Richardson-TX/Associate-Engineer_JR105779",
-      "status": "verification",
-      "finalPriority": "待核验 · 暂不进入表2",
+      "status": "aggregator-inactive-status-verification",
+      "finalPriority": "疑似关闭/下架，待官方确认 · 不进入表2",
       "roleTrack": "Engineering / General Software or Platform (unverified)",
       "technicalGrowth": "完整JD未取得",
       "brandPlatform": "Dallas区域银行；平台升级相对Ryan未明确",
@@ -5762,14 +5762,15 @@
       "compensation": "未披露/未核验",
       "officePerks": "Richardson, TX",
       "jobId": "JR105779",
-      "lastChecked": "2026-10-06",
-      "lastCheckedAt": "2026-10-07T04:21:02Z",
-      "officialStatus": "发现源active；Texas Capital官方Workday相似职位列表显示Associate Engineer，但JR105779动态正文未完整取得。",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T20:16:28Z",
+      "officialStatus": "SimplifyJobs Texas增量源于2026-10-07 20:01:52Z将该岗位由active改为inactive；Texas Capital官方Workday动态正文仍不可直接读取，故未据此直接判定官方关闭。",
       "verificationFlags": [
         "ng-verification",
         "visa-verification",
         "start-date-verification",
-        "official-jd-verification"
+        "official-jd-verification",
+        "status-verification"
       ],
       "discoverySource": "SimplifyJobs listings commit 41f1ccd1870f36cf30e1ffff51346095cb79162a；Texas Capital官方Careers/Workday",
       "rejectionReason": null
@@ -6290,8 +6291,8 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-07T19:19:13Z",
-    "scope": "18:02 UTC后Texas New-Grad增量与Pariveda Dallas Software Engineer II状态/职责/薪资复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-07T20:16:28Z",
+    "scope": "19:02 UTC后Texas New-Grad增量与已知岗位状态核验；TI/D3V跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6982,70 +6983,21 @@
         "from": "case-by-case recorded exclusions",
         "to": "global hard filter",
         "reason": "用户明确新增身份硬过滤规则；仅适用于JD明确要求美国公民或绿卡的岗位。"
+      },
+      {
+        "checkedAt": "2026-10-07T20:16:28Z",
+        "jobId": "JR105779",
+        "from": "aggregator-active-verification",
+        "to": "aggregator-inactive-status-verification",
+        "change": "SimplifyJobs Texas增量源将JR105779由active改为inactive；官方Workday正文仍不可读取，未据此直接判定官方关闭。"
       }
     ],
     "sourcesChecked": [
-      "SimplifyJobs/New-Grad-Positions dev SHA 5e1eef3fa7a31da76018ad37408201e2815e6567",
-      "Trinity 2600865官方closed页",
-      "Applied Materials R2627684/R2628156/R2619452官方JD",
-      "NVIDIA JR2013488/JR2024557/JR2015952/JR2016276官方索引",
-      "UT Austin R_00048016/R_00047575官方索引",
-      "Liberty Mutual 618519224159官方多城市页",
-      "PayPal R0137237官方索引",
-      "GM Financial 260957 Oracle ATS",
-      "Pariveda官方Ashby",
-      "SimplifyJobs/New-Grad-Positions README SHA 0212c40b2374bac39f511d61f1c737b5d8a07eeb（23:02 UTC增量）",
-      "RTX官方Workday requisition 01879328链接",
-      "Apple Austin官方搜索列表（2026-10-05）",
-      "Apple 200687311-0157官方详情/最低资格",
-      "Apple 200687294-0157官方详情入口",
-      "SimplifyJobs/New-Grad-Positions listings 449763e3（2026-10-06T04:01:08Z）",
-      "SimplifyJobs/New-Grad-Positions README commit 0a80ec98045889e7f01bd7ead2e608906a3bca95",
-      "RTX官方Workday 01875418",
-      "01875418同标题/同地点同步职位资料（仅作核验线索）",
-      "SimplifyJobs/New-Grad-Positions listings commit 7187b3d713632254fea94defab7988e54dcce396",
-      "SimplifyJobs/New-Grad-Positions listings commit 6ecc11eb53525f7a75035da87ed0dff046b38dad",
-      "Goldman Sachs官方Higher页面171568及Oracle申请入口",
-      "Baker Tilly官方Workday JR106581入口",
-      "SimplifyJobs/New-Grad-Positions listings commit 6ad486404cce0ae6c39e27f43c7af102c4c72ab0",
-      "SimplifyJobs/New-Grad-Positions README commit a93d506de6041c14f7a0ba2181bdae33b712a82c",
-      "SimplifyJobs/New-Grad-Positions listings commit 975645b2292c02645338d8bc11bac4b9e1aca7b5",
-      "SimplifyJobs/New-Grad-Positions README commit ed783ebfaa57a06afa6c689560e41bc83e4e9637",
-      "SimplifyJobs/New-Grad-Positions listings commit 57e2904f26c430a7214b4e57c3fbc688cb340fc0",
-      "SimplifyJobs/New-Grad-Positions listings commit 0d948bffb87c0ece7df9dcc6e574623890060d59",
-      "JPMorgan Chase官方职位索引 210794232",
-      "SimplifyJobs/New-Grad-Positions listings commit a40fb1dde78157f15545cb69351f44ae06f5971e",
-      "SimplifyJobs/New-Grad-Positions listings commit 1378f740418b9b80664a703030400b2198ad48b4",
-      "Vestwell官方职位页/Greenhouse 7983915003",
-      "SimplifyJobs listings commits 166eca518088daeb5bf04294d8db269bcaf96b30 / 41f1ccd1870f36cf30e1ffff51346095cb79162a / 376842805fa9a7846c02a964c6364149a7f5819c / 77a1e8be31643f3b35ccf79293f2d40bfaab4da9",
-      "Visa官方Workday REF082600W",
-      "Texas Capital Bank官方Careers/Workday JR105779",
-      "L3Harris官方JD 45702/45704",
-      "Analog Devices官方Workday R265415",
-      "Micron官方Workday JR107044",
-      "Apple Austin官方职位列表（2026-10-07最新排序）",
-      "Apple官方JD：200687472-0157、200687474-0157、200687477-0157、200687478-0157",
-      "SimplifyJobs listings增量 c08b61a→d6dacf7",
-      "SimplifyJobs listings增量 77a7bd0与a49b0aa",
-      "NXP官方Workday R-10064599",
-      "SimplifyJobs listings增量 3508a58与09f9593",
-      "Analog Devices官方Workday R265415",
-      "SimplifyJobs listings增量 55cc292与b25b652",
-      "AMD Careers 91410官方入口（访问受限）",
-      "RTX Workday 01875418官方Private Posting入口（正文不可读）",
-      "SimplifyJobs/New-Grad-Positions listings 38830ffa与bf6a9eff（2026-10-07 10:31/11:01 UTC）",
-      "NVIDIA官方Workday JR2026967完整JD与官方搜索索引（2026-10-07）",
-      "SimplifyJobs/New-Grad-Positions listings ec391caf与8e1e4b6e（2026-10-07 12:31/13:01 UTC）",
-      "RTX官方Workday 01879531完整JD（2026-10-07）",
-      "qien-job-monitor现有172+岗位身份措辞复查（2026-10-07）",
-      "SimplifyJobs/New-Grad-Positions listings commits 382987fbc56d647115b2b5de01fa01559fc1e2c5与f02e70aa47ca736f5cd39700953b10b124296281",
-      "Emerson官方Oracle requisition 26011531与Built In Austin完整同步JD",
-      "SimplifyJobs/New-Grad-Positions listings commits 84629f2455cc7d6b590318ad1d3c3b33f9d3d76b与dba68eba777c8a27ef828ec2045e16911904587f",
-      "Pariveda官方Ashby 48cfdabe-9dcc-4324-8e07-4a5ddf3af2e1索引与Jobright同步JD"
+      "SimplifyJobs listings commits dba68eb与bb568e4",
+      "Texas Capital官方Workday JR105779（动态正文不可访问）"
     ],
     "coverageLimitations": [
-      "Pariveda官方Ashby动态页正文无法直接渲染；增量源inactive和独立同步页closed构成关闭信号，但仍保留status-verification。",
-      "Pariveda授权措辞未明确排除初始F-1 OPT，未按签证不兼容处理。",
+      "JR105779官方Workday动态正文仍不可直接读取；本轮仅确认增量源由active转inactive，未将其断言为官方关闭。",
       "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
@@ -7554,6 +7506,19 @@
         "coverageLimitations": [
           "官方Ashby动态正文无法直接渲染，未把聚合源inactive单独视为官方关闭。",
           "OPT与2027入职未确认。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-07T20:16:28Z",
+        "scope": "19:02 UTC后Texas New-Grad增量与已知岗位状态核验；TI/D3V跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs listings commits dba68eb与bb568e4",
+          "Texas Capital官方Workday JR105779（动态正文不可访问）"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③无新增排除；④Texas Capital Bank Associate Engineer（JR105779）增量源由active转inactive，标记为status-verification；官方是否关闭仍待确认。",
+        "coverageLimitations": [
+          "JR105779官方Workday动态正文仍不可直接读取；本轮仅确认增量源由active转inactive，未将其断言为官方关闭。",
+          "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
         ]
       }
     ]
