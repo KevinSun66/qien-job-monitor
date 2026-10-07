@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T10:19:44Z",
+  "updatedAt": "2026-10-07T11:14:11Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6129,11 +6129,59 @@
       ],
       "discoverySource": "SimplifyJobs listings commit 55cc292a686b83a847c448e30f3afb6da7f6f242",
       "rejectionReason": "电子工程技术员/硬件方向，不是Qien目标Applied AI/ML/DS、AI Engineer或MLE；相对Ryan无技术路线和岗位层级升级。"
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin为官方完整职位页列明地点之一（共6地）",
+      "title": "AI Developer Technology Engineer (JR2026967)",
+      "jobId": "JR2026967",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/AI-Developer-Technology-Engineer_JR2026967-1",
+      "status": "ng-verification",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-07T11:14:11Z",
+      "firstSeen": "2026-10-07",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T11:14:11Z",
+      "employment": "全职 · 常规职位 · Level 2/3",
+      "gradYear": "未限定毕业年份；2027年5月后入职兼容性待确认",
+      "ngCompatibility": "官方要求相关计算领域硕士或同等经验，并要求1年以上相关软件工程/性能调优工作或研究经验。Qien是否能以本科+研究经历满足“同等经验”，以及C/C++、GPU低层性能优化证据，仍需核验。",
+      "minimumQualifications": "MS in CS/CE或相关计算领域（或同等经验）；1+年相关工作或研究；流利C/C++、算法、并行编程、性能分析/优化、低层优化及CPU/GPU架构基础。",
+      "assessment": "方向高度相关：生成式AI训练/推理、LLM/扩散/多模态、GPU加速、训练与推理框架及开源库。NVIDIA品牌、官方L2/L3底薪和GPU/GenAI技术成长明显高于Ryan；但Qien现有已知背景尚不能确认硕士同等经验和低层C/C++/GPU优化门槛，且2027年5月后入职与OPT未披露，因此先列待核验，不进入当前表2。",
+      "visa": "visa-verification：官方JD未披露F-1 OPT/STEM OPT、E-Verify/I-983或未来sponsorship规则；不因未披露而推定不接受初始OPT。",
+      "compensation": "官方底薪：Level 2 $124,000–$195,500；Level 3 $152,000–$241,500，另有股权和福利；具体按地点、经验和职级确定。",
+      "officialPostedDate": "2026-10-03（官方搜索索引显示约4天前；第三方同步页给出2026-10-03，精确官方绝对日期仍保留轻微不确定性）",
+      "deadline": "官方写明至少接受至2026-10-06；2026-10-07职位页仍可检索并显示Apply，不能把最低接受日至自动当作关闭日。",
+      "officialStatus": "2026-10-07官方Workday页面仍可检索并显示Apply；职位现仍按开放处理。",
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, MA, Westford",
+        "US, TX, Austin",
+        "US, OR, Hillsboro",
+        "US, NC, Durham",
+        "US, CA, Remote"
+      ],
+      "locationListComplete": true,
+      "source": "NVIDIA官方Workday完整JD；官方搜索索引用于多地点与实时状态交叉核验",
+      "verificationFlags": [
+        "ng-verification",
+        "start-date-verification",
+        "visa-verification"
+      ],
+      "finalPriority": "待核验 · 不进入表2",
+      "roleTrack": "Generative AI / LLM训练与推理 / GPU性能优化 / Developer Technology",
+      "technicalGrowth": "99/100（若资格通过）",
+      "brandPlatform": "100/100",
+      "ryanUpgrade": "潜在显著升级：官方L2底薪下限已明显高于Ryan，且NVIDIA GPU/GenAI平台成长价值极高；资格、2027入职及OPT尚未通过。",
+      "whyRyan": "品牌、薪资和AI系统技术成长均有明显潜在提升；当前阻点不是机会成本，而是硕士同等经验、C/C++/GPU底层优化证据、入职时间与OPT。",
+      "rejectionReason": null
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-07T10:19:44Z",
-    "scope": "09:01 UTC后Texas New-Grad增量、Austin新增职位与已知RTX Richardson状态复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-07T11:14:11Z",
+    "scope": "10:19 UTC后Texas New-Grad增量与Austin官方AI/ML职位补发现；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6229,6 +6277,11 @@
         "checkedAt": "2026-10-07T10:19:44Z",
         "jobId": "01875418",
         "result": "RTX Software Engineer I：第三方发现源由active变为inactive；官方Private Posting正文仍不可读且无官方关闭确认，继续status-verification。"
+      },
+      {
+        "checkedAt": "2026-10-07T11:14:11Z",
+        "jobId": "JR2026967",
+        "result": "NVIDIA官方完整JD仍显示Apply；Austin在6个地点中。MS或同等经验、1+年工作/研究、C/C++及GPU低层优化已核实；Qien资格、2027入职与OPT待核验。"
       }
     ],
     "newDiscoveries": [
@@ -6638,6 +6691,13 @@
         "jobId": "91410",
         "status": "direction-rejected",
         "reason": "Austin Electronics Engineering Technician为电子硬件技术员方向，非Applied AI/ML/DS、AI Engineer或MLE；相对Ryan无技术路线与岗位层级升级。"
+      },
+      {
+        "checkedAt": "2026-10-07T11:14:11Z",
+        "company": "NVIDIA",
+        "jobId": "JR2026967",
+        "status": "ng-verification",
+        "reason": "Austin AI Developer Technology Engineer新补发现；生成式AI/GPU方向及薪资相对Ryan有明显潜在升级，但硕士同等经验、C/C++/GPU低层优化、2027入职和OPT仍待核验。"
       }
     ],
     "verificationChanges": [
@@ -6824,7 +6884,9 @@
       "Analog Devices官方Workday R265415",
       "SimplifyJobs listings增量 55cc292与b25b652",
       "AMD Careers 91410官方入口（访问受限）",
-      "RTX Workday 01875418官方Private Posting入口（正文不可读）"
+      "RTX Workday 01875418官方Private Posting入口（正文不可读）",
+      "SimplifyJobs/New-Grad-Positions listings 38830ffa与bf6a9eff（2026-10-07 10:31/11:01 UTC）",
+      "NVIDIA官方Workday JR2026967完整JD与官方搜索索引（2026-10-07）"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -6858,7 +6920,9 @@
       "R-10064599第三方inactive与官方Apply冲突；官方未披露本岗OPT、2027入职及Austin薪资。",
       "本轮为上次运行后的增量和状态冲突复核；未完成全部监控公司ATS全量分页。",
       "AMD 91410官方完整JD受访问限制，经验、2027入职、OPT和薪资未核验；方向排除可由职位标题与硬件类别确定。",
-      "RTX 01875418第三方inactive但官方正文不可读，关闭状态未获官方确认。"
+      "RTX 01875418第三方inactive但官方正文不可读，关闭状态未获官方确认。",
+      "JR2026967未披露OPT/E-Verify/I-983或2027年5月后入职；Qien是否满足MS同等经验与GPU低层优化门槛仍待核验。",
+      "本轮为上次运行后的增量与NVIDIA重点补抓，未完成全部公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -7295,6 +7359,19 @@
           "AMD 91410官方完整JD与实时Apply状态未直接取得，OPT、2027入职和薪资未知。",
           "RTX 01875418官方Private Posting正文不可读，未将第三方inactive自动等同官方关闭。",
           "Waco新增L3Harris岗位不属于DFW/Austin范围；本轮未完成全部公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-07T11:14:11Z",
+        "scope": "10:19 UTC后Texas增量与NVIDIA Austin AI/ML官方补抓；TI/D3V跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 38830ffa与bf6a9eff",
+          "NVIDIA官方Workday JR2026967完整JD及官方搜索索引"
+        ],
+        "result": "①无新增进入表2；②新增NVIDIA AI Developer Technology Engineer（JR2026967）待核验；③无新增排除；④无已知职位状态变化。",
+        "coverageLimitations": [
+          "JR2026967的OPT、2027入职及Qien的MS同等经验/C++ GPU低层优化资格待核验。",
+          "本轮未完成全部监控公司ATS全量分页。"
         ]
       }
     ]
