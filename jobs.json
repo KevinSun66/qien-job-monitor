@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T20:16:35Z",
+  "updatedAt": "2026-10-07T04:21:02Z",
   "jobs": [
     {
       "company": "IBM",
@@ -5699,11 +5699,230 @@
       ],
       "discoverySource": "SimplifyJobs/New-Grad-Positions listings commit 1378f740418b9b80664a703030400b2198ad48b4；Vestwell官方职位页及Greenhouse职位板",
       "rejectionReason": "发现时已关闭；且职责偏React/TypeScript前端通用SDE，相对Ryan的Applied AI/ML/DS技术路线升级不足。"
+    },
+    {
+      "company": "Visa",
+      "tier": "A+待核验",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Software Engineer – Operations and Infrastructure (REF082600W)",
+      "employment": "全职 · Hybrid（每周至少3天办公室）· Early Career",
+      "gradYear": "本科即可；2027年5月后入职兼容性待确认",
+      "match": "较高潜力 · 品牌/薪资/平台升级，但方向与授权待核验",
+      "ngCompatibility": "ng-verification：Basic Qualifications接受本科；Preferred为1–2年而非明确最低门槛",
+      "assessment": "Visa Austin早期职业Software Engineer，负责后端服务、API、全栈应用、自动化、平台能力、云原生与分布式系统。品牌、规模化工程平台和$88K–$136.9K薪资区间相对Ryan可能构成升级；但并非Applied AI/ML建模岗位，且2027年5月后入职与F-1 OPT兼容性未确认，先列待核验，不进入当前表2。",
+      "visa": "visa-verification：官方JD未出现OPT、STEM OPT、E-Verify、永久授权或明确拒绝初始OPT的措辞。",
+      "found": "2026-10-06",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T04:21:02Z",
+      "firstSeen": "2026-10-06",
+      "url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/Software-Engineer--Operations-and-Infrastructure_REF082600W",
+      "status": "verification",
+      "finalPriority": "待核验 · 潜在A+",
+      "roleTrack": "Software Engineering / Platform / Cloud Infrastructure",
+      "technicalGrowth": "后端、API、全栈、自动化、云原生、分布式系统、可观测性与可靠性",
+      "brandPlatform": "Visa全球支付科技平台，明显强于一般区域性公司",
+      "ryanUpgrade": "潜在升级：薪资上限、品牌和大规模平台更强；但Applied AI/ML方向贴合度低于Ryan",
+      "compensation": "$88,000–$136,900 base；可能含bonus与equity",
+      "officePerks": "Austin hybrid；每周至少3天到岗；5%–10% travel",
+      "jobId": "REF082600W",
+      "lastChecked": "2026-10-06",
+      "lastCheckedAt": "2026-10-07T04:21:02Z",
+      "officialStatus": "Visa官方Workday页面显示Apply并提供完整JD。",
+      "verificationFlags": [
+        "visa-verification",
+        "start-date-verification"
+      ],
+      "discoverySource": "SimplifyJobs listings commit 376842805fa9a7846c02a964c6364149a7f5819c；Visa官方Workday",
+      "rejectionReason": null
+    },
+    {
+      "company": "Texas Capital Bank",
+      "tier": "发现/待核验",
+      "area": "Richardson, TX",
+      "market": "DFW",
+      "title": "Associate Engineer (JR105779)",
+      "employment": "全职 · Associate Engineering",
+      "gradYear": "学历/经验门槛与2027入职待核验",
+      "match": "待核验 · 本地便利但相对Ryan升级尚不明确",
+      "ngCompatibility": "ng-verification：官方动态正文未完整取得",
+      "assessment": "增量源确认Texas Capital Bank Richardson Associate Engineer。官方Careers将Students & Graduates列为独立通道，且Workday相似职位中可见该岗位，但本轮未取得JR105779完整职责、最低经验和薪资。标题偏通用工程，本地通勤便利，但相对Ryan的品牌、薪资与Applied AI/ML成长升级尚未成立；保留待核验，不进入表2。",
+      "visa": "visa-verification：官方授权条款未取得。",
+      "found": "2026-10-06",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T04:21:02Z",
+      "firstSeen": "2026-10-06",
+      "url": "https://texascapitalbank.wd12.myworkdayjobs.com/Careers/job/Richardson-TX/Associate-Engineer_JR105779",
+      "status": "verification",
+      "finalPriority": "待核验 · 暂不进入表2",
+      "roleTrack": "Engineering / General Software or Platform (unverified)",
+      "technicalGrowth": "完整JD未取得",
+      "brandPlatform": "Dallas区域银行；平台升级相对Ryan未明确",
+      "ryanUpgrade": "未确认：需先核验职责、薪资与Applied AI/ML相关性",
+      "compensation": "未披露/未核验",
+      "officePerks": "Richardson, TX",
+      "jobId": "JR105779",
+      "lastChecked": "2026-10-06",
+      "lastCheckedAt": "2026-10-07T04:21:02Z",
+      "officialStatus": "发现源active；Texas Capital官方Workday相似职位列表显示Associate Engineer，但JR105779动态正文未完整取得。",
+      "verificationFlags": [
+        "ng-verification",
+        "visa-verification",
+        "start-date-verification",
+        "official-jd-verification"
+      ],
+      "discoverySource": "SimplifyJobs listings commit 41f1ccd1870f36cf30e1ffff51346095cb79162a；Texas Capital官方Careers/Workday",
+      "rejectionReason": null
+    },
+    {
+      "company": "L3Harris Technologies",
+      "tier": "发现/排除审计",
+      "area": "Richardson, TX",
+      "market": "DFW",
+      "title": "Senior Associate, Software Engineer (Job 45702 / 1437497300)",
+      "employment": "全职 · New Grads · 9/80",
+      "gradYear": "追求硕士，或本科毕业不超过12个月；时间表面兼容",
+      "match": "方向排除 · 嵌入式战术通信SDE",
+      "ngCompatibility": "基本早期职业资格通过；安全许可要求未对本编号明确确认",
+      "assessment": "官方JD确认属于New Grads，面向在读硕士或本科毕业12个月内申请者；职责是战术无线电实时控制嵌入式软件、硬件/软件接口、测试与集成，技术栈偏C/C++、RTOS和嵌入式系统。不是Qien目标的Applied AI/ML/DS，相对Ryan技术路线升级不足，因此排除。",
+      "visa": "visa-verification：页面仅提示L3Harris许多岗位要求安全许可且许可仅授予美国公民，但未明确本requisition一定要求；不据此单独判定OPT不兼容。",
+      "found": "2026-10-06",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T04:21:02Z",
+      "firstSeen": "2026-10-06",
+      "url": "https://jobs.l3harris.com/job/Richardson-Senior-Associate%2C-Software-Engineer-TX-75080/1437497300/",
+      "status": "direction-rejected",
+      "finalPriority": "排除 · 发现审计保留",
+      "roleTrack": "Embedded Software / Defense Tactical Radio",
+      "technicalGrowth": "C/C++、RTOS、实时控制、嵌入式系统",
+      "brandPlatform": "大型国防承包商；方向不符合Qien目标",
+      "ryanUpgrade": "不足：不是Applied AI/ML/DS，且潜在安全许可风险",
+      "compensation": "官方本轮未取得",
+      "officePerks": "Richardson；9/80，每两周休一个周五",
+      "jobId": "45702",
+      "lastChecked": "2026-10-06",
+      "lastCheckedAt": "2026-10-07T04:21:02Z",
+      "officialStatus": "官方L3Harris页面显示开放。",
+      "verificationFlags": [
+        "visa-verification",
+        "start-date-verification"
+      ],
+      "discoverySource": "SimplifyJobs listings commit 41f1ccd1870f36cf30e1ffff51346095cb79162a；L3Harris官方JD",
+      "rejectionReason": "职责为国防战术无线电嵌入式SDE，非Applied AI/ML/DS；相对Ryan目标技术路线升级不足。"
+    },
+    {
+      "company": "L3Harris Technologies",
+      "tier": "发现/排除审计",
+      "area": "Richardson, TX",
+      "market": "DFW",
+      "title": "Senior Associate, Software Engineer (Job 45704 / 1437500700)",
+      "employment": "全职 · New Grads · 9/80",
+      "gradYear": "追求硕士，或本科毕业不超过12个月；时间表面兼容",
+      "match": "方向排除 · 与45702近重复的嵌入式战术通信SDE",
+      "ngCompatibility": "基本早期职业资格通过；安全许可要求未对本编号明确确认",
+      "assessment": "官方JD与45702职责近似：战术无线电实时控制嵌入式软件、硬件/软件接口、测试及集成。虽为New Grads并接受本科毕业12个月内候选人，但非Applied AI/ML/DS方向，相对Ryan升级不足。",
+      "visa": "visa-verification：页面有通用安全许可/美国公民提示，但未明确本编号一定要求；不将其自动当作OPT拒绝证据。",
+      "found": "2026-10-06",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T04:21:02Z",
+      "firstSeen": "2026-10-06",
+      "url": "https://jobs.l3harris.com/job/Richardson-Senior-Associate,-Software-Engineer-TX-75080/1437500700/",
+      "status": "direction-rejected",
+      "finalPriority": "排除 · 发现审计保留",
+      "roleTrack": "Embedded Software / Defense Tactical Radio",
+      "technicalGrowth": "C/C++、RTOS、实时控制、嵌入式系统",
+      "brandPlatform": "大型国防承包商；方向不符合Qien目标",
+      "ryanUpgrade": "不足：不是Applied AI/ML/DS，且潜在安全许可风险",
+      "compensation": "官方本轮未取得",
+      "officePerks": "Richardson；9/80",
+      "jobId": "45704",
+      "lastChecked": "2026-10-06",
+      "lastCheckedAt": "2026-10-07T04:21:02Z",
+      "officialStatus": "官方L3Harris页面显示Apply Now。",
+      "verificationFlags": [
+        "visa-verification",
+        "start-date-verification"
+      ],
+      "discoverySource": "SimplifyJobs listings commit 41f1ccd1870f36cf30e1ffff51346095cb79162a；L3Harris官方JD",
+      "rejectionReason": "职责为国防战术无线电嵌入式SDE，非Applied AI/ML/DS；相对Ryan目标技术路线升级不足。"
+    },
+    {
+      "company": "Analog Devices",
+      "tier": "发现/排除审计",
+      "area": "Dallas, TX",
+      "market": "DFW",
+      "title": "Associate Design Verification Engineer (R265415)",
+      "employment": "全职 · Graduate Job · 10% travel",
+      "gradYear": "本科；0–2年；New Graduate明确鼓励",
+      "match": "方向排除 · 芯片设计验证硬件岗",
+      "ngCompatibility": "0–2年经验门槛通过",
+      "assessment": "官方JD明确为芯片数字/模拟/混合信号设计验证，核心要求SystemVerilog、RTL、UVM/覆盖验证与EDA工具。虽然0–2年且鼓励New Graduates，但属于半导体硬件验证，不是Applied AI/ML/DS或MLE软件方向，相对Ryan无目标技术路线升级。",
+      "visa": "visa-verification：官方称部分非公民/非绿卡/非受保护个人可能需要出口许可审查；这不是明确拒绝初始OPT。",
+      "found": "2026-10-06",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T04:21:02Z",
+      "firstSeen": "2026-10-06",
+      "url": "https://analogdevices.wd1.myworkdayjobs.com/en-US/External/job/Associate-Design-Verification-Engineer_R265415",
+      "status": "direction-rejected-status-conflict",
+      "finalPriority": "排除 · 发现审计保留",
+      "roleTrack": "Semiconductor Design Verification / Hardware",
+      "technicalGrowth": "SystemVerilog、RTL、UVM、EDA、混合信号验证",
+      "brandPlatform": "知名半导体公司，但方向偏硬件",
+      "ryanUpgrade": "不足：与Qien Applied AI/ML/DS目标不符",
+      "compensation": "官方本轮未显示薪资",
+      "officePerks": "Dallas Tollway；10% travel",
+      "jobId": "R265415",
+      "lastChecked": "2026-10-06",
+      "lastCheckedAt": "2026-10-07T04:21:02Z",
+      "officialStatus": "Simplify增量源标记inactive，但Analog Devices官方Workday仍显示Apply，保留status-verification。",
+      "verificationFlags": [
+        "status-verification",
+        "visa-verification",
+        "start-date-verification"
+      ],
+      "discoverySource": "SimplifyJobs listings commit 166eca518088daeb5bf04294d8db269bcaf96b30；Analog Devices官方Workday",
+      "rejectionReason": "0–2年资格通过，但职责为芯片/RTL设计验证硬件岗，非Applied AI/ML/DS。"
+    },
+    {
+      "company": "Micron Technology",
+      "tier": "发现/排除审计",
+      "area": "Richardson, TX / Folsom, CA",
+      "market": "DFW",
+      "title": "Sr HBM Design Architect, PhD NCG (JR107044)",
+      "employment": "全职 · New College Graduate · Hardware Architecture",
+      "gradYear": "要求NCG PhD，或NCG硕士+相关先前经验",
+      "match": "学历与方向排除",
+      "ngCompatibility": "不通过：Qien本科背景不满足PhD或硕士+相关经验",
+      "assessment": "官方JD为HBM内存架构、DRAM数字/模拟电路设计与半导体器件物理岗位；要求NCG PhD，或NCG硕士并具相关先前经验。Qien预计本科毕业，不满足学历门槛，且岗位偏硬件架构而非Applied AI/ML/DS。",
+      "visa": "visa-verification：官方JD本轮未取得明确OPT条款；无需以签证作为排除依据。",
+      "found": "2026-10-06",
+      "discoveredDate": "2026-10-06",
+      "discoveredAt": "2026-10-07T04:21:02Z",
+      "firstSeen": "2026-10-06",
+      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/Sr-HBM-Design-Architect--PhD-NCG_JR107044",
+      "status": "education-and-direction-rejected-status-conflict",
+      "finalPriority": "排除 · 发现审计保留",
+      "roleTrack": "HBM / DRAM Architecture / Semiconductor Hardware",
+      "technicalGrowth": "HBM、DRAM、CMOS、混合信号电路；仅少量AI辅助研究表述",
+      "brandPlatform": "半导体大厂，但学历和方向均不匹配",
+      "ryanUpgrade": "不可比较：不满足学历门槛，且非目标AI/ML/DS路线",
+      "compensation": "$97,000–$205,000 base；可能另有bonus/equity",
+      "officePerks": "Richardson或Folsom",
+      "jobId": "JR107044",
+      "lastChecked": "2026-10-06",
+      "lastCheckedAt": "2026-10-07T04:21:02Z",
+      "officialStatus": "Simplify增量源标记inactive，但Micron官方Workday仍显示Apply，保留status-verification。",
+      "verificationFlags": [
+        "status-verification",
+        "visa-verification"
+      ],
+      "discoverySource": "SimplifyJobs listings commit 77a1e8be31643f3b35ccf79293f2d40bfaab4da9；Micron官方Workday",
+      "rejectionReason": "要求PhD或硕士+相关经验，Qien本科不满足；且职责为HBM/DRAM硬件架构，非Applied AI/ML/DS。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-06T20:16:35Z",
-    "scope": "19:02 UTC后New-Grad增量与Texas地点变化复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-07T04:21:02Z",
+    "scope": "2026-10-06 20:01 UTC后New-Grad增量与Texas官方JD复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -5754,6 +5973,36 @@
         "checkedAt": "2026-10-06T20:16:35Z",
         "jobId": "7983915003",
         "result": "Vestwell Austin Associate Software Engineer官方静态JD仍在，但Greenhouse申请链接报错且现有职位清单无此岗；按closed-at-discovery归档。"
+      },
+      {
+        "checkedAt": "2026-10-07T04:21:02Z",
+        "jobId": "REF082600W",
+        "result": "Visa Software Engineer – Operations and Infrastructure (REF082600W)：verification。保留待核验，不进入表2。"
+      },
+      {
+        "checkedAt": "2026-10-07T04:21:02Z",
+        "jobId": "JR105779",
+        "result": "Texas Capital Bank Associate Engineer (JR105779)：verification。保留待核验，不进入表2。"
+      },
+      {
+        "checkedAt": "2026-10-07T04:21:02Z",
+        "jobId": "45702",
+        "result": "L3Harris Technologies Senior Associate, Software Engineer (Job 45702 / 1437497300)：direction-rejected。职责为国防战术无线电嵌入式SDE，非Applied AI/ML/DS；相对Ryan目标技术路线升级不足。"
+      },
+      {
+        "checkedAt": "2026-10-07T04:21:02Z",
+        "jobId": "45704",
+        "result": "L3Harris Technologies Senior Associate, Software Engineer (Job 45704 / 1437500700)：direction-rejected。职责为国防战术无线电嵌入式SDE，非Applied AI/ML/DS；相对Ryan目标技术路线升级不足。"
+      },
+      {
+        "checkedAt": "2026-10-07T04:21:02Z",
+        "jobId": "R265415",
+        "result": "Analog Devices Associate Design Verification Engineer (R265415)：direction-rejected-status-conflict。0–2年资格通过，但职责为芯片/RTL设计验证硬件岗，非Applied AI/ML/DS。"
+      },
+      {
+        "checkedAt": "2026-10-07T04:21:02Z",
+        "jobId": "JR107044",
+        "result": "Micron Technology Sr HBM Design Architect, PhD NCG (JR107044)：education-and-direction-rejected-status-conflict。要求PhD或硕士+相关经验，Qien本科不满足；且职责为HBM/DRAM硬件架构，非Applied AI/ML/DS。"
       }
     ],
     "newDiscoveries": [
@@ -6079,6 +6328,48 @@
         "jobId": "7983915003",
         "status": "closed-at-discovery",
         "reason": "Austin 0–2年Associate Software Engineer，$95K–$110K+bonus/equity；发现时Greenhouse已移除。职责偏React/TypeScript前端SDE，相对Ryan技术路线升级不足。"
+      },
+      {
+        "checkedAt": "2026-10-07T04:21:02Z",
+        "company": "Visa",
+        "jobId": "REF082600W",
+        "status": "verification",
+        "reason": "品牌/薪资/平台可能有升级，但签证、2027入职与完整资格仍待核验。"
+      },
+      {
+        "checkedAt": "2026-10-07T04:21:02Z",
+        "company": "Texas Capital Bank",
+        "jobId": "JR105779",
+        "status": "verification",
+        "reason": "品牌/薪资/平台可能有升级，但签证、2027入职与完整资格仍待核验。"
+      },
+      {
+        "checkedAt": "2026-10-07T04:21:02Z",
+        "company": "L3Harris Technologies",
+        "jobId": "45702",
+        "status": "direction-rejected",
+        "reason": "职责为国防战术无线电嵌入式SDE，非Applied AI/ML/DS；相对Ryan目标技术路线升级不足。"
+      },
+      {
+        "checkedAt": "2026-10-07T04:21:02Z",
+        "company": "L3Harris Technologies",
+        "jobId": "45704",
+        "status": "direction-rejected",
+        "reason": "职责为国防战术无线电嵌入式SDE，非Applied AI/ML/DS；相对Ryan目标技术路线升级不足。"
+      },
+      {
+        "checkedAt": "2026-10-07T04:21:02Z",
+        "company": "Analog Devices",
+        "jobId": "R265415",
+        "status": "direction-rejected-status-conflict",
+        "reason": "0–2年资格通过，但职责为芯片/RTL设计验证硬件岗，非Applied AI/ML/DS。"
+      },
+      {
+        "checkedAt": "2026-10-07T04:21:02Z",
+        "company": "Micron Technology",
+        "jobId": "JR107044",
+        "status": "education-and-direction-rejected-status-conflict",
+        "reason": "要求PhD或硕士+相关经验，Qien本科不满足；且职责为HBM/DRAM硬件架构，非Applied AI/ML/DS。"
       }
     ],
     "verificationChanges": [
@@ -6235,7 +6526,13 @@
       "JPMorgan Chase官方职位索引 210794232",
       "SimplifyJobs/New-Grad-Positions listings commit a40fb1dde78157f15545cb69351f44ae06f5971e",
       "SimplifyJobs/New-Grad-Positions listings commit 1378f740418b9b80664a703030400b2198ad48b4",
-      "Vestwell官方职位页/Greenhouse 7983915003"
+      "Vestwell官方职位页/Greenhouse 7983915003",
+      "SimplifyJobs listings commits 166eca518088daeb5bf04294d8db269bcaf96b30 / 41f1ccd1870f36cf30e1ffff51346095cb79162a / 376842805fa9a7846c02a964c6364149a7f5819c / 77a1e8be31643f3b35ccf79293f2d40bfaab4da9",
+      "Visa官方Workday REF082600W",
+      "Texas Capital Bank官方Careers/Workday JR105779",
+      "L3Harris官方JD 45702/45704",
+      "Analog Devices官方Workday R265415",
+      "Micron官方Workday JR107044"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -6261,7 +6558,10 @@
       "210794232官方动态申请页无法直接渲染；初始OPT、2027年5月后入职、薪资和完整资格继续核验。",
       "本轮为增量扫描，未完成全部监控公司ATS全量分页。",
       "Vestwell 7983915003官方JD未披露OPT/E-Verify或2027入职时间；职位已关闭，不作臆测。",
-      "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
+      "本轮为增量扫描，未完成全部监控公司ATS全量分页。",
+      "Visa REF082600W与Texas Capital JR105779的初始OPT/2027入职兼容性未获官方确认；未将无签证表述自动当作拒绝OPT。",
+      "Texas Capital JR105779动态完整JD未取得，职责、最低经验与薪资继续ng-verification。",
+      "本轮为增量与重点官方核验，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -6626,6 +6926,23 @@
         "coverageLimitations": [
           "该岗位OPT/E-Verify与2027入职时间未披露。",
           "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-07T04:21:02Z",
+        "scope": "20:01 UTC后New-Grad增量及Texas官方JD复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs增量20:31–04:01 UTC",
+          "Visa REF082600W官方JD",
+          "Texas Capital JR105779官方入口",
+          "L3Harris 45702/45704官方JD",
+          "Analog Devices R265415官方JD",
+          "Micron JR107044官方JD"
+        ],
+        "result": "①无新增进入表2；②新增Visa Austin REF082600W与Texas Capital Richardson JR105779待核验；③排除L3Harris 45702/45704（嵌入式战术通信SDE）、Analog Devices R265415（芯片验证硬件）、Micron JR107044（学历不符+HBM硬件）；④无已知岗位状态变化。Analog/Micron第三方inactive与官方Apply冲突已保留status-verification。",
+        "coverageLimitations": [
+          "Visa与Texas Capital的OPT及2027入职未确认；Texas Capital完整JD未取得。",
+          "本轮未完成全部监控公司ATS全量分页。"
         ]
       }
     ]
