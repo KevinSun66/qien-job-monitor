@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T07:20:44Z",
+  "updatedAt": "2026-10-07T10:19:44Z",
   "jobs": [
     {
       "company": "IBM",
@@ -5536,8 +5536,8 @@
       "compensation": "同步职位信息显示$57,200–$108,800；当前01875418官方正文未完整取得，薪资需官方核验。",
       "officePerks": "Richardson · Onsite",
       "jobId": "01875418",
-      "lastChecked": "2026-10-06",
-      "lastCheckedAt": "2026-10-06T07:16:00Z",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T10:19:44Z",
       "verificationFlags": [
         "ng-verification",
         "visa-verification",
@@ -5545,7 +5545,7 @@
         "conversion-eligibility-verification",
         "official-jd-verification"
       ],
-      "officialStatus": "官方Workday链接由最新New Grad发现源提供；动态正文未完整渲染。",
+      "officialStatus": "2026-10-07核验：Simplify增量源由active改为inactive；官方Private Posting Workday正文仍不可读取，未获得官方关闭提示。继续保留status-verification，不直接判定closed。",
       "discoverySource": "SimplifyJobs/New-Grad-Positions README commit 0a80ec98045889e7f01bd7ead2e608906a3bca95",
       "rejectionReason": "尚未最终排除；若官方确认美国公民/安全许可硬要求、仅限conversion候选人，或职责继续为非AI国防SDE，则移入对应排除记录。"
     },
@@ -6091,11 +6091,49 @@
       ],
       "discoverySource": "SimplifyJobs listings commit a49b0aa691d17a0c4ca723c3d7af545e14a57c8a；NXP官方Workday",
       "rejectionReason": "职责为嵌入式软件产品管理、市场需求与产品发布支持，不是Qien目标Applied AI/ML/DS、AI Engineer或MLE技术路线；相对Ryan缺乏技术成长升级。"
+    },
+    {
+      "company": "AMD",
+      "tier": "A+",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Electronics Engineering Technician (91410)",
+      "employment": "全职/具体性质待官方JD核验 · Electronics Engineering Technician",
+      "gradYear": "发现源归入New Grad；学历标签为Associate's，2027年5月后入职待确认",
+      "match": "方向排除 · 电子硬件技术员岗",
+      "ngCompatibility": "发现源显示早期职业，但官方最低资格与入职时间未取得",
+      "assessment": "职位名称及发现源分类均指向电子工程技术员/硬件岗位，通常侧重电子设备、实验室、测试、装配或故障排查，不属于Qien的Applied AI/ML/DS、AI Engineer或MLE软件路线。即使属于早期职业，岗位层级和技术成长相对Ryan Associate Data Scientist均无升级价值，因此不进入表2。",
+      "visa": "visa-verification：官方正文未取得，F-1 OPT/STEM OPT、E-Verify与未来sponsorship未确认；未因未知而判定签证不兼容。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-07T10:19:44Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://careers.amd.com/jobs/91410",
+      "status": "direction-rejected",
+      "finalPriority": "排除 · 发现审计保留",
+      "roleTrack": "Electronics Engineering Technician / Hardware",
+      "technicalGrowth": "电子硬件测试与技术支持方向；非Applied AI/ML/DS",
+      "brandPlatform": "AMD品牌较强，但岗位方向与层级不匹配",
+      "ryanUpgrade": "不足：相对Ryan在岗位层级、职责方向和AI/ML成长上均无升级",
+      "compensation": "官方薪资未取得",
+      "officePerks": "Austin；办公模式待核验",
+      "jobId": "91410",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T10:19:44Z",
+      "officialStatus": "Simplify增量源显示active；AMD官方页面受访问限制，完整JD与实时Apply状态未直接取得。",
+      "verificationFlags": [
+        "official-jd-verification",
+        "visa-verification",
+        "start-date-verification",
+        "compensation-verification"
+      ],
+      "discoverySource": "SimplifyJobs listings commit 55cc292a686b83a847c448e30f3afb6da7f6f242",
+      "rejectionReason": "电子工程技术员/硬件方向，不是Qien目标Applied AI/ML/DS、AI Engineer或MLE；相对Ryan无技术路线和岗位层级升级。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-07T07:20:44Z",
-    "scope": "06:20 UTC后Texas New-Grad增量与已知岗位状态复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-07T10:19:44Z",
+    "scope": "09:01 UTC后Texas New-Grad增量、Austin新增职位与已知RTX Richardson状态复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6181,6 +6219,16 @@
         "checkedAt": "2026-10-07T07:20:44Z",
         "jobId": "R265415",
         "result": "Analog Devices Associate Design Verification Engineer：第三方发现源恢复active，与官方Workday Apply状态一致；status-verification解除。岗位继续按direction-rejected保留审计，不进入表2。"
+      },
+      {
+        "checkedAt": "2026-10-07T10:19:44Z",
+        "jobId": "91410",
+        "result": "AMD Electronics Engineering Technician：direction-rejected。发现源active，但官方完整JD不可读；硬件技术员方向不进入表2，OPT/入职/薪资保留未知。"
+      },
+      {
+        "checkedAt": "2026-10-07T10:19:44Z",
+        "jobId": "01875418",
+        "result": "RTX Software Engineer I：第三方发现源由active变为inactive；官方Private Posting正文仍不可读且无官方关闭确认，继续status-verification。"
       }
     ],
     "newDiscoveries": [
@@ -6583,6 +6631,13 @@
         "jobId": "R-10064599",
         "status": "direction-rejected-status-conflict",
         "reason": "职责为嵌入式软件产品管理、市场需求与产品发布支持，不是Qien目标Applied AI/ML/DS、AI Engineer或MLE技术路线；相对Ryan缺乏技术成长升级。"
+      },
+      {
+        "checkedAt": "2026-10-07T10:19:44Z",
+        "company": "AMD",
+        "jobId": "91410",
+        "status": "direction-rejected",
+        "reason": "Austin Electronics Engineering Technician为电子硬件技术员方向，非Applied AI/ML/DS、AI Engineer或MLE；相对Ryan无技术路线与岗位层级升级。"
       }
     ],
     "verificationChanges": [
@@ -6712,6 +6767,13 @@
         "from": "direction-rejected-status-conflict",
         "to": "direction-rejected",
         "change": "Simplify增量源由inactive恢复为active，与Analog Devices官方Workday仍显示Apply一致；此前状态冲突解除。岗位方向排除结论不变。"
+      },
+      {
+        "checkedAt": "2026-10-07T10:19:44Z",
+        "jobId": "01875418",
+        "from": "aggregator-active-status-verification",
+        "to": "aggregator-inactive-status-verification",
+        "change": "Simplify增量源将01875418改为inactive；官方Private Posting正文仍不可读取，未据此直接判定关闭。"
       }
     ],
     "sourcesChecked": [
@@ -6759,7 +6821,10 @@
       "SimplifyJobs listings增量 77a7bd0与a49b0aa",
       "NXP官方Workday R-10064599",
       "SimplifyJobs listings增量 3508a58与09f9593",
-      "Analog Devices官方Workday R265415"
+      "Analog Devices官方Workday R265415",
+      "SimplifyJobs listings增量 55cc292与b25b652",
+      "AMD Careers 91410官方入口（访问受限）",
+      "RTX Workday 01875418官方Private Posting入口（正文不可读）"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -6791,7 +6856,9 @@
       "本轮为增量与重点官方核验，未完成全部监控公司ATS全量分页。",
       "Apple 200687472-0157的2027年5月后入职、F-1 OPT/STEM OPT及Austin具体薪资未披露，保留start-date/visa/compensation verification。",
       "R-10064599第三方inactive与官方Apply冲突；官方未披露本岗OPT、2027入职及Austin薪资。",
-      "本轮为上次运行后的增量和状态冲突复核；未完成全部监控公司ATS全量分页。"
+      "本轮为上次运行后的增量和状态冲突复核；未完成全部监控公司ATS全量分页。",
+      "AMD 91410官方完整JD受访问限制，经验、2027入职、OPT和薪资未核验；方向排除可由职位标题与硬件类别确定。",
+      "RTX 01875418第三方inactive但官方正文不可读，关闭状态未获官方确认。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -7213,6 +7280,21 @@
         "coverageLimitations": [
           "Goldman Sachs 171569/171570的恢复active仅对应NYC与Salt Lake City，不属于Texas范围。",
           "本轮为增量和状态复核，未完成全部公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-07T10:19:44Z",
+        "scope": "09:01 UTC后Texas New-Grad增量、Austin新增职位与已知RTX Richardson状态复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs listings 55cc292与b25b652",
+          "AMD Careers 91410",
+          "RTX Workday 01875418"
+        ],
+        "result": "①无新增进入表2；②无新增待核验可行动岗；③新增排除AMD Austin Electronics Engineering Technician（91410），因电子硬件技术员方向且相对Ryan无升级；④RTX Richardson 01875418第三方状态转inactive，但官方无法确认关闭，继续status-verification。",
+        "coverageLimitations": [
+          "AMD 91410官方完整JD与实时Apply状态未直接取得，OPT、2027入职和薪资未知。",
+          "RTX 01875418官方Private Posting正文不可读，未将第三方inactive自动等同官方关闭。",
+          "Waco新增L3Harris岗位不属于DFW/Austin范围；本轮未完成全部公司ATS全量分页。"
         ]
       }
     ]
