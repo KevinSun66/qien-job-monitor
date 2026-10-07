@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T15:23:54Z",
+  "updatedAt": "2026-10-07T19:19:13Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6250,11 +6250,48 @@
       ],
       "discoverySource": "SimplifyJobs/New-Grad-Positions commit 382987fbc56d647115b2b5de01fa01559fc1e2c5；Emerson官方Oracle 26011531；Built In Austin同步完整JD",
       "rejectionReason": "公开同步JD明确排除F-1 OPT/CPT；同时职责为FPGA/PCB数字硬件，不是Applied AI/ML/DS、AI Engineer或MLE。"
+    },
+    {
+      "company": "Pariveda Solutions",
+      "tier": "发现/排除审计",
+      "area": "Dallas, TX",
+      "market": "DFW",
+      "title": "Software Engineer II",
+      "employment": "全职 · Hybrid · Consulting Software Engineering",
+      "gradYear": "本科；接受软件开发或相关实习经历；2027年5月后入职未确认",
+      "match": "机会成本排除 · 通用咨询型SDE",
+      "ngCompatibility": "学历/实习背景可能匹配，但并非明确2027 Campus/New Grad requisition",
+      "assessment": "职责覆盖Java、.NET、Python、JavaScript、SQL、云平台、数据方案及AI工具，属于项目制技术咨询和通用软件交付。虽可能接触Machine Learning/AI，但并非专门Applied AI/ML/DS岗位；官方范围约$79,800–$87,800，与Ryan约$83k base/约$90k首年基本重叠，Pariveda品牌和平台不足以构成替代Ryan的明确升级，因此不进入表2。",
+      "visa": "visa-verification：JD要求可在美国为任何公司合法工作且无需sponsorship，并标注不提供H-1B；未明确说不接受初始F-1 OPT，故不按签证硬拒绝。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-07T19:19:13Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://jobs.ashbyhq.com/pariveda/48cfdabe-9dcc-4324-8e07-4a5ddf3af2e1",
+      "status": "opportunity-cost-rejected-status-verification",
+      "finalPriority": "排除 · 相比Ryan无明确升级 · 发现审计保留",
+      "roleTrack": "Consulting Software Engineering / Cloud / Generalist",
+      "technicalGrowth": "Java/.NET/Python/JavaScript/SQL、AWS/Azure/GCP、AI辅助交付；非专门Applied AI/ML",
+      "brandPlatform": "中型员工持股技术咨询公司；平台与品牌升级有限",
+      "ryanUpgrade": "不足：薪资基本持平，方向更泛，品牌/平台无明显提升",
+      "compensation": "$79,800–$87,800 base（官方Ashby搜索索引范围）",
+      "officePerks": "Dallas · Hybrid · ESOP · 4周PTO",
+      "jobId": "48cfdabe-9dcc-4324-8e07-4a5ddf3af2e1",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T19:19:13Z",
+      "officialStatus": "Simplify增量源已由active转为inactive，独立同步页标记closed；官方Ashby动态页仍可访问但正文无法直接渲染，故保留status-verification而不单凭第三方宣告官方关闭。",
+      "verificationFlags": [
+        "status-verification",
+        "visa-verification",
+        "start-date-verification"
+      ],
+      "discoverySource": "SimplifyJobs/New-Grad-Positions commit dba68eba777c8a27ef828ec2045e16911904587f；Pariveda官方Ashby搜索索引；Jobright同步JD",
+      "rejectionReason": "通用咨询型SDE而非专门Applied AI/ML/DS；$79.8K–$87.8K与Ryan基本重叠，品牌/平台不足以构成升级。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-07T15:23:54Z",
-    "scope": "14:16 UTC后Texas New-Grad增量与Emerson/NI Austin官方入口及完整同步JD核验；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-07T19:19:13Z",
+    "scope": "18:02 UTC后Texas New-Grad增量与Pariveda Dallas Software Engineer II状态/职责/薪资复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6795,6 +6832,13 @@
         "jobId": "26011531",
         "status": "visa-and-direction-rejected",
         "reason": "同步完整JD明确写明F-1（包括OPT/CPT）不符合雇佣资格；核心为FPGA/PCB数字硬件，非Applied AI/ML/DS。"
+      },
+      {
+        "checkedAt": "2026-10-07T19:19:13Z",
+        "company": "Pariveda Solutions",
+        "jobId": "48cfdabe-9dcc-4324-8e07-4a5ddf3af2e1",
+        "status": "opportunity-cost-rejected-status-verification",
+        "reason": "Dallas Software Engineer II为通用咨询型SDE；薪资$79.8K–$87.8K与Ryan基本重叠，品牌/平台和Applied AI深度均无明确升级。增量源转inactive，官方关闭仍待确认。"
       }
     ],
     "verificationChanges": [
@@ -6995,10 +7039,13 @@
       "RTX官方Workday 01879531完整JD（2026-10-07）",
       "qien-job-monitor现有172+岗位身份措辞复查（2026-10-07）",
       "SimplifyJobs/New-Grad-Positions listings commits 382987fbc56d647115b2b5de01fa01559fc1e2c5与f02e70aa47ca736f5cd39700953b10b124296281",
-      "Emerson官方Oracle requisition 26011531与Built In Austin完整同步JD"
+      "Emerson官方Oracle requisition 26011531与Built In Austin完整同步JD",
+      "SimplifyJobs/New-Grad-Positions listings commits 84629f2455cc7d6b590318ad1d3c3b33f9d3d76b与dba68eba777c8a27ef828ec2045e16911904587f",
+      "Pariveda官方Ashby 48cfdabe-9dcc-4324-8e07-4a5ddf3af2e1索引与Jobright同步JD"
     ],
     "coverageLimitations": [
-      "Emerson 26011531官方Oracle动态正文无法直接读取；职位状态以增量源active为准，职责与授权条款来自公开同步完整JD。",
+      "Pariveda官方Ashby动态页正文无法直接渲染；增量源inactive和独立同步页closed构成关闭信号，但仍保留status-verification。",
+      "Pariveda授权措辞未明确排除初始F-1 OPT，未按签证不兼容处理。",
       "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
@@ -7493,6 +7540,20 @@
         "coverageLimitations": [
           "官方Oracle动态正文无法直接读取，实时状态以发现源active为准。",
           "本轮为增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-07T19:19:13Z",
+        "scope": "18:02 UTC后Texas New-Grad增量与Pariveda Dallas职位核验；TI/D3V跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs listings 84629f2与dba68eb",
+          "Pariveda官方Ashby 48cfdabe",
+          "Jobright同步完整JD"
+        ],
+        "result": "①无新增进入表2；②无新增待核验可行动岗；③补抓并排除Pariveda Dallas Software Engineer II：通用咨询型SDE，薪资与Ryan基本重叠且品牌/Applied AI成长无明确升级；④无已知职位状态变化。该岗增量源转inactive，官方关闭仍status-verification。",
+        "coverageLimitations": [
+          "官方Ashby动态正文无法直接渲染，未把聚合源inactive单独视为官方关闭。",
+          "OPT与2027入职未确认。"
         ]
       }
     ]
