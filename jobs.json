@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T11:14:11Z",
+  "updatedAt": "2026-10-07T13:21:26Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6177,11 +6177,47 @@
       "ryanUpgrade": "潜在显著升级：官方L2底薪下限已明显高于Ryan，且NVIDIA GPU/GenAI平台成长价值极高；资格、2027入职及OPT尚未通过。",
       "whyRyan": "品牌、薪资和AI系统技术成长均有明显潜在提升；当前阻点不是机会成本，而是硕士同等经验、C/C++/GPU底层优化证据、入职时间与OPT。",
       "rejectionReason": null
+    },
+    {
+      "company": "RTX / Raytheon",
+      "tier": "A",
+      "market": "DFW",
+      "area": "McKinney, TX · Onsite",
+      "title": "Power Electronics Test Engineer I（01879531）",
+      "jobId": "01879531",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WA--2501-W-University-Dr--WING-A-BLDG/Power-Electronics-Test-Engineer-I---Onsite_01879531",
+      "status": "authorization-and-direction-rejected",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-07T13:21:26Z",
+      "firstSeen": "2026-10-07",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-07T13:21:26Z",
+      "officialPostedDate": "2026-10-05",
+      "employment": "全职 · Onsite · Electrical Engineer I",
+      "gradYear": "未限定毕业年份；本科STEM即可，未列最低工作年限",
+      "ngCompatibility": "学历/经验层面属于早期职业；但官方明确要求美国公民，且需取得并维持美国政府Secret安全许可，Qien的F-1 OPT身份不兼容。",
+      "minimumQualifications": "STEM学士；美国公民；需取得并维持DoD Secret安全许可。",
+      "assessment": "职责是工厂生产支持、电子组件测试、故障诊断、返工/复测、RCCA及电子测试设备操作，属于电力电子/硬件测试，不是Applied AI/ML/DS、AI Engineer或MLE。资格虽为Engineer I且无最低年限，但官方美国公民和安全许可要求直接排除Qien；同时技术路线相对Ryan无升级。",
+      "visa": "不兼容：官方明确U.S. citizenship required，只有美国公民具备所需安全许可资格；F-1 OPT/STEM OPT不能满足。",
+      "compensation": "官方底薪 $57,200–$108,800；另可能有福利及短期/长期激励。区间与Ryan重叠，且方向不符。",
+      "deadline": "官方预计自2026-10-05发布日起约40天关闭，但可能提前或延长。",
+      "officialStatus": "2026-10-07官方Workday完整JD可读取，职位为开放状态。",
+      "officialLocations": [
+        "US-TX-MCKINNEY-513WA · 2501 W University Dr · WING A BLDG"
+      ],
+      "locationListComplete": true,
+      "source": "RTX官方Workday完整JD；SimplifyJobs/New-Grad-Positions增量发现",
+      "verificationFlags": [],
+      "finalPriority": "发现后排除 · 身份不兼容且方向不符",
+      "roleTrack": "电力电子测试 / 工厂生产支持 / 硬件故障分析",
+      "whyRyan": "相对Ryan没有Applied AI/ML技术升级，薪资区间也未形成稳定优势；更关键是美国公民与Secret许可为硬性门槛。",
+      "rejectionReason": "authorization-and-direction-rejected：官方明确要求美国公民及DoD Secret安全许可，F-1 OPT不兼容；职责为电力电子硬件测试和工厂支持，非Applied AI/ML/DS。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-07T11:14:11Z",
-    "scope": "10:19 UTC后Texas New-Grad增量与Austin官方AI/ML职位补发现；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-07T13:21:26Z",
+    "scope": "12:02 UTC后Texas New-Grad增量与RTX McKinney官方JD核验；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6282,6 +6318,11 @@
         "checkedAt": "2026-10-07T11:14:11Z",
         "jobId": "JR2026967",
         "result": "NVIDIA官方完整JD仍显示Apply；Austin在6个地点中。MS或同等经验、1+年工作/研究、C/C++及GPU低层优化已核实；Qien资格、2027入职与OPT待核验。"
+      },
+      {
+        "checkedAt": "2026-10-07T13:21:26Z",
+        "jobId": "01879531",
+        "result": "RTX官方完整JD确认McKinney onsite、STEM学士且无最低年限，但硬性要求美国公民及DoD Secret许可；同时为电力电子硬件测试方向。按身份不兼容+方向不符排除。"
       }
     ],
     "newDiscoveries": [
@@ -6698,6 +6739,13 @@
         "jobId": "JR2026967",
         "status": "ng-verification",
         "reason": "Austin AI Developer Technology Engineer新补发现；生成式AI/GPU方向及薪资相对Ryan有明显潜在升级，但硕士同等经验、C/C++/GPU低层优化、2027入职和OPT仍待核验。"
+      },
+      {
+        "checkedAt": "2026-10-07T13:21:26Z",
+        "company": "RTX / Raytheon",
+        "jobId": "01879531",
+        "status": "authorization-and-direction-rejected",
+        "reason": "官方明确要求美国公民及DoD Secret安全许可，F-1 OPT不兼容；职责为电力电子测试/工厂生产支持，非Applied AI/ML/DS。"
       }
     ],
     "verificationChanges": [
@@ -6886,7 +6934,9 @@
       "AMD Careers 91410官方入口（访问受限）",
       "RTX Workday 01875418官方Private Posting入口（正文不可读）",
       "SimplifyJobs/New-Grad-Positions listings 38830ffa与bf6a9eff（2026-10-07 10:31/11:01 UTC）",
-      "NVIDIA官方Workday JR2026967完整JD与官方搜索索引（2026-10-07）"
+      "NVIDIA官方Workday JR2026967完整JD与官方搜索索引（2026-10-07）",
+      "SimplifyJobs/New-Grad-Positions listings ec391caf与8e1e4b6e（2026-10-07 12:31/13:01 UTC）",
+      "RTX官方Workday 01879531完整JD（2026-10-07）"
     ],
     "coverageLimitations": [
       "Several dynamic ATS pages and complete inventories remain inaccessible; absence of a result is not proof of no opening",
@@ -6922,7 +6972,8 @@
       "AMD 91410官方完整JD受访问限制，经验、2027入职、OPT和薪资未核验；方向排除可由职位标题与硬件类别确定。",
       "RTX 01875418第三方inactive但官方正文不可读，关闭状态未获官方确认。",
       "JR2026967未披露OPT/E-Verify/I-983或2027年5月后入职；Qien是否满足MS同等经验与GPU低层优化门槛仍待核验。",
-      "本轮为上次运行后的增量与NVIDIA重点补抓，未完成全部公司ATS全量分页。"
+      "本轮为上次运行后的增量与NVIDIA重点补抓，未完成全部公司ATS全量分页。",
+      "本轮为上次运行后的增量与RTX官方核验，未完成全部公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -7371,6 +7422,18 @@
         "result": "①无新增进入表2；②新增NVIDIA AI Developer Technology Engineer（JR2026967）待核验；③无新增排除；④无已知职位状态变化。",
         "coverageLimitations": [
           "JR2026967的OPT、2027入职及Qien的MS同等经验/C++ GPU低层优化资格待核验。",
+          "本轮未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-07T13:21:26Z",
+        "scope": "12:02 UTC后Texas增量与RTX McKinney官方JD核验；TI/D3V跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings ec391caf与8e1e4b6e",
+          "RTX官方Workday 01879531完整JD"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③新增排除RTX Power Electronics Test Engineer I（01879531）：美国公民/Secret许可硬门槛且方向为电力电子硬件测试；④无已知职位状态变化。",
+        "coverageLimitations": [
           "本轮未完成全部监控公司ATS全量分页。"
         ]
       }
