@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T06:19:14Z",
+  "updatedAt": "2026-10-08T16:22:10Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6674,11 +6674,89 @@
       "brandPlatform": "88/100",
       "ryanUpgrade": "不构成：职位已关闭，且核心为国防任务系统工程/MBSE，不是Applied AI/ML/DS。",
       "rejectionReason": "closed-direction-rejected：官方页面已不存在；归档职责为国防任务系统/MBSE与Mission Systems Integration，非Applied AI/ML/DS。"
+    },
+    {
+      "company": "RTX / Raytheon",
+      "tier": "发现/排除",
+      "area": "McKinney, TX",
+      "market": "DFW",
+      "employment": "Full-time · Onsite · Engineer I",
+      "gradYear": "本科需在入职日前取得；接受课程、研究或项目经验，无最低全职工作年限",
+      "match": "身份硬门槛不符，且方向偏实时嵌入式/国防传感器软件",
+      "ngCompatibility": "早期职业资格本身符合；但美国公民与DoD Secret安全许可是硬性条件，Qien F-1 OPT/STEM OPT不兼容",
+      "assessment": "RTX官方Workday完整JD确认：职责是为先进传感器、制导和火控系统开发实时嵌入式软件，覆盖C++/Python、SW/HW集成、RF与感知能力、软件生命周期和代码评审。虽然属于Engineer I且课程/研究/项目经验可计入，但不是Applied AI/ML/DS主线；更关键的是官方明确要求美国公民并能取得、维持DoD Secret安全许可，因此按身份硬门槛直接排除。",
+      "visa": "Hard fail：官方明确U.S. citizenship required；须取得并维持美国政府DoD Secret安全许可，入职后需要active clearance。F-1 OPT/STEM OPT不符合。",
+      "found": "2026-10-08",
+      "discoveredDate": "2026-10-08",
+      "discoveredAt": "2026-10-08T16:22:10Z",
+      "firstSeen": "2026-10-08",
+      "status": "citizenship-direction-rejected",
+      "finalPriority": "不投 · 美国公民/Secret硬门槛，且非Applied AI/ML/DS",
+      "roleTrack": "Real-time Embedded Software / RF Sensors / Defense Systems",
+      "technicalGrowth": "对嵌入式C++、Linux、RF系统有价值，但偏国防实时软件与软硬件集成，不是Qien目标Applied AI/ML。",
+      "brandPlatform": "88/100 · RTX/Raytheon国防平台",
+      "ryanUpgrade": "不适用：身份硬门槛失败；方向相对Ryan Data Science主线偏离。",
+      "compensation": "官方底薪 $57,200–$108,800；与Ryan区间重叠，且身份不兼容。",
+      "officePerks": "McKinney · Onsite · Relocation eligible",
+      "deadline": "官方预计发布后约40天关闭，但可能提前或延长。",
+      "lastChecked": "2026-10-08",
+      "lastCheckedAt": "2026-10-08T16:22:10Z",
+      "officialPostedDate": "2026-10-08",
+      "officialStatus": "2026-10-08 RTX官方Workday显示Apply / Posted Today。",
+      "officialLocations": [
+        "US-TX-MCKINNEY-513PW · 2501 W University Dr · PW BLDG"
+      ],
+      "locationListComplete": true,
+      "source": "RTX官方Workday完整JD；SimplifyJobs/New-Grad-Positions增量发现",
+      "verificationFlags": [],
+      "rejectionReason": "citizenship-direction-rejected：官方明确要求美国公民及DoD Secret安全许可，F-1 OPT不兼容；职责为实时嵌入式国防传感器/RF软件，非Applied AI/ML/DS。",
+      "jobId": "01881232",
+      "title": "Embedded Software Engineer I — Onsite (01881232)",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513PW--2501-W-University-Dr--PW-BLDG/Embedded-Software-Engineer-I--Onsite-_01881232"
+    },
+    {
+      "company": "RTX / Raytheon",
+      "tier": "发现/排除",
+      "area": "McKinney, TX",
+      "market": "DFW",
+      "employment": "Full-time · Onsite · Engineer I",
+      "gradYear": "本科需在入职日前取得；接受课程、研究或项目经验，无最低全职工作年限",
+      "match": "身份硬门槛不符，且方向偏实时嵌入式/国防传感器软件",
+      "ngCompatibility": "早期职业资格本身符合；但美国公民与DoD Secret安全许可是硬性条件，Qien F-1 OPT/STEM OPT不兼容",
+      "assessment": "RTX官方Workday完整JD确认：职责是为先进传感器、制导和火控系统开发实时嵌入式软件，覆盖C++/Python、SW/HW集成、RF与感知能力、软件生命周期和代码评审。虽然属于Engineer I且课程/研究/项目经验可计入，但不是Applied AI/ML/DS主线；更关键的是官方明确要求美国公民并能取得、维持DoD Secret安全许可，因此按身份硬门槛直接排除。",
+      "visa": "Hard fail：官方明确U.S. citizenship required；须取得并维持美国政府DoD Secret安全许可，入职后需要active clearance。F-1 OPT/STEM OPT不符合。",
+      "found": "2026-10-08",
+      "discoveredDate": "2026-10-08",
+      "discoveredAt": "2026-10-08T16:22:10Z",
+      "firstSeen": "2026-10-08",
+      "status": "citizenship-direction-rejected",
+      "finalPriority": "不投 · 美国公民/Secret硬门槛，且非Applied AI/ML/DS",
+      "roleTrack": "Real-time Embedded Software / RF Sensors / Defense Systems",
+      "technicalGrowth": "对嵌入式C++、Linux、RF系统有价值，但偏国防实时软件与软硬件集成，不是Qien目标Applied AI/ML。",
+      "brandPlatform": "88/100 · RTX/Raytheon国防平台",
+      "ryanUpgrade": "不适用：身份硬门槛失败；方向相对Ryan Data Science主线偏离。",
+      "compensation": "官方底薪 $57,200–$108,800；与Ryan区间重叠，且身份不兼容。",
+      "officePerks": "McKinney · Onsite · Relocation eligible",
+      "deadline": "官方预计发布后约40天关闭，但可能提前或延长。",
+      "lastChecked": "2026-10-08",
+      "lastCheckedAt": "2026-10-08T16:22:10Z",
+      "officialPostedDate": "2026-10-08",
+      "officialStatus": "2026-10-08 RTX官方Workday显示Apply / Posted Today。",
+      "officialLocations": [
+        "US-TX-MCKINNEY-513PW · 2501 W University Dr · PW BLDG"
+      ],
+      "locationListComplete": true,
+      "source": "RTX官方Workday完整JD；SimplifyJobs/New-Grad-Positions增量发现",
+      "verificationFlags": [],
+      "rejectionReason": "citizenship-direction-rejected：官方明确要求美国公民及DoD Secret安全许可，F-1 OPT不兼容；职责为实时嵌入式国防传感器/RF软件，非Applied AI/ML/DS。",
+      "jobId": "01881234",
+      "title": "Embedded Software Engineer I — Onsite (01881234)",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513PW--2501-W-University-Dr--PW-BLDG/Embedded-Software-Engineer-I--Onsite-_01881234"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-08T06:19:14Z",
-    "scope": "05:01 UTC后Texas New-Grad增量与Applied Materials R2627684官方状态复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-08T16:22:10Z",
+    "scope": "15:02 UTC后Texas New-Grad增量与RTX McKinney两条Embedded Software Engineer I官方JD核验；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6799,6 +6877,16 @@
         "checkedAt": "2026-10-08T06:19:14Z",
         "jobId": "R2627684",
         "result": "Simplify增量源由active转inactive；Applied Materials官方页仍显示Apply。标记status-verification，原opportunity-cost-rejected决策不变。"
+      },
+      {
+        "checkedAt": "2026-10-08T16:22:10Z",
+        "jobId": "01881232",
+        "result": "RTX官方Workday完整JD确认职位开放、Engineer I且课程/研究/项目经验可计入；但明确要求美国公民及DoD Secret许可，且方向为实时嵌入式RF/传感器国防软件。按citizenship-direction-rejected归档。"
+      },
+      {
+        "checkedAt": "2026-10-08T16:22:10Z",
+        "jobId": "01881234",
+        "result": "RTX官方Workday完整JD确认职位开放、Engineer I且课程/研究/项目经验可计入；但明确要求美国公民及DoD Secret许可，且方向为实时嵌入式RF/传感器国防软件。按citizenship-direction-rejected归档。"
       }
     ],
     "newDiscoveries": [
@@ -7313,6 +7401,20 @@
         "jobId": "01821685",
         "status": "closed-direction-rejected",
         "reason": "McKinney Systems Engineer I；官方页面已不存在，且历史职责为国防任务系统/MBSE与Mission Systems Integration，非Applied AI/ML/DS。"
+      },
+      {
+        "checkedAt": "2026-10-08T16:22:10Z",
+        "company": "RTX / Raytheon",
+        "jobId": "01881232",
+        "status": "citizenship-direction-rejected",
+        "reason": "McKinney Embedded Software Engineer I；官方明确要求美国公民和DoD Secret安全许可，F-1 OPT不兼容；职责为实时嵌入式RF/传感器国防软件，非Applied AI/ML/DS。"
+      },
+      {
+        "checkedAt": "2026-10-08T16:22:10Z",
+        "company": "RTX / Raytheon",
+        "jobId": "01881234",
+        "status": "citizenship-direction-rejected",
+        "reason": "McKinney Embedded Software Engineer I；官方明确要求美国公民和DoD Secret安全许可，F-1 OPT不兼容；职责为实时嵌入式RF/传感器国防软件，非Applied AI/ML/DS。"
       }
     ],
     "verificationChanges": [
@@ -7479,11 +7581,11 @@
       }
     ],
     "sourcesChecked": [
-      "SimplifyJobs/New-Grad-Positions listings 2cb595f0→ab1a0fc4",
-      "Applied Materials官方职位页 R2627684"
+      "SimplifyJobs/New-Grad-Positions listings 322f5e86→c1a74e3e",
+      "RTX官方Workday 01881232与01881234完整JD"
     ],
     "coverageLimitations": [
-      "聚合源inactive与官方Apply信号冲突；在官方明确关闭前不判定closed。",
+      "两条RTX requisition正文实质相同但Job ID不同，分别保留以避免漏抓/重复提醒。",
       "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
@@ -8090,6 +8192,19 @@
         "result": "①无新增进入表2；②无新增待核验；③无新增发现后排除；④Applied Materials Austin Data Scientist New College Grad（R2627684）增量源active→inactive，但官方仍显示Apply，标记status-verification；既有机会成本排除决策不变。",
         "coverageLimitations": [
           "聚合源inactive与官方Apply信号冲突；在官方明确关闭前不判定closed。",
+          "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-08T16:22:10Z",
+        "scope": "15:02 UTC后Texas New-Grad增量与RTX McKinney两条Embedded Software Engineer I官方JD核验；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 322f5e86→c1a74e3e",
+          "RTX官方Workday 01881232与01881234完整JD"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③新增排除RTX McKinney Embedded Software Engineer I两条requisition（01881232、01881234）：美国公民/DoD Secret硬门槛且方向为实时嵌入式RF/传感器国防软件；④无已知职位状态变化。",
+        "coverageLimitations": [
+          "两条RTX requisition正文实质相同但Job ID不同，分别保留以避免漏抓/重复提醒。",
           "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
         ]
       }
