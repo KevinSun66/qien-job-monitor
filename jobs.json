@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T00:16:21Z",
+  "updatedAt": "2026-10-08T01:20:33Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6421,11 +6421,12 @@
       "jobId": "R1056490",
       "deadline": "Closed / page unavailable",
       "lastChecked": "2026-10-07",
-      "lastCheckedAt": "2026-10-07T23:22:48Z",
-      "officialStatus": "CVS官方Workday显示The page you are looking for doesn't exist。",
+      "lastCheckedAt": "2026-10-08T01:20:33Z",
+      "officialStatus": "CVS官方Workday显示The page you are looking for doesn't exist；2026-10-07 20:20 CT，SimplifyJobs增量源亦由active转为inactive。",
       "verificationFlags": [],
       "discoverySource": "SimplifyJobs listings commit 29571db；CVS官方Workday",
-      "rejectionReason": "Private intern-conversion-only posting; Qien is not an eligible CVS intern, and the official page is no longer available."
+      "rejectionReason": "Private intern-conversion-only posting; Qien is not an eligible CVS intern, and the official page is no longer available.",
+      "sourceStatus": "SimplifyJobs增量源于2026-10-07 20:20 CT由active转inactive，与官方页面已不存在的关闭判断一致。"
     },
     {
       "company": "RTX / Raytheon",
@@ -6599,8 +6600,8 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-08T00:16:21Z",
-    "scope": "23:02 UTC后Texas增量与被源清理的潜在相关软件/AI历史职位反漏抓复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-08T01:20:33Z",
+    "scope": "00:16 UTC后Texas New-Grad增量与已知CVS Conversion岗位状态复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -7361,18 +7362,21 @@
         "from": "aggregator-active-verification",
         "to": "aggregator-inactive-status-verification",
         "change": "SimplifyJobs Texas增量源将JR105779由active改为inactive；官方Workday正文仍不可读取，未据此直接判定官方关闭。"
+      },
+      {
+        "checkedAt": "2026-10-08T01:20:33Z",
+        "jobId": "R1056490",
+        "from": "official-closed / aggregator-active",
+        "to": "official-closed / aggregator-inactive",
+        "change": "SimplifyJobs增量源将R1056490由active改为inactive，与上一轮官方Workday页面不存在的关闭判断一致；Conversion-only排除结论不变。"
       }
     ],
     "sourcesChecked": [
-      "SimplifyJobs/New-Grad-Positions listings 29571db→f39527ed",
-      "L3Harris官方Careers Richardson listing 1433422000",
-      "HPE官方Workday 1201159",
-      "CAE官方Workday 120370/120371"
+      "SimplifyJobs/New-Grad-Positions listings f39527ed→cc3078a",
+      "CVS Health官方Workday R1056490（上一轮已确认页面不存在）"
     ],
     "coverageLimitations": [
-      "四个职位均在发现时已关闭/下架，完整JD、经验、2027入职、OPT和薪资无法再核验。",
-      "L3Harris公开URL仅保留listing编号1433422000，原始requisition ID不可见。",
-      "本轮为增量与源清理反漏抓，未完成全部监控公司ATS全量分页。"
+      "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -7927,6 +7931,18 @@
           "四个职位均在发现时已关闭/下架，完整JD、经验、2027入职、OPT和薪资无法再核验。",
           "L3Harris公开URL仅保留listing编号1433422000，原始requisition ID不可见。",
           "本轮为增量与源清理反漏抓，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-08T01:20:33Z",
+        "scope": "00:16 UTC后Texas New-Grad增量与已知CVS Conversion岗位状态复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings f39527ed→cc3078a",
+          "CVS Health官方Workday R1056490（上一轮已确认页面不存在）"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③无新增发现后排除；④CVS Health R1056490增量源由active转inactive，与已确认的官方下架一致；继续closed-conversion-rejected。",
+        "coverageLimitations": [
+          "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
         ]
       }
     ]
