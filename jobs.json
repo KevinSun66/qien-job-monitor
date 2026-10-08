@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T23:22:48Z",
+  "updatedAt": "2026-10-08T00:16:21Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6460,11 +6460,147 @@
       "verificationFlags": [],
       "discoverySource": "SimplifyJobs listings commit 29571db；RTX官方Workday",
       "rejectionReason": "Explicit U.S. citizenship and Top Secret clearance requirement; role is RF/electrical production support rather than Applied AI/ML/DS."
+    },
+    {
+      "company": "L3Harris Technologies",
+      "tier": "发现/排除",
+      "area": "Richardson, TX",
+      "market": "DFW",
+      "title": "Senior Associate, Software Engineer (official listing 1433422000)",
+      "employment": "Full-time · Senior Associate Software Engineering",
+      "gradYear": "历史职位；发现时已招满，完整资格不可再核验",
+      "match": "发现时已关闭；无当前行动价值",
+      "ngCompatibility": "closed-at-discovery · 官方页面明确职位已招满",
+      "assessment": "在Texas增量源清理中补抓到Richardson Senior Associate Software Engineer。2026-10-07复核L3Harris官方页面，明确显示“Sorry, this position has been filled.”；完整JD、最低经验、2027入职和OPT条款已不可读取。按反漏抓规则保留发现/关闭审计，不进入表2。",
+      "visa": "未核验；官方职位已招满，未以签证作排除依据。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-08T00:16:21Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://jobs.l3harris.com/job/Richardson-Senior-Associate,-Software-Engineer-TX-75080/1433422000/?ats=successfactors",
+      "status": "closed-filled-at-discovery",
+      "finalPriority": "不投 · 官方已招满",
+      "roleTrack": "Software Engineering · 完整方向已不可核验",
+      "technicalGrowth": "未核验",
+      "brandPlatform": "L3Harris Technologies",
+      "ryanUpgrade": "不适用：发现时已关闭",
+      "compensation": "未披露",
+      "officePerks": "Richardson",
+      "jobId": "1433422000",
+      "deadline": "Closed / filled",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-08T00:16:21Z",
+      "officialStatus": "L3Harris官方页面明确显示职位已招满。",
+      "verificationFlags": [],
+      "discoverySource": "SimplifyJobs listings f39527ed source-cleanup diff；L3Harris官方Careers",
+      "rejectionReason": "Official L3Harris page says the position has been filled."
+    },
+    {
+      "company": "Hewlett Packard Enterprise (HPE)",
+      "tier": "发现/排除",
+      "area": "All Texas, United States",
+      "market": "Texas multi-location",
+      "title": "HPC & AI Software – Engineering Resolution Engineer (1201159)",
+      "employment": "Full-time · Software Engineering",
+      "gradYear": "历史职位；发现时官方页面已不存在",
+      "match": "AI/HPC标题相关，但发现时已关闭",
+      "ngCompatibility": "closed-at-discovery · 官方Workday页面不存在",
+      "assessment": "在Texas增量源清理中补抓到HPE的HPC & AI Software Engineering Resolution Engineer。标题与AI/HPC软件方向相关，但2026-10-07复核HPE官方Workday时显示“The page you are looking for doesn't exist.”；完整JD、最低经验、地点列表、2027入职、OPT和薪资已不可核验。保留历史审计以防重复发现，不进入表2。",
+      "visa": "未核验；官方页面已不存在。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-08T00:16:21Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://hpe.wd5.myworkdayjobs.com/acjobsite/job/All-Texas-United-States-of-America/HPC---AI-Software---Engineering-Resolution-Engineer_1201159",
+      "status": "closed-at-discovery",
+      "finalPriority": "不投 · 官方页面已不存在",
+      "roleTrack": "HPC / AI Software / Engineering Resolution",
+      "technicalGrowth": "历史标题潜在较高；完整JD不可用",
+      "brandPlatform": "HPE",
+      "ryanUpgrade": "无法评估：发现时已关闭",
+      "compensation": "未披露",
+      "officePerks": "All Texas（历史聚合地点）",
+      "jobId": "1201159",
+      "deadline": "Closed / page unavailable",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-08T00:16:21Z",
+      "officialStatus": "HPE官方Workday显示The page you are looking for doesn't exist。",
+      "verificationFlags": [],
+      "discoverySource": "SimplifyJobs listings f39527ed source-cleanup diff；HPE官方Workday",
+      "rejectionReason": "Official HPE Workday page no longer exists; discovered only during inactive-record cleanup."
+    },
+    {
+      "company": "CAE",
+      "tier": "发现/排除",
+      "area": "Arlington, TX",
+      "market": "DFW",
+      "title": "Weapons Aero Software Engineer (120370)",
+      "employment": "Full-time · Software Engineering",
+      "gradYear": "历史职位；发现时官方页面已不存在",
+      "match": "方向偏武器/航空仿真软件，且发现时已关闭",
+      "ngCompatibility": "closed-at-discovery · 官方Workday页面不存在",
+      "assessment": "在Texas增量源清理中补抓到CAE Arlington Weapons Aero Software Engineer（120370）。2026-10-07复核CAE官方Workday显示“The page you are looking for doesn't exist.”；完整资格、经验、身份/许可、2027入职和薪资不可再核验。岗位标题显示方向为Weapons/Aero仿真软件，非Qien目标Applied AI/ML/DS；保留关闭与方向排除审计。",
+      "visa": "未核验；发现时官方页面已不存在，未推断公民/许可要求。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-08T00:16:21Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Weapons-Aero-Software-Engineer_120370",
+      "status": "closed-direction-rejected",
+      "finalPriority": "不投 · 官方已下架且方向偏Weapons/Aero软件",
+      "roleTrack": "Weapons / Aerospace Simulation Software Engineering",
+      "technicalGrowth": "非目标Applied AI/ML方向；完整JD不可用",
+      "brandPlatform": "CAE",
+      "ryanUpgrade": "不构成明确Applied AI升级，且已关闭",
+      "compensation": "未披露",
+      "officePerks": "Arlington",
+      "jobId": "120370",
+      "deadline": "Closed / page unavailable",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-08T00:16:21Z",
+      "officialStatus": "CAE官方Workday显示The page you are looking for doesn't exist。",
+      "verificationFlags": [],
+      "discoverySource": "SimplifyJobs listings f39527ed source-cleanup diff；CAE官方Workday",
+      "rejectionReason": "Official page no longer exists; title indicates weapons/aerospace software rather than Applied AI/ML/DS."
+    },
+    {
+      "company": "CAE",
+      "tier": "发现/排除",
+      "area": "Arlington, TX",
+      "market": "DFW",
+      "title": "Weapons Aero Software Engineer (120371)",
+      "employment": "Full-time · Software Engineering",
+      "gradYear": "历史职位；发现时官方页面已不存在",
+      "match": "方向偏武器/航空仿真软件，且发现时已关闭",
+      "ngCompatibility": "closed-at-discovery · 官方Workday页面不存在",
+      "assessment": "在Texas增量源清理中补抓到CAE Arlington Weapons Aero Software Engineer（120371）。2026-10-07复核CAE官方Workday显示“The page you are looking for doesn't exist.”；完整资格、经验、身份/许可、2027入职和薪资不可再核验。岗位标题显示方向为Weapons/Aero仿真软件，非Qien目标Applied AI/ML/DS；保留关闭与方向排除审计。",
+      "visa": "未核验；发现时官方页面已不存在，未推断公民/许可要求。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-08T00:16:21Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://cae.wd3.myworkdayjobs.com/career/job/Arlington-TX/Weapons-Aero-Software-Engineer_120371",
+      "status": "closed-direction-rejected",
+      "finalPriority": "不投 · 官方已下架且方向偏Weapons/Aero软件",
+      "roleTrack": "Weapons / Aerospace Simulation Software Engineering",
+      "technicalGrowth": "非目标Applied AI/ML方向；完整JD不可用",
+      "brandPlatform": "CAE",
+      "ryanUpgrade": "不构成明确Applied AI升级，且已关闭",
+      "compensation": "未披露",
+      "officePerks": "Arlington",
+      "jobId": "120371",
+      "deadline": "Closed / page unavailable",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-08T00:16:21Z",
+      "officialStatus": "CAE官方Workday显示The page you are looking for doesn't exist。",
+      "verificationFlags": [],
+      "discoverySource": "SimplifyJobs listings f39527ed source-cleanup diff；CAE官方Workday",
+      "rejectionReason": "Official page no longer exists; title indicates weapons/aerospace software rather than Applied AI/ML/DS."
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-07T23:22:48Z",
-    "scope": "22:01 UTC后Texas New-Grad增量与5个新增岗位官方核验；TI/D3V跳过。",
+    "lastCheckedAt": "2026-10-08T00:16:21Z",
+    "scope": "23:02 UTC后Texas增量与被源清理的潜在相关软件/AI历史职位反漏抓复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -7047,6 +7183,34 @@
         "jobId": "01876984",
         "status": "citizenship-direction-rejected",
         "reason": "明确U.S. citizenship与Top Secret硬门槛；RF/电气生产支持方向不符。"
+      },
+      {
+        "checkedAt": "2026-10-08T00:16:21Z",
+        "company": "L3Harris Technologies",
+        "jobId": "1433422000",
+        "status": "closed-filled-at-discovery",
+        "reason": "Richardson Senior Associate Software Engineer；官方页面明确显示职位已招满。"
+      },
+      {
+        "checkedAt": "2026-10-08T00:16:21Z",
+        "company": "Hewlett Packard Enterprise (HPE)",
+        "jobId": "1201159",
+        "status": "closed-at-discovery",
+        "reason": "All-Texas HPC & AI Software岗位；官方Workday页面已不存在。"
+      },
+      {
+        "checkedAt": "2026-10-08T00:16:21Z",
+        "company": "CAE",
+        "jobId": "120370",
+        "status": "closed-direction-rejected",
+        "reason": "Arlington Weapons Aero Software Engineer；官方页面已不存在，且方向偏武器/航空仿真软件。"
+      },
+      {
+        "checkedAt": "2026-10-08T00:16:21Z",
+        "company": "CAE",
+        "jobId": "120371",
+        "status": "closed-direction-rejected",
+        "reason": "Arlington Weapons Aero Software Engineer；官方页面已不存在，且方向偏武器/航空仿真软件。"
       }
     ],
     "verificationChanges": [
@@ -7200,17 +7364,15 @@
       }
     ],
     "sourcesChecked": [
-      "SimplifyJobs listings commits c16fd51与29571db",
-      "Deloitte官方Careers 358043",
-      "Charles Schwab官方iCIMS 2026-126708",
-      "L3Harris官方Careers 45787",
-      "CVS Health官方Workday R1056490",
-      "RTX官方Workday 01876984"
+      "SimplifyJobs/New-Grad-Positions listings 29571db→f39527ed",
+      "L3Harris官方Careers Richardson listing 1433422000",
+      "HPE官方Workday 1201159",
+      "CAE官方Workday 120370/120371"
     ],
     "coverageLimitations": [
-      "Deloitte签证措辞未明确说明初始F-1 OPT，按规则保留visa-verification。",
-      "L3Harris官方页面未披露薪资或签证条款；按方向不符排除。",
-      "CVS完整JD已下架，仅可确认Conversion-only路径及官方页面不存在。"
+      "四个职位均在发现时已关闭/下架，完整JD、经验、2027入职、OPT和薪资无法再核验。",
+      "L3Harris公开URL仅保留listing编号1433422000，原始requisition ID不可见。",
+      "本轮为增量与源清理反漏抓，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -7749,6 +7911,22 @@
           "Deloitte签证措辞未明确说明初始F-1 OPT，按规则保留visa-verification。",
           "L3Harris官方页面未披露薪资或签证条款；按方向不符排除。",
           "CVS完整JD已下架，仅可确认Conversion-only路径及官方页面不存在。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-08T00:16:21Z",
+        "scope": "23:02 UTC后Texas增量与被源清理的潜在相关软件/AI历史职位反漏抓复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 29571db→f39527ed",
+          "L3Harris官方Careers Richardson listing 1433422000",
+          "HPE官方Workday 1201159",
+          "CAE官方Workday 120370/120371"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③反漏抓补录4个已关闭记录：L3Harris Richardson Senior Associate Software Engineer（官方明确filled）、HPE 1201159 HPC & AI Software（官方页不存在）、CAE 120370/120371 Weapons Aero Software Engineer（官方页不存在且方向不符）；④无既有已记录职位状态变化。",
+        "coverageLimitations": [
+          "四个职位均在发现时已关闭/下架，完整JD、经验、2027入职、OPT和薪资无法再核验。",
+          "L3Harris公开URL仅保留listing编号1433422000，原始requisition ID不可见。",
+          "本轮为增量与源清理反漏抓，未完成全部监控公司ATS全量分页。"
         ]
       }
     ]
