@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T02:21:52Z",
+  "updatedAt": "2026-10-08T03:22:32Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6631,11 +6631,47 @@
       "verificationFlags": [],
       "discoverySource": "SimplifyJobs listings commit 067daf6；Barry-Wehmiller官方Workday",
       "rejectionReason": "Industrial automation/control-system role centered on PLC, SCADA, MES and site start-up; $75K–$90K overlaps Ryan and does not provide a meaningful brand or Applied AI/ML upgrade."
+    },
+    {
+      "company": "RTX / Raytheon",
+      "tier": "A",
+      "market": "DFW",
+      "area": "McKinney, TX · Onsite",
+      "title": "2026 Fulltime Systems Engineer I — Onsite (01821685)",
+      "jobId": "01821685",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513PW--2501-W-University-Dr--PW-BLDG/XMLNAME-2026--Fulltime-Systems-Engineer-I--Onsite_01821685",
+      "status": "closed-direction-rejected",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-08T03:22:32Z",
+      "firstSeen": "2026-10-07",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-08T03:22:32Z",
+      "employment": "全职 · Onsite · Systems Engineer I",
+      "gradYear": "2026 early-career/college hire（历史索引）；官方正文已下线，2027年5月后入职不兼容/无法确认",
+      "ngCompatibility": "closed-at-discovery：发现源曾列为New Grad且归档摘要显示STEM学士入口，但官方页面现已不存在。",
+      "minimumQualifications": "历史公开索引仅能确认STEM学士；最低经验、身份/安全许可及完整资格因官方JD下线无法核验。",
+      "assessment": "发现源清理时反漏抓到的McKinney Systems Engineer I历史记录。官方RTX Workday明确显示页面不存在；归档摘要指向System Design & Architecture、Mission Systems Integration以及Land Warfare/Air Defense，属于国防任务系统/MBSE系统工程，不是Applied AI/ML/DS。发现时已关闭，且技术路线相对Ryan Associate Data Scientist不构成目标方向升级。",
+      "visa": "未知：官方完整JD已下线，不能确认OPT/STEM OPT、永久授权或安全许可措辞；未以签证未知作为拒绝原因。",
+      "compensation": "未知：官方JD已下线。",
+      "officialStatus": "2026-10-07官方RTX Workday明确显示“The page you are looking for doesn't exist.”，按closed-at-discovery归档。",
+      "officialLocations": [
+        "US-TX-MCKINNEY-513PW · 2501 W University Dr · PW BLDG"
+      ],
+      "locationListComplete": false,
+      "source": "RTX官方Workday状态页；SimplifyJobs/New-Grad-Positions源清理反漏抓；公开历史索引摘要",
+      "verificationFlags": [],
+      "finalPriority": "发现后排除 · 已关闭且方向不符",
+      "roleTrack": "Defense Systems Engineering / MBSE / Mission Systems Integration",
+      "technicalGrowth": "非Applied AI/ML/DS主线；相对Ryan目标技术成长不足。",
+      "brandPlatform": "88/100",
+      "ryanUpgrade": "不构成：职位已关闭，且核心为国防任务系统工程/MBSE，不是Applied AI/ML/DS。",
+      "rejectionReason": "closed-direction-rejected：官方页面已不存在；归档职责为国防任务系统/MBSE与Mission Systems Integration，非Applied AI/ML/DS。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-08T02:21:52Z",
-    "scope": "01:20 UTC后Texas New-Grad增量与Barry-Wehmiller Dallas新岗官方JD核验；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-08T03:22:32Z",
+    "scope": "02:21 UTC后Texas New-Grad增量与被发现源清理的RTX McKinney历史岗位反漏抓复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6746,6 +6782,11 @@
         "checkedAt": "2026-10-07T14:16:48Z",
         "jobId": "policy:exclude-explicit-citizen-lpr-only",
         "result": "已新增美国公民/绿卡硬门槛过滤。复查现有记录：明确硬门槛岗位此前均已排除；当前表2没有需移出的岗位。RTX 01875418仅有第三方公民要求线索、官方未确认，继续status/visa verification，不误判。"
+      },
+      {
+        "checkedAt": "2026-10-08T03:22:32Z",
+        "jobId": "01821685",
+        "result": "RTX官方Workday明确显示页面不存在；按closed-at-discovery归档。历史索引指向国防任务系统/MBSE，按direction-rejected，不进入表2。"
       }
     ],
     "newDiscoveries": [
@@ -7253,6 +7294,13 @@
         "jobId": "R023049",
         "status": "direction-opportunity-cost-rejected",
         "reason": "Entry Level资格符合，但核心是PLC/SCADA/MES工业自动化与现场启动；薪资$75K–$90K与Ryan重叠，品牌和Applied AI成长无明显升级。"
+      },
+      {
+        "checkedAt": "2026-10-08T03:22:32Z",
+        "company": "RTX / Raytheon",
+        "jobId": "01821685",
+        "status": "closed-direction-rejected",
+        "reason": "McKinney Systems Engineer I；官方页面已不存在，且历史职责为国防任务系统/MBSE与Mission Systems Integration，非Applied AI/ML/DS。"
       }
     ],
     "verificationChanges": [
@@ -7413,12 +7461,13 @@
       }
     ],
     "sourcesChecked": [
-      "SimplifyJobs/New-Grad-Positions listings cc3078a→067daf6",
-      "Barry-Wehmiller官方Workday R023049"
+      "SimplifyJobs/New-Grad-Positions listings 067daf6b→15350e7f",
+      "RTX官方Workday 01821685",
+      "公开历史职位索引摘要（System Design & Architecture / Mission Systems Integration）"
     ],
     "coverageLimitations": [
-      "R023049官方未披露2027年5月后具体入职日期、OPT或sponsorship政策；因方向与Ryan机会成本已排除，未以未知签证作硬拒绝。",
-      "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+      "RTX 01821685发现时官方JD已下线，最低经验、2027年5月后入职、OPT/安全许可和薪资无法完整核验。",
+      "本轮为上次运行后的增量与源清理反漏抓，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -7998,6 +8047,20 @@
         "coverageLimitations": [
           "R023049官方未披露2027年5月后具体入职日期、OPT或sponsorship政策；因方向与Ryan机会成本已排除，未以未知签证作硬拒绝。",
           "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-08T03:22:32Z",
+        "scope": "02:21 UTC后Texas New-Grad增量与被发现源清理的RTX McKinney历史岗位反漏抓复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 067daf6b→15350e7f",
+          "RTX官方Workday 01821685",
+          "公开历史职位索引摘要（System Design & Architecture / Mission Systems Integration）"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③反漏抓补录RTX McKinney 2026 Fulltime Systems Engineer I（01821685）：官方页面已不存在，且历史职责为国防任务系统/MBSE，非Applied AI/ML/DS；④无既有已记录职位状态变化。",
+        "coverageLimitations": [
+          "RTX 01821685发现时官方JD已下线，最低经验、2027年5月后入职、OPT/安全许可和薪资无法完整核验。",
+          "本轮为上次运行后的增量与源清理反漏抓，未完成全部监控公司ATS全量分页。"
         ]
       }
     ]
