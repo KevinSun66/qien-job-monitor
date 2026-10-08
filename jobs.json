@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T21:24:20Z",
+  "updatedAt": "2026-10-08T21:55:00Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6794,6 +6794,42 @@
       "aggregatorStatus": "inactive",
       "aggregatorStatusChangedAt": "2026-10-08T21:24:20Z",
       "whyRyan": "Ryan在Dallas稳定且直接走Applied Data Science；本项目品牌与轮岗有价值，但当前职责偏嵌入式软件且要求年度搬迁，尚无足够证据替代Ryan。"
+    },
+    {
+      "company": "McKinsey & Company",
+      "tier": "S",
+      "area": "Dallas, TX（官方可选办公室之一）",
+      "market": "DFW",
+      "title": "Data Scientist - QuantumBlack, AI by McKinsey (112338)",
+      "employment": "Full-time · 2027 New Graduate · Tech & AI",
+      "gradYear": "2026-12–2027-08 毕业窗口；本科/硕士/博士",
+      "match": "非常高 · Applied AI/ML/DS，2027年5月毕业符合",
+      "ngCompatibility": "符合官方毕业窗口；专业及Python/SQL与相关实习背景较匹配",
+      "assessment": "用户于2026-10-08明确确认已投递。官方2027届QuantumBlack数据科学岗位，工作包括ML、优化、GenAI、Agentic AI、RAG/Agent评估、MLOps/LLMOps及客户交付；Dallas为可选办公室。相较Ryan约$83K base，McKinsey官方美国base $121.6K–$125K，品牌与AI技术平台显著提升。正式录用及OPT/STEM OPT、未来签证支持尚未核实。",
+      "visa": "官方上传的5页JD未明确说明F-1 OPT/STEM OPT或H-1B sponsorship政策。申请复核页工作授权回答No、未来雇主支持Yes；等待招聘方核实，不能视为已确认支持。",
+      "found": "2026-10-08",
+      "firstSeen": "2026-10-08",
+      "source": "用户上传McKinsey官方五页PDF（2026-10-08）",
+      "url": "https://www.mckinsey.com/careers/search-jobs/jobs/datascientist-quantumblackaibymckinsey-112338",
+      "status": "current",
+      "finalPriority": "表3 · 已投递 · 等待回复；签证资格待核实",
+      "roleTrack": "Data Science / Applied ML / GenAI / Agentic AI / Analytics Consulting",
+      "technicalGrowth": "高 · ML、Agentic AI、MLOps、客户场景交付",
+      "brandPlatform": "高 · McKinsey QuantumBlack",
+      "ryanUpgrade": "显著 · 美国base高于Ryan约$38.6K–$42K；平台和技术方向升级",
+      "compensation": "官方美国新员工年基本工资 $121,600–$125,000（所有列示地点综合区间），可能有酌情奖金；Dallas单独区间未披露",
+      "officePerks": "Dallas为官方可选office；需出差；办公模式未披露",
+      "jobId": "112338",
+      "deadline": "未披露",
+      "appliedDate": "2026-10-08",
+      "seedAppliedDisplay": "2026/10/08（用户确认已投递，具体时间未提供）",
+      "applicationStatus": "applied",
+      "applicationEvidence": "用户于2026-10-08明确表示已申请，并上传五页官方JD PDF；未提供最终提交确认编号",
+      "archiveUrl": "job-archive/mckinsey/112338/job-description.md",
+      "archiveLabel": "JD 快照（基于官方PDF的结构化文本）",
+      "archiveSource": "用户上传 McKinsey Jobs _ Careers _ McKinsey & Company.pdf，5页，页面打印时间2026-10-08 16:55",
+      "archiveNote": "GitHub保存结构化文本JD；原始PDF仅保留在本次对话附件，未上传GitHub仓库",
+      "lastChecked": "2026-10-08"
     }
   ],
   "monitorAudit": {
