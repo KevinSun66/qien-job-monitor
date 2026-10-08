@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T19:21:48Z",
+  "updatedAt": "2026-10-08T21:24:20Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6751,11 +6751,54 @@
       "jobId": "01881234",
       "title": "Embedded Software Engineer I — Onsite (01881234)",
       "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513PW--2501-W-University-Dr--PW-BLDG/Embedded-Software-Engineer-I--Onsite-_01881234"
+    },
+    {
+      "company": "L3Harris Technologies",
+      "tier": "待核验",
+      "area": "Various Locations；官方入口锚定Melbourne, FL，完整轮岗地点未披露，DFW/Austin待确认",
+      "market": "多地点 / DFW-Austin location-verification",
+      "title": "Engineering Leadership Development Program – Software Engineer (Various Locations)",
+      "jobId": "41831",
+      "employment": "Full-time · New Grad · 3年轮岗项目",
+      "gradYear": "在读本科或本科毕业不超过12个月；Qien 2027届学历窗口原则上可匹配，具体入职日期未披露",
+      "match": "New Grad资格匹配；职责以嵌入式实时控制、软硬件接口和通用软件工程为主，非Applied AI/ML/DS",
+      "ngCompatibility": "官方明确接受正在攻读本科或毕业12个月内申请者；未列专业工作年限",
+      "assessment": "三年Engineering Leadership Development Program，每12个月需搬迁；工作涉及C/C++/C#/Java/Python、Windows/Linux/RTOS、战术无线电实时控制、集成与测试。品牌与工程轮岗有价值，但AI/ML深度弱，若包含Texas地点，相对Ryan的Applied Data Science路径与Dallas稳定性仍缺乏明确升级。",
+      "visa": "visa-verification：职位正文未明确OPT/CPT或sponsorship；仅有公司通用提示“许多职位”可能要求安全许可，不能据此认定本岗限美国公民。",
+      "found": "2026-10-08",
+      "discoveredDate": "2026-10-08",
+      "discoveredAt": "2026-10-08T21:24:20Z",
+      "firstSeen": "2026-10-08",
+      "lastChecked": "2026-10-08",
+      "lastCheckedAt": "2026-10-08T21:24:20Z",
+      "source": "L3Harris官方Careers完整JD；SimplifyJobs New-Grad feed反漏抓",
+      "url": "https://careers.l3harris.com/en/job/melbourne/engineering-leadership-development-program-software-engineer-various-locations/4832/100148576352",
+      "status": "location-status-verification",
+      "finalPriority": "待核验 · 不进入表2",
+      "roleTrack": "Embedded / Real-Time Software / Engineering Leadership Rotation",
+      "officialStatus": "官方职位页于2026-10-08显示Apply Now；Simplify增量源同期active→inactive，状态冲突",
+      "officialLocations": [
+        "Various Locations",
+        "Melbourne, FL（官方入口锚定）"
+      ],
+      "locationListComplete": false,
+      "compensation": "地区薪资披露：高成本地区$75,500–$140,500；部分州$66,000–$123,000；Texas具体薪资未披露",
+      "minimumQualifications": "在读CS/ME/AE/Engineering Mechanics/Materials Science本科，或本科毕业12个月内；三年项目期间每12个月搬迁一次；至少掌握一种编程语言。",
+      "rejectionReason": "尚未最终排除；需先确认完整轮岗城市是否包含DFW/Austin。若包含，仍需评估非AI方向、年度搬迁和Ryan机会成本。",
+      "verificationFlags": [
+        "location-verification",
+        "status-verification",
+        "start-date-verification",
+        "visa-verification"
+      ],
+      "aggregatorStatus": "inactive",
+      "aggregatorStatusChangedAt": "2026-10-08T21:24:20Z",
+      "whyRyan": "Ryan在Dallas稳定且直接走Applied Data Science；本项目品牌与轮岗有价值，但当前职责偏嵌入式软件且要求年度搬迁，尚无足够证据替代Ryan。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-08T19:21:48Z",
-    "scope": "18:02 UTC后Texas New-Grad增量与Barry-Wehmiller R022649官方状态复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-08T21:24:20Z",
+    "scope": "19:31 UTC后New-Grad增量与L3Harris 41831多地点官方JD核验；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6896,6 +6939,11 @@
         "checkedAt": "2026-10-08T19:21:48Z",
         "jobId": "R022649",
         "result": "Simplify增量源由active转inactive；Barry-Wehmiller官方Workday页面今日仍可检索并显示职位正文。标记status-verification，原direction-rejected决策不变。"
+      },
+      {
+        "checkedAt": "2026-10-08T21:24:20Z",
+        "jobId": "41831",
+        "result": "新发现L3Harris Engineering Leadership Development Program – Software Engineer。官方仍显示Apply Now，但完整轮岗地点、2027入职和OPT均未确认，聚合源已inactive；按location/status/start-date/visa-verification保留，不进入表2。"
       }
     ],
     "newDiscoveries": [
@@ -7424,6 +7472,13 @@
         "jobId": "01881234",
         "status": "citizenship-direction-rejected",
         "reason": "McKinney Embedded Software Engineer I；官方明确要求美国公民和DoD Secret安全许可，F-1 OPT不兼容；职责为实时嵌入式RF/传感器国防软件，非Applied AI/ML/DS。"
+      },
+      {
+        "checkedAt": "2026-10-08T21:24:20Z",
+        "jobId": "41831",
+        "company": "L3Harris Technologies",
+        "status": "location-status-verification",
+        "reason": "New Grad资格可匹配，但官方仅写Various Locations，DFW/Austin未确认；聚合源inactive与官方Apply冲突。职责偏嵌入式实时软件且需每年搬迁，暂不进入表2。"
       }
     ],
     "verificationChanges": [
@@ -7606,11 +7661,12 @@
       }
     ],
     "sourcesChecked": [
-      "SimplifyJobs/New-Grad-Positions listings 562993d8→b63e1a2f",
-      "Barry-Wehmiller官方Workday R022649（2026-10-08仍可检索并显示正文）"
+      "SimplifyJobs/New-Grad-Positions listings 266c01d6→a5161975",
+      "L3Harris官方Careers Job ID 41831完整JD与官方搜索页"
     ],
     "coverageLimitations": [
-      "聚合源inactive与官方职位页仍可检索的信号冲突；在官方明确关闭前不判定closed。",
+      "L3Harris 41831仅写Various Locations并以Melbourne, FL为入口，未公布完整轮岗城市；DFW/Austin可能性不可确认，保留location-verification。",
+      "聚合源inactive而官方仍显示Apply Now；不据聚合源单独判定关闭。",
       "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
@@ -8257,6 +8313,20 @@
         "result": "①无新增进入表2；②无新增待核验；③无新增发现后排除；④Barry-Wehmiller Dallas Entry Level Software Engineer（R022649）聚合源active→inactive，但官方职位页仍可检索，标记status-verification；既有方向与Ryan机会成本排除决策不变。",
         "coverageLimitations": [
           "聚合源inactive与官方职位页仍可检索的信号冲突；在官方明确关闭前不判定closed。",
+          "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-08T21:24:20Z",
+        "scope": "19:31 UTC后New-Grad增量与L3Harris 41831多地点官方JD核验；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 266c01d6→a5161975",
+          "L3Harris官方Careers Job ID 41831"
+        ],
+        "result": "①无新增进入表2；②新增L3Harris Engineering Leadership Development Program – Software Engineer（41831）待location/status/start-date/visa核验；③无新增发现后排除；④无既有职位状态变化。",
+        "coverageLimitations": [
+          "官方只写Various Locations并以Melbourne, FL为入口，未公开完整轮岗城市，无法确认是否包含DFW/Austin。",
+          "聚合源inactive但官方仍显示Apply Now，不确认关闭。",
           "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
         ]
       }
