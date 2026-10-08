@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T01:20:33Z",
+  "updatedAt": "2026-10-08T02:21:52Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6597,11 +6597,45 @@
       "verificationFlags": [],
       "discoverySource": "SimplifyJobs listings f39527ed source-cleanup diff；CAE官方Workday",
       "rejectionReason": "Official page no longer exists; title indicates weapons/aerospace software rather than Applied AI/ML/DS."
+    },
+    {
+      "company": "Barry-Wehmiller / BW Design Group",
+      "tier": "发现/排除",
+      "area": "Dallas, TX（同一requisition另含St. Louis、Raleigh、Eau Claire、Denver）",
+      "market": "DFW",
+      "title": "Entry Level Software Engineer (R023049)",
+      "employment": "Full-time · Entry Level",
+      "gradYear": "入门级兼容；接受academic project、internship、co-op或entry-level experience，未指定毕业年份",
+      "match": "早期职业资格符合，但方向与Ryan机会成本不符",
+      "ngCompatibility": "符合0–2年/Entry Level；无最低全职工作年限",
+      "assessment": "官方JD确认Dallas为五个地点之一，岗位负责工业自动化与制造系统集成，核心技术为PLC语言、C#/Visual C++、SCADA、MES、数据库、控制系统及现场启动；虽包含analytics、reporting和scripting，但不是Applied AI/ML/DS。官方薪资$75,000–$90,000，与Ryan约$83K base/$90K首年重叠；Barry-Wehmiller品牌平台和AI技术成长均不足以形成明显升级，因此按方向与Ryan机会成本排除。",
+      "visa": "visa-verification未完成；官方仅说明使用E-Verify，未披露OPT、sponsorship或永久授权限制。排除依据不是签证。",
+      "found": "2026-10-07",
+      "discoveredDate": "2026-10-07",
+      "discoveredAt": "2026-10-08T02:21:52Z",
+      "firstSeen": "2026-10-07",
+      "url": "https://barrywehmiller.wd1.myworkdayjobs.com/BWConfidential/job/Dallas-TX/Entry-Level-Software-Engineer_R023049",
+      "status": "direction-opportunity-cost-rejected",
+      "finalPriority": "不投 · 工业自动化/控制系统方向，薪资与Ryan重叠且无平台升级",
+      "roleTrack": "Industrial Automation Software / SCADA / MES / Controls Integration",
+      "technicalGrowth": "58/100 for Qien target · 软件与数据集成，但AI/ML内容未体现",
+      "brandPlatform": "72/100 · $3B工业工程与制造技术集团；非目标科技/AI平台",
+      "ryanUpgrade": "不升级 · 薪资重叠，品牌和Applied AI成长均不足",
+      "compensation": "$75,000–$90,000 official approximate range",
+      "officePerks": "Dallas可选；需按项目旅行并支持安装、现场启动、客户会议与培训",
+      "jobId": "R023049",
+      "deadline": "未披露",
+      "lastChecked": "2026-10-07",
+      "lastCheckedAt": "2026-10-08T02:21:52Z",
+      "officialStatus": "Barry-Wehmiller官方Workday active，Posted Today并显示Apply。",
+      "verificationFlags": [],
+      "discoverySource": "SimplifyJobs listings commit 067daf6；Barry-Wehmiller官方Workday",
+      "rejectionReason": "Industrial automation/control-system role centered on PLC, SCADA, MES and site start-up; $75K–$90K overlaps Ryan and does not provide a meaningful brand or Applied AI/ML upgrade."
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-08T01:20:33Z",
-    "scope": "00:16 UTC后Texas New-Grad增量与已知CVS Conversion岗位状态复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-08T02:21:52Z",
+    "scope": "01:20 UTC后Texas New-Grad增量与Barry-Wehmiller Dallas新岗官方JD核验；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -7212,6 +7246,13 @@
         "jobId": "120371",
         "status": "closed-direction-rejected",
         "reason": "Arlington Weapons Aero Software Engineer；官方页面已不存在，且方向偏武器/航空仿真软件。"
+      },
+      {
+        "checkedAt": "2026-10-08T02:21:52Z",
+        "company": "Barry-Wehmiller / BW Design Group",
+        "jobId": "R023049",
+        "status": "direction-opportunity-cost-rejected",
+        "reason": "Entry Level资格符合，但核心是PLC/SCADA/MES工业自动化与现场启动；薪资$75K–$90K与Ryan重叠，品牌和Applied AI成长无明显升级。"
       }
     ],
     "verificationChanges": [
@@ -7372,10 +7413,11 @@
       }
     ],
     "sourcesChecked": [
-      "SimplifyJobs/New-Grad-Positions listings f39527ed→cc3078a",
-      "CVS Health官方Workday R1056490（上一轮已确认页面不存在）"
+      "SimplifyJobs/New-Grad-Positions listings cc3078a→067daf6",
+      "Barry-Wehmiller官方Workday R023049"
     ],
     "coverageLimitations": [
+      "R023049官方未披露2027年5月后具体入职日期、OPT或sponsorship政策；因方向与Ryan机会成本已排除，未以未知签证作硬拒绝。",
       "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
@@ -7942,6 +7984,19 @@
         ],
         "result": "①无新增进入表2；②无新增待核验；③无新增发现后排除；④CVS Health R1056490增量源由active转inactive，与已确认的官方下架一致；继续closed-conversion-rejected。",
         "coverageLimitations": [
+          "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-08T02:21:52Z",
+        "scope": "01:20 UTC后Texas New-Grad增量与Barry-Wehmiller Dallas新岗官方JD核验；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings cc3078a→067daf6",
+          "Barry-Wehmiller官方Workday R023049"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③新增排除Barry-Wehmiller Dallas Entry Level Software Engineer（R023049）：工业自动化/SCADA/PLC方向，薪资与Ryan重叠且无品牌或Applied AI升级；④无已知职位状态变化。",
+        "coverageLimitations": [
+          "R023049官方未披露2027年5月后具体入职日期、OPT或sponsorship政策；因方向与Ryan机会成本已排除，未以未知签证作硬拒绝。",
           "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
         ]
       }
