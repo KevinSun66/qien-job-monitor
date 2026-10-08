@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T16:22:10Z",
+  "updatedAt": "2026-10-08T18:19:37Z",
   "jobs": [
     {
       "company": "IBM",
@@ -5928,23 +5928,23 @@
     },
     {
       "company": "Apple",
-      "tier": "S待核验",
+      "tier": "历史/关闭",
       "area": "Austin, TX / San Jose, CA",
       "market": "Austin",
       "title": "CAD Engineer – Signoff Infrastructure (200687472-0157)",
       "employment": "全职 · Hardware Technology · 官方页面持续接受申请",
-      "gradYear": "本科即可；未限定毕业年份，2027年5月后入职兼容性待确认",
-      "match": "高潜力 · Apple品牌、Python/全栈、AI/RAG，但入职与授权待核验",
-      "ngCompatibility": "ng-verification：最低资格仅要求Computer Science或相关专业本科；未列最低工作年限，项目和课程经验可满足多项偏好条件",
-      "assessment": "Apple Signoff基础设施软件岗位，使用Python、JavaScript/TypeScript、SQL、后端API和前端dashboard，并参与Signoff AI assistant及现代AI/RAG能力集成。Qien的Data Science/Statistics+CS minor、Python、AI/LLM项目与实习背景具有较好匹配；Apple品牌、工程平台和AI/RAG成长相对Ryan有明显潜在升级。但该岗隶属芯片Signoff CAD基础设施，并非Campus/New Grad requisition，2027年5月后入职和F-1 OPT仍未确认，因此先列待核验，不进入当前表2。",
-      "visa": "visa-verification：官方JD仅说明Apple在法律要求的部分地点参与E-Verify，未披露本岗F-1 OPT/STEM OPT、I-983或未来sponsorship政策。",
+      "gradYear": "Austin职位已关闭；2027年5月后入职兼容性不再核验",
+      "match": "Austin requisition已关闭",
+      "ngCompatibility": "closed：Apple官方Austin详情页明确显示职位不存在或已不可用；不再继续入职/签证核验",
+      "assessment": "Apple Austin Signoff基础设施岗位曾包含Python、JavaScript/TypeScript、SQL、dashboard及AI/RAG能力，具备较高技术潜力；但2026-10-08复核时，Austin专属requisition 200687472-0157官方详情页已明确显示职位不存在或不再可用。聚合源同期由active转inactive，两者一致。San Jose的同Role Number地点版本仍开放，但不属于DFW/Austin监控范围。",
+      "visa": "Austin职位已关闭；OPT/STEM OPT未确认，不以签证未知作为关闭依据。",
       "found": "2026-10-07",
       "discoveredDate": "2026-10-07",
       "discoveredAt": "2026-10-07T05:16:22Z",
       "firstSeen": "2026-10-07",
       "url": "https://jobs.apple.com/en-us/details/200687472-0157/cad-engineer-signoff-infrastructure",
-      "status": "verification",
-      "finalPriority": "待核验 · 潜在S",
+      "status": "closed-at-verification",
+      "finalPriority": "历史归档 · Austin职位已关闭",
       "roleTrack": "Software Engineering / Full-stack / AI-RAG / EDA Signoff Infrastructure",
       "technicalGrowth": "Python、JavaScript/TypeScript、SQL、后端API、可视化dashboard、CI/CD、AI assistant与RAG",
       "brandPlatform": "Apple顶级品牌与大规模SoC工程平台",
@@ -5952,16 +5952,12 @@
       "compensation": "Austin官方JD未披露该requisition具体薪资。",
       "officePerks": "Austin为首选地点之一；到岗频率和具体福利未在JD披露。",
       "jobId": "200687472-0157",
-      "lastChecked": "2026-10-07",
-      "lastCheckedAt": "2026-10-07T05:16:22Z",
-      "officialStatus": "Apple官方职位页显示Submit Resume并接受持续申请。",
-      "verificationFlags": [
-        "start-date-verification",
-        "visa-verification",
-        "compensation-verification"
-      ],
+      "lastChecked": "2026-10-08",
+      "lastCheckedAt": "2026-10-08T18:19:37Z",
+      "officialStatus": "2026-10-08 Apple官方Austin详情页显示“Page not found / this role does not exist or is no longer available”；聚合源active→inactive，关闭已确认。",
+      "verificationFlags": [],
       "discoverySource": "Apple Austin官方职位列表与Apple官方JD（2026-10-07核验）",
-      "rejectionReason": null
+      "rejectionReason": "closed-at-verification：Austin专属requisition 200687472-0157官方页面明确显示职位不存在或不再可用；San Jose同Role Number版本仍开放但不在Texas范围。"
     },
     {
       "company": "Apple",
@@ -6755,8 +6751,8 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-08T16:22:10Z",
-    "scope": "15:02 UTC后Texas New-Grad增量与RTX McKinney两条Embedded Software Engineer I官方JD核验；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-08T18:19:37Z",
+    "scope": "17:02 UTC后Texas New-Grad增量与Apple Austin 200687472-0157官方状态复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6887,6 +6883,11 @@
         "checkedAt": "2026-10-08T16:22:10Z",
         "jobId": "01881234",
         "result": "RTX官方Workday完整JD确认职位开放、Engineer I且课程/研究/项目经验可计入；但明确要求美国公民及DoD Secret许可，且方向为实时嵌入式RF/传感器国防软件。按citizenship-direction-rejected归档。"
+      },
+      {
+        "checkedAt": "2026-10-08T18:19:37Z",
+        "jobId": "200687472-0157",
+        "result": "Apple Austin CAD Engineer – Signoff Infrastructure：聚合源active→inactive，官方Austin详情页明确显示职位不存在或不再可用；关闭确认，status由verification改为closed-at-verification。San Jose同Role Number版本仍开放但不在Texas范围。"
       }
     ],
     "newDiscoveries": [
@@ -7578,15 +7579,24 @@
         "company": "Applied Materials",
         "jobId": "R2627684",
         "change": "聚合源active→inactive，但官方页仍显示Apply；新增status-verification，不确认关闭。"
+      },
+      {
+        "checkedAt": "2026-10-08T18:19:37Z",
+        "company": "Apple",
+        "jobId": "200687472-0157",
+        "from": "verification",
+        "to": "closed-at-verification",
+        "reason": "Austin官方详情页明确显示职位不存在或不再可用；聚合源同期active→inactive。"
       }
     ],
     "sourcesChecked": [
-      "SimplifyJobs/New-Grad-Positions listings 322f5e86→c1a74e3e",
-      "RTX官方Workday 01881232与01881234完整JD"
+      "SimplifyJobs/New-Grad-Positions listings d0d11c15→348d3275",
+      "Apple官方Austin详情页 200687472-0157",
+      "Apple官方Austin搜索结果与San Jose同Role Number 200687472-3749"
     ],
     "coverageLimitations": [
-      "两条RTX requisition正文实质相同但Job ID不同，分别保留以避免漏抓/重复提醒。",
-      "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+      "Apple Austin搜索索引仍短暂显示Submit Resume，但Austin详情页已明确不存在，且聚合源同步转inactive；以详情页作为关闭的更强官方信号。",
+      "San Jose同Role Number版本仍开放，但不属于DFW/Austin范围。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -8206,6 +8216,20 @@
         "coverageLimitations": [
           "两条RTX requisition正文实质相同但Job ID不同，分别保留以避免漏抓/重复提醒。",
           "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-08T18:19:37Z",
+        "scope": "17:02 UTC后Texas New-Grad增量与Apple Austin 200687472-0157官方状态复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings d0d11c15→348d3275",
+          "Apple官方Austin详情页 200687472-0157",
+          "Apple官方Austin搜索结果与San Jose同Role Number 200687472-3749"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③无新增发现后排除；④Apple Austin CAD Engineer – Signoff Infrastructure（200687472-0157）确认关闭：聚合源active→inactive，官方Austin详情页显示职位不存在或不再可用。",
+        "coverageLimitations": [
+          "Apple Austin搜索索引仍短暂显示Submit Resume，但Austin详情页已明确不存在，且聚合源同步转inactive；以详情页作为关闭的更强官方信号。",
+          "San Jose同Role Number版本仍开放，但不属于DFW/Austin范围。"
         ]
       }
     ]
