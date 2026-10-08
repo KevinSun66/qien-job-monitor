@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T03:22:32Z",
+  "updatedAt": "2026-10-08T06:19:14Z",
   "jobs": [
     {
       "company": "IBM",
@@ -622,7 +622,14 @@
       "whyRyan": "该岗位品牌与数据平台规模更强，但工作内容更偏物流数据工程，Austin 搬迁和薪资不确定性使其不足以稳定替代 Ryan 的 Dallas Associate Data Scientist offer。",
       "targetRoles": "后续重点监控 Applied AI / ML Engineer / Data Scientist / AI Platform New College Grad",
       "careersUrl": "https://jobs.appliedmaterials.com/",
-      "reviewedAt": "2026-09-27"
+      "reviewedAt": "2026-09-27",
+      "lastChecked": "2026-10-08",
+      "lastCheckedAt": "2026-10-08T06:19:14Z",
+      "officialStatus": "2026-10-08核验：Simplify增量源由active转为inactive，但Applied Materials官方职位页仍显示Apply、Job ID R2627684与Austin地点。官方关闭未确认，保留status-verification；既有opportunity-cost-rejected决策不变。",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "rejectionReason": "opportunity-cost-rejected：岗位偏数据工程/物流数据平台，薪资与Ryan重叠且Austin迁居成本高，综合升级不足。"
     },
     {
       "company": "Vistra",
@@ -6670,8 +6677,8 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-08T03:22:32Z",
-    "scope": "02:21 UTC后Texas New-Grad增量与被发现源清理的RTX McKinney历史岗位反漏抓复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-08T06:19:14Z",
+    "scope": "05:01 UTC后Texas New-Grad增量与Applied Materials R2627684官方状态复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6787,6 +6794,11 @@
         "checkedAt": "2026-10-08T03:22:32Z",
         "jobId": "01821685",
         "result": "RTX官方Workday明确显示页面不存在；按closed-at-discovery归档。历史索引指向国防任务系统/MBSE，按direction-rejected，不进入表2。"
+      },
+      {
+        "checkedAt": "2026-10-08T06:19:14Z",
+        "jobId": "R2627684",
+        "result": "Simplify增量源由active转inactive；Applied Materials官方页仍显示Apply。标记status-verification，原opportunity-cost-rejected决策不变。"
       }
     ],
     "newDiscoveries": [
@@ -7458,16 +7470,21 @@
         "from": "official-closed / aggregator-active",
         "to": "official-closed / aggregator-inactive",
         "change": "SimplifyJobs增量源将R1056490由active改为inactive，与上一轮官方Workday页面不存在的关闭判断一致；Conversion-only排除结论不变。"
+      },
+      {
+        "checkedAt": "2026-10-08T06:19:14Z",
+        "company": "Applied Materials",
+        "jobId": "R2627684",
+        "change": "聚合源active→inactive，但官方页仍显示Apply；新增status-verification，不确认关闭。"
       }
     ],
     "sourcesChecked": [
-      "SimplifyJobs/New-Grad-Positions listings 067daf6b→15350e7f",
-      "RTX官方Workday 01821685",
-      "公开历史职位索引摘要（System Design & Architecture / Mission Systems Integration）"
+      "SimplifyJobs/New-Grad-Positions listings 2cb595f0→ab1a0fc4",
+      "Applied Materials官方职位页 R2627684"
     ],
     "coverageLimitations": [
-      "RTX 01821685发现时官方JD已下线，最低经验、2027年5月后入职、OPT/安全许可和薪资无法完整核验。",
-      "本轮为上次运行后的增量与源清理反漏抓，未完成全部监控公司ATS全量分页。"
+      "聚合源inactive与官方Apply信号冲突；在官方明确关闭前不判定closed。",
+      "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -8061,6 +8078,19 @@
         "coverageLimitations": [
           "RTX 01821685发现时官方JD已下线，最低经验、2027年5月后入职、OPT/安全许可和薪资无法完整核验。",
           "本轮为上次运行后的增量与源清理反漏抓，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-08T06:19:14Z",
+        "scope": "05:01 UTC后Texas New-Grad增量与Applied Materials R2627684官方状态复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 2cb595f0→ab1a0fc4",
+          "Applied Materials官方职位页 R2627684"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③无新增发现后排除；④Applied Materials Austin Data Scientist New College Grad（R2627684）增量源active→inactive，但官方仍显示Apply，标记status-verification；既有机会成本排除决策不变。",
+        "coverageLimitations": [
+          "聚合源inactive与官方Apply信号冲突；在官方明确关闭前不判定closed。",
+          "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
         ]
       }
     ]
