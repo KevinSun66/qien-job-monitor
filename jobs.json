@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T21:55:00Z",
+  "updatedAt": "2026-10-08T23:17:56Z",
   "jobs": [
     {
       "company": "IBM",
@@ -2476,9 +2476,9 @@
       "firstSeen": "2026-10-02",
       "firstNotifiedDate": "2026-10-02",
       "officialPostedDate": "2026-09-26 (official page displayed Posted 6 Days Ago on 2026-10-02)",
-      "lastChecked": "2026-10-02",
-      "lastCheckedAt": "2026-10-02T22:24:07Z",
-      "officialStatus": "BMO official Workday page displays Apply, but also shows an internally inconsistent application deadline of 2026-08-15; treat availability as uncertain",
+      "lastChecked": "2026-10-08",
+      "lastCheckedAt": "2026-10-08T23:17:56Z",
+      "officialStatus": "2026-10-08：Simplify增量源由inactive转active，BMO官方Workday搜索仍列出R260021450并显示Posted Today；此前1–3年经验硬门槛和通用SWE/Ryan机会成本排除结论不变。",
       "source": "BMO official Workday JD",
       "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Irving-TX-USA/Software-Developer---Early-Career---15_R260021450",
       "status": "experience-rejected",
@@ -6830,10 +6830,105 @@
       "archiveSource": "用户上传 McKinsey Jobs _ Careers _ McKinsey & Company.pdf，5页，页面打印时间2026-10-08 16:55",
       "archiveNote": "GitHub保存结构化文本JD；原始PDF仅保留在本次对话附件，未上传GitHub仓库",
       "lastChecked": "2026-10-08"
+    },
+    {
+      "company": "Cognizant",
+      "tier": "A+",
+      "area": "Plano, TX / DFW client locations",
+      "market": "DFW",
+      "title": "Frontier Engineer (Agentic_AI) (47731)",
+      "employment": "Full-time · Recent Graduate / Early Career · Hybrid 3–4 days/week",
+      "gradYear": "Recent graduate or early-career; coursework, internships, co-ops, research, certifications, hackathons, capstones and personal projects accepted",
+      "match": "Technical fit very high, but F-1 OPT/CPT explicitly unsupported",
+      "ngCompatibility": "Early-career qualification passes; immigration eligibility fails",
+      "assessment": "Cognizant Forward的Agentic AI早期职业岗，涵盖AI-enabled applications、agentic workflows、context/harness engineering、retrieval、deployment与monitoring，Plano和DFW客户地点在完整location list中。尽管方向、$100K base和平台规模相对Ryan有潜在升级，官方JD明确写明本职位不能提供包括CPT/OPT program participation在内的美国工作授权支持，并说明当前岗位并非立即可用、代表未来机会，因此按签证硬规则排除。",
+      "visa": "官方JD明确：Cognizant cannot provide sponsorship for U.S. work authorization, including participation in a CPT/OPT program, for this role；F-1 OPT/CPT不兼容。",
+      "found": "2026-10-08",
+      "firstSeen": "2026-10-08",
+      "discoveredAt": "2026-10-08T23:17:56Z",
+      "lastChecked": "2026-10-08",
+      "lastCheckedAt": "2026-10-08T23:17:56Z",
+      "source": "Cognizant official Careers JD; user-provided Handshake listing 11454347",
+      "url": "https://careers.cognizant.com/us-en/jobs/47731/frontier-engineer-agentic_ai/",
+      "status": "visa-rejected",
+      "finalPriority": "排除 · 官方明确不支持CPT/OPT",
+      "roleTrack": "Agentic AI Engineering / Context Engineering / Retrieval / AI Applications",
+      "technicalGrowth": "95/100",
+      "brandPlatform": "88/100",
+      "ryanUpgrade": "Potentially strong on pay and Agentic AI scope, but ineligible under explicit OPT/CPT restriction",
+      "compensation": "$100,000 annual base + discretionary annual incentive (official)",
+      "officePerks": "Hybrid 3–4 days/week; Plano, TX or DFW client locations among the official multi-location list",
+      "jobId": "47731",
+      "alternateJobId": "Handshake 11454347",
+      "officialPostedDate": "2026-09-01",
+      "deadline": "Handshake displayed 2026-11-01 22:59 CT; official page says applications accepted on an ongoing basis",
+      "officialStatus": "Official page is live but states the posting represents potential future employment and the position is not currently available.",
+      "rejectionReason": "Official JD explicitly excludes CPT/OPT participation; additionally a future-needs posting rather than a currently available position.",
+      "verificationFlags": []
+    },
+    {
+      "company": "Veryable",
+      "tier": "B+",
+      "area": "Downtown Dallas, TX",
+      "market": "DFW",
+      "title": "Data Engineer",
+      "employment": "Full-time · Entry Level · In-office",
+      "gradYear": "Entry level; bachelor's or equivalent experience; 1+ year including internships is preferred, not required",
+      "match": "High technical fit; visa hard fail",
+      "ngCompatibility": "Pass · explicitly entry-level; no mandatory professional YOE",
+      "assessment": "Veryable官方Rippling JD明确为entry-level Data Engineer，负责Snowflake数据管道、orchestration、automated testing、CI/CD，并与data scientists共同运行ML pipelines（feature preparation到model deployment）。$85K–$105K base与Ryan相比有一定上行，但官方明确要求申请人现在及未来均有美国工作授权且不提供sponsorship，按永久授权硬规则排除。",
+      "visa": "Official JD: no U.S. work authorization sponsorship; all applicants must be authorized to work in the U.S. now and in the future. F-1 OPT pathway incompatible under the user's rule.",
+      "found": "2026-10-08",
+      "firstSeen": "2026-10-08",
+      "discoveredAt": "2026-10-08T23:17:56Z",
+      "lastChecked": "2026-10-08",
+      "lastCheckedAt": "2026-10-08T23:17:56Z",
+      "source": "Veryable official Rippling ATS",
+      "url": "https://ats.rippling.com/veryable-careers/jobs/71ecdaea-d356-46b0-9b5e-1325cadb0a48",
+      "status": "visa-rejected",
+      "finalPriority": "排除 · 明确要求现在及未来均有工作授权",
+      "roleTrack": "Data Engineering / MLOps / ML Pipelines",
+      "technicalGrowth": "88/100",
+      "brandPlatform": "72/100",
+      "ryanUpgrade": "Technical/pay upside exists, but immigration eligibility fails; smaller platform also reduces upgrade certainty",
+      "compensation": "$85,000–$105,000 base (official)",
+      "officePerks": "In-office at Downtown Dallas headquarters",
+      "jobId": "71ecdaea-d356-46b0-9b5e-1325cadb0a48",
+      "rejectionReason": "Explicit now-and-future U.S. work authorization requirement with no sponsorship."
+    },
+    {
+      "company": "Veryable",
+      "tier": "B+",
+      "area": "Downtown Dallas, TX",
+      "market": "DFW",
+      "title": "Data Analyst",
+      "employment": "Full-time · Entry Level · In-office",
+      "gradYear": "0–2 years including internships",
+      "match": "Good background fit; visa hard fail and limited Ryan upgrade",
+      "ngCompatibility": "Pass · explicit 0–2 years",
+      "assessment": "Veryable官方Rippling JD明确0–2年，工作包括Snowflake分析、Domo dashboards、实验评估、指标与异常趋势；Python/R为加分项。$65K–$85K base大体不高于Ryan且Applied AI/ML深度有限；更重要的是官方明确要求现在及未来均有美国工作授权且不提供sponsorship，按永久授权硬规则排除。",
+      "visa": "Official JD: no U.S. work authorization sponsorship; all applicants must be authorized to work in the U.S. now and in the future. F-1 OPT pathway incompatible under the user's rule.",
+      "found": "2026-10-08",
+      "firstSeen": "2026-10-08",
+      "discoveredAt": "2026-10-08T23:17:56Z",
+      "lastChecked": "2026-10-08",
+      "lastCheckedAt": "2026-10-08T23:17:56Z",
+      "source": "Veryable official Rippling ATS",
+      "url": "https://ats.rippling.com/veryable-careers/jobs/d40e3168-38a8-403a-83ee-a1e8484ecb6c",
+      "status": "visa-opportunity-cost-rejected",
+      "finalPriority": "排除 · 签证不兼容且相对Ryan无足够升级",
+      "roleTrack": "Data Analytics / BI / Experiment Analysis",
+      "technicalGrowth": "76/100",
+      "brandPlatform": "72/100",
+      "ryanUpgrade": "Below threshold; compensation overlaps Ryan and role is less applied-ML intensive",
+      "compensation": "$65,000–$85,000 base (official)",
+      "officePerks": "In-office at Downtown Dallas headquarters",
+      "jobId": "d40e3168-38a8-403a-83ee-a1e8484ecb6c",
+      "rejectionReason": "Explicit now-and-future U.S. work authorization requirement; compensation and AI/ML depth do not sufficiently beat Ryan."
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-08T21:24:20Z",
+    "lastCheckedAt": "2026-10-08T23:17:56Z",
     "scope": "19:31 UTC后New-Grad增量与L3Harris 41831多地点官方JD核验；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
@@ -6980,6 +7075,26 @@
         "checkedAt": "2026-10-08T21:24:20Z",
         "jobId": "41831",
         "result": "新发现L3Harris Engineering Leadership Development Program – Software Engineer。官方仍显示Apply Now，但完整轮岗地点、2027入职和OPT均未确认，聚合源已inactive；按location/status/start-date/visa-verification保留，不进入表2。"
+      },
+      {
+        "checkedAt": "2026-10-08T23:17:56Z",
+        "jobId": "47731",
+        "result": "Cognizant Frontier Engineer (Agentic_AI)官方完整JD核验：Recent Graduate/Early Career、Plano/DFW、$100K、Agentic AI方向匹配，但明确不支持CPT/OPT，且为未来机会池而非当前可用岗位；按visa-rejected归档。"
+      },
+      {
+        "checkedAt": "2026-10-08T23:17:56Z",
+        "jobId": "71ecdaea-d356-46b0-9b5e-1325cadb0a48",
+        "result": "Veryable Dallas Data Engineer官方Rippling JD：Entry Level、$85K–$105K、数据管道/MLOps/ML pipelines；明确要求现在及未来均有工作授权且不提供sponsorship，按visa-rejected归档。"
+      },
+      {
+        "checkedAt": "2026-10-08T23:17:56Z",
+        "jobId": "d40e3168-38a8-403a-83ee-a1e8484ecb6c",
+        "result": "Veryable Dallas Data Analyst官方Rippling JD：0–2 years、$65K–$85K；明确要求现在及未来均有工作授权且不提供sponsorship，并且相对Ryan升级不足，按visa-opportunity-cost-rejected归档。"
+      },
+      {
+        "checkedAt": "2026-10-08T23:17:56Z",
+        "jobId": "R260021450",
+        "result": "BMO Irving Software Developer Early Career在聚合源由inactive转active，官方Workday搜索仍列出；既有1–3年经验与方向/机会成本排除不变。"
       }
     ],
     "newDiscoveries": [
@@ -7515,6 +7630,27 @@
         "company": "L3Harris Technologies",
         "status": "location-status-verification",
         "reason": "New Grad资格可匹配，但官方仅写Various Locations，DFW/Austin未确认；聚合源inactive与官方Apply冲突。职责偏嵌入式实时软件且需每年搬迁，暂不进入表2。"
+      },
+      {
+        "checkedAt": "2026-10-08T23:17:56Z",
+        "company": "Cognizant",
+        "jobId": "47731",
+        "status": "visa-rejected",
+        "reason": "技术/薪资/地点均高潜力，但官方明确不支持CPT/OPT，且职位当前并不可用、仅代表未来机会。"
+      },
+      {
+        "checkedAt": "2026-10-08T23:17:56Z",
+        "company": "Veryable",
+        "jobId": "71ecdaea-d356-46b0-9b5e-1325cadb0a48",
+        "status": "visa-rejected",
+        "reason": "Dallas Entry-Level Data Engineer；官方明确要求现在及未来均有工作授权且不提供sponsorship。"
+      },
+      {
+        "checkedAt": "2026-10-08T23:17:56Z",
+        "company": "Veryable",
+        "jobId": "d40e3168-38a8-403a-83ee-a1e8484ecb6c",
+        "status": "visa-opportunity-cost-rejected",
+        "reason": "Dallas 0–2年Data Analyst；签证硬门槛不兼容，且$65K–$85K与AI/ML深度相对Ryan无足够升级。"
       }
     ],
     "verificationChanges": [
@@ -7694,15 +7830,26 @@
         "from": "aggregator-active / official-active",
         "to": "aggregator-inactive / official-active / status-verification",
         "change": "SimplifyJobs增量源将R022649由active改为inactive，但官方Workday职位页于2026-10-08仍可检索并显示正文；不自动判定关闭，方向排除结论不变。"
+      },
+      {
+        "checkedAt": "2026-10-08T23:17:56Z",
+        "company": "BMO Financial Group",
+        "jobId": "R260021450",
+        "from": "aggregator-inactive / official-listed",
+        "to": "aggregator-active / official-listed",
+        "change": "聚合源重新标记active；原experience-rejected和opportunity-cost判断不变。"
       }
     ],
     "sourcesChecked": [
-      "SimplifyJobs/New-Grad-Positions listings 266c01d6→a5161975",
-      "L3Harris官方Careers Job ID 41831完整JD与官方搜索页"
+      "SimplifyJobs/New-Grad-Positions listings 11176ffe→d124fd1f",
+      "Cognizant official Careers 47731",
+      "Veryable official Rippling ATS Data Engineer and Data Analyst",
+      "BMO official Workday search R260021450",
+      "User-provided Handshake listing 11454347"
     ],
     "coverageLimitations": [
-      "L3Harris 41831仅写Various Locations并以Melbourne, FL为入口，未公布完整轮岗城市；DFW/Austin可能性不可确认，保留location-verification。",
-      "聚合源inactive而官方仍显示Apply Now；不据聚合源单独判定关闭。",
+      "Cognizant Handshake摘要只写US work authorization required；以官方JD中明确的CPT/OPT排除条款作为更强证据。",
+      "Veryable官方Rippling页面可读但公开搜索索引尚未完整收录；已直接核验官方页面正文。",
       "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
@@ -8363,6 +8510,23 @@
         "coverageLimitations": [
           "官方只写Various Locations并以Melbourne, FL为入口，未公开完整轮岗城市，无法确认是否包含DFW/Austin。",
           "聚合源inactive但官方仍显示Apply Now，不确认关闭。",
+          "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-08T23:17:56Z",
+        "scope": "21:55 UTC后New-Grad增量、用户提供的Cognizant Handshake职位与Veryable Dallas新岗位官方核验；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 11176ffe→d124fd1f",
+          "Cognizant official Careers 47731",
+          "Veryable official Rippling ATS Data Engineer and Data Analyst",
+          "BMO official Workday search R260021450",
+          "User-provided Handshake listing 11454347"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③新增排除Cognizant Frontier Engineer (47731，官方明确不支持CPT/OPT且当前非可用职位)、Veryable Dallas Data Engineer（now-and-future authorization硬门槛）、Veryable Dallas Data Analyst（同一签证硬门槛且相对Ryan升级不足）；④BMO Irving R260021450聚合源inactive→active，官方仍列出，但既有经验/方向排除不变。",
+        "coverageLimitations": [
+          "Cognizant Handshake摘要只写US work authorization required；以官方JD中明确的CPT/OPT排除条款作为更强证据。",
+          "Veryable官方Rippling页面可读但公开搜索索引尚未完整收录；已直接核验官方页面正文。",
           "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
         ]
       }
