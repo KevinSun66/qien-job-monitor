@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T18:19:37Z",
+  "updatedAt": "2026-10-08T19:21:48Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4495,15 +4495,15 @@
       "discoveredDate": "2026-10-05",
       "discoveredAt": "2026-10-05T15:21:04Z",
       "firstSeen": "2026-10-05",
-      "lastChecked": "2026-10-05",
-      "lastCheckedAt": "2026-10-05T15:21:04Z",
+      "lastChecked": "2026-10-08",
+      "lastCheckedAt": "2026-10-08T19:21:48Z",
       "source": "Barry-Wehmiller官方Workday索引与完整官方JD；由SimplifyJobs New-Grad feed反漏抓发现",
       "url": "https://barrywehmiller.wd1.myworkdayjobs.com/en-US/BWConfidential/job/Entry-Level-Software-Engineer_R022649",
       "status": "direction-rejected",
       "finalPriority": "不投 · 工业自动化/SCADA方向，且薪资与成长不高于Ryan",
       "roleTrack": "Industrial Automation Software / SCADA / Controls Integration",
       "jobId": "R022649",
-      "officialStatus": "官方Workday索引显示Apply；全职；Dallas为5个地点之一",
+      "officialStatus": "官方Workday职位页于2026-10-08仍可检索并显示职位正文；Simplify增量源同期active→inactive，信号冲突，暂不确认关闭。",
       "officialLocations": [
         "Dallas, TX",
         "St. Louis, MO",
@@ -4516,10 +4516,13 @@
       "rejectionReason": "职责主要为工业自动化、SCADA、PLC、控制系统和现场启动，不是Applied AI/ML/DS；$75k–$90k也不足以弥补相对Ryan的方向与稳定性损失。",
       "verificationFlags": [
         "start-date-verification",
-        "visa-verification"
+        "visa-verification",
+        "status-verification"
       ],
       "whyRyan": "Ryan更贴近Qien的Data Science/Applied AI方向；本岗薪资最多接近Ryan且需要项目出差。",
-      "discoveryNote": "Feed显示约1个月；官方索引约3周。本次为补发现，不对延迟原因作推断。"
+      "discoveryNote": "Feed显示约1个月；官方索引约3周。本次为补发现，不对延迟原因作推断。 2026-10-08：Simplify源active→inactive，但官方Workday今日仍可检索，标记status-verification；方向排除结论不变。",
+      "aggregatorStatus": "inactive",
+      "aggregatorStatusChangedAt": "2026-10-08T19:21:48Z"
     },
     {
       "company": "Adobe",
@@ -6751,8 +6754,8 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-08T18:19:37Z",
-    "scope": "17:02 UTC后Texas New-Grad增量与Apple Austin 200687472-0157官方状态复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-08T19:21:48Z",
+    "scope": "18:02 UTC后Texas New-Grad增量与Barry-Wehmiller R022649官方状态复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -6888,6 +6891,11 @@
         "checkedAt": "2026-10-08T18:19:37Z",
         "jobId": "200687472-0157",
         "result": "Apple Austin CAD Engineer – Signoff Infrastructure：聚合源active→inactive，官方Austin详情页明确显示职位不存在或不再可用；关闭确认，status由verification改为closed-at-verification。San Jose同Role Number版本仍开放但不在Texas范围。"
+      },
+      {
+        "checkedAt": "2026-10-08T19:21:48Z",
+        "jobId": "R022649",
+        "result": "Simplify增量源由active转inactive；Barry-Wehmiller官方Workday页面今日仍可检索并显示职位正文。标记status-verification，原direction-rejected决策不变。"
       }
     ],
     "newDiscoveries": [
@@ -7587,16 +7595,23 @@
         "from": "verification",
         "to": "closed-at-verification",
         "reason": "Austin官方详情页明确显示职位不存在或不再可用；聚合源同期active→inactive。"
+      },
+      {
+        "checkedAt": "2026-10-08T19:21:48Z",
+        "company": "Barry-Wehmiller / Design Group",
+        "jobId": "R022649",
+        "from": "aggregator-active / official-active",
+        "to": "aggregator-inactive / official-active / status-verification",
+        "change": "SimplifyJobs增量源将R022649由active改为inactive，但官方Workday职位页于2026-10-08仍可检索并显示正文；不自动判定关闭，方向排除结论不变。"
       }
     ],
     "sourcesChecked": [
-      "SimplifyJobs/New-Grad-Positions listings d0d11c15→348d3275",
-      "Apple官方Austin详情页 200687472-0157",
-      "Apple官方Austin搜索结果与San Jose同Role Number 200687472-3749"
+      "SimplifyJobs/New-Grad-Positions listings 562993d8→b63e1a2f",
+      "Barry-Wehmiller官方Workday R022649（2026-10-08仍可检索并显示正文）"
     ],
     "coverageLimitations": [
-      "Apple Austin搜索索引仍短暂显示Submit Resume，但Austin详情页已明确不存在，且聚合源同步转inactive；以详情页作为关闭的更强官方信号。",
-      "San Jose同Role Number版本仍开放，但不属于DFW/Austin范围。"
+      "聚合源inactive与官方职位页仍可检索的信号冲突；在官方明确关闭前不判定closed。",
+      "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -8230,6 +8245,19 @@
         "coverageLimitations": [
           "Apple Austin搜索索引仍短暂显示Submit Resume，但Austin详情页已明确不存在，且聚合源同步转inactive；以详情页作为关闭的更强官方信号。",
           "San Jose同Role Number版本仍开放，但不属于DFW/Austin范围。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-08T19:21:48Z",
+        "scope": "18:02 UTC后Texas New-Grad增量与Barry-Wehmiller R022649官方状态复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 562993d8→b63e1a2f",
+          "Barry-Wehmiller官方Workday R022649"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③无新增发现后排除；④Barry-Wehmiller Dallas Entry Level Software Engineer（R022649）聚合源active→inactive，但官方职位页仍可检索，标记status-verification；既有方向与Ryan机会成本排除决策不变。",
+        "coverageLimitations": [
+          "聚合源inactive与官方职位页仍可检索的信号冲突；在官方明确关闭前不判定closed。",
+          "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
         ]
       }
     ]
