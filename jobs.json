@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T14:19:56Z",
+  "updatedAt": "2026-10-09T15:14:12Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4348,31 +4348,34 @@
       "title": "Early Careers Consult Program — Data Operations Associate (R-69022)",
       "employment": "Full-time · In Person · Early Careers Consult Program",
       "gradYear": "New Grad / Early Careers; exact graduation and start window unverified",
-      "match": "Eligible early-career data analyst profile; below Ryan opportunity-cost threshold",
+      "match": "Early-career data analyst profile; F-1 OPT hard fail and below Ryan opportunity-cost threshold",
       "ngCompatibility": "Early-career compatible; no minimum professional-experience requirement surfaced",
-      "assessment": "完整官方JD已核验。岗位实际是Data Analyst/Data Operations：基础统计、数据清洗组织、BI可视化、业务洞察、客户咨询与storytelling，工具包括Looker、Power BI、QuickSight、BigQuery、Azure Synapse、Python/R/SQL。没有显示ML模型训练、GenAI/LLM或生产级Applied AI ownership。官方全职薪资$77,000，低于Ryan约$83,000 base加约5% bonus，品牌与技术平台也不足以弥补差距，因此通过早期职业资格但未通过Ryan机会成本，排除并保留审计记录。",
-      "visa": "Official JD states equal consideration regardless of citizenship/immigration status but provides no requisition-specific OPT/STEM OPT or sponsorship commitment; not the rejection reason.",
+      "assessment": "官方JD本轮复核确认：岗位为Data Analyst/Data Operations，覆盖基础统计、数据清洗、BI可视化、业务洞察、客户咨询与storytelling，工具包括Looker、Power BI、QuickSight、BigQuery、Azure Synapse、Python/R/SQL；薪资$77,000，低于Ryan基线，且缺少Applied AI/ML模型ownership。更关键的是JD明确要求申请人现在及未来均须拥有不受限制的美国工作授权，并明确不为该岗位提供employment visa sponsorship，F-1 OPT/STEM OPT路径不兼容。聚合源本轮active→inactive，但Kyndryl官方Early Careers职位页与Apply入口当天仍可检索，因此不确认关闭；排除结论升级为签证硬排除+Ryan机会成本不足。",
+      "visa": "Official JD explicitly requires legal authorization to work in the United States without restriction now and in the future and states the company will not sponsor employment visas for this role; F-1 OPT/STEM OPT pathway is incompatible under the user's rule.",
       "found": "2026-10-05",
       "discoveredDate": "2026-10-05",
       "discoveredAt": "2026-10-05T10:18:01Z",
       "firstSeen": "2026-10-05",
       "source": "Kyndryl official Early Careers Workday requisition; discovered through SimplifyJobs/New-Grad-Positions dev feed",
       "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Dallas-USDALFRI-Frisco-AI-HUB/Early-Careers-Consult-Program---Data-Operations-Associate_R-69022-2",
-      "status": "opportunity-cost-rejected",
-      "finalPriority": "不投 · 工作内容偏传统数据分析/BI，薪资与技术成长均不高于Ryan",
+      "status": "visa-opportunity-cost-rejected-status-conflict",
+      "finalPriority": "不投 · 明确要求现在及未来不受限制工作授权，且相对Ryan无升级",
       "roleTrack": "Data Analysis / BI / Data Operations / Client Consulting",
       "jobId": "R-69022",
-      "officialStatus": "Official Kyndryl Early Careers page active; Dallas/Frisco AI HUB; full-time in person",
+      "officialStatus": "Official Kyndryl Early Careers page and Apply entry remain retrievable on 2026-10-09; aggregator changed active→inactive, so official closure is not confirmed.",
       "compensation": "Official full-time salary $77,000",
-      "verificationFlags": [],
+      "verificationFlags": [
+        "status-verification"
+      ],
       "companyProfile": "Kyndryl operates enterprise cloud, data and AI infrastructure and maintains a Dallas/Frisco AI Hub.",
       "whyRyan": "Could add enterprise data/cloud scale, but must show substantive AI/ML ownership or a meaningful compensation/platform gain to clear the Ryan baseline.",
-      "lastChecked": "2026-10-05",
-      "lastCheckedAt": "2026-10-05T11:15:51Z",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T15:14:12Z",
       "officialPostedDate": "2026-10-03 (official page: posted 2 days ago at check)",
-      "rejectionReason": "Traditional data analysis, visualization and consulting scope without Applied AI/ML model ownership; $77,000 salary is below Ryan baseline and no compensating brand/platform upgrade.",
+      "rejectionReason": "Official JD requires unrestricted U.S. work authorization now and in the future and no employment-visa sponsorship; additionally, $77,000 salary and traditional BI/data-analysis scope do not clear the Ryan baseline.",
       "ryanUpgrade": "No · lower disclosed base than Ryan and weaker Applied AI/ML ownership",
-      "strategyPriority": "Discovery retained; excluded by Ryan opportunity-cost rule after full JD verification"
+      "strategyPriority": "Discovery retained; excluded by Ryan opportunity-cost rule after full JD verification",
+      "sourceState": "SimplifyJobs changed active→inactive at 2026-10-09T15:01:54Z, while the official Kyndryl Early Careers page and Apply entry remained retrievable the same day."
     },
     {
       "found": "2026-10-05",
@@ -7017,8 +7020,8 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-09T14:19:56Z",
-    "scope": "13:01 UTC后New-Grad增量、Allstate全国远程AI职位反漏抓与状态核验；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-09T15:14:12Z",
+    "scope": "14:02 UTC后New-Grad增量与Kyndryl Dallas/Frisco R-69022已知岗位资格/状态复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -7209,6 +7212,11 @@
         "checkedAt": "2026-10-09T14:19:56Z",
         "jobId": "R35481-1",
         "result": "新发现Allstate AI Product Engineer（Remote US）。0–3年入口可含零经验，职责含Copilot Studio agents、RAG/LLM与Power Platform；聚合源active→inactive但官方页面当天仍可检索，Texas远程资格、实时开放状态、2027入职和初始OPT均待核验。"
+      },
+      {
+        "checkedAt": "2026-10-09T15:14:12Z",
+        "jobId": "R-69022",
+        "result": "Kyndryl官方JD复核确认明确要求现在及未来均有不受限制的美国工作授权且不提供employment visa sponsorship，更新为F-1 OPT硬排除；聚合源active→inactive，但官方Early Careers页与Apply入口当天仍可检索，加入status-verification，不确认关闭。"
       }
     ],
     "newDiscoveries": [
@@ -7966,6 +7974,14 @@
         "from": "aggregator-inactive / official-listed",
         "to": "aggregator-active / official-listed",
         "change": "聚合源重新标记active；原experience-rejected和opportunity-cost判断不变。"
+      },
+      {
+        "checkedAt": "2026-10-09T15:14:12Z",
+        "company": "Kyndryl",
+        "jobId": "R-69022",
+        "from": "opportunity-cost-rejected / visa unresolved / aggregator-active",
+        "to": "visa-opportunity-cost-rejected / aggregator-inactive / official-active / status-verification",
+        "change": "官方JD明确的now-and-future unrestricted work authorization及no employment-visa sponsorship条款完成核验；F-1 OPT/STEM OPT不兼容。官方页仍可检索，因此聚合源inactive不单独视为关闭。"
       }
     ],
     "sourcesChecked": [
@@ -8726,6 +8742,20 @@
           "Texas远程资格、2027入职和初始OPT未明确。",
           "本轮未完成全部公司ATS全量分页。"
         ]
+      },
+      {
+        "checkedAt": "2026-10-09T15:14:12Z",
+        "scope": "14:02 UTC后New-Grad增量与Kyndryl Dallas/Frisco R-69022已知岗位资格/状态复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 9a2b918e→59b19665",
+          "Kyndryl official Early Careers Workday R-69022",
+          "Kyndryl official Apply entry and same-day search index"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③无新增发现后排除；④Kyndryl Dallas/Frisco Data Operations Associate（R-69022）聚合源active→inactive但官方仍可申请，加入status-verification；同时官方JD明确的永久/不受限制工作授权条款完成复核，升级为F-1 OPT硬排除，原Ryan机会成本排除不变。",
+        "coverageLimitations": [
+          "官方Workday动态正文通过同日搜索索引与Apply入口交叉核验；未将聚合源inactive单独断言为正式关闭。",
+          "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
       }
     ],
     "statusChanges": [
@@ -8752,6 +8782,14 @@
         "previousStatus": "aggregator-active / official-active-on-2026-10-07",
         "newStatus": "aggregator-inactive / official-status-verification",
         "reason": "发现源转inactive且到达原截止日，但官方动态页不可读，尚无可读官方关闭确认。"
+      },
+      {
+        "checkedAt": "2026-10-09T15:14:12Z",
+        "company": "Kyndryl",
+        "jobId": "R-69022",
+        "previousStatus": "aggregator-active / official-active",
+        "newStatus": "aggregator-inactive / official-active / status-verification",
+        "reason": "发现源转inactive，但官方Early Careers页与Apply入口当天仍可检索；关闭未确认。"
       }
     ]
   },
