@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T20:09:19Z",
+  "updatedAt": "2026-10-09T21:53:21Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7276,11 +7276,46 @@
       "roleTrack": "Data Products / Business Intelligence / Payments",
       "whyRyan": "Apple品牌与技术平台虽具吸引力，但最低学历/经验门槛不满足，无法作为Ryan的可行动替代。",
       "rejectionReason": "官方最低要求10+年经验，明确不属于Early Career。"
+    },
+    {
+      "company": "Samsung Semiconductor",
+      "tier": "A+",
+      "area": "Taylor, TX",
+      "market": "Austin metro",
+      "title": "Entry Level Engineer - Quality & Reliability (R120204)",
+      "jobId": "R120204",
+      "url": "https://sec.wd3.myworkdayjobs.com/Samsung_Careers/job/1530-FM-973-Taylor-TX-USA/Entry-Level-Engineer--Quality---Reliability_R120204",
+      "status": "hardware-direction-rejected-status-verification",
+      "found": "2026-10-09",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T21:53:21Z",
+      "firstSeen": "2026-10-09T21:53:21Z",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T21:53:21Z",
+      "employment": "Full-time · Entry Level",
+      "gradYear": "Entry Level label; excluded before start-date evaluation",
+      "ngCompatibility": "Early-career title, but core semiconductor quality/reliability hardware is outside the Applied AI/ML/Data Science target.",
+      "assessment": "Taylor semiconductor-fab quality and reliability engineering is a hardware/semiconductor role, not software Applied AI, ML, GenAI, LLM, Agentic AI, or Data Science. Strict hardware-direction rule excludes it even though it is entry level.",
+      "visa": "Not investigated because the core role direction is a hard exclusion.",
+      "compensation": "Not evaluated because the core role direction is a hard exclusion.",
+      "officialLocations": [
+        "Taylor, TX"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "SimplifyJobs source changed active→inactive on 2026-10-09. Samsung Workday dynamic page was not independently readable and an exact current official-search result was not found, so official closure is unconfirmed.",
+      "source": "Samsung official Workday URL + SimplifyJobs/New-Grad-Positions commit 4677866d",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "finalPriority": "不投 · 硬件/半导体方向排除",
+      "roleTrack": "Semiconductor Quality & Reliability / Hardware",
+      "whyRyan": "核心方向不匹配；不参与相对Ryan升级比较。",
+      "rejectionReason": "严格硬件方向排除：半导体质量与可靠性工程，不是软件Applied AI/ML/DS。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-09T20:09:19Z",
-    "scope": "19:24 UTC后New-Grad增量与Apple Austin Applied AI/ML/Data Science官方Careers反漏抓；按高匹配岗位才通知规则执行。",
+    "lastCheckedAt": "2026-10-09T21:53:21Z",
+    "scope": "20:09 UTC后New-Grad增量、Samsung Taylor R120204方向与状态核验；按仅高匹配可行动岗位通知规则执行，TI/D3V跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -7496,6 +7531,11 @@
         "checkedAt": "2026-10-09T20:09:19Z",
         "jobId": "Apple-Austin-experience-audit-2026-10-09",
         "result": "官方Careers补漏发现5个Austin数据/AI岗位；均因3+、MS+3、PhD+5或10+年最低门槛排除，未发现0–2年可行动岗位。"
+      },
+      {
+        "checkedAt": "2026-10-09T21:53:21Z",
+        "jobId": "R120204",
+        "result": "Samsung Taylor Entry Level Engineer - Quality & Reliability属于半导体质量/可靠性硬件岗，按严格硬件方向规则排除；聚合源active→inactive，官方关闭未确认，标记status-verification。"
       }
     ],
     "newDiscoveries": [
@@ -8115,6 +8155,13 @@
         "jobId": "200684348-0157",
         "status": "experience-rejected",
         "reason": "官方最低要求10+年经验，明确不属于Early Career。"
+      },
+      {
+        "checkedAt": "2026-10-09T21:53:21Z",
+        "company": "Samsung Semiconductor",
+        "jobId": "R120204",
+        "status": "hardware-direction-rejected-status-verification",
+        "reason": "Taylor半导体质量与可靠性硬件方向，不属于软件Applied AI/ML/GenAI/LLM/Agentic AI/Data Science；聚合源inactive但官方关闭未确认。"
       }
     ],
     "verificationChanges": [
@@ -8329,12 +8376,17 @@
       "SimplifyJobs/New-Grad-Positions commits 08299ab4 and 4520bb3",
       "Amazon official Jobs 3177934 (checked 2026-10-09)",
       "Apple official Careers Austin AI/ML/Data Science roles 200676435-0157, 200670761, 200654431-0157, 200653674-0157, 200684348-0157",
-      "SimplifyJobs/New-Grad-Positions commits 98b22266, 9367eb0f and 88ba6da5"
+      "SimplifyJobs/New-Grad-Positions commits 98b22266, 9367eb0f and 88ba6da5",
+      "SimplifyJobs/New-Grad-Positions commits 0e95541b, 757e8287 and 4677866d",
+      "Samsung official Workday R120204",
+      "EvenUp official Ashby AI Entities New Grad page (San Francisco, CA)"
     ],
     "coverageLimitations": [
       "Allstate官方Workday动态页正文未返回可读Apply状态；未将聚合源inactive自动等同正式关闭。",
       "Remote US是否允许Texas居住、2027年5月后入职和初始F-1 OPT均未明确。",
-      "本轮为增量与反漏抓复核，未完成全部监控公司ATS全量分页。"
+      "本轮为增量与反漏抓复核，未完成全部监控公司ATS全量分页。",
+      "Samsung官方Workday动态页本轮不可直接读取；仅确认聚合源active→inactive，未据此断言官方关闭。",
+      "本轮为增量扫描与定向官方ATS复核，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -9169,6 +9221,20 @@
         "coverageLimitations": [
           "本轮Apple反漏抓聚焦Austin官方索引；职位签证政策未继续核验，因为学历/经验已构成硬排除。"
         ]
+      },
+      {
+        "checkedAt": "2026-10-09T21:53:21Z",
+        "scope": "20:09 UTC后New-Grad增量、Samsung Taylor R120204方向/状态核验及官方ATS反漏抓；按仅高匹配可行动岗位通知规则执行。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions commits 0e95541b, 757e8287 and 4677866d",
+          "Samsung official Workday R120204",
+          "EvenUp official Ashby AI Entities New Grad page"
+        ],
+        "result": "内部新增Samsung Taylor Entry Level Engineer - Quality & Reliability（R120204）排除记录：核心为半导体质量/可靠性硬件，严格方向排除；聚合源active→inactive但官方关闭未确认。EvenUp AI Entities New Grad位于San Francisco，其他增量均非DFW/Austin或非目标方向。未发现全新、真实开放、资格闭环且相对Ryan明显升级的高匹配Applied AI/ML/Data Science岗位，按通知规则保持静默。",
+        "coverageLimitations": [
+          "Samsung官方Workday动态页本轮不可直接读取，未将聚合源inactive单独断言为正式关闭。",
+          "本轮为增量扫描与定向官方ATS复核，未完成全部监控公司ATS全量分页。"
+        ]
       }
     ],
     "statusChanges": [
@@ -9211,6 +9277,14 @@
         "previousStatus": "aggregator-active / official historical index",
         "newStatus": "aggregator-inactive / official-page-retrievable / status-verification",
         "reason": "聚合源转inactive，但NVIDIA官方Workday/Careers页面于2026-10-09仍可检索；不单凭聚合状态确认关闭。"
+      },
+      {
+        "checkedAt": "2026-10-09T21:53:21Z",
+        "company": "Samsung Semiconductor",
+        "jobId": "R120204",
+        "previousStatus": "aggregator-active",
+        "newStatus": "aggregator-inactive / official-status-verification",
+        "reason": "发现源转inactive；官方Workday动态页不可读且无精确官方搜索结果，关闭未获官方确认。"
       }
     ]
   },
