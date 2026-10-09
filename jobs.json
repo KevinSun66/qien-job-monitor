@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T21:53:21Z",
+  "updatedAt": "2026-10-09T22:05:57Z",
   "jobs": [
     {
       "company": "IBM",
@@ -2172,34 +2172,36 @@
       "title": "Software Development Engineer, Robotics, Early Career - 2027 (10567489)",
       "employment": "Full-time · Early Career 2027 · Amazon Robotics",
       "gradYear": "标题为 Early Career 2027；官方 JD 未披露毕业窗口或具体入职批次",
-      "match": "极高 · 97/100；正式确认 Robotics / Computer Vision / Machine Learning / Optimization 直接相关",
-      "ngCompatibility": "Start-date verification · Bachelor's accepted, no minimum YOE; May 2027 graduation compatibility not yet proven",
-      "assessment": "官方完整 JD 已补齐：岗位除云原生微服务、分布式系统和 CI/CD 外，还明确要求开发与 fulfillment center robotics、material handling equipment、computer vision 和 cloud services 交互的软件；优先资格直接列出 Robotics、Computer Vision、Machine Learning、Optimization、Perception、Motion Planning、Autonomous Navigation，以及线性/非线性优化。Qien 的 Python、ML、数学/统计、研究与项目背景比先前仅按通用 SDE 评估时更匹配，且 Austin 官方起薪 $128,700，属于明显 Ryan Upgrade。唯一剩余硬门槛仍是官方未给出具体毕业窗口/入职批次和 OPT/STEM OPT 政策；因此继续保留 start-date-verification，不提前进入表2。",
-      "visa": "官方 JD 未披露 F-1 OPT、STEM OPT、E-Verify 或未来 sponsorship；未出现永久/无限制授权要求，不能自动排除 initial OPT，需书面核实。",
+      "match": "低于当前通知门槛 · Amazon品牌/薪资强，但JD核心仍是通用SDE、分布式系统与机器人系统集成",
+      "ngCompatibility": "Bachelor's accepted and no minimum YOE, but excluded by core-direction rule before start-date/visa decision",
+      "assessment": "按2026-10-09最新严格方向规则重新审核完整官方JD：主要职责是云原生微服务、分布式系统、CI/CD、生产运维，以及与仓储机器人/物料搬运设备/计算机视觉系统交互的软件组件。GenAI仅用于提升开发效率，Robotics/CV/ML/Optimization只是宽泛优先经历之一，JD没有把模型开发、训练、推理、数据科学或Applied ML作为核心交付。因此属于通用SDE/机器人软件基础设施与系统集成，不满足“软件Applied AI/ML/GenAI/LLM/Agentic AI/Data Science为核心”的新门槛，排除且不提醒。",
+      "visa": "不继续核验：核心方向已构成排除；官方JD本身未披露F-1 OPT/STEM OPT政策。",
       "found": "2026-10-02",
       "firstSeen": "2026-10-02",
       "firstNotifiedDate": "2026-10-02",
       "officialPostedDate": "Not displayed",
-      "lastChecked": "2026-10-02",
-      "lastCheckedAt": "2026-10-02T23:22:55Z",
-      "officialStatus": "Amazon official complete JD and Apply now active on 2026-10-02; direct Robotics/CV/ML/Optimization scope confirmed",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T22:05:57Z",
+      "officialStatus": "Amazon official page and Apply now were active on 2026-10-09.",
       "source": "Amazon Jobs official multi-location requisition; surfaced by targeted 2027 Early Career official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10567489/software-development-engineer-robotics-early-career-2027",
-      "status": "start-date-verification",
-      "finalPriority": "高优先级核验 · 确认 2027年5月后入职与 OPT 后可升级为立即投",
-      "roleTrack": "Robotics Software Engineering / Computer Vision / Machine Learning / Optimization / Distributed Systems",
+      "status": "direction-rejected",
+      "finalPriority": "不投 · 核心方向不符合严格Applied AI/ML/DS门槛",
+      "roleTrack": "General SDE / Distributed Systems / Robotics Software Integration",
       "seniorityGap": "None · Bachelor's plus foundational programming/data structures; internships/projects are preferred, not a hard YOE minimum",
-      "technicalGrowth": "99/100 · robotics, CV, ML, optimization, cloud-native distributed systems and production operations",
+      "technicalGrowth": "通用SDE与机器人系统集成成长强，但Applied AI/ML模型工作不够核心",
       "brandPlatform": "100/100",
-      "ryanUpgrade": "98/100 conditional · direct AI/robotics scope, $128.7K base and Amazon platform are major upgrades; start date and OPT remain the only blocking gates",
+      "ryanUpgrade": "品牌和起薪明显升级，但岗位核心方向不符合Qien当前Applied AI/ML/DS筛选规则，不作为Ryan替代候选",
       "compensation": "Official Austin starting base $128,700; bonus, sign-on, equity and reliable TC not disclosed.",
       "officePerks": "Austin is in the complete location list; exact office, hybrid cadence, relocation and meals not disclosed.",
       "jobId": "10567489",
       "deadline": "Not disclosed",
-      "strategyPriority": "Verify post-May-2027 start, initial OPT/STEM OPT and Austin team assignment immediately; do not place in Table 2 until gates clear",
+      "strategyPriority": "Exclude under strict core-direction rule; retain history and official JD evidence",
       "careersUrl": "https://www.amazon.jobs/",
-      "verificationChangeDate": "2026-10-02",
-      "verificationChange": "Complete JD revealed direct Robotics, Computer Vision, Machine Learning, Optimization, Perception and autonomous-navigation preferred qualifications."
+      "verificationChangeDate": "2026-10-09",
+      "verificationChange": "Applied latest strict core-direction rule; changed from start-date-verification to direction-rejected.",
+      "verificationFlags": [],
+      "rejectionReason": "完整JD核心为通用SDE、分布式系统、CI/CD/运维和机器人系统集成；GenAI仅作开发效率工具，Applied AI/ML/DS并非核心交付。"
     },
     {
       "company": "Amazon / Annapurna Labs",
@@ -7314,8 +7316,8 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-09T21:53:21Z",
-    "scope": "20:09 UTC后New-Grad增量、Samsung Taylor R120204方向与状态核验；按仅高匹配可行动岗位通知规则执行，TI/D3V跳过。",
+    "lastCheckedAt": "2026-10-09T22:05:57Z",
+    "scope": "21:53 UTC后New-Grad增量与Amazon Robotics 10567489按最新严格方向规则复核；仅高匹配可行动岗位通知，TI/D3V跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -7536,6 +7538,11 @@
         "checkedAt": "2026-10-09T21:53:21Z",
         "jobId": "R120204",
         "result": "Samsung Taylor Entry Level Engineer - Quality & Reliability属于半导体质量/可靠性硬件岗，按严格硬件方向规则排除；聚合源active→inactive，官方关闭未确认，标记status-verification。"
+      },
+      {
+        "checkedAt": "2026-10-09T22:05:57Z",
+        "jobId": "10567489",
+        "result": "官方职位仍开放，但完整JD核心为通用SDE、分布式系统、CI/CD/运维与机器人系统集成；GenAI仅用于开发效率，Applied AI/ML/DS非核心交付。按最新严格方向规则由start-date-verification改为direction-rejected。"
       }
     ],
     "newDiscoveries": [
@@ -8365,6 +8372,14 @@
         "from": "direction-rejected / education unresolved / aggregator-active",
         "to": "education-direction-rejected / aggregator-inactive / official-page-retrievable / status-verification",
         "change": "官方JD确认MS和/或PhD层级要求；对Qien当前本科入口不兼容。职位仍为信号/电源完整性方向，非Applied AI/ML/DS。"
+      },
+      {
+        "checkedAt": "2026-10-09T22:05:57Z",
+        "company": "Amazon",
+        "jobId": "10567489",
+        "from": "start-date-verification / conditional high priority",
+        "to": "direction-rejected",
+        "change": "按最新严格核心方向规则重审：主要职责为通用SDE、云原生分布式系统、CI/CD、生产运维和仓储机器人软件集成；GenAI仅作开发效率工具，Robotics/CV/ML仅为宽泛优先经历，Applied AI/ML/DS不是核心交付。"
       }
     ],
     "sourcesChecked": [
@@ -8379,14 +8394,17 @@
       "SimplifyJobs/New-Grad-Positions commits 98b22266, 9367eb0f and 88ba6da5",
       "SimplifyJobs/New-Grad-Positions commits 0e95541b, 757e8287 and 4677866d",
       "Samsung official Workday R120204",
-      "EvenUp official Ashby AI Entities New Grad page (San Francisco, CA)"
+      "EvenUp official Ashby AI Entities New Grad page (San Francisco, CA)",
+      "Amazon official Jobs 10567489 (Software Development Engineer, Robotics, Early Career - 2027)",
+      "SimplifyJobs/New-Grad-Positions commit e0a5d038"
     ],
     "coverageLimitations": [
       "Allstate官方Workday动态页正文未返回可读Apply状态；未将聚合源inactive自动等同正式关闭。",
       "Remote US是否允许Texas居住、2027年5月后入职和初始F-1 OPT均未明确。",
       "本轮为增量与反漏抓复核，未完成全部监控公司ATS全量分页。",
       "Samsung官方Workday动态页本轮不可直接读取；仅确认聚合源active→inactive，未据此断言官方关闭。",
-      "本轮为增量扫描与定向官方ATS复核，未完成全部监控公司ATS全量分页。"
+      "本轮为增量扫描与定向官方ATS复核，未完成全部监控公司ATS全量分页。",
+      "Amazon 10567489官方页未披露OPT或具体入职批次，但因核心方向已排除，本轮不继续签证/入职日期核验。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -9234,6 +9252,19 @@
         "coverageLimitations": [
           "Samsung官方Workday动态页本轮不可直接读取，未将聚合源inactive单独断言为正式关闭。",
           "本轮为增量扫描与定向官方ATS复核，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-09T22:05:57Z",
+        "scope": "21:53 UTC后New-Grad增量、官方Careers反漏抓及Amazon Robotics 10567489按最新严格核心方向规则复核。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions commit e0a5d038",
+          "Amazon official Jobs 10567489"
+        ],
+        "result": "未发现全新、真实开放、资格闭环且相对Ryan明显升级的高匹配Applied AI/ML/Data Science岗位。Amazon Robotics 10567489官方仍开放，但完整JD核心为通用SDE、分布式系统、CI/CD/运维及机器人软件集成，GenAI仅作开发效率工具，Applied AI/ML/DS不是核心交付，已由待核验改为方向排除；按通知规则保持静默。",
+        "coverageLimitations": [
+          "本轮与上一轮间隔较短；增量源仅有Gartner与Global Payments非Texas职位转inactive。",
+          "Amazon 10567489因核心方向已排除，不继续核验OPT与具体入职批次。"
         ]
       }
     ],
