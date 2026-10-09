@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T22:05:57Z",
+  "updatedAt": "2026-10-09T23:33:01Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7313,11 +7313,220 @@
       "roleTrack": "Semiconductor Quality & Reliability / Hardware",
       "whyRyan": "核心方向不匹配；不参与相对Ryan升级比较。",
       "rejectionReason": "严格硬件方向排除：半导体质量与可靠性工程，不是软件Applied AI/ML/DS。"
+    },
+    {
+      "company": "Fannie Mae",
+      "tier": "A+",
+      "area": "Plano, TX",
+      "market": "DFW",
+      "title": "Lead Business Intelligence & AI Solutions Analyst – Single Family (JR2908)",
+      "jobId": "JR2908",
+      "url": "https://fanniemae.wd1.myworkdayjobs.com/FannieMaeCareers/job/Plano-TX/Business-Intelligence---AI-Solutions-Analyst--Single-Family_JR2908",
+      "status": "seniority-rejected-experience-verification",
+      "found": "2026-10-09",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T23:33:01Z",
+      "firstSeen": "2026-10-09T23:33:01Z",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T23:33:01Z",
+      "employment": "Full-time · Flex",
+      "gradYear": "Not a campus/new-grad role",
+      "ngCompatibility": "Rejected by Lead-level title; exact minimum years not yet indexed",
+      "assessment": "Official Fannie Mae search identifies the full title as Lead Business Intelligence & AI Solutions Analyst – Single Family. This is not an entry-level/campus role. Exact JD years were not yet readable, but Lead-level seniority is incompatible with the 0–2-year/no-1+-minimum rule.",
+      "visa": "Not investigated because seniority already excludes the role.",
+      "compensation": "Public same-day index shows about $123,000–$161,000; not used for decision because seniority excludes.",
+      "officialLocations": [
+        "Plano, TX"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Listed on Fannie Mae official Workday search on 2026-10-09.",
+      "source": "Fannie Mae official Workday search + SimplifyJobs commit 1d727a76",
+      "verificationFlags": [
+        "experience-verification"
+      ],
+      "finalPriority": "不投 · Lead级别",
+      "roleTrack": "Business Intelligence / AI Solutions / Single Family",
+      "whyRyan": "Compensation/platform may be stronger, but the Lead-level seniority makes Qien ineligible.",
+      "rejectionReason": "Lead-level role; not 0–2 years/Early Career."
+    },
+    {
+      "company": "Gartner",
+      "tier": "A+",
+      "area": "Irving, TX / Stamford, CT",
+      "market": "DFW",
+      "title": "Associate Data Scientist – Spring 2027 Master's level graduates (113311)",
+      "jobId": "113311",
+      "url": "https://gartner.wd5.myworkdayjobs.com/en-US/Ext/job/Irving-TX/Associate-Data-Scientist---Spring-2027-Master-s-level-graduates_113311",
+      "status": "education-experience-rejected-status-verification",
+      "found": "2026-10-09",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T23:33:01Z",
+      "firstSeen": "2026-10-09T23:33:01Z",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T23:33:01Z",
+      "employment": "Full-time · Hybrid · Early Careers",
+      "gradYear": "Spring 2027 Master's-level graduates",
+      "ngCompatibility": "Requires a Master's degree, or a Bachelor's degree with at least 2 years of related experience; Qien has neither path by May 2027.",
+      "assessment": "Strong applied data science scope: end-to-end modeling, NLP, ML/AI/GenAI, Python/SQL/Spark, MLOps, and $90K–$118K base. However, the official minimum is Master's degree OR Bachelor's plus at least 2 years related experience. Qien's bachelor's path does not meet the 2-year minimum, so exclude despite technical fit. Aggregator turned inactive on the deadline while the official page was still indexed with Apply; closure remains unconfirmed.",
+      "visa": "Official wording says U.S. work authorization but does not state permanent/unrestricted authorization; not decisive because education/experience already excludes.",
+      "compensation": "$90,000–$118,000 base + bonus/incentive and benefits (official posting).",
+      "officialLocations": [
+        "Irving, TX",
+        "Stamford, CT"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Official page was still indexed with Apply on 2026-10-09; Simplify source changed active→inactive near the application deadline, so official closure is unconfirmed.",
+      "source": "Gartner official Workday 113311 + SimplifyJobs commit 1d727a76",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "finalPriority": "不投 · 学历/经验硬门槛",
+      "roleTrack": "Applied Data Science / NLP / ML / GenAI / MLOps",
+      "whyRyan": "Technical work is an upgrade, but Qien does not meet the Master's-or-2-years minimum.",
+      "rejectionReason": "Master's required, or Bachelor's with at least 2 years related experience."
+    },
+    {
+      "company": "Micron Technology",
+      "tier": "A",
+      "area": "Richardson, TX",
+      "market": "DFW",
+      "title": "New College Grad – CAD Engineer (JR114754)",
+      "jobId": "JR114754",
+      "url": "https://micron.wd1.myworkdayjobs.com/External/job/Richardson-TX/New-College-Grad---CAD-Engineer_JR114754",
+      "status": "hardware-direction-rejected",
+      "found": "2026-10-09",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T23:33:01Z",
+      "firstSeen": "2026-10-09T23:33:01Z",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T23:33:01Z",
+      "employment": "Full-time · New College Grad",
+      "gradYear": "New College Grad",
+      "ngCompatibility": "Early-career label, but CAD/semiconductor engineering is outside target.",
+      "assessment": "CAD engineering at Micron is semiconductor/chip-design infrastructure, which is explicitly excluded by the strict hardware/semiconductor rule. It is not software Applied AI/ML/GenAI/LLM/Agentic AI/Data Science.",
+      "visa": "Not investigated because the role direction is a hard exclusion.",
+      "officialLocations": [
+        "Richardson, TX"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Active in discovery source on 2026-10-09.",
+      "source": "Micron official Workday URL + SimplifyJobs commit 1d727a76",
+      "verificationFlags": [],
+      "finalPriority": "不投 · 半导体/CAD硬件方向",
+      "roleTrack": "Semiconductor CAD / Design Infrastructure",
+      "whyRyan": "Core direction is outside Qien's target.",
+      "rejectionReason": "Strict semiconductor/CAD hardware-direction exclusion."
+    },
+    {
+      "company": "Vizient",
+      "tier": "A+",
+      "area": "Irving, TX / Cape Girardeau, MO",
+      "market": "DFW",
+      "title": "Associate Software Engineer (35387R)",
+      "jobId": "35387R",
+      "url": "https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Irving-TX-75062-Vizient-Corporate-HQ/Associate-Software-Engineer_35387R-1",
+      "status": "direction-verification",
+      "found": "2026-10-09",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T23:33:01Z",
+      "firstSeen": "2026-10-09T23:33:01Z",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T23:33:01Z",
+      "employment": "Full-time · Associate",
+      "gradYear": "Bachelor's; exact graduation/start window not yet verified",
+      "ngCompatibility": "Early-career title, but actual core JD and 2027 start remain unverified.",
+      "assessment": "New Irving multi-location Associate Software Engineer listing. The official dynamic JD was not readable and same-day search index did not expose responsibilities. Under the strict rule, a generic SDE title does not qualify without proof that Applied AI/ML/GenAI/LLM/Agentic AI/Data Science is core; hold internally for direction/start-date/visa verification and do not notify.",
+      "visa": "Not yet verified.",
+      "officialLocations": [
+        "Irving, TX",
+        "Cape Girardeau, MO"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Active in discovery source on 2026-10-09; official dynamic JD not readable.",
+      "source": "Vizient official Workday URL + SimplifyJobs commit d60a0a0f",
+      "verificationFlags": [
+        "direction-verification",
+        "start-date-verification",
+        "visa-verification"
+      ],
+      "finalPriority": "内部核验 · 不通知",
+      "roleTrack": "Software Engineering (core domain unverified)",
+      "whyRyan": "Cannot compare until actual core JD is readable.",
+      "rejectionReason": null
+    },
+    {
+      "company": "GlobalFoundries",
+      "tier": "A",
+      "area": "Austin, TX / Santa Clara, CA",
+      "market": "Austin",
+      "title": "Software Engineer – 2027 New College Graduate (JR-2604100)",
+      "jobId": "JR-2604100",
+      "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/Software-Engineer--2027-New-College-Graduate-_JR-2604100",
+      "status": "direction-visa-verification",
+      "found": "2026-10-09",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T23:33:01Z",
+      "firstSeen": "2026-10-09T23:33:01Z",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T23:33:01Z",
+      "employment": "Full-time · 2027 New College Graduate",
+      "gradYear": "2027 New College Graduate",
+      "ngCompatibility": "Start-year matches, but actual core JD and OPT policy are not yet readable.",
+      "assessment": "Official requisition title/location fit early-career timing and Austin, but the company context is semiconductor manufacturing and the official dynamic JD was not readable. A generic Software Engineer title is insufficient under the new strict rule; hold internally until the JD proves software Applied AI/ML/GenAI/LLM/Agentic AI/Data Science is core. Do not notify.",
+      "visa": "Not yet verified.",
+      "officialLocations": [
+        "Austin, TX",
+        "Santa Clara, CA"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Active in discovery source on 2026-10-09; official dynamic JD not readable.",
+      "source": "GlobalFoundries official Workday URL + SimplifyJobs commit d60a0a0f",
+      "verificationFlags": [
+        "direction-verification",
+        "visa-verification"
+      ],
+      "finalPriority": "内部核验 · 不通知",
+      "roleTrack": "Software Engineering / Semiconductor context (core domain unverified)",
+      "whyRyan": "Potential brand/pay upgrade is irrelevant until core direction and OPT eligibility are confirmed.",
+      "rejectionReason": null
+    },
+    {
+      "company": "RWS TrainAI",
+      "tier": "B",
+      "area": "Dallas, TX (remote)",
+      "market": "DFW",
+      "title": "General AI Data Annotator – Japanese (United States)",
+      "jobId": "e390deb8-86d1-44f6-891e-40a3f046b3b5",
+      "url": "https://jobs.lever.co/rws/e390deb8-86d1-44f6-891e-40a3f046b3b5/apply",
+      "status": "direction-opportunity-cost-rejected",
+      "found": "2026-10-09",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T23:33:01Z",
+      "firstSeen": "2026-10-09T23:33:01Z",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T23:33:01Z",
+      "employment": "Part-time employee · Remote",
+      "gradYear": "Not a new-grad career-track role",
+      "ngCompatibility": "Low-skill annotation work; Japanese-language role; not aligned to Qien's target.",
+      "assessment": "Remote part-time AI data annotation/evaluation work, not Applied AI/ML engineering or Data Science model development. The language-specific listing is Japanese, and comparable RWS postings pay about $21.50/hour. It is far below the Ryan full-time Associate Data Scientist baseline in role scope, pay, platform, and technical growth.",
+      "visa": "Not investigated because role direction/opportunity cost already excludes.",
+      "compensation": "Comparable RWS TrainAI annotator listings about $21.50/hour; exact official pay for this requisition not confirmed.",
+      "officialLocations": [
+        "Dallas, TX (remote)"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Listed on RWS official Lever board on 2026-10-09.",
+      "source": "RWS official Lever board + SimplifyJobs commit d60a0a0f",
+      "verificationFlags": [],
+      "finalPriority": "不投 · 低匹配/机会成本排除",
+      "roleTrack": "AI Data Annotation / Evaluation",
+      "whyRyan": "Substantially below Ryan in compensation, career platform, and technical depth.",
+      "rejectionReason": "Part-time language-specific data annotation, not Applied AI/ML/Data Science engineering."
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-09T22:05:57Z",
-    "scope": "21:53 UTC后New-Grad增量与Amazon Robotics 10567489按最新严格方向规则复核；仅高匹配可行动岗位通知，TI/D3V跳过。",
+    "lastCheckedAt": "2026-10-09T23:33:01Z",
+    "scope": "22:05 UTC后New-Grad增量与DFW/Austin新条目官方核验；仅高匹配可行动岗位通知，TI/D3V跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -7543,6 +7752,11 @@
         "checkedAt": "2026-10-09T22:05:57Z",
         "jobId": "10567489",
         "result": "官方职位仍开放，但完整JD核心为通用SDE、分布式系统、CI/CD/运维与机器人系统集成；GenAI仅用于开发效率，Applied AI/ML/DS非核心交付。按最新严格方向规则由start-date-verification改为direction-rejected。"
+      },
+      {
+        "checkedAt": "2026-10-09T23:33:01Z",
+        "jobId": "TX-increment-2026-10-09-2333",
+        "result": "增量发现Fannie Mae JR2908、Gartner 113311、Micron JR114754、Vizient 35387R、GlobalFoundries JR-2604100及RWS Dallas annotator；无一达到可通知的资格闭环高匹配门槛。"
       }
     ],
     "newDiscoveries": [
@@ -8169,6 +8383,48 @@
         "jobId": "R120204",
         "status": "hardware-direction-rejected-status-verification",
         "reason": "Taylor半导体质量与可靠性硬件方向，不属于软件Applied AI/ML/GenAI/LLM/Agentic AI/Data Science；聚合源inactive但官方关闭未确认。"
+      },
+      {
+        "checkedAt": "2026-10-09T23:33:01Z",
+        "company": "Fannie Mae",
+        "jobId": "JR2908",
+        "status": "seniority-rejected-experience-verification",
+        "reason": "Lead-level role; not 0–2 years/Early Career."
+      },
+      {
+        "checkedAt": "2026-10-09T23:33:01Z",
+        "company": "Gartner",
+        "jobId": "113311",
+        "status": "education-experience-rejected-status-verification",
+        "reason": "Master's required, or Bachelor's with at least 2 years related experience."
+      },
+      {
+        "checkedAt": "2026-10-09T23:33:01Z",
+        "company": "Micron Technology",
+        "jobId": "JR114754",
+        "status": "hardware-direction-rejected",
+        "reason": "Strict semiconductor/CAD hardware-direction exclusion."
+      },
+      {
+        "checkedAt": "2026-10-09T23:33:01Z",
+        "company": "Vizient",
+        "jobId": "35387R",
+        "status": "direction-verification",
+        "reason": "New Irving multi-location Associate Software Engineer listing. The official dynamic JD was not readable and same-day search index did not expose responsibilities. Under the strict rule, a generic SDE title does not qualify without proof that Applied AI/ML/GenAI/LLM/Agentic AI/Data Science is core; hold internally for direction/start-date/visa verification and do not notify."
+      },
+      {
+        "checkedAt": "2026-10-09T23:33:01Z",
+        "company": "GlobalFoundries",
+        "jobId": "JR-2604100",
+        "status": "direction-visa-verification",
+        "reason": "Official requisition title/location fit early-career timing and Austin, but the company context is semiconductor manufacturing and the official dynamic JD was not readable. A generic Software Engineer title is insufficient under the new strict rule; hold internally until the JD proves software Applied AI/ML/GenAI/LLM/Agentic AI/Data Science is core. Do not notify."
+      },
+      {
+        "checkedAt": "2026-10-09T23:33:01Z",
+        "company": "RWS TrainAI",
+        "jobId": "e390deb8-86d1-44f6-891e-40a3f046b3b5",
+        "status": "direction-opportunity-cost-rejected",
+        "reason": "Part-time language-specific data annotation, not Applied AI/ML/Data Science engineering."
       }
     ],
     "verificationChanges": [
@@ -8396,7 +8652,14 @@
       "Samsung official Workday R120204",
       "EvenUp official Ashby AI Entities New Grad page (San Francisco, CA)",
       "Amazon official Jobs 10567489 (Software Development Engineer, Robotics, Early Career - 2027)",
-      "SimplifyJobs/New-Grad-Positions commit e0a5d038"
+      "SimplifyJobs/New-Grad-Positions commit e0a5d038",
+      "SimplifyJobs/New-Grad-Positions commits 1d727a76, d60a0a0f and c3048d1f",
+      "Fannie Mae official Workday search JR2908",
+      "Gartner official Workday 113311",
+      "Vizient official Workday 35387R",
+      "GlobalFoundries official Workday JR-2604100",
+      "Micron official Workday JR114754",
+      "RWS official Lever job board"
     ],
     "coverageLimitations": [
       "Allstate官方Workday动态页正文未返回可读Apply状态；未将聚合源inactive自动等同正式关闭。",
@@ -8404,7 +8667,9 @@
       "本轮为增量与反漏抓复核，未完成全部监控公司ATS全量分页。",
       "Samsung官方Workday动态页本轮不可直接读取；仅确认聚合源active→inactive，未据此断言官方关闭。",
       "本轮为增量扫描与定向官方ATS复核，未完成全部监控公司ATS全量分页。",
-      "Amazon 10567489官方页未披露OPT或具体入职批次，但因核心方向已排除，本轮不继续签证/入职日期核验。"
+      "Amazon 10567489官方页未披露OPT或具体入职批次，但因核心方向已排除，本轮不继续签证/入职日期核验。",
+      "Vizient 35387R与GlobalFoundries JR-2604100的官方动态JD本轮不可直接读取，保留direction/start-date/visa核验，不进入表2或通知。",
+      "Fannie Mae JR2908官方搜索确认Lead级别，但新发布完整JD最低年限尚未进入可读索引；Lead级别本身已不符合0–2年筛选。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -9265,6 +9530,19 @@
         "coverageLimitations": [
           "本轮与上一轮间隔较短；增量源仅有Gartner与Global Payments非Texas职位转inactive。",
           "Amazon 10567489因核心方向已排除，不继续核验OPT与具体入职批次。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-09T23:33:01Z",
+        "scope": "22:05 UTC后New-Grad增量、DFW/Austin官方ATS反漏抓及严格核心方向复核。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions commits 1d727a76, d60a0a0f and c3048d1f",
+          "Fannie Mae, Gartner, Vizient, GlobalFoundries, Micron and RWS official careers/ATS"
+        ],
+        "result": "内部新增6项：Gartner 113311因硕士或本科+至少2年经验排除；Fannie Mae JR2908为Lead级排除；Micron JR114754为半导体CAD硬件排除；RWS Dallas为日语兼职数据标注且远低于Ryan排除；Vizient 35387R与GlobalFoundries JR-2604100因官方JD暂不可读保留方向/入职/签证核验。未发现全新、真实开放、资格闭环且相对Ryan明显升级的高匹配Applied AI/ML/Data Science岗位，按通知规则保持静默。",
+        "coverageLimitations": [
+          "Vizient与GlobalFoundries官方Workday动态JD不可直接读取，未凭标题误判为Applied AI/ML核心岗位。",
+          "本轮为增量扫描与相关Texas职位定向核验，未完成全部公司ATS全量分页。"
         ]
       }
     ],
