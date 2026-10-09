@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T03:21:38Z",
+  "updatedAt": "2026-10-09T04:22:43Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6198,8 +6198,8 @@
       "discoveredDate": "2026-10-07",
       "discoveredAt": "2026-10-07T13:21:26Z",
       "firstSeen": "2026-10-07",
-      "lastChecked": "2026-10-07",
-      "lastCheckedAt": "2026-10-07T13:21:26Z",
+      "lastChecked": "2026-10-08",
+      "lastCheckedAt": "2026-10-09T04:22:43Z",
       "officialPostedDate": "2026-10-05",
       "employment": "全职 · Onsite · Electrical Engineer I",
       "gradYear": "未限定毕业年份；本科STEM即可，未列最低工作年限",
@@ -6209,17 +6209,23 @@
       "visa": "不兼容：官方明确U.S. citizenship required，只有美国公民具备所需安全许可资格；F-1 OPT/STEM OPT不能满足。",
       "compensation": "官方底薪 $57,200–$108,800；另可能有福利及短期/长期激励。区间与Ryan重叠，且方向不符。",
       "deadline": "官方预计自2026-10-05发布日起约40天关闭，但可能提前或延长。",
-      "officialStatus": "2026-10-07官方Workday完整JD可读取，职位为开放状态。",
+      "officialStatus": "2026-10-08晚间聚合源由active转inactive；官方Workday动态页当前不可直接读取，公开搜索也未检索到职位。关闭尚未获得可读的官方页面确认。",
       "officialLocations": [
         "US-TX-MCKINNEY-513WA · 2501 W University Dr · WING A BLDG"
       ],
       "locationListComplete": true,
       "source": "RTX官方Workday完整JD；SimplifyJobs/New-Grad-Positions增量发现",
-      "verificationFlags": [],
+      "verificationFlags": [
+        "status-verification"
+      ],
       "finalPriority": "发现后排除 · 身份不兼容且方向不符",
       "roleTrack": "电力电子测试 / 工厂生产支持 / 硬件故障分析",
       "whyRyan": "相对Ryan没有Applied AI/ML技术升级，薪资区间也未形成稳定优势；更关键是美国公民与Secret许可为硬性门槛。",
-      "rejectionReason": "authorization-and-direction-rejected：官方明确要求美国公民及DoD Secret安全许可，F-1 OPT不兼容；职责为电力电子硬件测试和工厂支持，非Applied AI/ML/DS。"
+      "rejectionReason": "authorization-and-direction-rejected：官方明确要求美国公民及DoD Secret安全许可，F-1 OPT不兼容；职责为电力电子硬件测试和工厂支持，非Applied AI/ML/DS。",
+      "previousOfficialStatus": "2026-10-07官方Workday完整JD可读取，职位为开放状态。",
+      "sourceState": "Simplify active→inactive at 2026-10-09T04:02:02Z",
+      "statusChangedAt": "2026-10-09T04:22:43Z",
+      "statusNote": "聚合源已转inactive，但官方ATS无法直接读取；不将第三方状态单独等同于官方关闭。原美国公民/安全许可与方向排除结论不变。"
     },
     {
       "company": "Emerson / NI",
@@ -6961,8 +6967,8 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-09T03:21:38Z",
-    "scope": "02:01 UTC后New-Grad增量与UT Austin R_00044440反漏抓核验；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-09T04:22:43Z",
+    "scope": "03:01 UTC后New-Grad增量与RTX 01879531官方状态复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -7133,6 +7139,11 @@
         "checkedAt": "2026-10-09T03:21:38Z",
         "jobId": "R_00044440",
         "result": "反漏抓发现UT Austin R&D Data Analysis and Machine Learning Software Engineer。技术/薪资有潜在Ryan升级，但JD明确要求美国公民及安全调查/机密信息访问资格；按citizenship-rejected归档。聚合源已清理inactive记录，官方动态页当前不可读，开放状态保留verification。"
+      },
+      {
+        "checkedAt": "2026-10-09T04:22:43Z",
+        "jobId": "01879531",
+        "result": "RTX McKinney Power Electronics Test Engineer I聚合源由active转inactive；官方Workday动态页当前不可直接读取且公开搜索无结果，加入status-verification，不确认关闭。既有美国公民/Secret许可及硬件方向排除不变。"
       }
     ],
     "newDiscoveries": [
@@ -8588,6 +8599,30 @@
           "R_00044440的官方Workday动态页当前不可直接读取；聚合源清理了此前已inactive的记录，因此不据此断言本轮正式关闭。",
           "本轮为上次运行后的增量与源清理反漏抓，未完成全部监控公司ATS全量分页。"
         ]
+      },
+      {
+        "checkedAt": "2026-10-09T04:22:43Z",
+        "scope": "03:01 UTC后Texas New-Grad增量与RTX McKinney已知岗位状态复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 8d077793→afc6d037",
+          "RTX官方Workday 01879531",
+          "公开职位搜索索引"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③无新增发现后排除；④RTX McKinney Power Electronics Test Engineer I（01879531）聚合源active→inactive，官方关闭未确认，加入status-verification；原身份与方向排除结论不变。",
+        "coverageLimitations": [
+          "RTX官方Workday动态页当前不可直接读取，公开搜索无结果；未将聚合源inactive单独断言为正式关闭。",
+          "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      }
+    ],
+    "statusChanges": [
+      {
+        "checkedAt": "2026-10-09T04:22:43Z",
+        "company": "RTX / Raytheon",
+        "jobId": "01879531",
+        "previousStatus": "aggregator-active / official-open-on-2026-10-07",
+        "newStatus": "aggregator-inactive / official-status-verification",
+        "reason": "发现源转inactive，但官方动态页不可读，尚无可读官方关闭确认。"
       }
     ]
   },
