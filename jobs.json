@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T06:18:47Z",
+  "updatedAt": "2026-10-09T14:19:56Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6976,11 +6976,49 @@
       ],
       "rejectionReason": "JD明确要求US Citizen及安全调查/机密信息访问资格；Qien为F-1 OPT/STEM OPT路径，不满足硬门槛。",
       "sourceState": "Simplify记录为inactive并于2026-10-08晚间增量清理；官方动态页当前不可直接读取，未据此断言正式关闭。"
+    },
+    {
+      "company": "Allstate Insurance Company",
+      "tier": "A-",
+      "area": "Remote - US (Texas eligibility to verify)",
+      "market": "Remote / DFW-Austin-compatible if Texas permitted",
+      "title": "AI Product Engineer - Copilot & Power Platform",
+      "employment": "Full-time · Remote US · Experienced Professional",
+      "gradYear": "0–3 years in enterprise/product engineering or platform operations",
+      "match": "Potential fit · Applied enterprise AI; multiple eligibility items unresolved",
+      "ngCompatibility": "Possible · 0 years allowed by 0–3 range, but not a campus/new-grad program",
+      "assessment": "反漏抓发现Allstate远程AI Product Engineer。职责覆盖Microsoft Copilot、Copilot Studio agents、Power Automate、RAG/LLM、Responsible AI、REST/OAuth2与企业治理，技术方向与Qien部分匹配；官方薪资范围约$80,000–$136,625。职位不是Campus/New Grad项目，且聚合源已由active转inactive，官方Workday页面今天仍可检索但实时Apply状态未确认。JD仅写Allstate generally does not sponsor employment-based visas，不自动等同拒绝初始OPT；Texas远程资格、2027年5月后入职、初始OPT及状态均需核验。即使通过，Allstate品牌与Power Platform偏重路线相对Ryan是否足够升级仍需结合实际offer薪资判断。",
+      "visa": "Visa verification · 官方仅写generally does not sponsor employment-based visas；未明确拒绝初始F-1 OPT/CPT，也未要求永久/无限制工作授权。",
+      "found": "2026-10-09",
+      "firstSeen": "2026-10-09",
+      "discoveredAt": "2026-10-09T14:19:56Z",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T14:19:56Z",
+      "source": "SimplifyJobs status delta + Allstate official Workday listing/index",
+      "url": "https://allstate.wd5.myworkdayjobs.com/allstate_careers/job/us---remote/ai-product-engineer--copilot---power-platform---remote---us-_r35481-1",
+      "status": "location-status-start-date-visa-verification",
+      "finalPriority": "待核验 · 暂不进入表2",
+      "roleTrack": "Applied Enterprise AI / Copilot Agents / Power Platform Automation",
+      "technicalGrowth": "86/100",
+      "brandPlatform": "82/100",
+      "ryanUpgrade": "Unclear; stronger AI automation exposure and salary upside, but not a clear brand upgrade and role is Microsoft Power Platform-heavy",
+      "compensation": "$80,000–$136,625 base (official/public listing)",
+      "officePerks": "Remote US; dedicated private workspace and minimum internet requirements",
+      "jobId": "R35481-1",
+      "strategyPriority": "表外核验 · 状态/地点/签证/入职时间",
+      "verificationFlags": [
+        "location-verification",
+        "status-verification",
+        "start-date-verification",
+        "visa-verification"
+      ],
+      "sourceState": "Simplify listing changed active→inactive on 2026-10-09; official Workday URL and same-day index remain retrievable, so closure is not confirmed.",
+      "rejectionReason": null
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-09T06:18:47Z",
-    "scope": "05:01 UTC后New-Grad增量与Charles Schwab 2026-126708官方状态复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-09T14:19:56Z",
+    "scope": "13:01 UTC后New-Grad增量、Allstate全国远程AI职位反漏抓与状态核验；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -7166,6 +7204,11 @@
         "checkedAt": "2026-10-09T06:18:47Z",
         "jobId": "2026-126708",
         "result": "Charles Schwab Southlake Associate Java Developer聚合源由active转inactive，且到达原截止日2026-10-09；官方iCIMS动态页当前不可直接读取，加入status-verification，不确认关闭。原毕业年份不兼容与通用SDE方向排除不变。"
+      },
+      {
+        "checkedAt": "2026-10-09T14:19:56Z",
+        "jobId": "R35481-1",
+        "result": "新发现Allstate AI Product Engineer（Remote US）。0–3年入口可含零经验，职责含Copilot Studio agents、RAG/LLM与Power Platform；聚合源active→inactive但官方页面当天仍可检索，Texas远程资格、实时开放状态、2027入职和初始OPT均待核验。"
       }
     ],
     "newDiscoveries": [
@@ -7729,6 +7772,13 @@
         "jobId": "R_00044440",
         "status": "citizenship-rejected-status-verification",
         "reason": "Austin Applied ML/R&D岗位；JD明确US Citizen和政府安全调查/机密信息访问资格，F-1 OPT/STEM OPT不兼容。聚合源发现时inactive且本轮被清理，官方实时状态未确认。"
+      },
+      {
+        "checkedAt": "2026-10-09T14:19:56Z",
+        "company": "Allstate Insurance Company",
+        "jobId": "R35481-1",
+        "status": "location-status-start-date-visa-verification",
+        "reason": "Remote-US AI role with 0–3 years and meaningful LLM/agent duties; aggregator inactive conflicts with same-day official listing, and Texas eligibility/start date/initial OPT are unresolved."
       }
     ],
     "verificationChanges": [
@@ -7919,16 +7969,14 @@
       }
     ],
     "sourcesChecked": [
-      "SimplifyJobs/New-Grad-Positions listings 11176ffe→d124fd1f",
-      "Cognizant official Careers 47731",
-      "Veryable official Rippling ATS Data Engineer and Data Analyst",
-      "BMO official Workday search R260021450",
-      "User-provided Handshake listing 11454347"
+      "SimplifyJobs/New-Grad-Positions listings commits 585c7f8f, b2a5e1a9 and 3e200b7f",
+      "Allstate official Workday R35481-1",
+      "Allstate official/public same-day job index"
     ],
     "coverageLimitations": [
-      "Cognizant Handshake摘要只写US work authorization required；以官方JD中明确的CPT/OPT排除条款作为更强证据。",
-      "Veryable官方Rippling页面可读但公开搜索索引尚未完整收录；已直接核验官方页面正文。",
-      "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+      "Allstate官方Workday动态页正文未返回可读Apply状态；未将聚合源inactive自动等同正式关闭。",
+      "Remote US是否允许Texas居住、2027年5月后入职和初始F-1 OPT均未明确。",
+      "本轮为增量与反漏抓复核，未完成全部监控公司ATS全量分页。"
     ],
     "unknownIndexTiming": "No claim about exact historical indexing or cause of delayed discovery",
     "userDecisions": [
@@ -8662,6 +8710,21 @@
         "coverageLimitations": [
           "Charles Schwab官方iCIMS动态页本轮不可直接读取，公开搜索无结果；未将聚合源inactive单独断言为正式关闭。",
           "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-09T14:19:56Z",
+        "scope": "13:01 UTC后New-Grad增量与Allstate Remote-US AI Product Engineer反漏抓；TI/D3V跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs listings 585c7f8f→3e200b7f",
+          "Allstate official Workday R35481-1",
+          "公开同日职位索引"
+        ],
+        "result": "①无新增进入表2；②新增Allstate AI Product Engineer（R35481-1）待location/status/start-date/visa核验；③无新增排除；④无既有已记录职位状态变化。",
+        "coverageLimitations": [
+          "聚合源已inactive但官方职位同日仍可检索，未确认关闭。",
+          "Texas远程资格、2027入职和初始OPT未明确。",
+          "本轮未完成全部公司ATS全量分页。"
         ]
       }
     ],
