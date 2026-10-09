@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T18:14:33Z",
+  "updatedAt": "2026-10-09T19:16:59Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7053,11 +7053,69 @@
       "strategyPriority": "表外审计 · 身份硬排除/方向不符",
       "rejectionReason": "Official JD requires U.S. citizenship and DoD Secret clearance; role centers on NC3 mission-critical Java software, requirements/UML/SysML and testing rather than Applied AI/ML/DS.",
       "verificationFlags": []
+    },
+    {
+      "company": "Amazon",
+      "tier": "S",
+      "market": "Dallas / Austin（全国多地点requisition，地点偏好不保证）",
+      "area": "官方完整地点列表包含TX Austin与Dallas；最终分配取决于业务需求",
+      "title": "Software Development Engineer - 2026 (US) (3177934)",
+      "jobId": "3177934",
+      "url": "https://www.amazon.jobs/en/jobs/3177934/software-development-engineer-2026-us",
+      "status": "start-date-location-visa-verification",
+      "found": "2026-10-09",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T19:16:59Z",
+      "firstSeen": "2026-10-09",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T19:16:59Z",
+      "employment": "Full-time · SDE-I · Jobs for grads · 全国多地点",
+      "gradYear": "标题为2026；JD未给出明确毕业窗口或入职日期，Qien 2027-05毕业兼容性待核验",
+      "ngCompatibility": "零全职经验入口可行；接受正在攻读相关STEM本科，实习/项目经验为preferred而非硬门槛。",
+      "match": "Pending · 若支持2027入职且能匹配ML/Data方向则具较高价值",
+      "assessment": "Amazon官方Jobs页面当前显示Apply now。岗位是通用SDE-I，但申请中可标注Machine Learning、Data Engineering、Distributed Systems等专长，平台和潜在薪酬相对Ryan具升级可能。标题明确写2026，而正文未列毕业日期范围或入职日期；Dallas/Austin仅为可考虑地点且不保证分配，因此暂不进入表2。",
+      "visa": "JD未说明F-1 OPT/STEM OPT、E-Verify、初始OPT或未来sponsorship政策；按规则标记visa-verification，不作负面推断。",
+      "compensation": "官方仅公开Seattle base $110,500–$160,000；未公开Dallas/Austin对应区间，不将Seattle区间视为Texas承诺。",
+      "officialLocations": [
+        "AZ: Phoenix, Tempe",
+        "CA: Berkeley, Culver City, Cupertino, East Palo Alto, Irvine, Los Angeles, Manhattan Beach, Palo Alto, San Diego, San Francisco, San Jose, San Luis Obispo, Santa Barbara, Santa Clara, Santa Cruz, Santa Monica, Sunnyvale",
+        "CO: Boulder, Denver",
+        "GA: Atlanta, Kennesaw",
+        "IL: Chicago",
+        "MA: Boston, Cambridge, Hudson, North Reading, Westborough",
+        "MD: Baltimore",
+        "MI: Detroit",
+        "MN: Minneapolis",
+        "NJ: Jersey City",
+        "NY: New York",
+        "OR: Portland",
+        "PA: Philadelphia, Pittsburgh",
+        "TN: Nashville",
+        "TX: Austin, Dallas",
+        "VA: Arlington, Herndon",
+        "WI: Madison",
+        "WA: Bellevue, Seattle, Redmond"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "2026-10-09 Amazon官方Jobs页面显示Apply now，rolling review。",
+      "source": "Amazon official Jobs 3177934；官方多地点与Jobs for grads页面",
+      "verificationFlags": [
+        "start-date-verification",
+        "location-verification",
+        "visa-verification"
+      ],
+      "finalPriority": "新发现待核验 · 暂不进入表2",
+      "roleTrack": "Software Engineering / ML specialization possible / Distributed Systems / Data Engineering",
+      "technicalGrowth": "待团队方向确认；通用SDE但允许申报ML/Data专长",
+      "brandPlatform": "S级平台",
+      "ryanUpgrade": "若确认2027入职、Texas落地及ML/Data团队，品牌/平台/薪酬可能明显升级；当前条件未闭环",
+      "whyRyan": "Amazon品牌、规模和潜在薪酬可超过Ryan，但通用SDE方向、2026批次标题与不保证Texas分配使当前不可行动。",
+      "rejectionReason": null
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-09T18:14:33Z",
-    "scope": "16:16 UTC后New-Grad增量与NVIDIA Austin JR2015067已知岗位状态/资格复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-09T19:16:59Z",
+    "scope": "18:14 UTC后New-Grad增量、官方Careers反漏抓与Amazon 3177934多地点核验；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -7263,6 +7321,11 @@
         "checkedAt": "2026-10-09T18:14:33Z",
         "jobId": "JR2015067",
         "result": "NVIDIA官方Workday/Careers职位页当天仍可检索；聚合源由active转inactive，加入status-verification，不确认关闭。官方JD同时确认要求MS和/或PhD（ECE或同等背景），现将原方向排除扩展为学历与方向双重排除。"
+      },
+      {
+        "checkedAt": "2026-10-09T19:16:59Z",
+        "jobId": "3177934",
+        "result": "Amazon官方Jobs新发现全国多地点SDE-I 2026，完整地点列表含Austin/Dallas并允许申报Machine Learning/Data Engineering专长；但Texas分配不保证，标题为2026且未给出毕业窗口/入职日期，OPT/STEM OPT政策亦未说明，标记location/start-date/visa-verification。"
       }
     ],
     "newDiscoveries": [
@@ -7840,6 +7903,13 @@
         "jobId": "01875410",
         "status": "citizenship-direction-rejected",
         "reason": "Richardson Engineer I；零全职经验入口可行，但官方明确要求美国公民和DoD Secret安全许可，且方向为NC3国防Java/需求工程而非Applied AI/ML/DS。"
+      },
+      {
+        "checkedAt": "2026-10-09T19:16:59Z",
+        "company": "Amazon",
+        "jobId": "3177934",
+        "status": "start-date-location-visa-verification",
+        "reason": "全国多地点SDE-I，官方地点含Austin/Dallas，零经验本科入口且可标注ML/Data专长；但2026批次标题、2027-05后入职、Texas实际分配及F-1 OPT兼容性均未闭环，暂不进入表2。"
       }
     ],
     "verificationChanges": [
@@ -8050,7 +8120,9 @@
       "Allstate official Workday R35481-1",
       "Allstate official/public same-day job index",
       "SimplifyJobs/New-Grad-Positions commits 11055de9 and 1f00e4cd",
-      "NVIDIA official Workday/Careers JR2015067 (checked 2026-10-09)"
+      "NVIDIA official Workday/Careers JR2015067 (checked 2026-10-09)",
+      "SimplifyJobs/New-Grad-Positions commits 08299ab4 and 4520bb3",
+      "Amazon official Jobs 3177934 (checked 2026-10-09)"
     ],
     "coverageLimitations": [
       "Allstate官方Workday动态页正文未返回可读Apply状态；未将聚合源inactive自动等同正式关闭。",
@@ -8843,6 +8915,20 @@
         "coverageLimitations": [
           "官方页面可检索不等同于确认仍可提交申请；聚合源inactive也不等同于官方关闭。",
           "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-09T19:16:59Z",
+        "scope": "18:14 UTC后New-Grad增量、官方Careers反漏抓与Amazon 3177934多地点核验；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 08299ab4与4520bb3",
+          "Amazon official Jobs 3177934",
+          "Google/Microsoft/Capital One官方Careers定向检索"
+        ],
+        "result": "①无新增进入表2；②新增Amazon Software Development Engineer - 2026 (US)（3177934）待start-date/location/visa核验：官方完整地点含Austin/Dallas且可申报ML/Data专长，但2026批次标题与Qien 2027-05后入职兼容性未确认，Texas分配不保证；③无新增排除；④无既有职位确认状态变化。",
+        "coverageLimitations": [
+          "Amazon JD未列明确毕业窗口、实际入职日期、Texas分配保证或OPT/STEM OPT政策。",
+          "本轮增量源变化仅涉及非目标地区/方向岗位；官方反漏抓覆盖主要目标大厂，未完成全部公司ATS全量分页。"
         ]
       }
     ],
