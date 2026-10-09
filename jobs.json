@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T23:17:56Z",
+  "updatedAt": "2026-10-09T02:55:35.464Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6825,11 +6825,12 @@
       "seedAppliedDisplay": "2026/10/08（用户确认已投递，具体时间未提供）",
       "applicationStatus": "applied",
       "applicationEvidence": "用户于2026-10-08明确表示已申请，并上传五页官方JD PDF；未提供最终提交确认编号",
-      "archiveUrl": "job-archive/mckinsey/112338/job-description.md",
-      "archiveLabel": "JD 快照（基于官方PDF的结构化文本）",
-      "archiveSource": "用户上传 McKinsey Jobs _ Careers _ McKinsey & Company.pdf，5页，页面打印时间2026-10-08 16:55",
-      "archiveNote": "GitHub保存结构化文本JD；原始PDF仅保留在本次对话附件，未上传GitHub仓库",
-      "lastChecked": "2026-10-08"
+      "archiveUrl": "job-archive/mckinsey/112338/job-description.pdf",
+      "archiveLabel": "JD PDF 快照（官方原版·5页）",
+      "archiveSource": "用户上传 McKinsey Jobs _ Careers _ McKinsey & Company(1).pdf，5页，页面打印时间2026-10-08 16:55",
+      "archiveNote": "原始5页PDF已永久归档至GitHub；同时保留结构化文本JD。",
+      "lastChecked": "2026-10-08",
+      "seedAppliedAt": "2026-10-08"
     },
     {
       "company": "Cognizant",

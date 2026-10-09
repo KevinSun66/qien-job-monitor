@@ -43,4 +43,4 @@ U.S. new-joiner base range **$121,600–$125,000**, across all listed offices; a
 
 ## Preservation note
 
-This Markdown is a faithful **structured JD text snapshot** prepared from the user's five-page official PDF, not a byte-for-byte copy of the PDF. The original PDF remains attached in the conversation; its binary bytes were not uploaded into this GitHub archive. Refer to the user-provided PDF for exact original formatting and wording.
+The original official five-page PDF supplied by the user is preserved byte-for-byte as [job-description.pdf](job-description.pdf). The PDF shows capture time 2026-10-08 16:55. This structured text snapshot is retained alongside the original PDF. Application confirmed by the user on 2026-10-08; exact submission time is not supplied.
