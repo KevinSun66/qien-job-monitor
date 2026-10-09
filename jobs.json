@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T04:22:43Z",
+  "updatedAt": "2026-10-09T05:15:22Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6637,12 +6637,18 @@
       "officePerks": "Dallas可选；需按项目旅行并支持安装、现场启动、客户会议与培训",
       "jobId": "R023049",
       "deadline": "未披露",
-      "lastChecked": "2026-10-07",
-      "lastCheckedAt": "2026-10-08T02:21:52Z",
-      "officialStatus": "Barry-Wehmiller官方Workday active，Posted Today并显示Apply。",
-      "verificationFlags": [],
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T05:15:22Z",
+      "officialStatus": "2026-10-09聚合源由active转inactive；官方Workday动态页当前不可直接读取，公开搜索无结果，尚不能确认正式关闭。",
+      "verificationFlags": [
+        "status-verification"
+      ],
       "discoverySource": "SimplifyJobs listings commit 067daf6；Barry-Wehmiller官方Workday",
-      "rejectionReason": "Industrial automation/control-system role centered on PLC, SCADA, MES and site start-up; $75K–$90K overlaps Ryan and does not provide a meaningful brand or Applied AI/ML upgrade."
+      "rejectionReason": "Industrial automation/control-system role centered on PLC, SCADA, MES and site start-up; $75K–$90K overlaps Ryan and does not provide a meaningful brand or Applied AI/ML upgrade.",
+      "previousOfficialStatus": "Barry-Wehmiller官方Workday active，Posted Today并显示Apply。",
+      "sourceState": "Simplify active→inactive at 2026-10-09T04:31:44Z",
+      "statusChangedAt": "2026-10-09T05:15:22Z",
+      "statusNote": "聚合源inactive与此前官方active信号发生变化；官方页面本轮不可读，保留status-verification。原方向/机会成本排除不变。"
     },
     {
       "company": "RTX / Raytheon",
@@ -6967,8 +6973,8 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-09T04:22:43Z",
-    "scope": "03:01 UTC后New-Grad增量与RTX 01879531官方状态复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-09T05:15:22Z",
+    "scope": "04:02 UTC后New-Grad增量与Barry-Wehmiller R023049官方状态复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -7144,6 +7150,11 @@
         "checkedAt": "2026-10-09T04:22:43Z",
         "jobId": "01879531",
         "result": "RTX McKinney Power Electronics Test Engineer I聚合源由active转inactive；官方Workday动态页当前不可直接读取且公开搜索无结果，加入status-verification，不确认关闭。既有美国公民/Secret许可及硬件方向排除不变。"
+      },
+      {
+        "checkedAt": "2026-10-09T05:15:22Z",
+        "jobId": "R023049",
+        "result": "Barry-Wehmiller Dallas Entry Level Software Engineer聚合源由active转inactive；官方Workday动态页当前不可直接读取，公开搜索无结果，加入status-verification，不确认关闭。既有工业自动化方向与Ryan机会成本排除不变。"
       }
     ],
     "newDiscoveries": [
@@ -8613,6 +8624,20 @@
           "RTX官方Workday动态页当前不可直接读取，公开搜索无结果；未将聚合源inactive单独断言为正式关闭。",
           "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
         ]
+      },
+      {
+        "checkedAt": "2026-10-09T05:15:22Z",
+        "scope": "04:02 UTC后Texas New-Grad增量与Barry-Wehmiller Dallas已知岗位状态复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings afc6d037→74c2fadf",
+          "Barry-Wehmiller官方Workday R023049",
+          "公开职位搜索索引"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③无新增发现后排除；④Barry-Wehmiller Dallas Entry Level Software Engineer（R023049）聚合源active→inactive，官方关闭未确认，加入status-verification；原方向与Ryan机会成本排除结论不变。",
+        "coverageLimitations": [
+          "Barry-Wehmiller官方Workday动态页本轮不可直接读取，公开搜索无结果；未将聚合源inactive单独断言为正式关闭。",
+          "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
       }
     ],
     "statusChanges": [
@@ -8623,6 +8648,14 @@
         "previousStatus": "aggregator-active / official-open-on-2026-10-07",
         "newStatus": "aggregator-inactive / official-status-verification",
         "reason": "发现源转inactive，但官方动态页不可读，尚无可读官方关闭确认。"
+      },
+      {
+        "checkedAt": "2026-10-09T05:15:22Z",
+        "company": "Barry-Wehmiller / BW Design Group",
+        "jobId": "R023049",
+        "previousStatus": "aggregator-active / official-active-on-2026-10-07",
+        "newStatus": "aggregator-inactive / official-status-verification",
+        "reason": "发现源转inactive，但官方动态页本轮不可读，尚无官方关闭确认。"
       }
     ]
   },
