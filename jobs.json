@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T15:14:12Z",
+  "updatedAt": "2026-10-09T16:16:06Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7017,11 +7017,47 @@
       ],
       "sourceState": "Simplify listing changed active→inactive on 2026-10-09; official Workday URL and same-day index remain retrievable, so closure is not confirmed.",
       "rejectionReason": null
+    },
+    {
+      "company": "RTX / Collins Aerospace",
+      "tier": "A",
+      "area": "Richardson, TX",
+      "market": "DFW",
+      "title": "Software Engineer I (Onsite)",
+      "employment": "Full-time · Engineer I · Onsite",
+      "gradYear": "Bachelor’s STEM degree obtained by start date; experience may come from coursework, research, projects, or on-the-job experience",
+      "match": "Early-career qualification passes; citizenship/security-clearance hard fail; direction not Applied AI/ML/DS",
+      "ngCompatibility": "Pass · no minimum professional YOE; coursework/research/projects accepted",
+      "assessment": "反漏抓发现RTX/Collins Aerospace Richardson Software Engineer I。官方JD为真正的Engineer I入口，无最低全职经验，课程、研究和项目经历均可计入；职责包括Java面向对象开发、软件需求分解、UML/SysML、测试及NC3任务关键国防系统。薪资$57,200–$108,800。但JD明确要求美国公民、能够取得并维持美国政府安全许可，且为DoD Secret；Qien的F-1 OPT/STEM OPT路径不兼容。同时岗位是国防任务系统/通用Java软件工程，不是Applied AI/ML/DS，相对Ryan也无明确技术升级，因此按身份硬门槛与方向不符排除。",
+      "visa": "Official JD explicitly requires U.S. citizenship because only U.S. citizens are eligible for the required U.S. government security clearance; DoD Secret clearance. F-1 OPT/STEM OPT incompatible.",
+      "found": "2026-10-09",
+      "firstSeen": "2026-10-09",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T16:16:06Z",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T16:16:06Z",
+      "source": "RTX official Workday JD; discovered through SimplifyJobs/New-Grad-Positions incremental feed",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineer-I--Onsite-_01875410",
+      "status": "citizenship-direction-rejected",
+      "finalPriority": "不投 · 美国公民/DoD Secret硬门槛，且非Applied AI/ML/DS",
+      "roleTrack": "Mission-Critical Defense Software / Java / Requirements Engineering / NC3",
+      "technicalGrowth": "74/100",
+      "brandPlatform": "82/100",
+      "ryanUpgrade": "No · defense Java/requirements work is outside the Applied AI/ML path, and eligibility fails",
+      "compensation": "$57,200–$108,800 base (official)",
+      "officePerks": "100% onsite in Richardson; relocation if eligible",
+      "jobId": "01875410",
+      "officialPostedDate": "2026-10-09",
+      "deadline": "2026-10-17 (official listing)",
+      "officialStatus": "Official RTX Workday listing active with Apply button on 2026-10-09",
+      "strategyPriority": "表外审计 · 身份硬排除/方向不符",
+      "rejectionReason": "Official JD requires U.S. citizenship and DoD Secret clearance; role centers on NC3 mission-critical Java software, requirements/UML/SysML and testing rather than Applied AI/ML/DS.",
+      "verificationFlags": []
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-09T15:14:12Z",
-    "scope": "14:02 UTC后New-Grad增量与Kyndryl Dallas/Frisco R-69022已知岗位资格/状态复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-09T16:16:06Z",
+    "scope": "15:02 UTC后New-Grad增量与RTX Richardson 01875410反漏抓；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -7217,6 +7253,11 @@
         "checkedAt": "2026-10-09T15:14:12Z",
         "jobId": "R-69022",
         "result": "Kyndryl官方JD复核确认明确要求现在及未来均有不受限制的美国工作授权且不提供employment visa sponsorship，更新为F-1 OPT硬排除；聚合源active→inactive，但官方Early Careers页与Apply入口当天仍可检索，加入status-verification，不确认关闭。"
+      },
+      {
+        "checkedAt": "2026-10-09T16:16:06Z",
+        "jobId": "01875410",
+        "result": "RTX官方Workday完整JD确认职位开放、Engineer I且课程/研究/项目经验可计入；但明确要求美国公民及DoD Secret许可，职责为NC3任务关键Java软件、需求分解和UML/SysML，按citizenship-direction-rejected归档。"
       }
     ],
     "newDiscoveries": [
@@ -7787,6 +7828,13 @@
         "jobId": "R35481-1",
         "status": "location-status-start-date-visa-verification",
         "reason": "Remote-US AI role with 0–3 years and meaningful LLM/agent duties; aggregator inactive conflicts with same-day official listing, and Texas eligibility/start date/initial OPT are unresolved."
+      },
+      {
+        "checkedAt": "2026-10-09T16:16:06Z",
+        "company": "RTX / Collins Aerospace",
+        "jobId": "01875410",
+        "status": "citizenship-direction-rejected",
+        "reason": "Richardson Engineer I；零全职经验入口可行，但官方明确要求美国公民和DoD Secret安全许可，且方向为NC3国防Java/需求工程而非Applied AI/ML/DS。"
       }
     ],
     "verificationChanges": [
@@ -8754,6 +8802,18 @@
         "result": "①无新增进入表2；②无新增待核验；③无新增发现后排除；④Kyndryl Dallas/Frisco Data Operations Associate（R-69022）聚合源active→inactive但官方仍可申请，加入status-verification；同时官方JD明确的永久/不受限制工作授权条款完成复核，升级为F-1 OPT硬排除，原Ryan机会成本排除不变。",
         "coverageLimitations": [
           "官方Workday动态正文通过同日搜索索引与Apply入口交叉核验；未将聚合源inactive单独断言为正式关闭。",
+          "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-09T16:16:06Z",
+        "scope": "15:02 UTC后New-Grad增量与RTX Richardson 01875410反漏抓；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 3d050819→e9b11796",
+          "RTX official Workday 01875410"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③新增RTX/Collins Aerospace Richardson Software Engineer I（01875410）后排除：官方明确美国公民与DoD Secret硬门槛，且NC3国防Java/需求工程方向不符合Applied AI/ML/DS；④无既有职位确认状态变化。",
+        "coverageLimitations": [
           "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
         ]
       }
