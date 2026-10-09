@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T19:24:54Z",
+  "updatedAt": "2026-10-09T20:09:19Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7111,11 +7111,176 @@
       "ryanUpgrade": "若确认2027入职、Texas落地及ML/Data团队，品牌/平台/薪酬可能明显升级；当前条件未闭环",
       "whyRyan": "Amazon品牌、规模和潜在薪酬可超过Ryan，但通用SDE方向、2026批次标题与不保证Texas分配使当前不可行动。",
       "rejectionReason": null
+    },
+    {
+      "company": "Apple",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin, Texas",
+      "title": "Data Scientist, AI/ML Model Quality (200676435-0157)",
+      "jobId": "200676435-0157",
+      "url": "https://jobs.apple.com/en-us/details/200676435-0157/data-scientist-ai-ml-model-quality?team=SFTWR",
+      "status": "experience-rejected",
+      "found": "2026-10-09",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T20:09:19Z",
+      "firstSeen": "2026-10-09",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T20:09:19Z",
+      "employment": "Full-time",
+      "gradYear": "非Campus/New Grad；不符合Qien 2027 Early Career入口",
+      "ngCompatibility": "不兼容：Bachelor's degree plus 3+ years of data science or closely related experience",
+      "assessment": "岗位核心方向与Applied AI/ML/Data Science相关，但官方最低要求3+年相关经验，超出Qien 0–2年且不得要求至少1年经验的硬门槛。",
+      "visa": "未进一步核验；已因学历/经验硬门槛排除，不以签证未知作结论。",
+      "compensation": "未用于决策；学历/经验已不符合。",
+      "officialLocations": [
+        "Austin, Texas"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Apple官方职位页/官方搜索索引于2026-10-09可检索。",
+      "source": "Apple official Careers 200676435-0157",
+      "verificationFlags": [],
+      "finalPriority": "发现后排除 · 不进入表2 · 不通知",
+      "roleTrack": "AI/ML Model Quality / Data Science",
+      "whyRyan": "Apple品牌与技术平台虽具吸引力，但最低学历/经验门槛不满足，无法作为Ryan的可行动替代。",
+      "rejectionReason": "官方最低要求3+年相关经验，超出Qien 0–2年且不得要求至少1年经验的硬门槛。"
+    },
+    {
+      "company": "Apple",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin, Texas",
+      "title": "Demographic Data Scientist (200670761)",
+      "jobId": "200670761",
+      "url": "https://jobs.apple.com/en-us/details/200670761/demographic-data-scientist",
+      "status": "education-experience-rejected",
+      "found": "2026-10-09",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T20:09:19Z",
+      "firstSeen": "2026-10-09",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T20:09:19Z",
+      "employment": "Full-time",
+      "gradYear": "非Campus/New Grad；不符合Qien 2027 Early Career入口",
+      "ngCompatibility": "不兼容：MS + 3 years or PhD in an analytical field",
+      "assessment": "岗位核心方向与Applied AI/ML/Data Science相关，但官方要求MS+3年或PhD；不匹配Qien本科2027届及0–2年入口。",
+      "visa": "未进一步核验；已因学历/经验硬门槛排除，不以签证未知作结论。",
+      "compensation": "未用于决策；学历/经验已不符合。",
+      "officialLocations": [
+        "Austin, Texas"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Apple官方职位页/官方搜索索引于2026-10-09可检索。",
+      "source": "Apple official Careers 200670761",
+      "verificationFlags": [],
+      "finalPriority": "发现后排除 · 不进入表2 · 不通知",
+      "roleTrack": "Demographic Data Science / Human Factors",
+      "whyRyan": "Apple品牌与技术平台虽具吸引力，但最低学历/经验门槛不满足，无法作为Ryan的可行动替代。",
+      "rejectionReason": "官方要求MS+3年或PhD；不匹配Qien本科2027届及0–2年入口。"
+    },
+    {
+      "company": "Apple",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin, Texas",
+      "title": "Applied Scientist (200654431-0157)",
+      "jobId": "200654431-0157",
+      "url": "https://jobs.apple.com/en-us/details/200654431-0157/applied-scientist?team=MLAI",
+      "status": "education-experience-rejected",
+      "found": "2026-10-09",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T20:09:19Z",
+      "firstSeen": "2026-10-09",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T20:09:19Z",
+      "employment": "Full-time",
+      "gradYear": "非Campus/New Grad；不符合Qien 2027 Early Career入口",
+      "ngCompatibility": "不兼容：Master's degree plus 3+ years as Applied Scientist, ML, or Data Scientist",
+      "assessment": "岗位核心方向与Applied AI/ML/Data Science相关，但官方要求硕士且3+年Applied Scientist/ML/Data Scientist经验，超出Qien当前学历与经验入口。",
+      "visa": "未进一步核验；已因学历/经验硬门槛排除，不以签证未知作结论。",
+      "compensation": "未用于决策；学历/经验已不符合。",
+      "officialLocations": [
+        "Austin, Texas"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Apple官方职位页/官方搜索索引于2026-10-09可检索。",
+      "source": "Apple official Careers 200654431-0157",
+      "verificationFlags": [],
+      "finalPriority": "发现后排除 · 不进入表2 · 不通知",
+      "roleTrack": "Applied Science / Machine Learning",
+      "whyRyan": "Apple品牌与技术平台虽具吸引力，但最低学历/经验门槛不满足，无法作为Ryan的可行动替代。",
+      "rejectionReason": "官方要求硕士且3+年Applied Scientist/ML/Data Scientist经验，超出Qien当前学历与经验入口。"
+    },
+    {
+      "company": "Apple",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin, Texas",
+      "title": "Data Scientist - Business Process Re-Engineering (200653674-0157)",
+      "jobId": "200653674-0157",
+      "url": "https://jobs.apple.com/en-us/details/200653674-0157/data-scientist-business-process-re-engineering",
+      "status": "education-experience-rejected",
+      "found": "2026-10-09",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T20:09:19Z",
+      "firstSeen": "2026-10-09",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T20:09:19Z",
+      "employment": "Full-time",
+      "gradYear": "非Campus/New Grad；不符合Qien 2027 Early Career入口",
+      "ngCompatibility": "不兼容：PhD plus 5+ years",
+      "assessment": "岗位核心方向与Applied AI/ML/Data Science相关，但官方要求相关领域PhD及5+年经验，不属于0–2年Early Career。",
+      "visa": "未进一步核验；已因学历/经验硬门槛排除，不以签证未知作结论。",
+      "compensation": "未用于决策；学历/经验已不符合。",
+      "officialLocations": [
+        "Austin, Texas"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Apple官方职位页/官方搜索索引于2026-10-09可检索。",
+      "source": "Apple official Careers 200653674-0157",
+      "verificationFlags": [],
+      "finalPriority": "发现后排除 · 不进入表2 · 不通知",
+      "roleTrack": "GenAI / Agentic AI / Data Science / Operations",
+      "whyRyan": "Apple品牌与技术平台虽具吸引力，但最低学历/经验门槛不满足，无法作为Ryan的可行动替代。",
+      "rejectionReason": "官方要求相关领域PhD及5+年经验，不属于0–2年Early Career。"
+    },
+    {
+      "company": "Apple",
+      "tier": "S",
+      "market": "Austin",
+      "area": "Austin, Texas",
+      "title": "Data Products & Business Intelligence Lead - Wallet, Payments & Commerce (200684348-0157)",
+      "jobId": "200684348-0157",
+      "url": "https://jobs.apple.com/en-us/details/200684348-0157/data-products-business-intelligence-lead-wallet-payments-commerce",
+      "status": "experience-rejected",
+      "found": "2026-10-09",
+      "discoveredDate": "2026-10-09",
+      "discoveredAt": "2026-10-09T20:09:19Z",
+      "firstSeen": "2026-10-09",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T20:09:19Z",
+      "employment": "Full-time",
+      "gradYear": "非Campus/New Grad；不符合Qien 2027 Early Career入口",
+      "ngCompatibility": "不兼容：Bachelor's or Master's plus 10+ years",
+      "assessment": "岗位核心方向与Applied AI/ML/Data Science相关，但官方最低要求10+年经验，明确不属于Early Career。",
+      "visa": "未进一步核验；已因学历/经验硬门槛排除，不以签证未知作结论。",
+      "compensation": "未用于决策；学历/经验已不符合。",
+      "officialLocations": [
+        "Austin, Texas"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Apple官方职位页/官方搜索索引于2026-10-09可检索。",
+      "source": "Apple official Careers 200684348-0157",
+      "verificationFlags": [],
+      "finalPriority": "发现后排除 · 不进入表2 · 不通知",
+      "roleTrack": "Data Products / Business Intelligence / Payments",
+      "whyRyan": "Apple品牌与技术平台虽具吸引力，但最低学历/经验门槛不满足，无法作为Ryan的可行动替代。",
+      "rejectionReason": "官方最低要求10+年经验，明确不属于Early Career。"
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-09T19:24:54Z",
-    "scope": "同步用户最新通知与硬件方向过滤规则；19:16 UTC后无新职位源提交，上一轮Amazon 3177934后无新增可行动岗位。",
+    "lastCheckedAt": "2026-10-09T20:09:19Z",
+    "scope": "19:24 UTC后New-Grad增量与Apple Austin Applied AI/ML/Data Science官方Careers反漏抓；按高匹配岗位才通知规则执行。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -7326,6 +7491,11 @@
         "checkedAt": "2026-10-09T19:16:59Z",
         "jobId": "3177934",
         "result": "Amazon官方Jobs新发现全国多地点SDE-I 2026，完整地点列表含Austin/Dallas并允许申报Machine Learning/Data Engineering专长；但Texas分配不保证，标题为2026且未给出毕业窗口/入职日期，OPT/STEM OPT政策亦未说明，标记location/start-date/visa-verification。"
+      },
+      {
+        "checkedAt": "2026-10-09T20:09:19Z",
+        "jobId": "Apple-Austin-experience-audit-2026-10-09",
+        "result": "官方Careers补漏发现5个Austin数据/AI岗位；均因3+、MS+3、PhD+5或10+年最低门槛排除，未发现0–2年可行动岗位。"
       }
     ],
     "newDiscoveries": [
@@ -7910,6 +8080,41 @@
         "jobId": "3177934",
         "status": "start-date-location-visa-verification",
         "reason": "全国多地点SDE-I，官方地点含Austin/Dallas，零经验本科入口且可标注ML/Data专长；但2026批次标题、2027-05后入职、Texas实际分配及F-1 OPT兼容性均未闭环，暂不进入表2。"
+      },
+      {
+        "checkedAt": "2026-10-09T20:09:19Z",
+        "company": "Apple",
+        "jobId": "200676435-0157",
+        "status": "experience-rejected",
+        "reason": "官方最低要求3+年相关经验，超出Qien 0–2年且不得要求至少1年经验的硬门槛。"
+      },
+      {
+        "checkedAt": "2026-10-09T20:09:19Z",
+        "company": "Apple",
+        "jobId": "200670761",
+        "status": "education-experience-rejected",
+        "reason": "官方要求MS+3年或PhD；不匹配Qien本科2027届及0–2年入口。"
+      },
+      {
+        "checkedAt": "2026-10-09T20:09:19Z",
+        "company": "Apple",
+        "jobId": "200654431-0157",
+        "status": "education-experience-rejected",
+        "reason": "官方要求硕士且3+年Applied Scientist/ML/Data Scientist经验，超出Qien当前学历与经验入口。"
+      },
+      {
+        "checkedAt": "2026-10-09T20:09:19Z",
+        "company": "Apple",
+        "jobId": "200653674-0157",
+        "status": "education-experience-rejected",
+        "reason": "官方要求相关领域PhD及5+年经验，不属于0–2年Early Career。"
+      },
+      {
+        "checkedAt": "2026-10-09T20:09:19Z",
+        "company": "Apple",
+        "jobId": "200684348-0157",
+        "status": "experience-rejected",
+        "reason": "官方最低要求10+年经验，明确不属于Early Career。"
       }
     ],
     "verificationChanges": [
@@ -8122,7 +8327,9 @@
       "SimplifyJobs/New-Grad-Positions commits 11055de9 and 1f00e4cd",
       "NVIDIA official Workday/Careers JR2015067 (checked 2026-10-09)",
       "SimplifyJobs/New-Grad-Positions commits 08299ab4 and 4520bb3",
-      "Amazon official Jobs 3177934 (checked 2026-10-09)"
+      "Amazon official Jobs 3177934 (checked 2026-10-09)",
+      "Apple official Careers Austin AI/ML/Data Science roles 200676435-0157, 200670761, 200654431-0157, 200653674-0157, 200684348-0157",
+      "SimplifyJobs/New-Grad-Positions commits 98b22266, 9367eb0f and 88ba6da5"
     ],
     "coverageLimitations": [
       "Allstate官方Workday动态页正文未返回可读Apply状态；未将聚合源inactive自动等同正式关闭。",
@@ -8949,6 +9156,18 @@
         "result": "未发现全新、真实开放、资格闭环且相对Ryan明显升级的高匹配Applied AI/ML/Data Science岗位；按最新通知规则保持静默。已将严格硬件方向排除与仅通知可行动高匹配岗位规则写入监控配置。",
         "coverageLimitations": [
           "本轮与上一轮间隔较短；增量源无新提交。"
+        ]
+      },
+      {
+        "checkedAt": "2026-10-09T20:09:19Z",
+        "scope": "19:24 UTC后New-Grad增量与Apple Austin Applied AI/ML/Data Science官方Careers反漏抓；按高匹配岗位才通知规则执行。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 98b22266→88ba6da5",
+          "Apple official Careers Austin AI/ML/Data Science pages"
+        ],
+        "result": "内部新增5个Apple Austin相关岗位排除记录：AI/ML Model Quality（3+年）、Demographic Data Scientist（MS+3年或PhD）、Applied Scientist（硕士+3年）、Business Process Re-Engineering Data Scientist（PhD+5年）、Data Products & BI Lead（10+年）。增量源的Navy Federal、Leidos、Micron变化均不在Texas目标范围或属于硬件。未发现全新、真实开放、资格闭环且相对Ryan明显升级的0–2年高匹配岗位，按通知规则保持静默。",
+        "coverageLimitations": [
+          "本轮Apple反漏抓聚焦Austin官方索引；职位签证政策未继续核验，因为学历/经验已构成硬排除。"
         ]
       }
     ],
