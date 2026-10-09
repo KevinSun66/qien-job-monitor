@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T16:16:06Z",
+  "updatedAt": "2026-10-09T18:14:33Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4616,17 +4616,17 @@
       "title": "Signal and Power Integrity Engineer — New College Grad 2026 (JR2015067)",
       "jobId": "JR2015067",
       "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Signal-and-Power-Integrity-Engineer---New-College-Grad-2026_JR2015067",
-      "status": "direction-rejected",
+      "status": "education-direction-rejected-status-conflict",
       "found": "2026-10-05",
       "discoveredDate": "2026-10-05",
       "discoveredAt": "2026-10-05T19:22:06Z",
       "firstSeen": "2026-10-05",
-      "lastChecked": "2026-10-05",
-      "lastCheckedAt": "2026-10-05T19:22:06Z",
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T18:14:33Z",
       "employment": "全职 · New College Grad 2026",
-      "gradYear": "2026届标签；2027年5月后入职未知",
-      "ngCompatibility": "早期职业标签已发现；因主职责方向排除，未认定学历/签证不合格",
-      "assessment": "信号/电源完整性工程；与Qien应用AI/ML/DS方向不符。",
+      "gradYear": "New College Grad 2026；官方JD要求MS和/或PhD（ECE或同等背景），不匹配Qien当前本科毕业入口",
+      "ngCompatibility": "早期职业标签成立，但学历门槛为MS/PhD层级；且主职责为信号/电源完整性硬件工程，非Applied AI/ML/DS。",
+      "assessment": "官方NVIDIA JD于2026-10-09仍可检索，职位要求MS和/或PhD（Electrical and Computer Engineering或同等背景），职责聚焦信号/电源完整性。聚合发现源本轮由active转inactive，与官方页面可访问状态冲突；不据此确认关闭。基于学历层级与方向双重不匹配，继续排除。",
       "visa": "未确认本requisition的OPT/STEM OPT及E-Verify/I-983政策；未以无未来赞助推断不接受OPT。",
       "compensation": "来源为官方历史JD索引；未取得实时Austin薪酬，不作为当前offer承诺。",
       "officialLocations": [
@@ -4634,14 +4634,14 @@
         "US, TX, Austin"
       ],
       "locationListComplete": true,
-      "officialStatus": "官方历史索引收录；动态Workday正文不可读。旧Apply和at least until日期均不证明当前开放或关闭。",
-      "source": "NVIDIA官方Workday JD搜索索引；非实时完整ATS分页",
+      "officialStatus": "2026-10-09 NVIDIA官方Workday/Careers职位页仍可检索并显示JR2015067正文；SimplifyJobs聚合源由active转inactive。加入status-verification，正式关闭未确认。",
+      "source": "NVIDIA官方Workday/Careers JR2015067；SimplifyJobs/New-Grad-Positions状态增量",
       "verificationFlags": [
         "status-verification"
       ],
-      "finalPriority": "发现后排除 · 保留审计，不进入表2",
-      "whyRyan": "主职责不符合Qien的应用AI/ML/DS方向，不因品牌或薪酬高而推荐。",
-      "rejectionReason": "信号/电源完整性工程；与Qien应用AI/ML/DS方向不符。"
+      "finalPriority": "学历与方向排除 · 状态冲突待核验 · 不进入表2",
+      "whyRyan": "虽NVIDIA品牌与潜在薪酬高于Ryan，但该岗要求MS/PhD层级且主职责为信号/电源完整性硬件工程，不符合Qien当前本科入口及Applied AI/ML/DS主线。",
+      "rejectionReason": "学历层级不匹配（官方JD要求MS和/或PhD层级）且职责为信号/电源完整性工程，方向不符；聚合源inactive但官方页仍可访问，关闭未确认。"
     },
     {
       "company": "NVIDIA",
@@ -7056,8 +7056,8 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-09T16:16:06Z",
-    "scope": "15:02 UTC后New-Grad增量与RTX Richardson 01875410反漏抓；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-09T18:14:33Z",
+    "scope": "16:16 UTC后New-Grad增量与NVIDIA Austin JR2015067已知岗位状态/资格复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -7258,6 +7258,11 @@
         "checkedAt": "2026-10-09T16:16:06Z",
         "jobId": "01875410",
         "result": "RTX官方Workday完整JD确认职位开放、Engineer I且课程/研究/项目经验可计入；但明确要求美国公民及DoD Secret许可，职责为NC3任务关键Java软件、需求分解和UML/SysML，按citizenship-direction-rejected归档。"
+      },
+      {
+        "checkedAt": "2026-10-09T18:14:33Z",
+        "jobId": "JR2015067",
+        "result": "NVIDIA官方Workday/Careers职位页当天仍可检索；聚合源由active转inactive，加入status-verification，不确认关闭。官方JD同时确认要求MS和/或PhD（ECE或同等背景），现将原方向排除扩展为学历与方向双重排除。"
       }
     ],
     "newDiscoveries": [
@@ -8030,12 +8035,22 @@
         "from": "opportunity-cost-rejected / visa unresolved / aggregator-active",
         "to": "visa-opportunity-cost-rejected / aggregator-inactive / official-active / status-verification",
         "change": "官方JD明确的now-and-future unrestricted work authorization及no employment-visa sponsorship条款完成核验；F-1 OPT/STEM OPT不兼容。官方页仍可检索，因此聚合源inactive不单独视为关闭。"
+      },
+      {
+        "checkedAt": "2026-10-09T18:14:33Z",
+        "company": "NVIDIA",
+        "jobId": "JR2015067",
+        "from": "direction-rejected / education unresolved / aggregator-active",
+        "to": "education-direction-rejected / aggregator-inactive / official-page-retrievable / status-verification",
+        "change": "官方JD确认MS和/或PhD层级要求；对Qien当前本科入口不兼容。职位仍为信号/电源完整性方向，非Applied AI/ML/DS。"
       }
     ],
     "sourcesChecked": [
       "SimplifyJobs/New-Grad-Positions listings commits 585c7f8f, b2a5e1a9 and 3e200b7f",
       "Allstate official Workday R35481-1",
-      "Allstate official/public same-day job index"
+      "Allstate official/public same-day job index",
+      "SimplifyJobs/New-Grad-Positions commits 11055de9 and 1f00e4cd",
+      "NVIDIA official Workday/Careers JR2015067 (checked 2026-10-09)"
     ],
     "coverageLimitations": [
       "Allstate官方Workday动态页正文未返回可读Apply状态；未将聚合源inactive自动等同正式关闭。",
@@ -8816,6 +8831,19 @@
         "coverageLimitations": [
           "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
         ]
+      },
+      {
+        "checkedAt": "2026-10-09T18:14:33Z",
+        "scope": "16:16 UTC后New-Grad增量与NVIDIA Austin JR2015067已知岗位状态/资格复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 11055de9与1f00e4cd",
+          "NVIDIA official Workday/Careers JR2015067"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③无新增发现后排除；④NVIDIA Austin Signal and Power Integrity Engineer—New College Grad 2026（JR2015067）聚合源active→inactive，但官方页仍可访问，加入status-verification；官方JD确认MS/PhD层级要求，原方向排除扩展为学历与方向双重排除。",
+        "coverageLimitations": [
+          "官方页面可检索不等同于确认仍可提交申请；聚合源inactive也不等同于官方关闭。",
+          "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
       }
     ],
     "statusChanges": [
@@ -8850,6 +8878,14 @@
         "previousStatus": "aggregator-active / official-active",
         "newStatus": "aggregator-inactive / official-active / status-verification",
         "reason": "发现源转inactive，但官方Early Careers页与Apply入口当天仍可检索；关闭未确认。"
+      },
+      {
+        "checkedAt": "2026-10-09T18:14:33Z",
+        "company": "NVIDIA",
+        "jobId": "JR2015067",
+        "previousStatus": "aggregator-active / official historical index",
+        "newStatus": "aggregator-inactive / official-page-retrievable / status-verification",
+        "reason": "聚合源转inactive，但NVIDIA官方Workday/Careers页面于2026-10-09仍可检索；不单凭聚合状态确认关闭。"
       }
     ]
   },
