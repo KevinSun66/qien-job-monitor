@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T19:16:59Z",
+  "updatedAt": "2026-10-09T19:24:54Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7114,8 +7114,8 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-09T19:16:59Z",
-    "scope": "18:14 UTC后New-Grad增量、官方Careers反漏抓与Amazon 3177934多地点核验；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-09T19:24:54Z",
+    "scope": "同步用户最新通知与硬件方向过滤规则；19:16 UTC后无新职位源提交，上一轮Amazon 3177934后无新增可行动岗位。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -8201,6 +8201,14 @@
         "reason": "用户明确要求：凡岗位明确要求美国公民、美国公民身份，或仅限美国公民/合法永久居民/绿卡持有人，而Qien当前身份不满足，一律排除，不推荐、不进表2、不提醒。",
         "preserveAuditAndArchives": true,
         "doNotOvergeneralize": true
+      },
+      {
+        "at": "2026-10-09T19:24:54Z",
+        "action": "notify-only-new-verified-actionable-high-match",
+        "reason": "用户要求没有真正适合且值得相对Ryan考虑的岗位时不通知；严格过滤硬件、芯片、FPGA、嵌入式、固件、机器人硬件及底层硬件基础设施，标题含AI/ML也按JD实际职责判断。",
+        "internalAuditContinues": true,
+        "githubSyncContinues": true,
+        "silencePendingRejectedAndRoutineStatusChanges": true
       }
     ],
     "runHistory": [
@@ -8930,6 +8938,18 @@
           "Amazon JD未列明确毕业窗口、实际入职日期、Texas分配保证或OPT/STEM OPT政策。",
           "本轮增量源变化仅涉及非目标地区/方向岗位；官方反漏抓覆盖主要目标大厂，未完成全部公司ATS全量分页。"
         ]
+      },
+      {
+        "checkedAt": "2026-10-09T19:24:54Z",
+        "scope": "同步用户最新通知与硬件方向过滤规则；19:16 UTC后无新职位源提交，上一轮Amazon 3177934后无新增可行动岗位。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions latest head 4520bb3",
+          "qien-job-monitor jobs.json eligibility and notification policy"
+        ],
+        "result": "未发现全新、真实开放、资格闭环且相对Ryan明显升级的高匹配Applied AI/ML/Data Science岗位；按最新通知规则保持静默。已将严格硬件方向排除与仅通知可行动高匹配岗位规则写入监控配置。",
+        "coverageLimitations": [
+          "本轮与上一轮间隔较短；增量源无新提交。"
+        ]
       }
     ],
     "statusChanges": [
@@ -9010,6 +9030,22 @@
       "rule": "职位若明确要求U.S. citizen/U.S. citizenship required、仅限U.S. citizen或lawful permanent resident/Green Card holder，而Qien当前身份不满足，则直接排除。",
       "action": "不进入推荐、表2或提醒；保留发现/排除审计及历史/JD快照。",
       "exceptions": "仅写一般work authorization、未来不赞助或未明确身份限制的岗位不自动排除；继续按OPT规则逐岗核验。"
+    },
+    {
+      "ruleId": "exclude-hardware-non-applied-core",
+      "enabled": true,
+      "decidedAt": "2026-10-09T19:24:54Z",
+      "rule": "严格排除硬件工程、芯片/半导体设计、FPGA、嵌入式、固件、机器人硬件、底层硬件基础设施等非Applied AI/ML/Data Science岗位；标题含AI/ML也必须以实际JD核心职责为准。",
+      "action": "不进入表2或用户通知；保留内部发现、排除原因、状态与历史审计。",
+      "exceptions": "仅当核心工作明确属于软件Applied AI、ML、GenAI、LLM、Agentic AI或Data Science时继续资格与Ryan升级判断。"
+    },
+    {
+      "ruleId": "notify-only-actionable-high-upgrade",
+      "enabled": true,
+      "decidedAt": "2026-10-09T19:24:54Z",
+      "rule": "仅在发现全新、真实开放、已核验满足地点/经验/2027年5月后入职/F-1 OPT-STEM OPT等资格，并且相对Ryan在薪资、品牌平台或Applied AI/ML技术成长上有明显升级、值得立即投递的高匹配岗位时通知用户。",
+      "action": "待核验、排除、硬件/低匹配岗位、普通状态变化和无合适岗位均静默；继续内部记录并在必要时同步GitHub。",
+      "exceptions": "用户主动询问、要求报告或已投递归档时按用户请求回复。"
     }
   ]
 }
