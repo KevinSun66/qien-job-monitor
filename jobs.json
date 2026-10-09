@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T05:15:22Z",
+  "updatedAt": "2026-10-09T06:18:47Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6364,12 +6364,18 @@
       "officePerks": "Southlake onsite；hybrid policy details未具体说明",
       "jobId": "2026-126708",
       "deadline": "2026-10-09",
-      "lastChecked": "2026-10-07",
-      "lastCheckedAt": "2026-10-07T23:22:48Z",
-      "officialStatus": "Charles Schwab官方iCIMS active，Posted 2026-10-07并显示Apply。",
-      "verificationFlags": [],
+      "lastChecked": "2026-10-09",
+      "lastCheckedAt": "2026-10-09T06:18:47Z",
+      "officialStatus": "2026-10-09聚合源由active转inactive；官方iCIMS动态页当前不可直接读取，公开搜索无结果。原截止日为2026-10-09，但正式关闭仍待官方可读信号确认。",
+      "verificationFlags": [
+        "status-verification"
+      ],
       "discoverySource": "SimplifyJobs listings commit 29571db；Charles Schwab官方iCIMS",
-      "rejectionReason": "Official JD as written requires degree completed May 2023 or earlier; Qien graduates May 2027. Generalist SDE and compensation do not materially beat Ryan."
+      "rejectionReason": "Official JD as written requires degree completed May 2023 or earlier; Qien graduates May 2027. Generalist SDE and compensation do not materially beat Ryan.",
+      "previousOfficialStatus": "Charles Schwab官方iCIMS active，Posted 2026-10-07并显示Apply。",
+      "sourceState": "Simplify active→inactive at 2026-10-09T06:02:36Z",
+      "statusChangedAt": "2026-10-09T06:18:47Z",
+      "statusNote": "聚合源inactive且已到原截止日，但官方ATS本轮不可读；暂不单凭第三方状态确认关闭。原毕业年份与方向排除不变。"
     },
     {
       "company": "L3Harris Technologies",
@@ -6973,8 +6979,8 @@
     }
   ],
   "monitorAudit": {
-    "lastCheckedAt": "2026-10-09T05:15:22Z",
-    "scope": "04:02 UTC后New-Grad增量与Barry-Wehmiller R023049官方状态复核；TI/D3V按用户规则跳过。",
+    "lastCheckedAt": "2026-10-09T06:18:47Z",
+    "scope": "05:01 UTC后New-Grad增量与Charles Schwab 2026-126708官方状态复核；TI/D3V按用户规则跳过。",
     "currentChecks": [
       {
         "jobId": "171568",
@@ -7155,6 +7161,11 @@
         "checkedAt": "2026-10-09T05:15:22Z",
         "jobId": "R023049",
         "result": "Barry-Wehmiller Dallas Entry Level Software Engineer聚合源由active转inactive；官方Workday动态页当前不可直接读取，公开搜索无结果，加入status-verification，不确认关闭。既有工业自动化方向与Ryan机会成本排除不变。"
+      },
+      {
+        "checkedAt": "2026-10-09T06:18:47Z",
+        "jobId": "2026-126708",
+        "result": "Charles Schwab Southlake Associate Java Developer聚合源由active转inactive，且到达原截止日2026-10-09；官方iCIMS动态页当前不可直接读取，加入status-verification，不确认关闭。原毕业年份不兼容与通用SDE方向排除不变。"
       }
     ],
     "newDiscoveries": [
@@ -8638,6 +8649,20 @@
           "Barry-Wehmiller官方Workday动态页本轮不可直接读取，公开搜索无结果；未将聚合源inactive单独断言为正式关闭。",
           "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
         ]
+      },
+      {
+        "checkedAt": "2026-10-09T06:18:47Z",
+        "scope": "05:01 UTC后Texas New-Grad增量与Charles Schwab Southlake已知岗位状态复核；TI/D3V按用户规则跳过。",
+        "sourcesChecked": [
+          "SimplifyJobs/New-Grad-Positions listings 74c2fadf→0f23bbb3",
+          "Charles Schwab官方iCIMS 2026-126708",
+          "公开职位搜索索引"
+        ],
+        "result": "①无新增进入表2；②无新增待核验；③无新增发现后排除；④Charles Schwab Southlake Associate Java Developer（2026-126708）聚合源active→inactive并到达原截止日，官方关闭未确认，加入status-verification；原毕业年份/方向排除结论不变。",
+        "coverageLimitations": [
+          "Charles Schwab官方iCIMS动态页本轮不可直接读取，公开搜索无结果；未将聚合源inactive单独断言为正式关闭。",
+          "本轮为上次运行后的增量扫描，未完成全部监控公司ATS全量分页。"
+        ]
       }
     ],
     "statusChanges": [
@@ -8656,6 +8681,14 @@
         "previousStatus": "aggregator-active / official-active-on-2026-10-07",
         "newStatus": "aggregator-inactive / official-status-verification",
         "reason": "发现源转inactive，但官方动态页本轮不可读，尚无官方关闭确认。"
+      },
+      {
+        "checkedAt": "2026-10-09T06:18:47Z",
+        "company": "Charles Schwab",
+        "jobId": "2026-126708",
+        "previousStatus": "aggregator-active / official-active-on-2026-10-07",
+        "newStatus": "aggregator-inactive / official-status-verification",
+        "reason": "发现源转inactive且到达原截止日，但官方动态页不可读，尚无可读官方关闭确认。"
       }
     ]
   },
