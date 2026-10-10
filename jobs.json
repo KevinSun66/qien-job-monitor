@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T23:33:01Z",
+  "updatedAt": "2026-10-10T10:12:23Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7357,17 +7357,17 @@
       "title": "Associate Data Scientist – Spring 2027 Master's level graduates (113311)",
       "jobId": "113311",
       "url": "https://gartner.wd5.myworkdayjobs.com/en-US/Ext/job/Irving-TX/Associate-Data-Scientist---Spring-2027-Master-s-level-graduates_113311",
-      "status": "education-experience-rejected-status-verification",
+      "status": "education-experience-rejected",
       "found": "2026-10-09",
       "discoveredDate": "2026-10-09",
       "discoveredAt": "2026-10-09T23:33:01Z",
       "firstSeen": "2026-10-09T23:33:01Z",
-      "lastChecked": "2026-10-09",
-      "lastCheckedAt": "2026-10-09T23:33:01Z",
+      "lastChecked": "2026-10-10",
+      "lastCheckedAt": "2026-10-10T10:12:23Z",
       "employment": "Full-time · Hybrid · Early Careers",
       "gradYear": "Spring 2027 Master's-level graduates",
       "ngCompatibility": "Requires a Master's degree, or a Bachelor's degree with at least 2 years of related experience; Qien has neither path by May 2027.",
-      "assessment": "Strong applied data science scope: end-to-end modeling, NLP, ML/AI/GenAI, Python/SQL/Spark, MLOps, and $90K–$118K base. However, the official minimum is Master's degree OR Bachelor's plus at least 2 years related experience. Qien's bachelor's path does not meet the 2-year minimum, so exclude despite technical fit. Aggregator turned inactive on the deadline while the official page was still indexed with Apply; closure remains unconfirmed.",
+      "assessment": "Strong applied data science scope: end-to-end modeling, NLP, ML/AI/GenAI, Python/SQL/Spark, MLOps, and $90K–$118K base. The posting is confirmed open again on 2026-10-10, but the official minimum is a Master's degree OR a Bachelor's degree with at least 2 years of related experience. Qien meets neither path by May 2027, so the exclusion remains unchanged.",
       "visa": "Official wording says U.S. work authorization but does not state permanent/unrestricted authorization; not decisive because education/experience already excludes.",
       "compensation": "$90,000–$118,000 base + bonus/incentive and benefits (official posting).",
       "officialLocations": [
@@ -7375,11 +7375,9 @@
         "Stamford, CT"
       ],
       "locationListComplete": true,
-      "officialStatus": "Official page was still indexed with Apply on 2026-10-09; Simplify source changed active→inactive near the application deadline, so official closure is unconfirmed.",
-      "source": "Gartner official Workday 113311 + SimplifyJobs commit 1d727a76",
-      "verificationFlags": [
-        "status-verification"
-      ],
+      "officialStatus": "Gartner official jobs page was indexed as open on 2026-10-10, and the Simplify source corrected inactive→active. Role remains excluded because Qien does not meet the Master's-or-Bachelor's-plus-2-years requirement.",
+      "source": "Gartner official jobs page 113311 + SimplifyJobs commits 1d727a76 and 8703d1ce",
+      "verificationFlags": [],
       "finalPriority": "不投 · 学历/经验硬门槛",
       "roleTrack": "Applied Data Science / NLP / ML / GenAI / MLOps",
       "whyRyan": "Technical work is an upgrade, but Qien does not meet the Master's-or-2-years minimum.",
