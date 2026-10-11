@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-11T02:50:43Z",
+  "discoveredDate": "2026-10-10",
+  "company": "Citi",
+  "role": "AI/ML Engineer - Engineering Excellence (Full Stack Developer)",
+  "jobId": "26972927",
+  "location": [
+    "Irving, TX",
+    "Columbus, OH"
+  ],
+  "officialUrl": "https://jobs.citi.com/job/irving/ai-ml-engineer-engineering-excellence-full-stack-developer/287/97579072352",
+  "officialStatus": "open",
+  "decision": "experience-rejected",
+  "reason": "Citi official page classifies the role as Digital S/W Engineer Sr Analyst and seasoned professional; a detailed public JD version requires a bachelor's degree plus 5+ years of experience. This violates Qien's rule excluding any role with a minimum requirement of 1 year or more.",
+  "direction": "Enterprise AI/ML, GenAI, Agentic AI, LLM, RAG, Python/Java and cloud delivery are core, but seniority is a hard failure.",
+  "compensation": "$107,120-$160,680 base in Irving",
+  "visa": "Not further verified because the experience gate already fails.",
+  "ryanUpgrade": "Potential compensation/platform upgrade, but not actionable due to the hard experience requirement.",
+  "notification": "silent",
+  "dedupeKey": "Citi:26972927",
+  "sources": [
+    "Citi official careers 26972927",
+    "ML_Newgrad_2027 false-positive cross-check"
+  ]
+}
