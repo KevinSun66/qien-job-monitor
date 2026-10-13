@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T00:30:32Z",
+  "updatedAt": "2026-10-13T03:31:25Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7618,6 +7618,42 @@
       ],
       "sourceStatus": "Discovered in ML_Newgrad_2027 commit 79ff379; verified on NVIDIA official Workday JD",
       "rejectionReason": "Official minimum is 2 years relevant software development experience; user rule excludes all roles with minimum experience starting at 1 year."
+    },
+    {
+      "company": "SpaceX",
+      "tier": "S",
+      "area": "Bastrop, TX",
+      "market": "Austin metro",
+      "title": "Application Software Engineer, Applied AI",
+      "jobId": "8658737002",
+      "url": "https://job-boards.greenhouse.io/spacex/jobs/8658737002?gh_jid=8658737002",
+      "status": "experience-visa-rejected",
+      "found": "2026-10-12",
+      "discoveredDate": "2026-10-12",
+      "discoveredAt": "2026-10-13T03:31:25Z",
+      "firstSeen": "2026-10-13T03:31:25Z",
+      "lastChecked": "2026-10-12",
+      "lastCheckedAt": "2026-10-13T03:31:25Z",
+      "employment": "Full-time · On-site",
+      "gradYear": "Non-campus role; start date not disclosed",
+      "ngCompatibility": "Not eligible: official basic qualifications require 1+ years of full-stack development; user rule excludes any role whose minimum starts at 1 year.",
+      "assessment": "The core work is genuinely software Applied AI/GenAI: LLMs, agentic systems, multi-agent orchestration, advanced retrieval, evaluation and production observability. Bastrop is within the Austin metro and SpaceX would otherwise be a strong brand/technical-growth upgrade over Ryan. However, the official JD has two independent hard blockers: 1+ years of full-stack development, and ITAR eligibility limited to U.S. citizens/nationals, lawful permanent residents, refugees/asylees, or candidates able to obtain State Department authorization. Qien's current F-1 OPT/STEM OPT path does not satisfy the stated protected-person categories, so the role is excluded and must not be recommended.",
+      "visa": "Hard rejection: official ITAR section requires U.S. citizen/national, lawful permanent resident, refugee/asylee, or eligibility for specific State Department authorization; F-1 OPT/STEM OPT alone does not meet the stated categories.",
+      "compensation": "Not used for decision because experience and ITAR requirements are hard exclusions.",
+      "officialLocations": [
+        "Bastrop, TX"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Open on 2026-10-12; official Greenhouse page shows a live Apply form.",
+      "source": "SpaceX official Greenhouse requisition 8658737002 + ML_Newgrad_2027 commit ea271b3",
+      "verificationFlags": [],
+      "finalPriority": "Do not apply · 1+ year minimum and ITAR authorization hard blockers",
+      "roleTrack": "Applied AI / LLM / Agentic AI / Production AI Software Engineering",
+      "technicalGrowth": "Very high, but ineligible",
+      "brandPlatform": "Very high, but ineligible",
+      "ryanUpgrade": "Not actionable because hard eligibility gates fail",
+      "whyRyan": "SpaceX brand and technical scope would be an upgrade, but the role is not a valid F-1 OPT/new-grad option under the official minimum qualifications and ITAR language.",
+      "rejectionReason": "Official JD requires 1+ years full-stack development and ITAR protected-person/authorization eligibility."
     }
   ],
   "monitorAudit": [
@@ -7646,6 +7682,19 @@
       "coverageLimitations": [
         "NVIDIA官方地点写US Remote但未单列Texas；因2年经验硬门槛已排除，未继续核验OPT与Texas远程细则。",
         "本轮为增量扫描及相关官方JD核验，未对全部监控公司ATS做全量分页复扫。"
+      ]
+    },
+    {
+      "checkedAt": "2026-10-13T03:31:25Z",
+      "scope": "Latest Simplify/New-Grad and ML_Newgrad_2027 deltas for DFW/Austin/Remote-Texas software Applied AI/ML/Data Science; strict zero-experience, OPT, hardware and Ryan-upgrade gates.",
+      "sourcesChecked": [
+        "SimplifyJobs/New-Grad-Positions through commit 0c658e1",
+        "ML_Newgrad_2027 through commit ea271b3",
+        "SpaceX official Greenhouse requisition 8658737002"
+      ],
+      "result": "No new actionable high-match role. Added SpaceX Application Software Engineer, Applied AI (8658737002), Bastrop, to the internal rejection audit: the work is genuine LLM/agentic Applied AI and the role is open, but the official JD requires 1+ years of full-stack development and ITAR protected-person/authorization eligibility, so it fails both the zero-experience and F-1 OPT gates. Regeneron R51390 is Rensselaer/RENSS rather than Texas and therefore out of scope. The other ML-source additions are Seattle/San Francisco, and Simplify changes were routine inactive transitions outside the target.",
+      "coverageLimitations": [
+        "This was an incremental scan plus official verification of the only new Texas Applied AI candidate, not a full pagination crawl of every monitored employer ATS."
       ]
     }
   ],
