@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T13:45:20Z",
+  "updatedAt": "2026-10-13T00:30:32Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7550,6 +7550,74 @@
       "lastCheckedAt": "2026-10-10T13:45:20Z",
       "officialStatus": "Open; official page shows Apply",
       "sourceStatus": "Simplify changed active→inactive at 2026-10-10T13:01:56Z; official status takes precedence"
+    },
+    {
+      "company": "Brillio",
+      "tier": "B · 待评估",
+      "area": "Coppell, TX",
+      "market": "DFW",
+      "title": "Full Stack AI Engineer",
+      "employment": "Full-time · On-site",
+      "gradYear": "May 2027 start compatibility not disclosed",
+      "match": "Technical match; not a clear Ryan upgrade",
+      "ngCompatibility": "Official JD accepts 0–2 years and counts internships/projects; May 2027 start timing is not stated.",
+      "minimumQualifications": "0–2 years of software/application experience including internships or projects; Java, Python, Node.js, React; interest in agentic AI.",
+      "assessment": "Core work is software Applied/Agentic AI: Java microservices, React/Node/Python AI services, intelligent agents and cloud deployment. The official base range is $75,000–$90,000, which does not clearly exceed the Ryan baseline, and Brillio does not provide a clear brand/platform upgrade. OPT/STEM OPT support and a May 2027-compatible start date are not disclosed. Retain for audit, but do not add to table 2 or notify.",
+      "visa": "Initial OPT/STEM OPT and sponsorship policy not disclosed; visa-verification.",
+      "found": "2026-10-12",
+      "discoveredDate": "2026-10-12",
+      "discoveredAt": "2026-10-12T23:37:48Z",
+      "url": "https://jobs.lever.co/brillio-2/3de75f8b-9ddc-4908-b67d-d6e91bafd9e2",
+      "status": "opportunity-cost-rejected-with-unverified-gates",
+      "finalPriority": "Do not add to table 2 · salary/platform are not a clear Ryan upgrade; visa and start date unverified",
+      "roleTrack": "Full-stack Applied AI / Agentic AI / Intelligent automation",
+      "ryanUpgrade": "No clear upgrade · official $75K–$90K base overlaps Ryan and platform advantage is insufficiently strong",
+      "compensation": "$75,000–$90,000 official base range",
+      "jobId": "3de75f8b-9ddc-4908-b67d-d6e91bafd9e2",
+      "lastChecked": "2026-10-12",
+      "lastCheckedAt": "2026-10-12T23:37:48Z",
+      "officialStatus": "Open; official Lever page has a live application",
+      "sourceStatus": "Discovered in SimplifyJobs/New-Grad-Positions commit a0cd92b; verified against Brillio official Lever JD",
+      "verificationFlags": [
+        "visa-verification",
+        "start-date-verification"
+      ]
+    },
+    {
+      "company": "NVIDIA",
+      "tier": "S",
+      "area": "US Remote / Santa Clara, CA",
+      "market": "Remote US · Texas location eligibility not explicitly restricted",
+      "title": "Deep Learning Software Engineer, TensorRT Performance - New College Grad 2027",
+      "employment": "Full-time",
+      "gradYear": "New College Grad 2027",
+      "match": "Technical high match; hard experience rejection",
+      "ngCompatibility": "Title is New College Grad 2027, but official minimum qualifications explicitly require 2 years of relevant software development experience.",
+      "minimumQualifications": "Bachelor's/Master's/PhD or equivalent in CS/CE/EECS/AI; 2 years relevant software development; C++/Python; DL frameworks and inference libraries; performance analysis/optimization.",
+      "assessment": "The role is core software Deep Learning/GenAI inference work across TensorRT, Torch-TensorRT, quantization, scheduling, memory management and distributed inference. NVIDIA's platform, salary and technical growth would clearly exceed Ryan, and the official locations include US Remote. However, the official JD explicitly requires 2 years of relevant software development experience. Under Qien's rule excluding roles whose minimum begins at 1 year or more, this is a hard experience rejection despite the New College Grad 2027 title.",
+      "visa": "Not evaluated further because the explicit 2-year experience gate already fails; no OPT conclusion inferred.",
+      "found": "2026-10-12",
+      "discoveredDate": "2026-10-12",
+      "discoveredAt": "2026-10-13T00:30:32Z",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Deep-Learning-Software-Engineer--TensorRT-Performance---New-College-Grad-2027_JR2027083",
+      "status": "experience-rejected",
+      "finalPriority": "Do not apply · explicit 2 years relevant software-development experience violates the zero-experience rule",
+      "roleTrack": "Deep Learning inference / TensorRT / GenAI performance engineering",
+      "technicalGrowth": "Very high",
+      "brandPlatform": "S-tier",
+      "ryanUpgrade": "Potentially clear on platform, pay and technical depth, but disqualified by experience gate",
+      "compensation": "Official base: $124,000–$195,500 Level 2; $152,000–$241,500 Level 3 + equity and benefits",
+      "jobId": "JR2027083",
+      "deadline": "Applications accepted at least until 2026-10-16",
+      "lastChecked": "2026-10-12",
+      "lastCheckedAt": "2026-10-13T00:30:32Z",
+      "officialStatus": "Open; official NVIDIA Workday page shows Apply and says existing vacancy",
+      "officialLocations": [
+        "US, CA, Santa Clara",
+        "US, CA, Remote"
+      ],
+      "sourceStatus": "Discovered in ML_Newgrad_2027 commit 79ff379; verified on NVIDIA official Workday JD",
+      "rejectionReason": "Official minimum is 2 years relevant software development experience; user rule excludes all roles with minimum experience starting at 1 year."
     }
   ],
   "monitorAudit": [
@@ -7563,6 +7631,21 @@
       "result": "内部新增HCSC Early Careers New Grad Analytics Development Program（R0059520）排除记录：官方仍开放且2026-12至2027-06毕业窗口匹配、Texas远程可行，但JD明确不接受OPT/CPT并要求unrestricted authorization；同时为BI/报表/咨询方向、薪资不明显高于Ryan。Apple/SHI新增均为非Texas硬件或技术员岗位。未发现可通知的高匹配岗位。",
       "coverageLimitations": [
         "本轮为增量扫描与相关官方JD核验，未完成全部公司ATS全量分页。"
+      ]
+    },
+    {
+      "checkedAt": "2026-10-13T00:30:32Z",
+      "scope": "最新New-Grad/ML增量与DFW/Austin/Remote-Texas软件Applied AI/ML/Data Science核验；严格执行零经验、硬件排除、OPT与Ryan升级门槛。",
+      "sourcesChecked": [
+        "SimplifyJobs/New-Grad-Positions through commit a56b377",
+        "ML_Newgrad_2027 through commit 79ff379",
+        "NVIDIA official Workday JR2027083",
+        "Brillio official Lever 3de75f8b-9ddc-4908-b67d-d6e91bafd9e2"
+      ],
+      "result": "内部补录Brillio Full Stack AI Engineer：Coppell、0–2年、Agentic AI，但$75K–$90K与Ryan重叠，平台不构成明确升级，且签证/2027入职未确认，不进表2。新增NVIDIA JR2027083：官方仍开放、New College Grad 2027、US Remote、核心TensorRT/GenAI推理工作且平台薪资明显升级，但JD明确要求2年相关软件开发经验，按零经验硬规则排除。Simplify增量仅有非目标2K状态变化；Amazon Robotics/Austin与用户既有硬件方向排除结论不变。未发现值得通知的全新高匹配岗位。",
+      "coverageLimitations": [
+        "NVIDIA官方地点写US Remote但未单列Texas；因2年经验硬门槛已排除，未继续核验OPT与Texas远程细则。",
+        "本轮为增量扫描及相关官方JD核验，未对全部监控公司ATS做全量分页复扫。"
       ]
     }
   ],
