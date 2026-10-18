@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-18T10:16:16Z",
+  "checked_at_america_chicago": "2026-10-18T05:16:16-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "47fa54e061ce2080f576f1c2f0037898870f964d",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T0428-Texas.json",
+      "sha": "bcccca5a80d38d9a3b83f3e35a8ba21ec44da55b",
+      "status": "synced"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub Pages deployment is not a job crawler; no .github/workflows directory was present."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "e74144b3eaa9f60f54fc5e677aef149d17e9528d",
+      "head": "05b89b2a9a1c1d14810f3bb4c784403a97998d59",
+      "checked_through_utc": "2026-10-18T10:02:18Z"
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "previous_head": "02ab73ea1be154fbaf1db95feb01036e1027bec4",
+      "head": "01201b79cac37d31d71421a69c7004d5efab9117",
+      "checked_through_utc": "2026-10-18T09:55:29Z"
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 16,
+    "new_roles": 16,
+    "status_removals_or_inactive_transitions": 0,
+    "target_market_changes_reviewed": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "source": "New-Grad-Positions",
+        "company": "Leonardo",
+        "title": "Graduate Software Engineer",
+        "location": "Newcastle upon Tyne, UK",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "outside the United States"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "PDT Partners",
+        "title": "Quantitative Researcher",
+        "location": "New York, NY",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "quantitative research rather than target software Applied AI/ML/DS"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "FTI Defense",
+        "title": "Associate Data Scientist – Transitioning Navy Service Members",
+        "location": "Norfolk, VA",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "specialized transitioning-military pipeline"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "FTI Defense",
+        "title": "Early Career Associate Data Scientist",
+        "location": "Norfolk, VA",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "source verification status unknown"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "FTI Defense",
+        "title": "Associate Data Scientist",
+        "location": "Norfolk, VA",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "source marks role inactive/unresolvable"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "Unitypoint",
+        "title": "Data Scientist Associate-AI Solutions",
+        "location": "West Des Moines, IA",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "source marks role inactive/unresolvable"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "Non Clinical Emory",
+        "title": "Associate AI Engineer",
+        "location": "Atlanta, GA",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "source marks role inactive/unresolvable"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "Point72 / Cubist",
+        "title": "Cubist Quantitative Researcher",
+        "location": "Chicago / New York / Seattle",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "quantitative research rather than target software Applied AI/ML/DS"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "Together AI",
+        "title": "Machine Learning Engineer - Inference",
+        "location": "San Francisco, CA",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "requires 3+ years",
+          "source marks role inactive"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "Binance",
+        "title": "Binance Accelerator Programme - LLM Data Scientist",
+        "location": "Asia",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "outside the United States"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "Factory",
+        "title": "Research Engineer",
+        "location": "San Francisco, CA",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "requires 2+ years post-degree"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "Scale AI",
+        "title": "Applied AI Engineer, Global Public Sector",
+        "location": "Doha / London",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "outside the United States",
+          "source marks role inactive"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "ProSidian Consulting",
+        "title": "Data Scientist/Statistician (Level 1) - Aerospace Medical Research",
+        "location": "Oklahoma",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "non-core AI/ML category"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "ProSidian Consulting",
+        "title": "PPM Data Scientist/Statistician I - WA",
+        "location": "Seattle, WA",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "non-core AI/ML category"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "ProSidian Consulting",
+        "title": "PPM Data Scientist/Statistician I - CO",
+        "location": "Boulder, CO",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "non-core AI/ML category"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "ProSidian Consulting",
+        "title": "PPM Data Scientist/Statistician I",
+        "location": "Washington, DC",
+        "result": "excluded before JD review",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "non-core AI/ML category"
+        ]
+      }
+    ],
+    "note": "All 16 source additions were outside the monitored Dallas/DFW and Austin markets, so no official-JD eligibility review or job-data mutation was warranted."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending-verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-18T09:29:50Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
