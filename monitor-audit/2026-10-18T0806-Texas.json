@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-18T13:08:00Z",
+  "checked_at_america_chicago": "2026-10-18T08:08:00-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "7d915e62cb77125cabdf8cdc86766a0eda22f60d",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T0611-Texas.json",
+      "sha": "5f224f1068150f1f1d692398c231064a6d8378af",
+      "status": "synced"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub Pages deployment is not a job crawler; no .github/workflows directory was present."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "18abd6862627a1645278ec26821d22b3beb1989b",
+      "head": "80b087b7d4c915f94c82c99a8d108f6a49a37ed0",
+      "checked_through_utc": "2026-10-18T13:01:18Z"
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "previous_head": "01201b79cac37d31d71421a69c7004d5efab9117",
+      "head": "85a5b1a21e6158a565b962bf7d861add04372c09",
+      "checked_through_utc": "2026-10-18T11:23:32Z"
+    },
+    {
+      "source": "Amazon official careers",
+      "url": "https://www.amazon.jobs/en/jobs/10558915/software-development-engineer-i-annapurna-labs-early-career-2027",
+      "checked_at_utc": "2026-10-18T13:07:00Z",
+      "result": "open; Apply now present"
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 19,
+    "new_roles": 1,
+    "source_record_removals": 16,
+    "inactive_transitions": 2,
+    "metadata_refreshes": 367,
+    "target_market_records_reviewed": 11,
+    "confirmed_target_market_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "SpaceX",
+        "title": "Application Software Engineer, Applied AI",
+        "locations": [
+          "Hawthorne, CA",
+          "Vandenberg, CA"
+        ],
+        "change": "new source record replacing/consolidating an alternate SpaceX record",
+        "result": "excluded",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "requires 2+ years or equivalent professional experience",
+          "SpaceX export-control eligibility requires separate verification"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "Amazon",
+        "title": "Software Development Engineer I, Annapurna Labs, Early Career - 2027",
+        "job_id": "10558915",
+        "location": "Austin, TX",
+        "change": "record removed from aggregation source",
+        "official_status": "open on Amazon.jobs with Apply now present",
+        "result": "no monitored-data change",
+        "reasons": [
+          "aggregation removal is not an official closure",
+          "role remains strictly excluded as custom silicon / compilers / runtimes / firmware / drivers / kernels / hardware-software-boundary infrastructure",
+          "not core software Applied AI/ML/Data Science despite ML-adjacent title and frameworks"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "change": "15 additional source-record removals",
+        "result": "no monitored-data change",
+        "summary": "Removed records were outside Dallas/DFW and Austin, except the separately reviewed Amazon Annapurna Austin role; many were TikTok California/Seattle or Amazon non-Texas senior roles."
+      },
+      {
+        "source": "New-Grad-Positions",
+        "company": "Cisco",
+        "title": "Software Engineer",
+        "location": "Milpitas, CA",
+        "change": "active to inactive",
+        "result": "ignored",
+        "reasons": [
+          "outside Dallas/DFW and Austin"
+        ]
+      },
+      {
+        "source": "New-Grad-Positions",
+        "company": "The Walt Disney Company",
+        "title": "Associate Product Manager - APM Program",
+        "locations": [
+          "Glendale, CA",
+          "New York, NY"
+        ],
+        "change": "active to inactive",
+        "result": "ignored",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "product management rather than target Applied AI/ML/Data Science"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "change": "target-market verification refresh",
+        "records_reviewed": 10,
+        "result": "no confirmed status change",
+        "summary": "Eight target-market records changed only their verification checked timestamp; Amazon OIS-Core Engine moved from closed to unknown solely because mass-closure suppression was applied, and Cirrus Logic remained closed while its failed-check strike count increased. No active flag changed."
+      }
+    ],
+    "note": "No new Dallas/DFW or Austin role was found. The only target-market source removal remained officially open and was already excluded for hardware/low-level infrastructure focus."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending-verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-18T11:13:05Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan; ordinary exclusions and unconfirmed source-only status changes are silent by policy."
+  }
+}
