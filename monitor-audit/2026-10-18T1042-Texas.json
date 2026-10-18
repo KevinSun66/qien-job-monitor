@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-18T15:46:18Z",
+  "checked_at_america_chicago": "2026-10-18T10:46:18-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "8bd453e25f8e7144dc89955f173d872f13aabc6d",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T0932-Texas.json",
+      "sha": "8a783fbf28e8b3d4813c6d8627920f150b240b8a",
+      "status": "synced",
+      "confirmed_commit": "8bd453e25f8e7144dc89955f173d872f13aabc6d"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub Pages deployment is not a job crawler; no .github/workflows directory was present."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "b007f99907d91509c1d9754b2a0fc80f100c2471",
+      "head": "fb493cdcde79790d0dffdd5e22ac7c07c81e3ab1",
+      "checked_through_utc": "2026-10-18T15:32:05Z"
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "previous_head": "85a5b1a21e6158a565b962bf7d861add04372c09",
+      "head": "6629321feeaae63faa20f45177d0f1deb72a2e3e",
+      "checked_through_utc": "2026-10-18T14:49:07Z"
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 78,
+    "source_added_records": 25,
+    "source_removed_records": 53,
+    "source_metadata_refreshes": 462,
+    "target_market_changes_reviewed": 4,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "Quora",
+        "title": "Machine Learning Engineer, New Grad - Quora (Remote)",
+        "location": "Remote - United States and Canada (Texas eligible by location)",
+        "official_url": "https://jobs.ashbyhq.com/quora/40659fe7-545e-4b08-b6d7-2567b18b9ed3",
+        "official_status": "open",
+        "result": "excluded",
+        "reasons": [
+          "official JD requires full-time availability in early 2027",
+          "start window is earlier than the required post-May-2027 availability"
+        ],
+        "verified_facts": {
+          "experience": "new graduate; no professional minimum stated",
+          "work_scope": "LLM-powered agents, agentic workflows, ML evaluation and production deployment",
+          "compensation_usd": "107360-152900 base plus equity and benefits",
+          "work_authorization": "official JD does not state a citizenship/permanent-residency restriction; sponsorship not specified and not outcome-determinative because the start date already fails"
+        }
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "Amazon",
+        "title": "Software Development Engineer I, Annapurna Labs, Early Career - 2027",
+        "location": "Austin, Texas, USA and other US locations",
+        "official_url": "https://www.amazon.jobs/en/jobs/10558915/software-development-engineer-i-annapurna-labs-early-career-2027",
+        "official_status": "open",
+        "result": "excluded",
+        "reasons": [
+          "strict hardware/low-level infrastructure exclusion",
+          "official JD centers on custom silicon, compilers, runtimes, firmware, drivers and kernels"
+        ]
+      },
+      {
+        "source": "New-Grad-Positions",
+        "company": "Charles Schwab",
+        "title": "Associate Software Development Engineer",
+        "location": "Southlake/Austin, Texas",
+        "prior_source_status": "inactive",
+        "change": "record removed from source",
+        "result": "no monitored-data change",
+        "reasons": [
+          "already inactive before source cleanup",
+          "removal alone is not treated as a newly verified official status change"
+        ]
+      },
+      {
+        "source": "New-Grad-Positions",
+        "company": "Charles Schwab",
+        "title": "Associate - Data and Rep Technology",
+        "location": "Southlake/Austin, Texas",
+        "prior_source_status": "inactive",
+        "change": "record removed from source",
+        "result": "no monitored-data change",
+        "reasons": [
+          "already inactive before source cleanup",
+          "removal alone is not treated as a newly verified official status change"
+        ]
+      }
+    ],
+    "note": "No verified source change met all location, post-May-2027 start, experience, authorization, software-AI scope and Ryan-upgrade criteria."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_confirmation",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-18T14:34:29Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
