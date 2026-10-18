@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-18T05:54:46Z",
+  "checked_at_america_chicago": "2026-10-18T00:54:46-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "9acdb1dd886156abc39737fd4767133f7ffe94dc",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T0003-Texas.json",
+      "sha": "7dc13bb29a6f833484be0e2471ce64e65712f40e",
+      "status": "synced"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub Pages deployment is not a job crawler; no .github/workflows directory was present."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "head": "bdf3e84c497be664e9130c0b53fb6874a2da3d70",
+      "checked_through_utc": "2026-10-18T05:31:43Z"
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "head": "f7e292c43b6809a6832f3e1109579b4f9eea0b9a",
+      "checked_through_utc": "2026-10-18T01:32:52Z"
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 0,
+    "new_roles": 0,
+    "status_removals_or_inactive_transitions": 0,
+    "target_market_changes_reviewed": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [],
+    "note": "The New-Grad source generated a refreshed listings commit, but listing IDs were unchanged from the prior checked head. The ML 2027 source head was unchanged. There were no new or changed roles requiring official-JD verification."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending-verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-18T05:05:56Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
