@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-18T23:59:23Z",
+  "checked_at_america_chicago": "2026-10-18T18:59:23-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "0c19f225a164e6330f73332e5c16c593cc5b9822",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T1748-Texas.json",
+      "sha": "9b5d7a76ac2d11c26ab5591e1a76aef40d306382",
+      "status": "synced",
+      "confirmed_commit": "0c19f225a164e6330f73332e5c16c593cc5b9822"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "2a188992e8384ceaad286ce20c9cd6519737dda2",
+      "head": "927e2d9871813bbbf86322b89a848eec138bcd29",
+      "checked_through_utc": "2026-10-18T23:31:47Z",
+      "listing_data_changed": true,
+      "note": "Inactive-record cleanup removed 32 records and changed three existing records; no new listings."
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "previous_head": "179cfe8c3d38d349d4e5aeb20137df80801e4b33",
+      "head": "179cfe8c3d38d349d4e5aeb20137df80801e4b33",
+      "checked_through_utc": "2026-10-18T21:36:52Z",
+      "listing_data_changed": false
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 32,
+    "source_added_records": 0,
+    "source_removed_records": 32,
+    "source_changed_records": 3,
+    "target_market_source_records_reviewed": 2,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "inactive_record_cleanup",
+        "role": "Intertek Engineer Hazardous Locations - Hazloc",
+        "location": "Plano, Texas",
+        "prior_source_status": "inactive",
+        "result": "No job-data write. Hardware/hazardous-location engineering role, not Applied AI/ML/Data Science; source removal is cleanup, not a newly verified status change."
+      },
+      {
+        "type": "inactive_record_cleanup",
+        "role": "Halliburton Cable Technician 1",
+        "location": "Roscoe, Texas",
+        "prior_source_status": "inactive",
+        "result": "No job-data write. Outside Dallas/DFW and Austin and a hardware technician role; source removal is cleanup."
+      }
+    ],
+    "note": "No new Dallas/DFW or Austin listing appeared. The only Texas removals were already-inactive hardware records and do not warrant notification or job-data changes."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_confirmation",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-18T22:50:41Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
