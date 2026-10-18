@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-18T02:37:00Z",
+  "checked_at_america_chicago": "2026-10-17T21:37:00-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "7ccfc089f0eb42d10e893c0c809d89bfbec0c15f",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": "index.html",
+    "austin_page": "austin.html",
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub Pages deployment is not a job crawler; no .github/workflows directory was present."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "head": "3c10b923f372908cbca77418231ca1e8830db7d6",
+      "checked_through_utc": "2026-10-18T02:31:59Z"
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "head": "f7e292c43b6809a6832f3e1109579b4f9eea0b9a",
+      "checked_through_utc": "2026-10-18T01:32:52Z"
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        "README.md",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 4,
+    "new_roles": 0,
+    "status_removals_or_inactive_transitions": 4,
+    "target_market_changes_reviewed": 1,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "company": "Electronic Arts",
+        "title": "Lead Scripter",
+        "location": "Austin, TX",
+        "source_id": "4833c303-bbd4-455b-9390-6d18c567f60c",
+        "source_change": "inactive/removed from aggregator",
+        "result": "excluded",
+        "reasons": [
+          "lead-level role",
+          "game scripting rather than Applied AI/ML/Data Science",
+          "ordinary non-actionable status change"
+        ]
+      },
+      {
+        "company": "Equip Health",
+        "title": "Product Support Associate",
+        "location": "Remote in USA",
+        "source_id": "e517a70f-d995-4b36-8f7d-dc3e710fd608",
+        "source_change": "inactive/removed from aggregator",
+        "result": "excluded",
+        "reasons": [
+          "not Applied AI/ML/Data Science",
+          "ordinary non-actionable status change"
+        ]
+      },
+      {
+        "company": "Expedia Group",
+        "title": "Software Development Engineer I",
+        "location": "Seattle, WA",
+        "source_ids": [
+          "d71e76af-5fa6-469f-b9a5-992df66e6b01",
+          "9d0be779-7d1d-42b9-b26a-e895e46f136e"
+        ],
+        "source_change": "inactive/removed duplicate records",
+        "result": "excluded",
+        "reasons": [
+          "outside DFW/Austin",
+          "ordinary non-actionable status change"
+        ]
+      }
+    ]
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending-verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-18T02:36:41Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
