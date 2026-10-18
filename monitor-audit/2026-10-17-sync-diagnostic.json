@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "kind": "monitor_sync_diagnostic",
+  "checked_at_utc": "2026-10-18T02:36:34Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "findings": {
+    "chatgpt_monitor_enabled": true,
+    "last_observed_monitor_run_utc": "2026-10-18T02:17:24Z",
+    "latest_github_pages_run_utc": "2026-10-13T03:34:20Z",
+    "github_pages_conclusion": "success",
+    "scheduled_crawler_workflow_found": false,
+    "existing_audit_files": [
+      "2026-10-03T2322-Texas.json",
+      "2026-10-10T2150-Citi-26972927.json"
+    ],
+    "missing_period": "2026-10-11 through 2026-10-17",
+    "root_cause": "not conclusively established",
+    "job_data_modified": false
+  },
+  "remediation": "Updated existing ChatGPT job monitor to verify GitHub writes and distinguish scheduled task execution from repository sync.",
+  "note": "Diagnostic record only; does not assert a completed job search or restore missing historical data."
+}
