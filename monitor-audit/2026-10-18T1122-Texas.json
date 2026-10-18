@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-18T16:24:59Z",
+  "checked_at_america_chicago": "2026-10-18T11:24:59-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "a7b89f9a210033fdc569fc497c4535a20cafbc97",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T1042-Texas.json",
+      "sha": "a639045426bad74bd61eb41268c4ebdc4def1aeb",
+      "status": "synced",
+      "confirmed_commit": "a7b89f9a210033fdc569fc497c4535a20cafbc97"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub Pages deployment is not a job crawler; no .github/workflows directory was present."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "fb493cdcde79790d0dffdd5e22ac7c07c81e3ab1",
+      "head": "655dc684abd464443cf91f1b3c7284cf6df12276",
+      "checked_through_utc": "2026-10-18T16:02:09Z"
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "previous_head": "6629321feeaae63faa20f45177d0f1deb72a2e3e",
+      "head": "0f16dcb52a0f52732e94166e43d071199429ac13",
+      "checked_through_utc": "2026-10-18T15:59:15Z"
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 25,
+    "source_added_records": 2,
+    "source_removed_records": 23,
+    "source_metadata_refreshes": 366,
+    "target_market_changes_reviewed": 1,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "Amazon",
+        "title": "Software Development Engineer I, Annapurna Labs, Early Career - 2027",
+        "location": "Austin, Texas, USA and other US locations",
+        "source_change": "record removed from aggregator after appearing in the prior refresh",
+        "official_url": "https://www.amazon.jobs/en/jobs/10558915/software-development-engineer-i-annapurna-labs-early-career-2027",
+        "result": "no monitored-data change",
+        "reasons": [
+          "aggregator removal alone is not treated as an official closure",
+          "official role was verified open in the preceding run",
+          "role remains excluded under the strict hardware/low-level infrastructure rule because the JD centers on custom silicon, compilers, runtimes, firmware, drivers and kernels"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "Visa",
+        "title": "Data Science Graduate",
+        "location": "London, United Kingdom",
+        "source_change": "new record",
+        "result": "excluded",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "outside the United States"
+        ]
+      },
+      {
+        "source": "ML_Newgrad_2027",
+        "company": "SpaceX",
+        "title": "Application Software Engineer, Applied AI",
+        "location": "Vandenberg and Hawthorne, California",
+        "source_change": "record reintroduced",
+        "result": "excluded",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "not a new Texas opportunity"
+        ]
+      }
+    ],
+    "note": "Seven New-Grad source removals were already inactive and outside the monitored Texas markets. ML-source semantic status changes were outside Texas. No verified change met all location, post-May-2027 start, experience, authorization, software-AI scope and Ryan-upgrade criteria."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_confirmation",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-18T15:46:53Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
