@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-18T14:34:04Z",
+  "checked_at_america_chicago": "2026-10-18T09:34:04-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "f988e0e5fa65f2032c5b3379700b337dc85ce86c",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T0836-Texas.json",
+      "sha": "52c4ba48a8601253897e1047d78f1917dd04d1e3",
+      "status": "synced"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub Pages deployment is not a job crawler; no .github/workflows directory was present."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "5eb087b4612f6f6195ae36454d282ba6d31732fa",
+      "head": "b007f99907d91509c1d9754b2a0fc80f100c2471",
+      "checked_through_utc": "2026-10-18T14:31:36Z"
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "previous_head": "85a5b1a21e6158a565b962bf7d861add04372c09",
+      "head": "85a5b1a21e6158a565b962bf7d861add04372c09",
+      "checked_through_utc": "2026-10-18T11:23:32Z"
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 2,
+    "new_roles": 0,
+    "source_record_removals": 1,
+    "inactive_transitions": 1,
+    "target_market_changes_reviewed": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "source": "New-Grad-Positions",
+        "company": "Aptiv",
+        "title": "Associate Engineer - Board Support Packages",
+        "location": "Ottawa, ON, Canada",
+        "prior_source_status": "inactive",
+        "change": "record removed from source",
+        "result": "excluded",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "outside the United States",
+          "hardware/board support package role",
+          "already inactive before removal"
+        ]
+      },
+      {
+        "source": "New-Grad-Positions",
+        "company": "Goldman Sachs",
+        "title": "Engineering New Analyst - Engineering",
+        "location": "Salt Lake City, UT",
+        "change": "active to inactive",
+        "result": "no monitored-data change",
+        "reasons": [
+          "outside Dallas/DFW and Austin"
+        ]
+      }
+    ],
+    "note": "Both source changes were outside the monitored Texas markets. The ML 2027 source head was unchanged."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending-verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-18T13:37:34Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
