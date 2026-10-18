@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-18T22:50:21Z",
+  "checked_at_america_chicago": "2026-10-18T17:50:21-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "c6a60a9bf89656824621ed9d5a4f491675c5b0e5",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T1612-Texas.json",
+      "sha": "2e9896d7771e9c0e73f76677538bd31ad11fd934",
+      "status": "synced",
+      "confirmed_commit": "c6a60a9bf89656824621ed9d5a4f491675c5b0e5"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "9fdef3e861f195a754893c3f0d4a5cc575d642a5",
+      "head": "2a188992e8384ceaad286ce20c9cd6519737dda2",
+      "checked_through_utc": "2026-10-18T22:31:59Z",
+      "listing_data_changed": true,
+      "note": "One new Maryland software role and three existing-record metadata changes; no Dallas/DFW or Austin changes."
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "previous_head": "dc5e6f1550257c8fdbba807731c86a49d76f32a2",
+      "head": "179cfe8c3d38d349d4e5aeb20137df80801e4b33",
+      "checked_through_utc": "2026-10-18T21:36:52Z",
+      "listing_data_changed": true,
+      "note": "One California record re-added, sixteen records removed, and 457 existing-record changes; Texas status movements were batch verification-suppression changes."
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 18,
+    "source_added_records": 2,
+    "source_removed_records": 16,
+    "source_changed_records": 460,
+    "target_market_source_records_reviewed": 9,
+    "target_market_unique_roles_reviewed": 7,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "non_target_addition",
+        "source": "SimplifyJobs/New-Grad-Positions",
+        "role": "VTG Junior Software Engineer",
+        "location": "Hanover, Maryland",
+        "result": "Excluded before notification: outside Dallas/DFW and Austin."
+      },
+      {
+        "type": "non_target_refresh",
+        "source": "SimplifyJobs/ML_Newgrad_2027",
+        "result": "The one added SpaceX role and all sixteen removals were outside target markets; no target-market structural add/remove occurred."
+      },
+      {
+        "type": "batch_status_suppression",
+        "roles": [
+          "Proofpoint AI Engineer II — Texas",
+          "Vistra Data Scientist — Irving (two source records)",
+          "Home Depot Associate Data Scientist - BlackLocus — Texas virtual",
+          "Applied Materials Data Scientist New College Grad — Austin",
+          "KLA Software Engineer AI/ML — Austin (two source records)",
+          "Revionics New Grad Machine Learning Engineer — Austin",
+          "Nextdoor New Grad 2026 Machine Learning Engineer — Dallas"
+        ],
+        "result": "No job-data write. Aggregator statuses moved from closed to unknown only because a mass-closure safeguard suppressed board-search failures; this is not official evidence that any requisition reopened.",
+        "eligibility_notes": [
+          "Proofpoint and Vistra fail the minimum-experience rule.",
+          "Nextdoor is a 2026 new-grad role and is incompatible with Qien's post-May-2027 start.",
+          "KLA remains semiconductor/AI-infrastructure adjacent and exact eligibility is unverified.",
+          "The remaining roles have no newly confirmed official open status, start date and OPT compatibility."
+        ]
+      }
+    ],
+    "note": "No brand-new Dallas/DFW or Austin role was both officially verified and eligible. Source batch verification changes were not treated as official reopening or closure."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_confirmation",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-18T21:13:32Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
