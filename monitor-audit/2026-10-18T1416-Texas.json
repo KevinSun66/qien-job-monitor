@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-18T19:19:19Z",
+  "checked_at_america_chicago": "2026-10-18T14:19:19-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "30138e2d272d7675390e70ba26e15836d889031c",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T1339-Texas.json",
+      "sha": "7ce0bf9ffd3e7e06980d80091246055cf76da4dd",
+      "status": "synced",
+      "confirmed_commit": "30138e2d272d7675390e70ba26e15836d889031c"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "7a751dd13b679378a1accb9aeb164a89ded17ded",
+      "head": "1bbeb0eef43287361b342317e3fd873306676d28",
+      "checked_through_utc": "2026-10-18T19:01:46Z",
+      "listing_data_changed": false,
+      "note": "Branch advanced, but listings.json records were unchanged."
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "previous_head": "0f16dcb52a0f52732e94166e43d071199429ac13",
+      "head": "d1813b8ff1401509954be06a62280c9ae14bffe8",
+      "checked_through_utc": "2026-10-18T18:45:01Z",
+      "listing_data_changed": true,
+      "note": "One California SpaceX record was replaced by another duplicate record; a broad verification-metadata refresh affected existing records."
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 2,
+    "source_added_records": 1,
+    "source_removed_records": 1,
+    "source_changed_records": 1119,
+    "semantic_source_transitions": 147,
+    "target_market_source_records_reviewed": 11,
+    "target_market_unique_roles_reviewed": 9,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "non_target_replacement",
+        "role": "SpaceX Application Software Engineer, Applied AI",
+        "location": "Hawthorne / Vandenberg, California",
+        "result": "Excluded: outside Dallas/DFW and Austin; source replaced one duplicate ID with another."
+      },
+      {
+        "type": "batch_status_refresh",
+        "roles": [
+          "Proofpoint AI Engineer II — Texas",
+          "Vistra Data Scientist — Irving (two source records)",
+          "Home Depot Associate Data Scientist - BlackLocus — Texas virtual",
+          "Applied Materials Data Scientist New College Grad — Austin",
+          "KLA Software Engineer AI/ML — Austin (two source records)",
+          "Amazon Machine Learning Engineer, OIS-Core Engine — Austin",
+          "Tesla Software Engineer, Autonomous Mobile Robotics — Austin",
+          "Revionics Machine Learning Engineer, New Grad — Austin",
+          "Nextdoor Machine Learning Engineer, New Grad 2026 — Dallas"
+        ],
+        "result": "No job-data write. The transitions were part of a broad source verification refresh and exact official requisition pages did not provide confirmable open/closed evidence during this run.",
+        "eligibility_notes": [
+          "Proofpoint and Vistra require at least one year of experience and fail the minimum-experience rule.",
+          "Nextdoor is labeled New Grad 2026 and is incompatible with a post-May-2027 start.",
+          "Tesla autonomous mobile robotics is excluded under the robotics/hardware-adjacent rule.",
+          "The remaining roles are status-only or unverified; none qualifies for notification without exact official JD, open status, start-date and work-authorization confirmation."
+        ]
+      }
+    ],
+    "note": "No brand-new Dallas/DFW or Austin role was both officially verified and eligible. Aggregator batch status changes were not treated as official closures."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_confirmation",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-18T18:40:40Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
