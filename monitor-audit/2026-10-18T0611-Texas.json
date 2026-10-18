@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-18T11:12:42Z",
+  "checked_at_america_chicago": "2026-10-18T06:12:42-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "eb31276ff3a698d7d04c61d697d6df120e5381e4",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T0514-Texas.json",
+      "sha": "a528e2abd5c4bf6376e29616594c160eacb3e1d4",
+      "status": "synced"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub Pages deployment is not a job crawler; no .github/workflows directory was present."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "05b89b2a9a1c1d14810f3bb4c784403a97998d59",
+      "head": "18abd6862627a1645278ec26821d22b3beb1989b",
+      "checked_through_utc": "2026-10-18T11:02:12Z"
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "previous_head": "01201b79cac37d31d71421a69c7004d5efab9117",
+      "head": "01201b79cac37d31d71421a69c7004d5efab9117",
+      "checked_through_utc": "2026-10-18T09:55:29Z"
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 2,
+    "new_roles": 0,
+    "status_removals_or_inactive_transitions": 2,
+    "target_market_changes_reviewed": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "source": "New-Grad-Positions",
+        "company": "Sainsbury's",
+        "title": "Trading Assistant",
+        "location": "Essex, UK",
+        "prior_source_status": "inactive",
+        "change": "record removed from source",
+        "result": "no monitored-data change",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "outside the United States",
+          "already inactive before removal"
+        ]
+      },
+      {
+        "source": "New-Grad-Positions",
+        "company": "Maven Securities",
+        "title": "Trading Analyst",
+        "location": "Chicago, IL",
+        "prior_source_status": "inactive",
+        "change": "record removed from source",
+        "result": "no monitored-data change",
+        "reasons": [
+          "outside Dallas/DFW and Austin",
+          "trading role outside target Applied AI/ML/Data Science",
+          "already inactive before removal"
+        ]
+      }
+    ],
+    "note": "The only source changes were deletion of two already-inactive, out-of-market trading records. No Dallas/DFW or Austin role changed, and the ML 2027 source head was unchanged."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending-verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-18T10:16:49Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
