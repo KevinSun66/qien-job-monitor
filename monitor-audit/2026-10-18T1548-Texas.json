@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-18T20:50:19Z",
+  "checked_at_america_chicago": "2026-10-18T15:50:19-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "c321bfd18a35a647fe62cd3b325579587e611c1c",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T1416-Texas.json",
+      "sha": "c98b2ceb74000226e65d664b45793606d1115808",
+      "status": "synced",
+      "confirmed_commit": "c321bfd18a35a647fe62cd3b325579587e611c1c"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "1bbeb0eef43287361b342317e3fd873306676d28",
+      "head": "dfe1beb8863382c5c23b75fdede0662d88549c14",
+      "checked_through_utc": "2026-10-18T20:31:39Z",
+      "listing_data_changed": false,
+      "note": "Branch advanced, but listings.json records were unchanged."
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "previous_head": "d1813b8ff1401509954be06a62280c9ae14bffe8",
+      "head": "dc5e6f1550257c8fdbba807731c86a49d76f32a2",
+      "checked_through_utc": "2026-10-18T19:40:36Z",
+      "listing_data_changed": true,
+      "note": "Full refresh: 16 added records, 1 removed record and 159 existing-record changes."
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 17,
+    "source_added_records": 16,
+    "source_removed_records": 1,
+    "source_changed_records": 159,
+    "target_market_source_records_reviewed": 1,
+    "verified_new_target_market_roles": 0,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "rediscovered_existing_role",
+        "company": "Amazon / Annapurna Labs",
+        "title": "Software Development Engineer I, Annapurna Labs, Early Career - 2027",
+        "job_id": "10558915",
+        "location": "Austin plus Seattle, New York and Cupertino",
+        "official_url": "https://amazon.jobs/en/jobs/10558915/software-development-engineer-i-annapurna-labs-early-career-2027",
+        "official_status": "Open; official page displayed Apply now.",
+        "official_jd_review": "Final graduation May 2027 or later; no minimum full-time experience. Team allocation may include ML accelerator compilers, ML runtimes/frameworks, firmware/device drivers, custom-silicon kernels and distributed training/inference infrastructure.",
+        "existing_repository_record": "Already archived in jobs.json since 2026-09-26 with jobId 10558915 and status user-declined.",
+        "result": "No data change and no duplicate notification. User previously declined this exact requisition because it is centered on custom silicon, compilers/runtimes, firmware/drivers and low-level AI infrastructure rather than the preferred Applied AI/ML/Data Science track."
+      },
+      {
+        "type": "non_target_source_additions",
+        "count": 15,
+        "result": "Excluded before notification because locations were outside Dallas/DFW and Austin or outside the target country; one Amazon SDE II record also required 3+ years."
+      },
+      {
+        "type": "non_target_source_removal",
+        "count": 1,
+        "result": "SpaceX Application Software Engineer, Applied AI in California; outside target markets."
+      }
+    ],
+    "note": "The only Austin source addition was a rediscovery of an exact job already recorded and user-declined. No new verified eligible role or official status change required job-data modification."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_confirmation",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-18T19:19:47Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan; the one Austin source addition was already known and explicitly user-declined."
+  }
+}
