@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-18T18:04:26Z",
+  "checked_at_america_chicago": "2026-10-18T13:04:26-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "151350a68b1b267219454554f1611b2c96e61886",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T1122-Texas.json",
+      "sha": "5500b41ca2043481a8a3d39eba788c9517a0e9d0",
+      "status": "synced",
+      "confirmed_commit": "151350a68b1b267219454554f1611b2c96e61886"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub Pages deployment is not a job crawler; no .github/workflows directory was present."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "655dc684abd464443cf91f1b3c7284cf6df12276",
+      "head": "5ffbe65c36e16a6d79b13d01df9c1f6cd09ea3c8",
+      "checked_through_utc": "2026-10-18T18:02:26Z",
+      "listing_data_changed": false
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "previous_head": "0f16dcb52a0f52732e94166e43d071199429ac13",
+      "head": "0f16dcb52a0f52732e94166e43d071199429ac13",
+      "checked_through_utc": "2026-10-18T15:59:15Z",
+      "listing_data_changed": false
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 0,
+    "source_added_records": 0,
+    "source_removed_records": 0,
+    "source_changed_records": 0,
+    "target_market_changes_reviewed": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [],
+    "note": "The New-Grad source branch advanced, but listings.json was byte-equivalent for record content; the ML source was unchanged. No new or changed Dallas/DFW or Austin role required official-JD review."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_confirmation",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-18T16:25:19Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
