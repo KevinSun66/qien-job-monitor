@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-19T23:16:26Z",
+  "checked_at_america_chicago": "2026-10-19T18:16:26-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "2a31d7fd6baafcadc9f2706b3752db32f0100132",
+    "jobs_json_sha": "3160afee3a88f062557a5331b3b00b29a8743a1c",
+    "jobs_json_updated_at": "2026-10-19T23:16:26Z",
+    "jobs_count": 216,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-19T1709-Texas.json",
+      "sha": "9093ec4ea03b6ccce82459be94ca65c4b2a55a69",
+      "status": "synced",
+      "confirmed_commit": "ae90765719653461abdbb0dc3c3535d0e5ce1357"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "ccf1b11c943327f4dd78fd7eb2b689cb83923b3d",
+      "head": "9c2aa19518fb8b52b698df449c69d3a0364feb46",
+      "previous_listing_data_head": "5b5c128cc267cf7cf87de007c0688c63835dab91",
+      "listing_data_head": "52c511dcb158056ee1416f738cf61fea09d9cb85",
+      "checked_through_utc": "2026-10-19T23:16:26Z",
+      "listing_data_changed": true,
+      "listing_count_before": 19227,
+      "listing_count_after": 19266,
+      "raw_added": 39,
+      "raw_removed": 0,
+      "raw_changed": 11
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "15039ee20d9350e345be27ff85e6f4c81727156a",
+      "head": "f3669f50752ec1141ec177ae2fab198a26b38286",
+      "listing_data_head": "f3669f50752ec1141ec177ae2fab198a26b38286",
+      "checked_through_utc": "2026-10-19T23:16:26Z",
+      "listing_data_changed": true,
+      "listing_count_before": 3491,
+      "listing_count_after": 3482,
+      "raw_added": 8,
+      "raw_removed": 17,
+      "raw_changed": 1192,
+      "note": "Most changed records are verifier timestamp/status refreshes rather than newly distinct requisitions."
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    },
+    {
+      "source": "GlobalFoundries official Workday",
+      "requisition": "JR-2604163",
+      "official_page_open": true,
+      "checked_at_utc": "2026-10-19T23:16:26Z"
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 1267,
+    "source_added_records": 47,
+    "source_removed_records": 17,
+    "source_changed_records": 1203,
+    "target_market_source_records_reviewed": 8,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "verified_new_direction_exclusion",
+        "company": "GlobalFoundries",
+        "role": "AI/ML Systems Engineer (2027 New College Graduate)",
+        "job_id": "JR-2604163",
+        "location": "Richardson, TX",
+        "official_status": "Open; official Workday page displays Apply and Posted Today",
+        "experience": "No minimum full-time experience; internship/co-op preferred only",
+        "compensation": "$86,000–$148,000",
+        "result": "Recorded as direction-rejected. Core duties are AI workload performance modeling, computer architecture, compiler/runtime infrastructure and semiconductor hardware-software co-design, which fail the strict software Applied AI/ML/DS direction gate. Visa and exact start-date verification were not pursued after the direction hard fail."
+      },
+      {
+        "type": "source_screened_target_additions",
+        "count": 4,
+        "roles": [
+          "Amazon — Software Development Engineer, Early Career 2027 (Austin option)",
+          "Apple — Software Engineer, IS&T (Austin)",
+          "Citi — Angular Developer / Frontend Engineer (Irving)",
+          "Applied Materials — Service Product Manager New Grad (Austin option)"
+        ],
+        "result": "Not advanced: titles and source metadata show generic SDE/frontend/product work rather than core software Applied AI/ML/GenAI/LLM/Agentic AI/Data Science."
+      },
+      {
+        "type": "out_of_scope_or_previously_excluded_status_changes",
+        "count": 3,
+        "summary": "Farmers Insurance remote Product Analyst reactivated; NXP Austin DFT hardware role reactivated; Amazon Annapurna Labs Austin hardware-oriented early-career record removed from the ML source.",
+        "result": "No official target-role status write required; existing strict direction exclusions remain."
+      }
+    ],
+    "note": "No brand-new, fully verified, open and eligible role with a clear upgrade over Ryan was found."
+  },
+  "writes": {
+    "job_data_changed": true,
+    "jobs_json_changed": true,
+    "jobs_json_commit_sha": "2a31d7fd6baafcadc9f2706b3752db32f0100132",
+    "jobs_json_readback_verified": true,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-19T22:10:07Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "The only officially verified new AI/ML-titled Texas role failed the strict software-direction gate; no qualifying high-match role."
+  }
+}
