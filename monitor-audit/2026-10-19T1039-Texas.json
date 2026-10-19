@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-19T15:39:11Z",
+  "checked_at_america_chicago": "2026-10-19T10:39:11-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "f59138032be0add1963b67bd199d1f674c28d010",
+    "jobs_json_sha": "ca5e8f241e5c790e51acabc6cc860b9fb9bfae86",
+    "jobs_json_updated_at": "2026-10-19T09:53:47Z",
+    "jobs_count": 215,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-19T0948-Texas.json",
+      "sha": "2206844409aca4e7a0d1b604ca932e6d80cfdbda",
+      "status": "synced",
+      "confirmed_commit": "f59138032be0add1963b67bd199d1f674c28d010"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_listing_data_head": "97dbef128fc7922f191f93f845aaaf33434ab9e8",
+      "head": "8ab5392949399523618ac1862fe3b3ff85e54752",
+      "listing_data_head": "8ca14a2231394a167b023cd1dbc3fffaf3c69e13",
+      "checked_through_utc": "2026-10-19T15:31:47Z",
+      "listing_data_changed": true,
+      "raw_added": 6,
+      "raw_removed": 6,
+      "raw_changed": 1
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "fd8b30424a019ef74785dacea46c9f0634352b38",
+      "head": "fd8b30424a019ef74785dacea46c9f0634352b38",
+      "listing_data_head": "fd8b30424a019ef74785dacea46c9f0634352b38",
+      "checked_through_utc": "2026-10-19T15:39:11Z",
+      "listing_data_changed": false,
+      "raw_added": 0,
+      "raw_removed": 0,
+      "raw_changed": 0
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 13,
+    "source_added_records": 6,
+    "source_removed_records": 6,
+    "source_changed_records": 1,
+    "target_market_source_records_reviewed": 1,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "target_market_removed_inactive_record",
+        "role": "University of Texas at Austin — Postdoctoral Fellow in Water Systems - ML (R_00041178-1)",
+        "location": "Austin, TX",
+        "prior_source_status": "inactive",
+        "result": "The aggregator removed an already-inactive postdoctoral role. It is not a new or eligible 0–2-year bachelor-level Applied AI/ML/DS opening; no official closure inference and no jobs.json write."
+      },
+      {
+        "type": "out_of_scope_source_changes",
+        "count": 12,
+        "summary": "Six additions and the remaining removals/change were outside Dallas/DFW and Austin, including Utah, Rhode Island and UK locations.",
+        "result": "No target-market official review or job-data write required."
+      }
+    ],
+    "note": "No brand-new, fully verified, open and eligible role with a clear upgrade over Ryan was found."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-19T14:48:40Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No target-market actionable addition or verified status change."
+  }
+}
