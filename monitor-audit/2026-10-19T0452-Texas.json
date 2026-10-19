@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-19T09:54:53Z",
+  "checked_at_america_chicago": "2026-10-19T04:54:53-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "2ea67edf724b864de3e5faa8d167e06e05dcfafe",
+    "jobs_json_sha_before_write": "a72ab221598b5668c6e80a578698ec1a6ec5be6a",
+    "jobs_json_sha_after_write": "ca5e8f241e5c790e51acabc6cc860b9fb9bfae86",
+    "jobs_json_updated_at": "2026-10-19T09:53:47Z",
+    "jobs_count": 215,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-19T0334-Texas.json",
+      "sha": "23f83414fbdb19e8227b225fb074deb425d7b272",
+      "status": "synced",
+      "confirmed_commit": "2ea67edf724b864de3e5faa8d167e06e05dcfafe"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "4752583268e92cc1a9aa8d0ceb813c4ee2558c71",
+      "head": "df5d12ad346c5c0ded2d52464927401ec579b8e9",
+      "listing_data_head": "f7fa0f362c9daf1fd36d602b768f1d42103591a3",
+      "checked_through_utc": "2026-10-19T09:31:46Z",
+      "listing_data_changed": true,
+      "raw_added": 3,
+      "raw_removed": 0,
+      "raw_changed": 6
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "bff600b1182a061a0d2d1e7bd5d98aba003a9e83",
+      "head": "bff600b1182a061a0d2d1e7bd5d98aba003a9e83",
+      "listing_data_head": "bff600b1182a061a0d2d1e7bd5d98aba003a9e83",
+      "checked_through_utc": "2026-10-19T09:53:47Z",
+      "listing_data_changed": false,
+      "reported_new_roles": 0,
+      "raw_added": 0,
+      "raw_removed": 0,
+      "raw_changed": 0
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    },
+    {
+      "source": "Fospha/Blenheim Chalcot official Greenhouse",
+      "url": "https://job-boards.greenhouse.io/blenheimchalcot/jobs/8245355",
+      "verified_at_utc": "2026-10-19T09:53:47Z"
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 9,
+    "source_added_records": 3,
+    "source_removed_records": 0,
+    "source_changed_records": 6,
+    "target_market_source_records_reviewed": 2,
+    "verified_new_discoveries": 0,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "source_status_conflict_reconfirmed",
+        "role": "Fospha — Graduate Marketing Scientist - Austin, TX (8245355)",
+        "source_change": "The aggregate record for the live Blenheim Chalcot URL changed active to inactive after the prior run.",
+        "official_result": "Direct official verification still showed Apply and the complete application form.",
+        "result": "Updated the existing internal source-status-verification record. Did not infer official closure; start date, OPT/STEM OPT, compensation and Ryan-upgrade gates remain unresolved."
+      },
+      {
+        "type": "direction_excluded_unverified_status_change",
+        "role": "T-Mobile — Associate Engineer - Software - Mobile App Development (REQ370392), Frisco / Bellevue / Overland Park",
+        "source_change": "Aggregate active to inactive.",
+        "official_result": "Official Workday page was inaccessible and public exact-role search returned no corroborating result.",
+        "result": "No job-data record added. The role is generic mobile-app software engineering rather than Applied AI/ML/Data Science and is not a candidate for user notification."
+      },
+      {
+        "type": "out_of_scope_source_changes",
+        "count": 7,
+        "result": "Cisco hardware, Tesla technician, Fospha London, Blenheim Chalcot London and three new UK graduate records were outside Dallas/DFW and Austin or outside the software Applied AI/ML/Data Science direction."
+      }
+    ],
+    "note": "No brand-new, fully verified, open and eligible role with a clear upgrade over Ryan was found."
+  },
+  "writes": {
+    "job_data_changed": true,
+    "jobs_json_changed": true,
+    "jobs_json_commit_sha": "330c4eb7224ba0b7197c70b8f9d55c1953702341",
+    "jobs_json_readback_verified": true,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_confirmation",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-19T08:39:15Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "Only a pending Fospha source-status conflict and a direction-excluded T-Mobile source transition were found."
+  }
+}
