@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-19T14:48:12Z",
+  "checked_at_america_chicago": "2026-10-19T09:48:12-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "4b6d1f890859047d7106be6be3881bc21cbde4a1",
+    "jobs_json_sha": "ca5e8f241e5c790e51acabc6cc860b9fb9bfae86",
+    "jobs_json_updated_at": "2026-10-19T09:53:47Z",
+    "jobs_count": 215,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-19T0859-Texas.json",
+      "sha": "020fa06803182805aa01d3472bc5b0187adfcfc1",
+      "status": "synced",
+      "confirmed_commit": "4b6d1f890859047d7106be6be3881bc21cbde4a1"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_listing_data_head": "336232614209b74c1e6c7114afe5f638e72f7c04",
+      "head": "f37f292df649d55df8d125fdbb59390ee993f534",
+      "listing_data_head": "97dbef128fc7922f191f93f845aaaf33434ab9e8",
+      "checked_through_utc": "2026-10-19T14:31:19Z",
+      "listing_data_changed": true,
+      "raw_added": 7,
+      "raw_removed": 0,
+      "raw_changed": 10
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "fd8b30424a019ef74785dacea46c9f0634352b38",
+      "head": "fd8b30424a019ef74785dacea46c9f0634352b38",
+      "listing_data_head": "fd8b30424a019ef74785dacea46c9f0634352b38",
+      "checked_through_utc": "2026-10-19T14:48:12Z",
+      "listing_data_changed": false,
+      "raw_added": 0,
+      "raw_removed": 0,
+      "raw_changed": 0
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 17,
+    "source_added_records": 7,
+    "source_removed_records": 0,
+    "source_changed_records": 10,
+    "target_market_source_records_reviewed": 4,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "new_target_role_excluded",
+        "role": "OU Health — Business Intelligence Developer 1-3 (R0069420)",
+        "location": "Virtual; source lists eligible states including Texas",
+        "official_status": "Official Workday result remained indexed and described the Developer I duties during this check.",
+        "decision": "exclude-low-match-opportunity-cost",
+        "reason": "Core work is reporting content and analytics assets for end-user data needs, not software Applied AI/ML/Data Science. The posting covers levels 1-3 and does not establish a Dallas/Austin placement or a clear salary, brand, or technical-growth upgrade over Ryan.",
+        "official_url": "https://oumedicine.wd5.myworkdayjobs.com/ouhealthcareers/job/virtual/business-intelligence-developer_r0069420"
+      },
+      {
+        "type": "source_inactive_official_still_listed",
+        "role": "Silicon Laboratories — Digital Design Engineer I (20658), Austin",
+        "source_change": "active to inactive",
+        "official_check": "Silicon Labs official Workday search still listed Digital Design Engineer I, Austin, during this check.",
+        "result": "No confirmed closure; no jobs.json change. Existing hardware/digital-design exclusion applies."
+      },
+      {
+        "type": "source_inactive_official_still_listed",
+        "role": "Everfox — Software Engineer I (JR500749), Richardson",
+        "source_change": "active to inactive",
+        "official_check": "Everfox official Workday role and careers search still surfaced JR500749 during this check.",
+        "result": "No confirmed closure; no jobs.json change. Generic software role is not a verified Applied AI/ML/DS upgrade."
+      },
+      {
+        "type": "source_inactive_official_still_listed",
+        "role": "Fannie Mae — Business Intelligence & AI Solutions Analyst - Single Family (JR2908), Plano",
+        "source_change": "active to inactive",
+        "official_check": "Fannie Mae official Workday search still listed JR2908 in Plano during this check.",
+        "result": "No confirmed closure; existing Lead/seniority rejection remains. No jobs.json change."
+      },
+      {
+        "type": "out_of_scope_source_changes",
+        "count": 13,
+        "result": "Other additions and inactive transitions were outside Dallas/DFW and Austin, including UK/Europe, NYC, Utah, Massachusetts, Maryland, California, Indiana, North Carolina and North Dakota."
+      }
+    ],
+    "note": "No brand-new, fully verified, open and eligible role with a clear upgrade over Ryan was found."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-19T13:59:59Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "New Texas-eligible virtual role is low-match BI; three target-market inactive source signals were not confirmed by official pages."
+  }
+}
