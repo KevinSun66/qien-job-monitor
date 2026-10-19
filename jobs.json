@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T08:35:23Z",
+  "updatedAt": "2026-10-19T09:53:47Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7670,21 +7670,21 @@
       "discoveredAt": "2026-10-19T08:35:23Z",
       "firstSeen": "2026-10-19T08:35:23Z",
       "lastChecked": "2026-10-19",
-      "lastCheckedAt": "2026-10-19T08:35:23Z",
+      "lastCheckedAt": "2026-10-19T09:53:47Z",
       "employment": "Full-time · Office-first (5 days during probation, then 4 office / 1 remote)",
       "gradYear": "Graduate entry role; May 2027 start compatibility not disclosed",
       "match": "Strong statistics/data-science match; eligibility and Ryan-upgrade value unverified",
       "ngCompatibility": "Official JD labels the role Graduate — Entry and states no minimum full-time experience. Earliest start date is collected in the application rather than fixed in the JD, so a post-May-2027 start is not confirmed.",
       "minimumQualifications": "SQL; Python or ability to learn quickly; inferential statistics; exposure to experimental design; AI fluency; clear client communication. No 1+ year minimum stated.",
-      "assessment": "The work is applied marketing data science rather than hardware: causal measurement, incrementality experiments, marketing mix modelling, model diagnostics, SQL investigation and Python analysis. It is technically relevant to Qien's Data Science and Statistics background. However, the official JD does not disclose compensation or a May-2027-compatible start, and Fospha's brand/platform and pay have not been shown to clearly exceed the Ryan Associate Data Scientist return offer. Retain as a verified open discovery with unresolved gates; do not add to table 2 or notify.",
+      "assessment": "The work is applied marketing data science rather than hardware: causal measurement, incrementality experiments, marketing mix modelling, model diagnostics, SQL investigation and Python analysis. It is technically relevant to Qien's Data Science and Statistics background. The official page remains open despite two aggregate inactive flags. However, the JD does not disclose compensation or a May-2027-compatible start, and Fospha's brand/platform and pay have not been shown to clearly exceed the Ryan Associate Data Scientist return offer. Retain as a verified open discovery with unresolved gates; do not add to table 2 or notify.",
       "visa": "Application asks whether the candidate is permanently authorized to work in the U.S. without visa/sponsorship and separately requests current visa type and expiry. This does not prove OPT/STEM OPT acceptance; visa-verification required.",
       "compensation": "Official JD does not disclose compensation; salary expectation is requested in the application.",
       "officialLocations": [
         "Austin, TX"
       ],
       "locationListComplete": true,
-      "officialStatus": "Open on 2026-10-19; official Greenhouse application 8245355 is live and the Fospha jobs board lists the Austin role.",
-      "sourceStatus": "Simplify source record 230fb8ba-26d1-49ac-a49a-8126c1503213 changed active to inactive in commit c3aceb0, while its old URL 8245353 now redirects to an error listing. Official recruiting partner Blenheim Chalcot carries the same live role as requisition 8245355; treat the aggregate transition as a URL migration/status conflict, not a verified closure.",
+      "officialStatus": "Open on 2026-10-19 at 04:53 CT; official Greenhouse application 8245355 still shows Apply and the full application form.",
+      "sourceStatus": "Simplify first marked the old Fospha URL 8245353 inactive in commit c3aceb0, then marked the live Blenheim Chalcot URL 8245355 inactive in commit f7fa0f3. Direct official verification still shows requisition 8245355 open with Apply; retain source-status-verification and do not infer closure.",
       "verificationFlags": [
         "start-date-verification",
         "visa-verification",
