@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-19T05:38:49Z",
+  "checked_at_america_chicago": "2026-10-19T00:38:49-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "bc4d30ffbc91f91607eb30c20e1e0ce580a15f53",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T2331-Texas.json",
+      "sha": "79cc8d87bbfbfb2f7d434289a10362373b27a411",
+      "status": "synced",
+      "confirmed_commit": "bc4d30ffbc91f91607eb30c20e1e0ce580a15f53"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "35701c9adf44edbe4e945ed9bea3c80eb95f59b7",
+      "head": "7c56100236d34fc8c6b192367b0ed9f1b6b9ea96",
+      "listing_data_head": "8cf642357294a2457983064640542284f14e26b0",
+      "checked_through_utc": "2026-10-19T05:31:52Z",
+      "listing_data_changed": true,
+      "raw_added": 0,
+      "raw_removed": 0,
+      "raw_changed": 2
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "d16542a0a5130bd8ba18d7f2e441cbb876f96f31",
+      "head": "bff600b1182a061a0d2d1e7bd5d98aba003a9e83",
+      "checked_through_utc": "2026-10-19T04:55:13Z",
+      "listing_data_changed": true,
+      "reported_new_roles": 0,
+      "raw_added": 0,
+      "raw_removed": 15,
+      "raw_changed": 431,
+      "note": "Most changed records only refreshed verification timestamps or normalized locations."
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 448,
+    "source_added_records": 0,
+    "source_removed_records": 15,
+    "source_changed_records": 433,
+    "target_market_source_records_reviewed": 5,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "out_of_scope_status_changes",
+        "count": 2,
+        "roles": [
+          "L3Harris Technologies — Associate Software Engineering (Chantilly, Virginia)",
+          "AbbVie — Integration Engineer (outside target market)"
+        ],
+        "source_change": "active to inactive",
+        "result": "Outside Dallas/DFW and Austin; no job-data write."
+      },
+      {
+        "type": "source_artifact_officially_contradicted",
+        "count": 2,
+        "roles": [
+          "Amazon — Software Development Engineer I, Annapurna Labs, Early Career - 2027 (10558915)",
+          "Amazon — Software Development Engineer, ROBOTICS, Early Career - 2027 (10567489)"
+        ],
+        "source_change": "10558915 removed from the aggregate; 10567489 aggregate locations narrowed to North Reading only",
+        "official_result": "Amazon official pages remained open with Apply now. The 10567489 official location list still included Austin.",
+        "result": "No verified official status/location change. Existing user-declined and direction-rejected decisions remain unchanged."
+      },
+      {
+        "type": "unverified_aggregate_closure",
+        "count": 3,
+        "roles": [
+          "Amazon — Machine Learning Engineer, OIS-Core Engine (10485323), Austin",
+          "Revionics — New Grad: Machine Learning Engineer (7172125), Austin",
+          "Nextdoor — New Grad 2026: Machine Learning Engineer (7264954), Dallas"
+        ],
+        "source_change": "Aggregate verification moved from unknown to closed after repeated search misses.",
+        "official_result": "No current official posting was found, but no official closure page or other independent confirmation was available.",
+        "result": "Retained as status-verification only; no job-data write and no notification."
+      }
+    ],
+    "note": "No brand-new, verified, open, eligible software Applied AI/ML/Data Science role exceeded the Ryan opportunity-cost threshold."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_confirmation",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-19T04:33:55Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
