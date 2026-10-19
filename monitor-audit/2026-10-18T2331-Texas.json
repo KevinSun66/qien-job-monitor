@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-19T04:33:15Z",
+  "checked_at_america_chicago": "2026-10-18T23:33:15-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "4acdd53a3b1aedc3a42b7a41fcce5a68ca502a5d",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T2229-Texas.json",
+      "sha": "e643610419feaeef43e21ccaddf63f9f1bff4404",
+      "status": "synced",
+      "confirmed_commit": "4acdd53a3b1aedc3a42b7a41fcce5a68ca502a5d"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "2070369f50f507dd2990dfffc9d4abd7aa38617b",
+      "head": "35701c9adf44edbe4e945ed9bea3c80eb95f59b7",
+      "listing_data_head": "db2122876d2bcc1daf504d76ecdfea7ac0260714",
+      "checked_through_utc": "2026-10-19T04:31:57Z",
+      "listing_data_changed": true,
+      "raw_added": 0,
+      "raw_removed": 0,
+      "raw_changed": 2
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "d16542a0a5130bd8ba18d7f2e441cbb876f96f31",
+      "head": "d16542a0a5130bd8ba18d7f2e441cbb876f96f31",
+      "checked_through_utc": "2026-10-19T01:39:11Z",
+      "listing_data_changed": false
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 2,
+    "source_added_records": 0,
+    "source_removed_records": 0,
+    "source_changed_records": 2,
+    "target_market_source_records_reviewed": 0,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "out_of_scope_status_changes",
+        "count": 2,
+        "roles": [
+          "Cisco — Failure Analysis Engineer I (Maynard, Massachusetts)",
+          "Dexmate — Robotics Data Collection Operator (Fremont, California)"
+        ],
+        "source_change": "active to inactive",
+        "result": "Both are outside Dallas/DFW and Austin; Cisco is hardware failure analysis and Dexmate is an on-site 1099 robotics-hardware operator role. No job-data write."
+      }
+    ],
+    "note": "No Dallas/DFW or Austin listing changed. No brand-new, verified, open, eligible software Applied AI/ML/Data Science role exceeded the Ryan opportunity-cost threshold."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_confirmation",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-19T03:31:54Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
