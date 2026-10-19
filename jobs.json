@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T09:53:47Z",
+  "updatedAt": "2026-10-19T23:16:26Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7698,6 +7698,54 @@
       "brandPlatform": "Smaller marketing-measurement platform; no verified upgrade over Ryan",
       "ryanUpgrade": "Unverified · salary undisclosed and platform advantage not established",
       "whyRyan": "Ryan remains the safer baseline until Fospha confirms post-May-2027 timing, OPT/STEM OPT acceptance and compensation materially above or otherwise clearly stronger than Ryan."
+    },
+    {
+      "company": "GlobalFoundries",
+      "tier": "A+ · 方向排除",
+      "area": "Richardson, TX · Full-time",
+      "market": "DFW",
+      "title": "AI/ML Systems Engineer (2027 New College Graduate)",
+      "jobId": "JR-2604163",
+      "sourceJobIds": [
+        "bbbda59f-3646-4dd0-a5af-ccd539e67f43",
+        "58713d3c7b01",
+        "12ae2fc841fd"
+      ],
+      "url": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---Texas---Richardson/AI-ML-Systems-Engineer--2027-New-College-Graduate-_JR-2604163",
+      "status": "direction-rejected",
+      "found": "2026-10-19",
+      "discoveredDate": "2026-10-19",
+      "discoveredAt": "2026-10-19T23:16:26Z",
+      "firstSeen": "2026-10-19T23:16:26Z",
+      "lastChecked": "2026-10-19",
+      "lastCheckedAt": "2026-10-19T23:16:26Z",
+      "employment": "Full-time · 2027 New College Graduate · Richardson",
+      "gradYear": "2027 New College Graduate; exact post-May-2027 start date not disclosed",
+      "match": "Strong skills overlap, but core direction fails the strict software Applied AI/ML/DS rule",
+      "ngCompatibility": "No minimum full-time experience stated; internship/co-op is preferred only. Bachelor's or Master's in EE, Computer Engineering, or related field; 3.0+ GPA.",
+      "minimumQualifications": "Bachelor's or Master's in Electrical Engineering, Computer Engineering, or related field; 3.0+ GPA; mathematical reasoning; computer architecture; Python/NumPy/pandas/matplotlib; exposure to PyTorch or TensorFlow.",
+      "assessment": "Official JD is open and genuinely early-career, with AI/ML workload characterization, quantitative performance modeling, benchmarking and Python data analysis. However, the role connects workload behavior to hardware and software design decisions and centers on roofline analysis, computer architecture, memory subsystem sizing, scheduling, kernel optimization, quantization, MLIR/IREE/TVM and compiler/runtime infrastructure. Under the user's strict rule, this is low-level AI systems and semiconductor hardware-software co-design rather than core software Applied AI, model/product ML, GenAI/LLM/Agentic AI, or Data Science. Exclude despite the AI/ML title; do not add to Table 2 or notify.",
+      "visa": "Official JD does not disclose F-1 OPT/STEM OPT, E-Verify, unrestricted authorization or sponsorship. No further visa verification required because the role-direction hard gate already fails.",
+      "compensation": "Official expected salary range $86,000–$148,000; exact offer depends on qualifications, experience and location.",
+      "officialLocations": [
+        "USA - Texas - Richardson"
+      ],
+      "locationListComplete": true,
+      "officialPostedDate": "2026-10-19 (official page displayed Posted Today when checked)",
+      "officialStatus": "Open on 2026-10-19 at 18:16 CT; official Workday page displays Apply.",
+      "source": "GlobalFoundries official Workday JD; Simplify and ML_Newgrad_2027 cross-source discovery",
+      "verificationFlags": [
+        "direction-rejected",
+        "visa-not-pursued-after-direction-fail",
+        "start-date-not-material-after-direction-fail"
+      ],
+      "finalPriority": "排除 · 底层 AI 系统性能/计算机体系结构/硬件—软件协同优化，不符合软件 Applied AI/ML/DS 核心方向",
+      "roleTrack": "AI workload performance modeling / ML compiler-runtime / computer architecture / semiconductor HW-SW co-design",
+      "seniorityGap": "None stated · new college graduate; internship/co-op preferred only",
+      "technicalGrowth": "High for low-level AI systems, but misaligned with Qien's target Applied AI/ML/DS path",
+      "brandPlatform": "Strong semiconductor systems platform",
+      "ryanUpgrade": "Salary ceiling and systems depth could exceed Ryan, but the direction mismatch is a hard fail under the user's current rules",
+      "rejectionReason": "Core responsibilities are low-level AI systems performance, computer architecture and semiconductor hardware-software co-design; title alone does not qualify it as software Applied AI/ML/DS."
     }
   ],
   "monitorAudit": [
