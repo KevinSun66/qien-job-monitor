@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-19T12:32:04Z",
+  "checked_at_america_chicago": "2026-10-19T07:32:04-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "2c8f103fb640d388b00f076105ee1744b666506a",
+    "jobs_json_sha": "ca5e8f241e5c790e51acabc6cc860b9fb9bfae86",
+    "jobs_json_updated_at": "2026-10-19T09:53:47Z",
+    "jobs_count": 215,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-19T0703-Texas.json",
+      "sha": "e92ecdcb0f1b28fb3a332b37f75debb600048bd2",
+      "status": "synced",
+      "confirmed_commit": "2c8f103fb640d388b00f076105ee1744b666506a"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_listing_data_head": "5459523d85b5d88098e15155676502c26bee884c",
+      "head": "78e72d667f2e56b2fb7a6320a1aff794c3d5bd27",
+      "listing_data_head": "6f325179dfd34ee2a06b0e40e5605b0df5d1f7b9",
+      "checked_through_utc": "2026-10-19T12:01:34Z",
+      "listing_data_changed": true,
+      "raw_added": 1,
+      "raw_removed": 0,
+      "raw_changed": 0
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "fd8b30424a019ef74785dacea46c9f0634352b38",
+      "head": "fd8b30424a019ef74785dacea46c9f0634352b38",
+      "listing_data_head": "fd8b30424a019ef74785dacea46c9f0634352b38",
+      "checked_through_utc": "2026-10-19T12:32:04Z",
+      "listing_data_changed": false,
+      "raw_added": 0,
+      "raw_removed": 0,
+      "raw_changed": 0
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 1,
+    "source_added_records": 1,
+    "source_removed_records": 0,
+    "source_changed_records": 0,
+    "target_market_source_records_reviewed": 0,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "out_of_scope_new_record",
+        "role": "Unilever — Unilever Future Leadership Programme - Data & Analytics (R-1188847)",
+        "location": "United Kingdom",
+        "result": "Outside Dallas/DFW and Austin; no official qualification review or job-data write required."
+      }
+    ],
+    "note": "No brand-new, fully verified, open and eligible role with a clear upgrade over Ryan was found."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-19T12:04:06Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "Only one out-of-scope UK record was added; no target-market or actionable role change."
+  }
+}
