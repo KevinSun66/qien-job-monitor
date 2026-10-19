@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T03:31:25Z",
+  "updatedAt": "2026-10-19T08:35:23Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7654,6 +7654,50 @@
       "ryanUpgrade": "Not actionable because hard eligibility gates fail",
       "whyRyan": "SpaceX brand and technical scope would be an upgrade, but the role is not a valid F-1 OPT/new-grad option under the official minimum qualifications and ITAR language.",
       "rejectionReason": "Official JD requires 1+ years full-stack development and ITAR protected-person/authorization eligibility."
+    },
+    {
+      "company": "Fospha",
+      "tier": "B · 待核验",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Graduate Marketing Scientist - Austin, TX",
+      "jobId": "8245355",
+      "sourceJobId": "230fb8ba-26d1-49ac-a49a-8126c1503213",
+      "url": "https://job-boards.greenhouse.io/blenheimchalcot/jobs/8245355",
+      "status": "start-date-visa-opportunity-cost-status-verification",
+      "found": "2026-10-19",
+      "discoveredDate": "2026-10-19",
+      "discoveredAt": "2026-10-19T08:35:23Z",
+      "firstSeen": "2026-10-19T08:35:23Z",
+      "lastChecked": "2026-10-19",
+      "lastCheckedAt": "2026-10-19T08:35:23Z",
+      "employment": "Full-time · Office-first (5 days during probation, then 4 office / 1 remote)",
+      "gradYear": "Graduate entry role; May 2027 start compatibility not disclosed",
+      "match": "Strong statistics/data-science match; eligibility and Ryan-upgrade value unverified",
+      "ngCompatibility": "Official JD labels the role Graduate — Entry and states no minimum full-time experience. Earliest start date is collected in the application rather than fixed in the JD, so a post-May-2027 start is not confirmed.",
+      "minimumQualifications": "SQL; Python or ability to learn quickly; inferential statistics; exposure to experimental design; AI fluency; clear client communication. No 1+ year minimum stated.",
+      "assessment": "The work is applied marketing data science rather than hardware: causal measurement, incrementality experiments, marketing mix modelling, model diagnostics, SQL investigation and Python analysis. It is technically relevant to Qien's Data Science and Statistics background. However, the official JD does not disclose compensation or a May-2027-compatible start, and Fospha's brand/platform and pay have not been shown to clearly exceed the Ryan Associate Data Scientist return offer. Retain as a verified open discovery with unresolved gates; do not add to table 2 or notify.",
+      "visa": "Application asks whether the candidate is permanently authorized to work in the U.S. without visa/sponsorship and separately requests current visa type and expiry. This does not prove OPT/STEM OPT acceptance; visa-verification required.",
+      "compensation": "Official JD does not disclose compensation; salary expectation is requested in the application.",
+      "officialLocations": [
+        "Austin, TX"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Open on 2026-10-19; official Greenhouse application 8245355 is live and the Fospha jobs board lists the Austin role.",
+      "sourceStatus": "Simplify source record 230fb8ba-26d1-49ac-a49a-8126c1503213 changed active to inactive in commit c3aceb0, while its old URL 8245353 now redirects to an error listing. Official recruiting partner Blenheim Chalcot carries the same live role as requisition 8245355; treat the aggregate transition as a URL migration/status conflict, not a verified closure.",
+      "verificationFlags": [
+        "start-date-verification",
+        "visa-verification",
+        "compensation-verification",
+        "opportunity-cost-verification",
+        "source-status-verification"
+      ],
+      "finalPriority": "Do not add to table 2 yet · official role is open, but May 2027 start, OPT/STEM OPT acceptance, compensation and clear Ryan upgrade are unverified",
+      "roleTrack": "Marketing Science / Causal Inference / MMM / Experimentation",
+      "technicalGrowth": "Good causal-inference and applied-statistics exposure; narrower than general Applied AI/ML",
+      "brandPlatform": "Smaller marketing-measurement platform; no verified upgrade over Ryan",
+      "ryanUpgrade": "Unverified · salary undisclosed and platform advantage not established",
+      "whyRyan": "Ryan remains the safer baseline until Fospha confirms post-May-2027 timing, OPT/STEM OPT acceptance and compensation materially above or otherwise clearly stronger than Ryan."
     }
   ],
   "monitorAudit": [
