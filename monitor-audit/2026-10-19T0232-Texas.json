@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-19T07:34:54Z",
+  "checked_at_america_chicago": "2026-10-19T02:34:54-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "071b531e02270c9dba9348b7d2b16c537ea005f7",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-19T0035-Texas.json",
+      "sha": "3a8b14fa59d938c52208da264214333b2526b59e",
+      "status": "synced",
+      "confirmed_commit": "071b531e02270c9dba9348b7d2b16c537ea005f7"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "7c56100236d34fc8c6b192367b0ed9f1b6b9ea96",
+      "head": "28f973a76e491451b4ca0adcaf1511160b67a22f",
+      "listing_data_head": "147cab043a6b0d6eb9b3ef8753fc288ed1e37c9c",
+      "checked_through_utc": "2026-10-19T07:31:42Z",
+      "listing_data_changed": true,
+      "raw_added": 4,
+      "raw_removed": 2,
+      "raw_changed": 5
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "bff600b1182a061a0d2d1e7bd5d98aba003a9e83",
+      "head": "bff600b1182a061a0d2d1e7bd5d98aba003a9e83",
+      "checked_through_utc": "2026-10-19T07:34:54Z",
+      "listing_data_changed": false,
+      "reported_new_roles": 0,
+      "raw_added": 0,
+      "raw_removed": 0,
+      "raw_changed": 0
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 11,
+    "source_added_records": 4,
+    "source_removed_records": 2,
+    "source_changed_records": 5,
+    "source_records_reviewed": 11,
+    "target_market_source_records_reviewed": 0,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "out_of_scope_new_records",
+        "count": 4,
+        "roles": [
+          "OSF HealthCare — Data Engineer 1 (Peoria, Illinois)",
+          "Huntington Ingalls Industries — Software Engineer 1 (Newport News, Virginia)",
+          "Conviva — AI/ML Engineer (Foster City, California; PhD requirement)",
+          "HPE — VLSI Engineer 1 (Roseville, California; hardware)"
+        ],
+        "result": "All are outside Dallas/DFW and Austin; the VLSI role is also excluded as semiconductor hardware."
+      },
+      {
+        "type": "out_of_scope_status_changes",
+        "count": 5,
+        "roles": [
+          "Goldman Sachs — Engineering New Analyst - Engineering (171570; Salt Lake City, Utah)",
+          "Goldman Sachs — New Analyst - Engineering (171569; New York City)",
+          "CACI — Software Engineer (Lisle, Illinois)",
+          "CCC Intelligent Solutions — Financial Intelligence Analyst (Chicago, Illinois)",
+          "Goldman Sachs — Engineering Apprentice (174814; London, United Kingdom)"
+        ],
+        "source_change": "active to inactive",
+        "result": "No Dallas/DFW or Austin record changed. Existing Goldman Sachs Dallas application 171568 was not modified."
+      },
+      {
+        "type": "out_of_scope_removed_records",
+        "count": 2,
+        "roles": [
+          "Sainsbury's — Trading Assistant Shift (two inactive Norwich, United Kingdom records)"
+        ],
+        "result": "Inactive source cleanup outside the United States; no job-data write."
+      }
+    ],
+    "note": "No brand-new, verified, open, eligible software Applied AI/ML/Data Science role in Dallas/DFW or Austin exceeded the Ryan opportunity-cost threshold."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_confirmation",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-19T05:39:38Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
