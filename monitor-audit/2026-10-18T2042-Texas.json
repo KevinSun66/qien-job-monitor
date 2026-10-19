@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-19T01:44:53Z",
+  "checked_at_america_chicago": "2026-10-18T20:44:53-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "5497404eaca5cba60ad931a379dd664765b47afa",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T1913-Texas.json",
+      "sha": "a1050de487be5b7b8ccffae3e9b522653b74c3fc",
+      "status": "synced",
+      "confirmed_commit": "5497404eaca5cba60ad931a379dd664765b47afa"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "24cd69f00c3b185887055e16e58001fd9c34d343",
+      "head": "f54ed08960c2bfba394f87e6d8fc303a09f276a8",
+      "checked_through_utc": "2026-10-19T01:32:08Z",
+      "listing_data_changed": true,
+      "raw_added": 0,
+      "raw_removed": 1,
+      "raw_changed": 3,
+      "note": "No Dallas/DFW or Austin record was added, removed, or materially changed."
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "previous_head": "179cfe8c3d38d349d4e5aeb20137df80801e4b33",
+      "head": "d16542a0a5130bd8ba18d7f2e441cbb876f96f31",
+      "checked_through_utc": "2026-10-19T01:39:11Z",
+      "listing_data_changed": true,
+      "raw_added": 17,
+      "raw_removed": 2,
+      "raw_changed": 1549,
+      "note": "Full refresh changed last-seen/verification metadata broadly. Target-market semantic changes were reviewed separately."
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 1572,
+    "source_added_records": 17,
+    "source_removed_records": 3,
+    "source_changed_records": 1552,
+    "target_market_semantic_records_reviewed": 5,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "known_role_rediscovered",
+        "role": "Amazon / Annapurna Labs — Software Development Engineer I, Early Career - 2027 (10558915)",
+        "location": "Austin, TX",
+        "official_status": "Open",
+        "result": "Already archived in jobs.json as user-declined on 2026-09-26. Official JD still centers on custom silicon, compilers, runtimes, firmware, drivers and hardware-software performance work. Existing user decision and hardware-infrastructure exclusion remain unchanged; no duplicate record or notification.",
+        "official_url": "https://amazon.jobs/en/jobs/10558915/software-development-engineer-i-annapurna-labs-early-career-2027"
+      },
+      {
+        "type": "known_role_location_refresh",
+        "role": "Amazon — Software Development Engineer, ROBOTICS, Early Career - 2027 (10567489)",
+        "location": "Austin added to the source location list",
+        "official_status": "Open",
+        "result": "Official JD remains broad SDE work tied to fulfillment-center robotics, material-handling equipment, computer vision and cloud services; Applied AI/ML team placement is not guaranteed. The prior robotics/hardware-adjacent direction exclusion remains unchanged; no job-data write or notification.",
+        "official_url": "https://www.amazon.jobs/en/jobs/10567489/software-development-engineer-robotics-early-career-2027"
+      },
+      {
+        "type": "known_exclusion_source_deduplication",
+        "role": "SpaceX — Application Software Engineer, Applied AI",
+        "location": "Bastrop / other Texas sites",
+        "result": "The refreshed source consolidated alternate requisition URLs. jobs.json already preserves the verified 1+ year and ITAR/F-1-incompatibility exclusion under requisition 8658737002; no duplicate record or notification."
+      },
+      {
+        "type": "ineligible_status_signal",
+        "role": "KLA — Software Engineer (AI/ML) (2639414)",
+        "location": "Austin, TX",
+        "source_status_change": "active to inactive",
+        "official_status": "Official Workday page remained publicly indexed; closure not confirmed.",
+        "result": "Not added to jobs.json because Qien is ineligible under the official minimum: Master's plus 0 years, or Bachelor's plus 2 years. This fails her Bachelor's/zero-experience gate regardless of status."
+      },
+      {
+        "type": "unconfirmed_source_verification_change",
+        "role": "Amazon — Machine Learning Engineer, OIS-Core Engine (10485323)",
+        "location": "Austin, TX",
+        "source_status_change": "closed to unknown after mass-closure suppression",
+        "result": "No official Amazon listing could be found, so this is not treated as a reopening or verified status change and no job-data write was made."
+      }
+    ],
+    "note": "No brand-new, verified, open, eligible Dallas/DFW or Austin software Applied AI/ML/Data Science role exceeded the Ryan opportunity-cost threshold."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_confirmation",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-19T00:14:52Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
