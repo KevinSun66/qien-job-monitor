@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-19T00:14:28Z",
+  "checked_at_america_chicago": "2026-10-18T19:14:28-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "b382c037dfd22645bd7e5a66418ae249e756415a",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T1858-Texas.json",
+      "sha": "1fdcb3c238027d7eea27633d986da51affde6184",
+      "status": "synced",
+      "confirmed_commit": "b382c037dfd22645bd7e5a66418ae249e756415a"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "927e2d9871813bbbf86322b89a848eec138bcd29",
+      "head": "24cd69f00c3b185887055e16e58001fd9c34d343",
+      "checked_through_utc": "2026-10-19T00:02:25Z",
+      "listing_data_changed": true,
+      "note": "Inactive-record cleanup removed 26 records; no additions or existing-record changes."
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "previous_head": "179cfe8c3d38d349d4e5aeb20137df80801e4b33",
+      "head": "179cfe8c3d38d349d4e5aeb20137df80801e4b33",
+      "checked_through_utc": "2026-10-18T21:36:52Z",
+      "listing_data_changed": false
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 26,
+    "source_added_records": 0,
+    "source_removed_records": 26,
+    "source_changed_records": 0,
+    "target_market_source_records_reviewed": 3,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "inactive_record_cleanup",
+        "role": "KBR Engineering Technician 1",
+        "location": "Houston, Texas",
+        "prior_source_status": "inactive",
+        "result": "Outside Dallas/DFW and Austin and a hardware technician role; no job-data write."
+      },
+      {
+        "type": "inactive_record_cleanup",
+        "role": "Weedmaps Marketing Systems & Lifecycle Operations Specialist 1",
+        "location": "Austin, Texas",
+        "prior_source_status": "inactive",
+        "result": "Marketing lifecycle/operations role rather than Applied AI/ML/Data Science; no job-data write."
+      },
+      {
+        "type": "inactive_record_cleanup",
+        "role": "Aurora Innovation Fleet Operations Technician 1",
+        "location": "Dallas, Texas",
+        "prior_source_status": "inactive",
+        "result": "Fleet/hardware operations technician role and not Applied AI/ML/Data Science; no job-data write."
+      }
+    ],
+    "note": "No new Dallas/DFW or Austin listing appeared. The Texas removals were already-inactive, nonmatching roles and do not warrant notification or job-data changes."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_confirmation",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-18T23:59:46Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
