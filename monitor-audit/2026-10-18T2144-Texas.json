@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-19T02:45:56Z",
+  "checked_at_america_chicago": "2026-10-18T21:45:56-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "11fe96439d93ac5f2e35c756568da3ad36c58f8c",
+    "jobs_json_sha": "727abea641df9c1ba4ca7c6a5cfff0324c153764",
+    "jobs_json_updated_at": "2026-10-13T03:31:25Z",
+    "jobs_count": 214,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-18T2042-Texas.json",
+      "sha": "f7df685a49138b88fc141d5e57fd6cd93d3f84c8",
+      "status": "synced",
+      "confirmed_commit": "11fe96439d93ac5f2e35c756568da3ad36c58f8c"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "f54ed08960c2bfba394f87e6d8fc303a09f276a8",
+      "head": "ec2398916dd89a5fd0172793f7fc71f3ff510914",
+      "checked_through_utc": "2026-10-19T02:31:58Z",
+      "listing_data_changed": true,
+      "raw_added": 1,
+      "raw_removed": 6,
+      "raw_changed": 0
+    },
+    {
+      "source": "SimplifyJobs/ML_Newgrad_2027",
+      "previous_head": "d16542a0a5130bd8ba18d7f2e441cbb876f96f31",
+      "head": "d16542a0a5130bd8ba18d7f2e441cbb876f96f31",
+      "checked_through_utc": "2026-10-19T01:39:11Z",
+      "listing_data_changed": false
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 7,
+    "source_added_records": 1,
+    "source_removed_records": 6,
+    "source_changed_records": 0,
+    "target_market_source_records_reviewed": 0,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "out_of_scope_addition",
+        "role": "Hewlett Packard Enterprise — VLSI Engineer 1",
+        "location": "Roseville, CA",
+        "result": "Outside Dallas/DFW and Austin and explicitly categorized as hardware; excluded without job-data change."
+      },
+      {
+        "type": "out_of_scope_inactive_cleanup",
+        "count": 6,
+        "result": "All removed records were already inactive and outside Dallas/DFW and Austin: Oracle Canada, NVIDIA Remote/NYC/Santa Clara/Canada, Western Digital Fremont, Salesforce California/Washington, Sainsbury's UK and American Express NYC."
+      }
+    ],
+    "note": "No Dallas/DFW or Austin listing changed. No brand-new, verified, open, eligible software Applied AI/ML/Data Science role exceeded the Ryan opportunity-cost threshold."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_confirmation",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-19T01:47:15Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No brand-new, verified, open, eligible role with a clear upgrade over Ryan."
+  }
+}
