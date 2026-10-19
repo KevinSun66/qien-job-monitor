@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-19T17:52:55Z",
+  "checked_at_america_chicago": "2026-10-19T12:52:55-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "d0e4e54297fba89f8b1c34a90c2c6840daa2ca86",
+    "jobs_json_sha": "ca5e8f241e5c790e51acabc6cc860b9fb9bfae86",
+    "jobs_json_updated_at": "2026-10-19T09:53:47Z",
+    "jobs_count": 215,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-19T1154-Texas.json",
+      "sha": "050564f87558b963dbd15b5262d87ac001b192d8",
+      "status": "synced",
+      "confirmed_commit": "d0e4e54297fba89f8b1c34a90c2c6840daa2ca86"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_listing_data_head": "ab443e2abb9dd3c9033ef02308ebeeaaaabcbc79",
+      "head": "58cd51216a5d9d13c282e7f2dc2de1225ddfbf8d",
+      "listing_data_head": "0a1556e8d5e7a18d4190031ef3e84de6f5983702",
+      "checked_through_utc": "2026-10-19T17:31:19Z",
+      "listing_data_changed": true,
+      "raw_added": 0,
+      "raw_removed": 7,
+      "raw_changed": 9
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "fd8b30424a019ef74785dacea46c9f0634352b38",
+      "head": "15039ee20d9350e345be27ff85e6f4c81727156a",
+      "listing_data_head": "15039ee20d9350e345be27ff85e6f4c81727156a",
+      "checked_through_utc": "2026-10-19T17:48:02Z",
+      "listing_data_changed": true,
+      "raw_added": 7,
+      "raw_removed": 2,
+      "raw_changed": 369
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 394,
+    "source_added_records": 7,
+    "source_removed_records": 9,
+    "source_changed_records": 378,
+    "target_market_source_records_reviewed": 10,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "duplicate_source_identity_change",
+        "role": "SpaceX — Application Software Engineer, Applied AI (8658737002)",
+        "location": "Bastrop, TX",
+        "result": "The ML source added requisition 8658737002 while removing duplicate 8658738002. jobs.json already contains and excludes official requisition 8658737002 from 2026-10-12. Official Greenhouse page remains open, requires 1+ years full-stack experience, and imposes ITAR eligibility. No new discovery and no jobs.json write."
+      },
+      {
+        "type": "target_market_source_status_change",
+        "role": "OU Health — Business Intelligence Developer 1-3 (R0069420)",
+        "location": "Texas / Oklahoma regional virtual",
+        "source_change": "active to inactive",
+        "result": "Previously reviewed low-match BI role; aggregator-only change does not establish official closure. No job-data write."
+      },
+      {
+        "type": "target_market_source_status_change",
+        "role": "Bowman Consulting Group — LiDAR Technician 1",
+        "location": "Austin, TX",
+        "source_change": "active to inactive",
+        "result": "LiDAR technician role is outside software Applied AI/ML/DS and is excluded by direction. Aggregator-only change does not establish official closure. No job-data write."
+      },
+      {
+        "type": "verification_pipeline_reclassification",
+        "count": 7,
+        "roles": [
+          "The Home Depot — Associate Data Scientist - BlackLocus",
+          "KLA — Software Engineer - AI/ML",
+          "Vistra — Data Scientist (two source records)",
+          "Applied Materials — Data Scientist New College Grad",
+          "Amazon — Machine Learning Engineer - OIS-Core Engine",
+          "Proofpoint — AI Engineer II"
+        ],
+        "result": "Upstream verification changed closed to unknown because a mass-closure safeguard was applied; this is not employer-confirmed reopening. Existing eligibility/exclusion decisions remain unchanged and no jobs.json write was made."
+      },
+      {
+        "type": "out_of_scope_source_changes",
+        "summary": "All other additions/removals/status changes were outside Dallas/DFW and Austin or were verification-timestamp-only refreshes.",
+        "result": "No target-market job-data write required."
+      }
+    ],
+    "note": "No brand-new, fully verified, open and eligible role with a clear upgrade over Ryan was found."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-19T16:54:26Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying new role or verified official status change."
+  }
+}
