@@ -1,0 +1,110 @@
+{
+  "checkedAt": "2026-10-20T18:46:58Z",
+  "checkedAtLocal": "2026-10-20T13:46:58-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science incremental monitor: DFW/Austin, post-May-2027 start, 0–2 years with no 1+ year minimum, F-1 OPT/STEM OPT, software Applied AI/ML/DS direction, Ryan opportunity-cost and deduplication rules.",
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "b1e7c0685e545e8509805e16b13bcf5e0a5ab393",
+    "jobsJsonSha": "3568727018c67e8ee19f05c27293f18b359d8253",
+    "indexHtmlSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+    "austinHtmlSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+    "latestAuditPath": "monitor-audit/2026-10-20T1229-Texas.json",
+    "latestAuditSha": "1b4aa8aedf2c2003e56d00650728a948f75525d3",
+    "workflows": "absent (404); no GitHub Pages or other workflow was treated as a job crawler"
+  },
+  "sourcesChecked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "e68cef77d59e0b4e53a1f7621b7dbe977cc61fb6",
+      "currentHead": "fb811842a0b8c928213ad23cee918cbc571991d0",
+      "delta": "5 commits; listings.json 11 additions and 11 deletions; README 12 additions and 12 deletions",
+      "result": "No newly verified DFW/Austin full-time Applied AI/ML/Data Science role. Targeted official-company search found only known or experience-ineligible roles."
+    },
+    {
+      "source": "speedyapply/2027-AI-College-Jobs",
+      "currentHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "comparisonBase": "353820b6fb997750b6740ff8f0535031001ba92f",
+      "delta": "70 application-URL additions and 102 removals in the accessible daily snapshot comparison; 5 target-location/US-remote additions and 14 removals",
+      "targetResult": "All target-location additions were internships (Amplify, GlobalFoundries, Toyota and a duplicate Visa URL), not post-graduation full-time roles. No actionable full-time candidate.",
+      "note": "The prior audit's recorded source ref 04c6108 could not be compared because GitHub returned 404; no conclusion was inferred from that inaccessible ref."
+    },
+    {
+      "source": "Apple official careers 200687919-0157",
+      "result": "Still indexed as open; no new evidence resolves separate-headcount/repost status, post-May-2027 start or OPT/STEM OPT. Existing pending record unchanged."
+    },
+    {
+      "source": "Amazon official careers",
+      "checkedJobIds": [
+        "10581850",
+        "10568760"
+      ],
+      "result": "Both are open Dallas/Austin AI/ML roles but require 3+ and 8+ years respectively; outside the experience rule and already known from prior screening."
+    },
+    {
+      "source": "Fresh targeted official-company web search",
+      "result": "No new official-open, fully verified, high-match DFW/Austin full-time role."
+    }
+  ],
+  "discoveryCounts": {
+    "sourceUrlDeltasAnalyzed": 172,
+    "targetInternshipAdditions": 5,
+    "newFullTimeOfficialRelevantSignals": 0,
+    "fullyQualifiedNewRoles": 0,
+    "pendingVerificationAdded": 0,
+    "newExclusionsAdded": 0,
+    "statusChangesApplied": 0,
+    "notifiedRoles": 0
+  },
+  "screeningResults": [
+    {
+      "candidate": "Apple 200687919-0157",
+      "decision": "unchanged pending verification; possible duplicate/repost of already-applied Apple 200677912-0157; no repeat notification"
+    },
+    {
+      "candidate": "Amazon 10581850",
+      "decision": "excluded from action; 3+ years software and 3+ years ML/GenAI minimum"
+    },
+    {
+      "candidate": "Amazon 10568760",
+      "decision": "excluded from action; 8+ years ML and 5+ years technical leadership minimum"
+    },
+    {
+      "candidate": "ML source Texas/remote additions",
+      "decision": "internship-only changes; outside this full-time post-graduation monitor"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "indexHtml": false,
+    "austinHtml": false,
+    "deletedRecords": 0,
+    "existingApplicationStatusesChanged": false,
+    "reason": "No verified new full-time role or confirmed status change. Existing Apple pending record remains unchanged."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not_attempted",
+      "reason": "No verified job-data change"
+    },
+    "audit": {
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "contentSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-20T17:30:25Z",
+    "pendingSync": []
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new role met all location, experience, post-May-2027 start, F-1 OPT/STEM OPT, software-direction, deduplication and Ryan-upgrade gates."
+  },
+  "coverageLimitations": [
+    "The Simplify listings JSON is too large for full connector content retrieval; commit-level file statistics and targeted official searches were used.",
+    "This was an incremental source scan and targeted official verification, not full pagination of every monitored employer ATS."
+  ]
+}
