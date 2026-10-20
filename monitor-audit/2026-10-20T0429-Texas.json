@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-20T09:29:51Z",
+  "checked_at_america_chicago": "2026-10-20T04:29:51-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "aff4401f254f13e13c25a9275ee8a30c775ed952",
+    "jobs_json_sha_before": "8546f77d460f1b70734f3802760bfcdf04dbc686",
+    "jobs_json_sha_after": "7e13f0b97b89283e85730bc1af35fff5e67a0d7e",
+    "jobs_json_updated_at": "2026-10-20T09:29:51Z",
+    "jobs_count": 217,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-20T0339-Texas.json",
+      "sha": "11af20e6b95281c69a1dd30f585c66ea639e2d25",
+      "status": "synced",
+      "confirmed_commit": "aff4401f254f13e13c25a9275ee8a30c775ed952"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "dd8233dec9488a5aca568c30afeddf9e7b44b56b",
+      "head": "9eec8a8ee8107ee24f6184575028ad852781ecda",
+      "previous_listing_data_head": "394e34270cb94c2a2d68ea02bc34b33f30be2f96",
+      "listing_data_head": "55d35702f0a22bff30748501ad130f7220a3394f",
+      "checked_through_utc": "2026-10-20T09:29:51Z",
+      "listing_data_changed": true,
+      "listing_count_before": 19261,
+      "listing_count_after": 19263,
+      "raw_added": 2,
+      "raw_removed": 0,
+      "raw_changed": 2,
+      "target_market_records": 0
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "4c7ea8f9817e4a77a293698895033aa589b5b650",
+      "head": "4c7ea8f9817e4a77a293698895033aa589b5b650",
+      "previous_listing_data_head": "4c7ea8f9817e4a77a293698895033aa589b5b650",
+      "listing_data_head": "4c7ea8f9817e4a77a293698895033aa589b5b650",
+      "checked_through_utc": "2026-10-20T09:29:51Z",
+      "listing_data_changed": false,
+      "raw_added": 0,
+      "raw_removed": 0,
+      "raw_changed": 0,
+      "target_market_records": 0
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    },
+    {
+      "source": "Apple Careers official",
+      "job_ids": [
+        "200677645-0157"
+      ],
+      "checked_through_utc": "2026-10-20T09:29:51Z",
+      "result": "Official live Austin JD has Submit Resume and ongoing applications. Current minimums require relevant internship experience and contain no numeric YOE floor."
+    },
+    {
+      "source": "Targeted official-careers web search",
+      "checked_through_utc": "2026-10-20T09:29:51Z",
+      "result": "No brand-new role met all location, post-May-2027 start, experience, F-1 OPT/STEM OPT, software AI/ML scope and Ryan-upgrade gates."
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 4,
+    "source_added_records": 2,
+    "source_removed_records": 0,
+    "source_changed_records": 2,
+    "target_market_source_records_reviewed": 0,
+    "verified_official_status_changes": 1,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "job_id": "200677645-0157",
+        "company": "Apple",
+        "change": "Minimum-experience gate removed in the official live JD; relevant internship experience now listed.",
+        "official_result": "Open with Submit Resume; Austin Early Career; direct ML/GenAI/inference/data-platform scope.",
+        "decision": "Reclassified seniority-rejected to ng-verification. Not Table 2 and no notification because post-May-2027 start timing and F-1 OPT/STEM OPT compatibility remain unverified."
+      }
+    ],
+    "note": "One verified qualification change was recorded, but no brand-new, fully verified, open and eligible role with a clear upgrade over Ryan was found."
+  },
+  "writes": {
+    "job_data_changed": true,
+    "jobs_json_changed": true,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": true,
+    "audit_file_created": true,
+    "github_write_status": "pending_verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-20T08:40:15Z",
+    "archive_commit_sha": "fc763bead1cbbdbb7ae99bcdc0ffb3944419fbef",
+    "jobs_commit_sha": "2a9b79f9a9484512fdb18052093e18c7203038a5",
+    "jobs_readback_verified": false,
+    "audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "Apple qualification change is promising but start timing and OPT/STEM OPT remain unverified; silent under the monitor notification gate."
+  }
+}
