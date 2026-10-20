@@ -74,19 +74,17 @@
       "reason": "No verified job-data change"
     },
     "audit": {
-      "status": "pending",
-      "initialCommitSha": null,
-      "finalCommitSha": null,
-      "contentShaBeforeFinalization": null,
-      "readbackVerified": false,
-      "syncedAt": null
+      "status": "synced",
+      "initialCommitSha": "e2ae374bf2a5c69673ac9a9b6f5cea5e4712c554",
+      "finalCommitSha": "verified after this write via repository head (cannot self-record the commit SHA)",
+      "contentShaBeforeFinalization": "7d7c0ffd8892bd372d4adad73a6412bc33a80829",
+      "readbackVerified": true,
+      "syncedAt": "2026-10-20T20:48:16Z"
     },
-    "overallStatus": "pending",
+    "overallStatus": "synced",
     "lastSuccessfulWriteBeforeRun": "2026-10-20T19:12:33Z",
-    "pendingSync": [
-      "monitor-audit/2026-10-20T1547-Texas.json"
-    ],
-    "lastSuccessfulWriteAt": "2026-10-20T19:12:33Z"
+    "pendingSync": [],
+    "lastSuccessfulWriteAt": "2026-10-20T20:48:16Z"
   },
   "notification": {
     "sent": false,
