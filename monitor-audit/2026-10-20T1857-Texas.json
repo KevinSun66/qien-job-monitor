@@ -75,19 +75,17 @@
       "readbackVerified": true
     },
     "audit": {
-      "status": "pending",
-      "initialCommitSha": null,
-      "finalCommitSha": null,
-      "contentShaBeforeFinalization": null,
-      "readbackVerified": false,
-      "syncedAt": null
+      "status": "synced",
+      "initialCommitSha": "897815f399b661514852773aa4c21c1e945c3e59",
+      "finalCommitSha": "verified after this write via repository head (cannot self-record the commit SHA)",
+      "contentShaBeforeFinalization": "bb7d3b873ffef96b75f2b6450dd3d31ce31ba260",
+      "readbackVerified": true,
+      "syncedAt": "2026-10-20T23:58:00Z"
     },
-    "overallStatus": "pending",
+    "overallStatus": "synced",
     "lastSuccessfulWriteBeforeRun": "2026-10-20T22:53:01Z",
-    "pendingSync": [
-      "monitor-audit/2026-10-20T1857-Texas.json"
-    ],
-    "lastSuccessfulWriteAt": "2026-10-20T23:57:19Z"
+    "pendingSync": [],
+    "lastSuccessfulWriteAt": "2026-10-20T23:58:00Z"
   },
   "notification": {
     "sent": false,
