@@ -1,0 +1,100 @@
+{
+  "checkedAt": "2026-10-20T23:57:19Z",
+  "checkedAtLocal": "2026-10-20T18:57:19-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science incremental monitor under the existing DFW/Austin, post-May-2027, 0–2 years/no 1+ minimum, F-1 OPT/STEM OPT, software-direction, Ryan-upgrade and deduplication rules.",
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "98cb641e283d03195fe787fb154eaf51188cdb29",
+    "jobsJsonShaBefore": "3568727018c67e8ee19f05c27293f18b359d8253",
+    "jobsJsonShaAfter": "040ecdbc236cb1ba51f947d4f4669f251c37c5d5",
+    "indexHtmlSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+    "austinHtmlSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+    "latestAuditPath": "monitor-audit/2026-10-20T1752-Texas.json",
+    "latestAuditSha": "4b153cc0104fe9f824dd2fedda84234324d71270",
+    "workflows": "absent (404); no workflow was treated as a job crawler"
+  },
+  "sourcesChecked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "d94f0fac0848e6a2c3bc1c8064d2a3202d985920",
+      "currentHead": "d47ca4853f21120de281adfd7084b1f6ab466924",
+      "delta": "4 commits; generated README comparison found 12 application-key additions and 11 removals",
+      "result": "Only one added row matched monitored geography: an old, locked RTX Software Engineer I row covering McKinney and other locations. It is general/defense software rather than Applied AI/ML/DS and did not warrant a new tracked record."
+    },
+    {
+      "source": "speedyapply/2027-AI-College-Jobs",
+      "currentHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "delta": "unchanged since prior run",
+      "result": "No source-level job change."
+    },
+    {
+      "source": "Amazon official careers Job ID 10570863",
+      "result": "Newly surfaced and verified open in Austin. Data Scientist, Reactive Transfers focuses on supply-chain analytics and ML; official Basic Qualifications require 2+ years as a data scientist, 3+ years querying/scripting, 3+ years ML/statistical modeling, plus several 1+ year requirements. Base salary is $136,000–$184,000. Recorded as experience-rejected; no user notification."
+    },
+    {
+      "source": "Fresh official-company search (Apple, Amazon, Google, IBM)",
+      "result": "Other results were known, senior, stale, or experience-ineligible; no fully qualified new role passed all gates."
+    }
+  ],
+  "discoveryCounts": {
+    "generatedRowsAdded": 12,
+    "generatedRowsRemoved": 11,
+    "geographyMatchedRows": 1,
+    "newOfficialRelevantSignals": 1,
+    "fullyQualifiedNewRoles": 0,
+    "pendingVerificationAdded": 0,
+    "newExclusionsAdded": 1,
+    "statusChangesApplied": 0,
+    "notifiedRoles": 0
+  },
+  "screeningResults": [
+    {
+      "candidate": "Amazon 10570863 Data Scientist, Reactive Transfers — Austin",
+      "decision": "experience-rejected; strong direction and clear Ryan upgrade value, but fails strict experience rule due 2+/3+ and multiple 1+ minimums"
+    },
+    {
+      "candidate": "RTX Software Engineer I — McKinney/multiple locations",
+      "decision": "no action; old locked general/defense software row, outside Applied AI/ML/DS"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "indexHtml": false,
+    "austinHtml": false,
+    "deletedRecords": 0,
+    "existingApplicationStatusesChanged": false,
+    "reason": "Added one verified official-role exclusion record for Amazon 10570863; pages load jobs.json dynamically and required no source change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitSha": "fd182a2000f73c887bd5ce090ad95502a9b2ddf0",
+      "contentSha": "040ecdbc236cb1ba51f947d4f4669f251c37c5d5",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "contentShaBeforeFinalization": null,
+      "readbackVerified": false,
+      "syncedAt": null
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-20T22:53:01Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-20T1857-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-10-20T23:57:19Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new role met all eligibility, direction, deduplication and Ryan-upgrade gates; the only new high-value direction match failed the strict experience minimum."
+  },
+  "coverageLimitations": [
+    "This run was an incremental repository scan plus targeted official-company search, not full pagination of every monitored employer ATS.",
+    "The oversized Simplify listings.json body was not exposed by the GitHub connector; row changes were derived from the generated README."
+  ]
+}
