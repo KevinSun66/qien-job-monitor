@@ -1,0 +1,103 @@
+{
+  "checkedAt": "2026-10-20T17:29:51Z",
+  "checkedAtLocal": "2026-10-20T12:29:51-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science incremental monitor: DFW/Austin, post-May-2027 start, 0–2 years with no 1+ year minimum, F-1 OPT/STEM OPT, software Applied AI/ML/DS direction, Ryan opportunity-cost and deduplication rules.",
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "c830b1b762845da3c6e701140a69bdb04b71e7f0",
+    "jobsJsonBeforeSha": "7e13f0b97b89283e85730bc1af35fff5e67a0d7e",
+    "indexHtmlSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+    "austinHtmlSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+    "workflows": "absent (404); no workflow was treated as a job crawler"
+  },
+  "sourcesChecked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "1f1f11f54abdcba143ea3b5d5e35a6f7c095aeab",
+      "currentHead": "e68cef77d59e0b4e53a1f7621b7dbe977cc61fb6",
+      "delta": "3 commits; listings file 3 additions and 3 deletions",
+      "targetRelevantChanges": 0,
+      "note": "README category/inactive counts and an Oracle apply cell changed; no DFW/Austin Applied AI/ML/Data Science target row was added or removed."
+    },
+    {
+      "source": "speedyapply/2027-AI-College-Jobs (ML_Newgrad_2027)",
+      "currentHead": "04c6108c70d04bc69ff3ab60a0981a7c4982072d",
+      "delta": "unchanged since prior run",
+      "targetRelevantChanges": 0
+    },
+    {
+      "source": "Apple official careers",
+      "url": "https://jobs.apple.com/en-us/details/200687919-0157/machine-learning-engineer-strategic-data-solutions",
+      "status": "open and indexed with Submit Resume",
+      "postedDate": "2026-10-12",
+      "checkedAt": "2026-10-20T17:29:26Z"
+    },
+    {
+      "source": "Fresh official-company web search",
+      "note": "Reviewed new Dallas/Austin AI/ML/DS signals; no fully verified actionable role beyond the Apple duplicate/repost candidate."
+    }
+  ],
+  "discoveryCounts": {
+    "sourceDeltaRowsReviewed": 6,
+    "newOfficialRelevantSignals": 1,
+    "fullyQualifiedNewRoles": 0,
+    "notifiedRoles": 0,
+    "statusChangesApplied": 0,
+    "directionRejected": 0,
+    "pendingVerificationAdded": 1
+  },
+  "screeningResults": [
+    {
+      "company": "Apple",
+      "title": "Machine Learning Engineer - Strategic Data Solutions",
+      "jobId": "200687919-0157",
+      "location": "Austin, TX",
+      "officialOpen": true,
+      "direction": "software machine learning / applied data science",
+      "experienceGate": "Official indexed minimum accepts quantitative-field education or equivalent professional experience; no standalone 1+ year minimum found.",
+      "startDateGate": "unverified; not a campus/new-grad requisition and post-May-2027 timing is not stated",
+      "visaGate": "unverified; official JD does not disclose OPT/STEM OPT or sponsorship policy",
+      "duplicateGate": "high duplicate/repost risk versus already-applied Apple 200677912-0157",
+      "ryanUpgrade": "potentially clear platform upgrade if distinct and eligible",
+      "decision": "Record internally as pending verification; do not add to Table 2, do not alter the prior application, and do not notify."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "addedJobIds": [
+      "200687919-0157"
+    ],
+    "preservedExistingApplicationStatuses": true,
+    "deletedRecords": 0,
+    "indexHtml": false,
+    "austinHtml": false,
+    "reasonPagesUnchanged": "The only new official signal remains pending for start date, visa and duplicate-requisition verification and therefore does not qualify for current recommendation tables."
+  },
+  "githubWrite": {
+    "jobsJson": {
+      "status": "succeeded",
+      "commitSha": "624962766fb1d8e98c5a0873fbbc29f1d4e2a7ea",
+      "contentSha": "3568727018c67e8ee19f05c27293f18b359d8253"
+    },
+    "audit": {
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "contentSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-20T16:27:24Z",
+    "pendingSync": []
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new role is both distinct from prior applications and fully verified for post-May-2027 start and F-1 OPT/STEM OPT eligibility. Duplicate and pending-verification findings remain silent."
+  },
+  "coverageLimitations": [
+    "Apple's JavaScript careers page exposed authoritative indexed fields but not a complete visa/start-date policy; these gates remain unresolved.",
+    "This run used incremental source deltas and targeted official-company searches rather than full pagination of every monitored employer ATS."
+  ]
+}
