@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-20T06:40:22Z",
+  "checked_at_america_chicago": "2026-10-20T01:40:22-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "f1b98ca0a42df59872be71589fece2ff64d07bdf",
+    "data_commit_sha": "db9eaa77a70cf277248a5759bf956eaecb438620",
+    "jobs_json_sha_after_write": "8546f77d460f1b70734f3802760bfcdf04dbc686",
+    "jobs_json_updated_at": "2026-10-20T06:40:22Z",
+    "jobs_count_before": 216,
+    "jobs_count_after": 217,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-20T0012-Texas.json",
+      "sha": "7a529ce711f271dfebc470c6895017bc94bd1d54",
+      "status": "synced",
+      "confirmed_commit": "f1b98ca0a42df59872be71589fece2ff64d07bdf"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "1125fe8728c13aeeebff6cb2519099fac4bfc96c",
+      "head": "c17bdbde094b1fb57bc651b2c2d5e0ce3c1fbf90",
+      "previous_listing_data_head": "1125fe8728c13aeeebff6cb2519099fac4bfc96c",
+      "listing_data_head": "07dea6ddede565553d11d7d4d683b5be7f8bf51b",
+      "checked_through_utc": "2026-10-20T06:40:22Z",
+      "listing_data_changed": true,
+      "listing_count_before": 19263,
+      "listing_count_after": 19263,
+      "raw_added": 0,
+      "raw_removed": 0,
+      "raw_changed": 9,
+      "target_market_changed": 1
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "80644451932f2ac7ca92ca0b3b8eac1921e696b8",
+      "head": "80644451932f2ac7ca92ca0b3b8eac1921e696b8",
+      "listing_data_head": "80644451932f2ac7ca92ca0b3b8eac1921e696b8",
+      "checked_through_utc": "2026-10-20T06:40:22Z",
+      "listing_data_changed": false,
+      "listing_count_before": 3503,
+      "listing_count_after": 3503,
+      "raw_added": 0,
+      "raw_removed": 0,
+      "raw_changed": 0
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    },
+    {
+      "source": "RTX official Workday JD",
+      "job_id": "01882675",
+      "official_jd_verified": true,
+      "official_status_verified_closed": false
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 9,
+    "source_added_records": 0,
+    "source_removed_records": 0,
+    "source_changed_records": 9,
+    "target_market_source_records_reviewed": 1,
+    "verified_official_status_changes": 0,
+    "verified_new_exclusion_records": 1,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "company": "RTX / Raytheon",
+        "job_id": "01882675",
+        "market": "DFW",
+        "source_change": "active true to false",
+        "official_jd_result": "Verified role, qualifications and hard exclusions. Official closure was not independently verified; status-verification retained.",
+        "exclusion_reasons": [
+          "U.S. citizenship required",
+          "DoD Secret clearance required",
+          "embedded real-time C/C++ and VxWorks",
+          "firmware/device-driver/hardware-lab direction",
+          "not Applied AI/ML/Data Science"
+        ],
+        "result": "Archived as citizenship-direction-rejected; not added to Table 2 and not notified."
+      }
+    ],
+    "note": "No brand-new, fully verified, open and eligible role with a clear upgrade over Ryan was found."
+  },
+  "writes": {
+    "job_data_changed": true,
+    "jobs_json_changed": true,
+    "jobs_json_commit_sha": "db9eaa77a70cf277248a5759bf956eaecb438620",
+    "jobs_json_readback_verified": true,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-20T05:12:56Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "Only a hard-excluded citizenship/embedded role was found; no qualifying role or verified official closure."
+  }
+}
