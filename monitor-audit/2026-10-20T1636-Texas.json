@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-10-20T21:36:52Z",
+  "checkedAtLocal": "2026-10-20T16:36:52-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science incremental monitor under the existing DFW/Austin, post-May-2027, 0–2 years/no 1+ minimum, F-1 OPT/STEM OPT, software-direction, Ryan-upgrade and deduplication rules.",
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "0f6174540109e06c5f9185e38583fb051f72653b",
+    "jobsJsonSha": "3568727018c67e8ee19f05c27293f18b359d8253",
+    "indexHtmlSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+    "austinHtmlSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+    "latestAuditPath": "monitor-audit/2026-10-20T1547-Texas.json",
+    "latestAuditSha": "ca173f78c13874c5b8eb0d4da4d331ed5758cecf",
+    "workflows": "absent (404); no workflow was treated as a job crawler"
+  },
+  "sourcesChecked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "c1ee548b687c9079fe4775a5397e01093f7ca49e",
+      "currentHead": "b125ee9a30a17ffc44024c122afc657131ef1594",
+      "delta": "3 commits; listings.json had 8 line replacements and README had one company-cell formatting replacement",
+      "result": "README job rows, job titles, locations and application links were unchanged. The sole visible README change replaced a repeated SpaceX company name with a continuation marker for the existing Brownsville, Texas Software Engineer New Grad row; no new or removed Texas AI/ML/DS role."
+    },
+    {
+      "source": "speedyapply/2027-AI-College-Jobs",
+      "currentHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "delta": "unchanged since prior run",
+      "result": "No source-level job change."
+    },
+    {
+      "source": "Fresh official-company search (Google, Apple, Amazon, IBM)",
+      "result": "No new eligible early-career Dallas/Austin role surfaced. The only relevant official result was the already-reviewed Amazon 10532637 Senior GenAI Data Scientist, which requires 4+ years of data-scientist experience plus multiple 5+ year requirements and remains experience-ineligible."
+    }
+  ],
+  "discoveryCounts": {
+    "newSourceJobChanges": 0,
+    "newOfficialRelevantSignals": 0,
+    "fullyQualifiedNewRoles": 0,
+    "pendingVerificationAdded": 0,
+    "newExclusionsAdded": 0,
+    "statusChangesApplied": 0,
+    "notifiedRoles": 0
+  },
+  "screeningResults": [
+    {
+      "candidate": "Simplify visible Texas change",
+      "decision": "no job change; formatting-only normalization of an existing SpaceX Brownsville general-SWE row, outside Dallas/Austin and Applied AI/ML/DS"
+    },
+    {
+      "candidate": "Amazon 10532637 Senior GenAI Data Scientist",
+      "decision": "known and unchanged; excluded because minimum experience materially exceeds 0–2 years"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "indexHtml": false,
+    "austinHtml": false,
+    "deletedRecords": 0,
+    "existingApplicationStatusesChanged": false,
+    "reason": "No verified new job or confirmed status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not_attempted",
+      "reason": "No verified job-data change"
+    },
+    "audit": {
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "contentShaBeforeFinalization": null,
+      "readbackVerified": false,
+      "syncedAt": null
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-20T20:48:29Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-20T1636-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-10-20T20:48:29Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new role met all eligibility, direction, deduplication and Ryan-upgrade gates."
+  },
+  "coverageLimitations": [
+    "This run was a short-interval incremental repository scan plus targeted official verification, not full pagination of every monitored employer ATS.",
+    "The GitHub connector exposed listing-file statistics but not the oversized listings.json body; the generated README was compared directly and showed no job-row change."
+  ]
+}
