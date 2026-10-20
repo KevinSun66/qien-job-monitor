@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T23:16:26Z",
+  "updatedAt": "2026-10-20T06:40:22Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7746,6 +7746,43 @@
       "brandPlatform": "Strong semiconductor systems platform",
       "ryanUpgrade": "Salary ceiling and systems depth could exceed Ryan, but the direction mismatch is a hard fail under the user's current rules",
       "rejectionReason": "Core responsibilities are low-level AI systems performance, computer architecture and semiconductor hardware-software co-design; title alone does not qualify it as software Applied AI/ML/DS."
+    },
+    {
+      "company": "RTX / Raytheon",
+      "tier": "发现/排除审计",
+      "area": "McKinney, TX",
+      "market": "DFW",
+      "title": "Software Engineer I (Onsite) (01882675)",
+      "employment": "Full-time · Onsite · occasional travel up to 20%",
+      "gradYear": "Engineer I; no explicit graduation window; official start date not disclosed",
+      "match": "Hard exclusion · citizenship and embedded/hardware direction",
+      "ngCompatibility": "Not eligible · U.S. citizenship and DoD Secret clearance required",
+      "assessment": "Official RTX JD confirms this role develops embedded real-time software for the MTS-A product line and military/commercial systems using C/C++, VxWorks, firmware, device drivers, integration/test and physical-hardware lab environments. It is outside Qien's Applied AI/ML/Data Science target and fails the F-1 OPT/STEM OPT gate because U.S. citizenship is required for the security clearance. The discovery source changed active true to false on 2026-10-20, but the official page was still indexed as open shortly beforehand; status is therefore kept for verification rather than asserted closed.",
+      "visa": "Hard exclusion: official JD explicitly requires U.S. citizenship and ability to obtain and maintain a U.S. government DoD Secret clearance.",
+      "found": "2026-10-20",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WD--2501-W-University-Dr--WING-D-BLDG/Software-Engineer-I--Onsite-_01882675",
+      "status": "citizenship-direction-rejected",
+      "finalPriority": "不投 · 美国公民/安全许可硬门槛；嵌入式/硬件方向",
+      "roleTrack": "Embedded Real-Time Software / C++ / VxWorks / Defense Systems",
+      "seniorityGap": "No numeric minimum years stated; experience with real-time C/C++ integration is required",
+      "technicalGrowth": "Outside target · embedded/real-time defense software rather than Applied AI/ML/DS",
+      "brandPlatform": "RTX/Raytheon defense platform",
+      "ryanUpgrade": "Not applicable: citizenship hard gate and direction mismatch",
+      "compensation": "Official base range $57,200–$108,800; possible benefits/incentives, not guaranteed",
+      "officePerks": "McKinney · onsite · relocation may be offered based on eligibility · up to 20% travel",
+      "jobId": "01882675",
+      "officialPostedDate": "2026-10-15",
+      "deadline": "Official JD anticipated approximately 40 days from posting, subject to change",
+      "firstSeen": "2026-10-20",
+      "lastChecked": "2026-10-20",
+      "lastCheckedAt": "2026-10-20T06:40:22Z",
+      "officialStatus": "Official Workday page was indexed with Apply and complete JD on 2026-10-18; current discovery source changed active true to false on 2026-10-20. No independent official closure text was obtained.",
+      "sourceStatus": "Simplify listing id 981edc39-404a-414f-8a63-adebe3f122e4 changed active true to false in listing commit 07dea6ddede565553d11d7d4d683b5be7f8bf51b.",
+      "source": "RTX official Workday JD; SimplifyJobs listing state used only as change signal",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "rejectionReason": "Official U.S.-citizenship/DoD Secret requirement and embedded real-time/hardware-lab scope; not F-1 OPT/STEM OPT compatible and not Applied AI/ML/DS."
     }
   ],
   "monitorAudit": [
