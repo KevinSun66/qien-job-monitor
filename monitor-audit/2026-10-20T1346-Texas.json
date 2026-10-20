@@ -89,15 +89,17 @@
       "reason": "No verified job-data change"
     },
     "audit": {
-      "status": "pending",
-      "initialCommitSha": null,
-      "finalCommitSha": null,
-      "contentSha": null,
-      "readbackVerified": false
+      "status": "synced",
+      "initialCommitSha": "6e5dc5ed16df2703b65f80d79ef60d73601c49e4",
+      "finalCommitSha": "verified after this write via repository head (cannot self-record the commit SHA)",
+      "contentShaBeforeFinalization": "b462d664f8e7da97ee719e74323851898ae04427",
+      "readbackVerified": true,
+      "syncedAt": "2026-10-20T18:47:26Z"
     },
-    "overallStatus": "pending",
+    "overallStatus": "synced",
     "lastSuccessfulWriteBeforeRun": "2026-10-20T17:30:25Z",
-    "pendingSync": []
+    "pendingSync": [],
+    "lastSuccessfulWriteAt": "2026-10-20T18:47:26Z"
   },
   "notification": {
     "sent": false,
