@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-20T08:39:46Z",
+  "checked_at_america_chicago": "2026-10-20T03:39:46-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "9ce7792ec86885ca0c8136772cbc5b58fb27609d",
+    "jobs_json_sha": "8546f77d460f1b70734f3802760bfcdf04dbc686",
+    "jobs_json_updated_at": "2026-10-20T06:40:22Z",
+    "jobs_count": 217,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-20T0244-Texas.json",
+      "sha": "aadd2872834a6967c64d3e1671aa905c754db245",
+      "status": "synced",
+      "confirmed_commit": "9ce7792ec86885ca0c8136772cbc5b58fb27609d"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "b128691f1d70151cc6f6dd81c624d519fc0c36f9",
+      "head": "dd8233dec9488a5aca568c30afeddf9e7b44b56b",
+      "previous_listing_data_head": "44f0891ff99dc54c4da9306957e310c9c5562568",
+      "listing_data_head": "394e34270cb94c2a2d68ea02bc34b33f30be2f96",
+      "checked_through_utc": "2026-10-20T08:39:46Z",
+      "listing_data_changed": true,
+      "listing_count_before": 19259,
+      "listing_count_after": 19261,
+      "raw_added": 2,
+      "raw_removed": 0,
+      "raw_changed": 5,
+      "target_market_records": 0
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "80644451932f2ac7ca92ca0b3b8eac1921e696b8",
+      "head": "4c7ea8f9817e4a77a293698895033aa589b5b650",
+      "previous_listing_data_head": "80644451932f2ac7ca92ca0b3b8eac1921e696b8",
+      "listing_data_head": "4c7ea8f9817e4a77a293698895033aa589b5b650",
+      "checked_through_utc": "2026-10-20T08:39:46Z",
+      "listing_data_changed": true,
+      "listing_count_before": 3503,
+      "listing_count_after": 3489,
+      "raw_added": 1,
+      "raw_removed": 15,
+      "raw_changed": 596,
+      "target_market_records": 19
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    },
+    {
+      "source": "Amazon Jobs official",
+      "job_ids": [
+        "10567489",
+        "10558915"
+      ],
+      "checked_through_utc": "2026-10-20T08:39:46Z",
+      "result": "Both official pages open with Apply now and Austin still listed."
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 619,
+    "source_added_records": 3,
+    "source_removed_records": 15,
+    "source_changed_records": 601,
+    "target_market_source_records_reviewed": 19,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "job_id": "10567489",
+        "source_signal": "Austin removed from one merged source record",
+        "official_result": "Amazon official page crawled today remains open and lists Austin plus Austin base pay.",
+        "decision": "No job-data mutation; retain direction-rejected."
+      },
+      {
+        "job_id": "10558915",
+        "source_signal": "Record removed from refreshed aggregation",
+        "official_result": "Amazon official page crawled today remains open and lists Austin.",
+        "decision": "No job-data mutation; retain user-declined hardware/low-level-infrastructure exclusion."
+      },
+      {
+        "type": "metadata_only_target_changes",
+        "count": 17,
+        "result": "Verification timestamps, source URL cleanup, mass-closure-suppression state, or already-known exclusion status; no verified official change."
+      }
+    ],
+    "note": "No brand-new, fully verified, open and eligible role with a clear upgrade over Ryan was found."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-20T07:45:13Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying target-market role or verified official status change; normal silent run."
+  }
+}
