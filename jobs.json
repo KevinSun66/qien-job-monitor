@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T17:29:26Z",
+  "updatedAt": "2026-10-20T23:57:19Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7835,6 +7835,43 @@
       "brandPlatform": "Very high",
       "ryanUpgrade": "Potentially clear platform upgrade, but eligibility and distinct-headcount status are unverified",
       "whyRyan": "Apple's production ML platform is a potential upgrade over Ryan, but the user has already applied to the closely matching prior requisition and this new ID is not yet verified as a distinct eligible opportunity."
+    },
+    {
+      "company": "Amazon",
+      "tier": "S",
+      "area": "Austin",
+      "market": "Austin",
+      "title": "Data Scientist, Reactive Transfers",
+      "jobId": "10570863",
+      "url": "https://amazon.jobs/en/jobs/10570863/data-scientist-reactive-transfers",
+      "status": "experience-rejected",
+      "found": "2026-10-20",
+      "discoveredDate": "2026-10-20",
+      "discoveredAt": "2026-10-20T23:57:19Z",
+      "firstSeen": "2026-10-20T23:57:19Z",
+      "lastChecked": "2026-10-20",
+      "lastCheckedAt": "2026-10-20T23:57:19Z",
+      "employment": "Full-time",
+      "gradYear": "Experienced hire; not a new-grad program",
+      "match": "Direction strong, eligibility fail",
+      "ngCompatibility": "No — minimum qualifications begin at 2+ and 3+ years, exceeding the strict 0–2/no 1+ minimum rule",
+      "minimumQualifications": "2+ years data scientist; 3+ years SQL/Python/R or similar; 3+ years ML/statistical modeling; 1+ years guiding researchers; 1+ years evaluating AI systems; 1+ years research/educational-content contribution; Master's in STEM or equivalent STEM work experience.",
+      "assessment": "职责包含大规模供应链数据分析、统计/机器学习模型和算法，技术方向与Qien较匹配，Amazon品牌和Austin基本薪资也明显高于Ryan；但官方最低经验从2年和3年起，并含多项1年以上要求，按既定规则硬性排除。",
+      "visa": "Official JD does not state OPT/STEM OPT or sponsorship; no visa conclusion needed because the experience gate independently disqualifies the role.",
+      "compensation": "Austin base salary $136,000–$184,000",
+      "officialLocations": [
+        "Austin, TX"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "open — official Amazon page shows Apply now",
+      "source": "Amazon official careers Job ID 10570863",
+      "verificationFlags": [],
+      "finalPriority": "Exclude",
+      "roleTrack": "Data Science / Applied ML",
+      "technicalGrowth": "High",
+      "brandPlatform": "Very high",
+      "ryanUpgrade": "Would be a material pay/brand/technical upgrade if eligible, but minimum experience makes Qien ineligible.",
+      "rejectionReason": "Official Basic Qualifications require 2+ years of data scientist experience, 3+ years of querying/scripting, 3+ years of ML/statistical modeling, and multiple 1+ year requirements; fails the strict no-1+-minimum rule."
     }
   ],
   "monitorAudit": [
