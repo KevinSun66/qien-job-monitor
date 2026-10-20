@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-20T03:14:34Z",
+  "checked_at_america_chicago": "2026-10-19T22:14:34-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "477efd25030897ddef263e168031f44b6237141a",
+    "jobs_json_sha": "3160afee3a88f062557a5331b3b00b29a8743a1c",
+    "jobs_json_updated_at": "2026-10-19T23:16:26Z",
+    "jobs_count": 216,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-19T2146-Texas.json",
+      "sha": "a63fa250b4b4ce262b1c83fe078a7cfca5bb9fc6",
+      "status": "synced",
+      "confirmed_commit": "477efd25030897ddef263e168031f44b6237141a"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "3af61b0396179f6d4556f3ff42719f1e8cf87cb8",
+      "head": "72cb927fd6e87b38335df1c7feb03d9bd83f7cde",
+      "previous_listing_data_head": "1bde430acb515e4c715f78aa586f5f3dd99a6786",
+      "listing_data_head": "72cb927fd6e87b38335df1c7feb03d9bd83f7cde",
+      "checked_through_utc": "2026-10-20T03:14:34Z",
+      "listing_data_changed": true,
+      "listing_count_before": 19264,
+      "listing_count_after": 19263,
+      "raw_added": 0,
+      "raw_removed": 1,
+      "raw_changed": 0,
+      "note": "The one removed record was outside Dallas/DFW and Austin."
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "80644451932f2ac7ca92ca0b3b8eac1921e696b8",
+      "head": "80644451932f2ac7ca92ca0b3b8eac1921e696b8",
+      "listing_data_head": "80644451932f2ac7ca92ca0b3b8eac1921e696b8",
+      "checked_through_utc": "2026-10-20T03:14:34Z",
+      "listing_data_changed": false,
+      "listing_count_before": 3503,
+      "listing_count_after": 3503,
+      "raw_added": 0,
+      "raw_removed": 0,
+      "raw_changed": 0
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 1,
+    "source_added_records": 0,
+    "source_removed_records": 1,
+    "source_changed_records": 0,
+    "target_market_source_records_reviewed": 0,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "out_of_market_source_cleanup",
+        "count": 1,
+        "result": "No Dallas/DFW or Austin addition, removal or status change. No official JD verification or job-data mutation required."
+      }
+    ],
+    "note": "No brand-new, fully verified, open and eligible role with a clear upgrade over Ryan was found."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-20T02:46:43Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying target-market role or verified status change; normal silent run."
+  }
+}
