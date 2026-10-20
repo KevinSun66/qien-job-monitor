@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-20T02:46:01Z",
+  "checked_at_america_chicago": "2026-10-19T21:46:01-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "22753de6ab4f2e9909086cf79099d25c3dee690f",
+    "jobs_json_sha": "3160afee3a88f062557a5331b3b00b29a8743a1c",
+    "jobs_json_updated_at": "2026-10-19T23:16:26Z",
+    "jobs_count": 216,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-19T2038-Texas.json",
+      "sha": "c4d31141dc488c8cca1e174011ac5aaee18171b7",
+      "status": "synced",
+      "confirmed_commit": "22753de6ab4f2e9909086cf79099d25c3dee690f"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "13eb3969999164daf9f86e88df2f4d905589955a",
+      "head": "3af61b0396179f6d4556f3ff42719f1e8cf87cb8",
+      "previous_listing_data_head": "6cb321c320a6f476aeb5fa644d1196365af26aef",
+      "listing_data_head": "1bde430acb515e4c715f78aa586f5f3dd99a6786",
+      "checked_through_utc": "2026-10-20T02:46:01Z",
+      "listing_data_changed": true,
+      "listing_count_before": 19261,
+      "listing_count_after": 19264,
+      "raw_added": 3,
+      "raw_removed": 0,
+      "raw_changed": 11,
+      "note": "All additions and active-state changes were outside Dallas/DFW and Austin."
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "f3669f50752ec1141ec177ae2fab198a26b38286",
+      "head": "80644451932f2ac7ca92ca0b3b8eac1921e696b8",
+      "listing_data_head": "80644451932f2ac7ca92ca0b3b8eac1921e696b8",
+      "checked_through_utc": "2026-10-20T02:46:01Z",
+      "listing_data_changed": true,
+      "listing_count_before": 3482,
+      "listing_count_after": 3503,
+      "raw_added": 23,
+      "raw_removed": 2,
+      "raw_changed": 1531,
+      "note": "Most common-record changes are verifier timestamp/status refreshes. The seven target-market closed-to-unknown transitions are explicitly tagged mass closure suppressed and are not verified reopenings."
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 1570,
+    "source_added_records": 26,
+    "source_removed_records": 2,
+    "source_changed_records": 1542,
+    "target_market_source_records_reviewed": 9,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "duplicate_target_additions",
+        "count": 2,
+        "roles": [
+          "GlobalFoundries — AI/ML Systems Engineer New Grad (JR-2604163), Richardson",
+          "Amazon — Software Development Engineer I, Annapurna Labs, Early Career 2027 (10558915), Austin option"
+        ],
+        "result": "Not new actionable roles. GlobalFoundries JR-2604163 is already archived as strict low-level AI systems/semiconductor co-design direction-rejected. The Annapurna Labs role is an already screened low-level hardware/infrastructure direction exclusion."
+      },
+      {
+        "type": "unverified_mass_closure_suppression",
+        "count": 7,
+        "roles": [
+          "Vistra — Data Scientist (two duplicate source records), Irving",
+          "Applied Materials — Data Scientist New College Grad, Austin",
+          "KLA — Software Engineer AI/ML, Austin",
+          "Optiver — Graduate Quantitative Researcher, Austin",
+          "Revionics — New Grad Machine Learning Engineer, Austin",
+          "Nextdoor — New Grad 2026 Machine Learning Engineer, Dallas"
+        ],
+        "result": "Source changed closed to unknown only because mass closure detection was suppressed. This is not an official reopening; no job status was mutated."
+      }
+    ],
+    "note": "No brand-new, fully verified, open and eligible role with a clear upgrade over Ryan was found."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-20T01:38:49Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "Only duplicate exclusions and unverified source-status artifacts were found; no qualifying role."
+  }
+}
