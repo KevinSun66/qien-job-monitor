@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-20T16:26:57Z",
+  "checked_at_america_chicago": "2026-10-20T11:26:57-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "26fcdf0a7c9a0d305d26c504a0c005978d724481",
+    "jobs_json_sha": "7e13f0b97b89283e85730bc1af35fff5e67a0d7e",
+    "jobs_json_updated_at": "2026-10-20T09:29:51Z",
+    "jobs_count": 217,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-20T1012-Texas.json",
+      "sha": "eac4b820cdb230a5eaa06e904e2161383763d7fd",
+      "status": "synced",
+      "confirmed_commit": "26fcdf0a7c9a0d305d26c504a0c005978d724481"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "4e98a6185e87d69a39379c3d9a0ea80a69438143",
+      "head": "1f1f11f54abdcba143ea3b5d5e35a6f7c095aeab",
+      "previous_listing_data_head": "dd75af4a4f2c7b7dc7e2c7713c156e9f5153cbcc",
+      "listing_data_head": "1f1f11f54abdcba143ea3b5d5e35a6f7c095aeab",
+      "checked_through_utc": "2026-10-20T16:26:57Z",
+      "listing_data_changed": true,
+      "compare_file_changes": 144,
+      "target_market_records": 0,
+      "note": "No Dallas/DFW or Austin row changed in the rendered listing."
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "7332e6952893560a73762cfd10d68221cd09174d",
+      "head": "04c6108c70d04bc69ff3ab60a0981a7c4982072d",
+      "previous_listing_data_head": "7332e6952893560a73762cfd10d68221cd09174d",
+      "listing_data_head": "04c6108c70d04bc69ff3ab60a0981a7c4982072d",
+      "checked_through_utc": "2026-10-20T16:26:57Z",
+      "listing_data_changed": true,
+      "open_roles_before": 479,
+      "open_roles_after": 495,
+      "refresh_reported_new": 20,
+      "target_market_records_reviewed": 2,
+      "note": "Texas-facing changes were aggregation/location restorations for already-known Amazon jobs 10558915 and 10567489, not new official openings."
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    },
+    {
+      "source": "Official-careers verification search",
+      "checked_through_utc": "2026-10-20T16:26:57Z",
+      "result": "No brand-new Dallas/DFW or Austin full-time entry-level Applied AI/ML/Data Science role met all requirements. Amazon 10568760 is officially open in Austin/Dallas but requires 8+ years building ML models and 5+ years leading technical teams, so it fails the experience hard filter."
+    }
+  ],
+  "findings": {
+    "source_update_batches": 2,
+    "target_market_source_records_reviewed": 2,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "type": "aggregation_reappearance_without_official_change",
+        "job_id": "10558915",
+        "company": "Amazon",
+        "title": "Software Development Engineer I, Annapurna Labs, Early Career - 2027",
+        "decision": "No mutation. The source restored the Austin row, but the official role was already verified open and is already recorded as direction-rejected for low-level AI/ML infrastructure, compiler/runtime, firmware-driver and custom-silicon work."
+      },
+      {
+        "type": "aggregation_location_expansion_without_official_change",
+        "job_id": "10567489",
+        "company": "Amazon Robotics",
+        "decision": "No mutation. The source expanded locations; the official page was already verified open with Austin and the role remains direction-rejected as robotics/fulfillment hardware-cloud infrastructure."
+      },
+      {
+        "type": "official_experience_exclusion",
+        "job_id": "10568760",
+        "company": "Amazon Web Services",
+        "title": "Delivery Consultant - AI/ML, AWS Professional Services",
+        "locations": [
+          "Austin",
+          "Dallas"
+        ],
+        "decision": "No job-data mutation. Official JD requires 8+ years building ML models and 5+ years leading technical teams, far above Qien's 0–2 year ceiling."
+      },
+      {
+        "type": "out_of_market_new_source_role",
+        "company": "NAVEX",
+        "title": "Associate AI Engineer",
+        "location": "Houston",
+        "decision": "No mutation; outside the strict Dallas/DFW and Austin markets."
+      }
+    ],
+    "note": "No brand-new, fully verified, open and eligible role with a clear upgrade over Ryan was found."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-20T15:13:20Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying target-market role and no officially verified status change; normal silent run."
+  }
+}
