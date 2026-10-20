@@ -1,0 +1,98 @@
+{
+  "checkedAt": "2026-10-20T20:47:55Z",
+  "checkedAtLocal": "2026-10-20T15:47:55-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science incremental monitor under the existing DFW/Austin, post-May-2027, 0–2 years/no 1+ minimum, F-1 OPT/STEM OPT, software-direction, Ryan-upgrade and deduplication rules.",
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "1bf7d8072ca8dea79ff555fb7018d366e006d417",
+    "jobsJsonSha": "3568727018c67e8ee19f05c27293f18b359d8253",
+    "indexHtmlSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+    "austinHtmlSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+    "latestAuditPath": "monitor-audit/2026-10-20T1412-Texas.json",
+    "latestAuditSha": "ae50792467aaa93b80ff05b90d9953c09746ac6a",
+    "workflows": "absent (404); no workflow was treated as a job crawler"
+  },
+  "sourcesChecked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "bd09bca0ca336c73ffab8716ee9219df1c4a3bdc",
+      "currentHead": "c1ee548b687c9079fe4775a5397e01093f7ca49e",
+      "delta": "4 commits; listings.json changed by one line replacement and README by three line replacements, but the full set of job-table rows is unchanged",
+      "result": "No new or removed source job row; no Texas AI/ML/DS candidate surfaced."
+    },
+    {
+      "source": "speedyapply/2027-AI-College-Jobs",
+      "currentHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "delta": "unchanged since prior run",
+      "result": "No source-level job change."
+    },
+    {
+      "source": "Apple official careers 200687919-0157 and 200677912-0157",
+      "result": "Both official pages remain indexed/live as of this run; no new evidence resolves separate-headcount/repost status, post-May-2027 timing or OPT/STEM OPT eligibility. Existing applied and pending records unchanged."
+    },
+    {
+      "source": "Fresh official-company search (Google, Apple, Amazon, IBM)",
+      "result": "No new eligible early-career Dallas/Austin role surfaced. Amazon 10532637 is a live senior GenAI/Data Science role in Austin/Dallas but requires 4+ years of data-scientist experience, 5+ years of querying/scripting and 5+ years of GenAI/ML platform experience."
+    }
+  ],
+  "discoveryCounts": {
+    "newSourceJobChanges": 0,
+    "newOfficialRelevantSignals": 1,
+    "fullyQualifiedNewRoles": 0,
+    "pendingVerificationAdded": 0,
+    "newExclusionsAdded": 0,
+    "statusChangesApplied": 0,
+    "notifiedRoles": 0
+  },
+  "screeningResults": [
+    {
+      "candidate": "Apple 200687919-0157",
+      "decision": "unchanged pending verification; possible duplicate/repost of already-applied 200677912-0157; no repeat notification"
+    },
+    {
+      "candidate": "Amazon 10532637 Senior GenAI Data Scientist",
+      "decision": "excluded; minimum experience materially exceeds 0–2 years and the role is explicitly senior"
+    },
+    {
+      "candidate": "Other fresh official-company results",
+      "decision": "no action; no verified new Dallas/Austin role passed location, experience, authorization, direction, timing and Ryan-upgrade gates"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "indexHtml": false,
+    "austinHtml": false,
+    "deletedRecords": 0,
+    "existingApplicationStatusesChanged": false,
+    "reason": "No verified new job or confirmed status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not_attempted",
+      "reason": "No verified job-data change"
+    },
+    "audit": {
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "contentShaBeforeFinalization": null,
+      "readbackVerified": false,
+      "syncedAt": null
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-20T19:12:33Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-20T1547-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-10-20T19:12:33Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new role met all eligibility, direction, deduplication and Ryan-upgrade gates."
+  },
+  "coverageLimitations": [
+    "This run was an incremental repository scan plus targeted official verification, not full pagination of every monitored employer ATS."
+  ]
+}
