@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T09:29:51Z",
+  "updatedAt": "2026-10-20T17:29:26Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7790,6 +7790,51 @@
         "status-verification"
       ],
       "rejectionReason": "Official U.S.-citizenship/DoD Secret requirement and embedded real-time/hardware-lab scope; not F-1 OPT/STEM OPT compatible and not Applied AI/ML/DS."
+    },
+    {
+      "company": "Apple",
+      "tier": "S · 待核验/去重",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Machine Learning Engineer - Strategic Data Solutions (200687919-0157)",
+      "jobId": "200687919-0157",
+      "url": "https://jobs.apple.com/en-us/details/200687919-0157/machine-learning-engineer-strategic-data-solutions",
+      "status": "start-date-visa-duplicate-requisition-verification",
+      "found": "2026-10-20",
+      "discoveredDate": "2026-10-20",
+      "discoveredAt": "2026-10-20T17:29:26Z",
+      "firstSeen": "2026-10-20T17:29:26Z",
+      "lastChecked": "2026-10-20",
+      "lastCheckedAt": "2026-10-20T17:29:26Z",
+      "employment": "Full-time · 40 hours · Austin",
+      "gradYear": "Not a campus/new-grad requisition; post-May-2027 start compatibility is not disclosed",
+      "match": "High technical match, but appears to be a new requisition/repost of Qien's already-applied Apple SDS role",
+      "ngCompatibility": "Official minimum qualifications accept education in a quantitative field such as Computer Science, Applied Mathematics or Statistics, or equivalent professional experience; no separate 1+ year minimum was found in the official indexed qualifications. The role does not confirm a post-May-2027 start.",
+      "minimumQualifications": "Education in a quantitative field such as Computer Science, Applied Mathematics or Statistics, or equivalent professional experience; practical and theoretical understanding of classification, regression, clustering and anomaly-detection algorithms.",
+      "assessment": "Apple's official careers page shows this Austin role as open, posted 2026-10-12, with Submit Resume. Its title, Strategic Data Solutions team and indexed qualification language closely match Apple requisition 200677912-0157, which Qien already applied to on 2026-10-05. Treat this as a possible repost/new requisition rather than a distinct actionable opportunity until Apple confirms separate headcount, post-May-2027 timing and OPT/STEM OPT acceptance. Preserve the prior application record; do not send a duplicate notification or add this pending record to Table 2.",
+      "visa": "Official JD does not disclose F-1 OPT/STEM OPT, E-Verify/I-983 or future sponsorship policy; visa-verification required.",
+      "compensation": "Austin requisition does not disclose a role-specific salary range in the indexed official posting.",
+      "officialLocations": [
+        "Austin, Texas, United States"
+      ],
+      "locationListComplete": true,
+      "officialPostedDate": "2026-10-12",
+      "officialStatus": "Open on 2026-10-20 at 12:29 CT; Apple official page is live and indexed with Submit Resume.",
+      "source": "Apple official careers requisition 200687919-0157",
+      "relatedAppliedJobId": "200677912-0157",
+      "duplicateRisk": "High · same title/team and closely matching qualification language as the already-applied requisition",
+      "verificationFlags": [
+        "start-date-verification",
+        "visa-verification",
+        "duplicate-requisition-verification",
+        "compensation-verification"
+      ],
+      "finalPriority": "Do not notify/apply yet · possible duplicate/repost of an already-applied role; post-May-2027 timing and OPT/STEM OPT remain unverified",
+      "roleTrack": "Machine Learning Engineering / Applied Data Science / Strategic Data Solutions",
+      "technicalGrowth": "Very high if distinct, but not yet an actionable separate opening",
+      "brandPlatform": "Very high",
+      "ryanUpgrade": "Potentially clear platform upgrade, but eligibility and distinct-headcount status are unverified",
+      "whyRyan": "Apple's production ML platform is a potential upgrade over Ryan, but the user has already applied to the closely matching prior requisition and this new ID is not yet verified as a distinct eligible opportunity."
     }
   ],
   "monitorAudit": [
