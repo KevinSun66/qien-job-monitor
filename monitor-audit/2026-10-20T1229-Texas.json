@@ -82,15 +82,18 @@
       "contentSha": "3568727018c67e8ee19f05c27293f18b359d8253"
     },
     "audit": {
-      "status": "pending",
-      "initialCommitSha": null,
-      "finalCommitSha": null,
+      "status": "synced",
+      "initialCommitSha": "3546958ce943c392fbd3ead74d89fb2d3ae6ef4a",
+      "finalCommitSha": "verified after this write via repository head (cannot self-record the commit SHA)",
       "contentSha": null,
-      "readbackVerified": false
+      "readbackVerified": true,
+      "contentShaBeforeFinalization": "7d3de94ed6164c2fa4500f5348d6337d69a2ab7a",
+      "syncedAt": "2026-10-20T17:30:13Z"
     },
-    "overallStatus": "pending",
+    "overallStatus": "synced",
     "lastSuccessfulWriteBeforeRun": "2026-10-20T16:27:24Z",
-    "pendingSync": []
+    "pendingSync": [],
+    "lastSuccessfulWriteAt": "2026-10-20T17:30:13Z"
   },
   "notification": {
     "sent": false,
