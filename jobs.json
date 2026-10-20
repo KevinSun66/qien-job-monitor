@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T06:40:22Z",
+  "updatedAt": "2026-10-20T09:29:51Z",
   "jobs": [
     {
       "company": "IBM",
@@ -4216,18 +4216,25 @@
       "discoveredAt": "2026-10-05T05:23:45.135Z",
       "postedDate": "2026-08-12",
       "url": "https://jobs.apple.com/en-us/details/200677645-0157/software-engineer-aidp-reliability-engineering-is-t-early-career-opportunities",
-      "status": "seniority-rejected",
+      "status": "ng-verification",
       "roleTrack": "AI/ML Platform / Reliability Engineering",
-      "match": "High technical fit; ineligible under Qien experience rule",
-      "ngCompatibility": "不通过：完整匹配JD最低要求2年以上Python/Java/Go编程经验，并要求2年以上Kubernetes/Docker/容器编排经验。",
-      "visa": "Not evaluated after minimum-experience disqualification.",
-      "assessment": "Apple官方搜索页确认Austin、40小时、Early Career标题及Role Number 200677645-0157；职责覆盖ML、GenAI、Inference及大数据平台。完整匹配JD显示两项最低2+ years经验，触发Qien“最低经验从1年起即排除”的硬规则，不进入表2。",
-      "rejectionReason": "Minimum qualifications require 2+ years programming and 2+ years container orchestration; exceeds Qien's allowed 0–2-from-zero rule.",
-      "finalPriority": "新发现后排除 · 经验硬门槛不符",
-      "officialStatus": "Apple official listing remains visible and accepts CV",
-      "source": "Apple official Austin search/detail page; exact-role matching JD used for complete qualifications",
-      "lastChecked": "2026-10-05",
-      "lastCheckedAt": "2026-10-05T05:23:45.135Z"
+      "match": "Very high technical and platform fit; eligibility/timing still requires confirmation",
+      "ngCompatibility": "当前官方JD为Early Career，最低资格已改为相关本科、Python/Java/Go编程能力、OS/网络/安全基础及相关实习经验；不再含此前记录的2+年最低经验。2027年5月后入职窗口未披露。",
+      "visa": "官方JD未声明签证赞助或排除F-1 OPT/STEM OPT；Apple页脚仅说明部分地点依法参与E-Verify。需确认Austin雇佣实体的初始OPT、STEM OPT/I-983及未来赞助政策。",
+      "assessment": "2026-10-20复核Apple官方实时JD：职位仍开放并可Submit Resume；Austin、40小时、Early Career，工作直接覆盖ML、GenAI、Inference和大数据平台。当前Minimum Qualifications仅要求相关本科、Python/Java/Go编程能力、OS/网络/安全基础和相关实习经验，先前的两项2+年门槛已移除，因此从seniority-rejected升级为ng-verification。仍缺2027年5月后入职和F-1 OPT/STEM OPT明确确认，暂不进入表2且不通知。",
+      "finalPriority": "高价值资格核验 · 经验门槛已清除；确认2027年5月后入职与OPT/STEM OPT后再升级",
+      "officialStatus": "Apple official JD live with Submit Resume on 2026-10-20; applications accepted on an ongoing basis",
+      "source": "Apple official Austin detail page, directly rendered and reviewed on 2026-10-20",
+      "lastChecked": "2026-10-20",
+      "lastCheckedAt": "2026-10-20T09:29:51Z",
+      "statusChangedDate": "2026-10-20",
+      "statusVerificationNote": "Official live JD no longer contains the previously recorded 2+ years programming and container-orchestration minimums; current minimums list relevant internship experience instead. Start timing and F-1 OPT/STEM OPT remain unresolved.",
+      "verificationFlags": [
+        "start-date-verification",
+        "work-authorization-verification"
+      ],
+      "archiveUrl": "job-archive/apple/200677645-0157/job-description.md",
+      "archiveLabel": "JD 归档摘要"
     },
     {
       "company": "Adobe",
