@@ -1,0 +1,90 @@
+{
+  "checkedAt": "2026-10-20T19:12:09Z",
+  "checkedAtLocal": "2026-10-20T14:12:09-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science incremental monitor under the existing DFW/Austin, post-May-2027, 0–2 years/no 1+ minimum, F-1 OPT/STEM OPT, software-direction, Ryan-upgrade and deduplication rules.",
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "03339debe35f4b51720bf0315009b2af0d2c7d52",
+    "jobsJsonSha": "3568727018c67e8ee19f05c27293f18b359d8253",
+    "indexHtmlSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+    "austinHtmlSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+    "latestAuditPath": "monitor-audit/2026-10-20T1346-Texas.json",
+    "latestAuditSha": "a8c3722165bca937170a1caaf97c922c66fd1766",
+    "workflows": "absent (404); no workflow was treated as a job crawler"
+  },
+  "sourcesChecked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "fb811842a0b8c928213ad23cee918cbc571991d0",
+      "currentHead": "bd09bca0ca336c73ffab8716ee9219df1c4a3bdc",
+      "delta": "1 commit; GitHub comparison reports no changed files",
+      "result": "No source-level job change."
+    },
+    {
+      "source": "speedyapply/2027-AI-College-Jobs",
+      "currentHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "delta": "unchanged since prior run",
+      "result": "No source-level job change."
+    },
+    {
+      "source": "Apple official careers 200687919-0157",
+      "result": "Official page remains indexed/live; no new evidence resolves separate-headcount/repost status, post-May-2027 timing or OPT/STEM OPT eligibility. Existing pending record unchanged."
+    },
+    {
+      "source": "Fresh Apple/Amazon official-company search",
+      "result": "Results were known or experience-ineligible: Amazon 10577272 requires PhD or Master's plus 6+ years; 10535430 requires 3+ years; 10581850 requires 3+ years; 10568760 requires 8+ years; 10578020 and other delivery roles require senior experience."
+    }
+  ],
+  "discoveryCounts": {
+    "newSourceJobChanges": 0,
+    "newOfficialRelevantSignals": 0,
+    "fullyQualifiedNewRoles": 0,
+    "pendingVerificationAdded": 0,
+    "newExclusionsAdded": 0,
+    "statusChangesApplied": 0,
+    "notifiedRoles": 0
+  },
+  "screeningResults": [
+    {
+      "candidate": "Apple 200687919-0157",
+      "decision": "unchanged pending verification; possible duplicate/repost of already-applied 200677912-0157; no repeat notification"
+    },
+    {
+      "candidate": "Fresh Amazon Dallas/Austin AI/ML results",
+      "decision": "no action; all newly surfaced results require at least 3 years or senior/advanced-degree experience"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "indexHtml": false,
+    "austinHtml": false,
+    "deletedRecords": 0,
+    "existingApplicationStatusesChanged": false,
+    "reason": "No verified new job or confirmed status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not_attempted",
+      "reason": "No verified job-data change"
+    },
+    "audit": {
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "contentSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-20T18:47:33Z",
+    "pendingSync": []
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new role met all eligibility, direction, deduplication and Ryan-upgrade gates."
+  },
+  "coverageLimitations": [
+    "This run was a short-interval incremental scan plus targeted official verification, not full pagination of every monitored employer ATS."
+  ]
+}
