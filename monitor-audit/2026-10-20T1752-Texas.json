@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-10-20T22:52:34Z",
+  "checkedAtLocal": "2026-10-20T17:52:34-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science incremental monitor under the existing DFW/Austin, post-May-2027, 0–2 years/no 1+ minimum, F-1 OPT/STEM OPT, software-direction, Ryan-upgrade and deduplication rules.",
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "cf1178885dbb98e60eeac008eef360cffe73c94c",
+    "jobsJsonSha": "3568727018c67e8ee19f05c27293f18b359d8253",
+    "indexHtmlSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+    "austinHtmlSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+    "latestAuditPath": "monitor-audit/2026-10-20T1636-Texas.json",
+    "latestAuditSha": "82654abde6ca56684b8b2adfddfc2afe2f74033f",
+    "workflows": "absent (404); no workflow was treated as a job crawler"
+  },
+  "sourcesChecked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "b125ee9a30a17ffc44024c122afc657131ef1594",
+      "currentHead": "d94f0fac0848e6a2c3bc1c8064d2a3202d985920",
+      "delta": "3 commits; generated README comparison found 60 application-key additions and 52 removals, largely reopened/locked/archive churn",
+      "result": "Four rows matched Texas/US-remote geography: Quora Full Stack New Grad (Remote), RTX Software Engineer I 01875410 (Richardson), Cisco Compiler Software Engineer I (Austin, locked/28 days old), and Affirm Backend Software Engineer I (Remote, locked/7 months old). None is a new Applied AI/ML/Data Science match."
+    },
+    {
+      "source": "speedyapply/2027-AI-College-Jobs",
+      "currentHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "delta": "unchanged since prior run",
+      "result": "No source-level job change."
+    },
+    {
+      "source": "Official-JD/status review of surfaced rows",
+      "result": "RTX 01875410 is the already-recorded Richardson NC3/defense Software Engineer I and remains citizenship/security-clearance plus direction-ineligible; the new URL is a private-portal variant, not a distinct eligible requisition. Cisco is compiler/core-platform work and locked; Quora and Affirm are general full-stack/backend SWE, not Qien's Applied AI/ML/DS target."
+    }
+  ],
+  "discoveryCounts": {
+    "generatedRowsAdded": 60,
+    "generatedRowsRemoved": 52,
+    "geographyMatchedRows": 4,
+    "newOfficialRelevantSignals": 0,
+    "fullyQualifiedNewRoles": 0,
+    "pendingVerificationAdded": 0,
+    "newExclusionsAdded": 0,
+    "statusChangesApplied": 0,
+    "notifiedRoles": 0
+  },
+  "screeningResults": [
+    {
+      "candidate": "RTX 01875410 Software Engineer I, Richardson",
+      "decision": "duplicate portal variant of an existing excluded record; U.S.-citizenship/clearance and non-AI direction exclusions unchanged"
+    },
+    {
+      "candidate": "Cisco Compiler Software Engineer I, Austin",
+      "decision": "no action; locked, old listing and compiler/core-platform direction rather than Applied AI/ML/DS"
+    },
+    {
+      "candidate": "Quora Full Stack New Grad and Affirm Backend Software Engineer I, Remote US",
+      "decision": "no action; general SWE roles outside the required Applied AI/ML/Data Science direction"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "indexHtml": false,
+    "austinHtml": false,
+    "deletedRecords": 0,
+    "existingApplicationStatusesChanged": false,
+    "reason": "No verified new eligible job or confirmed relevant status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not_attempted",
+      "reason": "No verified job-data change"
+    },
+    "audit": {
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "contentShaBeforeFinalization": null,
+      "readbackVerified": false,
+      "syncedAt": null
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-20T21:37:19Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-20T1752-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-10-20T21:37:19Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new role met all eligibility, direction, deduplication and Ryan-upgrade gates."
+  },
+  "coverageLimitations": [
+    "This run was an incremental repository scan plus review of every newly surfaced Texas/US-remote row, not full pagination of every monitored employer ATS.",
+    "The oversized listings.json body was not exposed by the GitHub connector; application-key and row-level changes were derived from the generated README."
+  ]
+}
