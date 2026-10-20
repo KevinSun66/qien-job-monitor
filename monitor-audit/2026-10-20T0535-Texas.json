@@ -129,12 +129,12 @@
     "application_status_changed": false,
     "archive_changed": false,
     "audit_file_created": true,
-    "github_write_status": "pending_verification",
+    "github_write_status": "synced",
     "consecutive_write_failures": 0,
     "previous_successful_write_at_utc": "2026-10-20T09:32:14Z",
-    "initial_audit_commit_sha": null,
-    "initial_audit_readback_verified": false,
-    "sync_confirmed_at_utc": null
+    "initial_audit_commit_sha": "256dbf6bc77414b32d1cdee9cd4c34ba92f067c4",
+    "initial_audit_readback_verified": true,
+    "sync_confirmed_at_utc": "2026-10-20T10:36:17Z"
   },
   "notification": {
     "sent": false,
