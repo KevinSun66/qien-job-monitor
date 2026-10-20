@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "kind": "texas_job_monitor_run",
+  "checked_at_utc": "2026-10-20T10:35:45Z",
+  "checked_at_america_chicago": "2026-10-20T05:35:45-05:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repository_state": {
+    "observed_head_before_write": "1b7592139a2f65bd0c9cea3d05d9103a1932ed2e",
+    "jobs_json_sha": "7e13f0b97b89283e85730bc1af35fff5e67a0d7e",
+    "jobs_json_updated_at": "2026-10-20T09:29:51Z",
+    "jobs_count": 217,
+    "dallas_page": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austin_page": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "latest_prior_audit": {
+      "path": "monitor-audit/2026-10-20T0429-Texas.json",
+      "sha": "a206fd66b26b098819e9075c75d38a5d30f4dee1",
+      "status": "synced",
+      "confirmed_commit": "1b7592139a2f65bd0c9cea3d05d9103a1932ed2e"
+    },
+    "workflows_directory_present": false,
+    "scheduled_crawler_workflow_found": false,
+    "note": "GitHub API returned 404 for .github/workflows. GitHub Pages deployment is not a job crawler."
+  },
+  "sources_checked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previous_head": "9eec8a8ee8107ee24f6184575028ad852781ecda",
+      "head": "108b02ebb7feb0f0c606760f6e8cb990f109b365",
+      "previous_listing_data_head": "55d35702f0a22bff30748501ad130f7220a3394f",
+      "listing_data_head": "0b303aa7989382b8a4ff6adfd1703d7cf50d9ed8",
+      "checked_through_utc": "2026-10-20T10:35:45Z",
+      "listing_data_changed": true,
+      "listing_count_before": 19263,
+      "listing_count_after": 19270,
+      "raw_added": 7,
+      "raw_removed": 0,
+      "raw_changed": 8,
+      "target_market_records": 0
+    },
+    {
+      "source": "Tar-ive/ML_Newgrad_2027",
+      "previous_head": "4c7ea8f9817e4a77a293698895033aa589b5b650",
+      "head": "d41d968ff50cb350d2c0e05ac9ff9fcc7ae06a11",
+      "previous_listing_data_head": "4c7ea8f9817e4a77a293698895033aa589b5b650",
+      "listing_data_head": "d41d968ff50cb350d2c0e05ac9ff9fcc7ae06a11",
+      "checked_through_utc": "2026-10-20T10:35:45Z",
+      "listing_data_changed": true,
+      "listing_count_before": 3489,
+      "listing_count_after": 3506,
+      "raw_added": 18,
+      "raw_removed": 1,
+      "raw_changed": 1115,
+      "target_added": 1,
+      "target_removed": 0,
+      "target_changed": 38,
+      "target_meaningful_signals": 9
+    },
+    {
+      "source": "KevinSun66/qien-job-monitor",
+      "files": [
+        "jobs.json",
+        "index.html",
+        "austin.html",
+        "monitor-audit/",
+        ".github/workflows"
+      ]
+    },
+    {
+      "source": "Official-careers verification search",
+      "checked_through_utc": "2026-10-20T10:35:45Z",
+      "result": "No official evidence established a brand-new eligible role or a confirmed status change. Several direct ATS pages were not readable in this run; aggregation-only closure signals were not promoted to confirmed closures."
+    }
+  ],
+  "findings": {
+    "raw_source_changes": 1149,
+    "source_added_records": 25,
+    "source_removed_records": 1,
+    "source_changed_records": 1123,
+    "target_market_source_records_reviewed": 39,
+    "verified_official_status_changes": 0,
+    "verified_actionable_high_match_roles": 0,
+    "notified_roles": 0,
+    "details": [
+      {
+        "job_id": "10558915",
+        "company": "Amazon",
+        "source_signal": "Annapurna Labs Early Career 2027 record reappeared in the refreshed aggregation with Austin.",
+        "decision": "No mutation; already tracked and user-declined because the actual role is hardware/low-level AI infrastructure."
+      },
+      {
+        "job_id": "10567489",
+        "company": "Amazon",
+        "source_signal": "Robotics Early Career 2027 aggregation expanded locations to include Austin.",
+        "decision": "No mutation; already tracked and direction-rejected after official JD review."
+      },
+      {
+        "type": "aggregation_closed_signals",
+        "roles": [
+          "Vistra Data Scientist",
+          "Applied Materials Data Scientist New College Grad",
+          "KLA Software Engineer - AI/ML",
+          "Amazon MLE OIS-Core Engine",
+          "Tesla Autonomous Mobile Robotics SWE",
+          "Revionics New Grad MLE",
+          "Nextdoor New Grad 2026 MLE"
+        ],
+        "decision": "No mutation. Aggregation changed unknown to closed, but no readable official evidence confirmed closure; preserve existing decisions/status-verification."
+      },
+      {
+        "type": "metadata_only_target_changes",
+        "count": 30,
+        "result": "Verification timestamps, date normalization, source/URL refresh, or previously known status; no verified official change."
+      }
+    ],
+    "note": "No brand-new, fully verified, open and eligible role with a clear upgrade over Ryan was found."
+  },
+  "writes": {
+    "job_data_changed": false,
+    "jobs_json_changed": false,
+    "dallas_page_changed": false,
+    "austin_page_changed": false,
+    "application_status_changed": false,
+    "archive_changed": false,
+    "audit_file_created": true,
+    "github_write_status": "pending_verification",
+    "consecutive_write_failures": 0,
+    "previous_successful_write_at_utc": "2026-10-20T09:32:14Z",
+    "initial_audit_commit_sha": null,
+    "initial_audit_readback_verified": false,
+    "sync_confirmed_at_utc": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying target-market role and no officially verified status change; normal silent run."
+  }
+}
