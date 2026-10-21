@@ -1,0 +1,122 @@
+{
+  "checkedAt": "2026-10-21T22:21:12Z",
+  "checkedAtLocal": "2026-10-21T17:21:12-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/DFW",
+      "Austin"
+    ],
+    "startDate": "after 2027-05",
+    "experience": "0-2 years; reject minimum 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizenship/green-card-only and unrestricted-now-and-future requirements",
+    "excludedDomains": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "baseline": "Ryan Associate Data Scientist return offer (~$83k base/~$90k first year); require clear improvement"
+  },
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "b2bded00c9056ee9eaf129cb5dd0b2de0325b2a8",
+    "jobsJson": {
+      "sha": "040ecdbc236cb1ba51f947d4f4669f251c37c5d5",
+      "updatedAt": "2026-10-20T23:57:19Z",
+      "changed": false
+    },
+    "dallasPage": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "changed": false
+    },
+    "austinPage": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "changed": false
+    },
+    "latestAuditBeforeRun": "monitor-audit/2026-10-21T1626-Texas.json",
+    "workflows": {
+      "exists": false,
+      "result": "404 Not Found",
+      "pagesWorkflowMisclassified": false
+    }
+  },
+  "sourcesChecked": [
+    {
+      "name": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "0a1562df7f19e34531837fb42b03581b759254ed",
+      "currentHead": "ac93d89e7d98fdc98e5a4fd660866c8d8e1cc8f2",
+      "commitsSincePrevious": 4,
+      "filesChanged": [
+        ".github/scripts/listings.json",
+        "README.md"
+      ],
+      "normalizedReview": {
+        "previousListingsBlobSha": "37127b15884e7b77304524bce3974253a2517f46",
+        "currentListingsBlobSha": "3ff638688322d348ac82fc5c9d571fb29ff73f66",
+        "previousReadmeBlobSha": "329685c0956404e6f9a4f3f311d0703817d035f1",
+        "currentReadmeBlobSha": "eb2338ab36cecf9626dd0178f01566491c6fae88",
+        "activeToInactive": 21,
+        "substantiveAddedRows": 0,
+        "texasMarketChanges": 0,
+        "notes": [
+          "All 21 listing deltas were active-to-inactive transitions outside Dallas/DFW and Austin. No monitored-market row was added, removed, or status-changed."
+        ]
+      }
+    },
+    {
+      "name": "speedyapply/2027-AI-College-Jobs",
+      "previousHead": "f19d665014dd2e7015879c7c73756aafeb707094",
+      "currentHead": "f19d665014dd2e7015879c7c73756aafeb707094",
+      "commitsSincePrevious": 0
+    }
+  ],
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "substantiveListingsAdded": 0,
+    "substantiveListingsRemoved": 21,
+    "candidatesPassingTexasPrefilter": 0,
+    "candidatesRequiringOfficialJdReview": 0,
+    "qualifiedNewJobs": 0,
+    "verifiedStatusChanges": 0
+  },
+  "screeningResults": {
+    "qualified": [],
+    "excluded": [],
+    "notes": [
+      "The 21 upstream active-to-inactive transitions were all outside Dallas/DFW and Austin.",
+      "No candidate crossed the monitored-market prefilter, so no official JD review was required."
+    ]
+  },
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "applicationStatusesPreserved": true,
+    "oldRecordsDeleted": false
+  },
+  "githubWrite": {
+    "jobData": "not attempted (no verified job-data change)",
+    "audit": {
+      "path": "monitor-audit/2026-10-21T1721-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-21T21:27:13Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-21T1721-Texas.json"
+    ]
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualified new job or verified monitored-market status change; normal no-result run."
+  },
+  "coverageLimitations": [
+    "Source deltas were checked from the prior stored heads. The public monitor repository has no .github/workflows directory, so no repository-hosted scraper workflow was evaluated."
+  ]
+}
