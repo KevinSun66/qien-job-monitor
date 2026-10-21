@@ -1,0 +1,178 @@
+{
+  "checkedAt": "2026-10-21T23:19:47Z",
+  "checkedAtLocal": "2026-10-21T18:19:47-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/DFW",
+      "Austin"
+    ],
+    "startDate": "after 2027-05",
+    "experience": "0-2 years; reject minimum 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizenship/green-card-only and unrestricted-now-and-future requirements",
+    "excludedDomains": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "baseline": "Ryan Associate Data Scientist return offer (~$83k base/~$90k first year); require clear improvement"
+  },
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "6a35bebfbf115b19a44661418048d54ab912fb0b",
+    "jobsJson": {
+      "shaBefore": "040ecdbc236cb1ba51f947d4f4669f251c37c5d5",
+      "shaAfter": "f733341217d4ab04d79391b0f010a778d140aec5",
+      "updatedAt": "2026-10-21T23:21:43Z",
+      "changed": true,
+      "writeCommitSha": "7205a3beef7b67535221afd7d76607412bb1c116",
+      "readbackVerified": true
+    },
+    "dallasPage": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "changed": false
+    },
+    "austinPage": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "changed": false
+    },
+    "latestAuditBeforeRun": "monitor-audit/2026-10-21T1721-Texas.json",
+    "workflows": {
+      "exists": false,
+      "result": "404 Not Found",
+      "pagesWorkflowMisclassified": false
+    }
+  },
+  "sourcesChecked": [
+    {
+      "name": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "ac93d89e7d98fdc98e5a4fd660866c8d8e1cc8f2",
+      "currentHead": "5786695022201ecf5274364eb6bbd58eaf6b5784",
+      "commitsSincePrevious": 4,
+      "filesChanged": [
+        ".github/scripts/listings.json",
+        "README.md"
+      ],
+      "previousListingsBlobSha": "3ff638688322d348ac82fc5c9d571fb29ff73f66",
+      "currentListingsBlobSha": "30e6646695839b1c95ee8f189dc6e81acce03dd1",
+      "previousReadmeBlobSha": "eb2338ab36cecf9626dd0178f01566491c6fae88",
+      "currentReadmeBlobSha": "4696b9bca22023b51ecc21ca85afcaf2bd167e9d",
+      "texasCandidatesFound": 5
+    },
+    {
+      "name": "speedyapply/2027-AI-College-Jobs",
+      "previousHead": "f19d665014dd2e7015879c7c73756aafeb707094",
+      "currentHead": "f19d665014dd2e7015879c7c73756aafeb707094",
+      "commitsSincePrevious": 0
+    }
+  ],
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "texasCandidatesFound": 5,
+    "candidatesPassingTexasPrefilter": 5,
+    "candidatesRequiringOfficialJdReview": 2,
+    "qualifiedNewJobs": 0,
+    "pendingVerificationNewJobs": 1,
+    "verifiedExcludedNewJobs": 1,
+    "hardDirectionExcludedWithoutFullJdReview": 3,
+    "verifiedStatusChanges": 0
+  },
+  "screeningResults": {
+    "qualified": [],
+    "pendingVerification": [
+      {
+        "company": "GlobalFoundries",
+        "title": "AI Software Engineer (2027 New College Graduate)",
+        "jobId": "JR-2604055",
+        "location": "Richardson, TX / Santa Clara, CA",
+        "officialStatus": "Open; official Workday page displayed Apply and Posted Today",
+        "officialQualifications": "Bachelor's/Master's/PhD in CS, Computer Engineering, Data Science or related field; 3.0+ GPA; no minimum full-time experience; internship/co-op preferred only",
+        "responsibilities": "Production deployment and scaling of LLM, computer-vision and predictive models; AI inference optimization; maintainable APIs/software components",
+        "compensation": "$72,000–$141,700 official expected salary range",
+        "reason": "Strong potential Ryan upgrade, but exact post-May-2027 start month and F-1 OPT/STEM OPT compatibility remain unverified.",
+        "verificationFlags": [
+          "start-date-verification",
+          "visa-verification"
+        ],
+        "notificationSent": false
+      }
+    ],
+    "excluded": [
+      {
+        "company": "Vizient",
+        "title": "Associate Software Engineer",
+        "jobId": "35366R",
+        "location": "Irving, TX",
+        "reason": "Official JD is generic enterprise application/backend/API engineering; AI is limited to coding-assistant usage. Official $59,600–$101,200 range and direction are not a clear Ryan upgrade.",
+        "status": "direction-opportunity-cost-rejected"
+      },
+      {
+        "company": "Avride",
+        "title": "Electronics Technician",
+        "jobId": "94c936b6-8857-4a9e-9b8a-ad39f735a15f",
+        "location": "Austin, TX",
+        "reason": "Hardware/electronics role; hard direction exclusion."
+      },
+      {
+        "company": "Apple",
+        "title": "Software Engineer - SoC Level Validation Engineer",
+        "jobId": "e5234582-3d6d-4fef-b252-f20d885c21f4",
+        "location": "Austin, TX + other locations",
+        "reason": "SoC-level validation/hardware role; hard direction exclusion."
+      },
+      {
+        "company": "Texas Instruments",
+        "title": "Validation Engineer",
+        "jobId": "fa9bca45-6096-477b-8e43-e57f827d1ca9",
+        "location": "Dallas, TX",
+        "reason": "Hardware validation role and source indicates Master's degree; hard direction/degree exclusion."
+      }
+    ],
+    "notes": [
+      "Only the two software candidates warranted full official JD review after the strict domain prefilter.",
+      "The three obvious hardware/electronics/SoC-validation entries were not promoted to job data."
+    ]
+  },
+  "dataChanges": {
+    "jobsJson": true,
+    "recordsAdded": [
+      "JR-2604055",
+      "35366R"
+    ],
+    "dallasPage": false,
+    "austinPage": false,
+    "applicationStatusesPreserved": true,
+    "oldRecordsDeleted": false
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitSha": "7205a3beef7b67535221afd7d76607412bb1c116",
+      "contentSha": "f733341217d4ab04d79391b0f010a778d140aec5",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-21T1819-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-21T22:22:03Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-21T1819-Texas.json"
+    ]
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No fully verified qualified role: GlobalFoundries still requires start-date and OPT/STEM OPT confirmation; all other candidates were excluded."
+  },
+  "coverageLimitations": [
+    "The public monitor repository has no .github/workflows directory.",
+    "GlobalFoundries did not publish role-specific work-authorization language or an exact start month in the official JD."
+  ]
+}
