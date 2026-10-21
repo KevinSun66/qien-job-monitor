@@ -1,0 +1,157 @@
+{
+  "checkedAt": "2026-10-21T17:50:15Z",
+  "checkedAtLocal": "2026-10-21T12:50:15-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/DFW",
+      "Austin"
+    ],
+    "startDate": "after 2027-05",
+    "experience": "0-2 years; reject minimum 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizenship/green-card-only and unrestricted-now-and-future requirements",
+    "excludedDomains": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "baseline": "Ryan Associate Data Scientist return offer (~$83k base/~$90k first year); require clear improvement"
+  },
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "a09bae73dd3867579c69a197cfe59b2822ddffda",
+    "jobsJson": {
+      "sha": "040ecdbc236cb1ba51f947d4f4669f251c37c5d5",
+      "updatedAt": "2026-10-20T23:57:19Z",
+      "changed": false
+    },
+    "dallasPage": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "changed": false
+    },
+    "austinPage": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "changed": false
+    },
+    "latestAuditBeforeRun": "monitor-audit/2026-10-21T1122-Texas.json",
+    "workflows": {
+      "exists": false,
+      "result": "404 Not Found",
+      "pagesWorkflowMisclassified": false
+    }
+  },
+  "sourcesChecked": [
+    {
+      "name": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "f41f59ab98316535f88e4c5d9a6caae38fc3a1ac",
+      "currentHead": "7cafd09c93a662f9b67d77738989654ae419f1fe",
+      "commitsSincePrevious": 6,
+      "filesChanged": [
+        ".github/scripts/listings.json",
+        "README.md"
+      ],
+      "normalizedReview": {
+        "substantiveAddedRows": 0,
+        "substantiveRemovedRows": 0,
+        "relabelOrGroupingChanges": 1,
+        "notes": [
+          "A duplicate Honeywell Software Engineer I / Richmond, Virginia row changed to a continuation marker; it is outside the target markets and not a new job."
+        ]
+      }
+    },
+    {
+      "name": "speedyapply/2027-AI-College-Jobs",
+      "previousHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "currentHead": "f19d665014dd2e7015879c7c73756aafeb707094",
+      "commitsSincePrevious": 1,
+      "filesChanged": [
+        "INTERN_INTL.md",
+        "NEW_GRAD_INTL.md",
+        "NEW_GRAD_USA.md",
+        "README.md"
+      ],
+      "normalizedReview": {
+        "sourceRowsAdded": 86,
+        "sourceRowsRemoved": 60,
+        "targetMarketNewRows": 2,
+        "targetMarketApparentRemovedRows": 3,
+        "notes": [
+          "New target-market rows were NorthMark Strategies AI Engineer I (Dallas) and Micron Intern - Machine Learning Engineering (Richardson).",
+          "Apptronik's source row shifted from Austin to Sunnyvale, but the official live posting still lists both Austin, Texas and Sunnyvale, California; no verified status or target-location loss.",
+          "Two duplicate Bank of America Client Quantitative Analyst I source rows were removed; neither existed in jobs.json, so no tracked status changed."
+        ]
+      }
+    }
+  ],
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 7,
+    "sourceRowsAddedReviewed": 86,
+    "sourceRowsRemovedReviewed": 60,
+    "candidatesPassingTexasPrefilter": 2,
+    "candidatesRequiringOfficialJdReview": 2,
+    "qualifiedNewJobs": 0,
+    "verifiedStatusChanges": 0
+  },
+  "screeningResults": {
+    "qualified": [],
+    "excluded": [
+      {
+        "company": "NorthMark Strategies",
+        "title": "AI Engineer I",
+        "location": "Dallas, TX",
+        "requisitionId": "R13431",
+        "officialStatus": "open on official Workday board",
+        "experience": "0-2 years",
+        "reason": "Official/corroborated JD requires US work authorization without employer sponsorship now or in the future, which is incompatible with the monitor's F-1 OPT/STEM OPT rule.",
+        "sourceUrl": "https://northmark.wd108.myworkdayjobs.com/en-US/NMS/job/AI-Engineer-I_R13431"
+      },
+      {
+        "company": "Micron Technology",
+        "title": "Intern - Machine Learning Engineering",
+        "location": "Richardson, TX",
+        "requisitionId": "JR114750",
+        "officialStatus": "open on official Micron careers site",
+        "reason": "Internship; it is not a verified full-time post-May-2027 opportunity and does not clearly improve on the Ryan full-time return-offer baseline.",
+        "sourceUrl": "https://careers.micron.com/careers/job/45050125-intern-machine-learning-engineering-richardson-texas-united-states-of-america?domain=micron.com"
+      }
+    ],
+    "notes": [
+      "NorthMark's role duties are applied-AI/automation plus SharePoint and NetDocuments administration, but its explicit sponsorship restriction is disqualifying.",
+      "No notification was warranted because neither new Texas row passed all required filters.",
+      "Apptronik was not treated as a closure or location change because the official live JD still includes Austin; the talent-pool posting also spans internships through senior roles and includes embedded systems and hardware."
+    ]
+  },
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "applicationStatusesPreserved": true,
+    "oldRecordsDeleted": false
+  },
+  "githubWrite": {
+    "jobData": "not attempted (no verified job-data change)",
+    "audit": {
+      "path": "monitor-audit/2026-10-21T1250-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-21T16:23:07Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-21T1250-Texas.json"
+    ]
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualified new job or verified status change; normal no-result run."
+  },
+  "coverageLimitations": [
+    "The NorthMark official Workday page confirmed the posting and location; detailed qualifications were corroborated from a current indexed copy because the official page exposed no readable body through the retrieval interface.",
+    "The public monitor repository has no .github/workflows directory, so no repository-hosted scraper workflow was evaluated."
+  ]
+}
