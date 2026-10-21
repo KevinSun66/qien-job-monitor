@@ -1,0 +1,118 @@
+{
+  "checkedAt": "2026-10-21T12:28:41Z",
+  "checkedAtLocal": "2026-10-21T07:28:41-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/DFW",
+      "Austin"
+    ],
+    "startDate": "after 2027-05",
+    "experience": "0-2 years; reject minimum 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizenship/green-card-only and unrestricted-now-and-future requirements",
+    "excludedDomains": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "baseline": "Ryan Associate Data Scientist return offer (~$83k base/~$90k first year); require clear improvement"
+  },
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "60f185385d1feff7581b0d8ee2820927e13f0698",
+    "jobsJson": {
+      "sha": "040ecdbc236cb1ba51f947d4f4669f251c37c5d5",
+      "updatedAt": "2026-10-20T23:57:19Z",
+      "changed": false
+    },
+    "dallasPage": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "changed": false
+    },
+    "austinPage": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "changed": false
+    },
+    "latestAuditBeforeRun": "monitor-audit/2026-10-21T0649-Texas.json",
+    "workflows": {
+      "exists": false,
+      "result": "404 Not Found",
+      "pagesWorkflowMisclassified": false
+    }
+  },
+  "sourcesChecked": [
+    {
+      "name": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "b2f4d44dd10fa021ef9e345f8a89e6c3baa00b02",
+      "currentHead": "841999bc6fcb89a2fae6794174daa5ba9f96323d",
+      "commitsSincePrevious": 2,
+      "filesChanged": [
+        ".github/scripts/listings.json",
+        "README.md"
+      ],
+      "normalizedReview": {
+        "substantiveAddedRows": 0,
+        "substantiveRemovedRows": 0,
+        "relabelOrGroupingChanges": 1,
+        "notes": [
+          "Existing Travelers Data Engineer 1 - Multiple Teams row changed from continuation marker to explicit company label; locations remain Hartford, CT and St Paul, MN."
+        ]
+      }
+    },
+    {
+      "name": "speedyapply/2027-AI-College-Jobs",
+      "previousHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "currentHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "commitsSincePrevious": 0
+    }
+  ],
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 2,
+    "substantiveListingsAdded": 0,
+    "substantiveListingsRemoved": 0,
+    "candidatesPassingTexasPrefilter": 0,
+    "candidatesRequiringOfficialJdReview": 0,
+    "qualifiedNewJobs": 0,
+    "verifiedStatusChanges": 0
+  },
+  "screeningResults": {
+    "qualified": [],
+    "excluded": [],
+    "notes": [
+      "No real new or changed target-market job remained after normalized row and context review.",
+      "No official JD review was required because no candidate crossed the location/role prefilter."
+    ]
+  },
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "applicationStatusesPreserved": true,
+    "oldRecordsDeleted": false
+  },
+  "githubWrite": {
+    "jobData": "not attempted (no verified job-data change)",
+    "audit": {
+      "path": "monitor-audit/2026-10-21T0728-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-21T11:50:10Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-21T0728-Texas.json"
+    ]
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualified new job or verified status change; normal no-result run."
+  },
+  "coverageLimitations": [
+    "Source deltas were checked from prior stored heads. The public repository has no .github/workflows directory, so no repository-hosted scraper workflow was evaluated."
+  ]
+}
