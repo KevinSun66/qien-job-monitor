@@ -1,0 +1,121 @@
+{
+  "checkedAt": "2026-10-21T20:11:58Z",
+  "checkedAtLocal": "2026-10-21T15:11:58-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/DFW",
+      "Austin"
+    ],
+    "startDate": "after 2027-05",
+    "experience": "0-2 years; reject minimum 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizenship/green-card-only and unrestricted-now-and-future requirements",
+    "excludedDomains": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "baseline": "Ryan Associate Data Scientist return offer (~$83k base/~$90k first year); require clear improvement"
+  },
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "230b69260e94b56eb817e88f962f192b5eb03830",
+    "jobsJson": {
+      "sha": "040ecdbc236cb1ba51f947d4f4669f251c37c5d5",
+      "updatedAt": "2026-10-20T23:57:19Z",
+      "changed": false
+    },
+    "dallasPage": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "changed": false
+    },
+    "austinPage": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "changed": false
+    },
+    "latestAuditBeforeRun": "monitor-audit/2026-10-21T1436-Texas.json",
+    "workflows": {
+      "exists": false,
+      "result": "404 Not Found",
+      "pagesWorkflowMisclassified": false
+    }
+  },
+  "sourcesChecked": [
+    {
+      "name": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "123faae303475caa609b51a48fe4301c54209449",
+      "currentHead": "aca1550f4fab50bf5f78074f6e00edaf7cd3433d",
+      "commitsSincePrevious": 1,
+      "filesChecked": [
+        ".github/scripts/listings.json",
+        "README.md"
+      ],
+      "normalizedReview": {
+        "previousListingsBlobSha": "ef1d0f05eea87438f5c488f28bb90f20c9e7583d",
+        "currentListingsBlobSha": "ef1d0f05eea87438f5c488f28bb90f20c9e7583d",
+        "listingsContentChanged": false,
+        "readmeJobTableChanged": false,
+        "substantiveAddedRows": 0,
+        "substantiveRemovedRows": 0,
+        "notes": [
+          "The commit was an automated refresh; the listings blob remained byte-identical and no new README table commit appeared."
+        ]
+      }
+    },
+    {
+      "name": "speedyapply/2027-AI-College-Jobs",
+      "previousHead": "f19d665014dd2e7015879c7c73756aafeb707094",
+      "currentHead": "f19d665014dd2e7015879c7c73756aafeb707094",
+      "commitsSincePrevious": 0
+    }
+  ],
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 1,
+    "substantiveListingsAdded": 0,
+    "substantiveListingsRemoved": 0,
+    "candidatesPassingTexasPrefilter": 0,
+    "candidatesRequiringOfficialJdReview": 0,
+    "qualifiedNewJobs": 0,
+    "verifiedStatusChanges": 0
+  },
+  "screeningResults": {
+    "qualified": [],
+    "excluded": [],
+    "notes": [
+      "No substantive source-data delta existed after blob-hash verification.",
+      "No official JD review was required because no candidate crossed the location/role prefilter."
+    ]
+  },
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "applicationStatusesPreserved": true,
+    "oldRecordsDeleted": false
+  },
+  "githubWrite": {
+    "jobData": "not attempted (no verified job-data change)",
+    "audit": {
+      "path": "monitor-audit/2026-10-21T1511-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-21T19:36:59Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-21T1511-Texas.json"
+    ]
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualified new job or verified status change; normal no-result run."
+  },
+  "coverageLimitations": [
+    "Source deltas were checked from the prior stored heads. The public monitor repository has no .github/workflows directory, so no repository-hosted scraper workflow was evaluated."
+  ]
+}
