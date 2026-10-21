@@ -1,0 +1,130 @@
+{
+  "checkedAt": "2026-10-21T05:15:17Z",
+  "checkedAtLocal": "2026-10-21T00:15:17-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas–Fort Worth",
+      "Austin"
+    ],
+    "targetRoles": [
+      "Applied AI",
+      "Machine Learning",
+      "Data Science"
+    ],
+    "startDate": "after 2027-05",
+    "experienceRule": "0–2 years overall; reject if stated minimum starts at 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only and unrestricted-now-and-future requirements",
+    "directionExclusions": [
+      "hardware",
+      "semiconductor/chip",
+      "FPGA",
+      "embedded",
+      "firmware",
+      "robotics hardware",
+      "low-level infrastructure"
+    ],
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year); notify only clear upgrades"
+  },
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "0658aade1abee5716aba80ae2fe591dd83499f45",
+    "jobsJson": {
+      "sha": "040ecdbc236cb1ba51f947d4f4669f251c37c5d5",
+      "updatedAt": "2026-10-20T23:57:19Z",
+      "changed": false
+    },
+    "dallasPage": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "changed": false
+    },
+    "austinPage": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "changed": false
+    },
+    "latestAuditBeforeRun": {
+      "path": "monitor-audit/2026-10-20T2323-Texas.json",
+      "finalCommitSha": "0658aade1abee5716aba80ae2fe591dd83499f45"
+    },
+    "workflows": {
+      "exists": false,
+      "status": "404_not_found",
+      "note": "No .github/workflows directory; no GitHub Pages deployment workflow was treated as a job collector."
+    }
+  },
+  "sourcesChecked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "8a5a84c5247ca1052fc09643fe9345cc503d3ebb",
+      "currentHead": "e992aedb0ac077c7cc73c0150f76c00cb2e7b8d4",
+      "commitsSincePreviousCheck": 3,
+      "filesChanged": [
+        ".github/scripts/listings.json",
+        "README.md"
+      ]
+    },
+    {
+      "source": "speedyapply/2027-AI-College-Jobs",
+      "previousHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "currentHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "commitsSincePreviousCheck": 0
+    }
+  ],
+  "discoveryCounts": {
+    "upstreamCommitsSincePreviousCheck": 3,
+    "normalizedAddedRows": 0,
+    "normalizedRemovedRows": 1,
+    "targetMarketDirectionCandidates": 0,
+    "officialJDsRequiringVerification": 0,
+    "fullyQualifiedClearUpgrades": 0
+  },
+  "screeningResults": [
+    {
+      "change": "removed",
+      "posting": "Software Engineer 1",
+      "location": "Richmond, VA",
+      "sourceStatus": "already locked/inactive",
+      "decision": "ignored",
+      "reasons": [
+        "outside Dallas/Austin",
+        "generic software engineering, not Applied AI/ML/DS"
+      ]
+    }
+  ],
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "recordsDeleted": false,
+    "reason": "No verified new posting or target-role status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not_attempted",
+      "reason": "No verified job-data change."
+    },
+    "audit": {
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "syncedAt": null
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-21T04:23:27Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-21T0015-Texas.json"
+    ]
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No fully qualified, verified role offering a clear improvement over the Ryan baseline."
+  },
+  "coverageLimitations": [
+    "The only normalized source change was removal of an already locked generic software role in Richmond, Virginia; no official JD required fresh verification."
+  ]
+}
