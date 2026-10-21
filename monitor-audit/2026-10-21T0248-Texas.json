@@ -1,0 +1,126 @@
+{
+  "checkedAt": "2026-10-21T07:48:03Z",
+  "checkedAtLocal": "2026-10-21T02:48:03-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/DFW",
+      "Austin"
+    ],
+    "startDate": "after 2027-05",
+    "experience": "0-2 years; reject minimum 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizenship/green-card-only and unrestricted-now-and-future requirements",
+    "excludedDomains": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "baseline": "Ryan Associate Data Scientist return offer (~$83k base/~$90k first year); require clear improvement"
+  },
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "2132ea23fbfbd9fe1139ec882e6622e666f8c96a",
+    "jobsJson": {
+      "sha": "040ecdbc236cb1ba51f947d4f4669f251c37c5d5",
+      "updatedAt": "2026-10-20T23:57:19Z",
+      "changed": false
+    },
+    "dallasPage": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "changed": false
+    },
+    "austinPage": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "changed": false
+    },
+    "latestAuditBeforeRun": "monitor-audit/2026-10-21T0112-Texas.json",
+    "workflows": {
+      "exists": false,
+      "result": "404 Not Found",
+      "pagesWorkflowMisclassified": false
+    }
+  },
+  "sourcesChecked": [
+    {
+      "name": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "0e1a1a461e7a955577e08a35deeca8231215ba8b",
+      "currentHead": "8377dbdd2b7d0f1bffbf754f494fb6da81d68256",
+      "commitsSincePrevious": 6,
+      "filesChanged": [
+        ".github/scripts/listings.json",
+        "README.md"
+      ],
+      "compareStats": {
+        "readmeAdditions": 29,
+        "readmeDeletions": 29,
+        "listingsJsonAdditions": 81,
+        "listingsJsonDeletions": 292
+      },
+      "normalizedReview": {
+        "apparentAddedRows": 9,
+        "apparentRemovedRows": 8,
+        "substantiveAddedRows": 0,
+        "substantiveRemovedRows": 0,
+        "relabelOrGroupingChanges": 9,
+        "notes": [
+          "SpaceX, Cybernetic Labs, RTX, TikTok, Garmin and General Dynamics rows only changed company/continuation grouping.",
+          "JPMorgan Chase Software Engineer I, Plano remained closed; duplicate row was regrouped and is not a new opening."
+        ]
+      }
+    },
+    {
+      "name": "speedyapply/2027-AI-College-Jobs",
+      "previousHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "currentHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "commitsSincePrevious": 0
+    }
+  ],
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 6,
+    "substantiveListingsAdded": 0,
+    "substantiveListingsRemoved": 0,
+    "candidatesRequiringOfficialJdReview": 0,
+    "qualifiedNewJobs": 0,
+    "verifiedStatusChanges": 0
+  },
+  "screeningResults": {
+    "qualified": [],
+    "excluded": [],
+    "notes": [
+      "No real new or changed job remained after normalized row and surrounding-context review.",
+      "No official JD review was necessary because no candidate crossed the location/role prefilter."
+    ]
+  },
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "applicationStatusesPreserved": true,
+    "oldRecordsDeleted": false
+  },
+  "githubWrite": {
+    "jobData": "not attempted (no verified job-data change)",
+    "audit": {
+      "path": "monitor-audit/2026-10-21T0248-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-21T06:12:44Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-21T0248-Texas.json"
+    ]
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualified new job or verified status change; normal no-result run."
+  },
+  "coverageLimitations": [
+    "Source deltas were checked from the prior stored heads. The public repository has no .github/workflows directory, so no repository-hosted scraper workflow was evaluated."
+  ]
+}
