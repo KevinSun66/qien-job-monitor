@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T23:57:19Z",
+  "updatedAt": "2026-10-21T23:21:43Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7872,6 +7872,89 @@
       "brandPlatform": "Very high",
       "ryanUpgrade": "Would be a material pay/brand/technical upgrade if eligible, but minimum experience makes Qien ineligible.",
       "rejectionReason": "Official Basic Qualifications require 2+ years of data scientist experience, 3+ years of querying/scripting, 3+ years of ML/statistical modeling, and multiple 1+ year requirements; fails the strict no-1+-minimum rule."
+    },
+    {
+      "company": "GlobalFoundries",
+      "tier": "A+",
+      "area": "Richardson, TX / Santa Clara, CA",
+      "market": "DFW",
+      "title": "AI Software Engineer (2027 New College Graduate) (JR-2604055)",
+      "jobId": "JR-2604055",
+      "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---California---Santa-Clara/AI-Software-Engineer--2027-New-College-Graduate-_JR-2604055",
+      "status": "start-date-visa-verification",
+      "found": "2026-10-21",
+      "discoveredDate": "2026-10-21",
+      "discoveredAt": "2026-10-21T23:19:47Z",
+      "firstSeen": "2026-10-21T23:19:47Z",
+      "lastChecked": "2026-10-21",
+      "lastCheckedAt": "2026-10-21T23:21:43Z",
+      "officialPostedDate": "2026-10-21 (official page displayed Posted Today)",
+      "employment": "Full-time · 2027 New College Graduate",
+      "gradYear": "2027 New College Graduate; exact post-May-2027 start month not disclosed",
+      "ngCompatibility": "No minimum full-time experience stated; internship/co-op is preferred only. Bachelor's, Master's or PhD in CS, Computer Engineering, Data Science or related field; 3.0+ GPA.",
+      "assessment": "Official JD confirms a production-oriented Applied AI/ML software role: integrate, deploy, test and scale LLM, computer-vision and predictive models; optimize latency, memory, throughput and inference workflows; design maintainable APIs and software components. Qien's Data Science/Statistics background, PyTorch, Python, Git and production AI-agent experience align strongly. The title explicitly targets 2027 new college graduates and Richardson is an official location. However, the JD does not disclose an exact post-May-2027 start date or F-1 OPT/STEM OPT policy, so keep internal verification flags and do not promote to Table 2 or notify yet.",
+      "visa": "Official JD does not disclose F-1 OPT/STEM OPT, E-Verify, unrestricted authorization or sponsorship. Verify initial OPT and STEM OPT extension before promotion.",
+      "compensation": "Official expected salary range $72,000–$141,700; exact offer depends on qualifications, experience and location. Bonus/equity/TC not disclosed.",
+      "officialLocations": [
+        "USA - California - Santa Clara",
+        "USA - Texas - Richardson"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Open on 2026-10-21 at 18:20 CT; official Workday page displayed Apply and Posted Today.",
+      "source": "GlobalFoundries official Workday JD; SimplifyJobs incremental discovery",
+      "verificationFlags": [
+        "start-date-verification",
+        "visa-verification"
+      ],
+      "finalPriority": "内部核验 · 不通知；确认2027年5月后入职和OPT/STEM OPT后再评估表2",
+      "roleTrack": "Applied AI/ML Software Engineering / AI inference / LLM-CV-predictive models / AI platform",
+      "seniorityGap": "None stated · new college graduate; internship/co-op preferred only",
+      "technicalGrowth": "96/100 · production model integration, deployment, inference optimization and APIs",
+      "brandPlatform": "91/100 · major semiconductor platform with AI software deployment across edge/cloud",
+      "ryanUpgrade": "Potentially clear technical/platform upgrade with a higher salary ceiling, but actionable value remains conditional on post-May-2027 start and OPT/STEM OPT compatibility",
+      "whyRyan": "Stronger production AI software/inference platform depth and salary ceiling than Ryan; do not treat as actionable until timing and work authorization are confirmed.",
+      "strategyPriority": "Verify start date and OPT/STEM OPT; promote only if both hard gates pass."
+    },
+    {
+      "company": "Vizient",
+      "tier": "A",
+      "area": "Irving, TX 75062 · Vizient Corporate HQ",
+      "market": "DFW",
+      "title": "Associate Software Engineer (35366R)",
+      "jobId": "35366R",
+      "url": "https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Irving-TX-75062-Vizient-Corporate-HQ/Associate-Software-Engineer_35366R",
+      "status": "direction-opportunity-cost-rejected",
+      "found": "2026-10-21",
+      "discoveredDate": "2026-10-21",
+      "discoveredAt": "2026-10-21T23:19:47Z",
+      "firstSeen": "2026-10-21T23:19:47Z",
+      "lastChecked": "2026-10-21",
+      "lastCheckedAt": "2026-10-21T23:21:43Z",
+      "officialPostedDate": "2026-10-21 (official page displayed Posted Today)",
+      "employment": "Full-time · Associate",
+      "gradYear": "0–3 years accepted; exact graduation and post-May-2027 start window not disclosed",
+      "ngCompatibility": "Zero years is accepted, but the role is generic enterprise software engineering and not core Applied AI/ML/DS.",
+      "assessment": "Official JD confirms enterprise applications, REST APIs, backend services, cloud solutions, CI/CD, testing, monitoring and healthcare supply-chain/procurement workflows. AI appears only as AI-assisted development tools such as GitHub Copilot, not as model development, Applied AI, ML or Data Science. The $59,600–$101,200 range and generic SWE direction do not provide a clear improvement over Ryan's known Associate Data Scientist return offer. Exclude under direction and opportunity-cost rules.",
+      "visa": "Official JD does not disclose F-1 OPT/STEM OPT or sponsorship. No further visa verification is needed because direction and Ryan-upgrade gates fail.",
+      "compensation": "Official salary range $59,600–$101,200; incentive eligible. Bonus/equity/TC not disclosed.",
+      "officialLocations": [
+        "Irving, TX 75062 Vizient Corporate HQ"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Open on 2026-10-21 at 18:20 CT; official Workday page displayed Apply and Posted Today.",
+      "source": "Vizient official Workday JD; SimplifyJobs incremental discovery",
+      "verificationFlags": [
+        "direction-rejected",
+        "opportunity-cost-rejected",
+        "visa-not-pursued-after-direction-fail"
+      ],
+      "finalPriority": "排除 · 通用企业SWE且相对Ryan无明显综合升级",
+      "roleTrack": "Enterprise Software Engineering / APIs / Cloud Applications",
+      "seniorityGap": "None · 0–3 years accepted",
+      "technicalGrowth": "78/100 for Qien's Applied AI/ML/DS path",
+      "brandPlatform": "88/100 · healthcare data and procurement platform",
+      "ryanUpgrade": "Not a clear upgrade: generic SWE scope and salary range overlap or underperform the Ryan baseline",
+      "rejectionReason": "Core duties are generic enterprise application/backend engineering; AI is limited to coding-assistant usage, and compensation/platform do not clearly beat Ryan."
     }
   ],
   "monitorAudit": [
