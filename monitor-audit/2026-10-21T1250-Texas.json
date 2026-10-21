@@ -135,16 +135,18 @@
     "jobData": "not attempted (no verified job-data change)",
     "audit": {
       "path": "monitor-audit/2026-10-21T1250-Texas.json",
-      "status": "pending verification",
-      "initialCommitSha": null,
+      "status": "synced",
+      "initialCommitSha": "02051ac044e5e568967aa80e0e5a4f3b6a832531",
       "finalCommitSha": null,
-      "readbackVerified": false
+      "readbackVerified": true,
+      "finalCommitNote": "Verified after this write via repository head; the file cannot self-record the SHA of the commit that contains that SHA.",
+      "contentShaBeforeFinalization": "441d71a3f14b85f122847ff49c02e7fa5179c4d1",
+      "syncedAt": "2026-10-21T17:52:57Z"
     },
-    "overallStatus": "pending verification",
+    "overallStatus": "synced",
     "lastSuccessfulWriteBeforeRun": "2026-10-21T16:23:07Z",
-    "pendingSync": [
-      "monitor-audit/2026-10-21T1250-Texas.json"
-    ]
+    "pendingSync": [],
+    "lastSuccessfulWriteAt": "2026-10-21T17:52:57Z"
   },
   "notification": {
     "sent": false,
