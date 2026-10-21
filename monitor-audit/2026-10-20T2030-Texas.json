@@ -1,0 +1,150 @@
+{
+  "checkedAt": "2026-10-21T01:30:15Z",
+  "checkedAtLocal": "2026-10-20T20:30:15-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas–Fort Worth",
+      "Austin"
+    ],
+    "targetRoles": [
+      "Applied AI",
+      "Machine Learning",
+      "Data Science"
+    ],
+    "startDate": "after 2027-05",
+    "experienceRule": "0–2 years overall; reject if the stated minimum starts at 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only and unrestricted-now-and-future requirements",
+    "directionExclusions": [
+      "hardware",
+      "semiconductor/chip",
+      "FPGA",
+      "embedded",
+      "firmware",
+      "robotics hardware",
+      "low-level infrastructure"
+    ],
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year); notify only clear upgrades"
+  },
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "e2cf843db5c80bb1a3176c5df3d821a57f0d739c",
+    "jobsJson": {
+      "sha": "040ecdbc236cb1ba51f947d4f4669f251c37c5d5",
+      "updatedAt": "2026-10-20T23:57:19Z",
+      "changed": false
+    },
+    "dallasPage": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "changed": false
+    },
+    "austinPage": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "changed": false
+    },
+    "latestAuditBeforeRun": {
+      "path": "monitor-audit/2026-10-20T1927-Texas.json",
+      "finalCommitSha": "e2cf843db5c80bb1a3176c5df3d821a57f0d739c"
+    },
+    "workflows": {
+      "exists": false,
+      "status": "404_not_found",
+      "note": "No .github/workflows directory; no Pages deployment workflow was treated as a job collector."
+    }
+  },
+  "sourcesChecked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "3e2e392e999efeddcec8981049fed52a6a8c9f82",
+      "currentHead": "f15d1544ff0c6bcd2bfd41e4fa1e4a2a474ebe6c",
+      "commitsSincePreviousCheck": 4,
+      "filesChanged": [
+        ".github/scripts/listings.json",
+        "README.md"
+      ]
+    },
+    {
+      "source": "speedyapply/2027-AI-College-Jobs",
+      "previousHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "currentHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "commitsSincePreviousCheck": 0
+    }
+  ],
+  "discoveryCounts": {
+    "upstreamCommitsSincePreviousCheck": 4,
+    "normalizedAddedRows": 1,
+    "normalizedRemovedRows": 2,
+    "targetMarketDirectionCandidates": 0,
+    "officialJDsRequiringVerification": 0,
+    "fullyQualifiedClearUpgrades": 0
+  },
+  "screeningResults": [
+    {
+      "change": "added/row normalization",
+      "posting": "Micron Technology — HBM Product Development Failure Analysis Engineer New Grad",
+      "location": "Boise, ID",
+      "decision": "ignored",
+      "reasons": [
+        "outside Dallas/Austin",
+        "semiconductor/hardware direction"
+      ]
+    },
+    {
+      "change": "removed",
+      "posting": "Micron Technology — HBM Product Development Failure Analysis Engineer New Grad",
+      "location": "Boise, ID",
+      "decision": "ignored",
+      "reasons": [
+        "same underlying posting represented by changed grouping/row structure",
+        "outside Dallas/Austin",
+        "semiconductor/hardware direction"
+      ]
+    },
+    {
+      "change": "removed",
+      "posting": "Hardware Engineer 1",
+      "location": "San Jose, CA",
+      "decision": "ignored",
+      "reasons": [
+        "outside Dallas/Austin",
+        "hardware direction"
+      ]
+    }
+  ],
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "recordsDeleted": false,
+    "reason": "No verified target-market Applied AI/ML/DS posting or status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not_attempted",
+      "reason": "No verified job-data change."
+    },
+    "audit": {
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "syncedAt": null
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-21T00:27:52Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-20T2030-Texas.json"
+    ]
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No fully qualified, verified role offering a clear improvement over the Ryan baseline."
+  },
+  "coverageLimitations": [
+    "No target-market candidate emerged from monitored-source deltas, so no official JD required a fresh open-status, experience, authorization, or duty verification in this run."
+  ]
+}
