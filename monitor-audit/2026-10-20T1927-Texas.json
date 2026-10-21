@@ -1,0 +1,117 @@
+{
+  "checkedAt": "2026-10-21T00:27:21Z",
+  "checkedAtLocal": "2026-10-20T19:27:21-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas–Fort Worth",
+      "Austin"
+    ],
+    "roles": [
+      "Applied AI",
+      "Machine Learning",
+      "Data Science"
+    ],
+    "availability": "start after 2027-05",
+    "experienceRule": "0–2 years overall; reject any posting whose stated minimum begins at 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "exclusions": [
+      "hardware",
+      "semiconductor/chip",
+      "FPGA",
+      "embedded",
+      "firmware",
+      "robotics hardware",
+      "low-level infrastructure",
+      "user company exclusion list"
+    ],
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year); notify only clear upgrades"
+  },
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "b3d2fea74d7e7a7d49b4d1993f86075bf200548f",
+    "jobsJson": {
+      "sha": "040ecdbc236cb1ba51f947d4f4669f251c37c5d5",
+      "updatedAt": "2026-10-20T23:57:19Z",
+      "changed": false
+    },
+    "dallasPage": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "changed": false
+    },
+    "austinPage": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "changed": false
+    },
+    "latestAuditBeforeRun": {
+      "path": "monitor-audit/2026-10-20T1857-Texas.json",
+      "finalCommitSha": "b3d2fea74d7e7a7d49b4d1993f86075bf200548f"
+    },
+    "workflows": {
+      "exists": false,
+      "status": "404_not_found",
+      "note": "No .github/workflows directory; therefore no GitHub Pages workflow was mistaken for a job collector."
+    }
+  },
+  "sourcesChecked": [
+    {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "d47ca4853f21120de281adfd7084b1f6ab466924",
+      "currentHead": "3e2e392e999efeddcec8981049fed52a6a8c9f82",
+      "change": "one listings.json automation commit",
+      "verification": "compare returned no changed files; listings blob SHA remained 307d7fbd8a323300ec0c99d876bb19d385e21c7c; no new posting content"
+    },
+    {
+      "source": "speedyapply/2027-AI-College-Jobs",
+      "previousHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "currentHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "change": "none"
+    }
+  ],
+  "discoveryCounts": {
+    "upstreamCommitsSincePreviousCheck": 1,
+    "listingContentChanges": 0,
+    "newlyDiscoveredPostings": 0,
+    "texasRoleCandidates": 0,
+    "officialJDsRequiringVerification": 0,
+    "fullyQualifiedClearUpgrades": 0
+  },
+  "screeningResults": [],
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "recordsDeleted": false,
+    "reason": "No verified new posting or status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not_attempted",
+      "reason": "No verified job-data change."
+    },
+    "audit": {
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "syncedAt": null
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-20T23:58:12Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-20T1927-Texas.json"
+    ]
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No fully qualified, verified role offering a clear improvement over the Ryan baseline."
+  },
+  "coverageLimitations": [
+    "This short-interval delta check relied on the two monitored public source repositories; no new candidate required official-JD verification.",
+    "Repository workflow-directory absence was verified through the GitHub contents API."
+  ]
+}
