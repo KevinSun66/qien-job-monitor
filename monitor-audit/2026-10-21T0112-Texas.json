@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-10-21T06:12:10Z",
+  "checkedAtLocal": "2026-10-21T01:12:10-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/DFW",
+      "Austin"
+    ],
+    "startDate": "after 2027-05",
+    "experience": "0-2 years; reject minimum 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizenship/green-card-only and unrestricted-now-and-future requirements",
+    "excludedDomains": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "baseline": "Ryan Associate Data Scientist return offer (~$83k base/~$90k first year); require clear improvement"
+  },
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "20c6b39af38cbb97976c0369a6839a73a6670948",
+    "jobsJson": {
+      "sha": "040ecdbc236cb1ba51f947d4f4669f251c37c5d5",
+      "updatedAt": "2026-10-20T23:57:19Z",
+      "changed": false
+    },
+    "dallasPage": {
+      "path": "index.html",
+      "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "changed": false
+    },
+    "austinPage": {
+      "path": "austin.html",
+      "sha": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "changed": false
+    },
+    "latestAuditBeforeRun": "monitor-audit/2026-10-21T0015-Texas.json",
+    "workflows": {
+      "exists": false,
+      "result": "404 Not Found",
+      "pagesWorkflowMisclassified": false
+    }
+  },
+  "sourcesChecked": [
+    {
+      "name": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "e992aedb0ac077c7cc73c0150f76c00cb2e7b8d4",
+      "currentHead": "0e1a1a461e7a955577e08a35deeca8231215ba8b",
+      "commitsSincePrevious": 3,
+      "filesChanged": [
+        ".github/scripts/listings.json",
+        "README.md"
+      ],
+      "normalizedRowChanges": {
+        "added": 0,
+        "removed": 0,
+        "relabelOnly": 1,
+        "detail": "Same closed General Dynamics Mission Systems Junior Full Stack Engineer row; company label expanded from continuation marker."
+      }
+    },
+    {
+      "name": "speedyapply/2027-AI-College-Jobs",
+      "previousHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "currentHead": "c33c5266013520ed94f6479e9c6d8e8e42e6e5db",
+      "commitsSincePrevious": 0
+    }
+  ],
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 3,
+    "normalizedRowsAdded": 0,
+    "normalizedRowsRemoved": 0,
+    "candidatesRequiringOfficialJdReview": 0,
+    "qualifiedNewJobs": 0,
+    "verifiedStatusChanges": 0
+  },
+  "screeningResults": {
+    "qualified": [],
+    "excluded": [],
+    "notes": [
+      "No substantive listing additions or removals after normalized row comparison.",
+      "No official JD review required because no candidate crossed the location/role prefilter."
+    ]
+  },
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "applicationStatusesPreserved": true,
+    "oldRecordsDeleted": false
+  },
+  "githubWrite": {
+    "jobData": "not attempted (no verified job-data change)",
+    "audit": {
+      "path": "monitor-audit/2026-10-21T0112-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-21T05:15:41Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-21T0112-Texas.json"
+    ]
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualified new job or verified status change; normal no-result run."
+  },
+  "coverageLimitations": [
+    "Source changes were checked from prior stored heads. Public repository has no .github/workflows directory, so no repository-hosted scraper workflow was evaluated."
+  ]
+}
