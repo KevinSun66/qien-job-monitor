@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T13:06:30Z",
+  "updatedAt": "2026-10-22T21:01:34Z",
   "jobs": [
     {
       "company": "IBM",
@@ -5434,27 +5434,34 @@
       "title": "Entry-Level Software Engineer",
       "url": "https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0",
       "market": "DFW",
-      "area": "Dallas（发现源）；官方完整列表待确认",
+      "area": "Dallas, TX（官方/公开职位索引；同一 requisition 亦列多个美国办公室）",
       "tier": "待核验",
-      "status": "ng-verification",
+      "status": "work-authorization-rejected-status-verification",
       "found": "2026-10-05",
       "discoveredDate": "2026-10-05",
       "discoveredAt": "2026-10-05T21:25:49Z",
       "firstSeen": "2026-10-05",
-      "lastChecked": "2026-10-05",
-      "lastCheckedAt": "2026-10-05T21:25:49Z",
-      "assessment": "全国发现源含Dallas，官方Ashby仅提示启用JavaScript；完整最低资格、全部9地点、AI项目分配、薪资、OPT和2027入职未确认，保留发现记录。",
-      "ngCompatibility": "尚未完成全部资格核验",
-      "visa": "本岗位OPT/STEM OPT未确认；不以无未来赞助直接推断不接受初始OPT。",
-      "gradYear": "2027年5月后入职兼容性未确认",
-      "officialStatus": "动态正文/实时开放未核验；索引Apply不证明当前开放。",
+      "lastChecked": "2026-10-22",
+      "lastCheckedAt": "2026-10-22T21:01:34Z",
+      "assessment": "官方/公开职位索引确认该 Entry-Level Software Engineer 覆盖 Dallas，面向 2026年12月至2027年8月毕业生，职责为通用技术咨询、软件开发、云、数据工程、DevOps及可能的AI项目。Pariveda 官方 Entry-level FAQ 明确要求候选人无需公司提供现在或未来的移民协助或工作授权申请支持，按既定规则与 Qien 的 F-1 OPT/STEM OPT 路径不兼容，故由待核验更新为工作授权硬排除。薪资约 $79,800–$91,800，也未形成相对 Ryan 的明确薪资与 Applied AI/ML 方向升级。",
+      "ngCompatibility": "学历与毕业窗口匹配；但工作授权硬门槛不兼容",
+      "visa": "硬排除：Pariveda 官方 Entry-level FAQ 表示目前不办理工作授权申请；候选人必须无需 Pariveda 提供现在或未来的移民协助或 sponsorship。",
+      "gradYear": "预计毕业时间为 2026年12月–2027年8月；Qien 的 2027年5月毕业窗口匹配",
+      "officialStatus": "Simplify 增量源在 2026-10-22 将该记录由 active 改为 inactive；同日官方 Ashby 页面及搜索索引仍可访问，但动态页未给出可直接读取的关闭声明，因此保留 status-verification，不单凭聚合源确认正式关闭。",
       "source": "官方Careers/ATS与增量发现源",
-      "finalPriority": "待核验 · 不进入表2",
+      "finalPriority": "排除 · F-1 OPT/STEM OPT 路径不兼容 · 相比 Ryan 无明确升级",
       "verificationFlags": [
-        "ng-verification",
-        "visa-verification",
-        "start-date-verification",
         "status-verification"
+      ],
+      "previousStatus": "ng-verification",
+      "roleTrack": "Generalist Software Engineering / Technology Consulting / Cloud / Data Engineering / possible AI delivery",
+      "compensation": "$79,800–$91,800 base（Dallas 公开职位索引范围）",
+      "ryanUpgrade": "不足：薪资与 Ryan 基本重叠，岗位为通用咨询型软件工程，Applied AI/ML 方向不确定",
+      "qualificationVerifiedAt": "2026-10-22T21:01:34Z",
+      "statusChangeSource": "SimplifyJobs/New-Grad-Positions commit 04bf288da470928528d5410cb04ceeddb1ff9a4e",
+      "verificationSources": [
+        "https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0",
+        "https://parivedasolutions.com/careers/entry-level/"
       ]
     },
     {
