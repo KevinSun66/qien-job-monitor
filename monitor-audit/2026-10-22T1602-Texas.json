@@ -1,0 +1,159 @@
+{
+  "checkedAt": "2026-10-22T21:02:12Z",
+  "checkedAtLocal": "2026-10-22T16:02:12-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "fc1ce342b86bb6fc234f4a14c7576080e6ebae2a",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "7572e1381d8df24dd588a81239078b2390f70c94",
+      "blobShaAfter": "d9b4c497c9aa50eb946290e220fada82bea94987",
+      "updatedAt": "2026-10-22T21:01:34Z",
+      "changed": true,
+      "commitSha": "b2c8301fd7b72c7cd3322aacdd61cccb7103c5e4",
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T1429-Texas.json",
+      "blobSha": "354628d26eafde2ecfb5927d9c1c2fdd75cad0b9",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "893f600ca8f63750b4e89416d3c3f93ada9485d9",
+      "previousRepositoryHead": "893f600ca8f63750b4e89416d3c3f93ada9485d9",
+      "currentListingsCommit": "04bf288da470928528d5410cb04ceeddb1ff9a4e",
+      "currentRepositoryHead": "52703528ee0be4e9b87f5f2187cdc22a42f430b5",
+      "commitsReviewed": [
+        "12df6ecc12b13e9b610291b6eccb64acf94a0fb9",
+        "7148aa170de5e93b88d16c7029ba435df1b7114c",
+        "04bf288da470928528d5410cb04ceeddb1ff9a4e",
+        "52703528ee0be4e9b87f5f2187cdc22a42f430b5"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "88b4ab1e286737afba9c7a5caaf749591b3432ce",
+      "listingsBlobShaAfter": "edb8438bf5059217280128f82eb951ac1a34d3cd",
+      "readmeBlobShaAfter": "9a64e020f10fa37fac822e04dbb323c3def69914",
+      "result": "three listing records changed active true to false: Pariveda Entry-Level Software Engineer, Invesco ETF Quantitative Developer, and Aderant Associate Software Engineer; only Pariveda was Dallas-related and already tracked"
+    },
+    "officialVerification": [
+      {
+        "employer": "Pariveda",
+        "role": "Entry-Level Software Engineer",
+        "jobId": "cc4fc0be-c414-4aba-a15d-64daa03476a0",
+        "officialUrl": "https://jobs.ashbyhq.com/pariveda/cc4fc0be-c414-4aba-a15d-64daa03476a0",
+        "result": "Dallas is among the listed locations and the graduation window is Dec 2026–Aug 2027; Pariveda's official entry-level FAQ requires no current or future immigration assistance or work-authorization application support, so the role is incompatible with the monitored F-1 OPT/STEM OPT path. The official Ashby page/search remained reachable, so the aggregator inactive transition was retained as status-verification rather than declared closed."
+      },
+      {
+        "employer": "Invesco",
+        "role": "ETF Quantitative Developer",
+        "jobId": "12efc93b-9cb0-424d-9a67-53c256bb95bf",
+        "officialUrl": "https://invesco.wd1.myworkdayjobs.com/en-US/IVZ/job/Downers-Grove-Illinois/ETF-Quantitative-Developer_R-14868-2",
+        "result": "Downers Grove, Illinois; outside monitoring geography."
+      },
+      {
+        "employer": "Aderant",
+        "role": "Associate Software Engineer",
+        "jobId": "2081ec0c-9ef0-4e78-8859-84739cedab0c",
+        "officialUrl": "https://aderant.wd5.myworkdayjobs.com/Aderant_External_Careers/job/Atlanta-Georgia/Associate-Software-Engineer_REQ_100000484",
+        "result": "Atlanta, Georgia; outside monitoring geography."
+      }
+    ],
+    "verificationNote": "The only Dallas-related change affected an existing historical record and was verified as a work-authorization hard rejection with official status still requiring confirmation."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 3,
+    "uniqueChangedRecordsReviewed": 3,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 1,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "company": "Pariveda",
+      "jobId": "cc4fc0be-c414-4aba-a15d-64daa03476a0",
+      "title": "Entry-Level Software Engineer",
+      "market": "DFW",
+      "decision": "work-authorization-rejected-status-verification",
+      "reason": "official entry-level policy requires no current or future immigration/work-authorization assistance; generalist consulting/software role and $79.8k–$91.8k range also do not clearly exceed Ryan"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "updatedRecords": [
+      "Pariveda — Entry-Level Software Engineer (cc4fc0be-c414-4aba-a15d-64daa03476a0)"
+    ],
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "an existing Dallas record gained a verified work-authorization hard-rejection conclusion and an upstream inactive transition requiring status verification; no current table role or application archive changed"
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitSha": "b2c8301fd7b72c7cd3322aacdd61cccb7103c5e4",
+      "blobSha": "d9b4c497c9aa50eb946290e220fada82bea94987",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-22T1602-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "Pending repository-head and blob readback verification."
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T19:30:00Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T1602-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-10-22T19:30:00Z"
+  }
+}
