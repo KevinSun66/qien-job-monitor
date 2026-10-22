@@ -1,0 +1,123 @@
+{
+  "checkedAt": "2026-10-22T08:02:48Z",
+  "checkedAtLocal": "2026-10-22T03:02:48-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": ["Dallas/Fort Worth, TX", "Austin, TX"],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": ["hardware", "embedded", "firmware"],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "2f8a31aa9fcefda7669ea071eda584065de55b45",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f733341217d4ab04d79391b0f010a778d140aec5",
+      "updatedAt": "2026-10-21T23:21:43Z",
+      "changed": false
+    },
+    "pages": {
+      "dallas": {"path": "index.html", "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c", "changed": false},
+      "austin": {"path": "austin.html", "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1", "changed": false}
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T0128-Texas.json",
+      "blobSha": "a35a9f261e59bb72281bd18652abd188fc81a2d4",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "de48deb2c77929a84a2eba05046d0d94c5e5312d",
+      "currentHead": "fb634daae87513a770e156f784931ae1bf935852",
+      "commitsReviewed": [
+        "c3f114937e64a04d7d5c9fd6f29bd2269c8d6d8d",
+        "524bc50b3024dfb502cf3908634241d170922953",
+        "81c1e8f42bb26b9d3a938bc8da83edcd7bf94f83",
+        "6933109dff30d61cefaf36c41a2e176e9fe61450",
+        "e2150a5aa52c472fd2acb989dc04d5b57a1f2e0c",
+        "fb634daae87513a770e156f784931ae1bf935852"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobSha": "56fd4239902ceb745df94087feabf20f8f8129e0",
+      "readmeBlobSha": "8935af723b86956a059f3ccb872470de1e25be51",
+      "result": "six commits reviewed: three new out-of-market listings, three active-to-inactive changes, 98 already-inactive records purged, and presentation updates"
+    },
+    "officialVerification": {
+      "record": "L3Harris Technologies — Associate Integration/Test Engineer, Greenville TX",
+      "result": "official job URL was inaccessible and official search returned no result; upstream inactive status was not promoted to a verified official closure"
+    }
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 6,
+    "changedRecordsReviewed": 104,
+    "texasRelatedRecordsReviewed": 6,
+    "dallasAustinOrAdjacentRecordsReviewed": 3,
+    "newlyQualified": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "record": "L3Harris Technologies — Associate Integration/Test Engineer (a424b4b3-571e-4a67-a90c-6c2f388a61a1)",
+      "location": "Greenville, TX",
+      "change": "active to inactive in aggregator",
+      "decision": "exclude",
+      "reason": "outside the Dallas/Austin target cities and an integration/test defense role rather than Applied AI/ML/Data Science; official closure could not be independently verified"
+    },
+    {
+      "recordGroup": "Amazon SDE I AI/ML Network Infrastructure; Amazon Robotics Embedded SDE; TD Bank Technology New Grad",
+      "locations": ["Cupertino, CA", "North Reading/Westborough, MA", "London, UK"],
+      "decision": "out of market",
+      "reason": "none is located in Dallas/Austin; the robotics role is also embedded/hardware"
+    },
+    {
+      "recordGroup": "98 already-inactive upstream records removed in cleanup",
+      "texasExamples": [
+        "KRG Technologies Lab Technician — Austin",
+        "Jobs for Humanity AI Web Search Evaluator — Dallas",
+        "three stale Houston records"
+      ],
+      "decision": "no actionable change",
+      "reason": "dataset cleanup of already-inactive records, not new openings or verified status changes; Austin example is hardware and Dallas example is a stale evaluator listing"
+    },
+    {
+      "recordGroup": "Northrop Grumman Software Engineer and Huntington Ingalls Software Engineer 1",
+      "change": "active to inactive in aggregator",
+      "decision": "out of market",
+      "reason": "Virginia locations"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "no verified qualifying new role and no verified status change to a tracked job"
+  },
+  "githubWrite": {
+    "jobData": "not attempted; no verified job-data change",
+    "audit": {
+      "path": "monitor-audit/2026-10-22T0302-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T06:28:53Z",
+    "pendingSync": ["monitor-audit/2026-10-22T0302-Texas.json"]
+  }
+}
