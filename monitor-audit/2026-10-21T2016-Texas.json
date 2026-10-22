@@ -1,0 +1,123 @@
+{
+  "checkedAt": "2026-10-22T01:16:44Z",
+  "checkedAtLocal": "2026-10-21T20:16:44-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "8d7ae529a53739f0d03ea8ae8c9b73ff294b8679",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f733341217d4ab04d79391b0f010a778d140aec5",
+      "updatedAt": "2026-10-21T23:21:43Z",
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-21T2000-Texas.json",
+      "blobSha": "94ee0324a886eb365a11c35de7bd1085cf17526e",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "578f6c234894345b831212e2dcbe39c8900a99f8",
+      "currentHead": "8bbb5d686b245e02f4b35388f93e844fc77775ea",
+      "commitsReviewed": [
+        "8bbb5d686b245e02f4b35388f93e844fc77775ea"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobSha": "0382d43d52d5ee1e1bddb9d58c8796f87d23ba24",
+      "readmeBlobSha": "b75a18ab404cc7cb6a4425b64281f7e89b2fd9e6",
+      "result": "one upstream listing commit reviewed; it removed an inactive Toronto role and marked two non-Texas roles inactive; no Dallas/Austin delta"
+    },
+    "speedyapply": {
+      "repository": "speedyapply/2026-SWE-College-Jobs",
+      "previousHead": "f19d665014dd2e7015879c7c73756aafeb707094",
+      "currentHead": null,
+      "result": "fresh head lookup unavailable because the GitHub connector returned an empty result and then a validation error; no source claim or job-data change was made from this source",
+      "transientReadIssue": true
+    }
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 1,
+    "changedRecordsReviewed": 3,
+    "texasRelatedRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "record": "Royal Bank of Canada — Manager, Analytics Engineer",
+      "decision": "out of scope",
+      "reason": "Toronto, Canada; inactive record removed"
+    },
+    {
+      "record": "UK Atomic Energy Authority — Graduate HPC Computational Engineer",
+      "decision": "out of scope",
+      "reason": "non-Texas role changed active to inactive"
+    },
+    {
+      "record": "NVIDIA — Formal Verification Engineer New Grad JR2007627",
+      "decision": "out of scope",
+      "reason": "Santa Clara, California; hardware/formal-verification direction; changed active to inactive"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "no verified Dallas/Austin qualifying role and no verified status change to a tracked job"
+  },
+  "githubWrite": {
+    "jobData": "not attempted; no verified job-data change",
+    "audit": {
+      "path": "monitor-audit/2026-10-21T2016-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T01:00:39Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-21T2016-Texas.json"
+    ]
+  }
+}
