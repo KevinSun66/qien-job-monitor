@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T10:20:22Z",
+  "updatedAt": "2026-10-22T13:05:26Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7988,6 +7988,40 @@
       "requiredLanguage": "Native-level Arabic",
       "officialStatus": "Open on official Lever careers listing as of 2026-10-22",
       "rejectionReason": "Native-level Arabic required; no visa sponsorship; role is AI data labeling rather than Applied AI/ML engineering; compensation and growth are materially below the Ryan baseline.",
+      "verificationFlags": []
+    },
+    {
+      "company": "R1 RCM",
+      "tier": "A-",
+      "area": "Remote, USA (NYC hybrid preferred)",
+      "market": "Remote / not Texas-specific",
+      "title": "ML Engineer (R37)",
+      "employment": "Full-time · Remote USA · R37 Applied AI Lab · L2–Staff",
+      "gradYear": "Not a campus/new-grad role; official leveling starts at L2 and requires strong production AI/ML experience",
+      "match": "High technical relevance; experience and location fit fail",
+      "ngCompatibility": "Fail · role is leveled L2 through Staff and expects independent end-to-end ownership plus production AI/ML systems experience",
+      "assessment": "R1官方职位页确认岗位属于R37 Applied AI Lab，职责包括检索、排序、生成式AI、AI agent工作路由、端到端模型生产部署与持续优化，技术含金量和$140K–$270K薪资显著高于Ryan。但官方招聘层级为L2至Staff，要求已有设计、构建和部署生产AI/ML系统、0→1 AI产品、模型评估与大规模AI应用经验，并偏好纽约SOHO办公室每周3天到岗。该岗位并非2027新卒入口，无法按Qien当前0–2年门槛认定合格，归档排除以避免重复推荐。",
+      "visa": "Official JD does not state OPT/STEM OPT or sponsorship terms; not needed for final decision because experience/level and preferred NYC hybrid requirements already fail.",
+      "found": "2026-10-22",
+      "firstSeen": "2026-10-22",
+      "discoveredDate": "2026-10-22",
+      "discoveredAt": "2026-10-22T13:05:26Z",
+      "lastChecked": "2026-10-22",
+      "lastCheckedAt": "2026-10-22T13:05:26Z",
+      "source": "R1 RCM official careers page and Workday application; discovered through SimplifyJobs/New-Grad-Positions incremental feed",
+      "url": "https://www.r1rcm.com/careers/jobs/ml-engineer-r37",
+      "applyUrl": "https://r1rcm.wd1.myworkdayjobs.com/en-US/R1RCM/job/Remote-USA/ML-Engineer--R37-_R260000007540",
+      "status": "experience-level-location-rejected",
+      "finalPriority": "不投 · 非新卒，L2–Staff生产级经验要求，且偏好NYC hybrid",
+      "roleTrack": "Applied AI / Machine Learning Engineering / Retrieval / Ranking / Generative AI",
+      "technicalGrowth": "96/100",
+      "brandPlatform": "84/100",
+      "ryanUpgrade": "Yes in compensation and technical scope if attainable, but the role is not entry-level and is not a verified Texas-based 2027 start opportunity",
+      "compensation": "$140,000–$270,000 base + 10% target bonus (official)",
+      "officePerks": "Remote USA listing; official JD prefers hybrid 3 days onsite at NYC SOHO hub",
+      "jobId": "R260000007540",
+      "officialStatus": "Open on R1 official careers page as of 2026-10-22",
+      "rejectionReason": "Official role leveling is L2–Staff with strong production AI/ML system experience and independent end-to-end ownership; not a 0–2 year/new-grad role. NYC hybrid is preferred and 2027 start compatibility is not established.",
       "verificationFlags": []
     }
   ],
