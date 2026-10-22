@@ -1,0 +1,154 @@
+{
+  "checkedAt": "2026-10-22T11:36:21Z",
+  "checkedAtLocal": "2026-10-22T06:36:21-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "4e6b78b34907c48e93e45e51b350dafa4f888730",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "f9c2605194caa560b59504ecd8573bd1a3bf2899",
+      "blobShaAfter": "f9c2605194caa560b59504ecd8573bd1a3bf2899",
+      "updatedAt": "2026-10-22T10:20:22Z",
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T0520-Texas.json",
+      "blobSha": "3874ccc4066ffad4e060e8aa3e79f95702473530",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "3b749b226981c1dedf7f88e360b0d18fca4f6c19",
+      "currentHead": "02aa4c24e712dbed89995d4bafd2d55932d00514",
+      "commitsReviewed": [
+        "cb3b1bb6989acf387fba30f8966e7c4e5b4d4cf3",
+        "a94a4699a85adbffba60fa118ab32112745045b3",
+        "733d54d45414aaaf585472bf97418ca08f2f1ffe",
+        "02aa4c24e712dbed89995d4bafd2d55932d00514"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "result": "four commits reviewed: one new Texas hardware listing, two non-Texas status transitions, one stale inactive record removal, and README rendering updates"
+    },
+    "officialVerification": [
+      {
+        "record": "RTX — Power & Analog Design Electrical Engineer 2",
+        "officialUrl": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513WH--2501-W-University-Dr--WING-H-BLDG/Power---Analog-Design-Electrical-Engineer-II--Onsite-_01871535",
+        "result": "upstream official Workday URL identifies an onsite McKinney electrical power/analog design role; category is Hardware and title is Electrical Engineer II, so it is outside the monitored Applied AI/ML/Data Science functions"
+      },
+      {
+        "record": "Visa — ML Engineer Sr Consultant",
+        "officialUrl": "https://visa.wd5.myworkdayjobs.com/Visa",
+        "result": "official career search exposed an Austin senior-consultant ML role; seniority is outside the 0–2 year entry-level scope and it was not a qualifying new-grad match"
+      },
+      {
+        "recordGroup": "fresh official-source discovery sweep",
+        "result": "four fresh searches across official Workday, Lever, and Greenhouse sources returned no verified Dallas/Austin entry-level Applied AI/ML/Data Science role meeting start-date, experience, work-authorization, and Ryan-upgrade rules"
+      }
+    ]
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "changedRecordEventsReviewed": 4,
+    "uniqueChangedRecordsReviewed": 4,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 2,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "record": "RTX — Power & Analog Design Electrical Engineer 2",
+      "location": "McKinney, TX",
+      "change": "new active upstream listing",
+      "decision": "exclude; do not archive or notify",
+      "reason": "hardware/electrical role, explicitly outside Applied AI/ML/Data Science scope"
+    },
+    {
+      "record": "Visa — ML Engineer Sr Consultant",
+      "location": "Austin, TX",
+      "change": "fresh official-source discovery",
+      "decision": "exclude; do not archive or notify",
+      "reason": "senior-consultant role outside the 0–2 year entry-level scope; no verified 2027 new-grad fit"
+    },
+    {
+      "recordGroup": "AIG Junior Data Analyst; Autodesk Model Context Protocol/AI Developer; Sainsbury's Trading Assistant",
+      "change": "upstream status/removal changes",
+      "decision": "out of market",
+      "reason": "London/Croydon, Toronto, or Bath; none affects a tracked Dallas/Austin job"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "no verified qualifying new role and no tracked-job status change; the only new Texas listing was excluded hardware"
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not attempted",
+      "commitSha": null,
+      "blobSha": "f9c2605194caa560b59504ecd8573bd1a3bf2899",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-22T0636-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": null
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T10:21:17Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T0636-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-10-22T10:21:17Z"
+  }
+}
