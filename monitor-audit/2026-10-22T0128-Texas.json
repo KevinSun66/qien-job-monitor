@@ -1,0 +1,103 @@
+{
+  "checkedAt": "2026-10-22T06:28:03Z",
+  "checkedAtLocal": "2026-10-22T01:28:03-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": ["Dallas/Fort Worth, TX", "Austin, TX"],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": ["hardware", "embedded", "firmware"],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "10a920732cb6f5428b9d242f51cc181f7728bf8a",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f733341217d4ab04d79391b0f010a778d140aec5",
+      "updatedAt": "2026-10-21T23:21:43Z",
+      "changed": false
+    },
+    "pages": {
+      "dallas": {"path": "index.html", "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c", "changed": false},
+      "austin": {"path": "austin.html", "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1", "changed": false}
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T0017-Texas.json",
+      "blobSha": "346f22f0c365773b5ccea828987c11c8d7126c23",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "68675691aa2864d301b61f75ef751d33528e2f46",
+      "currentHead": "de48deb2c77929a84a2eba05046d0d94c5e5312d",
+      "commitsReviewed": [
+        "8285c9fcfafc49b4e4b45d6495c7a3a324214d24",
+        "8f3831d0811b1571d9103c772b24fd331f4eb5db",
+        "e2549db2215c42fe80dbe0cdac21279e60719863",
+        "de48deb2c77929a84a2eba05046d0d94c5e5312d"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobSha": "2b9dc5d63c8c0775040b2e90c4d1c99ed98f41bd",
+      "readmeBlobSha": "e8a0d623302546ec4d4818b3d3b4a479eb79812c",
+      "result": "four commits reviewed; two Formlabs Robotic Systems Integration Engineer records changed active to inactive, both outside Texas"
+    },
+    "officialVerification": {
+      "company": "Formlabs",
+      "result": "official careers results identify the affected roles as Hardware Engineering in Boston and Somerville, Massachusetts; responsibilities center on electro-mechanical systems, firmware, hardware, motion control, sensors and embedded systems"
+    }
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "changedRecordsReviewed": 2,
+    "texasRelatedRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "recordGroup": "Formlabs — Robotic Systems Integration Engineer (SLA & SLS), records 79442d58-bd6c-4c88-8aa9-559ae439ea3e and b82420cf-1f7e-4c24-af8f-0afa53b21be8",
+      "locations": ["Boston, MA", "Somerville, MA"],
+      "change": "active to inactive upstream",
+      "decision": "exclude",
+      "reason": "outside Dallas/Austin and explicitly Hardware Engineering/electro-mechanical integration rather than Applied AI/ML/Data Science"
+    },
+    {
+      "recordGroup": "two README commits",
+      "decision": "no actionable change",
+      "reason": "presentation-only company-label churn; net README blob unchanged"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "no verified qualifying new role and no verified status change to a tracked job"
+  },
+  "githubWrite": {
+    "jobData": "not attempted; no verified job-data change",
+    "audit": {
+      "path": "monitor-audit/2026-10-22T0128-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T05:18:11Z",
+    "pendingSync": ["monitor-audit/2026-10-22T0128-Texas.json"]
+  }
+}
