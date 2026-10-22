@@ -1,0 +1,141 @@
+{
+  "checkedAt": "2026-10-22T15:36:42Z",
+  "checkedAtLocal": "2026-10-22T10:36:42-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "a07339e0e9744a73ee6085ba24f91be2ebb69e0d",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "7572e1381d8df24dd588a81239078b2390f70c94",
+      "blobShaAfter": "7572e1381d8df24dd588a81239078b2390f70c94",
+      "updatedAt": "2026-10-22T13:06:30Z",
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T0915-Texas.json",
+      "blobSha": "a852dccaabbb8f333e1f5ddcaeb619dd52e21788",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "25f63a3f7c7b90025d42ff5e7d5a72c074bc9e11",
+      "currentListingsCommit": "e9ddec983a2d0eef190a95215e638fef1d502cc6",
+      "currentRepositoryHead": "d6be18654800b138eefad5478e36d475d8a34145",
+      "commitsReviewed": [
+        "afc1c23dbeca5cb0d8da2bc4333cd685be48e4dc",
+        "a91484abbcfcb29920951477caaf19cda3dec6a3",
+        "1a62604d7fccf396bf7c1bbc8841c2e547561037",
+        "c2a5033ebdbf169eb73a2500c0720cd902ddfd8c",
+        "e9ddec983a2d0eef190a95215e638fef1d502cc6",
+        "d6be18654800b138eefad5478e36d475d8a34145"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "bba099a401aeb8274291eae69658dad60b0b2297",
+      "listingsBlobShaAfter": "2b588c0c421fafd1a0165e76dbceb2565e4a1f80",
+      "readmeBlobShaAfter": "cd49559ae5b5a11d2365780aff53f0e8e7c4355e",
+      "result": "three listings updates and three README updates reviewed; 26 listing events were additions, activity flips, or stale-record cleanup, and none were located in Dallas/DFW, Austin, or an adjacent Texas market"
+    },
+    "officialVerification": [
+      {
+        "employer": "Goldman Sachs",
+        "role": "Quantitative Strategist Associate - Core Planning and Analysis Strats",
+        "jobId": "176151",
+        "officialUrl": "https://higher.gs.com/roles/176151",
+        "result": "official posting is New York, NY; out of monitoring geography"
+      },
+      {
+        "employer": "Goldman Sachs",
+        "role": "2027 Engineering New Analyst",
+        "jobId": "171570",
+        "officialUrl": "https://higher.gs.com/roles/171570",
+        "result": "official posting is Salt Lake City, UT; out of monitoring geography"
+      }
+    ],
+    "verificationNote": "No changed or newly discovered listing in this interval matched Dallas/DFW or Austin, so no Texas official JD required qualification, authorization, or status adjudication."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 6,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 26,
+    "uniqueChangedRecordsReviewed": 26,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [],
+  "dataChanges": {
+    "jobsJson": false,
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "all upstream listing events were outside Dallas/DFW and Austin; no verified new role or tracked-job status change met the repository mutation rules"
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not attempted",
+      "commitSha": null,
+      "blobSha": "7572e1381d8df24dd588a81239078b2390f70c94",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-22T1036-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "Pending repository-head and blob readback verification."
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T14:16:16Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T1036-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-10-22T14:16:16Z"
+  }
+}
