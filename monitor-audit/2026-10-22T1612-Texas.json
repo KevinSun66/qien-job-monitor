@@ -1,0 +1,148 @@
+{
+  "checkedAt": "2026-10-22T21:12:41Z",
+  "checkedAtLocal": "2026-10-22T16:12:41-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "c240165ec01db2454546e1fa17ca0349064e762f",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "d9b4c497c9aa50eb946290e220fada82bea94987",
+      "blobShaAfter": "d7187f8059d91fc3b6bcc6d94ed9dffd81de17c3",
+      "updatedAt": "2026-10-22T21:12:17Z",
+      "changed": true,
+      "commitSha": "b97bd414f192ae3f7cf876cf72015cf0ae98c268",
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T1602-Texas.json",
+      "blobSha": "e32c4c348ddd31bebfbf017193d93abb6f17d25a",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "04bf288da470928528d5410cb04ceeddb1ff9a4e",
+      "previousRepositoryHead": "52703528ee0be4e9b87f5f2187cdc22a42f430b5",
+      "currentListingsCommit": "05547eb3f9926be24b0b0e8ea5ca88922e800100",
+      "currentRepositoryHead": "99ed37eef86b1ccc75a1adf3743e1b0025b88b13",
+      "commitsReviewed": [
+        "05547eb3f9926be24b0b0e8ea5ca88922e800100",
+        "99ed37eef86b1ccc75a1adf3743e1b0025b88b13"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "edb8438bf5059217280128f82eb951ac1a34d3cd",
+      "listingsBlobShaAfter": "63fb5164aedc39dabafd43ba9cc9f53caec3e48a",
+      "readmeBlobShaAfter": "cd2fedca4954a2ba0715f1f27cbe0c6cf7adc283",
+      "result": "two listing records changed active true to false: Amerisure Software Engineer 1 (Michigan) and Credera Technology Solutions Analyst R13713 (Addison, Texas); only Credera was in scope"
+    },
+    "officialVerification": [
+      {
+        "employer": "Credera / Omnicom",
+        "role": "Technology Solutions Analyst",
+        "jobId": "R13713",
+        "officialUrl": "https://interpublic.wd5.myworkdayjobs.com/omc/job/Addison-Texas-United-States-of-America/Credera-Technology-Solutions-Analyst_R13713",
+        "result": "Official Workday search identifies the Addison, Texas requisition and remained indexed/reachable. The verified JD is a broad technology-consulting role covering software, cloud, data and possible AI/ML work with no explicit experience minimum. Credera job-posting authorization policy requires candidates not to need employment-based sponsorship now or later and explicitly excludes F-1/OPT/CPT categories. The $80,000–$85,000 range and generalist scope do not clearly improve on Ryan. The aggregator inactive transition is therefore archived as status-verification, not an official closure."
+      },
+      {
+        "employer": "Amerisure",
+        "role": "Software Engineer 1",
+        "officialUrl": "https://amerisure.wd5.myworkdayjobs.com/",
+        "result": "Farmington Hills, Michigan; outside monitoring geography."
+      }
+    ],
+    "verificationNote": "The only DFW change was a newly observed exclusion record. It fails the work-authorization and Ryan-upgrade gates; official closure was not confirmed."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 2,
+    "uniqueChangedRecordsReviewed": 2,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 1,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "company": "Credera / Omnicom",
+      "jobId": "R13713",
+      "title": "Technology Solutions Analyst",
+      "market": "DFW",
+      "decision": "work-authorization-opportunity-cost-rejected-status-verification",
+      "reason": "Credera posting policy excludes F-1/OPT/CPT and requires no employment-based sponsorship now or later; $80k–$85k and broad consulting scope do not clearly exceed Ryan; official closure remains unconfirmed"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "updatedRecords": [],
+    "addedRecords": [
+      "Credera / Omnicom — Technology Solutions Analyst (R13713)"
+    ],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "added one verified DFW exclusion/status-verification audit record; no qualified current-table role or application archive changed"
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitSha": "b97bd414f192ae3f7cf876cf72015cf0ae98c268",
+      "blobSha": "d7187f8059d91fc3b6bcc6d94ed9dffd81de17c3",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-22T1612-Texas.json",
+      "status": "pending-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T21:02:42Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T1612-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-10-22T21:02:42Z"
+  }
+}
