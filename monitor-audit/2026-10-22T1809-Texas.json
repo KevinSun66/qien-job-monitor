@@ -1,0 +1,199 @@
+{
+  "checkedAt": "2026-10-22T23:09:11Z",
+  "checkedAtLocal": "2026-10-22T18:09:11-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "710938f9d53b7f457f32ad3e5bb6aa4cda0aa859",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "d7187f8059d91fc3b6bcc6d94ed9dffd81de17c3",
+      "blobShaAfter": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "updatedAt": "2026-10-22T23:07:41Z",
+      "changed": true,
+      "commitSha": "d070fbb22c0a8c74edd7176dd8cea95220c12f42",
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T1612-Texas.json",
+      "blobSha": "bc32fcb25ed7a60d4cc13caa40223c88c79ded53",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "05547eb3f9926be24b0b0e8ea5ca88922e800100",
+      "previousRepositoryHead": "99ed37eef86b1ccc75a1adf3743e1b0025b88b13",
+      "currentListingsCommit": "3c5f820fc90a0358d86a825865c54ff5cea75f16",
+      "currentRepositoryHead": "08fb8dff82050a134aaecabb32de35b206e2f908",
+      "commitsReviewed": [
+        "3b21698eb2c788ca1ce5db55cf13b978c7f0e884",
+        "fd86e19ce4963aa09018a074ecc115196f0cd59b",
+        "abf1be99358c2fdd4672c31f8ce136a3bcc676e5",
+        "3d584727db4cd396225eca5a7fbf236338e6ccd5",
+        "72d2675220202ed25636d0ef954d90fbcb5b36eb",
+        "3c5f820fc90a0358d86a825865c54ff5cea75f16",
+        "08fb8dff82050a134aaecabb32de35b206e2f908"
+      ],
+      "listingsCommitsReviewed": [
+        "3b21698eb2c788ca1ce5db55cf13b978c7f0e884",
+        "fd86e19ce4963aa09018a074ecc115196f0cd59b",
+        "3d584727db4cd396225eca5a7fbf236338e6ccd5",
+        "3c5f820fc90a0358d86a825865c54ff5cea75f16"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "63fb5164aedc39dabafd43ba9cc9f53caec3e48a",
+      "listingsBlobShaAfter": "7083357207cd236556371c088be21aac3e5c7d7d",
+      "readmeBlobShaAfter": "821a357cbe9a8626d57d021dbac1dac09d5c13ad",
+      "result": "85 unique listing additions or active-state changes were reviewed. Four were Dallas/Austin-related: new CDK Global JR9204, UT Southwestern 973896 and Intel JR0288224 records, plus Allen Control Systems Systems Test Engineer changing active true to false."
+    },
+    "officialVerification": [
+      {
+        "employer": "CDK Global",
+        "role": "Associate Software Engineer",
+        "jobId": "JR9204",
+        "officialUrl": "https://cdk.wd1.myworkdayjobs.com/en-US/CDK/job/Austin-TX-USA/Associate-Software-Engineer_JR9204",
+        "result": "Official Workday page displayed Apply, Austin hybrid, Posted Today, 0–2 years, NodeJS/ReactJS/AWS and $85,000–$95,000. Work focuses on general product software and AI-assisted coding. Official language requires no current or future employment-based visa sponsorship, triggering the monitor’s authorization exclusion; compensation and direction do not clearly beat Ryan."
+      },
+      {
+        "employer": "UT Southwestern Medical Center",
+        "role": "Clinical Quality Data Coordinator I",
+        "jobId": "973896",
+        "officialUrl": "https://utsw.taleo.net/careersection/2/jobdetail.ftl?job=973896",
+        "result": "Official Taleo page displayed Apply Online and a 2026-10-22 posting time. A relevant bachelor’s degree can satisfy the role with no experience, but duties are EMR data, regulatory reporting, extraction/validation/summarization and clinical quality support. This is not Applied AI/ML/Data Science and has no disclosed pay or clear Ryan upgrade."
+      },
+      {
+        "employer": "Allen Control Systems",
+        "role": "Systems Test Engineer - All Levels",
+        "jobId": "c8082548-72f4-43bd-861a-8eb924951ca8",
+        "officialUrl": "https://jobs.ashbyhq.com/allen-control-systems/23b70be8-9f8b-4774-a637-4f4150e48933",
+        "result": "Aggregator changed active true to false, while the company’s official careers surface still listed the Austin role. Core work is system-level test execution for autonomous weapon platforms, a hardware/defense test direction that is excluded. No tracked-job record was changed; closure was not declared."
+      },
+      {
+        "employer": "Intel",
+        "role": "SoC Debug Engineer",
+        "jobId": "JR0288224",
+        "officialUrl": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-Massachusetts-Beaver-Brook/SoC-Debug-Engineer_JR0288224",
+        "result": "Upstream record lists Austin among locations and classifies the role as hardware. The official Workday dynamic page did not render usable JD text in this run. It was excluded at title/category level under the hardware rule and was not added to jobs.json or treated as fully verified."
+      }
+    ],
+    "verificationNote": "No new role passed location, timing, experience, work-authorization, direction and Ryan-upgrade gates."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 7,
+    "listingsCommitsReviewed": 4,
+    "changedRecordEventsReviewed": 85,
+    "uniqueChangedRecordsReviewed": 85,
+    "texasRelatedRecordsReviewed": 4,
+    "dallasAustinOrAdjacentRecordsReviewed": 4,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 2,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "company": "CDK Global",
+      "jobId": "JR9204",
+      "title": "Associate Software Engineer",
+      "market": "Austin",
+      "decision": "work-authorization-direction-opportunity-cost-rejected",
+      "reason": "official current/future no-sponsorship requirement conflicts with monitored OPT path; generic SWE/AI-assisted coding and $85k–$95k do not clearly improve on Ryan"
+    },
+    {
+      "company": "UT Southwestern Medical Center",
+      "jobId": "973896",
+      "title": "Clinical Quality Data Coordinator I",
+      "market": "DFW",
+      "decision": "direction-opportunity-cost-rejected",
+      "reason": "clinical quality data coordination, EMR and regulatory reporting rather than Applied AI/ML/DS; no disclosed pay or clear Ryan upgrade"
+    },
+    {
+      "company": "Allen Control Systems",
+      "jobId": "c8082548-72f4-43bd-861a-8eb924951ca8",
+      "title": "Systems Test Engineer - All Levels",
+      "market": "Austin",
+      "decision": "hardware-direction-rejected-status-verification",
+      "reason": "autonomous weapon-platform systems testing; aggregator inactive conflicts with current official company listing"
+    },
+    {
+      "company": "Intel",
+      "jobId": "JR0288224",
+      "title": "SoC Debug Engineer",
+      "market": "Austin",
+      "decision": "hardware-prefilter-rejected-not-archived",
+      "reason": "SoC debug/hardware role; official dynamic JD text unavailable, so no verified jobs.json record was created"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "updatedRecords": [],
+    "addedRecords": [
+      "CDK Global — Associate Software Engineer (JR9204)",
+      "UT Southwestern Medical Center — Clinical Quality Data Coordinator I (973896)"
+    ],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "two officially open Texas roles were verified and archived as exclusions; neither belongs in the current recommendation tables"
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitSha": "d070fbb22c0a8c74edd7176dd8cea95220c12f42",
+      "blobSha": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-22T1809-Texas.json",
+      "status": "pending-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T21:13:11Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T1809-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-10-22T21:13:11Z"
+  }
+}
