@@ -1,0 +1,139 @@
+{
+  "checkedAt": "2026-10-22T01:00:15Z",
+  "checkedAtLocal": "2026-10-21T20:00:15-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "1a672c9f4501ebd2bd9c4efda9c8d8480109eea8",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f733341217d4ab04d79391b0f010a778d140aec5",
+      "updatedAt": "2026-10-21T23:21:43Z",
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-21T1819-Texas.json",
+      "blobSha": "1d7c462d6b765b7bdf272953d4045d215588e7c9",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "5786695022201ecf5274364eb6bbd58eaf6b5784",
+      "currentHead": "578f6c234894345b831212e2dcbe39c8900a99f8",
+      "commitsReviewed": [
+        "7dcaec4af3f90ed781bc7bc4f4f2a7c6dafa3538",
+        "bfd2dbcd01456ff92698ac442c569d1ab45d18d8",
+        "ed5536caafab1db208a2665a2d6b925220aed8e6",
+        "56ad508b65701e232329e6b259b683f51b237ce8",
+        "ab65ea9c1ff4e726ec92b7c18a8167c1e3a1292e",
+        "578f6c234894345b831212e2dcbe39c8900a99f8"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobSha": "3d56542b897aa80cebea87a27ba146b2cf6abd59",
+      "readmeBlobSha": "b75a18ab404cc7cb6a4425b64281f7e89b2fd9e6",
+      "result": "six upstream commits reviewed; Texas-market changes were inactive-record purges or excluded status changes"
+    },
+    "speedyapply": {
+      "repository": "speedyapply/2026-SWE-College-Jobs",
+      "previousHead": "f19d665014dd2e7015879c7c73756aafeb707094",
+      "currentHead": "f19d665014dd2e7015879c7c73756aafeb707094",
+      "result": "no upstream change"
+    }
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 6,
+    "texasRelatedRecordsReviewed": 10,
+    "newlyQualified": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "records": [
+        "Goldman Sachs Software Engineer - CRG - Analyst / Associate",
+        "Goldman Sachs Compliance - Software Engineering",
+        "Cox Software Engineer 1",
+        "Relativity Software Engineer",
+        "Fidelity Production Support Engineer"
+      ],
+      "decision": "exclude",
+      "reason": "upstream changes only purged records already marked inactive; no newly open role or tracked-job status change"
+    },
+    {
+      "records": [
+        "Flextronics Engineering Technician",
+        "Intel RTL Design Engineer JR0276596",
+        "Intel RTL Design Engineer JR0280833",
+        "RTX Power & Analog Design Electrical Engineer 1"
+      ],
+      "decision": "exclude",
+      "reason": "hardware/technician function is outside scope; RTX status changed to inactive but is not a tracked qualifying role"
+    },
+    {
+      "records": [
+        "CVS Health Associate Data Engineer R0794390"
+      ],
+      "decision": "exclude",
+      "reason": "appeared only as an inactive Texas-wide work-from-home record and was removed in the next upstream refresh; not an open, city-specific Dallas/Austin role"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "no verified qualifying new role and no verified status change to a tracked job"
+  },
+  "githubWrite": {
+    "jobData": "not attempted; no verified job-data change",
+    "audit": {
+      "path": "monitor-audit/2026-10-21T2000-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-21T23:22:35Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-21T2000-Texas.json"
+    ]
+  }
+}
