@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T13:05:26Z",
+  "updatedAt": "2026-10-22T13:06:30Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8022,6 +8022,39 @@
       "jobId": "R260000007540",
       "officialStatus": "Open on R1 official careers page as of 2026-10-22",
       "rejectionReason": "Official role leveling is L2–Staff with strong production AI/ML system experience and independent end-to-end ownership; not a 0–2 year/new-grad role. NYC hybrid is preferred and 2027 start compatibility is not established.",
+      "verificationFlags": []
+    },
+    {
+      "company": "Elixirr Digital / Elixirr Consulting",
+      "tier": "A-",
+      "area": "Frisco / Dallas, TX",
+      "market": "DFW",
+      "title": "Forward Deployed Engineer",
+      "employment": "Full-time · Dallas/Frisco · Forward Deployed Engineering",
+      "gradYear": "Experienced hire · 5+ years as a software engineer",
+      "match": "Excellent Agentic AI/FDE direction; seniority hard fail",
+      "ngCompatibility": "Fail · official qualification requires 5+ years of software engineering experience",
+      "assessment": "Elixirr官方职位页确认该FDE岗位位于Frisco/Dallas，负责在模糊问题和复杂数据环境中快速构建原型、内部工具与AI agents，技术栈包括Python、TypeScript/Node.js、LLM、agent frameworks、RAG、tool use、evaluation、observability及AWS/Azure。方向与Qien高度相关，但官方明确要求5+年软件工程经验并具备客户嵌入或咨询/FDE/solutions engineering经历，远超0–2年硬门槛，归档排除。",
+      "visa": "Not evaluated because the explicit 5+ year experience minimum is independently disqualifying.",
+      "found": "2026-10-22",
+      "firstSeen": "2026-10-22",
+      "discoveredDate": "2026-10-22",
+      "discoveredAt": "2026-10-22T13:06:30Z",
+      "lastChecked": "2026-10-22",
+      "lastCheckedAt": "2026-10-22T13:06:30Z",
+      "source": "Elixirr official careers listing; discovered during fresh Dallas/Austin official-source sweep",
+      "url": "https://www.elixirr.com/en-us/job-openings/forward-deployed-engineer-2/",
+      "status": "seniority-rejected",
+      "finalPriority": "不投 · 明确要求5+年软件工程经验",
+      "roleTrack": "Forward Deployed Engineering / Agentic AI / LLM / RAG",
+      "technicalGrowth": "95/100",
+      "brandPlatform": "82/100",
+      "ryanUpgrade": "Potential technical and compensation upside, but not attainable under the 0–2 year experience rule",
+      "compensation": "Not disclosed on official listing",
+      "officePerks": "Based in Frisco; Dallas office is Elixirr Digital's U.S. headquarters",
+      "jobId": "elixirr-forward-deployed-engineer-dallas-2026",
+      "officialStatus": "Open on Elixirr official careers site as of 2026-10-22",
+      "rejectionReason": "Official qualification requires 5+ years as a software engineer; hard fail under the monitor's experience rule.",
       "verificationFlags": []
     }
   ],
