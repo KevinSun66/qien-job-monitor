@@ -1,0 +1,120 @@
+{
+  "checkedAt": "2026-10-22T03:19:59Z",
+  "checkedAtLocal": "2026-10-21T22:19:59-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "dfddf592836e2d49262cbd13fa2e973d4cf3aeaa",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f733341217d4ab04d79391b0f010a778d140aec5",
+      "updatedAt": "2026-10-21T23:21:43Z",
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-21T2129-Texas.json",
+      "blobSha": "d68673da9d93508917d23edae1132075fad638e6",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "36a3cd98b5c81cd6480169120b06326f2c4609c2",
+      "currentHead": "5242d78f288b9a97976ea894137cb260ac094a32",
+      "commitsReviewed": [
+        "df4aa31c6f0cef196f880c73cc3cce95a5fc846e",
+        "5242d78f288b9a97976ea894137cb260ac094a32"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobSha": "d35f9812cbf7a5479745d23858bc1c83d9c5cae8",
+      "readmeBlobSha": "09d7d83f24ac15aa9a97b9ebfda97225acf2e18c",
+      "result": "two listing commits reviewed; 20 already-inactive records were purged, with one stale DFW multi-location record and no new opening or active-to-inactive Texas status change"
+    }
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 2,
+    "changedRecordsReviewed": 20,
+    "texasRelatedRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "record": "Implify — SFDC Multiple openings (00b229ce-86d1-4f0b-ae4c-7bc1cd579109)",
+      "locations": [
+        "Plano, TX",
+        "Fort Worth, TX",
+        "Dallas, TX",
+        "other U.S. locations"
+      ],
+      "priorState": "inactive",
+      "change": "inactive record removed from upstream dataset",
+      "decision": "exclude",
+      "reason": "not a newly open role or tracked-job status change; generic Salesforce staffing listing, not Applied AI/ML/Data Science"
+    },
+    {
+      "recordGroup": "19 additional upstream records",
+      "decision": "out of market",
+      "reason": "all were already inactive and outside Dallas/Austin; removals were dataset cleanup only"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "no verified qualifying new role and no verified status change to a tracked job"
+  },
+  "githubWrite": {
+    "jobData": "not attempted; no verified job-data change",
+    "audit": {
+      "path": "monitor-audit/2026-10-21T2219-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T02:30:22Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-21T2219-Texas.json"
+    ]
+  }
+}
