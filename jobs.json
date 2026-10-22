@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T21:12:17Z",
+  "updatedAt": "2026-10-22T23:07:41Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8107,6 +8107,92 @@
       "brandPlatform": "80/100",
       "ryanUpgrade": "No clear upgrade: $80K–$85K base overlaps the Ryan baseline and the role is broader/generalist consulting rather than a stronger Applied AI/ML platform.",
       "rejectionReason": "Credera authorization policy excludes F-1/OPT/CPT and requires no employment-based sponsorship now or later; compensation and role focus also do not clearly beat Ryan."
+    },
+    {
+      "company": "CDK Global",
+      "tier": "A-",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Associate Software Engineer",
+      "jobId": "JR9204",
+      "sourceListingId": "2085ccad-8d75-4447-984d-d190fde07eb0",
+      "url": "https://cdk.wd1.myworkdayjobs.com/en-US/CDK/job/Austin-TX-USA/Associate-Software-Engineer_JR9204",
+      "status": "work-authorization-direction-opportunity-cost-rejected",
+      "found": "2026-10-22",
+      "discoveredDate": "2026-10-22",
+      "discoveredAt": "2026-10-22T23:07:41Z",
+      "firstSeen": "2026-10-22",
+      "lastChecked": "2026-10-22",
+      "lastCheckedAt": "2026-10-22T23:07:41Z",
+      "officialPostedDate": "2026-10-22 (official page displayed Posted Today)",
+      "employment": "Full-time · Hybrid · Austin commuting distance required",
+      "gradYear": "Bachelor’s degree in Computer Science, Engineering or related field; no explicit graduation or post-May-2027 start window",
+      "match": "Early-career 0–2 years, but generic full-stack/SaaS engineering with AI-assisted development rather than Applied AI/ML model work",
+      "ngCompatibility": "Official minimum is 0–2 years, but the role is not a campus/new-grad program and its 2027 start window is not established; authorization language is independently disqualifying.",
+      "assessment": "CDK’s official Workday JD is open and confirms Austin hybrid work, 0–2 years, NodeJS/ReactJS/AWS, and production software built with AI-assisted development workflows. The role focuses on specifications, code generation/review, security, testing, full-stack services and dealership SaaS rather than developing ML models, agents, RAG systems or data-science products. The official JD requires applicants to be legally authorized in the United States without current or future employment-based visa sponsorship, which fails the monitor’s F-1 OPT/STEM OPT path rule. The $85,000–$95,000 range overlaps the Ryan baseline and the generic SWE direction does not provide a clear overall upgrade.",
+      "visa": "Hard exclusion under monitor rules: official JD requires U.S. work authorization without current or future employment-based visa sponsorship.",
+      "compensation": "$85,000–$95,000 base (official) + possible annual performance bonus/benefits",
+      "officialLocations": [
+        "Austin, TX"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Open on official Workday page at 2026-10-22T23:07:41Z; Apply button displayed and posting showed Posted Today.",
+      "source": "CDK Global official Workday JD; discovered through SimplifyJobs/New-Grad-Positions commit 3d584727db4cd396225eca5a7fbf236338e6ccd5",
+      "officialSource": "https://cdk.wd1.myworkdayjobs.com/en-US/CDK/job/Austin-TX-USA/Associate-Software-Engineer_JR9204",
+      "verificationFlags": [
+        "work-authorization-rejected",
+        "direction-rejected",
+        "opportunity-cost-rejected"
+      ],
+      "finalPriority": "不投 · 现在/未来工作授权硬排除，且通用SWE相对Ryan无明确升级",
+      "roleTrack": "Full-stack Software Engineering / AI-assisted Development / Automotive SaaS",
+      "technicalGrowth": "82/100 for Qien’s Applied AI/ML/DS path",
+      "brandPlatform": "82/100",
+      "ryanUpgrade": "No clear upgrade: base range overlaps Ryan and the role is generic product software using AI coding tools rather than deeper Applied AI/ML work.",
+      "rejectionReason": "Official current/future no-sponsorship requirement conflicts with the monitored F-1 OPT/STEM OPT path; role direction and compensation also do not clearly beat Ryan."
+    },
+    {
+      "company": "UT Southwestern Medical Center",
+      "tier": "A-",
+      "area": "Dallas, TX · 5323 Harry Hines Blvd",
+      "market": "DFW",
+      "title": "Clinical Quality Data Coordinator I",
+      "jobId": "973896",
+      "sourceListingId": "cc259ac7-d903-41ef-8372-0b9bff0ba883",
+      "url": "https://utsw.taleo.net/careersection/2/jobdetail.ftl?job=973896",
+      "status": "direction-opportunity-cost-rejected",
+      "found": "2026-10-22",
+      "discoveredDate": "2026-10-22",
+      "discoveredAt": "2026-10-22T23:07:41Z",
+      "firstSeen": "2026-10-22",
+      "lastChecked": "2026-10-22",
+      "lastCheckedAt": "2026-10-22T23:07:41Z",
+      "officialPostedDate": "2026-10-22 14:13:43 CT",
+      "employment": "Full-time · Regular · Day shift · Onsite office setting",
+      "gradYear": "Bachelor’s degree in related clinical or healthcare data management; no explicit graduation or start-date window",
+      "match": "Zero experience accepted with a relevant bachelor’s degree, but the work is clinical quality reporting/data coordination rather than Applied AI/ML/Data Science",
+      "ngCompatibility": "Official JD accepts no experience with a relevant bachelor’s degree; post-May-2027 start is not stated, but direction and Ryan-upgrade gates independently fail.",
+      "assessment": "UT Southwestern’s official Taleo page is open and accepts candidates with no experience when they hold a related bachelor’s degree. Duties center on EMR data, regulatory reporting, performance-improvement measures, data extraction/validation/summarization, stakeholder meetings and compliance deadlines. This is a clinical quality data coordination/reporting role, not Applied AI, ML engineering or data-science model development. Salary is undisclosed, and neither technical scope nor platform establishes a clear improvement over the Ryan Associate Data Scientist return offer.",
+      "visa": "Official JD does not disclose F-1 OPT/STEM OPT or sponsorship. Further visa verification was not pursued because the role fails direction and Ryan-upgrade gates.",
+      "compensation": "Official posting states salary is commensurate with education, skills and relevant experience; no numeric range disclosed.",
+      "officialLocations": [
+        "Dallas, TX · 5323 Harry Hines Blvd"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Open on official Taleo page at 2026-10-22T23:07:41Z; Apply Online button displayed.",
+      "source": "UT Southwestern official Taleo JD; discovered through SimplifyJobs/New-Grad-Positions commit 3d584727db4cd396225eca5a7fbf236338e6ccd5",
+      "officialSource": "https://utsw.taleo.net/careersection/2/jobdetail.ftl?job=973896",
+      "verificationFlags": [
+        "direction-rejected",
+        "opportunity-cost-rejected",
+        "visa-not-pursued-after-direction-fail"
+      ],
+      "finalPriority": "不投 · 临床质量数据报送/协调，非Applied AI/ML/DS且相对Ryan无明确升级",
+      "roleTrack": "Clinical Quality Data / Regulatory Reporting / Healthcare Analytics Operations",
+      "technicalGrowth": "58/100 for Qien’s Applied AI/ML/DS path",
+      "brandPlatform": "84/100 healthcare and academic-medical brand",
+      "ryanUpgrade": "No clear upgrade: core work is data coordination, EMR/regulatory reporting and basic analytics; compensation is undisclosed.",
+      "rejectionReason": "Core duties are clinical quality data coordination and compliance reporting rather than Applied AI/ML/Data Science; no clear Ryan upgrade."
     }
   ],
   "monitorAudit": [
