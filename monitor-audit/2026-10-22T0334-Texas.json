@@ -1,0 +1,149 @@
+{
+  "checkedAt": "2026-10-22T08:34:09Z",
+  "checkedAtLocal": "2026-10-22T03:34:09-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "61bb161f5d5d9e815a88fc1aa437532bae6ba0e1",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f733341217d4ab04d79391b0f010a778d140aec5",
+      "updatedAt": "2026-10-21T23:21:43Z",
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T0302-Texas.json",
+      "blobSha": "880a5f990fad2ea900995e55cc86354bb5c19953",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "fb634daae87513a770e156f784931ae1bf935852",
+      "currentHead": "c48d93918a2d1c3520706aa6d031813a95c85082",
+      "commitsReviewed": [
+        "0d18e31c40193c1bf57a890f677353654ad5fd88",
+        "c48d93918a2d1c3520706aa6d031813a95c85082"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobSha": "124b388f3ab9a7ae5abf587556a0b2e24e821551",
+      "readmeBlobSha": "b79015daba7edf94cc600a055f62f5e11dd65237",
+      "result": "two commits reviewed: two new listings, three active-to-inactive changes, and one presentation-only README label update"
+    },
+    "officialVerification": [
+      {
+        "record": "Intel — CPU Performance Architect (JR0281596)",
+        "officialUrl": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/CPU-Performance-Architect_JR0281596",
+        "result": "official Intel posting was indexed and confirmed the title/job ID; the role is CPU architecture/hardware in Austin and is excluded without needing authorization or experience assumptions"
+      },
+      {
+        "record": "Formlabs — R&D Reliability/Test Engineer - June 2027 Grads",
+        "officialUrl": "https://careers.formlabs.com/job/8241465/apply/",
+        "result": "official posting confirmed Somerville, MA, Hardware Engineering, electromechanical product reliability and an $85,000–$123,000 base range; out of market and hardware"
+      },
+      {
+        "record": "Microsoft — Software Engineer (1970393557026652)",
+        "officialUrl": "https://apply.careers.microsoft.com/careers/job/1970393557026652",
+        "result": "official URL was inaccessible and exact official search returned no result; aggregator inactive status was not promoted to a verified closure"
+      }
+    ]
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 2,
+    "changedRecordsReviewed": 5,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "record": "Intel — CPU Performance Architect (JR0281596)",
+      "location": "Austin, TX",
+      "change": "new active upstream listing",
+      "decision": "exclude",
+      "reason": "CPU architecture and processor hardware role; directly excluded by the hardware rule. No experience or work-authorization eligibility was inferred."
+    },
+    {
+      "record": "Petfolk — Strategy Lead, AI - AI-Operations/Medops",
+      "location": "New York, NY",
+      "change": "new active upstream listing",
+      "decision": "out of market",
+      "reason": "not Dallas/Austin and lead-level rather than a verified 0–2 year Texas Applied AI/ML/Data Science role"
+    },
+    {
+      "recordGroup": "CoStar Group Associate Embedded Software Engineer; Formlabs R&D Reliability/Test Engineer",
+      "change": "active to inactive in upstream data",
+      "decision": "no tracked-job change",
+      "reason": "CoStar role is embedded and in Sunnyvale, CA; Formlabs official JD is Hardware Engineering in Somerville, MA"
+    },
+    {
+      "record": "Microsoft — Software Engineer (1970393557026652)",
+      "change": "active to inactive in upstream data",
+      "decision": "no tracked-job change",
+      "reason": "not present in the monitor's tracked job data; official closure and target-market location could not be independently verified"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "no verified qualifying new role and no verified status change to a tracked job"
+  },
+  "githubWrite": {
+    "jobData": "not attempted; no verified job-data change",
+    "audit": {
+      "path": "monitor-audit/2026-10-22T0334-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T08:04:05Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T0334-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-10-22T08:04:05Z"
+  }
+}
