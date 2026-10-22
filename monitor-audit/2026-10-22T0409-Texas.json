@@ -1,0 +1,142 @@
+{
+  "checkedAt": "2026-10-22T09:09:18Z",
+  "checkedAtLocal": "2026-10-22T04:09:18-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "4fa0a61cff29e36aaa0eeb409892aca2474b6017",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f733341217d4ab04d79391b0f010a778d140aec5",
+      "updatedAt": "2026-10-21T23:21:43Z",
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T0334-Texas.json",
+      "blobSha": "dee437d5d77b74a5d5c79a7a6a5a6fb79caa5030",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "c48d93918a2d1c3520706aa6d031813a95c85082",
+      "currentHead": "3514bb37bc05ece30dabb0f9b817f79184f22059",
+      "commitsReviewed": [
+        "4c7ceb0291539a23a1af604cb4efb618dc4c1f5c",
+        "3514bb37bc05ece30dabb0f9b817f79184f22059"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobSha": "532ea75447f64410e5d79f8155d0ed294f56d7a4",
+      "readmeBlobSha": "d9980f3453209b25d69c1a4654795213f7c53db1",
+      "result": "two commits reviewed: four new listings, six active-to-inactive changes, and README presentation/status rendering updates"
+    },
+    "officialVerification": [
+      {
+        "record": "HavocAI — Vehicle Autonomy Integration Engineer",
+        "officialUrl": "https://jobs.ashbyhq.com/havocai/a5644e94-3367-4040-9b36-62a76efcb8da",
+        "result": "official Ashby career listing was indexed as open today; locations include Austin, North Kingstown, and San Diego; full-time/on-site; advertised pay $150,000–$185,000. The role integrates autonomy onto real vehicles and robotic platforms and is excluded as vehicle/robotics hardware integration."
+      },
+      {
+        "record": "Tesla — Data Collection Operator, Optimus (270213)",
+        "officialUrl": "https://www.tesla.com/careers/search/job/data-collection-operator-optimus-270213",
+        "result": "official Tesla listing identified San Diego, California; upstream inactive change is out of market and not a tracked Texas role"
+      }
+    ]
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 2,
+    "changedRecordsReviewed": 10,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "record": "HavocAI — Vehicle Autonomy Integration Engineer",
+      "location": "Austin, TX; North Kingstown, RI; San Diego, CA",
+      "change": "new active upstream listing",
+      "decision": "exclude",
+      "reason": "official posting is open, but duties center on deploying autonomy onto physical vehicles/robotic platforms and the upstream category is Hardware; it is not an Applied AI/ML/Data Science entry role. Experience, start-date, and work-authorization eligibility were not inferred after the hard functional exclusion."
+    },
+    {
+      "recordGroup": "RTX Software Engineer II; Cruise Planners Data & AI Engineer; Shield AI PCB Designer New Grad",
+      "locations": [
+        "West Valley City, UT",
+        "Coral Springs, FL",
+        "Seattle, WA"
+      ],
+      "change": "new active upstream listings",
+      "decision": "out of market",
+      "reason": "none is in Dallas/Austin; RTX additionally requires a master's degree and Shield AI is hardware"
+    },
+    {
+      "recordGroup": "Epos Now Software Engineer 3; Tesla Data Collection Operator - Optimus; Deepgram Forward-Deployed Engineer; Momentum Engineering Software Engineer 0; Microsoft Product Manager; T-Mobile Associate Software Engineer",
+      "change": "active to inactive in upstream data",
+      "decision": "no tracked-job change",
+      "reason": "no record is a tracked Dallas/Austin qualifying role; Tesla official location is San Diego, Momentum is Annapolis Junction, and T-Mobile is Overland Park"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "no verified qualifying new role and no verified status change to a tracked job"
+  },
+  "githubWrite": {
+    "jobData": "not attempted; no verified job-data change",
+    "audit": {
+      "path": "monitor-audit/2026-10-22T0409-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T08:35:54Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T0409-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-10-22T08:35:54Z"
+  }
+}
