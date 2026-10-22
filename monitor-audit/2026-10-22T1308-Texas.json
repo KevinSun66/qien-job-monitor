@@ -1,0 +1,156 @@
+{
+  "checkedAt": "2026-10-22T18:08:47Z",
+  "checkedAtLocal": "2026-10-22T13:08:47-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "225bb0faf163879a373777fc240723428c0f8619",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "7572e1381d8df24dd588a81239078b2390f70c94",
+      "blobShaAfter": "7572e1381d8df24dd588a81239078b2390f70c94",
+      "updatedAt": "2026-10-22T13:06:30Z",
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T1149-Texas.json",
+      "blobSha": "4aaa86263d8982f4b0073912677ee395599582b6",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "02b922447b769f02965f4c585de4be45a2117327",
+      "previousRepositoryHead": "f47d5fda8640e68c3d571c91d1ed5c46ca9eda11",
+      "currentListingsCommit": "3fa5e99ebd4b7564f1281a4e9a32a51e3b5dfa87",
+      "currentRepositoryHead": "cd896446f8eb20d08d35e9ca1a02c23c79b8a14d",
+      "commitsReviewed": [
+        "f81139b705a103a999272eeeb08fd6c21085ceba",
+        "5c1de9c345309b9b3608a76447dfd10a53cbb2d0",
+        "35b9778205f6e74fee873dee4febabc17cb71aeb",
+        "1875460e56249da6f18cea2766b90fda0e88b4a6",
+        "3fa5e99ebd4b7564f1281a4e9a32a51e3b5dfa87",
+        "cd896446f8eb20d08d35e9ca1a02c23c79b8a14d"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "50e7c678ab9c10fb25fa004ac9fb2c0c66d4e2bd",
+      "listingsBlobShaAfter": "88b4ab1e286737afba9c7a5caaf749591b3432ce",
+      "readmeBlobShaAfter": "45be026a5e92f92e157a8561b0b7a3bb715e871e",
+      "result": "three listings updates and three README updates reviewed; 15 listing activity events were inspected and none were in Dallas/DFW or Austin"
+    },
+    "officialVerification": [
+      {
+        "employer": "Ascension",
+        "role": "Data Analyst",
+        "jobId": "19659",
+        "officialUrl": "https://jobs.ascension.org/us/en/job/19659",
+        "result": "official careers index identifies Nashville, Tennessee; out of monitoring geography"
+      },
+      {
+        "employer": "CesiumAstro",
+        "role": "Embedded Software Engineer I",
+        "jobId": "d56f6207-fc5b-421d-904d-4d2e9ff621bf",
+        "officialUrl": "https://jobs.lever.co/CesiumAstro/d56f6207-fc5b-421d-904d-4d2e9ff621bf",
+        "result": "official posting identifies Westminster, Colorado and embedded systems; out of geography and excluded function"
+      },
+      {
+        "employer": "ALTEN Technology USA",
+        "role": "Data Collection Operator / Data Collector",
+        "jobId": "5235055007 and 5235034007",
+        "officialUrl": "https://job-boards.greenhouse.io/altentechnologyusa/jobs/5235055007",
+        "result": "official postings identify San Francisco, California; out of monitoring geography"
+      },
+      {
+        "employer": "True Environmental",
+        "role": "Associate GIS Specialist",
+        "jobId": "f532ce06-4ebe-4136-b110-0566cb45c0e6",
+        "officialUrl": "https://jobs.lever.co/true-environmental/f532ce06-4ebe-4136-b110-0566cb45c0e6",
+        "result": "official posting identifies Chantilly, Virginia; out of monitoring geography"
+      }
+    ],
+    "verificationNote": "All ambiguous locations in this interval were resolved to non-Texas markets; no Dallas/DFW or Austin official JD required qualification, authorization, or status adjudication."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 6,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 15,
+    "uniqueChangedRecordsReviewed": 15,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [],
+  "dataChanges": {
+    "jobsJson": false,
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "all upstream activity events were outside Dallas/DFW and Austin; no verified new role or tracked-job status change met repository mutation rules"
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not attempted",
+      "commitSha": null,
+      "blobSha": "7572e1381d8df24dd588a81239078b2390f70c94",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-22T1308-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "Pending repository-head and blob readback verification."
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T16:49:41Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T1308-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-10-22T16:49:41Z"
+  }
+}
