@@ -1,0 +1,167 @@
+{
+  "checkedAt": "2026-10-22T02:29:35Z",
+  "checkedAtLocal": "2026-10-21T21:29:35-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "cbf789996cb75b616eb4790d1b6280fa15202a5b",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f733341217d4ab04d79391b0f010a778d140aec5",
+      "updatedAt": "2026-10-21T23:21:43Z",
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-21T2016-Texas.json",
+      "blobSha": "59f23818fd2d1da2cbfef39b4cb04bab86087de2",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "8bbb5d686b245e02f4b35388f93e844fc77775ea",
+      "currentHead": "36a3cd98b5c81cd6480169120b06326f2c4609c2",
+      "commitsReviewed": [
+        "0efae1867dfc73d8e6b2789dc60a734f7f2367b0",
+        "5028b695195eef5dccfee89da2d9051a3f1c1f46",
+        "4be2e522328b93241631ea8c7f89f6aebc2574dc",
+        "36a3cd98b5c81cd6480169120b06326f2c4609c2"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobSha": "1c16963d036f6e0f936e19295e87a8e1c6dd80e0",
+      "readmeBlobSha": "09d7d83f24ac15aa9a97b9ebfda97225acf2e18c",
+      "result": "four upstream commits reviewed; all substantive listing changes were outside Dallas/Austin, while Texas mentions in README were age counters only"
+    },
+    "officialVerification": {
+      "goldmanSachs": [
+        {
+          "requisition": "176151",
+          "location": "New York, NY",
+          "status": "active in aggregator",
+          "decision": "out of market"
+        },
+        {
+          "requisition": "171570",
+          "location": "Salt Lake City, UT",
+          "status": "aggregator active to inactive; official page still readable",
+          "decision": "out of market"
+        },
+        {
+          "requisition": "171569",
+          "location": "New York, NY",
+          "status": "aggregator active to inactive; official page still readable",
+          "decision": "out of market"
+        },
+        {
+          "requisition": "174814",
+          "location": "London, UK",
+          "status": "aggregator active to inactive; official page still readable",
+          "decision": "out of market"
+        }
+      ]
+    }
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "substantiveListingChangesReviewed": 7,
+    "texasRelatedSubstantiveChanges": 0,
+    "newlyQualified": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "record": "Guidehouse — Border Security AI/ML Engineer",
+      "decision": "out of market",
+      "reason": "Sterling, Virginia; aggregator changed active to inactive"
+    },
+    {
+      "record": "ByteDance — Research Scientist",
+      "decision": "out of market",
+      "reason": "San Jose, California; PhD role"
+    },
+    {
+      "record": "Goldman Sachs — 176151 Quantitative Strategist Associate",
+      "decision": "out of market",
+      "reason": "New York, New York"
+    },
+    {
+      "record": "Goldman Sachs — 171570 Engineering New Analyst",
+      "decision": "out of market",
+      "reason": "Salt Lake City, Utah; aggregator changed active to inactive"
+    },
+    {
+      "record": "Goldman Sachs — 171569 Engineering New Analyst",
+      "decision": "out of market",
+      "reason": "New York, New York; aggregator changed active to inactive"
+    },
+    {
+      "record": "Goldman Sachs — 174814 Engineering Apprentice",
+      "decision": "out of market",
+      "reason": "London, United Kingdom; aggregator changed active to inactive"
+    },
+    {
+      "record": "Ascension — Data Analyst",
+      "decision": "out of market",
+      "reason": "Nashville, Tennessee"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "no verified qualifying Dallas/Austin new role and no verified status change to a tracked job"
+  },
+  "githubWrite": {
+    "jobData": "not attempted; no verified job-data change",
+    "audit": {
+      "path": "monitor-audit/2026-10-21T2129-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T01:17:24Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-21T2129-Texas.json"
+    ]
+  }
+}
