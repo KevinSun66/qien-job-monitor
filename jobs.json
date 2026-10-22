@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T23:21:43Z",
+  "updatedAt": "2026-10-22T10:20:22Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7955,6 +7955,40 @@
       "brandPlatform": "88/100 · healthcare data and procurement platform",
       "ryanUpgrade": "Not a clear upgrade: generic SWE scope and salary range overlap or underperform the Ryan baseline",
       "rejectionReason": "Core duties are generic enterprise application/backend engineering; AI is limited to coding-assistant usage, and compensation/platform do not clearly beat Ryan."
+    },
+    {
+      "company": "Welo Data (Welo Global)",
+      "tier": "C",
+      "area": "Austin, TX (also multiple U.S. cities)",
+      "market": "Austin",
+      "title": "Project Perseus | Speech & Voice AI Analyst - Arabic Speakers",
+      "employment": "Full-time W-2 · 100% onsite · 40 hours/week",
+      "gradYear": "Bachelor’s degree in a related field may substitute for 1 year of labeling/annotation/content experience",
+      "match": "Hard fail: native-level Arabic, no visa sponsorship, data-labeling execution role, compensation far below Ryan",
+      "ngCompatibility": "Education path can satisfy experience wording, but language, authorization and opportunity-cost gates fail",
+      "assessment": "官方Lever招聘页/职位列表确认Austin为可选onsite地点。工作主要是高吞吐量语音与语言数据的转录、分类、标注及质量一致性执行，属于AI训练数据运营而非Applied AI/ML engineering。岗位要求母语级阿拉伯语；$26–$28/小时（约$54,080–$58,240年化）；明确要求已有美国工作授权且不提供visa sponsorship。相对Ryan Associate Data Scientist的薪资、技术深度与长期身份路径均明显更差，归档排除。",
+      "visa": "Official listing: must be authorized to work in the U.S.; no visa sponsorship. The application also asks whether the candidate will now or in the future require employment-visa sponsorship. Rejected under the user's now-and-future authorization rule.",
+      "found": "2026-10-22",
+      "firstSeen": "2026-10-22",
+      "discoveredDate": "2026-10-22",
+      "discoveredAt": "2026-10-22T10:20:22Z",
+      "lastChecked": "2026-10-22",
+      "lastCheckedAt": "2026-10-22T10:20:22Z",
+      "source": "Welo Global official Lever careers listing; discovered through SimplifyJobs/New-Grad-Positions incremental feed",
+      "url": "https://jobs.lever.co/weloglobal/b5e7c38d-3456-4dd8-b232-710399dc0fdd/apply",
+      "status": "visa-direction-opportunity-cost-rejected",
+      "finalPriority": "不投 · 阿拉伯语母语硬门槛、无签证赞助、低薪数据标注",
+      "roleTrack": "Speech/Voice Data Labeling / AI Data Operations",
+      "technicalGrowth": "45/100",
+      "brandPlatform": "48/100",
+      "ryanUpgrade": "No · materially lower compensation and technical depth than Ryan; role is repetitive data labeling rather than model/agent engineering",
+      "compensation": "$26–$28/hour (official; approximately $54,080–$58,240 annualized at 40 hours/week)",
+      "officePerks": "100% onsite; Austin is one of several approved commute locations",
+      "jobId": "b5e7c38d-3456-4dd8-b232-710399dc0fdd",
+      "requiredLanguage": "Native-level Arabic",
+      "officialStatus": "Open on official Lever careers listing as of 2026-10-22",
+      "rejectionReason": "Native-level Arabic required; no visa sponsorship; role is AI data labeling rather than Applied AI/ML engineering; compensation and growth are materially below the Ryan baseline.",
+      "verificationFlags": []
     }
   ],
   "monitorAudit": [
