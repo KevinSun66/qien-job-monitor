@@ -1,0 +1,106 @@
+{
+  "checkedAt": "2026-10-22T05:17:44Z",
+  "checkedAtLocal": "2026-10-22T00:17:44-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "b8503f3100e6f7291e80eb9e0025b037c74e71ff",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f733341217d4ab04d79391b0f010a778d140aec5",
+      "updatedAt": "2026-10-21T23:21:43Z",
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-21T2339-Texas.json",
+      "blobSha": "a35728b19534a6c81792862be91dd2601988637a",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "f568e633d68634ba76d1972b7682f18692fb5229",
+      "currentHead": "68675691aa2864d301b61f75ef751d33528e2f46",
+      "commitsReviewed": [
+        "68675691aa2864d301b61f75ef751d33528e2f46"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobSha": "9c7b294ccd0edad149dcdef7bcd6a2a98b530e4b",
+      "readmeBlobSha": "e8a0d623302546ec4d4818b3d3b4a479eb79812c",
+      "result": "one upstream commit reviewed; comparison contained no changed files and both listings and README blobs were unchanged"
+    }
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 1,
+    "changedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "recordGroup": "upstream commit 68675691aa2864d301b61f75ef751d33528e2f46",
+      "decision": "no actionable change",
+      "reason": "empty commit relative to the previously reviewed head; no retained listing or README change"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "no verified qualifying new role and no verified status change to a tracked job"
+  },
+  "githubWrite": {
+    "jobData": "not attempted; no verified job-data change",
+    "audit": {
+      "path": "monitor-audit/2026-10-22T0017-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T04:40:10Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T0017-Texas.json"
+    ]
+  }
+}
