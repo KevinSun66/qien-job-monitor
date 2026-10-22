@@ -1,0 +1,154 @@
+{
+  "checkedAt": "2026-10-22T10:20:22Z",
+  "checkedAtLocal": "2026-10-22T05:20:22-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "b5510c5c6ea2fc3845024df42530144da574d32e",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "f733341217d4ab04d79391b0f010a778d140aec5",
+      "blobShaAfter": "f9c2605194caa560b59504ecd8573bd1a3bf2899",
+      "updatedAt": "2026-10-22T10:20:22Z",
+      "changed": true,
+      "commitSha": "bd4d7d075bdde1f910df1096416755c9f5ff2df9",
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T0409-Texas.json",
+      "blobSha": "5fdd4529892247f79cc873708cb855771c380a95",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "3514bb37bc05ece30dabb0f9b817f79184f22059",
+      "currentHead": "3b749b226981c1dedf7f88e360b0d18fca4f6c19",
+      "commitsReviewed": [
+        "5df619259f50f219cb7e9b54e25d154793036bc2",
+        "7881c92378c7cacdc8a3049e9c5f6b5dffe9ce25",
+        "54a4d748b4658e65255562bcc58e8f01e992df50",
+        "3b749b226981c1dedf7f88e360b0d18fca4f6c19"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobSha": "26e63c094688eeffd57b9e8b9151a3009757bcd7",
+      "readmeBlobSha": "bfe24766fb1f5d022b32ca7f5ddd06011bf04377",
+      "result": "four commits reviewed: three new listings, 21 upstream status transitions (including two same-hour reversals), and README presentation/status rendering updates"
+    },
+    "officialVerification": [
+      {
+        "record": "Welo Data — Project Perseus | Speech & Voice AI Analyst - Arabic Speakers",
+        "officialUrl": "https://jobs.lever.co/weloglobal/b5e7c38d-3456-4dd8-b232-710399dc0fdd/apply",
+        "result": "official Lever career listing and employer job index were live; Austin is an approved 100% onsite location; full-time W-2; $26–$28/hour; native-level Arabic required; 1 year relevant experience or a related bachelor's degree; U.S. work authorization required with no visa sponsorship"
+      },
+      {
+        "recordGroup": "Goldman Sachs status transitions",
+        "result": "official pages confirmed role 171570 is Salt Lake City, 171569 is New York, 176151 is New York, and 174814 is London; none is Dallas/Austin"
+      }
+    ]
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "changedRecordEventsReviewed": 24,
+    "uniqueChangedRecordsReviewed": 22,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 1,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "record": "Welo Data — Project Perseus | Speech & Voice AI Analyst - Arabic Speakers",
+      "location": "Austin, TX and other U.S. cities",
+      "change": "new active upstream listing",
+      "decision": "archive as rejected; do not notify",
+      "reason": "native-level Arabic required; official JD requires U.S. authorization and no visa sponsorship; duties are repetitive speech/voice data labeling rather than Applied AI/ML engineering; $26–$28/hour is materially below the Ryan benchmark"
+    },
+    {
+      "recordGroup": "PDF Solutions Field Applications Engineer; Sight Machine Platform Backend Engineer",
+      "locations": [
+        "Milpitas, CA",
+        "San Francisco, CA"
+      ],
+      "change": "new active upstream listings",
+      "decision": "out of market",
+      "reason": "neither is in Dallas/Austin; PDF Solutions is also hardware and requires a master's/PhD"
+    },
+    {
+      "recordGroup": "21 upstream active/inactive transitions",
+      "decision": "no tracked Texas job change",
+      "reason": "official/location checks showed the potentially relevant Goldman Sachs records were Salt Lake City, New York, or London; other transitions were also outside Dallas/Austin or hardware. No monitor-tracked job received a verified status change."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "addedRecords": [
+      "Welo Data (Welo Global) — Project Perseus | Speech & Voice AI Analyst - Arabic Speakers"
+    ],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "one verified new Austin record was archived as a permanent rejection to prevent duplicate recommendations; no qualifying table-2 role and no tracked-job status change"
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitSha": "bd4d7d075bdde1f910df1096416755c9f5ff2df9",
+      "blobSha": "f9c2605194caa560b59504ecd8573bd1a3bf2899",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-22T0520-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T09:09:46Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T0520-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-10-22T10:20:40Z"
+  }
+}
