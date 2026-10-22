@@ -1,0 +1,138 @@
+{
+  "checkedAt": "2026-10-22T13:36:12Z",
+  "checkedAtLocal": "2026-10-22T08:36:12-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "53aac374b29cfa1cbe68268ff7339a1c35e240c0",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "7572e1381d8df24dd588a81239078b2390f70c94",
+      "blobShaAfter": "7572e1381d8df24dd588a81239078b2390f70c94",
+      "updatedAt": "2026-10-22T13:06:30Z",
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T0806-Texas.json",
+      "blobSha": "bdebcbe596477ed73c0b925ebe2a43d555ac3e47",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "8792e78134afaff325435b05be188e4629538f98",
+      "currentHead": "e5b0e974fe3b8f286e2b17df8b688376d1b7acc0",
+      "commitsReviewed": [
+        "e5b0e974fe3b8f286e2b17df8b688376d1b7acc0"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobSha": "bba099a401aeb8274291eae69658dad60b0b2297",
+      "readmeBlobSha": "eec96c91888b9f5ac98343a6d7ba7afd4f1f3e83",
+      "result": "one commit reviewed: one Arizona RTX Software Engineer II reactivation and one new McKinney RTX electro-optics hardware listing"
+    },
+    "officialVerification": [
+      {
+        "record": "RTX / Raytheon — Electro-Optics Systems Engineer II (01880585)",
+        "officialUrl": "https://careers.rtx.com/global/en/job/01880585/Electro-Optics-Systems-Engineer-II-Onsite",
+        "result": "official RTX careers page is live and identifies an onsite McKinney engineering role; upstream record classifies it as Hardware, title is Electro-Optics Systems Engineer II, and degree metadata requires a master's, so it is outside the monitored Applied AI/ML/Data Science and undergraduate entry-level scope"
+      }
+    ]
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 2,
+    "uniqueChangedRecordsReviewed": 2,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "record": "RTX / Raytheon — Electro-Optics Systems Engineer II (01880585)",
+      "location": "McKinney, TX",
+      "change": "new active upstream listing",
+      "decision": "exclude; do not archive or notify",
+      "reason": "electro-optics systems hardware role, Engineer II level, and master's-degree metadata; outside Applied AI/ML/Data Science and Qien's undergraduate entry-level scope"
+    },
+    {
+      "record": "RTX / Raytheon — Software Engineer II (01866754)",
+      "location": "Tucson, AZ",
+      "change": "upstream inactive-to-active transition",
+      "decision": "out of market",
+      "reason": "Arizona location; not a tracked Dallas/Austin job"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "no verified qualifying new role and no tracked-job status change; the only new Texas listing was excluded hardware"
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not attempted",
+      "commitSha": null,
+      "blobSha": "7572e1381d8df24dd588a81239078b2390f70c94",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-22T0836-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": null
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T13:07:22Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T0836-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-10-22T13:07:22Z"
+  }
+}
