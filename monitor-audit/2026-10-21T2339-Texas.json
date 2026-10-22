@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-10-22T04:39:51Z",
+  "checkedAtLocal": "2026-10-21T23:39:51-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "a4d6676beb62003b24537fa58a5584f013e66a60",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f733341217d4ab04d79391b0f010a778d140aec5",
+      "updatedAt": "2026-10-21T23:21:43Z",
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-21T2219-Texas.json",
+      "blobSha": "e3ac3a2a73922a4ec45ed466101744e62cb17d6b",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "5242d78f288b9a97976ea894137cb260ac094a32",
+      "currentHead": "f568e633d68634ba76d1972b7682f18692fb5229",
+      "commitsReviewed": [
+        "005afc91ee3144831095498c9d832a9aad7b5c93",
+        "7aebc37f6119550f9bae699c03b8433185e00d4b",
+        "a7b1bcf3a4e6e2c9f194968de09535cca1a64e99",
+        "f568e633d68634ba76d1972b7682f18692fb5229"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobSha": "9c7b294ccd0edad149dcdef7bcd6a2a98b530e4b",
+      "readmeBlobSha": "e8a0d623302546ec4d4818b3d3b4a479eb79812c",
+      "result": "four commits reviewed; three roles changed from active to inactive, all outside Texas, and no new Dallas/Austin opening or tracked-job status change was found"
+    }
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "changedRecordsReviewed": 3,
+    "texasRelatedRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "recordGroup": "Amentum Entry Level Software Engineer; Oracle Application Software Engineer 2 - CDeX; Formlabs Electrical Engineer",
+      "change": "active to inactive upstream",
+      "decision": "out of market",
+      "reason": "all locations are outside Dallas/Austin; none is a tracked Texas Applied AI/ML/Data Science role"
+    },
+    {
+      "recordGroup": "two intermediate listing commits with no net file diff",
+      "decision": "no actionable change",
+      "reason": "commit comparison from the prior reviewed head shows no additional retained record changes"
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "no verified qualifying new role and no verified status change to a tracked job"
+  },
+  "githubWrite": {
+    "jobData": "not attempted; no verified job-data change",
+    "audit": {
+      "path": "monitor-audit/2026-10-21T2339-Texas.json",
+      "status": "pending verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false
+    },
+    "overallStatus": "pending verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T03:20:37Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-21T2339-Texas.json"
+    ]
+  }
+}
