@@ -1,0 +1,182 @@
+{
+  "checkedAt": "2026-10-23T17:46:10Z",
+  "checkedAtLocal": "2026-10-23T12:46:10-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "fd5e147c00436310acbb193a1a7ddd259ecdfe41",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "30a288f8068e53d16f2452eecb162fc853ca46c7",
+      "blobShaAfter": "b834042854e18daad231b328b4eec3901fb160eb",
+      "updatedAt": "2026-10-23T17:45:32Z",
+      "recordCountBefore": 231,
+      "recordCountAfter": 232,
+      "changed": true,
+      "commitSha": "5e88c0665b075f19bfa67443c5e6e2625d7872ce",
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T1206-Texas.json",
+      "blobSha": "f49a5b81478ffde43de74d0b2b31320746693c6e",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "3e5aa9cb76e9c27a3c12a72fe85cc8b86b040de3",
+      "previousRepositoryHead": "24d9ebb3d2676dc543c034447850bfab99b5b737",
+      "currentListingsCommit": "8d2451c690d5b18ab8421d77997d3cd365317f71",
+      "currentRepositoryHead": "dc9017481cf5998201da499a7092bc82c9d6f274",
+      "listingsCommitsReviewed": [
+        "8d2451c690d5b18ab8421d77997d3cd365317f71"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "f99cbacdbb66a7c82e7b1604c83a16a2a585b60f",
+      "listingsBlobShaAfter": "16bed960aa35d915fd62194b605e0ebff1b581f8",
+      "result": "One listings commit produced 17 record-change events: 12 additions and 5 inactive signals. One Dallas-related record was reviewed."
+    },
+    "reviewedRecords": [
+      {
+        "company": "RSM",
+        "jobId": "JR122103",
+        "sourceListingId": "ed5d8236-8fcb-4304-a50f-c4acfdd5f275",
+        "title": "AI Machine Learning Engineer",
+        "market": "Dallas plus six other locations",
+        "upstreamChange": "new active record",
+        "result": "Official RSM page displayed Apply and confirmed entry-level AI/ML duties and $102,800–$176,000 compensation. The page explicitly excludes entry-level candidates requiring sponsorship now or in the future and names F-1 visa holders. Archived as a hard work-authorization rejection."
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "RSM",
+        "jobId": "JR122103",
+        "url": "https://rsm.wd1.myworkdayjobs.com/RSMCareers/job/Chicago/AI-Machine-Learning-Engineer_JR122103",
+        "checkedAt": "2026-10-23T17:45:32Z",
+        "status": "Apply displayed; Posted Today",
+        "experience": "1–2 years in ML/data science/software development; internships or academic projects acceptable",
+        "location": "Dallas among seven listed locations; hybrid workstyle",
+        "authorization": "RSM does not intend to hire entry-level candidates requiring sponsorship now or in the future and explicitly identifies F-1 visa holders",
+        "duties": "ML model development/testing; dataset preprocessing; production integration; experiments/evaluation; MLOps awareness; foundational deep learning/NLP/CV",
+        "compensation": "$102,800–$176,000 plus discretionary bonus",
+        "decision": "Hard visa rejection; archived; not added to Table 2."
+      }
+    ],
+    "verificationNote": "All other additions were outside Dallas/Austin or excluded functions; no tracked status change was confirmed."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 17,
+    "uniqueChangedRecordsReviewed": 17,
+    "inactiveSignalsReviewed": 5,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 12,
+    "removedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 1,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 1
+  },
+  "screeningResults": [
+    {
+      "jobId": "JR122103",
+      "decision": "visa-rejected",
+      "reason": "Official JD explicitly excludes entry-level candidates requiring sponsorship now or in the future, including F-1 visa holders."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "updatedRecords": [],
+    "addedRecords": [
+      "RSM JR122103 — visa-rejected"
+    ],
+    "jdArchivesAdded": [
+      "job-archive/rsm/JR122103/job-description.md"
+    ],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "A verified new Dallas AI/ML role was permanently archived as excluded because of explicit F-1/sponsorship language; no actionable Table 2 role."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitSha": "5e88c0665b075f19bfa67443c5e6e2625d7872ce",
+      "blobSha": "b834042854e18daad231b328b4eec3901fb160eb",
+      "readbackVerified": true
+    },
+    "archives": [
+      {
+        "path": "job-archive/rsm/JR122103/job-description.md",
+        "status": "synced",
+        "commitSha": "db3b4762819097dff1a797ac9cab74637dfd8cb6",
+        "blobSha": "89c6407c506e1296f7e4f51a90aafc47f105b1f3",
+        "readbackVerified": true
+      }
+    ],
+    "audit": {
+      "path": "monitor-audit/2026-10-23T1246-Texas.json",
+      "status": "pending-readback",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-readback",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T17:07:14Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T1246-Texas.json final readback"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T17:46:01Z"
+  }
+}
