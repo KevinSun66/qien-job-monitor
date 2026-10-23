@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-23T00:15:14Z",
+  "checkedAtLocal": "2026-10-22T19:15:14-05:00",
+  "timezone": "America/Chicago",
+  "repository": {
+    "name": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "77f5c3ed7d6852a9c07646c7c3bedbc234112f28"
+  },
+  "baseline": {
+    "previousAuditPath": "monitor-audit/2026-10-22T1902-Texas.json",
+    "previousAuditBlobSha": "86190208ad167e36a1b6c6c45ff877fd0b980f7d",
+    "previousAuditStatus": "synced",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T00:02:51Z"
+  },
+  "sourceState": {
+    "previous": {
+      "upstreamHead": "28008a1bf11059c3868416bb9d410fdbb8a0ee4c",
+      "listingsCommit": "a6d69a4e63778ccae916990bf9e560cd67df3f9f",
+      "listingsBlobSha": "01f8ae2943b02aae468b3f18decc7990a39a4d76",
+      "readmeBlobSha": "5aadd5a488df6b776cd8aad2a184e7e0b593778d"
+    },
+    "current": {
+      "upstreamHead": "28008a1bf11059c3868416bb9d410fdbb8a0ee4c",
+      "listingsCommit": "a6d69a4e63778ccae916990bf9e560cd67df3f9f",
+      "listingsBlobSha": "01f8ae2943b02aae468b3f18decc7990a39a4d76",
+      "readmeBlobSha": "5aadd5a488df6b776cd8aad2a184e7e0b593778d"
+    },
+    "upstreamCommitsReviewed": 0,
+    "listingsCommitsReviewed": 0,
+    "commitsReviewed": [],
+    "listingsCommitDetails": []
+  },
+  "repositoryChecks": {
+    "jobsJson": {
+      "path": "jobs.json",
+      "blobShaBefore": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "blobShaAfter": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "updatedAt": "2026-10-22T23:07:41Z",
+      "recordCount": 227,
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "dallasPage": {
+      "blobShaBefore": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "blobShaAfter": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "changed": false,
+      "readbackVerified": true
+    },
+    "austinPage": {
+      "blobShaBefore": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "blobShaAfter": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "changed": false,
+      "readbackVerified": true
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "verification": "GitHub API returned 404; no workflow directory is present",
+      "pagesDeploymentTreatedAsJobCollector": false
+    }
+  },
+  "counts": {
+    "changedRecordEventsReviewed": 0,
+    "uniqueChangedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "archivedExclusions": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screening": {
+    "result": "No upstream changes since the prior verified audit; no new or changed candidate required JD screening.",
+    "criteriaPreserved": [
+      "Dallas/Austin",
+      "start after May 2027",
+      "0-2 years with no stated minimum of 1+ years",
+      "F-1 OPT/STEM OPT compatible",
+      "not citizen/green-card-only",
+      "exclude hardware/embedded/firmware",
+      "company exclusion list",
+      "clear improvement over Ryan Associate Data Scientist baseline",
+      "preserve application status and JD archive"
+    ]
+  },
+  "dataChanges": {
+    "jobsJson": false,
+    "dallasPage": false,
+    "austinPage": false,
+    "applicationStatusesPreserved": true,
+    "jdArchivesPreserved": true
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitSha": null,
+      "blobSha": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "contentShaBeforeFinalization": null,
+      "readbackVerified": false,
+      "syncedAt": null,
+      "note": "Final commit SHA cannot be self-recorded in the same file; repository head and file content will be verified after finalization."
+    },
+    "overallStatus": "pending",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T1915-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T00:02:51Z"
+  }
+}
