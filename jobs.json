@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T06:45:31Z",
+  "updatedAt": "2026-10-23T11:44:31Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8240,6 +8240,53 @@
       "archiveUrl": "job-archive/southwest-airlines/R-2026-73737/job-description.md",
       "archiveLabel": "JD 快照",
       "statusChangedAt": "2026-10-23T06:45:31Z"
+    },
+    {
+      "company": "Kyndryl",
+      "tier": "A+",
+      "area": "Frisco / Dallas, TX",
+      "market": "DFW",
+      "title": "Forward Deployed Engineer (R-68529)",
+      "jobId": "R-68529",
+      "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Dallas-USDALFRI-Frisco-AI-HUB/Forward-Deployed-Engineer_R-68529",
+      "status": "eligibility-verification",
+      "found": "2026-10-23",
+      "discoveredDate": "2026-10-23",
+      "discoveredAt": "2026-10-23T11:44:31Z",
+      "firstSeen": "2026-10-23",
+      "lastChecked": "2026-10-23",
+      "lastCheckedAt": "2026-10-23T11:44:31Z",
+      "employment": "Full-time · Early Career · Partially Remote · Hybrid 3 days onsite",
+      "gradYear": "Early career; no numeric minimum professional years stated; post-May-2027 start not disclosed",
+      "match": "Very high technical fit · eligibility pending",
+      "ngCompatibility": "Experience gate appears compatible; 2027 start, OPT/STEM OPT and live status require verification",
+      "assessment": "The indexed official Kyndryl JD describes an early-career, production-focused Forward Deployed Engineer building, prototyping and deploying AI-enabled enterprise solutions. Duties and skills span Python, data processing, AI/ML frameworks, agentic/GenAI systems, cloud deployment, performance/security and customer-facing delivery. The official page displayed Apply at capture time, while the upstream discovery feed changed the role to inactive; closure is therefore not confirmed. Do not recommend until status, post-May-2027 start timing and OPT/STEM OPT compatibility are verified.",
+      "visa": "The reviewed official/indexed JD did not disclose F-1 OPT/STEM OPT or current/future sponsorship policy. Do not infer policy from other Kyndryl requisitions.",
+      "compensation": "$73,440–$139,680 U.S. base for full time (official) + discretionary annual bonus + benefits",
+      "officePerks": "Frisco AI HUB · hybrid 3 days onsite · travel/customer premises as required",
+      "officialLocations": [
+        "Dallas (USDALFRI) Frisco AI HUB"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "At 2026-10-23T11:44:31Z the indexed official Kyndryl page displayed Apply and Posted 8 Days Ago. A public Rice career mirror listed an October 14, 2026 recruitment date, November 19, 2026 expiration, and rolling review. SimplifyJobs changed active to inactive in commit af71a5915226eb322badca8a4dfccc65fcae6be8, so live status remains under verification rather than being marked closed.",
+      "source": "Kyndryl official Workday JD; Rice University public career mirror; SimplifyJobs status-change signal",
+      "officialSource": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Dallas-USDALFRI-Frisco-AI-HUB/Forward-Deployed-Engineer_R-68529",
+      "statusChangeSource": "SimplifyJobs/New-Grad-Positions commit af71a5915226eb322badca8a4dfccc65fcae6be8",
+      "verificationFlags": [
+        "status-verification",
+        "visa-verification",
+        "start-date-verification",
+        "ryan-upgrade-verification"
+      ],
+      "finalPriority": "待核验 · 不进入表2",
+      "roleTrack": "Forward Deployed Engineering / Applied AI / Agentic AI / GenAI / Production AI",
+      "technicalGrowth": "96/100 potential",
+      "brandPlatform": "88/100 potential",
+      "ryanUpgrade": "Potential technical and compensation upside, but not confirmed until status, post-May-2027 start and OPT/STEM OPT eligibility are verified.",
+      "rejectionReason": null,
+      "archiveUrl": "job-archive/kyndryl/R-68529/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-10-23T11:44:31Z"
     }
   ],
   "monitorAudit": [
