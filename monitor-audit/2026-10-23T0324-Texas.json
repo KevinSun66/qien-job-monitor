@@ -1,0 +1,171 @@
+{
+  "checkedAt": "2026-10-23T08:24:13Z",
+  "checkedAtLocal": "2026-10-23T03:24:13-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "042c6a792e0e38e195cd66d295863f65eb4d88ff",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "5cc7d7473fff0eb1b90e430c085a321d32b1cbda",
+      "blobShaAfter": "5cc7d7473fff0eb1b90e430c085a321d32b1cbda",
+      "updatedAt": "2026-10-23T06:45:31Z",
+      "recordCount": 228,
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T0209-Texas.json",
+      "blobSha": "1b5ed325e3e5cd3780f53ac7cc0ed7a226e4618e",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "939a5011421035aff3d6b493b2c1f91f9c215a53",
+      "previousRepositoryHead": "12ff1a4d642133dc8bb34fbabbf4cdf6f34a8d2c",
+      "currentListingsCommit": "d7761bfaf000fde941a4888a08a5be27241a66bf",
+      "currentRepositoryHead": "1ff7da7ad59703e791c42b3bf17b31c6b34e8416",
+      "commitsReviewed": [
+        "73a2e02ef0a1296f2daf1432e87769d0a1673e6c",
+        "38133c16b0e038a2a74d369674934201d4b81da3",
+        "d7761bfaf000fde941a4888a08a5be27241a66bf",
+        "1ff7da7ad59703e791c42b3bf17b31c6b34e8416"
+      ],
+      "listingsCommitsReviewed": [
+        "73a2e02ef0a1296f2daf1432e87769d0a1673e6c",
+        "d7761bfaf000fde941a4888a08a5be27241a66bf"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "0c962868494fd13ef5502652508992091f8f3819",
+      "listingsBlobShaAfter": "77fde88f1ba02a9f6e0e3f30f4e6d305171ab306",
+      "readmeBlobShaAfter": "3a779b4b012da706a78df4a9f68ba55e81553687",
+      "result": "Two listings commits removed 22 stale aggregator records and added or reactivated none. Two removed records were in Frisco/Plano; neither was an Applied AI/ML/Data Science candidate."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Proximate Technologies",
+        "jobId": "524e8882-51b0-4631-baf4-fd747567d5c4",
+        "title": "Java Developer",
+        "market": "Frisco, TX",
+        "upstreamChange": "record removed from aggregator (previously active)",
+        "result": "generic Java role, not Applied AI/ML/DS; removal alone is not an official status signal and no tracked record changed"
+      },
+      {
+        "company": "Proximate Technologies",
+        "jobId": "5c8636dd-9a87-4f4e-b8d5-4feb37823af0",
+        "title": ".NET",
+        "market": "Plano, TX",
+        "upstreamChange": "stale inactive record removed from aggregator",
+        "result": "generic .NET role, not Applied AI/ML/DS; no tracked record changed"
+      },
+      {
+        "company": "The Home Depot",
+        "jobId": "e6db640b-7d58-457c-92c2-dad2a03d7821",
+        "title": "Data Analyst — Supply Chain",
+        "market": "Atlanta, GA",
+        "upstreamChange": "stale inactive record removed from aggregator",
+        "result": "outside Texas monitoring scope"
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "No new active, reactivated, or tracked Dallas/Austin Applied AI/ML/Data Science candidate required official JD verification."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 22,
+    "uniqueChangedRecordsReviewed": 22,
+    "inactiveOrRemovedSignalsReviewed": 22,
+    "newActiveRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 2,
+    "dallasAustinOrAdjacentRecordsReviewed": 2,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "jobId": "524e8882-51b0-4631-baf4-fd747567d5c4",
+      "decision": "out-of-scope-function",
+      "reason": "Generic Java Developer; not Applied AI/ML/Data Science."
+    },
+    {
+      "jobId": "5c8636dd-9a87-4f4e-b8d5-4feb37823af0",
+      "decision": "out-of-scope-function",
+      "reason": "Generic .NET role and already inactive before aggregator cleanup."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "No verified new candidate or tracked-status change; upstream only removed stale/unrelated records."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitSha": null,
+      "blobSha": "5cc7d7473fff0eb1b90e430c085a321d32b1cbda",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-23T0324-Texas.json",
+      "status": "pending-readback-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-readback-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T07:09:52Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T0324-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T07:09:52Z"
+  }
+}
