@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T22:34:16Z",
+  "updatedAt": "2026-10-23T22:34:53Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8464,6 +8464,42 @@
       "rejectionReasons": [
         "minimum-experience-1-plus",
         "embedded-firmware-direction",
+        "no-ryan-upgrade"
+      ]
+    },
+    {
+      "company": "GlobalFoundries",
+      "tier": "A",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "CPU IP Design & Verification Engineer – RISC-V (2027 New College Graduate) (JR-2604136)",
+      "employment": "Full-time · 2027 New College Graduate",
+      "gradYear": "2027 New College Graduate · Bachelor's/Master's/PhD",
+      "match": "Rejected · hardware/semiconductor direction",
+      "ngCompatibility": "New-grad eligible but outside target function",
+      "assessment": "Official GlobalFoundries page is open with Apply and was posted 2026-10-23. The role designs and verifies RISC-V CPU microarchitecture and SystemVerilog RTL, including simulations, functional coverage, PPA analysis, FPGA/ASIC and processor-design work. Python/C++ automation and an interest in AI-assisted engineering are supporting tools, not Applied AI/ML/Data Science responsibilities. It is therefore a hard hardware/semiconductor exclusion under Qien's rules despite strong new-grad timing, Austin location and compensation.",
+      "visa": "Official JD does not state F-1 OPT/STEM OPT or sponsorship policy; not pursued because the role is already a hard function exclusion.",
+      "found": "2026-10-23",
+      "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/CPU-IP-Design---Verification-Engineer---RISC-V--2027-New-College-Graduate-_JR-2604136",
+      "status": "direction-rejected",
+      "finalPriority": "Do not apply · CPU/RTL/ASIC hardware direction",
+      "roleTrack": "CPU IP / RISC-V / RTL Design & Verification / Semiconductor Hardware",
+      "technicalGrowth": "High for CPU hardware, outside target track",
+      "brandPlatform": "Strong semiconductor platform",
+      "ryanUpgrade": "No for Qien's Applied AI/ML/DS target",
+      "compensation": "$86,000–$170,000 expected salary range (official)",
+      "officePerks": "Austin, TX or Santa Clara, CA · Full time",
+      "jobId": "JR-2604136",
+      "startDate": "2027 new college graduate program",
+      "officialStatus": "Open; official Workday page displayed Apply and Posted Today on 2026-10-23.",
+      "lastChecked": "2026-10-23",
+      "lastCheckedAt": "2026-10-23T22:34:53Z",
+      "verificationFlags": [],
+      "upstreamRecordId": "92f2074e-37f6-48ca-bdea-29c9371925f0",
+      "upstreamAddedCommit": "c78b66cdfc468902d1f00de063b41a39c3b5eeda",
+      "rejectionReasons": [
+        "hardware-semiconductor-direction",
+        "no-applied-ai-ml-ds-core",
         "no-ryan-upgrade"
       ]
     }
