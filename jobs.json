@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T13:01:39Z",
+  "updatedAt": "2026-10-23T17:05:49Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8334,6 +8334,46 @@
       "archiveUrl": "job-archive/ernst-young/1741172/job-description.md",
       "archiveLabel": "JD 归档摘要",
       "archivedAt": "2026-10-23T13:01:39Z"
+    },
+    {
+      "company": "R1 RCM",
+      "tier": "A-",
+      "area": "Remote, USA (NYC hybrid preferred)",
+      "market": "Remote / Texas eligibility unverified",
+      "title": "Software Engineer - ML Ops (R37)",
+      "employment": "Full-time · Remote USA · R37 AI Lab · L2–Staff",
+      "gradYear": "Not a campus/new-grad role; official leveling starts at L2 and requires production MLOps ownership",
+      "match": "Very high technical relevance; experience/level and location fit fail",
+      "ngCompatibility": "Fail · L2 must independently own a complete end-to-end project and the required skills assume prior production ML operations",
+      "assessment": "R1官方职位页仍显示Apply。岗位负责Phare ML栈的生产运行时，包括GPU模型部署与服务、批流推理、渐进式发布、SLO、漂移/回归可观测性、Terraform、Kubernetes、CI/CD、模型注册与重训练治理。薪资和技术范围显著高于Ryan，但官方层级从L2到Staff，L2也要求独立完成端到端项目；必备条件要求已经在生产环境部署和运营GPU模型及大规模ML系统。该岗位不是2027新卒入口，并偏好纽约SOHO每周3天混合办公，因此不符合Qien的0–2年Texas入口规则，归档排除以避免重复推荐。",
+      "visa": "Official JD does not disclose OPT/STEM OPT or sponsorship terms; not needed for final decision because experience/level and preferred NYC hybrid requirements already fail.",
+      "found": "2026-10-23",
+      "firstSeen": "2026-10-23",
+      "discoveredDate": "2026-10-23",
+      "discoveredAt": "2026-10-23T17:05:49Z",
+      "lastChecked": "2026-10-23",
+      "lastCheckedAt": "2026-10-23T17:05:49Z",
+      "source": "R1 RCM official careers page and Workday application; discovered through SimplifyJobs/New-Grad-Positions commit 226314911ca5fce60649322c3c699750771deced",
+      "sourceListingId": "ab1c9134-c407-4e0a-8adc-34b305b02505",
+      "url": "https://www.r1rcm.com/careers/jobs/software-engineer-ml-ops-r37",
+      "applyUrl": "https://r1rcm.wd1.myworkdayjobs.com/en-US/R1RCM/job/Software-Engineer---ML-Ops--R37-_R260000007542",
+      "status": "experience-level-location-rejected",
+      "finalPriority": "不投 · 非新卒，L2–Staff生产级MLOps要求，且偏好NYC hybrid",
+      "roleTrack": "MLOps / ML Platform / Production ML Reliability",
+      "technicalGrowth": "97/100",
+      "brandPlatform": "84/100",
+      "ryanUpgrade": "Yes in compensation and technical scope if attainable, but the role is not entry-level and is not a verified Texas-based 2027 start opportunity",
+      "compensation": "$140,000–$270,000 U.S. base (official general range); L2 $140,000–$200,000; 10% target annual bonus",
+      "officePerks": "Remote USA listing; official JD prefers hybrid 3 days onsite at NYC SOHO hub; flexible PTO, health benefits and 401(k) match",
+      "jobId": "R260000007542",
+      "officialStatus": "Official R1 careers page displayed Apply on 2026-10-23; SimplifyJobs changed the record to inactive in commit 226314911ca5fce60649322c3c699750771deced, so closure is not confirmed.",
+      "rejectionReason": "Official leveling is L2–Staff and required skills assume hands-on production GPU model deployment, platform engineering and end-to-end MLOps ownership. It is not a 0–2-year/new-grad role; NYC hybrid is preferred and Texas eligibility/start timing are not established.",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "archiveUrl": "job-archive/r1-rcm/R260000007542/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-10-23T17:05:49Z"
     }
   ],
   "monitorAudit": [
