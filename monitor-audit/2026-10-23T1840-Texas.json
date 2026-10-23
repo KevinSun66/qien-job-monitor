@@ -1,0 +1,212 @@
+{
+  "checkedAt": "2026-10-23T23:40:48Z",
+  "checkedAtLocal": "2026-10-23T18:40:48-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark or a verified material status change to a tracked role"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "dd40f921de852ee4b3d8fdeb9869ad78f6242df3",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "blobShaAfter": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "updatedAt": "2026-10-23T22:34:53Z",
+      "recordCountBefore": 234,
+      "recordCountAfter": 234,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T1734-Texas.json",
+      "blobSha": "b278b5a35f2c69018c4c466b528f76bb90cb99b7",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "c78b66cdfc468902d1f00de063b41a39c3b5eeda",
+      "previousRepositoryHead": "3fd7258259bff5341dd38bf03869d7486edd3ed5",
+      "currentListingsCommit": "34a8c9d8c8f281d23260d1f1ec68d27952c6b664",
+      "currentRepositoryHead": "971a958c67477b51f0af6736fc4c4044be303f38",
+      "listingsCommitsReviewed": [
+        "7603e1c700aefbe1fd19dd86ceeda0b8c5efd44c",
+        "34a8c9d8c8f281d23260d1f1ec68d27952c6b664"
+      ],
+      "readmeCommitsReviewed": [
+        "4bd50fedb018fd61faf8c9e23e0558626d0d5832",
+        "971a958c67477b51f0af6736fc4c4044be303f38"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "0f2e50e67461dce9c3373d5ec65939838c5d787d",
+      "listingsBlobShaAfter": "a4be1950aebaeeeb5a21e82b90bef4b849d29f3e",
+      "result": "Two listings commits were reviewed: 2 active→inactive events, 3 inactive→active events, 19 newly added active records, and 43 old inactive records removed. Four Dallas/Austin-adjacent events were screened. Goldman Sachs 171568 received an upstream inactive signal, but the official Goldman page remained live with Apply and full program content, so no tracked-job change was made. Two Citi Irving 2027 technology roles were non-target application-development/cybersecurity roles; Dell Austin AI Performance Test Technician was hardware/test direction. No qualified Ryan upgrade was found."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171568",
+        "title": "2027 | Americas | Dallas Metro Area | Engineering | New Analyst",
+        "market": "Dallas",
+        "upstreamChange": "active true → false",
+        "result": "Official page was indexed today and still displayed Apply plus the full New Analyst program. The upstream inactive signal was rejected as unconfirmed; the tracked record remains current and unchanged."
+      },
+      {
+        "company": "Citi",
+        "jobId": "261004387",
+        "title": "Technology, Application Development, Full Time Analyst, Irving — USA, 2027",
+        "market": "Irving, TX",
+        "upstreamChange": "new active record",
+        "result": "Non-target generic application-development analyst role; no verified Applied AI/ML/Data Science core or clear Ryan upgrade. Not added."
+      },
+      {
+        "company": "Citi",
+        "jobId": "26999831",
+        "title": "Technology, Cyber Security, Full Time Analyst, Irving 2027",
+        "market": "Irving, TX",
+        "upstreamChange": "new active record",
+        "result": "Cybersecurity role outside the monitored Applied AI/ML/Data Science function. Not added."
+      },
+      {
+        "company": "Dell Technologies",
+        "jobId": "300880",
+        "title": "AI Performance Test Technician",
+        "market": "Austin, TX",
+        "upstreamChange": "new active record",
+        "result": "Upstream category is Hardware and title/duties direction is AI system performance test technician, excluded under the hardware/test rule. Not added."
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171568",
+        "url": "https://higher.gs.com/roles/171568",
+        "checkedAt": "2026-10-23T23:40:48Z",
+        "status": "Official page indexed today; Apply and complete program/application text displayed",
+        "location": "Dallas, TX",
+        "experience": "Final-year undergraduate or graduate student; no full-time experience minimum",
+        "authorization": "Official page does not disclose OPT/STEM OPT or sponsorship; existing visa-verification remains",
+        "duties": "Engineering New Analyst program covering scalable systems, big data, machine learning and financial engineering; exact team remains unassigned",
+        "decision": "Keep current; do not accept the aggregator inactive flag as a verified closure."
+      }
+    ],
+    "verificationNote": "No official status change and no newly qualified role. Aggregator-only closure signal for Goldman Sachs 171568 was contradicted by the official page."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 67,
+    "uniqueChangedRecordsReviewed": 67,
+    "inactiveSignalsReviewed": 2,
+    "reactivatedRecordsReviewed": 3,
+    "newActiveRecordsReviewed": 19,
+    "removedRecordsReviewed": 43,
+    "texasRelatedRecordsReviewed": 4,
+    "dallasAustinOrAdjacentRecordsReviewed": 4,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "jobId": "171568",
+      "decision": "confirmed-active-no-change",
+      "reason": "Official Goldman page remains live with Apply and full program content; upstream inactive signal not accepted."
+    },
+    {
+      "jobId": "261004387",
+      "decision": "non-target-rejected",
+      "reason": "Generic application development, not verified Applied AI/ML/Data Science."
+    },
+    {
+      "jobId": "26999831",
+      "decision": "non-target-rejected",
+      "reason": "Cybersecurity, outside target function."
+    },
+    {
+      "jobId": "300880",
+      "decision": "direction-rejected",
+      "reason": "Hardware-category AI performance test technician role in Austin."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified new qualifying role and no official status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-23T1840-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T22:35:45Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T1840-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T22:35:45Z"
+  }
+}
