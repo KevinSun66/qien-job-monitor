@@ -1,0 +1,271 @@
+{
+  "checkedAt": "2026-10-23T13:01:39Z",
+  "checkedAtLocal": "2026-10-23T08:01:39-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "d4ee65a4390f84f9652066e86db1cdbfadaa231b",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "9785fbb05d0c46e987043fd9f5dd0deb79a78bb3",
+      "blobShaAfter": "d41d32eaef04750ce8485034ca3f4366cb6f4849",
+      "updatedAt": "2026-10-23T13:01:39Z",
+      "recordCountBefore": 229,
+      "recordCountAfter": 230,
+      "changed": true,
+      "commitSha": "ea0fbbb97a0f828eda0041492514fba259f7eb4c",
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T0644-Texas.json",
+      "blobSha": "05dbeb0acb1e56dc4b2c770000dfb45d2e4fdfd5",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "af71a5915226eb322badca8a4dfccc65fcae6be8",
+      "previousRepositoryHead": "b1acc0c9e20dc9d962dae56be2ec7084ab32efa9",
+      "currentListingsCommit": "cc1e2b8cedf28f6891196854bbca8b877c0ef9fc",
+      "currentRepositoryHead": "8c32efceeea3dff8d7eab5322adc8f25ef6ebee2",
+      "listingsCommitsReviewed": [
+        "ebee01463b1ea64b917f62fc36511f206a30f626",
+        "fc5aa76913415359fda7cbe606799b7f8e2897f4",
+        "cc1e2b8cedf28f6891196854bbca8b877c0ef9fc"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "3dabe8a1aae98e721249770c5f8c623f8fa4bf0d",
+      "listingsBlobShaAfter": "666fef4df66e4232b29285ce70fcbe653d838f6e",
+      "readmeBlobShaAfter": "5b850c67cf02c2f32a1b1683b5a57a2c64496d69",
+      "result": "Three listings commits produced 87 record-change events: 38 additions, 13 reactivations and 36 inactive signals. Eleven Texas-related changes were reviewed."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Ernst & Young",
+        "jobId": "1741172",
+        "title": "USA Tax Technology and Transformation Products Analyst",
+        "market": "Dallas, TX / New York, NY",
+        "upstreamChange": "new active record",
+        "result": "Official page displayed Apply. Archived as excluded because the JD requires work authorization without employer sponsorship now and in the future; the tax-product/automation scope and $78K–$100K base do not clearly improve on Ryan for Applied AI/ML/DS."
+      },
+      {
+        "company": "Caris Life Sciences",
+        "jobId": "JR104962",
+        "title": "Data Scientist — Innovation — PhD",
+        "market": "Irving, TX",
+        "upstreamChange": "active true → false",
+        "result": "Direct official page was not text-readable and no current official search result confirmed closure. Title/URL identifies a PhD role, outside Qien's bachelor-entry target. Not added and no closure claimed."
+      },
+      {
+        "company": "Intel",
+        "jobId": "JR0281596",
+        "title": "CPU Performance Architect",
+        "market": "Austin, TX",
+        "upstreamChange": "active true → false",
+        "result": "CPU architecture/hardware direction; aggregator inactive was not treated as a verified tracked-status change."
+      },
+      {
+        "company": "Texas Instruments",
+        "jobIds": [
+          "25017552",
+          "25017554",
+          "25017931",
+          "25017580"
+        ],
+        "titles": [
+          "Digital IC Design Engineer",
+          "Career Accelerator Program — Design Verification Engineer",
+          "Data Scientist — Digital Experience Analytics",
+          "Test & Validation Engineer — Product Engineering"
+        ],
+        "markets": [
+          "Dallas, TX"
+        ],
+        "upstreamChanges": [
+          "three new records",
+          "one active true → false"
+        ],
+        "result": "User-level company exclusion remains active; no discovery, recommendation or notification action. Hardware roles would also fail the function gate."
+      },
+      {
+        "company": "RTX",
+        "jobId": "01871535",
+        "title": "Power & Analog Design Electrical Engineer II",
+        "market": "McKinney, TX",
+        "upstreamChange": "active true → false",
+        "result": "Hardware/electrical role; outside target and not a tracked candidate."
+      },
+      {
+        "company": "Watts Water",
+        "jobId": "10017482",
+        "title": "Product Specialist",
+        "market": "Fort Worth, TX",
+        "upstreamChange": "active true → false",
+        "result": "Product role outside Applied AI/ML/Data Science; not a tracked candidate."
+      },
+      {
+        "company": "GlobalFoundries",
+        "jobId": "JR-2600733",
+        "title": "Emulation Engineer New Grad",
+        "market": "Richardson, TX",
+        "upstreamChange": "active true → false",
+        "result": "Semiconductor/hardware direction; excluded."
+      },
+      {
+        "company": "Sierra Nevada Corporation",
+        "jobId": "R0029492",
+        "title": "Military Fellowship Program — Software Engineer",
+        "market": "Fort Worth, TX",
+        "upstreamChange": "new active record",
+        "result": "Military fellowship rather than open 2027 Applied AI/ML/DS entry path; excluded."
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Ernst & Young",
+        "jobId": "1741172",
+        "officialUrl": "https://eyglobal.yello.co/jobs/OkYiCxMUcwvD2VbChlun9Q?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+        "verifiedAt": "2026-10-23T13:01:39Z",
+        "status": "Official Yello page displayed Apply",
+        "locations": [
+          "Dallas, TX",
+          "New York, NY"
+        ],
+        "experience": "Degree-level campus analyst route; no numeric professional-experience minimum stated",
+        "duties": "Tax-technology product support, process automation, requirements, feature testing, project delivery, reporting/data analysis and AI/ML business-case exploration",
+        "workAuthorization": "Must be legally authorized without employer sponsorship now and in the future",
+        "compensation": "$78,000–$100,000 U.S. base",
+        "conclusion": "Hard work-authorization exclusion; role direction and compensation do not establish a clear Ryan upgrade."
+      },
+      {
+        "company": "Kyndryl",
+        "jobId": "R-68529",
+        "officialUrl": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Dallas-USDALFRI-Frisco-AI-HUB/Forward-Deployed-Engineer_R-68529",
+        "verifiedAt": "2026-10-23T13:01:39Z",
+        "status": "Official indexed page still displayed Apply and Posted 8 Days Ago",
+        "conclusion": "No status change; visa and post-May-2027 start remain unresolved, so eligibility-verification status is unchanged."
+      }
+    ]
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 6,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 87,
+    "uniqueChangedRecordsReviewed": 87,
+    "inactiveSignalsReviewed": 36,
+    "reactivatedRecordsReviewed": 13,
+    "newActiveRecordsReviewed": 38,
+    "removedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 11,
+    "dallasAustinOrAdjacentRecordsReviewed": 11,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 1,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "jobId": "1741172",
+      "decision": "work-authorization-direction-opportunity-cost-rejected",
+      "reason": "Official now-and-future no-sponsorship requirement is incompatible with the monitored F-1 OPT/STEM OPT path; tax-product support and compensation do not clearly beat Ryan."
+    },
+    {
+      "jobId": "JR104962",
+      "decision": "education-and-status-unverified-rejected",
+      "reason": "PhD-titled role; official closure was not confirmed from the unreadable dynamic page."
+    },
+    {
+      "jobId": "JR0281596",
+      "decision": "hardware-direction-rejected",
+      "reason": "CPU architecture role, outside Applied AI/ML/Data Science."
+    },
+    {
+      "jobId": "TI-company-wide",
+      "decision": "user-company-excluded",
+      "reason": "Texas Instruments monitoring is disabled by user instruction."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "updatedRecords": [],
+    "addedRecords": [
+      "EY Tax Technology and Transformation Products Analyst (1741172) — excluded/archived"
+    ],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "newArchive": "job-archive/ernst-young/1741172/job-description.md",
+    "archiveCommitSha": "b82750114063d63f8ff6f7caf1e0f60349c3d077",
+    "reason": "A real open Dallas campus analyst was verified, then archived as excluded due to explicit now-and-future work-authorization restrictions plus direction/opportunity-cost failure."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitSha": "ea0fbbb97a0f828eda0041492514fba259f7eb4c",
+      "blobSha": "d41d32eaef04750ce8485034ca3f4366cb6f4849",
+      "readbackVerified": true
+    },
+    "archive": {
+      "status": "synced",
+      "commitSha": "b82750114063d63f8ff6f7caf1e0f60349c3d077",
+      "blobSha": "3cf461ea81cf2ba6254c859653d6adc4d285606f",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-23T0801-Texas.json",
+      "status": "pending-readback",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending-audit-readback",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T11:45:44Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T0801-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T13:01:55Z"
+  }
+}
