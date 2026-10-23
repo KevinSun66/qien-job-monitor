@@ -1,0 +1,205 @@
+{
+  "checkedAt": "2026-10-23T13:46:34Z",
+  "checkedAtLocal": "2026-10-23T08:46:34-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "7a6b6b94352dc58e54ab37aed70b325cb4679a45",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "d41d32eaef04750ce8485034ca3f4366cb6f4849",
+      "blobShaAfter": "d41d32eaef04750ce8485034ca3f4366cb6f4849",
+      "updatedAt": "2026-10-23T13:01:39Z",
+      "recordCount": 230,
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T0801-Texas.json",
+      "blobSha": "77adde7c58d9409ac6c9acb3ef996db6339d8f1f",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "cc1e2b8cedf28f6891196854bbca8b877c0ef9fc",
+      "previousRepositoryHead": "8c32efceeea3dff8d7eab5322adc8f25ef6ebee2",
+      "currentListingsCommit": "0bea89f04f1a71a893f424f284d47bd4ffe75876",
+      "currentRepositoryHead": "e01a47c4aa712df7a9823e2f2c9fac0048a527a6",
+      "listingsCommitsReviewed": [
+        "0bea89f04f1a71a893f424f284d47bd4ffe75876"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "666fef4df66e4232b29285ce70fcbe653d838f6e",
+      "listingsBlobShaAfter": "abe74080c7f77e970b3ad36217fb819f9ceddf34",
+      "readmeBlobShaAfter": "320155ee0cd253ba9ce2d28f595b2598c47e1242",
+      "result": "One listings commit produced 40 record-change events: 12 additions, 13 reactivations and 15 inactive signals. Four Texas-related changes were reviewed."
+    },
+    "reviewedRecords": [
+      {
+        "company": "FormFactor",
+        "jobId": "JR100869",
+        "title": "Supply Chain Data Scientist",
+        "market": "Farmers Branch, TX",
+        "upstreamChange": "active true → false",
+        "result": "Public mirror describes zero previous professional experience and substantial predictive/prescriptive supply-chain analytics, Python/R, SQL, data pipelines and cloud platforms. Direct official Workday page was not text-readable and current Apply status could not be confirmed; OPT/STEM OPT, post-May-2027 start and compensation are also unverified. No job-data record or closure claim was created."
+      },
+      {
+        "company": "Dow Jones",
+        "jobId": "Job_Req_54978",
+        "title": "Research Analyst I — Chemical Market Analytics",
+        "market": "Houston, TX",
+        "upstreamChange": "active false → true",
+        "result": "Outside Dallas/Austin target markets."
+      },
+      {
+        "company": "Texas Instruments",
+        "jobId": "25017998",
+        "title": "Systems Engineer — Career Accelerator Program",
+        "market": "Texas",
+        "upstreamChange": "active true → false",
+        "result": "User-level company exclusion remains active; no monitoring or recommendation action."
+      },
+      {
+        "company": "RTX",
+        "jobId": "01875465",
+        "title": "RF Systems Engineer II",
+        "market": "McKinney, TX",
+        "upstreamChange": "new active record",
+        "result": "Radio-frequency hardware/systems role requiring a master's degree; excluded from Applied AI/ML/Data Science monitoring."
+      },
+      {
+        "company": "Prolific",
+        "titles": [
+          "AI Trainer",
+          "Korean Fluent Speakers — AI Training"
+        ],
+        "market": "Remote USA",
+        "upstreamChange": "two new active records",
+        "result": "Not Dallas/Austin-targeted full-time Applied AI/ML/DS roles; no Texas-specific eligibility or Ryan upgrade verified."
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "FormFactor",
+        "jobId": "JR100869",
+        "officialUrl": "https://formfactor.wd1.myworkdayjobs.com/FFI-Careers/job/Farmers-Branch-TX/Supply-Chain-Data-Scientist_JR100869",
+        "verifiedAt": "2026-10-23T13:46:34Z",
+        "status": "Official dynamic page could not be text-read and no current official indexed search result confirmed an Apply action",
+        "publicMirror": "A recent public mirror reproduced the employer JD and described Farmers Branch, full time, no previous professional experience required, predictive/prescriptive supply-chain modeling, data engineering and cloud/BI tooling.",
+        "workAuthorization": "Not disclosed in reviewed source",
+        "startTiming": "Post-May-2027 start not disclosed",
+        "compensation": "Not verified",
+        "conclusion": "Potentially relevant but insufficiently verified and upstream now inactive; do not add, recommend or notify."
+      }
+    ],
+    "verificationNote": "No official evidence established a new fully eligible, open role or a confirmed status change to a tracked job."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 40,
+    "uniqueChangedRecordsReviewed": 40,
+    "inactiveSignalsReviewed": 15,
+    "reactivatedRecordsReviewed": 13,
+    "newActiveRecordsReviewed": 12,
+    "removedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 4,
+    "dallasAustinOrAdjacentRecordsReviewed": 3,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "jobId": "JR100869",
+      "decision": "insufficient-verification-no-data-change",
+      "reason": "Official live status, OPT/STEM OPT, post-May-2027 start and compensation were not verified; upstream changed to inactive."
+    },
+    {
+      "jobId": "01875465",
+      "decision": "hardware-and-education-rejected",
+      "reason": "RF systems hardware role with master's-degree requirement."
+    },
+    {
+      "jobId": "25017998",
+      "decision": "user-company-excluded",
+      "reason": "Texas Instruments monitoring is disabled by user instruction."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified new candidate or confirmed tracked-status change; FormFactor JR100869 remained unverified and the other target-market records were excluded by company, function or education."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitSha": null,
+      "blobSha": "d41d32eaef04750ce8485034ca3f4366cb6f4849",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-23T0846-Texas.json",
+      "status": "pending-readback",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending-audit-readback",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T13:03:39Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T0846-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T13:03:39Z"
+  }
+}
