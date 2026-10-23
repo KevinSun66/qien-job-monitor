@@ -1,0 +1,173 @@
+{
+  "checkedAt": "2026-10-23T01:30:28Z",
+  "checkedAtLocal": "2026-10-22T20:30:28-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "898cef78363898a59e3bb8ff803dd01dc38ed158",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "blobShaAfter": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "updatedAt": "2026-10-22T23:07:41Z",
+      "recordCount": 227,
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T1915-Texas.json",
+      "blobSha": "e73bf56bac43f5356f4953b88eef8ca4e5e4e5df",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "a6d69a4e63778ccae916990bf9e560cd67df3f9f",
+      "previousRepositoryHead": "28008a1bf11059c3868416bb9d410fdbb8a0ee4c",
+      "currentListingsCommit": "7c282a34596058f9d66f75500b4fd03e3c35eeb6",
+      "currentRepositoryHead": "f7cebe62724bd571a3af73786ed6219304a2d217",
+      "commitsReviewed": [
+        "eefe87d53c999577714b6f1019db608fbb70db29",
+        "9a8a208134e3cf01ae1c789a41c02a826d1cddab",
+        "7c282a34596058f9d66f75500b4fd03e3c35eeb6",
+        "f7cebe62724bd571a3af73786ed6219304a2d217"
+      ],
+      "listingsCommitsReviewed": [
+        "eefe87d53c999577714b6f1019db608fbb70db29",
+        "7c282a34596058f9d66f75500b4fd03e3c35eeb6"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "01f8ae2943b02aae468b3f18decc7990a39a4d76",
+      "listingsBlobShaAfter": "5d3f2f211b1db28f816d48e176595137369fcf58",
+      "readmeBlobShaAfter": "07f96d8f701e205cbf2274f94f111e9eaf8fa180",
+      "result": "One listings commit removed five records that were already inactive and changed AMD 92633 from active to inactive. The later listings commit added one active Product Management Apprentice role in Boston. No new active Dallas/Austin Applied AI/ML/Data Science candidate was added."
+    },
+    "reviewedRecords": [
+      {
+        "company": "CVS Health",
+        "jobId": "6df0cec5-2f1d-4fb7-b23d-06eae146b9d6",
+        "title": "Associate Data Engineer",
+        "market": "Irving/Richardson",
+        "upstreamChange": "historical inactive record removed",
+        "result": "cleanup only; not a new opening or verified closure"
+      },
+      {
+        "company": "AMD",
+        "jobId": "92633",
+        "title": "Engineering Lab Operator",
+        "market": "Austin",
+        "upstreamChange": "active to inactive",
+        "officialStatus": "AMD official job search still returned the requisition as an existing vacancy during this run; official page body was blocked to direct fetch, so closure was not confirmed",
+        "duties": "hands-on semiconductor lab operations, CPU/GPU validation, hardware setup/swaps and debug",
+        "pay": "$40,800–$61,200",
+        "workAuthorization": "official search result states not eligible for visa sponsorship",
+        "result": "excluded: hardware/lab direction, no sponsorship, and compensation/trajectory below Ryan; no tracked record created"
+      },
+      {
+        "company": "Liminal (Menyala)",
+        "jobId": "eba5276d-5b21-4699-a535-ccc06b21084c",
+        "title": "Product Management Apprentice",
+        "market": "Boston",
+        "upstreamChange": "new active record",
+        "result": "excluded by geography and function"
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "AMD",
+        "jobId": "92633",
+        "url": "https://careers.amd.com/careers-home/jobs/92633?lang=en-us",
+        "checkedAt": "2026-10-23T01:30:28Z",
+        "status": "searchable on official AMD careers result; direct page fetch returned 403",
+        "closureConfirmed": false
+      }
+    ]
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 7,
+    "uniqueChangedRecordsReviewed": 7,
+    "cleanupOnlyInactiveRecords": 5,
+    "activeToInactiveRecords": 1,
+    "activeAdditions": 1,
+    "texasRelatedRecordsReviewed": 2,
+    "dallasAustinOrAdjacentRecordsReviewed": 2,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "No verified qualifying role and no official status change to an existing tracked job"
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitSha": null,
+      "blobSha": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-22T2030-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T00:15:52Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T2030-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T00:15:52Z"
+  }
+}
