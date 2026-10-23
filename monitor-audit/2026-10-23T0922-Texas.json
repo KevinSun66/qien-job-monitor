@@ -1,0 +1,172 @@
+{
+  "checkedAt": "2026-10-23T14:22:27Z",
+  "checkedAtLocal": "2026-10-23T09:22:27-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "cd2d561a8ed111e0165c6d48b6ccd1bc14aa0748",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "d41d32eaef04750ce8485034ca3f4366cb6f4849",
+      "blobShaAfter": "d41d32eaef04750ce8485034ca3f4366cb6f4849",
+      "updatedAt": "2026-10-23T13:01:39Z",
+      "recordCount": 230,
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T0846-Texas.json",
+      "blobSha": "ae23ab576ace4bdf2a9e8a82ff01a05871a55264",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "0bea89f04f1a71a893f424f284d47bd4ffe75876",
+      "previousRepositoryHead": "e01a47c4aa712df7a9823e2f2c9fac0048a527a6",
+      "currentListingsCommit": "1929c99b2d1cedba4cbaa30e762b56114a5f128b",
+      "currentRepositoryHead": "a00ff5bd4fcac9c0a296c226eda8c5e6c608a08b",
+      "listingsCommitsReviewed": [
+        "1929c99b2d1cedba4cbaa30e762b56114a5f128b"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "abe74080c7f77e970b3ad36217fb819f9ceddf34",
+      "listingsBlobShaAfter": "3251e5b050bdbddb0cb93bbf92982092441f0812",
+      "readmeBlobShaAfter": "dfdd406d7dc2dd67737aa52448694600232c3538",
+      "result": "One listings commit produced 34 record-change events: 13 additions, 20 inactive signals and 1 removal. One Texas-related change was reviewed."
+    },
+    "reviewedRecords": [
+      {
+        "company": "University of Texas at Austin",
+        "jobId": "R_00048933",
+        "title": "Senior Student Consultant",
+        "market": "Austin, TX",
+        "upstreamChange": "active true → false",
+        "result": "Student-campus consulting role rather than post-graduation Applied AI/ML/Data Science; not a tracked candidate and no official closure verification was required."
+      },
+      {
+        "company": "Accenture Federal Services",
+        "title": "Junior Forward Deployed Engineer",
+        "market": "Arlington, VA",
+        "upstreamChange": "new active record",
+        "result": "Potentially relevant title but outside Texas monitoring scope; federal-services eligibility was not pursued."
+      },
+      {
+        "company": "Exiger",
+        "title": "AI Product Builder",
+        "market": "McLean/Richmond, VA",
+        "upstreamChange": "new active record",
+        "result": "Outside Texas monitoring scope."
+      },
+      {
+        "company": "Amazon",
+        "titles": [
+          "Applied Scientist — Amazon Cryptographic Libraries",
+          "Senior Applied Scientist — Amazon Cryptographic Libraries"
+        ],
+        "market": "Seattle, WA",
+        "upstreamChange": "two new active records",
+        "result": "Outside Texas monitoring scope; one role is explicitly senior."
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "No new Dallas/Austin Applied AI/ML/Data Science candidate and no tracked-job status change required official JD verification."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 34,
+    "uniqueChangedRecordsReviewed": 34,
+    "inactiveSignalsReviewed": 20,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 13,
+    "removedRecordsReviewed": 1,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "jobId": "R_00048933",
+      "decision": "student-role-direction-rejected",
+      "reason": "UT Austin student consulting job is not a post-May-2027 Applied AI/ML/Data Science full-time role."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified new candidate or confirmed status change to a tracked role."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitSha": null,
+      "blobSha": "d41d32eaef04750ce8485034ca3f4366cb6f4849",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-23T0922-Texas.json",
+      "status": "pending-readback",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending-audit-readback",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T13:47:11Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T0922-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T13:47:11Z"
+  }
+}
