@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T17:45:32Z",
+  "updatedAt": "2026-10-23T21:37:54Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8426,6 +8426,43 @@
       "archiveNote": "Verified official JD captured; excluded by explicit F-1/sponsorship language.",
       "verificationFlags": [],
       "applicationStatus": "not-applied"
+    },
+    {
+      "company": "Motorola Solutions",
+      "tier": "B",
+      "area": "Allen, TX",
+      "market": "DFW",
+      "title": "Embedded Software Engineer (R68965-1)",
+      "employment": "Full-time · Entry Level",
+      "gradYear": "Not a campus/new-grad requisition",
+      "match": "Rejected",
+      "ngCompatibility": "Ineligible · stated minimum is 1+ years",
+      "assessment": "Official Motorola Solutions JD is indexed and describes Linux-based embedded systems and firmware for in-car video systems/body cameras, modern C++, production hardware integration, unit/system testing, and CI/CD. It explicitly requires 1+ years of C++ development plus hands-on Linux embedded-systems exposure. This violates Qien's minimum-experience rule and is also an excluded embedded/firmware direction, with no Applied AI/ML/Data Science or Ryan-benchmark upgrade.",
+      "visa": "Official JD did not establish F-1 OPT/STEM OPT compatibility; not pursued because experience and function are already hard rejections.",
+      "found": "2026-10-23",
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Embedded-Software-Engineer_R68965-1",
+      "status": "direction-experience-rejected",
+      "finalPriority": "Do not apply · embedded/firmware + 1+ year minimum",
+      "roleTrack": "Embedded Software / Firmware / Modern C++ / Linux",
+      "technicalGrowth": "Not scored · excluded direction",
+      "brandPlatform": "Not scored",
+      "ryanUpgrade": "No · outside target function and experience rule",
+      "compensation": "Official indexed JD did not disclose a verified compensation range.",
+      "officePerks": "Allen, TX · production-hardware work; exact onsite/hybrid cadence not verified",
+      "jobId": "R68965-1",
+      "officialStatus": "Motorola Solutions official Workday page was indexed on 2026-10-23; public mirrors showed Apply. Simplify changed active true→false at 2026-10-23T21:01:55Z, so open/closed status remains conflicting and is not declared closed.",
+      "lastChecked": "2026-10-23",
+      "lastCheckedAt": "2026-10-23T21:37:54Z",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "upstreamRecordId": "3a1a2560-3ee7-4b44-81e4-8b0a679c2b07",
+      "upstreamInactiveCommit": "c45479edc5e5d9a9372be16afd19ab312fc22ebd",
+      "rejectionReasons": [
+        "minimum-experience-1-plus",
+        "embedded-firmware-direction",
+        "no-ryan-upgrade"
+      ]
     }
   ],
   "monitorAudit": [
