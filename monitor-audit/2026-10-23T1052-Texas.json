@@ -1,0 +1,242 @@
+{
+  "checkedAt": "2026-10-23T15:52:16Z",
+  "checkedAtLocal": "2026-10-23T10:52:16-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "a354142e7fdad9d8a4316e02178b78edb1ddabb6",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "d41d32eaef04750ce8485034ca3f4366cb6f4849",
+      "blobShaAfter": "d41d32eaef04750ce8485034ca3f4366cb6f4849",
+      "updatedAt": "2026-10-23T13:01:39Z",
+      "recordCount": 230,
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T0922-Texas.json",
+      "blobSha": "a5249cebea2938cd3e080366c22dabe89d61b4c7",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "1929c99b2d1cedba4cbaa30e762b56114a5f128b",
+      "previousRepositoryHead": "a00ff5bd4fcac9c0a296c226eda8c5e6c608a08b",
+      "currentListingsCommit": "f3411cdaeff1a8c8397a8dd42a1259ab53e6b2b0",
+      "currentRepositoryHead": "b13d0c3915e0768429050e74cd511a2b092f63d4",
+      "listingsCommitsReviewed": [
+        "6c94e9f2ccda4e53a252ef5e85e29a1b0024530d",
+        "c7d7b66e78a5fcc9d60f7fe0914f6bef9e9925c3",
+        "f3411cdaeff1a8c8397a8dd42a1259ab53e6b2b0"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "3251e5b050bdbddb0cb93bbf92982092441f0812",
+      "listingsBlobShaAfter": "ab5c8a8408bc03fe84a9068467afcea4e2ac7302",
+      "readmeBlobShaAfter": "a55cddfb88c6c64519a9a40b579bcd6a41992be2",
+      "result": "Three listings commits produced 85 record-change events: 42 additions, 29 inactive signals, 9 reactivations and 5 removals. Four Dallas/Austin-or-adjacent records/signals were reviewed."
+    },
+    "reviewedRecords": [
+      {
+        "company": "ERCOT",
+        "jobId": "R2513-1",
+        "title": "GMS Development Program – Entry Level Power & Computer Engineer",
+        "market": "Austin/Taylor, TX",
+        "upstreamChange": "new active record",
+        "result": "Official/indexed posting is open and entry level, but the program centers on electric power systems, grid/market applications, software programming and IT operations rather than Applied AI/ML/Data Science; rejected by direction and Ryan opportunity-cost rules."
+      },
+      {
+        "company": "Focused Energy",
+        "jobId": "dac4ee5b-0004-42d2-a6e2-0f1fffe60ce9",
+        "title": "Prototype Engineer",
+        "market": "Austin, TX",
+        "upstreamChange": "new active record",
+        "result": "Official Ashby posting is open; duties are hands-on laser/optics hardware integration, test rigs, qualification testing and lab support. Rejected under the hardware/experimental-systems exclusion."
+      },
+      {
+        "company": "RTX / Raytheon",
+        "jobId": "01879334",
+        "title": "FPGA / Digital Design Engineer II – Onsite",
+        "market": "McKinney, TX",
+        "upstreamChange": "active true → false",
+        "result": "Official RTX page still presents an Apply path, so the aggregate inactive signal is not treated as a confirmed closure. Role is circuit-card and FPGA hardware design and remains excluded; it was not a tracked candidate."
+      },
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171568",
+        "title": "2027 Dallas Engineering New Analyst",
+        "market": "Dallas, TX",
+        "upstreamChange": "false → true → false within the reviewed interval",
+        "result": "Official Goldman page still displays Apply. Existing jobs.json record remains current with status-verification; no application status or archived JD was changed."
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171568",
+        "url": "https://higher.gs.com/roles/171568",
+        "checkedAt": "2026-10-23T15:50:00Z",
+        "status": "Apply displayed",
+        "experience": "Final-year undergraduate/graduate New Analyst program",
+        "location": "Dallas, TX",
+        "authorization": "Not disclosed on page",
+        "duties": "Engineering across scalable systems, big data and machine learning",
+        "decision": "Preserve existing current/status-verification record; no confirmed status change."
+      },
+      {
+        "company": "ERCOT",
+        "jobId": "R2513-1",
+        "url": "https://ercot.wd1.myworkdayjobs.com/en-US/ercot_careers/job/GMS-Development-Program---Entry-Level-Power---Computer-Engineer_R2513-1",
+        "checkedAt": "2026-10-23T15:49:00Z",
+        "status": "Indexed official Workday page current",
+        "experience": "Entry level/early career",
+        "location": "Austin/Taylor, TX",
+        "authorization": "Not verified because core direction already fails",
+        "duties": "Power systems, grid/market applications, programming and IT operations",
+        "decision": "Direction/opportunity-cost rejected; not archived to jobs.json."
+      },
+      {
+        "company": "Focused Energy",
+        "jobId": "dac4ee5b-0004-42d2-a6e2-0f1fffe60ce9",
+        "url": "https://jobs.ashbyhq.com/focused/dac4ee5b-0004-42d2-a6e2-0f1fffe60ce9",
+        "checkedAt": "2026-10-23T15:49:00Z",
+        "status": "Official Ashby posting indexed today",
+        "experience": "No numeric professional minimum confirmed",
+        "location": "Austin, TX onsite",
+        "authorization": "Not verified because hardware direction fails",
+        "duties": "Laser/optics hardware integration, test rigs, qualification tests and lab support",
+        "decision": "Hardware-direction rejected; not archived to jobs.json."
+      },
+      {
+        "company": "RTX / Raytheon",
+        "jobId": "01879334",
+        "url": "https://careers.rtx.com/global/en/job/01879334/FPGA-Digital-Design-Engineer-II-Onsite",
+        "checkedAt": "2026-10-23T15:49:00Z",
+        "status": "Official page still exposes Apply",
+        "experience": "Engineer II; numeric minimum not needed after hardware exclusion",
+        "location": "McKinney, TX onsite",
+        "authorization": "Not re-evaluated because hardware direction fails",
+        "duties": "Circuit-card assemblies and FPGA-based solutions",
+        "decision": "No confirmed closure; hardware exclusion unchanged."
+      }
+    ],
+    "verificationNote": "No new Dallas/Austin role survived the core Applied AI/ML/Data Science and Ryan-upgrade gates; work authorization/start-date investigation was not expanded for roles already rejected by core direction."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 6,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 85,
+    "uniqueChangedRecordsReviewed": 85,
+    "inactiveSignalsReviewed": 29,
+    "reactivatedRecordsReviewed": 9,
+    "newActiveRecordsReviewed": 42,
+    "removedRecordsReviewed": 5,
+    "texasRelatedRecordsReviewed": 4,
+    "dallasAustinOrAdjacentRecordsReviewed": 4,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "jobId": "R2513-1",
+      "decision": "direction-opportunity-cost-rejected",
+      "reason": "Power-grid engineering/operations program, not core Applied AI/ML/Data Science and no clear Ryan upgrade."
+    },
+    {
+      "jobId": "dac4ee5b-0004-42d2-a6e2-0f1fffe60ce9",
+      "decision": "hardware-direction-rejected",
+      "reason": "Hands-on laser/optics prototype integration and lab testing."
+    },
+    {
+      "jobId": "01879334",
+      "decision": "hardware-direction-rejected-status-unconfirmed",
+      "reason": "FPGA/circuit-card design; aggregate inactive signal conflicts with official Apply page."
+    },
+    {
+      "jobId": "171568",
+      "decision": "no-data-change-status-verification-preserved",
+      "reason": "Aggregate feed flipped twice and ended inactive, while official Goldman page remains open; applied/current record is preserved."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified new candidate and no official status change to a tracked role."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitSha": null,
+      "blobSha": "d41d32eaef04750ce8485034ca3f4366cb6f4849",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-23T1052-Texas.json",
+      "status": "pending-readback",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending-readback",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T14:22:52Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T1052-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T14:22:52Z"
+  }
+}
