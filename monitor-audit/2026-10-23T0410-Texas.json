@@ -1,0 +1,188 @@
+{
+  "checkedAt": "2026-10-23T09:10:57Z",
+  "checkedAtLocal": "2026-10-23T04:10:57-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "d175f79ff5d2f4560fdcb3c9cd54250a3d03d6e3",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "5cc7d7473fff0eb1b90e430c085a321d32b1cbda",
+      "blobShaAfter": "5cc7d7473fff0eb1b90e430c085a321d32b1cbda",
+      "updatedAt": "2026-10-23T06:45:31Z",
+      "recordCount": 228,
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T0324-Texas.json",
+      "blobSha": "1399f45460d6122d580c745f772575e65daf05ef",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "d7761bfaf000fde941a4888a08a5be27241a66bf",
+      "previousRepositoryHead": "1ff7da7ad59703e791c42b3bf17b31c6b34e8416",
+      "currentListingsCommit": "538ad4e9165f8b36ec458c101bf72578e92fc98c",
+      "currentRepositoryHead": "de5ea7a9397364407f1009b11a9a94898a0143c2",
+      "commitsReviewed": [
+        "0510e15c9db32228be4895b27cfae462b272182a",
+        "ccb1f94672a3c43e09aea92a25c76106faf71d50",
+        "538ad4e9165f8b36ec458c101bf72578e92fc98c",
+        "de5ea7a9397364407f1009b11a9a94898a0143c2"
+      ],
+      "listingsCommitsReviewed": [
+        "0510e15c9db32228be4895b27cfae462b272182a",
+        "538ad4e9165f8b36ec458c101bf72578e92fc98c"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "77fde88f1ba02a9f6e0e3f30f4e6d305171ab306",
+      "listingsBlobShaAfter": "077ba3470688fe0c555b4f34a2abd5a5a1899fee",
+      "readmeBlobShaAfter": "b47c449007d9f0b77695b35f56bd90efe0cf1a30",
+      "result": "Two listings commits produced 56 record-change events (16 additions, 8 reactivations, 32 inactive signals; 55 unique records because SRI toggled twice). No Dallas/Austin Applied AI/ML/Data Science candidate was added or reactivated."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Citi",
+        "jobId": "26999296",
+        "title": "Angular Developer / Frontend Engineer — Entry Level",
+        "market": "Irving, TX",
+        "upstreamChange": "active true → false",
+        "result": "DFW but generic frontend engineering, not Applied AI/ML/Data Science; not present in jobs.json, so no tracked-status change"
+      },
+      {
+        "company": "Foxconn Industrial Internet",
+        "jobId": "2b9b3d63-67c8-4354-93bf-e7c8bf5e683f",
+        "title": "Debug Technician",
+        "market": "Houston, TX",
+        "upstreamChange": "new active record",
+        "result": "outside Dallas/Austin and hardware technician function; excluded without notification"
+      },
+      {
+        "company": "Notion",
+        "jobId": "65650b49-1680-440d-8f63-1cc74d0ba188",
+        "title": "Software Engineer — Early Career (AI)",
+        "market": "San Francisco, CA",
+        "upstreamChange": "inactive false → active true",
+        "result": "outside Texas monitoring scope"
+      },
+      {
+        "company": "Palantir",
+        "jobId": "0a14e404-4828-4af4-bb63-2fb23a5a061f",
+        "title": "Software Engineer New Grad",
+        "market": "New York, NY",
+        "upstreamChange": "new active record",
+        "result": "outside Texas monitoring scope"
+      },
+      {
+        "company": "Humble Robotics",
+        "jobId": "185df712-175a-42c5-bea3-e43095850dbb",
+        "title": "ML Software Engineer",
+        "market": "San Francisco, CA",
+        "upstreamChange": "new active record",
+        "result": "outside Texas monitoring scope and Master's degree listed"
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "No new active, reactivated, or tracked Dallas/Austin Applied AI/ML/Data Science candidate required official JD verification."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 56,
+    "uniqueChangedRecordsReviewed": 55,
+    "inactiveSignalsReviewed": 32,
+    "reactivatedRecordsReviewed": 8,
+    "newActiveRecordsReviewed": 16,
+    "texasRelatedRecordsReviewed": 2,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "jobId": "26999296",
+      "decision": "out-of-scope-function",
+      "reason": "Entry-level Angular/frontend role; not Applied AI/ML/Data Science, and aggregator inactive is not a tracked-status change."
+    },
+    {
+      "jobId": "2b9b3d63-67c8-4354-93bf-e7c8bf5e683f",
+      "decision": "location-and-function-rejected",
+      "reason": "Houston rather than Dallas/Austin; hardware debug technician role."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "No verified new candidate or tracked-status change; Texas events were outside the target function and/or market."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitSha": null,
+      "blobSha": "5cc7d7473fff0eb1b90e430c085a321d32b1cbda",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-23T0410-Texas.json",
+      "status": "pending-readback-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-readback-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T08:24:45Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T0410-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T08:24:45Z"
+  }
+}
