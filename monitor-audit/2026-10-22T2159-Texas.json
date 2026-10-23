@@ -1,0 +1,216 @@
+{
+  "checkedAt": "2026-10-23T02:59:07Z",
+  "checkedAtLocal": "2026-10-22T21:59:07-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "618b072ec51b7b55d46d9cbc4c0b3309c2ea2125",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "blobShaAfter": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "updatedAt": "2026-10-22T23:07:41Z",
+      "recordCount": 227,
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T2030-Texas.json",
+      "blobSha": "b4006b74c948acc196715534cc0efd7c78e22dae",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "7c282a34596058f9d66f75500b4fd03e3c35eeb6",
+      "previousRepositoryHead": "f7cebe62724bd571a3af73786ed6219304a2d217",
+      "currentListingsCommit": "bb6d2aef5e4782861f2cc3dea3659ca7f7f5340a",
+      "currentRepositoryHead": "7aaf61ce7885b0156c384b1690d1cd08a7f9ac6b",
+      "commitsReviewed": [
+        "1ff6a20521a04eb89c2808888c3ce9a95855efc0",
+        "8524d297d202990ef87e15a0dcc4e064052b865f",
+        "04d6f733c1fdae0ca54cc6784933de7761e14737",
+        "98a7d195332733a5b35987435f5e1e1282dcd2dd",
+        "bb6d2aef5e4782861f2cc3dea3659ca7f7f5340a",
+        "7aaf61ce7885b0156c384b1690d1cd08a7f9ac6b"
+      ],
+      "listingsCommitsReviewed": [
+        "1ff6a20521a04eb89c2808888c3ce9a95855efc0",
+        "04d6f733c1fdae0ca54cc6784933de7761e14737",
+        "bb6d2aef5e4782861f2cc3dea3659ca7f7f5340a"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "5d3f2f211b1db28f816d48e176595137369fcf58",
+      "listingsBlobShaAfter": "f99bdecfd2e800c0334a826b6c27d5c9d9be990c",
+      "readmeBlobShaAfter": "1ad6b00c691f28c17fd500961c6fae66cfbdc69d",
+      "result": "Three listings commits contained 33 additions, 19 removals, 19 active-to-inactive changes and 5 inactive-to-active changes. Seven Texas-related records were reviewed; none produced a new qualifying Applied AI/ML/Data Science opportunity."
+    },
+    "texasRecordsReviewed": [
+      {
+        "company": "RTX",
+        "jobId": "01867098",
+        "title": "Research Engineer II",
+        "market": "Richardson",
+        "upstreamChange": "active to inactive",
+        "officialStatus": "filled",
+        "officialEvidence": "RTX careers page states the job has been filled",
+        "result": "not an existing tracked job; no record change"
+      },
+      {
+        "company": "Microsoft",
+        "jobId": "1970393557041624",
+        "title": "Design Verification Engineer",
+        "market": "Austin among locations",
+        "upstreamChange": "new active",
+        "result": "excluded as chip/design-verification hardware"
+      },
+      {
+        "company": "Amazon",
+        "jobId": "10558915",
+        "title": "Software Development Engineer I, Annapurna Labs, Early Career - 2027",
+        "market": "Austin among locations",
+        "upstreamChange": "new active in aggregator",
+        "officialStatus": "open with Apply now",
+        "result": "duplicate of archived record; user declined on 2026-09-26 because role is compiler/runtime/low-level AI infrastructure rather than target Applied AI/Data; no repeat notification"
+      },
+      {
+        "company": "Amazon",
+        "jobId": "10586351",
+        "title": "ASIC Formal Verification Engineer I, Annapurna Labs",
+        "market": "Austin among locations",
+        "upstreamChange": "new active",
+        "result": "excluded as ASIC/formal-verification hardware"
+      },
+      {
+        "company": "Amazon",
+        "jobId": "3176560",
+        "title": "ASIC Engineer, Project Leo",
+        "market": "Austin among locations",
+        "upstreamChange": "new active",
+        "result": "excluded as ASIC hardware"
+      },
+      {
+        "company": "Amazon",
+        "jobId": "3183020",
+        "title": "Software Development Engineer, Embedded Systems - 2026 US",
+        "market": "Austin among locations",
+        "upstreamChange": "new active",
+        "result": "excluded as embedded systems and 2026 cohort"
+      },
+      {
+        "company": "Mindlance",
+        "jobId": "b30aef5e-0da3-4f16-8353-a69402a9941f",
+        "title": "Entry Level Database Developer",
+        "market": "Frisco",
+        "upstreamChange": "historical inactive record removed",
+        "result": "cleanup only; not a new opening or verified tracked closure"
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Amazon",
+        "jobId": "10558915",
+        "url": "https://amazon.jobs/en/jobs/10558915/software-development-engineer-i-annapurna-labs-early-career-2027",
+        "checkedAt": "2026-10-23T02:59:07Z",
+        "status": "open; Apply now shown",
+        "archiveDecision": "preserve existing user-declined status and JD archive"
+      },
+      {
+        "company": "RTX",
+        "jobId": "01867098",
+        "url": "https://careers.rtx.com/ca/fr/job/01867098/Research-Engineer-II-Onsite",
+        "checkedAt": "2026-10-23T02:59:07Z",
+        "status": "filled"
+      }
+    ]
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 6,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 76,
+    "uniqueChangedRecordsReviewed": 76,
+    "activeAdditions": 33,
+    "removedRecords": 19,
+    "activeToInactiveRecords": 19,
+    "inactiveToActiveRecords": 5,
+    "texasRelatedRecordsReviewed": 7,
+    "dallasAustinOrAdjacentRecordsReviewed": 7,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "duplicateUserDeclinedRecords": 1,
+    "notifications": 0
+  },
+  "screeningResults": [],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "The only potentially high-value 2027 Austin role was an already archived user-declined Amazon requisition; all other Texas changes were hardware/embedded, inactive cleanup, or an untracked filled role."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitSha": null,
+      "blobSha": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-22T2159-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T01:31:23Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T2159-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T01:31:23Z"
+  }
+}
