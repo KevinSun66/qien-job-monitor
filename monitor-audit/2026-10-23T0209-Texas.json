@@ -1,0 +1,162 @@
+{
+  "checkedAt": "2026-10-23T07:09:16Z",
+  "checkedAtLocal": "2026-10-23T02:09:16-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "17734d92bb0d21050943298ca9a07438596f4ecf",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "5cc7d7473fff0eb1b90e430c085a321d32b1cbda",
+      "blobShaAfter": "5cc7d7473fff0eb1b90e430c085a321d32b1cbda",
+      "updatedAt": "2026-10-23T06:45:31Z",
+      "recordCount": 228,
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T0143-Texas.json",
+      "blobSha": "e57b39e846bb2f9deb6425d2be41c24d20730f94",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "12215a9817ad7d1d4e37aeecae5a7e47cad57487",
+      "previousRepositoryHead": "915f48382230f13d4751fb5c8bf25b01b6bd3426",
+      "currentListingsCommit": "939a5011421035aff3d6b493b2c1f91f9c215a53",
+      "currentRepositoryHead": "12ff1a4d642133dc8bb34fbabbf4cdf6f34a8d2c",
+      "commitsReviewed": [
+        "939a5011421035aff3d6b493b2c1f91f9c215a53",
+        "12ff1a4d642133dc8bb34fbabbf4cdf6f34a8d2c"
+      ],
+      "listingsCommitsReviewed": [
+        "939a5011421035aff3d6b493b2c1f91f9c215a53"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "6c95516b959b496d9b6e3ef9beb69f5e01459805",
+      "listingsBlobShaAfter": "0c962868494fd13ef5502652508992091f8f3819",
+      "readmeBlobShaAfter": "5094849f72b4086267dec72d2a9dd677c8b6ada3",
+      "result": "One listings commit and one README commit were reviewed. Goldman Sachs 176151 changed active→inactive in the aggregator, and one Aptiv Canada role was added. No Dallas/Austin record changed."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Goldman Sachs",
+        "jobId": "176151",
+        "title": "Associate, Quantitative Strategist — Core Planning and Analysis Strats",
+        "market": "New York, NY",
+        "upstreamChange": "active true → false",
+        "result": "outside Texas; official Goldman page still displayed Apply, so aggregator inactive was not treated as official closure"
+      },
+      {
+        "company": "Aptiv",
+        "jobId": "J000701887",
+        "title": "Associate Engineer — Cloud",
+        "market": "Kanata, Ottawa, Ontario, Canada",
+        "upstreamChange": "new active record",
+        "result": "outside United States and Texas monitoring scope"
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Goldman Sachs",
+        "jobId": "176151",
+        "officialUrl": "https://higher.gs.com/roles/176151",
+        "verifiedAt": "2026-10-23T07:09:16Z",
+        "status": "official page still displays Apply",
+        "location": "New York, NY",
+        "qualifications": "Recent PhD graduates highly preferred; experienced Masters and Bachelors may be considered.",
+        "duties": "Quantitative forecasting, explainable ML, cloud deployment and AI-agent systems for planning and analysis.",
+        "compensation": "Official New York base $115,000–$180,000 plus possible discretionary bonus.",
+        "conclusion": "Outside Dallas/Austin; no job-data action."
+      }
+    ],
+    "verificationNote": "No new active, reactivated, or tracked Dallas/Austin candidate required further official JD verification."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 2,
+    "uniqueChangedRecordsReviewed": 2,
+    "inactiveSignalsReviewed": 1,
+    "newActiveRecordsReviewed": 1,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "Only non-Texas changes; the New York aggregator inactive signal conflicted with an official page still showing Apply"
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitSha": null,
+      "blobSha": "5cc7d7473fff0eb1b90e430c085a321d32b1cbda",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-23T0209-Texas.json",
+      "status": "pending-readback-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-readback-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T06:46:41Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T0209-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T06:46:41Z"
+  }
+}
