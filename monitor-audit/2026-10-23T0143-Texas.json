@@ -1,0 +1,252 @@
+{
+  "checkedAt": "2026-10-23T06:43:31Z",
+  "checkedAtLocal": "2026-10-23T01:43:31-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "8a6f01e2abb6f40ae7b2643d0726e4e35527abc9",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "blobShaAfter": "5cc7d7473fff0eb1b90e430c085a321d32b1cbda",
+      "updatedAt": "2026-10-23T06:45:31Z",
+      "recordCountBefore": 227,
+      "recordCountAfter": 228,
+      "changed": true,
+      "commitSha": "d7ebc22fa45fa41245b6c3e91c5fb792a6d76414",
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T0039-Texas.json",
+      "blobSha": "4681682d92e3643e6758c8ffc8b3132a722f5a71",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "74526d5274e2397217542bd49aee5c2ffd76b246",
+      "previousRepositoryHead": "92c09273cf64b1544ff00d63f8a342fa81c6c978",
+      "currentListingsCommit": "12215a9817ad7d1d4e37aeecae5a7e47cad57487",
+      "currentRepositoryHead": "915f48382230f13d4751fb5c8bf25b01b6bd3426",
+      "commitsReviewed": [
+        "4b8bc7108a1f26b56dcb9f6b80f70c337f0fd025",
+        "1cd8fd02794edd544fe71078a980cbed52e14de9",
+        "12215a9817ad7d1d4e37aeecae5a7e47cad57487",
+        "915f48382230f13d4751fb5c8bf25b01b6bd3426"
+      ],
+      "listingsCommitsReviewed": [
+        "4b8bc7108a1f26b56dcb9f6b80f70c337f0fd025",
+        "12215a9817ad7d1d4e37aeecae5a7e47cad57487"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "f0ae706f02cba5ef3cb6279c3052165e30b02e3d",
+      "listingsBlobShaAfter": "6c95516b959b496d9b6e3ef9beb69f5e01459805",
+      "readmeBlobShaAfter": "7a76a975e566e6f48e2c44cafdc41f5ad28dc0fb",
+      "result": "Two listings commits and two README commits were reviewed. Seven records changed active→inactive, one non-Texas record reactivated, and one non-Texas hardware record was added. Texas signals were Southwest R-2026-73737 in Dallas and the already-tracked RTX 01875410 in Richardson."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Southwest Airlines",
+        "jobId": "R-2026-73737",
+        "title": "Operations Research Developer",
+        "market": "Dallas, TX",
+        "upstreamChange": "active true → false",
+        "result": "official direct page returned HTTP 410 Gone; official indexed JD requires current and future work authorization without sponsorship; archived and excluded"
+      },
+      {
+        "company": "RTX / Collins Aerospace",
+        "jobId": "01875410",
+        "title": "Software Engineer I",
+        "market": "Richardson, TX",
+        "upstreamChange": "active true → false on a duplicate/private-posting record",
+        "result": "tracked record updated with status-verification only; citizenship/DoD Secret and non-AI direction rejection unchanged"
+      },
+      {
+        "company": "American Express",
+        "jobIds": [
+          "26013783",
+          "26013776",
+          "26013782"
+        ],
+        "titles": [
+          "Software Engineer New Grad",
+          "AI Engineer",
+          "Software Engineer New Grad"
+        ],
+        "market": "non-Texas (official search identified UK graduate roles for 26013783 and 26013782; no Dallas/Austin signal)",
+        "upstreamChange": "active true → false",
+        "result": "outside Texas monitoring scope"
+      },
+      {
+        "company": "Applied Materials",
+        "jobId": "R2625914",
+        "title": "2027 Software Engineer New College Grad",
+        "market": "Gloucester, MA",
+        "upstreamChange": "active false → true",
+        "result": "outside Texas"
+      },
+      {
+        "company": "Northrop Grumman",
+        "jobId": "R10256390-1",
+        "title": "2027 Associate Embedded Software Engineer",
+        "market": "Rolling Meadows, IL",
+        "upstreamChange": "active true → false",
+        "result": "outside Texas and embedded-software exclusion"
+      },
+      {
+        "company": "RTX",
+        "jobId": "01883477",
+        "title": "Software Engineer I - Embedded Linux",
+        "market": "Cedar Rapids, IA",
+        "upstreamChange": "active true → false",
+        "result": "outside Texas and embedded-software exclusion"
+      },
+      {
+        "company": "Hewlett Packard Enterprise",
+        "jobId": "1213433",
+        "title": "Graduate Electrical Hardware Engineer I",
+        "market": "Chippewa Falls, WI",
+        "upstreamChange": "new active record",
+        "result": "outside Texas and hardware exclusion"
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Southwest Airlines",
+        "jobId": "R-2026-73737",
+        "officialUrl": "https://careers.southwestair.com/us/en/job/R-2026-73737/Operations-Research-Developer",
+        "verifiedAt": "2026-10-23T06:45:31Z",
+        "status": "closed",
+        "evidence": "Official direct URL returned HTTP 410 Gone; Southwest official search index still exposed stale job text.",
+        "qualifications": "Basic programming and software-development knowledge; operations-research experience was preferred; no numeric minimum full-time years verified.",
+        "workAuthorization": "Official indexed posting required U.S. citizenship or current U.S. work authorization and no current or future work-authorization sponsorship.",
+        "duties": "Mathematical models and scalable decision-support solutions for complex operational challenges.",
+        "compensation": "Employer-indexed base $132,200–$146,900.",
+        "conclusion": "Clear potential Ryan upgrade on salary/platform, but closed and incompatible with standing OPT/STEM OPT authorization rule."
+      },
+      {
+        "company": "RTX / Collins Aerospace",
+        "jobId": "01875410",
+        "officialUrl": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineer-I--Onsite-_01875410",
+        "verifiedAt": "2026-10-23T06:45:31Z",
+        "status": "status-verification",
+        "evidence": "Official page returned no readable body and public search returned no current result; aggregator inactive signal was recorded without asserting official closure.",
+        "conclusion": "Existing citizenship/DoD Secret and non-AI direction exclusion remains unchanged."
+      }
+    ]
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 9,
+    "uniqueChangedRecordsReviewed": 9,
+    "inactiveClosuresReviewed": 7,
+    "reactivationsReviewed": 1,
+    "newActiveRecordsReviewed": 1,
+    "texasRelatedRecordsReviewed": 2,
+    "dallasAustinOrAdjacentRecordsReviewed": 2,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 1,
+    "verifiedStatusChangesToTrackedJobs": 1,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "company": "Southwest Airlines",
+      "jobId": "R-2026-73737",
+      "decision": "authorization-and-closed-rejected",
+      "reason": "Official direct page is closed and official indexed JD requires authorization now and in the future without sponsorship."
+    },
+    {
+      "company": "RTX / Collins Aerospace",
+      "jobId": "01875410",
+      "decision": "existing-rejection-preserved; status-verification added",
+      "reason": "Aggregator inactive signal is real, but official closure was not independently readable; citizenship/security-clearance and direction rejection remains."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "updatedRecords": [
+      "RTX / Collins Aerospace 01875410"
+    ],
+    "addedRecords": [
+      "Southwest Airlines R-2026-73737"
+    ],
+    "archivedJDsAdded": [
+      "job-archive/southwest-airlines/R-2026-73737/job-description.md"
+    ],
+    "archiveCommitSha": "eee14295bbda5feced55097b4f25a38dca2bcb13",
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "Verified new Dallas exclusion archived and a tracked Richardson source-status signal recorded without asserting unverified official closure"
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitSha": "d7ebc22fa45fa41245b6c3e91c5fb792a6d76414",
+      "blobSha": "5cc7d7473fff0eb1b90e430c085a321d32b1cbda",
+      "readbackVerified": true
+    },
+    "archive": {
+      "status": "synced",
+      "commitSha": "eee14295bbda5feced55097b4f25a38dca2bcb13",
+      "path": "job-archive/southwest-airlines/R-2026-73737/job-description.md",
+      "blobSha": "838d15437c5e9488bdb30c8fb82770f6cc31d26d",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-23T0143-Texas.json",
+      "status": "pending-readback-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-readback-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T05:39:52Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T0143-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T05:39:52Z"
+  }
+}
