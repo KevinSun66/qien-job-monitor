@@ -1,0 +1,265 @@
+{
+  "checkedAt": "2026-10-23T21:37:54Z",
+  "checkedAtLocal": "2026-10-23T16:37:54-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "f32257cd334f311249b8202781ad1a8446f6001c",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "b834042854e18daad231b328b4eec3901fb160eb",
+      "blobShaAfter": "69b28cfbe3321c87b997bb906d9f2a090fc67d4a",
+      "updatedAt": "2026-10-23T21:37:54Z",
+      "recordCountBefore": 232,
+      "recordCountAfter": 233,
+      "changed": true,
+      "commitSha": "d63cf0f7bb70d8197a74d05a84e95441ee0874d0",
+      "readbackVerified": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T1534-Texas.json",
+      "blobSha": "12e75e66f898c298cefa299a28190f79fba67da7",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "3131a2f1e59424e6f3af32de8bfa5773548fff90",
+      "previousRepositoryHead": "4edfdca54f1e90120a57191308274d61f08d9e98",
+      "currentListingsCommit": "372f84a7e8bd2026dff2a8fc25e202365d0a75ac",
+      "currentRepositoryHead": "b29c8cf0b255f8aa4e5c7596fb0b4746f2f8eaef",
+      "listingsCommitsReviewed": [
+        "c45479edc5e5d9a9372be16afd19ab312fc22ebd",
+        "372f84a7e8bd2026dff2a8fc25e202365d0a75ac"
+      ],
+      "readmeCommitsReviewed": [
+        "94b330a937eb098b834a292fd29fff56d289738b",
+        "b29c8cf0b255f8aa4e5c7596fb0b4746f2f8eaef"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "01425ac75f83e4a1761d6c3064117888d5928a43",
+      "listingsBlobShaAfter": "af51fac55bf4baeeed4e6b12d8189962a66ccd2a",
+      "result": "Two listings commits produced 12 active→inactive events. One was in the target geography: Motorola Solutions R68965-1 in Allen, Texas. It was verified and archived as an excluded record. The other 11 were outside Dallas/Austin; README-only commits were not treated as job-data changes."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Motorola Solutions",
+        "jobId": "R68965-1",
+        "upstreamRecordId": "3a1a2560-3ee7-4b44-81e4-8b0a679c2b07",
+        "title": "Embedded Software Engineer",
+        "market": "Allen, TX",
+        "upstreamChange": "active true → false",
+        "result": "New verified target-geography discovery, archived as excluded because the official JD requires 1+ years and the work is embedded/firmware. Official-index/upstream-status conflict retained as status-verification."
+      },
+      {
+        "company": "Amazon",
+        "jobId": "10428762",
+        "title": "Front-End Engineer - 2026 US",
+        "market": "Outside target/unspecified in changed record",
+        "upstreamChange": "active true → false",
+        "result": "Not an Applied AI/ML/DS target and no verified Dallas/Austin tracked record change."
+      },
+      {
+        "company": "Exelixis",
+        "jobId": "JR7031",
+        "title": "Associate Engineer - AI and Agentic",
+        "market": "Alameda, CA",
+        "upstreamChange": "active true → false",
+        "result": "Outside target markets."
+      },
+      {
+        "company": "Cvent",
+        "jobId": "8265",
+        "title": "Software Engineer 1",
+        "market": "Outside target markets",
+        "upstreamChange": "active true → false",
+        "result": "Outside target markets."
+      },
+      {
+        "company": "Applied Materials",
+        "jobId": "R2631638",
+        "title": "Physicist/Scientist 3",
+        "market": "Gloucester, MA",
+        "upstreamChange": "active true → false",
+        "result": "Outside target markets and non-target function."
+      },
+      {
+        "company": "Systems Planning and Analysis (SPA)",
+        "jobId": "22615",
+        "title": "Risk Assessment Specialist",
+        "market": "Outside target markets",
+        "upstreamChange": "active true → false",
+        "result": "Outside target markets."
+      },
+      {
+        "company": "Western Digital",
+        "jobId": "744000142878952",
+        "title": "Software Engineer - Apps",
+        "market": "Outside target markets",
+        "upstreamChange": "active true → false",
+        "result": "Outside target markets."
+      },
+      {
+        "company": "Noblis",
+        "jobId": "27693",
+        "title": "Data Analyst",
+        "market": "Outside target markets",
+        "upstreamChange": "active true → false",
+        "result": "Outside target markets."
+      },
+      {
+        "company": "Aptean",
+        "jobId": "7054",
+        "title": "Associate Product Engineer",
+        "market": "Outside target markets",
+        "upstreamChange": "active true → false",
+        "result": "Outside target markets."
+      },
+      {
+        "company": "RTX",
+        "jobId": "01872534",
+        "title": "FPGA Electrical Engineer I",
+        "market": "Fort Wayne, IN",
+        "upstreamChange": "active true → false",
+        "result": "Outside target markets and hardware."
+      },
+      {
+        "company": "RTX",
+        "jobId": "01877283",
+        "title": "Digital Electronics Electrical Engineer I",
+        "market": "Tewksbury, MA",
+        "upstreamChange": "active true → false",
+        "result": "Outside target markets and hardware."
+      },
+      {
+        "company": "Kent",
+        "jobId": "7198",
+        "title": "Software Engineer - Engineering & Consulting Software Development",
+        "market": "Outside target markets",
+        "upstreamChange": "active true → false",
+        "result": "Outside target markets."
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Motorola Solutions",
+        "jobId": "R68965-1",
+        "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Embedded-Software-Engineer_R68965-1",
+        "checkedAt": "2026-10-23T21:37:54Z",
+        "status": "Official Workday page indexed today; public mirrors showed Apply, while upstream changed active→inactive. Status conflict retained; not declared closed.",
+        "location": "Allen, Texas",
+        "experience": "1+ years of C++ development plus hands-on Linux-based embedded systems",
+        "authorization": "Official indexed JD did not establish OPT/STEM OPT compatibility; not pursued because two independent hard rejections already apply.",
+        "duties": "Modern C++ applications for Linux-based embedded systems, firmware for in-car video/body-camera devices, vendor API/SDK integration, production-hardware debugging, testing and CI/CD.",
+        "compensation": "No verified official range found in the indexed JD.",
+        "decision": "Hard reject: stated minimum begins at 1+ years and role is embedded/firmware; no Ryan upgrade. Archived to prevent repeat recommendation."
+      }
+    ],
+    "verificationNote": "No qualified new role and no verified status change to a tracked current/applied role."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 12,
+    "uniqueChangedRecordsReviewed": 12,
+    "inactiveSignalsReviewed": 12,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 1,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "jobId": "R68965-1",
+      "decision": "direction-experience-rejected",
+      "reason": "Allen, TX, but official JD requires 1+ years and centers on embedded software/firmware; upstream inactive conflicts with an indexed official Apply page, so status-verification remains."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "updatedRecords": [],
+    "addedRecords": [
+      "Motorola Solutions — Embedded Software Engineer (R68965-1)"
+    ],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "A real, newly discovered Allen record was officially verified and archived as a hard exclusion to prevent repeat notification."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitSha": "d63cf0f7bb70d8197a74d05a84e95441ee0874d0",
+      "blobSha": "69b28cfbe3321c87b997bb906d9f2a090fc67d4a",
+      "readbackVerified": false
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-23T1637-Texas.json",
+      "status": "pending-readback",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-readback",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T20:35:04Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T1637-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T21:37:54Z"
+  }
+}
