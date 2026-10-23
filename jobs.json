@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T21:37:54Z",
+  "updatedAt": "2026-10-23T22:34:16Z",
   "jobs": [
     {
       "company": "IBM",
@@ -237,7 +237,7 @@
       "gradYear": "2027 届 · 本科或研究生最后一年",
       "match": "高 · 88/100",
       "ngCompatibility": "很高 · 明确面向 2027 届应届生",
-      "assessment": "Goldman Sachs 官方 2027 Dallas 工程应届生项目，明确面向本科或研究生最后一年学生。工作方向涵盖大规模软件系统、大数据、Machine Learning 与金融工程。具体团队尚未分配，需要进一步确认是否能进入 AI/ML 相关团队；品牌、工程平台和应届生适配度较高。2026-10-06出现状态信号冲突：官方详情页仍显示Apply，第三方发现源标记inactive；在官方未明确显示关闭前不移出current，继续核验。",
+      "assessment": "Goldman Sachs 官方 2027 Dallas 工程应届生项目，明确面向本科或研究生最后一年学生。工作方向涵盖大规模软件系统、大数据、Machine Learning 与金融工程。具体团队尚未分配，需要进一步确认是否能进入 AI/ML 相关团队；品牌、工程平台和应届生适配度较高。2026-10-23复核时，Goldman官方页面再次可检索并展示完整New Analyst项目及申请说明，Simplify聚合源也由inactive恢复为active；此前状态冲突已解除，职位继续保留current。",
       "visa": "F-1 OPT / 工作授权需在申请流程中逐项确认",
       "found": "2026-09-10",
       "url": "https://higher.gs.com/roles/171568",
@@ -253,12 +253,15 @@
       "archiveLabel": "JD 快照",
       "jobId": "171568",
       "compensation": "官方未披露。Dallas Engineering Analyst 可比数据：约 $96.5K base + $8.7K annual bonus = $105K recurring TC（Levels.fyi，2026-09-14 更新）。结合 2024–2025 可比样本，预计 2027 offer：$95K–$110K base + $8K–$20K performance bonus；可能另有 $0–$10K sign-on，通常不应预期 Analyst 层级有实质年度 equity。预计 recurring TC $105K–$125K，首年约 $105K–$135K；均为非官方估算。",
-      "lastChecked": "2026-10-06",
-      "lastCheckedAt": "2026-10-06T15:25:08Z",
-      "officialStatus": "2026-10-06核验：Goldman官方详情页仍展示Apply；点击后进入Oracle申请URL，但页面为空白，未出现“职位关闭/不可用”的官方提示。第三方New-Grad发现源在2026-10-06将该职位标为inactive，关闭尚未获官方确认，因此继续保留current并标记status-verification。",
+      "lastChecked": "2026-10-23",
+      "lastCheckedAt": "2026-10-23T22:34:16Z",
+      "officialStatus": "2026-10-23核验：Goldman官方职位页可检索，显示2027 Dallas Engineering New Analyst完整项目说明及Submitting Your Application内容；Simplify记录在commit c78b66c中由inactive恢复为active。此前status-verification已解除，当前按开放处理。",
       "verificationFlags": [
-        "status-verification"
-      ]
+        "visa-verification",
+        "team-track-verification"
+      ],
+      "upstreamRecordId": "a84b5ca0-5e89-4893-97cb-4be5aead281c",
+      "upstreamReactivatedCommit": "c78b66cdfc468902d1f00de063b41a39c3b5eeda"
     },
     {
       "company": "Kyndryl",
