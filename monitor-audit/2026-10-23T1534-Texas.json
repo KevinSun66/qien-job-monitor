@@ -1,0 +1,188 @@
+{
+  "checkedAt": "2026-10-23T20:34:38Z",
+  "checkedAtLocal": "2026-10-23T15:34:38-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "3f23d7204407903f99700e894c34b4f967fd2e14",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "b834042854e18daad231b328b4eec3901fb160eb",
+      "blobShaAfter": "b834042854e18daad231b328b4eec3901fb160eb",
+      "updatedAt": "2026-10-23T17:45:32Z",
+      "recordCountBefore": 232,
+      "recordCountAfter": 232,
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T1458-Texas.json",
+      "blobSha": "4bea19615c46dfbc4996ca7955e632dd6b197f00",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "57e5b9d4eebc2d80f03cdfaa8b24b430a374a306",
+      "previousRepositoryHead": "57e5b9d4eebc2d80f03cdfaa8b24b430a374a306",
+      "currentListingsCommit": "3131a2f1e59424e6f3af32de8bfa5773548fff90",
+      "currentRepositoryHead": "4edfdca54f1e90120a57191308274d61f08d9e98",
+      "listingsCommitsReviewed": [
+        "82ee49ccd3dc9a29e7e4742edf7e96ebc563f248",
+        "3131a2f1e59424e6f3af32de8bfa5773548fff90"
+      ],
+      "readmeCommitReviewed": "4edfdca54f1e90120a57191308274d61f08d9e98",
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "0dac37b74cf020e61974c48e5d0411e58c162c40",
+      "listingsBlobShaAfter": "01425ac75f83e4a1761d6c3064117888d5928a43",
+      "result": "The first listings commit was a no-op. The second changed two records from active to inactive; both were outside Dallas/Austin. The subsequent README-only commit was not treated as a job-data change."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Microsoft",
+        "upstreamRecordId": "03bcc190-297d-4f25-b85d-749b57da6016",
+        "upstreamTitle": "Software Engineer",
+        "url": "https://apply.careers.microsoft.com/careers/job/1970393556858723",
+        "upstreamChange": "active true → false",
+        "market": "Redmond, WA",
+        "result": "Official page says no longer accepting applications and requires active Top Secret/SCI/SSBI Polygraph plus U.S. citizenship. Outside target markets and authorization-incompatible; no monitor data change."
+      },
+      {
+        "company": "Etsy",
+        "upstreamRecordId": "05891430-1723-4b9b-839e-f243696e66ef",
+        "title": "Software Engineer 1 - Marketplace Makers",
+        "market": "Brooklyn, NY",
+        "upstreamChange": "active true → false",
+        "result": "Outside Dallas/Austin; no monitor data change."
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Microsoft",
+        "upstreamUrl": "https://apply.careers.microsoft.com/careers/job/1970393556858723",
+        "officialTitle": "Software Engineering - CTJ - Poly",
+        "officialJobNumber": "200034858",
+        "checkedAt": "2026-10-23T20:34:38Z",
+        "status": "No longer accepting applications",
+        "datePosted": "2026-10-01",
+        "location": "Redmond, Washington; 3 days/week in office",
+        "employment": "Full-Time",
+        "experience": "Software Engineer IC2; official page did not establish an eligible Texas new-grad pathway",
+        "authorization": "Active U.S. Government Top Secret with SCI/SSBI Polygraph and U.S. citizenship required",
+        "duties": "Azure AI Platform air-gapped engineering across Azure ML/AI/OpenAI/Foundry infrastructure",
+        "compensation": "$85,400–$168,100 base in the U.S.; $111,100–$183,700 in SF/NY",
+        "decision": "Location and citizenship/clearance hard reject; official closed state matches upstream inactive signal."
+      }
+    ],
+    "verificationNote": "No new active record, no Dallas/Austin status signal, and no verified status change to a tracked role."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 2,
+    "uniqueChangedRecordsReviewed": 2,
+    "inactiveSignalsReviewed": 2,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "recordId": "03bcc190-297d-4f25-b85d-749b57da6016",
+      "decision": "location-citizenship-clearance-rejected",
+      "reason": "Redmond, Washington; U.S. citizenship and active TS/SCI/SSBI Polygraph required; official page closed."
+    },
+    {
+      "recordId": "05891430-1723-4b9b-839e-f243696e66ef",
+      "decision": "location-rejected",
+      "reason": "Brooklyn, New York."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified actionable new role or tracked-job status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitSha": null,
+      "blobSha": "b834042854e18daad231b328b4eec3901fb160eb",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-23T1534-Texas.json",
+      "status": "pending-readback",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-readback",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T20:00:06Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T1534-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T20:00:06Z"
+  }
+}
