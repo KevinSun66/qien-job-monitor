@@ -1,0 +1,233 @@
+{
+  "checkedAt": "2026-10-23T11:44:31Z",
+  "checkedAtLocal": "2026-10-23T06:44:31-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "1ff25abc8e5ec9e05523a2f8211a95ae9ca14212",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "5cc7d7473fff0eb1b90e430c085a321d32b1cbda",
+      "blobShaAfter": "9785fbb05d0c46e987043fd9f5dd0deb79a78bb3",
+      "updatedAt": "2026-10-23T11:44:31Z",
+      "recordCountBefore": 228,
+      "recordCountAfter": 229,
+      "changed": true,
+      "commitSha": "3ea8b5b8d8116acfd4a645feab2d9dbc2e422457",
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T0521-Texas.json",
+      "blobSha": "5d7f4538d2f99a4b86f0f3a8c795fc41168d45e6",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "ff27455560d24353b9e25c84010dc720ddb57545",
+      "previousRepositoryHead": "e478bab5a0ec77493f8467e8a091e1fa2ea52869",
+      "currentListingsCommit": "af71a5915226eb322badca8a4dfccc65fcae6be8",
+      "currentRepositoryHead": "b1acc0c9e20dc9d962dae56be2ec7084ab32efa9",
+      "listingsCommitsReviewed": [
+        "885430377e98f66080dd302e7ed3a1b8a5919ff5",
+        "15b07051efbfb521e26f250a3a53fcbfeba3907a",
+        "af71a5915226eb322badca8a4dfccc65fcae6be8"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "3ace3a4f133fe6b8484de45b2b0677eecb313b94",
+      "listingsBlobShaAfter": "3dabe8a1aae98e721249770c5f8c623f8fa4bf0d",
+      "readmeBlobShaAfter": "76d5bb5554afb018a230a4e749ffd672cfdebd9b",
+      "result": "Three listings commits produced 69 record-change events: 18 additions, 7 removals, 11 reactivations and 33 inactive signals. Seven Texas-related changes were reviewed; six were in Dallas/Austin/DFW or adjacent markets."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Kyndryl",
+        "jobId": "R-68529",
+        "title": "Forward Deployed Engineer",
+        "market": "Frisco / Dallas, TX",
+        "upstreamChange": "active true → false",
+        "result": "Official page still displayed Apply and described an early-career production AI role. Added only as eligibility-verification because upstream status conflicts, OPT/STEM OPT policy is undisclosed, and post-May-2027 start is not established."
+      },
+      {
+        "company": "Dallas County",
+        "jobId": "26000288",
+        "title": "GIS Analyst 1",
+        "market": "Dallas, TX",
+        "upstreamChange": "active true → false",
+        "result": "Not a clear Applied AI/ML/Data Science upgrade over Ryan; not added."
+      },
+      {
+        "company": "Base Power",
+        "title": "Hardware Test Technician",
+        "market": "Austin, TX",
+        "upstreamChange": "new active record",
+        "result": "Hardware role; excluded."
+      },
+      {
+        "company": "Base Power",
+        "title": "Field Reliability Technician",
+        "market": "Austin, TX",
+        "upstreamChange": "new active record",
+        "result": "Field hardware/reliability role; excluded."
+      },
+      {
+        "company": "Infinitum",
+        "title": "Test Development Engineer",
+        "market": "Austin, TX",
+        "upstreamChange": "new active record",
+        "result": "Hardware/test engineering role; excluded."
+      },
+      {
+        "company": "Google",
+        "title": "Product Manager 1",
+        "market": "Addison/Austin, TX",
+        "upstreamChange": "stale inactive record removed",
+        "result": "Out of target function; no tracked-status change."
+      },
+      {
+        "company": "OptiSigns",
+        "title": "Junior UI Engineer",
+        "market": "Houston, TX",
+        "upstreamChange": "new active record",
+        "result": "Outside Dallas/Austin scope and not Applied AI/ML/Data Science."
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Kyndryl",
+        "jobId": "R-68529",
+        "officialUrl": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Dallas-USDALFRI-Frisco-AI-HUB/Forward-Deployed-Engineer_R-68529",
+        "verifiedAt": "2026-10-23T11:44:31Z",
+        "status": "Indexed official page displayed Apply and Posted 8 Days Ago",
+        "location": "Dallas (USDALFRI) Frisco AI HUB; hybrid three onsite days per week",
+        "experience": "Early-career wording; no numeric minimum professional years stated in indexed official text",
+        "duties": "Build, prototype and deploy production AI-enabled enterprise solutions; Python/data processing, AI/ML frameworks, agentic/GenAI, cloud, performance/security and customer delivery",
+        "workAuthorization": "Not disclosed in reviewed official/indexed JD",
+        "startTiming": "Post-May-2027 start not disclosed",
+        "compensation": "$73,440–$139,680 U.S. base + discretionary annual bonus + benefits",
+        "conclusion": "Technically strong and potentially better than Ryan, but do not recommend or notify until live status, OPT/STEM OPT, 2027 start and benchmark improvement are fully verified."
+      }
+    ]
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 69,
+    "uniqueChangedRecordsReviewed": 69,
+    "inactiveSignalsReviewed": 33,
+    "reactivatedRecordsReviewed": 11,
+    "newActiveRecordsReviewed": 18,
+    "removedRecordsReviewed": 7,
+    "texasRelatedRecordsReviewed": 7,
+    "dallasAustinOrAdjacentRecordsReviewed": 6,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 1,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "jobId": "R-68529",
+      "decision": "eligibility-verification",
+      "reason": "Official page appears open and technical/experience fit is strong; OPT/STEM OPT, post-May-2027 start and status conflict remain unresolved, so the record is excluded from Table 2 and notifications."
+    },
+    {
+      "jobId": "26000288",
+      "decision": "direction-opportunity-cost-rejected",
+      "reason": "GIS analyst role does not establish a clear Applied AI/ML/Data Science upgrade over Ryan."
+    },
+    {
+      "jobId": "Base Power hardware/field roles",
+      "decision": "hardware-rejected",
+      "reason": "Hardware/field reliability functions are explicitly excluded."
+    },
+    {
+      "jobId": "Infinitum test role",
+      "decision": "hardware-rejected",
+      "reason": "Hardware/test development function is explicitly excluded."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "updatedRecords": [],
+    "addedRecords": [
+      "Kyndryl Forward Deployed Engineer (R-68529) — eligibility-verification only"
+    ],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "newArchive": "job-archive/kyndryl/R-68529/job-description.md",
+    "archiveCommitSha": "9832e0e82f1bbd4a883343c5e39e50fbdf608cc6",
+    "reason": "A real, high-technical-fit Frisco AI role was newly verified from the official JD, but unresolved work authorization, 2027 start and status conflict require a pending record rather than a recommendation."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitSha": "3ea8b5b8d8116acfd4a645feab2d9dbc2e422457",
+      "blobSha": "9785fbb05d0c46e987043fd9f5dd0deb79a78bb3",
+      "readbackVerified": true
+    },
+    "archive": {
+      "status": "synced",
+      "commitSha": "9832e0e82f1bbd4a883343c5e39e50fbdf608cc6",
+      "blobSha": "4ef8b842cfea953f72055dd738e4be877c47a5e6",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-23T0644-Texas.json",
+      "status": "pending-readback",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending-audit-readback",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T10:22:21Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T0644-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T11:45:03Z"
+  }
+}
