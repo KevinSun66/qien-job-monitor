@@ -1,0 +1,192 @@
+{
+  "checkedAt": "2026-10-23T19:58:36Z",
+  "checkedAtLocal": "2026-10-23T14:58:36-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "3b415d27606ad51de100ac09a2bb6be4ccac7a4c",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "b834042854e18daad231b328b4eec3901fb160eb",
+      "blobShaAfter": "b834042854e18daad231b328b4eec3901fb160eb",
+      "updatedAt": "2026-10-23T17:45:32Z",
+      "recordCountBefore": 232,
+      "recordCountAfter": 232,
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T1316-Texas.json",
+      "blobSha": "9e7247f52bf51221ea850541bf1c97a0edc89ebc",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "b6001b6189afbcb492157d94e577af94e714c4b3",
+      "previousRepositoryHead": "d816d6bb9180cc5b23978a70ab7d1ce09ba4c4d7",
+      "currentListingsCommit": "57e5b9d4eebc2d80f03cdfaa8b24b430a374a306",
+      "currentRepositoryHead": "57e5b9d4eebc2d80f03cdfaa8b24b430a374a306",
+      "listingsCommitsReviewed": [
+        "b32ad8392a5d0d7832d7e8016bd074ea7938e489",
+        "87c9bb3bab00b9105f0e3476349315e5b133c674",
+        "57e5b9d4eebc2d80f03cdfaa8b24b430a374a306"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "6467f169460a66982e421b37de9d4e4cc0964c7a",
+      "listingsBlobShaAfter": "0dac37b74cf020e61974c48e5d0411e58c162c40",
+      "result": "Three listings commits were reviewed. The first produced two inactive signals; the next two were no-op commits with the same listings blob. Neither changed record was in Dallas/Austin or Texas remote."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Mayo Clinic",
+        "jobId": "394007",
+        "title": "Associate Data Science Analyst (Limited Tenure)",
+        "market": "Jacksonville, FL; onsite",
+        "upstreamChange": "active true → false",
+        "result": "Official Mayo page remains indexed with an expiration date of 2026-10-23. The role is one-year limited tenure and onsite in Jacksonville, Florida, so it is outside the target markets and was not archived."
+      },
+      {
+        "company": "Arcfield",
+        "jobId": "8467",
+        "title": "Software Engineer / Electrical Engineer",
+        "market": "Chesterbrook, PA; no remote/telework",
+        "upstreamChange": "active true → false",
+        "result": "Official Arcfield page confirms Pennsylvania onsite work and TS/SCI with polygraph clearance. Outside target markets and identity-incompatible; no monitor data change."
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Mayo Clinic",
+        "jobId": "394007",
+        "url": "https://jobs.mayoclinic.org/job/jacksonville/associate-data-science-analyst-limited-tenure/33647/102291831904",
+        "checkedAt": "2026-10-23T19:58:36Z",
+        "status": "Official page indexed; expiration date 2026-10-23",
+        "location": "Jacksonville, FL; Remote: No",
+        "compensation": "$78,270.40–$117,312; one-year limited tenure",
+        "decision": "Outside Dallas/Austin; no data change."
+      },
+      {
+        "company": "Arcfield",
+        "jobId": "8467",
+        "url": "https://careers.arcfield.com/hiring-events/jobs/8467?lang=en-us",
+        "checkedAt": "2026-10-23T19:58:36Z",
+        "status": "Official page indexed",
+        "experience": "0–2 years",
+        "location": "Chesterbrook, PA; no remote/telework",
+        "authorization": "Must obtain and maintain TS/SCI with Polygraph",
+        "decision": "Outside target markets and identity-incompatible; no data change."
+      }
+    ],
+    "verificationNote": "No new active record, no Dallas/Austin status signal, and no verified status change to a tracked role."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 2,
+    "uniqueChangedRecordsReviewed": 2,
+    "inactiveSignalsReviewed": 2,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "jobId": "394007",
+      "decision": "location-rejected",
+      "reason": "Onsite Jacksonville, Florida; one-year limited tenure."
+    },
+    {
+      "jobId": "8467",
+      "decision": "location-clearance-rejected",
+      "reason": "Onsite Chesterbrook, Pennsylvania and TS/SCI with polygraph."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified actionable new role or tracked-job status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitSha": null,
+      "blobSha": "b834042854e18daad231b328b4eec3901fb160eb",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-23T1458-Texas.json",
+      "status": "pending-readback",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-readback",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T18:17:10Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T1458-Texas.json final readback"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T18:17:10Z"
+  }
+}
