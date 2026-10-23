@@ -1,0 +1,187 @@
+{
+  "checkedAt": "2026-10-23T10:21:51Z",
+  "checkedAtLocal": "2026-10-23T05:21:51-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "1ec8bbdfc58161f62d513819e769e2fd3b4e79a1",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "5cc7d7473fff0eb1b90e430c085a321d32b1cbda",
+      "blobShaAfter": "5cc7d7473fff0eb1b90e430c085a321d32b1cbda",
+      "updatedAt": "2026-10-23T06:45:31Z",
+      "recordCount": 228,
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T0410-Texas.json",
+      "blobSha": "243be3dd62f6021f9bf4d42547c76bab8ff618b0",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "538ad4e9165f8b36ec458c101bf72578e92fc98c",
+      "previousRepositoryHead": "de5ea7a9397364407f1009b11a9a94898a0143c2",
+      "currentListingsCommit": "ff27455560d24353b9e25c84010dc720ddb57545",
+      "currentRepositoryHead": "e478bab5a0ec77493f8467e8a091e1fa2ea52869",
+      "commitsReviewed": [
+        "0690a4ddcf371da5b987056ea1d179e50f5f6a63",
+        "553d10a52197fd34b796c9df44d2d79386a4eb29",
+        "ff27455560d24353b9e25c84010dc720ddb57545",
+        "e478bab5a0ec77493f8467e8a091e1fa2ea52869"
+      ],
+      "listingsCommitsReviewed": [
+        "0690a4ddcf371da5b987056ea1d179e50f5f6a63",
+        "ff27455560d24353b9e25c84010dc720ddb57545"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "077ba3470688fe0c555b4f34a2abd5a5a1899fee",
+      "listingsBlobShaAfter": "3ace3a4f133fe6b8484de45b2b0677eecb313b94",
+      "readmeBlobShaAfter": "0fff82a6a52a79820167752433a5257e54f2b6e5",
+      "result": "Two listings commits produced 60 record-change events (22 additions, 7 reactivations, 31 inactive signals). One Austin record changed, but it is semiconductor/VLSI physical design rather than Applied AI/ML/Data Science."
+    },
+    "reviewedRecords": [
+      {
+        "company": "NVIDIA",
+        "jobId": "JR2019330",
+        "title": "Software R&D Engineer, VLSI Physical Design — New College Grad 2026",
+        "market": "Austin, TX",
+        "upstreamChange": "active true → false",
+        "result": "official NVIDIA page remained indexed today; aggregator signal was not treated as confirmed closure. Role is semiconductor/VLSI physical design and is outside target function. This requisition is distinct from tracked JR2018183."
+      },
+      {
+        "company": "TikTok",
+        "jobId": "5d7ae207-e8c4-4562-9e0d-5df316223461",
+        "title": "Research Scientist New Grad — TikTok Recommendation",
+        "market": "San Jose, CA",
+        "upstreamChange": "new active record",
+        "result": "outside Texas monitoring scope"
+      },
+      {
+        "company": "Red Ventures",
+        "jobId": "9a28e7b4-e887-4ab7-b5d2-839bdb0a9d53",
+        "title": "Associate Data Scientist — Home Client Services",
+        "market": "outside Dallas/Austin in upstream record",
+        "upstreamChange": "inactive false → active true",
+        "result": "outside Texas monitoring scope"
+      },
+      {
+        "company": "Unconventional AI",
+        "jobId": "6c83cb46-84d6-4867-99c6-4ed77f4a81a5",
+        "title": "Junior Member of Technical Staff, System Modeling",
+        "market": "Remote US / Mountain View, CA",
+        "upstreamChange": "new active record",
+        "result": "not a Dallas/Austin-targeted posting; no Texas eligibility verified"
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "NVIDIA",
+        "jobId": "JR2019330",
+        "officialUrl": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Software-R-D-Engineer--VLSI-Physical-Design---New-College-Grad-2026_JR2019330",
+        "verifiedAt": "2026-10-23T10:21:51Z",
+        "status": "official NVIDIA page remained indexed today",
+        "location": "Austin, TX",
+        "duties": "VLSI physical-design algorithms including sizing, buffering, clock-tree synthesis and legalization",
+        "conclusion": "Do not infer closure from aggregator inactive; exclude from Qien monitor because this is semiconductor/VLSI physical design, not Applied AI/ML/Data Science."
+      }
+    ],
+    "verificationNote": "No new active, reactivated, or tracked Dallas/Austin Applied AI/ML/Data Science candidate required additional official JD verification."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 60,
+    "uniqueChangedRecordsReviewed": 60,
+    "inactiveSignalsReviewed": 31,
+    "reactivatedRecordsReviewed": 7,
+    "newActiveRecordsReviewed": 22,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "jobId": "JR2019330",
+      "decision": "direction-rejected",
+      "reason": "Semiconductor/VLSI physical-design role; official page still indexed, so aggregator inactive is not a confirmed closure."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "No verified new candidate or tracked-status change; the sole Austin signal was an out-of-scope VLSI requisition distinct from the tracked NVIDIA record."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitSha": null,
+      "blobSha": "5cc7d7473fff0eb1b90e430c085a321d32b1cbda",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-23T0521-Texas.json",
+      "status": "pending-readback-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-readback-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T09:11:30Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T0521-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T09:11:30Z"
+  }
+}
