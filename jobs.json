@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T11:44:31Z",
+  "updatedAt": "2026-10-23T13:01:39Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8287,6 +8287,53 @@
       "archiveUrl": "job-archive/kyndryl/R-68529/job-description.md",
       "archiveLabel": "JD 归档摘要",
       "archivedAt": "2026-10-23T11:44:31Z"
+    },
+    {
+      "company": "Ernst & Young (EY)",
+      "tier": "发现后排除",
+      "area": "Dallas, TX / New York, NY",
+      "market": "DFW",
+      "title": "USA Tax Technology and Transformation (TTT) Products Analyst",
+      "jobId": "1741172",
+      "sourceListingId": "9f01b792-9923-47ca-8cd3-faad2cb3d33b",
+      "url": "https://eyglobal.yello.co/jobs/OkYiCxMUcwvD2VbChlun9Q?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "status": "work-authorization-direction-opportunity-cost-rejected",
+      "found": "2026-10-23",
+      "discoveredDate": "2026-10-23",
+      "discoveredAt": "2026-10-23T13:01:39Z",
+      "firstSeen": "2026-10-23",
+      "lastChecked": "2026-10-23",
+      "lastCheckedAt": "2026-10-23T13:01:39Z",
+      "employment": "Full-time · Campus/Analyst · Hybrid client service",
+      "gradYear": "Predicted undergraduate or graduate degree; no explicit professional-experience minimum; post-May-2027 start not disclosed",
+      "match": "Some tax automation/data/AI exposure, but not core Applied AI/ML/Data Science",
+      "ngCompatibility": "Education-level entry route appears compatible; work authorization is independently disqualifying and 2027 start timing is not stated.",
+      "assessment": "EY’s official Yello page displayed Apply and confirmed Dallas as an available location. The role supports tax-technology products through requirements, process automation, feature testing, project delivery, reporting/data analysis and exploration of AI/ML business cases. It is primarily tax technology product/client delivery rather than developing ML models or production Applied AI systems. The official JD requires candidates to work in the U.S. without employer sponsorship now and in the future, which fails the monitor’s F-1 OPT/STEM OPT path rule. The $78,000–$100,000 base range overlaps the Ryan benchmark and does not establish a clear overall upgrade.",
+      "visa": "Hard exclusion: official JD requires U.S. work authorization without employer sponsorship now and in the future.",
+      "compensation": "$78,000–$100,000 U.S. base (official) + benefits",
+      "officePerks": "Dallas/NYC · hybrid client-service model with approximately 40%–60% in-person work over an engagement/project/year · travel may be required",
+      "officialLocations": [
+        "Dallas, TX",
+        "New York, NY"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Official EY Yello page displayed an Apply action at 2026-10-23T13:01:39Z.",
+      "source": "EY official Yello JD; SimplifyJobs/New-Grad-Positions commit fc5aa76913415359fda7cbe606799b7f8e2897f4",
+      "officialSource": "https://eyglobal.yello.co/jobs/OkYiCxMUcwvD2VbChlun9Q?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "verificationFlags": [
+        "work-authorization-rejected",
+        "direction-rejected",
+        "opportunity-cost-rejected"
+      ],
+      "finalPriority": "不投 · 现在/未来工作授权硬排除，且相对Ryan无明确Applied AI/ML升级",
+      "roleTrack": "Tax Technology Products / Process Automation / Business & Data Analysis",
+      "technicalGrowth": "74/100 for Qien’s Applied AI/ML/DS path",
+      "brandPlatform": "90/100",
+      "ryanUpgrade": "No clear overall upgrade: compensation overlaps Ryan, work centers on tax-product/client delivery, and authorization is incompatible.",
+      "rejectionReason": "Official now-and-future no-sponsorship language conflicts with the monitored F-1 OPT/STEM OPT path; role direction and compensation also do not clearly beat Ryan.",
+      "archiveUrl": "job-archive/ernst-young/1741172/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-10-23T13:01:39Z"
     }
   ],
   "monitorAudit": [
