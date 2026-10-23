@@ -1,0 +1,234 @@
+{
+  "checkedAt": "2026-10-23T22:34:53Z",
+  "checkedAtLocal": "2026-10-23T17:34:53-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark or a verified material status change to a tracked role"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "37e6bf36c67ed81567b37e3cb1db4ffed56d31eb",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "69b28cfbe3321c87b997bb906d9f2a090fc67d4a",
+      "blobShaAfter": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "updatedAt": "2026-10-23T22:34:53Z",
+      "recordCountBefore": 233,
+      "recordCountAfter": 234,
+      "changed": true,
+      "commitShas": [
+        "398aa4d2985a5eb2613e50de8a2c8297a7b5b15e",
+        "60c9b248425739b8f9876eddb3e65d98baee7a1e"
+      ],
+      "readbackVerified": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T1637-Texas.json",
+      "blobSha": "e1a8e1b46803bad2fb79dfd44d0fb2da816bb036",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "372f84a7e8bd2026dff2a8fc25e202365d0a75ac",
+      "previousRepositoryHead": "b29c8cf0b255f8aa4e5c7596fb0b4746f2f8eaef",
+      "currentListingsCommit": "c78b66cdfc468902d1f00de063b41a39c3b5eeda",
+      "currentRepositoryHead": "3fd7258259bff5341dd38bf03869d7486edd3ed5",
+      "listingsCommitsReviewed": [
+        "6459ad6597829f2ca7c373b3e1a41d47238f8b3a",
+        "c78b66cdfc468902d1f00de063b41a39c3b5eeda"
+      ],
+      "readmeCommitsReviewed": [
+        "7f1368342c87e57c03e01097fd7724537c654dfb",
+        "3fd7258259bff5341dd38bf03869d7486edd3ed5"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "af51fac55bf4baeeed4e6b12d8189962a66ccd2a",
+      "listingsBlobShaAfter": "0f2e50e67461dce9c3373d5ec65939838c5d787d",
+      "result": "Two listings commits were reviewed: 8 active→inactive events, 5 inactive→active events, and 25 newly added active records. Goldman Sachs 171568 was a tracked Dallas reactivation confirmed by the official page. GlobalFoundries JR-2604136 was a new Austin 2027 NCG role, verified open but archived as a hardware/semiconductor exclusion. Other records were outside the target markets, non-target, or not upgrades over Ryan."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171568",
+        "title": "2027 | Americas | Dallas Metro Area | Engineering | New Analyst",
+        "market": "Dallas",
+        "upstreamChange": "active false → true",
+        "result": "Official page is indexed today with the complete New Analyst program and application instructions. Prior status conflict resolved; tracked record remains current and status-verification was removed."
+      },
+      {
+        "company": "GlobalFoundries",
+        "jobId": "JR-2604136",
+        "title": "CPU IP Design & Verification Engineer – RISC-V (2027 New College Graduate)",
+        "market": "Austin, TX / Santa Clara, CA",
+        "upstreamChange": "new active record",
+        "result": "Official page is open with Apply and Posted Today. Archived as direction-rejected because CPU microarchitecture, SystemVerilog RTL, verification, PPA, FPGA/ASIC and processor design are semiconductor hardware, not Applied AI/ML/DS."
+      },
+      {
+        "company": "UT Southwestern Medical Center",
+        "jobId": "973896",
+        "title": "Clinical Quality Data Coordinator 1",
+        "market": "Dallas",
+        "upstreamChange": "active true → false",
+        "result": "Not an Applied AI/ML/Data Science role and not a Ryan upgrade; no tracked-record change."
+      },
+      {
+        "company": "RWS",
+        "title": "General AI Data Annotator - Spanish",
+        "market": "Remote in USA",
+        "upstreamChange": "new active record",
+        "result": "Low-level data annotation work; no Ryan benchmark upgrade, not archived as a core candidate."
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171568",
+        "url": "https://higher.gs.com/roles/171568",
+        "checkedAt": "2026-10-23T22:34:16Z",
+        "status": "Official page indexed today and displays full program/application content",
+        "location": "Dallas Metro Area",
+        "experience": "Final-year undergraduate or graduate student; no full-time experience minimum",
+        "authorization": "Official page does not disclose OPT/STEM OPT or sponsorship; visa-verification retained",
+        "duties": "Engineering New Analyst program spanning large-scale systems, data/ML opportunities and financial engineering; exact team remains unassigned",
+        "decision": "Confirmed active; keep current. Remove status-verification, retain visa and team-track verification."
+      },
+      {
+        "company": "GlobalFoundries",
+        "jobId": "JR-2604136",
+        "url": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/CPU-IP-Design---Verification-Engineer---RISC-V--2027-New-College-Graduate-_JR-2604136",
+        "checkedAt": "2026-10-23T22:34:53Z",
+        "status": "Open; Apply displayed; Posted Today",
+        "location": "Austin, TX or Santa Clara, CA",
+        "experience": "2027 New College Graduate; no full-time experience minimum; degree in EE/CE or related field and 3.0 GPA",
+        "authorization": "JD does not disclose OPT/STEM OPT or sponsorship",
+        "duties": "RISC-V CPU microarchitecture, SystemVerilog RTL, functional verification, simulations, coverage, PPA, FPGA/ASIC, Python/C++ automation",
+        "compensation": "$86,000–$170,000 expected salary range",
+        "decision": "Hard reject and archive: hardware/semiconductor direction despite correct location/timing and strong pay."
+      }
+    ],
+    "verificationNote": "One tracked Dallas status conflict was resolved active. No newly qualified role entered table 2."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 38,
+    "uniqueChangedRecordsReviewed": 38,
+    "inactiveSignalsReviewed": 8,
+    "reactivatedRecordsReviewed": 5,
+    "newActiveRecordsReviewed": 25,
+    "removedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 3,
+    "dallasAustinOrAdjacentRecordsReviewed": 3,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 1,
+    "verifiedStatusChangesToTrackedJobs": 1,
+    "notifications": 1
+  },
+  "screeningResults": [
+    {
+      "jobId": "171568",
+      "decision": "confirmed-active",
+      "reason": "Official page and upstream now agree active; status-verification cleared. Visa and exact AI/ML team remain to be verified."
+    },
+    {
+      "jobId": "JR-2604136",
+      "decision": "direction-rejected",
+      "reason": "Open Austin 2027 NCG role, but core work is RISC-V CPU/RTL/ASIC design and verification."
+    },
+    {
+      "jobId": "973896",
+      "decision": "non-target-rejected",
+      "reason": "Clinical quality data coordination, not Applied AI/ML/DS and no Ryan upgrade."
+    },
+    {
+      "recordId": "89106bcb-16f3-478d-bb3f-866e6814415d",
+      "decision": "opportunity-cost-rejected",
+      "reason": "Remote AI data annotation; no technical, brand, or compensation upgrade over Ryan."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "updatedRecords": [
+      "Goldman Sachs — 2027 Dallas Engineering New Analyst (171568): status conflict resolved active"
+    ],
+    "addedRecords": [
+      "GlobalFoundries — CPU IP Design & Verification Engineer – RISC-V (JR-2604136): archived as direction-rejected"
+    ],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "Verified tracked-job status resolution plus one verified new Austin hard-exclusion record."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitShas": [
+        "398aa4d2985a5eb2613e50de8a2c8297a7b5b15e",
+        "60c9b248425739b8f9876eddb3e65d98baee7a1e"
+      ],
+      "blobSha": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "readbackVerified": false
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-23T1734-Texas.json",
+      "status": "pending-readback",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-readback",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T21:38:47Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T1734-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T22:34:53Z"
+  }
+}
