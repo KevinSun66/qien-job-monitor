@@ -1,0 +1,158 @@
+{
+  "checkedAt": "2026-10-23T04:00:02Z",
+  "checkedAtLocal": "2026-10-22T23:00:02-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "d9eec28bcf756fdda3ce063306e0e446bd0788c1",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "blobShaAfter": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "updatedAt": "2026-10-22T23:07:41Z",
+      "recordCount": 227,
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T2159-Texas.json",
+      "blobSha": "e3498909d3b6938888c368069a69d7b96394728d",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "bb6d2aef5e4782861f2cc3dea3659ca7f7f5340a",
+      "previousRepositoryHead": "7aaf61ce7885b0156c384b1690d1cd08a7f9ac6b",
+      "currentListingsCommit": "6b848e6b552c78190d3a64c72f6069bf128471e3",
+      "currentRepositoryHead": "6b848e6b552c78190d3a64c72f6069bf128471e3",
+      "commitsReviewed": [
+        "d0ff2eadb434e328e89e69055a88047e372214f6",
+        "ee46fa0e904afa4f9782d8823683036603306b9e",
+        "6b848e6b552c78190d3a64c72f6069bf128471e3"
+      ],
+      "listingsCommitsReviewed": [
+        "d0ff2eadb434e328e89e69055a88047e372214f6",
+        "6b848e6b552c78190d3a64c72f6069bf128471e3"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "f99bdecfd2e800c0334a826b6c27d5c9d9be990c",
+      "listingsBlobShaAfter": "c0c7a4e98e9ec97b252b8a229dcb8ae6e1dc1c12",
+      "readmeBlobShaAfter": "2e8a3d59d78108a40bad826e12d4280da94243d0",
+      "result": "The first listings commit removed three historical records that were already inactive; none was in Texas. The later listings-labeled commit made no listings file change. No new or changed Dallas/Austin candidate was present."
+    },
+    "reviewedRecords": [
+      {
+        "company": "General Motors",
+        "jobId": "9625e78d-5698-46ee-b54e-749e328b0095",
+        "title": "Software Engineer – Early Career",
+        "market": "Warren, MI / Mountain View, CA",
+        "upstreamChange": "historical inactive record removed",
+        "result": "cleanup only; outside Texas"
+      },
+      {
+        "company": "PVH",
+        "jobId": "b2cf1817-384b-4b3a-9852-2def4c845867",
+        "title": "Assistant Merchandiser",
+        "market": "New York",
+        "upstreamChange": "historical inactive record removed",
+        "result": "cleanup only; outside geography and function"
+      },
+      {
+        "company": "Aristocrat Leisure",
+        "jobId": "9b2e6700-09fb-412d-8c0f-c9cba7d636e7",
+        "title": "Digital Games Coordinator",
+        "market": "Charleston, WV",
+        "upstreamChange": "historical inactive record removed",
+        "result": "cleanup only; outside geography and function"
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "No new active, reactivated, or tracked Dallas/Austin candidate required official JD verification."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 3,
+    "uniqueChangedRecordsReviewed": 3,
+    "cleanupOnlyInactiveRecords": 3,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "Only non-Texas cleanup of already-inactive historical records; no verified candidate or tracked status change"
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitSha": null,
+      "blobSha": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-22T2300-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T03:00:35Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T2300-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T03:00:35Z"
+  }
+}
