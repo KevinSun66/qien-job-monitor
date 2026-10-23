@@ -1,0 +1,167 @@
+{
+  "checkedAt": "2026-10-23T00:02:26Z",
+  "checkedAtLocal": "2026-10-22T19:02:26-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "e850cfb4cd9d4e53a428b9a4141360021fe568b7",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "blobShaAfter": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "updatedAt": "2026-10-22T23:07:41Z",
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-22T1809-Texas.json",
+      "blobSha": "483c4315556fbd40226617ad5bbd0487a121a869",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "3c5f820fc90a0358d86a825865c54ff5cea75f16",
+      "previousRepositoryHead": "08fb8dff82050a134aaecabb32de35b206e2f908",
+      "currentListingsCommit": "a6d69a4e63778ccae916990bf9e560cd67df3f9f",
+      "currentRepositoryHead": "28008a1bf11059c3868416bb9d410fdbb8a0ee4c",
+      "commitsReviewed": [
+        "a422b31b7c09bc49e8722d9bb574d0c715a7e290",
+        "aa7d47c8f22ba959f0520f436c8f9bb160169eb5",
+        "a6d69a4e63778ccae916990bf9e560cd67df3f9f",
+        "28008a1bf11059c3868416bb9d410fdbb8a0ee4c"
+      ],
+      "listingsCommitsReviewed": [
+        "a422b31b7c09bc49e8722d9bb574d0c715a7e290",
+        "a6d69a4e63778ccae916990bf9e560cd67df3f9f"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "7083357207cd236556371c088be21aac3e5c7d7d",
+      "listingsBlobShaAfter": "01f8ae2943b02aae468b3f18decc7990a39a4d76",
+      "readmeBlobShaAfter": "5aadd5a488df6b776cd8aad2a184e7e0b593778d",
+      "result": "Both listings commits were cleanup-only: 43 and 22 records, respectively, were deleted from listings.json; every deleted record was already active=false. No record was added, reactivated or changed from active to inactive."
+    },
+    "relevantCleanupRecords": [
+      {
+        "company": "NVIDIA",
+        "jobId": "JR2013888",
+        "title": "Research Scientist — Platform Architecture and System Software, PhD New College Grad 2026",
+        "market": "Austin among listed locations",
+        "reason": "historical inactive record removed; PhD-only and 2026 cohort"
+      },
+      {
+        "company": "Cirrus Logic",
+        "jobId": "61ae5eb1-94c8-4aba-9f2a-7968facbf18e",
+        "title": "Entry Level Digital Design Engineer",
+        "market": "Austin",
+        "reason": "historical inactive record removed; digital-design hardware and Master’s/PhD"
+      },
+      {
+        "company": "Denso",
+        "jobId": "23311",
+        "title": "Product Specialist",
+        "market": "Plano",
+        "reason": "historical inactive record removed; product role outside Applied AI/ML/DS"
+      },
+      {
+        "company": "Visa",
+        "jobId": "744000111185955",
+        "title": "Software Engineer",
+        "market": "Austin",
+        "reason": "historical inactive record removed; no new/open signal and no existing tracked record"
+      },
+      {
+        "company": "Intel",
+        "jobId": "JR0281212",
+        "title": "RTL Design Engineer",
+        "market": "Austin",
+        "reason": "historical inactive record removed; RTL/chip hardware"
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "No new active or reactivated Dallas/Austin candidate existed to verify. Deletion of already-inactive upstream records was not treated as an official closure or as a reason to create job records."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 65,
+    "uniqueChangedRecordsReviewed": 65,
+    "cleanupOnlyInactiveRecords": 65,
+    "texasRelatedRecordsReviewed": 6,
+    "dallasAustinOrAdjacentRecordsReviewed": 5,
+    "newlyQualified": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "archivedJDsPreserved": true,
+    "reason": "upstream changes only pruned historical records that were already inactive; no verified new or tracked status change"
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitSha": null,
+      "blobSha": "e3cf77e835e8f92b029de523d2d30a7c1c1adc62",
+      "readbackVerified": true
+    },
+    "audit": {
+      "path": "monitor-audit/2026-10-22T1902-Texas.json",
+      "status": "pending-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-22T23:09:48Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-22T1902-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-10-22T23:09:48Z"
+  }
+}
