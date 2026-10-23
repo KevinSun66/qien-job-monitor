@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T23:07:41Z",
+  "updatedAt": "2026-10-23T06:45:31Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7050,8 +7050,8 @@
       "firstSeen": "2026-10-09",
       "discoveredDate": "2026-10-09",
       "discoveredAt": "2026-10-09T16:16:06Z",
-      "lastChecked": "2026-10-09",
-      "lastCheckedAt": "2026-10-09T16:16:06Z",
+      "lastChecked": "2026-10-23",
+      "lastCheckedAt": "2026-10-23T06:45:31Z",
       "source": "RTX official Workday JD; discovered through SimplifyJobs/New-Grad-Positions incremental feed",
       "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Software-Engineer-I--Onsite-_01875410",
       "status": "citizenship-direction-rejected",
@@ -7065,10 +7065,16 @@
       "jobId": "01875410",
       "officialPostedDate": "2026-10-09",
       "deadline": "2026-10-17 (official listing)",
-      "officialStatus": "Official RTX Workday listing active with Apply button on 2026-10-09",
+      "officialStatus": "2026-10-23 verification: the Simplify duplicate/private-posting record changed active→inactive. The public RTX Workday page returned no readable body and public search found no current result; official closure is not asserted solely from the aggregator.",
       "strategyPriority": "表外审计 · 身份硬排除/方向不符",
       "rejectionReason": "Official JD requires U.S. citizenship and DoD Secret clearance; role centers on NC3 mission-critical Java software, requirements/UML/SysML and testing rather than Applied AI/ML/DS.",
-      "verificationFlags": []
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "previousOfficialStatus": "Official RTX Workday listing active with Apply button on 2026-10-09",
+      "sourceState": "Simplify active→inactive at 2026-10-23T06:31:49Z (listing id a7309900-70f4-42e4-a032-fd7570013f54)",
+      "statusChangedAt": "2026-10-23T06:45:31Z",
+      "statusNote": "Discovery-source inactive signal recorded; original citizenship/DoD Secret and non-AI direction rejection remains unchanged."
     },
     {
       "company": "Amazon",
@@ -8193,6 +8199,47 @@
       "brandPlatform": "84/100 healthcare and academic-medical brand",
       "ryanUpgrade": "No clear upgrade: core work is data coordination, EMR/regulatory reporting and basic analytics; compensation is undisclosed.",
       "rejectionReason": "Core duties are clinical quality data coordination and compliance reporting rather than Applied AI/ML/Data Science; no clear Ryan upgrade."
+    },
+    {
+      "company": "Southwest Airlines",
+      "tier": "发现后排除",
+      "area": "Dallas, TX · Southwest Headquarters",
+      "market": "DFW",
+      "title": "Operations Research Developer",
+      "jobId": "R-2026-73737",
+      "sourceListingId": "bc598eaf-9d97-4bc0-a87e-2f1194087279",
+      "url": "https://careers.southwestair.com/us/en/job/R-2026-73737/Operations-Research-Developer",
+      "status": "authorization-and-closed-rejected",
+      "found": "2026-10-23",
+      "discoveredDate": "2026-10-23",
+      "discoveredAt": "2026-10-23T06:45:31Z",
+      "firstSeen": "2026-10-23",
+      "lastChecked": "2026-10-23",
+      "lastCheckedAt": "2026-10-23T06:45:31Z",
+      "employment": "Full-time · Technology · Dallas headquarters during business hours",
+      "gradYear": "No graduation window verified; no numeric minimum full-time years was found in the official indexed text",
+      "match": "Strong optimization/decision-support fit and compensation upgrade, but work authorization is a hard fail and the application is closed",
+      "ngCompatibility": "Official indexed qualifications described basic programming/software-development knowledge and preferred academic or business operations-research experience; exact 2027 start compatibility was not stated.",
+      "assessment": "The official Southwest index described mathematical modeling and scalable decision-support work for complex operational challenges. Dallas location, optimization scope and $132,200–$146,900 employer-indexed base range could materially exceed the Ryan benchmark. However, the posting required U.S. citizenship or current U.S. work authorization and explicitly stated that no current or future work-authorization sponsorship was available. The direct official page returned HTTP 410 Gone on 2026-10-23. The role is therefore excluded under the standing F-1 OPT/STEM OPT rule and archived to prevent duplicate recommendations.",
+      "visa": "Hard fail under monitor policy: official indexed JD required U.S. citizenship or current U.S. work authorization and no current or future work-authorization sponsorship.",
+      "compensation": "Employer-indexed base $132,200–$146,900 per year; discretionary incentives/benefits may apply, but guaranteed TC was not verified.",
+      "officialLocations": [
+        "Dallas, TX · Southwest Headquarters"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Official direct job URL returned HTTP 410 Gone on 2026-10-23; stale Southwest search/category indexes still displayed the requisition.",
+      "source": "Southwest official careers search/direct page; SimplifyJobs state-change signal",
+      "sourceState": "Simplify active→inactive in commit 4b8bc7108a1f26b56dcb9f6b80f70c337f0fd025",
+      "verificationFlags": [],
+      "finalPriority": "不投 · 当前及未来工作授权硬门槛；官方申请页已关闭",
+      "roleTrack": "Operations Research / Mathematical Optimization / Decision Support",
+      "technicalGrowth": "High for optimization and production decision support",
+      "brandPlatform": "Southwest Airlines · Dallas operational optimization platform",
+      "ryanUpgrade": "Potentially yes on salary and optimization platform, but eligibility fails and the role is closed",
+      "rejectionReason": "Official work-authorization language requires authorization now and in the future without sponsorship; F-1 OPT/STEM OPT path fails the standing rule. Official application page is closed.",
+      "archiveUrl": "job-archive/southwest-airlines/R-2026-73737/job-description.md",
+      "archiveLabel": "JD 快照",
+      "statusChangedAt": "2026-10-23T06:45:31Z"
     }
   ],
   "monitorAudit": [
