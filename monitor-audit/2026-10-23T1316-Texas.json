@@ -1,0 +1,165 @@
+{
+  "checkedAt": "2026-10-23T18:16:21Z",
+  "checkedAtLocal": "2026-10-23T13:16:21-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "52119f55f7c344c48dc3f773b347ff99c34d3a56",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "b834042854e18daad231b328b4eec3901fb160eb",
+      "blobShaAfter": "b834042854e18daad231b328b4eec3901fb160eb",
+      "updatedAt": "2026-10-23T17:45:32Z",
+      "recordCountBefore": 232,
+      "recordCountAfter": 232,
+      "changed": false,
+      "commitSha": null,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T1246-Texas.json",
+      "blobSha": "05038cdc1b3148c62810513a16e64094a79288a9",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "8d2451c690d5b18ab8421d77997d3cd365317f71",
+      "previousRepositoryHead": "dc9017481cf5998201da499a7092bc82c9d6f274",
+      "currentListingsCommit": "b6001b6189afbcb492157d94e577af94e714c4b3",
+      "currentRepositoryHead": "d816d6bb9180cc5b23978a70ab7d1ce09ba4c4d7",
+      "listingsCommitsReviewed": [
+        "b6001b6189afbcb492157d94e577af94e714c4b3"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "16bed960aa35d915fd62194b605e0ebff1b581f8",
+      "listingsBlobShaAfter": "6467f169460a66982e421b37de9d4e4cc0964c7a",
+      "result": "One listings commit produced 7 inactive signals and no additions. One U.S.-remote BI record was reviewed as potentially Texas-accessible; the other six records were outside the target markets or excluded hardware/embedded/research directions."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Prime Therapeutics",
+        "jobId": "R-17456",
+        "sourceListingId": "e22e13a7-4aae-4b4c-8cca-020d71177405",
+        "title": "Business Intelligence Developer Associate",
+        "market": "Remote / Home",
+        "upstreamChange": "active true → false",
+        "result": "No prior monitored record. Public search did not surface a current official indexed page, so closure was not promoted to a verified status change. The role is BI/reporting direction and no evidence established a clear Applied AI/ML/DS upgrade over Ryan."
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Prime Therapeutics",
+        "jobId": "R-17456",
+        "url": "https://primetherapeutics.wd1.myworkdayjobs.com/PrimeTherapeuticsCareers/job/Home/Business-Intelligence-Developer-Associate---Remote_R-17456",
+        "checkedAt": "2026-10-23T18:16:21Z",
+        "status": "Official page not indexed by public search; aggregate inactive signal only",
+        "decision": "No data change; do not archive or notify an unverified, non-upgrade record."
+      }
+    ],
+    "verificationNote": "No new active Dallas/Austin candidate and no verified status change to a tracked record."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 7,
+    "uniqueChangedRecordsReviewed": 7,
+    "inactiveSignalsReviewed": 7,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "jobId": "R-17456",
+      "decision": "no-data-change-unverified-inactive-signal",
+      "reason": "Aggregate inactive signal was not corroborated by an official indexed page; BI direction did not establish a clear Ryan upgrade."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified actionable new role or tracked-job status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitSha": null,
+      "blobSha": "b834042854e18daad231b328b4eec3901fb160eb",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-23T1316-Texas.json",
+      "status": "pending-readback",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-readback",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T17:47:21Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T1316-Texas.json final readback"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T17:47:21Z"
+  }
+}
