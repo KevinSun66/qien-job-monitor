@@ -1,0 +1,304 @@
+{
+  "checkedAt": "2026-10-23T17:06:29Z",
+  "checkedAtLocal": "2026-10-23T12:06:29-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "d880e775d9e5707b68b13568eb09d9f450a6d361",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "d41d32eaef04750ce8485034ca3f4366cb6f4849",
+      "blobShaAfter": "30a288f8068e53d16f2452eecb162fc853ca46c7",
+      "updatedAt": "2026-10-23T17:05:49Z",
+      "recordCountBefore": 230,
+      "recordCountAfter": 231,
+      "changed": true,
+      "commitSha": "a7b22f04fcc4bc045290b8ee4b1962878ae30f96",
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T1052-Texas.json",
+      "blobSha": "31aef5e8e96ef8bb331ca4cc348af8dd75ebf707",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "f3411cdaeff1a8c8397a8dd42a1259ab53e6b2b0",
+      "previousRepositoryHead": "b13d0c3915e0768429050e74cd511a2b092f63d4",
+      "currentListingsCommit": "3e5aa9cb76e9c27a3c12a72fe85cc8b86b040de3",
+      "currentRepositoryHead": "24d9ebb3d2676dc543c034447850bfab99b5b737",
+      "listingsCommitsReviewed": [
+        "226314911ca5fce60649322c3c699750771deced",
+        "8f5aebf89f9bb1b52b17a8bf79efb1cd35f5b3d3",
+        "3e5aa9cb76e9c27a3c12a72fe85cc8b86b040de3"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "ab5c8a8408bc03fe84a9068467afcea4e2ac7302",
+      "listingsBlobShaAfter": "f99cbacdbb66a7c82e7b1604c83a16a2a585b60f",
+      "readmeBlobShaAfter": "92d5456da03e70d34a7c1a645450f170adce67e2",
+      "result": "Three listings commits produced 56 record-change events: 22 additions, 28 inactive signals, 3 reactivations and 3 removals. Eight Texas or potentially Texas-remote records/signals were reviewed."
+    },
+    "reviewedRecords": [
+      {
+        "company": "R1 RCM",
+        "jobId": "R260000007542",
+        "title": "Software Engineer - ML Ops (R37)",
+        "market": "Remote, USA; NYC hybrid preferred",
+        "upstreamChange": "active true → false",
+        "result": "Official R1 careers page still displays Apply. Newly archived as an experience/level/location exclusion because the L2–Staff role requires prior production GPU model operations and independent end-to-end MLOps ownership; not a 0–2-year/new-grad Texas opportunity."
+      },
+      {
+        "company": "R1 RCM",
+        "jobId": "R260000007540",
+        "title": "ML Engineer (R37)",
+        "market": "Remote, USA; NYC hybrid preferred",
+        "upstreamChange": "active true → false",
+        "result": "Official R1 Workday page still displays Apply today. Existing experience-level-location-rejected record remains unchanged; no closure confirmed."
+      },
+      {
+        "company": "Visa",
+        "jobId": "REF089187W",
+        "title": "SW Engineer",
+        "market": "Austin, TX",
+        "upstreamChange": "new active record",
+        "result": "Official Visa Workday page displays Apply. Bachelor's degree is an alternative to 3+ years, but the role is general application development/testing/production support; Generative AI appears as an everyday engineering tool rather than the core product responsibility. Rejected by direction and Ryan opportunity cost."
+      },
+      {
+        "company": "DaVita",
+        "jobId": "R0465123",
+        "title": "Analyst, Business (ROPS)",
+        "market": "Texas remote / Houston",
+        "upstreamChange": "new active record",
+        "result": "Official Workday listing is current; duties center on revenue-cycle business analysis and project work rather than Applied AI/ML/Data Science. Rejected by direction and Ryan opportunity cost."
+      },
+      {
+        "company": "Flex",
+        "jobId": "WD231216",
+        "title": "Engineering Technician",
+        "market": "Austin, TX",
+        "upstreamChange": "new active record",
+        "result": "Hardware/technician role; excluded by function."
+      },
+      {
+        "company": "RTX / Raytheon",
+        "jobId": "01881237",
+        "title": "Embedded Software Engineer II",
+        "market": "McKinney, TX",
+        "upstreamChange": "active true → false",
+        "result": "Embedded role and Engineer II; excluded by function and level. Not a tracked candidate."
+      },
+      {
+        "company": "RTX / Raytheon",
+        "jobId": "01880584",
+        "title": "Electro-Optics Systems Engineer I",
+        "market": "McKinney, TX",
+        "upstreamChange": "active false → true",
+        "result": "Electro-optics hardware/systems role; excluded by function. Not a tracked candidate."
+      },
+      {
+        "company": "RTX / Raytheon",
+        "jobId": "01880585",
+        "title": "Electro-Optics Systems Engineer II",
+        "market": "McKinney, TX",
+        "upstreamChange": "active true → false",
+        "result": "Electro-optics hardware/systems role and Engineer II; excluded by function and level. Not a tracked candidate."
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "R1 RCM",
+        "jobId": "R260000007542",
+        "url": "https://www.r1rcm.com/careers/jobs/software-engineer-ml-ops-r37",
+        "checkedAt": "2026-10-23T17:05:49Z",
+        "status": "Apply displayed",
+        "experience": "L2–Staff; L2 independently owns a complete end-to-end project; production GPU model operations and platform/reliability skills required",
+        "location": "Remote USA; NYC SOHO hybrid 3 days/week preferred",
+        "authorization": "Not disclosed",
+        "duties": "Production ML runtime, GPU inference, batch/stream processing, Kubernetes/Terraform/CI/CD, observability and model lifecycle governance",
+        "compensation": "$140,000–$270,000 U.S. base; L2 $140,000–$200,000; 10% target bonus",
+        "decision": "Experience-level-location rejected and archived; aggregate inactive signal does not prove closure."
+      },
+      {
+        "company": "R1 RCM",
+        "jobId": "R260000007540",
+        "url": "https://r1rcm.wd1.myworkdayjobs.com/en-US/R1RCM/job/ML-Engineer--R37-_R260000007540",
+        "checkedAt": "2026-10-23T17:03:00Z",
+        "status": "Apply displayed",
+        "decision": "Existing exclusion preserved; no verified status change."
+      },
+      {
+        "company": "Visa",
+        "jobId": "REF089187W",
+        "url": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/SW-Engineer_REF089187W",
+        "checkedAt": "2026-10-23T17:03:00Z",
+        "status": "Apply displayed",
+        "experience": "Bachelor's degree OR 3+ years relevant work experience",
+        "location": "Austin, TX; at least 3 office days",
+        "authorization": "Not disclosed",
+        "duties": "General application analysis, coding, debugging, testing, documentation and production support; GenAI tools used for engineering productivity",
+        "decision": "Direction/opportunity-cost rejected; not added to jobs.json."
+      },
+      {
+        "company": "DaVita",
+        "jobId": "R0465123",
+        "url": "https://davita.wd1.myworkdayjobs.com/DKC_External/job/01548---Texas-Remote/Analyst--Business--ROPS-_R0465123",
+        "checkedAt": "2026-10-23T17:03:00Z",
+        "status": "Official listing indexed today",
+        "location": "Texas remote / Houston",
+        "duties": "Revenue-cycle business analysis and project work",
+        "decision": "Direction/opportunity-cost rejected; not added to jobs.json."
+      }
+    ],
+    "verificationNote": "Only the R1 RCM MLOps role warranted permanent exclusion archival because its technical scope and compensation could otherwise trigger future duplicate review. No role met all actionability gates."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 6,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 56,
+    "uniqueChangedRecordsReviewed": 56,
+    "inactiveSignalsReviewed": 28,
+    "reactivatedRecordsReviewed": 3,
+    "newActiveRecordsReviewed": 22,
+    "removedRecordsReviewed": 3,
+    "texasRelatedRecordsReviewed": 8,
+    "dallasAustinOrAdjacentRecordsReviewed": 8,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 1,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "jobId": "R260000007542",
+      "decision": "experience-level-location-rejected",
+      "reason": "L2–Staff production MLOps role requiring prior GPU model operations and end-to-end ownership; NYC hybrid preferred and Texas eligibility/start timing are unverified."
+    },
+    {
+      "jobId": "R260000007540",
+      "decision": "no-data-change-status-verification-preserved",
+      "reason": "Aggregate feed turned inactive, but official R1 page remains open."
+    },
+    {
+      "jobId": "REF089187W",
+      "decision": "direction-opportunity-cost-rejected",
+      "reason": "General SWE/SDET and production support; GenAI is a productivity tool rather than core Applied AI/ML work."
+    },
+    {
+      "jobId": "R0465123",
+      "decision": "direction-opportunity-cost-rejected",
+      "reason": "Revenue-cycle business analysis rather than Applied AI/ML/Data Science."
+    },
+    {
+      "jobId": "WD231216",
+      "decision": "hardware-technician-rejected",
+      "reason": "Engineering technician role."
+    },
+    {
+      "jobId": "01881237",
+      "decision": "embedded-level-rejected",
+      "reason": "Embedded Software Engineer II."
+    },
+    {
+      "jobId": "01880584",
+      "decision": "hardware-direction-rejected",
+      "reason": "Electro-optics systems engineering."
+    },
+    {
+      "jobId": "01880585",
+      "decision": "hardware-level-rejected",
+      "reason": "Electro-optics Systems Engineer II."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "updatedRecords": [],
+    "addedRecords": [
+      "R1 RCM R260000007542 — experience-level-location-rejected"
+    ],
+    "jdArchivesAdded": [
+      "job-archive/r1-rcm/R260000007542/job-description.md"
+    ],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "A verified new R1 RCM MLOps role was permanently archived as excluded to prevent duplicate future review. No actionable Table 2 role and no confirmed tracked-job status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitSha": "a7b22f04fcc4bc045290b8ee4b1962878ae30f96",
+      "blobSha": "30a288f8068e53d16f2452eecb162fc853ca46c7",
+      "readbackVerified": true
+    },
+    "archives": [
+      {
+        "path": "job-archive/r1-rcm/R260000007542/job-description.md",
+        "status": "synced",
+        "commitSha": "f5916beb607f5a3bc5c2c7b8c088a3346f4c0c77",
+        "blobSha": "0293800bbaca887304355809bebff95900fe5c42",
+        "readbackVerified": true
+      }
+    ],
+    "audit": {
+      "path": "monitor-audit/2026-10-23T1206-Texas.json",
+      "status": "pending-readback",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending-readback",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T15:53:02Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T1206-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T15:53:02Z"
+  }
+}
