@@ -36,7 +36,7 @@
       "recordCountAfter": 233,
       "changed": true,
       "commitSha": "d63cf0f7bb70d8197a74d05a84e95441ee0874d0",
-      "readbackVerified": false
+      "readbackVerified": true
     },
     "pages": {
       "dallas": {
@@ -241,25 +241,23 @@
       "status": "synced",
       "commitSha": "d63cf0f7bb70d8197a74d05a84e95441ee0874d0",
       "blobSha": "69b28cfbe3321c87b997bb906d9f2a090fc67d4a",
-      "readbackVerified": false
+      "readbackVerified": true
     },
     "archives": [],
     "audit": {
       "path": "monitor-audit/2026-10-23T1637-Texas.json",
-      "status": "pending-readback",
-      "initialCommitSha": null,
+      "status": "synced",
+      "initialCommitSha": "28eb1ad56b0a9e6bfb5c31997be314a19802fbc2",
       "finalCommitSha": null,
-      "readbackVerified": false,
-      "contentShaBeforeFinalization": null,
-      "syncedAt": null,
+      "readbackVerified": true,
+      "contentShaBeforeFinalization": "91ab29c3cd2696f64b4ad626d48d9072d7cac220",
+      "syncedAt": "2026-10-23T21:38:47Z",
       "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
     },
-    "overallStatus": "pending-readback",
+    "overallStatus": "synced",
     "lastSuccessfulWriteBeforeRun": "2026-10-23T20:35:04Z",
-    "pendingSync": [
-      "monitor-audit/2026-10-23T1637-Texas.json"
-    ],
+    "pendingSync": [],
     "consecutiveWriteFailures": 0,
-    "lastSuccessfulWriteAt": "2026-10-23T21:37:54Z"
+    "lastSuccessfulWriteAt": "2026-10-23T21:38:47Z"
   }
 }
