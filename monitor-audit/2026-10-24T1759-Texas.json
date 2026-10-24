@@ -1,0 +1,189 @@
+{
+  "checkedAt": "2026-10-24T22:59:18Z",
+  "checkedAtLocal": "2026-10-24T17:59:18-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "aa497720fe97510c9aecd937e16b06769d2c6d9b",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "blobShaAfter": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "updatedAt": "2026-10-24T10:20:30Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-24T1610-Texas.json",
+      "blobSha": "236a12c89b6fcb5d99c688509223d74b2f3e436b",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-24T21:11:05Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "c28bd25fe4b88b04f20fff914d03614594e8f9fe",
+      "currentHead": "94a43bb64ee70b30318ff78194a633eb7c2c12d9",
+      "listingsCommits": [
+        "f974d4e0448140bb8c6ea7fca5784ca0765bed29",
+        "f7e533aacd800089438810fb929356b22f10f755",
+        "0ba500f023ab4aae0c63a454a4db391db0ccf601"
+      ],
+      "readmeCommits": [
+        "94a43bb64ee70b30318ff78194a633eb7c2c12d9"
+      ],
+      "listingsBlobShaBefore": "f48f8397e3ca82aee6f8d7cc1cf5f5f1222d454e",
+      "listingsBlobShaAfter": "a82dd8731fe235533888fef2569afedecebea461",
+      "result": "Two listings commits exposed no diff. The third contained two active-to-inactive Goldman Sachs records outside Texas and one new University of Arkansas record in Morrilton, Arkansas."
+    },
+    "reviewedRecords": [
+      {
+        "sourceId": "43a5374e-0e70-4dc9-82b0-687b54e8c5da",
+        "company": "Goldman Sachs",
+        "title": "2027 Engineering New Analyst",
+        "location": "Salt Lake City, Utah",
+        "sourceSignal": "active to inactive",
+        "officialStatus": "open/apply available",
+        "screening": "excluded",
+        "reason": "Official Goldman page remains open but role is Salt Lake City, outside Dallas/Austin. No match in the existing monitor."
+      },
+      {
+        "sourceId": "ebecfe1f-3890-4cf8-8663-d7b118197e24",
+        "company": "Goldman Sachs",
+        "title": "2027 Engineering New Analyst",
+        "location": "New York City, New York",
+        "sourceSignal": "active to inactive",
+        "officialStatus": "open/apply available",
+        "screening": "excluded",
+        "reason": "Official Goldman page remains open but role is New York City, outside Dallas/Austin. No match in the existing monitor."
+      },
+      {
+        "sourceId": "308eb188-a697-4f09-9bc6-6defbdb3fa1d",
+        "company": "University of Arkansas",
+        "title": "Research Analyst",
+        "location": "Morrilton, Arkansas",
+        "sourceSignal": "new active",
+        "officialStatus": "official Workday URL supplied by source; not surfaced in public search",
+        "screening": "excluded",
+        "reason": "Outside Dallas/Austin; no match in the existing monitor. No further qualification escalation warranted."
+      }
+    ],
+    "officialVerification": [
+      {
+        "url": "https://higher.gs.com/roles/171570",
+        "checkedAt": "2026-10-24T22:59:18Z",
+        "result": "Official page still shows Apply; Salt Lake City 2027 Engineering New Analyst."
+      },
+      {
+        "url": "https://higher.gs.com/roles/171569",
+        "checkedAt": "2026-10-24T22:59:18Z",
+        "result": "Official page still shows Apply; New York City 2027 Engineering New Analyst."
+      },
+      {
+        "url": "https://uasys.wd5.myworkdayjobs.com/uasys/job/Morrilton/Research-Analyst_R0093136",
+        "checkedAt": "2026-10-24T22:59:18Z",
+        "result": "Public search did not surface the official JD; source location is Morrilton, Arkansas, outside scope."
+      }
+    ],
+    "verificationNote": "No changed record is in Dallas/Austin or matched an existing monitor record. The Goldman inactive signals conflict with official pages that remain open."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 3,
+    "uniqueChangedRecordsReviewed": 3,
+    "inactiveSignalsReviewed": 2,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 1,
+    "removedRecordsReviewed": 0,
+    "noDiffListingsCommitsReviewed": 2,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Goldman Sachs 2027 Engineering New Analyst — Salt Lake City/New York",
+      "count": 2,
+      "result": "excluded/no monitor change",
+      "reason": "Outside Dallas/Austin; official pages remain open despite aggregator inactive signals."
+    },
+    {
+      "category": "University of Arkansas Research Analyst — Morrilton",
+      "count": 1,
+      "result": "excluded/no monitor change",
+      "reason": "Outside Dallas/Austin."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No qualifying Dallas/Austin role and no verified status change to an existing monitored record."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-24T1759-Texas.json",
+      "status": "pending-write-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "Will be finalized only after GitHub write and readback verification."
+    },
+    "overallStatus": "pending-write-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T21:11:05Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-24T1759-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T21:11:05Z"
+  }
+}
