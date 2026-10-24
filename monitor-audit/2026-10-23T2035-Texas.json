@@ -1,0 +1,195 @@
+{
+  "checkedAt": "2026-10-24T01:35:45Z",
+  "checkedAtLocal": "2026-10-23T20:35:45-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark or a verified material status change to a tracked role"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "961d45dde94b2d6daa92ed7bde967ce6f5a624d0",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "blobShaAfter": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "updatedAt": "2026-10-23T22:34:53Z",
+      "recordCountBefore": 234,
+      "recordCountAfter": 234,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T1940-Texas.json",
+      "blobSha": "1c907d2d5e5e0efeb9bd64fc2ab125613f525b86",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "3859f145f7330a452f81738c82ce2af6b17153ab",
+      "previousRepositoryHead": "752725879dc219f856685b94b900cbdca37330f4",
+      "currentListingsCommit": "15165f6afe77fd52990b20c086936cbf76794cb4",
+      "currentRepositoryHead": "2713fcc8c0a71bd19e354af67bfbeae76a8bbf22",
+      "listingsCommitsReviewed": [
+        "5469dbd7ad27aca151a6b6c7ef8e2bc899a73543",
+        "15165f6afe77fd52990b20c086936cbf76794cb4"
+      ],
+      "readmeCommitsReviewed": [
+        "2713fcc8c0a71bd19e354af67bfbeae76a8bbf22"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "d9de61f93f35168578deab8aff0ca3fae4423874",
+      "listingsBlobShaAfter": "3c67916227f416500d0b2847721ee45469c67645",
+      "result": "Two listings commits were reviewed: 11 active→inactive events, 1 inactive→active event, and 4 newly added active records. None were in Dallas/Austin. The only US-remote addition was Mercury Frontend Engineer – Design Systems, a non-target frontend role; other additions were California hardware or Arizona software/product roles. No qualifying Applied AI/ML/Data Science role or tracked-job change was found."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Mercury",
+        "title": "Frontend Engineer - Design Systems",
+        "market": "Remote in USA / SF / NYC / Portland / Canada",
+        "upstreamChange": "new active record",
+        "result": "Generic frontend/design-systems engineering, not Applied AI/ML/Data Science and not a Ryan-direction upgrade."
+      },
+      {
+        "company": "Oracle",
+        "jobId": "348719",
+        "title": "Electrical Engineer 1",
+        "market": "Santa Clara, CA",
+        "upstreamChange": "new active record",
+        "result": "Out of market and hardware/electrical direction."
+      },
+      {
+        "company": "Carvana",
+        "title": "Software Engineering",
+        "market": "Tempe, AZ",
+        "upstreamChange": "new active record",
+        "result": "Out of market and generic software role."
+      },
+      {
+        "company": "Carvana",
+        "title": "Product Manager",
+        "market": "Tempe, AZ",
+        "upstreamChange": "new active record",
+        "result": "Out of market and product-management role."
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "No new Dallas/Austin record and no tracked current role changed; official JD escalation was not warranted for clearly out-of-scope records."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 16,
+    "uniqueChangedRecordsReviewed": 16,
+    "inactiveSignalsReviewed": 11,
+    "reactivatedRecordsReviewed": 1,
+    "newActiveRecordsReviewed": 4,
+    "removedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "recordId": "a509cc99-b862-4bd9-8c30-49393b371170",
+      "decision": "non-target-rejected",
+      "reason": "Frontend/design systems, not Applied AI/ML/Data Science."
+    },
+    {
+      "recordId": "10b87c52-ce84-40be-b48f-f03d8a683189",
+      "decision": "out-of-market-direction-rejected",
+      "reason": "Santa Clara electrical/hardware role."
+    },
+    {
+      "recordId": "8135261f-ace0-4f34-9e6a-7a979e430526",
+      "decision": "out-of-market-rejected",
+      "reason": "Tempe generic software role."
+    },
+    {
+      "recordId": "2d745317-fa1f-439d-8164-15f67400c02b",
+      "decision": "out-of-market-non-target-rejected",
+      "reason": "Tempe product-management role."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified target-market qualifying role or tracked status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-23T2035-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T00:40:52Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T2035-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T00:40:52Z"
+  }
+}
