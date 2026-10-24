@@ -1,0 +1,150 @@
+{
+  "checkedAt": "2026-10-24T20:54:03Z",
+  "checkedAtLocal": "2026-10-24T15:54:03-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "f1886dd7d0a1210ca5d1ac7ba69d5da1c8b5805f",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "blobShaAfter": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "updatedAt": "2026-10-24T10:20:30Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-24T1411-Texas.json",
+      "blobSha": "2900f58ed358c1c6ea961a4943735ca88655c6e3",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-24T19:11:46Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "0a5b427da93d1bde6f31d231ae7b644eb070a277",
+      "currentHead": "5bf2ab9c9645b0d529dfea19319e23c8bacbae96",
+      "listingsCommits": [
+        "b6575e560854bd72e559b4450421f462643d25e9",
+        "73e39e1768290498931c338ce6106c2c90b70d23",
+        "5bf2ab9c9645b0d529dfea19319e23c8bacbae96"
+      ],
+      "readmeCommits": [],
+      "listingsBlobShaBefore": "24803aecb77e3e5f9f03e117a2b07f8c24c7c77d",
+      "listingsBlobShaAfter": "f48f8397e3ca82aee6f8d7cc1cf5f5f1222d454e",
+      "result": "One active-to-inactive record event occurred in b6575e5; the next two listings commits exposed no diff."
+    },
+    "reviewedRecords": [
+      {
+        "sourceId": "ad70d943-c623-498e-8cb7-3f35e88a091d",
+        "company": "3Red Partners",
+        "title": "Graduate Quantitative Researcher (2027 Incoming Graduate)",
+        "sourceSignal": "active to inactive",
+        "officialStatus": "not present in current official openings",
+        "screening": "excluded",
+        "reason": "Official 3Red openings identify the Campus roles in Chicago; this record is outside Dallas/Austin, is quantitative trading rather than Applied AI/ML/DS, and has no match in the existing monitor."
+      }
+    ],
+    "officialVerification": [
+      {
+        "url": "https://job-boards.greenhouse.io/3redpartners/jobs/8624128002",
+        "checkedAt": "2026-10-24T20:54:03Z",
+        "result": "The specific role no longer appears among current official openings; current Campus listings are Chicago-based."
+      }
+    ],
+    "verificationNote": "The only changed record is outside the Texas geography and did not match an existing monitor record; no job-data update was warranted."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 1,
+    "uniqueChangedRecordsReviewed": 1,
+    "inactiveSignalsReviewed": 1,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 0,
+    "noDiffListingsCommitsReviewed": 2,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "3Red Partners Graduate Quantitative Researcher",
+      "count": 1,
+      "result": "excluded/no monitor change",
+      "reason": "Chicago-based, quant-trading direction, outside Dallas/Austin; official current openings no longer list the role."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No qualifying Dallas/Austin role and no verified status change to an existing monitored record."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-24T1554-Texas.json",
+      "status": "pending-write-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "Will be finalized only after GitHub write and readback verification."
+    },
+    "overallStatus": "pending-write-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T19:11:46Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-24T1554-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T19:11:46Z"
+  }
+}
