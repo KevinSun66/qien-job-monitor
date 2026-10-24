@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T22:34:53Z",
+  "updatedAt": "2026-10-24T09:44:44Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8499,6 +8499,51 @@
       "upstreamAddedCommit": "c78b66cdfc468902d1f00de063b41a39c3b5eeda",
       "rejectionReasons": [
         "hardware-semiconductor-direction",
+        "no-applied-ai-ml-ds-core",
+        "no-ryan-upgrade"
+      ]
+    },
+    {
+      "company": "Dell Technologies",
+      "tier": "发现后排除",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "AI Performance Engineer (299245)",
+      "employment": "Full-time · PC Systems Performance team",
+      "gradYear": "Bachelor’s in Computer Engineering, Computer Science, Electrical Engineering, Physics or related field; no verified post-May-2027 start window",
+      "match": "Rejected · PC hardware performance/benchmarking direction",
+      "ngCompatibility": "Not evaluated beyond the hard function exclusion; no verified 2027 start window",
+      "assessment": "Dell’s official careers search showed the requisition as open in Austin and posted 2026-10-23. Current public mirrors of the JD describe Windows/BIOS configuration, PC hardware (CPU, GPU, memory, storage and thermals), hands-on system assembly/configuration/troubleshooting, benchmarking with Cinebench/3DMark/PCMark, performance measurement and BIOS tuning. Python, SQL and AI test harnesses are supporting tools; the core job is client-PC hardware performance engineering rather than software Applied AI/ML/Data Science. It is therefore excluded under the standing hardware rule despite the AI title and competitive compensation.",
+      "visa": "F-1 OPT/STEM OPT and sponsorship language was not verified; further authorization review was not needed because the role independently fails the function gate.",
+      "found": "2026-10-24",
+      "discoveredDate": "2026-10-24",
+      "discoveredAt": "2026-10-24T09:42:55Z",
+      "firstSeen": "2026-10-24",
+      "lastChecked": "2026-10-24",
+      "lastCheckedAt": "2026-10-24T09:44:44Z",
+      "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/299245",
+      "officialSource": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/299245",
+      "status": "direction-rejected",
+      "finalPriority": "不投 · PC硬件性能测试/BIOS/基准测试方向，非Applied AI/ML/DS",
+      "roleTrack": "PC Systems Performance / Hardware Benchmarking / BIOS & Thermal Tuning",
+      "technicalGrowth": "Not scored · excluded hardware direction",
+      "brandPlatform": "Strong technology brand, but outside target function",
+      "ryanUpgrade": "No for Qien’s Applied AI/ML/DS path; salary may exceed Ryan but core responsibilities are excluded hardware performance engineering.",
+      "compensation": "$112,200–$145,200 base reported by current public mirrors; not independently displayed in the accessible official search result.",
+      "officePerks": "Austin, TX · full-time; exact onsite/hybrid cadence not verified",
+      "jobId": "299245",
+      "sourceListingId": "4c051e4b-6347-4cf8-9fb7-abfc0d3bb7db",
+      "source": "Dell official careers search plus current public JD mirrors; discovered through SimplifyJobs/New-Grad-Positions commit 981243c72d9dc1d2c16744b2f72ace4ff806eb12",
+      "officialStatus": "Open/discoverable in Dell’s official careers search at 2026-10-24T09:42:55Z; official detail page redirected but rendered no readable JD content.",
+      "verificationFlags": [
+        "official-detail-page-unreadable",
+        "visa-not-pursued-after-direction-fail",
+        "start-date-not-pursued-after-direction-fail"
+      ],
+      "upstreamAddedCommit": "981243c72d9dc1d2c16744b2f72ace4ff806eb12",
+      "rejectionReasons": [
+        "hardware-performance-direction",
+        "bios-pc-benchmarking-core",
         "no-applied-ai-ml-ds-core",
         "no-ryan-upgrade"
       ]
