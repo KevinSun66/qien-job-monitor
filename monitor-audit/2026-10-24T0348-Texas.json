@@ -1,0 +1,205 @@
+{
+  "checkedAt": "2026-10-24T08:48:50Z",
+  "checkedAtLocal": "2026-10-24T03:48:50-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark or a verified material status change to a tracked role"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "f17915a4e945a8fa7b087071d789493ddd3e83a3",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "blobShaAfter": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "updatedAt": "2026-10-23T22:34:53Z",
+      "recordCountBefore": 234,
+      "recordCountAfter": 234,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-24T0213-Texas.json",
+      "blobSha": "ad018b6a8692d37c8628847b23b7a822d86f5fae",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "27f97c4df55000798047630c4fea6f4b9532b20c",
+      "previousRepositoryHead": "27f97c4df55000798047630c4fea6f4b9532b20c",
+      "currentListingsCommit": "ba0463509c04d6a811baf22a102bf394e856926d",
+      "currentRepositoryHead": "ba0463509c04d6a811baf22a102bf394e856926d",
+      "listingsCommitsReviewed": [
+        "986d76a90b3536c1116027da5349c68059b6925c",
+        "21bbcc4616ebe353128803b7ee98cdb74aeafe35",
+        "ba0463509c04d6a811baf22a102bf394e856926d"
+      ],
+      "readmeCommitsReviewed": [
+        "5a9aeae059d355bc42575114fad0345d03b19f65",
+        "90b35956234fbff0f14e87e82e533f9b4cb6cd5c"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "871f219fee81019adfd2df3138bcde11b6545cd0",
+      "listingsBlobShaAfter": "25b75f036f3d24758d55acf77e323a652f8940b8",
+      "result": "Two cleanup commits removed 39 records (37 then 2); the five Texas records among them were already inactive and absent from qien-job-monitor. The final commit reactivated two non-Texas records, inactivated two non-Texas records, and added two non-Texas records. No qualifying or tracked-job change occurred."
+    },
+    "reviewedRecords": [
+      {
+        "commit": "986d76a90b3536c1116027da5349c68059b6925c",
+        "change": "37 records removed",
+        "details": "32 were inactive, 5 active; all active removals were Pleasanton, CA Sajix roles"
+      },
+      {
+        "commit": "21bbcc4616ebe353128803b7ee98cdb74aeafe35",
+        "change": "2 inactive records removed",
+        "details": "Columbia, SC and Stamford, CT"
+      },
+      {
+        "commit": "ba0463509c04d6a811baf22a102bf394e856926d",
+        "change": "2 reactivated, 2 inactivated, 2 new active",
+        "details": "all outside Texas"
+      }
+    ],
+    "texasCleanupRecords": [
+      {
+        "company": "Sonsoft",
+        "title": "Automation Testing Python Telecom & Datacom",
+        "location": "Richardson, TX",
+        "priorActive": false,
+        "tracked": false
+      },
+      {
+        "company": "Interstate Batteries",
+        "title": "Product Manager 1",
+        "location": "Dallas, TX",
+        "priorActive": false,
+        "tracked": false
+      },
+      {
+        "company": "SA Technologies",
+        "title": ".Net Developer",
+        "location": "Coppell, TX",
+        "priorActive": false,
+        "tracked": false
+      },
+      {
+        "company": "Sonsoft",
+        "title": "Sfdc – Developer 1",
+        "location": "Plano, TX",
+        "priorActive": false,
+        "tracked": false
+      },
+      {
+        "company": "Sonsoft",
+        "title": "Tableau Administrator",
+        "location": "Austin, TX",
+        "priorActive": false,
+        "tracked": false
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "Texas-related delta consisted only of upstream removal of already-inactive, untracked historical records; no official JD escalation was warranted."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 5,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 45,
+    "uniqueChangedRecordsReviewed": 45,
+    "inactiveSignalsReviewed": 2,
+    "reactivatedRecordsReviewed": 2,
+    "newActiveRecordsReviewed": 2,
+    "removedRecordsReviewed": 39,
+    "texasRelatedRecordsReviewed": 5,
+    "dallasAustinOrAdjacentRecordsReviewed": 5,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Texas cleanup removals",
+      "count": 5,
+      "result": "no data change",
+      "reason": "All five were already inactive, absent from qien-job-monitor, and not candidate updates."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified new role or tracked-job status change; upstream Texas references were only inactive historical cleanup records."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-24T0348-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T07:14:25Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-24T0348-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T07:14:25Z"
+  }
+}
