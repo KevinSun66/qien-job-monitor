@@ -1,0 +1,152 @@
+{
+  "checkedAt": "2026-10-24T06:13:15Z",
+  "checkedAtLocal": "2026-10-24T01:13:15-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark or a verified material status change to a tracked role"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "eb24cf49e21730c4583ec0d5e4b3e429d9fbedb1",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "blobShaAfter": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "updatedAt": "2026-10-23T22:34:53Z",
+      "recordCountBefore": 234,
+      "recordCountAfter": 234,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-24T0034-Texas.json",
+      "blobSha": "3b0e1413759f960352afe00daafac696d1d13acf",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "204ccc37106cbd4d0e21dda5c611d1e2ad29d6b2",
+      "previousRepositoryHead": "8485571c95069cfbc8e152921134dd7a49281378",
+      "currentListingsCommit": "d0af9321b4f430cf4bc656785206727557574564",
+      "currentRepositoryHead": "9803e08bcf2b60deceb0117195e1b05aac294ad2",
+      "listingsCommitsReviewed": [
+        "d0af9321b4f430cf4bc656785206727557574564"
+      ],
+      "readmeCommitsReviewed": [
+        "9803e08bcf2b60deceb0117195e1b05aac294ad2"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "1e5b0a7ae42d3d1ec7a87d380079e2a15a97d12b",
+      "listingsBlobShaAfter": "cb793c72335865acdd8e35e8a872e7c2d62e44e5",
+      "result": "One record changed from active to inactive: Boeing Entry-Level Software Engineer in Maryland Heights, Missouri. It is outside Dallas/Austin/Texas and does not match any tracked job."
+    },
+    "reviewedRecords": [
+      {
+        "commit": "d0af9321b4f430cf4bc656785206727557574564",
+        "company": "Boeing",
+        "title": "Entry-Level Software Engineer",
+        "jobId": "JR2026526321",
+        "location": "Maryland Heights, MO",
+        "change": "active -> inactive",
+        "result": "out of scope"
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "No Texas-related or tracked-job event was found, so no official JD escalation was needed."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 1,
+    "uniqueChangedRecordsReviewed": 1,
+    "inactiveSignalsReviewed": 1,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "The only upstream change was an out-of-scope Missouri role."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-24T0113-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T05:34:53Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-24T0113-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T05:34:53Z"
+  }
+}
