@@ -1,0 +1,225 @@
+{
+  "checkedAt": "2026-10-24T18:49:25Z",
+  "checkedAtLocal": "2026-10-24T13:49:25-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "9cf4426a726daf08c35899cb81c33aedf489e281",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "blobShaAfter": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "updatedAt": "2026-10-24T10:20:30Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-24T1223-Texas.json",
+      "blobSha": "37d8bd790a11f711fe01ff3f5315afa295ef5d6a",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-24T17:23:48Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "116161c11a23c05b2939c7f074356d45c5008e5c",
+      "currentHead": "828e88e2af636766b46e25629fc035e2c0a6067f",
+      "listingsCommits": [
+        "25d1f90f92c7a81878d642227f1d5357e8350039",
+        "4aa3bddb645beea00baded41fc6dc2c7ba817acc",
+        "c2d471230af2ae07250bdd335dbbedd74e3391b0"
+      ],
+      "readmeCommits": [
+        "828e88e2af636766b46e25629fc035e2c0a6067f"
+      ],
+      "listingsBlobShaBefore": "fc569d1c5473ab8542f2e4c610ed2d191d1d192e",
+      "listingsBlobShaAfter": "24803aecb77e3e5f9f03e117a2b07f8c24c7c77d",
+      "result": "The first two listings commits exposed no diff. Commit c2d4712 flipped 128 records from active to inactive in one bulk event, concentrated in iCIMS-backed postings. None matched an existing qien-job-monitor record. The event was treated as an upstream status signal, not proof of 128 verified closures."
+    },
+    "reviewedRecords": [
+      {
+        "sourceId": "81f6102b-b17c-4792-8d73-f5f5b8783ac2",
+        "company": "PAM Health",
+        "title": "AI Engineer",
+        "location": "Plano, Texas",
+        "sourceSignal": "active to inactive",
+        "officialStatus": "open",
+        "screening": "excluded/unqualified",
+        "reason": "Official JD remained open. It describes a junior-to-senior span and requires proven software engineering plus hands-on AI deployment experience; work authorization and compensation are not stated, so OPT/STEM OPT compatibility and a material improvement over Ryan cannot be verified."
+      },
+      {
+        "sourceId": "0d1c69d1-e147-4307-a0d9-73744bf4a2cd",
+        "company": "Atlassian",
+        "title": "Machine Learning Engineer, 2027 Graduate U.S.",
+        "location": "Seattle, Washington",
+        "sourceSignal": "active to inactive",
+        "officialStatus": "open",
+        "screening": "excluded",
+        "reason": "Outside Dallas/Austin and official JD explicitly says not eligible for F-1/J-1 students or sponsorship."
+      },
+      {
+        "sourceId": "d739b0c1-7de2-4820-8075-fc8cf49855fd",
+        "company": "Atlassian",
+        "title": "Data Scientist, 2027 Graduate U.S.",
+        "location": "Seattle, Washington",
+        "sourceSignal": "active to inactive",
+        "officialStatus": "open",
+        "screening": "excluded",
+        "reason": "Outside Dallas/Austin and official JD explicitly says not eligible for F-1/J-1 students or sponsorship."
+      },
+      {
+        "sourceId": "eba32eeb-b7a1-4b27-b3c2-1fdaa04d3bd9",
+        "company": "Atlassian",
+        "title": "Data Engineer, 2027 Graduate U.S.",
+        "location": "Seattle, Washington",
+        "sourceSignal": "active to inactive",
+        "officialStatus": "open",
+        "screening": "excluded",
+        "reason": "Outside Dallas/Austin and official JD explicitly says not eligible for F-1/J-1 students or sponsorship."
+      },
+      {
+        "sourceId": "b3a4254f-7841-468a-afc5-650b7ea761c6",
+        "company": "Advantage Solutions",
+        "title": "Category Insights Analyst",
+        "location": "Trenton, NJ / Chicago, IL / St. Louis, MO",
+        "sourceSignal": "active to inactive",
+        "officialStatus": "open",
+        "screening": "excluded",
+        "reason": "Outside Dallas/Austin; official JD remains open."
+      }
+    ],
+    "officialVerification": [
+      {
+        "url": "https://careers-pamhealth.icims.com/jobs/91855/ai-engineer-%7C-pam-health-corporate/job",
+        "checkedAt": "2026-10-24T18:49:25Z",
+        "result": "Official iCIMS page open; Plano, TX; AI/LLM/agent work; experience spans junior to senior but asks for proven software engineering and hands-on deployed AI applications; no authorization or pay statement."
+      },
+      {
+        "url": "https://campus-americas.icims.com/jobs/25999/machine-learning-engineer%2C-2027-graduate-u.s./job",
+        "checkedAt": "2026-10-24T18:49:25Z",
+        "result": "Official page open; Seattle hybrid only; explicitly not eligible for F-1/J-1 or sponsorship."
+      },
+      {
+        "url": "https://campus-americas.icims.com/jobs/26000/data-scientist%2C-2027-graduate-u.s./job",
+        "checkedAt": "2026-10-24T18:49:25Z",
+        "result": "Official page open; Seattle hybrid only; explicitly not eligible for F-1/J-1 or sponsorship."
+      },
+      {
+        "url": "https://campus-americas.icims.com/jobs/25998/data-engineer%2C-2027-graduate-u.s/job",
+        "checkedAt": "2026-10-24T18:49:25Z",
+        "result": "Official page open; Seattle hybrid only; explicitly not eligible for F-1/J-1 or sponsorship."
+      },
+      {
+        "url": "https://uscareers2-asm.icims.com/jobs/441209/category-insights-analyst/job",
+        "checkedAt": "2026-10-24T18:49:25Z",
+        "result": "Official page open; locations limited to Trenton, Chicago, and St. Louis."
+      }
+    ],
+    "verificationNote": "The bulk inactive event conflicts with multiple currently open official JDs, including the only Dallas-adjacent candidate reviewed. No source signal was promoted to a verified tracked-job status change."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 128,
+    "uniqueChangedRecordsReviewed": 128,
+    "inactiveSignalsReviewed": 128,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 0,
+    "noDiffListingsCommitsReviewed": 2,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Bulk inactive source signals",
+      "count": 128,
+      "result": "no verified data change",
+      "reason": "No direct match to the 236 monitored records; sampled official pages remained open, indicating the batch is not reliable closure evidence."
+    },
+    {
+      "category": "PAM Health AI Engineer — Plano",
+      "count": 1,
+      "result": "excluded/unqualified",
+      "reason": "Official role remained open, but required experience is not cleanly 0–2 years, authorization is unstated, and compensation/baseline improvement is unverified."
+    },
+    {
+      "category": "Atlassian 2027 graduate AI/data roles",
+      "count": 3,
+      "result": "excluded",
+      "reason": "Seattle-only and explicitly not eligible for F-1/J-1 students or sponsorship."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No newly qualified role and no verified status change to an existing monitored record."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-24T1349-Texas.json",
+      "status": "pending-write-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "Will be finalized only after GitHub write and readback verification."
+    },
+    "overallStatus": "pending-write-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T17:23:48Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-24T1349-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T17:23:48Z"
+  }
+}
