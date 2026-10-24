@@ -1,0 +1,168 @@
+{
+  "checkedAt": "2026-10-24T07:13:56Z",
+  "checkedAtLocal": "2026-10-24T02:13:56-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark or a verified material status change to a tracked role"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "2f3bb733ec6bb1f6a04c406e6a3188b874f069cf",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "blobShaAfter": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "updatedAt": "2026-10-23T22:34:53Z",
+      "recordCountBefore": 234,
+      "recordCountAfter": 234,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-24T0113-Texas.json",
+      "blobSha": "a1ad868788a871338262e2afebd588e0d2078cc7",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "d0af9321b4f430cf4bc656785206727557574564",
+      "previousRepositoryHead": "9803e08bcf2b60deceb0117195e1b05aac294ad2",
+      "currentListingsCommit": "27f97c4df55000798047630c4fea6f4b9532b20c",
+      "currentRepositoryHead": "27f97c4df55000798047630c4fea6f4b9532b20c",
+      "listingsCommitsReviewed": [
+        "714b13c5e9073b89695d4aa8f31362cf387c7165",
+        "27f97c4df55000798047630c4fea6f4b9532b20c"
+      ],
+      "readmeCommitsReviewed": [
+        "1b35329025bdb348e52262bc72cc80b914bfc3cb"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "cb793c72335865acdd8e35e8a872e7c2d62e44e5",
+      "listingsBlobShaAfter": "871f219fee81019adfd2df3138bcde11b6545cd0",
+      "result": "The first listings commit changed three records: Kainos and John Deere active to inactive, plus a new Perplexity AI role in Washington DC/SF. The second listings commit preserved the same blob. No event was in Dallas/Austin/Texas or matched a tracked job."
+    },
+    "reviewedRecords": [
+      {
+        "commit": "714b13c5e9073b89695d4aa8f31362cf387c7165",
+        "company": "Kainos",
+        "title": "Technologist New Grad",
+        "location": "Belfast",
+        "change": "active -> inactive",
+        "result": "out of scope"
+      },
+      {
+        "commit": "714b13c5e9073b89695d4aa8f31362cf387c7165",
+        "company": "John Deere",
+        "title": "Information Technology Development Program - Software Engineering",
+        "location": "non-Texas in source record",
+        "change": "active -> inactive",
+        "result": "out of scope"
+      },
+      {
+        "commit": "714b13c5e9073b89695d4aa8f31362cf387c7165",
+        "company": "Perplexity AI",
+        "title": "Member of Technical Staff - AI Policy and Strategic Initiatives",
+        "location": "Washington, DC; SF",
+        "change": "new active record",
+        "result": "out of scope"
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "No Texas-related or tracked-job event was found, so no official JD escalation was needed."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 3,
+    "uniqueChangedRecordsReviewed": 3,
+    "inactiveSignalsReviewed": 2,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 1,
+    "removedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "All upstream record changes were outside the Texas scope; the later listings commit was a no-op."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-24T0213-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T06:13:45Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-24T0213-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T06:13:45Z"
+  }
+}
