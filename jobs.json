@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T09:44:44Z",
+  "updatedAt": "2026-10-24T10:20:30Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8544,6 +8544,53 @@
       "rejectionReasons": [
         "hardware-performance-direction",
         "bios-pc-benchmarking-core",
+        "no-applied-ai-ml-ds-core",
+        "no-ryan-upgrade"
+      ]
+    },
+    {
+      "company": "Dell Technologies",
+      "tier": "发现后排除",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Performance Engineer 2 (300865)",
+      "employment": "Full-time · Engineering Technologist · TPPA / PC Systems Performance",
+      "gradYear": "Bachelor’s in Computer Engineering, Computer Science, Electrical Engineering, Physics or related field; no verified post-May-2027 start window",
+      "match": "Rejected · PC hardware performance/benchmarking direction; duplicate/repost of the same TPPA role family",
+      "ngCompatibility": "Not evaluated beyond the hard function exclusion; no verified 2027 start window",
+      "assessment": "Dell’s official careers index identifies requisition 300865 as Performance Engineer 2, posted 2026-10-22 and open through 2026-11-29 in Austin. Current mirrors of Dell’s JD describe Windows/BIOS configuration, CPUs/GPUs/memory/storage/thermals, independent performance test runs, PC hardware assembly/configuration/troubleshooting, Cinebench/3DMark/PCMark benchmarking, BIOS tuning and measurement equipment. Python, SQL, AI harnesses and visualization tools support the test workflow; the core role is PC hardware performance engineering, not software Applied AI/ML/Data Science. It substantially duplicates the already archived TPPA requisition 299245 and is excluded without notification.",
+      "visa": "F-1 OPT/STEM OPT and sponsorship language was not verified; further authorization review was unnecessary because the role independently fails the function gate.",
+      "found": "2026-10-24",
+      "discoveredDate": "2026-10-24",
+      "discoveredAt": "2026-10-24T10:19:56Z",
+      "firstSeen": "2026-10-24",
+      "lastChecked": "2026-10-24",
+      "lastCheckedAt": "2026-10-24T10:20:30Z",
+      "url": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300865",
+      "officialSource": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/CX_1/job/300865",
+      "status": "direction-duplicate-rejected",
+      "finalPriority": "不投 · 重复的PC硬件性能测试/BIOS/基准测试岗位，非Applied AI/ML/DS",
+      "roleTrack": "PC Systems Performance / Hardware Benchmarking / BIOS & Thermal Tuning",
+      "technicalGrowth": "Not scored · excluded hardware direction",
+      "brandPlatform": "Strong technology brand, but outside target function",
+      "ryanUpgrade": "No for Qien’s Applied AI/ML/DS path; compensation may exceed Ryan but the core responsibilities are excluded hardware performance engineering.",
+      "compensation": "$112,200–$145,200 base shown in current Dell-JD mirrors for this TPPA role family; official index did not expose the range in its snippet.",
+      "officePerks": "Austin, TX · full-time; exact onsite/hybrid cadence not verified",
+      "jobId": "300865",
+      "sourceListingId": "e47a73e2-c0e4-4b76-90a4-bd1bced3be1d",
+      "source": "Dell official careers index plus current public mirrors of Dell-provided JD; discovered through SimplifyJobs/New-Grad-Positions commit b1322d8490697731f5c125c73e73872c8cc5da23",
+      "officialStatus": "Open/discoverable in Dell official careers index at 2026-10-24T10:19:56Z; posted 2026-10-22 1:15 PM, apply before 2026-11-29 9:00 PM.",
+      "relatedRequisition": "299245",
+      "verificationFlags": [
+        "duplicate-role-family",
+        "visa-not-pursued-after-direction-fail",
+        "start-date-not-pursued-after-direction-fail"
+      ],
+      "upstreamAddedCommit": "b1322d8490697731f5c125c73e73872c8cc5da23",
+      "rejectionReasons": [
+        "hardware-performance-direction",
+        "bios-pc-benchmarking-core",
+        "duplicate-requisition",
         "no-applied-ai-ml-ds-core",
         "no-ryan-upgrade"
       ]
