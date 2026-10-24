@@ -1,0 +1,181 @@
+{
+  "checkedAt": "2026-10-24T14:37:06Z",
+  "checkedAtLocal": "2026-10-24T09:37:06-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "f930c86544c81bd634d87dd684eef71970dab8ee",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "blobShaAfter": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "updatedAt": "2026-10-24T10:20:30Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-24T0849-Texas.json",
+      "blobSha": "640fe09624633836d20769dfbd77eb80e4b000be",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-24T13:49:48Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "9de2b6b042d474d670a6757bdf0fd172bbee2d30",
+      "currentHead": "5e41f79c8174e82e0cdd25b4621ea203007d6830",
+      "listingsCommits": [
+        "190f340e3d7e6a6493c4eb797a50caf7558f3791",
+        "ab6eba5c0392a0d6a871f021d8ad63e05b34adb1"
+      ],
+      "readmeCommits": [
+        "5e41f79c8174e82e0cdd25b4621ea203007d6830"
+      ],
+      "listingsBlobShaBefore": "3ab50ba01dec4e354b3eb4437959d4bd65225f49",
+      "listingsBlobShaAfter": "4364ab6322615696254a7154db17eba79b67596b",
+      "result": "The 14:01 listings commit exposed no diff. The 14:31 update removed one inactive Bellevue Walmart record and changed Goldman Sachs requisitions 171570 (Salt Lake City) and 171569 (New York) from active to inactive. No Dallas/Austin or tracked-job record changed."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Walmart",
+        "title": "Senior Software Engineer",
+        "jobId": "R-2415836-1",
+        "change": "inactive record removed",
+        "location": "Bellevue, WA",
+        "result": "outside geography and senior"
+      },
+      {
+        "company": "Goldman Sachs",
+        "title": "2027 Engineering New Analyst",
+        "jobId": "171570",
+        "change": "active→inactive in aggregator",
+        "location": "Salt Lake City, UT",
+        "officialStatus": "Official role page still shows Apply on 2026-10-24",
+        "result": "outside geography; no qien-job-monitor change"
+      },
+      {
+        "company": "Goldman Sachs",
+        "title": "2027 Engineering New Analyst",
+        "jobId": "171569",
+        "change": "active→inactive in aggregator",
+        "location": "New York, NY",
+        "officialStatus": "Official role page still shows Apply on 2026-10-24",
+        "result": "outside geography; no qien-job-monitor change"
+      }
+    ],
+    "officialVerification": [
+      {
+        "jobId": "171570",
+        "url": "https://higher.gs.com/roles/171570",
+        "checkedAt": "2026-10-24T14:37:06Z",
+        "result": "Official Goldman Sachs page identifies Salt Lake City and displays Apply."
+      },
+      {
+        "jobId": "171569",
+        "url": "https://higher.gs.com/roles/171569",
+        "checkedAt": "2026-10-24T14:37:06Z",
+        "result": "Official Goldman Sachs page identifies New York City and displays Apply."
+      },
+      {
+        "jobId": "171568",
+        "url": "https://higher.gs.com/roles/171568",
+        "checkedAt": "2026-10-24T14:37:06Z",
+        "result": "Official Goldman Sachs Dallas page displays Apply; no new upstream status event for this Dallas requisition."
+      }
+    ],
+    "verificationNote": "The only visible status signals were outside Dallas/Austin. Official pages conflict with aggregator inactive flags, so no closure was inferred."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 3,
+    "uniqueChangedRecordsReviewed": 3,
+    "inactiveSignalsReviewed": 2,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 1,
+    "noDiffListingsCommitsReviewed": 1,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Out-of-scope upstream changes",
+      "count": 3,
+      "result": "no data change",
+      "reason": "All changed records were outside Dallas/Austin; the Goldman Sachs official pages remained open despite aggregator inactive signals."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified Dallas/Austin candidate or tracked-job status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-24T0937-Texas.json",
+      "status": "pending-finalization",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-finalization",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T13:49:48Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-24T0937-Texas.json finalization"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T13:49:48Z"
+  }
+}
