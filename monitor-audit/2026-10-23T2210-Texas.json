@@ -122,20 +122,18 @@
     "archives": [],
     "audit": {
       "path": "monitor-audit/2026-10-23T2210-Texas.json",
-      "status": "pending",
-      "initialCommitSha": null,
+      "status": "synced",
+      "initialCommitSha": "4ee1ceaf70c79fca1e1ccae4005ddda2273346ac",
       "finalCommitSha": null,
-      "readbackVerified": false,
-      "contentShaBeforeFinalization": null,
-      "syncedAt": null,
+      "readbackVerified": true,
+      "contentShaBeforeFinalization": "07c9eb319287cea99283a166c020641d7396959e",
+      "syncedAt": "2026-10-24T03:10:52Z",
       "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
     },
-    "overallStatus": "pending",
+    "overallStatus": "synced",
     "lastSuccessfulWriteBeforeRun": "2026-10-24T02:44:54Z",
-    "pendingSync": [
-      "monitor-audit/2026-10-23T2210-Texas.json"
-    ],
+    "pendingSync": [],
     "consecutiveWriteFailures": 0,
-    "lastSuccessfulWriteAt": "2026-10-24T02:44:54Z"
+    "lastSuccessfulWriteAt": "2026-10-24T03:10:52Z"
   }
 }
