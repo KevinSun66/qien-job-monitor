@@ -1,0 +1,172 @@
+{
+  "checkedAt": "2026-10-24T12:11:50Z",
+  "checkedAtLocal": "2026-10-24T07:11:50-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark or a verified material status change to a tracked role"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "6007fbc20088cc0409c761fa30ea0f8fb51cdca6",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "blobShaAfter": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "updatedAt": "2026-10-24T10:20:30Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-24T0613-Texas.json",
+      "blobSha": "8cbdfd26b217dca8354cce2a4d1b127a26f71675",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "2b5ddac3de1162d33a3ee35bbd810282c2d046bd",
+      "previousRepositoryHead": "ffba0eeb9e12c538dc5e3c928badd6d3075200f6",
+      "currentListingsCommit": "6331f54762d1cc901dfb7471d6be180b920c2e53",
+      "currentRepositoryHead": "e0068c8bc86fd5cd65ca3e8a7522c9cc069f657c",
+      "listingsCommitsReviewed": [
+        "58893e77117a634fee542b3c237f46a36f35e996",
+        "6331f54762d1cc901dfb7471d6be180b920c2e53"
+      ],
+      "readmeCommitsReviewed": [
+        "e0068c8bc86fd5cd65ca3e8a7522c9cc069f657c"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "8da4463a239c94a6f2019bd24a48557573f2d524",
+      "listingsBlobShaAfter": "c93a25fbf27798678fe1b27870a817e084a6a9a3",
+      "result": "The 11:31 listings commit exposed no diff. The 12:01 update marked three non-Texas roles inactive. No Dallas/Austin role, tracked job, or candidate-relevant status changed."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Applied Materials",
+        "title": "Physicist/Scientist New Grad - 2027 Summer Cohort",
+        "change": "active→inactive",
+        "location": "Santa Clara, CA",
+        "result": "outside geography; PhD/semiconductor direction"
+      },
+      {
+        "company": "Leidos",
+        "title": "Junior Systems Engineer",
+        "change": "active→inactive",
+        "location": "Odenton, MD",
+        "result": "outside geography"
+      },
+      {
+        "company": "Leidos",
+        "title": "GIS Technician",
+        "change": "active→inactive",
+        "location": "Raleigh, NC / home office",
+        "result": "outside geography and target function"
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "All visible upstream changes were outside Dallas/Austin and did not affect tracked records; no official-JD escalation was warranted."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 3,
+    "uniqueChangedRecordsReviewed": 3,
+    "inactiveSignalsReviewed": 3,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 0,
+    "noDiffListingsCommitsReviewed": 1,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Non-Texas inactive signals",
+      "count": 3,
+      "result": "no data change",
+      "reason": "All roles were outside monitored geography; none was tracked in qien-job-monitor."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified Dallas/Austin candidate or tracked-job status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-24T0711-Texas.json",
+      "status": "pending-finalization",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "syncedAt": null
+    },
+    "overallStatus": "pending-finalization",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T11:13:59Z",
+    "pendingSync": [
+      "finalize and read back this audit file"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T11:13:59Z"
+  }
+}
