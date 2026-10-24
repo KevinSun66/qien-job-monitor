@@ -1,0 +1,199 @@
+{
+  "checkedAt": "2026-10-24T00:40:30Z",
+  "checkedAtLocal": "2026-10-23T19:40:30-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark or a verified material status change to a tracked role"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "65910485ecf1d664a7fe61dce6f7f0ea22f8f96b",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "blobShaAfter": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "updatedAt": "2026-10-23T22:34:53Z",
+      "recordCountBefore": 234,
+      "recordCountAfter": 234,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T1840-Texas.json",
+      "blobSha": "043504b8110f51ab49abce58a35eb7280d533d30",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "34a8c9d8c8f281d23260d1f1ec68d27952c6b664",
+      "previousRepositoryHead": "971a958c67477b51f0af6736fc4c4044be303f38",
+      "currentListingsCommit": "3859f145f7330a452f81738c82ce2af6b17153ab",
+      "currentRepositoryHead": "752725879dc219f856685b94b900cbdca37330f4",
+      "listingsCommitsReviewed": [
+        "70f6331f478241fabfc797259e9a023f76515751",
+        "3859f145f7330a452f81738c82ce2af6b17153ab"
+      ],
+      "readmeCommitsReviewed": [
+        "d32081c7aca6b7e62def6e354324c1961a0d7b8c",
+        "752725879dc219f856685b94b900cbdca37330f4"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "a4be1950aebaeeeb5a21e82b90bef4b849d29f3e",
+      "listingsBlobShaAfter": "d9de61f93f35168578deab8aff0ca3fae4423874",
+      "result": "Two listings commits were reviewed. They removed 26 old inactive records and marked one non-Texas Stifel Credit Analytics developer role inactive. Dallas/Irving cleanup entries were already inactive historical records, not new openings or verified status changes. No qualifying role or tracked-job change was found."
+    },
+    "reviewedRecords": [
+      {
+        "company": "o9 Solutions",
+        "jobId": "JR102243",
+        "title": "Associate Architect",
+        "market": "Dallas, TX",
+        "upstreamChange": "old inactive record removed from source dataset",
+        "result": "Historical inactive cleanup only. It was not a monitored current record; no deletion or job-data change was made."
+      },
+      {
+        "company": "CVS Health",
+        "jobId": "R0835760",
+        "title": "Trade Finance Data Analyst",
+        "market": "Irving, TX",
+        "upstreamChange": "old inactive record removed from source dataset",
+        "result": "Historical inactive cleanup only. Finance data role was not a monitored current record; no deletion or job-data change was made."
+      },
+      {
+        "company": "Invesco",
+        "jobId": "R-11041-1",
+        "title": "Early Career Analyst - Technology",
+        "market": "Houston, TX / Atlanta, GA",
+        "upstreamChange": "old inactive record removed from source dataset",
+        "result": "Outside Dallas/Austin target markets and already inactive; no action."
+      },
+      {
+        "company": "Stifel",
+        "jobId": "10047",
+        "title": "Developer – Credit Analytics",
+        "market": "New York, NY",
+        "upstreamChange": "active true → false",
+        "result": "Outside target markets; not a tracked record. No action."
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "No new target-market active record and no tracked current role changed. Source cleanup did not justify deleting any historical monitor record."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 27,
+    "uniqueChangedRecordsReviewed": 27,
+    "inactiveSignalsReviewed": 1,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 26,
+    "texasRelatedRecordsReviewed": 3,
+    "dallasAustinOrAdjacentRecordsReviewed": 2,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "jobId": "JR102243",
+      "decision": "historical-source-cleanup-no-action",
+      "reason": "Old inactive Dallas record removed upstream; not a current tracked role and historical deletion is prohibited."
+    },
+    {
+      "jobId": "R0835760",
+      "decision": "historical-source-cleanup-no-action",
+      "reason": "Old inactive Irving record removed upstream; not a current tracked role and not a new opportunity."
+    },
+    {
+      "jobId": "R-11041-1",
+      "decision": "out-of-market-historical-cleanup",
+      "reason": "Houston/Atlanta and already inactive."
+    },
+    {
+      "jobId": "10047",
+      "decision": "out-of-market-no-action",
+      "reason": "New York role; no Dallas/Austin relevance."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "Only upstream historical cleanup and one out-of-market inactive transition; no verified target change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-23T1940-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-23T23:41:15Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T1940-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-23T23:41:15Z"
+  }
+}
