@@ -1,0 +1,216 @@
+{
+  "checkedAt": "2026-10-24T10:19:56Z",
+  "checkedAtLocal": "2026-10-24T05:19:56-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark or a verified material status change to a tracked role"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "030fb31800033de9b47edb0b3edf4d538f4a5739",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "779cc89dd71582644e2f977e1dcce87d440f8735",
+      "blobShaAfter": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "updatedAt": "2026-10-24T10:20:30Z",
+      "recordCountBefore": 235,
+      "recordCountAfter": 236,
+      "changed": true,
+      "commitShas": [
+        "7e5b04f773423674a0b309202247769698ec422a"
+      ],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-24T0442-Texas.json",
+      "blobSha": "8ca5b0a7c33dfd8aacf433a1f05c1109e7ceccd7",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "164ff6e4767fbef971cb71862596f7879d31390a",
+      "previousRepositoryHead": "21cb962ba08370fff91d930a0d870d674a4a23a9",
+      "currentListingsCommit": "b1322d8490697731f5c125c73e73872c8cc5da23",
+      "currentRepositoryHead": "c08c5ffdc531cc90e4bda1188d35006243ba42a1",
+      "listingsCommitsReviewed": [
+        "b1322d8490697731f5c125c73e73872c8cc5da23"
+      ],
+      "readmeCommitsReviewed": [
+        "c08c5ffdc531cc90e4bda1188d35006243ba42a1"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "ff3df90816e835ddba46b675217bfcd1c077641e",
+      "listingsBlobShaAfter": "013a2ccfc6e229d939136d0425d0a60f47c62b81",
+      "result": "One listings update produced four new active records and four active-to-inactive signals. The only Dallas/Austin delta was Dell Performance Engineer 2 in Austin, a second requisition for the same TPPA PC-hardware performance role family already archived as 299245. It was verified open and archived as a duplicate hardware exclusion; no notification was sent."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Torus",
+        "title": "Test Engineer Technician",
+        "change": "active→inactive",
+        "location": "outside monitored markets"
+      },
+      {
+        "company": "GlobalFoundries",
+        "title": "Principal Engineer - Device Engineering",
+        "change": "active→inactive",
+        "location": "Malta, NY"
+      },
+      {
+        "company": "Northrop Grumman",
+        "title": "Software Engineer",
+        "change": "active→inactive",
+        "location": "Morrisville, NC"
+      },
+      {
+        "company": "Prolific",
+        "title": "AI Trainer",
+        "change": "active→inactive",
+        "location": "outside monitored markets"
+      },
+      {
+        "company": "Dell Technologies",
+        "title": "AI Performance Engineer (official title: Performance Engineer 2)",
+        "jobId": "300865",
+        "change": "new active",
+        "location": "Austin, TX"
+      },
+      {
+        "company": "Leidos",
+        "title": "Electrical Design and Integration Engineer",
+        "change": "new active",
+        "location": "Huntsville, AL"
+      },
+      {
+        "company": "Encore Auctions",
+        "title": "Technical Hardware Specialist",
+        "change": "new active",
+        "location": "London, ON, Canada"
+      },
+      {
+        "company": "Medra",
+        "title": "Systems Test Engineer",
+        "change": "new active",
+        "location": "San Francisco, CA"
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Dell Technologies",
+        "title": "Performance Engineer 2",
+        "jobId": "300865",
+        "location": "Austin, TX",
+        "officialUrl": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/300865",
+        "officialStatus": "Open/discoverable in Dell official careers index; posted 2026-10-22 1:15 PM; apply before 2026-11-29 9:00 PM.",
+        "dutiesEvidence": "Current Dell-JD mirrors describe Windows/BIOS configuration, CPU/GPU/memory/storage/thermal testing, PC hardware assembly/configuration/troubleshooting, independent test runs, Cinebench/3DMark/PCMark benchmarking, BIOS tuning and measurement equipment.",
+        "duplicateEvidence": "Same TPPA/PC Systems Performance responsibilities and compensation range as archived requisition 299245.",
+        "decision": "Excluded as a duplicate PC-hardware performance role. Python, SQL and AI harnesses are supporting tools, not core Applied AI/ML/Data Science. Visa, start-date and further experience verification were not pursued after the independent hard direction fail."
+      }
+    ],
+    "verificationNote": "The only Texas new record is a verified duplicate hardware role; no qualifying or tracked-job status change occurred."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 8,
+    "uniqueChangedRecordsReviewed": 8,
+    "inactiveSignalsReviewed": 4,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 4,
+    "removedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 1,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Austin new listing",
+      "count": 1,
+      "result": "excluded and archived",
+      "reason": "Dell Performance Engineer 2 is a duplicate PC hardware performance/BIOS/benchmarking role, outside strict Applied AI/ML/Data Science scope and not a Ryan-path upgrade."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "updatedRecords": [],
+    "addedRecords": [
+      "Dell Technologies — Performance Engineer 2 (300865)"
+    ],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "Added a verified duplicate/excluded discovery record for deduplication; recommendation pages did not change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitShas": [
+        "7e5b04f773423674a0b309202247769698ec422a"
+      ],
+      "blobSha": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-24T0519-Texas.json",
+      "status": "pending-finalization",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "syncedAt": null
+    },
+    "overallStatus": "pending-finalization",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T09:45:27Z",
+    "pendingSync": [
+      "finalize and read back this audit file"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T10:20:47Z"
+  }
+}
