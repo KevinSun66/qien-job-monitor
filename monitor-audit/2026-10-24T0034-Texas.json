@@ -1,0 +1,158 @@
+{
+  "checkedAt": "2026-10-24T05:34:23Z",
+  "checkedAtLocal": "2026-10-24T00:34:23-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark or a verified material status change to a tracked role"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "0e9a504277fd68d6c5413c594ae476d2ea8e5b69",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "blobShaAfter": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "updatedAt": "2026-10-23T22:34:53Z",
+      "recordCountBefore": 234,
+      "recordCountAfter": 234,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T2315-Texas.json",
+      "blobSha": "b3eab40af0246942bfc3194243dd391934b6227b",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "2150fabbd40f02677466c330ef2b7bd8c27a6c6b",
+      "previousRepositoryHead": "2150fabbd40f02677466c330ef2b7bd8c27a6c6b",
+      "currentListingsCommit": "204ccc37106cbd4d0e21dda5c611d1e2ad29d6b2",
+      "currentRepositoryHead": "8485571c95069cfbc8e152921134dd7a49281378",
+      "listingsCommitsReviewed": [
+        "5777829b35c4e0ea8c3e70e5485ee4d8a1da1e1e",
+        "3cffbb6d3873e8a8d757cae0868b906eaaba5c73",
+        "204ccc37106cbd4d0e21dda5c611d1e2ad29d6b2"
+      ],
+      "readmeCommitsReviewed": [
+        "26051f4c08e43029fea7d6e9cad6bc0a276cd643",
+        "8485571c95069cfbc8e152921134dd7a49281378"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "00db138da3d296d59ee9ce63817ac71583571acf",
+      "listingsBlobShaAfter": "1e5b0a7ae42d3d1ec7a87d380079e2a15a97d12b",
+      "result": "The first listings-named commit was a no-op. The next two changed 11 records from active to inactive, all outside Dallas/Austin/Texas and none matched tracked jobs; no qualifying role or tracked-job change was found."
+    },
+    "reviewedRecords": [
+      {
+        "commit": "3cffbb6d3873e8a8d757cae0868b906eaaba5c73",
+        "count": 5,
+        "locationsSummary": "Alpharetta GA; Roanoke VA (2); Newport News VA; Perplexity AI location not Texas in changed record context",
+        "result": "out of scope"
+      },
+      {
+        "commit": "204ccc37106cbd4d0e21dda5c611d1e2ad29d6b2",
+        "count": 6,
+        "locationsSummary": "Toronto ON; Clifton NJ; Tinker AFB OK; Roanoke VA (2); Chicago IL",
+        "result": "out of scope"
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "No Texas-related or tracked-job event was found, so no official JD escalation was needed."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 5,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 11,
+    "uniqueChangedRecordsReviewed": 11,
+    "inactiveSignalsReviewed": 11,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No Texas-related or tracked-job change in the upstream delta."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-24T0034-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T04:15:51Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-24T0034-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T04:15:51Z"
+  }
+}
