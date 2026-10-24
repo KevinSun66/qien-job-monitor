@@ -1,0 +1,181 @@
+{
+  "checkedAt": "2026-10-24T13:49:11Z",
+  "checkedAtLocal": "2026-10-24T08:49:11-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark or a verified material status change to a tracked role"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "165b931f4ba691d0a0dbbbfe2b727bcf3fc7c320",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "blobShaAfter": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "updatedAt": "2026-10-24T10:20:30Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-24T0711-Texas.json",
+      "blobSha": "35eaf7695b681f256580d189aea295bc56bec2cb",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "6331f54762d1cc901dfb7471d6be180b920c2e53",
+      "previousRepositoryHead": "e0068c8bc86fd5cd65ca3e8a7522c9cc069f657c",
+      "currentListingsCommit": "0082973bd66a4c562717ce9bf941d640f938623d",
+      "currentRepositoryHead": "9de2b6b042d474d670a6757bdf0fd172bbee2d30",
+      "listingsCommitsReviewed": [
+        "9226773c3cd73badf30240499584d3487ff8be11",
+        "cfc4f1e5a206915cca16ebb9345bfbc30e9ca5ea",
+        "0082973bd66a4c562717ce9bf941d640f938623d"
+      ],
+      "readmeCommitsReviewed": [
+        "81d5426068c6149864d8329907241faffe8cfadc",
+        "9de2b6b042d474d670a6757bdf0fd172bbee2d30"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "c93a25fbf27798678fe1b27870a817e084a6a9a3",
+      "listingsBlobShaAfter": "3ab50ba01dec4e354b3eb4437959d4bd65225f49",
+      "result": "The 12:31 listings commit exposed no diff. Later updates removed one already-inactive non-Texas record, marked two non-Texas roles inactive, and added one Minnesota RTX role. No Dallas/Austin role, tracked job, or candidate-relevant status changed."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Uline",
+        "title": "Associate Ecommerce Data Analyst",
+        "change": "inactive record removed",
+        "location": "Wisconsin/Illinois",
+        "result": "outside geography"
+      },
+      {
+        "company": "Regal Rexnord",
+        "title": "Electronics Lab Technician 1",
+        "change": "active→inactive",
+        "location": "Radford, VA",
+        "result": "outside geography and hardware direction"
+      },
+      {
+        "company": "RTX",
+        "title": "Hardware In the Loop Software Engineer 1",
+        "change": "active→inactive",
+        "location": "Tucson, AZ",
+        "result": "outside geography and hardware-in-the-loop direction"
+      },
+      {
+        "company": "RTX",
+        "title": "Engineer 1 - Software Engineer - Test Engineering",
+        "change": "new active",
+        "location": "Burnsville, MN",
+        "result": "outside geography"
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "All visible upstream changes were outside Dallas/Austin and did not affect tracked records; no official-JD escalation was warranted."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 5,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 4,
+    "uniqueChangedRecordsReviewed": 4,
+    "inactiveSignalsReviewed": 2,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 1,
+    "removedRecordsReviewed": 1,
+    "noDiffListingsCommitsReviewed": 1,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Non-Texas upstream changes",
+      "count": 4,
+      "result": "no data change",
+      "reason": "All changed records were outside monitored geography; none was tracked in qien-job-monitor."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified Dallas/Austin candidate or tracked-job status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-24T0849-Texas.json",
+      "status": "pending-finalization",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "syncedAt": null
+    },
+    "overallStatus": "pending-finalization",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T12:12:23Z",
+    "pendingSync": [
+      "finalize and read back this audit file"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T12:12:23Z"
+  }
+}
