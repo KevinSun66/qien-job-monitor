@@ -1,0 +1,179 @@
+{
+  "checkedAt": "2026-10-24T09:42:55Z",
+  "checkedAtLocal": "2026-10-24T04:42:55-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark or a verified material status change to a tracked role"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "18df01f53cf330c6af4439884cc1cb6324f8ba82",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "blobShaAfter": "779cc89dd71582644e2f977e1dcce87d440f8735",
+      "updatedAt": "2026-10-24T09:44:44Z",
+      "recordCountBefore": 234,
+      "recordCountAfter": 235,
+      "changed": true,
+      "commitShas": [
+        "17b77e153730bc634ef50911587879a5fbe5fece"
+      ],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-24T0348-Texas.json",
+      "blobSha": "bc96ed32c5f587e4daf4bc142e45dcf7a237498e",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "ba0463509c04d6a811baf22a102bf394e856926d",
+      "previousRepositoryHead": "ba0463509c04d6a811baf22a102bf394e856926d",
+      "currentListingsCommit": "164ff6e4767fbef971cb71862596f7879d31390a",
+      "currentRepositoryHead": "21cb962ba08370fff91d930a0d870d674a4a23a9",
+      "listingsCommitsReviewed": [
+        "981243c72d9dc1d2c16744b2f72ace4ff806eb12",
+        "164ff6e4767fbef971cb71862596f7879d31390a"
+      ],
+      "readmeCommitsReviewed": [
+        "249fd5bce825fe8a81cc9eb5e933b59f1d89e544",
+        "21cb962ba08370fff91d930a0d870d674a4a23a9"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "25b75f036f3d24758d55acf77e323a652f8940b8",
+      "listingsBlobShaAfter": "ff3df90816e835ddba46b675217bfcd1c077641e",
+      "result": "Two listings updates produced one new active role and five active-to-inactive signals. The only Dallas/Austin delta was Dell AI Performance Engineer in Austin. Official Dell search verified it as open, but duties are PC hardware performance/BIOS/benchmarking, so it was archived as excluded and not notified."
+    },
+    "reviewedRecords": [
+      {
+        "commit": "981243c72d9dc1d2c16744b2f72ace4ff806eb12",
+        "change": "1 new active; 2 active→inactive",
+        "details": "New Dell AI Performance Engineer in Austin; Boeing Entry Level Software Engineer-Developer Development and SAIC SCA Engineering Technician 4 became inactive outside the monitored markets."
+      },
+      {
+        "commit": "164ff6e4767fbef971cb71862596f7879d31390a",
+        "change": "3 active→inactive",
+        "details": "Critical Response Group Field Mapping Associate, Leidos Defensive Cyber Software Developer, and HR&A Advisors Data Science and Analytics Specialist; none were Dallas/Austin records."
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Dell Technologies",
+        "title": "AI Performance Engineer",
+        "jobId": "299245",
+        "location": "Austin, TX",
+        "officialUrl": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/299245",
+        "officialStatus": "Open/discoverable in Dell official careers search; posted 2026-10-23",
+        "directPageResult": "Oracle URL redirected to Dell enterprise platform but rendered no readable JD content.",
+        "dutiesEvidence": "Current public JD mirrors consistently describe Windows/BIOS configuration, CPU/GPU/memory/storage/thermal testing, PC assembly and troubleshooting, Cinebench/3DMark/PCMark benchmarking, performance measurement and BIOS tuning.",
+        "decision": "Excluded as hardware performance engineering; Python/SQL/AI harnesses are supporting tools, not core Applied AI/ML/Data Science. Visa, experience and 2027-start verification were not pursued after the independent hard direction fail."
+      }
+    ],
+    "verificationNote": "The only Texas new role was verified sufficiently to apply the standing hardware exclusion; no suitable or Ryan-upgrade role remained."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 6,
+    "uniqueChangedRecordsReviewed": 6,
+    "inactiveSignalsReviewed": 5,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 1,
+    "removedRecordsReviewed": 0,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 1,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Austin new listing",
+      "count": 1,
+      "result": "excluded and archived",
+      "reason": "Dell AI Performance Engineer is PC hardware performance/BIOS/benchmarking work, outside the strict Applied AI/ML/Data Science scope and not a Ryan-path upgrade."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "updatedRecords": [],
+    "addedRecords": [
+      "Dell Technologies — AI Performance Engineer (299245)"
+    ],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "Added a verified excluded-discovery record for deduplication; current recommendation pages did not change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitShas": [
+        "17b77e153730bc634ef50911587879a5fbe5fece"
+      ],
+      "blobSha": "779cc89dd71582644e2f977e1dcce87d440f8735",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-24T0442-Texas.json",
+      "status": "pending-finalization",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "syncedAt": null
+    },
+    "overallStatus": "pending-finalization",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T08:49:26Z",
+    "pendingSync": [
+      "finalize and read back this audit file"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T09:45:02Z"
+  }
+}
