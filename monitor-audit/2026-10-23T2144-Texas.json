@@ -1,0 +1,242 @@
+{
+  "checkedAt": "2026-10-24T02:44:31Z",
+  "checkedAtLocal": "2026-10-23T21:44:31-05:00",
+  "timezone": "America/Chicago",
+  "scope": {
+    "markets": [
+      "Dallas/Fort Worth, TX",
+      "Austin, TX"
+    ],
+    "earliestStart": "after 2027-05-31",
+    "experience": "0–2 years; reject roles whose stated minimum is 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "semiconductor/VLSI physical design"
+    ],
+    "companyExclusions": [
+      "Texas Instruments (global exclusion)",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer (~$83k base; ~$90k first year)",
+    "notificationRule": "notify only verified, non-duplicate roles with a clear improvement over the Ryan benchmark or a verified material status change to a tracked role"
+  },
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "e0d66cd7e6cc6d8782242882a5060edf1d9bdd73",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "blobShaAfter": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "updatedAt": "2026-10-23T22:34:53Z",
+      "recordCountBefore": 234,
+      "recordCountAfter": 234,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-23T2035-Texas.json",
+      "blobSha": "7d00ba97e43131e0a7b0abb12119c5b07e587997",
+      "status": "synced"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "status": "absent",
+      "verification": "GitHub contents API returned 404; no workflow was treated as a job scraper"
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "15165f6afe77fd52990b20c086936cbf76794cb4",
+      "previousRepositoryHead": "2713fcc8c0a71bd19e354af67bfbeae76a8bbf22",
+      "currentListingsCommit": "0bb9f50fc4a9995d2aeac0daf72c14333545d5ba",
+      "currentRepositoryHead": "0bb9f50fc4a9995d2aeac0daf72c14333545d5ba",
+      "listingsCommitsReviewed": [
+        "9455d53d161755b6b5fdf308c81bd91ffcae8984",
+        "0bb9f50fc4a9995d2aeac0daf72c14333545d5ba"
+      ],
+      "readmeCommitsReviewed": [
+        "ed446bd7a313773be695afb1a687042a53bed539"
+      ],
+      "listingsPath": ".github/scripts/listings.json",
+      "listingsBlobShaBefore": "3c67916227f416500d0b2847721ee45469c67645",
+      "listingsBlobShaAfter": "00db138da3d296d59ee9ce63817ac71583571acf",
+      "result": "Two listings commits were reviewed: 4 active→inactive events, 2 inactive→active events, 4 newly added active records, and 2 old inactive records removed. No Dallas/Austin record changed. Goldman Sachs 171569 and 171570 reactivated, but official pages identify them as New York City and Salt Lake City; all new records were outside Texas. No qualifying Texas Applied AI/ML/Data Science role or tracked-job change was found."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171569",
+        "title": "2027 New York City Engineering New Analyst",
+        "market": "New York, NY",
+        "upstreamChange": "active false → true",
+        "result": "Official page indexed today; out of Dallas/Austin scope."
+      },
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171570",
+        "title": "2027 Salt Lake City Engineering New Analyst",
+        "market": "Salt Lake City, UT",
+        "upstreamChange": "active false → true",
+        "result": "Official page indexed today; out of Dallas/Austin scope."
+      },
+      {
+        "company": "Intel",
+        "jobId": "JR0288400",
+        "title": "Deep Learning Hardware Engineer",
+        "market": "Santa Clara, CA / Hillsboro, OR",
+        "upstreamChange": "new active record",
+        "result": "Out of market and hardware direction."
+      },
+      {
+        "company": "Farther",
+        "title": "Business Intelligence Associate",
+        "market": "New York, NY",
+        "upstreamChange": "new active record",
+        "result": "Out of market and business-intelligence role."
+      },
+      {
+        "company": "TruStage",
+        "jobId": "R-012250-1",
+        "title": "Annuity Product Analyst",
+        "market": "Madison, WI",
+        "upstreamChange": "new active record",
+        "result": "Out of market and non-target product/insurance analytics."
+      },
+      {
+        "company": "Boeing",
+        "jobId": "JR2026526418",
+        "title": "Entry-Level Software Engineer",
+        "market": "Maryland Heights, MO",
+        "upstreamChange": "new active record",
+        "result": "Out of market and generic software role."
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171569",
+        "url": "https://higher.gs.com/roles/171569",
+        "checkedAt": "2026-10-24T02:44:31Z",
+        "status": "Official page indexed today",
+        "location": "New York, NY",
+        "decision": "Out of target market; no monitor-data change."
+      },
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171570",
+        "url": "https://higher.gs.com/roles/171570",
+        "checkedAt": "2026-10-24T02:44:31Z",
+        "status": "Official page indexed today",
+        "location": "Salt Lake City, UT",
+        "decision": "Out of target market; no monitor-data change."
+      }
+    ],
+    "verificationNote": "No Dallas/Austin active record or tracked current role changed. The two reactivated Goldman records were verified out of market."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 12,
+    "uniqueChangedRecordsReviewed": 12,
+    "inactiveSignalsReviewed": 4,
+    "reactivatedRecordsReviewed": 2,
+    "newActiveRecordsReviewed": 4,
+    "removedRecordsReviewed": 2,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "jobId": "171569",
+      "decision": "out-of-market-rejected",
+      "reason": "Official location New York City."
+    },
+    {
+      "jobId": "171570",
+      "decision": "out-of-market-rejected",
+      "reason": "Official location Salt Lake City."
+    },
+    {
+      "jobId": "JR0288400",
+      "decision": "out-of-market-direction-rejected",
+      "reason": "California/Oregon deep-learning hardware role."
+    },
+    {
+      "recordId": "9e08800b-29d9-481b-b8c2-3a1025b1e37c",
+      "decision": "out-of-market-rejected",
+      "reason": "New York business-intelligence role."
+    },
+    {
+      "recordId": "110cc6b8-f9bf-4999-b76e-978ccc2363b9",
+      "decision": "out-of-market-non-target-rejected",
+      "reason": "Madison annuity product analyst."
+    },
+    {
+      "jobId": "JR2026526418",
+      "decision": "out-of-market-rejected",
+      "reason": "Missouri generic software role."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified target-market qualifying role or tracked status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "1332e9307352f349cffdff689f55d7d5590bbfe9",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-23T2144-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T01:36:08Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-23T2144-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T01:36:08Z"
+  }
+}
