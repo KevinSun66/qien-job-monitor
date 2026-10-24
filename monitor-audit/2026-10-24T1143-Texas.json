@@ -1,0 +1,174 @@
+{
+  "checkedAt": "2026-10-24T16:43:55Z",
+  "checkedAtLocal": "2026-10-24T11:43:55-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "89627d8421b406689424dffaa9fb0895fcf3ca14",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "blobShaAfter": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "updatedAt": "2026-10-24T10:20:30Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-24T1028-Texas.json",
+      "blobSha": "6ee5dfeeff2552e44dc5057eae262f193d37797f",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-24T15:28:56Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "b0d9c958889992c5d7a4a0311f57af5b0f1eab3f",
+      "currentHead": "039cffd64c207fe66a03dadc72112d88507319aa",
+      "listingsCommits": [
+        "ad0e92396bd0b856a09a8484a7e7437c5252dd5f",
+        "93eba5380ac3f1cff99ec19ba6300b18a79042cb",
+        "039cffd64c207fe66a03dadc72112d88507319aa"
+      ],
+      "readmeCommits": [
+        "9c1593ccb41a29b169751c46c2dc055bab5f28f5",
+        "3e7f740eabc21497ba4432a9384e7e10e37c8841"
+      ],
+      "listingsBlobShaBefore": "0687a2abbf43769ab78421be3819d00771b7af4f",
+      "listingsBlobShaAfter": "fc569d1c5473ab8542f2e4c610ed2d191d1d192e",
+      "result": "Two listings commits removed 24 already-inactive records; the final listings commit exposed no diff. No new active record or tracked-job status change appeared."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Flextronics International",
+        "title": "Engineering Technician",
+        "jobId": "WD216376",
+        "change": "already-inactive record removed",
+        "location": "Austin, TX",
+        "category": "Hardware",
+        "result": "monitored geography but excluded hardware/technician direction; no current-opening signal"
+      },
+      {
+        "company": "KBR",
+        "title": "Software Developer – Entry Level",
+        "jobId": "R2119626",
+        "change": "already-inactive record removed",
+        "location": "Houston, TX",
+        "category": "Software",
+        "result": "outside Dallas/Austin geography"
+      },
+      {
+        "category": "Other removed inactive records",
+        "count": 22,
+        "locations": "United States outside Dallas/Austin, Canada, United Kingdom",
+        "result": "outside geography and/or irrelevant direction"
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "The source changes only purged stale inactive records. There was no active Dallas/Austin candidate requiring official-JD escalation."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 5,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 24,
+    "uniqueChangedRecordsReviewed": 24,
+    "inactiveSignalsReviewed": 0,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 24,
+    "noDiffListingsCommitsReviewed": 1,
+    "texasRelatedRecordsReviewed": 2,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Austin stale inactive removal",
+      "count": 1,
+      "result": "no data change",
+      "reason": "Flex Engineering Technician is hardware/technician work and was already inactive."
+    },
+    {
+      "category": "Texas outside monitored metros",
+      "count": 1,
+      "result": "no data change",
+      "reason": "KBR role is in Houston and was already inactive."
+    },
+    {
+      "category": "Other stale inactive removals",
+      "count": 22,
+      "result": "no data change",
+      "reason": "Outside Dallas/Austin and/or unrelated direction."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified active Dallas/Austin candidate or tracked-job status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-24T1143-Texas.json",
+      "status": "pending-finalization",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-finalization",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T15:28:56Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-24T1143-Texas.json finalization"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T15:28:56Z"
+  }
+}
