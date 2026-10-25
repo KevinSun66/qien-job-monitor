@@ -1,0 +1,160 @@
+{
+  "checkedAt": "2026-10-25T11:16:24Z",
+  "checkedAtLocal": "2026-10-25T06:16:24-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "3423e76d42261b1bda512a23c60c0713eb7c4843",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "blobShaAfter": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "updatedAt": "2026-10-25T08:46:36Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-25T0542-Texas.json",
+      "blobSha": "253bf5cf80df514f0226f06950d627773ed7ba94",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-25T10:42:32Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "9ab98f3f197ae3a83c1e0426ee05a26cf9fcd3fd",
+      "currentHead": "76f7587dc5796eae6f0b702c62ef382487787078",
+      "repositoryHeadObserved": "707b381746f3584327827f3793a61a0c44386bc3",
+      "listingsCommits": [
+        "76f7587dc5796eae6f0b702c62ef382487787078"
+      ],
+      "readmeCommits": [
+        "707b381746f3584327827f3793a61a0c44386bc3"
+      ],
+      "listingsBlobShaBefore": "93a494620150d93657a7d3fb0b12345a95e1ea31",
+      "listingsBlobShaAfter": "1a784e587aa9b895e4cea444c43a43193563d7eb",
+      "result": "The new listings commit removed two already-inactive stale records; neither was in Texas or relevant to the monitor."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Intuit",
+        "title": "Software Engineer 1",
+        "recordId": "e670be82-cf2f-40e5-bdff-fe27daa6213d",
+        "event": "removed stale inactive record",
+        "locations": [
+          "Mountain View, CA",
+          "NYC",
+          "San Diego, CA",
+          "Atlanta, GA"
+        ],
+        "result": "out-of-scope geography"
+      },
+      {
+        "company": "Sainsbury's",
+        "title": "Trading Assistant - Shift",
+        "recordId": "9d6d1ef2-8466-40d5-8263-febcc1bf7da6",
+        "event": "removed stale inactive record",
+        "locations": [
+          "Portadown, Craigavon, UK"
+        ],
+        "result": "out-of-scope geography and function"
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "No Dallas/Austin candidate or tracked-job status event was present, so no official JD required re-verification in this interval."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 2,
+    "uniqueChangedRecordsReviewed": 2,
+    "inactiveSignalsReviewed": 0,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 2,
+    "noDiffListingsCommitsReviewed": 0,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Stale inactive record removals outside scope",
+      "count": 2,
+      "result": "no monitor data change",
+      "reason": "Neither removed record was in Texas; one was a generic software role in other US markets and the other a UK trading role."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No qualifying, pending-verification, exclusion-worthy Texas discovery or tracked-job status change was present."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-25T0616-Texas.json",
+      "status": "pending-write-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-write-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-25T10:42:32Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-25T0616-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-25T10:42:32Z"
+  }
+}
