@@ -1,0 +1,136 @@
+{
+  "checkedAt": "2026-10-25T00:41:52Z",
+  "checkedAtLocal": "2026-10-24T19:41:52-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "e5b4e8f21f1b0863093529781911f0ce573ead84",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "blobShaAfter": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "updatedAt": "2026-10-24T10:20:30Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-24T1858-Texas.json",
+      "blobSha": "00823f94da12e83c8aa24762cc6f178ff794b3ca",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-24T23:59:05Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "f8f56922f742d52ce1b9cf7dc84cac5548aa5c8b",
+      "currentHead": "29a466a0b011724eedec3e7064446a6eada9ae1d",
+      "listingsCommits": [
+        "99fbed87e76a77a3202bba7428622a34473a98be",
+        "812f787c9c4bde31a48a10b504cf973615fa27d2"
+      ],
+      "readmeCommits": [
+        "306f9ee5c74e48961296051ed6a60ccd7aaba8ed",
+        "29a466a0b011724eedec3e7064446a6eada9ae1d"
+      ],
+      "listingsBlobShaBefore": "d24e526909652d149a25cff37a52bca572357a58",
+      "listingsBlobShaAfter": "b1a743b96f7160bf7e4a82dc949a80ef3e5ea1bb",
+      "result": "Two listings commits removed 30 records already marked inactive. No removed record had a Texas location; no new active record or exact monitored-record match was present. This was upstream archival pruning, not a verified new status event."
+    },
+    "reviewedRecords": [],
+    "officialVerification": [],
+    "verificationNote": "No Dallas/Austin/Texas or exact monitored-record candidate emerged from the two upstream diffs, so no official JD escalation was warranted."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 30,
+    "uniqueChangedRecordsReviewed": 30,
+    "inactiveSignalsReviewed": 0,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 30,
+    "noDiffListingsCommitsReviewed": 0,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Already-inactive source records pruned",
+      "count": 30,
+      "result": "no monitor data change",
+      "reason": "All were already inactive, none were in Texas, and none exactly matched monitored records."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "Only upstream archival pruning occurred; no verified new or changed Dallas/Austin candidate."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-24T1941-Texas.json",
+      "status": "pending-write-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-write-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-24T23:59:05Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-24T1941-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-24T23:59:05Z"
+  }
+}
