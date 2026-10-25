@@ -1,0 +1,181 @@
+{
+  "checkedAt": "2026-10-25T14:37:19Z",
+  "checkedAtLocal": "2026-10-25T09:37:19-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "70ab3e5b68f72760a582dd9dc9d5f8c692fbd704",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "blobShaAfter": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "updatedAt": "2026-10-25T08:46:36Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-25T0828-Texas.json",
+      "blobSha": "61569d603b5b9c74465fe113be2bc3fd5f0fa9c1",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-25T13:28:22Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "cc6362eb3f5edd4542c04417079005c482c64748",
+      "currentHead": "f02bb9dbdb68f435250e8c2c3b6d726c98235b56",
+      "repositoryHeadObserved": "f486b43ff529ea13bd8d87dc228df0b69ca3ac6a",
+      "listingsCommits": [
+        "1d7a255231f62d49d23ede95ef229cff56dd5d8c",
+        "339c19d1f8e361bc8661de178547bb24d57e47b7",
+        "f02bb9dbdb68f435250e8c2c3b6d726c98235b56"
+      ],
+      "readmeCommits": [
+        "f486b43ff529ea13bd8d87dc228df0b69ca3ac6a"
+      ],
+      "listingsBlobShaBefore": "1a784e587aa9b895e4cea444c43a43193563d7eb",
+      "listingsBlobShaAfter": "06485d3ef720b22826e1e19b5fdf7b84fc2c09a0",
+      "result": "Two commits exposed no record diff. The final commit reactivated two Goldman Sachs 2027 Engineering New Analyst records, both outside Texas."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Goldman Sachs",
+        "title": "2027 Engineering New Analyst",
+        "jobId": "171569",
+        "recordId": "ebecfe1f-3890-4cf8-8663-d7b118197e24",
+        "event": "inactive-to-active",
+        "location": "New York, NY",
+        "officialUrl": "https://higher.gs.com/roles/171569",
+        "result": "officially open; out-of-scope geography"
+      },
+      {
+        "company": "Goldman Sachs",
+        "title": "2027 Engineering New Analyst",
+        "jobId": "171570",
+        "recordId": "43a5374e-0e70-4dc9-82b0-687b54e8c5da",
+        "event": "inactive-to-active",
+        "location": "Salt Lake City, UT",
+        "officialUrl": "https://higher.gs.com/roles/171570",
+        "result": "officially open; out-of-scope geography"
+      }
+    ],
+    "officialVerification": [
+      {
+        "url": "https://higher.gs.com/roles/171569",
+        "checkedAt": "2026-10-25T14:37:19Z",
+        "result": "Official page shows Apply and New York, NY."
+      },
+      {
+        "url": "https://higher.gs.com/roles/171570",
+        "checkedAt": "2026-10-25T14:37:19Z",
+        "result": "Official page shows Apply and Salt Lake City, UT."
+      },
+      {
+        "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/new-analyst-program",
+        "checkedAt": "2026-10-25T14:37:19Z",
+        "result": "Official program page confirms Summer 2027 start and Dec 2026–Jul 2027 graduation eligibility."
+      }
+    ],
+    "verificationNote": "The only record-level changes were two official-open Goldman Sachs roles outside Texas; Dallas role 171568 was not changed in this interval."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 3,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 2,
+    "uniqueChangedRecordsReviewed": 2,
+    "inactiveSignalsReviewed": 0,
+    "reactivatedRecordsReviewed": 2,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 0,
+    "noDiffListingsCommitsReviewed": 2,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Goldman Sachs out-of-scope reactivations",
+      "count": 2,
+      "result": "no monitor data change",
+      "reason": "Officially open 2027 Engineering New Analyst roles are in New York and Salt Lake City, not Dallas/Austin."
+    },
+    {
+      "category": "No-diff upstream listings commits",
+      "count": 2,
+      "result": "no monitor data change",
+      "reason": "The first two listings commits exposed no patch."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "Only non-Texas Goldman Sachs records reactivated; no tracked Dallas/Austin role changed."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-25T0937-Texas.json",
+      "status": "pending-write-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-write-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-25T13:28:22Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-25T0937-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-25T13:28:22Z"
+  }
+}
