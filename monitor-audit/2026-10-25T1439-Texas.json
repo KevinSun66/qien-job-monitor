@@ -1,0 +1,162 @@
+{
+  "checkedAt": "2026-10-25T19:39:28Z",
+  "checkedAtLocal": "2026-10-25T14:39:28-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "3571d50bca2d90767d9f0b6b1eacfd64b612f273",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "blobShaAfter": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "updatedAt": "2026-10-25T08:46:36Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-25T1324-Texas.json",
+      "blobSha": "03875662741777219edd5f01b34e601a23f02869",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-25T18:24:22Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "25142e365b75a8daa1c46b4442746b45f41c80b1",
+      "currentHead": "e4690b7fedea7d98fb460b11d32f97a32363fb1b",
+      "repositoryHeadObserved": "e4690b7fedea7d98fb460b11d32f97a32363fb1b",
+      "listingsCommits": [
+        "3201a774df7b53d8bc86ae91d10d1fa8ed00f581",
+        "edb463d6c53899640c23ac55f38d487030d70a1a",
+        "e4690b7fedea7d98fb460b11d32f97a32363fb1b"
+      ],
+      "readmeCommits": [
+        "0e33850cfe77c855500e46378fc4a0eab897f6e6"
+      ],
+      "listingsBlobShaBefore": "fd7cf0deb542afc4cd3200231570ccf573321f24",
+      "listingsBlobShaAfter": "0267c58ace6f811fa9aff67d7f44e877d93726ec",
+      "result": "One active-to-inactive event occurred for a Palo Alto, California Tesla role; the two later listings commits made no additional content changes."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Tesla",
+        "title": "Data Analytics Engineer Scientist, Thermal, Chassis",
+        "recordId": "5a57537d-9e34-437b-b912-d582e9641b85",
+        "requisitionId": "262399",
+        "event": "active-to-inactive",
+        "location": "Palo Alto, California",
+        "result": "outside Dallas/Austin scope; not present in jobs.json; no monitor data change"
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Tesla",
+        "requisitionId": "262399",
+        "url": "https://www.tesla.com/careers/search/job/data-analytics-engineer-scientist-thermal-chassis-262399",
+        "checkedAt": "2026-10-25T19:39:28Z",
+        "result": "Official Tesla career page and application flow remained publicly discoverable; location confirmed as Palo Alto, California. Upstream inactive was not treated as confirmed closure."
+      }
+    ],
+    "verificationNote": "The only changed record was outside Texas; official verification confirmed its Palo Alto location and a still-discoverable official page, so it did not affect the Dallas/Austin monitor."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 3,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 1,
+    "uniqueChangedRecordsReviewed": 1,
+    "inactiveSignalsReviewed": 1,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 0,
+    "noDiffListingsCommitsReviewed": 2,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Out-of-scope inactive signal",
+      "count": 1,
+      "result": "no monitor data change",
+      "reason": "Tesla requisition 262399 is located in Palo Alto, California; the official page remained discoverable and the record was not in jobs.json."
+    },
+    {
+      "category": "No-diff upstream listings commits",
+      "count": 2,
+      "result": "no monitor data change",
+      "reason": "The two later commits retained listings blob 0267c58ace6f811fa9aff67d7f44e877d93726ec."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "The only status event was for an out-of-scope Palo Alto role not present in the monitor; no Dallas/Austin candidate or tracked-job status changed."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-25T1439-Texas.json",
+      "status": "pending-write-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-write-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-25T18:24:22Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-25T1439-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-25T18:24:22Z"
+  }
+}
