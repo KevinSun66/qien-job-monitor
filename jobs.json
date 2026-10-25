@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T06:35:50Z",
+  "updatedAt": "2026-10-25T08:46:36Z",
   "jobs": [
     {
       "company": "IBM",
@@ -2482,8 +2482,8 @@
       "firstNotifiedDate": "2026-10-02",
       "officialPostedDate": "2026-09-26 (official page displayed Posted 6 Days Ago on 2026-10-02)",
       "lastChecked": "2026-10-25",
-      "lastCheckedAt": "2026-10-25T06:35:50Z",
-      "officialStatus": "2026-10-25 verification: SimplifyJobs changed this record from active to inactive in commit 5f159297b7def04188652cd453eb6fba883b12b7. The direct BMO Workday URL remained reachable but returned no readable job body, and exact public search found no current requisition result; official closure is not asserted solely from the aggregator.",
+      "lastCheckedAt": "2026-10-25T08:46:36Z",
+      "officialStatus": "2026-10-25 verification: both Simplify duplicate records are now inactive, but BMO's official Campus search still lists R260021450 in Irving as posted 14 days ago. Official closure is therefore not confirmed.",
       "source": "BMO official Workday JD",
       "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Irving-TX-USA/Software-Developer---Early-Career---15_R260021450",
       "status": "experience-rejected",
@@ -2497,7 +2497,7 @@
       "officePerks": "Irving, 300 E John Carpenter Freeway; hybrid cadence not disclosed.",
       "jobId": "R260021450",
       "deadline": "Official page anomalously displays 2026-08-15 despite being marked posted in late September 2026",
-      "sourceStatus": "SimplifyJobs listing id d10d917c-bc5a-4b18-8f26-0bd664956f32 changed active true→false at 2026-10-25T06:01:36Z. Official open/closed status remains under verification."
+      "sourceStatus": "SimplifyJobs External record d10d917c-bc5a-4b18-8f26-0bd664956f32 changed active→inactive in commit 5f159297b7def04188652cd453eb6fba883b12b7; Campus duplicate 021114e1-c556-4de3-ac71-007b3f8adb26 changed active→inactive in commit 890daf44ec236143a3bc88522f1c4ba007193516. Official BMO search remains live."
     },
     {
       "company": "Corebridge Financial",
