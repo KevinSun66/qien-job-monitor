@@ -1,0 +1,215 @@
+{
+  "checkedAt": "2026-10-25T06:35:50Z",
+  "checkedAtLocal": "2026-10-25T01:35:50-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "4cfb4bd3b7d10c027d573ad3a0c3e741300d3c0a",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "blobShaAfter": "3f2736c1f2fbbaf2e15f1c41500c786ebbdb9edc",
+      "updatedAt": "2026-10-25T06:35:50Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": true,
+      "commitShas": [
+        "6a9eee15d090e1a3c1192b7009420b8849f6c78b"
+      ],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-25T0036-Texas.json",
+      "blobSha": "114c634d38397db5ac232250bdc19dd6ac08cad2",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-25T05:36:29Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "283187e248c52d2690bf18b3eafd19e8d35e477e",
+      "currentHead": "51d60c60812091102189595a06df2c57a2b26e7d",
+      "listingsCommits": [
+        "5f159297b7def04188652cd453eb6fba883b12b7",
+        "61593b3b21e7e2173b9f83a232dcc0befad1dd0d"
+      ],
+      "readmeCommits": [
+        "51d60c60812091102189595a06df2c57a2b26e7d"
+      ],
+      "listingsBlobShaBefore": "8475dcd20ebd57d95fc0ff4fcc432fe6f007201d",
+      "listingsBlobShaAfter": "e0f9135d80f6c4f6ad2dcd95cc0e6bd8be548439",
+      "result": "Five active-to-inactive signals: BMO Irving, two non-Texas Northrop roles, and two non-Texas Goldman Sachs roles."
+    },
+    "reviewedRecords": [
+      {
+        "sourceId": "d10d917c-bc5a-4b18-8f26-0bd664956f32",
+        "company": "Bank of Montreal",
+        "title": "Software Developer",
+        "jobId": "R260021450",
+        "location": "Irving, TX",
+        "sourceSignal": "active to inactive",
+        "officialStatus": "direct BMO Workday URL reachable but no readable job body; exact public search returned no current requisition result",
+        "screening": "known monitored record updated to source-status verification; official closure unconfirmed",
+        "reason": "Existing 1–3 year minimum and general SWE/below-Ryan exclusion remain unchanged."
+      },
+      {
+        "sourceId": "b88b4d25-8905-40c6-8911-eeb59632c125",
+        "company": "Northrop Grumman",
+        "title": "Associate / Embedded Software Engineer",
+        "jobId": "R10256217",
+        "location": "Dulles, VA",
+        "sourceSignal": "active to inactive",
+        "screening": "geography/direction excluded; no monitor change",
+        "reason": "Outside Texas and embedded software."
+      },
+      {
+        "sourceId": "e82a869f-bab2-40c3-bc73-9eced81f13c6",
+        "company": "Northrop Grumman",
+        "title": "Associate Pathways Electronics Engineer",
+        "jobId": "R10256777",
+        "location": "Rolling Meadows, IL",
+        "sourceSignal": "active to inactive",
+        "screening": "geography/direction excluded; no monitor change",
+        "reason": "Outside Texas and electronics hardware."
+      },
+      {
+        "sourceId": "43a5374e-0e70-4dc9-82b0-687b54e8c5da",
+        "company": "Goldman Sachs",
+        "title": "Engineering New Analyst - Engineering",
+        "jobId": "171570",
+        "location": "Salt Lake City, UT",
+        "sourceSignal": "active to inactive",
+        "screening": "geography excluded; no monitor change",
+        "reason": "Outside Dallas/Austin."
+      },
+      {
+        "sourceId": "ebecfe1f-3890-4cf8-8663-d7b118197e24",
+        "company": "Goldman Sachs",
+        "title": "New Analyst - Engineering",
+        "jobId": "171569",
+        "location": "New York, NY",
+        "sourceSignal": "active to inactive",
+        "screening": "geography excluded; no monitor change",
+        "reason": "Outside Dallas/Austin."
+      }
+    ],
+    "officialVerification": [
+      {
+        "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Irving-TX-USA/Software-Developer---Early-Career---15_R260021450",
+        "checkedAt": "2026-10-25T06:35:50Z",
+        "result": "Direct dynamic page was reachable but exposed no readable JD body; the BMO external search page was live, while exact public search did not return R260021450. Closure remains unconfirmed."
+      }
+    ],
+    "verificationNote": "Only the existing BMO Irving record intersected the monitor geography; its aggregator status changed, but its prior eligibility and opportunity-cost rejection remains independently valid."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 5,
+    "uniqueChangedRecordsReviewed": 5,
+    "inactiveSignalsReviewed": 5,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 0,
+    "noDiffListingsCommitsReviewed": 0,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 1,
+    "notifications": 1
+  },
+  "screeningResults": [
+    {
+      "category": "BMO Financial Group R260021450 source status",
+      "count": 1,
+      "result": "tracked record updated; official closure unconfirmed",
+      "reason": "Aggregator changed active→inactive. Official dynamic page did not expose readable requisition content; existing 1–3 year minimum and below-Ryan general SWE exclusion are unchanged."
+    },
+    {
+      "category": "Non-Texas Northrop and Goldman status signals",
+      "count": 4,
+      "result": "excluded/no monitor data change",
+      "reason": "Outside Dallas/Austin; Northrop records are also embedded/electronics roles."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "updatedRecords": [
+      {
+        "jobId": "R260021450",
+        "company": "BMO Financial Group",
+        "title": "Software Developer (Early Career) — Junior Software Developer",
+        "fields": [
+          "lastChecked",
+          "lastCheckedAt",
+          "officialStatus",
+          "sourceStatus"
+        ],
+        "statusDecision": "Remain experience-rejected; source status now inactive, official closure unconfirmed."
+      }
+    ],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "A real upstream active→inactive signal affected an existing Irving record and was recorded without declaring official closure."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitShas": [
+        "6a9eee15d090e1a3c1192b7009420b8849f6c78b"
+      ],
+      "blobSha": "3f2736c1f2fbbaf2e15f1c41500c786ebbdb9edc",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-25T0135-Texas.json",
+      "status": "pending-write-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending-write-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-25T05:36:29Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-25T0135-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-25T05:36:29Z"
+  }
+}
