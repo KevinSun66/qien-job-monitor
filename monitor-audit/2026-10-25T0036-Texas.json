@@ -1,0 +1,159 @@
+{
+  "checkedAt": "2026-10-25T05:36:09Z",
+  "checkedAtLocal": "2026-10-25T00:36:09-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "22c402c4692e24cdbc6367bbf1d3f8f3439b7e3a",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "blobShaAfter": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "updatedAt": "2026-10-24T10:20:30Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-24T2334-Texas.json",
+      "blobSha": "6e87d3768b82aa073f60b15d52be04b5b29b4210",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-25T04:35:00Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "51f50ea6cb6a53421b5e597cf0678db0ac047853",
+      "currentHead": "283187e248c52d2690bf18b3eafd19e8d35e477e",
+      "listingsCommits": [
+        "affd69ec77c2630260d8298d882fbc6a03bab837",
+        "283187e248c52d2690bf18b3eafd19e8d35e477e"
+      ],
+      "readmeCommits": [
+        "a8a6818981d3d21f4350749cab7a3c29573c3106"
+      ],
+      "listingsBlobShaBefore": "016d45fdfcecacba6dca9c24b2c725b85faf5a65",
+      "listingsBlobShaAfter": "8475dcd20ebd57d95fc0ff4fcc432fe6f007201d",
+      "result": "One Cleveland Clinic remote Healthcare Reporting Analyst I record changed from active to inactive; the later listings commit exposed no diff."
+    },
+    "reviewedRecords": [
+      {
+        "sourceId": "62139b4b-4989-4dbd-9408-c58649080617",
+        "company": "Cleveland Clinic",
+        "title": "Healthcare Reporting Analyst I",
+        "jobId": "351300",
+        "location": "Remote, restricted to Ohio, Florida, or Nevada residents",
+        "sourceSignal": "active to inactive",
+        "officialStatus": "official page still publicly retrievable",
+        "screening": "geography and role-fit rejected/no monitor change",
+        "reason": "Texas residents are ineligible. Work centers on healthcare finance/reporting, Excel, provider rosters and data quality rather than Applied AI/ML/DS; published pay is below the Ryan baseline."
+      }
+    ],
+    "officialVerification": [
+      {
+        "url": "https://ccf.wd1.myworkdayjobs.com/ClevelandClinicCareers/job/Remote-Location/Healthcare-Reporting-Analyst-I_351300",
+        "checkedAt": "2026-10-25T05:36:09Z",
+        "result": "Official JD is publicly retrievable; it restricts residence to Ohio, Florida or Nevada. Minimum route includes a bachelor's degree without stated full-time experience, but role direction and geography fail the monitor."
+      }
+    ],
+    "verificationNote": "The source status signal was reviewed, but the role is not a Texas-eligible candidate and has no exact monitored-record match."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 1,
+    "uniqueChangedRecordsReviewed": 1,
+    "inactiveSignalsReviewed": 1,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 0,
+    "noDiffListingsCommitsReviewed": 1,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Cleveland Clinic remote reporting analyst status signal",
+      "count": 1,
+      "result": "excluded/no monitor change",
+      "reason": "Texas-ineligible geography, non-Applied-AI role, and below-Ryan opportunity value."
+    },
+    {
+      "category": "No-diff upstream listings commit",
+      "count": 1,
+      "result": "no monitor data change",
+      "reason": "No record-level event was present."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "The only verified status signal was for a Texas-ineligible Cleveland Clinic reporting role with no existing monitor match."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-25T0036-Texas.json",
+      "status": "pending-write-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-write-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-25T04:35:00Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-25T0036-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-25T04:35:00Z"
+  }
+}
