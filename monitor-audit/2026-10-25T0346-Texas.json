@@ -1,0 +1,193 @@
+{
+  "checkedAt": "2026-10-25T08:46:36Z",
+  "checkedAtLocal": "2026-10-25T03:46:36-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "5fda1866fc50f297f2d34bb51ff126cd62908574",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "3f2736c1f2fbbaf2e15f1c41500c786ebbdb9edc",
+      "blobShaAfter": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "updatedAt": "2026-10-25T08:46:36Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": true,
+      "commitShas": [
+        "20f0f9d0cfd593b9a40b79d7c4d794a71eaa6e1e"
+      ],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-25T0210-Texas.json",
+      "blobSha": "ecc5c928c82c37788850b08395a814f1e5a43758",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-25T07:12:18Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "263c6ccb0e899361b9f59939d282f73782f52dde",
+      "currentHead": "373e875eca31e5adf7c5c6d4fe0d7da901670bf3",
+      "listingsCommits": [
+        "356dbcfcdb66f2422912a506eb84e420f6323cc5",
+        "fd28582d67dee92620e197942d5abf122ad5de19",
+        "890daf44ec236143a3bc88522f1c4ba007193516"
+      ],
+      "readmeCommits": [
+        "963ea0c058ccb40f4f441a46109afea9a647cb1d",
+        "373e875eca31e5adf7c5c6d4fe0d7da901670bf3"
+      ],
+      "listingsBlobShaBefore": "2d2a6642055614eed0116aeeda8a44e22a91aa12",
+      "listingsBlobShaAfter": "93a494620150d93657a7d3fb0b12345a95e1ea31",
+      "result": "Seventeen already-inactive stale records were pruned, one listings commit had no record diff, and the BMO Campus duplicate for R260021450 changed active→inactive."
+    },
+    "reviewedRecords": [
+      {
+        "sourceId": "021114e1-c556-4de3-ac71-007b3f8adb26",
+        "company": "Bank of Montreal",
+        "title": "Software Developer",
+        "jobId": "R260021450",
+        "location": "Irving, TX",
+        "sourceSignal": "Campus duplicate active to inactive",
+        "officialStatus": "BMO official Campus search still lists R260021450 in Irving as posted 14 days ago",
+        "screening": "existing record source status reconciled; official listing remains open; exclusion unchanged",
+        "reason": "This is the duplicate URL for the same requisition notified in the prior run. The role still fails the strict 0-year floor because the JD states 1–3 years and is general SWE rather than a clear Ryan upgrade."
+      },
+      {
+        "sourceId": "84815ec7-87e6-4dab-b4b1-a8ce1101643a",
+        "company": "STEM Expert",
+        "title": "Customer Engineer/Field Service Tech-Dallas - TX",
+        "location": "Dallas, TX",
+        "sourceSignal": "already-inactive record pruned from source dataset",
+        "officialStatus": "not rechecked; historical source record was already inactive",
+        "screening": "hardware/field-service excluded; no monitor match or change",
+        "reason": "Hardware field service, unrelated to Applied AI/ML/DS."
+      }
+    ],
+    "officialVerification": [
+      {
+        "url": "https://bmo.wd3.myworkdayjobs.com/Campus",
+        "checkedAt": "2026-10-25T08:46:36Z",
+        "result": "Official BMO Campus search was crawled today and lists Software Developer (Early Career)-15, R260021450, Irving, TX, posted 14 days ago. The official open signal overrides the duplicate aggregator inactive signal for closure decisions."
+      }
+    ],
+    "verificationNote": "The new BMO signal is a duplicate-source change for the same requisition already reviewed one run earlier. It was reconciled without a repeated user notification."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 5,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 18,
+    "uniqueChangedRecordsReviewed": 18,
+    "inactiveSignalsReviewed": 1,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 17,
+    "noDiffListingsCommitsReviewed": 1,
+    "texasRelatedRecordsReviewed": 2,
+    "dallasAustinOrAdjacentRecordsReviewed": 2,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 1,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "BMO R260021450 Campus duplicate status",
+      "count": 1,
+      "result": "tracked record source status reconciled; no eligibility/status conclusion change",
+      "reason": "Aggregator duplicate became inactive, but BMO official Campus search still lists the job as posted. Existing experience and opportunity-cost rejection remains."
+    },
+    {
+      "category": "Pruned stale source records",
+      "count": 17,
+      "result": "no monitor data change",
+      "reason": "All were already inactive. The only Texas record was an old Dallas hardware field-service role with no monitored-record match."
+    },
+    {
+      "category": "No-diff listings commit",
+      "count": 1,
+      "result": "no monitor data change",
+      "reason": "No record-level event was exposed."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "updatedRecords": [
+      {
+        "jobId": "R260021450",
+        "company": "BMO Financial Group",
+        "title": "Software Developer (Early Career) — Junior Software Developer",
+        "fields": [
+          "lastChecked",
+          "lastCheckedAt",
+          "officialStatus",
+          "sourceStatus"
+        ],
+        "statusDecision": "Official listing remains open; duplicate aggregator signals are inactive; experience-rejected decision unchanged."
+      }
+    ],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "The second aggregator duplicate status was reconciled against the live official BMO Campus search. No eligibility or recommendation changed."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitShas": [
+        "20f0f9d0cfd593b9a40b79d7c4d794a71eaa6e1e"
+      ],
+      "blobSha": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-25T0346-Texas.json",
+      "status": "pending-write-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null
+    },
+    "overallStatus": "pending-write-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-25T07:12:18Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-25T0346-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-25T07:12:18Z"
+  }
+}
