@@ -1,0 +1,161 @@
+{
+  "checkedAt": "2026-10-25T04:01:57Z",
+  "checkedAtLocal": "2026-10-24T23:01:57-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "84523abfb3b927546484b0110314b9ea15455902",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "blobShaAfter": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "updatedAt": "2026-10-24T10:20:30Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-24T2134-Texas.json",
+      "blobSha": "4d92dd4ec45cfa370ba413518a065cd8d374fab4",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-25T02:34:24Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "a9bec3680c4f4dcbda295d7ff1ed5d8cc1ad83b9",
+      "currentHead": "53090908169de4fc596b65502e5eaec8a2c5d896",
+      "listingsCommits": [
+        "dbfacbb81a329bdd980a32d9a9090f4851764998",
+        "f659115069d7f8d267df87ec85673cfb149fa735",
+        "53090908169de4fc596b65502e5eaec8a2c5d896"
+      ],
+      "readmeCommits": [],
+      "listingsBlobShaBefore": "0c2d52bf03fd9dab05576eb48543a427356bb44c",
+      "listingsBlobShaAfter": "016d45fdfcecacba6dca9c24b2c725b85faf5a65",
+      "result": "One commit removed two records already marked inactive; both were New York Tower Research roles. Two later listings commits exposed no diff."
+    },
+    "reviewedRecords": [
+      {
+        "sourceId": "abe09edc-f848-4592-9a3e-17672d62e78e",
+        "company": "Tower Research Capital",
+        "title": "Senior Data Analyst",
+        "location": "New York City",
+        "sourceSignal": "already inactive record removed",
+        "officialStatus": "not escalated",
+        "screening": "geography and seniority rejected/no monitor change",
+        "reason": "Outside Dallas/Austin and explicitly senior; record was already inactive."
+      },
+      {
+        "sourceId": "76338ee1-134d-41bc-9983-f330ff6061f7",
+        "company": "Tower Research Capital",
+        "title": "Quantitative Researcher",
+        "location": "New York City",
+        "sourceSignal": "already inactive record removed",
+        "officialStatus": "not escalated",
+        "screening": "geography rejected/no monitor change",
+        "reason": "Outside Dallas/Austin; record was already inactive."
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "No Texas or exact monitored-record candidate emerged, so no official JD escalation was warranted."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 2,
+    "uniqueChangedRecordsReviewed": 2,
+    "inactiveSignalsReviewed": 0,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 2,
+    "noDiffListingsCommitsReviewed": 2,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Already-inactive New York records pruned",
+      "count": 2,
+      "result": "no monitor data change",
+      "reason": "Both were outside Texas and already inactive."
+    },
+    {
+      "category": "No-diff upstream listings commits",
+      "count": 2,
+      "result": "no monitor data change",
+      "reason": "No record-level event was present."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "Only two already-inactive New York records were pruned; no Dallas/Austin change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "cc5c7c7269810c81635557f72f712653ebbb1b0e",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-24T2301-Texas.json",
+      "status": "pending-write-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "The file cannot self-record the SHA of the commit that contains that SHA; final repository head and blob will be verified after finalization."
+    },
+    "overallStatus": "pending-write-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-25T02:34:24Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-24T2301-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-25T02:34:24Z"
+  }
+}
