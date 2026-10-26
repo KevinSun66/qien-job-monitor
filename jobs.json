@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T08:46:36Z",
+  "updatedAt": "2026-10-26T07:11:26Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8594,6 +8594,46 @@
         "duplicate-requisition",
         "no-applied-ai-ml-ds-core",
         "no-ryan-upgrade"
+      ]
+    },
+    {
+      "company": "Evolent",
+      "tier": "B",
+      "area": "Remote US",
+      "market": "Remote US / Texas eligibility unconfirmed",
+      "title": "Associate Software Engineer (JR-916896)",
+      "employment": "Full-time · Work at Home · Entry level",
+      "gradYear": "No explicit graduation window; May 2027+ start compatibility not stated",
+      "match": "Moderate · AI-assisted software engineering, data platform and ML/GenAI exposure",
+      "ngCompatibility": "Not a Campus/New Grad program; exact experience floor and 2027 start timing are not stated in the official indexed text",
+      "assessment": "The official Evolent Workday page was open and indexed on 2026-10-26 as a full-time Work at Home Associate Software Engineer role. Publicly indexed job text describes software design, development, testing, debugging and maintenance, with AI-assisted engineering, governed data platforms, and support for machine-learning and generative-AI workloads. It is not an explicit 2027 campus requisition, and the official indexed text did not disclose an exact minimum-experience floor, May-2027-or-later start window, Texas-specific remote eligibility, or role-level work-authorization terms. Even with AI/ML exposure, Evolent's brand/platform and the general associate-SWE track do not present a clear combined upgrade over Qien's signed Ryan Associate Data Scientist return offer and her production multi-agent ownership. Archived as an opportunity-cost rejection to prevent repeat recommendations.",
+      "visa": "Official indexed JD text did not disclose F-1 OPT/STEM OPT or sponsorship rules; not resolved because the role already fails the Ryan-upgrade threshold.",
+      "found": "2026-10-26",
+      "url": "https://evolent.wd1.myworkdayjobs.com/external/job/work-at-home/associate-software-engineer_jr-916896",
+      "status": "opportunity-cost-rejected",
+      "finalPriority": "Do not recommend · no clear overall upgrade over Ryan",
+      "roleTrack": "AI-assisted Software Engineering / Governed Data Platforms / ML-GenAI workload support",
+      "technicalGrowth": "78/100",
+      "brandPlatform": "70/100",
+      "ryanUpgrade": "Not a clear upgrade",
+      "compensation": "The current official indexed posting did not expose a role-specific salary. An older Evolent Associate Software Engineer posting showed $65,000–$70,000, but that historical range was not reused as current compensation.",
+      "officePerks": "Remote-first / Work at Home; Texas-specific eligibility not stated in the indexed JD.",
+      "jobId": "JR-916896",
+      "lastChecked": "2026-10-26",
+      "lastCheckedAt": "2026-10-26T07:11:26Z",
+      "officialStatus": "Open and indexed on Evolent Workday on 2026-10-26; official page showed Apply, Work at Home, Full time.",
+      "verificationFlags": [
+        "experience-verification",
+        "start-date-verification",
+        "texas-remote-verification",
+        "visa-verification",
+        "compensation-verification"
+      ],
+      "upstreamRecordId": "7fb4df11-724b-4388-80ba-7b185189f957",
+      "upstreamDiscoveredCommit": "3694fa372566f78a9326fd3de470c6a3945b373a",
+      "sourceEvidence": [
+        "Evolent official Workday page indexed as open, Work at Home, Full time, JR-916896.",
+        "Publicly indexed current mirror describes AI-assisted engineering, governed data platforms, and ML/GenAI workload support."
       ]
     }
   ],
