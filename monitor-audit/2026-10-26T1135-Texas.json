@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-26T16:35:36Z",
+  "checkedAtLocal": "2026-10-26T11:35:36-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "1500db63bd9653333348c9acc3a98803dde83d6b",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "0dab20dfab4d658f226687b8ef419e42141c71fe",
+      "count": 237,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-26T15:22:28Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T1022-Texas.json",
+      "blobSha": "4c21c4b7a2f700ee4138c357a203728f9fc45f0a",
+      "lastSuccessfulWriteAt": "2026-10-26T15:23:10Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "99f9b043d939a99d802485473f0532099f7df391",
+    "currentListingsCommit": "41b3e8d5957fb8eddae027845610ff2d61454769",
+    "repositoryHeadObserved": "174d235c88b50650be25c2530530435420e52170",
+    "listingsCommitsReviewed": [
+      "9542180a76c25a2c6d41130fcbe078f58870b275",
+      "e589dba2d2d6c4aa0086ba412eef5682adbab7cb",
+      "41b3e8d5957fb8eddae027845610ff2d61454769"
+    ],
+    "readmeCommitsReviewed": [
+      "174d235c88b50650be25c2530530435420e52170"
+    ],
+    "listingsBlobBefore": "d6b9aec74c5588794a983edb80eb6097064213bb",
+    "listingsBlobAfter": "5f588b6084f7ddd1746c7aaba3c412c834c75750",
+    "noOpListingsCommit": "e589dba2d2d6c4aa0086ba412eef5682adbab7cb produced no listings blob change"
+  },
+  "reviewedRecordEvents": [
+    {
+      "commit": "9542180a76c25a2c6d41130fcbe078f58870b275",
+      "events": 7,
+      "change": "seven already-inactive Sainsbury's Trading Assistant records removed",
+      "decision": "excluded UK retail source cleanup"
+    },
+    {
+      "commit": "e589dba2d2d6c4aa0086ba412eef5682adbab7cb",
+      "events": 0,
+      "change": "no listings blob change",
+      "decision": "no action"
+    },
+    {
+      "commit": "41b3e8d5957fb8eddae027845610ff2d61454769",
+      "events": 8,
+      "statusChanges": [
+        "Citadel Securities Quantitative Trader New Grad active->inactive (Europe)",
+        "Deloitte Cyber Software Engineering Analyst 362393 active->inactive",
+        "Deloitte AI & Data Engineering Analyst Winter 2027 365230 active->inactive (Austin among locations; requires graduation by Fall 2026, incompatible with Qien May 2027)",
+        "Mastercard Software Engineer I R-291661 active->inactive (O'Fallon, MO)",
+        "Mastercard Software Engineer I R-292618 active->inactive (O'Fallon, MO)",
+        "Deloitte Business Analytics Analyst 358043 active->inactive (Austin; tracked)",
+        "Applied Underwriters AI Engineer - Data Science active->inactive (outside target market)",
+        "Oracle Electrical Engineer I active->inactive (hardware)"
+      ]
+    }
+  ],
+  "trackedStatusChange": {
+    "company": "Deloitte",
+    "title": "Consultative Offerings – Government & Public Services – Analyst – Business Analytics",
+    "jobId": "358043",
+    "location": "Austin, TX",
+    "upstreamChange": "active -> inactive",
+    "officialVerification": "Official Deloitte page remained indexed and retrievable on 2026-10-26; passed 2026-10-25 deadline and source inactive signal require closure verification.",
+    "action": "sourceStatus set inactive; status-verification added; visa-verification and all eligibility/application fields preserved.",
+    "officialUrl": "https://apply.deloitte.com/en_US/careers/JobDetail/Consultative-Offerings-Government-Public-Services-Analyst-Business-Analytics/358043"
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 3,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 15,
+    "sourceRemovalEventsReviewed": 7,
+    "statusChangeEventsReviewed": 8,
+    "texasCandidates": 2,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "trackedStatusChanges": 1,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No new qualifying role. Deloitte 365230 was Austin-based but required graduation by Fall 2026; Deloitte 358043 was already tracked and received only a verified source-status conflict update.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": 0
+  },
+  "dataChanges": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [
+      "jobs.json"
+    ],
+    "jobDataCommit": "f2ccb522340ec69413b770df40e25fc8f8fc62ca",
+    "jobsBlobAfter": "f280f3f94c8852ade6999a29d6751f4d79950c32",
+    "reason": "Verified aggregation source status change for tracked Deloitte 358043; official closure not confirmed, so status-verification was added without changing the existing visa-verification decision."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "paths": [
+        "jobs.json"
+      ],
+      "commit": "f2ccb522340ec69413b770df40e25fc8f8fc62ca",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending-verification",
+      "path": "monitor-audit/2026-10-26T1135-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T1135-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-26T15:23:10Z",
+    "lastSuccessfulWriteAt": "2026-10-26T15:23:10Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "Only an already-tracked pending role changed aggregation status; no newly qualifying or materially better role and no technical failure threshold."
+  }
+}
