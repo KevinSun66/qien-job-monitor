@@ -2287,9 +2287,9 @@
       "firstSeen": "2026-10-02",
       "firstNotifiedDate": "2026-10-02",
       "officialPostedDate": "2026-09-20",
-      "lastChecked": "2026-10-02",
-      "lastCheckedAt": "2026-10-02T21:14:21Z",
-      "officialStatus": "Toyota Workday requisition remains indexed; official detail page was not fully readable in the fetch tool",
+      "lastChecked": "2026-10-26",
+      "lastCheckedAt": "2026-10-26T22:37:38Z",
+      "officialStatus": "SimplifyJobs changed the record from inactive to active in commit 024ff453deeda86086baab404db3c22789e1ebe8. On 2026-10-26 the exact Toyota requisition was not returned by public search, so official reopening is not independently confirmed. The existing explicit F-1 OPT/STEM OPT exclusion remains unchanged.",
       "source": "Toyota official Workday requisition plus complete mirrored JD; authorization language cross-checked against Toyota's identical Early Career Professional posting",
       "url": "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Software-Engineer--Early-Career-Professional-_10325071",
       "status": "visa-rejected",
@@ -2301,7 +2301,14 @@
       "ryanUpgrade": "Not actionable; visa hard fail and role is not a clear Applied AI/ML upgrade",
       "compensation": "Not reliably verified.",
       "officePerks": "Plano; exact hybrid cadence not verified.",
-      "jobId": "10325071"
+      "jobId": "10325071",
+      "previousSourceStatus": "inactive",
+      "sourceStatus": "active",
+      "sourceStatusChangedAt": "2026-10-26T22:37:38Z",
+      "sourceStatusCommit": "024ff453deeda86086baab404db3c22789e1ebe8",
+      "verificationFlags": [
+        "status-verification"
+      ]
     },
     {
       "company": "MAP / WPP Enterprise Solutions",
@@ -6789,20 +6796,26 @@
       "compensation": "官方底薪 $57,200–$108,800；与Ryan区间重叠，且身份不兼容。",
       "officePerks": "McKinney · Onsite · Relocation eligible",
       "deadline": "官方预计发布后约40天关闭，但可能提前或延长。",
-      "lastChecked": "2026-10-08",
-      "lastCheckedAt": "2026-10-08T16:22:10Z",
+      "lastChecked": "2026-10-26",
+      "lastCheckedAt": "2026-10-26T22:37:38Z",
       "officialPostedDate": "2026-10-08",
-      "officialStatus": "2026-10-08 RTX官方Workday显示Apply / Posted Today。",
+      "officialStatus": "SimplifyJobs changed the record from inactive to active in commit 024ff453deeda86086baab404db3c22789e1ebe8. On 2026-10-26 the exact RTX requisition was not returned by public search, so official reopening is not independently confirmed. The existing U.S.-citizenship/Secret-clearance and embedded-direction exclusions remain unchanged.",
       "officialLocations": [
         "US-TX-MCKINNEY-513PW · 2501 W University Dr · PW BLDG"
       ],
       "locationListComplete": true,
       "source": "RTX官方Workday完整JD；SimplifyJobs/New-Grad-Positions增量发现",
-      "verificationFlags": [],
+      "verificationFlags": [
+        "status-verification"
+      ],
       "rejectionReason": "citizenship-direction-rejected：官方明确要求美国公民及DoD Secret安全许可，F-1 OPT不兼容；职责为实时嵌入式国防传感器/RF软件，非Applied AI/ML/DS。",
       "jobId": "01881234",
       "title": "Embedded Software Engineer I — Onsite (01881234)",
-      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513PW--2501-W-University-Dr--PW-BLDG/Embedded-Software-Engineer-I--Onsite-_01881234"
+      "url": "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-MCKINNEY-513PW--2501-W-University-Dr--PW-BLDG/Embedded-Software-Engineer-I--Onsite-_01881234",
+      "previousSourceStatus": "inactive",
+      "sourceStatus": "active",
+      "sourceStatusChangedAt": "2026-10-26T22:37:38Z",
+      "sourceStatusCommit": "024ff453deeda86086baab404db3c22789e1ebe8"
     },
     {
       "company": "L3Harris Technologies",
