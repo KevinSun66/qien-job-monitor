@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T18:11:01Z",
+  "updatedAt": "2026-10-26T22:37:38Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6501,12 +6501,18 @@
       "officePerks": "Plano onsite；up to 25% travel",
       "jobId": "01876984",
       "deadline": "预计发布后约40天（可调整）",
-      "lastChecked": "2026-10-07",
-      "lastCheckedAt": "2026-10-07T23:22:48Z",
-      "officialStatus": "RTX官方Workday active，Posted 2026-10-07并显示Apply。",
-      "verificationFlags": [],
+      "lastChecked": "2026-10-26",
+      "lastCheckedAt": "2026-10-26T22:37:38Z",
+      "officialStatus": "SimplifyJobs changed this record from active to inactive in commit 5bc5e6156576e7cb48b417728e45b8e1152bf039. At 2026-10-26T22:37:38Z the RTX Workday dynamic page could not be read and exact public search returned no result, so closure is not independently confirmed.",
+      "verificationFlags": [
+        "status-verification"
+      ],
       "discoverySource": "SimplifyJobs listings commit 29571db；RTX官方Workday",
-      "rejectionReason": "Explicit U.S. citizenship and Top Secret clearance requirement; role is RF/electrical production support rather than Applied AI/ML/DS."
+      "rejectionReason": "Explicit U.S. citizenship and Top Secret clearance requirement; role is RF/electrical production support rather than Applied AI/ML/DS.",
+      "previousSourceStatus": "active",
+      "sourceStatus": "inactive",
+      "sourceStatusChangedAt": "2026-10-26T22:37:38Z",
+      "sourceStatusCommit": "5bc5e6156576e7cb48b417728e45b8e1152bf039"
     },
     {
       "company": "L3Harris Technologies",
@@ -8691,6 +8697,62 @@
       "sourceStatusCommit": "fa91abc5dda8f22dd08d028a3aa1a040c9d18e9f",
       "upstreamRecordId": "685e432a-5583-46a1-a7ac-d9819bab8f8d",
       "discoverySource": "SimplifyJobs status delta plus Apple official Careers verification"
+    },
+    {
+      "company": "T-Mobile",
+      "tier": "A",
+      "area": "Frisco, TX",
+      "market": "DFW",
+      "title": "Associate Software Engineer – Billing Platform (REQ375195)",
+      "employment": "Full-time · Associate Software Engineer · Onsite",
+      "gradYear": "No graduation window; less than 2 years technical engineering experience preferred",
+      "match": "Moderate software fit; not Applied AI/ML/Data Science",
+      "ngCompatibility": "Experience gate passes because the stated preference is less than 2 years; post-May-2027 start is not stated",
+      "assessment": "T-Mobile's official page was open on 2026-10-26 and lists Frisco among three locations. The role develops and tests scalable software components for a billing platform using virtualization, microservices, SDN/NFV and big-data platforms, under close supervision. It is a generic enterprise/billing software-engineering role rather than Applied AI/ML/Data Science. The national base range is $66,900–$120,600 and total target cash is $73,590–$132,660. Despite the acceptable experience ceiling and potentially higher top-end compensation, the role direction, unspecified post-May-2027 start and unresolved OPT/STEM OPT terms do not establish a clear combined upgrade over Ryan.",
+      "visa": "Official JD says legally authorized to work in the United States; role-level F-1 OPT/STEM OPT, E-Verify/I-983 and future sponsorship terms are not disclosed.",
+      "found": "2026-10-26",
+      "discoveredDate": "2026-10-26",
+      "discoveredAt": "2026-10-26T22:37:38Z",
+      "firstSeen": "2026-10-26",
+      "lastChecked": "2026-10-26",
+      "lastCheckedAt": "2026-10-26T22:37:38Z",
+      "url": "https://careers.t-mobile.com/associate-software-engineer-billing-platform/job/EAE17AC6C71760025ED2BFB9064E908A",
+      "officialSource": "https://careers.t-mobile.com/associate-software-engineer-billing-platform/job/EAE17AC6C71760025ED2BFB9064E908A",
+      "status": "direction-opportunity-cost-rejected",
+      "finalPriority": "不投 · 通用计费平台SWE，相对Ryan没有明确Applied AI/ML/DS综合升级",
+      "roleTrack": "Enterprise Software Engineering / Billing Platform / Microservices",
+      "technicalGrowth": "78/100 for Qien's Applied AI/ML/DS path",
+      "brandPlatform": "88/100",
+      "ryanUpgrade": "No clear combined upgrade: stronger telecom platform and higher upper compensation bound, but non-AI/ML billing work, unknown 2027 start and unresolved OPT terms.",
+      "compensation": "$66,900–$120,600 national base; $73,590–$132,660 total target cash opportunity (official)",
+      "officePerks": "Frisco onsite; annual bonus eligibility, stock grants, ESPP, 401(k), health coverage, PTO and paid holidays",
+      "jobId": "REQ375195",
+      "sourceListingId": "dffcfc23-8cbd-490a-8145-fcefb06961ad",
+      "source": "T-Mobile official careers JD; SimplifyJobs/New-Grad-Positions commit 024ff453deeda86086baab404db3c22789e1ebe8",
+      "officialStatus": "Official T-Mobile careers page displayed Apply and the full JD on 2026-10-26.",
+      "officialLocations": [
+        "Frisco, TX",
+        "Atlanta, GA",
+        "Overland Park, KS"
+      ],
+      "locationListComplete": true,
+      "minimumExperience": "Less than 2 years technical engineering experience preferred.",
+      "verificationFlags": [
+        "start-date-verification",
+        "visa-verification"
+      ],
+      "upstreamAddedCommit": "024ff453deeda86086baab404db3c22789e1ebe8",
+      "rejectionReasons": [
+        "direction-rejected",
+        "no-clear-ryan-upgrade",
+        "start-date-unverified",
+        "visa-unverified"
+      ],
+      "rejectionReason": "The role is generic billing-platform software engineering rather than Applied AI/ML/Data Science, and the combined opportunity does not clearly beat Ryan.",
+      "archiveUrl": "job-archive/t-mobile/REQ375195/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-10-26T22:37:38Z",
+      "applicationStatus": "not-applied"
     }
   ],
   "monitorAudit": [
