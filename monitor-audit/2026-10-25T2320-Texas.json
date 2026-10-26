@@ -1,0 +1,136 @@
+{
+  "checkedAt": "2026-10-26T04:20:34Z",
+  "checkedAtLocal": "2026-10-25T23:20:34-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "cc1df0c705f14e71231349ddf623a69625ecd46a",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "blobShaAfter": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "updatedAt": "2026-10-25T08:46:36Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-25T2231-Texas.json",
+      "blobSha": "411cb7e516fcb3220e140550f027c897e365a0e8",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-26T03:31:47Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "ac273ae27bb0e321e171d11853e3d2ef132cea2a",
+      "currentHead": "851103662a4795687e020326fd14062bc6b9efd3",
+      "repositoryHeadObserved": "851103662a4795687e020326fd14062bc6b9efd3",
+      "listingsCommits": [
+        "065570f3987ce62c29688e26db2bd24e33090c3b",
+        "851103662a4795687e020326fd14062bc6b9efd3"
+      ],
+      "readmeCommits": [],
+      "listingsBlobShaBefore": "7cb8ef05a93433623b9f91f044675eaa69cf5aa1",
+      "listingsBlobShaAfter": "7cb8ef05a93433623b9f91f044675eaa69cf5aa1",
+      "result": "Both upstream listings commits had no effective diff; the listings blob was unchanged."
+    },
+    "reviewedRecords": [],
+    "officialVerification": [],
+    "verificationNote": "No new record or status signal was produced, so no official JD required re-verification in this run."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 2,
+    "readmeCommitsReviewed": 0,
+    "changedRecordEventsReviewed": 0,
+    "uniqueChangedRecordsReviewed": 0,
+    "inactiveSignalsReviewed": 0,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 0,
+    "transientQueueRecordsRemoved": 0,
+    "noDiffListingsCommitsReviewed": 2,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "No actionable candidate or verified tracked-job change",
+      "count": 0,
+      "result": "no monitor data change",
+      "reason": "Both upstream listings commits were no-op updates."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified new candidate or tracked-job status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-25T2320-Texas.json",
+      "status": "pending-write-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "Will be finalized only after successful GitHub write and readback."
+    },
+    "overallStatus": "pending-write-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-26T03:31:47Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-25T2320-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-26T03:31:47Z"
+  }
+}
