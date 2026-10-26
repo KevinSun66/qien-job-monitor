@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T15:22:28Z",
+  "updatedAt": "2026-10-26T16:35:36Z",
   "jobs": [
     {
       "company": "IBM",
@@ -6351,14 +6351,19 @@
       "officePerks": "Austin；需居住在office约100 miles内；平均约50% travel",
       "jobId": "358043",
       "deadline": "2026-10-25",
-      "lastChecked": "2026-10-07",
-      "lastCheckedAt": "2026-10-07T23:22:48Z",
-      "officialStatus": "Deloitte官方页面active，显示Apply now；Austin在六个地点列表中。",
+      "lastChecked": "2026-10-26",
+      "lastCheckedAt": "2026-10-26T16:35:36Z",
+      "officialStatus": "official Deloitte page remained indexed and retrievable on 2026-10-26; aggregation inactive signal and passed 2026-10-25 deadline require closure verification",
       "verificationFlags": [
-        "visa-verification"
+        "visa-verification",
+        "status-verification"
       ],
       "discoverySource": "SimplifyJobs listings commit 29571db；Deloitte官方Careers",
-      "rejectionReason": null
+      "rejectionReason": null,
+      "previousSourceStatus": "active",
+      "sourceStatus": "inactive",
+      "sourceStatusChangedAt": "2026-10-26T16:35:36Z",
+      "sourceStatusCommit": "41b3e8d5957fb8eddae027845610ff2d61454769"
     },
     {
       "company": "Charles Schwab",
