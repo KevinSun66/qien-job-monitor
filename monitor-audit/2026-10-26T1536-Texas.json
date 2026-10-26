@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-26T20:36:58Z",
+  "checkedAtLocal": "2026-10-26T15:36:58-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "b626de868545f3ff496ba5ec8a8608adf041d115",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "9df2df18092e9dc59ee1f6d6c1b3b4849f544bc6",
+      "count": 238,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-26T18:11:01Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T1410-Texas.json",
+      "blobSha": "0ad77d836edccca0272c9a9b67c06640a0084ed0",
+      "lastSuccessfulWriteAt": "2026-10-26T19:10:28Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "92358c5c60cd7d6e2c9d6654565994e052be908c",
+    "currentListingsCommit": "70a6d1a85bbdacda9d1b022ae336a560f7c6644a",
+    "repositoryHeadObserved": "70a6d1a85bbdacda9d1b022ae336a560f7c6644a",
+    "listingsCommitsReviewed": [
+      "9eb7ccfa3d946880362bfff22bb7f140ac63db6b",
+      "efff93b6c92d612af81e8633e08cc416e6020b4a",
+      "70a6d1a85bbdacda9d1b022ae336a560f7c6644a"
+    ],
+    "readmeCommitsReviewed": [],
+    "listingsBlobBefore": "6f366fa2a048b0087ac0ce063ad4fb371450ba43",
+    "listingsBlobAfter": "b1d68b8986b1ce48f87ea6fe480260436373699a",
+    "verification": "The first two listings commits were no-op. Commit 70a6d1a changed exactly three records from active to inactive: Hive Associate Product Manager - Hive Models, TMEIC Associate Software Developer - AI, and DaVita Analyst, Business (ROPS)."
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 3,
+    "readmeCommitsReviewed": 0,
+    "changedRecordEventsReviewed": 3,
+    "newRecordEventsReviewed": 0,
+    "statusChangeEventsReviewed": 3,
+    "texasOrRemoteCandidates": 1,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "newExcludedRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "Three upstream active-to-inactive signals were reviewed. Hive is San Francisco onsite; TMEIC is Houston onsite and outside the Dallas/Austin or Texas-remote geography; DaVita is Texas Remote but its official Workday page remained open. DaVita's Revenue Operations business-analysis work, $57,784–$85,000 range, and minimum-two-years wording (despite a recent-graduate classroom-project exception) do not provide a clear Applied AI/ML/DS or compensation upgrade over Ryan. No tracked record required a verified change.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": [],
+    "existingRecordsChanged": [],
+    "reviewedSignals": [
+      {
+        "company": "Hive",
+        "title": "Associate Product Manager - Hive Models",
+        "upstreamRecordId": "0fe4182e-1625-487d-b3bc-8e3ab4326e64",
+        "sourceChange": "active to inactive",
+        "decision": "outside-geography",
+        "evidence": "Official Lever page remained open and showed San Francisco onsite."
+      },
+      {
+        "company": "TMEIC Corporation Americas",
+        "title": "Associate Software Developer - AI (EE26117)",
+        "upstreamRecordId": "23c01852-0f91-4386-9039-e28c1e73fbd7",
+        "sourceChange": "active to inactive",
+        "decision": "outside-geography; additionally work-authorization and direction conflicts",
+        "evidence": "Official Workable listing remained discoverable in Houston onsite; current JD states US work-authorization sponsorship is unavailable and focuses on industrial automation, adaptive control, commissioning and industrial protocols."
+      },
+      {
+        "company": "DaVita",
+        "title": "Analyst, Business (ROPS) (R0465123)",
+        "upstreamRecordId": "1e900190-9dcf-4510-9c13-a90a3ceafef7",
+        "sourceChange": "active to inactive",
+        "decision": "official-open; no clear Ryan upgrade; do not add or notify",
+        "evidence": "Official Workday page remained open for Texas Remote. The role is Revenue Operations business/process analysis, salary $57,784–$85,000, with a two-year minimum that allows recent graduates with classroom-project experience."
+      }
+    ]
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [],
+    "reason": "No verified qualifying new role and no verified status change to an existing tracked job. Aggregator inactive signals were not treated as closures when official pages remained open."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted",
+      "reason": "No job-data change was warranted."
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-26T1536-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T1536-Texas.json finalization"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-26T19:10:28Z",
+    "lastSuccessfulWriteAt": "2026-10-26T19:10:28Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying or actionable higher-value role, no verified tracked-job change, and no write-failure threshold."
+  }
+}
