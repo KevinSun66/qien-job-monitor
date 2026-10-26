@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-26T14:22:06Z",
+  "checkedAtLocal": "2026-10-26T09:22:06-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "b862e39427d707311bb9840ac2c535dc7b5a4c17",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "b734110979ca75569b9da449b4a572c2432dbbf0",
+      "count": 237,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-26T07:11:26Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T0834-Texas.json",
+      "blobSha": "074ca94adf131e0846af9793b95285f0e3b01f13",
+      "lastSuccessfulWriteAt": "2026-10-26T13:35:22Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "833e8053467793ef3d28b3673f8d400945f551da",
+    "currentListingsCommit": "78b8b882d920c7a53a146b006736920fde9d09f8",
+    "repositoryHeadObserved": "4a3fb4c25c278df992e34308239f97a38f835b85",
+    "listingsCommitsReviewed": [
+      "78b8b882d920c7a53a146b006736920fde9d09f8"
+    ],
+    "readmeCommitsReviewed": [
+      "4a3fb4c25c278df992e34308239f97a38f835b85"
+    ],
+    "listingsBlobBefore": "72acc5d83569a442f7233ceb73310bc4ee517fd3",
+    "listingsBlobAfter": "883bb712c1124008d08055f83fc3ac2dcacd1b02"
+  },
+  "reviewedRecords": [
+    {
+      "id": "ba98aa13-f065-472a-8929-4c44bb58f747",
+      "company": "Northrop Grumman",
+      "title": "Principal Software Engineer - Software Integration & Test Automation",
+      "location": "San Diego, CA",
+      "upstreamChange": "inactive record removed from source dataset",
+      "decision": "excluded-out-of-market-senior-source-cleanup"
+    },
+    {
+      "id": "16632bc0-caa8-4a0a-99af-2268a738cbda",
+      "company": "Northrop Grumman",
+      "title": "Energetics MFG Engineer / Principal Energetics MFG Engineer",
+      "location": "Salt Lake City, UT",
+      "upstreamChange": "inactive record removed from source dataset",
+      "decision": "excluded-out-of-market-hardware-senior-source-cleanup"
+    },
+    {
+      "id": "eca8ea10-de85-4351-8b0b-063c1196b4da",
+      "company": "CCC Intelligent Solutions",
+      "title": "Financial Intelligence Analyst",
+      "location": "Chicago, IL",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market-and-direction"
+    },
+    {
+      "id": "c983d97d-884a-45c6-b32b-9e1fbc3c4f50",
+      "company": "Leidos",
+      "title": "Entry-Level Electrical Hardware Design Engineer",
+      "location": "Huntsville, AL",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market-and-hardware"
+    },
+    {
+      "id": "c7e27fa1-2768-4384-b053-db1c2b5fb36f",
+      "company": "JD.com",
+      "title": "Software Development New Grad",
+      "location": "London, UK",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market-and-direction"
+    },
+    {
+      "id": "de6d9257-4392-4f79-ae24-69394af73162",
+      "company": "NRG Energy",
+      "title": "Data Science Analyst - Agentic AI Developer",
+      "location": "Houston, TX",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-outside-Dallas-Austin-and-no-verified-eligible-remote; not present in tracked jobs"
+    },
+    {
+      "id": "ee3a8d08-0634-4977-978a-3073541eb055",
+      "company": "Applied Underwriters",
+      "title": "AI Engineer - Application Development",
+      "location": "Outside target market",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-outside-Dallas-Austin-and-no-verified-eligible-remote; not present in tracked jobs"
+    },
+    {
+      "id": "ec3e9690-f766-4512-af30-a7ff06ba310d",
+      "company": "Meijer",
+      "title": "Software Engineer I, AI",
+      "location": "Grand Rapids, MI",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market; not present in tracked jobs"
+    }
+  ],
+  "counts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 8,
+    "inactiveSignalsReviewed": 6,
+    "sourceRemovalEventsReviewed": 2,
+    "texasCandidates": 1,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No changed record met the Dallas/Austin or verified eligible-remote gate. The only Texas signal was a Houston-only NRG role; all changed roles were untracked and outside scope.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedCount": 8
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "reason": "No verified new qualifying role or tracked status change; all upstream events were out of market, out of direction, hardware, senior, or source cleanup."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "paths": [
+        "jobs.json",
+        "index.html",
+        "austin.html"
+      ]
+    },
+    "audit": {
+      "status": "pending-verification",
+      "path": "monitor-audit/2026-10-26T0922-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T0922-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-26T13:35:22Z",
+    "lastSuccessfulWriteAt": "2026-10-26T13:35:22Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying or materially better role and no technical failure threshold."
+  }
+}
