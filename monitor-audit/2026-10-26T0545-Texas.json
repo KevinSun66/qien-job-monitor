@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-26T10:45:49Z",
+  "checkedAtLocal": "2026-10-26T05:45:49-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "19f5484332783b881367fbcdc03cc697dc70e7fa",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "b734110979ca75569b9da449b4a572c2432dbbf0",
+      "count": 237,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-26T07:11:26Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T0445-Texas.json",
+      "blobSha": "40ae6132fe9e0a5a86e9c268cf393058f0a97c21",
+      "lastSuccessfulWriteAt": "2026-10-26T09:46:19Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "2753f89dd7e43ed8c247d69e29d160ad65fca2dd",
+    "currentListingsCommit": "c61324709f28e8b826ac1a8e81b69a43e7eaa688",
+    "repositoryHeadObserved": "1c3dc3575ab903ef21be2f7ae2b2fc22d4eea865",
+    "listingsCommitsReviewed": [
+      "d43914801d56068da39c4d0a027eee826a409b06",
+      "c61324709f28e8b826ac1a8e81b69a43e7eaa688"
+    ],
+    "readmeCommitsReviewed": [
+      "78046d03da0ef89ca1253ef199bb7f25722dea31",
+      "1c3dc3575ab903ef21be2f7ae2b2fc22d4eea865"
+    ],
+    "listingsBlobBefore": "fa12c28ddd551151b7958e91ac19a737f8fbe1f3",
+    "listingsBlobAfter": "00f23dc8d574decc13b7434ed3b837d7c027d384"
+  },
+  "reviewedRecords": [
+    {
+      "company": "Goldman Sachs",
+      "jobId": "171570",
+      "title": "2027 Engineering New Analyst",
+      "location": "Salt Lake City, Utah",
+      "upstreamChange": "active -> inactive",
+      "decision": "no-tracked-change-out-of-market",
+      "verification": "Official page was verified open with Apply in the immediately preceding run; the aggregator is flapping and the role is outside Texas."
+    },
+    {
+      "company": "Goldman Sachs",
+      "jobId": "171569",
+      "title": "2027 New Analyst - Engineering",
+      "location": "New York, New York",
+      "upstreamChange": "active -> inactive",
+      "decision": "no-tracked-change-out-of-market",
+      "verification": "Official page was verified open with Apply in the immediately preceding run; the aggregator is flapping and the role is outside Texas."
+    },
+    {
+      "company": "Zopa",
+      "title": "Graduate Analyst",
+      "location": "United Kingdom",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market"
+    },
+    {
+      "company": "Tesla",
+      "jobId": "281505",
+      "title": "Robotics Engineering Technician - Harnessing & PCB Rework - Optimus",
+      "location": "Palo Alto, California",
+      "upstreamChange": "new active record",
+      "decision": "excluded-out-of-market-and-hardware",
+      "rationale": "Upstream explicitly categorizes the role as Hardware; title centers on harnessing and PCB rework."
+    },
+    {
+      "company": "Sainsbury's",
+      "title": "Trading Assistant - Shift",
+      "location": "Oxford, United Kingdom",
+      "upstreamChange": "inactive record removed from source dataset",
+      "decision": "excluded-out-of-market-and-direction"
+    }
+  ],
+  "counts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "readmeCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 5,
+    "newRecordsReviewed": 1,
+    "statusSignalsReviewed": 3,
+    "sourceRemovalEventsReviewed": 1,
+    "texasCandidates": 0,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No changed record met the Dallas/Austin/eligible-Texas-remote and Applied AI/ML/DS gates. No Ryan-upgrade comparison was warranted.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedCount": 5
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "reason": "All changed records were out of market, outside direction, hardware, or source-only cleanup; none matched a tracked Texas role."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "paths": [
+        "jobs.json",
+        "index.html",
+        "austin.html"
+      ]
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-26T0545-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T0545-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-26T09:46:19Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying or materially better role and no technical failure threshold."
+  }
+}
