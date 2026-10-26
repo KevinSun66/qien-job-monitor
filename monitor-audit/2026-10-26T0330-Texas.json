@@ -1,0 +1,159 @@
+{
+  "checkedAt": "2026-10-26T08:30:21Z",
+  "checkedAtLocal": "2026-10-26T03:30:21-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "dd41384cf085a54711a9a1e08cd88cb69df6286c",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "b734110979ca75569b9da449b4a572c2432dbbf0",
+      "blobShaAfter": "b734110979ca75569b9da449b4a572c2432dbbf0",
+      "updatedAt": "2026-10-26T07:11:26Z",
+      "recordCountBefore": 237,
+      "recordCountAfter": 237,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-26T0211-Texas.json",
+      "blobSha": "63989ddeac61c1728c70149a4926a14a561639ef",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-26T07:12:23Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "659c60297e8448f7329cd7ce9f3b7740f8e358ba",
+      "currentHead": "86427641d115dc83aecfdf73838295ae2feb32e7",
+      "repositoryHeadObserved": "86427641d115dc83aecfdf73838295ae2feb32e7",
+      "listingsCommits": [
+        "6e797bd8637005950848eb852f8ea183f050ec28",
+        "86427641d115dc83aecfdf73838295ae2feb32e7"
+      ],
+      "readmeCommits": [
+        "12cb16097afdf5fba87f96025a8bb3be3b6084ff"
+      ],
+      "listingsBlobShaBefore": "74ed01039cdaf5c8c7322df43ed98a3094f65d48",
+      "listingsBlobShaAfter": "fe62802b3c7212e53ce90908aca3165f2aeaeeec",
+      "result": "One old inactive Nutanix QA record in Vancouver, Canada was removed; the later listings commit had no effective diff."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Nutanix",
+        "title": "Member of Technical Staff 1 - QA",
+        "sourceId": "9b26898a-3a68-46ce-96af-b921ceacaabc",
+        "change": "inactive record removed from upstream queue",
+        "location": "Vancouver, BC, Canada",
+        "decision": "out-of-scope",
+        "reason": "Outside the United States and Dallas/Austin; QA rather than Applied AI/ML/DS.",
+        "sourceCommit": "6e797bd8637005950848eb852f8ea183f050ec28"
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "The only changed record failed hard location and role-track filters; no official JD re-verification was needed and no tracked job status changed."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 2,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 1,
+    "uniqueChangedRecordsReviewed": 1,
+    "inactiveSignalsReviewed": 0,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 1,
+    "transientQueueRecordsRemoved": 1,
+    "noDiffListingsCommitsReviewed": 1,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "remoteUSRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Out-of-scope upstream cleanup",
+      "count": 1,
+      "result": "no monitor data change",
+      "reason": "Removed record was an inactive Vancouver QA role."
+    },
+    {
+      "category": "No-diff listings commit",
+      "count": 1,
+      "result": "no monitor data change",
+      "reason": "No effective record change."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified new candidate or tracked-job status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "b734110979ca75569b9da449b4a572c2432dbbf0",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-26T0330-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "Pending initial write and readback verification."
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-26T07:12:23Z",
+    "pendingSync": [
+      {
+        "path": "monitor-audit/2026-10-26T0330-Texas.json",
+        "operation": "create-and-verify"
+      }
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-26T07:12:23Z"
+  }
+}
