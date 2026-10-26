@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-26T22:37:38Z",
+  "checkedAtLocal": "2026-10-26T17:37:38-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "4899392314ab5339407727cae026c75fca32d875",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "9df2df18092e9dc59ee1f6d6c1b3b4849f544bc6",
+      "count": 238,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-26T18:11:01Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T1616-Texas.json",
+      "blobSha": "af29ec8f32931fc3ec7458ff19daa17c2269a179",
+      "lastSuccessfulWriteAt": "2026-10-26T21:16:41Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "ac0d47c0ca69f79f8948efbd7765105c6bda1f58",
+    "currentListingsCommit": "024ff453deeda86086baab404db3c22789e1ebe8",
+    "repositoryHeadObserved": "c44a28269b0e552aa541679f35f665a0edcac7f7",
+    "listingsCommitsReviewed": [
+      "5bc5e6156576e7cb48b417728e45b8e1152bf039",
+      "c3458ed5ce405924607a4160f491c653f36ec52d",
+      "024ff453deeda86086baab404db3c22789e1ebe8"
+    ],
+    "readmeCommitsReviewed": [
+      "33ea272b2c0561e8c8d2cb609ce9a9f88ea86db9",
+      "c44a28269b0e552aa541679f35f665a0edcac7f7"
+    ],
+    "listingsBlobBefore": "b1d68b8986b1ce48f87ea6fe480260436373699a",
+    "listingsBlobAfter": "ee3d29c38ed0ee2bf2f7b5a56c94309336d52212",
+    "verification": "Reviewed 8 deactivations in 5bc5e6, 4 deactivations in c3458e, and 12 reactivations plus 25 new records in 024ff4. Confirmed Texas-target signals were screened against official sources and stored history."
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 5,
+    "listingsCommitsReviewed": 3,
+    "readmeCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 49,
+    "newRecordEventsReviewed": 25,
+    "statusChangeEventsReviewed": 24,
+    "texasOrRemoteCandidates": 5,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "newExcludedRoles": 1,
+    "trackedStatusChanges": 3,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No qualifying or actionable role was found. T-Mobile REQ375195 is a verified new Frisco entry-level role but was archived as a direction/opportunity-cost rejection. The user-excluded Texas Instruments hardware technician was not added. Source-status signals for RTX 01876984, Toyota 10325071 and RTX 01881234 were recorded without overriding their existing hard rejection decisions or claiming official closure/reopening.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": [
+      {
+        "company": "T-Mobile",
+        "title": "Associate Software Engineer – Billing Platform",
+        "jobId": "REQ375195",
+        "decision": "direction-opportunity-cost-rejected",
+        "reason": "Generic billing-platform software engineering, not Applied AI/ML/Data Science; post-May-2027 start and OPT/STEM OPT terms are undisclosed; no clear combined upgrade over Ryan.",
+        "officialStatus": "Official T-Mobile page displayed Apply and full JD on 2026-10-26.",
+        "compensation": "$66,900–$120,600 base; $73,590–$132,660 total target cash",
+        "archive": "job-archive/t-mobile/REQ375195/job-description.md"
+      }
+    ],
+    "existingRecordsChanged": [
+      {
+        "company": "RTX / Raytheon",
+        "jobId": "01876984",
+        "sourceChange": "active to inactive",
+        "officialVerification": "Exact official page could not be read and public search returned no exact result; closure not confirmed.",
+        "decisionUnchanged": "citizenship-direction-rejected"
+      },
+      {
+        "company": "Toyota Financial Services",
+        "jobId": "10325071",
+        "sourceChange": "inactive to active",
+        "officialVerification": "Exact requisition did not appear in public search; official reopening not independently confirmed.",
+        "decisionUnchanged": "visa-rejected"
+      },
+      {
+        "company": "RTX / Raytheon",
+        "jobId": "01881234",
+        "sourceChange": "inactive to active",
+        "officialVerification": "Exact requisition did not appear in public search; official reopening not independently confirmed.",
+        "decisionUnchanged": "citizenship-direction-rejected"
+      }
+    ],
+    "excludedByUserList": [
+      {
+        "company": "Texas Instruments",
+        "title": "Engineering Technician",
+        "sourceListingId": "9998548f-5655-4e2c-8afe-d7379e632fba",
+        "reason": "User-excluded company and hardware technician role; not added or notified."
+      }
+    ]
+  },
+  "dataChanges": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": true,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [
+      "jobs.json",
+      "job-archive/t-mobile/REQ375195/job-description.md"
+    ],
+    "jobsBefore": {
+      "count": 238,
+      "blobSha": "9df2df18092e9dc59ee1f6d6c1b3b4849f544bc6"
+    },
+    "jobsAfter": {
+      "count": 239,
+      "blobSha": "27c6e1657376503c42ad1f2cca5a38b6f7215474"
+    },
+    "commits": [
+      "275ea6d8a7428bc5371cd1c32a621542886d1516",
+      "8679011217c1521b763963d7c474dd62032a2bdb",
+      "a800ed9bbfc2e0bf1ee4aef47de49d9598901608"
+    ],
+    "reason": "Added one verified excluded-role record and JD archive, and recorded three verified upstream source-status signals while preserving existing decisions and all application states."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commits": [
+        "275ea6d8a7428bc5371cd1c32a621542886d1516",
+        "8679011217c1521b763963d7c474dd62032a2bdb",
+        "a800ed9bbfc2e0bf1ee4aef47de49d9598901608"
+      ],
+      "jobsBlobSha": "27c6e1657376503c42ad1f2cca5a38b6f7215474",
+      "readbackVerified": false
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-26T1737-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T1737-Texas.json finalization"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-26T21:16:41Z",
+    "lastSuccessfulWriteAt": "2026-10-26T21:16:41Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying or actionable higher-value role; all changed roles are excluded or remain hard-rejected, and no write-failure threshold was reached."
+  }
+}
