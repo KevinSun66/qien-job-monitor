@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-26T17:25:21Z",
+  "checkedAtLocal": "2026-10-26T12:25:21-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "a38e7499818b6ef1d2a3087dec646c3f63d445b9",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f280f3f94c8852ade6999a29d6751f4d79950c32",
+      "count": 237,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-26T16:35:36Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T1135-Texas.json",
+      "blobSha": "1e6dd2f2d014605766468cab07a452aa8073c64d",
+      "lastSuccessfulWriteAt": "2026-10-26T16:36:38Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "41b3e8d5957fb8eddae027845610ff2d61454769",
+    "currentListingsCommit": "8415d3865ccc2e30329184d883833d4f2bcabb65",
+    "repositoryHeadObserved": "08da80400534ad7917e602786f607517a9bea198",
+    "listingsCommitsReviewed": [
+      "8415d3865ccc2e30329184d883833d4f2bcabb65"
+    ],
+    "readmeCommitsReviewed": [
+      "08da80400534ad7917e602786f607517a9bea198"
+    ],
+    "listingsBlobBefore": "5f588b6084f7ddd1746c7aaba3c412c834c75750",
+    "listingsBlobAfter": "b2258dddc05f9f72aa2a9d1a43587819f0beaa55"
+  },
+  "reviewedRecordEvents": [
+    {
+      "commit": "8415d3865ccc2e30329184d883833d4f2bcabb65",
+      "events": 6,
+      "statusChanges": [
+        "Internet Brands Associate AI Software Engineer active->inactive (Newark, NJ; outside target market)",
+        "Deloitte Cyber Analytics Analyst 360076 active->inactive (Arlington, VA; outside target market)",
+        "Schmidt Sciences Fellow in Residence active->inactive (New York; recent PhD required)",
+        "BIP Ventures Associate AI Engineer active->inactive (Atlanta only)",
+        "Wise Graduate Product Analyst active->inactive (current requisition is London; not Austin)",
+        "Provectus Associate Forward Deployed Engineer active->inactive (New York/New Jersey; three days onsite in New York)"
+      ]
+    }
+  ],
+  "counts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 6,
+    "newRecordEventsReviewed": 0,
+    "statusChangeEventsReviewed": 6,
+    "texasCandidates": 0,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No new records and no tracked Texas status changes. All six upstream changes were status removals for roles outside Dallas/Austin or otherwise ineligible.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": [],
+    "existingRecordsChanged": []
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [],
+    "reason": "No verified new job or tracked status change required a job-data modification."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted",
+      "reason": "No job-data change was warranted."
+    },
+    "audit": {
+      "status": "pending-verification",
+      "path": "monitor-audit/2026-10-26T1225-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T1225-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-26T16:36:38Z",
+    "lastSuccessfulWriteAt": "2026-10-26T16:36:38Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No newly qualifying role, actionable pending role, tracked status change, or write-failure threshold."
+  }
+}
