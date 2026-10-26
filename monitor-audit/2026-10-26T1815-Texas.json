@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-26T23:15:54Z",
+  "checkedAtLocal": "2026-10-26T18:15:54-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "30779191226b6241b44fc96f3b9136579c099735",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "27c6e1657376503c42ad1f2cca5a38b6f7215474",
+      "count": 239,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-26T22:37:38Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T1737-Texas.json",
+      "blobSha": "bd902de2c3b9a32af28eef8c0bc8f9849fbe62e0",
+      "lastSuccessfulWriteAt": "2026-10-26T22:39:14Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "024ff453deeda86086baab404db3c22789e1ebe8",
+    "currentListingsCommit": "a87eaa823cf6d0040028bebefc2d948c3378d983",
+    "repositoryHeadObserved": "34e191c782a89aa8f17a106763a4e493898c8d9c",
+    "listingsCommitsReviewed": [
+      "a87eaa823cf6d0040028bebefc2d948c3378d983"
+    ],
+    "readmeCommitsReviewed": [
+      "34e191c782a89aa8f17a106763a4e493898c8d9c"
+    ],
+    "listingsBlobBefore": "ee3d29c38ed0ee2bf2f7b5a56c94309336d52212",
+    "listingsBlobAfter": "7a1c8fd613359c83fe1d18039cac9f016f364db7",
+    "verification": "Reviewed the only new listings commit after the stored cursor: 6 source-status events and 19 newly appended records. Texas/remote signals were screened against stored history and official/public sources."
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 25,
+    "newRecordEventsReviewed": 19,
+    "statusChangeEventsReviewed": 6,
+    "texasOrRemoteCandidates": 5,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "newExcludedRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No qualifying or actionable role was found. The two Goldman Sachs source deactivations are Salt Lake City and New York, not Dallas/Austin. UT Southwestern 973896 reactivated only in the aggregator; its stored official-open, direction/opportunity-cost rejection remains unchanged. Everfox JR500927 is a new Richardson generic cybersecurity software-engineering listing, but the exact official JD could not be independently read and it is not Applied AI/ML/Data Science, so no record or notification was created. Three Kled AI remote-USA entries are task/data-collection gigs rather than full-time Applied AI/ML/DS roles.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "newlyExcludedAndArchived": [],
+    "coarseFilteredSignals": [
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171570",
+        "sourceChange": "active to inactive",
+        "officialVerification": "Official page remains open with Apply; location is Salt Lake City, Utah.",
+        "decision": "Out of Texas scope; no repository job record."
+      },
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171569",
+        "sourceChange": "active to inactive",
+        "officialVerification": "Official page remains open with Apply; location is New York, New York.",
+        "decision": "Out of Texas scope; no repository job record."
+      },
+      {
+        "company": "UT Southwestern Medical Center",
+        "jobId": "973896",
+        "sourceChange": "inactive to active",
+        "decision": "Existing direction-opportunity-cost rejection unchanged; source reactivation does not alter the stored official-open decision."
+      },
+      {
+        "company": "Everfox",
+        "jobId": "JR500927",
+        "title": "Software Engineer I",
+        "location": "Richardson, TX",
+        "decision": "Not added: exact official JD unavailable for verification and title/category indicate generic cybersecurity software engineering, not Applied AI/ML/Data Science."
+      },
+      {
+        "company": "Kled AI",
+        "sourceListingIds": [
+          "bd27436a-a426-4203-aff8-a195a56b1733",
+          "b6fbadb5-7e07-4805-9726-58f9d3db88ef",
+          "ace7f477-ec40-4ce7-9b0e-cff7cd39d041"
+        ],
+        "decision": "Remote data-collection/microtask gigs, not full-time career roles; no record or notification."
+      }
+    ]
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [],
+    "reason": "No verified new qualifying/excluded role or effective status/decision change required a jobs.json, page, or JD-archive update."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted",
+      "reason": "No verified job-data change.",
+      "jobsBlobSha": "27c6e1657376503c42ad1f2cca5a38b6f7215474",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-26T1815-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T1815-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-26T22:39:14Z",
+    "lastSuccessfulWriteAt": "2026-10-26T22:39:14Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying or actionable higher-value role, no verified effective status change, and no write-failure threshold reached."
+  }
+}
