@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-26T09:06:58Z",
+  "checkedAtLocal": "2026-10-26T04:06:58-05:00",
+  "scope": {
+    "locations": [
+      "Dallas–Fort Worth, Texas",
+      "Austin, Texas",
+      "eligible remote roles usable from Texas"
+    ],
+    "startDate": "2027-05 or later",
+    "experience": "0–2 years; reject roles whose stated minimum begins at 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only or unrestricted-now-and-future requirements",
+    "exclusions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "user company exclusion list"
+    ],
+    "benchmark": "Ryan Associate Data Scientist return offer ($83k base; approximately $90k year one; production multi-agent project experience)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "12a02b793261ae8c771458ed7660321e3042bc4f",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "b734110979ca75569b9da449b4a572c2432dbbf0",
+      "count": 237,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-26T07:11:26Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T0330-Texas.json",
+      "blobSha": "a79ab2fd563b5ed6b85a28c377f345f291589551",
+      "lastSuccessfulWriteAt": "2026-10-26T08:30:48Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned not found; therefore no workflow, including no GitHub Pages deployment workflow, was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "86427641d115dc83aecfdf73838295ae2feb32e7",
+    "currentListingsCommit": "54a4094ad4c535e8691bc4b5836ccf1a65ce6f87",
+    "repositoryHeadObserved": "9ff23dfd32906bdedc4ae644d8a55c1f37966f9e",
+    "listingsCommitsReviewed": [
+      "fd9c32116f0985363bbdcd5a36a82ab1c26402b6",
+      "54a4094ad4c535e8691bc4b5836ccf1a65ce6f87"
+    ],
+    "readmeCommitsReviewed": [
+      "9ff23dfd32906bdedc4ae644d8a55c1f37966f9e"
+    ],
+    "listingsBlobBefore": "fe62802b3c7212e53ce90908aca3165f2aeaeeec",
+    "listingsBlobAfter": "79da4c359a9ff9f0c9c7afc2af893c057cf47f54",
+    "observations": [
+      "One listings commit contained no record-level changes.",
+      "One record-level event changed Simile Evaluations - Member of Technical Staff from active to inactive."
+    ]
+  },
+  "reviewedRecords": [
+    {
+      "id": "3a60192e-943e-4660-ab0f-76da14e6542b",
+      "company": "Simile",
+      "title": "Evaluations - Member of Technical Staff",
+      "upstreamChange": "active true -> false",
+      "officialUrl": "https://jobs.ashbyhq.com/simile/33d75074-c23b-4a1f-bfdb-129bcc5be662",
+      "officialVerification": {
+        "location": "San Francisco, California or New York, New York",
+        "workplace": "On-site",
+        "duties": "AI/ML model evaluations, statistics, behavioral simulation, LLM-oriented engineering and analysis",
+        "checkedOpenState": "Official page remained reachable with an application surface while the upstream record changed to inactive.",
+        "experience": "No explicit hard minimum experience floor found in the official posting; recent graduates may be considered.",
+        "workAuthorization": "Not evaluated further because the location is a decisive hard exclusion.",
+        "startDate": "Not evaluated further because the location is a decisive hard exclusion."
+      },
+      "decision": "excluded-out-of-market",
+      "rationale": "The official job is fully on-site in San Francisco or New York, not Dallas, Austin, or an eligible Texas remote role. It is not present in jobs.json, so the upstream inactive signal causes no tracked status change."
+    }
+  ],
+  "counts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 2,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 1,
+    "uniqueChangedRecordsReviewed": 1,
+    "inactiveSignalsReviewed": 1,
+    "noDiffListingsCommitsReviewed": 1,
+    "texasCandidates": 0,
+    "dallasAustinAdjacentCandidates": 0,
+    "remoteUSCandidates": 0,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "excludedRoles": 1,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No verified new or changed role met the Texas location, timing, experience, work-authorization, role-content, company-exclusion, and Ryan-benchmark requirements.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "exclusions": [
+      {
+        "reason": "out-of-market",
+        "count": 1,
+        "records": [
+          "Simile — Evaluations - Member of Technical Staff"
+        ]
+      }
+    ]
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "reason": "No verified new role or tracked status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "paths": [
+        "jobs.json",
+        "index.html",
+        "austin.html"
+      ]
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-26T0406-Texas.json",
+      "initialCommit": null,
+      "finalCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T0406-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-26T08:30:48Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying or materially better role and no technical failure threshold."
+  }
+}
