@@ -1,0 +1,180 @@
+{
+  "checkedAt": "2026-10-26T01:52:16Z",
+  "checkedAtLocal": "2026-10-25T20:52:16-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "ab364a6a4d3fee2cebb9e8697894d243f12cdd68",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "blobShaAfter": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "updatedAt": "2026-10-25T08:46:36Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-25T1909-Texas.json",
+      "blobSha": "0a3f52b9f7f1fe2aeb216c6d307029c3546522a7",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-26T00:10:00Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "3b9a08fee42d264c5f2907b7b0ed5bf107418b44",
+      "currentHead": "6deeb2162c2fbbdc676551bf557427c9ce9d930b",
+      "repositoryHeadObserved": "6deeb2162c2fbbdc676551bf557427c9ce9d930b",
+      "listingsCommits": [
+        "dce7bda0acb3c4b949630c80ebd0190e922aba76",
+        "271ba68d2e05569bafa7fcfe402b6738582f767e",
+        "99e3c19cacd920f2d4f04e34e60c83fd3edd5e9f"
+      ],
+      "readmeCommits": [
+        "f39b08c833d3ec85cddc5f88809e5a25eed8e1f9",
+        "6deeb2162c2fbbdc676551bf557427c9ce9d930b"
+      ],
+      "listingsBlobShaBefore": "3a892617d5ed500e025a5ac9816cffad0f64fe53",
+      "listingsBlobShaAfter": "f5efe15ab8ff9dd13874fe97b5f37a1cd95763d6",
+      "result": "One new Richardson hardware record was added; one listings commit had no effective diff; two out-of-scope Goldman Sachs records (Salt Lake City and New York) changed from inactive to active."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Micron Technology",
+        "title": "Memory Design Engineer New Grad - HBM",
+        "recordId": "441c3d0c-ee76-4f06-85bc-5c015f9c7452",
+        "requisitionId": "JR93183",
+        "event": "new-active",
+        "location": "Richardson, TX",
+        "category": "Hardware",
+        "result": "excluded before archive: semiconductor memory/logic/analog circuit design, optimization and validation; not Applied AI/ML/Data Science; no monitor data change"
+      },
+      {
+        "company": "Goldman Sachs",
+        "title": "Engineering New Analyst - Engineering",
+        "requisitionId": "171570",
+        "event": "reactivated",
+        "location": "Salt Lake City, UT",
+        "result": "outside Dallas/Austin scope; no monitor data change"
+      },
+      {
+        "company": "Goldman Sachs",
+        "title": "New Analyst - Engineering",
+        "requisitionId": "171569",
+        "event": "reactivated",
+        "location": "New York, NY",
+        "result": "outside Dallas/Austin scope; no monitor data change"
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Micron Technology",
+        "requisitionId": "JR93183",
+        "url": "https://micron.wd1.myworkdayjobs.com/en-US/External/job/New-College-Grad---Memory-Design-Engineer--HBM_JR93183-1",
+        "checkedAt": "2026-10-26T01:52:16Z",
+        "result": "Official Micron Workday page was publicly indexed and open. The official description identifies HBM memory, logic and analog circuit design, optimization and validation. It is a semiconductor hardware role, so experience and visa checks were not used to override the direction hard exclusion."
+      }
+    ],
+    "verificationNote": "The only new Texas record is explicitly hardware/semiconductor and fails the direction filter. The two reactivations are outside Texas scope."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 5,
+    "listingsCommitsReviewed": 3,
+    "readmeCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 3,
+    "uniqueChangedRecordsReviewed": 3,
+    "inactiveSignalsReviewed": 0,
+    "reactivatedRecordsReviewed": 2,
+    "newActiveRecordsReviewed": 1,
+    "removedRecordsReviewed": 0,
+    "noDiffListingsCommitsReviewed": 1,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "New Texas hardware record",
+      "count": 1,
+      "result": "no monitor data change",
+      "reason": "Micron JR93183 is HBM memory/logic/analog circuit engineering in Richardson, not Applied AI/ML/DS."
+    },
+    {
+      "category": "Out-of-scope reactivations",
+      "count": 2,
+      "result": "no monitor data change",
+      "reason": "Goldman Sachs 171570 is Salt Lake City and 171569 is New York."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified in-scope candidate or tracked-job status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-25T2052-Texas.json",
+      "status": "pending-write-verification",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "Will be finalized only after successful GitHub write and readback."
+    },
+    "overallStatus": "pending-write-verification",
+    "lastSuccessfulWriteBeforeRun": "2026-10-26T00:10:00Z",
+    "pendingSync": [
+      "monitor-audit/2026-10-25T2052-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-26T00:10:00Z"
+  }
+}
