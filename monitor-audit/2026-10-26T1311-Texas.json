@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-26T18:11:36Z",
+  "checkedAtLocal": "2026-10-26T13:11:36-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "ef7012289ea672a8b0a02c68501756edda62e188",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f280f3f94c8852ade6999a29d6751f4d79950c32",
+      "count": 237,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-26T16:35:36Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T1225-Texas.json",
+      "blobSha": "edc1a5c145d61561533175a4abedc9d27367d21a",
+      "lastSuccessfulWriteAt": "2026-10-26T17:25:40Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "8415d3865ccc2e30329184d883833d4f2bcabb65",
+    "currentListingsCommit": "fe7c97ada2bd820a3a1947befc041d902a23e962",
+    "repositoryHeadObserved": "158be9104e9f88b51b395bc996f7010ee152082f",
+    "listingsCommitsReviewed": [
+      "fa91abc5dda8f22dd08d028a3aa1a040c9d18e9f",
+      "fe7c97ada2bd820a3a1947befc041d902a23e962"
+    ],
+    "readmeCommitsReviewed": [
+      "98367fc66483a01f52e01dd9491d796247079fd2",
+      "158be9104e9f88b51b395bc996f7010ee152082f"
+    ],
+    "listingsBlobBefore": "b2258dddc05f9f72aa2a9d1a43587819f0beaa55",
+    "listingsBlobAfter": "6f366fa2a048b0087ac0ce063ad4fb371450ba43"
+  },
+  "reviewedRecordEvents": [
+    {
+      "commit": "fa91abc5dda8f22dd08d028a3aa1a040c9d18e9f",
+      "events": 10,
+      "summary": "Ten active-to-inactive changes. Relevant records: Apple 200688599-0157 Austin newly reviewed; Evolent JR-916896 tracked. Other eight were outside target market/direction."
+    },
+    {
+      "commit": "fe7c97ada2bd820a3a1947befc041d902a23e962",
+      "events": 10,
+      "summary": "Ten active-to-inactive changes, all outside Dallas/Austin target or excluded by seniority/direction; no tracked record change."
+    }
+  ],
+  "newReviewedRole": {
+    "company": "Apple",
+    "title": "Software Engineer, IS&T Early Career Opportunities",
+    "jobId": "200688599-0157",
+    "location": "Austin, TX",
+    "officialUrl": "https://jobs.apple.com/en-us/details/200688599-0157/software-engineer-is-t-early-career-opportunities",
+    "officialVerification": "Apple Careers was live and indexed with Submit Resume on 2026-10-26; posted 2026-10-19; 40 hours; aggregation source marked inactive.",
+    "experience": "Bachelor's degree, programming/CS fundamentals and prior internship; no 1+ year minimum.",
+    "responsibilities": "Broad IS&T pipeline covering frontend, iOS, backend, full-stack, quality, SRE and SDET; no guaranteed Applied AI/ML/Data Science placement.",
+    "decision": "direction-rejected; status-verification retained because Apple remained open while the aggregation source became inactive.",
+    "ryanComparison": "Apple brand/platform is higher, but a generic enterprise SWE pipeline without verified AI/ML/DS placement, compensation, start window or visa terms is not a clear overall upgrade over Ryan."
+  },
+  "trackedStatusChange": {
+    "company": "Evolent",
+    "title": "Associate Software Engineer",
+    "jobId": "JR-916896",
+    "location": "Remote US",
+    "upstreamChange": "active -> inactive",
+    "officialVerification": "Official Evolent Workday page remained indexed and retrievable on 2026-10-26.",
+    "action": "sourceStatus set inactive and status-verification added; opportunity-cost rejection and all application fields preserved."
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "readmeCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 20,
+    "newRecordEventsReviewed": 0,
+    "statusChangeEventsReviewed": 20,
+    "texasOrRemoteCandidates": 2,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "newExcludedRoles": 1,
+    "trackedStatusChanges": 1,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No qualifying role. Apple 200688599-0157 was verified as an Austin early-career opening but excluded for generic SWE direction; Evolent JR-916896 received only a source-status conflict update.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": [
+      "Apple 200688599-0157 — direction-rejected"
+    ],
+    "existingRecordsChanged": [
+      "Evolent JR-916896 — source active->inactive; official page still indexed"
+    ]
+  },
+  "dataChanges": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [
+      "jobs.json"
+    ],
+    "jobDataCommit": "8051532cab0d7cd47a7ea2c0196c0f336b71d882",
+    "jobsBlobAfter": "9df2df18092e9dc59ee1f6d6c1b3b4849f544bc6",
+    "reason": "Added verified Apple Austin direction-exclusion record and recorded Evolent aggregation status conflict."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "paths": [
+        "jobs.json"
+      ],
+      "commit": "8051532cab0d7cd47a7ea2c0196c0f336b71d882",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending-verification",
+      "path": "monitor-audit/2026-10-26T1311-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T1311-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-26T17:25:40Z",
+    "lastSuccessfulWriteAt": "2026-10-26T17:25:40Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "The only new Texas record was direction-rejected, and the tracked status change affected an opportunity-cost-rejected role; no qualifying or actionable high-upgrade role."
+  }
+}
