@@ -1,0 +1,275 @@
+{
+  "checkedAt": "2026-10-26T07:11:26Z",
+  "checkedAtLocal": "2026-10-26T02:11:26-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "406a5f4b482875924993afa62c0b67ed6e3cd368",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "blobShaAfter": "b734110979ca75569b9da449b4a572c2432dbbf0",
+      "updatedAt": "2026-10-26T07:11:26Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 237,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": true,
+      "commitShas": [
+        "45cbda362b82b5e7402871cd968da2f5a77f636e"
+      ],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-26T0043-Texas.json",
+      "blobSha": "76e3f3e8cff0842e04dd5356eeb432413228c302",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-26T05:44:33Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "2b07af2cab784286106595d2e245c5584407dce5",
+      "currentHead": "659c60297e8448f7329cd7ce9f3b7740f8e358ba",
+      "repositoryHeadObserved": "79ecfb86712a50885eecc748e5e2c970c7bce9af",
+      "listingsCommits": [
+        "7c63333adea05978368c27d32eb9466818262c3f",
+        "3694fa372566f78a9326fd3de470c6a3945b373a",
+        "659c60297e8448f7329cd7ce9f3b7740f8e358ba"
+      ],
+      "readmeCommits": [
+        "9a92a100566d67be8c0683207ebcc8c50200f72c",
+        "1b9cf5779c44f44c3642c98e72dd4825064ed9a7",
+        "79ecfb86712a50885eecc748e5e2c970c7bce9af"
+      ],
+      "listingsBlobShaBefore": "f08297c23a0712d7988973350c4217e9de4cb3c6",
+      "listingsBlobShaAfter": "74ed01039cdaf5c8c7322df43ed98a3094f65d48",
+      "result": "Seven inactive signals and three newly added active records were reviewed."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Evolent",
+        "title": "Associate Software Engineer",
+        "sourceId": "7fb4df11-724b-4388-80ba-7b185189f957",
+        "change": "new active",
+        "location": "Remote in USA",
+        "decision": "opportunity-cost-rejected",
+        "reason": "AI-assisted engineering and ML/GenAI exposure, but not an explicit 2027 campus role; exact experience floor, May-2027 start, Texas remote eligibility, visa terms and current compensation were not disclosed. General associate-SWE track and Evolent platform are not a clear overall upgrade over Ryan.",
+        "sourceCommit": "3694fa372566f78a9326fd3de470c6a3945b373a"
+      },
+      {
+        "company": "TikTok",
+        "title": "Product Manager New Grad - Platform Trust and Ecosystem",
+        "sourceId": "d6a611ad-6577-4727-bad6-a4aa05ad24ec",
+        "change": "new active",
+        "location": "San Jose, CA",
+        "decision": "out-of-market-and-track",
+        "reason": "Outside Dallas/Austin and Product rather than Applied AI/ML/DS."
+      },
+      {
+        "company": "Internet Brands",
+        "title": "Associate AI Research & Operations Analyst",
+        "sourceId": "5c53901d-0c0e-4372-b4d5-891e090adcf1",
+        "change": "new active",
+        "location": "El Segundo, CA",
+        "decision": "out-of-market",
+        "reason": "Outside Dallas/Austin."
+      },
+      {
+        "company": "Goldman Sachs",
+        "title": "2027 New Analyst - Engineering",
+        "jobId": "171569",
+        "change": "active true → false",
+        "location": "New York, NY",
+        "decision": "out-of-market",
+        "reason": "Official page identifies New York; not the tracked Dallas requisition 171568."
+      },
+      {
+        "company": "Goldman Sachs",
+        "title": "2027 New Analyst - Engineering",
+        "jobId": "171570",
+        "change": "active true → false",
+        "location": "Salt Lake City, UT",
+        "decision": "out-of-market",
+        "reason": "Official/public index identifies Salt Lake City; not the tracked Dallas requisition 171568."
+      },
+      {
+        "company": "Northrop Grumman",
+        "title": "Associate Software Engineer - Pathways",
+        "jobId": "R10256499",
+        "change": "active true → false",
+        "location": "Dulles, VA",
+        "decision": "out-of-market",
+        "reason": "Outside Dallas/Austin."
+      },
+      {
+        "company": "Qualcomm",
+        "title": "IPS Hardware Support Engineer",
+        "change": "active true → false",
+        "decision": "hardware-excluded",
+        "reason": "Hardware support role; excluded by direction."
+      },
+      {
+        "company": "RTX",
+        "title": "Software Engineer I",
+        "jobId": "01883899",
+        "change": "active true → false",
+        "location": "Fulton, MD",
+        "decision": "out-of-market",
+        "reason": "Outside Dallas/Austin."
+      },
+      {
+        "company": "Northrop Grumman",
+        "title": "Associate Electronics Engineer",
+        "jobId": "R10257437",
+        "change": "active true → false",
+        "location": "Baltimore, MD",
+        "decision": "out-of-market-and-hardware",
+        "reason": "Outside Dallas/Austin and electronics hardware."
+      },
+      {
+        "company": "Northrop Grumman",
+        "title": "Associate Electromechanical Engineer / Electromechanical Engineer",
+        "jobId": "R10257089",
+        "change": "active true → false",
+        "location": "Rolling Meadows, IL",
+        "decision": "out-of-market-and-hardware",
+        "reason": "Outside Dallas/Austin and electromechanical hardware."
+      }
+    ],
+    "officialVerification": [
+      {
+        "company": "Evolent",
+        "url": "https://evolent.wd1.myworkdayjobs.com/external/job/work-at-home/associate-software-engineer_jr-916896",
+        "result": "Official Workday page indexed as open, Apply, Work at Home, Full time, JR-916896."
+      },
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171569",
+        "url": "https://higher.gs.com/roles/171569",
+        "result": "Official indexed page identifies New York City Area / New York, NY."
+      },
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171570",
+        "url": "https://higher.gs.com/roles/171570",
+        "result": "Public index identifies Salt Lake City; no effect on Dallas 171568."
+      }
+    ],
+    "verificationNote": "Hard scope exclusions were applied before deeper visa/start-date analysis. Evolent was archived solely to prevent repeat recommendation; unresolved fields do not affect the opportunity-cost rejection."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 6,
+    "listingsCommitsReviewed": 3,
+    "readmeCommitsReviewed": 3,
+    "changedRecordEventsReviewed": 10,
+    "uniqueChangedRecordsReviewed": 10,
+    "inactiveSignalsReviewed": 7,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 3,
+    "removedRecordsReviewed": 0,
+    "transientQueueRecordsRemoved": 0,
+    "noDiffListingsCommitsReviewed": 0,
+    "texasRelatedRecordsReviewed": 1,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "remoteUSRecordsReviewed": 1,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 1,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "New record archived as opportunity-cost rejection",
+      "count": 1,
+      "result": "jobs.json updated",
+      "reason": "Evolent JR-916896 has AI-adjacent duties but no clear comprehensive upgrade over Ryan."
+    },
+    {
+      "category": "New out-of-market records",
+      "count": 2,
+      "result": "not added",
+      "reason": "TikTok San Jose and Internet Brands El Segundo are outside Dallas/Austin."
+    },
+    {
+      "category": "Inactive out-of-market or hardware signals",
+      "count": 7,
+      "result": "no tracked-job status change",
+      "reason": "Signals were outside market/hard direction filters; Goldman 171569/171570 are not Dallas 171568."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": true,
+    "updatedRecords": [],
+    "addedRecords": [
+      {
+        "company": "Evolent",
+        "jobId": "JR-916896",
+        "status": "opportunity-cost-rejected"
+      }
+    ],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "A verified new remote-US AI-adjacent role was archived as an opportunity-cost rejection to prevent repeat recommendations; no table-2 or applied record changed."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commitShas": [
+        "45cbda362b82b5e7402871cd968da2f5a77f636e"
+      ],
+      "blobSha": "b734110979ca75569b9da449b4a572c2432dbbf0",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-26T0211-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "Pending initial write and readback verification."
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-26T05:44:33Z",
+    "pendingSync": [
+      {
+        "path": "monitor-audit/2026-10-26T0211-Texas.json",
+        "operation": "create-and-verify"
+      }
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-26T05:44:33Z"
+  }
+}
