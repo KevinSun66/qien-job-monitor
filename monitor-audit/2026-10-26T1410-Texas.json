@@ -87,21 +87,19 @@
       "reason": "No job-data change was warranted."
     },
     "audit": {
-      "status": "pending-verification",
+      "status": "synced",
       "path": "monitor-audit/2026-10-26T1410-Texas.json",
-      "initialCommit": null,
-      "contentShaBeforeFinalization": null,
-      "syncedAt": null,
-      "readbackVerified": false,
-      "branchHeadVerified": false
+      "initialCommit": "ce2f90123c9509fe800382377f66d7e27534722e",
+      "contentShaBeforeFinalization": "3af39fec4cb964f8f7fcb5c01206e31db10858bc",
+      "syncedAt": "2026-10-26T19:10:28Z",
+      "readbackVerified": true,
+      "branchHeadVerified": true
     },
-    "synced": false,
-    "pendingSync": [
-      "monitor-audit/2026-10-26T1410-Texas.json"
-    ],
+    "synced": true,
+    "pendingSync": [],
     "consecutiveWriteFailures": 0,
     "lastSuccessfulWriteAtBeforeRun": "2026-10-26T18:12:01Z",
-    "lastSuccessfulWriteAt": "2026-10-26T18:12:01Z"
+    "lastSuccessfulWriteAt": "2026-10-26T19:10:28Z"
   },
   "notification": {
     "sent": false,
