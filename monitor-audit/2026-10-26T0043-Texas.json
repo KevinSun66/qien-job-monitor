@@ -1,0 +1,168 @@
+{
+  "checkedAt": "2026-10-26T05:43:53Z",
+  "checkedAtLocal": "2026-10-26T00:43:53-05:00",
+  "timezone": "America/Chicago",
+  "scope": "Qien Texas Applied AI/ML/Data Science monitor — Dallas/Austin, May 2027+ start, 0–2 years with no minimum 1+ year requirement, F-1 OPT/STEM OPT compatible, Ryan baseline comparison",
+  "repository": {
+    "fullName": "KevinSun66/qien-job-monitor",
+    "branch": "main",
+    "headBeforeRun": "61ad50480ef1fb2d7c6b26f172ac145226414829",
+    "jobs": {
+      "path": "jobs.json",
+      "blobShaBefore": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "blobShaAfter": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "updatedAt": "2026-10-25T08:46:36Z",
+      "recordCountBefore": 236,
+      "recordCountAfter": 236,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "changed": false,
+      "commitShas": [],
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false,
+        "readbackVerified": true
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false,
+        "readbackVerified": true
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-25T2320-Texas.json",
+      "blobSha": "d105a7a4c76486448a27069d6aee3f4e412f4f44",
+      "status": "synced",
+      "lastSuccessfulWriteAt": "2026-10-26T04:20:55Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "checked": true,
+      "result": "GitHub contents API returned 404; no workflows directory. No GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "sourcesChecked": {
+    "simplify": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "851103662a4795687e020326fd14062bc6b9efd3",
+      "currentHead": "2b07af2cab784286106595d2e245c5584407dce5",
+      "repositoryHeadObserved": "66db47d1a1bd191aa77bc915eae3e9b90c536dbc",
+      "listingsCommits": [
+        "5c6f554d3a4688910296fd0fe7a383a3db1d4ab5",
+        "47d53f7569d6f557e863c3663a726e375a43d04d",
+        "2b07af2cab784286106595d2e245c5584407dce5"
+      ],
+      "readmeCommits": [
+        "565b408bb7e97ced570161629fef897a0f131f9b",
+        "66db47d1a1bd191aa77bc915eae3e9b90c536dbc"
+      ],
+      "listingsBlobShaBefore": "7cb8ef05a93433623b9f91f044675eaa69cf5aa1",
+      "listingsBlobShaAfter": "f08297c23a0712d7988973350c4217e9de4cb3c6",
+      "result": "One no-diff listings commit; Qualcomm Physical Design Engineer - ASICS Engineering changed active to inactive; ExxonMobil Global Trading Graduate in London changed active to inactive."
+    },
+    "reviewedRecords": [
+      {
+        "company": "Qualcomm",
+        "title": "Physical Design Engineer - ASICS Engineering",
+        "sourceId": "5aae0b6d-78b1-47c7-8fa5-5b3ec7eae06d",
+        "change": "active true → false",
+        "decision": "out-of-scope",
+        "reason": "Physical-design/ASIC hardware role, excluded by the hardware rule; no tracked Texas Applied AI/ML/DS record affected.",
+        "sourceCommit": "47d53f7569d6f557e863c3663a726e375a43d04d"
+      },
+      {
+        "company": "ExxonMobil",
+        "title": "Global Trading Graduate",
+        "sourceId": "9e3744d0-6013-44b6-8207-f13d87b99654",
+        "change": "active true → false",
+        "decision": "out-of-scope",
+        "reason": "Official source URL is London; outside Dallas/Austin and not an Applied AI/ML/Data Science role.",
+        "sourceCommit": "2b07af2cab784286106595d2e245c5584407dce5"
+      }
+    ],
+    "officialVerification": [],
+    "verificationNote": "Both changed records fail hard scope filters from the upstream record/official source URL; no official JD re-verification was needed and no tracked job status changed."
+  },
+  "discoveryCounts": {
+    "upstreamCommitsReviewed": 5,
+    "listingsCommitsReviewed": 3,
+    "readmeCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 2,
+    "uniqueChangedRecordsReviewed": 2,
+    "inactiveSignalsReviewed": 2,
+    "reactivatedRecordsReviewed": 0,
+    "newActiveRecordsReviewed": 0,
+    "removedRecordsReviewed": 0,
+    "transientQueueRecordsRemoved": 0,
+    "noDiffListingsCommitsReviewed": 1,
+    "texasRelatedRecordsReviewed": 0,
+    "dallasAustinOrAdjacentRecordsReviewed": 0,
+    "newlyQualified": 0,
+    "verifiedNewPendingRecordsArchived": 0,
+    "verifiedNewExcludedRecordsArchived": 0,
+    "verifiedStatusChangesToTrackedJobs": 0,
+    "notifications": 0
+  },
+  "screeningResults": [
+    {
+      "category": "Hardware-direction status signal",
+      "count": 1,
+      "result": "excluded from monitor scope",
+      "reason": "Qualcomm role is physical-design/ASIC hardware, not Applied AI/ML/DS."
+    },
+    {
+      "category": "Out-of-market status signal",
+      "count": 1,
+      "result": "excluded from monitor scope",
+      "reason": "ExxonMobil role is London and a trading graduate role."
+    }
+  ],
+  "dataChanges": {
+    "jobsJson": false,
+    "updatedRecords": [],
+    "addedRecords": [],
+    "jdArchivesAdded": [],
+    "dallasPage": false,
+    "austinPage": false,
+    "appliedStatusesPreserved": true,
+    "appliedRecordCountBefore": 4,
+    "appliedRecordCountAfter": 4,
+    "archivedJDsPreserved": true,
+    "reason": "No verified new candidate or tracked-job status change."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "commitShas": [],
+      "blobSha": "d9f30f320ee7581b70d2dad42be8051d6816a063",
+      "readbackVerified": true
+    },
+    "archives": [],
+    "audit": {
+      "path": "monitor-audit/2026-10-26T0043-Texas.json",
+      "status": "pending",
+      "initialCommitSha": null,
+      "finalCommitSha": null,
+      "readbackVerified": false,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "finalCommitNote": "Pending initial write and readback verification."
+    },
+    "overallStatus": "pending",
+    "lastSuccessfulWriteBeforeRun": "2026-10-26T04:20:55Z",
+    "pendingSync": [
+      {
+        "path": "monitor-audit/2026-10-26T0043-Texas.json",
+        "operation": "create-and-verify"
+      }
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-10-26T04:20:55Z"
+  }
+}
