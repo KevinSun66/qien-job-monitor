@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-26T12:51:49Z",
+  "checkedAtLocal": "2026-10-26T07:51:49-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "3c770c5cfd0d03a7e0ca48de8b38bb9a352266bd",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "b734110979ca75569b9da449b4a572c2432dbbf0",
+      "count": 237,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-26T07:11:26Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T0704-Texas.json",
+      "blobSha": "07543d4080adb7777d3e958860155bfcfb41a4e5",
+      "lastSuccessfulWriteAt": "2026-10-26T12:04:37Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "893da290c66dadffe9edd08f0d53307fb456d555",
+    "currentListingsCommit": "0a103db0328a442e4c65cd31e51dd166d4433b32",
+    "repositoryHeadObserved": "ed3ad6c526cd99ea2bf72404ad424269681a2265",
+    "listingsCommitsReviewed": [
+      "0a103db0328a442e4c65cd31e51dd166d4433b32"
+    ],
+    "readmeCommitsReviewed": [
+      "ed3ad6c526cd99ea2bf72404ad424269681a2265"
+    ],
+    "listingsBlobBefore": "65855ddb8537106c10ccbfd8130c447f8e040f48",
+    "listingsBlobAfter": "3d99f4ee8aedd48ab880e5b0d6a88f9e2503d161"
+  },
+  "reviewedRecords": [
+    {
+      "id": "ec0357bf-c8a7-42a5-92ea-17d7dce8b3fd",
+      "company": "Worldpay",
+      "title": "Statistician / Data Analyst II",
+      "jobId": "JR0608725",
+      "location": "Cincinnati, Ohio",
+      "upstreamChange": "inactive record removed from source dataset",
+      "decision": "excluded-out-of-market-source-cleanup"
+    },
+    {
+      "id": "2fb142a3-94d3-4f29-91b2-d95a17392dfa",
+      "company": "NCR Voyix",
+      "title": "Junior DevOps Engineer",
+      "jobId": "R0158519",
+      "location": "Bath, United Kingdom",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market-and-direction"
+    },
+    {
+      "id": "fad2efaf-2726-4528-b3ec-446d3bf13d05",
+      "company": "BP",
+      "title": "Graduate Subsurface Technology - Geology",
+      "jobId": "RQ117087",
+      "location": "Sunbury, United Kingdom",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market-and-direction"
+    }
+  ],
+  "counts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 3,
+    "inactiveSignalsReviewed": 2,
+    "sourceRemovalEventsReviewed": 1,
+    "texasCandidates": 0,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No changed record met the Texas location gate or target Applied AI/ML/Data Science direction.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedCount": 3
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "reason": "All changes were out-of-market source records and none matched jobs.json."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "paths": [
+        "jobs.json",
+        "index.html",
+        "austin.html"
+      ]
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-26T0751-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T0751-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-26T12:04:37Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying or materially better role and no technical failure threshold."
+  }
+}
