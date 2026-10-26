@@ -150,24 +150,22 @@
         "a800ed9bbfc2e0bf1ee4aef47de49d9598901608"
       ],
       "jobsBlobSha": "27c6e1657376503c42ad1f2cca5a38b6f7215474",
-      "readbackVerified": false
+      "readbackVerified": true
     },
     "audit": {
-      "status": "pending",
+      "status": "synced",
       "path": "monitor-audit/2026-10-26T1737-Texas.json",
-      "initialCommit": null,
-      "contentShaBeforeFinalization": null,
-      "syncedAt": null,
-      "readbackVerified": false,
-      "branchHeadVerified": false
+      "initialCommit": "ac2fc7c99ae6a12d80ac862c1460a61f6005c800",
+      "contentShaBeforeFinalization": "6fe29529afe6aa819855aa9b72fdddbbc32ab5de",
+      "syncedAt": "2026-10-26T22:39:14Z",
+      "readbackVerified": true,
+      "branchHeadVerified": true
     },
-    "synced": false,
-    "pendingSync": [
-      "monitor-audit/2026-10-26T1737-Texas.json finalization"
-    ],
+    "synced": true,
+    "pendingSync": [],
     "consecutiveWriteFailures": 0,
     "lastSuccessfulWriteAtBeforeRun": "2026-10-26T21:16:41Z",
-    "lastSuccessfulWriteAt": "2026-10-26T21:16:41Z"
+    "lastSuccessfulWriteAt": "2026-10-26T22:39:14Z"
   },
   "notification": {
     "sent": false,
