@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-26T13:34:43Z",
+  "checkedAtLocal": "2026-10-26T08:34:43-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "82a86852857cdb0ed238edbdef22df1f61915fc1",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "b734110979ca75569b9da449b4a572c2432dbbf0",
+      "count": 237,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-26T07:11:26Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T0751-Texas.json",
+      "blobSha": "d04aa8123b900c2c2acd4e48bd3759efaa7230ca",
+      "lastSuccessfulWriteAt": "2026-10-26T12:52:09Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "0a103db0328a442e4c65cd31e51dd166d4433b32",
+    "currentListingsCommit": "833e8053467793ef3d28b3673f8d400945f551da",
+    "repositoryHeadObserved": "833e8053467793ef3d28b3673f8d400945f551da",
+    "listingsCommitsReviewed": [
+      "4593a281d7a42e5c638646265ba43caa90df3e47",
+      "833e8053467793ef3d28b3673f8d400945f551da"
+    ],
+    "readmeCommitsReviewed": [
+      "690bd569670964d521a1b3d3429a77a8e107aee0"
+    ],
+    "listingsBlobBefore": "3d99f4ee8aedd48ab880e5b0d6a88f9e2503d161",
+    "listingsBlobAfter": "72acc5d83569a442f7233ceb73310bc4ee517fd3"
+  },
+  "reviewedRecords": [
+    {
+      "id": "62db5e5b-5506-4b0f-b911-cac4cc9c3db3",
+      "company": "Cox",
+      "title": "Shop Trailer Technician I",
+      "location": "Albertville, MN",
+      "upstreamChange": "inactive record removed from source dataset",
+      "decision": "excluded-out-of-market-hardware-source-cleanup"
+    },
+    {
+      "id": "5d072195-d69d-4732-970a-f50cd73fa1eb",
+      "company": "Applied Materials",
+      "title": "Systems Engineer III",
+      "location": "Santa Clara, CA",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market-and-seniority"
+    },
+    {
+      "id": "3efe2568-d218-4a6f-b3ff-105db324660f",
+      "company": "Global Web Index",
+      "title": "Insight Analyst",
+      "location": "London, UK",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market; official listing requires UK work rights and offers no sponsorship"
+    },
+    {
+      "id": "9199e425-2144-4178-bac6-c9f1802f9f1e",
+      "company": "RTX",
+      "title": "Embedded Security Software Engineer I",
+      "location": "Tucson, AZ",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market-and-embedded"
+    },
+    {
+      "id": "a2948d5d-0733-4548-8351-e4a5d082b4dd",
+      "company": "TJX",
+      "title": "IT Engineer Graduate",
+      "location": "Watford, UK",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market-and-direction"
+    },
+    {
+      "id": "6e69dbab-f1c4-4514-9cef-dcd5e034f435",
+      "company": "Wise",
+      "title": "Graduate Data Scientist",
+      "location": "London, UK",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market; official listing is London and requires London work eligibility"
+    },
+    {
+      "id": "6b408f2c-5220-4f13-94bd-39aeb2baec26",
+      "company": "Pearson",
+      "title": "Responsible AI Specialist - Technology Workstreams",
+      "location": "London, UK",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market; official role is London"
+    },
+    {
+      "id": "499eed21-6c70-456b-baa2-1ef4468de5f0",
+      "company": "Ekimetrics",
+      "title": "Junior Data Scientist & Marketing Effectiveness",
+      "location": "London, UK",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market; official careers listing is London hybrid"
+    },
+    {
+      "id": "6338ff56-8ab1-4562-91a9-55a52372041a",
+      "company": "LiveScore Group",
+      "title": "Casino Graduate Insights Analyst",
+      "location": "United Kingdom",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market-and-direction"
+    },
+    {
+      "id": "1c0ad14f-24cb-4e5c-a945-81075f751fe2",
+      "company": "Samsung",
+      "title": "AMHS Engineer",
+      "location": "Pflugerville / Taylor, TX",
+      "upstreamChange": "inactive record removed from source dataset",
+      "decision": "excluded-hardware-source-cleanup; not a tracked role"
+    },
+    {
+      "id": "fa9a97e6-f7c0-4329-9d92-42fc2fd0acc5",
+      "company": "Wise",
+      "title": "Graduate Software Engineer",
+      "location": "United Kingdom",
+      "upstreamChange": "active -> inactive",
+      "decision": "excluded-out-of-market-and-direction"
+    }
+  ],
+  "counts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 2,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 11,
+    "inactiveSignalsReviewed": 9,
+    "sourceRemovalEventsReviewed": 2,
+    "texasCandidates": 1,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No changed record qualified. The only Texas event was removal of an already-inactive AMHS hardware role; data/AI-adjacent roles were outside Dallas/Austin/eligible US remote and were independently checked as London-based.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedCount": 11
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "reason": "No verified new qualifying role or tracked status change. The Texas source-cleanup record was hardware and was not present as a tracked target role."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "paths": [
+        "jobs.json",
+        "index.html",
+        "austin.html"
+      ]
+    },
+    "audit": {
+      "status": "pending-verification",
+      "path": "monitor-audit/2026-10-26T0834-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T0834-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-26T12:52:09Z",
+    "lastSuccessfulWriteAt": "2026-10-26T12:52:09Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying or materially better role and no technical failure threshold."
+  }
+}
