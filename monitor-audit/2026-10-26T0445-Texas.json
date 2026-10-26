@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-26T09:45:54Z",
+  "checkedAtLocal": "2026-10-26T04:45:54-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "d8bc018ae7c418413271395b5d569b2deeebf4fd",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "b734110979ca75569b9da449b4a572c2432dbbf0",
+      "count": 237,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-26T07:11:26Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T0406-Texas.json",
+      "blobSha": "195f73531259142acec6d68fa62b7426228f9c87",
+      "lastSuccessfulWriteAt": "2026-10-26T09:08:05Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "54a4094ad4c535e8691bc4b5836ccf1a65ce6f87",
+    "currentListingsCommit": "2753f89dd7e43ed8c247d69e29d160ad65fca2dd",
+    "repositoryHeadObserved": "c808cbaab8b133a79522faed7167f42fe19d5e53",
+    "listingsCommitsReviewed": [
+      "2753f89dd7e43ed8c247d69e29d160ad65fca2dd"
+    ],
+    "readmeCommitsReviewed": [
+      "c808cbaab8b133a79522faed7167f42fe19d5e53"
+    ],
+    "listingsBlobBefore": "79da4c359a9ff9f0c9c7afc2af893c057cf47f54",
+    "listingsBlobAfter": "fa12c28ddd551151b7958e91ac19a737f8fbe1f3"
+  },
+  "reviewedRecords": [
+    {
+      "id": "a449ff56-af7b-46d9-9c1b-73ccb36515e8",
+      "company": "Tesla",
+      "title": "Data Collection Operator - Optimus",
+      "upstreamChange": "inactive -> active",
+      "officialUrl": "https://www.tesla.com/careers/search/job/279362",
+      "officialVerification": {
+        "location": "Orlando, Florida",
+        "openState": "Official Tesla page remains reachable",
+        "duties": "Physical robotics data collection, equipment feedback, motion/data capture and operational testing"
+      },
+      "decision": "excluded-out-of-market-and-direction",
+      "rationale": "This exact requisition is in Orlando, not Dallas/Austin/eligible Texas remote, and is an operator/data-collection role rather than Applied AI/ML/DS engineering."
+    },
+    {
+      "id": "43a5374e-0e70-4dc9-82b0-687b54e8c5da",
+      "company": "Goldman Sachs",
+      "title": "2027 Engineering New Analyst",
+      "upstreamChange": "inactive -> active",
+      "officialUrl": "https://higher.gs.com/roles/171570?type=students",
+      "officialVerification": {
+        "location": "Salt Lake City, Utah",
+        "openState": "Official Goldman Sachs page currently shows Apply",
+        "program": "2027 New Analyst for final-year undergraduate and graduate students"
+      },
+      "decision": "excluded-out-of-market",
+      "rationale": "Salt Lake City is outside Dallas/Austin and is not an eligible Texas remote role."
+    },
+    {
+      "id": "ebecfe1f-3890-4cf8-8663-d7b118197e24",
+      "company": "Goldman Sachs",
+      "title": "2027 New Analyst - Engineering",
+      "upstreamChange": "inactive -> active",
+      "officialUrl": "https://higher.gs.com/roles/171569?type=students",
+      "officialVerification": {
+        "location": "New York, New York",
+        "openState": "Official Goldman Sachs page currently shows Apply",
+        "program": "2027 New Analyst for final-year undergraduate and graduate students"
+      },
+      "decision": "excluded-out-of-market",
+      "rationale": "New York is outside Dallas/Austin and is not an eligible Texas remote role."
+    },
+    {
+      "id": "6fc52e99-15ec-474d-badb-f26015b0d0bb",
+      "company": "Cisco",
+      "title": "Electrical Engineer 2",
+      "upstreamChange": "active -> inactive",
+      "officialUrl": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Electrical-Engineer_2020283",
+      "decision": "excluded-out-of-market-and-hardware",
+      "rationale": "San Jose electrical-engineering role; outside target geography and explicitly excluded hardware direction."
+    },
+    {
+      "id": "bab5e7a0-14de-449f-9a6a-6d5801e38490",
+      "company": "Field AI",
+      "title": "Embedded Systems Engineer - Robotics Hardware",
+      "upstreamChange": "active -> inactive",
+      "officialUrl": "https://jobs.lever.co/field-ai/7a0d12c7-957b-42f6-a9c9-9605fab6d2a4/apply",
+      "decision": "excluded-hardware",
+      "rationale": "Title explicitly identifies embedded systems and robotics hardware, both hard exclusions."
+    },
+    {
+      "id": "9a88516a-75d8-4bc7-92fe-82826eff3fab",
+      "company": "Cisco",
+      "title": "Electrical Engineer 2",
+      "upstreamChange": "active -> inactive",
+      "officialUrl": "https://careers.cisco.com/global/en/job/2020283",
+      "decision": "duplicate-source-record-excluded-out-of-market-and-hardware",
+      "rationale": "Second upstream source record for the same Cisco requisition 2020283; no separate tracked job."
+    }
+  ],
+  "counts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 6,
+    "uniqueUpstreamRecordsReviewed": 6,
+    "uniqueRequisitionsReviewed": 5,
+    "reactivationSignalsReviewed": 3,
+    "inactiveSignalsReviewed": 3,
+    "texasCandidates": 0,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "excludedRequisitions": 5,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No verified new or changed role met the Texas location, Applied AI/ML/DS direction, timing, experience, work-authorization, company-exclusion and Ryan-upgrade gates.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "exclusions": [
+      {
+        "reason": "out-of-market",
+        "count": 3
+      },
+      {
+        "reason": "hardware/embedded direction",
+        "count": 2
+      }
+    ]
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "reason": "All upstream changes were out of market, excluded hardware/embedded work, or duplicate source records; none matched a tracked Texas job."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted-no-data-change",
+      "paths": [
+        "jobs.json",
+        "index.html",
+        "austin.html"
+      ]
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-26T0445-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T0445-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-26T09:08:05Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying or materially better role and no technical failure threshold."
+  }
+}
