@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-26T15:22:28Z",
+  "checkedAtLocal": "2026-10-26T10:22:28-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "d5d2eeb7f33c029d3ee193b1c9f93168f031941b",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "b734110979ca75569b9da449b4a572c2432dbbf0",
+      "count": 237,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-26T07:11:26Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T0922-Texas.json",
+      "blobSha": "4ff2fe05c130f85f5e5f2b48292d8c404c39f31a",
+      "lastSuccessfulWriteAt": "2026-10-26T14:22:30Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "78b8b882d920c7a53a146b006736920fde9d09f8",
+    "currentListingsCommit": "99f9b043d939a99d802485473f0532099f7df391",
+    "repositoryHeadObserved": "41e49834a7cae16defc3e3ba6130696cc055d74b",
+    "listingsCommitsReviewed": [
+      "36f16e693faf995231a3cb6c64c3c387b8497b1a",
+      "99f9b043d939a99d802485473f0532099f7df391"
+    ],
+    "readmeCommitsReviewed": [
+      "97dd703534124674e6593f1913bfcafa83c9ccec",
+      "41e49834a7cae16defc3e3ba6130696cc055d74b"
+    ],
+    "listingsBlobBefore": "883bb712c1124008d08055f83fc3ac2dcacd1b02",
+    "listingsBlobAfter": "d6b9aec74c5588794a983edb80eb6097064213bb"
+  },
+  "reviewedRecordEvents": [
+    {
+      "commit": "36f16e693faf995231a3cb6c64c3c387b8497b1a",
+      "statusChanges": [
+        "Deloitte AI & Data Engineering active->inactive",
+        "Home Depot Associate Data Scientist active->inactive",
+        "JD.com Graduate Software Engineer inactive->active",
+        "GE Aerospace Robotics and Autonomy active->inactive",
+        "RSM AI Machine Learning Engineer active->inactive"
+      ],
+      "newRecords": [
+        "Westinghouse Hardware Engineer — Cranberry Township, PA",
+        "RELX Software Engineer New Grad — London, UK",
+        "Booz Allen Junior Data Scientist — Washington, DC",
+        "L3Harris Associate Software Engineering — Rochester, NY",
+        "Leonardo Graduate FPGA/Firmware Engineer — UK",
+        "Leonardo Graduate Electronics Engineer — UK",
+        "Interface Data Coordinator — LaGrange, GA",
+        "Fife Council GIS/Spatial Data Officer — UK",
+        "Welo Global Robotics Teleoperator — Palo Alto, CA"
+      ],
+      "decision": "All new records excluded by location/direction/hardware. RSM was the only tracked DFW record and required a verified source-status update."
+    },
+    {
+      "commit": "99f9b043d939a99d802485473f0532099f7df391",
+      "reactivations": [
+        "Cisco Failure Analysis Engineer",
+        "Goldman Sachs Engineering New Analyst 171570",
+        "Goldman Sachs New Analyst Engineering 171569",
+        "American Express Software Engineer 26013783",
+        "American Express AI Engineer 26013776",
+        "American Express Software Engineer 26013782",
+        "American Express Product Manager 26013780",
+        "American Express Product Manager 26013779",
+        "RTX Embedded Security Software Engineer 01881370",
+        "RTX Embedded Security Software Engineer 01881355",
+        "Jabil AI and Data Solutions Developer"
+      ],
+      "newRecords": [
+        "RTX Software Engineer I — Indianapolis, IN",
+        "Motia Graduate Data Scientist — Leeds, UK",
+        "LexisNexis Software Engineer New Grad — London, UK"
+      ],
+      "decision": "No record met the Dallas/Austin, direction, experience, authorization and Ryan-upgrade gates; none matched a tracked role requiring data modification."
+    }
+  ],
+  "trackedStatusChange": {
+    "company": "RSM",
+    "title": "AI Machine Learning Engineer",
+    "jobId": "JR122103",
+    "sourceJobId": "ed5d8236-8fcb-4304-a50f-c4acfdd5f275",
+    "upstreamChange": "active -> inactive",
+    "officialVerification": "Official RSM Workday page remained indexed and retrievable on 2026-10-26; closure not confirmed.",
+    "action": "sourceStatus set inactive; status-verification added; visa-rejected status, monitoringEnabled=false and not-applied state preserved.",
+    "officialUrl": "https://rsm.wd1.myworkdayjobs.com/RSMCareers/job/Chicago/AI-Machine-Learning-Engineer_JR122103"
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "readmeCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 28,
+    "newRecordEventsReviewed": 12,
+    "statusChangeEventsReviewed": 16,
+    "texasCandidates": 1,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "trackedStatusChanges": 1,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No new role qualified. One already-rejected Dallas record had a source-status conflict; official page remained retrievable, so closure was not confirmed.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRecords": 12
+  },
+  "dataChanges": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [
+      "jobs.json"
+    ],
+    "jobDataCommit": "4710aa9b08c5aa64b98b45e203c1f0ce28d79416",
+    "jobsBlobAfter": "0dab20dfab4d658f226687b8ef419e42141c71fe",
+    "reason": "Verified aggregation source status change for tracked RSM JR122103; official open signal retained as status-verification without changing the hard F-1 rejection."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "paths": [
+        "jobs.json"
+      ],
+      "commit": "4710aa9b08c5aa64b98b45e203c1f0ce28d79416",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending-verification",
+      "path": "monitor-audit/2026-10-26T1022-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T1022-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-26T14:22:30Z",
+    "lastSuccessfulWriteAt": "2026-10-26T14:22:30Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "Only an already-ineligible record changed source status; no qualifying or materially better role and no technical failure threshold."
+  }
+}
