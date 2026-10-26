@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T07:11:26Z",
+  "updatedAt": "2026-10-26T15:22:28Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8408,9 +8408,9 @@
       "sourceJobId": "ed5d8236-8fcb-4304-a50f-c4acfdd5f275",
       "discoverySource": "SimplifyJobs/New-Grad-Positions",
       "discoverySourceDate": "2026-10-23",
-      "sourceStatus": "active",
-      "officialStatus": "open — Apply displayed",
-      "lastCheckedAt": "2026-10-23T17:45:32Z",
+      "sourceStatus": "inactive",
+      "officialStatus": "open — official RSM Workday page remained indexed and retrievable on 2026-10-26; aggregation inactive signal not treated as confirmed closure",
+      "lastCheckedAt": "2026-10-26T15:22:28Z",
       "minimumQualifications": "1–2 years ML, data science or software development; internships or academic projects acceptable; bachelor's or equivalent practical experience.",
       "officialLocations": [
         "Chicago",
@@ -8428,8 +8428,13 @@
       "archiveTextUrl": "https://raw.githubusercontent.com/KevinSun66/qien-job-monitor/main/job-archive/rsm/JR122103/job-description.md",
       "archiveSource": "Official RSM Workday page",
       "archiveNote": "Verified official JD captured; excluded by explicit F-1/sponsorship language.",
-      "verificationFlags": [],
-      "applicationStatus": "not-applied"
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "applicationStatus": "not-applied",
+      "previousSourceStatus": "active",
+      "sourceStatusChangedAt": "2026-10-26T15:22:28Z",
+      "sourceStatusCommit": "36f16e693faf995231a3cb6c64c3c387b8497b1a"
     },
     {
       "company": "Motorola Solutions",
