@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T16:35:36Z",
+  "updatedAt": "2026-10-26T18:11:01Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8630,21 +8630,67 @@
       "officePerks": "Remote-first / Work at Home; Texas-specific eligibility not stated in the indexed JD.",
       "jobId": "JR-916896",
       "lastChecked": "2026-10-26",
-      "lastCheckedAt": "2026-10-26T07:11:26Z",
-      "officialStatus": "Open and indexed on Evolent Workday on 2026-10-26; official page showed Apply, Work at Home, Full time.",
+      "lastCheckedAt": "2026-10-26T18:11:01Z",
+      "officialStatus": "Official Evolent Workday page remained indexed and retrievable on 2026-10-26; aggregation inactive signal requires closure verification.",
       "verificationFlags": [
         "experience-verification",
         "start-date-verification",
         "texas-remote-verification",
         "visa-verification",
-        "compensation-verification"
+        "compensation-verification",
+        "status-verification"
       ],
       "upstreamRecordId": "7fb4df11-724b-4388-80ba-7b185189f957",
       "upstreamDiscoveredCommit": "3694fa372566f78a9326fd3de470c6a3945b373a",
       "sourceEvidence": [
         "Evolent official Workday page indexed as open, Work at Home, Full time, JR-916896.",
         "Publicly indexed current mirror describes AI-assisted engineering, governed data platforms, and ML/GenAI workload support."
-      ]
+      ],
+      "previousSourceStatus": "active",
+      "sourceStatus": "inactive",
+      "sourceStatusChangedAt": "2026-10-26T18:11:01Z",
+      "sourceStatusCommit": "fa91abc5dda8f22dd08d028a3aa1a040c9d18e9f"
+    },
+    {
+      "company": "Apple",
+      "tier": "S · 已核实排除",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Software Engineer, IS&T Early Career Opportunities (200688599-0157)",
+      "employment": "Full-time · Early Career · 40 hours",
+      "gradYear": "Early Career; official JD does not state a May-2027-compatible graduation or start window",
+      "match": "Brand/platform high, but role family is general enterprise software engineering rather than Applied AI/ML/Data Science",
+      "ngCompatibility": "Experience-compatible: bachelor's degree, programming fundamentals and prior internship; no 1+ year minimum found",
+      "assessment": "Apple's official Austin careers page was live and indexed on 2026-10-26 with Submit Resume. The role is a broad IS&T early-career pipeline covering frontend, iOS, backend, full-stack, quality engineering, SRE and SDET across teams including Enterprise Technology Services, Global Business Intelligence, SAP, Retail Engineering, Infrastructure Services and Corporate Systems Engineering. The posting does not guarantee an Applied AI/ML/Data Science placement. Under Qien's strict direction filter and Ryan opportunity-cost baseline, Apple brand alone is insufficient to recommend a generic SWE pipeline without a verified AI/ML/DS track. The aggregation source changed active to inactive, while Apple remains open, so status-verification is retained.",
+      "visa": "Official JD does not disclose F-1 OPT/STEM OPT, E-Verify/I-983 or future sponsorship policy; not further resolved because the role fails the Applied AI/ML/DS direction gate.",
+      "found": "2026-10-26",
+      "discoveredDate": "2026-10-26",
+      "discoveredAt": "2026-10-26T18:11:01Z",
+      "firstSeen": "2026-10-26T18:11:01Z",
+      "url": "https://jobs.apple.com/en-us/details/200688599-0157/software-engineer-is-t-early-career-opportunities",
+      "status": "direction-rejected",
+      "finalPriority": "Do not recommend · generic IS&T SWE pipeline; no verified Applied AI/ML/DS placement",
+      "roleTrack": "General Software Engineering / Enterprise IS&T",
+      "technicalGrowth": "Broad enterprise software engineering; AI/ML/DS depth not guaranteed",
+      "brandPlatform": "100/100 · Apple",
+      "ryanUpgrade": "Brand/platform potentially higher, but no verified Applied AI/ML/DS direction and no official compensation/start/visa details; not a clear overall upgrade over Ryan",
+      "compensation": "Official Austin posting did not disclose a role-specific salary range; third-party estimates were not used as official compensation.",
+      "officePerks": "Austin; 40 hours. Work mode and role-specific benefits not disclosed in the official indexed posting.",
+      "jobId": "200688599-0157",
+      "officialPostedDate": "2026-10-19",
+      "lastChecked": "2026-10-26",
+      "lastCheckedAt": "2026-10-26T18:11:01Z",
+      "officialStatus": "Open and indexed on Apple Careers on 2026-10-26 with Submit Resume; aggregation source marked inactive, so closure is not confirmed.",
+      "minimumQualifications": "Bachelor's degree in Computer Science, Computer Engineering, Engineering or equivalent; programming in Java/Python, web, iOS or scripting; CS fundamentals; prior internship experience.",
+      "verificationFlags": [
+        "status-verification"
+      ],
+      "rejectionReason": "Official role family is a broad generic enterprise SWE pipeline without a guaranteed Applied AI/ML/Data Science placement; Apple brand alone does not satisfy the Ryan-upgrade direction gate.",
+      "sourceStatus": "inactive",
+      "sourceStatusChangedAt": "2026-10-26T18:11:01Z",
+      "sourceStatusCommit": "fa91abc5dda8f22dd08d028a3aa1a040c9d18e9f",
+      "upstreamRecordId": "685e432a-5583-46a1-a7ac-d9819bab8f8d",
+      "discoverySource": "SimplifyJobs status delta plus Apple official Careers verification"
     }
   ],
   "monitorAudit": [
