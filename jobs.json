@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T01:49:34Z",
+  "updatedAt": "2026-10-27T12:50:56Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8812,6 +8812,56 @@
       "archiveUrl": "job-archive/abacus-insights/8917379002/job-description.md",
       "archiveLabel": "JD 归档",
       "archivedAt": "2026-10-27T01:49:34Z"
+    },
+    {
+      "company": "Thermo Fisher Scientific",
+      "tier": "B+",
+      "area": "Pittsburgh, PA · JD says can work remotely; Texas eligibility unconfirmed",
+      "market": "Remote / Texas eligibility verification",
+      "title": "Data Engineer",
+      "jobId": "R-01372756",
+      "sourceListingId": "dad4f37f-c017-4f05-82a4-52de0ab189cd",
+      "url": "https://jobs.thermofisher.com/global/en/job/R-01372756/Data-Engineer",
+      "status": "opportunity-cost-rejected",
+      "found": "2026-10-27",
+      "discoveredDate": "2026-10-27",
+      "discoveredAt": "2026-10-27T12:50:56Z",
+      "firstSeen": "2026-10-27",
+      "lastChecked": "2026-10-27",
+      "lastCheckedAt": "2026-10-27T12:50:56Z",
+      "employment": "Full-time · Entry-level · Pittsburgh official location; JD says can work remotely",
+      "gradYear": "0–2 years; internships, academic projects, certifications and practical experience may count",
+      "match": "Good entry-level data-engineering skills fit; no clear Applied AI/ML upgrade over Ryan",
+      "ngCompatibility": "Experience-compatible, but 2027 post-graduation start window is not stated",
+      "assessment": "Official employer JD is retrievable and describes an entry-level Databricks data-engineering role using SQL, Python, PySpark, Delta Lake, ETL/ELT, Git and CI/CD. The work centers on data pipelines, data models, analytics-ready datasets, validation and production support for enterprise functions rather than Applied AI/ML model development or agent systems. The JD says the role can work remotely but lists Pittsburgh and does not explicitly confirm Texas residence. Compensation, requisition-specific OPT/STEM OPT support and a 2027 start window are not stated. The source changed active→inactive while the employer page remains retrievable, so closure is not confirmed.",
+      "visa": "Verification unresolved · official JD does not state OPT/STEM OPT eligibility, unrestricted-work-authorization requirements or sponsorship policy for this requisition.",
+      "compensation": "Not stated in official JD",
+      "officePerks": "JD says the role can work remotely; official job location is Pittsburgh, Pennsylvania",
+      "officialLocations": [
+        "Pittsburgh, Pennsylvania, United States of America",
+        "Remote allowed per JD; eligible states not specified"
+      ],
+      "locationListComplete": false,
+      "officialStatus": "Employer-hosted page remained retrievable and indexed at 2026-10-27T12:50:56Z; Simplify source changed active→inactive, so status remains unresolved.",
+      "source": "SimplifyJobs/New-Grad-Positions status delta + Thermo Fisher Scientific official careers JD",
+      "officialSource": "https://jobs.thermofisher.com/global/en/job/R-01372756/Data-Engineer",
+      "verificationFlags": [
+        "status-verification",
+        "location-verification",
+        "start-date-verification",
+        "visa-verification",
+        "direction-opportunity-cost-rejected"
+      ],
+      "sourceState": "Simplify listing changed active→inactive in commit 436a383a1636d537a2acca4124049f2f176f10e8; official employer page remains retrievable.",
+      "finalPriority": "不投 · 未证明相对Ryan升级；保留状态冲突与资格核验记录",
+      "roleTrack": "Data Engineering / Databricks / SQL / PySpark / Enterprise Analytics",
+      "technicalGrowth": "74/100 for Qien’s Applied AI/ML/DS path",
+      "brandPlatform": "80/100 scientific and enterprise data platform",
+      "ryanUpgrade": "No clear upgrade: conventional data engineering rather than production Applied AI/ML; compensation, Texas eligibility, 2027 timing and OPT/STEM OPT compatibility are unconfirmed.",
+      "rejectionReason": "The verified duties do not provide a clear Applied AI/ML technical upgrade over Ryan, while compensation, Texas remote eligibility, 2027 start timing and OPT/STEM OPT compatibility remain unconfirmed.",
+      "archiveUrl": "job-archive/thermo-fisher-scientific/R-01372756/job-description.md",
+      "archiveLabel": "JD 归档",
+      "archivedAt": "2026-10-27T12:50:56Z"
     }
   ],
   "monitorAudit": [
