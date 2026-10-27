@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-27T17:30:00Z",
+    "checkedAtLocal": "2026-10-27T12:30:00-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_qualifying_change"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "228d61d476882a4fa88d5473df5f0fdff3ab1eab",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "653baaa167b1fab0542f30e5f9023b4e2b6cd27a",
+      "recordCount": 241,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-27T12:50:56Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-27T1143-Texas.json",
+      "blobSha": "b7a2e7804f14df0df8cb6152df4a92be16a1ab5c",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-27T16:44:02.647Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "e0170e3c9267f24dd78daaed5f4aa077455da75b",
+    "currentListingsCommit": "8497a745647deffe6db18b1e95a1891788cac4c7",
+    "listingsBlobBefore": "e64907b73105ea076cb610c113a04e1b879b5bde",
+    "listingsBlobAfter": "8320ae732dff7bc640d05c54a54ba485434388d8",
+    "repositoryHeadObserved": "c4a92d7a3e439d054f61aec4e583daf2879e9d86",
+    "commitsReviewed": [
+      "8497a745647deffe6db18b1e95a1891788cac4c7",
+      "c4a92d7a3e439d054f61aec4e583daf2879e9d86"
+    ],
+    "listingsCommitsReviewed": 1,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEvents": 3,
+    "statusChangeEvents": 3,
+    "newRecordEvents": 0
+  },
+  "screening": {
+    "discovered": 0,
+    "texasSignals": 0,
+    "officialJdsOpened": 1,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "evaluated": [
+      {
+        "company": "PIMCO",
+        "jobId": "R106236",
+        "title": "Quantitative Research Analyst - Client Solutions & Analytics",
+        "observedChange": "active_to_inactive",
+        "location": "Newport Beach, California",
+        "decision": "out_of_scope",
+        "reasons": [
+          "not Texas",
+          "not tracked in jobs.json"
+        ],
+        "locationEvidence": "official Workday URL in upstream record"
+      },
+      {
+        "company": "SAIC",
+        "jobId": "2618025",
+        "title": "Software Test Engineer",
+        "observedChange": "active_to_inactive",
+        "location": "Point Mugu NAWC, California",
+        "decision": "out_of_scope",
+        "reasons": [
+          "not Texas",
+          "defense software testing with Interim Secret/Secret clearance",
+          "not tracked in jobs.json"
+        ],
+        "officialSource": "https://jobs.saic.com/jobs/18365297-software-test-engineer",
+        "officialJdVerification": "official SAIC result identified the exact job ID and Point Mugu location"
+      },
+      {
+        "company": "RTX",
+        "jobId": "01881575",
+        "title": "Mechanical Engineer I",
+        "observedChange": "active_to_inactive",
+        "location": "Andover, Massachusetts",
+        "decision": "excluded",
+        "reasons": [
+          "not Texas",
+          "mechanical/hardware direction",
+          "not tracked in jobs.json"
+        ],
+        "locationEvidence": "official Workday URL in upstream record"
+      }
+    ],
+    "comparisonToRyan": "No role reached Ryan comparison because all three status changes failed deterministic location or function filters."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change"
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change"
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending",
+      "path": "monitor-audit/2026-10-27T1230-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-27T1230-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T16:44:02.647Z",
+    "lastSuccessfulWriteAt": "2026-10-27T16:44:02.647Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No verified qualifying job or tracked status change; all observed changes were outside Texas and/or excluded by function."
+  }
+}
