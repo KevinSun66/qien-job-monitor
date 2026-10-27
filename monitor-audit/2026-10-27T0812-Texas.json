@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-27T13:12:21Z",
+  "checkedAtLocal": "2026-10-27T08:12:21-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "02f691e5f81a4546cd8e9727430d5d336784aee8",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "653baaa167b1fab0542f30e5f9023b4e2b6cd27a",
+      "count": 241,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-27T12:50:56Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-27T0751-Texas.json",
+      "blobSha": "b4bc356a519f5ee36826eb79626d36efad8b534d",
+      "lastSuccessfulWriteAt": "2026-10-27T12:52:06Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "7a2ac07dfb5ec6583bf8efb5ac7ec5acc5de737b",
+    "currentListingsCommit": "51e9a90776f8b90edbc8ca454a462d35a9014390",
+    "repositoryHeadObserved": "9757c3a80efaf062b2cb79d5d03622a0f6886973",
+    "listingsCommitsReviewed": [
+      "51e9a90776f8b90edbc8ca454a462d35a9014390"
+    ],
+    "readmeCommitsReviewed": [
+      "9757c3a80efaf062b2cb79d5d03622a0f6886973"
+    ],
+    "listingsBlobBefore": "351162b92b924dd8441094611aa3310e96c35367",
+    "listingsBlobAfter": "51315f45a0952f58225fabe6851677794da641dc",
+    "verification": "Reviewed every upstream commit after the prior cursor. The listings commit contained two active-to-inactive events: Nokia Staff Product Test Capability Engineer 41675 in Allentown, Pennsylvania and Cummins Electronic Systems Engineer - Software 2427178 in Columbus, Indiana. The README-only commit changed company-label presentation for an NVIDIA Santa Clara circuit-design record and was not treated as a job event."
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 2,
+    "newRecordEventsReviewed": 0,
+    "removedRecordEventsReviewed": 0,
+    "statusChangeEventsReviewed": 2,
+    "texasOrRemoteCandidates": 0,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "newExcludedRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No new Dallas/Austin/Texas-eligible remote candidate and no verified status change to a stored role.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": [],
+    "existingRecordsChanged": [],
+    "coarseFilteredSignals": [
+      {
+        "company": "Nokia",
+        "title": "Staff Product Test Capability Engineer",
+        "jobId": "41675",
+        "location": "Allentown, Pennsylvania · onsite",
+        "sourceSignal": "active to inactive",
+        "reason": "Outside Texas and focused on photonic integrated circuits, optical-product validation, manufacturing test and hardware test yield; also targets MS/PhD graduates."
+      },
+      {
+        "company": "Cummins",
+        "title": "Electronic Systems Engineer - Software",
+        "jobId": "2427178",
+        "location": "Columbus, Indiana",
+        "sourceSignal": "active to inactive",
+        "reason": "Outside Texas and centered on embedded/product electronic systems software for Cummins products, not an Applied AI/ML/Data Science role."
+      }
+    ]
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [
+      "monitor-audit/2026-10-27T0812-Texas.json"
+    ],
+    "jobsBefore": {
+      "count": 241,
+      "blobSha": "653baaa167b1fab0542f30e5f9023b4e2b6cd27a"
+    },
+    "jobsAfter": {
+      "count": 241,
+      "blobSha": "653baaa167b1fab0542f30e5f9023b4e2b6cd27a"
+    },
+    "commits": [],
+    "reason": "Both source events were outside the Texas location scope and outside the Applied AI/ML/Data Science direction; only this standalone audit was written."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted",
+      "reason": "No verified in-scope job-data change.",
+      "jobsBlobSha": "653baaa167b1fab0542f30e5f9023b4e2b6cd27a",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-27T0812-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-27T0812-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T12:52:06Z",
+    "lastSuccessfulWriteAt": "2026-10-27T12:52:06Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying role, verified tracked status change or technical-failure threshold."
+  }
+}
