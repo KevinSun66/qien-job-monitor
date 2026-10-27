@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-27T21:08:31.234Z",
+    "checkedAtLocal": "2026-10-27T16:08:31-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_source_changes_filtered_out"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "9a7eb1eacc29fde0a3d14141eb8ec5d036511904",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "2d1fb410d7ba81368a820bcdd7d161bf8a08f1b8",
+      "recordCount": 241,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-27T18:59:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-27T1554-Texas.json",
+      "blobSha": "a9e399937e0087e53011cc4876cd8b8cfea0976d",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-27T20:55:20.131Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "de018534c6b63047ffe17d68f1cbb3652340bda9",
+    "currentListingsCommit": "397724807cd16d49f2cf0efe91d9e551d7ed39d8",
+    "listingsBlobBefore": "ecb3a3aff07c59864fcb1ec61328e3e194c59894",
+    "listingsBlobAfter": "5518dab6e24316792ae463c99f1ed44a63284327",
+    "repositoryHeadObserved": "ce7867bbbc8144b7240115368291feba2cb5e429",
+    "commitsReviewed": [
+      "397724807cd16d49f2cf0efe91d9e551d7ed39d8",
+      "ce7867bbbc8144b7240115368291feba2cb5e429"
+    ],
+    "listingsDataCommitsReviewed": 1,
+    "changedRecordEvents": 7,
+    "statusChangeEvents": 7,
+    "newRecordEvents": 0,
+    "changedRecords": [
+      {
+        "company": "NVIDIA",
+        "title": "GPU Power Architect New Grad",
+        "jobId": "JR2017169",
+        "change": "active_to_inactive",
+        "locationSignal": "Santa Clara, CA",
+        "decision": "out_of_scope_non_Texas"
+      },
+      {
+        "company": "Lowe's",
+        "title": "Associate Product Manager - Launchpad",
+        "jobId": "JR-02641560",
+        "change": "active_to_inactive",
+        "locationSignal": "Charlotte, NC",
+        "decision": "out_of_scope_non_Texas"
+      },
+      {
+        "company": "RTX",
+        "title": "Software Engineer 1",
+        "jobId": "01873222",
+        "change": "active_to_inactive",
+        "locationSignal": "Tewksbury, MA",
+        "decision": "out_of_scope_non_Texas"
+      },
+      {
+        "company": "Intel",
+        "title": "Foundry Cloud Services Developer",
+        "jobId": "JR0287203",
+        "change": "active_to_inactive",
+        "locationSignal": "Hillsboro, OR",
+        "decision": "out_of_scope_non_Texas"
+      },
+      {
+        "company": "Whoop",
+        "title": "Android Engineer 1",
+        "jobId": "2910a5f6-fb5e-4fe6-bb9a-24d6995d8173",
+        "change": "active_to_inactive",
+        "locationSignal": "non-Texas",
+        "decision": "out_of_scope_non_Texas"
+      },
+      {
+        "company": "DriveTime",
+        "title": "Analyst – Performance Reporting",
+        "jobId": "R16542",
+        "change": "active_to_inactive",
+        "locationSignal": "Tempe, AZ",
+        "decision": "out_of_scope_non_Texas"
+      },
+      {
+        "company": "Freedom Technology Solutions Group",
+        "title": "Junior Backend Developer",
+        "jobId": "5252868007",
+        "change": "active_to_inactive",
+        "locationSignal": "non-Texas",
+        "decision": "out_of_scope_non_Texas"
+      }
+    ],
+    "notes": [
+      "None of the seven inactive transitions matched Dallas, Austin, verified Texas-eligible remote work, or an existing qien-job-monitor record."
+    ]
+  },
+  "screening": {
+    "discovered": 0,
+    "sourceStatusSignals": 7,
+    "texasSignals": 0,
+    "officialJdsOpened": 0,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "Not applicable because every source change was outside the Texas monitoring scope."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change"
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change"
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending",
+      "path": "monitor-audit/2026-10-27T1608-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-27T1608-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T20:55:20.131Z",
+    "lastSuccessfulWriteAt": "2026-10-27T20:55:20.131Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "All seven upstream status signals were outside the Texas scope; there was no qualifying or tracked job change."
+  }
+}
