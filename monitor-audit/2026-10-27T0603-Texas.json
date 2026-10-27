@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-27T11:03:02Z",
+  "checkedAtLocal": "2026-10-27T06:03:02-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "b15244309412cf773d0469d3ba6a6efe1a83b256",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f",
+      "count": 240,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-27T01:49:34Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-27T0433-Texas.json",
+      "blobSha": "0a2af2e36a23b431c1b101b8eb3dcca04a8805bc",
+      "lastSuccessfulWriteAt": "2026-10-27T09:34:18Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "469af05d4edc16a7156f690f62ed0ff64c62d8b5",
+    "currentListingsCommit": "26344ad64c6fb3063abb502a4017b6f7fe68cd0a",
+    "repositoryHeadObserved": "7dce9977bfce0ff7c6dd1188d91f3a6441bb46ad",
+    "listingsCommitsReviewed": [
+      "fc415d6cd1a858a9279787a18fbc62d246d05ef5",
+      "1400dbc4882d676a52d7ddef812f648225692a7b",
+      "26344ad64c6fb3063abb502a4017b6f7fe68cd0a"
+    ],
+    "readmeCommitsReviewed": [
+      "637f4603a5696eb47b4a883b0c9b2b11e6626fe5",
+      "7dce9977bfce0ff7c6dd1188d91f3a6441bb46ad"
+    ],
+    "listingsBlobBefore": "6cdf6c50b186daa44f89c580aa384ea3fca60c05",
+    "listingsBlobAfter": "7a26c4600e95f407471b672ef1ef571ba1ae462e",
+    "verification": "Reviewed three listings commits and two README updates. The middle listings commit was a no-op. Two new Expedock Data Annotator records and two unrelated status flips were examined. Both official Expedock BambooHR pages were live and confirmed entry-level, project-based Operations work limited to basic image segmentation/object labeling, productivity tracking and QA. They are not full-time Applied AI/ML/Data Science engineering roles and offer no clear upgrade over Ryan, so they were coarse-filtered without tracker mutation or notification."
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 5,
+    "listingsCommitsReviewed": 3,
+    "readmeCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 4,
+    "newRecordEventsReviewed": 2,
+    "removedRecordEventsReviewed": 0,
+    "statusChangeEventsReviewed": 2,
+    "texasOrRemoteCandidates": 2,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "newExcludedRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No qualifying roles and no verified status changes to stored roles. The two Remote-USA signals were duplicate Expedock Data Annotator variants; official pages confirmed project-based annotation operations rather than Applied AI/ML/Data Science engineering, with no clear value over Ryan.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": [],
+    "existingRecordsChanged": [],
+    "coarseFilteredSignals": [
+      {
+        "company": "Expedock",
+        "title": "Data Annotator - US",
+        "jobId": "220",
+        "location": "United States (Remote); USA/LATAM",
+        "sourceSignal": "new active aggregator record",
+        "officialStatus": "open on official BambooHR page at check time",
+        "reason": "Entry-level project-based Operations work performing basic image segmentation/object labeling and QA under productivity tracking; not full-time Applied AI/ML/Data Science engineering and not a Ryan upgrade."
+      },
+      {
+        "company": "Expedock",
+        "title": "Data Annotator - LATAM",
+        "jobId": "224",
+        "location": "United States (Remote); USA/LATAM",
+        "sourceSignal": "new active aggregator record",
+        "officialStatus": "open on official BambooHR page at check time",
+        "reason": "Duplicate LATAM-labeled variant of the same entry-level project-based annotation duties; not full-time Applied AI/ML/Data Science engineering and not a Ryan upgrade."
+      },
+      {
+        "company": "Adidev Technologies Inc",
+        "title": "iOS Developer",
+        "sourceSignal": "active to inactive",
+        "reason": "General mobile software role, no Texas/remote evidence, and not present in the tracker."
+      },
+      {
+        "company": "Intel",
+        "title": "IP Design Verification Engineer",
+        "jobId": "JR0288395",
+        "location": "Santa Clara, CA",
+        "sourceSignal": "active to inactive",
+        "reason": "Outside location scope and hardware/IP verification direction; not present in the tracker."
+      }
+    ]
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [
+      "monitor-audit/2026-10-27T0603-Texas.json"
+    ],
+    "jobsBefore": {
+      "count": 240,
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f"
+    },
+    "jobsAfter": {
+      "count": 240,
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f"
+    },
+    "commits": [],
+    "reason": "No verified in-scope job-data or official status change; only this standalone audit was written."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted",
+      "reason": "No verified in-scope job-data change.",
+      "jobsBlobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-27T0603-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-27T0603-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T09:34:18Z",
+    "lastSuccessfulWriteAt": "2026-10-27T09:34:18Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying role, verified tracked status change, or technical-failure threshold."
+  }
+}
