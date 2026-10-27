@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T22:37:38Z",
+  "updatedAt": "2026-10-27T01:49:34Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8766,6 +8766,52 @@
       "archiveLabel": "JD 归档摘要",
       "archivedAt": "2026-10-26T22:37:38Z",
       "applicationStatus": "not-applied"
+    },
+    {
+      "company": "Abacus Insights",
+      "tier": "B+",
+      "area": "Remote US · Texas eligible",
+      "market": "Texas Remote",
+      "title": "Associate Data Engineer",
+      "jobId": "8917379002",
+      "sourceListingId": "83774569-427b-4fdc-8cdf-d17695ad5ae4",
+      "url": "https://job-boards.greenhouse.io/abacusinsights/jobs/8917379002",
+      "status": "opportunity-cost-rejected",
+      "found": "2026-10-26",
+      "discoveredDate": "2026-10-26",
+      "discoveredAt": "2026-10-27T01:49:34Z",
+      "firstSeen": "2026-10-26",
+      "lastChecked": "2026-10-26",
+      "lastCheckedAt": "2026-10-27T01:49:34Z",
+      "employment": "Full-time · Early career · Remote US",
+      "gradYear": "Recent graduate · Bachelor’s/Master’s or equivalent academic/project/internship experience; no minimum professional experience",
+      "match": "High skills fit for entry-level data engineering, but low opportunity-cost fit versus Ryan",
+      "ngCompatibility": "High · official JD is designed for recent graduates and accepts coursework, projects, research and internships",
+      "assessment": "Official Greenhouse page is open and explicitly welcomes F-1 OPT candidates. The work covers SQL, data profiling/mapping, data extracts, validation, root-cause analysis and cloud data services, with Databricks/Spark/Snowflake/ETL exposure preferred. It is a credible early-career data-engineering role, but core duties are client-facing data distribution and quality delivery rather than Applied AI/ML model development or production agent systems. At $62,400, compensation is materially below the Ryan Associate Data Scientist return-offer baseline, so remote flexibility and equity do not create a clear combined upgrade.",
+      "visa": "Official JD explicitly welcomes candidates currently authorized under F-1 Optional Practical Training (OPT); must be authorized to work in the United States at hire. Future sponsorship/STEM OPT employer support is not separately stated, but initial OPT compatibility is confirmed.",
+      "compensation": "$30/hour or $62,400 per annum (official) + equity and benefits",
+      "officePerks": "Remote US / work from anywhere; unlimited PTO; health coverage; equity; home-office allowance; monthly cell-phone allowance",
+      "officialLocations": [
+        "United States · Remote"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Open on official Greenhouse page at 2026-10-27T01:49:34Z; Apply button and live application form displayed.",
+      "source": "Abacus Insights official Greenhouse JD; discovered through SimplifyJobs/New-Grad-Positions commit 29ee39c42fbd4d4a7d82c2ceeb2835a57da5b3e3",
+      "officialSource": "https://job-boards.greenhouse.io/abacusinsights/jobs/8917379002",
+      "verificationFlags": [
+        "direction-opportunity-cost-rejected",
+        "initial-opt-confirmed",
+        "future-sponsorship-not-stated"
+      ],
+      "finalPriority": "不投 · 薪资与Applied AI/ML深度明显低于Ryan基准",
+      "roleTrack": "Data Engineering / SQL / Healthcare Data Distribution",
+      "technicalGrowth": "76/100 for Qien’s Applied AI/ML/DS path",
+      "brandPlatform": "78/100 healthcare data platform",
+      "ryanUpgrade": "No clear upgrade: $62,400 is materially below Ryan, and duties focus on SQL/data extracts, mapping and client delivery rather than production Applied AI/ML.",
+      "rejectionReason": "Although entry-level, Remote US and explicitly OPT-compatible, the $62,400 compensation and data-extract/client-delivery scope are materially below the Ryan opportunity-cost baseline.",
+      "archiveUrl": "job-archive/abacus-insights/8917379002/job-description.md",
+      "archiveLabel": "JD 归档",
+      "archivedAt": "2026-10-27T01:49:34Z"
     }
   ],
   "monitorAudit": [
