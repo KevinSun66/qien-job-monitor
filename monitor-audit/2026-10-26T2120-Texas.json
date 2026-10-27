@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-27T02:20:48Z",
+  "checkedAtLocal": "2026-10-26T21:20:48-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "9ca886a1ec96fc66ad3cc36fbf583917e861b2e0",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f",
+      "count": 240,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-27T01:49:34Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T2049-Texas.json",
+      "blobSha": "8c0caa9e80ca6272b9c376c03cd0a8b44aa70bb8",
+      "lastSuccessfulWriteAt": "2026-10-27T01:50:38Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "29ee39c42fbd4d4a7d82c2ceeb2835a57da5b3e3",
+    "currentListingsCommit": "21b3685bf7e56b7c010f82abdb1f7a5ccb596cf8",
+    "repositoryHeadObserved": "bea2667162735ec71bc66d0a07595b06a93bc5ae",
+    "listingsCommitsReviewed": [
+      "21b3685bf7e56b7c010f82abdb1f7a5ccb596cf8"
+    ],
+    "readmeCommitsReviewed": [
+      "bea2667162735ec71bc66d0a07595b06a93bc5ae"
+    ],
+    "listingsBlobBefore": "dafbeff0d8e62221fd3c5cf39f34590e40ad2e1c",
+    "listingsBlobAfter": "ae88e8f13bee44a6beebec8cd564e43798596da4",
+    "verification": "Reviewed 14 source-status changes and 5 new records. New records were Atlanta, out-of-state or explicit hardware roles. Goldman Sachs 171569/171570 were officially confirmed as New York and Salt Lake City, not Texas. Deloitte 365230 and tracked 358043 produced active aggregation signals, but direct official pages returned 406 and both postings carry expired recruiting deadlines; no official open-state change was verified."
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 2,
+    "listingsCommitsReviewed": 1,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 19,
+    "newRecordEventsReviewed": 5,
+    "statusChangeEventsReviewed": 14,
+    "texasOrRemoteCandidates": 3,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "newExcludedRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No verified new qualifying role or verified tracked status change. All five newly added source records were outside Dallas/Austin or explicit hardware. Aggregation reactivations for Deloitte 365230 and 358043 were not treated as official reopenings because official pages could not be fetched and published deadlines had passed.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": [],
+    "coarseFilteredSignals": [
+      {
+        "company": "The Home Depot",
+        "title": "Associate Data Scientist - Generative BI",
+        "jobId": "Req192214",
+        "location": "Atlanta, GA",
+        "reason": "Outside Dallas/Austin and not verified as Texas-eligible remote."
+      },
+      {
+        "company": "NVIDIA",
+        "title": "Mixed Signal Design Engineer",
+        "jobId": "JR2025693",
+        "location": "Remote in USA / Santa Clara, CA",
+        "reason": "Explicit mixed-signal hardware; excluded by direction."
+      },
+      {
+        "company": "NVIDIA",
+        "title": "ASIC Design Engineer",
+        "jobId": "JR2026277",
+        "location": "United States / Santa Clara, CA / Canada",
+        "reason": "Explicit ASIC hardware; excluded by direction and no verified Texas location."
+      },
+      {
+        "company": "NVIDIA",
+        "title": "ASIC Verification Engineer - Memory Management",
+        "jobId": "JR2026341",
+        "location": "Madison, AL / Durham, NC / Hillsboro, OR",
+        "reason": "Explicit ASIC hardware and outside Texas."
+      },
+      {
+        "company": "University of Pennsylvania",
+        "title": "Predoctoral Research Specialist - Rodney White Center",
+        "jobId": "JR00127509-1",
+        "location": "Philadelphia, PA",
+        "reason": "Outside Texas and not a Texas-eligible remote role."
+      }
+    ],
+    "statusSignalsReviewed": [
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171570",
+        "signal": "active to inactive",
+        "officialVerification": "Official result identifies Salt Lake City, UT; outside scope."
+      },
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171569",
+        "signal": "active to inactive",
+        "officialVerification": "Official result identifies New York, NY; outside scope."
+      },
+      {
+        "company": "Deloitte",
+        "jobId": "365230",
+        "signal": "inactive to active",
+        "decision": "No persisted change; Austin role is Winter 2027 with expected graduation by Fall 2026 and an expired recruiting deadline; official URL returned 406."
+      },
+      {
+        "company": "Deloitte",
+        "jobId": "358043",
+        "signal": "inactive to active",
+        "decision": "Existing status-verification record preserved; official URL returned 406 and the published 2026-10-25 deadline has passed, so no verified reopening."
+      }
+    ],
+    "existingRecordsChanged": []
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [
+      "monitor-audit/2026-10-26T2120-Texas.json"
+    ],
+    "jobsBefore": {
+      "count": 240,
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f"
+    },
+    "jobsAfter": {
+      "count": 240,
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f"
+    },
+    "commits": [],
+    "reason": "No verified real job-data or official status change; jobs.json, pages, archives and application states were left unchanged. Only this standalone audit was written."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted",
+      "reason": "No verified job-data change.",
+      "jobsBlobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-26T2120-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T2120-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T01:50:38Z",
+    "lastSuccessfulWriteAt": "2026-10-27T01:50:38Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying role, verified status change, or technical-failure threshold."
+  }
+}
