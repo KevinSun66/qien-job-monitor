@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-27T14:23:39Z",
+  "checkedAtLocal": "2026-10-27T09:23:39-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "3c3806de761be84a7508b0a2167e88c32b049250",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "653baaa167b1fab0542f30e5f9023b4e2b6cd27a",
+      "count": 241,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-27T12:50:56Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-27T0812-Texas.json",
+      "blobSha": "7a5fba8fbb9b5c7e9151b0a97f7d998a99d59303",
+      "lastSuccessfulWriteAt": "2026-10-27T13:12:38Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "51e9a90776f8b90edbc8ca454a462d35a9014390",
+    "currentListingsCommit": "72ab8d9326d42c1afeeb52a11d85edf996d14411",
+    "repositoryHeadObserved": "79c702150e00bd44e7306385cb1957bbcfdee9f8",
+    "listingsCommitsReviewed": [
+      "4d421bcbdbe2afa82354426ccc9ba78f9eea1fac",
+      "72ab8d9326d42c1afeeb52a11d85edf996d14411"
+    ],
+    "readmeCommitsReviewed": [
+      "e153db0d44c1c3c6546bc6049e1d95b5ce327ff1",
+      "79c702150e00bd44e7306385cb1957bbcfdee9f8"
+    ],
+    "listingsBlobBefore": "51315f45a0952f58225fabe6851677794da641dc",
+    "listingsBlobAfter": "7f4b475a58612c8448dd219f9f267e9e5edfd9e8",
+    "verification": "Reviewed all upstream commits after the prior cursor. Seven listing status events were present: Apollo Mission Critical Engineering, RTX, Neko Health, Optimove, Whoop, Octopus Energy and UT Southwestern. README changes reflected the same source states and were not independently counted as job events."
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "readmeCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 7,
+    "newRecordEventsReviewed": 0,
+    "removedRecordEventsReviewed": 0,
+    "statusChangeEventsReviewed": 7,
+    "texasOrRemoteCandidates": 1,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "newExcludedRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No qualifying role and no verified change to a stored role. The only Texas signal was a Dallas clinical-quality data-coordination position outside the Applied AI/ML/Data Science target and below the Ryan technical-growth threshold.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": [],
+    "existingRecordsChanged": [],
+    "coarseFilteredSignals": [
+      {
+        "company": "UT Southwestern Medical Center",
+        "title": "Clinical Quality Data Coordinator I",
+        "jobId": "973896",
+        "location": "Dallas, Texas",
+        "sourceSignal": "active to inactive",
+        "officialVerification": "Official employer result remains indexed. Bachelor's degree permits no prior experience; without a degree, one year of equivalent clinical or healthcare data-management experience is required.",
+        "reason": "Clinical quality data coordination and analytical support rather than Applied AI/ML/Data Science engineering; no clear technical, platform or compensation upgrade over Ryan."
+      },
+      {
+        "company": "Whoop",
+        "title": "Software Engineer 1 (Frontend) - AI Platform",
+        "location": "Boston, Massachusetts",
+        "sourceSignal": "active to inactive",
+        "reason": "Outside Texas; frontend role rather than core Applied AI/ML."
+      },
+      {
+        "company": "Apollo Mission Critical Engineering",
+        "title": "Software Engineering Associate - Software Development Associate",
+        "location": "Mableton, Georgia",
+        "sourceSignal": "active to inactive",
+        "reason": "Outside Texas and not a verified Texas-remote role."
+      },
+      {
+        "company": "RTX",
+        "title": "Flight Control Software Engineer I",
+        "jobId": "01870923",
+        "location": "Cedar Rapids, Iowa · onsite",
+        "sourceSignal": "inactive to active",
+        "reason": "Outside Texas and flight-control/embedded aerospace direction."
+      },
+      {
+        "company": "Neko Health",
+        "title": "AI Acceleration Specialist",
+        "location": "London / Berlin / Stockholm",
+        "sourceSignal": "active to inactive",
+        "reason": "Outside United States/Texas."
+      },
+      {
+        "company": "Optimove",
+        "title": "Machine Learning Engineer",
+        "jobId": "4986565101",
+        "location": "Dundee, Scotland",
+        "sourceSignal": "active to inactive",
+        "reason": "Outside United States/Texas."
+      },
+      {
+        "company": "Octopus Energy",
+        "title": "Graduate Hardware Engineer",
+        "sourceSignal": "active to inactive",
+        "reason": "Explicit hardware role; excluded before location/authorization review."
+      }
+    ]
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [
+      "monitor-audit/2026-10-27T0923-Texas.json"
+    ],
+    "jobsBefore": {
+      "count": 241,
+      "blobSha": "653baaa167b1fab0542f30e5f9023b4e2b6cd27a"
+    },
+    "jobsAfter": {
+      "count": 241,
+      "blobSha": "653baaa167b1fab0542f30e5f9023b4e2b6cd27a"
+    },
+    "commits": [],
+    "reason": "No verified in-scope role offered a clear Ryan upgrade, and none of the status signals affected an existing stored record; only this standalone audit was written."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted",
+      "reason": "No verified in-scope job-data change.",
+      "jobsBlobSha": "653baaa167b1fab0542f30e5f9023b4e2b6cd27a",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-27T0923-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-27T0923-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T13:12:38Z",
+    "lastSuccessfulWriteAt": "2026-10-27T13:12:38Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying role, verified tracked status change or technical-failure threshold."
+  }
+}
