@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-27T23:19:36.804Z",
+    "checkedAtLocal": "2026-10-27T18:19:36-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_verified_records_added_no_qualified_alert"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "c77e9e9a817ad57f04278a85e5c1c6cb3f253999",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "2d1fb410d7ba81368a820bcdd7d161bf8a08f1b8",
+      "recordCount": 241,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-27T18:59:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-27T1721-Texas.json",
+      "blobSha": "105bf5cf3e48974ee82e17dc9d0f0af100a68841",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-27T22:21:56.119Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "397724807cd16d49f2cf0efe91d9e551d7ed39d8",
+    "currentListingsCommit": "5e7e7616e730a4ce9191884b5da7e1cce7d0e5de",
+    "listingsBlobBefore": "5518dab6e24316792ae463c99f1ed44a63284327",
+    "listingsBlobAfter": "a33fb239c0eeb6e9e6ccb56af05f19d6e561d254",
+    "repositoryHeadObserved": "d11025cc0b759de6426c6b448da15bb8e1ddcc2a",
+    "commitsReviewed": [
+      "0f794a2729a1b6eb86a64ff40dcef6887bf51ea2",
+      "acc890f4cd3e231566e0c60f5c1f55f497c184fc",
+      "5e7e7616e730a4ce9191884b5da7e1cce7d0e5de",
+      "d11025cc0b759de6426c6b448da15bb8e1ddcc2a"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "changedRecordEvents": 62,
+    "newRecordEvents": 55,
+    "statusChangeEvents": 7,
+    "texasSignals": 8,
+    "notes": [
+      "Texas signals: AT&T R-124488-1; Fab2 Computer Vision; Amazon 10526808; Emerson 26013042; Resurgent embedded firmware intern; SambaNova 6224938004, 6224835004 and 6224843004.",
+      "Resurgent was an internship and embedded/firmware role, so it was excluded without adding a full-time record."
+    ]
+  },
+  "screening": {
+    "discovered": 8,
+    "fullTimeTexasRecordsReviewed": 7,
+    "internshipsExcluded": 1,
+    "officialJdsOpened": 4,
+    "publicEmployerSuppliedJdMirrorsReviewed": 3,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": true,
+    "recordsAdded": 7,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 7,
+    "records": [
+      {
+        "company": "AT&T",
+        "jobId": "R-124488-1",
+        "decision": "pending_verification",
+        "reasons": [
+          "start-date-verification",
+          "visa-verification"
+        ]
+      },
+      {
+        "company": "Fab2",
+        "jobId": "d9edb922-6cae-4e65-9b20-ba452f3e2edf",
+        "decision": "rejected",
+        "reasons": [
+          "semiconductor-equipment-direction"
+        ]
+      },
+      {
+        "company": "Amazon / Annapurna Labs",
+        "jobId": "10526808",
+        "decision": "rejected",
+        "reasons": [
+          "processor-kernel-low-level-direction"
+        ]
+      },
+      {
+        "company": "Emerson",
+        "jobId": "26013042",
+        "decision": "rejected",
+        "reasons": [
+          "F-1 OPT/CPT explicitly excluded",
+          "embedded-driver-direction"
+        ]
+      },
+      {
+        "company": "SambaNova Systems",
+        "jobId": "6224938004",
+        "decision": "pending_verification",
+        "reasons": [
+          "start-date-verification",
+          "visa-verification"
+        ],
+        "ryanComparison": "Potential major upgrade in ML infrastructure depth and compensation, if eligibility closes."
+      },
+      {
+        "company": "SambaNova Systems",
+        "jobId": "6224835004",
+        "decision": "rejected",
+        "reasons": [
+          "specialized compiler/accelerator experience",
+          "low-level direction"
+        ]
+      },
+      {
+        "company": "SambaNova Systems",
+        "jobId": "6224843004",
+        "decision": "rejected",
+        "reasons": [
+          "kernel-driver-runtime-low-level direction"
+        ]
+      }
+    ],
+    "comparisonToRyan": "AT&T and SambaNova ML Infrastructure have potential upside but remain unqualified until post-May-2027 start and F-1 OPT/STEM OPT compatibility are confirmed. All other reviewed Texas full-time records fail the standing direction, visa, or skills filters."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "succeeded",
+      "path": "jobs.json",
+      "commit": "bceaf6cda8666ca307541fa1c81ffd44253c19ca",
+      "contentSha": "80ad9257aac41bf691218ffca2763aace5096390",
+      "recordCountBefore": 241,
+      "recordCountAfter": 248,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "succeeded",
+      "count": 7,
+      "commits": [
+        "a22a760330c34b579c4ee2ea3e84f4240ffca64d",
+        "f8942350441f147af1ffaf324ac610e57342201b",
+        "57015353779cf277d81d32cb7298809c8c18d17a",
+        "a69c91ddf0d9689f334cce3083ad3fe203aa8843",
+        "cb5d9755e19ac673572d47c8cf69730ab3d30982",
+        "621a38ecbaab982d2139ed0a144b19012585e703",
+        "2d299c49d9b9c357dc66ef13620ba00c4866684d"
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending",
+      "path": "monitor-audit/2026-10-27T1819-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-27T1819-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T22:21:56.119Z",
+    "lastSuccessfulWriteAt": "2026-10-27T22:21:56.119Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No fully verified role qualified for notification; the two high-potential roles still require start-date and F-1 OPT/STEM OPT verification, and the other roles were rejected by standing filters."
+  }
+}
