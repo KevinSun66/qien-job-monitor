@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-27T16:08:52Z",
+    "checkedAtLocal": "2026-10-27T11:08:52-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_qualifying_change"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "a14fcd59dff9dbb728094d9170f2bef3e5ac28a1",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "653baaa167b1fab0542f30e5f9023b4e2b6cd27a",
+      "recordCount": 241,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-27T12:50:56Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-27T0923-Texas.json",
+      "blobSha": "2f4bd400d8ea4e57259d3aa75df3570f9bafd6a2",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-27T14:23:58Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "72ab8d9326d42c1afeeb52a11d85edf996d14411",
+    "currentListingsCommit": "e0170e3c9267f24dd78daaed5f4aa077455da75b",
+    "listingsBlobBefore": "7f4b475a58612c8448dd219f9f267e9e5edfd9e8",
+    "listingsBlobAfter": "e64907b73105ea076cb610c113a04e1b879b5bde",
+    "repositoryHeadObserved": "ee101a785cb2048bcea7910bc55499a7e49ef494",
+    "commitsReviewed": [
+      "78a891db3da76edee87d1aef9689b93aeb891ff7",
+      "2f5db7663ab2d1cfb0e200373a32b76eb1b5d121",
+      "e0170e3c9267f24dd78daaed5f4aa077455da75b",
+      "a9e564a7cc50e9a5089b811945873951d3e9a6d7",
+      "8593f1526f9d157034849b49169637a189e95112",
+      "ee101a785cb2048bcea7910bc55499a7e49ef494"
+    ],
+    "listingsCommitsReviewed": 4,
+    "readmeCommitsReviewed": 2,
+    "changedRecordEvents": 17,
+    "statusChangeEvents": 8,
+    "newRecordEvents": 9,
+    "notes": [
+      "The final two repository commits produced no listings blob change.",
+      "Goldman Sachs job IDs 171570 and 171569 flipped active to inactive and back to active within the review window; neither ID is tracked in jobs.json.",
+      "No tracked Dallas/Austin record changed status."
+    ]
+  },
+  "screening": {
+    "texasSignals": 1,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "evaluated": [
+      {
+        "company": "RTX",
+        "jobId": "01881232",
+        "title": "Embedded Software Engineer I",
+        "location": "McKinney, Texas",
+        "observedChange": "inactive_to_active",
+        "officialJdVerification": "not attempted after deterministic function exclusion",
+        "decision": "excluded",
+        "reasons": [
+          "embedded software",
+          "hardware/embedded/firmware exclusion"
+        ],
+        "trackedInJobsJson": false
+      }
+    ],
+    "otherSignalsExcludedBeforeFullJDReview": [
+      "RTX 01876996 FPGA/ASIC Engineer 1 — Cambridge, Massachusetts; hardware",
+      "AIG JR2604029-1 Junior Data Analyst Fraud and Recovery — London, United Kingdom",
+      "State Employees' Credit Union JR-16697 Associate Credit Review Data Scientist — North Carolina",
+      "Northrop Grumman R10257768 Associate Software Engineer / Software Engineer — Colorado Springs, Colorado",
+      "Amazon 10589773 Software Development Engineer 2027 — United Kingdom",
+      "Amazon 10589671 Software Development Engineer, Amazon Devices Ring/Blink — United Kingdom and device hardware",
+      "CrossCountry Consulting Forward Deployed Software Engineer, New Grad — New York and Chicago",
+      "Octasic Software Developer postings — Montreal, Canada and hardware category",
+      "RTX 01885126 Software Engineer II — Marlborough, Massachusetts"
+    ],
+    "comparisonToRyan": "No role reached full verification or comparison because none passed deterministic location/function filters."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change"
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change"
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending",
+      "path": "monitor-audit/2026-10-27T1108-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-27T1108-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T14:23:58Z",
+    "lastSuccessfulWriteAt": "2026-10-27T14:23:58Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No verified qualifying job or tracked status change; no clear upgrade over Ryan baseline."
+  }
+}
