@@ -138,21 +138,19 @@
       "readbackVerified": true
     },
     "audit": {
-      "status": "pending",
+      "status": "synced",
       "path": "monitor-audit/2026-10-27T0603-Texas.json",
-      "initialCommit": null,
-      "contentShaBeforeFinalization": null,
-      "syncedAt": null,
-      "readbackVerified": false,
-      "branchHeadVerified": false
+      "initialCommit": "cc5956fc10b84cb835dc579181bad97ece4d2508",
+      "contentShaBeforeFinalization": "93ef86e33f613548c9c7c9e0aa3776f85daf662c",
+      "syncedAt": "2026-10-27T11:03:42Z",
+      "readbackVerified": true,
+      "branchHeadVerified": true
     },
-    "synced": false,
-    "pendingSync": [
-      "monitor-audit/2026-10-27T0603-Texas.json"
-    ],
+    "synced": true,
+    "pendingSync": [],
     "consecutiveWriteFailures": 0,
     "lastSuccessfulWriteAtBeforeRun": "2026-10-27T09:34:18Z",
-    "lastSuccessfulWriteAt": "2026-10-27T09:34:18Z"
+    "lastSuccessfulWriteAt": "2026-10-27T11:03:42Z"
   },
   "notification": {
     "sent": false,
