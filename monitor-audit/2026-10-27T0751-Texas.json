@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-27T12:51:43Z",
+  "checkedAtLocal": "2026-10-27T07:51:43-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "ba7d083c5ecbcdc0de98f279bfcf9a511e757581",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f",
+      "count": 240,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-27T01:49:34Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-27T0633-Texas.json",
+      "blobSha": "a028a06b44bcf38a430be70a900de9c16a7ca8cd",
+      "lastSuccessfulWriteAt": "2026-10-27T11:33:44Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "13f2fc2ec115d1f86f0432641a529cc504aa7eba",
+    "currentListingsCommit": "7a2ac07dfb5ec6583bf8efb5ac7ec5acc5de737b",
+    "repositoryHeadObserved": "c9917b3159b2412f4cd5e7e2f28cf6e6ff8436eb",
+    "listingsCommitsReviewed": [
+      "436a383a1636d537a2acca4124049f2f176f10e8",
+      "7a2ac07dfb5ec6583bf8efb5ac7ec5acc5de737b"
+    ],
+    "readmeCommitsReviewed": [
+      "e730dc58b7257fbff08bd32702a5e1461d8e462e",
+      "c9917b3159b2412f4cd5e7e2f28cf6e6ff8436eb"
+    ],
+    "listingsBlobBefore": "c5d70bd1dc20e7445e6ebef8468cc9768cef150c",
+    "listingsBlobAfter": "351162b92b924dd8441094611aa3310e96c35367",
+    "verification": "Reviewed all upstream commits after the prior cursor. Three listing status events occurred: Thermo Fisher Data Engineer R-01372756 (active to inactive), Adidev Android Developer (active to inactive), and Meta Research Engineer AI 1395718268613427 (active to inactive). README-only commits changed presentation metadata and were not treated as job events."
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "readmeCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 3,
+    "newRecordEventsReviewed": 0,
+    "removedRecordEventsReviewed": 0,
+    "statusChangeEventsReviewed": 3,
+    "texasOrRemoteCandidates": 1,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "newExcludedRoles": 1,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No qualifying role or recommendation. One credible remote-capable entry-level data-engineering role was archived as an opportunity-cost rejection with status/location/start-date/visa uncertainty preserved; two other signals were outside scope.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": [
+      {
+        "company": "Thermo Fisher Scientific",
+        "title": "Data Engineer",
+        "jobId": "R-01372756",
+        "officialUrl": "https://jobs.thermofisher.com/global/en/job/R-01372756/Data-Engineer",
+        "location": "Pittsburgh, Pennsylvania; JD says can work remotely but Texas eligibility is not explicit",
+        "sourceSignal": "active to inactive; official employer page remains retrievable, so closure is not confirmed",
+        "experience": "0–2 years; internships, academic projects, certifications and hands-on projects may count",
+        "workAuthorization": "Requisition-specific OPT/STEM OPT and sponsorship policy not stated",
+        "duties": "Databricks, SQL, Python, PySpark, Delta Lake, ETL/ELT, data models, validation and production support",
+        "decision": "opportunity-cost-rejected",
+        "reason": "Conventional enterprise data engineering does not establish a clear Applied AI/ML upgrade over Ryan; compensation, Texas eligibility, 2027 timing and OPT/STEM OPT compatibility are unconfirmed.",
+        "archive": "job-archive/thermo-fisher-scientific/R-01372756/job-description.md"
+      }
+    ],
+    "existingRecordsChanged": [],
+    "coarseFilteredSignals": [
+      {
+        "company": "Adidev Technologies Inc",
+        "title": "Android Developer",
+        "sourceSignal": "active to inactive",
+        "reason": "Mobile-app role, minimum 1–2 years, and no verified Dallas/Austin placement; outside Applied AI/ML/Data Science criteria."
+      },
+      {
+        "company": "Meta",
+        "title": "Research Engineer - AI",
+        "jobId": "1395718268613427",
+        "location": "Montreal, Canada",
+        "sourceSignal": "active to inactive",
+        "reason": "Strong AI direction but outside the United States/Texas location scope and not present in the tracker."
+      }
+    ]
+  },
+  "dataChanges": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": true,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [
+      "job-archive/thermo-fisher-scientific/R-01372756/job-description.md",
+      "jobs.json",
+      "monitor-audit/2026-10-27T0751-Texas.json"
+    ],
+    "jobsBefore": {
+      "count": 240,
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f"
+    },
+    "jobsAfter": {
+      "count": 241,
+      "blobSha": "653baaa167b1fab0542f30e5f9023b4e2b6cd27a"
+    },
+    "commits": [
+      {
+        "path": "job-archive/thermo-fisher-scientific/R-01372756/job-description.md",
+        "commit": "8ebace81513ce5259eff4a8d44fdf1817e2d249b"
+      },
+      {
+        "path": "jobs.json",
+        "commit": "2db06e48ef42c3f9697d2d94bd373f605f525339"
+      }
+    ],
+    "reason": "A previously untracked, official-JD-verifiable entry-level remote-capable data-engineering role was archived for deduplication as an opportunity-cost rejection. Dallas/Austin pages and all application statuses were preserved."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commit": "2db06e48ef42c3f9697d2d94bd373f605f525339",
+      "jobsBlobSha": "653baaa167b1fab0542f30e5f9023b4e2b6cd27a",
+      "archiveCommit": "8ebace81513ce5259eff4a8d44fdf1817e2d249b",
+      "archiveBlobSha": "d9a7f4b2fd8f7082f987abb3838e6b50f69eb403",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-27T0751-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-27T0751-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T11:33:44Z",
+    "lastSuccessfulWriteAt": "2026-10-27T12:51:32Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying role or verified high-value status change; the only in-scope signal was unsuitable relative to Ryan and was archived silently."
+  }
+}
