@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-27T00:20:34Z",
+  "checkedAtLocal": "2026-10-26T19:20:34-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "6a5aef341a69a5a5c9b5287d64e8b226b04a6a4f",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "27c6e1657376503c42ad1f2cca5a38b6f7215474",
+      "count": 239,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-26T22:37:38Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T1815-Texas.json",
+      "blobSha": "617eb58a027185934d128cfb70f084c2fa9a73b6",
+      "lastSuccessfulWriteAt": "2026-10-26T23:16:29Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "a87eaa823cf6d0040028bebefc2d948c3378d983",
+    "currentListingsCommit": "c52c150d953684f798f4a58efb116834698cb003",
+    "repositoryHeadObserved": "c52c150d953684f798f4a58efb116834698cb003",
+    "listingsCommitsReviewed": [
+      "7ebdf51c496cf0ee1acc40940957901f54eea970",
+      "c52c150d953684f798f4a58efb116834698cb003"
+    ],
+    "readmeCommitsReviewed": [
+      "a5a342ce5fcb6b9a5a55317cd1ed4bda8504750d"
+    ],
+    "listingsBlobBefore": "7a1c8fd613359c83fe1d18039cac9f016f364db7",
+    "listingsBlobAfter": "53b6980e8c18f48926f19f9e1f0915ed2dacf173",
+    "verification": "Commit 7ebdf5 removed 10 stale records: one U-Haul hardware role in South Carolina and nine Sainsbury's retail trading-assistant records in the UK. Commit c52c15 produced no listings blob change. No Texas, US-remote, or tracked-role event occurred."
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 2,
+    "readmeCommitsReviewed": 1,
+    "changedRecordEventsReviewed": 10,
+    "newRecordEventsReviewed": 0,
+    "removedRecordEventsReviewed": 10,
+    "statusChangeEventsReviewed": 0,
+    "texasOrRemoteCandidates": 0,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "newExcludedRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No Dallas/Austin, Texas-eligible remote, or tracked-role changes were present in the new upstream interval. All 10 removed records were outside location and role scope; the following listings commit was a no-op.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": [],
+    "existingRecordsChanged": [],
+    "outOfScopeCleanup": [
+      {
+        "company": "U-Haul",
+        "count": 1,
+        "reason": "South Carolina hitch-installer/hardware role; outside geography and Applied AI/ML/Data Science."
+      },
+      {
+        "company": "Sainsbury's",
+        "count": 9,
+        "reason": "United Kingdom retail trading-assistant roles; outside geography and target occupation."
+      }
+    ]
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [],
+    "reason": "No verified role or effective status/qualification change required changes to jobs.json, pages, application states, or JD archives."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted",
+      "reason": "No verified job-data change.",
+      "jobsBlobSha": "27c6e1657376503c42ad1f2cca5a38b6f7215474",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-26T1920-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T1920-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-26T23:16:29Z",
+    "lastSuccessfulWriteAt": "2026-10-26T23:16:29Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying role, actionable status change, or technical-failure threshold."
+  }
+}
