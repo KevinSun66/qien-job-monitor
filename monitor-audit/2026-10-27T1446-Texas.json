@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-27T19:46:51Z",
+    "checkedAtLocal": "2026-10-27T14:46:51-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_source_data_change"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "56dcf33b8c96599ef7e1dab41943d5967fac918c",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "2d1fb410d7ba81368a820bcdd7d161bf8a08f1b8",
+      "recordCount": 241,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-27T18:59:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-27T1359-Texas.json",
+      "blobSha": "816725293292e133e5e0cc22d35abc694c4bb09f",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-27T18:59:47.792Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "de018534c6b63047ffe17d68f1cbb3652340bda9",
+    "currentListingsCommit": "de018534c6b63047ffe17d68f1cbb3652340bda9",
+    "listingsBlobBefore": "ecb3a3aff07c59864fcb1ec61328e3e194c59894",
+    "listingsBlobAfter": "ecb3a3aff07c59864fcb1ec61328e3e194c59894",
+    "repositoryHeadObserved": "3babd3238984994b1ee5f310d9ea7d6fafa07e9d",
+    "commitsReviewed": [
+      "8b0bf48fac0e459d57d27b5c82b77b05c1100c4b",
+      "3babd3238984994b1ee5f310d9ea7d6fafa07e9d"
+    ],
+    "listingsCommitsReviewed": 2,
+    "changedRecordEvents": 0,
+    "statusChangeEvents": 0,
+    "newRecordEvents": 0,
+    "notes": [
+      "Both observed update commits had no diff and preserved the listings blob SHA."
+    ]
+  },
+  "screening": {
+    "discovered": 0,
+    "texasSignals": 0,
+    "officialJdsOpened": 0,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "Not applicable because the upstream listings data did not change."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change"
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change"
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending",
+      "path": "monitor-audit/2026-10-27T1446-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-27T1446-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T18:59:47.792Z",
+    "lastSuccessfulWriteAt": "2026-10-27T18:59:47.792Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No source data change, verified qualifying job, or tracked status change."
+  }
+}
