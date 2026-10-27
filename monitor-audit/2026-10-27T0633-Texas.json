@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-27T11:33:18Z",
+  "checkedAtLocal": "2026-10-27T06:33:18-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "66b22d0f41bf4152d128cab11227a372ac2c3a2b",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f",
+      "count": 240,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-27T01:49:34Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-27T0603-Texas.json",
+      "blobSha": "939db9b952166ae7553153806b832bf22f6d31ec",
+      "lastSuccessfulWriteAt": "2026-10-27T11:03:42Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "26344ad64c6fb3063abb502a4017b6f7fe68cd0a",
+    "currentListingsCommit": "13f2fc2ec115d1f86f0432641a529cc504aa7eba",
+    "repositoryHeadObserved": "13f2fc2ec115d1f86f0432641a529cc504aa7eba",
+    "listingsCommitsReviewed": [
+      "13f2fc2ec115d1f86f0432641a529cc504aa7eba"
+    ],
+    "readmeCommitsReviewed": [],
+    "listingsBlobBefore": "7a26c4600e95f407471b672ef1ef571ba1ae462e",
+    "listingsBlobAfter": "c5d70bd1dc20e7445e6ebef8468cc9768cef150c",
+    "verification": "The only new source event was Ciena Signal and Power Integrity Engineer New Grad in Ottawa changing active to inactive. It is outside the United States/Texas location scope and is a signal/power-integrity hardware direction, so no official in-scope verification or tracker mutation was warranted."
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 1,
+    "listingsCommitsReviewed": 1,
+    "readmeCommitsReviewed": 0,
+    "changedRecordEventsReviewed": 1,
+    "newRecordEventsReviewed": 0,
+    "removedRecordEventsReviewed": 0,
+    "statusChangeEventsReviewed": 1,
+    "texasOrRemoteCandidates": 0,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "newExcludedRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No new Texas or Texas-eligible remote candidates and no verified status changes to stored roles.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": [],
+    "existingRecordsChanged": [],
+    "coarseFilteredSignals": [
+      {
+        "company": "Ciena",
+        "title": "Signal and Power Integrity Engineer New Grad",
+        "jobId": "R031795",
+        "location": "Ottawa, Canada",
+        "sourceSignal": "active to inactive",
+        "reason": "Outside United States/Texas scope and explicit signal/power-integrity hardware direction; not present in the tracker."
+      }
+    ]
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [
+      "monitor-audit/2026-10-27T0633-Texas.json"
+    ],
+    "jobsBefore": {
+      "count": 240,
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f"
+    },
+    "jobsAfter": {
+      "count": 240,
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f"
+    },
+    "commits": [],
+    "reason": "No verified in-scope job-data or official status change; only this standalone audit was written."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted",
+      "reason": "No verified in-scope job-data change.",
+      "jobsBlobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-27T0633-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-27T0633-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T11:03:42Z",
+    "lastSuccessfulWriteAt": "2026-10-27T11:03:42Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying role, verified tracked status change, or technical-failure threshold."
+  }
+}
