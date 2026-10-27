@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-27T07:19:23Z",
+  "checkedAtLocal": "2026-10-27T02:19:23-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "dc29e33807cc23e2752d15e0320171e6eb223171",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f",
+      "count": 240,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-27T01:49:34Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-27T0204-Texas.json",
+      "blobSha": "b993dd4afb21fb5105e12b9f0472a7bc96f5804d",
+      "lastSuccessfulWriteAt": "2026-10-27T07:05:32Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "b63d8f0445de9af613158c35f721679a798d4b6a",
+    "currentListingsCommit": "b63d8f0445de9af613158c35f721679a798d4b6a",
+    "repositoryHeadObserved": "07096fcf19ae7d24280aa6b8707aba1028bc87b8",
+    "listingsCommitsReviewed": [],
+    "readmeCommitsReviewed": [],
+    "listingsBlobBefore": "8c0ffbc90169091ea766a71c48d947cc10534a4b",
+    "listingsBlobAfter": "8c0ffbc90169091ea766a71c48d947cc10534a4b",
+    "verification": "No new upstream commits appeared after the previous verified repository head; the listings cursor and blob remained unchanged."
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 0,
+    "listingsCommitsReviewed": 0,
+    "readmeCommitsReviewed": 0,
+    "changedRecordEventsReviewed": 0,
+    "newRecordEventsReviewed": 0,
+    "statusChangeEventsReviewed": 0,
+    "texasOrRemoteCandidates": 0,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "newExcludedRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No source data changed after the previous verified cursor, so there were no roles or status signals to screen.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": [],
+    "coarseFilteredSignals": [],
+    "existingRecordsChanged": []
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [
+      "monitor-audit/2026-10-27T0219-Texas.json"
+    ],
+    "jobsBefore": {
+      "count": 240,
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f"
+    },
+    "jobsAfter": {
+      "count": 240,
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f"
+    },
+    "commits": [],
+    "reason": "No source job data or official status changed; only this standalone audit was written."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted",
+      "reason": "No verified job-data change.",
+      "jobsBlobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-27T0219-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-27T0219-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T07:05:32Z",
+    "lastSuccessfulWriteAt": "2026-10-27T07:05:32Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying role, verified status change, or technical-failure threshold."
+  }
+}
