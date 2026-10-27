@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-27T09:33:48Z",
+  "checkedAtLocal": "2026-10-27T04:33:48-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "bdb427ef416f4c5771175e7fb2634359046f1de5",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f",
+      "count": 240,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-27T01:49:34Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-27T0335-Texas.json",
+      "blobSha": "72dee66a6f6a5ed348f9ef10603df0d76fdd1fba",
+      "lastSuccessfulWriteAt": "2026-10-27T08:35:47Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "926098761d996237dd14d8d9bdd3532ba60b061b",
+    "currentListingsCommit": "469af05d4edc16a7156f690f62ed0ff64c62d8b5",
+    "repositoryHeadObserved": "8808169ff5cbe7213fd60d432627a172b765043c",
+    "listingsCommitsReviewed": [
+      "77b5bcefebf04b208025f8edaf7f07c5e9a90070",
+      "469af05d4edc16a7156f690f62ed0ff64c62d8b5"
+    ],
+    "readmeCommitsReviewed": [
+      "6a5d6a03dc17f28ecdc5d9092800c1d5c7d0077d",
+      "8808169ff5cbe7213fd60d432627a172b765043c"
+    ],
+    "listingsBlobBefore": "7ff03e67f6b1b94874bd39d7a34a6bd414477c6e",
+    "listingsBlobAfter": "6cdf6c50b186daa44f89c580aa384ea3fca60c05",
+    "verification": "Reviewed two listings changes and two corresponding README updates. Seven new source records and eleven status flips were examined. The only Dallas signal was Goldman Sachs requisition 181810; the supplied Oracle career URL rendered blank and the current official higher.gs.com role path returned 'Oops, something went wrong', so the exact requisition's open state, zero-year eligibility, May-2027 start compatibility and OPT/STEM OPT treatment could not be verified. It was not added or notified."
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 4,
+    "listingsCommitsReviewed": 2,
+    "readmeCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 18,
+    "newRecordEventsReviewed": 7,
+    "removedRecordEventsReviewed": 0,
+    "statusChangeEventsReviewed": 11,
+    "texasOrRemoteCandidates": 1,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "newExcludedRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No verified qualifying roles and no verified status changes to stored roles. The single Dallas source signal could not be confirmed on an accessible current official requisition page; all other new records and status flips failed location or direction filters.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": [],
+    "existingRecordsChanged": [],
+    "coarseFilteredSignals": [
+      {
+        "company": "Goldman Sachs",
+        "title": "Data Platform Engineering",
+        "jobId": "181810",
+        "location": "Dallas, TX",
+        "sourceSignal": "new active aggregator record",
+        "reason": "Exact official requisition could not be verified as open; official Oracle page rendered blank and the current official role path showed an error. Public copies describe an Associate data-platform role and production-pipeline experience but do not establish a zero-year minimum, May-2027 start or OPT/STEM OPT eligibility. No tracker mutation or notification."
+      },
+      {
+        "company": "Microsoft",
+        "title": "Software Engineer - Forward Deployed Engineer",
+        "jobId": "1970393557027406",
+        "sourceSignal": "active to inactive",
+        "reason": "No Texas or Texas-remote location evidence and not present in the tracker; no official in-scope status change."
+      },
+      {
+        "company": "Field AI",
+        "title": "Embedded Systems Engineer",
+        "sourceSignal": "inactive to active",
+        "reason": "Explicit embedded-systems direction; excluded by monitor rules."
+      },
+      {
+        "company": "Vanderbilt University",
+        "title": "Research Assistant",
+        "location": "Nashville, TN",
+        "sourceSignal": "new active record",
+        "reason": "Outside Dallas/Austin/Texas-eligible remote scope."
+      },
+      {
+        "company": "Fortinet",
+        "title": "AI Automation Engineer",
+        "location": "Sunnyvale, CA",
+        "sourceSignal": "new active record",
+        "reason": "Outside Dallas/Austin/Texas-eligible remote scope."
+      },
+      {
+        "company": "CoreWeave",
+        "title": "Software Engineer - Inference",
+        "location": "Bellevue, WA / Sunnyvale, CA",
+        "sourceSignal": "new active record",
+        "reason": "Outside Dallas/Austin/Texas-eligible remote scope."
+      },
+      {
+        "company": "Swarm Aero",
+        "title": "Software Engineer Early Career - Real-Time Systems",
+        "location": "San Francisco, CA",
+        "sourceSignal": "new active record",
+        "reason": "Outside location scope and real-time systems rather than Applied AI/ML/Data Science."
+      }
+    ]
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [
+      "monitor-audit/2026-10-27T0433-Texas.json"
+    ],
+    "jobsBefore": {
+      "count": 240,
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f"
+    },
+    "jobsAfter": {
+      "count": 240,
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f"
+    },
+    "commits": [],
+    "reason": "No verified in-scope job-data or official status change; only this standalone audit was written."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted",
+      "reason": "No verified in-scope job-data change.",
+      "jobsBlobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-27T0433-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-27T0433-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T08:35:47Z",
+    "lastSuccessfulWriteAt": "2026-10-27T08:35:47Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying role, verified tracked status change, or technical-failure threshold."
+  }
+}
