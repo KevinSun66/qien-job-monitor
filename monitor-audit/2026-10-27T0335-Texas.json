@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-27T08:35:22Z",
+  "checkedAtLocal": "2026-10-27T03:35:22-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "1624050340bf2a00b3a07bd8ef5640eb3319a547",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f",
+      "count": 240,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-27T01:49:34Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-27T0219-Texas.json",
+      "blobSha": "326529f32efb015a5510264666e5d867ac96c6d5",
+      "lastSuccessfulWriteAt": "2026-10-27T07:19:47Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "b63d8f0445de9af613158c35f721679a798d4b6a",
+    "currentListingsCommit": "926098761d996237dd14d8d9bdd3532ba60b061b",
+    "repositoryHeadObserved": "926098761d996237dd14d8d9bdd3532ba60b061b",
+    "listingsCommitsReviewed": [
+      "8afd551e742eaea508451f26442152e862d0a617",
+      "41e621e02e8d9ad590210bd1e7646797efc629c6",
+      "926098761d996237dd14d8d9bdd3532ba60b061b"
+    ],
+    "readmeCommitsReviewed": [],
+    "listingsBlobBefore": "8c0ffbc90169091ea766a71c48d947cc10534a4b",
+    "listingsBlobAfter": "7ff03e67f6b1b94874bd39d7a34a6bd414477c6e",
+    "verification": "The first listings commit was a no-op. The second removed one old inactive Remote-US Cushman & Wakefield Analytics Analyst record. The third changed four source statuses: Normal Computing hardware resident, Normal Computing product manager, Microsoft Software Engineer and a UK MBDA electro-mechanical apprentice. None was a stored Texas role or a new in-scope candidate."
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 3,
+    "listingsCommitsReviewed": 3,
+    "readmeCommitsReviewed": 0,
+    "changedRecordEventsReviewed": 5,
+    "newRecordEventsReviewed": 0,
+    "removedRecordEventsReviewed": 1,
+    "statusChangeEventsReviewed": 4,
+    "texasOrRemoteCandidates": 1,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "newExcludedRoles": 0,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No new roles and no verified in-scope status changes. The only Remote-US signal was deletion of an already-inactive analytics record that was not stored; all other events failed location or direction filters.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": [],
+    "existingRecordsChanged": [],
+    "coarseFilteredSignals": [
+      {
+        "company": "Cushman & Wakefield",
+        "title": "Analytics Analyst",
+        "jobId": "R307482",
+        "location": "Remote in USA",
+        "sourceSignal": "old inactive record removed from upstream",
+        "reason": "Not a new opening and not present in the tracker; no notification or data mutation."
+      },
+      {
+        "company": "Normal Computing",
+        "title": "Thermodynamic Hardware Resident",
+        "sourceSignal": "active to inactive",
+        "reason": "Explicit hardware direction; outside monitor."
+      },
+      {
+        "company": "Normal Computing",
+        "title": "Product Manager",
+        "sourceSignal": "inactive to active",
+        "reason": "Product management, not Applied AI/ML/Data Science."
+      },
+      {
+        "company": "Microsoft",
+        "title": "Software Engineer",
+        "jobId": "1970393557043616",
+        "sourceSignal": "active to inactive",
+        "reason": "No Texas/remote evidence and no stored record; exact official page was not discoverable in search."
+      },
+      {
+        "company": "MBDA",
+        "title": "Electro-Mechanical Engineering Apprentice",
+        "jobId": "R39443",
+        "location": "Bristol, UK",
+        "sourceSignal": "active to inactive",
+        "reason": "Outside the United States and explicit electro-mechanical hardware/apprentice role."
+      }
+    ]
+  },
+  "dataChanges": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": false,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [
+      "monitor-audit/2026-10-27T0335-Texas.json"
+    ],
+    "jobsBefore": {
+      "count": 240,
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f"
+    },
+    "jobsAfter": {
+      "count": 240,
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f"
+    },
+    "commits": [],
+    "reason": "No verified in-scope job-data or official status change; only this standalone audit was written."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "not-attempted",
+      "reason": "No verified in-scope job-data change.",
+      "jobsBlobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-27T0335-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-27T0335-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T07:19:47Z",
+    "lastSuccessfulWriteAt": "2026-10-27T07:19:47Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying role, verified tracked status change, or technical-failure threshold."
+  }
+}
