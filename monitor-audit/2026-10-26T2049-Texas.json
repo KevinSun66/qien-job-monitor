@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-10-27T01:49:34Z",
+  "checkedAtLocal": "2026-10-26T20:49:34-05:00",
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "f06cc57ba850b6ea90bf15a58a7e087d152fc62d",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "27c6e1657376503c42ad1f2cca5a38b6f7215474",
+      "count": 239,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-26T22:37:38Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-10-26T1920-Texas.json",
+      "blobSha": "6010764b4074c913aa48c80a26622772f07b0534",
+      "lastSuccessfulWriteAt": "2026-10-27T00:20:52Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "state": "absent",
+      "verification": "GitHub fetch returned 404; no workflow exists and no GitHub Pages deployment workflow was treated as a job scraper."
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "c52c150d953684f798f4a58efb116834698cb003",
+    "currentListingsCommit": "29ee39c42fbd4d4a7d82c2ceeb2835a57da5b3e3",
+    "repositoryHeadObserved": "3e6d417305f4a5bebcb655f0beb2359eb13f46ce",
+    "listingsCommitsReviewed": [
+      "7ace8f964bf8ce932734a3ab0517ac61948379f8",
+      "a2e3b5edc645ddeefe1aca60c250e0041ab19b58",
+      "29ee39c42fbd4d4a7d82c2ceeb2835a57da5b3e3"
+    ],
+    "readmeCommitsReviewed": [
+      "a1024239ac909e7923edac0b78a2266ecbac23d0",
+      "3e6d417305f4a5bebcb655f0beb2359eb13f46ce"
+    ],
+    "listingsBlobBefore": "53b6980e8c18f48926f19f9e1f0915ed2dacf173",
+    "listingsBlobAfter": "dafbeff0d8e62221fd3c5cf39f34590e40ad2e1c",
+    "verification": "Reviewed 19 source-status changes and 9 new records. The only potentially relevant new role was Abacus Insights Associate Data Engineer (Remote US); its live official Greenhouse page and full JD were directly verified. Houston Super Micro service technician was excluded by location/direction. Other events were outside Texas/US-remote scope or hardware/general roles."
+  },
+  "counts": {
+    "upstreamCommitsReviewed": 5,
+    "listingsCommitsReviewed": 3,
+    "readmeCommitsReviewed": 2,
+    "changedRecordEventsReviewed": 28,
+    "newRecordEventsReviewed": 9,
+    "statusChangeEventsReviewed": 19,
+    "texasOrRemoteCandidates": 2,
+    "newQualifiedRoles": 0,
+    "pendingVerificationRoles": 0,
+    "newExcludedRoles": 1,
+    "trackedStatusChanges": 0,
+    "notifications": 0
+  },
+  "screeningResult": {
+    "summary": "No qualifying role clearly better than Ryan was found. Abacus Insights 8917379002 is a verified open Remote-US early-career data-engineering role that explicitly accepts F-1 OPT, but its $62,400 compensation and SQL/data-extract/client-delivery scope are materially below the Ryan Associate Data Scientist baseline, so it was archived as an opportunity-cost rejection. Super Micro's Houston service-technician role was excluded as hardware/technician work outside Dallas/Austin.",
+    "qualifyingRoles": [],
+    "pendingVerification": [],
+    "excludedNewRoles": [
+      {
+        "company": "Abacus Insights",
+        "title": "Associate Data Engineer",
+        "jobId": "8917379002",
+        "decision": "opportunity-cost-rejected",
+        "location": "United States · Remote",
+        "officialStatus": "Official Greenhouse page displayed Apply and a live application form.",
+        "experience": "Recent graduate; coursework, projects, research and internships accepted; no minimum professional experience.",
+        "workAuthorization": "Official JD explicitly welcomes F-1 OPT candidates authorized to work at hire.",
+        "duties": "SQL, data profiling/mapping, data extracts, validation, root-cause analysis and cloud data services; Databricks/Spark/Snowflake/ETL preferred.",
+        "compensation": "$30/hour or $62,400 per annum + equity and benefits",
+        "reason": "Compensation is materially below Ryan and core duties are client-facing data distribution/quality delivery rather than production Applied AI/ML or agent systems.",
+        "archive": "job-archive/abacus-insights/8917379002/job-description.md"
+      }
+    ],
+    "coarseFilteredSignals": [
+      {
+        "company": "Super Micro Computer",
+        "title": "Service Technician",
+        "location": "Houston, TX",
+        "reason": "Hardware/service technician role outside Dallas/Austin and outside Applied AI/ML/Data Science; not added or notified."
+      }
+    ],
+    "existingRecordsChanged": [],
+    "statusSignalsNotPersisted": "The remaining active/inactive events were outside Texas/US-remote scope or did not change any stored decision."
+  },
+  "dataChanges": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusesChanged": false,
+    "jdArchivesChanged": true,
+    "existingRecordsDeleted": false,
+    "preservedAppliedCount": 4,
+    "changedPaths": [
+      "jobs.json",
+      "job-archive/abacus-insights/8917379002/job-description.md"
+    ],
+    "jobsBefore": {
+      "count": 239,
+      "blobSha": "27c6e1657376503c42ad1f2cca5a38b6f7215474"
+    },
+    "jobsAfter": {
+      "count": 240,
+      "blobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f"
+    },
+    "commits": [
+      "1ae2c8b3416c382b77e9e89981b1d8c68459fd7e",
+      "1ccfb9f981511a6b1ab81a66e368122500b55618"
+    ],
+    "reason": "Added one verified excluded-role record and official-JD summary archive while preserving all four application states and leaving the Dallas/Austin current-role pages unchanged."
+  },
+  "githubWrite": {
+    "jobData": {
+      "status": "synced",
+      "commits": [
+        "1ae2c8b3416c382b77e9e89981b1d8c68459fd7e",
+        "1ccfb9f981511a6b1ab81a66e368122500b55618"
+      ],
+      "jobsBlobSha": "14f5a319d6d9a9da40cc9afcfa40cbb16190d90f",
+      "readbackVerified": true
+    },
+    "audit": {
+      "status": "pending",
+      "path": "monitor-audit/2026-10-26T2049-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-26T2049-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T00:20:52Z",
+    "lastSuccessfulWriteAt": "2026-10-27T00:20:52Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "The only verified new Texas-eligible role fails the Ryan opportunity-cost gate; no qualifying role or technical-failure threshold."
+  }
+}
