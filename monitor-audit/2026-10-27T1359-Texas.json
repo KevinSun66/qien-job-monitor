@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-27T18:59:04Z",
+    "checkedAtLocal": "2026-10-27T13:59:04-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_verified_tracked_status_change"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "67597ced163ec78a61b11a2af6a7213b6ac27636",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "653baaa167b1fab0542f30e5f9023b4e2b6cd27a",
+      "recordCount": 241,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-27T12:50:56Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-27T1230-Texas.json",
+      "blobSha": "7056ec0553973f167391ee5baba74cf4b7dceabc",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-27T17:30:22.618Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "8497a745647deffe6db18b1e95a1891788cac4c7",
+    "currentListingsCommit": "de018534c6b63047ffe17d68f1cbb3652340bda9",
+    "listingsBlobBefore": "8320ae732dff7bc640d05c54a54ba485434388d8",
+    "listingsBlobAfter": "ecb3a3aff07c59864fcb1ec61328e3e194c59894",
+    "repositoryHeadObserved": "7b143ff8c995e69874f8221df70af86d6e711b84",
+    "commitsReviewed": [
+      "77a7416cdf712d029f48d48b87be1345708f6e06",
+      "258aab6afe7c96b5f0cc7f67fb0273ecbf8c6340",
+      "b0b3d5112adb21addc6d38cc55c6d42db4366cd3",
+      "6777990ac1d50b4197019a8009c3690658a40504",
+      "de018534c6b63047ffe17d68f1cbb3652340bda9",
+      "7b143ff8c995e69874f8221df70af86d6e711b84"
+    ],
+    "listingsCommitsReviewed": 3,
+    "readmeCommitsReviewed": 3,
+    "changedRecordEvents": 17,
+    "statusChangeEvents": 17,
+    "newRecordEvents": 0
+  },
+  "screening": {
+    "discovered": 0,
+    "texasOrEligibleRemoteSignals": 1,
+    "officialJdsOpened": 1,
+    "fullyVerifiedCandidates": 1,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 1,
+    "dataChanges": true,
+    "recordsAdded": 0,
+    "recordsUpdated": 1,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "trackedChanges": [
+      {
+        "company": "Abacus Insights",
+        "jobId": "8917379002",
+        "title": "Associate Data Engineer",
+        "location": "Remote US · Texas eligible",
+        "observedChange": "aggregator active_to_inactive",
+        "officialVerification": "The official Greenhouse requisition redirects to the Abacus Insights careers landing page; the JD and application form are gone.",
+        "decision": "closed_confirmed",
+        "statusBefore": "opportunity-cost-rejected",
+        "statusAfter": "closed-opportunity-cost-rejected",
+        "originalDecisionPreserved": "Not recommended: $62,400 and SQL/data-distribution duties do not clearly improve on Ryan.",
+        "archivePreserved": "job-archive/abacus-insights/8917379002/job-description.md"
+      }
+    ],
+    "otherSignalsSummary": "Sixteen additional inactive signals were outside Texas, non-AI/ML/DS, hardware/defense, or otherwise untracked; no full official review was necessary after deterministic location/function filtering.",
+    "comparisonToRyan": "No new role entered comparison. The only tracked change was closure of an already opportunity-cost-rejected role."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "succeeded",
+      "commit": "0719bd426f16313cb63e9c9455809c525cc8be81",
+      "blobSha": "2d1fb410d7ba81368a820bcdd7d161bf8a08f1b8",
+      "readbackVerified": true,
+      "recordCountAfter": 241,
+      "appliedCountAfter": 4
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_page_source_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending",
+      "path": "monitor-audit/2026-10-27T1359-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-27T1359-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-27T17:30:22.618Z",
+    "lastSuccessfulWriteAt": "2026-10-27T17:30:22.618Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "Tracked status change was verified and archived, but the role was already rejected and is not a new actionable upgrade over Ryan."
+  }
+}
