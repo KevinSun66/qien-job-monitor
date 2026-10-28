@@ -132,19 +132,19 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_final_verification",
-      "path": "monitor-audit/2026-10-28T0311-Texas.json"
+      "status": "synced",
+      "path": "monitor-audit/2026-10-28T0311-Texas.json",
+      "initialCommit": "b351f28005fefdd4f80a17d6107daba58abc6099",
+      "contentShaBeforeFinalization": "80dec7b5c38a936862ca68b9e9736a0bb93994a5",
+      "syncedAt": "2026-10-28T08:12:19.195Z",
+      "readbackVerified": true,
+      "branchHeadVerified": true
     },
-    "synced": false,
-    "pendingSync": [
-      {
-        "path": "monitor-audit/2026-10-28T0311-Texas.json",
-        "reason": "awaiting GitHub write readback and branch-head verification"
-      }
-    ],
+    "synced": true,
+    "pendingSync": [],
     "consecutiveWriteFailures": 0,
     "lastSuccessfulWriteAtBeforeRun": "2026-10-28T07:30:40.047Z",
-    "lastSuccessfulWriteAt": "2026-10-28T07:30:40.047Z"
+    "lastSuccessfulWriteAt": "2026-10-28T08:12:19.195Z"
   },
   "notification": {
     "sent": false,
