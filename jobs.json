@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T20:44:13.318Z",
+  "updatedAt": "2026-10-28T22:54:37.310Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8721,14 +8721,14 @@
       "gradYear": "No graduation window; less than 2 years technical engineering experience preferred",
       "match": "Moderate software fit; not Applied AI/ML/Data Science",
       "ngCompatibility": "Experience gate passes because the stated preference is less than 2 years; post-May-2027 start is not stated",
-      "assessment": "T-Mobile's official page was open on 2026-10-26 and lists Frisco among three locations. The role develops and tests scalable software components for a billing platform using virtualization, microservices, SDN/NFV and big-data platforms, under close supervision. It is a generic enterprise/billing software-engineering role rather than Applied AI/ML/Data Science. The national base range is $66,900–$120,600 and total target cash is $73,590–$132,660. Despite the acceptable experience ceiling and potentially higher top-end compensation, the role direction, unspecified post-May-2027 start and unresolved OPT/STEM OPT terms do not establish a clear combined upgrade over Ryan.",
+      "assessment": "T-Mobile's official page was open on 2026-10-26 and lists Frisco among three locations. The role develops and tests scalable software components for a billing platform using virtualization, microservices, SDN/NFV and big-data platforms, under close supervision. It is a generic enterprise/billing software-engineering role rather than Applied AI/ML/Data Science. The national base range is $66,900–$120,600 and total target cash is $73,590–$132,660. Despite the acceptable experience ceiling and potentially higher top-end compensation, the role direction, unspecified post-May-2027 start and unresolved OPT/STEM OPT terms do not establish a clear combined upgrade over Ryan. 2026-10-28复核：官方页面仍开放，且上游状态由inactive恢复为active；原方向/机会成本排除结论不变。",
       "visa": "Official JD says legally authorized to work in the United States; role-level F-1 OPT/STEM OPT, E-Verify/I-983 and future sponsorship terms are not disclosed.",
       "found": "2026-10-26",
       "discoveredDate": "2026-10-26",
       "discoveredAt": "2026-10-26T22:37:38Z",
       "firstSeen": "2026-10-26",
-      "lastChecked": "2026-10-26",
-      "lastCheckedAt": "2026-10-26T22:37:38Z",
+      "lastChecked": "2026-10-28",
+      "lastCheckedAt": "2026-10-28T22:54:37.310Z",
       "url": "https://careers.t-mobile.com/associate-software-engineer-billing-platform/job/EAE17AC6C71760025ED2BFB9064E908A",
       "officialSource": "https://careers.t-mobile.com/associate-software-engineer-billing-platform/job/EAE17AC6C71760025ED2BFB9064E908A",
       "status": "direction-opportunity-cost-rejected",
@@ -8742,7 +8742,7 @@
       "jobId": "REQ375195",
       "sourceListingId": "dffcfc23-8cbd-490a-8145-fcefb06961ad",
       "source": "T-Mobile official careers JD; SimplifyJobs/New-Grad-Positions commit 024ff453deeda86086baab404db3c22789e1ebe8",
-      "officialStatus": "Official T-Mobile careers page displayed Apply and the full JD on 2026-10-26.",
+      "officialStatus": "Official T-Mobile careers page remained open and listed REQ375195, Full time and Frisco on 2026-10-28; the upstream listing returned from inactive to active.",
       "officialLocations": [
         "Frisco, TX",
         "Atlanta, GA",
@@ -8765,7 +8765,8 @@
       "archiveUrl": "job-archive/t-mobile/REQ375195/job-description.md",
       "archiveLabel": "JD 归档摘要",
       "archivedAt": "2026-10-26T22:37:38Z",
-      "applicationStatus": "not-applied"
+      "applicationStatus": "not-applied",
+      "sourceStatus": "active-restored-2026-10-28"
     },
     {
       "company": "Abacus Insights",
@@ -9307,6 +9308,53 @@
       "archivedAt": "2026-10-28T18:54:48.182Z",
       "applicationStatus": "not-applied",
       "rejectionReason": "Official requisition was removed before action; 2027 start, Texas-specific remote eligibility, OPT/STEM OPT policy and compensation were not verified, so no Ryan upgrade could be established."
+    },
+    {
+      "company": "Intel",
+      "tier": "S-",
+      "area": "Austin, TX / Santa Clara, CA / Beaver Brook, MA / Hillsboro, OR",
+      "market": "Austin",
+      "title": "Compiler Engineer for AI DSLs (JR0288433)",
+      "employment": "Full-time · College Grad · Hybrid",
+      "gradYear": "College Grad; official posting does not state a 2027 start window",
+      "match": "Experience and direction rejected",
+      "ngCompatibility": "Official minimum requires 2+ years with C/C++/SYCL/CUDA/DSLs and 2+ years with compiler technologies or LLVM; internships, schoolwork and research may count, but the numeric minimum still exceeds the zero-start rule.",
+      "assessment": "Intel's official Workday page was open with an Apply action on 2026-10-28 and listed Austin among four US locations. The role develops compiler technology for Intel CPUs, GPUs and accelerators using LLVM, Clang, SYCL, Fortran, vectorization, parallelization and architecture-performance work. It therefore fails the standing zero-experience gate and is outside the preferred Applied AI/ML/Data Science direction. Strong compensation and brand value do not make it a clear Ryan-path upgrade.",
+      "visa": "The official posting states that the position is not eligible for Intel immigration sponsorship. It does not separately confirm initial F-1 OPT or STEM OPT compatibility.",
+      "found": "2026-10-28",
+      "discoveredDate": "2026-10-28",
+      "discoveredAt": "2026-10-28T22:54:37.310Z",
+      "firstSeen": "2026-10-28",
+      "lastChecked": "2026-10-28",
+      "lastCheckedAt": "2026-10-28T22:54:37.310Z",
+      "url": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Santa-Clara/Compiler-Engineer-for-AI-DSLs_JR0288433",
+      "officialSource": "https://intel.wd1.myworkdayjobs.com/en-us/external/job/US-California-Santa-Clara/Compiler-Engineer-for-AI-DSLs_JR0288433",
+      "status": "experience-direction-rejected",
+      "finalPriority": "不投 · 2年以上最低经验且为底层编译器/架构方向",
+      "roleTrack": "Compiler / LLVM / GPU-CPU Architecture / AI DSL",
+      "technicalGrowth": "Not scored for the preferred Applied AI path",
+      "brandPlatform": "Strong platform, but outside target path",
+      "ryanUpgrade": "No; the role fails both the zero-start experience gate and target-direction filter.",
+      "compensation": "$128,880–$181,940 base (official posting)",
+      "officePerks": "Austin plus other US locations; hybrid",
+      "jobId": "JR0288433",
+      "sourceListingId": "c76bdf45-b985-490a-83f2-38586bb77ae5",
+      "upstreamRecordId": "c76bdf45-b985-490a-83f2-38586bb77ae5",
+      "upstreamAddedCommit": "82a5ce051791b6b55d5f3d5ca7c4d6d6892e5b1d",
+      "source": "Intel official Workday JD; SimplifyJobs commit 82a5ce051791b6b55d5f3d5ca7c4d6d6892e5b1d",
+      "officialStatus": "Official Intel Workday page showed Apply, Posted Today, Full time, College Grad and requisition JR0288433 on 2026-10-28.",
+      "minimumExperience": "2+ years in two stated qualification areas; schoolwork, internships and research may count",
+      "verificationFlags": [
+        "experience-rejected",
+        "direction-rejected",
+        "visa-sponsorship-not-available",
+        "start-date-unverified"
+      ],
+      "archiveUrl": "job-archive/intel/JR0288433/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-10-28T22:54:37.310Z",
+      "applicationStatus": "not-applied",
+      "rejectionReason": "Official minimum requires 2+ years, and the core work is low-level compiler and hardware-architecture optimization rather than Applied AI/ML/Data Science."
     }
   ],
   "monitorAudit": [
