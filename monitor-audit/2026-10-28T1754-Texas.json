@@ -217,20 +217,21 @@
     },
     "audit": {
       "attempted": true,
-      "status": "verification_pending",
+      "status": "synced",
       "path": "monitor-audit/2026-10-28T1754-Texas.json",
       "initialCommitSha": "dca17b41280528f7684bdd41a0223938b55eb590",
       "contentShaBeforeFinalization": "c3c92ced3e205df4f70fd3835881069686f94e86",
-      "readbackVerified": false,
-      "branchHeadVerified": false
+      "readbackVerified": true,
+      "branchHeadVerified": true,
+      "finalizationCommitSha": "265430d0de4b8e2d26930b4a89bd3f7c7753ac74",
+      "finalizationContentSha": "fa02bd2cbac62f8690fee3ce689708ad21cb4b37",
+      "verifiedAt": "2026-10-28T22:56:44.580Z"
     },
-    "synced": false,
-    "pendingSync": [
-      "monitor-audit/2026-10-28T1754-Texas.json final readback"
-    ],
+    "synced": true,
+    "pendingSync": [],
     "consecutiveWriteFailures": 0,
     "lastSuccessfulWriteAtBeforeRun": "2026-10-28T21:35:38.224Z",
-    "lastSuccessfulWriteAt": "2026-10-28T22:56:15.479Z"
+    "lastSuccessfulWriteAt": "2026-10-28T22:56:44.580Z"
   },
   "notification": {
     "sent": false,
@@ -278,6 +279,8 @@
       "check": "GitHub contents API returned 404",
       "scrapingWorkflowFound": false,
       "pagesWorkflowFound": false
-    }
+    },
+    "headAfterFirstAuditFinalization": "265430d0de4b8e2d26930b4a89bd3f7c7753ac74",
+    "auditFinalizationContentSha": "fa02bd2cbac62f8690fee3ce689708ad21cb4b37"
   }
 }
