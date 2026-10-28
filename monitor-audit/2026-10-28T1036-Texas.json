@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-28T15:36:50.225Z",
+    "checkedAtLocal": "2026-10-28T10:36:50.225-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "write_in_progress"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "7d277d4cb9590a990aac14d571a46c31652d3137",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f252ac8f5a6cd6989e606715fab4879ef281036e",
+      "recordCount": 249,
+      "appliedCount": 12,
+      "appliedJobIds": [
+        "200677912-0157",
+        "R1002940",
+        "R172085",
+        "112338"
+      ],
+      "updatedAt": "2026-10-28T02:18:32.698Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-28T0921-Texas.json",
+      "blobSha": "46e2ef839d0e1dabba25e090d3fdd8ccb43b2498",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-28T14:21:38.000Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "df873215a9ca8e5342da4bf885f8b2ecca33b877",
+    "currentListingsCommit": "6adcd2cc5fe3dbca3edac148df339d5856847041",
+    "listingsBlobBefore": "f6706fd713dacb4d5252d51dd01f561a2c17e9d8",
+    "listingsBlobAfter": "fe2e628e74999defb49bfda4f64a701d5600a0fe",
+    "repositoryHeadObserved": "a73c152f707fcbffe287c9e371164a28fa14e6a9",
+    "commitsReviewed": [
+      "627295bb7330fb0e89513cca865c99514e4f846b",
+      "75efb60a907b0944f1c95c6f94b6ec21d9d23a7a",
+      "77bd066b913b43cf0471de0ca114ded3ecd3ecd3",
+      "1add47d6fb1669f01fbda3346d3adf876011b71b",
+      "6adcd2cc5fe3dbca3edac148df339d5856847041",
+      "a73c152f707fcbffe287c9e371164a28fa14e6a9"
+    ],
+    "listingsDataCommitsReviewed": 3,
+    "changedRecordEvents": 33,
+    "newRecordEvents": 14,
+    "statusChangeEvents": 6,
+    "removedRecordEvents": 13,
+    "activeToInactiveEvents": 2,
+    "inactiveToActiveEvents": 4,
+    "texasSignals": 1,
+    "texasSignalDetails": [
+      {
+        "company": "USAA",
+        "title": "Software Engineer - Entry Level",
+        "jobId": "R0121057",
+        "locations": [
+          "Plano, TX",
+          "San Antonio, TX"
+        ],
+        "officialOpen": true,
+        "fullTime": true,
+        "minimumExperience": "0 years; coursework/projects/internships accepted",
+        "workAuthorization": "Rejected: official JD explicitly excludes STEM OPT Training Plans",
+        "roleDirection": "Enterprise Java/production engineering; not Applied AI/ML/Data Science",
+        "ryanComparison": "No clear upgrade; target direction and work-authorization gates fail",
+        "disposition": "archived as visa-direction-rejected; no notification"
+      }
+    ],
+    "additionalReview": [
+      {
+        "group": "14 new records",
+        "result": "Only USAA R0121057 was in Dallas/DFW; the other 13 were outside Texas or outside the target market."
+      },
+      {
+        "group": "6 status events",
+        "result": "Goldman Sachs 171569/171570 flipped inactive then active within the review window; Johns Hopkins APL 59974 and CTG Technician 1 reactivated. No verified eligible Texas Applied AI/ML improvement resulted."
+      },
+      {
+        "group": "13 removed inactive records",
+        "result": "Legacy removals were outside target geography/direction or already inactive; no tracked jobs.json record was deleted."
+      }
+    ],
+    "notes": [
+      "README-only commits were not treated as job discovery or scraping.",
+      "The public repository still has no .github/workflows directory; no GitHub Pages workflow was misclassified as a scraper."
+    ]
+  },
+  "screening": {
+    "discovered": 14,
+    "fullTimeTexasRecordsReviewed": 1,
+    "officialJdsOpened": 1,
+    "publicEmployerPagesReviewed": 1,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": true,
+    "recordsAdded": 1,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 1,
+    "comparisonToRyan": "USAA R0121057 failed the explicit STEM OPT and Applied AI/ML direction gates, so it did not reach actionable Ryan-upgrade status."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "pending",
+      "path": "jobs.json",
+      "contentSha": "f252ac8f5a6cd6989e606715fab4879ef281036e",
+      "recordCountBefore": 249,
+      "recordCountAfter": 250,
+      "appliedCountBefore": 12,
+      "appliedCountAfter": 12
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "pending",
+      "count": 1,
+      "paths": [
+        "job-archive/usaa/R0121057/job-description.md"
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending",
+      "path": "monitor-audit/2026-10-28T1036-Texas.json",
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "job-archive/usaa/R0121057/job-description.md",
+      "jobs.json",
+      "monitor-audit/2026-10-28T1036-Texas.json finalization"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-28T14:21:38.000Z",
+    "lastSuccessfulWriteAt": "2026-10-28T14:21:38.000Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  }
+}
