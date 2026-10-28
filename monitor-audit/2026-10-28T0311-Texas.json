@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-28T08:11:49Z",
+    "checkedAtLocal": "2026-10-28T03:11:49-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_upstream_cleanup_no_qualified_alert"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "19580be6efb2ee4947122db884bb870d3d2b2e35",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f252ac8f5a6cd6989e606715fab4879ef281036e",
+      "recordCount": 249,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "200677912-0157",
+        "R1002940",
+        "R172085",
+        "112338"
+      ],
+      "updatedAt": "2026-10-28T02:18:32.698Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-28T0230-Texas.json",
+      "blobSha": "f2aabc1b76642137359c746cab4974ee4ae2e7ef",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-28T07:30:40.047Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "294b159ddcd3246a948cf3ae7090d8740801909c",
+    "currentListingsCommit": "9c1961e2ff6f31d88799e683852d6303f3ceefc6",
+    "listingsBlobBefore": "3c299aa1f480613e591b53610195c39c8d0d67d9",
+    "listingsBlobAfter": "be814f58b025733191b769fd17ec005980a090e8",
+    "repositoryHeadObserved": "9c1961e2ff6f31d88799e683852d6303f3ceefc6",
+    "commitsReviewed": [
+      "7f082f89128e9608e6a4ae9a924f373da3c57226",
+      "26bcf99b66e2e83b259c552b232b10642e070b73",
+      "9c1961e2ff6f31d88799e683852d6303f3ceefc6"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "changedRecordEvents": 10,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 0,
+    "removedRecordEvents": 10,
+    "removedInactiveRecordEvents": 8,
+    "texasSignals": 0,
+    "texasSignalDetails": [],
+    "notes": [
+      "The 07:31 CT listings commit removed ten legacy records; the 08:01 CT listings commit had no file diff.",
+      "No removed record had a Dallas, Austin, or Texas location.",
+      "Two removed Socket records were generic Remote in USA entries, both already inactive; one was explicitly Senior and neither was present in the monitor dataset, so they did not create a verified tracked-status change.",
+      "README-only deployment/update activity was not treated as job discovery."
+    ]
+  },
+  "screening": {
+    "discovered": 0,
+    "fullTimeTexasRecordsReviewed": 0,
+    "officialJdsOpened": 0,
+    "publicEmployerPagesReviewed": 0,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "No in-scope role reached the Ryan comparison gate."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change",
+      "path": "jobs.json",
+      "contentSha": "f252ac8f5a6cd6989e606715fab4879ef281036e",
+      "recordCountBefore": 249,
+      "recordCountAfter": 249,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_new_verified_jd",
+      "count": 0
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_final_verification",
+      "path": "monitor-audit/2026-10-28T0311-Texas.json"
+    },
+    "synced": false,
+    "pendingSync": [
+      {
+        "path": "monitor-audit/2026-10-28T0311-Texas.json",
+        "reason": "awaiting GitHub write readback and branch-head verification"
+      }
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-28T07:30:40.047Z",
+    "lastSuccessfulWriteAt": "2026-10-28T07:30:40.047Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  }
+}
