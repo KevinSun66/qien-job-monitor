@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-28T10:55:05.491Z",
+    "checkedAtLocal": "2026-10-28T05:55:05-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_upstream_new_and_status_review_no_qualified_alert"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "d10e1ff4cc2f78e1095b5d90be9786e9cc2acf40",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f252ac8f5a6cd6989e606715fab4879ef281036e",
+      "recordCount": 249,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "200677912-0157",
+        "R1002940",
+        "R172085",
+        "112338"
+      ],
+      "updatedAt": "2026-10-28T02:18:32.698Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-28T0416-Texas.json",
+      "blobSha": "06c944c2eeb85bfb89c3a60432156063c4ad5c6e",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-28T09:17:07.000Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "542c5b94e2ad255b5a0711c9ecc4d2b07ae68eed",
+    "currentListingsCommit": "8e949545e2bd872518cc91e2fba6a511fd687f44",
+    "listingsBlobBefore": "da0061204694c3a7913991e6dda401ec4f3816cf",
+    "listingsBlobAfter": "b13b355229ab5dd0b57f067dbdb1a0d39d8bd3f7",
+    "repositoryHeadObserved": "5fb31c7fb0c879421dcfe2ac76b1ac3b12eaace4",
+    "commitsReviewed": [
+      "92673b9eaea0481d19d1d567f7e703d00e690978",
+      "610a835c75d88c7465141e2f3fe1d8d41365100c",
+      "33464bf5611de62c16e801ab6152300977b4ed91",
+      "2bb8c221b305d1f066426de9ae4040ddafb4488e",
+      "8e949545e2bd872518cc91e2fba6a511fd687f44",
+      "5fb31c7fb0c879421dcfe2ac76b1ac3b12eaace4"
+    ],
+    "listingsDataCommitsReviewed": 3,
+    "changedRecordEvents": 30,
+    "newRecordEvents": 6,
+    "statusChangeEvents": 18,
+    "removedRecordEvents": 6,
+    "activeToInactiveEvents": 16,
+    "inactiveToActiveEvents": 2,
+    "texasSignals": 3,
+    "texasSignalDetails": [
+      {
+        "company": "RosaicLabs",
+        "title": "AI Accelerator RTL Microarchitecture/Design Engineer",
+        "location": "Austin, TX",
+        "event": "new",
+        "result": "direction-rejected: RTL/microarchitecture/chip-design hardware"
+      },
+      {
+        "company": "RTX",
+        "title": "Electro-Optics Systems Engineer I",
+        "location": "McKinney, TX",
+        "event": "active_to_inactive",
+        "result": "direction-rejected: electro-optics/defense systems hardware; outside Applied AI/ML/DS"
+      },
+      {
+        "company": "Tesla",
+        "title": "Data Collection Operator - Optimus",
+        "location": "San Antonio, TX",
+        "event": "new",
+        "result": "location and role-type rejected: outside Dallas/Austin; data collection operator, not Applied AI/ML/DS engineering"
+      }
+    ],
+    "additionalReview": [
+      {
+        "company": "Goldman Sachs",
+        "title": "2027 Engineering New Analyst",
+        "jobId": "171570",
+        "event": "inactive_to_active",
+        "officialLocation": "Salt Lake City, UT",
+        "result": "outside Texas"
+      },
+      {
+        "company": "Goldman Sachs",
+        "title": "2027 New Analyst - Engineering",
+        "jobId": "171569",
+        "event": "inactive_to_active",
+        "result": "not a tracked Dallas requisition; existing Dallas applied record 171568 unchanged"
+      },
+      {
+        "company": "Lawrence Livermore National Laboratory",
+        "title": "Machine Learning Postdoctoral Researcher",
+        "event": "new",
+        "location": "Livermore, CA",
+        "result": "outside Texas and PhD/postdoctoral"
+      },
+      {
+        "company": "Draper",
+        "title": "Analog Hardware Design Engineer 1",
+        "event": "new",
+        "location": "Cambridge, MA",
+        "result": "outside Texas and hardware"
+      },
+      {
+        "company": "NVIDIA",
+        "title": "Software Engineer New Grad - Agent Performance Modeling",
+        "event": "active_to_inactive",
+        "location": "Santa Clara, CA",
+        "result": "outside Texas"
+      },
+      {
+        "company": "Intel",
+        "title": "SoC Logic Design Engineer",
+        "event": "active_to_inactive",
+        "location": "Santa Clara, CA",
+        "result": "outside Texas and hardware"
+      }
+    ],
+    "notes": [
+      "No changed upstream identifier or requisition matched an existing jobs.json record.",
+      "The existing applied Goldman Sachs Dallas requisition 171568 was preserved unchanged.",
+      "README-only changes were not treated as job discovery or scraping."
+    ]
+  },
+  "screening": {
+    "discovered": 6,
+    "fullTimeTexasRecordsReviewed": 3,
+    "officialJdsOpened": 2,
+    "publicEmployerPagesReviewed": 2,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "No in-scope role reached the Ryan comparison gate."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change",
+      "path": "jobs.json",
+      "contentSha": "f252ac8f5a6cd6989e606715fab4879ef281036e",
+      "recordCountBefore": 249,
+      "recordCountAfter": 249,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_new_verified_jd",
+      "count": 0
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_final_verification",
+      "path": "monitor-audit/2026-10-28T0555-Texas.json"
+    },
+    "synced": false,
+    "pendingSync": [
+      {
+        "path": "monitor-audit/2026-10-28T0555-Texas.json",
+        "reason": "awaiting GitHub write readback and branch-head verification"
+      }
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-28T09:17:07.000Z",
+    "lastSuccessfulWriteAt": "2026-10-28T09:17:07.000Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  }
+}
