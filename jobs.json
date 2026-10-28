@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T02:18:32.698Z",
+  "updatedAt": "2026-10-28T15:36:50.225Z",
   "jobs": [
     {
       "company": "IBM",
@@ -9212,6 +9212,52 @@
       "archivedAt": "2026-10-28T02:18:32.698Z",
       "applicationStatus": "not-applied",
       "rejectionReason": "CPU hardware, RTL, microarchitecture, verification and silicon bring-up fall under the standing hardware/chip/low-level exclusion."
+    },
+    {
+      "company": "USAA",
+      "tier": "Watch",
+      "area": "Plano, TX / San Antonio, TX",
+      "market": "DFW",
+      "title": "Software Engineer - Entry Level (R0121057)",
+      "employment": "Full-time · Hybrid · 4 days/week in office",
+      "gradYear": "Entry level; Bachelor's degree or equivalent education/experience",
+      "match": "Entry-level fit, but visa and direction rejected",
+      "ngCompatibility": "Allows internships, coursework, personal projects or professional work; no minimum full-time experience stated",
+      "assessment": "USAA's official Workday page was open with an Apply action on 2026-10-28. The role supports Property & Casualty auto policy-administration systems through Java development, REST APIs, cloud/container platforms, production troubleshooting, patching, monitoring and DevOps. It is general enterprise application and production engineering rather than Applied AI/ML/Data Science. The official JD also explicitly rejects candidates who now or later need immigration support, including STEM OPT Training Plans. It therefore fails both the standing F-1 OPT/STEM OPT gate and the target-direction/Ryan-upgrade gate.",
+      "visa": "Official JD: USAA does not sponsor this role and instructs candidates not to apply if they will ever need immigration support, explicitly including STEM OPT Training Plans.",
+      "found": "2026-10-28",
+      "discoveredDate": "2026-10-28",
+      "discoveredAt": "2026-10-28T15:36:50.225Z",
+      "firstSeen": "2026-10-28",
+      "lastChecked": "2026-10-28",
+      "lastCheckedAt": "2026-10-28T15:36:50.225Z",
+      "url": "https://usaa.wd1.myworkdayjobs.com/en-US/USAAJOBSWD/job/San-Antonio-Home-Office-I/Software-Engineer---Entry-Level_R0121057-1",
+      "officialSource": "https://usaa.wd1.myworkdayjobs.com/en-US/USAAJOBSWD/job/San-Antonio-Home-Office-I/Software-Engineer---Entry-Level_R0121057-1",
+      "status": "visa-direction-rejected",
+      "finalPriority": "不投 · 明确不接受STEM OPT且非Applied AI/ML方向",
+      "roleTrack": "Enterprise Software / Production Engineering / Java / DevOps",
+      "technicalGrowth": "Not scored for the preferred Applied AI path",
+      "brandPlatform": "Not rated",
+      "ryanUpgrade": "No; the role is outside Applied AI/ML and explicitly incompatible with STEM OPT.",
+      "compensation": "$63,590–$121,530 base (official posting)",
+      "officePerks": "Plano or San Antonio; 4 days/week in office; no relocation assistance",
+      "jobId": "R0121057",
+      "sourceListingId": "ef912e83-5396-42ce-b372-3e501ffa4a19",
+      "upstreamRecordId": "ef912e83-5396-42ce-b372-3e501ffa4a19",
+      "upstreamAddedCommit": "77bd066b913b43cf0471de0ca114ded3ecd3ecd3",
+      "source": "USAA official Workday JD; SimplifyJobs commit 77bd066b913b43cf0471de0ca114ded3ecd3ecd3",
+      "officialStatus": "Official page showed Apply, Posted Today, Full time and requisition R0121057 on 2026-10-28.",
+      "minimumExperience": "0 years stated; internships, coursework and personal projects accepted",
+      "verificationFlags": [
+        "visa-rejected",
+        "direction-rejected",
+        "start-date-unverified"
+      ],
+      "archiveUrl": "job-archive/usaa/R0121057/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-10-28T15:36:50.225Z",
+      "applicationStatus": "not-applied",
+      "rejectionReason": "Official JD explicitly excludes candidates needing STEM OPT Training Plans; core work is enterprise policy-administration software rather than Applied AI/ML/Data Science."
     }
   ],
   "monitorAudit": [
