@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T18:54:48.182Z",
+  "updatedAt": "2026-10-28T20:44:13.318Z",
   "jobs": [
     {
       "company": "IBM",
@@ -8875,17 +8875,17 @@
       "gradYear": "0 years professional experience; recent graduates and candidates nearing degree completion",
       "match": "Very high technical fit; eligibility timing unresolved",
       "ngCompatibility": "0-year gate passes; not explicitly tied to a 2027 start cohort",
-      "assessment": "Official AT&T page is open and describes a true zero-experience AI-native software role using Python, APIs, LLMs, RAG, embeddings, vector search, AI agents, LangGraph and MCP. Dallas is an official location and the base range is $77,800–$130,800. The role could beat Ryan on brand/platform and possibly compensation, but the page does not state a post-May-2027 start date or role-level OPT/STEM OPT/immigration-support policy. AT&T's separate TDP restrictions are not automatically applied to this distinct requisition, so the role remains pending rather than rejected.",
+      "assessment": "Official AT&T page remains open and describes a true zero-experience AI-native software role using Python, APIs, LLMs, RAG, embeddings, vector search, AI agents, LangGraph and MCP. Dallas remains an official location and the base range is $77,800–$130,800. SimplifyJobs changed the record to inactive on 2026-10-28, but the employer page still showed Apply now, so closure is not confirmed. The role could beat Ryan on brand/platform and possibly compensation, but the page does not state a post-May-2027 start date or role-level OPT/STEM OPT/immigration-support policy; it remains pending rather than entering table 2.",
       "visa": "Role-level visa verification: official JD does not state sponsorship, OPT/STEM OPT, E-Verify/I-983, or unrestricted authorization requirements.",
       "found": "2026-10-27",
       "discoveredDate": "2026-10-27",
       "discoveredAt": "2026-10-27T23:19:36.804Z",
       "firstSeen": "2026-10-27",
-      "lastChecked": "2026-10-27",
-      "lastCheckedAt": "2026-10-27T23:19:36.804Z",
+      "lastChecked": "2026-10-28",
+      "lastCheckedAt": "2026-10-28T20:44:13.318Z",
       "url": "https://www.att.jobs/job/alpharetta/ai-native-software-engineer-analyst-full-stack-python/117/102512395168",
       "officialSource": "https://www.att.jobs/job/alpharetta/ai-native-software-engineer-analyst-full-stack-python/117/102512395168",
-      "status": "start-date-visa-verification",
+      "status": "start-date-visa-status-verification",
       "finalPriority": "待核验 · 暂不进入表2",
       "roleTrack": "Applied AI / Agentic AI / Full-Stack Python / LLM-RAG",
       "technicalGrowth": "93/100",
@@ -8896,10 +8896,11 @@
       "jobId": "R-124488-1",
       "sourceListingId": "08793a1b-056f-4a21-9867-6c550f09d1d5",
       "source": "AT&T official careers JD; SimplifyJobs commit 0f794a2729a1b6eb86a64ff40dcef6887bf51ea2",
-      "officialStatus": "Official page displayed Apply on 2026-10-27.",
+      "officialStatus": "Official AT&T page displayed Apply now on 2026-10-28. SimplifyJobs changed its listing from active to inactive, so closure is not confirmed.",
       "verificationFlags": [
         "start-date-verification",
-        "visa-verification"
+        "visa-verification",
+        "status-verification"
       ],
       "archiveUrl": "job-archive/att/R-124488-1/job-description.md",
       "archiveLabel": "JD 归档",
