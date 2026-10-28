@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T23:19:36.804Z",
+  "updatedAt": "2026-10-28T02:18:32.698Z",
   "jobs": [
     {
       "company": "IBM",
@@ -9166,6 +9166,52 @@
       "archivedAt": "2026-10-27T23:19:36.804Z",
       "applicationStatus": "not-applied",
       "rejectionReason": "Core work is kernel drivers, low-level runtime, networking and silicon bring-up."
+    },
+    {
+      "company": "NUVACORE",
+      "tier": "Watch",
+      "area": "Austin, TX / Santa Clara, CA / United States",
+      "market": "Austin",
+      "title": "CPU Design & Verification Engineer — New College Grad",
+      "employment": "Full-time · New College Grad · Hybrid",
+      "gradYear": "Recent or upcoming B.S./M.S. graduate; exact post-May-2027 start not stated",
+      "match": "Direction rejected",
+      "ngCompatibility": "New-college-graduate role; coursework/projects accepted; no minimum full-time experience stated",
+      "assessment": "The official Lever page is live and targets recent or upcoming graduates. The work centers on CPU microarchitecture, RTL design and verification, SystemVerilog/Verilog, verification planning and coverage, assembly, FPGA collaboration and silicon bring-up. It therefore triggers the standing hardware/chip/low-level exclusion and is not eligible for the Applied AI/ML/Data Science application pool.",
+      "visa": "The official JD does not state role-level F-1 OPT/STEM OPT or sponsorship terms. No further visa review was needed because the hardware direction filter already disqualifies the role.",
+      "found": "2026-10-27",
+      "discoveredDate": "2026-10-27",
+      "discoveredAt": "2026-10-28T02:18:32.698Z",
+      "firstSeen": "2026-10-27",
+      "lastChecked": "2026-10-27",
+      "lastCheckedAt": "2026-10-28T02:18:32.698Z",
+      "url": "https://jobs.lever.co/nuvacore/0fa8362f-cff1-408b-a55f-18725dc311a1",
+      "officialSource": "https://jobs.lever.co/nuvacore/0fa8362f-cff1-408b-a55f-18725dc311a1",
+      "status": "direction-rejected",
+      "finalPriority": "不投 · CPU硬件/RTL/验证方向",
+      "roleTrack": "CPU Design Verification / RTL / Microarchitecture",
+      "technicalGrowth": "Not scored for the preferred Applied AI path",
+      "brandPlatform": "Not rated",
+      "ryanUpgrade": "No; the role is outside the target direction despite higher listed base compensation.",
+      "compensation": "$140,000–$200,000 base (official posting)",
+      "officePerks": "Austin or Santa Clara; hybrid",
+      "jobId": "0fa8362f-cff1-408b-a55f-18725dc311a1",
+      "sourceListingId": "df1715c7-c4ca-4ad5-ba8f-c81d18ad7449",
+      "upstreamRecordId": "df1715c7-c4ca-4ad5-ba8f-c81d18ad7449",
+      "upstreamAddedCommit": "c70634afce22818e4bdbb4de23c0c3dd77d6d157",
+      "source": "NUVACORE official Lever JD; SimplifyJobs commit c70634afce22818e4bdbb4de23c0c3dd77d6d157",
+      "officialStatus": "Official Lever page displayed the full JD and Apply action on 2026-10-27.",
+      "minimumExperience": "0 years stated; relevant coursework/projects accepted",
+      "verificationFlags": [
+        "direction-rejected",
+        "start-date-unverified",
+        "visa-unverified"
+      ],
+      "archiveUrl": "job-archive/nuvacore/0fa8362f-cff1-408b-a55f-18725dc311a1/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-10-28T02:18:32.698Z",
+      "applicationStatus": "not-applied",
+      "rejectionReason": "CPU hardware, RTL, microarchitecture, verification and silicon bring-up fall under the standing hardware/chip/low-level exclusion."
     }
   ],
   "monitorAudit": [
