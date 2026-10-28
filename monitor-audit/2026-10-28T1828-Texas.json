@@ -4,7 +4,9 @@
     "checkedAt": "2026-10-28T23:28:06.082Z",
     "checkedAtLocal": "2026-10-28T18:28:06.083-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
-    "result": "write_in_progress"
+    "result": "completed_verified_opt_rejection_archived_no_qualified_alert",
+    "completedAt": "2026-10-28T23:28:59.093Z",
+    "completedAtLocal": "2026-10-28T18:28:59.094-05:00"
   },
   "criteria": {
     "locations": [
@@ -180,46 +182,103 @@
   },
   "writes": {
     "jobs": {
-      "attempted": false,
-      "status": "pending",
+      "attempted": true,
+      "status": "synced",
       "path": "jobs.json",
-      "contentSha": "f21d71e8fa260c1630abd36e6f6ff194807bf339",
+      "commitSha": "c73eba44e9fb999b691fa8ee5c1d05e81b3618e9",
+      "contentSha": "a765360269448054a759fcc4e97e99d1d0360868",
       "recordCountBefore": 252,
       "recordCountAfter": 253,
       "appliedCountBefore": 4,
-      "appliedCountAfter": 4
+      "appliedCountAfter": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "readbackVerified": true
     },
     "pages": {
       "attempted": false,
-      "status": "not_attempted_no_qualified_table_change"
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
     },
     "archives": {
-      "attempted": false,
-      "status": "pending",
+      "attempted": true,
+      "status": "synced",
       "count": 1,
       "paths": [
         "job-archive/ascensus/R0021417/job-description.md"
-      ]
+      ],
+      "commitSha": "f1352538e030ed4ec7533752a51e463602115bc8",
+      "blobSha": "7eee5d9692f16c060686c6ccf895b5db41639962",
+      "readbackVerified": true
     },
     "audit": {
       "attempted": true,
-      "status": "pending",
+      "status": "verification_pending",
       "path": "monitor-audit/2026-10-28T1828-Texas.json",
+      "initialCommitSha": "84de87851e9e57fd717aaa3279511c81430fa49a",
+      "contentShaBeforeFinalization": "548ff837c5fdad9d9f319113df55f40f961dc398",
       "readbackVerified": false,
       "branchHeadVerified": false
     },
     "synced": false,
     "pendingSync": [
-      "job-archive/ascensus/R0021417/job-description.md",
-      "jobs.json",
-      "monitor-audit/2026-10-28T1828-Texas.json finalization"
+      "monitor-audit/2026-10-28T1828-Texas.json final readback"
     ],
     "consecutiveWriteFailures": 0,
     "lastSuccessfulWriteAtBeforeRun": "2026-10-28T22:56:44.580Z",
-    "lastSuccessfulWriteAt": "2026-10-28T22:56:44.580Z"
+    "lastSuccessfulWriteAt": "2026-10-28T23:28:59.093Z"
   },
   "notification": {
     "sent": false,
     "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  },
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "headBeforeAuditFinalization": "c73eba44e9fb999b691fa8ee5c1d05e81b3618e9",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "a765360269448054a759fcc4e97e99d1d0360868",
+      "commitSha": "c73eba44e9fb999b691fa8ee5c1d05e81b3618e9",
+      "recordCount": 253,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "updatedAt": "2026-10-28T23:28:06.082Z",
+      "readbackVerified": true
+    },
+    "archive": {
+      "path": "job-archive/ascensus/R0021417/job-description.md",
+      "blobSha": "7eee5d9692f16c060686c6ccf895b5db41639962",
+      "commitSha": "f1352538e030ed4ec7533752a51e463602115bc8",
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
   }
 }
