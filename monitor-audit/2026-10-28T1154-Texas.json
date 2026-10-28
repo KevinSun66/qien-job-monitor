@@ -4,7 +4,8 @@
     "checkedAt": "2026-10-28T16:54:23.344Z",
     "checkedAtLocal": "2026-10-28T11:54:23.344-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
-    "result": "write_in_progress"
+    "result": "completed_upstream_review_no_qualified_alert",
+    "completedAt": "2026-10-28T16:54:51.795Z"
   },
   "criteria": {
     "locations": [
@@ -155,18 +156,19 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending",
+      "status": "synced",
       "path": "monitor-audit/2026-10-28T1154-Texas.json",
-      "readbackVerified": false,
-      "branchHeadVerified": false
+      "readbackVerified": true,
+      "branchHeadVerified": true,
+      "initialCommit": "7a5805eec4f4baa2db451417d6963c413ec2ed14",
+      "contentShaBeforeFinalization": "35a8a04dd750fddc8ab206149d962667b2179e38",
+      "syncedAt": "2026-10-28T16:54:51.795Z"
     },
-    "synced": false,
-    "pendingSync": [
-      "monitor-audit/2026-10-28T1154-Texas.json finalization"
-    ],
+    "synced": true,
+    "pendingSync": [],
     "consecutiveWriteFailures": 0,
     "lastSuccessfulWriteAtBeforeRun": "2026-10-28T15:38:34Z",
-    "lastSuccessfulWriteAt": "2026-10-28T15:38:34Z"
+    "lastSuccessfulWriteAt": "2026-10-28T16:54:51.795Z"
   },
   "notification": {
     "sent": false,
