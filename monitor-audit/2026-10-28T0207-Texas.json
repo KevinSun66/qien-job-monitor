@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-28T07:07:10.082Z",
+    "checkedAtLocal": "2026-10-28T02:07:10-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_verified_data_change_no_qualified_alert"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "d3abbdb0b81920f190c2686a06c2964041f07997",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f252ac8f5a6cd6989e606715fab4879ef281036e",
+      "recordCount": 249,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "200677912-0157",
+        "R1002940",
+        "R172085",
+        "112338"
+      ],
+      "updatedAt": "2026-10-28T02:18:32.698Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-28T0048-Texas.json",
+      "blobSha": "e84bb0bbc884af20ab9870dd0c46d6e929e737e8",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-28T05:48:49.412Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "eafe129af589e45357771e1b8aa871978013f888",
+    "currentListingsCommit": "294b159ddcd3246a948cf3ae7090d8740801909c",
+    "listingsBlobBefore": "00999a316a5f0e91426770f1b0d02380eac104a6",
+    "listingsBlobAfter": "3c299aa1f480613e591b53610195c39c8d0d67d9",
+    "repositoryHeadObserved": "ec147e66f26e487895429c8af4bb8b3c1e6870fe",
+    "commitsReviewed": [
+      "69843aa47dce58e17a785fda900b96a7a900f4f5",
+      "b750bdd3cdfddd4bc32517b76fd570a1a1a3c45a",
+      "aed0a6d0ad2c89f9ddf6820420f2a3b0830b11b8",
+      "294b159ddcd3246a948cf3ae7090d8740801909c",
+      "ec147e66f26e487895429c8af4bb8b3c1e6870fe"
+    ],
+    "listingsDataCommitsReviewed": 3,
+    "changedRecordEvents": 33,
+    "newRecordEvents": 33,
+    "statusChangeEvents": 0,
+    "removedInactiveRecordEvents": 0,
+    "texasSignals": 3,
+    "texasSignalDetails": [
+      {
+        "company": "Shield AI",
+        "title": "Electrical Engineer, Test Equipment Design",
+        "upstreamRecordId": "fd1307f9-dd42-4f5a-95cf-04fa8e0730c0",
+        "location": "Dallas, TX",
+        "officialStatus": "Listed with Apply on Shield AI official Dallas board",
+        "decision": "direction-rejected",
+        "reason": "Electrical hardware-test equipment role; outside Applied AI/ML/Data Science and excluded hardware scope"
+      },
+      {
+        "company": "Shield AI",
+        "title": "Electrical Engineer 1 New Grad",
+        "upstreamRecordId": "142d61d3-6ed8-43f9-adb2-0e95d9215694",
+        "location": "Dallas, TX",
+        "officialStatus": "Listed with Apply on Shield AI official Dallas board",
+        "decision": "direction-rejected",
+        "reason": "Electrical engineering new-grad hardware role; outside Applied AI/ML/Data Science and excluded hardware scope"
+      },
+      {
+        "company": "StarTree",
+        "title": "Software Engineer 1",
+        "upstreamRecordId": "22ce9849-b0be-4484-be20-b79a507e2c6f",
+        "location": "Remote in USA",
+        "sourceStatus": "active",
+        "officialStatus": "Exact Greenhouse requisition not present on the current official StarTree job board; current board showed four India roles",
+        "decision": "unverified-not-added",
+        "reason": "Official open status could not be verified; start date, experience, Texas eligibility and work authorization were not established"
+      }
+    ],
+    "notes": [
+      "Shield AI's official Dallas board confirmed both electrical roles and their hardware/electrical team placement; strict direction exclusion made further eligibility review unnecessary.",
+      "The exact StarTree requisition 6235909004 could not be verified on the official Greenhouse board and was not added.",
+      "The other 30 newly added records were outside Dallas/Austin/verified Texas-eligible remote scope."
+    ]
+  },
+  "screening": {
+    "discovered": 3,
+    "fullTimeTexasRecordsReviewed": 3,
+    "officialJdsOpened": 0,
+    "publicEmployerPagesReviewed": 2,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "The two verified Dallas roles failed the hardware direction gate before Ryan comparison; the remote StarTree role lacked verified official status."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_actionable_data_change",
+      "path": "jobs.json",
+      "contentSha": "f252ac8f5a6cd6989e606715fab4879ef281036e",
+      "recordCountBefore": 249,
+      "recordCountAfter": 249,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_new_verified_in_scope_jd",
+      "count": 0
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_final_verification",
+      "path": "monitor-audit/2026-10-28T0207-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "final audit readback and branch-head verification"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-28T05:48:49.412Z",
+    "lastSuccessfulWriteAt": null
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  }
+}
