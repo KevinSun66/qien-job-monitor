@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-28T11:47:53.988Z",
+    "checkedAtLocal": "2026-10-28T06:47:53-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_upstream_status_review_no_qualified_alert"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "b7a875ef81f6f678a73f404a8ce49c52e1a82857",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "f252ac8f5a6cd6989e606715fab4879ef281036e",
+      "recordCount": 249,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "200677912-0157",
+        "R1002940",
+        "R172085",
+        "112338"
+      ],
+      "updatedAt": "2026-10-28T02:18:32.698Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-28T0555-Texas.json",
+      "blobSha": "c86f448a403e15bc6800131d87860c4e78e11a2c",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-28T10:55:40.000Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "8e949545e2bd872518cc91e2fba6a511fd687f44",
+    "currentListingsCommit": "40333d39d1a0f6fc986944c5381684e95e1e3fc3",
+    "listingsBlobBefore": "b13b355229ab5dd0b57f067dbdb1a0d39d8bd3f7",
+    "listingsBlobAfter": "ea3b3f8f333b9914873593d3eb41ed967e89fbd8",
+    "repositoryHeadObserved": "f3b6550882c980575d99cba493d25506ce8835e3",
+    "commitsReviewed": [
+      "94ca8b92656f5fa0eb9df2d90daee96c79b9c2af",
+      "40333d39d1a0f6fc986944c5381684e95e1e3fc3",
+      "f3b6550882c980575d99cba493d25506ce8835e3"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "changedRecordEvents": 3,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 2,
+    "removedRecordEvents": 1,
+    "activeToInactiveEvents": 2,
+    "inactiveToActiveEvents": 0,
+    "texasSignals": 1,
+    "texasSignalDetails": [
+      {
+        "company": "Boeing",
+        "title": "Entry-Level Software Engineer Developer",
+        "jobId": "JR2026523382",
+        "location": "Richardson, TX",
+        "event": "active_to_inactive",
+        "officialStatus": "not_confirmed; exact official Workday page was not retrievable in this run",
+        "result": "not added or marked closed; requisition is not in jobs.json, is general defense mission-systems software rather than Applied AI/ML/DS, and comparable official Boeing Richardson postings require U.S. citizenship/active Secret clearance and no visa sponsorship"
+      }
+    ],
+    "additionalReview": [
+      {
+        "company": "NVIDIA",
+        "title": "High-Performance LLM Training Engineer - New College Grad 2027",
+        "jobId": "JR2028237",
+        "location": "Santa Clara, CA",
+        "event": "active_to_inactive",
+        "officialReview": "official page was still indexed today",
+        "result": "outside Texas; no monitor change"
+      },
+      {
+        "company": "Anaplan",
+        "title": "Junior Software Engineer - Dev Academy",
+        "location": "Manchester, UK",
+        "event": "removed_inactive_legacy_record",
+        "result": "outside US/Texas"
+      }
+    ],
+    "notes": [
+      "The 11:01 UTC listings commit had no file diff.",
+      "No changed requisition matched an existing jobs.json record.",
+      "The exact Boeing status could not be confirmed from the official page, so no official-closed claim or monitor data change was made.",
+      "README-only changes were not treated as job discovery or scraping."
+    ]
+  },
+  "screening": {
+    "discovered": 0,
+    "fullTimeTexasRecordsReviewed": 1,
+    "officialJdsOpened": 1,
+    "publicEmployerPagesReviewed": 2,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "No in-scope role reached the Ryan comparison gate."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change",
+      "path": "jobs.json",
+      "contentSha": "f252ac8f5a6cd6989e606715fab4879ef281036e",
+      "recordCountBefore": 249,
+      "recordCountAfter": 249,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_new_verified_jd",
+      "count": 0
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_final_verification",
+      "path": "monitor-audit/2026-10-28T0647-Texas.json"
+    },
+    "synced": false,
+    "pendingSync": [
+      {
+        "path": "monitor-audit/2026-10-28T0647-Texas.json",
+        "reason": "awaiting GitHub write readback and branch-head verification"
+      }
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-28T10:55:40.000Z",
+    "lastSuccessfulWriteAt": "2026-10-28T10:55:40.000Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  }
+}
