@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T22:54:37.310Z",
+  "updatedAt": "2026-10-28T23:28:06.082Z",
   "jobs": [
     {
       "company": "IBM",
@@ -9355,6 +9355,53 @@
       "archivedAt": "2026-10-28T22:54:37.310Z",
       "applicationStatus": "not-applied",
       "rejectionReason": "Official minimum requires 2+ years, and the core work is low-level compiler and hardware-architecture optimization rather than Applied AI/ML/Data Science."
+    },
+    {
+      "company": "Ascensus",
+      "tier": "Watch",
+      "area": "Remote, Nationwide",
+      "market": "Texas-eligible US remote (state-level restrictions not separately stated)",
+      "title": "AI Software Engineer / Associate level (R0021417)",
+      "employment": "Full-time · Remote · Associate/New Grad track",
+      "gradYear": "Associate level 0–2 years/New Grads; no post-May-2027 start window stated",
+      "match": "Technical keywords relevant, but visa and opportunity-cost rejected",
+      "ngCompatibility": "Associate opening explicitly allows 0–2 years and accepts internships, co-ops and academic projects.",
+      "assessment": "Ascensus's exact official Workday URL remained live on 2026-10-28 after the upstream record returned from inactive to active. The role investigates LLM responses, RAG, agent orchestration, MCP/tool calls, prompts, logs and backend integrations, then works with engineering to improve reliability. Although the technical keywords overlap Qien's agentic-AI experience and the national base range is $65,000–$150,000, the job is primarily AI support/triage, has no post-May-2027 start window and is not a clear platform or technical-growth upgrade over Ryan. More decisively, the official JD explicitly says Ascensus does not hire candidates working under OPT.",
+      "visa": "Official JD: Ascensus does not provide visa sponsorship now or in the future and does not hire candidates working under OPT.",
+      "found": "2026-10-28",
+      "discoveredDate": "2026-10-28",
+      "discoveredAt": "2026-10-28T23:28:06.082Z",
+      "firstSeen": "2026-10-28",
+      "lastChecked": "2026-10-28",
+      "lastCheckedAt": "2026-10-28T23:28:06.082Z",
+      "url": "https://ascensushr.wd1.myworkdayjobs.com/ascensuscareers/job/Remote-Nationwide/AI-Software-Engineer_R0021417",
+      "officialSource": "https://ascensushr.wd1.myworkdayjobs.com/ascensuscareers/job/Remote-Nationwide/AI-Software-Engineer_R0021417",
+      "status": "visa-direction-opportunity-cost-rejected",
+      "finalPriority": "不投 · 官方明确不招聘OPT且岗位偏AI支持/排障",
+      "roleTrack": "AI Platform Support / LLM-RAG Debugging / Agent Orchestration",
+      "technicalGrowth": "Below Ryan target path because work centers on support, triage and reliability debugging",
+      "brandPlatform": "Not a clear upgrade over Ryan",
+      "ryanUpgrade": "No; explicit OPT incompatibility makes the role ineligible, and the support-oriented scope does not establish a clear technical or platform upgrade.",
+      "compensation": "$65,000–$150,000 national base range (official posting)",
+      "officePerks": "Remote, Nationwide; 25 Mbps internet and uninterrupted workspace requirements",
+      "jobId": "R0021417",
+      "sourceListingId": "7481b6e9-8bb5-4030-9e88-eaa8ae4dccb2",
+      "upstreamRecordId": "7481b6e9-8bb5-4030-9e88-eaa8ae4dccb2",
+      "upstreamStatusCommit": "80f84ee5e8db97ea1971e35c547ec624ae230405",
+      "source": "Ascensus official Workday JD; SimplifyJobs inactive-to-active commit 80f84ee5e8db97ea1971e35c547ec624ae230405",
+      "officialStatus": "Exact official Workday URL remained live on 2026-10-28; upstream listing returned from inactive to active.",
+      "minimumExperience": "0–2 years; internships, co-ops and academic projects accepted",
+      "verificationFlags": [
+        "visa-rejected",
+        "direction-opportunity-cost-rejected",
+        "start-date-unverified",
+        "texas-remote-state-eligibility-unverified"
+      ],
+      "archiveUrl": "job-archive/ascensus/R0021417/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-10-28T23:28:06.082Z",
+      "applicationStatus": "not-applied",
+      "rejectionReason": "Official JD explicitly says Ascensus does not hire candidates working under OPT; the role is support/triage oriented and lacks a 2027 start window."
     }
   ],
   "monitorAudit": [
