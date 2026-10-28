@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-28T01:50:18.720Z",
+    "checkedAtLocal": "2026-10-27T20:50:18-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_verified_data_change_no_qualified_alert"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "b9142597fd7bcfa8c2cc4450ef7324a13e2db895",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "80ad9257aac41bf691218ffca2763aace5096390",
+      "recordCount": 248,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "200677912-0157",
+        "R1002940",
+        "R172085",
+        "112338"
+      ],
+      "updatedAt": "2026-10-27T23:19:36.804Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-27T1922-Texas.json",
+      "blobSha": "55b41e1f79de0763f0f19a59f9d0b11a4ed28807",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-28T00:22:27.232Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "349817ec34b6347ac9f4893b425d1a5c90ae5b1a",
+    "currentListingsCommit": "ea1facdf356f0986f6c53781e9bc7f4bef5d10aa",
+    "listingsBlobBefore": "fd8f8dd0230d156077ccf4403dcde25883cacac2",
+    "listingsBlobAfter": "08c1bf598839ba10942752a0b9f580d67e201024",
+    "repositoryHeadObserved": "0969a9e29140a3d3eb59a659cee9e7320c76d794",
+    "commitsReviewed": [
+      "e2aa51522432097af8ad6c491dbbb30f99fa64c2",
+      "aafb8b12eb34663096a24c7839a1d1b005ef2ec3",
+      "dacca92367c2f7eda6a92aac4dd8c421b84e2c9d",
+      "db44b0dbecebab4b8b27c25b48059b8e918a0f09",
+      "ea1facdf356f0986f6c53781e9bc7f4bef5d10aa",
+      "0969a9e29140a3d3eb59a659cee9e7320c76d794"
+    ],
+    "listingsDataCommitsReviewed": 3,
+    "changedRecordEvents": 43,
+    "newRecordEvents": 19,
+    "statusChangeEvents": 24,
+    "texasSignals": 2,
+    "texasSignalDetails": [
+      {
+        "company": "Flex",
+        "title": "Engineering Technician",
+        "jobId": "WD231216",
+        "location": "Austin, TX",
+        "sourceChange": "active-to-inactive",
+        "decision": "direction-rejected",
+        "reason": "hardware/engineering technician role; not Applied AI/ML/Data Science"
+      },
+      {
+        "company": "Everfox",
+        "title": "Software Engineer 1",
+        "jobId": "JR500927",
+        "location": "Richardson, TX",
+        "sourceChange": "active-to-inactive",
+        "decision": "direction-rejected",
+        "reason": "general Linux/C/C++/network-security product engineering; not Applied AI/ML/Data Science"
+      }
+    ],
+    "notes": [
+      "Reply Edge AI/Computer Vision Engineer was verified on the employer's live Lever board in Chicago/Detroit, outside Texas scope.",
+      "Goldman Sachs requisitions 171569 and 171570 reactivated outside Texas (New York and Salt Lake City).",
+      "ServiceNow Software Engineer New Grad - AI/ML changed to inactive in Mountain View, California.",
+      "All 19 newly added records were outside Dallas/Austin/Texas-eligible remote scope."
+    ]
+  },
+  "screening": {
+    "discovered": 2,
+    "fullTimeTexasRecordsReviewed": 2,
+    "officialJdsOpened": 0,
+    "publicEmployerPagesReviewed": 3,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "The only Texas signals failed the core Applied AI/ML/Data Science direction gate before Ryan comparison."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change",
+      "path": "jobs.json",
+      "contentSha": "80ad9257aac41bf691218ffca2763aace5096390",
+      "recordCountBefore": 248,
+      "recordCountAfter": 248,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_new_verified_jd",
+      "count": 0
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending",
+      "path": "monitor-audit/2026-10-27T2050-Texas.json",
+      "initialCommit": null,
+      "contentShaBeforeFinalization": null,
+      "syncedAt": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-27T2050-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-28T00:22:27.232Z",
+    "lastSuccessfulWriteAt": "2026-10-28T00:22:27.232Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  }
+}
