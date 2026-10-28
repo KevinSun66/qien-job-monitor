@@ -33,7 +33,7 @@
       "path": "jobs.json",
       "blobSha": "f252ac8f5a6cd6989e606715fab4879ef281036e",
       "recordCount": 249,
-      "appliedCount": 12,
+      "appliedCount": 4,
       "appliedJobIds": [
         "200677912-0157",
         "R1002940",
@@ -152,8 +152,8 @@
       "contentSha": "a7fb4fda489af23e4697aa7070b58f59ec324bbc",
       "recordCountBefore": 249,
       "recordCountAfter": 250,
-      "appliedCountBefore": 12,
-      "appliedCountAfter": 12,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
       "commit": "adc5f4ed2beadf4df50674d5b95435d6891ae1e5",
       "readbackVerified": true
     },
@@ -181,7 +181,8 @@
       "branchHeadVerified": true,
       "initialCommit": "f8a0394d15099d3435a433e9bf33aa639106e37a",
       "contentShaBeforeFinalization": "c684d5c07edc081682f47ed7de189a359195e3f4",
-      "syncedAt": "2026-10-28T15:38:18.745Z"
+      "syncedAt": "2026-10-28T15:38:18.745Z",
+      "correction": "Applied count is based on applicationStatus=applied; historical seedAppliedAt fields on closed/rejected records are not current applied statuses."
     },
     "synced": true,
     "pendingSync": [],
@@ -197,7 +198,7 @@
     "jobs": {
       "blobSha": "a7fb4fda489af23e4697aa7070b58f59ec324bbc",
       "recordCount": 250,
-      "appliedCount": 12,
+      "appliedCount": 4,
       "updatedAt": "2026-10-28T15:36:50.225Z"
     },
     "pagesUnchanged": true,
