@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T15:36:50.225Z",
+  "updatedAt": "2026-10-28T18:54:48.182Z",
   "jobs": [
     {
       "company": "IBM",
@@ -9258,6 +9258,54 @@
       "archivedAt": "2026-10-28T15:36:50.225Z",
       "applicationStatus": "not-applied",
       "rejectionReason": "Official JD explicitly excludes candidates needing STEM OPT Training Plans; core work is enterprise policy-administration software rather than Applied AI/ML/Data Science."
+    },
+    {
+      "company": "BeyondTrust",
+      "tier": "Watch",
+      "area": "Remote United States",
+      "market": "Texas-eligible US remote (posting removed before state-level confirmation)",
+      "title": "Associate Data Engineer (8300876)",
+      "employment": "Full-time · Associate · Remote United States",
+      "gradYear": "Associate/junior; no 2027 graduation or start window stated",
+      "match": "Relevant data engineering signal, but official posting removed before action",
+      "ngCompatibility": "No numeric minimum-experience requirement was stated; hands-on Spark/distributed-processing/data-warehouse experience was required",
+      "assessment": "The employer-provided JD described a remote-US Associate Data Engineer working on a high-volume cybersecurity data lake: data modeling, pipelines, Spark/Databricks/Python, distributed processing, observability, CI/CD and assistance with ML Operations. At the 2026-10-28 check, the exact official Greenhouse URL redirected to the BeyondTrust openings page with error=true, and the role was absent from the 43 current openings, confirming that the requisition had been removed. The posting was not 2027-specific and disclosed neither compensation nor role-level OPT/STEM OPT terms, so no actionable Ryan upgrade can be established.",
+      "visa": "The employer JD snapshot did not disclose role-level F-1 OPT/STEM OPT, E-Verify, unrestricted-authorization or sponsorship terms.",
+      "found": "2026-10-28",
+      "discoveredDate": "2026-10-28",
+      "discoveredAt": "2026-10-28T18:54:48.182Z",
+      "firstSeen": "2026-10-28",
+      "lastChecked": "2026-10-28",
+      "lastCheckedAt": "2026-10-28T18:54:48.182Z",
+      "url": "https://job-boards.greenhouse.io/beyondtrust/jobs/8300876",
+      "officialSource": "https://job-boards.greenhouse.io/beyondtrust/jobs/8300876",
+      "status": "closed-watch",
+      "finalPriority": "已关闭 · 不进入表2",
+      "roleTrack": "Data Engineering / Cybersecurity Data Lake / Spark / ML Operations",
+      "technicalGrowth": "Potentially relevant, but no longer actionable",
+      "brandPlatform": "Not rated",
+      "ryanUpgrade": "Unverified and no longer actionable; compensation, 2027 start and OPT/STEM OPT terms were not disclosed before the posting was removed.",
+      "compensation": "Not disclosed in the employer JD snapshot.",
+      "officePerks": "Remote United States; Texas-specific eligibility was not separately stated before removal.",
+      "jobId": "8300876",
+      "sourceListingId": "afc381bd-a720-48e2-9119-10766e6c7d5c",
+      "upstreamRecordId": "afc381bd-a720-48e2-9119-10766e6c7d5c",
+      "upstreamInactiveCommit": "de6975ea151a542c2421305b96f48bdfe9437664",
+      "source": "BeyondTrust employer careers/Greenhouse JD snapshot; SimplifyJobs status commit de6975ea151a542c2421305b96f48bdfe9437664",
+      "officialStatus": "Exact Greenhouse URL redirected to https://job-boards.greenhouse.io/beyondtrust?error=true and the current employer openings page did not list the role on 2026-10-28.",
+      "minimumExperience": "No numeric minimum stated; required Spark, distributed-processing and data-warehouse experience",
+      "verificationFlags": [
+        "officially-removed",
+        "start-date-unverified",
+        "visa-unverified",
+        "compensation-unverified",
+        "texas-remote-unverified"
+      ],
+      "archiveUrl": "job-archive/beyondtrust/8300876/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-10-28T18:54:48.182Z",
+      "applicationStatus": "not-applied",
+      "rejectionReason": "Official requisition was removed before action; 2027 start, Texas-specific remote eligibility, OPT/STEM OPT policy and compensation were not verified, so no Ryan upgrade could be established."
     }
   ],
   "monitorAudit": [
