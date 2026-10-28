@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-28T21:35:14.832Z",
+    "checkedAtLocal": "2026-10-28T16:35:14.832-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "write_in_progress"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "993621a524ab5d98481d7185d2c1f41f704e6dad",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "73a5f08fbd062f81e64fdc219f85713f062fc59b",
+      "recordCount": 251,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "200677912-0157",
+        "R1002940",
+        "R172085",
+        "112338"
+      ],
+      "updatedAt": "2026-10-28T20:44:13.318Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-28T1544-Texas.json",
+      "blobSha": "c67ea06efa63e22e790a386ec4549ad57b82197c",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-28T20:44:47.341Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "9ffad860df14bde3c1e530ccc0d0cdba26853fcd",
+    "currentListingsCommit": "85a9792ff3513ec0c5466b8a28ad65b9e7195057",
+    "listingsBlobBefore": "0e54dc82c679551e193c47c30ad079bc020cf2a8",
+    "listingsBlobAfter": "8fbc87aa64d4164feb79d0f70cac4a950968265d",
+    "previousRepositoryHeadObserved": "134a92cf39a5490d290cc08dd0355a30034e49d8",
+    "repositoryHeadObserved": "85a9792ff3513ec0c5466b8a28ad65b9e7195057",
+    "commitsReviewed": [
+      "d6b3f309df3549ece6e305b2049c0e40b48a7bda",
+      "98626f183138c37e9b13d8f4d9d7b13746ac0aa8",
+      "85a9792ff3513ec0c5466b8a28ad65b9e7195057"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 1,
+    "noOpDataCommits": 0,
+    "changedRecordEvents": 5,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 5,
+    "activeToInactiveEvents": 5,
+    "inactiveToActiveEvents": 0,
+    "removedRecordEvents": 0,
+    "texasSignals": 0,
+    "additionalReview": [
+      {
+        "company": "AttoTude",
+        "title": "Test Engineer Recent Graduate - Test Technician",
+        "event": "active_to_inactive",
+        "result": "outside Dallas/Austin/Texas target scope"
+      },
+      {
+        "company": "RTX",
+        "title": "Systems Engineer I",
+        "jobId": "01874215",
+        "location": "Tewksbury, MA",
+        "event": "active_to_inactive",
+        "result": "outside Texas"
+      },
+      {
+        "company": "onsemi",
+        "title": "AI Engineer",
+        "jobId": "2506767",
+        "location": "Scottsdale, AZ",
+        "event": "active_to_inactive",
+        "result": "official employer search confirmed Scottsdale; outside Texas"
+      },
+      {
+        "company": "RTX",
+        "title": "Systems Engineer I",
+        "jobId": "01874214",
+        "location": "Marlborough, MA",
+        "event": "active_to_inactive",
+        "result": "outside Texas"
+      },
+      {
+        "company": "OCLC",
+        "title": "Associate Software Engineer - Search Team",
+        "jobId": "R0003958",
+        "location": "Dublin, OH",
+        "event": "active_to_inactive",
+        "result": "outside Texas"
+      },
+      {
+        "commit": "98626f183138c37e9b13d8f4d9d7b13746ac0aa8",
+        "result": "README-only presentation change for a Brownsville SpaceX row; no listings.json data event."
+      }
+    ],
+    "notes": [
+      "The public monitor repository still has no .github/workflows directory; no GitHub Pages workflow was treated as a scraper."
+    ]
+  },
+  "screening": {
+    "discovered": 0,
+    "fullTimeTexasRecordsReviewed": 0,
+    "officialJdsOpened": 1,
+    "publicEmployerPagesReviewed": 1,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "No Dallas/Austin or verified Texas-remote record changed, so no candidate required a new Ryan comparison."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_target_data_change",
+      "path": "jobs.json",
+      "contentSha": "73a5f08fbd062f81e64fdc219f85713f062fc59b",
+      "recordCountBefore": 251,
+      "recordCountAfter": 251,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_target_jd_change",
+      "count": 0,
+      "paths": []
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending",
+      "path": "monitor-audit/2026-10-28T1635-Texas.json",
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-28T1635-Texas.json finalization"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-28T20:44:47.341Z",
+    "lastSuccessfulWriteAt": "2026-10-28T20:44:47.341Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  }
+}
