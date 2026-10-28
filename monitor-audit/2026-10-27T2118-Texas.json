@@ -122,7 +122,7 @@
   "writes": {
     "jobs": {
       "attempted": true,
-      "status": "write_succeeded_readback_pending",
+      "status": "synced",
       "path": "jobs.json",
       "commit": "7bd05b478e469f37fc29a7575987ecc6d4b60e9e",
       "contentSha": "f252ac8f5a6cd6989e606715fab4879ef281036e",
@@ -137,7 +137,7 @@
     },
     "archives": {
       "attempted": true,
-      "status": "write_succeeded_readback_pending",
+      "status": "synced",
       "count": 1,
       "items": [
         {
@@ -149,21 +149,19 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_final_verification",
+      "status": "synced",
       "path": "monitor-audit/2026-10-27T2118-Texas.json",
-      "initialCommit": null,
-      "contentShaBeforeFinalization": null,
-      "syncedAt": null,
-      "readbackVerified": false,
-      "branchHeadVerified": false
+      "initialCommit": "6e4f9b96e680f8045eb46224b1e763815179a584",
+      "contentShaBeforeFinalization": "602829fce508b3882edec1aed31a7d7397bdaff4",
+      "syncedAt": "2026-10-28T02:19:37.092Z",
+      "readbackVerified": true,
+      "branchHeadVerified": true
     },
-    "synced": false,
-    "pendingSync": [
-      "final audit readback and branch-head verification"
-    ],
+    "synced": true,
+    "pendingSync": [],
     "consecutiveWriteFailures": 0,
     "lastSuccessfulWriteAtBeforeRun": "2026-10-28T01:50:23.811Z",
-    "lastSuccessfulWriteAt": null
+    "lastSuccessfulWriteAt": "2026-10-28T02:19:37.092Z"
   },
   "notification": {
     "sent": false,
