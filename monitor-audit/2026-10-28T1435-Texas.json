@@ -4,7 +4,8 @@
     "checkedAt": "2026-10-28T19:35:56.844Z",
     "checkedAtLocal": "2026-10-28T14:35:56.844-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
-    "result": "write_in_progress"
+    "result": "completed_no_upstream_data_change_no_qualified_alert",
+    "completedAt": "2026-10-28T19:36:20.104Z"
   },
   "criteria": {
     "locations": [
@@ -131,21 +132,39 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending",
+      "status": "synced",
       "path": "monitor-audit/2026-10-28T1435-Texas.json",
-      "readbackVerified": false,
-      "branchHeadVerified": false
+      "readbackVerified": true,
+      "branchHeadVerified": true,
+      "initialCommit": "400f33dceefbb28beeb9a23b38644e34f9f6d7b2",
+      "contentShaBeforeFinalization": "1efdc0364ea6de90531432e08fb240e154fa5189",
+      "syncedAt": "2026-10-28T19:36:20.104Z"
     },
-    "synced": false,
-    "pendingSync": [
-      "monitor-audit/2026-10-28T1435-Texas.json finalization"
-    ],
+    "synced": true,
+    "pendingSync": [],
     "consecutiveWriteFailures": 0,
     "lastSuccessfulWriteAtBeforeRun": "2026-10-28T18:55:40.416Z",
-    "lastSuccessfulWriteAt": "2026-10-28T18:55:40.416Z"
+    "lastSuccessfulWriteAt": "2026-10-28T19:36:20.104Z"
   },
   "notification": {
     "sent": false,
     "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  },
+  "repositorySnapshotAfter": {
+    "jobs": {
+      "blobSha": "3afc24afcbc45726c57dc95cbe5f08ac15e56452",
+      "recordCount": 251,
+      "appliedCount": 4,
+      "updatedAt": "2026-10-28T18:54:48.182Z"
+    },
+    "pages": {
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "unchanged": true
+    },
+    "workflows": {
+      "exists": false
+    },
+    "branchHeadBeforeAuditFinalization": "400f33dceefbb28beeb9a23b38644e34f9f6d7b2"
   }
 }
