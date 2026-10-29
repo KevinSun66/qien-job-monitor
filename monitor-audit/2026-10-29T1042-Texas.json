@@ -4,7 +4,9 @@
     "checkedAt": "2026-10-29T15:42:06.000Z",
     "checkedAtLocal": "2026-10-29T10:42:06-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
-    "result": "completed_no_verified_new_or_status_change_no_qualified_alert"
+    "result": "completed_no_verified_new_or_status_change_no_qualified_alert",
+    "completedAt": "2026-10-29T15:42:30.000Z",
+    "completedAtLocal": "2026-10-29T10:42:30-05:00"
   },
   "criteria": {
     "locations": [
@@ -159,16 +161,18 @@
     },
     "audit": {
       "attempted": true,
-      "status": "verification_pending",
-      "path": "monitor-audit/2026-10-29T1042-Texas.json"
+      "status": "synced",
+      "path": "monitor-audit/2026-10-29T1042-Texas.json",
+      "initialCommitSha": "55fc51a6ef5503c6a90d12bb0a9c3c8b8aeeb5c7",
+      "initialContentSha": "c905ebeed597a9497a8cb8129b3b30775a7d4911",
+      "initialReadbackVerifiedAt": "2026-10-29T15:42:30.000Z",
+      "branchHeadVerified": true
     },
-    "synced": false,
-    "pendingSync": [
-      "monitor-audit/2026-10-29T1042-Texas.json"
-    ],
+    "synced": true,
+    "pendingSync": [],
     "consecutiveWriteFailures": 0,
     "lastSuccessfulWriteAtBeforeRun": "2026-10-29T15:07:48.000Z",
-    "lastSuccessfulWriteAt": "2026-10-29T15:07:48.000Z"
+    "lastSuccessfulWriteAt": "2026-10-29T15:42:30.000Z"
   },
   "notification": {
     "sent": false,
@@ -209,6 +213,7 @@
       "check": "GitHub contents API returned 404",
       "scrapingWorkflowFound": false,
       "pagesWorkflowFound": false
-    }
+    },
+    "headAfterInitialAudit": "55fc51a6ef5503c6a90d12bb0a9c3c8b8aeeb5c7"
   }
 }
