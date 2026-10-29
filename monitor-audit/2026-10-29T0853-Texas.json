@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-29T13:53:42.000Z",
+    "checkedAtLocal": "2026-10-29T08:53:42.000-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "write_in_progress",
+    "completedAt": "2026-10-29T13:54:08.000Z",
+    "completedAtLocal": "2026-10-29T08:54:08-05:00"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "e1242dd941440b6075e6b997e50ca47bfd9250b0",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "70fab9d55dd752d98100177f897a8e19e554319f",
+      "recordCount": 255,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "updatedAt": "2026-10-29T02:36:55Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-29T0759-Texas.json",
+      "blobSha": "725ededc3502cf4a82e179b95c6acc025534f885",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-29T13:00:02.000Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "6f15974fd75508da52a1aa7881c1f5ec0ad427f5",
+    "currentListingsCommit": "aff910cca5632a38fd3f9bddc959d101e3717447",
+    "repositoryHeadObserved": "98f995e81cf7b3a2c3b415cc51bf77ad29f38a0c",
+    "commitsReviewed": [
+      "a87d37366c4b00214f17920d85f98d05ec11cb4b",
+      "8786a5182b5d5dbc661a28766cf4096e88306457",
+      "aff910cca5632a38fd3f9bddc959d101e3717447",
+      "98f995e81cf7b3a2c3b415cc51bf77ad29f38a0c"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 2,
+    "changedRecordEvents": 8,
+    "newRecordEvents": 3,
+    "statusChangeEvents": 5,
+    "activeToInactiveEvents": 5,
+    "inactiveToActiveEvents": 0,
+    "removedRecordEvents": 0,
+    "trackedRecordMatches": 0,
+    "relevantTexasEvents": 1,
+    "statusChanges": [
+      {
+        "company": "Cleveland-Cliffs",
+        "title": "Commercial Sales Analyst",
+        "event": "active_to_inactive",
+        "disposition": "No tracked jobs.json match; not a target Applied AI/ML/DS role."
+      },
+      {
+        "company": "RTX",
+        "title": "Embedded Security Software Engineer 1",
+        "event": "active_to_inactive",
+        "location": "El Segundo, CA",
+        "disposition": "Outside Texas and embedded/security direction."
+      },
+      {
+        "company": "Quantum",
+        "title": "Business Analyst",
+        "event": "active_to_inactive",
+        "disposition": "No tracked jobs.json match and not target direction."
+      },
+      {
+        "company": "Red Ventures",
+        "title": "Associate Data Scientist - Home Client Services",
+        "event": "active_to_inactive",
+        "disposition": "No Dallas/Austin location signal and no tracked jobs.json match."
+      },
+      {
+        "company": "Barclays",
+        "title": "Full Stack Developer",
+        "event": "active_to_inactive",
+        "location": "Whippany, NJ",
+        "disposition": "Outside Texas and no tracked jobs.json match."
+      }
+    ],
+    "newRecords": [
+      {
+        "company": "PPG Industries",
+        "title": "Operations Analytics Specialist / Manufacturing Data Analyst",
+        "location": "Delaware, OH",
+        "disposition": "Outside Texas."
+      },
+      {
+        "company": "Salesforce",
+        "title": "Software Engineering MTS",
+        "sourceJobId": "JR363598",
+        "location": "Dallas, TX / Indianapolis, IN",
+        "disposition": "Verified and archived as experience-rejected: same-requisition JD requires 3+ years software engineering, exceeding the zero-start 0-2 rule."
+      },
+      {
+        "company": "Motorola Solutions",
+        "title": "Mid Level Back End Engineer",
+        "location": "Edinburgh, UK",
+        "disposition": "Outside United States/Texas and mid-level."
+      }
+    ],
+    "notes": [
+      "The exact Salesforce Workday requisition URL was live on 2026-10-29. Same-requisition public copies consistently identified Dallas and a 3+ year software-engineering minimum.",
+      "Simplify's 'Software Engineer New Grad' label conflicted with the requisition qualifications and was not treated as authoritative.",
+      "The Salesforce role was archived to prevent duplicate review but not added to Dallas table 2 because it fails the mandatory experience gate.",
+      "The public monitor repository still has no .github/workflows directory; no GitHub Pages workflow was treated as a scraper."
+    ]
+  },
+  "screening": {
+    "discovered": 1,
+    "fullTimeTexasOrRemoteRecordsReviewed": 1,
+    "officialJdsOpened": 1,
+    "publicEmployerPagesReviewed": 1,
+    "fullyVerifiedCandidates": 1,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": true,
+    "recordsAdded": 1,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 1,
+    "comparisonToRyan": "Salesforce JR363598 was not eligible for a Ryan upgrade comparison because its confirmed 3+ year minimum fails the mandatory experience gate; it is also not a verified 2027 Applied AI/ML/DS campus role."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "succeeded_readback_verified",
+      "path": "jobs.json",
+      "commitSha": "4c71f7116305c688a9f2ef5c755b05f67ccf479f",
+      "contentShaBefore": "70fab9d55dd752d98100177f897a8e19e554319f",
+      "contentShaAfter": "194c7e35fb8483094257883eed87076d8680bb07",
+      "recordCountBefore": 255,
+      "recordCountAfter": 256,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "readbackVerified": true,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "succeeded_readback_verified",
+      "count": 1,
+      "paths": [
+        "job-archive/salesforce/JR363598/job-description.md"
+      ],
+      "commitShas": [
+        "7fee986b5aa2f510d72e938c252728cc101418ba"
+      ],
+      "blobShas": [
+        "5455bd99bb1c7b40eab0a0c41b09362aed564f31"
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "write_in_progress",
+      "path": "monitor-audit/2026-10-29T0853-Texas.json",
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-29T0853-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-29T13:00:02.000Z",
+    "lastSuccessfulWriteAt": "2026-10-29T13:00:02.000Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "The only new Texas record was verified as ineligible due to a 3+ year minimum and was archived without table-2 promotion."
+  },
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "headBeforeAuditFinalization": "4c71f7116305c688a9f2ef5c755b05f67ccf479f",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "194c7e35fb8483094257883eed87076d8680bb07",
+      "recordCount": 256,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "updatedAt": "2026-10-29T13:53:42Z",
+      "changed": true,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  }
+}
