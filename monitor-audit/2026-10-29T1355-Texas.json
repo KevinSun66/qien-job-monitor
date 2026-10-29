@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-29T18:55:55.000Z",
+    "checkedAtLocal": "2026-10-29T13:55:55-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "verification_pending_new_role_archived_no_qualified_alert"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "18905046e6eb112d7bea90fe9b4a1f078944ba42",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "57b1c1f49323dcbe5a93037e7896a99937f6d78c",
+      "recordCount": 260,
+      "updatedAt": "2026-10-29T16:48:52Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-29T1234-Texas.json",
+      "blobSha": "5cb1c277d1dc1e04ad38deaf304a68cba7e842a3",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-29T17:34:33.000Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "3750ee9ce2be3b65561aac778febfa501b87b459",
+    "currentListingsCommit": "48730e25974481f2c151b7007323ffe1e4650bf3",
+    "repositoryHeadObserved": "d228370009711b931d62d8dfb173649aa743135f",
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 1,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 6,
+    "activeToInactiveEvents": 6,
+    "inactiveToActiveEvents": 0,
+    "relevantTexasEvents": 1,
+    "verifiedOfficialStatusChanges": 0,
+    "texasEvent": {
+      "company": "RTX / Raytheon",
+      "title": "Embedded Software Engineer I — Onsite",
+      "jobId": "01881232",
+      "location": "McKinney, TX",
+      "sourceEvent": "active_to_inactive",
+      "disposition": "Already tracked as citizenship-direction-rejected. Aggregate-source inactivity does not establish an official closure, and the existing citizenship/Secret-clearance and embedded-direction rejection remains unchanged."
+    },
+    "otherEvents": [
+      "Amazon Software Development Engineer — non-Texas location context not established in the patch",
+      "L3Harris Senior Associate Integration/Test Engineering — Palm Bay, Florida",
+      "State Street Data Analyst/Data Engineer Senior Associate — Quincy, Massachusetts",
+      "Check Software Engineer — no Texas location shown in patch",
+      "Centene Data Analyst I — already tracked and rejected for explicit F-1/OPT/CPT exclusion"
+    ],
+    "notes": [
+      "The public monitor repository still has no .github/workflows directory; no GitHub Pages workflow was treated as a scraper.",
+      "No official status was inferred from aggregate source changes alone."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 3,
+    "officialSearchResultsReviewed": 18,
+    "newlyArchived": [
+      {
+        "company": "Apple",
+        "jobId": "200691639-0157",
+        "title": "Applied AI Engineer, Apple Ads",
+        "location": "Austin, TX",
+        "officialStatus": "open_with_submit_resume",
+        "posted": "2026-10-26",
+        "experience": "No numeric minimum years stated; production software, deployed LLM applications and large-scale data platforms required.",
+        "workAuthorization": "Not disclosed; verification required.",
+        "startDate": "Post-May-2027 timing not disclosed; verification required.",
+        "responsibilities": [
+          "LLM agent systems",
+          "tool calling and memory",
+          "MCPs",
+          "RAG/context retrieval",
+          "evaluation and observability",
+          "AI analytical decision support"
+        ],
+        "ryanComparison": "Potential technical/platform upgrade, but not actionable until timing, OPT/STEM OPT and compensation are verified.",
+        "disposition": "Stored as verification pending; excluded from Table 2 and notification."
+      }
+    ],
+    "reviewedNotAdded": [
+      {
+        "company": "Apple",
+        "jobId": "200692322-0157",
+        "title": "Data Engineer, Apple Ads",
+        "reason": "Official minimum requires 1+ years of Cloud Data Engineering, failing the zero-start rule."
+      },
+      {
+        "company": "Apple",
+        "jobId": "200643421-0157",
+        "title": "Software Engineer - Generative AI & ML, Customer Systems",
+        "reason": "Official minimum requires 4+ years of ML/backend/data-engineering experience."
+      },
+      {
+        "company": "Apple",
+        "jobId": "200691684-0157",
+        "title": "InfoSec Development Program",
+        "reason": "Information-security rotational program; not a sufficiently direct Applied AI/ML/Data Science role for this monitor."
+      },
+      {
+        "company": "Apple",
+        "jobId": "200692283-0157",
+        "title": "Senior ML Infrastructure SRE",
+        "reason": "Senior role."
+      },
+      {
+        "company": "Kyndryl",
+        "jobId": "R-66739",
+        "title": "Associate AI Engineer",
+        "reason": "Already tracked; no verified new status change."
+      }
+    ]
+  },
+  "screening": {
+    "discovered": 1,
+    "fullTimeTexasOrRemoteRecordsReviewed": 7,
+    "officialJdsOpened": 4,
+    "knownOfficialMatchesCrossChecked": 5,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 1,
+    "qualifyingStatusChanges": 0,
+    "dataChanges": true,
+    "recordsAdded": 1,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 1,
+    "comparisonToRyan": "Apple 200691639-0157 may exceed Ryan technically and by platform, but eligibility and compensation remain unverified; no alert."
+  },
+  "writes": {
+    "archives": {
+      "attempted": true,
+      "status": "written_and_commit_returned",
+      "paths": [
+        "job-archive/apple/200691639-0157/job-description.md"
+      ],
+      "commitSha": "e9fe08314b295e15afa21d95f5ba487e932b6598"
+    },
+    "jobs": {
+      "attempted": true,
+      "status": "written_and_commit_returned",
+      "path": "jobs.json",
+      "commitSha": "04d966c2b0b205bea943299d3ff049776aa29fc8",
+      "blobSha": "5502d8e8734b2b83c467e89abc786eff419cfb9e",
+      "recordCount": 261,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "audit": {
+      "attempted": true,
+      "status": "verification_pending",
+      "path": "monitor-audit/2026-10-29T1355-Texas.json"
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-29T1355-Texas.json readback and final sync verification"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-29T17:34:33.000Z",
+  "lastSuccessfulWriteAt": "2026-10-29T17:34:33.000Z",
+  "notification": {
+    "sent": false,
+    "reason": "The only new role remains unverified for post-May-2027 timing, F-1 OPT/STEM OPT and compensation; no fully verified Ryan-upgrade alert."
+  }
+}
