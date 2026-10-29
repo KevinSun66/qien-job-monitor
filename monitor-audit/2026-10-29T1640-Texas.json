@@ -4,7 +4,9 @@
     "checkedAt": "2026-10-29T21:40:50.000Z",
     "checkedAtLocal": "2026-10-29T16:40:50-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
-    "result": "completed_no_verified_new_or_status_change_no_qualified_alert"
+    "result": "completed_no_verified_new_or_status_change_no_qualified_alert",
+    "completedAt": "2026-10-29T21:41:06.000Z",
+    "completedAtLocal": "2026-10-29T16:41:06-05:00"
   },
   "criteria": {
     "locations": [
@@ -160,19 +162,58 @@
     },
     "audit": {
       "attempted": true,
-      "status": "verification_pending",
-      "path": "monitor-audit/2026-10-29T1640-Texas.json"
+      "status": "synced",
+      "path": "monitor-audit/2026-10-29T1640-Texas.json",
+      "initialCommitSha": "3f2fa650eaafeb0647b2c89bd80859abe9db89d2",
+      "initialContentSha": "1dfbbf363344058cb9a0607770cb92866b990e5c",
+      "initialReadbackVerifiedAt": "2026-10-29T21:41:06.000Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-10-29T1640-Texas.json readback and final sync verification"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-10-29T20:12:59.000Z",
-  "lastSuccessfulWriteAt": "2026-10-29T20:12:59.000Z",
+  "lastSuccessfulWriteAt": "2026-10-29T21:41:06.000Z",
   "notification": {
     "sent": false,
     "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  },
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "headAfterInitialAudit": "3f2fa650eaafeb0647b2c89bd80859abe9db89d2",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "5502d8e8734b2b83c467e89abc786eff419cfb9e",
+      "recordCount": 261,
+      "updatedAt": "2026-10-29T18:55:55Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
   }
 }
