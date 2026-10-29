@@ -4,7 +4,9 @@
     "checkedAt": "2026-10-29T01:27:56.715Z",
     "checkedAtLocal": "2026-10-28T20:27:56.716-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
-    "result": "write_in_progress"
+    "result": "completed_no_verified_data_change_no_qualified_alert",
+    "completedAt": "2026-10-29T01:28:20.310Z",
+    "completedAtLocal": "2026-10-28T20:28:20.311-05:00"
   },
   "criteria": {
     "locations": [
@@ -131,11 +133,20 @@
       "recordCountBefore": 253,
       "recordCountAfter": 253,
       "appliedCountBefore": 4,
-      "appliedCountAfter": 4
+      "appliedCountAfter": 4,
+      "readbackVerified": true,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
     },
     "pages": {
       "attempted": false,
-      "status": "not_attempted_no_qualified_table_change"
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
     },
     "archives": {
       "attempted": false,
@@ -145,21 +156,61 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending",
+      "status": "verification_pending",
       "path": "monitor-audit/2026-10-28T2027-Texas.json",
+      "initialCommitSha": "d3327e22687715a6f08012352ab1171f1a0c6643",
+      "contentShaBeforeFinalization": "df7276833a00365812a323f0e93b6c826577e9d4",
       "readbackVerified": false,
       "branchHeadVerified": false
     },
     "synced": false,
     "pendingSync": [
-      "monitor-audit/2026-10-28T2027-Texas.json finalization"
+      "monitor-audit/2026-10-28T2027-Texas.json final readback"
     ],
     "consecutiveWriteFailures": 0,
     "lastSuccessfulWriteAtBeforeRun": "2026-10-29T00:35:07.880Z",
-    "lastSuccessfulWriteAt": "2026-10-29T00:35:07.880Z"
+    "lastSuccessfulWriteAt": "2026-10-29T01:28:20.310Z"
   },
   "notification": {
     "sent": false,
     "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  },
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "headBeforeAuditFinalization": "d3327e22687715a6f08012352ab1171f1a0c6643",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "a765360269448054a759fcc4e97e99d1d0360868",
+      "recordCount": 253,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "updatedAt": "2026-10-28T23:28:06.082Z",
+      "changed": false,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
   }
 }
