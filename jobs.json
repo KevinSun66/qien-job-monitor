@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T02:36:55Z",
+  "updatedAt": "2026-10-29T13:53:42Z",
   "jobs": [
     {
       "company": "IBM",
@@ -9505,6 +9505,58 @@
       "archivedAt": "2026-10-29T02:36:55Z",
       "applicationStatus": "not-applied",
       "rejectionReason": "The role is mechanical/thermal and AI-hardware system validation, an explicitly excluded function."
+    },
+    {
+      "company": "Salesforce",
+      "tier": "A+",
+      "area": "Dallas, TX / Indianapolis, IN",
+      "market": "DFW",
+      "title": "Software Engineering MTS (JR363598)",
+      "employment": "Full-time · MTS · Hybrid/office-based",
+      "gradYear": "Not a 2027 new-grad opening; no post-May-2027 start window stated",
+      "match": "Experience rejected; some agentic-AI and automation overlap",
+      "ngCompatibility": "Official requisition copies require 3+ years of software engineering experience, exceeding the zero-start 0–2 year rule.",
+      "assessment": "Salesforce's exact Workday requisition URL was live on 2026-10-29. The role combines Salesforce Platform development, production support, reliability, automation, AI agents, knowledge retrieval, log analysis and AI-assisted development/testing. Despite the upstream 'Software Engineer New Grad' label and Dallas location, the same-requisition JD requires 3+ years of software engineering experience. It is therefore not a valid 0–2 year/campus opening. The core work also leans toward Salesforce platform engineering, production support and automation rather than a verified 2027 Applied AI/ML/Data Science position.",
+      "visa": "The official/current requisition materials reviewed did not state role-level F-1 OPT/STEM OPT, E-Verify/I-983 or sponsorship terms; not pursued further because the confirmed experience minimum already excludes the role.",
+      "found": "2026-10-29",
+      "discoveredDate": "2026-10-29",
+      "discoveredAt": "2026-10-29T13:53:42Z",
+      "firstSeen": "2026-10-29",
+      "lastChecked": "2026-10-29",
+      "lastCheckedAt": "2026-10-29T13:53:42Z",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Indiana---Indianapolis/Software-Engineering-MTS_JR363598",
+      "officialSource": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Indiana---Indianapolis/Software-Engineering-MTS_JR363598",
+      "status": "experience-rejected",
+      "finalPriority": "不投 · 最低3年以上经验，不符合0–2年硬门槛",
+      "roleTrack": "Salesforce Platform Engineering / Production Support / AI Agents / Automation",
+      "technicalGrowth": "Some relevant agentic-AI exposure, but not evaluated as a new-grad Ryan upgrade because the experience gate fails",
+      "brandPlatform": "Strong brand and platform",
+      "ryanUpgrade": "No actionable upgrade; mandatory 3+ years experience disqualifies the role, and it is not a verified 2027 Applied AI/ML/DS campus position.",
+      "compensation": "Not disclosed in the requisition copies reviewed",
+      "officePerks": "Dallas or Indianapolis; hybrid/office details vary by posting copy",
+      "jobId": "JR363598",
+      "sourceListingId": "fcd88c67-d6d6-41a6-9f32-1b0db5954dd6",
+      "upstreamRecordId": "fcd88c67-d6d6-41a6-9f32-1b0db5954dd6",
+      "upstreamAddedCommit": "aff910cca5632a38fd3f9bddc959d101e3717447",
+      "source": "Salesforce official Workday requisition; same-requisition public JD copies; SimplifyJobs commit aff910cca5632a38fd3f9bddc959d101e3717447",
+      "officialStatus": "Exact Salesforce Workday URL was live on 2026-10-29; current public copies of JR363598 described the role and Dallas location.",
+      "officialLocations": [
+        "Dallas, TX",
+        "Indianapolis, IN"
+      ],
+      "locationListComplete": true,
+      "minimumExperience": "3+ years software engineering",
+      "verificationFlags": [
+        "experience-rejected",
+        "not-2027-specific",
+        "visa-unverified",
+        "direction-not-core-applied-ai"
+      ],
+      "archiveUrl": "job-archive/salesforce/JR363598/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-10-29T13:53:42Z",
+      "applicationStatus": "not-applied",
+      "rejectionReason": "The same-requisition JD requires 3+ years of software engineering experience, exceeding the mandatory zero-start 0–2 year rule; it is not a verified 2027 Applied AI/ML/Data Science new-grad role."
     }
   ],
   "monitorAudit": [
