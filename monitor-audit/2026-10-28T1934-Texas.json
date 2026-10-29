@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-29T00:34:22.015Z",
+    "checkedAtLocal": "2026-10-28T19:34:22.016-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "write_in_progress"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "1033cf122c02a28a0d9760257b31e161047f6c7f",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "a765360269448054a759fcc4e97e99d1d0360868",
+      "recordCount": 253,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "updatedAt": "2026-10-28T23:28:06.082Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-28T1828-Texas.json",
+      "blobSha": "34f3b808d541eec9634e07d5fd8e53779b700068",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-28T23:29:15.597Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "80f84ee5e8db97ea1971e35c547ec624ae230405",
+    "currentListingsCommit": "f4a6efc4a7ece7c9ca79ec9e306ca98f36cc40a1",
+    "listingsBlobBefore": "926aeb88ea4f211af741af5d9eeea20169d4f5f8",
+    "listingsBlobAfter": "2de9846748c53b05d0adf9b85c3a48e04fbee05e",
+    "repositoryHeadObserved": "d387786fa1c1b071e8837b59943cd40d15a9d58d",
+    "commitsReviewed": [
+      "f266c323b1cf9cd878c05a44a23f07a80fb6dffa",
+      "bf5db44949dbdb5b4c6a3497d002eaf79dd9602b",
+      "901f6ce9f603428e9560211f8f7b407258a5c01e",
+      "6517ba640d01d999b8406da1c0a32d8dd83fbf71",
+      "f4a6efc4a7ece7c9ca79ec9e306ca98f36cc40a1",
+      "d387786fa1c1b071e8837b59943cd40d15a9d58d"
+    ],
+    "listingsDataCommitsReviewed": 3,
+    "readmeCommitsReviewed": 3,
+    "changedRecordEvents": 81,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 2,
+    "activeToInactiveEvents": 2,
+    "inactiveToActiveEvents": 0,
+    "removedRecordEvents": 79,
+    "removalReview": {
+      "alreadyInactiveRecordsRemoved": 79,
+      "trackedJobsMatched": 0,
+      "action": "No jobs.json deletion or status change. Historical records are preserved under the standing no-delete rule.",
+      "commits": [
+        {
+          "sha": "f266c323b1cf9cd878c05a44a23f07a80fb6dffa",
+          "removedInactiveRecords": 42,
+          "listingsBlob": "8e66b349e1b75d3a2e3888ebdb7bb007fde97ff8"
+        },
+        {
+          "sha": "901f6ce9f603428e9560211f8f7b407258a5c01e",
+          "removedInactiveRecords": 28,
+          "listingsBlob": "038b1179c0589bc9a5c441d356b59ece91d29517"
+        },
+        {
+          "sha": "f4a6efc4a7ece7c9ca79ec9e306ca98f36cc40a1",
+          "removedInactiveRecords": 9,
+          "listingsBlob": "2de9846748c53b05d0adf9b85c3a48e04fbee05e"
+        }
+      ]
+    },
+    "statusChanges": [
+      {
+        "company": "Halma",
+        "title": "Product Manager",
+        "jobId": "JR26_001013",
+        "location": "Scottsdale, AZ",
+        "event": "active_to_inactive",
+        "disposition": "Outside target location and function."
+      },
+      {
+        "company": "Blue Cross Blue Shield of Arizona",
+        "title": "Software Developer",
+        "jobId": "R6309-1",
+        "location": "Phoenix, AZ",
+        "event": "active_to_inactive",
+        "disposition": "Outside target location."
+      }
+    ],
+    "relevantRemovedSignals": [
+      {
+        "company": "Analytical Mechanics Associates",
+        "title": "AIML Research Associate",
+        "jobId": "R-100498",
+        "location": "Remote listing included Texas",
+        "event": "already_inactive_record_removed",
+        "verification": {
+          "checkedAt": "2026-10-29T00:34:22.015Z",
+          "result": "Exact official requisition was not returned in current official search; a current public listing marks it expired. The employer's current official indexed AIML Research Associate requisition is R-100750 and is Remote California only."
+        },
+        "disposition": "No actionable Texas opening; audit only, no jobs.json record or notification."
+      },
+      {
+        "company": "GM Financial",
+        "title": "Software Development Engineer 1",
+        "jobId": "1848",
+        "location": "Arlington / Irving, TX",
+        "event": "already_inactive_record_removed",
+        "verification": {
+          "checkedAt": "2026-10-29T00:34:22.015Z",
+          "result": "Exact old requisition was absent from current official search. Current GM Financial Texas software openings are different requisitions and higher-level roles; official GMF postings also state OPT is not supported."
+        },
+        "disposition": "Old inactive generic SWE record; no tracked-job match, no data change."
+      }
+    ],
+    "notes": [
+      "The public monitor repository still has no .github/workflows directory; no GitHub Pages workflow was treated as a scraper."
+    ]
+  },
+  "screening": {
+    "discovered": 0,
+    "staleInactiveRecordsRemovedUpstream": 79,
+    "fullTimeTexasOrRemoteRecordsReviewed": 2,
+    "officialJdsOpened": 2,
+    "publicEmployerPagesReviewed": 2,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "No new or currently open eligible Texas Applied AI/ML/Data Science role was found. The AMA record is expired/not Texas-current, and the GM Financial record was already inactive and generic SWE."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change",
+      "path": "jobs.json",
+      "contentSha": "a765360269448054a759fcc4e97e99d1d0360868",
+      "recordCountBefore": 253,
+      "recordCountAfter": 253,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_new_verified_jd",
+      "count": 0,
+      "paths": []
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending",
+      "path": "monitor-audit/2026-10-28T1934-Texas.json",
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-28T1934-Texas.json finalization"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-28T23:29:15.597Z",
+    "lastSuccessfulWriteAt": "2026-10-28T23:29:15.597Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  }
+}
