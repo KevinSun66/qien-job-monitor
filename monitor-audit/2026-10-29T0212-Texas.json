@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-29T07:12:38.000Z",
+    "checkedAtLocal": "2026-10-29T02:12:38.000-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "write_in_progress",
+    "completedAt": "2026-10-29T07:13:20.131Z",
+    "completedAtLocal": "2026-10-29T02:13:20-05:00"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "1cb65cb3bf4cd9900ebdb9b2b866db69a481ac05",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "70fab9d55dd752d98100177f897a8e19e554319f",
+      "recordCount": 255,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "updatedAt": "2026-10-29T02:36:55Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-29T0124-Texas.json",
+      "blobSha": "ba176cc1a0f97f34ec9b8d66357006df11559d67",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-29T06:24:43.473Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "2827d90b395203938d7bf18c97e812c3b4063e0a",
+    "currentListingsCommit": "171ac7c1b25764899e70ab76d163a9dbadce8b8b",
+    "repositoryHeadObserved": "2f28d46a9615af69308a136b0b9f4214a4cda0ef",
+    "commitsReviewed": [
+      "14448462eb321f3ca3cbb828a99cb3e9bc7f6430",
+      "860510978f3c65cb2e0bc42b49260ea467fded22",
+      "171ac7c1b25764899e70ab76d163a9dbadce8b8b",
+      "2f28d46a9615af69308a136b0b9f4214a4cda0ef"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 2,
+    "changedRecordEvents": 13,
+    "newRecordEvents": 8,
+    "statusChangeEvents": 5,
+    "activeToInactiveEvents": 2,
+    "inactiveToActiveEvents": 3,
+    "removedRecordEvents": 0,
+    "trackedRecordMatches": 0,
+    "relevantTexasEvents": 2,
+    "statusChanges": [
+      {
+        "company": "Goldman Sachs",
+        "title": "Engineering New Analyst - Engineering",
+        "sourceJobId": "171570",
+        "event": "inactive_to_active_then_active_to_inactive",
+        "location": "Not identified as the tracked Dallas 171568 requisition",
+        "disposition": "Net status unchanged; no tracked jobs.json match."
+      },
+      {
+        "company": "Goldman Sachs",
+        "title": "New Analyst - Engineering",
+        "sourceJobId": "171569",
+        "event": "inactive_to_active_then_active_to_inactive",
+        "location": "Outside tracked Dallas requisition",
+        "disposition": "Net status unchanged; no tracked jobs.json match."
+      },
+      {
+        "company": "RTX",
+        "title": "Test Engineer 1 - Vision Systems",
+        "sourceListingId": "d82876b1-0aad-423c-a0ae-8cddb479fe16",
+        "location": "Goleta, CA",
+        "event": "inactive_to_active",
+        "disposition": "Outside Texas and hardware/test direction; audit only."
+      }
+    ],
+    "texasRecordsReviewed": [
+      {
+        "company": "Signet Jewelers",
+        "title": "Business Analyst - Sourcing",
+        "sourceListingId": "bf0c4779-e0c0-44cc-98ee-d70bc3d28ac7",
+        "sourceRequisition": "REQ_84279",
+        "location": "Irving, TX",
+        "officialVerification": {
+          "checkedAt": "2026-10-29T07:12:38.000Z",
+          "url": "https://signetjewelers.wd1.myworkdayjobs.com/SignetCorporateCareers/job/Support-Center---Irving-TX/Business-Analyst---Sourcing_REQ_84279",
+          "result": "Exact upstream Workday URL could not be opened; an official indexed Signet posting with the same title and duties appeared under REQ_83334. Duties are sourcing/vendor reporting, dashboards, Power BI/Alteryx/Tableau and Excel; no Applied AI/ML responsibilities."
+        },
+        "disposition": "Not added: exact requisition/open status mismatch remains unverified, role direction is BI/sourcing analytics, and no clear Ryan upgrade."
+      },
+      {
+        "company": "Castelion",
+        "title": "Electrical Engineer",
+        "sourceListingId": "8f508c73-890d-42e2-a66e-4dbe83d34ab6",
+        "sourceRequisition": "4395018009",
+        "location": "Allen, TX",
+        "officialVerification": {
+          "checkedAt": "2026-10-29T07:12:38.000Z",
+          "url": "https://job-boards.greenhouse.io/castelioncorporation/jobs/4395018009",
+          "result": "Official Greenhouse posting is open and describes circuit-card assemblies, PCB/CCA manufacturing, schematics, qualification, production readiness, and export-controlled access."
+        },
+        "disposition": "Excluded by hardware/electrical direction; outside Applied AI/ML/Data Science and not a Ryan upgrade."
+      }
+    ],
+    "notes": [
+      "No changed upstream ID matched a tracked jobs.json record.",
+      "The public monitor repository still has no .github/workflows directory; no GitHub Pages workflow was treated as a scraper."
+    ]
+  },
+  "screening": {
+    "discovered": 2,
+    "fullTimeTexasOrRemoteRecordsReviewed": 2,
+    "officialJdsOpened": 2,
+    "publicEmployerPagesReviewed": 2,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "Signet is sourcing BI/reporting with no clear compensation or Applied AI upgrade and exact requisition status is unresolved; Castelion is electrical/PCB hardware. Neither qualifies."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change",
+      "path": "jobs.json",
+      "contentSha": "70fab9d55dd752d98100177f897a8e19e554319f",
+      "recordCountBefore": 255,
+      "recordCountAfter": 255,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "readbackVerified": true,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_new_verified_eligible_jd",
+      "count": 0,
+      "paths": []
+    },
+    "audit": {
+      "attempted": true,
+      "status": "write_in_progress",
+      "path": "monitor-audit/2026-10-29T0212-Texas.json",
+      "initialCommitSha": null,
+      "contentShaBeforeFinalization": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false,
+      "finalizationCommitSha": null,
+      "finalizationContentSha": null,
+      "verifiedAt": null
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-29T0212-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-29T06:24:43.473Z",
+    "lastSuccessfulWriteAt": "2026-10-29T06:24:43.473Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  },
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "headBeforeAuditFinalization": "1cb65cb3bf4cd9900ebdb9b2b866db69a481ac05",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "70fab9d55dd752d98100177f897a8e19e554319f",
+      "recordCount": 255,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "updatedAt": "2026-10-29T02:36:55Z",
+      "changed": false,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    },
+    "headAfterInitialAudit": null,
+    "headAfterFirstAuditFinalization": null,
+    "auditFinalizationContentSha": null
+  }
+}
