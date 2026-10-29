@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T18:55:55Z",
+  "updatedAt": "2026-10-29T22:44:39Z",
   "jobs": [
     {
       "company": "IBM",
@@ -9806,6 +9806,74 @@
       "archiveLabel": "JD 归档摘要",
       "archivedAt": "2026-10-29T18:55:55Z",
       "applicationStatus": "not-applied"
+    },
+    {
+      "company": "UtiliSave LLC",
+      "tier": "C",
+      "area": "Remote US (Texas ineligible)",
+      "market": "Remote",
+      "title": "Forensic Regulatory Data Analyst (9ED27658CC)",
+      "employment": "Full-time · Remote · Entry-level framing",
+      "gradYear": "Degree completed or within six months",
+      "match": "Rejected · location, work authorization, and direction",
+      "ngCompatibility": "Rejected: Texas is not in the permitted Central Time state list; citizens/active green-card holders only",
+      "assessment": "Official posting is open, but remote residence is limited to the Eastern Time Zone or Missouri, Arkansas, Mississippi, and Alabama; Texas is not eligible. It also limits applicants to U.S. citizens and active green-card holders and does not support the F-1 OPT/STEM OPT path. Duties focus on utility-billing audits, tariff analysis, regulatory claims, Python anomaly detection, and client correspondence rather than Applied AI/ML/Data Science. It is not a Ryan upgrade.",
+      "visa": "U.S. citizens and active green-card holders only; visa sponsorship unavailable. F-1 OPT/STEM OPT incompatible.",
+      "found": "2026-10-29",
+      "url": "https://apply.workable.com/utilisave-llc-1/j/9ED27658CC/",
+      "status": "location-visa-direction-rejected",
+      "finalPriority": "不投 · Texas/OPT/方向硬排除",
+      "roleTrack": "Forensic utility billing / regulatory data analysis",
+      "seniorityGap": "JD states 1–3 years or equivalent academic/project/internship work; location and authorization independently disqualify.",
+      "compensation": "Not disclosed in the official posting reviewed.",
+      "jobId": "9ED27658CC",
+      "officialStatus": "Open with application instructions at 2026-10-29 check",
+      "lastChecked": "2026-10-29",
+      "lastCheckedAt": "2026-10-29T22:44:39Z",
+      "verificationFlags": [],
+      "archiveUrl": "job-archive/utilisave/9ED27658CC/job-description.md",
+      "archivedAt": "2026-10-29T22:44:39Z",
+      "screeningReasons": [
+        "texas-residency-not-eligible",
+        "citizen-or-green-card-only",
+        "not-applied-ai-ml-ds",
+        "no-ryan-upgrade"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "tier": "S",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Data Scientist, OTS - Data ANCHOR Team (10589280)",
+      "employment": "Full-time · Data Science",
+      "gradYear": "Not a campus/new-grad requisition",
+      "match": "Direction and compensation strong · experience hard rejection",
+      "ngCompatibility": "Rejected: official Basic Qualifications require 3+ years of data-scientist experience and 3+ years with querying/scripting/statistical tools",
+      "assessment": "Official Austin role is open and covers forecasting, incident severity classification, intelligent triage, anomaly detection, experimentation, AWS production ML pipelines, and agentic-AI analytical infrastructure. Austin base range is $136,000–$184,000 plus sign-on and RSUs, but two separate official minimums require 3+ years, exceeding both the zero-start rule and the monitor's 0–2 year ceiling.",
+      "visa": "Official posting reviewed does not disclose F-1 OPT/STEM OPT or sponsorship; experience rejection is independently dispositive.",
+      "found": "2026-10-29",
+      "url": "https://www.amazon.jobs/en/jobs/10589280/data-scientist-ots-data-anchor-team",
+      "status": "experience-rejected",
+      "finalPriority": "不投 · 3+年硬门槛",
+      "roleTrack": "Applied Data Science / ML / Agentic AI operations",
+      "seniorityGap": "3+ years of data-scientist experience and 3+ years using SQL/Python/R or equivalent tools required.",
+      "technicalGrowth": "High but inaccessible under experience rule",
+      "brandPlatform": "S",
+      "ryanUpgrade": "Potential compensation/platform upgrade, but ineligible because of the official 3+ year minimum.",
+      "compensation": "Austin base $136,000–$184,000 + sign-on payments and RSUs",
+      "jobId": "10589280",
+      "officialStatus": "Open with active application link at 2026-10-29 check",
+      "lastChecked": "2026-10-29",
+      "lastCheckedAt": "2026-10-29T22:44:39Z",
+      "verificationFlags": [],
+      "archiveUrl": "job-archive/amazon/10589280/job-description.md",
+      "archivedAt": "2026-10-29T22:44:39Z",
+      "screeningReasons": [
+        "minimum-experience-3-plus",
+        "exceeds-0-to-2-year-window",
+        "not-zero-start"
+      ]
     }
   ],
   "monitorAudit": [
