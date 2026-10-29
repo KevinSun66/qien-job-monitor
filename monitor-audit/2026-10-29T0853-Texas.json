@@ -4,9 +4,9 @@
     "checkedAt": "2026-10-29T13:53:42.000Z",
     "checkedAtLocal": "2026-10-29T08:53:42.000-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
-    "result": "write_in_progress",
-    "completedAt": "2026-10-29T13:54:08.000Z",
-    "completedAtLocal": "2026-10-29T08:54:08-05:00"
+    "result": "completed_verified_excluded_record_archived_no_qualified_alert",
+    "completedAt": "2026-10-29T13:54:26.000Z",
+    "completedAtLocal": "2026-10-29T08:54:26-05:00"
   },
   "criteria": {
     "locations": [
@@ -210,10 +210,12 @@
     },
     "audit": {
       "attempted": true,
-      "status": "write_in_progress",
+      "status": "verification_pending",
       "path": "monitor-audit/2026-10-29T0853-Texas.json",
-      "readbackVerified": false,
-      "branchHeadVerified": false
+      "readbackVerified": true,
+      "branchHeadVerified": true,
+      "initialCommitSha": "969a40e849527930120615212b966f662382fd3f",
+      "contentShaBeforeFinalization": "dce92625be1574e6e08bd94615bed3c19a439730"
     },
     "synced": false,
     "pendingSync": [
@@ -263,6 +265,7 @@
       "check": "GitHub contents API returned 404",
       "scrapingWorkflowFound": false,
       "pagesWorkflowFound": false
-    }
+    },
+    "headAfterInitialAudit": "969a40e849527930120615212b966f662382fd3f"
   }
 }
