@@ -4,7 +4,9 @@
     "checkedAt": "2026-10-29T23:47:01.000Z",
     "checkedAtLocal": "2026-10-29T18:47:01-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
-    "result": "completed_two_verified_high_fit_roles_pending_eligibility_no_qualified_alert"
+    "result": "completed_two_verified_high_fit_roles_pending_eligibility_no_qualified_alert",
+    "completedAt": "2026-10-29T23:48:05.000Z",
+    "completedAtLocal": "2026-10-29T18:48:05-05:00"
   },
   "criteria": {
     "locations": [
@@ -211,19 +213,68 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_readback",
-      "path": "monitor-audit/2026-10-29T1847-Texas.json"
+      "status": "synced",
+      "path": "monitor-audit/2026-10-29T1847-Texas.json",
+      "initialCommitSha": "cc645809554b6c5ad666979c2aa32457ce6f757c",
+      "initialContentSha": "ed001b8c61652ecd67d4a5f7633c450603d4d520",
+      "initialReadbackVerifiedAt": "2026-10-29T23:48:05.000Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-10-29T1847-Texas.json readback and branch-head verification"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-10-29T22:46:04.000Z",
-  "lastSuccessfulWriteAt": null,
+  "lastSuccessfulWriteAt": "2026-10-29T23:48:05.000Z",
   "notification": {
     "sent": false,
     "reason": "No new role met all fully verified eligibility requirements; unverified roles are not notified."
+  },
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "headAfterInitialAudit": "cc645809554b6c5ad666979c2aa32457ce6f757c",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "9a0954c585d635e74d540c5cb58ba5ed8cf0d75e",
+      "recordCount": 265,
+      "updatedAt": "2026-10-29T23:47:01Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archives": [
+      {
+        "path": "job-archive/raydar/31364F00E3/job-description.md",
+        "blobSha": "d511fef64f2be536f2151f1d8760ae7c270a631d"
+      },
+      {
+        "path": "job-archive/twilio/8240487/job-description.md",
+        "blobSha": "a890046eed880ffb55024e7b309c29d01bc78872"
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
   }
 }
