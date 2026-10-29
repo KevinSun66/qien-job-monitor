@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T22:44:39Z",
+  "updatedAt": "2026-10-29T23:47:01Z",
   "jobs": [
     {
       "company": "IBM",
@@ -9874,6 +9874,80 @@
         "exceeds-0-to-2-year-window",
         "not-zero-start"
       ]
+    },
+    {
+      "company": "Raydar (recruiting for confidential client)",
+      "tier": "A",
+      "area": "Austin preferred / Remote North America",
+      "market": "Austin / Remote",
+      "title": "AI Product Engineer / Forward Deployed Engineer (31364F00E3)",
+      "employment": "Full-time · Remote-first · Early career",
+      "gradYear": "0–3 years; post-May-2027 start not stated",
+      "match": "Very High technical and compensation fit · key eligibility verification pending",
+      "ngCompatibility": "Potentially compatible: official JD starts at zero years and explicitly says OPT may be considered; target-university eligibility and 2027 start remain unverified",
+      "assessment": "Official Workable page is open. The role builds and deploys features for a YC-backed voice-AI trust platform covering agent simulation, adversarial red-teaming, production observability, customer discovery, and full-stack delivery. Austin is preferred and North America remote work is supported. $140K–$180K base plus equity is a meaningful potential Ryan upgrade, but the employer client is unnamed, the accepted target-university list is incomplete, and a start after May 2027 is not confirmed.",
+      "visa": "Existing visa transfers may be considered, including OPT; new sponsorship from scratch unavailable. STEM OPT/I-983 and future sponsorship details still require confirmation.",
+      "found": "2026-10-29",
+      "url": "https://apply.workable.com/raydar/j/31364F00E3/",
+      "status": "start-date-education-employer-verification",
+      "finalPriority": "待核验 · 不进入表2",
+      "roleTrack": "Applied AI product engineering / Forward-deployed AI / Voice-agent reliability",
+      "seniorityGap": "0–3 years permits zero-experience candidates; practical shipping/startup evidence required.",
+      "technicalGrowth": "High",
+      "brandPlatform": "Confidential YC-backed startup; identity verification required",
+      "ryanUpgrade": "Potentially strong: $140K–$180K base, equity, production voice-AI agents, customer-facing ownership; eligibility and start timing unresolved.",
+      "compensation": "$140,000–$180,000 base + equity",
+      "officePerks": "Remote-first North America; Austin or San Francisco preferred; 10%–20% travel",
+      "jobId": "31364F00E3",
+      "officialStatus": "Open with active official application control at 2026-10-29 check",
+      "lastChecked": "2026-10-29",
+      "lastCheckedAt": "2026-10-29T23:47:01Z",
+      "verificationFlags": [
+        "start-date-verification",
+        "target-university-verification",
+        "employer-identity-verification",
+        "stem-opt-i983-verification"
+      ],
+      "archiveUrl": "job-archive/raydar/31364F00E3/job-description.md",
+      "archivedAt": "2026-10-29T23:47:01Z"
+    },
+    {
+      "company": "Twilio",
+      "tier": "S-",
+      "area": "Remote US (Texas eligible by listed exclusions)",
+      "market": "Remote / Texas",
+      "title": "Machine Learning Engineer 2 — Customer Memory (8240487)",
+      "employment": "Full-time · Remote US",
+      "gradYear": "No numeric experience minimum; post-May-2027 start not stated",
+      "match": "Very High technical fit · start date and visa verification pending",
+      "ngCompatibility": "Potentially compatible: official JD encourages early-career applicants and states no numeric years minimum, but requires backend-service experience and production observability grounding.",
+      "assessment": "Official Greenhouse page is open. The role builds Twilio's conversational-AI memory layer: LLM extraction, embeddings, vector search, ranking, evaluation benchmarks, regression gates, and production debugging. It is remote across the US except specified Bay Area locations, so Texas is not excluded. Platform, compensation and AI scope could clearly exceed Ryan, but a post-May-2027 start, OPT/STEM OPT policy, Texas compensation and practical experience expectations remain unverified.",
+      "visa": "Official application asks current authorization and future sponsorship, but the JD does not state OPT/STEM OPT, I-983, or sponsorship policy.",
+      "found": "2026-10-29",
+      "url": "https://job-boards.greenhouse.io/twilio/jobs/8240487",
+      "status": "start-date-visa-compensation-verification",
+      "finalPriority": "待核验 · 不进入表2",
+      "roleTrack": "Conversational AI / LLM customer memory / ML evaluation and retrieval",
+      "seniorityGap": "No numeric minimum; required backend services and production observability experience must be assessed against projects/internships.",
+      "technicalGrowth": "Very High",
+      "brandPlatform": "High",
+      "ryanUpgrade": "Potentially strong: conversational-AI platform scale, production LLM memory/evals, disclosed out-of-Texas ranges above Ryan, plus possible equity/bonus.",
+      "compensation": "Texas-specific range undisclosed; selected-state ranges $128,560–$170,000; equity and corporate bonus may apply.",
+      "officePerks": "Remote US; occasional team/customer travel or in-person meetings",
+      "deadline": "Intended through 2026-11-13, subject to business needs",
+      "jobId": "8240487",
+      "officialStatus": "Open with active official application form at 2026-10-29 check",
+      "lastChecked": "2026-10-29",
+      "lastCheckedAt": "2026-10-29T23:47:01Z",
+      "verificationFlags": [
+        "start-date-verification",
+        "visa-verification",
+        "stem-opt-i983-verification",
+        "texas-compensation-verification",
+        "experience-equivalency-verification"
+      ],
+      "archiveUrl": "job-archive/twilio/8240487/job-description.md",
+      "archivedAt": "2026-10-29T23:47:01Z"
     }
   ],
   "monitorAudit": [
