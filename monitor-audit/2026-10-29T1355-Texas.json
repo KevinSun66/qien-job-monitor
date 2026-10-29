@@ -4,7 +4,9 @@
     "checkedAt": "2026-10-29T18:55:55.000Z",
     "checkedAtLocal": "2026-10-29T13:55:55-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
-    "result": "verification_pending_new_role_archived_no_qualified_alert"
+    "result": "verification_pending_new_role_archived_no_qualified_alert",
+    "completedAt": "2026-10-29T18:56:42.000Z",
+    "completedAtLocal": "2026-10-29T13:56:42-05:00"
   },
   "criteria": {
     "locations": [
@@ -177,15 +179,16 @@
   "writes": {
     "archives": {
       "attempted": true,
-      "status": "written_and_commit_returned",
+      "status": "synced_and_readback_verified",
       "paths": [
         "job-archive/apple/200691639-0157/job-description.md"
       ],
-      "commitSha": "e9fe08314b295e15afa21d95f5ba487e932b6598"
+      "commitSha": "e9fe08314b295e15afa21d95f5ba487e932b6598",
+      "blobSha": "953e3ec1c40f1aea53d30ced0c3d62a60f363503"
     },
     "jobs": {
       "attempted": true,
-      "status": "written_and_commit_returned",
+      "status": "synced_and_readback_verified",
       "path": "jobs.json",
       "commitSha": "04d966c2b0b205bea943299d3ff049776aa29fc8",
       "blobSha": "5502d8e8734b2b83c467e89abc786eff419cfb9e",
@@ -206,19 +209,63 @@
     },
     "audit": {
       "attempted": true,
-      "status": "verification_pending",
-      "path": "monitor-audit/2026-10-29T1355-Texas.json"
+      "status": "synced",
+      "path": "monitor-audit/2026-10-29T1355-Texas.json",
+      "initialCommitSha": "140b56c80a857e950abd6187a8cb872ab57bb86a",
+      "initialContentSha": "4a37678655027efe1868ce129141083f26169d5f",
+      "initialReadbackVerifiedAt": "2026-10-29T18:56:42.000Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-10-29T1355-Texas.json readback and final sync verification"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-10-29T17:34:33.000Z",
-  "lastSuccessfulWriteAt": "2026-10-29T17:34:33.000Z",
+  "lastSuccessfulWriteAt": "2026-10-29T18:56:42.000Z",
   "notification": {
     "sent": false,
     "reason": "The only new role remains unverified for post-May-2027 timing, F-1 OPT/STEM OPT and compensation; no fully verified Ryan-upgrade alert."
+  },
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "headBeforeFinalAuditUpdate": "140b56c80a857e950abd6187a8cb872ab57bb86a",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "5502d8e8734b2b83c467e89abc786eff419cfb9e",
+      "recordCount": 261,
+      "updatedAt": "2026-10-29T18:55:55Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    },
+    "archive": {
+      "path": "job-archive/apple/200691639-0157/job-description.md",
+      "blobSha": "953e3ec1c40f1aea53d30ced0c3d62a60f363503",
+      "changed": true
+    }
   }
 }
