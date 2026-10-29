@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T16:48:52Z",
+  "updatedAt": "2026-10-29T18:55:55Z",
   "jobs": [
     {
       "company": "IBM",
@@ -9758,6 +9758,54 @@
       "archivedAt": "2026-10-29T16:48:52Z",
       "applicationStatus": "not-applied",
       "rejectionReason": "Official JD requires U.S.-person status and centers on export-controlled defense AI, embedded/low-level systems and field deployments, making it incompatible with Qien's F-1 OPT/STEM OPT path and preferred direction."
+    },
+    {
+      "company": "Apple",
+      "tier": "S · 待核验",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Applied AI Engineer, Apple Ads (200691639-0157)",
+      "employment": "Full-time · 40 hours · Austin",
+      "gradYear": "Not a campus/new-grad requisition; post-May-2027 start compatibility is not disclosed",
+      "match": "Very high technical match; start date, OPT/STEM OPT and compensation require verification",
+      "ngCompatibility": "The official minimum qualifications do not state a numeric 1+ year professional-experience floor, but require hands-on production software, LLM application and large-scale data-platform experience.",
+      "assessment": "Apple's official careers page was open on 2026-10-29. The role builds production AI-agent and analytics platforms for Apple Ads, including LLM orchestration, tool calling, memory, MCPs, RAG/context retrieval, evaluation, observability and analytical decision support. It is a strong Applied AI match and a potential Ryan upgrade. It is not a campus/new-grad requisition, and the official JD does not confirm a post-May-2027 start, F-1 OPT/STEM OPT treatment or a role-specific Austin compensation range. Keep it out of Table 2 until those eligibility checks are resolved.",
+      "visa": "Official JD does not disclose F-1 OPT/STEM OPT, E-Verify/I-983 or current/future sponsorship policy; visa-verification required. Absence of sponsorship language is not treated as OPT rejection.",
+      "found": "2026-10-29",
+      "discoveredDate": "2026-10-29",
+      "discoveredAt": "2026-10-29T18:55:55Z",
+      "firstSeen": "2026-10-29",
+      "lastChecked": "2026-10-29",
+      "lastCheckedAt": "2026-10-29T18:55:55Z",
+      "url": "https://jobs.apple.com/en-us/details/200691639-0157/applied-ai-engineer-apple-ads?team=MLAI",
+      "officialSource": "https://jobs.apple.com/en-us/details/200691639-0157/applied-ai-engineer-apple-ads?team=MLAI",
+      "status": "start-date-visa-compensation-verification",
+      "finalPriority": "Do not notify/apply yet · verify post-May-2027 start, OPT/STEM OPT and compensation before Table 2",
+      "roleTrack": "Applied AI / LLM Agents / RAG / MCP / AI Analytics Platform",
+      "technicalGrowth": "Very high · production agent orchestration, retrieval, evaluation and large-scale data systems",
+      "brandPlatform": "Apple / Apple Ads · top-tier production platform",
+      "ryanUpgrade": "Potentially clear technical and platform upgrade; final value cannot be confirmed until start date, work authorization and compensation are verified.",
+      "compensation": "Not disclosed for the Austin requisition in the official JD reviewed.",
+      "officePerks": "Austin · 40 hours; official JD does not disclose work-pattern details.",
+      "jobId": "200691639-0157",
+      "source": "Apple official careers JD; fresh official-source search on 2026-10-29",
+      "officialStatus": "Official Apple careers page showed the Austin role with Submit Resume on 2026-10-29.",
+      "officialPostedDate": "2026-10-26",
+      "officialLocations": [
+        "Austin, Texas, United States"
+      ],
+      "locationListComplete": true,
+      "minimumExperience": "No numeric minimum years stated; hands-on production software, LLM application and large-scale data-platform experience required.",
+      "verificationFlags": [
+        "start-date-verification",
+        "visa-verification",
+        "compensation-verification",
+        "new-grad-fit-verification"
+      ],
+      "archiveUrl": "job-archive/apple/200691639-0157/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-10-29T18:55:55Z",
+      "applicationStatus": "not-applied"
     }
   ],
   "monitorAudit": [
