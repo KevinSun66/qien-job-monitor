@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-29T23:47:01.000Z",
+    "checkedAtLocal": "2026-10-29T18:47:01-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_two_verified_high_fit_roles_pending_eligibility_no_qualified_alert"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "90a05866c5f844c7057417e9e994a88240a94daa",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "a5aba493e937cf60e0e34bf0e7d9e38defca3110",
+      "recordCount": 263,
+      "updatedAt": "2026-10-29T22:44:39Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-29T1744-Texas.json",
+      "blobSha": "717c9229ad2da7ad263ae1133d6e2136585f735a",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-29T22:46:04.000Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "a966e0487a8de5212bef2cddc1fde4fa422fcaf8",
+    "currentListingsCommit": "19d64e6fac781e8af993c313dd27b0649886752e",
+    "repositoryHeadObserved": "a6fae36fa7a7d24bbae86e7314f64e987a0d9b1b",
+    "commitsReviewed": [
+      "2aea24df53e206cb355b50bbb7b751d880a440bd",
+      "52ecdff2ed250d20031986339a30de65556ebefa",
+      "19d64e6fac781e8af993c313dd27b0649886752e",
+      "a6fae36fa7a7d24bbae86e7314f64e987a0d9b1b"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 2,
+    "newRecordEvents": 61,
+    "statusChangeEvents": 1,
+    "activeToInactiveEvents": 0,
+    "inactiveToActiveEvents": 1,
+    "relevantTexasOrRemoteEvents": 10,
+    "verifiedOfficialStatusChanges": 0,
+    "eventSummary": [
+      "Raydar AI Product Engineer / Forward Deployed Engineer was verified on the official Workable page and added as pending eligibility verification.",
+      "Other remote additions were mainly AI rating, generalist, business-analysis, or data-curation roles with no clear Ryan upgrade.",
+      "Fuku Austin is general crypto full-stack engineering rather than Applied AI/ML/Data Science; Trend Micro Irving is business intelligence; neither advanced.",
+      "Moog embedded software in California changed inactive-to-active and remained outside location and function scope."
+    ],
+    "notes": [
+      "Aggregate-source state was treated only as a discovery signal.",
+      "The public monitor repository still has no .github/workflows directory; no GitHub Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 7,
+    "officialSearchResultsReviewed": 12,
+    "officialJdsOpened": 2,
+    "verifiedNewRecords": 2,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 2,
+    "verifiedRejectedNewJobs": 0,
+    "records": [
+      {
+        "company": "Raydar (confidential client)",
+        "jobId": "31364F00E3",
+        "title": "AI Product Engineer / Forward Deployed Engineer",
+        "officialStatus": "open",
+        "decision": "start-date-education-employer-verification",
+        "verified": [
+          "0-3 years permits zero",
+          "Austin preferred / remote North America",
+          "OPT may be considered",
+          "$140K-$180K plus equity",
+          "production voice-AI agent platform"
+        ],
+        "unresolved": [
+          "post-May-2027 start",
+          "complete target-university eligibility",
+          "confidential client identity and employment terms",
+          "STEM OPT/I-983 details"
+        ]
+      },
+      {
+        "company": "Twilio",
+        "jobId": "8240487",
+        "title": "Machine Learning Engineer 2 — Customer Memory",
+        "officialStatus": "open",
+        "decision": "start-date-visa-compensation-verification",
+        "verified": [
+          "remote US with Texas not excluded",
+          "no numeric experience minimum",
+          "LLM memory, retrieval, embeddings, evaluation and production observability",
+          "application intended through 2026-11-13"
+        ],
+        "unresolved": [
+          "post-May-2027 start",
+          "F-1 OPT/STEM OPT and sponsorship policy",
+          "Texas-specific compensation",
+          "whether projects/internships satisfy practical backend requirements"
+        ]
+      }
+    ],
+    "knownMatchesCrossChecked": [
+      "Apple Applied AI Engineer, Apple Ads 200691639-0157 remained listed; existing verification flags unchanged.",
+      "SambaNova ML Infrastructure Engineer New Grad 6224938004 was already tracked; no duplicate was added."
+    ],
+    "notes": [
+      "Neither new role entered table 2 because the post-May-2027 start requirement is unresolved; Twilio also lacks an explicit OPT/STEM OPT policy."
+    ]
+  },
+  "screening": {
+    "discovered": 63,
+    "fullTimeTexasOrRemoteRecordsReviewed": 11,
+    "officialJdsOpened": 2,
+    "knownOfficialMatchesCrossChecked": 2,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 2,
+    "verifiedRejectedNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "dataChanges": true,
+    "recordsAdded": 2,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 2,
+    "comparisonToRyan": "Both roles are potential material upgrades in compensation and production Applied AI scope, but unresolved start-date and eligibility conditions prevent recommendation."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "written_and_readback_verified",
+      "path": "jobs.json",
+      "commitSha": "3300c09abbac0a80f9d516e9fbbaf590b518c3ca",
+      "blobSha": "9a0954c585d635e74d540c5cb58ba5ed8cf0d75e",
+      "recordCount": 265,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "written_and_readback_verified",
+      "count": 2,
+      "items": [
+        {
+          "path": "job-archive/raydar/31364F00E3/job-description.md",
+          "commitSha": "12d0dfe6fc2c1e30818d7639749048877a90865b",
+          "blobSha": "d511fef64f2be536f2151f1d8760ae7c270a631d"
+        },
+        {
+          "path": "job-archive/twilio/8240487/job-description.md",
+          "commitSha": "aac23d548403f4603f27f90df3e370b5eaf945cb",
+          "blobSha": "a890046eed880ffb55024e7b309c29d01bc78872"
+        }
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-29T1847-Texas.json"
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-29T1847-Texas.json readback and branch-head verification"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-29T22:46:04.000Z",
+  "lastSuccessfulWriteAt": null,
+  "notification": {
+    "sent": false,
+    "reason": "No new role met all fully verified eligibility requirements; unverified roles are not notified."
+  }
+}
