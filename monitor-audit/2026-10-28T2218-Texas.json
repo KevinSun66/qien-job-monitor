@@ -146,23 +146,21 @@
     },
     "audit": {
       "attempted": true,
-      "status": "verification_pending",
+      "status": "synced",
       "path": "monitor-audit/2026-10-28T2218-Texas.json",
       "initialCommitSha": "bd7a4794ea53d35fc7f0b2ea27f40b2ef4930b55",
       "contentShaBeforeFinalization": "0f41046368e30cd63311040f68846aa2d26123b8",
       "readbackVerified": true,
-      "branchHeadVerified": false,
-      "finalizationCommitSha": null,
-      "finalizationContentSha": null,
-      "verifiedAt": null
+      "branchHeadVerified": true,
+      "finalizationCommitSha": "87f80811bfea1e441cef4cfa824f3ea925cd5d6e",
+      "finalizationContentSha": "eed50e33cb64b11546dd016849ddd619a748a7ce",
+      "verifiedAt": "2026-10-29T03:19:03.009Z"
     },
-    "synced": false,
-    "pendingSync": [
-      "monitor-audit/2026-10-28T2218-Texas.json"
-    ],
+    "synced": true,
+    "pendingSync": [],
     "consecutiveWriteFailures": 0,
     "lastSuccessfulWriteAtBeforeRun": "2026-10-29T02:38:55.312Z",
-    "lastSuccessfulWriteAt": "2026-10-29T02:38:55.312Z"
+    "lastSuccessfulWriteAt": "2026-10-29T03:19:03.009Z"
   },
   "notification": {
     "sent": false,
@@ -205,6 +203,8 @@
       "scrapingWorkflowFound": false,
       "pagesWorkflowFound": false
     },
-    "headAfterInitialAudit": "bd7a4794ea53d35fc7f0b2ea27f40b2ef4930b55"
+    "headAfterInitialAudit": "bd7a4794ea53d35fc7f0b2ea27f40b2ef4930b55",
+    "headAfterFirstAuditFinalization": "87f80811bfea1e441cef4cfa824f3ea925cd5d6e",
+    "auditFinalizationContentSha": "eed50e33cb64b11546dd016849ddd619a748a7ce"
   }
 }
