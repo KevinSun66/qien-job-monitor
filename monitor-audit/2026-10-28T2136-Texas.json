@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-29T02:36:55Z",
+    "checkedAtLocal": "2026-10-28T21:36:55-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "write_in_progress",
+    "completedAt": null,
+    "completedAtLocal": null
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "752cf333aacdccb46c0259e0aa189857f967d932",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "a765360269448054a759fcc4e97e99d1d0360868",
+      "recordCount": 253,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "updatedAt": "2026-10-28T23:28:06.082Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-28T2027-Texas.json",
+      "blobSha": "0417d5fb4ccd2f2053f1d9ba3cd47fd20d7787eb",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-29T01:28:35.642Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "60c27ad830758e90f97e9b63148426b6db44dcd2",
+    "currentListingsCommit": "79e17a7c5b13ed013e7cc3e52c749fe0ec8c315e",
+    "repositoryHeadObserved": "79e17a7c5b13ed013e7cc3e52c749fe0ec8c315e",
+    "commitsReviewed": [
+      "42234423b5649fffade8c65bf8c507b9ca081ebb",
+      "79e17a7c5b13ed013e7cc3e52c749fe0ec8c315e"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "changedRecordEvents": 13,
+    "newRecordEvents": 35,
+    "statusChangeEvents": 13,
+    "activeToInactiveEvents": 11,
+    "inactiveToActiveEvents": 2,
+    "relevantEvents": [
+      {
+        "company": "Indeed Flex",
+        "title": "Product Builder",
+        "jobId": "4994921101",
+        "location": "Austin, TX",
+        "event": "new_active",
+        "officialVerification": {
+          "checkedAt": "2026-10-29T02:36:55Z",
+          "url": "https://job-boards.eu.greenhouse.io/indeedflex/jobs/4994921101",
+          "result": "Official Greenhouse page and employer jobs index open; full-time Austin onsite; student work accepted; $115,000-$144,000 plus 12% target bonus."
+        },
+        "disposition": "Recorded as direction-opportunity-cost-rejected; core scope is Braze/CRM messaging and AI-assisted coding rather than Applied AI/ML/DS; 2027 start and OPT terms unresolved."
+      },
+      {
+        "company": "Graphcore",
+        "title": "Graduate Engineer, System Validation",
+        "jobId": "8893623002",
+        "location": "Austin, TX",
+        "event": "new_active",
+        "officialVerification": {
+          "checkedAt": "2026-10-29T02:36:55Z",
+          "url": "https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8893623002",
+          "result": "Official Greenhouse page and early-careers index open; recent degree/project experience accepted."
+        },
+        "disposition": "Recorded as direction-rejected because duties are mechanical/thermal and AI-hardware system validation."
+      },
+      {
+        "company": "NVIDIA",
+        "title": "ASIC Verification Engineer — New College Grad 2026",
+        "jobId": "JR2012573",
+        "location": "Austin, TX / Santa Clara, CA",
+        "event": "active_to_inactive",
+        "officialVerification": {
+          "checkedAt": "2026-10-29T02:36:55Z",
+          "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-TX-Austin/ASIC-Verification-Engineer---New-College-Grad-2026_JR2012573",
+          "result": "Exact official Workday page still displayed the full requisition."
+        },
+        "disposition": "Updated tracked record with status conflict; retained direction-rejected and status-verification, not marked closed."
+      }
+    ],
+    "outOfScopeSignals": [
+      "Goldman Sachs 171569 and 171570 changed active to inactive; these requisitions are outside Dallas/Austin, and 171570 official page remained visible for Salt Lake City.",
+      "Other status changes and new records were outside Texas scope or unrelated to Applied AI/ML/Data Science."
+    ],
+    "notes": [
+      "The public monitor repository still has no .github/workflows directory; no GitHub Pages workflow was treated as a scraper."
+    ]
+  },
+  "screening": {
+    "discovered": 2,
+    "fullTimeTexasOrRemoteRecordsReviewed": 3,
+    "officialJdsOpened": 3,
+    "publicEmployerPagesReviewed": 3,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 1,
+    "dataChanges": true,
+    "recordsAdded": 2,
+    "recordsUpdated": 1,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 2,
+    "comparisonToRyan": "Indeed Flex has higher stated cash but is product/CRM messaging rather than core Applied AI/ML/DS and lacks verified 2027/OPT compatibility. Graphcore and NVIDIA are excluded hardware paths. No role is a verified Ryan upgrade."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "synced_readback_verified",
+      "path": "jobs.json",
+      "commitSha": "a2b8c40133d9b4b0c4e27957c1e58c1eb80972a5",
+      "contentSha": "70fab9d55dd752d98100177f897a8e19e554319f",
+      "recordCountBefore": 253,
+      "recordCountAfter": 255,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4,
+      "readbackVerified": true,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "synced_readback_verified",
+      "count": 2,
+      "paths": [
+        "job-archive/indeed-flex/4994921101/job-description.md",
+        "job-archive/graphcore/8893623002/job-description.md"
+      ],
+      "commitShas": [
+        "30cdea4becdbbc578739f570866fb43154b21ad2",
+        "32d4dc591cc88f5c75f15699d833f908c48c55ae"
+      ],
+      "contentShas": [
+        "53cfb84420951825ea95ff8a02e3ab81b6646e6c",
+        "63683796f4b9121d2ed1071f0229c738d347afc5"
+      ],
+      "readbackVerified": true
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending",
+      "path": "monitor-audit/2026-10-28T2136-Texas.json",
+      "initialCommitSha": null,
+      "contentShaBeforeFinalization": null,
+      "readbackVerified": false,
+      "branchHeadVerified": false,
+      "finalizationCommitSha": null,
+      "finalizationContentSha": null,
+      "verifiedAt": null
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-28T2136-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-29T01:28:35.642Z",
+    "lastSuccessfulWriteAt": "2026-10-29T02:36:55Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  },
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "headBeforeAuditFinalization": "a2b8c40133d9b4b0c4e27957c1e58c1eb80972a5",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "70fab9d55dd752d98100177f897a8e19e554319f",
+      "recordCount": 255,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "updatedAt": "2026-10-29T02:36:55Z",
+      "changed": true,
+      "readbackVerified": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  }
+}
