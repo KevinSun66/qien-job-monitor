@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-29T01:27:56.715Z",
+    "checkedAtLocal": "2026-10-28T20:27:56.716-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "write_in_progress"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "8d888ca3de647b43b4b820c6250b592829c532c3",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "a765360269448054a759fcc4e97e99d1d0360868",
+      "recordCount": 253,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "updatedAt": "2026-10-28T23:28:06.082Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-28T1934-Texas.json",
+      "blobSha": "bee5b19607ec6f88ec76b6fd4bab6a78655a0a73",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-29T00:35:07.880Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "f4a6efc4a7ece7c9ca79ec9e306ca98f36cc40a1",
+    "currentListingsCommit": "60c27ad830758e90f97e9b63148426b6db44dcd2",
+    "listingsBlobBefore": "2de9846748c53b05d0adf9b85c3a48e04fbee05e",
+    "listingsBlobAfter": "730db603d5aac003f16d713950bd542042f533d8",
+    "repositoryHeadObserved": "60c27ad830758e90f97e9b63148426b6db44dcd2",
+    "commitsReviewed": [
+      "60c27ad830758e90f97e9b63148426b6db44dcd2"
+    ],
+    "listingsDataCommitsReviewed": 1,
+    "readmeCommitsReviewed": 0,
+    "changedRecordEvents": 1,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 1,
+    "activeToInactiveEvents": 1,
+    "inactiveToActiveEvents": 0,
+    "removedRecordEvents": 0,
+    "statusChanges": [
+      {
+        "company": "ZEDEDA",
+        "title": "Software Engineer - AI & Edge Kubernetes Orchestration",
+        "jobId": "3e34a738-5eb1-405d-b46b-e9737226f5be",
+        "location": "San Jose, CA onsite",
+        "event": "active_to_inactive",
+        "officialVerification": {
+          "checkedAt": "2026-10-29T01:27:56.715Z",
+          "exactUrl": "https://ats.rippling.com/zededa/jobs/3e34a738-5eb1-405d-b46b-e9737226f5be",
+          "result": "Official ZEDEDA careers index still listed the role on 2026-10-28; exact employer page described San Jose onsite, recent graduate/up to two years, $120,000-$140,000, and no visa sponsorship."
+        },
+        "eligibility": "Experience gate would pass, but the role is San Jose onsite with no relocation/commuting support and is outside Dallas/Austin/Texas remote scope. It also requires work authorization without current or future sponsorship.",
+        "roleSummary": "AI model lifecycle integration with Kubernetes edge orchestration, ONNX/GenAI frameworks, controllers/operators, Helm and edge inference infrastructure.",
+        "disposition": "No Texas relevance; official/upstream status conflict retained in audit only. Not added to jobs.json and no notification."
+      }
+    ],
+    "notes": [
+      "The public monitor repository still has no .github/workflows directory; no GitHub Pages workflow was treated as a scraper."
+    ]
+  },
+  "screening": {
+    "discovered": 0,
+    "fullTimeTexasOrRemoteRecordsReviewed": 0,
+    "officialJdsOpened": 1,
+    "publicEmployerPagesReviewed": 1,
+    "fullyVerifiedCandidates": 0,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "trackedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "No Dallas/Austin/Texas-eligible role changed. ZEDEDA is San Jose onsite and therefore outside scope before Ryan comparison."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change",
+      "path": "jobs.json",
+      "contentSha": "a765360269448054a759fcc4e97e99d1d0360868",
+      "recordCountBefore": 253,
+      "recordCountAfter": 253,
+      "appliedCountBefore": 4,
+      "appliedCountAfter": 4
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_new_verified_jd",
+      "count": 0,
+      "paths": []
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending",
+      "path": "monitor-audit/2026-10-28T2027-Texas.json",
+      "readbackVerified": false,
+      "branchHeadVerified": false
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-28T2027-Texas.json finalization"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-29T00:35:07.880Z",
+    "lastSuccessfulWriteAt": "2026-10-29T00:35:07.880Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  }
+}
