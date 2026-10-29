@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-29T15:42:06.000Z",
+    "checkedAtLocal": "2026-10-29T10:42:06-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_verified_new_or_status_change_no_qualified_alert"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "98be949e3d2aee1d6b1b58ff7217c4c811ed817e",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "c427de0c5d0a911014d70b2a378df795fb68f3fb",
+      "recordCount": 258,
+      "updatedAt": "2026-10-29T15:05:28Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-29T1005-Texas.json",
+      "blobSha": "c74f7544ffcc583111f1d08cd64218dee3d68408",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-29T15:07:48.000Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "f64dc5a40bbf99290387309c2b93ab794074a00b",
+    "currentListingsCommit": "aef5ecfb3e70b6cda4323c06e19d131d251f60e7",
+    "repositoryHeadObserved": "f272f169ac7c31022c47baca0598f5a8ef9f556a",
+    "commitsReviewed": [
+      "aef5ecfb3e70b6cda4323c06e19d131d251f60e7",
+      "f272f169ac7c31022c47baca0598f5a8ef9f556a"
+    ],
+    "listingsDataCommitsReviewed": 1,
+    "readmeCommitsReviewed": 1,
+    "sourceRemovedInactiveRecords": 17,
+    "sourceNewVisibleRecords": 1,
+    "sourceStatusChangeEvents": 0,
+    "relevantTexasEvents": 1,
+    "relevantNewTexasCandidates": 0,
+    "events": [
+      {
+        "company": "TSC",
+        "title": "Software Engineer 1",
+        "sourceJobId": "JR2890",
+        "location": "Plymouth, MA",
+        "event": "new_visible_readme_record",
+        "disposition": "Outside Dallas/Austin/Texas scope; no review or repository change."
+      },
+      {
+        "company": "Visa",
+        "title": "Senior SW Engineer",
+        "sourceRecordId": "e9a85c04-5aec-46d3-b10f-dce36d4c9df3",
+        "location": "Austin, TX",
+        "event": "stale_inactive_record_removed_from_source",
+        "disposition": "Already inactive and senior-level; removal is source cleanup, not a verified job status change and not a Qien-eligible role."
+      }
+    ],
+    "freshPublicSearch": {
+      "performed": true,
+      "queryFamilies": 4,
+      "resultsReviewed": 9,
+      "untrackedPotentiallyEligibleTexasRoles": 0,
+      "notes": [
+        "Current official-result matches for Kyndryl R-66739, GlobalFoundries JR-2602829, Striveworks 8002515003 and RSM JR122103 were already present in jobs.json with standing dispositions.",
+        "Visa REF082565W requires a PhD graduating May 2025-August 2026; Bot Auto 5371947008 is Houston; GM JR-202612899 is staff-level.",
+        "No fresh official result established a new Dallas/Austin/Texas-remote role satisfying start date, zero-start experience, OPT/STEM OPT, direction and Ryan-upgrade gates."
+      ]
+    },
+    "notes": [
+      "The public monitor repository still has no .github/workflows directory; no GitHub Pages workflow was treated as a scraper.",
+      "No official status change was inferred from aggregation cleanup alone."
+    ]
+  },
+  "screening": {
+    "discovered": 0,
+    "fullTimeTexasOrRemoteRecordsReviewed": 0,
+    "officialJdsOpened": 0,
+    "knownOfficialMatchesCrossChecked": 7,
+    "qualifyingNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "No new verified candidate passed the standing eligibility gates, so no Ryan-upgrade comparison advanced to Table 2."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_job_data_change",
+      "path": "jobs.json",
+      "blobSha": "c427de0c5d0a911014d70b2a378df795fb68f3fb",
+      "recordCount": 258,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_new_verified_jd",
+      "count": 0
+    },
+    "audit": {
+      "attempted": true,
+      "status": "verification_pending",
+      "path": "monitor-audit/2026-10-29T1042-Texas.json"
+    },
+    "synced": false,
+    "pendingSync": [
+      "monitor-audit/2026-10-29T1042-Texas.json"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-10-29T15:07:48.000Z",
+    "lastSuccessfulWriteAt": "2026-10-29T15:07:48.000Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  },
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "headBeforeAudit": "98be949e3d2aee1d6b1b58ff7217c4c811ed817e",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "c427de0c5d0a911014d70b2a378df795fb68f3fb",
+      "recordCount": 258,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "updatedAt": "2026-10-29T15:05:28Z",
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  }
+}
