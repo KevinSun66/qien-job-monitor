@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T10:53:54Z",
+  "updatedAt": "2026-10-30T12:14:06Z",
   "jobs": [
     {
       "company": "IBM",
@@ -10279,6 +10279,53 @@
       "archiveUrl": "job-archive/itron/JR102962/job-description.md",
       "archiveLabel": "JD 归档",
       "archivedAt": "2026-10-30T10:53:54Z",
+      "applicationStatus": "not-applied"
+    },
+    {
+      "company": "Integra FEC",
+      "tier": "B · 机会成本排除",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Data Analyst / Associate Data Scientist",
+      "jobId": "5083082008",
+      "url": "https://job-boards.greenhouse.io/integra/jobs/5083082008",
+      "status": "opportunity-cost-rejected",
+      "found": "2026-10-30",
+      "discoveredDate": "2026-10-30",
+      "discoveredAt": "2026-10-30T12:14:06Z",
+      "firstSeen": "2026-10-30T12:14:06Z",
+      "lastChecked": "2026-10-30",
+      "lastCheckedAt": "2026-10-30T12:14:06Z",
+      "employment": "Full-time · Associate / early career · Austin",
+      "gradYear": "No graduation window or post-May-2027 start date disclosed",
+      "match": "Entry-level quantitative fit, but duties are fraud investigation and analytics with no clear Ryan upgrade",
+      "ngCompatibility": "No required numerical minimum; 2+ years of relevant full-time experience is preferred only. Required R/Python/SQL experience may come from demonstrated work.",
+      "minimumQualifications": "Quantitative academic background; demonstrated R, Python and/or SQL; attention to detail; research curiosity; ethics and teamwork.",
+      "assessment": "Official Greenhouse JD is open. The role plans and owns data-intensive fraud investigations, performs background research, writes scripts to retrieve and organize data, parses text/images/spreadsheets, builds datasets, identifies fraudulent patterns and presents results. It is primarily forensic analytics and consulting-style investigation rather than production Applied AI/ML engineering. With compensation, post-May-2027 timing and platform advantage undisclosed, it does not establish a material upgrade over Ryan.",
+      "visa": "Official JD requires authorization to work for any U.S. employer and says the company cannot sponsor or take over sponsorship of an employment visa at this time. Initial F-1 OPT/STEM OPT acceptance is not explicit; no further verification is required after the Ryan opportunity-cost gate fails.",
+      "compensation": "Not disclosed on the official JD.",
+      "officialLocations": [
+        "Austin, Texas"
+      ],
+      "locationListComplete": true,
+      "officialPostedDate": "Not disclosed on the official page",
+      "officialStatus": "Open on 2026-10-30 at 07:14 CT; official Greenhouse page displays the full application.",
+      "source": "Integra FEC official Greenhouse JD",
+      "verificationFlags": [
+        "opportunity-cost-rejected",
+        "visa-not-pursued-after-opportunity-cost-fail",
+        "start-date-unverified"
+      ],
+      "finalPriority": "不投 · 传统欺诈调查/取证分析，未证明相对 Ryan 的技术或薪酬升级",
+      "roleTrack": "Forensic Analytics / Fraud Investigation / Statistical Analysis",
+      "seniorityGap": "Low · 2+ years is preferred only",
+      "technicalGrowth": "Moderate analytics and investigation exposure; limited production ML engineering evidence",
+      "brandPlatform": "Boutique economic consulting and forensic analytics firm",
+      "ryanUpgrade": "No clear upgrade: compensation is undisclosed and the work is less aligned with production Applied AI/ML and multi-agent systems.",
+      "rejectionReason": "No material Ryan upgrade established; duties center on forensic investigation and analytics, with compensation undisclosed.",
+      "archiveUrl": "job-archive/integra/5083082008/job-description.md",
+      "archiveLabel": "JD 归档",
+      "archivedAt": "2026-10-30T12:14:06Z",
       "applicationStatus": "not-applied"
     }
   ],
