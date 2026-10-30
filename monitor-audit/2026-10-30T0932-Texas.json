@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T14:31:50.000Z",
+    "checkedAtLocal": "2026-10-30T09:31:50-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_one_verified_opportunity_cost_rejection_no_qualified_alert",
+    "completedAt": null,
+    "completedAtLocal": null
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "819015b5b22db74cf281ece1560da0866983bc8f",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "c2a08f7c058a44a35bfbb41b2b7f0f687bebd844",
+      "recordCount": 276,
+      "updatedAt": "2026-10-30T13:22:01Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T0822-Texas.json",
+      "blobSha": "ebdfc261bf53fd3f1bca335fe2be29f1fd530fe5",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T13:22:49Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "7725c2e587dec3a7e3b8b43745eabfea5f0b8597",
+    "currentListingsCommit": "1a683603b40d69d842b95f8e1bc3ed5e18ae33b9",
+    "repositoryHeadObserved": "1a683603b40d69d842b95f8e1bc3ed5e18ae33b9",
+    "commitsReviewed": [
+      "020922b5b4a33a41168c9234ada101f9fb827cd4",
+      "1a683603b40d69d842b95f8e1bc3ed5e18ae33b9"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 4,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "Capgemini Associate Data Engineer in Pittsburgh and SECU Associate Credit Review Data Scientist in North Carolina became inactive.",
+      "TikTok Neural Graphics/World Models and The Hut Group Graduate Data & Insight Analyst became inactive outside the target markets.",
+      "No upstream event changed a monitored Texas or Texas-eligible remote record.",
+      "The public monitor repository still has no .github/workflows directory; no Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 3,
+    "officialSearchResultsReviewed": 10,
+    "officialJdsOpened": 4,
+    "verifiedNewRecords": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 1,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "Kyndryl R-66739 remains a known authorization and Ryan-gate failure.",
+      "AT&T AI-Native Software Engineer Analyst is already recorded; the exact official URL returned 404 during this run, but no official evidence sufficient for a status update was established.",
+      "Applied Materials R2627684 is already recorded.",
+      "Brillio Dallas AI Engineer is already recorded."
+    ]
+  },
+  "screening": {
+    "discovered": 5,
+    "duplicatesSuppressed": 4,
+    "fullTimeTexasOrRemoteRecordsReviewed": 5,
+    "officialJdsOpened": 4,
+    "knownOfficialMatchesCrossChecked": 4,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 1,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": true,
+    "recordsAdded": 1,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 1,
+    "rejections": [
+      {
+        "jobId": "R13774",
+        "company": "Dealer Tire",
+        "reason": "Valid 0-2 year remote data-science role, but the $80,580-$110,000 base range, supervised modeling/basic AI scope, and platform do not establish a material upgrade over Ryan; 2027 timing and role-level OPT remain unverified."
+      }
+    ],
+    "comparisonToRyan": "Dealer Tire is technically relevant and permits zero years, but its disclosed pay overlaps Ryan and its platform and AI ownership are weaker; it does not warrant an application alert."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "synced",
+      "path": "jobs.json",
+      "commitSha": "60c82879ebe3f922958d3a24644625b8c9cf034b",
+      "blobSha": "c625cb115ecd89466fdf0c69076fda295ea7ff52",
+      "recordCount": 277,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "synced",
+      "count": 1,
+      "paths": [
+        "job-archive/dealer-tire/R13774/job-description.md"
+      ],
+      "commitShas": [
+        "5fc37e9de6eb56b22d0e6c00baa2e3b2a2454152"
+      ],
+      "blobShas": [
+        "84aa440b93e831ec6a1e8661e99675253040feb7"
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-30T0932-Texas.json"
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-30T0932-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T13:22:49Z",
+  "notification": {
+    "sent": false,
+    "reason": "The only newly verified role does not establish a material upgrade over Ryan; no qualifying role warrants notification."
+  },
+  "lastSuccessfulWriteAt": "2026-10-30T13:22:49Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "c625cb115ecd89466fdf0c69076fda295ea7ff52",
+      "recordCount": 277,
+      "updatedAt": "2026-10-30T14:31:50Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archives": [
+      {
+        "path": "job-archive/dealer-tire/R13774/job-description.md",
+        "blobSha": "84aa440b93e831ec6a1e8661e99675253040feb7"
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    },
+    "headAfterInitialAudit": null
+  }
+}
