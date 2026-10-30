@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T10:53:54.000Z",
+    "checkedAtLocal": "2026-10-30T05:53:54-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_two_verified_rejections_no_qualified_alert",
+    "completedAt": "2026-10-30T10:54:51Z",
+    "completedAtLocal": "2026-10-30T05:54:51-05:00"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "6ee4062d1b813a40f193b5b2b409547d2f76b048",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "5b924c35e76fbd2c1316c51410406f88eb28d5fd",
+      "recordCount": 272,
+      "updatedAt": "2026-10-30T08:52:42Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T0448-Texas.json",
+      "blobSha": "a1a94688b6ce4fd08343a5aa4e17217cdd3a4298",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T09:48:42Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "fa542761412884d66aadef1a1b95049b87134653",
+    "currentListingsCommit": "ceebb0702b57bbdbaad7d3f66a09ee137e7278ae",
+    "repositoryHeadObserved": "0477e9c7b43442e6bce2c7e206bbf69604b46ded",
+    "commitsReviewed": [
+      "e06790f6414898c44d694c79eda2bfd705602c98",
+      "ceebb0702b57bbdbaad7d3f66a09ee137e7278ae"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 2,
+    "newRecordEvents": 2,
+    "statusChangeEvents": 3,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "Two new Formlabs records are Boston hardware/robotics roles and fail both location and function gates.",
+      "Inactive changes affected Firetiger, Motia and Visa London; none is a qualifying Texas monitored record.",
+      "The public monitor repository still has no .github/workflows directory; no Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 3,
+    "officialSearchResultsReviewed": 15,
+    "officialJdsOpened": 4,
+    "verifiedNewRecords": 2,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 2,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "GlobalFoundries JR-2604163 remains open but already carries a low-level hardware/compiler-runtime direction rejection.",
+      "Kyndryl R-66739 remains open but already fails the work-authorization and Ryan gates.",
+      "Striveworks 8002515003 remains open and already carries a US-citizenship/security-clearance rejection.",
+      "RSM JR122103 remains open and already carries an explicit F-1 visa rejection."
+    ]
+  },
+  "screening": {
+    "discovered": 7,
+    "duplicatesSuppressed": 4,
+    "outOfScopeOrHardDirectionSearchResults": 1,
+    "fullTimeTexasOrRemoteRecordsReviewed": 6,
+    "officialJdsOpened": 4,
+    "knownOfficialMatchesCrossChecked": 4,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 2,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": true,
+    "recordsAdded": 2,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 2,
+    "rejections": [
+      {
+        "jobId": "4685229008",
+        "company": "Allen Control Systems",
+        "reason": "Official core duties are embedded sensor and military weapons-hardware integration despite a 0–3+ year range."
+      },
+      {
+        "jobId": "JR102962",
+        "company": "Itron",
+        "reason": "Official JD requires prior production MLOps plus manufacturing/industrial engineering experience and provides no zero-experience or new-grad alternative."
+      }
+    ],
+    "comparisonToRyan": "Neither new record is actionable: Allen fails the direction hard gate, and Itron fails the zero-experience entry gate before timing, authorization or Ryan-upgrade evaluation."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "synced",
+      "path": "jobs.json",
+      "commitSha": "58e242133ac14a441afd2196c63042eb98cfb1c0",
+      "blobSha": "53fdc10c8df0864999fbac61b77dadc6b22bc64f",
+      "recordCount": 274,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "synced",
+      "count": 2,
+      "paths": [
+        "job-archive/allen-control-systems/4685229008/job-description.md",
+        "job-archive/itron/JR102962/job-description.md"
+      ],
+      "commitShas": [
+        "d72a5cae70bacbcf5e0d68a7ba994f0571c3aaa0",
+        "cd70c8766d59bbf8d971b6a5219be5a2c38b85fd"
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-30T0553-Texas.json"
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-30T0553-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T09:48:42Z",
+  "notification": {
+    "sent": false,
+    "reason": "Both newly verified roles fail standing hard gates; no qualifying or materially improved role warrants notification."
+  },
+  "lastSuccessfulWriteAt": "2026-10-30T09:48:42Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "53fdc10c8df0864999fbac61b77dadc6b22bc64f",
+      "recordCount": 274,
+      "updatedAt": "2026-10-30T10:53:54Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archives": [
+      {
+        "path": "job-archive/allen-control-systems/4685229008/job-description.md",
+        "blobSha": "ed0057cbfc001ed2c05a13954ec875824e7e4ab1"
+      },
+      {
+        "path": "job-archive/itron/JR102962/job-description.md",
+        "blobSha": "980ac7e5df232dad6bb88e09bbffe5d1f889659f"
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  }
+}
