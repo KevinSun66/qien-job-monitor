@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T23:16:31Z",
+    "checkedAtLocal": "2026-10-30T18:16:31-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_one_verified_pending_record_no_qualified_alert",
+    "completedAt": "2026-10-30T23:17:01Z",
+    "completedAtLocal": "2026-10-30T18:17:01-05:00"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "86ba8b85b896ace5406c37092ca37b7fc4dc8079",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "2a11ce7d0cc249406305ce3304c3b18e3e66dad2",
+      "recordCount": 282,
+      "updatedAt": "2026-10-30T21:52:51Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T1747-Texas.json",
+      "blobSha": "6b852289f1c647778017bc288104232574fe3ce8",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T22:47:29Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "8d2cec4a3aa2681b3f3e3e08d5325502b2f024a4",
+    "currentListingsCommit": "60732c3203b7fe91b0e479c850cc81faae796d5c",
+    "repositoryHeadObserved": "2dac61258be0a65f1f37044aeb288062fb0c86ba",
+    "commitsReviewed": [
+      "60732c3203b7fe91b0e479c850cc81faae796d5c",
+      "2dac61258be0a65f1f37044aeb288062fb0c86ba"
+    ],
+    "listingsDataCommitsReviewed": 1,
+    "readmeCommitsReviewed": 1,
+    "newRecordEvents": 27,
+    "statusChangeEvents": 7,
+    "relevantTexasOrRemoteEvents": 5,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "Wise Graduate Product Analyst in Austin is the same September 2027 role already tracked under the official Wise job page; the new SmartRecruiters identifier was suppressed as a duplicate.",
+      "Isembard Forward Deployed Engineer was verified open on the official Isembard page and archived as a pending-verification Dallas record.",
+      "Amazon Software Development Engineer - Database, Early Career 2027 lists Austin upstream, but the exact official JD for job 10593902 could not be retrieved and the database-SDE scope is not established as Applied AI/ML/Data Science; no record was added.",
+      "Toyota Cloud Financial Operations Analyst in Plano is FinOps rather than Applied AI/ML/Data Science and was not added.",
+      "ServiceTitan remote and other new/status events were outside the target role, degree, experience, location, or Ryan-upgrade scope.",
+      "The public monitor repository still has no .github/workflows directory; no Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 4,
+    "officialSearchResultsReviewed": 16,
+    "officialJdsOpened": 2,
+    "verifiedNewRecords": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 1,
+    "verifiedRejectedNewJobs": 0,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "Wise Graduate Product Analyst: official Wise page confirms the already tracked September 2027 Austin role; duplicate source suppressed.",
+      "Isembard Forward Deployed Engineer: official page confirms Dallas, graduate eligibility, production full-stack/LLM work and 30-50% travel; visa, 2027 start and compensation remain undisclosed.",
+      "Amazon job 10593902: exact official JD unavailable in this run, so the upstream listing was not treated as verified."
+    ]
+  },
+  "screening": {
+    "discovered": 5,
+    "duplicatesSuppressed": 1,
+    "fullTimeTexasOrRemoteRecordsReviewed": 5,
+    "officialJdsOpened": 2,
+    "knownOfficialMatchesCrossChecked": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 1,
+    "verifiedRejectedNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": true,
+    "recordsAdded": 1,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 1,
+    "rejections": [
+      {
+        "company": "Wise",
+        "title": "Graduate Product Analyst",
+        "reason": "duplicate-existing-official-role"
+      },
+      {
+        "company": "Amazon",
+        "title": "Software Development Engineer - Database, Early Career 2027",
+        "reason": "official-jd-unavailable-and-role-scope-unverified"
+      },
+      {
+        "company": "Toyota",
+        "title": "Cloud Financial Operations Analyst",
+        "reason": "finops-outside-applied-ai-ml-data-science"
+      },
+      {
+        "company": "ServiceTitan",
+        "title": "remote upstream event",
+        "reason": "no verified role meeting full monitored criteria"
+      }
+    ],
+    "comparisonToRyan": "No new verified role met all eligibility rules or demonstrated a clear improvement over Ryan. Isembard remains pending because work authorization, 2027 start timing, compensation and the high-travel tradeoff are unresolved."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "write_succeeded_readback_verified",
+      "path": "jobs.json",
+      "commitSha": "96583829c5798bfa7fed7dbca9d2bb4385f6ac0a",
+      "blobSha": "0153b8aaea1e95074bce43208e8398a7ac9602c7",
+      "recordCount": 283,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "write_succeeded_readback_verified",
+      "count": 1,
+      "commitSha": "c825cfe5387304f77ecab932c108f870722f78bd",
+      "paths": [
+        "job-archive/isembard/c676e261-3792-4564-96f7-934a696fc104/job-description.md"
+      ],
+      "blobShas": [
+        "8f87875fee561b905dff7a897206fd2721db6078"
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-30T1817-Texas.json",
+      "initialCommitSha": null,
+      "initialContentSha": null,
+      "initialReadbackVerifiedAt": null,
+      "branchHeadVerified": false
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-30T1817-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T22:47:29Z",
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying verified new role or meaningful verified monitored status change was found."
+  },
+  "lastSuccessfulWriteAt": "2026-10-30T22:47:29Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "0153b8aaea1e95074bce43208e8398a7ac9602c7",
+      "recordCount": 283,
+      "updatedAt": "2026-10-30T23:16:31Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archives": [
+      {
+        "path": "job-archive/isembard/c676e261-3792-4564-96f7-934a696fc104/job-description.md",
+        "blobSha": "8f87875fee561b905dff7a897206fd2721db6078",
+        "changed": true
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    },
+    "headBeforeAudit": "96583829c5798bfa7fed7dbca9d2bb4385f6ac0a"
+  }
+}
