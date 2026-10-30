@@ -5,8 +5,8 @@
     "checkedAtLocal": "2026-10-30T07:14:06-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
     "result": "completed_one_verified_opportunity_cost_rejection_no_qualified_alert",
-    "completedAt": "2026-10-30T12:14:48Z",
-    "completedAtLocal": "2026-10-30T07:14:48-05:00"
+    "completedAt": "2026-10-30T12:14:56Z",
+    "completedAtLocal": "2026-10-30T07:14:56-05:00"
   },
   "criteria": {
     "locations": [
@@ -166,21 +166,23 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_readback",
-      "path": "monitor-audit/2026-10-30T0714-Texas.json"
+      "status": "synced",
+      "path": "monitor-audit/2026-10-30T0714-Texas.json",
+      "initialCommitSha": "8335095e0d840f61a519351bf373299119071871",
+      "initialContentSha": "a98c7f68f3011f5a1b63cb95c0374daa8a85a12e",
+      "initialReadbackVerifiedAt": "2026-10-30T12:14:56Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-10-30T0714-Texas.json"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-10-30T11:57:58Z",
   "notification": {
     "sent": false,
     "reason": "The only newly verified role fails the Ryan opportunity-cost gate; no qualifying or materially improved role warrants notification."
   },
-  "lastSuccessfulWriteAt": "2026-10-30T11:57:58Z",
+  "lastSuccessfulWriteAt": "2026-10-30T12:14:56Z",
   "repositorySnapshotAfter": {
     "branch": "main",
     "jobs": {
@@ -221,6 +223,7 @@
       "check": "GitHub contents API returned 404",
       "scrapingWorkflowFound": false,
       "pagesWorkflowFound": false
-    }
+    },
+    "headAfterInitialAudit": "8335095e0d840f61a519351bf373299119071871"
   }
 }
