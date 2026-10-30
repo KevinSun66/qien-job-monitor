@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T01:27:12.000Z",
+    "checkedAtLocal": "2026-10-29T20:27:12-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_one_verified_rejected_discovery_and_one_verified_status_change_no_qualified_alert"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "4dd0d45c944153cfcf4f5b7b4570e2bc998b9b50",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "9a0954c585d635e74d540c5cb58ba5ed8cf0d75e",
+      "recordCount": 265,
+      "updatedAt": "2026-10-29T23:47:01Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-29T1916-Texas.json",
+      "blobSha": "1bea7e6bd52f5453503c6e1ac49079f75c05a85e",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T00:16:38.000Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "d5b04cbbfe89523ac0a97e9eb2d1b87398919954",
+    "currentListingsCommit": "52f7c69b10c02afc61a752a11ac6b18f646703e1",
+    "repositoryHeadObserved": "e101fb79616017bd5749ffa85568f90b4d6afd96",
+    "commitsReviewed": [
+      "d7d553174d716cc258a0438d1109a8d281b920ca",
+      "f5a64e4177225daafc9cb4423975c788c5b59ad0",
+      "52f7c69b10c02afc61a752a11ac6b18f646703e1",
+      "e101fb79616017bd5749ffa85568f90b4d6afd96"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 2,
+    "newRecordEvents": 1,
+    "statusChangeEvents": 3,
+    "activeToInactiveEvents": 3,
+    "inactiveToActiveEvents": 0,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "The newly appended General Motors posting was Sunnyvale, California and not relevant to the Dallas/Austin/Texas scope.",
+      "Aggregate active-to-inactive signals affected Petfolk (Florida/remote), PNNL (Washington) and True Anomaly (Colorado), with no matching Texas record requiring an official-status update.",
+      "Bulk removals were outside the monitored Texas Applied AI/ML/Data Science scope.",
+      "The public monitor repository still has no .github/workflows directory; no GitHub Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 4,
+    "officialSearchResultsReviewed": 6,
+    "officialJdsOpened": 3,
+    "verifiedNewRecords": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 1,
+    "verifiedKnownStatusChanges": 1,
+    "records": [
+      {
+        "company": "PMG",
+        "jobId": "8587053002",
+        "title": "Graduate Leadership Program - Data Analytics (January Start)",
+        "location": "Dallas, Texas",
+        "officialStatus": "open with active application form",
+        "experience": "no minimum full-time years; internships or projects requested",
+        "graduationAndStart": "degree completion Summer 2026 through December 2026; mandatory January 11, 2027 start",
+        "authorization": "official JD says sponsorship is not offered; initial OPT/STEM OPT acceptance is not explicitly resolved",
+        "responsibilities": "SQL, data visualization, marketing/media analytics, Alli AI-powered research and agentic media-buying capabilities",
+        "result": "graduation-start-date-opportunity-cost-rejected",
+        "reason": "The graduation window excludes May 2027 and the mandatory start is before the required post-May-2027 window; the role also does not demonstrate a clear Applied AI/ML or compensation upgrade over Ryan."
+      },
+      {
+        "company": "Fospha",
+        "jobId": "8245355",
+        "title": "Graduate Marketing Scientist - Austin, TX",
+        "officialStatus": "confirmed removed/closed: direct Greenhouse URL redirects with error=true and the role is absent from the employer's current openings",
+        "result": "closed-watch",
+        "reason": "This resolves the prior aggregate inactive versus official-open conflict."
+      }
+    ],
+    "knownMatchesCrossChecked": [
+      "Striveworks Junior Machine Learning Engineer 8002515003 remained open but is already archived as a US-citizenship/security-clearance hard exclusion.",
+      "Fospha 8245355 changed from official-open/status-verification to confirmed closed.",
+      "No newly verified role met location, post-May-2027 timing, zero-start experience, OPT/STEM OPT and Ryan-upgrade requirements."
+    ]
+  },
+  "screening": {
+    "discovered": 1,
+    "fullTimeTexasOrRemoteRecordsReviewed": 4,
+    "officialJdsOpened": 3,
+    "knownOfficialMatchesCrossChecked": 2,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 1,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 1,
+    "dataChanges": true,
+    "recordsAdded": 1,
+    "recordsUpdated": 1,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 1,
+    "comparisonToRyan": "PMG Data Analytics was rejected because its January 2027 start and graduation window are incompatible and it does not show a clear technical, platform or compensation upgrade over Ryan."
+  },
+  "writes": {
+    "archives": {
+      "attempted": true,
+      "status": "write_succeeded_and_readback_verified",
+      "count": 1,
+      "items": [
+        {
+          "path": "job-archive/pmg/8587053002/job-description.md",
+          "commitSha": "f38addbbd2219e6b1bb30c07af3cd4b9c65fb148",
+          "blobSha": "c5130df9b0162b292dc374e65da73864ca613abe"
+        }
+      ]
+    },
+    "jobs": {
+      "attempted": true,
+      "status": "write_succeeded_and_readback_verified",
+      "path": "jobs.json",
+      "commitSha": "f40d4a8cc9ef0a6ca123f9e4fe4c5de4ded12a1c",
+      "blobSha": "db321d9758315dde16fc3e2faf8a6a155b492264",
+      "recordCount": 266,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-29T2027-Texas.json"
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-29T2027-Texas.json readback and branch-head verification"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T00:16:38.000Z",
+  "lastSuccessfulWriteAt": null,
+  "notification": {
+    "sent": false,
+    "reason": "The new role was verified ineligible and the known status change was a closure; neither warrants a qualified-job notification."
+  }
+}
