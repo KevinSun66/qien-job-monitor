@@ -5,8 +5,8 @@
     "checkedAtLocal": "2026-10-30T05:53:54-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
     "result": "completed_two_verified_rejections_no_qualified_alert",
-    "completedAt": "2026-10-30T10:54:51Z",
-    "completedAtLocal": "2026-10-30T05:54:51-05:00"
+    "completedAt": "2026-10-30T10:55:03Z",
+    "completedAtLocal": "2026-10-30T05:55:03-05:00"
   },
   "criteria": {
     "locations": [
@@ -174,21 +174,23 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_readback",
-      "path": "monitor-audit/2026-10-30T0553-Texas.json"
+      "status": "synced",
+      "path": "monitor-audit/2026-10-30T0553-Texas.json",
+      "initialCommitSha": "69be05bdb969bd6a1e18926656c035d21061dd7e",
+      "initialContentSha": "baa43177e56119a38f8e5c6ae8b4c7c9984f94c5",
+      "initialReadbackVerifiedAt": "2026-10-30T10:55:03Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-10-30T0553-Texas.json"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-10-30T09:48:42Z",
   "notification": {
     "sent": false,
     "reason": "Both newly verified roles fail standing hard gates; no qualifying or materially improved role warrants notification."
   },
-  "lastSuccessfulWriteAt": "2026-10-30T09:48:42Z",
+  "lastSuccessfulWriteAt": "2026-10-30T10:55:03Z",
   "repositorySnapshotAfter": {
     "branch": "main",
     "jobs": {
@@ -233,6 +235,7 @@
       "check": "GitHub contents API returned 404",
       "scrapingWorkflowFound": false,
       "pagesWorkflowFound": false
-    }
+    },
+    "headAfterInitialAudit": "69be05bdb969bd6a1e18926656c035d21061dd7e"
   }
 }
