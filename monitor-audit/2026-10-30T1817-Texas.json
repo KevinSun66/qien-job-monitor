@@ -5,8 +5,8 @@
     "checkedAtLocal": "2026-10-30T18:16:31-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
     "result": "completed_one_verified_pending_record_no_qualified_alert",
-    "completedAt": "2026-10-30T23:17:01Z",
-    "completedAtLocal": "2026-10-30T18:17:01-05:00"
+    "completedAt": "2026-10-30T23:17:21Z",
+    "completedAtLocal": "2026-10-30T18:17:21-05:00"
   },
   "criteria": {
     "locations": [
@@ -184,25 +184,23 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_readback",
+      "status": "synced",
       "path": "monitor-audit/2026-10-30T1817-Texas.json",
-      "initialCommitSha": null,
-      "initialContentSha": null,
-      "initialReadbackVerifiedAt": null,
-      "branchHeadVerified": false
+      "initialCommitSha": "11e1016345ae1e87d91665e72dfc0f180f60183e",
+      "initialContentSha": "c8a4e67dee25402a6b05337b9cb4ec4e2fdcc2dc",
+      "initialReadbackVerifiedAt": "2026-10-30T23:17:21Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-10-30T1817-Texas.json"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-10-30T22:47:29Z",
   "notification": {
     "sent": false,
     "reason": "No qualifying verified new role or meaningful verified monitored status change was found."
   },
-  "lastSuccessfulWriteAt": "2026-10-30T22:47:29Z",
+  "lastSuccessfulWriteAt": "2026-10-30T23:17:21Z",
   "repositorySnapshotAfter": {
     "branch": "main",
     "jobs": {
@@ -245,6 +243,7 @@
       "scrapingWorkflowFound": false,
       "pagesWorkflowFound": false
     },
-    "headBeforeAudit": "96583829c5798bfa7fed7dbca9d2bb4385f6ac0a"
+    "headBeforeAudit": "96583829c5798bfa7fed7dbca9d2bb4385f6ac0a",
+    "headAfterInitialAudit": "11e1016345ae1e87d91665e72dfc0f180f60183e"
   }
 }
