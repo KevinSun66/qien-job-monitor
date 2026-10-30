@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T07:52:36.000Z",
+    "checkedAtLocal": "2026-10-30T02:52:36-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_three_verified_experience_rejections_no_qualified_alert",
+    "completedAt": "2026-10-30T07:53:12.000Z",
+    "completedAtLocal": "2026-10-30T02:53:12-05:00"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "d0608ffb8dd6e5111924302d7da22824254de39b",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "db321d9758315dde16fc3e2faf8a6a155b492264",
+      "recordCount": 266,
+      "updatedAt": "2026-10-30T01:27:12Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T0119-Texas.json",
+      "blobSha": "eef3d5ee73e9686df04b8ead0904ab0ced0270a3",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T06:20:22.000Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "fdfcf5cbe7ffec3493d9dd67d8323067bfae4446",
+    "currentListingsCommit": "f4d652500e3deb64018922fd85cc4ce6c71c4022",
+    "repositoryHeadObserved": "28624213e3310a43f423bda26afd1f1248ad38a3",
+    "commitsReviewed": [
+      "acee25fb8524b3d12c74e0e2065a0a204e27b176",
+      "aa31aaca5c99b4c2aea44d416a839a940bb0c71c",
+      "fa04b6993926f9996a6b1a8135d290a5dfe9ca26",
+      "4e18ea376336e208dfd44c7aa5f8962f2fa982a6",
+      "f4d652500e3deb64018922fd85cc4ce6c71c4022",
+      "28624213e3310a43f423bda26afd1f1248ad38a3"
+    ],
+    "listingsDataCommitsReviewed": 3,
+    "readmeCommitsReviewed": 3,
+    "newRecordEvents": 6,
+    "statusChangeEvents": 0,
+    "staleRecordRemovalEvents": 2,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "New upstream records were Dexcom San Diego; Verizon Florida; Alpha FMC London; Microsoft firmware in Washington/California; and two TrellisWare hardware/real-time roles in San Diego.",
+      "The cleanup commit removed two old inactive non-Texas records.",
+      "No upstream event affected Dallas, Austin or a verified Texas-eligible US-remote role.",
+      "The public monitor repository still has no .github/workflows directory; no Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 8,
+    "officialSearchResultsReviewed": 14,
+    "officialJdsOpened": 6,
+    "verifiedNewRecords": 3,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 3,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "Kyndryl R-66739 remains publicly listed and already fails the work-authorization/Ryan gates.",
+      "RSM JR122103 remains publicly listed and explicitly excludes entry-level F-1 candidates.",
+      "Kyndryl R-68529 and Apple 200687919-0157 were already in jobs.json as pending verification and were not duplicated.",
+      "Apple 200676435-0157 was already experience-rejected.",
+      "No new role passed location, zero-start experience, OPT/STEM OPT and Ryan-upgrade gates."
+    ]
+  },
+  "screening": {
+    "discovered": 3,
+    "duplicatesSuppressed": 0,
+    "fullTimeTexasOrRemoteRecordsReviewed": 10,
+    "officialJdsOpened": 6,
+    "knownOfficialMatchesCrossChecked": 5,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 3,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": true,
+    "recordsAdded": 3,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 3,
+    "rejections": [
+      {
+        "jobId": "R6977",
+        "company": "HedgeServ",
+        "reason": "Official minimum 5+ years software engineering plus 1+ year production LLM/agent delivery."
+      },
+      {
+        "jobId": "WD30262592",
+        "company": "Johnson Controls",
+        "reason": "Official minimum 5+ years ML engineering/MLOps/platform engineering."
+      },
+      {
+        "jobId": "10445476",
+        "company": "Amazon Web Services",
+        "reason": "Official minimum master's plus 1 year or bachelor's plus 5 years; zero-year candidates are not eligible."
+      }
+    ],
+    "comparisonToRyan": "All three records were eliminated by the experience hard gate before final opportunity-cost comparison; none is actionable."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "synced_pending_final_audit_readback",
+      "path": "jobs.json",
+      "commitSha": "9743014305a96c97bfc4af3b40b9e504ef6a4877",
+      "blobSha": "4f6bc376491958ab4d585a0d0a59eba09cfefa91",
+      "recordCount": 269,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "synced",
+      "count": 3,
+      "paths": [
+        "job-archive/hedgeserv/R6977/job-description.md",
+        "job-archive/johnson-controls/WD30262592/job-description.md",
+        "job-archive/amazon/10445476/job-description.md"
+      ],
+      "commitShas": [
+        "74d1249ff392d4babaf5107e3c29d743874f002b",
+        "eb25961f59528235f8771a1c31b51d8a8f0e3e9e",
+        "536ee3623fbc66593cdb4b81ee7eff902351be27"
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-30T0252-Texas.json"
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-30T0252-Texas.json readback and final sync marker"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T06:20:22.000Z",
+  "notification": {
+    "sent": false,
+    "reason": "All three newly verified roles fail the experience gate; no qualifying or materially changed role warrants notification."
+  }
+}
