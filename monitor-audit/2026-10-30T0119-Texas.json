@@ -5,8 +5,8 @@
     "checkedAtLocal": "2026-10-30T01:19:26-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
     "result": "completed_no_verified_job_change_no_qualified_alert_archive_backfill",
-    "completedAt": "2026-10-30T06:19:59.000Z",
-    "completedAtLocal": "2026-10-30T01:19:59-05:00"
+    "completedAt": "2026-10-30T06:20:22.000Z",
+    "completedAtLocal": "2026-10-30T01:20:22-05:00"
   },
   "criteria": {
     "locations": [
@@ -161,18 +161,63 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_readback",
-      "path": "monitor-audit/2026-10-30T0119-Texas.json"
+      "status": "synced",
+      "path": "monitor-audit/2026-10-30T0119-Texas.json",
+      "initialCommitSha": "f370497ef22712d7276d5d6431ba4373b064e697",
+      "initialContentSha": "5b7e775f1a1aed56f416c533152f65874d2092eb",
+      "initialReadbackVerifiedAt": "2026-10-30T06:20:22.000Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-10-30T0119-Texas.json readback and final sync marker"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-10-30T05:12:16.000Z",
   "notification": {
     "sent": false,
     "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  },
+  "lastSuccessfulWriteAt": "2026-10-30T06:20:22.000Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "headAfterInitialAudit": "f370497ef22712d7276d5d6431ba4373b064e697",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "db321d9758315dde16fc3e2faf8a6a155b492264",
+      "recordCount": 266,
+      "updatedAt": "2026-10-30T01:27:12Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archives": {
+      "path": "job-archive/general-motors/JR-202620428/job-description.md",
+      "blobSha": "e75854b8b795480d32817b28714ee6b815783968",
+      "changed": true
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
   }
 }
