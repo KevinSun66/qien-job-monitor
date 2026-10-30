@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T11:57:31.000Z",
+    "checkedAtLocal": "2026-10-30T06:57:31-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_verified_job_data_change_no_qualified_alert",
+    "completedAt": "2026-10-30T11:57:31Z",
+    "completedAtLocal": "2026-10-30T06:57:31-05:00"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "fb1e57503b6a0d751825e127e1b19d996d9df19f",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "53fdc10c8df0864999fbac61b77dadc6b22bc64f",
+      "recordCount": 274,
+      "updatedAt": "2026-10-30T10:53:54Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T0553-Texas.json",
+      "blobSha": "3e3fe3f36fbf323c12366cf0db902679a0c09204",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T10:55:03Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "ceebb0702b57bbdbaad7d3f66a09ee137e7278ae",
+    "currentListingsCommit": "735069cdc608fc94e0db18bc10d3d3f4579cd1f7",
+    "repositoryHeadObserved": "861076388b3b541031303319b4be85e32ed1013b",
+    "commitsReviewed": [
+      "e1bc465cc4f818d0a2fbce4556e7320cca788bd7",
+      "735069cdc608fc94e0db18bc10d3d3f4579cd1f7"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 2,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 3,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "Inactive changes affected Boeing El Segundo and two Northrop Grumman Colorado/California records; none is within the Texas monitor scope.",
+      "No new upstream listing event met the location and function gates.",
+      "The public monitor repository still has no .github/workflows directory; no Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 3,
+    "officialSearchResultsReviewed": 14,
+    "officialJdsOpened": 3,
+    "verifiedNewRecords": 0,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "RSM JR122103 remains an already-recorded F-1 visa rejection.",
+      "Striveworks 8002515003 remains an already-recorded US-citizenship/security-clearance rejection.",
+      "Twilio 8240487 and GM JR-202620428 were already in jobs.json; their standing verification/rejection conclusions did not change."
+    ],
+    "unverifiedLeads": [
+      "CleanSlate Technology Group Associate AI/ML Engineer appeared on third-party mirrors, but the current official Paylocity board does not list it. The official board lists only AI/Machine Learning Engineer 3451696, which requires 2+ years. No new record was created.",
+      "Mindbeam AI Machine Learning Engineer - Pre Training appeared on an aggregator with a 2+ year requirement, but no current official employer posting could be verified. No new record was created."
+    ]
+  },
+  "screening": {
+    "discovered": 6,
+    "duplicatesSuppressed": 4,
+    "officialStatusUnverified": 2,
+    "fullTimeTexasOrRemoteRecordsReviewed": 6,
+    "officialJdsOpened": 3,
+    "knownOfficialMatchesCrossChecked": 4,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "No newly verified, open role passed timing, experience, work-authorization and Ryan-upgrade gates."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_job_data_change",
+      "path": "jobs.json",
+      "blobSha": "53fdc10c8df0864999fbac61b77dadc6b22bc64f",
+      "recordCount": 274,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_new_verified_record",
+      "count": 0,
+      "paths": []
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-30T0657-Texas.json"
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-30T0657-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T10:55:03Z",
+  "notification": {
+    "sent": false,
+    "reason": "No newly qualified, verified or materially changed role warrants notification."
+  },
+  "lastSuccessfulWriteAt": "2026-10-30T10:55:03Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "53fdc10c8df0864999fbac61b77dadc6b22bc64f",
+      "recordCount": 274,
+      "updatedAt": "2026-10-30T10:53:54Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  }
+}
