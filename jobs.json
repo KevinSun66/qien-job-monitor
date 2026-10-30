@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T23:47:01Z",
+  "updatedAt": "2026-10-30T01:27:12Z",
   "jobs": [
     {
       "company": "IBM",
@@ -7714,40 +7714,35 @@
       "jobId": "8245355",
       "sourceJobId": "230fb8ba-26d1-49ac-a49a-8126c1503213",
       "url": "https://job-boards.greenhouse.io/blenheimchalcot/jobs/8245355",
-      "status": "start-date-visa-opportunity-cost-status-verification",
+      "status": "closed-watch",
       "found": "2026-10-19",
       "discoveredDate": "2026-10-19",
       "discoveredAt": "2026-10-19T08:35:23Z",
       "firstSeen": "2026-10-19T08:35:23Z",
-      "lastChecked": "2026-10-19",
-      "lastCheckedAt": "2026-10-19T09:53:47Z",
+      "lastChecked": "2026-10-29",
+      "lastCheckedAt": "2026-10-30T01:27:12Z",
       "employment": "Full-time · Office-first (5 days during probation, then 4 office / 1 remote)",
       "gradYear": "Graduate entry role; May 2027 start compatibility not disclosed",
       "match": "Strong statistics/data-science match; eligibility and Ryan-upgrade value unverified",
       "ngCompatibility": "Official JD labels the role Graduate — Entry and states no minimum full-time experience. Earliest start date is collected in the application rather than fixed in the JD, so a post-May-2027 start is not confirmed.",
       "minimumQualifications": "SQL; Python or ability to learn quickly; inferential statistics; exposure to experimental design; AI fluency; clear client communication. No 1+ year minimum stated.",
-      "assessment": "The work is applied marketing data science rather than hardware: causal measurement, incrementality experiments, marketing mix modelling, model diagnostics, SQL investigation and Python analysis. It is technically relevant to Qien's Data Science and Statistics background. The official page remains open despite two aggregate inactive flags. However, the JD does not disclose compensation or a May-2027-compatible start, and Fospha's brand/platform and pay have not been shown to clearly exceed the Ryan Associate Data Scientist return offer. Retain as a verified open discovery with unresolved gates; do not add to table 2 or notify.",
+      "assessment": "The role was a relevant graduate marketing-science position covering causal measurement, incrementality testing, MMM, SQL and Python. On 2026-10-29 the official requisition redirected to the employer board with error=true and the role was absent from current openings, so it is now confirmed closed. Historical eligibility and Ryan-comparison notes are retained; do not add to table 2 or notify.",
       "visa": "Application asks whether the candidate is permanently authorized to work in the U.S. without visa/sponsorship and separately requests current visa type and expiry. This does not prove OPT/STEM OPT acceptance; visa-verification required.",
       "compensation": "Official JD does not disclose compensation; salary expectation is requested in the application.",
       "officialLocations": [
         "Austin, TX"
       ],
       "locationListComplete": true,
-      "officialStatus": "Open on 2026-10-19 at 04:53 CT; official Greenhouse application 8245355 still shows Apply and the full application form.",
-      "sourceStatus": "Simplify first marked the old Fospha URL 8245353 inactive in commit c3aceb0, then marked the live Blenheim Chalcot URL 8245355 inactive in commit f7fa0f3. Direct official verification still shows requisition 8245355 open with Apply; retain source-status-verification and do not infer closure.",
-      "verificationFlags": [
-        "start-date-verification",
-        "visa-verification",
-        "compensation-verification",
-        "opportunity-cost-verification",
-        "source-status-verification"
-      ],
-      "finalPriority": "Do not add to table 2 yet · official role is open, but May 2027 start, OPT/STEM OPT acceptance, compensation and clear Ryan upgrade are unverified",
+      "officialStatus": "Closed/removed as of 2026-10-29 at 20:27 CT: the direct Greenhouse requisition redirects to the Blenheim Chalcot board with error=true, and the role is absent from the current openings list.",
+      "sourceStatus": "Resolved closed: the aggregate inactive signal is now corroborated by the official Greenhouse redirect and absence from the employer's current openings.",
+      "verificationFlags": [],
+      "finalPriority": "Closed · historical record retained",
       "roleTrack": "Marketing Science / Causal Inference / MMM / Experimentation",
       "technicalGrowth": "Good causal-inference and applied-statistics exposure; narrower than general Applied AI/ML",
       "brandPlatform": "Smaller marketing-measurement platform; no verified upgrade over Ryan",
       "ryanUpgrade": "Unverified · salary undisclosed and platform advantage not established",
-      "whyRyan": "Ryan remains the safer baseline until Fospha confirms post-May-2027 timing, OPT/STEM OPT acceptance and compensation materially above or otherwise clearly stronger than Ryan."
+      "whyRyan": "Ryan remains the safer baseline until Fospha confirms post-May-2027 timing, OPT/STEM OPT acceptance and compensation materially above or otherwise clearly stronger than Ryan.",
+      "closedDate": "2026-10-29"
     },
     {
       "company": "GlobalFoundries",
@@ -9948,6 +9943,45 @@
       ],
       "archiveUrl": "job-archive/twilio/8240487/job-description.md",
       "archivedAt": "2026-10-29T23:47:01Z"
+    },
+    {
+      "company": "PMG",
+      "tier": "B · rejected",
+      "area": "Dallas, TX",
+      "market": "DFW",
+      "title": "Graduate Leadership Program - Data Analytics (January Start)",
+      "jobId": "8587053002",
+      "url": "https://job-boards.greenhouse.io/pmg/jobs/8587053002",
+      "status": "graduation-start-date-opportunity-cost-rejected",
+      "found": "2026-10-29",
+      "discoveredDate": "2026-10-29",
+      "discoveredAt": "2026-10-30T01:27:12Z",
+      "firstSeen": "2026-10-30T01:27:12Z",
+      "lastChecked": "2026-10-29",
+      "lastCheckedAt": "2026-10-30T01:27:12Z",
+      "employment": "Full-time · Graduate Leadership Program · Dallas office 5 days/week",
+      "gradYear": "Required degree completion Summer 2026–December 2026; January 11, 2027 start",
+      "match": "Low for Qien · verified timing and graduation-window rejection",
+      "ngCompatibility": "No minimum full-time years stated, but the official graduation window ends before Qien's May 2027 graduation and the mandatory start is January 11, 2027.",
+      "minimumQualifications": "Bachelor's or master's completed Summer 2026–December 2026; relevant analytics field; SQL exposure; internships or relevant project experience.",
+      "assessment": "Official Greenhouse page is open and the role is a genuine zero-year graduate analytics position. It covers SQL, visualization, PMG's Alli platform, AI-powered research tools and agentic media-buying features. It is rejected because the mandatory January 11, 2027 start is before the required post-May-2027 window, the graduation window excludes May 2027, and marketing analytics does not establish a clear technical or compensation upgrade over Ryan.",
+      "visa": "Official JD says PMG does not offer sponsorship and asks whether the applicant will now or in the future require sponsorship. It does not explicitly resolve initial OPT/STEM OPT acceptance; timing and graduation criteria already disqualify the role.",
+      "compensation": "No official salary range; application only asks for salary expectations.",
+      "officialLocations": [
+        "Dallas, Texas"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Open with active Apply form on 2026-10-29 at 20:27 CT.",
+      "verificationFlags": [],
+      "finalPriority": "Do not apply · graduation/start-date hard mismatch and no clear Ryan upgrade",
+      "roleTrack": "Marketing Analytics / Data Analytics / AI-assisted insights",
+      "technicalGrowth": "SQL, visualization and marketing analytics; narrower than Ryan production Applied AI ownership",
+      "brandPlatform": "No verified platform upgrade over Ryan",
+      "ryanUpgrade": "No · timing incompatible and no demonstrated compensation or Applied AI/ML upgrade",
+      "whyRyan": "Ryan remains superior for compatible timing, known compensation and production multi-agent AI ownership.",
+      "startDate": "2027-01-11",
+      "archiveUrl": "job-archive/pmg/8587053002/job-description.md",
+      "archivedAt": "2026-10-30T01:27:12Z"
     }
   ],
   "monitorAudit": [
