@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T13:22:01Z",
+  "updatedAt": "2026-10-30T14:31:50Z",
   "jobs": [
     {
       "company": "IBM",
@@ -10373,6 +10373,54 @@
       "archiveUrl": "job-archive/industrial-electric-manufacturing/4327741009/job-description.md",
       "archiveLabel": "JD 归档",
       "archivedAt": "2026-10-30T13:22:01Z",
+      "applicationStatus": "not-applied"
+    },
+    {
+      "company": "Dealer Tire",
+      "tier": "B+ · 机会成本排除",
+      "area": "Remote United States · Texas eligible unless employer applies an unpublished state restriction",
+      "market": "Remote / Texas",
+      "title": "Associate Data Scientist",
+      "jobId": "R13774",
+      "url": "https://dealertire.wd5.myworkdayjobs.com/DealerTireLLC-Careers/job/Remote-Ohio/Associate-Data-Scientist_R13774",
+      "status": "opportunity-cost-rejected",
+      "found": "2026-10-30",
+      "discoveredDate": "2026-10-30",
+      "discoveredAt": "2026-10-30T14:31:50Z",
+      "firstSeen": "2026-10-30T14:31:50Z",
+      "lastChecked": "2026-10-30",
+      "lastCheckedAt": "2026-10-30T14:31:50Z",
+      "employment": "Full-time · Remote United States",
+      "gradYear": "No graduation window or post-May-2027 start date disclosed",
+      "match": "Valid zero-experience data-science fit, but no clear compensation, platform, or Applied AI ownership upgrade over Ryan",
+      "ngCompatibility": "Official JD explicitly permits 0–2 years of data science, analytics, or related experience, or an advanced degree.",
+      "minimumQualifications": "Bachelor's in Business, Mathematics, Computer Science, Engineering or related field; 0–2 years or advanced degree; Python, SQL, basic statistical/ML knowledge; modern data-platform familiarity preferred.",
+      "assessment": "Dealer Tire's official careers listing showed the role as a new Full-time opening dated October 28, 2026 with an Apply Here link, and the Workday page displayed Apply. The role builds regression, classification, clustering and forecasting models, contributes to data-science products and pipelines, uses Python/SQL/Snowflake/dbt, and assists with simple LLM and prompt-engineering workflows. The $80,580–$110,000 base range begins below Ryan and the role's supervised analytics/simple AI scope plus Dealer Tire platform does not establish a material upgrade over Ryan's approximately $90,000 first-year package and production multi-agent AI ownership. The stale JD line targeting closure on September 19 was not treated as current because the official careers index dated the opening October 28.",
+      "visa": "Role-level F-1 OPT/STEM OPT and future sponsorship terms are not disclosed. Dealer Tire's official required-postings page confirms E-Verify participation, but role-level OPT acceptance and I-983 support remain unverified; no further verification is required after the Ryan opportunity-cost gate fails.",
+      "compensation": "Official base range $80,580–$110,000; possible commission, bonus or profit sharing; PTO, medical, dental, vision, and 401(k) match.",
+      "officialLocations": [
+        "Remote California",
+        "Remote United States"
+      ],
+      "locationListComplete": true,
+      "officialPostedDate": "Dealer Tire official careers index displayed October 28, 2026",
+      "officialStatus": "Open on 2026-10-30 at 09:31 CT; official company careers index displayed Apply Here and the Workday JD displayed Apply.",
+      "source": "Dealer Tire official careers listing and official Workday JD",
+      "verificationFlags": [
+        "opportunity-cost-rejected",
+        "start-date-unverified",
+        "role-level-opt-unverified"
+      ],
+      "finalPriority": "不投 · 相对 Ryan 未形成明确薪酬、平台或 Applied AI ownership 升级",
+      "roleTrack": "Data Science / Statistical Modeling / ML Analytics / Basic AI Workflows",
+      "seniorityGap": "None · official range explicitly includes zero years",
+      "technicalGrowth": "Moderate supervised modeling, pipelines and analytics product exposure; basic rather than differentiated AI engineering ownership",
+      "brandPlatform": "Established tire-distribution and automotive-services company",
+      "ryanUpgrade": "No clear upgrade: official base overlaps Ryan and begins below it; brand/platform and AI ownership are weaker, while 2027 timing and role-level OPT remain unverified.",
+      "rejectionReason": "No material Ryan upgrade established despite valid 0–2 year eligibility; disclosed role scope and compensation do not outweigh Ryan's production multi-agent AI ownership and first-year package.",
+      "archiveUrl": "job-archive/dealer-tire/R13774/job-description.md",
+      "archiveLabel": "JD 归档",
+      "archivedAt": "2026-10-30T14:31:50Z",
       "applicationStatus": "not-applied"
     }
   ],
