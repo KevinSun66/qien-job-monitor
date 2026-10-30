@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T20:17:54Z",
+    "checkedAtLocal": "2026-10-30T15:17:54-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_verified_change_no_qualified_alert",
+    "completedAt": null,
+    "completedAtLocal": null
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "350f23c0c9a2e5e887a7724be937ad973f1efc47",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "0393b978e65d57b630ed0552f2b818f5600ae07c",
+      "recordCount": 278,
+      "updatedAt": "2026-10-30T15:48:46Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T1448-Texas.json",
+      "blobSha": "d3bed72348ecd04228c56770608cedd81a3643d3",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T19:48:50Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "c4ce2197009e5bcfb9f10196ede09b1ba1fce7e9",
+    "currentListingsCommit": "0cda40a88c9453eee889df7195d8d8b82187d335",
+    "repositoryHeadObserved": "0cda40a88c9453eee889df7195d8d8b82187d335",
+    "commitsReviewed": [
+      "0cda40a88c9453eee889df7195d8d8b82187d335"
+    ],
+    "listingsDataCommitsReviewed": 1,
+    "readmeCommitsReviewed": 0,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 0,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "The latest listings commit produced no diff.",
+      "No upstream event changed a monitored record.",
+      "The public monitor repository still has no .github/workflows directory; no Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 2,
+    "officialSearchResultsReviewed": 22,
+    "officialJdsOpened": 2,
+    "verifiedNewRecords": 0,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 2,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "Kyndryl R-66739, Applied Materials R2627684, Striveworks 8002515003 and Dealer Tire R13774 were already represented with unchanged conclusions."
+    ],
+    "rejectedLeads": [
+      {
+        "company": "Cotiviti",
+        "title": "Data Scientist I - AI/ML",
+        "jobId": "20232",
+        "officialUrl": "https://careers-cotiviti.icims.com/jobs/20232/data-scientist-i---ai-ml/job?in_iframe=1",
+        "result": "official page returned 410 Gone; not currently open; not added"
+      },
+      {
+        "company": "Mercury Insurance",
+        "title": "Associate Data Scientist",
+        "jobId": "6746",
+        "officialUrl": "https://careers-mercuryinsurance.icims.com/jobs/6746/associate-data-scientist/job?in_iframe=1",
+        "result": "official page returned 410 Gone; not currently open; not added"
+      }
+    ]
+  },
+  "screening": {
+    "discovered": 2,
+    "duplicatesSuppressed": 4,
+    "fullTimeTexasOrRemoteRecordsReviewed": 6,
+    "officialJdsOpened": 2,
+    "knownOfficialMatchesCrossChecked": 4,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 2,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "rejections": [
+      "Cotiviti 20232: official page 410 Gone",
+      "Mercury Insurance 6746: official page 410 Gone"
+    ],
+    "comparisonToRyan": "No currently open new role passed official-status verification, so no new Ryan-upgrade candidate exists."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_current_data_change",
+      "path": "jobs.json",
+      "blobSha": "0393b978e65d57b630ed0552f2b818f5600ae07c",
+      "recordCount": 278,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_current_new_record",
+      "count": 0,
+      "paths": []
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-30T1517-Texas.json",
+      "initialCommitSha": null,
+      "initialContentSha": null,
+      "initialReadbackVerifiedAt": null,
+      "branchHeadVerified": false
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-30T1517-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T19:48:50Z",
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying verified new role or meaningful verified monitored status change was found."
+  },
+  "lastSuccessfulWriteAt": null,
+  "repositorySnapshotAfter": null
+}
