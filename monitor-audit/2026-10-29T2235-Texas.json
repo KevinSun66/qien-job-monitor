@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T03:35:23.000Z",
+    "checkedAtLocal": "2026-10-29T22:35:23-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_verified_new_or_status_change_no_qualified_alert"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "64e2f1847370604e872a21fea7ed860cb2a4e10e",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "db321d9758315dde16fc3e2faf8a6a155b492264",
+      "recordCount": 266,
+      "updatedAt": "2026-10-30T01:27:12Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-29T2128-Texas.json",
+      "blobSha": "08abfc49766a238eae986f9734a7a89643452591",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T02:28:42.000Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "7c11ad7690d3f64c6a23d4a6073d243d07167616",
+    "currentListingsCommit": "5161fccc5831db9f9ac55ce8ea85140d92b53c54",
+    "repositoryHeadObserved": "5161fccc5831db9f9ac55ce8ea85140d92b53c54",
+    "commitsReviewed": [
+      "37885edec6cdeff072f0a00a6f821b0e19f79d6c",
+      "fc292ba09d23e9b313662b5eb391e2d73aa75ed8",
+      "e42ae86830661b8af3f467cc4ff6047f5066a574",
+      "66454b52d835e8ed5bba1f0148f61382380d47c5",
+      "5161fccc5831db9f9ac55ce8ea85140d92b53c54"
+    ],
+    "listingsDataCommitsReviewed": 3,
+    "readmeCommitsReviewed": 2,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 0,
+    "activeToInactiveEvents": 0,
+    "inactiveToActiveEvents": 0,
+    "historicalInactiveRecordsRemoved": 15,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "The first two listings commits only removed already-inactive historical records; they did not add postings or change active states.",
+      "Removed Texas-adjacent records included LPL New Grad 2026 Data & Analytics and Software Development in Austin, both already inactive and outside the post-May-2027 requirement.",
+      "The latest listings commit reported zero additions, deletions and file changes.",
+      "The public monitor repository still has no .github/workflows directory; no GitHub Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 4,
+    "officialSearchResultsReviewed": 8,
+    "officialJdsOpened": 1,
+    "verifiedNewRecords": 0,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "NewsBreak Applied AI Engineer, Advertising Agents (New Grad) remained Mountain View, California only.",
+      "ShyftLabs Associate AI Engineer (New Grad) is Toronto, Ontario hybrid and outside the Texas scope.",
+      "Bot Auto new-grad/early-career AI and autonomy roles are Houston, outside the user's Dallas/Austin location limit.",
+      "No newly found role satisfied Texas location, post-May-2027 timing, zero-start experience, OPT/STEM OPT and Ryan-upgrade requirements."
+    ]
+  },
+  "screening": {
+    "discovered": 0,
+    "fullTimeTexasOrRemoteRecordsReviewed": 1,
+    "officialJdsOpened": 1,
+    "knownOfficialMatchesCrossChecked": 3,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "No new verified Texas-eligible role advanced to a Ryan-upgrade comparison."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_job_data_change",
+      "path": "jobs.json",
+      "blobSha": "db321d9758315dde16fc3e2faf8a6a155b492264",
+      "recordCount": 266,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_new_verified_jd",
+      "count": 0
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-29T2235-Texas.json"
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-29T2235-Texas.json readback and branch-head verification"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T02:28:42.000Z",
+  "lastSuccessfulWriteAt": null,
+  "notification": {
+    "sent": false,
+    "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  }
+}
