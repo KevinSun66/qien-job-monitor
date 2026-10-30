@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T21:52:51Z",
+  "updatedAt": "2026-10-30T23:16:31Z",
   "jobs": [
     {
       "company": "IBM",
@@ -10665,6 +10665,45 @@
       "archiveUrl": "job-archive/avride/4013016009/job-description.md",
       "archiveLabel": "JD 归档摘要",
       "archivedAt": "2026-10-30T21:52:51Z"
+    },
+    {
+      "company": "Isembard",
+      "tier": "A-",
+      "area": "Dallas, TX",
+      "market": "DFW",
+      "title": "Forward Deployed Engineer",
+      "employment": "Full-time · Dallas · Factory/network-site deployments · 30–50% travel",
+      "gradYear": "Open to graduate and experienced engineers; exact May/June 2027 or later start window not stated",
+      "match": "High technical relevance · verification incomplete",
+      "ngCompatibility": "Graduate applicants explicitly considered; no numeric minimum YOE stated, but production-code autonomy is expected",
+      "assessment": "Isembard官方页面在2026-10-30核验为开放。岗位嵌入制造业客户现场，负责MasonOS生产代码、全栈功能与集成，并使用LLM/agentic workflows处理报告、供应商跟进和订单状态等任务；官方明确同时接受graduate和experienced engineers，未写数字化最低工作年限。但岗位要求能在较少监督下交付生产代码，并有30–50%出差及较长现场部署。官方未披露2027年5月后入职窗口、F-1 OPT/STEM OPT、E-Verify、未来sponsorship或薪酬，因此不能证明相对Ryan Associate Data Scientist return offer有明显提升，不进入当前推荐表、不通知。",
+      "visa": "官方JD未披露F-1 OPT/STEM OPT、E-Verify、I-983或未来sponsorship；须取得招聘方书面确认后再评估。",
+      "found": "2026-10-30",
+      "url": "https://isembard.com/us/work/forward-deployed-engineer/",
+      "status": "visa-start-date-compensation-verification",
+      "finalPriority": "待核验 · 仅在签证、2027入职、薪酬均确认且相对Ryan明显升级后考虑",
+      "roleTrack": "Forward Deployed Engineering / Agentic Workflows / Full-stack Manufacturing Software",
+      "seniorityGap": "No numeric minimum YOE; graduates accepted, but must ship production code with minimal supervision",
+      "technicalGrowth": "Potentially high · production full-stack/LLM/agentic field engineering",
+      "brandPlatform": "Unverified relative to Ryan",
+      "ryanUpgrade": "Not established · compensation, authorization, start timing and travel tradeoff unresolved",
+      "compensation": "Official posting does not disclose compensation",
+      "officePerks": "Dallas listed; 30–50% travel with extended deployments at factories/network sites",
+      "jobId": "c676e261-3792-4564-96f7-934a696fc104",
+      "sourceListingId": "db2e73d9-53a4-44ad-8d27-d8c6bc00acd8",
+      "officialSource": "https://isembard.com/us/work/forward-deployed-engineer/",
+      "officialStatus": "Open on official Isembard careers page at 2026-10-30T18:16:31-05:00",
+      "lastChecked": "2026-10-30",
+      "lastCheckedAt": "2026-10-30T18:16:31-05:00",
+      "verificationFlags": [
+        "start-date-verification",
+        "visa-verification",
+        "compensation-verification",
+        "ryan-upgrade-verification"
+      ],
+      "applicationStatus": "not-applied",
+      "archiveUrl": "job-archive/isembard/c676e261-3792-4564-96f7-934a696fc104/job-description.md",
+      "archiveLabel": "Official JD summary"
     }
   ],
   "monitorAudit": [
