@@ -5,8 +5,8 @@
     "checkedAtLocal": "2026-10-30T10:47:37-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
     "result": "completed_one_verified_pending_visa_no_qualified_alert",
-    "completedAt": null,
-    "completedAtLocal": null
+    "completedAt": "2026-10-30T15:49:54Z",
+    "completedAtLocal": "2026-10-30T10:49:54-05:00"
   },
   "criteria": {
     "locations": [
@@ -174,21 +174,23 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_readback",
-      "path": "monitor-audit/2026-10-30T1049-Texas.json"
+      "status": "synced",
+      "path": "monitor-audit/2026-10-30T1049-Texas.json",
+      "initialCommitSha": "95184064ef4542691233ce2e61ffe116b424398c",
+      "initialContentSha": "2ce06db9365f871815ef340b6513859c69cf9aae",
+      "initialReadbackVerifiedAt": "2026-10-30T15:49:54Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-10-30T1049-Texas.json"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-10-30T14:32:45Z",
   "notification": {
     "sent": false,
     "reason": "The only newly verified record still requires role-level F-1 OPT/STEM OPT and I-983 verification; unverified roles must not trigger notification."
   },
-  "lastSuccessfulWriteAt": "2026-10-30T14:32:45Z",
+  "lastSuccessfulWriteAt": "2026-10-30T15:49:54Z",
   "repositorySnapshotAfter": {
     "branch": "main",
     "jobs": {
@@ -230,6 +232,6 @@
       "scrapingWorkflowFound": false,
       "pagesWorkflowFound": false
     },
-    "headAfterInitialAudit": null
+    "headAfterInitialAudit": "95184064ef4542691233ce2e61ffe116b424398c"
   }
 }
