@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T19:48:30Z",
+    "checkedAtLocal": "2026-10-30T14:48:30-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_verified_change_no_qualified_alert",
+    "completedAt": null,
+    "completedAtLocal": null
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "d18e05083819b696cde1200d341f9f2c414dfd98",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "0393b978e65d57b630ed0552f2b818f5600ae07c",
+      "recordCount": 278,
+      "updatedAt": "2026-10-30T15:48:46Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T1316-Texas.json",
+      "blobSha": "8c8c176665be398f21268a8bcb1c13a0029d92db",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T18:17:01Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "ddd3bc5e04710db56cf6254ad6a10cfe9a586324",
+    "currentListingsCommit": "c4ce2197009e5bcfb9f10196ede09b1ba1fce7e9",
+    "repositoryHeadObserved": "c4ce2197009e5bcfb9f10196ede09b1ba1fce7e9",
+    "commitsReviewed": [
+      "4b3b2edeb267c7b356b09a1a8627bedea38a4bc2",
+      "fb0e7baed0e92b553aebb1e998723e3467e60b69",
+      "c4ce2197009e5bcfb9f10196ede09b1ba1fce7e9"
+    ],
+    "listingsDataCommitsReviewed": 3,
+    "readmeCommitsReviewed": 0,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 6,
+    "relevantTexasOrRemoteEvents": 1,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "T-Mobile Associate Software Engineer - Billing Platform (REQ375195, Frisco) changed from active to inactive upstream. The official careers page could not be independently retrieved in this run, so the existing direction-opportunity-cost-rejected record was not changed to closed; status remains unconfirmed.",
+      "Butler County Regional Transit Authority and Johns Hopkins APL status events were outside the target markets.",
+      "Garmin Engineering Technician - Aviation, Qualcomm DFT Engineer and Encore Auctions Technical Hardware Specialist were hardware-direction events excluded by scope.",
+      "The next two listings commits produced no diff.",
+      "No verified upstream event changed a monitored record.",
+      "The public monitor repository still has no .github/workflows directory; no Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 1,
+    "officialSearchResultsReviewed": 0,
+    "officialJdsOpened": 0,
+    "verifiedNewRecords": 0,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "T-Mobile REQ375195 upstream inactive signal was checked but the official page could not be retrieved; no closure was asserted.",
+      "Wise 744000158723445 remains pending role-level OPT/STEM OPT verification; no new official evidence resolved it."
+    ],
+    "limitations": [
+      "Fresh official web search and direct official page retrieval were attempted but the search service returned no usable result; no unverified item was added or used to change status."
+    ]
+  },
+  "screening": {
+    "discovered": 0,
+    "duplicatesSuppressed": 0,
+    "fullTimeTexasOrRemoteRecordsReviewed": 1,
+    "officialJdsOpened": 0,
+    "knownOfficialMatchesCrossChecked": 2,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "rejections": [],
+    "comparisonToRyan": "T-Mobile REQ375195 remains excluded because generic billing-platform software engineering, unverified post-May-2027 start and unresolved OPT terms do not clearly improve on Ryan."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change",
+      "path": "jobs.json",
+      "blobSha": "0393b978e65d57b630ed0552f2b818f5600ae07c",
+      "recordCount": 278,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_new_record",
+      "count": 0,
+      "paths": []
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-30T1448-Texas.json",
+      "initialCommitSha": null,
+      "initialContentSha": null,
+      "initialReadbackVerifiedAt": null,
+      "branchHeadVerified": false
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-30T1448-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T18:17:01Z",
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying verified new role or meaningful verified monitored status change was found."
+  },
+  "lastSuccessfulWriteAt": null,
+  "repositorySnapshotAfter": null
+}
