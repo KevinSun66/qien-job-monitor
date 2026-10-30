@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T21:52:51Z",
+    "checkedAtLocal": "2026-10-30T16:52:51-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_verified_rejections_archived_no_qualified_alert",
+    "completedAt": null,
+    "completedAtLocal": null
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "c0d591f9866f494be3f6ff5e42e6e861514ba2ec",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "0393b978e65d57b630ed0552f2b818f5600ae07c",
+      "recordCount": 278,
+      "updatedAt": "2026-10-30T15:48:46Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T1517-Texas.json",
+      "blobSha": "4efc59dd02a79411556103670a9504cf0e503778",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T20:18:12Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "0cda40a88c9453eee889df7195d8d8b82187d335",
+    "currentListingsCommit": "9fb5b6116e4b1ac85a37bb71117045b82ce3ab70",
+    "repositoryHeadObserved": "77355eb1e737651918561bcb930ed2249e1d5b1d",
+    "commitsReviewed": [
+      "27be6789623a2d9bce5403365ec30bcb75d63186",
+      "bd5b9e933e5eede88e185d81d643d04ccea2b7b8",
+      "73b0ab447981f624a61b419d0b68434f8af0655e",
+      "95fb69137bf4d0039933936a8cb513d513439962",
+      "9fb5b6116e4b1ac85a37bb71117045b82ce3ab70",
+      "77355eb1e737651918561bcb930ed2249e1d5b1d"
+    ],
+    "listingsDataCommitsReviewed": 3,
+    "readmeCommitsReviewed": 3,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 20,
+    "relevantTexasOrRemoteEvents": 1,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "Texas Instruments Validation Engineer became inactive; it is a hardware-validation event and the company exclusion/direction rules remain controlling.",
+      "All other inactive events were outside target markets, senior/mid-level, hardware, postdoctoral, or generic non-AI roles.",
+      "No upstream event changed a monitored record.",
+      "The public monitor repository still has no .github/workflows directory; no Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 2,
+    "officialSearchResultsReviewed": 18,
+    "officialJdsOpened": 4,
+    "verifiedNewRecords": 4,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 4,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "Applied Materials R2627684 remained open with unchanged opportunity-cost rejection."
+    ],
+    "newRejectedRecords": [
+      {
+        "company": "Avride",
+        "jobId": "4376067009",
+        "title": "Data Quality Analyst – Autonomous Vehicles",
+        "reason": "application requires no current/future visa sponsorship; data-quality/annotation operations scope; no clear Ryan upgrade"
+      },
+      {
+        "company": "Avride",
+        "jobId": "4012771009",
+        "title": "Data Scientist – AV Metrics & Evaluation Analytics",
+        "reason": "2+ years minimum and application requires no current/future visa sponsorship"
+      },
+      {
+        "company": "Avride",
+        "jobId": "4013230009",
+        "title": "Machine Learning Engineer",
+        "reason": "3+ years, on-vehicle hardware-constrained ML, and no current/future visa sponsorship"
+      },
+      {
+        "company": "Avride",
+        "jobId": "4013016009",
+        "title": "Machine Learning Engineer – Motion Planning & Prediction",
+        "reason": "mandatory deployed physical-hardware autonomy ML experience and no current/future visa sponsorship"
+      }
+    ]
+  },
+  "screening": {
+    "discovered": 4,
+    "duplicatesSuppressed": 1,
+    "fullTimeTexasOrRemoteRecordsReviewed": 5,
+    "officialJdsOpened": 4,
+    "knownOfficialMatchesCrossChecked": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 4,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": true,
+    "recordsAdded": 4,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 4,
+    "rejections": [
+      "Avride 4376067009: visa/direction/opportunity-cost rejected",
+      "Avride 4012771009: skills-experience and visa rejected",
+      "Avride 4013230009: experience/visa/embedded-hardware direction rejected",
+      "Avride 4013016009: skills-experience/visa/embedded-hardware direction rejected"
+    ],
+    "comparisonToRyan": "None is actionable: all four fail the current/future sponsorship gate; two have explicit 2+ or 3+ minimums, one requires deployed physical-hardware autonomy ML, and the remaining data-quality role does not clearly improve on Ryan."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "synced_pending_final_audit_readback",
+      "path": "jobs.json",
+      "beforeBlobSha": "0393b978e65d57b630ed0552f2b818f5600ae07c",
+      "blobSha": "2a11ce7d0cc249406305ce3304c3b18e3e66dad2",
+      "commitSha": "6976bb07ff62cf0aa62d95497aa8acf76ef0ed01",
+      "recordCount": 282,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "synced_pending_final_audit_readback",
+      "count": 4,
+      "paths": [
+        "job-archive/avride/4376067009/job-description.md",
+        "job-archive/avride/4012771009/job-description.md",
+        "job-archive/avride/4013230009/job-description.md",
+        "job-archive/avride/4013016009/job-description.md"
+      ],
+      "commitShas": [
+        "f53ff0f06566e206d96f57a3591f32e5c72e7ea7",
+        "bf7ebb0fedb8a5cd4d96e1ea866becd34dc77159",
+        "e24d940ac6773e2941171fd9b6df8d04fc1699fc",
+        "c5c657efb1c2edb413e49a8aab54213430106b74"
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-30T1652-Texas.json",
+      "initialCommitSha": null,
+      "initialContentSha": null,
+      "initialReadbackVerifiedAt": null,
+      "branchHeadVerified": false
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-30T1652-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T20:18:12Z",
+  "notification": {
+    "sent": false,
+    "reason": "Only verified rejected roles were found; none is suitable or a clear Ryan upgrade."
+  },
+  "lastSuccessfulWriteAt": null,
+  "repositorySnapshotAfter": null
+}
