@@ -5,8 +5,8 @@
     "checkedAtLocal": "2026-10-30T08:22:01-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
     "result": "completed_one_verified_visa_rejection_no_qualified_alert",
-    "completedAt": "2026-10-30T13:22:38Z",
-    "completedAtLocal": "2026-10-30T08:22:38-05:00"
+    "completedAt": "2026-10-30T13:22:49Z",
+    "completedAtLocal": "2026-10-30T08:22:49-05:00"
   },
   "criteria": {
     "locations": [
@@ -168,21 +168,23 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_readback",
-      "path": "monitor-audit/2026-10-30T0822-Texas.json"
+      "status": "synced",
+      "path": "monitor-audit/2026-10-30T0822-Texas.json",
+      "initialCommitSha": "9da5b86a4e711f60c1dd73511b1dfcf9c19cca07",
+      "initialContentSha": "72d5f72f3ccc5a881b23d6446e7f308ec939e260",
+      "initialReadbackVerifiedAt": "2026-10-30T13:22:49Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-10-30T0822-Texas.json"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-10-30T12:14:56Z",
   "notification": {
     "sent": false,
     "reason": "The only newly verified role fails the F-1 OPT/STEM OPT work-authorization hard gate; no qualifying role warrants notification."
   },
-  "lastSuccessfulWriteAt": "2026-10-30T12:14:56Z",
+  "lastSuccessfulWriteAt": "2026-10-30T13:22:49Z",
   "repositorySnapshotAfter": {
     "branch": "main",
     "jobs": {
@@ -223,6 +225,7 @@
       "check": "GitHub contents API returned 404",
       "scrapingWorkflowFound": false,
       "pagesWorkflowFound": false
-    }
+    },
+    "headAfterInitialAudit": "9da5b86a4e711f60c1dd73511b1dfcf9c19cca07"
   }
 }
