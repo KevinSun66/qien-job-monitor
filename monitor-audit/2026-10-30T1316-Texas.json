@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T18:16:41Z",
+    "checkedAtLocal": "2026-10-30T13:16:41-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_verified_change_no_qualified_alert",
+    "completedAt": null,
+    "completedAtLocal": null
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "8c2b667f1f03dac36b9577ebdf70866c6704592c",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "0393b978e65d57b630ed0552f2b818f5600ae07c",
+      "recordCount": 278,
+      "updatedAt": "2026-10-30T15:48:46Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T1251-Texas.json",
+      "blobSha": "2e368d1286c32321c7165dd5b35cd6bb8c70db14",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T17:52:22Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "3ca7de32924692411ed6dc751d34ed4a242c961f",
+    "currentListingsCommit": "ddd3bc5e04710db56cf6254ad6a10cfe9a586324",
+    "repositoryHeadObserved": "2c57beb23073832935472080e6fc87504dd7760f",
+    "commitsReviewed": [
+      "ddd3bc5e04710db56cf6254ad6a10cfe9a586324",
+      "2c57beb23073832935472080e6fc87504dd7760f"
+    ],
+    "listingsDataCommitsReviewed": 1,
+    "readmeCommitsReviewed": 1,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 4,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "Rover Software Engineer - Recommendations became inactive; the listing is outside the target Texas markets and produced no monitored-record change.",
+      "AMD Systems Design Engineer New Grad and Silicon Design Engineer became inactive; both are hardware/silicon direction events excluded by scope.",
+      "Motorola Solutions Software Engineer - Java / Python became inactive in Schaumburg, Illinois and is outside scope.",
+      "Two already-inactive out-of-scope records were removed from the upstream snapshot; this was not a live job event.",
+      "No upstream event changed a monitored record.",
+      "The public monitor repository still has no .github/workflows directory; no Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 2,
+    "officialSearchResultsReviewed": 0,
+    "officialJdsOpened": 0,
+    "verifiedNewRecords": 0,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "Wise 744000158723445 remains pending role-level OPT/STEM OPT verification; no new official evidence resolved it."
+    ],
+    "limitations": [
+      "Fresh official web search was attempted but the search service returned no usable results; no unverified search item was added or used to change status."
+    ]
+  },
+  "screening": {
+    "discovered": 0,
+    "duplicatesSuppressed": 0,
+    "fullTimeTexasOrRemoteRecordsReviewed": 0,
+    "officialJdsOpened": 0,
+    "knownOfficialMatchesCrossChecked": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "rejections": [],
+    "comparisonToRyan": "No new verified role or status change required a Ryan comparison."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change",
+      "path": "jobs.json",
+      "blobSha": "0393b978e65d57b630ed0552f2b818f5600ae07c",
+      "recordCount": 278,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_new_record",
+      "count": 0,
+      "paths": []
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-30T1316-Texas.json",
+      "initialCommitSha": null,
+      "initialContentSha": null,
+      "initialReadbackVerifiedAt": null,
+      "branchHeadVerified": false
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-30T1316-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T17:52:22Z",
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying verified new role or meaningful monitored status change was found."
+  },
+  "lastSuccessfulWriteAt": null,
+  "repositorySnapshotAfter": null
+}
