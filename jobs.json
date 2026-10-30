@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T14:31:50Z",
+  "updatedAt": "2026-10-30T15:48:46Z",
   "jobs": [
     {
       "company": "IBM",
@@ -10421,6 +10421,54 @@
       "archiveUrl": "job-archive/dealer-tire/R13774/job-description.md",
       "archiveLabel": "JD 归档",
       "archivedAt": "2026-10-30T14:31:50Z",
+      "applicationStatus": "not-applied"
+    },
+    {
+      "company": "Wise",
+      "tier": "A+ · 待签证核验",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Graduate Analyst / Graduate Product Analyst",
+      "jobId": "744000158723445",
+      "externalReference": "6f23869d-b6ec-4015-9c2a-d0d149050e69",
+      "url": "https://wise.jobs/job/graduate-analyst-in-austin-jid-4438",
+      "applicationUrl": "https://jobs.smartrecruiters.com/Wise/744000158723445-graduate-analyst",
+      "status": "visa-verification",
+      "found": "2026-10-30",
+      "discoveredDate": "2026-10-30",
+      "discoveredAt": "2026-10-30T15:48:46Z",
+      "firstSeen": "2026-10-30T15:48:46Z",
+      "lastChecked": "2026-10-30",
+      "lastCheckedAt": "2026-10-30T15:48:46Z",
+      "employment": "Full-time · 2027 Graduate Program · Austin",
+      "gradYear": "Degree completed by September 2027 start date",
+      "match": "Strong graduate product analytics, experimentation and data-platform fit; exact OPT/STEM OPT eligibility remains unverified",
+      "ngCompatibility": "Official graduate role accepts bachelor's or master's graduates and allows SQL/Python/R experience from coursework, projects, internships or independent work; no professional-experience minimum.",
+      "minimumQualifications": "Quantitative bachelor's or master's degree by start date or equivalent practical experience; SQL, Python or R used to answer a real question; basic statistics; product curiosity, communication, ownership and sound use of AI tools.",
+      "assessment": "Wise's official role page is open and starts in September 2027. The analyst is embedded with North America product teams, analyzes funnels and customer behavior, designs A/B tests, builds data models and dashboards with Snowflake/dbt/Git/Airflow/Python/Lightdash, and uses AI tools for routine reporting and deeper analysis. The $104,000 base plus company-wide RSUs and Wise platform could exceed Ryan on compensation and brand, although the work is product analytics rather than production ML engineering. The role cannot enter Table 2 until the role-level F-1 OPT/STEM OPT and I-983 path is verified.",
+      "visa": "Official JD says candidates must be authorized to work in the US and Wise is unable to offer visa sponsorship. It does not require citizenship/permanent residence or explicitly reject initial F-1 OPT; OPT/STEM OPT and I-983 support remain unverified.",
+      "compensation": "Official $104,000 annual base; Wise Austin benefits page says all Wisers receive RSUs, but the grant value is not disclosed.",
+      "officialLocations": [
+        "Austin, TX"
+      ],
+      "locationListComplete": true,
+      "officialPostedDate": "Added to the monitored upstream source on 2026-10-30; official page does not display a posting date.",
+      "officialStatus": "Open on 2026-10-30 at 10:47 CT; official Wise page displays Apply and redirects to the SmartRecruiters application.",
+      "source": "Wise official role page, official Austin benefits page, and SmartRecruiters application redirect",
+      "verificationFlags": [
+        "visa-verification",
+        "stem-opt-i983-verification",
+        "product-analytics-vs-applied-ml-comparison"
+      ],
+      "finalPriority": "待核验 · 2027 Austin 与薪资已确认；先确认 OPT/STEM OPT 和 I-983",
+      "roleTrack": "Product Analytics / Experimentation / Data Modeling / AI-Assisted Analytics",
+      "seniorityGap": "None · official graduate pathway with coursework/project experience accepted",
+      "technicalGrowth": "Strong experimentation, product discovery and modern analytics-engineering exposure; limited evidence of production model development",
+      "brandPlatform": "Global fintech product and payments platform",
+      "ryanUpgrade": "Potential compensation and platform upgrade: $104,000 base plus RSUs and global fintech scale; technical direction is less ML-engineering-heavy, and authorization remains unresolved.",
+      "archiveUrl": "job-archive/wise/744000158723445/job-description.md",
+      "archiveLabel": "JD 归档",
+      "archivedAt": "2026-10-30T15:48:46Z",
       "applicationStatus": "not-applied"
     }
   ],
