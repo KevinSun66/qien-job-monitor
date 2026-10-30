@@ -5,8 +5,8 @@
     "checkedAtLocal": "2026-10-30T02:52:36-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
     "result": "completed_three_verified_experience_rejections_no_qualified_alert",
-    "completedAt": "2026-10-30T07:53:12.000Z",
-    "completedAtLocal": "2026-10-30T02:53:12-05:00"
+    "completedAt": "2026-10-30T07:53:36.000Z",
+    "completedAtLocal": "2026-10-30T02:53:36-05:00"
   },
   "criteria": {
     "locations": [
@@ -151,7 +151,7 @@
   "writes": {
     "jobs": {
       "attempted": true,
-      "status": "synced_pending_final_audit_readback",
+      "status": "synced",
       "path": "jobs.json",
       "commitSha": "9743014305a96c97bfc4af3b40b9e504ef6a4877",
       "blobSha": "4f6bc376491958ab4d585a0d0a59eba09cfefa91",
@@ -187,18 +187,72 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_readback",
-      "path": "monitor-audit/2026-10-30T0252-Texas.json"
+      "status": "synced",
+      "path": "monitor-audit/2026-10-30T0252-Texas.json",
+      "initialCommitSha": "8b5b411c21a0f6535212d9805f83e0325fd8d726",
+      "initialContentSha": "3f3138795d20451f6a300b2a97fd8e8bd670577b",
+      "initialReadbackVerifiedAt": "2026-10-30T07:53:36.000Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-10-30T0252-Texas.json readback and final sync marker"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-10-30T06:20:22.000Z",
   "notification": {
     "sent": false,
     "reason": "All three newly verified roles fail the experience gate; no qualifying or materially changed role warrants notification."
+  },
+  "lastSuccessfulWriteAt": "2026-10-30T07:53:36.000Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "headAfterInitialAudit": "8b5b411c21a0f6535212d9805f83e0325fd8d726",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "4f6bc376491958ab4d585a0d0a59eba09cfefa91",
+      "recordCount": 269,
+      "updatedAt": "2026-10-30T07:52:36Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archives": [
+      {
+        "path": "job-archive/hedgeserv/R6977/job-description.md",
+        "blobSha": "f4de5b7227a30d59c4d77b63c800745f1196d5a8"
+      },
+      {
+        "path": "job-archive/johnson-controls/WD30262592/job-description.md",
+        "blobSha": "69f5cab84a80bc7a1540039993d2dc2d7a4bee5e"
+      },
+      {
+        "path": "job-archive/amazon/10445476/job-description.md",
+        "blobSha": "ab230a2fe9271db742b6e7979a22825cf01e9273"
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
   }
 }
