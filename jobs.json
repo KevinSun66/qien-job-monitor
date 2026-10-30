@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T12:14:06Z",
+  "updatedAt": "2026-10-30T13:22:01Z",
   "jobs": [
     {
       "company": "IBM",
@@ -10326,6 +10326,53 @@
       "archiveUrl": "job-archive/integra/5083082008/job-description.md",
       "archiveLabel": "JD 归档",
       "archivedAt": "2026-10-30T12:14:06Z",
+      "applicationStatus": "not-applied"
+    },
+    {
+      "company": "Industrial Electric Manufacturing",
+      "tier": "A+ · 资格排除",
+      "area": "Austin, TX · primarily in-person",
+      "market": "Austin",
+      "title": "AI Operations Analyst",
+      "jobId": "4327741009",
+      "url": "https://job-boards.greenhouse.io/industrialelectricmanufacturing/jobs/4327741009",
+      "status": "visa-rejected",
+      "found": "2026-10-30",
+      "discoveredDate": "2026-10-30",
+      "discoveredAt": "2026-10-30T13:22:01Z",
+      "firstSeen": "2026-10-30T13:22:01Z",
+      "lastChecked": "2026-10-30",
+      "lastCheckedAt": "2026-10-30T13:22:01Z",
+      "employment": "Full-time · primarily in-person · some travel",
+      "gradYear": "No graduation window or post-May-2027 start date disclosed",
+      "match": "Strong applied AI/agent/automation ownership and salary fit, but work authorization hard-fails",
+      "ngCompatibility": "No numerical minimum is stated; implemented work and a work sample matter more than years served. The applicant must already have put an AI solution into organizational use.",
+      "minimumQualifications": "Proven organizational AI implementation; practical judgment; generative-AI, automation, API and integration fluency; operations/process-improvement/automation/IT experience; organization and communication; required work sample.",
+      "assessment": "Official Greenhouse JD is open. The role discovers AI opportunities, builds and deploys AI/automation/agent/API solutions, measures impact, runs intake and prioritization, trains users, administers AI platforms and licenses, and supports governance. The $106,000–$132,000 salary and ownership could otherwise exceed Ryan, but the application asks for unrestricted present-and-future U.S. work authorization without sponsorship, which fails the F-1 OPT/STEM OPT hard gate.",
+      "visa": "Hard fail: official application asks whether the candidate has an unrestricted right to work and remain in the United States without sponsorship now or in the future.",
+      "compensation": "Official salary range $106,000–$132,000 plus benefits.",
+      "officialLocations": [
+        "Austin, Texas, United States"
+      ],
+      "locationListComplete": true,
+      "officialPostedDate": "Not disclosed on the official page",
+      "officialStatus": "Open on 2026-10-30 at 08:22 CT; official Greenhouse page displays Apply and the full application.",
+      "source": "Industrial Electric Manufacturing official Greenhouse JD and application",
+      "verificationFlags": [
+        "visa-rejected",
+        "unrestricted-work-authorization-now-and-future",
+        "start-date-not-pursued-after-visa-fail"
+      ],
+      "finalPriority": "排除 · 现在及未来均须拥有无需 sponsorship 的不受限制工作权",
+      "roleTrack": "Applied AI Operations / Agents / Workflow Automation / Enterprise Enablement",
+      "seniorityGap": "Not numerically stated; requires a real organizational AI implementation and work sample",
+      "technicalGrowth": "Strong practical AI/agent/automation ownership and enterprise adoption exposure",
+      "brandPlatform": "Established electrical manufacturing company with a new enterprise AI function",
+      "ryanUpgrade": "Potential salary and ownership upgrade, but not actionable because the authorization hard gate fails.",
+      "rejectionReason": "Official application requires unrestricted U.S. work authorization now and in the future without sponsorship.",
+      "archiveUrl": "job-archive/industrial-electric-manufacturing/4327741009/job-description.md",
+      "archiveLabel": "JD 归档",
+      "archivedAt": "2026-10-30T13:22:01Z",
       "applicationStatus": "not-applied"
     }
   ],
