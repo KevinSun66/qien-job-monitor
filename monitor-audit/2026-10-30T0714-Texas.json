@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T12:14:06.000Z",
+    "checkedAtLocal": "2026-10-30T07:14:06-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_one_verified_opportunity_cost_rejection_no_qualified_alert",
+    "completedAt": "2026-10-30T12:14:48Z",
+    "completedAtLocal": "2026-10-30T07:14:48-05:00"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "7f561c762ae28dd9be0d26419a1ce2f3ba4be774",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "53fdc10c8df0864999fbac61b77dadc6b22bc64f",
+      "recordCount": 274,
+      "updatedAt": "2026-10-30T10:53:54Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T0657-Texas.json",
+      "blobSha": "48e6e741f57eb3422d2aa9b2c4e9d6ff1834f6a8",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T11:57:58Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "735069cdc608fc94e0db18bc10d3d3f4579cd1f7",
+    "currentListingsCommit": "bfa27ee814b0cefb13b0955830f455b1dd3b9e15",
+    "repositoryHeadObserved": "9dc73107e75ba4d660705ef00a6e6de95076b95b",
+    "commitsReviewed": [
+      "bfa27ee814b0cefb13b0955830f455b1dd3b9e15"
+    ],
+    "listingsDataCommitsReviewed": 1,
+    "readmeCommitsReviewed": 1,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 2,
+    "staleRecordRemovalEvents": 5,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "Inactive changes affected RTX Arizona and Boeing Missouri records; neither is in the Texas monitor scope.",
+      "Five removed stale inactive records were non-Texas or non-engineering and did not affect monitored records.",
+      "The public monitor repository still has no .github/workflows directory; no Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 2,
+    "officialSearchResultsReviewed": 8,
+    "officialJdsOpened": 4,
+    "verifiedNewRecords": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 1,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "GlobalFoundries JR-2604163 remains open but already carries a low-level hardware/compiler-runtime direction rejection.",
+      "RSM JR122103 remains an already-recorded explicit F-1 visa rejection.",
+      "Striveworks 8002515003 remains an already-recorded US-citizenship/security-clearance rejection.",
+      "MyFunded Futures 4390595009 remains open and is already recorded as visa-rejected; no duplicate was created."
+    ]
+  },
+  "screening": {
+    "discovered": 5,
+    "duplicatesSuppressed": 4,
+    "fullTimeTexasOrRemoteRecordsReviewed": 5,
+    "officialJdsOpened": 4,
+    "knownOfficialMatchesCrossChecked": 4,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 1,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": true,
+    "recordsAdded": 1,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 1,
+    "rejections": [
+      {
+        "jobId": "5083082008",
+        "company": "Integra FEC",
+        "reason": "Official duties center on fraud investigation and forensic/statistical analytics; compensation is undisclosed and no material technical or total-reward upgrade over Ryan is established."
+      }
+    ],
+    "comparisonToRyan": "Integra does not establish a clear upgrade over Ryan's disclosed compensation and production multi-agent AI ownership."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "synced",
+      "path": "jobs.json",
+      "commitSha": "eb7e462be2b6ae547971a1b55b218b92db960207",
+      "blobSha": "16576db5393d71452abccbded653971290e33f91",
+      "recordCount": 275,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "synced",
+      "count": 1,
+      "paths": [
+        "job-archive/integra/5083082008/job-description.md"
+      ],
+      "commitShas": [
+        "c228b994a673b2ea26a3355f0afc72a0593ff577"
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-30T0714-Texas.json"
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-30T0714-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T11:57:58Z",
+  "notification": {
+    "sent": false,
+    "reason": "The only newly verified role fails the Ryan opportunity-cost gate; no qualifying or materially improved role warrants notification."
+  },
+  "lastSuccessfulWriteAt": "2026-10-30T11:57:58Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "16576db5393d71452abccbded653971290e33f91",
+      "recordCount": 275,
+      "updatedAt": "2026-10-30T12:14:06Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archives": [
+      {
+        "path": "job-archive/integra/5083082008/job-description.md",
+        "blobSha": "15a3d6a960c694e601db064ad0cf8842a73bb2ec"
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  }
+}
