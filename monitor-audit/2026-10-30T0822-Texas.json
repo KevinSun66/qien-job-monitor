@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T13:22:01.000Z",
+    "checkedAtLocal": "2026-10-30T08:22:01-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_one_verified_visa_rejection_no_qualified_alert",
+    "completedAt": "2026-10-30T13:22:38Z",
+    "completedAtLocal": "2026-10-30T08:22:38-05:00"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "67ad268020aea3b43e3d8fda76978dc50977427f",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "16576db5393d71452abccbded653971290e33f91",
+      "recordCount": 275,
+      "updatedAt": "2026-10-30T12:14:06Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T0714-Texas.json",
+      "blobSha": "a4ce0a9ba19cbd2b34f192982e083bb810488a9c",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T12:14:56Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "bfa27ee814b0cefb13b0955830f455b1dd3b9e15",
+    "currentListingsCommit": "7725c2e587dec3a7e3b8b43745eabfea5f0b8597",
+    "repositoryHeadObserved": "4d2a9cecc31afb9f09b0b56657690430fc1f6e96",
+    "commitsReviewed": [
+      "5471d98849602d12271fb7a4f3fbabc030ea231c",
+      "7725c2e587dec3a7e3b8b43745eabfea5f0b8597"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 2,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 3,
+    "staleRecordRemovalEvents": 5,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "Inactive changes affected RTX Arizona/California and Varian outside the target markets.",
+      "Stale cleanup removed a Dallas WNBA replay-operator listing plus four other non-qualifying records; the Dallas item was already inactive, hardware-classified and unrelated to Applied AI/ML/Data Science engineering.",
+      "No upstream event changed a monitored record.",
+      "The public monitor repository still has no .github/workflows directory; no Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 2,
+    "officialSearchResultsReviewed": 10,
+    "officialJdsOpened": 5,
+    "verifiedNewRecords": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 1,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "Kyndryl R-66739 remains open but already fails the authorization and Ryan gates.",
+      "Striveworks 8002515003 remains open and already carries a US-citizenship/security-clearance rejection.",
+      "Integra 5083082008 remains open and already carries an opportunity-cost rejection.",
+      "RSM JR122103 remains an already-recorded explicit F-1 visa rejection."
+    ]
+  },
+  "screening": {
+    "discovered": 5,
+    "duplicatesSuppressed": 4,
+    "fullTimeTexasOrRemoteRecordsReviewed": 5,
+    "officialJdsOpened": 5,
+    "knownOfficialMatchesCrossChecked": 4,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 1,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": true,
+    "recordsAdded": 1,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 1,
+    "rejections": [
+      {
+        "jobId": "4327741009",
+        "company": "Industrial Electric Manufacturing",
+        "reason": "Official application requires unrestricted U.S. work authorization now and in the future without sponsorship; F-1 OPT/STEM OPT is incompatible."
+      }
+    ],
+    "comparisonToRyan": "IEM's $106,000–$132,000 salary and practical AI/agent ownership could otherwise exceed Ryan, but the work-authorization hard gate makes the role non-actionable."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "synced",
+      "path": "jobs.json",
+      "commitSha": "309b77e7ba7827dee35f2c8cf0352af16bbd8d79",
+      "blobSha": "c2a08f7c058a44a35bfbb41b2b7f0f687bebd844",
+      "recordCount": 276,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "synced",
+      "count": 1,
+      "paths": [
+        "job-archive/industrial-electric-manufacturing/4327741009/job-description.md"
+      ],
+      "commitShas": [
+        "ca3c768b64c1dfb6ac364fbeed43bbd6f00ab768"
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-30T0822-Texas.json"
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-30T0822-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T12:14:56Z",
+  "notification": {
+    "sent": false,
+    "reason": "The only newly verified role fails the F-1 OPT/STEM OPT work-authorization hard gate; no qualifying role warrants notification."
+  },
+  "lastSuccessfulWriteAt": "2026-10-30T12:14:56Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "c2a08f7c058a44a35bfbb41b2b7f0f687bebd844",
+      "recordCount": 276,
+      "updatedAt": "2026-10-30T13:22:01Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archives": [
+      {
+        "path": "job-archive/industrial-electric-manufacturing/4327741009/job-description.md",
+        "blobSha": "55702a7c4cffc686187163e3912407a0db5c2606"
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  }
+}
