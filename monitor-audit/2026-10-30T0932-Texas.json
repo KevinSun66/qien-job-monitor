@@ -5,8 +5,8 @@
     "checkedAtLocal": "2026-10-30T09:31:50-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
     "result": "completed_one_verified_opportunity_cost_rejection_no_qualified_alert",
-    "completedAt": null,
-    "completedAtLocal": null
+    "completedAt": "2026-10-30T14:32:45Z",
+    "completedAtLocal": "2026-10-30T09:32:45-05:00"
   },
   "criteria": {
     "locations": [
@@ -169,21 +169,23 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_readback",
-      "path": "monitor-audit/2026-10-30T0932-Texas.json"
+      "status": "synced",
+      "path": "monitor-audit/2026-10-30T0932-Texas.json",
+      "initialCommitSha": "591f5cfd56d42e1369441281e969a8c4aa43e760",
+      "initialContentSha": "83ac4c609b51db54c0f09154b82d5fb64042b2d3",
+      "initialReadbackVerifiedAt": "2026-10-30T14:32:45Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-10-30T0932-Texas.json"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-10-30T13:22:49Z",
   "notification": {
     "sent": false,
     "reason": "The only newly verified role does not establish a material upgrade over Ryan; no qualifying role warrants notification."
   },
-  "lastSuccessfulWriteAt": "2026-10-30T13:22:49Z",
+  "lastSuccessfulWriteAt": "2026-10-30T14:32:45Z",
   "repositorySnapshotAfter": {
     "branch": "main",
     "jobs": {
@@ -225,6 +227,6 @@
       "scrapingWorkflowFound": false,
       "pagesWorkflowFound": false
     },
-    "headAfterInitialAudit": null
+    "headAfterInitialAudit": "591f5cfd56d42e1369441281e969a8c4aa43e760"
   }
 }
