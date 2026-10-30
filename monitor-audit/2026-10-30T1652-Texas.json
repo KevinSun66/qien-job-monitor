@@ -5,8 +5,8 @@
     "checkedAtLocal": "2026-10-30T16:52:51-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
     "result": "completed_verified_rejections_archived_no_qualified_alert",
-    "completedAt": null,
-    "completedAtLocal": null
+    "completedAt": "2026-10-30T21:53:50Z",
+    "completedAtLocal": "2026-10-30T16:53:50-05:00"
   },
   "criteria": {
     "locations": [
@@ -161,7 +161,7 @@
   "writes": {
     "jobs": {
       "attempted": true,
-      "status": "synced_pending_final_audit_readback",
+      "status": "synced",
       "path": "jobs.json",
       "beforeBlobSha": "0393b978e65d57b630ed0552f2b818f5600ae07c",
       "blobSha": "2a11ce7d0cc249406305ce3304c3b18e3e66dad2",
@@ -183,7 +183,7 @@
     },
     "archives": {
       "attempted": true,
-      "status": "synced_pending_final_audit_readback",
+      "status": "synced",
       "count": 4,
       "paths": [
         "job-archive/avride/4376067009/job-description.md",
@@ -200,24 +200,76 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_readback",
+      "status": "synced",
       "path": "monitor-audit/2026-10-30T1652-Texas.json",
-      "initialCommitSha": null,
-      "initialContentSha": null,
-      "initialReadbackVerifiedAt": null,
-      "branchHeadVerified": false
+      "initialCommitSha": "7c11cebbeaf35af8e3cb1b34f0d77086fdaca0b1",
+      "initialContentSha": "f6ae1d03240933accc77897f7cc09f094e25fcb5",
+      "initialReadbackVerifiedAt": "2026-10-30T21:53:50Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-10-30T1652-Texas.json"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-10-30T20:18:12Z",
   "notification": {
     "sent": false,
     "reason": "Only verified rejected roles were found; none is suitable or a clear Ryan upgrade."
   },
-  "lastSuccessfulWriteAt": null,
-  "repositorySnapshotAfter": null
+  "lastSuccessfulWriteAt": "2026-10-30T21:53:50Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "2a11ce7d0cc249406305ce3304c3b18e3e66dad2",
+      "recordCount": 282,
+      "updatedAt": "2026-10-30T21:52:51Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archives": [
+      {
+        "path": "job-archive/avride/4376067009/job-description.md",
+        "commitSha": "f53ff0f06566e206d96f57a3591f32e5c72e7ea7"
+      },
+      {
+        "path": "job-archive/avride/4012771009/job-description.md",
+        "commitSha": "bf7ebb0fedb8a5cd4d96e1ea866becd34dc77159"
+      },
+      {
+        "path": "job-archive/avride/4013230009/job-description.md",
+        "commitSha": "e24d940ac6773e2941171fd9b6df8d04fc1699fc"
+      },
+      {
+        "path": "job-archive/avride/4013016009/job-description.md",
+        "commitSha": "c5c657efb1c2edb413e49a8aab54213430106b74"
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    },
+    "headAfterInitialAudit": "7c11cebbeaf35af8e3cb1b34f0d77086fdaca0b1"
+  }
 }
