@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T16:22:43.000Z",
+    "checkedAtLocal": "2026-10-30T11:22:43-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_verified_change_no_qualified_alert",
+    "completedAt": null,
+    "completedAtLocal": null
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "f5eb8a52cfaa7dcfefbf3894099c6abf4b80285d",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "0393b978e65d57b630ed0552f2b818f5600ae07c",
+      "recordCount": 278,
+      "updatedAt": "2026-10-30T15:48:46Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T1049-Texas.json",
+      "blobSha": "d80b1541933fdd5d4c43917c4987566c59a5c847",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T15:49:54Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "f43950eadd29426ed6ad4ba186d08683011f4cfa",
+    "currentListingsCommit": "fecdbb49afcd5c4b8b4696936cfa7e46f5b601d1",
+    "repositoryHeadObserved": "009d1badae38b9405058a1bf23e6a08605497844",
+    "commitsReviewed": [
+      "fecdbb49afcd5c4b8b4696936cfa7e46f5b601d1"
+    ],
+    "listingsDataCommitsReviewed": 1,
+    "readmeCommitsReviewed": 1,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 0,
+    "staleRecordRemovalEvents": 2,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "The only upstream changes removed stale inactive RTX Software Engineer I in Maryland and Cambridge Associates Investment Analyst in London.",
+      "Neither record is in the target markets or qualifies as Applied AI/ML/Data Science.",
+      "No upstream event changed a monitored record.",
+      "The public monitor repository still has no .github/workflows directory; no Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 2,
+    "officialSearchResultsReviewed": 0,
+    "officialJdsOpened": 0,
+    "verifiedNewRecords": 0,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "Wise 744000158723445 remains the most recent pending record; no new official evidence resolved its OPT/STEM OPT status during this run."
+    ]
+  },
+  "screening": {
+    "discovered": 0,
+    "duplicatesSuppressed": 0,
+    "fullTimeTexasOrRemoteRecordsReviewed": 0,
+    "officialJdsOpened": 0,
+    "knownOfficialMatchesCrossChecked": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "rejections": [],
+    "comparisonToRyan": "No new verified role or status change required a Ryan comparison beyond maintaining the prior Wise visa-verification decision."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_data_change",
+      "path": "jobs.json",
+      "blobSha": "0393b978e65d57b630ed0552f2b818f5600ae07c",
+      "recordCount": 278,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_new_record",
+      "count": 0,
+      "paths": []
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-30T1122-Texas.json"
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-30T1122-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T15:49:54Z",
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying verified new role or meaningful monitored status change was found."
+  },
+  "lastSuccessfulWriteAt": "2026-10-30T15:49:54Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "0393b978e65d57b630ed0552f2b818f5600ae07c",
+      "recordCount": 278,
+      "updatedAt": "2026-10-30T15:48:46Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archives": [],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    },
+    "headAfterInitialAudit": null
+  }
+}
