@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T09:48:09.000Z",
+    "checkedAtLocal": "2026-10-30T04:48:09-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_verified_job_data_change_no_qualified_alert",
+    "completedAt": "2026-10-30T09:48:34Z",
+    "completedAtLocal": "2026-10-30T04:48:34-05:00"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "8fa89980b56612d0451dfd558de7f7e5ce08d9e6",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "5b924c35e76fbd2c1316c51410406f88eb28d5fd",
+      "recordCount": 272,
+      "updatedAt": "2026-10-30T08:52:42Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T0352-Texas.json",
+      "blobSha": "52bc436ef8a20cdf4dd687d604aa2f062d86390e",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T08:53:46.000Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "a2a6a19566a8d706516b991e1bfd33cb4bc39b3d",
+    "currentListingsCommit": "fa542761412884d66aadef1a1b95049b87134653",
+    "repositoryHeadObserved": "fa542761412884d66aadef1a1b95049b87134653",
+    "commitsReviewed": [
+      "4beeea7f045528810f8663e67d49b9669a0cf88e",
+      "fa542761412884d66aadef1a1b95049b87134653"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "newRecordEvents": 8,
+    "statusChangeEvents": 4,
+    "relevantTexasOrRemoteEvents": 4,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "New remote xAI AI Tutor language roles are contractor/content work rather than full-time Applied AI/ML/Data Science engineering and were excluded.",
+      "New Formlabs records are embedded/hardware roles and fail the standing direction gate; CLEAR and Iowa State records are outside Texas scope.",
+      "Inactive changes affected non-qualifying or non-Texas records and did not change monitored job data.",
+      "The public monitor repository still has no .github/workflows directory; no Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 4,
+    "officialSearchResultsReviewed": 10,
+    "officialJdsOpened": 2,
+    "verifiedNewRecords": 0,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "GlobalFoundries JR-2604163 remains an open 2027 Richardson role but is already recorded as direction-rejected because its core work is computer architecture, compiler/runtime and semiconductor hardware-software performance modeling.",
+      "SambaNova 6224938004 remains open on the official careers page and is already recorded as start-date-visa-verification; the JD still does not disclose a post-May-2027 start date or role-level OPT/immigration-support policy."
+    ]
+  },
+  "screening": {
+    "discovered": 10,
+    "duplicatesSuppressed": 2,
+    "upstreamOutOfScopeOrFunctionExcluded": 8,
+    "fullTimeTexasOrRemoteRecordsReviewed": 2,
+    "officialJdsOpened": 2,
+    "knownOfficialMatchesCrossChecked": 2,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "No newly verified role passed all timing, experience, work-authorization, direction and Ryan-upgrade gates."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_job_data_change",
+      "path": "jobs.json",
+      "blobSha": "5b924c35e76fbd2c1316c51410406f88eb28d5fd",
+      "recordCount": 272,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_new_verified_record",
+      "count": 0,
+      "paths": []
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-30T0448-Texas.json"
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-30T0448-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T08:53:46.000Z",
+  "notification": {
+    "sent": false,
+    "reason": "No newly qualified or materially changed role; SambaNova remains pending timing and immigration verification, and GlobalFoundries remains direction-rejected."
+  },
+  "lastSuccessfulWriteAt": "2026-10-30T08:53:46.000Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "5b924c35e76fbd2c1316c51410406f88eb28d5fd",
+      "recordCount": 272,
+      "updatedAt": "2026-10-30T08:52:42Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  }
+}
