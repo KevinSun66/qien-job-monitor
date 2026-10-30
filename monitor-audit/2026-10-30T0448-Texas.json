@@ -5,8 +5,8 @@
     "checkedAtLocal": "2026-10-30T04:48:09-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
     "result": "completed_no_verified_job_data_change_no_qualified_alert",
-    "completedAt": "2026-10-30T09:48:34Z",
-    "completedAtLocal": "2026-10-30T04:48:34-05:00"
+    "completedAt": "2026-10-30T09:48:42Z",
+    "completedAtLocal": "2026-10-30T04:48:42-05:00"
   },
   "criteria": {
     "locations": [
@@ -152,21 +152,23 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_readback",
-      "path": "monitor-audit/2026-10-30T0448-Texas.json"
+      "status": "synced",
+      "path": "monitor-audit/2026-10-30T0448-Texas.json",
+      "initialCommitSha": "fec45900080cbf69084b712e070b7248ef05c9bc",
+      "initialContentSha": "c091bbed20aaa50da010b66c8b0c0890891d462b",
+      "initialReadbackVerifiedAt": "2026-10-30T09:48:42Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-10-30T0448-Texas.json"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-10-30T08:53:46.000Z",
   "notification": {
     "sent": false,
     "reason": "No newly qualified or materially changed role; SambaNova remains pending timing and immigration verification, and GlobalFoundries remains direction-rejected."
   },
-  "lastSuccessfulWriteAt": "2026-10-30T08:53:46.000Z",
+  "lastSuccessfulWriteAt": "2026-10-30T09:48:42Z",
   "repositorySnapshotAfter": {
     "branch": "main",
     "jobs": {
@@ -201,6 +203,7 @@
       "check": "GitHub contents API returned 404",
       "scrapingWorkflowFound": false,
       "pagesWorkflowFound": false
-    }
+    },
+    "headAfterInitialAudit": "fec45900080cbf69084b712e070b7248ef05c9bc"
   }
 }
