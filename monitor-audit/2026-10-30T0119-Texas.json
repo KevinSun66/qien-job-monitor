@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-30T06:19:26.000Z",
+    "checkedAtLocal": "2026-10-30T01:19:26-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_verified_job_change_no_qualified_alert_archive_backfill",
+    "completedAt": "2026-10-30T06:19:59.000Z",
+    "completedAtLocal": "2026-10-30T01:19:59-05:00"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit OPT/STEM OPT exclusions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "9aad24be40117de545363ffa062774c4c0012f37",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "db321d9758315dde16fc3e2faf8a6a155b492264",
+      "recordCount": 266,
+      "updatedAt": "2026-10-30T01:27:12Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T0012-Texas.json",
+      "blobSha": "a13cd48019625298be2f7c7a84e740c67c05dc4d",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-30T05:12:16.000Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "547b738209ba96cb09758ca932e142c928c892b9",
+    "currentListingsCommit": "fdfcf5cbe7ffec3493d9dd67d8323067bfae4446",
+    "repositoryHeadObserved": "df159402b1b79523d5c854118d1fa52cfaaf6ae3",
+    "commitsReviewed": [
+      "ba2f8ebd55d8565323c5d8d8a47891d58b57678c",
+      "cff10527294a993f6698dd41366c129fd8a5c570",
+      "fdfcf5cbe7ffec3493d9dd67d8323067bfae4446",
+      "df159402b1b79523d5c854118d1fa52cfaaf6ae3"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 2,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 8,
+    "activeToInactiveEvents": 8,
+    "inactiveToActiveEvents": 0,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "The two listings commits only marked non-Texas records inactive: State Street Boston, Boeing Missouri records, Sierra, Intel California, Glean, Thoughtworks, and BMO Toronto.",
+      "No upstream event affected a tracked Dallas, Austin, or verified Texas-eligible remote role.",
+      "The public monitor repository still has no .github/workflows directory; no GitHub Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 8,
+    "officialSearchResultsReviewed": 10,
+    "officialJdsOpened": 2,
+    "verifiedNewRecords": 0,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "verifiedKnownStatusChanges": 0,
+    "duplicateKnownRecords": 1,
+    "knownMatchesCrossChecked": [
+      "General Motors JR-202620428 remains officially open in Austin and still explicitly excludes OPT, STEM OPT and CPT; the existing visa-rejected decision remains correct.",
+      "Applied Materials R2627684 remains publicly listed in Austin and already has an opportunity-cost rejection.",
+      "Kyndryl R-66739 remains publicly listed and is already preserved as a rejected application.",
+      "RSM JR122103 remains publicly listed and explicitly excludes entry-level F-1 visa holders.",
+      "No newly found role satisfied Texas location, post-May-2027 timing, zero-start experience, OPT/STEM OPT and Ryan-upgrade requirements."
+    ]
+  },
+  "screening": {
+    "discovered": 1,
+    "duplicatesSuppressed": 1,
+    "fullTimeTexasOrRemoteRecordsReviewed": 7,
+    "officialJdsOpened": 2,
+    "knownOfficialMatchesCrossChecked": 4,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 1,
+    "comparisonToRyan": "No new verified Texas-eligible role advanced to a Ryan-upgrade comparison; GM JR-202620428 remained ineligible because OPT/STEM OPT is explicitly excluded."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_job_data_change",
+      "path": "jobs.json",
+      "blobSha": "db321d9758315dde16fc3e2faf8a6a155b492264",
+      "recordCount": 266,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "synced",
+      "count": 1,
+      "path": "job-archive/general-motors/JR-202620428/job-description.md",
+      "commitSha": "2f8799103e13855e8f18e86849382728d1ef80c8",
+      "reason": "Backfilled missing official-JD archive for an existing visa-rejected record; jobs.json status and application data were not changed."
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-30T0119-Texas.json"
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-30T0119-Texas.json readback and final sync marker"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-30T05:12:16.000Z",
+  "notification": {
+    "sent": false,
+    "reason": "No new or changed role met the fully verified eligibility and Ryan-upgrade criteria."
+  }
+}
