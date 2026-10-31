@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-31T01:29:21Z",
+    "checkedAtLocal": "2026-10-30T20:29:21-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_one_verified_rejection_no_qualified_alert",
+    "completedAt": "2026-10-31T01:30:48Z",
+    "completedAtLocal": "2026-10-30T20:30:48-05:00"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit current/future sponsorship restrictions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "593ad623f4824cda913fe87ae71377611954c64a",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "d4781f85e91b8778eeb9bede80d757c9c1e0e007",
+      "recordCount": 285,
+      "updatedAt": "2026-10-31T00:43:26Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T1944-Texas.json",
+      "blobSha": "f7b12e60e9508b83aaca527740b1b2d915a496a3",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-31T00:44:41Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "3d4c81bc440474effba75ec581a913dc091af15c",
+    "currentListingsCommit": "8b57225930cce1456c9a05d0672913db90a9802c",
+    "repositoryHeadObserved": "da3e41f19e6aca763f93829d286d2e6c3b8f98a4",
+    "commitsReviewed": [
+      "8b57225930cce1456c9a05d0672913db90a9802c",
+      "da3e41f19e6aca763f93829d286d2e6c3b8f98a4"
+    ],
+    "listingsDataCommitsReviewed": 1,
+    "readmeCommitsReviewed": 1,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 3,
+    "cleanupRemovedInactiveRecords": 3,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "The listings commit removed three already-inactive historical records and marked three non-Texas hardware/software records inactive.",
+      "Removed Texas-related inactive records were Houston and Brownsville, outside the Dallas/Austin scope, and were already inactive before removal.",
+      "No upstream change affected a monitored Dallas/Austin/Texas-eligible role.",
+      "The public monitor repository still has no .github/workflows directory; no Pages workflow was treated as a scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 5,
+    "officialSearchResultsReviewed": 15,
+    "officialJdsOpened": 4,
+    "verifiedNewRecords": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 1,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "AT&T AI-Native Software Engineer Analyst, Dallas: already tracked; official page remains open and start-date/visa verification remains unresolved.",
+      "Focused Energy Machine Learning Engineer, Austin: official role requires a Master's or PhD plus proven complex-physical-systems ML experience, outside degree/experience scope.",
+      "RSM AI Machine Learning Engineer: already tracked as F-1 visa-incompatible.",
+      "ServiceLink AI Engineer, Plano: official page open; newly archived as experience and visa rejected."
+    ]
+  },
+  "screening": {
+    "discovered": 4,
+    "duplicatesSuppressed": 2,
+    "fullTimeTexasOrRemoteRecordsReviewed": 4,
+    "officialJdsOpened": 4,
+    "knownOfficialMatchesCrossChecked": 3,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 1,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "dataChanges": true,
+    "recordsAdded": 1,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 1,
+    "rejections": [
+      {
+        "company": "ServiceLink",
+        "title": "AI Engineer, Data Science - Information Technology",
+        "reason": "Official minimum 2+ years AI/ML development and explicit current/future sponsorship restriction."
+      },
+      {
+        "company": "Focused Energy",
+        "title": "Machine Learning Engineer",
+        "reason": "Master's or PhD plus advanced scientific-ML experience; no zero-experience bachelor's pathway."
+      }
+    ],
+    "comparisonToRyan": "ServiceLink's $90,000-$120,000 range and multi-agent work could otherwise be attractive, but mandatory experience and work-authorization failures make the Ryan comparison moot."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "write_succeeded_readback_verified",
+      "path": "jobs.json",
+      "commitSha": "af48e78cf90b01a3fb0fe2832a29e434ca7e6e0d",
+      "blobSha": "2c180ee2801aebe09027ee973e3cc9ca8e922242",
+      "recordCount": 286,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "write_succeeded_readback_verified",
+      "count": 1,
+      "commitSha": "a63b69fa6c33ad71117b1c7fffc2537f83b55e0d",
+      "paths": [
+        "job-archive/servicelink/2026-3625/job-description.md"
+      ],
+      "blobShas": [
+        "60d56b2ec3b46d0f5914c38a66aab4d625017053"
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-30T2030-Texas.json",
+      "initialCommitSha": null,
+      "initialContentSha": null,
+      "initialReadbackVerifiedAt": null,
+      "branchHeadVerified": false
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-30T2030-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-31T00:44:41Z",
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying verified new role or meaningful verified monitored status change was found."
+  },
+  "lastSuccessfulWriteAt": "2026-10-31T00:44:41Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "2c180ee2801aebe09027ee973e3cc9ca8e922242",
+      "recordCount": 286,
+      "updatedAt": "2026-10-31T01:30:21Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archives": [
+      {
+        "path": "job-archive/servicelink/2026-3625/job-description.md",
+        "blobSha": "60d56b2ec3b46d0f5914c38a66aab4d625017053",
+        "changed": true
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    },
+    "headBeforeAudit": "af48e78cf90b01a3fb0fe2832a29e434ca7e6e0d"
+  }
+}
