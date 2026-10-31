@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-31T05:40:10Z",
+    "checkedAtLocal": "2026-10-31T00:40:10-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_one_pending_four_verified_rejections_no_qualified_alert",
+    "completedAt": null,
+    "completedAtLocal": null
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit current/future sponsorship restrictions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "d7781a31add70c7e340fa457425bfcf13faea44b",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "6c60e1df5f65bda82af5a0bfe14ca7cfb1d2f66e",
+      "recordCount": 289,
+      "updatedAt": "2026-10-31T03:04:15Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-30T2321-Texas.json",
+      "blobSha": "0626499d40c95aba50e469bf47555f84e97b1d74",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-31T04:21:46Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "41688b6b85483ae23b44f8c403157a162f82b21b",
+    "currentListingsCommit": "b5e1764f08c4ee88468b52a8c9c1869cc73556cd",
+    "repositoryHeadObserved": "cdca296ca5431c1194dc67b87578be3721b0e728",
+    "commitsReviewed": [
+      "ba3f3b24391ca33753fe487d946a4ad1a0506424",
+      "5da66e03c3c41d9caac42aab181dafdf23376759",
+      "b5e1764f08c4ee88468b52a8c9c1869cc73556cd",
+      "eb2272661058f196e889fbd208745a0d69c9fa05",
+      "cdca296ca5431c1194dc67b87578be3721b0e728"
+    ],
+    "listingsDataCommitsReviewed": 3,
+    "readmeCommitsReviewed": 2,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 9,
+    "relevantTexasOrRemoteEvents": 3,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "All nine listing changes were active-to-inactive signals; none was a new active posting.",
+      "Texas events were L3Harris Senior Associate Software Engineer in Richardson and two RTX electrical/hardware roles in McKinney. They are general defense software or hardware, not target Applied AI/ML/Data Science, and the RTX roles are explicitly hardware.",
+      "No changed upstream record matched a monitored actionable job.",
+      "The public monitor repository still has no .github/workflows directory; no GitHub Pages workflow was treated as a job scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 6,
+    "officialSearchResultsReviewed": 12,
+    "officialJdsOpened": 6,
+    "verifiedNewRecords": 5,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 1,
+    "verifiedRejectedNewJobs": 4,
+    "verifiedKnownStatusChanges": 0,
+    "knownMatchesCrossChecked": [
+      "Samsung FDC Data Science Engineer R119421 was already tracked as experience rejected."
+    ],
+    "notes": [
+      "NXP R-10066257 established a zero-full-time-experience path and was retained pending start-date, OPT/STEM OPT and role-scope verification.",
+      "Visa REF081333W, HP 3165034 and Samsung R118449 were rejected for mandatory experience minimums.",
+      "NXP R-10066239 was rejected because the official education requirement is a related master's degree."
+    ]
+  },
+  "screening": {
+    "discovered": 10,
+    "duplicatesSuppressed": 1,
+    "fullTimeTexasOrRemoteRecordsReviewed": 10,
+    "officialJdsOpened": 6,
+    "knownOfficialMatchesCrossChecked": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 1,
+    "verifiedRejectedNewJobs": 4,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "jobDataChanged": true,
+    "recordsAdded": 5,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 5,
+    "rejections": [
+      {
+        "company": "Visa",
+        "title": "Data Scientist REF081333W",
+        "reason": "Official Basic Qualifications require 2+ years relevant experience with a bachelor's degree."
+      },
+      {
+        "company": "HP",
+        "title": "AI Data Scientist – Enterprise AI",
+        "reason": "Official Required Qualifications require 3+ years AI/ML/data-science experience."
+      },
+      {
+        "company": "Samsung Austin Semiconductor",
+        "title": "Data Scientist R118449",
+        "reason": "Official minimum requires 3+ years professional industrial ML experience, or 5+ without a graduate degree."
+      },
+      {
+        "company": "NXP",
+        "title": "Data Scientist R-10066239",
+        "reason": "Official education requirement is a related master's degree; current monitor profile is bachelor's entry."
+      }
+    ],
+    "comparisonToRyan": "NXP R-10066257 has a higher stated salary ($101,230) and relevant ML/data-system scope, but 2027 start, OPT/STEM OPT and practical Applied AI/ML ownership remain unverified, so no Ryan upgrade recommendation was made."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "write_succeeded_readback_verified",
+      "path": "jobs.json",
+      "commitSha": "08db69580ae1af370c62442c902eaab01dfbba87",
+      "blobSha": "19f83ad6bc4e6a2a352fb8905cc8ad569b605b1e",
+      "recordCount": 294,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "write_succeeded_readback_verified",
+      "count": 5,
+      "commitShas": [
+        "b9190fb808bdb1df30e57167ed343b94f27475cb",
+        "d4001e9609e94e4f621dbfa16f03d662577b60bb",
+        "55bb1943971c2a62365ff13c3cb2c8d40a5c36a9",
+        "fdd60727b1f8a926831a52d2923f750d83192643",
+        "ad7c41bbf981beb47411642ed54b1a4ce2d6f3e1"
+      ],
+      "paths": [
+        "job-archive/nxp/R-10066257/job-description.md",
+        "job-archive/visa/REF081333W/job-description.md",
+        "job-archive/hp/3165034/job-description.md",
+        "job-archive/samsung/R118449/job-description.md",
+        "job-archive/nxp/R-10066239/job-description.md"
+      ],
+      "blobShas": [
+        "bb287976e93ab649c81e220b49c8758429c581b5",
+        "5bb2f96e844bd11810f0ef72ed09afc6070e04cd",
+        "f54faa6652fafaed9701e432c2c41fb4a220592a",
+        "7a3a1cf816f37be80488a28728d30082d55b280e",
+        "95fbced0b320ecedabac200fbf0d43ec69911759"
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-31T0040-Texas.json",
+      "initialCommitSha": null,
+      "initialContentSha": null,
+      "initialReadbackVerifiedAt": null,
+      "branchHeadVerified": false
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-31T0040-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-31T04:21:46Z",
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying verified role or meaningful verified monitored status change was found; the only zero-experience candidate remains pending mandatory eligibility and start-date checks."
+  },
+  "lastSuccessfulWriteAt": "2026-10-31T04:21:46Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "19f83ad6bc4e6a2a352fb8905cc8ad569b605b1e",
+      "recordCount": 294,
+      "updatedAt": "2026-10-31T05:40:10Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archives": [
+      {
+        "path": "job-archive/nxp/R-10066257/job-description.md",
+        "blobSha": "bb287976e93ab649c81e220b49c8758429c581b5",
+        "changed": true
+      },
+      {
+        "path": "job-archive/visa/REF081333W/job-description.md",
+        "blobSha": "5bb2f96e844bd11810f0ef72ed09afc6070e04cd",
+        "changed": true
+      },
+      {
+        "path": "job-archive/hp/3165034/job-description.md",
+        "blobSha": "f54faa6652fafaed9701e432c2c41fb4a220592a",
+        "changed": true
+      },
+      {
+        "path": "job-archive/samsung/R118449/job-description.md",
+        "blobSha": "7a3a1cf816f37be80488a28728d30082d55b280e",
+        "changed": true
+      },
+      {
+        "path": "job-archive/nxp/R-10066239/job-description.md",
+        "blobSha": "95fbced0b320ecedabac200fbf0d43ec69911759",
+        "changed": true
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    },
+    "headBeforeAudit": "08db69580ae1af370c62442c902eaab01dfbba87",
+    "headAfterInitialAudit": null
+  }
+}
