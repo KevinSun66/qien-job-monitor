@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-31T06:47:14Z",
+    "checkedAtLocal": "2026-10-31T01:47:14-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_one_pending_no_qualified_alert",
+    "completedAt": null,
+    "completedAtLocal": null
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit current/future sponsorship restrictions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "e73ba6d372b28c849cf5b5329b88d120159fa204",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "19f83ad6bc4e6a2a352fb8905cc8ad569b605b1e",
+      "recordCount": 294,
+      "updatedAt": "2026-10-31T05:40:10Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-31T0040-Texas.json",
+      "blobSha": "b0a401b69623d8a9707bad577c6bff393fc80189",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-31T05:42:18Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "b5e1764f08c4ee88468b52a8c9c1869cc73556cd",
+    "currentListingsCommit": "a2b3624320e73300a8c5dca844f5c7f38c41b1ae",
+    "repositoryHeadObserved": "ab103bc3c2601e6c6e61b07dd645c39f661a18fa",
+    "commitsReviewed": [
+      "8490f53ad43c4135ba0f44c2f2a4ab8e593335b7",
+      "4b00bc973b5e07dd2add69b182cfbb12937ddbf6",
+      "a2b3624320e73300a8c5dca844f5c7f38c41b1ae",
+      "ab103bc3c2601e6c6e61b07dd645c39f661a18fa"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 2,
+    "newRecordEvents": 6,
+    "statusChangeEvents": 5,
+    "relevantTexasOrRemoteEvents": 2,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "Five active-to-inactive changes were outside the Dallas/Austin target or were non-target general software roles; USAA's entry-level software role was San Antonio and not Applied AI/ML/Data Science.",
+      "Six new active records were added. The only target match was Orbis Research Engineer, AI (Entry-Level), Remote US.",
+      "The public monitor repository still has no .github/workflows directory; no GitHub Pages workflow was treated as a job scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 2,
+    "officialSearchResultsReviewed": 4,
+    "officialJdsOpened": 1,
+    "verifiedNewRecords": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 1,
+    "verifiedRejectedNewJobs": 0,
+    "verifiedKnownStatusChanges": 0,
+    "notes": [
+      "The official Orbis Greenhouse board and requisition were open on 2026-10-31.",
+      "The requisition explicitly allows 0-2 years and academic/project/internship ML experience, but does not disclose compensation, Texas remote eligibility, post-May-2027 start, OPT/STEM OPT, sponsorship or whether classified-space participation imposes clearance/citizenship restrictions."
+    ]
+  },
+  "screening": {
+    "discovered": 7,
+    "duplicatesSuppressed": 0,
+    "fullTimeTexasOrRemoteRecordsReviewed": 2,
+    "officialJdsOpened": 1,
+    "knownOfficialMatchesCrossChecked": 0,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 1,
+    "verifiedRejectedNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "jobDataChanged": true,
+    "recordsAdded": 1,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 1,
+    "rejections": [],
+    "comparisonToRyan": "Orbis is an exceptional technical match to Qien's multi-agent AI background and may offer stronger applied-research growth, but compensation, start date, Texas eligibility, work authorization and security requirements are unresolved, so no clear Ryan upgrade was established."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "write_succeeded_readback_verified",
+      "path": "jobs.json",
+      "commitSha": "5beb18322eff94f74273e7270c18de00ca04004d",
+      "blobSha": "537d4b0185c680e54d01419a69d12cbdf9635613",
+      "recordCount": 295,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "write_succeeded_readback_verified",
+      "count": 1,
+      "commitShas": [
+        "e89cdeba97fa3a97b5609e8ba47b9075271637c3"
+      ],
+      "paths": [
+        "job-archive/orbis-operations/4436220009/job-description.md"
+      ],
+      "blobShas": [
+        "043d3fa531af3017b02c38fd7ab4558d0139f615"
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-31T0147-Texas.json",
+      "initialCommitSha": null,
+      "initialContentSha": null,
+      "initialReadbackVerifiedAt": null,
+      "branchHeadVerified": false
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-31T0147-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-31T05:42:18Z",
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying verified role or meaningful verified monitored status change was found; Orbis remains pending mandatory eligibility, start-date and compensation checks."
+  },
+  "lastSuccessfulWriteAt": "2026-10-31T05:42:18Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "537d4b0185c680e54d01419a69d12cbdf9635613",
+      "recordCount": 295,
+      "updatedAt": "2026-10-31T06:47:14Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archives": [
+      {
+        "path": "job-archive/orbis-operations/4436220009/job-description.md",
+        "blobSha": "043d3fa531af3017b02c38fd7ab4558d0139f615",
+        "changed": true
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    },
+    "headBeforeAudit": "5beb18322eff94f74273e7270c18de00ca04004d",
+    "headAfterInitialAudit": null
+  }
+}
