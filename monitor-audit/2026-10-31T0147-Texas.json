@@ -5,8 +5,8 @@
     "checkedAtLocal": "2026-10-31T01:47:14-05:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
     "result": "completed_one_pending_no_qualified_alert",
-    "completedAt": null,
-    "completedAtLocal": null
+    "completedAt": "2026-10-31T06:48:57Z",
+    "completedAtLocal": "2026-10-31T01:48:57-05:00"
   },
   "criteria": {
     "locations": [
@@ -163,25 +163,23 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_readback",
+      "status": "synced",
       "path": "monitor-audit/2026-10-31T0147-Texas.json",
-      "initialCommitSha": null,
-      "initialContentSha": null,
-      "initialReadbackVerifiedAt": null,
-      "branchHeadVerified": false
+      "initialCommitSha": "0b4fe531759dbbecbd7b4195250b04c6f44c189f",
+      "initialContentSha": "27cb9acd66c7e6464402ba94a3da7eac046f653f",
+      "initialReadbackVerifiedAt": "2026-10-31T06:48:57Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-10-31T0147-Texas.json"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-10-31T05:42:18Z",
   "notification": {
     "sent": false,
     "reason": "No qualifying verified role or meaningful verified monitored status change was found; Orbis remains pending mandatory eligibility, start-date and compensation checks."
   },
-  "lastSuccessfulWriteAt": "2026-10-31T05:42:18Z",
+  "lastSuccessfulWriteAt": "2026-10-31T06:48:57Z",
   "repositorySnapshotAfter": {
     "branch": "main",
     "jobs": {
@@ -225,6 +223,6 @@
       "pagesWorkflowFound": false
     },
     "headBeforeAudit": "5beb18322eff94f74273e7270c18de00ca04004d",
-    "headAfterInitialAudit": null
+    "headAfterInitialAudit": "0b4fe531759dbbecbd7b4195250b04c6f44c189f"
   }
 }
