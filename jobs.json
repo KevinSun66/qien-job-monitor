@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T00:43:26Z",
+  "updatedAt": "2026-10-31T01:30:21Z",
   "jobs": [
     {
       "company": "IBM",
@@ -10781,6 +10781,42 @@
       ],
       "applicationStatus": "not-applied",
       "archiveUrl": "job-archive/thatch/5461158008/job-description.md",
+      "archiveLabel": "Official JD summary"
+    },
+    {
+      "company": "ServiceLink",
+      "tier": "A · 硬门槛排除",
+      "area": "Plano, TX",
+      "market": "DFW",
+      "title": "AI Engineer, Data Science - Information Technology (2026-3625)",
+      "employment": "Full-time · Hybrid · Plano office at least 3 days/week · <25% travel",
+      "gradYear": "Not a Campus/New Grad role; official minimum 2+ years AI/ML development experience",
+      "match": "Very high technical relevance; ineligible on experience and work authorization",
+      "ngCompatibility": "Rejected. Official JD requires 2+ years of AI/ML development and does not establish a zero-experience entry path.",
+      "assessment": "ServiceLink官方职位页于2026-10-30显示开放。职责直接覆盖AI agents、LLM fine-tuning、reinforcement learning、multi-agent systems、GenAI检索/可视化和MLOps，Plano混合办公，官方薪资$90,000–$120,000，技术内容与Qien在Ryan的多智能体AI经历高度相关。但官方明确要求2+年AI/ML开发经验，并要求申请人现在及未来均不需要employment visa sponsorship；两项都违反监控硬门槛。历史H-1B记录不能覆盖本requisition的明确限制，因此排除并归档，不进入表2、不通知。",
+      "visa": "Official JD requires current full-time US work authorization and states applicants must not require employment visa sponsorship now or in the future; incompatible with the F-1 OPT/STEM OPT plus future-sponsorship pathway under the user's rule.",
+      "found": "2026-10-30",
+      "url": "https://careers-svclnk.icims.com/jobs/3625/ai-engineer%2C-data-science---information-technology/job",
+      "status": "experience-visa-rejected",
+      "finalPriority": "不投 · 2+年经验且现在/未来均不得需要签证担保",
+      "roleTrack": "AI Engineering / Multi-Agent Systems / LLM Fine-Tuning / Reinforcement Learning / MLOps",
+      "seniorityGap": "Hard fail · official minimum 2+ years AI/ML development",
+      "technicalGrowth": "High technical relevance, but eligibility fails",
+      "brandPlatform": "Mortgage-services technology platform",
+      "ryanUpgrade": "Not applicable because mandatory experience and work-authorization gates fail",
+      "compensation": "Official $90,000–$120,000",
+      "officePerks": "Plano hybrid, at least 3 days/week in office; <25% travel; health/dental/vision/life, 401(k), ESPP, paid vacation and sick time",
+      "jobId": "2026-3625",
+      "officialSource": "https://careers-svclnk.icims.com/jobs/3625/ai-engineer%2C-data-science---information-technology/job",
+      "officialStatus": "Open on official ServiceLink iCIMS page at 2026-10-30T20:30:21-05:00",
+      "lastChecked": "2026-10-30",
+      "lastCheckedAt": "2026-10-30T20:30:21-05:00",
+      "verificationFlags": [
+        "minimum-experience-hard-fail",
+        "current-future-sponsorship-hard-fail"
+      ],
+      "applicationStatus": "not-applied",
+      "archiveUrl": "job-archive/servicelink/2026-3625/job-description.md",
       "archiveLabel": "Official JD summary"
     }
   ],
