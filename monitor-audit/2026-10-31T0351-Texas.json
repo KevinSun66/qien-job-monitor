@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-10-31T08:51:27Z",
+    "checkedAtLocal": "2026-10-31T03:51:27-05:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_verified_job_change_no_qualified_alert",
+    "completedAt": null,
+    "completedAtLocal": null
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit current/future sponsorship restrictions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "03e13ea53ebf869490030a38147784015cf08b73",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "537d4b0185c680e54d01419a69d12cbdf9635613",
+      "recordCount": 295,
+      "updatedAt": "2026-10-31T06:47:14Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-10-31T0207-Texas.json",
+      "blobSha": "6166609c34fdf4d62f735f1cbee7e716fe8ab1a7",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-10-31T07:08:18Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "004772a33b1dea7826fdd1396c168da08ab26131",
+    "currentListingsCommit": "30907b07b3fcf5bf758ce380e66067e23c9498df",
+    "repositoryHeadObserved": "30907b07b3fcf5bf758ce380e66067e23c9498df",
+    "commitsReviewed": [
+      "f5c0211fd26141fae48eb1fe93e80d0bd413ae2b",
+      "5dc23beb6f675030024d4b0df9d6328fb15b49dc",
+      "99498d34f12c2fbcec4cec14f6facc8951176624",
+      "01c1b95f6d270b8b3dfa17d38b14a46c0d4e7478",
+      "30907b07b3fcf5bf758ce380e66067e23c9498df"
+    ],
+    "listingsDataCommitsReviewed": 3,
+    "readmeCommitsReviewed": 2,
+    "newRecordEvents": 0,
+    "cleanupRemovedInactiveRecords": 16,
+    "statusChangeEvents": 3,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "Sixteen already-inactive records were removed; all were outside Dallas/Austin/Texas-eligible scope.",
+      "Veeva Associate Technical Consultant was reactivated, while Nutanix Member of Technical Staff 2 and Northrop Grumman Associate Software Engineer were marked inactive. Their listed requisitions are outside the target geography or direction.",
+      "No upstream change affected a monitored in-scope job.",
+      "The public monitor repository still has no .github/workflows directory; no GitHub Pages workflow was treated as a job scraper."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 1,
+    "officialSearchResultsReviewed": 0,
+    "officialJdsOpened": 0,
+    "verifiedNewRecords": 0,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "verifiedKnownStatusChanges": 0,
+    "notes": [
+      "Fresh official-domain search returned no new target results."
+    ]
+  },
+  "screening": {
+    "discovered": 0,
+    "duplicatesSuppressed": 0,
+    "fullTimeTexasOrRemoteRecordsReviewed": 0,
+    "officialJdsOpened": 0,
+    "knownOfficialMatchesCrossChecked": 0,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "jobDataChanged": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "rejections": [],
+    "comparisonToRyan": "No in-scope candidate reached Ryan comparison."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_job_change",
+      "path": "jobs.json",
+      "blobSha": "537d4b0185c680e54d01419a69d12cbdf9635613",
+      "recordCount": 295,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_new_jd",
+      "count": 0,
+      "paths": []
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-10-31T0351-Texas.json",
+      "initialCommitSha": null,
+      "initialContentSha": null,
+      "initialReadbackVerifiedAt": null,
+      "branchHeadVerified": false
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-10-31T0351-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-10-31T07:08:18Z",
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying verified new role or meaningful verified monitored status change was found."
+  },
+  "lastSuccessfulWriteAt": "2026-10-31T07:08:18Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "537d4b0185c680e54d01419a69d12cbdf9635613",
+      "recordCount": 295,
+      "updatedAt": "2026-10-31T06:47:14Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    },
+    "headBeforeAudit": "03e13ea53ebf869490030a38147784015cf08b73",
+    "headAfterInitialAudit": null
+  }
+}
