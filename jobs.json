@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T05:40:10Z",
+  "updatedAt": "2026-10-31T06:47:14Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11106,6 +11106,48 @@
       ],
       "applicationStatus": "not-applied",
       "archiveUrl": "job-archive/nxp/R-10066239/job-description.md",
+      "archiveLabel": "Official JD summary"
+    },
+    {
+      "company": "Orbis Operations",
+      "tier": "A+ · 待核验",
+      "area": "Remote, United States",
+      "market": "Texas-eligible remote pending confirmation",
+      "title": "Research Engineer, AI (Entry-Level)",
+      "employment": "Full-time · Remote US · up to 10% travel",
+      "gradYear": "Bachelor's or master's path; explicit 0–2 years; coursework/projects/internships accepted; post-May-2027 start not stated",
+      "match": "Exceptional agentic-AI research fit and true entry-level path; compensation, Texas eligibility, work authorization and start date unresolved",
+      "ngCompatibility": "Yes. Official JD explicitly requires 0–2 years and accepts ML/LLM knowledge from coursework, projects or internships.",
+      "assessment": "Orbis官方Greenhouse职位于2026-10-31显示开放。岗位聚焦agentic AI、知识表示、动态本体、autonomous analysis、评估数据集与harness、实验和误差分析，明确面向0–2年并培养early-career engineer逐步拥有研究方向；与Qien在Ryan的多智能体AI经历高度匹配。官方未披露薪资、2027年5月后入职、Texas远程雇佣、F-1 OPT/STEM OPT、I-983/E-Verify或未来sponsorship；JD提到可能在classified spaces工作，但本requisition未把clearance或公民身份列为要求，仍需确认。未能证明相对Ryan的薪资和资格升级前不进入表2、不通知。",
+      "visa": "Official JD does not state F-1 OPT/STEM OPT, I-983, E-Verify or sponsorship. Possible classified-space participation is mentioned, but no clearance/citizenship requirement is listed for this requisition; verification required.",
+      "found": "2026-10-31",
+      "url": "https://job-boards.greenhouse.io/orbisoperations/jobs/4436220009",
+      "status": "visa-start-date-location-compensation-security-verification",
+      "finalPriority": "待核验 · Texas远程、2027入职、OPT/STEM OPT、安全要求及薪资确认后再与Ryan比较",
+      "roleTrack": "Applied AI Research / Agentic AI / RAG Evaluation / Knowledge Representation",
+      "seniorityGap": "None · explicit 0–2 years",
+      "technicalGrowth": "Very high · agent evaluation, research rigor, knowledge systems and agentic AI",
+      "brandPlatform": "Government-focused sovereign intelligence technology company",
+      "ryanUpgrade": "Potentially strong technical upgrade; compensation and eligibility are not established",
+      "compensation": "Official JD does not disclose compensation",
+      "officePerks": "Remote US; up to 10% travel; benefits details shared after initial HR conversation",
+      "jobId": "4436220009",
+      "officialSource": "https://job-boards.greenhouse.io/orbisoperations/jobs/4436220009",
+      "officialStatus": "Open on official Orbis Greenhouse board at 2026-10-31T01:47:14-05:00",
+      "lastChecked": "2026-10-31",
+      "lastCheckedAt": "2026-10-31T01:47:14-05:00",
+      "verificationFlags": [
+        "texas-remote-eligibility-verification",
+        "post-may-2027-start-verification",
+        "f1-opt-stem-opt-verification",
+        "i983-everify-verification",
+        "future-sponsorship-verification",
+        "classified-space-clearance-citizenship-verification",
+        "compensation-verification",
+        "ryan-upgrade-verification"
+      ],
+      "applicationStatus": "not-applied",
+      "archiveUrl": "job-archive/orbis-operations/4436220009/job-description.md",
       "archiveLabel": "Official JD summary"
     }
   ],
