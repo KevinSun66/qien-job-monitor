@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-11-04T10:59:31Z",
+    "checkedAtLocal": "2026-11-04T04:59:31-06:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_one_pending_verification_record_no_qualified_alert",
+    "completedAt": "2026-11-04T11:01:54Z",
+    "completedAtLocal": "2026-11-04T05:01:54-06:00"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years with zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizenship/green-card-only and explicit current/future sponsorship restrictions",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "comparisonBaseline": "Ryan Associate Data Scientist, Dallas, $83k base, approximately $90k first year, production multi-agent AI"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "6823a416919f038c07636aa2f0a74cc0cb0e7620",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "0f64706225fba129d8f105b90996c8854dfca68c",
+      "recordCount": 296,
+      "updatedAt": "2026-11-04T08:55:31Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-11-04T0340-Texas.json",
+      "blobSha": "b4db52f1f309d73ee11db22fbc07159de5454565",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-11-04T09:42:06Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "2fbfef8b7d3de5bfe62a57e4fb0d78c97e9b05f8",
+    "currentListingsCommit": "abb72c05bdcb446c497e0ec225f4b81a6d2e8e5f",
+    "repositoryHeadObserved": "31381a6f3b3181d42d86cf62d6904965f581dfd6",
+    "commitsReviewed": [
+      "37b6220d6f15f78a68e8e105b897a7f79613c43d",
+      "abb72c05bdcb446c497e0ec225f4b81a6d2e8e5f",
+      "31381a6f3b3181d42d86cf62d6904965f581dfd6"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 1,
+    "newRecordEvents": 2,
+    "statusChangeEvents": 9,
+    "relevantTexasOrRemoteEvents": 1,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "ShadowDragon Junior AI Engineer is official and US-remote, with a zero-experience entry path and up to two years of experience.",
+      "MSA new record is embedded/firmware-adjacent and outside scope.",
+      "Nine inactive changes were outside target scope or unrelated to eligible Applied AI/ML/Data Science roles."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 1,
+    "officialSearchResultsReviewed": 1,
+    "officialJdsOpened": 1,
+    "verifiedNewRecords": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 1,
+    "verifiedRejectedNewJobs": 0,
+    "verifiedKnownStatusChanges": 0,
+    "pendingRecords": [
+      {
+        "company": "ShadowDragon",
+        "title": "Junior AI Engineer",
+        "jobId": "69df1efd-5f05-4a79-9432-30925eb6db3c",
+        "officialUrl": "https://ats.rippling.com/shadowdragon/jobs/69df1efd-5f05-4a79-9432-30925eb6db3c",
+        "officialStatus": "open",
+        "location": "Remote, United States / Hoover, Alabama",
+        "experience": "up to 2 years; internships, academic work, bootcamps, portfolio, hackathons, workshops, or open-source work accepted",
+        "responsibilities": "Applied AI with Python, LLMs, RAG, embeddings/retrieval, AI agents, evaluation, regression testing, Docker/CI/CD and MLOps",
+        "unresolved": [
+          "start date after 2027-05-31",
+          "F-1 OPT/STEM OPT and sponsorship policy",
+          "official compensation and clear improvement over Ryan"
+        ],
+        "disposition": "pending verification; excluded from notification and qualified tables"
+      }
+    ],
+    "discoveryRejections": [
+      "MSA embedded role excluded by function"
+    ]
+  },
+  "screening": {
+    "discovered": 2,
+    "duplicatesSuppressed": 0,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 1,
+    "verifiedRejectedNewJobs": 1,
+    "verifiedStatusChanges": 0,
+    "jobDataChanged": true,
+    "recordsAdded": 1,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 1,
+    "comparisonToRyan": "ShadowDragon was not compared as a qualifying upgrade because start date, work authorization, and official compensation remain unresolved."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "synced_after_retry_readback_verified",
+      "path": "jobs.json",
+      "attempts": [
+        {
+          "at": "2026-11-04T10:59:31Z",
+          "result": "connector_internal_error_no_write_verified"
+        },
+        {
+          "at": "2026-11-04T11:00:43Z",
+          "result": "succeeded_readback_verified"
+        }
+      ],
+      "commitSha": "f1f1efc01116ed8e6faa01806bbd092b87aa051f",
+      "blobSha": "78d4b1e7c1711e02d377c5121d5879c2f12c4867",
+      "recordCount": 297,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "synced_readback_verified",
+      "count": 1,
+      "paths": [
+        "job-archive/shadowdragon/69df1efd-5f05-4a79-9432-30925eb6db3c/job-description.md"
+      ],
+      "commitSha": "5a015ede87db2611cf507f6498b994de1506a44f",
+      "blobShas": [
+        "01eded46b881f86e142ab36edc964a559fb551a9"
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_initial_write",
+      "path": "monitor-audit/2026-11-04T0459-Texas.json",
+      "attempts": [],
+      "branchHeadVerified": false
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-11-04T0459-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-11-04T09:42:06Z",
+  "notification": {
+    "sent": false,
+    "reason": "The only new relevant role remains pending verification; no qualifying verified upgrade or meaningful status change."
+  },
+  "lastSuccessfulWriteAt": "2026-11-04T11:00:43Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "78d4b1e7c1711e02d377c5121d5879c2f12c4867",
+      "recordCount": 297,
+      "updatedAt": "2026-11-04T10:59:31Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "exists": false,
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    },
+    "headBeforeAudit": "f1f1efc01116ed8e6faa01806bbd092b87aa051f",
+    "headAfterInitialAudit": null
+  }
+}
