@@ -4,7 +4,8 @@
     "checkedAt": "2026-11-04T23:42:02Z",
     "checkedAtLocal": "2026-11-04T17:42:02-06:00",
     "timezone": "America/Chicago",
-    "monitor": "Qien Texas Applied AI/ML/Data Science"
+    "monitor": "Qien Texas Applied AI/ML/Data Science",
+    "completedAt": "2026-11-04T23:43:02Z"
   },
   "repositorySnapshotBefore": {
     "branch": "main",
@@ -141,19 +142,57 @@
     },
     "audit": {
       "attempted": true,
-      "state": "pending_final_readback"
+      "state": "success",
+      "initialCommit": "da5aaeb2dbd99057beaad61d3b00ab13f64c2bff",
+      "initialReadbackBlobSha": "d6707f478f8165423238b906b81bb4bebb0c2b09",
+      "readbackVerified": true
     }
   },
   "sync": {
-    "synced": false,
-    "pendingSync": [
-      "Final audit update and readback"
-    ],
+    "synced": true,
+    "pendingSync": [],
     "consecutiveWriteFailures": 0,
-    "lastSuccessfulWriteAtBeforeRun": "2026-11-04T22:49:20Z"
+    "lastSuccessfulWriteAtBeforeRun": "2026-11-04T22:49:20Z",
+    "lastSuccessfulWriteAt": "2026-11-04T23:43:02Z"
   },
   "notification": {
     "sent": false,
     "reason": "Verified closure affects an already unsuitable, visa-rejected role and creates no action for Qien."
+  },
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "headAfterInitialAuditWrite": "da5aaeb2dbd99057beaad61d3b00ab13f64c2bff",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "a731534a0e3920f9f3306e6fd518a0390ac66d13",
+      "recordCount": 298,
+      "updatedAt": "2026-11-04T23:42:02Z",
+      "changed": true
+    },
+    "dallasPage": {
+      "path": "index.html",
+      "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "changed": false
+    },
+    "austinPage": {
+      "path": "austin.html",
+      "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "changed": false
+    },
+    "archive": {
+      "path": "job-archive/myfunded-futures/4390595009/job-description.md",
+      "blobSha": "e127538b6b4ad653a1e82b2d82533de0f5b39f26",
+      "changed": true
+    },
+    "appliedJobIds": [
+      "112338",
+      "200677912-0157",
+      "R1002940",
+      "R172085"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false
+    }
   }
 }
