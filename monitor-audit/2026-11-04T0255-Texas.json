@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-11-04T08:55:31Z",
+    "checkedAtLocal": "2026-11-04T02:55:31-06:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_one_verified_rejected_record_no_qualified_alert",
+    "completedAt": null,
+    "completedAtLocal": null
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years; minimum experience may not require 1+ year and must establish a zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizen/green-card-only roles and explicit current/future sponsorship restrictions",
+    "excludedFunctions": [
+      "hardware",
+      "chip design",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "companyExclusionsApplied": true,
+    "comparisonBaseline": "Ryan Associate Data Scientist return offer ($83k base, approximately $90k first year, Dallas, production multi-agent AI ownership)"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "e3e33fcc19aaaac79876662c2886aef7af8b2a88",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "537d4b0185c680e54d01419a69d12cbdf9635613",
+      "recordCount": 295,
+      "updatedAt": "2026-10-31T06:47:14Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-11-04T0153-Texas.json",
+      "blobSha": "aba8807d60b984ef24b5b448888ac327f1919b54",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-11-04T07:54:15Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "e8ad75c113221a212439e4ee4321d55d7f5a3c48",
+    "currentListingsCommit": "c4f5bb5aa655f44e288b62f99c5850a635692618",
+    "repositoryHeadObserved": "c4f5bb5aa655f44e288b62f99c5850a635692618",
+    "commitsReviewed": [
+      "8231efcdb7694825912a038e3ee346e6fbccbbb4",
+      "c4f5bb5aa655f44e288b62f99c5850a635692618"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 1,
+    "newRecordEvents": 3,
+    "statusChangeEvents": 0,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "Three parsed additions were Northrop Grumman embedded/hardware roles in Maryland and an Intel physical-design role in California; all fail geography and/or excluded-function gates.",
+      "The 08:31 listings commit exposed no textual diff through the GitHub connector; no target event was identified.",
+      "No upstream event affected an existing monitored in-scope job."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 3,
+    "officialSearchResultsReviewed": 8,
+    "officialJdsOpened": 5,
+    "verifiedNewRecords": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 1,
+    "verifiedKnownStatusChanges": 0,
+    "newRecords": [
+      {
+        "company": "Quora",
+        "jobId": "cf34f80e-fe5c-454d-bc9a-4c59993ffda0",
+        "title": "Software Engineer New Grad, Machine Learning Platform - Quora (Remote)",
+        "officialStatus": "open",
+        "result": "grad-year-rejected",
+        "reason": "Official minimum qualification is limited to 2025 or 2026 graduates; Qien graduates in May 2027."
+      }
+    ],
+    "duplicateKnownRecords": [
+      "Applied Materials R2627684",
+      "Integra FEC 5083082008",
+      "SHI JR3649",
+      "Quora 40659fe7-545e-4b08-b6d7-2567b18b9ed3",
+      "Orbis 4436220009"
+    ],
+    "notes": [
+      "Hippo 8859178002 requires 5+ years and was rejected at discovery without adding a monitor record.",
+      "Brillio R01572719 is a contingent consultant role and was outside the target full-time employment scope."
+    ]
+  },
+  "screening": {
+    "discovered": 8,
+    "duplicatesSuppressed": 5,
+    "fullTimeTexasOrRemoteRecordsReviewed": 8,
+    "officialJdsOpened": 5,
+    "knownOfficialMatchesCrossChecked": 5,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 1,
+    "qualifyingStatusChanges": 0,
+    "verifiedStatusChanges": 0,
+    "jobDataChanged": true,
+    "recordsAdded": 1,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 1,
+    "rejections": [
+      {
+        "company": "Quora",
+        "jobId": "cf34f80e-fe5c-454d-bc9a-4c59993ffda0",
+        "reason": "2025/2026 graduation-window hard gate"
+      }
+    ],
+    "comparisonToRyan": "Quora would be a clear technical and compensation upgrade, but the explicit graduation-window gate makes Qien ineligible; no qualifying opportunity remains."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "succeeded_readback_verified",
+      "path": "jobs.json",
+      "commitSha": "c63e8c59a794de5824df7d6b03eac395357021dc",
+      "blobSha": "0f64706225fba129d8f105b90996c8854dfca68c",
+      "recordCount": 296,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "readbackVerifiedAt": "2026-11-04T08:56:22Z"
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "succeeded_readback_verified",
+      "count": 1,
+      "paths": [
+        "job-archive/quora/cf34f80e-fe5c-454d-bc9a-4c59993ffda0/job-description.md"
+      ],
+      "commitSha": "7010d76f6cfab2eb60cbf421f6503cd69b858d76",
+      "blobSha": "a6cf172d157a7215eaa2062544925ec186a64fa2"
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-11-04T0255-Texas.json",
+      "initialCommitSha": null,
+      "initialContentSha": null,
+      "initialReadbackVerifiedAt": null,
+      "branchHeadVerified": false
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-11-04T0255-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-11-04T07:54:15Z",
+  "notification": {
+    "sent": false,
+    "reason": "The only new verified record is ineligible under the explicit graduation-year hard gate."
+  },
+  "lastSuccessfulWriteAt": "2026-11-04T08:56:11Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "0f64706225fba129d8f105b90996c8854dfca68c",
+      "recordCount": 296,
+      "updatedAt": "2026-11-04T08:55:31Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    },
+    "headBeforeAudit": "c63e8c59a794de5824df7d6b03eac395357021dc",
+    "headAfterInitialAudit": null
+  }
+}
