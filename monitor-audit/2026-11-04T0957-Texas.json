@@ -5,8 +5,8 @@
     "checkedAtLocal": "2026-11-04T09:57:16-06:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
     "result": "completed_no_verified_job_change_no_qualified_alert",
-    "completedAt": "2026-11-04T15:57:16Z",
-    "completedAtLocal": "2026-11-04T09:57:16-06:00"
+    "completedAt": "2026-11-04T15:58:11Z",
+    "completedAtLocal": "2026-11-04T09:58:11-06:00"
   },
   "criteria": {
     "locations": [
@@ -155,18 +155,43 @@
       "status": "not_attempted_no_verified_new_job"
     },
     "audit": {
-      "status": "pending_initial_write",
-      "path": "monitor-audit/2026-11-04T0957-Texas.json"
+      "status": "success_readback_verified",
+      "path": "monitor-audit/2026-11-04T0957-Texas.json",
+      "initialCommit": "c76fa91a8a5b98f7b5e0eea3e14a4126b530fdfe",
+      "initialBlobSha": "8518e971f4c856c5a8bdb6c379c3b96d452361ac",
+      "readbackVerifiedAt": "2026-11-04T15:58:11Z"
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-11-04T0957-Texas.json final synced confirmation"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-11-04T14:39:11Z",
   "notification": {
     "sent": false,
     "reason": "No verified qualified new role, no verified status change, and no write-failure threshold reached."
+  },
+  "lastSuccessfulWriteAt": "2026-11-04T15:58:11Z",
+  "repositorySnapshotAfter": {
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "3a4df3176ed615a3a7fbb888db2d2ff1daf4fe1a",
+      "recordCount": 298,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": false
+    },
+    "pages": {
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "changed": false
+    },
+    "workflowsExists": false,
+    "auditInitialCommit": "c76fa91a8a5b98f7b5e0eea3e14a4126b530fdfe",
+    "verification": "initial audit write and main-branch readback succeeded; final audit update to be verified by subsequent readback"
   }
 }
