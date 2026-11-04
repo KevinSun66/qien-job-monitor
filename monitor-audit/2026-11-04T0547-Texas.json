@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-11-04T11:47:30Z",
+    "checkedAtLocal": "2026-11-04T05:47:30-06:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_verified_job_change_no_qualified_alert",
+    "completedAt": "2026-11-04T11:47:30Z",
+    "completedAtLocal": "2026-11-04T05:47:30-06:00"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years with zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizenship/green-card-only and explicit current/future sponsorship restrictions",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "comparisonBaseline": "Ryan Associate Data Scientist, Dallas, $83k base, approximately $90k first year, production multi-agent AI"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "b912b791f8db8a818e83958ead341790d4023a17",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "78d4b1e7c1711e02d377c5121d5879c2f12c4867",
+      "recordCount": 297,
+      "updatedAt": "2026-11-04T10:59:31Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-11-04T0459-Texas.json",
+      "blobSha": "b9cbae48dde75e89f95a56e43ce37f789e8fbaa8",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-11-04T11:02:36Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "abb72c05bdcb446c497e0ec225f4b81a6d2e8e5f",
+    "currentListingsCommit": "f05cb1444d0c2bb8e461956da97c69cb254fd213",
+    "repositoryHeadObserved": "d65721b60f87fc85d15a0c6fee9eadfb2fe772e2",
+    "commitsReviewed": [
+      "84092baf6bf14cd0392b480e5e7eb851469c3dbe",
+      "f05cb1444d0c2bb8e461956da97c69cb254fd213",
+      "d65721b60f87fc85d15a0c6fee9eadfb2fe772e2"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 1,
+    "newRecordEvents": 1,
+    "statusChangeEvents": 3,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "Goldman Sachs role 171569 restored to active is New York City, outside target geography.",
+      "Publicis Groupe Junior Data Analyst is London, United Kingdom, outside target geography.",
+      "True Anomaly Digital Engineering and Northrop Grumman Pathways inactive changes are Colorado roles outside target geography."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 4,
+    "officialSearchResultsReviewed": 26,
+    "officialJdsOpened": 2,
+    "verifiedNewRecords": 0,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "verifiedKnownStatusChanges": 0,
+    "knownCrossChecks": [
+      {
+        "company": "ShadowDragon",
+        "jobId": "69df1efd-5f05-4a79-9432-30925eb6db3c",
+        "result": "Official Rippling posting remains open and continues to list Remote United States / Hoover, Alabama; experience and responsibilities unchanged; start-date, F-1 OPT/STEM OPT, future sponsorship, and employer-confirmed compensation remain unresolved."
+      },
+      {
+        "company": "Goldman Sachs",
+        "jobId": "171569",
+        "result": "Official page is open for New York City; excluded by geography and not added."
+      }
+    ],
+    "discoveryRejections": [
+      "Goldman Sachs 171569 — New York City",
+      "Publicis Groupe 179413 — London, United Kingdom",
+      "Northrop Grumman R10258160 — Aurora, Colorado",
+      "Remaining broad-search results were senior, out of geography, stale, or already recorded."
+    ]
+  },
+  "screening": {
+    "discovered": 4,
+    "duplicatesSuppressed": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 0,
+    "verifiedStatusChanges": 0,
+    "jobDataChanged": false,
+    "recordsAdded": 0,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 0,
+    "comparisonToRyan": "No new eligible record reached Ryan comparison; ShadowDragon remains pending the same gating facts."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_job_change",
+      "path": "jobs.json",
+      "blobSha": "78d4b1e7c1711e02d377c5121d5879c2f12c4867",
+      "recordCount": 297,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": false,
+      "status": "not_attempted_no_verified_new_jd",
+      "count": 0,
+      "paths": []
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_initial_write",
+      "path": "monitor-audit/2026-11-04T0547-Texas.json",
+      "attempts": [],
+      "branchHeadVerified": false
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-11-04T0547-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-11-04T11:02:36Z",
+  "notification": {
+    "sent": false,
+    "reason": "No qualifying verified new role or meaningful status change."
+  },
+  "lastSuccessfulWriteAt": "2026-11-04T11:02:36Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "78d4b1e7c1711e02d377c5121d5879c2f12c4867",
+      "recordCount": 297,
+      "updatedAt": "2026-11-04T10:59:31Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": false
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "exists": false,
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    },
+    "headBeforeAudit": "b912b791f8db8a818e83958ead341790d4023a17",
+    "headAfterInitialAudit": null
+  }
+}
