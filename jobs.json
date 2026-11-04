@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T08:55:31Z",
+  "updatedAt": "2026-11-04T10:59:31Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11195,6 +11195,55 @@
       "archiveUrl": "job-archive/quora/cf34f80e-fe5c-454d-bc9a-4c59993ffda0/job-description.md",
       "archiveLabel": "JD 归档",
       "archivedAt": "2026-11-04T08:55:31Z",
+      "applicationStatus": "not-applied"
+    },
+    {
+      "company": "ShadowDragon",
+      "tier": "A- · 高匹配待核验",
+      "area": "Remote US / Hoover, AL",
+      "market": "Texas-eligible remote",
+      "title": "Junior AI Engineer",
+      "jobId": "69df1efd-5f05-4a79-9432-30925eb6db3c",
+      "sourceListingId": "7c16f1bd-bd39-4a42-a12c-2e49647c85cd",
+      "url": "https://ats.rippling.com/shadowdragon/jobs/69df1efd-5f05-4a79-9432-30925eb6db3c",
+      "status": "start-date-visa-compensation-verification",
+      "found": "2026-11-04",
+      "discoveredDate": "2026-11-04",
+      "discoveredAt": "2026-11-04T10:59:31Z",
+      "firstSeen": "2026-11-04T10:59:31Z",
+      "lastChecked": "2026-11-04",
+      "lastCheckedAt": "2026-11-04T10:59:31Z",
+      "employment": "Full-time · Junior / Early Career · Remote United States",
+      "gradYear": "No graduation window stated; post-May-2027 start compatibility unresolved",
+      "match": "Very high technical fit; timing, visa and employer-confirmed compensation unresolved",
+      "ngCompatibility": "Up to 2 years; internships, academic work, bootcamps, workshops, portfolio projects, hackathons and open-source contributions accepted",
+      "minimumQualifications": "Up to 2 years in AI/ML/SWE/DS; one end-to-end AI/ML project; Python, ML/deep learning/NLP, data processing and model evaluation; interest in LLMs, RAG and agents.",
+      "assessment": "Official ShadowDragon Rippling posting is open for Hoover, Alabama and Remote United States. Work includes Python AI services, prompt experimentation, RAG, embeddings and retrieval, LLM/model evaluation, automated regression tests, data preparation, debugging, Docker, CI/CD and MLOps. It is a strong Applied AI and agentic-systems match with a genuine zero-experience entry path. The official JD does not disclose employer-confirmed compensation, a post-May-2027 start date, or F-1 OPT/STEM OPT and future sponsorship terms. A third-party source reports $80K–$110K, which is not treated as official. Keep pending and outside Table 2 until these gates are verified and a clear Ryan upgrade is established.",
+      "visa": "Official JD does not disclose F-1 OPT/STEM OPT, E-Verify, I-983, unrestricted work authorization or future sponsorship. Employer verification required.",
+      "compensation": "Not disclosed by employer. Third-party listing reports $80,000–$110,000; unverified.",
+      "officialLocations": [
+        "Remote (United States)",
+        "Hoover, AL"
+      ],
+      "locationListComplete": true,
+      "officialPostedDate": "Official page does not expose a posting date; third-party source reports 2026-10-24",
+      "officialStatus": "Open on 2026-11-04 at 04:59 CT; official Rippling board lists the job and application entry.",
+      "source": "ShadowDragon official Rippling JD; SimplifyJobs incremental discovery",
+      "verificationFlags": [
+        "start-date-verification",
+        "visa-verification",
+        "compensation-verification"
+      ],
+      "finalPriority": "高匹配待核验 · 暂不进入表2",
+      "roleTrack": "Applied AI / RAG / LLM Evaluation / AI Agents / MLOps",
+      "seniorityGap": "None · 0–2 years with academic/project/internship paths accepted",
+      "technicalGrowth": "93/100",
+      "brandPlatform": "76/100",
+      "ryanUpgrade": "Potential technical fit; clear overall upgrade not established without official compensation, 2027 timing and OPT/STEM OPT verification",
+      "rejectionReason": null,
+      "archiveUrl": "job-archive/shadowdragon/69df1efd-5f05-4a79-9432-30925eb6db3c/job-description.md",
+      "archiveLabel": "JD 归档",
+      "archivedAt": "2026-11-04T10:59:31Z",
       "applicationStatus": "not-applied"
     }
   ],
