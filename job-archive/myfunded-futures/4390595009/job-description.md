@@ -6,9 +6,9 @@
 - **Official URL:** https://job-boards.greenhouse.io/myfundedfutures/jobs/4390595009
 - **Source date:** 2026-09-01 (ApplyGuy 2027 New Grad feed; official posting date was not displayed on the Greenhouse page)
 - **First seen / archived:** 2026-09-29
-- **Last checked:** 2026-09-29
-- **Official status:** Application page active
-- **Monitor status:** visa-rejected (not shown in Table 2)
+- **Last checked:** 2026-11-04T23:42:02Z (2026-11-04 17:42:02 CST)
+- **Official status:** Closed / no longer listed on employer Greenhouse board
+- **Monitor status:** closed-visa-rejected (not shown in Table 2)
 
 ## Role summary
 
@@ -33,3 +33,7 @@ The company states that applicants must be authorized to work without employer s
 ## Timing audit
 
 This is a late backfill: the external new-grad feed dates the listing to 2026-09-01, while the monitor first captured it on 2026-09-29 (28 days later). The specific cause of the discovery delay is not proven.
+
+## Closure verification
+
+At 2026-11-04T23:42:02Z (2026-11-04 17:42:02 CST), the official requisition URL redirected to the MyFunded Futures Greenhouse board with an error state. The employer board listed nine open jobs and did not include Junior Machine Learning Engineer 4390595009. The monitor therefore marks the role closed while preserving the earlier F-1 OPT/unrestricted-work-authorization exclusion.
