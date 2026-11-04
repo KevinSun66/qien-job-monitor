@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-11-04T17:09:10Z",
+    "checkedAtLocal": "2026-11-04T11:09:10-06:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_verified_job_change_no_qualified_alert",
+    "completedAt": "2026-11-04T17:09:10Z",
+    "completedAtLocal": "2026-11-04T11:09:10-06:00"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years with zero-experience entry path; minimum cannot start at 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizenship/green-card-only and explicit current/future sponsorship restrictions",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "excludedCompanies": [
+      "Texas Instruments",
+      "D3V (paused)"
+    ],
+    "comparisonBaseline": "Ryan Associate Data Scientist, Dallas, $83k base, approximately $90k first year, production multi-agent AI"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "a399ceae46209d0787dfd1890c6284d215b1b9d9",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "3a4df3176ed615a3a7fbb888db2d2ff1daf4fe1a",
+      "recordCount": 298,
+      "updatedAt": "2026-11-04T12:42:56Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-11-04T1031-Texas.json",
+      "blobSha": "fd2a32fd1578a87c7b5a2fcee272b6aa98de8bb9",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-11-04T16:32:35Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404 at run time",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "95a700cb2adab327f6f2f6f693ce1ab94f004756",
+    "currentListingsCommit": "95a700cb2adab327f6f2f6f693ce1ab94f004756",
+    "repositoryHeadObserved": "ef4eb867aeb4b1963534c2ff1db912ebece60af3",
+    "commitsReviewed": [
+      "6e3971c8edcb71bc4126eefc7ce715358e0f8909",
+      "ef4eb867aeb4b1963534c2ff1db912ebece60af3"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 0,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 0,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "Both upstream commits were labeled listings updates but contained no file diff and no changed files.",
+      "The file-path-specific commit history therefore remained at 95a700cb2adab327f6f2f6f693ce1ab94f004756."
+    ]
+  },
+  "officialReview": {
+    "searchesPerformed": 3,
+    "officialOrEmployerSourcesReviewed": 6,
+    "knownRecordsCrossChecked": 4,
+    "candidatesScreened": [
+      {
+        "company": "GlobalFoundries",
+        "title": "AI/ML Systems Engineer - 2026 New College Graduate",
+        "jobId": "JR-2602829",
+        "result": "existing_record_no_change",
+        "reason": "Already preserved as start-date-verification; 0-2 years accepted, but 2026 cohort timing, OPT/STEM OPT and hardware-performance orientation remain unresolved."
+      },
+      {
+        "company": "GlobalFoundries",
+        "title": "AI/ML Software Engineer - 2026 New College Graduate",
+        "jobId": "JR-2602832",
+        "result": "existing_record_no_change",
+        "reason": "Already preserved as closed-watch after official page removal; no duplicate or reopening recorded."
+      },
+      {
+        "company": "Kyndryl",
+        "title": "Early Career Consult Program - Associate AI Engineer",
+        "jobId": "R-66739",
+        "result": "existing_hard_rejection_unchanged",
+        "reason": "Official indexed JD remains explicit about unrestricted authorization now and in the future and no employment visa sponsorship."
+      },
+      {
+        "company": "ShadowDragon",
+        "title": "Junior AI Engineer",
+        "jobId": "69df1efd-5f05-4a79-9432-30925eb6db3c",
+        "result": "existing_pending_no_new_evidence",
+        "reason": "No new verified evidence resolved post-May-2027 start, Texas remote eligibility, OPT/STEM OPT/future sponsorship or compensation."
+      }
+    ],
+    "excludedSearchResults": [
+      "AT&T Lead Data/AI Engineering requires 5+ years.",
+      "Texas Instruments is on the company exclusion list and surfaced roles were also hardware/manufacturing-oriented.",
+      "Dell and Ryan results were internships rather than full-time post-graduation roles.",
+      "Cloudflare result was a senior product-management role."
+    ]
+  },
+  "screening": {
+    "discoveredEvents": 0,
+    "potentiallyRelevantCandidatesReviewed": 4,
+    "newlyVerifiedQualified": 0,
+    "newlyPendingAdded": 0,
+    "newlyRejectedAdded": 0,
+    "verifiedStatusChanges": 0,
+    "clearRyanUpgrades": 0,
+    "duplicateNotificationsSuppressed": 4,
+    "jobsDataChanged": false,
+    "pagesChanged": false,
+    "appliedStatesChanged": false,
+    "decision": "No verified new or changed job met all location, timing, experience, work-authorization, function and Ryan-upgrade criteria."
+  },
+  "writes": {
+    "jobs": {
+      "status": "not_attempted_no_verified_change"
+    },
+    "pages": {
+      "status": "not_attempted_no_verified_change"
+    },
+    "archive": {
+      "status": "not_attempted_no_verified_new_job"
+    },
+    "audit": {
+      "status": "pending_initial_write",
+      "path": "monitor-audit/2026-11-04T1109-Texas.json"
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-11-04T1109-Texas.json final synced confirmation"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-11-04T16:32:35Z",
+  "notification": {
+    "sent": false,
+    "reason": "No verified qualified new role, no verified status change, and no write-failure threshold reached."
+  }
+}
