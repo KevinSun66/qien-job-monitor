@@ -4,7 +4,8 @@
     "checkedAt": "2026-11-04T21:13:52Z",
     "checkedAtLocal": "2026-11-04T15:13:52-06:00",
     "timezone": "America/Chicago",
-    "monitor": "Qien Texas Applied AI/ML/Data Science"
+    "monitor": "Qien Texas Applied AI/ML/Data Science",
+    "completedAt": "2026-11-04T21:15:06Z"
   },
   "repositorySnapshotBefore": {
     "branch": "main",
@@ -132,19 +133,51 @@
     },
     "audit": {
       "attempted": true,
-      "state": "pending_final_readback"
+      "state": "success",
+      "initialCommit": "78e70766cb5d3423ee96f8d3c1f0071c1b341b1f",
+      "initialReadbackBlobSha": "7146119c2c68b66f34bffb389b33c5703a7fdbc0",
+      "readbackVerified": true
     }
   },
   "sync": {
-    "synced": false,
-    "pendingSync": [
-      "Final audit update and readback"
-    ],
+    "synced": true,
+    "pendingSync": [],
     "consecutiveWriteFailures": 0,
-    "lastSuccessfulWriteAtBeforeRun": "2026-11-04T20:49:48Z"
+    "lastSuccessfulWriteAtBeforeRun": "2026-11-04T20:49:48Z",
+    "lastSuccessfulWriteAt": "2026-11-04T21:15:06Z"
   },
   "notification": {
     "sent": false,
     "reason": "No qualified new job, verified status change, or write-failure alert threshold."
+  },
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "headAfterInitialAuditWrite": "78e70766cb5d3423ee96f8d3c1f0071c1b341b1f",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "3a4df3176ed615a3a7fbb888db2d2ff1daf4fe1a",
+      "recordCount": 298,
+      "changed": false
+    },
+    "dallasPage": {
+      "path": "index.html",
+      "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "changed": false
+    },
+    "austinPage": {
+      "path": "austin.html",
+      "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+      "changed": false
+    },
+    "appliedJobIds": [
+      "112338",
+      "200677912-0157",
+      "R1002940",
+      "R172085"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false
+    }
   }
 }
