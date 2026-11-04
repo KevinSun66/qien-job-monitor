@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-11-04T12:42:56Z",
+    "checkedAtLocal": "2026-11-04T06:42:56-06:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_one_verified_rejected_record_no_qualified_alert",
+    "completedAt": "2026-11-04T12:44:03Z",
+    "completedAtLocal": "2026-11-04T06:44:03-06:00"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years with zero-experience entry path",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizenship/green-card-only and explicit current/future sponsorship restrictions",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "comparisonBaseline": "Ryan Associate Data Scientist, Dallas, $83k base, approximately $90k first year, production multi-agent AI"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "c7b0d5a08df01c378033eb09d6516f11fae9ed0c",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "78d4b1e7c1711e02d377c5121d5879c2f12c4867",
+      "recordCount": 297,
+      "updatedAt": "2026-11-04T10:59:31Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-11-04T0547-Texas.json",
+      "blobSha": "64b3df55faebae3cb4ca0f1b74d4e21c8dbf8b79",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-11-04T11:48:10Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "f05cb1444d0c2bb8e461956da97c69cb254fd213",
+    "currentListingsCommit": "269f5a72bc2960fbaa77e577a392df3245a3aa8d",
+    "repositoryHeadObserved": "9e84ff4d6713932d96c35278e6bb8f87f34ad9cc",
+    "commitsReviewed": [
+      "877218081282efa835df32e55ab546359e6651ed",
+      "269f5a72bc2960fbaa77e577a392df3245a3aa8d",
+      "9e84ff4d6713932d96c35278e6bb8f87f34ad9cc"
+    ],
+    "listingsDataCommitsReviewed": 2,
+    "readmeCommitsReviewed": 1,
+    "newRecordEvents": 1,
+    "statusChangeEvents": 0,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "12:01 listings commit had no textual diff.",
+      "The only 12:31 new record was Medtronic Reliability Engineer I in Mounds View, Minnesota; category Hardware and outside target geography/function."
+    ]
+  },
+  "officialReview": {
+    "queryFamilies": 4,
+    "officialSearchResultsReviewed": 11,
+    "officialJdsOpened": 2,
+    "verifiedNewRecords": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 1,
+    "verifiedKnownStatusChanges": 0,
+    "newRecords": [
+      {
+        "company": "NorthMark Strategies",
+        "title": "AI Engineer I",
+        "jobId": "R13431",
+        "officialUrl": "https://northmark.wd108.myworkdayjobs.com/en-US/nms/job/Dallas-TX/AI-Engineer-I_R13431",
+        "officialStatus": "open",
+        "location": "Dallas, Texas",
+        "experience": "0–2 years with internship, coursework and self-directed project paths",
+        "responsibilities": "Lightweight AI automation, prompt/workflow design, Claude Enterprise and integrations, plus substantial SharePoint/NetDocuments administration and tier-1/tier-2 support",
+        "workAuthorization": "Requires authorization without employer sponsorship now or at any time in the future",
+        "compensation": "Not disclosed by employer",
+        "disposition": "visa-direction-opportunity-cost-rejected; archived outside Table 2"
+      }
+    ],
+    "knownCrossChecks": [
+      {
+        "company": "ShadowDragon",
+        "jobId": "69df1efd-5f05-4a79-9432-30925eb6db3c",
+        "result": "Official posting remains open; experience and responsibilities unchanged; start-date, OPT/STEM OPT, future sponsorship and employer-confirmed compensation remain unresolved."
+      }
+    ],
+    "discoveryRejections": [
+      "NorthMark Strategies R13431 — explicit current-and-future sponsorship restriction and no clear Ryan upgrade",
+      "Medtronic R68475-1 — Minnesota hardware role",
+      "Other broad-search results were stale, already recorded, senior, contractor-only, or lacked a verified official target opening."
+    ]
+  },
+  "screening": {
+    "discovered": 2,
+    "duplicatesSuppressed": 1,
+    "qualifyingNewJobs": 0,
+    "pendingVerificationNewJobs": 0,
+    "verifiedRejectedNewJobs": 1,
+    "verifiedStatusChanges": 0,
+    "jobDataChanged": true,
+    "recordsAdded": 1,
+    "recordsUpdated": 0,
+    "recordsDeleted": 0,
+    "appliedStatusesChanged": 0,
+    "jdArchivesChanged": 1,
+    "comparisonToRyan": "NorthMark is not actionable: explicit future-sponsorship restriction, no employer-confirmed compensation, and mixed enterprise IT support scope do not improve on Ryan."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "status": "synced_readback_verified",
+      "path": "jobs.json",
+      "commitSha": "61a7320484f1fc70147f528b9e04e45b9b77008e",
+      "blobSha": "3a4df3176ed615a3a7fbb888db2d2ff1daf4fe1a",
+      "recordCount": 298,
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "attempted": false,
+      "status": "not_attempted_no_qualified_table_change",
+      "dallasBlobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+      "austinBlobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "archives": {
+      "attempted": true,
+      "status": "synced_readback_verified",
+      "count": 1,
+      "paths": [
+        "job-archive/northmark-strategies/R13431/job-description.md"
+      ],
+      "commitSha": "5cc7916546f14e7214ab7865dd3f211683e4d8ff",
+      "blobShas": [
+        "bff5049383180403e6fa49df777877a526c1221e"
+      ]
+    },
+    "audit": {
+      "attempted": true,
+      "status": "pending_initial_write",
+      "path": "monitor-audit/2026-11-04T0642-Texas.json",
+      "attempts": [],
+      "branchHeadVerified": false
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-11-04T0642-Texas.json"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-11-04T11:48:10Z",
+  "notification": {
+    "sent": false,
+    "reason": "The only verified new role is ineligible and not a clear Ryan upgrade; no qualifying role or meaningful known-status change."
+  },
+  "lastSuccessfulWriteAt": "2026-11-04T12:43:44Z",
+  "repositorySnapshotAfter": {
+    "branch": "main",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "3a4df3176ed615a3a7fbb888db2d2ff1daf4fe1a",
+      "recordCount": 298,
+      "updatedAt": "2026-11-04T12:42:56Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ],
+      "changed": true
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "exists": false,
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    },
+    "headBeforeAudit": "61a7320484f1fc70147f528b9e04e45b9b77008e",
+    "headAfterInitialAudit": null
+  }
+}
