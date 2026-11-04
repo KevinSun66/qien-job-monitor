@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-11-04T23:42:02Z",
+    "checkedAtLocal": "2026-11-04T17:42:02-06:00",
+    "timezone": "America/Chicago",
+    "monitor": "Qien Texas Applied AI/ML/Data Science"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "headCommit": "56d6e0b25c7e946274da732c91d0e11ae303b5a3",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "3a4df3176ed615a3a7fbb888db2d2ff1daf4fe1a",
+      "recordCount": 298,
+      "updatedAt": "2026-11-04T12:42:56Z"
+    },
+    "dallasPage": {
+      "path": "index.html",
+      "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austinPage": {
+      "path": "austin.html",
+      "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "appliedJobIds": [
+      "112338",
+      "200677912-0157",
+      "R1002940",
+      "R172085"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-04T1648-Texas.json",
+      "blobSha": "fc3a3e73da7954be357cfa4286f826679f3c3392",
+      "synced": true,
+      "lastSuccessfulWriteAt": "2026-11-04T22:49:20Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404; no workflow directory"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousRepositoryHead": "236f85ba2461c5e1678fca06ca031844ec08228c",
+      "currentRepositoryHead": "93e05a22fcf7dceff403f9f13a58bb6748eddda0",
+      "previousListingsCommit": "85660238e86f5cf7181ed389c6cbc7ff3025a302",
+      "currentListingsCommit": "151b112e668a6b0babfbb3830314aea6c01cdc83",
+      "commitsReviewed": [
+        "2b197f367565b1bda0f4453118a159f8aa88c9db",
+        "fe1cfdad0aa3791bd435468d7ab466c2d3d928b4",
+        "151b112e668a6b0babfbb3830314aea6c01cdc83",
+        "93e05a22fcf7dceff403f9f13a58bb6748eddda0"
+      ],
+      "listingsDataCommitsReviewed": 2,
+      "readmeCommitsReviewed": 2,
+      "relevantNewRecordEvents": 0,
+      "relevantStatusSignals": 0,
+      "note": "Texas/US-remote diff hits were removals of old inactive or out-of-scope records; none matched an existing monitored requisition or created a qualified new lead."
+    },
+    "webReview": {
+      "searchQueriesPerformed": 3,
+      "verifiedStatusChanges": [
+        {
+          "employer": "MyFunded Futures",
+          "jobId": "4390595009",
+          "title": "Junior Machine Learning Engineer",
+          "location": "Plano, TX",
+          "previousStatus": "visa-rejected",
+          "newStatus": "closed-visa-rejected",
+          "evidence": "Official requisition URL redirects to the employer Greenhouse board with an error state; the board currently lists nine open roles and omits this requisition.",
+          "eligibilityImpact": "No change. Existing unrestricted-work-authorization/no-sponsorship hard rejection remains.",
+          "recommendationImpact": "None; role was already excluded and remains outside Table 2."
+        }
+      ],
+      "newQualifiedJobs": [],
+      "otherSearchResults": [
+        {
+          "jobId": "8002515003",
+          "employer": "Striveworks",
+          "decision": "duplicate_existing_citizenship_rejected"
+        },
+        {
+          "jobId": "R-66739",
+          "employer": "Kyndryl",
+          "decision": "duplicate_existing_rejected/application history"
+        },
+        {
+          "jobId": "R13431",
+          "employer": "NorthMark Strategies",
+          "decision": "duplicate_existing_work-authorization/direction/opportunity-cost rejected"
+        },
+        {
+          "employer": "Second Front Systems",
+          "title": "AI Software Engineer",
+          "decision": "not_added",
+          "reasons": [
+            "US citizenship required",
+            "at least two years full-time experience",
+            "not a 0-year entry role"
+          ]
+        }
+      ]
+    }
+  },
+  "screening": {
+    "verifiedNewJobs": 0,
+    "verifiedStatusChanges": 1,
+    "qualifiedNewJobs": 0,
+    "notificationEligible": 0,
+    "jobsDataChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusChanged": false,
+    "jdArchiveChanged": true,
+    "result": "One official closure was verified for an already hard-rejected role. No new job cleared location, post-May-2027 timing, 0–2 year entry, OPT/STEM OPT, scope, exclusions and Ryan-upgrade gates."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": true,
+      "state": "success",
+      "commit": "124884ff6bbaa8e6f0d005fcc4f19d3e2b0dc9c4",
+      "contentBlobSha": "a731534a0e3920f9f3306e6fd518a0390ac66d13"
+    },
+    "dallasPage": {
+      "attempted": false,
+      "reason": "No Table 2 change."
+    },
+    "austinPage": {
+      "attempted": false,
+      "reason": "No Table 2 change."
+    },
+    "jdArchive": {
+      "attempted": true,
+      "state": "success",
+      "path": "job-archive/myfunded-futures/4390595009/job-description.md",
+      "commit": "1bb36f2822673c2dc533d80ce70cca69bc2275b4",
+      "contentBlobSha": "e127538b6b4ad653a1e82b2d82533de0f5b39f26"
+    },
+    "audit": {
+      "attempted": true,
+      "state": "pending_final_readback"
+    }
+  },
+  "sync": {
+    "synced": false,
+    "pendingSync": [
+      "Final audit update and readback"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-11-04T22:49:20Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "Verified closure affects an already unsuitable, visa-rejected role and creates no action for Qien."
+  }
+}
