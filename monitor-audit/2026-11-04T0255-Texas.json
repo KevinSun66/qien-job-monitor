@@ -5,8 +5,8 @@
     "checkedAtLocal": "2026-11-04T02:55:31-06:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
     "result": "completed_one_verified_rejected_record_no_qualified_alert",
-    "completedAt": null,
-    "completedAtLocal": null
+    "completedAt": "2026-11-04T08:57:10Z",
+    "completedAtLocal": "2026-11-04T02:57:10-06:00"
   },
   "criteria": {
     "locations": [
@@ -181,25 +181,23 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_readback",
+      "status": "synced",
       "path": "monitor-audit/2026-11-04T0255-Texas.json",
-      "initialCommitSha": null,
-      "initialContentSha": null,
-      "initialReadbackVerifiedAt": null,
-      "branchHeadVerified": false
+      "initialCommitSha": "c95f624670e726f19b3cce91d7e57f3c0ee84a14",
+      "initialContentSha": "07ac43aeaa8dcda40eca3b7327d8a89294fd879f",
+      "initialReadbackVerifiedAt": "2026-11-04T08:57:10Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-11-04T0255-Texas.json"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-11-04T07:54:15Z",
   "notification": {
     "sent": false,
     "reason": "The only new verified record is ineligible under the explicit graduation-year hard gate."
   },
-  "lastSuccessfulWriteAt": "2026-11-04T08:56:11Z",
+  "lastSuccessfulWriteAt": "2026-11-04T08:57:02Z",
   "repositorySnapshotAfter": {
     "branch": "main",
     "jobs": {
@@ -236,6 +234,6 @@
       "pagesWorkflowFound": false
     },
     "headBeforeAudit": "c63e8c59a794de5824df7d6b03eac395357021dc",
-    "headAfterInitialAudit": null
+    "headAfterInitialAudit": "c95f624670e726f19b3cce91d7e57f3c0ee84a14"
   }
 }
