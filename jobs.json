@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T10:59:31Z",
+  "updatedAt": "2026-11-04T12:42:56Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11244,6 +11244,49 @@
       "archiveUrl": "job-archive/shadowdragon/69df1efd-5f05-4a79-9432-30925eb6db3c/job-description.md",
       "archiveLabel": "JD 归档",
       "archivedAt": "2026-11-04T10:59:31Z",
+      "applicationStatus": "not-applied"
+    },
+    {
+      "company": "NorthMark Strategies",
+      "tier": "C · 签证硬排除 / 机会成本不优",
+      "area": "Dallas, TX",
+      "market": "Dallas",
+      "title": "AI Engineer I",
+      "jobId": "R13431",
+      "url": "https://northmark.wd108.myworkdayjobs.com/en-US/nms/job/Dallas-TX/AI-Engineer-I_R13431",
+      "status": "visa-direction-opportunity-cost-rejected",
+      "found": "2026-11-04",
+      "discoveredDate": "2026-11-04",
+      "discoveredAt": "2026-11-04T12:42:56Z",
+      "firstSeen": "2026-11-04T12:42:56Z",
+      "lastChecked": "2026-11-04",
+      "lastCheckedAt": "2026-11-04T12:42:56Z",
+      "employment": "Full-time · Junior · Dallas, Texas",
+      "gradYear": "No graduation window or start date stated; hard visa exclusion makes further timing verification non-actionable",
+      "match": "Partial Applied AI fit; mixed with enterprise CMS administration and tier-1/tier-2 support",
+      "ngCompatibility": "0–2 years; internship, coursework, and self-directed AI/ML projects are relevant; employer will train on specific tools",
+      "minimumQualifications": "0–2 years in IT, systems administration, or software/AI engineering; SharePoint/document-management aptitude; Python, PowerShell, or Power Automate; APIs; LLM tools; documentation and stakeholder support.",
+      "assessment": "Official NorthMark Strategies Workday posting is open in Dallas. The role supports lightweight AI automations, prompt/workflow design, Claude Enterprise administration, APIs, scripting and optional RAG/agentic workflows, but a substantial share is SharePoint Online, NetDocuments, Microsoft 365 and tier-1/tier-2 support. The JD explicitly requires U.S. work authorization without employer sponsorship now or at any time in the future, which is a hard conflict with the monitor's F-1 OPT/STEM OPT path. Employer compensation is not disclosed, and the mixed AI/IT-administration scope does not establish a clear improvement over Ryan.",
+      "visa": "Hard rejection: official JD requires authorization without employer sponsorship now or at any time in the future.",
+      "compensation": "Not disclosed by employer; third-party estimates are not treated as official.",
+      "officialLocations": [
+        "Dallas, TX"
+      ],
+      "locationListComplete": true,
+      "officialPostedDate": "Official page displayed 'Posted 11 Days Ago' when checked on 2026-11-04; exact calendar date was not exposed.",
+      "officialStatus": "Open on 2026-11-04 at 06:42 CT; official Workday page showed Apply.",
+      "source": "NorthMark Strategies official Workday JD; fresh official-search discovery",
+      "verificationFlags": [],
+      "finalPriority": "排除 · 签证硬冲突且相对 Ryan 无明确升级",
+      "roleTrack": "Applied AI Support / Enterprise Systems Administration",
+      "seniorityGap": "None · 0–2 years",
+      "technicalGrowth": "68/100",
+      "brandPlatform": "60/100",
+      "ryanUpgrade": "No. Visa hard exclusion; no employer-confirmed compensation; mixed CMS administration and support scope is weaker than Ryan's production multi-agent AI work.",
+      "rejectionReason": "Official JD requires no employer sponsorship now or at any time in the future; role is also partly CMS administration and support with no disclosed compensation or clear Ryan upgrade.",
+      "archiveUrl": "job-archive/northmark-strategies/R13431/job-description.md",
+      "archiveLabel": "JD 归档",
+      "archivedAt": "2026-11-04T12:42:56Z",
       "applicationStatus": "not-applied"
     }
   ],
