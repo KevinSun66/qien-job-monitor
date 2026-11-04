@@ -5,8 +5,8 @@
     "checkedAtLocal": "2026-11-04T06:42:56-06:00",
     "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
     "result": "completed_one_verified_rejected_record_no_qualified_alert",
-    "completedAt": "2026-11-04T12:44:03Z",
-    "completedAtLocal": "2026-11-04T06:44:03-06:00"
+    "completedAt": "2026-11-04T12:44:49Z",
+    "completedAtLocal": "2026-11-04T06:44:49-06:00"
   },
   "criteria": {
     "locations": [
@@ -175,23 +175,29 @@
     },
     "audit": {
       "attempted": true,
-      "status": "pending_initial_write",
+      "status": "synced",
       "path": "monitor-audit/2026-11-04T0642-Texas.json",
-      "attempts": [],
-      "branchHeadVerified": false
+      "attempts": [
+        {
+          "at": "2026-11-04T12:44:42Z",
+          "result": "succeeded_readback_verified"
+        }
+      ],
+      "initialCommitSha": "f5bb5ab78427e80a1373f2f8cd3f82f03ba92267",
+      "initialContentSha": "1b34c906fe98ea628eb58156f11cc7c76c2634d4",
+      "initialReadbackVerifiedAt": "2026-11-04T12:44:49Z",
+      "branchHeadVerified": true
     }
   },
-  "synced": false,
-  "pendingSync": [
-    "monitor-audit/2026-11-04T0642-Texas.json"
-  ],
+  "synced": true,
+  "pendingSync": [],
   "consecutiveWriteFailures": 0,
   "lastSuccessfulWriteAtBeforeRun": "2026-11-04T11:48:10Z",
   "notification": {
     "sent": false,
     "reason": "The only verified new role is ineligible and not a clear Ryan upgrade; no qualifying role or meaningful known-status change."
   },
-  "lastSuccessfulWriteAt": "2026-11-04T12:43:44Z",
+  "lastSuccessfulWriteAt": "2026-11-04T12:44:42Z",
   "repositorySnapshotAfter": {
     "branch": "main",
     "jobs": {
@@ -226,6 +232,6 @@
       "pagesWorkflowFound": false
     },
     "headBeforeAudit": "61a7320484f1fc70147f528b9e04e45b9b77008e",
-    "headAfterInitialAudit": null
+    "headAfterInitialAudit": "f5bb5ab78427e80a1373f2f8cd3f82f03ba92267"
   }
 }
