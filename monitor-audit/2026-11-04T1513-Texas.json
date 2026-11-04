@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-11-04T21:13:52Z",
+    "checkedAtLocal": "2026-11-04T15:13:52-06:00",
+    "timezone": "America/Chicago",
+    "monitor": "Qien Texas Applied AI/ML/Data Science"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "headCommit": "4e456cb87149ce3ea9329922df65ac45749a60cd",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "3a4df3176ed615a3a7fbb888db2d2ff1daf4fe1a",
+      "recordCount": 298,
+      "updatedAt": "2026-11-04T12:42:56Z"
+    },
+    "dallasPage": {
+      "path": "index.html",
+      "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+    },
+    "austinPage": {
+      "path": "austin.html",
+      "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+    },
+    "appliedJobIds": [
+      "112338",
+      "200677912-0157",
+      "R1002940",
+      "R172085"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-04T1449-Texas.json",
+      "blobSha": "cec173cf28f26293fedbd25d1f1d0a8e5dcf4a62",
+      "synced": true,
+      "lastSuccessfulWriteAt": "2026-11-04T20:49:48Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404; no workflow directory"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousListingsCommit": "703a2eb2c4523618213389de4b227d3738bc0341",
+      "currentListingsCommit": "703a2eb2c4523618213389de4b227d3738bc0341",
+      "repositoryHeadObserved": "c3efd894fc1c1538f6370b182f2ecd4a3c950aec",
+      "commitsReviewed": [
+        "c3efd894fc1c1538f6370b182f2ecd4a3c950aec"
+      ],
+      "listingsDataCommitsReviewed": 1,
+      "readmeCommitsReviewed": 0,
+      "newRecordEvents": 0,
+      "statusChangeEvents": 0,
+      "relevantEvents": 0,
+      "note": "The observed repository-head commit returned null diff/files and did not change the listings data path."
+    },
+    "officialReview": {
+      "searchesPerformed": 3,
+      "officialOrEmployerSourcesReviewed": 3,
+      "knownRecordsCrossChecked": 3,
+      "candidates": [
+        {
+          "employer": "SambaNova Systems",
+          "title": "ML Infrastructure Engineer, New Grad",
+          "location": "Austin, TX / San Jose, CA",
+          "status": "open",
+          "decision": "pending_existing_record",
+          "reasons": [
+            "post-May-2027 start timing unresolved",
+            "OPT/STEM OPT and future sponsorship unresolved"
+          ]
+        },
+        {
+          "employer": "ShadowDragon",
+          "title": "Junior AI Engineer",
+          "location": "Remote (United States)",
+          "status": "open",
+          "decision": "pending_existing_record",
+          "reasons": [
+            "Texas residence eligibility unresolved",
+            "post-May-2027 start timing unresolved",
+            "compensation unresolved",
+            "OPT/STEM OPT and future sponsorship unresolved"
+          ]
+        },
+        {
+          "employer": "Allstate",
+          "title": "Applied Machine Learning Engineer (R27180)",
+          "location": "USA-IL Remote",
+          "status": "open",
+          "decision": "rejected",
+          "reasons": [
+            "Texas eligibility not verified",
+            "employer states employment-based sponsorship is generally unavailable"
+          ]
+        }
+      ]
+    }
+  },
+  "screening": {
+    "discoveredEvents": 0,
+    "qualifiedNewJobs": 0,
+    "verifiedStatusChanges": 0,
+    "rejectedOrPendingCandidates": 3,
+    "notificationEligible": 0,
+    "jobsDataChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusChanged": false,
+    "jdArchiveChanged": false,
+    "result": "No verified new or changed role cleared every location, timing, experience, work-authorization, role-scope, exclusion-list, and Ryan-offer comparison requirement."
+  },
+  "writes": {
+    "jobs": {
+      "attempted": false,
+      "reason": "No verified job addition or status change."
+    },
+    "dallasPage": {
+      "attempted": false,
+      "reason": "No verified data change."
+    },
+    "austinPage": {
+      "attempted": false,
+      "reason": "No verified data change."
+    },
+    "jdArchive": {
+      "attempted": false,
+      "reason": "No verified data change."
+    },
+    "audit": {
+      "attempted": true,
+      "state": "pending_final_readback"
+    }
+  },
+  "sync": {
+    "synced": false,
+    "pendingSync": [
+      "Final audit update and readback"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAtBeforeRun": "2026-11-04T20:49:48Z"
+  },
+  "notification": {
+    "sent": false,
+    "reason": "No qualified new job, verified status change, or write-failure alert threshold."
+  }
+}
