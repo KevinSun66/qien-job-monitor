@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T06:47:14Z",
+  "updatedAt": "2026-11-04T08:55:31Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11149,6 +11149,53 @@
       "applicationStatus": "not-applied",
       "archiveUrl": "job-archive/orbis-operations/4436220009/job-description.md",
       "archiveLabel": "Official JD summary"
+    },
+    {
+      "company": "Quora",
+      "tier": "S- · 时间窗口排除",
+      "area": "Remote US",
+      "market": "Texas-eligible remote",
+      "title": "Software Engineer New Grad, Machine Learning Platform - Quora (Remote)",
+      "jobId": "cf34f80e-fe5c-454d-bc9a-4c59993ffda0",
+      "url": "https://jobs.ashbyhq.com/quora/cf34f80e-fe5c-454d-bc9a-4c59993ffda0",
+      "status": "grad-year-rejected",
+      "found": "2026-11-04",
+      "discoveredDate": "2026-11-04",
+      "discoveredAt": "2026-11-04T08:55:31Z",
+      "firstSeen": "2026-11-04T08:55:31Z",
+      "lastChecked": "2026-11-04",
+      "lastCheckedAt": "2026-11-04T08:55:31Z",
+      "employment": "Full-time · New Grad · Remote US/Canada",
+      "gradYear": "Hard gate: 2025 or 2026 graduate; incompatible with May 2027 graduation",
+      "match": "Very high technical fit; explicit graduation window fails",
+      "ngCompatibility": "Incompatible · official minimum requirement is limited to 2025 or 2026 graduates",
+      "minimumQualifications": "2025 or 2026 BS/MS/PhD graduate in CS, Engineering or related field; interest in large-scale distributed systems and ML; Python, Go or C++ knowledge or ability to learn quickly; availability during 9am–3pm Pacific coordination hours.",
+      "assessment": "Official Quora Ashby posting is open and remote anywhere in the United States or Canada. The role works on production ML platform and ranking infrastructure, distributed LRM/LLM serving, GPU latency/throughput/cost, PyTorch standardization, ML developer tooling and feature-store modernization. No previous ML infrastructure experience is required, and the US salary range is $97,600–$139,000 plus equity and benefits. This would be a clear technical and compensation upgrade over Ryan, but the official minimum qualification explicitly limits candidates to 2025 or 2026 graduates. Qien's May 2027 graduation therefore triggers a hard timing gate; do not add to Table 2 or notify.",
+      "visa": "Official JD does not disclose F-1 OPT/STEM OPT, E-Verify, I-983 or future sponsorship. Visa verification was not pursued after the explicit graduation-window hard fail.",
+      "compensation": "US $97,600–$139,000 base + equity + benefits",
+      "officialLocations": [
+        "Remote - United States",
+        "Remote - Canada"
+      ],
+      "locationListComplete": true,
+      "officialPostedDate": "Tracked publicly since 2026-09-25; official page does not expose a posting date",
+      "officialStatus": "Open on 2026-11-04 at 02:55 CT; official Ashby application page and full indexed JD available.",
+      "source": "Quora official Ashby JD",
+      "verificationFlags": [
+        "grad-year-rejected",
+        "visa-not-pursued-after-grad-year-fail"
+      ],
+      "finalPriority": "排除 · 官方仅接受 2025/2026 届，Qien 2027 年 5 月毕业不符合",
+      "roleTrack": "ML Platform / Distributed Systems / GPU Model Serving / LLM Infrastructure",
+      "seniorityGap": "None; new graduate and no prior ML infrastructure experience required",
+      "technicalGrowth": "96/100 · production ML platform, distributed serving and GPU performance",
+      "brandPlatform": "93/100 · Quora/Poe at production scale",
+      "ryanUpgrade": "Clear technical and compensation upside, but eligibility hard gate prevents consideration",
+      "rejectionReason": "Official minimum qualifications require a 2025 or 2026 graduation year; May 2027 is outside the allowed window.",
+      "archiveUrl": "job-archive/quora/cf34f80e-fe5c-454d-bc9a-4c59993ffda0/job-description.md",
+      "archiveLabel": "JD 归档",
+      "archivedAt": "2026-11-04T08:55:31Z",
+      "applicationStatus": "not-applied"
     }
   ],
   "monitorAudit": [
