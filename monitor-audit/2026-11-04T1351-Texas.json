@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "run": {
+    "checkedAt": "2026-11-04T19:51:41Z",
+    "checkedAtLocal": "2026-11-04T13:51:41-06:00",
+    "scope": "Dallas/Austin/Texas Applied AI/ML/Data Science",
+    "result": "completed_no_verified_job_change_no_qualified_alert"
+  },
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible US remote"
+    ],
+    "startDate": "after 2027-05-31",
+    "experience": "0-2 years with zero-experience entry path; minimum cannot start at 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; exclude citizenship/green-card-only and explicit current/future sponsorship restrictions",
+    "excludedFunctions": [
+      "hardware",
+      "embedded",
+      "firmware",
+      "low-level drivers/runtime"
+    ],
+    "excludedCompanies": [
+      "Texas Instruments",
+      "D3V (paused)"
+    ],
+    "comparisonBaseline": "Ryan Associate Data Scientist, Dallas, $83k base, approximately $90k first year, production multi-agent AI"
+  },
+  "repositorySnapshotBefore": {
+    "branch": "main",
+    "head": "abca01715a16f41245d64fd300984a0001acb7c0",
+    "jobs": {
+      "path": "jobs.json",
+      "blobSha": "3a4df3176ed615a3a7fbb888db2d2ff1daf4fe1a",
+      "recordCount": 298,
+      "updatedAt": "2026-11-04T12:42:56Z",
+      "appliedCount": 4,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "blobSha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "blobSha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "priorAudit": {
+      "path": "monitor-audit/2026-11-04T1227-Texas.json",
+      "blobSha": "54f81966d4abaf90f71a6b78655efeddaa51cd4a",
+      "synced": true,
+      "pendingSync": [],
+      "lastSuccessfulWriteAt": "2026-11-04T18:28:31Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "check": "GitHub contents API returned 404 at run time",
+      "scrapingWorkflowFound": false,
+      "pagesWorkflowFound": false
+    }
+  },
+  "upstreamReview": {
+    "repository": "SimplifyJobs/New-Grad-Positions",
+    "previousListingsCommit": "61d9f7f6e07f2f26b6887624d565575540ac589b",
+    "currentListingsCommit": "d7b066ce1fb27af413f3d8175a72ed9c43b6979e",
+    "repositoryHeadObserved": "3303c9d0d2fa907ae788738511a498a7e6cc4dbb",
+    "commitsReviewed": [
+      "310ac48d29ab60c9bb0951ef8f8c7644a01d534d",
+      "1ddf4e983d7d4265125702fc9336c4a083e9f454",
+      "d7b066ce1fb27af413f3d8175a72ed9c43b6979e"
+    ],
+    "listingsDataCommitsReviewed": 3,
+    "readmeCommitsReviewed": 3,
+    "newRecordEvents": 0,
+    "statusChangeEvents": 10,
+    "relevantTexasOrRemoteEvents": 0,
+    "verifiedOfficialStatusChanges": 0,
+    "notes": [
+      "All ten upstream changes were active-to-inactive signals.",
+      "Changed records were outside Texas, in Canada, hardware/defense, senior, general software, or otherwise outside the monitor criteria.",
+      "No existing Dallas/Austin tracked record was affected."
+    ]
+  },
+  "officialReview": {
+    "searchesPerformed": 8,
+    "officialOrEmployerSourcesReviewed": 6,
+    "knownRecordsCrossChecked": 4,
+    "candidatesScreened": [
+      {
+        "company": "ShadowDragon",
+        "title": "Junior AI Engineer",
+        "jobId": "69df1efd-5f05-4a79-9432-30925eb6db3c",
+        "result": "existing_pending_no_change",
+        "reason": "Official Rippling page remains open and confirms Remote United States plus a zero-to-two-year AI/LLM/RAG/agent path, but still provides no verified post-May-2027 start, Texas residence eligibility, compensation, or OPT/STEM/future-sponsorship policy."
+      },
+      {
+        "company": "SambaNova Systems",
+        "title": "ML Infrastructure Engineer - New Grad",
+        "jobId": "6224938004",
+        "result": "existing_pending_no_change",
+        "reason": "Austin new-grad role remains visible with $131,200-$196,800 base plus equity and strong ML-infrastructure scope; post-May-2027 timing and OPT/STEM/future sponsorship remain unresolved."
+      },
+      {
+        "company": "GlobalFoundries",
+        "title": "AI/ML Systems Engineer - 2026 New College Graduate",
+        "jobId": "JR-2602829",
+        "result": "existing_pending_no_change",
+        "reason": "Official page remains visible in Richardson, but the 2026 cohort timing, work authorization and hardware-performance orientation remain unresolved."
+      },
+      {
+        "company": "Allstate",
+        "title": "Applied Machine Learning Engineer (All Levels)",
+        "jobId": "R27180",
+        "result": "not_added_no_new_evidence",
+        "reason": "Official page remains specifically USA-IL Remote rather than verified Texas-eligible; post-May-2027 timing is not stated and employment-based visa sponsorship is generally unavailable."
+      }
+    ],
+    "excludedSearchResults": [
+      "Martin's Point Associate Enterprise Data Engineer was a Maine-based remote record and changed only to inactive.",
+      "Capital One Software Engineer New Grad was Toronto, Canada.",
+      "Micron and AMD changes were hardware or out-of-location roles.",
+      "Amazon result was Senior Applied Scientist.",
+      "Arcfield role was defense systems engineering."
+    ]
+  },
+  "screening": {
+    "discoveredEvents": 10,
+    "potentiallyRelevantCandidatesReviewed": 4,
+    "newlyVerifiedQualified": 0,
+    "newlyPendingAdded": 0,
+    "newlyRejectedAdded": 0,
+    "verifiedStatusChanges": 0,
+    "clearRyanUpgrades": 0,
+    "duplicateNotificationsSuppressed": 4,
+    "jobsDataChanged": false,
+    "pagesChanged": false,
+    "appliedStatesChanged": false,
+    "decision": "No verified new or changed job met all location, timing, experience, work-authorization, function and Ryan-upgrade criteria."
+  },
+  "writes": {
+    "jobs": {
+      "status": "not_attempted_no_verified_change"
+    },
+    "pages": {
+      "status": "not_attempted_no_verified_change"
+    },
+    "archive": {
+      "status": "not_attempted_no_verified_new_job"
+    },
+    "audit": {
+      "status": "pending_readback",
+      "path": "monitor-audit/2026-11-04T1351-Texas.json"
+    }
+  },
+  "synced": false,
+  "pendingSync": [
+    "monitor-audit/2026-11-04T1351-Texas.json final synced readback"
+  ],
+  "consecutiveWriteFailures": 0,
+  "lastSuccessfulWriteAtBeforeRun": "2026-11-04T18:28:31Z",
+  "notification": {
+    "sent": false,
+    "reason": "No verified qualified new role, no verified status change, and no write-failure threshold reached."
+  }
+}
