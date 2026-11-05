@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-11-04T23:55:31-06:00",
+  "checkedAtUtc": "2026-11-05T05:55:31Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible remote"
+    ],
+    "startDate": "after 2027-05",
+    "experience": "0-2 years; minimum cannot require 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only and restrictive sponsorship language",
+    "excludedFunctions": [
+      "hardware",
+      "chip",
+      "embedded",
+      "firmware"
+    ],
+    "companyExclusions": [
+      "Texas Instruments",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist Dallas return offer ($83k base, ~90k first year, production multi-agent AI, 5% bonus/equity)"
+  },
+  "repositorySnapshotBefore": {
+    "head": "1b436588c5a5091b200812e739696defa62a36e2",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ed38f84ffc2ea45a1954f08af2060f1daf87ce16",
+      "count": 300,
+      "updatedAt": "2026-11-05T04:42:16Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIds": [
+      "112338",
+      "200677912-0157",
+      "R1002940",
+      "R172085"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-04T2242-Texas.json",
+      "sha": "576e94c0e75f0bf59ecb21aa6e25d391a0724694",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-05T04:43:36Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "status": 404,
+      "interpretation": "No workflows directory; no Pages deployment workflow was treated as job collection."
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "5c3d2f684c7f17d7d86826b9f3882eb40a6a8581",
+      "currentHead": "51be192b45021ab757d96ee5d5c14c0ee498b66c",
+      "commitsReviewed": [
+        "c17c44e5259f0fe24df80858a8e4db1dd9e5e02a",
+        "51be192b45021ab757d96ee5d5c14c0ee498b66c"
+      ],
+      "listingsDataCommitsReviewed": 2,
+      "changedRecordsReviewed": 0,
+      "relevantTexasEvents": 0,
+      "note": "Both incremental listings commits had empty diffs."
+    },
+    "webSearch": {
+      "queriesPerformed": 6,
+      "newVerifiedCandidates": 0,
+      "candidateReview": [
+        {
+          "company": "ShadowDragon",
+          "title": "Junior AI/Machine Learning Engineer",
+          "result": "duplicate-unchanged",
+          "reason": "Already tracked with start-date, visa and compensation verification flags; no verified status change."
+        },
+        {
+          "company": "Integra FEC",
+          "title": "Associate Data Scientist",
+          "result": "duplicate-unchanged",
+          "reason": "Already tracked as opportunity-cost rejected."
+        },
+        {
+          "company": "Striveworks",
+          "result": "duplicate-unchanged",
+          "reason": "Existing citizenship/security-clearance rejection remains correct."
+        },
+        {
+          "company": "Avride",
+          "result": "duplicate-unchanged",
+          "reason": "Existing Austin roles remain experience, sponsorship or direction rejections."
+        },
+        {
+          "company": "Way",
+          "result": "rejected-not-added",
+          "reason": "Search results were Staff/Senior roles."
+        },
+        {
+          "company": "Hippo",
+          "result": "rejected-not-added",
+          "reason": "Data Scientist role requires 5+ years."
+        },
+        {
+          "company": "University of Texas at Austin",
+          "jobId": "R_00047316",
+          "title": "Biostatistician I",
+          "result": "verified-stale-lead-not-added",
+          "reason": "Official page is open, but earliest start is July 20, 2026, salary starts at $66,229, and the role is not a 2027 cohort or clear Ryan upgrade. The posting is 30+ days old/reposted, so it is not a true new monitor event."
+        },
+        {
+          "company": "American Institutes for Research",
+          "title": "Data Scientist",
+          "result": "rejected-not-added",
+          "reason": "Search evidence indicates end-to-end workflow leadership and review of junior staff; no verified zero-experience 2027 Texas opening or clear Ryan upgrade."
+        }
+      ]
+    }
+  },
+  "screening": {
+    "verifiedNewJobs": 0,
+    "verifiedStatusChanges": 0,
+    "qualifiedJobs": 0,
+    "hardRejectedJobs": 0,
+    "notificationEligibleJobs": 0,
+    "duplicateNotificationsSuppressed": 0,
+    "conclusion": "No true new or changed, fully verified role met the location, post-May-2027 start, zero-experience, OPT/STEM OPT and Ryan-upgrade gates."
+  },
+  "changes": {
+    "jobsDataChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusChanged": false,
+    "jdArchiveChanged": false
+  },
+  "writes": {
+    "jobsJson": "not_attempted_no_change",
+    "dallasPage": "not_attempted_no_change",
+    "austinPage": "not_attempted_no_change",
+    "jdArchive": "not_attempted_no_change",
+    "audit": "staged_write_pending_readback"
+  },
+  "sync": {
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-04T2355-Texas.json finalization/readback"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-11-05T04:43:36Z"
+  },
+  "completedAt": null,
+  "completedAtUtc": null,
+  "repositorySnapshotAfter": null
+}
