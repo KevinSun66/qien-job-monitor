@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T17:16:09Z",
+  "checkedAt": "2026-11-05T17:18:06Z",
+  "checkedAtLocal": "2026-11-05T11:18:06-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "023852684075f577b7e570fd8959b7de6fc0e666",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "4a4ee8d07ba15039027b1a0c0a39b565d47c3525",
+      "count": 305,
+      "updatedAt": "2026-11-05T16:14:40Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T1015-Texas.json",
+      "sha": "9070c1c75b9d8c9b44d267447553214ad0578567",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "3fac118f82a9564b6d1bdb39847ba73fbb783350",
+      "currentHead": "72cbba9eec192642c84e3ef53ba554b356a4fbce",
+      "newListingCommits": 2,
+      "commits": [
+        {
+          "sha": "e5404d94d196a817d0d3251c37405dba116a3c0f",
+          "createdAt": "2026-11-05T16:31:36Z",
+          "listingBlobChanged": false,
+          "listingBlobSha": "0be0da63f0f26ddcaad6fb6fc2a28790da52acec"
+        },
+        {
+          "sha": "72cbba9eec192642c84e3ef53ba554b356a4fbce",
+          "createdAt": "2026-11-05T17:01:13Z",
+          "listingBlobChanged": false,
+          "listingBlobSha": "0be0da63f0f26ddcaad6fb6fc2a28790da52acec"
+        }
+      ]
+    },
+    "upstreamSignals": 0,
+    "officialSearchSignals": 1,
+    "discoveredSignals": 1,
+    "verifiedNewCandidates": 1,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "newRecords": [
+      {
+        "company": "Itron",
+        "jobId": "JR102937",
+        "title": "AI Solutions Architect Associate",
+        "location": "Austin, TX",
+        "officialStatus": "open",
+        "decision": "verification",
+        "unresolved": [
+          "post-May-2027 start",
+          "OPT/STEM OPT",
+          "official compensation",
+          "engineering depth",
+          "Ryan upgrade"
+        ]
+      }
+    ],
+    "notes": "Searches also returned Kyndryl R-66739, Striveworks 8002515003, MyFunded Futures 4390595009 and other already-recorded or clearly senior roles. No duplicates were added."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "Itron JR102937 passes the Austin and numeric-experience filters, but start timing, F-1 OPT/STEM OPT, compensation and comparative value versus Ryan remain unverified. Its scope is more HR AI enablement and platform configuration than core production ML engineering."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-pending-read-back",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T16:15:59Z",
+    "evidence": {
+      "archiveCommit": "6773c1ee83aeefc55899ca1a1474defb60f4517b",
+      "archiveBlobSha": "3297e3064adc7015eca6ed2fe4f8804e80d40ac1",
+      "archiveReadBack": true,
+      "jobsCommit": "038311aa56220f57b18e2a9a12993b89ab8486ec",
+      "jobsBlobSha": "79bbba858c70b19c0170889e5f2ee12dc38d7d7b",
+      "jobsReadBack": true,
+      "stagedCommit": null,
+      "stagedBlobSha": null,
+      "stagedReadBack": false
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": null
+}
