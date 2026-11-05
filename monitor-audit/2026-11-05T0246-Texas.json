@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T08:44:00Z",
+  "checkedAt": "2026-11-05T08:46:56Z",
+  "checkedAtLocal": "2026-11-05T02:46:56-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "6fb9f49a17546cd2a5af3e72b55e028b50f80e92",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ee18a66cf56dcc080cb30cda42c0b56d6cb0552f",
+      "count": 302,
+      "updatedAt": "2026-11-05T07:50:31Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "112338",
+      "200677912-0157",
+      "R1002940",
+      "R172085"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T0150-Texas.json",
+      "sha": "a49253ed7fc4cd76726bf10ed274d18379ac3bdf",
+      "synced": true
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "8ff67fe273d575d8420da73d593fb2794ad772dc",
+      "currentHead": "08cafbc45f44b9d688192ffb5108e9f0218f00bf",
+      "listingCommitsReviewed": [
+        "8afabcac722d8ca46d46aed3a13a53083fed0a14",
+        "08cafbc45f44b9d688192ffb5108e9f0218f00bf"
+      ],
+      "readmeCommitsObserved": [
+        "6ffe11fecfbc83abba50ef9112d14f948cd53992",
+        "776400760594d7a8f2c1845445749a3c709f5924"
+      ]
+    },
+    "discoveredCandidates": 4,
+    "officialJDsVerified": 2,
+    "candidateReview": [
+      {
+        "company": "Atlassian",
+        "title": "Machine Learning Engineer, 2027 Graduate U.S.",
+        "upstreamId": "0d1c69d1-e147-4307-a0d9-73744bf4a2cd",
+        "officialJobId": "25999",
+        "officialUrl": "https://campus-americas.icims.com/jobs/25999/machine-learning-engineer%2C-2027-graduate-u.s./job?in_iframe=1",
+        "status": "open/reactivated",
+        "location": "Seattle, Washington; hybrid; Seattle work required",
+        "experience": "2027 graduate; no full-time minimum stated",
+        "workAuthorization": "Explicitly ineligible for F-1/J-1; no sponsorship",
+        "duties": "Machine learning, generative AI, and agentic systems",
+        "decision": "rejected-not-added",
+        "reasons": [
+          "outside Dallas/Austin/Texas scope",
+          "explicit F-1/J-1 rejection",
+          "no sponsorship"
+        ]
+      },
+      {
+        "company": "Atlassian",
+        "title": "Data Scientist, 2027 Graduate U.S.",
+        "upstreamId": "d739b0c1-7de2-4820-8075-fc8cf49855fd",
+        "officialJobId": "26000",
+        "officialUrl": "https://campus-americas.icims.com/jobs/26000/data-scientist%2C-2027-graduate-u.s./job?mobile=true&needsRedirect=false",
+        "status": "open/reactivated",
+        "location": "Seattle, Washington; hybrid",
+        "experience": "Master's degree and graduation by August 2027; no full-time minimum stated",
+        "workAuthorization": "Explicitly ineligible for F-1/J-1; no sponsorship",
+        "duties": "Product data science and experimentation",
+        "decision": "rejected-not-added",
+        "reasons": [
+          "outside Dallas/Austin/Texas scope",
+          "explicit F-1/J-1 rejection",
+          "no sponsorship"
+        ]
+      },
+      {
+        "company": "Prime Controls",
+        "title": "Enterprise Automation Developer",
+        "location": "Lewisville, Texas",
+        "decision": "rejected-not-added",
+        "reasons": [
+          "enterprise automation is outside applied AI/ML/data-science scope"
+        ]
+      },
+      {
+        "company": "Yusen Logistics",
+        "title": "IT Reporting Analyst 1",
+        "location": "Grapevine, Texas among listed locations",
+        "decision": "rejected-not-added",
+        "reasons": [
+          "reporting role is outside applied AI/ML/data-science scope",
+          "no clear improvement over Ryan benchmark"
+        ]
+      }
+    ]
+  },
+  "screening": {
+    "verifiedNewOrReactivatedCandidates": 2,
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "benchmark": "Ryan Associate Data Scientist Dallas return offer: $83k base, approximately $90k first year, production multi-agent AI, 5% bonus/equity",
+    "result": "No verified candidate met all location, start-date, experience, work-authorization, responsibility, and benchmark rules."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-change",
+    "dallasPage": "not-attempted-no-change",
+    "austinPage": "not-attempted-no-change",
+    "archives": "not-attempted-no-change",
+    "audit": "staged",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T07:51:58Z"
+  }
+}
