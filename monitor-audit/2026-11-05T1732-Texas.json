@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T23:30:31Z",
+  "checkedAt": "2026-11-05T23:32:15Z",
+  "checkedAtLocal": "2026-11-05T17:32:15-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "1d9e93e96aeda58491bbcafb3bb62793c0b0c249",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "8dd11dbd65e8f2d83c00db8f25f31e155ee93001",
+      "count": 307,
+      "updatedAt": "2026-11-05T22:04:53Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T1621-Texas.json",
+      "sha": "5ff3a45954024301e5359bf237eabcfd4c2cb507",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "f9f78b94314c0e0a7e68528cce29113c26f92f4d",
+      "currentHead": "bb455f2ab684f73396e6e1301c313ab707264306",
+      "newListingCommits": 2,
+      "commits": [
+        {
+          "sha": "56840fb84fe70ab04476f50bd69ab1dc745f7403",
+          "currentStatusSignals": 1,
+          "targetTexasMatches": 0
+        },
+        {
+          "sha": "bb455f2ab684f73396e6e1301c313ab707264306",
+          "currentStatusSignals": 5,
+          "targetTexasMatches": 0
+        }
+      ]
+    },
+    "upstreamSignals": 6,
+    "officialSearchSignals": 9,
+    "discoveredSignals": 15,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "upstreamSignalsReviewed": [
+      "L3Harris Associate Software Engineer — Waco, Texas; general software role outside Dallas/Austin and changed active to inactive",
+      "Curtiss-Wright Graduate Engineer — Frederick, Maryland; outside target geography and changed active to inactive",
+      "Instacart Senior Machine Learning Engineer - Economics — senior role and changed active to inactive",
+      "Emerson Digital Hardware Engineer 1 — hardware exclusion and changed active to inactive",
+      "Sierra Space Software Engineer 1, DevOps/DevSecOps — Louisville, Colorado; outside target geography and changed active to inactive",
+      "Base Power Field Reliability Technician — technician/non-AI role and changed active to inactive"
+    ],
+    "officialSignalsReviewed": [
+      "Apple 200676435-0157 — already recorded; official minimum is 3+ years",
+      "Apple 200684348-0157 — already recorded; official minimum is 10+ years",
+      "Apple 200681260 — official minimum is 3-5 years",
+      "Apple 200645796-0157 — official minimum is at least 3 years",
+      "Apple 200690683-0157 — official minimum is 5 years",
+      "Apple 200681257-0157, 200690980-0157, 200689096-0157 and 200686562-0157 — Lead/Senior scopes, not 0-2 year entry roles"
+    ],
+    "notes": "Two upstream listing commits were reviewed. Their six current active-to-inactive signals were all outside the target geography, senior, hardware, technician or non-AI. Large removals of already inactive historical records were dataset compaction/cleanup and were not treated as current job-status events. Fresh official Apple results were existing or experience/seniority-ineligible; no duplicate was added."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies the Dallas/Austin, post-May-2027 timing, zero-starting experience, OPT/STEM OPT, role-scope, exclusion and Ryan-upgrade rules."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-change",
+    "dallasPage": "not-attempted-no-change",
+    "austinPage": "not-attempted-no-change",
+    "archives": "not-attempted-no-change",
+    "audit": "staged-awaiting-read-back",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T22:22:03Z",
+    "evidence": {}
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": null
+}
