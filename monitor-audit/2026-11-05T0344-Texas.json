@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T09:43:35Z",
+  "checkedAt": "2026-11-05T09:44:31Z",
+  "checkedAtLocal": "2026-11-05T03:44:31-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "ffe946ec63562cb2467cb0cc4b4e4e9017c18380",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ee18a66cf56dcc080cb30cda42c0b56d6cb0552f",
+      "count": 302,
+      "updatedAt": "2026-11-05T07:50:31Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T0252-Texas.json",
+      "sha": "ab06218e21f23b5ecceeb2958de4d230460389b2",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "08cafbc45f44b9d688192ffb5108e9f0218f00bf",
+      "currentHead": "008a238a6678125201d6bfeb15f2ed49a3c81db3",
+      "listingCommitsReviewed": [
+        "1039f5636a296aa884312bbbf9f5ee0dfaae006e",
+        "008a238a6678125201d6bfeb15f2ed49a3c81db3"
+      ],
+      "readmeCommitsObserved": [
+        "106649f0e249244ee61bb502a1b1cabcde05bb0f",
+        "da343043d85a6581eda73c31f5a59372f359a704"
+      ],
+      "additions": 27,
+      "statusTransitions": 2,
+      "oldInactiveRemovals": 6,
+      "targetAreaRelevantEvents": 0,
+      "notes": "New AI/ML/Data entries were outside Texas, overseas, BI/reporting, or federal/defense; no Dallas/Austin/Texas-remote actionable role."
+    },
+    "webSearch": {
+      "queriesPerformed": 3,
+      "verifiedNewCandidates": 0,
+      "notes": "Results repeated known records or senior/staff roles. Anonymous Jobgether Associate ML listing remains unverifiable and is not added."
+    },
+    "candidateReview": [
+      {
+        "company": "Steampunk",
+        "title": "Associate Data Scientist",
+        "location": "McLean, Virginia",
+        "decision": "out-of-scope-not-added",
+        "reasons": [
+          "outside Texas target"
+        ]
+      },
+      {
+        "company": "Navitus Health Solutions",
+        "title": "Business Intelligence Specialist",
+        "location": "Remote in USA",
+        "decision": "direction-rejected-not-added",
+        "reasons": [
+          "BI/reporting rather than applied AI/ML/data science",
+          "no verified clear upgrade over Ryan"
+        ]
+      },
+      {
+        "company": "General Dynamics Mission Systems",
+        "title": "Entry Level Engineer / Multiple Teams",
+        "location": "United States",
+        "decision": "unverified-direction-rejected-not-added",
+        "reasons": [
+          "generic engineering rather than verified applied AI/ML/data science",
+          "no verified Texas placement",
+          "defense eligibility not verified"
+        ]
+      },
+      {
+        "company": "Waabi",
+        "title": "Research Scientist, Simulation Agents and senior ML roles",
+        "location": "Dallas/Remote US among locations",
+        "decision": "seniority-rejected-not-added",
+        "reasons": [
+          "search results identify senior/staff or research-scientist hiring rather than 0–2-year entry role"
+        ]
+      },
+      {
+        "company": "Jobgether",
+        "title": "Associate Machine Learning Engineer",
+        "location": "Remote US",
+        "decision": "unverified-not-added",
+        "reasons": [
+          "employer represented only through anonymous aggregation",
+          "official employer identity and JD cannot be verified"
+        ]
+      }
+    ]
+  },
+  "screening": {
+    "upstreamAdditionsReviewed": 27,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "benchmark": "Ryan Associate Data Scientist Dallas return offer: $83k base, approximately $90k first year, production multi-agent AI, 5% bonus/equity",
+    "result": "No verified new or changed role met all location, start-date, experience, work-authorization, responsibility, and Ryan-upgrade rules."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-change",
+    "dallasPage": "not-attempted-no-change",
+    "austinPage": "not-attempted-no-change",
+    "archives": "not-attempted-no-change",
+    "audit": "staged",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T08:52:58Z"
+  }
+}
