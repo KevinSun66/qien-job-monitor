@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-11-04T21:37:08-06:00",
+  "checkedAtUtc": "2026-11-05T03:37:08Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible remote"
+    ],
+    "startDate": "after 2027-05",
+    "experience": "0-2 years; minimum cannot require 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only and restrictive sponsorship language",
+    "excludedFunctions": [
+      "hardware",
+      "chip",
+      "embedded",
+      "firmware"
+    ],
+    "companyExclusions": [
+      "Texas Instruments",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist Dallas return offer ($83k base, ~90k first year, production multi-agent AI, 5% bonus/equity)"
+  },
+  "repositorySnapshotBefore": {
+    "head": "4f464855cad178f9558c59b164ab6fedf3b9e777",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "a731534a0e3920f9f3306e6fd518a0390ac66d13",
+      "count": 298,
+      "updatedAt": "2026-11-04T23:42:02Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIds": [
+      "112338",
+      "200677912-0157",
+      "R1002940",
+      "R172085"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-04T2100-Texas.json",
+      "sha": "b83a6d606e5ef1d5ac53b48c54e8793defbc4ce5",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "status": 404,
+      "interpretation": "No workflows directory; no Pages deployment workflow was treated as job collection."
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "56e96276341e2d5565fb0c7521758e7047cdd9a4",
+      "currentHead": "c50103972179c50971572833b63347544dde6cfb",
+      "commitsReviewed": [
+        "48b0f1c4979397900484db23860eb2b6af6b65ca",
+        "260b19d82f67915d40d91bb1b9b656526433295b",
+        "c50103972179c50971572833b63347544dde6cfb"
+      ],
+      "listingsDataCommitsReviewed": 2,
+      "readmeCommitsReviewed": 1,
+      "sourceEventsReviewed": 30,
+      "latestListingsCommit": "c50103972179c50971572833b63347544dde6cfb",
+      "relevantLocationOrRoleSignals": 5,
+      "candidateReview": [
+        {
+          "company": "Myriad360",
+          "jobId": "8930382002",
+          "title": "Junior AI and Automation Engineer",
+          "location": "United States / discovery source Remote in USA",
+          "result": "new-internal-verification",
+          "reason": "Real open 0-2 year GenAI/agents role. Post-May-2027 start, Texas remote eligibility, OPT/STEM OPT and clear Ryan upgrade remain unverified; archived internally and not added to recommendation pages."
+        },
+        {
+          "company": "Cisco",
+          "jobId": "2028784",
+          "title": "Software Engineer Full Stack / Backend I",
+          "location": "Austin/Dallas/Plano and other cities",
+          "result": "out-of-scope-not-added",
+          "reason": "Generic full-stack/backend software engineering, not core Applied AI/ML/Data Science."
+        },
+        {
+          "company": "Vizient",
+          "jobId": "35731R",
+          "title": "Associate Software Engineer",
+          "location": "Irving, TX",
+          "result": "adjacent-role-not-added",
+          "reason": "Generic software engineering; existing Vizient associate SWE records already establish no clear Applied AI/ML/DS or Ryan upgrade."
+        },
+        {
+          "company": "Goldman Sachs",
+          "jobId": "171569",
+          "title": "New Analyst - Engineering",
+          "result": "different-requisition-no-tracked-change",
+          "reason": "Upstream reactivated requisition 171569; tracked Dallas role 171568 remained officially open, so no tracked status change."
+        },
+        {
+          "company": "General Motors",
+          "title": "Machine Learning Systems Engineer - Data Labeling Engineering",
+          "result": "reactivation-reviewed-no-eligible-texas-change",
+          "reason": "No verified new eligible Dallas/Austin/Texas-remote change for the monitored set."
+        }
+      ]
+    },
+    "webSearch": {
+      "queriesPerformed": 4,
+      "officialSources": [
+        "Myriad360 company careers index listed Junior AI and Automation Engineer with an Apply link.",
+        "Goldman Sachs official Dallas 171568 page remained searchable and open on 2026-11-04."
+      ],
+      "limitations": [
+        "Myriad360 official posting did not disclose a post-May-2027 start window.",
+        "The application asks about sponsorship but does not state an OPT/STEM OPT policy.",
+        "Company index says United States; long-term Texas remote eligibility needs employer confirmation."
+      ]
+    }
+  },
+  "screening": {
+    "verifiedNewJobs": 1,
+    "verifiedStatusChanges": 0,
+    "qualifiedJobs": 0,
+    "internalVerificationJobs": 1,
+    "notificationEligibleJobs": 0,
+    "duplicateNotificationsSuppressed": 0,
+    "conclusion": "Myriad360 was a real new and technically relevant role, but required location, start-date, visa and Ryan-upgrade gates remain unresolved; no user notification or page promotion."
+  },
+  "changes": {
+    "jobsDataChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusChanged": false,
+    "jdArchiveChanged": true
+  },
+  "writes": {
+    "jobsJson": {
+      "status": "succeeded",
+      "commit": "bb8d8fb280ba129b644e0e2c14633ac932435897",
+      "blobSha": "222f68ff0cfb0792fa53a258e27fe3161fad2e1e"
+    },
+    "dallasPage": "not_attempted_no_change",
+    "austinPage": "not_attempted_no_change",
+    "jdArchive": {
+      "status": "succeeded",
+      "path": "job-archive/myriad360/8930382002/job-description.md",
+      "commit": "dd13a72125eeea1c9ba21e6f545943ea53639f7e"
+    },
+    "audit": "pending_readback"
+  },
+  "sync": {
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-04T2137-Texas.json readback and finalization"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-11-05T03:01:07Z"
+  }
+}
