@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T14:28:46Z",
+  "checkedAt": "2026-11-05T14:28:59Z",
+  "checkedAtLocal": "2026-11-05T08:28:59-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "35d9da060ac1804fa99a6475961d11bb092f571c",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "632f43df267bd74accd6d40d3aedcb3937317f8a",
+      "count": 303,
+      "updatedAt": "2026-11-05T13:07:35Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T0723-Texas.json",
+      "sha": "8c3a810f9060f2cceb7cdcc05d968795d81e90ed",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "cbef57249b35897d48217bc1a63a05b55fd04d4c",
+      "currentHead": "e60e13d6517a315925585db5b857206efc5c63be",
+      "newListingCommits": 2,
+      "commits": [
+        {
+          "sha": "8eac3b7ef6c7dbbc7be97ee520bbc2055d4bcdfd",
+          "createdAt": "2026-11-05T13:31:45Z",
+          "listingBlobChanged": false,
+          "listingBlobSha": "253414c1e846102a8b7b736ea00eaaafea1f6485"
+        },
+        {
+          "sha": "e60e13d6517a315925585db5b857206efc5c63be",
+          "createdAt": "2026-11-05T14:02:11Z",
+          "listingBlobChanged": true,
+          "changedRecords": 3
+        }
+      ]
+    },
+    "discoveredSignals": 3,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "excludedSignals": [
+      {
+        "company": "WisdomTree",
+        "title": "Product Manager - Digital Assets - Digital Investment Products",
+        "reason": "Not an Applied AI/ML/Data Science role and not Texas-targeted."
+      },
+      {
+        "company": "Computershare",
+        "title": "Graduate AI Engineer",
+        "count": 2,
+        "reason": "Upstream closures are outside the tracked Texas-eligible set; no matching monitored record changed."
+      }
+    ],
+    "notes": "The 13:31 UTC upstream commit retained the identical listings.json blob. The 14:02 UTC commit closed three non-target listings. Paylocity 49063 remains in start-date/visa/Texas-remote verification status and was not duplicated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies the Dallas/Austin or verified Texas-remote, post-May-2027 start, 0–2 year, OPT/STEM OPT, role-scope, exclusion, and Ryan-benchmark rules."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-change",
+    "dallasPage": "not-attempted-no-change",
+    "austinPage": "not-attempted-no-change",
+    "archives": "not-attempted-no-change",
+    "audit": "staged-pending-read-back",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T13:24:14Z",
+    "evidence": {
+      "stagedCommit": null,
+      "stagedBlobSha": null,
+      "stagedReadBack": false
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": null
+}
