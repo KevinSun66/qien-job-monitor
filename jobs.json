@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T07:50:31Z",
+  "updatedAt": "2026-11-05T13:07:35Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11484,6 +11484,47 @@
       "archiveLabel": "JD 归档",
       "archivedAt": "2026-11-05T07:50:31Z",
       "rejectionReason": null
+    },
+    {
+      "company": "Paylocity",
+      "tier": "A+",
+      "area": "Remote US",
+      "market": "Texas-eligible remote verification",
+      "title": "Associate Machine Learning Engineer (49063)",
+      "employment": "Full-time · Fully Remote US",
+      "gradYear": "0–2 years · no graduation cohort stated",
+      "match": "High potential · start date and visa pending",
+      "ngCompatibility": "Experience gate passes: 0–2 years; post-May-2027 start not stated",
+      "assessment": "Official Paylocity listing is currently indexed with Apply Now. The role builds and operates ML pipelines, model deployment processes, cloud ML infrastructure and CI/CD using Python, AWS, Databricks and Spark. Base pay is materially above Ryan, but the posting appears to be an immediate general hire and does not disclose a post-May-2027 start window or F-1 OPT/STEM OPT terms. Keep for verification; do not promote or notify until both gates are confirmed.",
+      "visa": "Official JD does not disclose F-1 OPT/STEM OPT, E-Verify/I-983, or sponsorship policy; visa-verification.",
+      "found": "2026-11-05",
+      "url": "https://www.paylocity.com/company/careers/all-listings.job.49063/",
+      "status": "start-date-visa-verification",
+      "finalPriority": "待核验 · 不通知",
+      "roleTrack": "Machine Learning Engineering / ML Platform / MLOps",
+      "technicalGrowth": "93/100",
+      "brandPlatform": "88/100",
+      "ryanUpgrade": "Potential clear upgrade: $106.9k–$152.7k base and production ML platform; start date and OPT remain unverified.",
+      "compensation": "$106,900–$152,700 base (official posting range) + benefits",
+      "officePerks": "Fully remote within the United States; Texas residence not separately excluded, but state eligibility should be confirmed.",
+      "jobId": "49063",
+      "strategyPriority": "Verification queue only",
+      "companyProfile": "Paylocity is a public cloud HCM and payroll software company serving millions of users.",
+      "whyRyan": "Higher official base range and stronger ML platform scope than Ryan; actionable only if 2027 timing and OPT/STEM OPT are confirmed.",
+      "targetRoles": "Associate Machine Learning Engineer / ML Platform / MLOps",
+      "careersUrl": "https://www.paylocity.com/company/careers/all-listings/",
+      "lastChecked": "2026-11-05",
+      "lastCheckedAt": "2026-11-05T13:07:35Z",
+      "verificationFlags": [
+        "start-date-verification",
+        "visa-verification",
+        "texas-remote-verification"
+      ],
+      "officialStatus": "Official Paylocity search index displayed the role with Apply Now during the 2026-11-05 check.",
+      "officialStatusVerifiedAt": "2026-11-05T13:07:35Z",
+      "archiveTextUrl": "job-archive/paylocity/49063/job-description.md",
+      "archivedAt": "2026-11-05T13:07:35Z",
+      "archiveNote": "Paraphrased official JD snapshot with status, location, experience, compensation, duties, and unresolved gates."
     }
   ],
   "monitorAudit": [
