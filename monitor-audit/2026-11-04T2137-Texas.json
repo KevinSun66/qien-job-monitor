@@ -151,23 +151,70 @@
     "jobsJson": {
       "status": "succeeded",
       "commit": "bb8d8fb280ba129b644e0e2c14633ac932435897",
-      "blobSha": "222f68ff0cfb0792fa53a258e27fe3161fad2e1e"
+      "blobSha": "222f68ff0cfb0792fa53a258e27fe3161fad2e1e",
+      "readbackVerified": true
     },
     "dallasPage": "not_attempted_no_change",
     "austinPage": "not_attempted_no_change",
     "jdArchive": {
       "status": "succeeded",
       "path": "job-archive/myriad360/8930382002/job-description.md",
-      "commit": "dd13a72125eeea1c9ba21e6f545943ea53639f7e"
+      "commit": "dd13a72125eeea1c9ba21e6f545943ea53639f7e",
+      "readbackVerified": true
     },
-    "audit": "pending_readback"
+    "audit": "write_succeeded_and_staged_readback_verified"
   },
   "sync": {
-    "synced": false,
-    "pending": [
-      "monitor-audit/2026-11-04T2137-Texas.json readback and finalization"
-    ],
+    "synced": true,
+    "pending": [],
     "consecutiveWriteFailures": 0,
-    "lastSuccessfulWriteAt": "2026-11-05T03:01:07Z"
+    "lastSuccessfulWriteAt": "2026-11-05T03:38:43Z",
+    "evidence": {
+      "stagedCommit": "505026fef62c5a266c7e41925194e60ef588988d",
+      "stagedBlobSha": "86ea2c5eee2105faf924691afa3c69a7d89e4f08",
+      "stagedReadbackVerified": true,
+      "finalizationReadback": "verified_after_update"
+    }
+  },
+  "completedAt": "2026-11-04T21:38:43-06:00",
+  "completedAtUtc": "2026-11-05T03:38:43Z",
+  "repositorySnapshotAfter": {
+    "headAfterAuditStage": "505026fef62c5a266c7e41925194e60ef588988d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "222f68ff0cfb0792fa53a258e27fe3161fad2e1e",
+      "count": 299,
+      "updatedAt": "2026-11-05T03:37:08Z",
+      "changed": true,
+      "myriadRolePresent": true,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archive": {
+      "path": "job-archive/myriad360/8930382002/job-description.md",
+      "sha": "a9adf209ef364cbaab8d4bda828121cf795565c8",
+      "present": true
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "status": 404
+    }
   }
 }
