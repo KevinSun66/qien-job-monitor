@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T11:32:21Z",
+  "checkedAt": "2026-11-05T11:33:45Z",
+  "checkedAtLocal": "2026-11-05T05:33:45-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "89bb57658e4d40763a511a8edcb6ebcf21420701",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ee18a66cf56dcc080cb30cda42c0b56d6cb0552f",
+      "count": 302,
+      "updatedAt": "2026-11-05T07:50:31Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T0416-Texas.json",
+      "sha": "4bd7c0e5ec3867a2116933da6926b9e16abe11f1",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "bdcb280d564eb7a92ba5539794ef3244d6e2ae98",
+      "currentHead": "ec945f659d02b07fd956ffd04aa5c4fb263793a6",
+      "listingCommitsReviewed": [
+        "2e5741b0721d2ff06f54bff6ef96442c6299b340",
+        "cb6257e7c53be6f1b8092097472cc1237691607d",
+        "ec945f659d02b07fd956ffd04aa5c4fb263793a6"
+      ],
+      "readmeCommitsObserved": [
+        "9f6501ab5f4e467f1f1e7e481561476e664d1abe",
+        "9dc6b0e301274ebdab578acf53a724d4158477dc",
+        "bdd9582f7e4fcabb9ab9f791414db5179c3f89f2"
+      ],
+      "additions": 10,
+      "statusTransitions": 11,
+      "oldInactiveRemovals": 1,
+      "targetAreaRelevantSignals": 1
+    },
+    "webSearch": {
+      "queriesPerformed": 4,
+      "verifiedNewCandidates": 0
+    },
+    "candidateReview": [
+      {
+        "company": "GM Financial",
+        "title": "Software Development Engineer I (Mobile)",
+        "jobId": "260957",
+        "location": "Irving, Texas",
+        "repositoryStatus": "ng-verification",
+        "upstreamSignal": "active to inactive",
+        "officialUrl": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/260957",
+        "officialVerification": "URL remains reachable but rendered no readable JD; current third-party employer index still listed the role open as of 2026-11-04",
+        "decision": "status-conflict-no-write",
+        "reasons": [
+          "closure not verified on official source",
+          "role remains generic mobile software engineering rather than applied AI/ML/data science",
+          "experience, OPT/STEM OPT and post-May-2027 start remain unverified"
+        ]
+      },
+      {
+        "company": "Goldman Sachs",
+        "title": "2027 New Analyst - Engineering",
+        "jobId": "171569",
+        "location": "New York, New York",
+        "upstreamSignal": "inactive→active→inactive during this run window",
+        "officialUrl": "https://higher.gs.com/roles/171569",
+        "decision": "out-of-scope-no-write",
+        "reasons": [
+          "New York requisition is distinct from monitored Dallas 171568",
+          "no Dallas record status change"
+        ]
+      },
+      {
+        "company": "Micron Technology",
+        "title": "Engineer – Quality Metro Real-time Defect Analysis",
+        "jobId": "JR94374",
+        "location": "Leander, Texas signal",
+        "upstreamSignal": "old inactive record removed",
+        "decision": "direction-and-company-scope-no-write",
+        "reasons": [
+          "semiconductor manufacturing/defect-analysis role does not establish software Applied AI/ML/DS fit",
+          "no current active posting signal"
+        ]
+      }
+    ]
+  },
+  "screening": {
+    "upstreamAdditionsReviewed": 10,
+    "statusSignalsReviewed": 11,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "benchmark": "Ryan Associate Data Scientist Dallas return offer: $83k base, approximately $90k first year, production multi-agent AI, 5% bonus/equity",
+    "result": "No verified new or changed role met all monitoring rules."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-verified-change",
+    "dallasPage": "not-attempted-no-change",
+    "austinPage": "not-attempted-no-change",
+    "archives": "not-attempted-no-verified-change",
+    "audit": "staged",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T10:16:42Z"
+  }
+}
