@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-11-04T21:00:18-06:00",
+  "checkedAtUtc": "2026-11-05T03:00:18Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible remote"
+    ],
+    "startDate": "after 2027-05",
+    "experience": "0-2 years; minimum cannot require 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only and restrictive sponsorship language",
+    "excludedFunctions": [
+      "hardware",
+      "chip",
+      "embedded",
+      "firmware"
+    ],
+    "companyExclusions": [
+      "Texas Instruments",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist Dallas return offer ($83k base, ~90k first year, production multi-agent AI, 5% bonus/equity)"
+  },
+  "repositorySnapshotBefore": {
+    "head": "7e175ab5536260a2996a42a4819215f5caa4a4b3",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "a731534a0e3920f9f3306e6fd518a0390ac66d13",
+      "count": 298,
+      "updatedAt": "2026-11-04T23:42:02Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIds": [
+      "112338",
+      "200677912-0157",
+      "R1002940",
+      "R172085"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-04T1935-Texas.json",
+      "sha": "2a8346568aada525302ec543435763ecef49dac7",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "status": 404,
+      "interpretation": "No workflows directory; no Pages deployment workflow was treated as job collection."
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "e3c356e566bc8f60e13c646e232996991b466c3b",
+      "currentHead": "56e96276341e2d5565fb0c7521758e7047cdd9a4",
+      "commitsReviewed": [
+        "dcd8979bbc0c878ae6b792f7420b79a8277814ba",
+        "192f02a3a99881625f3dc2d309dbe78c3d861b1d",
+        "b92df74fc27546535e9064d0fc9db003b085a8a6",
+        "56e96276341e2d5565fb0c7521758e7047cdd9a4"
+      ],
+      "listingsDataCommitsReviewed": 2,
+      "readmeCommitsReviewed": 2,
+      "latestListingsCommit": "b92df74fc27546535e9064d0fc9db003b085a8a6",
+      "changedRecordsReviewed": 48,
+      "relevantLocationSignals": 3,
+      "candidateReview": [
+        {
+          "company": "Cisco",
+          "sourceId": "07e1f6dd-a46e-489d-b04c-f42fe868abfc",
+          "jobId": "2028784",
+          "title": "Software Engineer Full Stack / Backend I",
+          "location": "Austin, TX",
+          "sourceStatus": "active",
+          "result": "out-of-scope-not-added",
+          "reason": "Generic full-stack/backend software engineering, not Applied AI/ML/Data Science. Official exact requisition content was not retrievable, so no verified job record was created."
+        },
+        {
+          "company": "Anderson Merchandisers",
+          "sourceId": "c5064763-1e7d-4712-a2ed-356e98b44688",
+          "jobId": "R0078210-1",
+          "title": "Data Validation Specialist",
+          "location": "Remote in USA",
+          "sourceStatus": "active",
+          "result": "out-of-scope-unverified-not-added",
+          "reason": "Public descriptions identify a part-time annotation/validation quality role rather than Applied AI/ML/Data Science; official Workday page was inaccessible, so Texas eligibility and official JD were not treated as verified."
+        },
+        {
+          "company": "Goldman Sachs",
+          "sourceId": "ebecfe1f-3890-4cf8-8663-d7b118197e24",
+          "jobId": "171569",
+          "title": "New Analyst - Engineering",
+          "sourceStatusChange": "active to inactive",
+          "result": "different-requisition-no-tracked-change",
+          "reason": "The changed upstream record is requisition 171569. The tracked Dallas 2027 Engineering New Analyst is requisition 171568, whose official page remained open and searchable on 2026-11-04."
+        }
+      ],
+      "otherStatusSignals": "Reviewed Apple, NVIDIA, LLNL, L3Harris, American Express, Schmidt Sciences, CWILL, Bealls, Mercury and FICO changes; none represented a tracked eligible Texas Applied AI/ML/DS role."
+    },
+    "webSearch": {
+      "queriesPerformed": 8,
+      "officialCandidatesReviewed": 8,
+      "duplicatesOrExistingDecisions": [
+        "Kyndryl R-66739 remains a hard OPT/STEM OPT rejection.",
+        "Striveworks 8002515003 remains a citizenship/security-clearance rejection.",
+        "Applied Materials R2627684 remains open but is already opportunity-cost rejected.",
+        "RSM JR122103 remains an explicit F-1/sponsorship rejection.",
+        "GM JR-202620428 remains an explicit OPT/STEM OPT rejection.",
+        "SHI JR3649 remains a 1-2 year minimum-experience rejection.",
+        "UT Austin R_00049413 was not a verified 0-year new-grad match.",
+        "Avride board results were existing experience, sponsorship or direction rejections."
+      ]
+    }
+  },
+  "screening": {
+    "verifiedNewJobs": 0,
+    "verifiedStatusChanges": 0,
+    "qualifiedJobs": 0,
+    "notificationEligibleJobs": 0,
+    "duplicateNotificationsSuppressed": 0,
+    "conclusion": "No verified new or changed role met all eligibility rules and clearly improved on the Ryan benchmark."
+  },
+  "changes": {
+    "jobsDataChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusChanged": false,
+    "jdArchiveChanged": false
+  },
+  "writes": {
+    "jobsJson": "not_attempted_no_change",
+    "dallasPage": "not_attempted_no_change",
+    "austinPage": "not_attempted_no_change",
+    "jdArchive": "not_attempted_no_change",
+    "audit": "pending_readback"
+  },
+  "sync": {
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-04T2100-Texas.json readback and finalization"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-11-05T01:36:40Z"
+  }
+}
