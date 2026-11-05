@@ -116,22 +116,52 @@
     "dallasPage": "not-attempted-no-table-change",
     "austinPage": "not-attempted-no-table-change",
     "archives": "succeeded-and-read-back",
-    "audit": "staged-awaiting-read-back",
-    "synced": false,
-    "pending": [
-      "audit-finalization"
-    ],
-    "lastSuccessfulWriteAt": "2026-11-05T22:04:53Z",
+    "audit": "succeeded-and-read-back",
+    "synced": true,
+    "pending": [],
+    "lastSuccessfulWriteAt": "2026-11-05T22:06:21Z",
     "evidence": {
       "archiveCommit": "6e07a4ea74700bfc85b6e7581e490d0557d140d5",
       "archiveBlobSha": "ffcb1ab2e28c570cda677a84526af6ac24413b39",
       "archiveReadBack": true,
       "jobsCommit": "2cc8d3146cfecca891fd77435dfd23e7ba8ec007",
       "jobsBlobSha": "8dd11dbd65e8f2d83c00db8f25f31e155ee93001",
-      "jobsReadBack": true
+      "jobsReadBack": true,
+      "stagedCommit": "e44f379b966335a7e326e83804517d9d3c30719f",
+      "stagedBlobSha": "12238842475782a70245cf3871100aeeea28d84e",
+      "stagedReadBack": true
     }
   },
-  "completedAt": null,
-  "completedAtLocal": null,
-  "repositorySnapshotAfter": null
+  "completedAt": "2026-11-05T22:06:21Z",
+  "completedAtLocal": "2026-11-05T16:06:21-06:00",
+  "repositorySnapshotAfter": {
+    "headCommitBeforeFinalization": "e44f379b966335a7e326e83804517d9d3c30719f",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "8dd11dbd65e8f2d83c00db8f25f31e155ee93001",
+      "count": 307,
+      "updatedAt": "2026-11-05T22:04:53Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
 }
