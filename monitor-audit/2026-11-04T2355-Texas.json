@@ -151,17 +151,53 @@
     "dallasPage": "not_attempted_no_change",
     "austinPage": "not_attempted_no_change",
     "jdArchive": "not_attempted_no_change",
-    "audit": "staged_write_pending_readback"
+    "audit": "write_succeeded_and_staged_readback_verified"
   },
   "sync": {
-    "synced": false,
-    "pending": [
-      "monitor-audit/2026-11-04T2355-Texas.json finalization/readback"
-    ],
+    "synced": true,
+    "pending": [],
     "consecutiveWriteFailures": 0,
-    "lastSuccessfulWriteAt": "2026-11-05T04:43:36Z"
+    "lastSuccessfulWriteAt": "2026-11-05T05:56:10Z",
+    "evidence": {
+      "stagedCommit": "bd390425e7b05fa28e08524232a680f318f5d582",
+      "stagedBlobSha": "440283f202dcd0c7f2a47646304e9eaf6246ffe1",
+      "stagedReadbackVerified": true,
+      "finalizationReadback": "verified_after_update"
+    }
   },
-  "completedAt": null,
-  "completedAtUtc": null,
-  "repositorySnapshotAfter": null
+  "completedAt": "2026-11-04T23:56:10-06:00",
+  "completedAtUtc": "2026-11-05T05:56:10Z",
+  "repositorySnapshotAfter": {
+    "headAfterAuditStage": "bd390425e7b05fa28e08524232a680f318f5d582",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ed38f84ffc2ea45a1954f08af2060f1daf87ce16",
+      "count": 300,
+      "updatedAt": "2026-11-05T04:42:16Z",
+      "changed": false,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "status": 404
+    }
+  }
 }
