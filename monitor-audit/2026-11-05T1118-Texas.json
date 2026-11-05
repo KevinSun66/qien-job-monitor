@@ -106,12 +106,10 @@
     "dallasPage": "not-attempted-no-page-change",
     "austinPage": "not-attempted-no-page-change",
     "archives": "succeeded-and-read-back",
-    "audit": "staged-pending-read-back",
-    "synced": false,
-    "pending": [
-      "audit-finalization"
-    ],
-    "lastSuccessfulWriteAt": "2026-11-05T16:15:59Z",
+    "audit": "succeeded-and-read-back",
+    "synced": true,
+    "pending": [],
+    "lastSuccessfulWriteAt": "2026-11-05T17:18:37Z",
     "evidence": {
       "archiveCommit": "6773c1ee83aeefc55899ca1a1474defb60f4517b",
       "archiveBlobSha": "3297e3064adc7015eca6ed2fe4f8804e80d40ac1",
@@ -119,12 +117,41 @@
       "jobsCommit": "038311aa56220f57b18e2a9a12993b89ab8486ec",
       "jobsBlobSha": "79bbba858c70b19c0170889e5f2ee12dc38d7d7b",
       "jobsReadBack": true,
-      "stagedCommit": null,
-      "stagedBlobSha": null,
-      "stagedReadBack": false
+      "stagedCommit": "059c5b8c11d8fcdad84b66bb7c92acc5f713c311",
+      "stagedBlobSha": "77f8e25476043b36106dbeae1c8b1e64aa67b99f",
+      "stagedReadBack": true
     }
   },
-  "completedAt": null,
-  "completedAtLocal": null,
-  "repositorySnapshotAfter": null
+  "completedAt": "2026-11-05T17:18:37Z",
+  "completedAtLocal": "2026-11-05T11:18:37-06:00",
+  "repositorySnapshotAfter": {
+    "headCommitBeforeFinalization": "059c5b8c11d8fcdad84b66bb7c92acc5f713c311",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "79bbba858c70b19c0170889e5f2ee12dc38d7d7b",
+      "count": 306,
+      "updatedAt": "2026-11-05T17:17:35Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
 }
