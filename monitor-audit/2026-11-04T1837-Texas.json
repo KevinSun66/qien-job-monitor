@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-11-04T18:37:31-06:00",
+  "checkedAtUtc": "2026-11-05T00:37:31Z",
+  "branch": "main",
+  "repository": "KevinSun66/qien-job-monitor",
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible remote"
+    ],
+    "startDate": "after 2027-05",
+    "experience": "0-2 years; minimum cannot require 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only and restrictive sponsorship language",
+    "excludedFunctions": [
+      "hardware",
+      "chip",
+      "embedded",
+      "firmware"
+    ],
+    "benchmark": "Ryan Associate Data Scientist Dallas return offer ($83k base, ~90k first year, production multi-agent AI, 5% bonus/equity)"
+  },
+  "repositorySnapshotBefore": {
+    "head": "d8c8d686209c885bd238a8b15f1e34b1f0a2d28f",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "a731534a0e3920f9f3306e6fd518a0390ac66d13",
+      "count": 298,
+      "updatedAt": "2026-11-04T23:42:02Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIds": [
+      "112338",
+      "200677912-0157",
+      "R1002940",
+      "R172085"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-04T1742-Texas.json",
+      "sha": "113f658b7f0b5488281e142eee51ad80b1be0eb0",
+      "synced": true
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "status": 404,
+      "interpretation": "No workflows directory; no Pages workflow was treated as job collection."
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "93e05a22fcf7dceff403f9f13a58bb6748eddda0",
+      "currentHead": "0c5c86570c2d7a537fa2f40104a7fbdde9b3cc6c",
+      "commitsReviewed": [
+        "f830a1bb9c3fdf0fddd26fc078b6f4d575f37562",
+        "fba5561546c168e60ab4da0eed43008b32edd069",
+        "6faf5a32bf433eefb919226f3862b7a9b5e13ac6",
+        "0c5c86570c2d7a537fa2f40104a7fbdde9b3cc6c"
+      ],
+      "listingsDataCommitsReviewed": 2,
+      "readmeCommitsReviewed": 2,
+      "latestListingsCommit": "6faf5a32bf433eefb919226f3862b7a9b5e13ac6",
+      "relevantTexasEvents": 0
+    },
+    "webSearchQueries": 4,
+    "candidatesFound": 4,
+    "candidateReview": [
+      {
+        "company": "Striveworks",
+        "role": "Junior Machine Learning Engineer",
+        "id": "8002515003",
+        "result": "duplicate-unchanged",
+        "reason": "Official posting remains open but requires US citizenship/Secret clearance; existing citizenship rejection remains correct."
+      },
+      {
+        "company": "MyFunded Futures",
+        "role": "Junior Machine Learning Engineer",
+        "id": "4390595009",
+        "result": "stale-search-result",
+        "reason": "Search cache surfaced the posting, but official closure was already verified and recorded in the previous run."
+      },
+      {
+        "company": "Avride",
+        "role": "Machine Learning role",
+        "id": "4013230009",
+        "result": "rejected",
+        "reason": "Requires 3+ years and/or disallows sponsorship."
+      },
+      {
+        "company": "Amazon",
+        "role": "Austin/Dallas ML search results",
+        "result": "rejected",
+        "reason": "Results were internships or senior roles, with no qualifying post-graduation full-time role."
+      }
+    ]
+  },
+  "screening": {
+    "verifiedNewJobs": 0,
+    "verifiedStatusChanges": 0,
+    "qualifiedJobs": 0,
+    "notificationEligibleJobs": 0,
+    "duplicateNotificationsSuppressed": 0,
+    "conclusion": "No verified new or changed role met all criteria and clearly improved on the Ryan benchmark."
+  },
+  "changes": {
+    "jobsDataChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusChanged": false,
+    "jdArchiveChanged": false
+  },
+  "writes": {
+    "jobsJson": "not_attempted_no_change",
+    "dallasPage": "not_attempted_no_change",
+    "austinPage": "not_attempted_no_change",
+    "jdArchive": "not_attempted_no_change",
+    "audit": "pending_readback"
+  },
+  "sync": {
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-04T1837-Texas.json readback and finalization"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-11-04T23:43:02Z"
+  }
+}
