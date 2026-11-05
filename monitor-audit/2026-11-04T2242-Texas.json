@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-11-04T22:42:16-06:00",
+  "checkedAtUtc": "2026-11-05T04:42:16Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible remote"
+    ],
+    "startDate": "after 2027-05",
+    "experience": "0-2 years; minimum cannot require 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only and restrictive sponsorship language",
+    "excludedFunctions": [
+      "hardware",
+      "chip",
+      "embedded",
+      "firmware"
+    ],
+    "companyExclusions": [
+      "Texas Instruments",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist Dallas return offer ($83k base, ~90k first year, production multi-agent AI, 5% bonus/equity)"
+  },
+  "repositorySnapshotBefore": {
+    "head": "e0417a019b5dccd842721bb1660e97447ea403b4",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "222f68ff0cfb0792fa53a258e27fe3161fad2e1e",
+      "count": 299,
+      "updatedAt": "2026-11-05T03:37:08Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIds": [
+      "112338",
+      "200677912-0157",
+      "R1002940",
+      "R172085"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-04T2137-Texas.json",
+      "sha": "90207435919d10e15eccc0a4e2111808b6a66fd8",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "status": 404,
+      "interpretation": "No workflows directory; no Pages deployment workflow was treated as job collection."
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "c50103972179c50971572833b63347544dde6cfb",
+      "currentHead": "5c3d2f684c7f17d7d86826b9f3882eb40a6a8581",
+      "commitsReviewed": [
+        "40d7d0d3ef7e5a24ca5dc7483155ed0b1f1d5311",
+        "5c3d2f684c7f17d7d86826b9f3882eb40a6a8581"
+      ],
+      "listingsDataCommitsReviewed": 2,
+      "readmeCommitsReviewed": 0,
+      "changedRecordsReviewed": 0,
+      "relevantTexasEvents": 0,
+      "note": "Both incremental listings commits had empty diffs."
+    },
+    "webSearch": {
+      "queriesPerformed": 8,
+      "candidatesReviewed": 8,
+      "newVerifiedCandidates": 1,
+      "candidateReview": [
+        {
+          "company": "Element Solutions",
+          "jobId": "88f248fb-459a-4d4e-8f6a-80e1671bf86e",
+          "title": "Junior Data Engineer",
+          "location": "Remote / Continental US",
+          "result": "new-citizenship-rejected",
+          "reason": "Official Lever JD accepts 0-2 years but explicitly requires U.S. citizenship or Permanent Resident status and may require Public Trust/security clearance. Salary $75,000-$95,000 does not clearly beat Ryan."
+        },
+        {
+          "company": "Striveworks",
+          "jobId": "8002515003",
+          "result": "duplicate-unchanged",
+          "reason": "Existing citizenship/security-clearance rejection remains correct."
+        },
+        {
+          "company": "Avride",
+          "result": "duplicate-unchanged",
+          "reason": "Existing Austin roles remain experience, sponsorship or direction rejections."
+        },
+        {
+          "company": "Way",
+          "result": "rejected-not-added",
+          "reason": "Austin results are Staff/Senior roles."
+        },
+        {
+          "company": "Hippo",
+          "jobId": "8859178002",
+          "result": "rejected-not-added",
+          "reason": "Insurance Data Scientist requires 5+ years."
+        },
+        {
+          "company": "Cloudflare",
+          "result": "rejected-not-added",
+          "reason": "Senior Data Scientist."
+        },
+        {
+          "company": "DoorDash",
+          "result": "rejected-not-added",
+          "reason": "Data Scientist/Senior Data Scientist listing is not verified as 0-year new grad."
+        },
+        {
+          "company": "Tar-ive ML Newgrad index",
+          "result": "discovery-only",
+          "reason": "Remote roles were treated as leads and required official-JD verification; Element Solutions was the only newly verified Texas-eligible location lead this run."
+        }
+      ]
+    }
+  },
+  "screening": {
+    "verifiedNewJobs": 1,
+    "verifiedStatusChanges": 0,
+    "qualifiedJobs": 0,
+    "hardRejectedJobs": 1,
+    "notificationEligibleJobs": 0,
+    "duplicateNotificationsSuppressed": 0,
+    "conclusion": "Element Solutions was a real new role but failed the explicit citizenship/permanent-resident rule and the Ryan upgrade gate."
+  },
+  "changes": {
+    "jobsDataChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusChanged": false,
+    "jdArchiveChanged": true
+  },
+  "writes": {
+    "jobsJson": {
+      "status": "succeeded",
+      "commit": "3977b2e6c1e77cfa056cb92d42280765d7d6096d",
+      "blobSha": "ed38f84ffc2ea45a1954f08af2060f1daf87ce16"
+    },
+    "dallasPage": "not_attempted_no_change",
+    "austinPage": "not_attempted_no_change",
+    "jdArchive": {
+      "status": "succeeded",
+      "path": "job-archive/element-solutions/88f248fb-459a-4d4e-8f6a-80e1671bf86e/job-description.md",
+      "commit": "4daa5e858badc47f08740d32f2fc568b25eb20da"
+    },
+    "audit": "pending_readback"
+  },
+  "sync": {
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-04T2242-Texas.json readback and finalization"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-11-05T03:38:43Z"
+  }
+}
