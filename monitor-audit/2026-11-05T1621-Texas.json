@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T22:20:58Z",
+  "checkedAt": "2026-11-05T22:21:37Z",
+  "checkedAtLocal": "2026-11-05T16:21:37-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "99d3359b1fc562091e66e25ee0f6810218f7d07b",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "8dd11dbd65e8f2d83c00db8f25f31e155ee93001",
+      "count": 307,
+      "updatedAt": "2026-11-05T22:04:53Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T1605-Texas.json",
+      "sha": "be87df99f0869c722f456e9c5649fef1674c3975",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "f9f78b94314c0e0a7e68528cce29113c26f92f4d",
+      "currentHead": "f9f78b94314c0e0a7e68528cce29113c26f92f4d",
+      "newListingCommits": 0,
+      "commits": []
+    },
+    "upstreamSignals": 0,
+    "officialSearchSignals": 8,
+    "discoveredSignals": 8,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "officialSignalsReviewed": [
+      "MyFunded Futures 4390595009 — already recorded; search index persists but direct official URL previously confirmed redirect to company board error state",
+      "Striveworks 8002515003 and other Striveworks roles — already recorded or senior; citizenship/security-clearance exclusions unchanged",
+      "Avride and Allen Control Systems results — existing records, senior/mid-level or direction/citizenship constraints unchanged"
+    ],
+    "notes": "No upstream listing delta occurred after the previous verified run. All official-search hits were existing records; no duplicate was added."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies the location, post-May-2027 timing, zero-starting experience, OPT/STEM OPT, role-scope, exclusion and Ryan-upgrade rules."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-change",
+    "dallasPage": "not-attempted-no-change",
+    "austinPage": "not-attempted-no-change",
+    "archives": "not-attempted-no-change",
+    "audit": "staged-awaiting-read-back",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T22:06:21Z",
+    "evidence": {}
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": null
+}
