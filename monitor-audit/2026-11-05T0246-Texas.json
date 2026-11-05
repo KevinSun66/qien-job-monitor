@@ -135,11 +135,47 @@
     "dallasPage": "not-attempted-no-change",
     "austinPage": "not-attempted-no-change",
     "archives": "not-attempted-no-change",
-    "audit": "staged",
-    "synced": false,
-    "pending": [
-      "finalize and read back this audit file"
+    "audit": "succeeded-and-read-back",
+    "synced": true,
+    "pending": [],
+    "lastSuccessfulWriteAt": "2026-11-05T08:47:46Z",
+    "evidence": {
+      "stagedCommit": "2ea22acc1e111d9e53f8ad609c7333e10220bb9e",
+      "stagedBlobSha": "720a82482312977bc1bb715d66f82834ac5cf0f0",
+      "stagedReadBack": true,
+      "finalReadBackRequired": true
+    }
+  },
+  "completedAt": "2026-11-05T08:47:46Z",
+  "completedAtLocal": "2026-11-05T02:47:45-06:00",
+  "repositorySnapshotAfter": {
+    "headCommitBeforeFinalization": "2ea22acc1e111d9e53f8ad609c7333e10220bb9e",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ee18a66cf56dcc080cb30cda42c0b56d6cb0552f",
+      "count": 302,
+      "updatedAt": "2026-11-05T07:50:31Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "112338",
+      "200677912-0157",
+      "R1002940",
+      "R172085"
     ],
-    "lastSuccessfulWriteAt": "2026-11-05T07:51:58Z"
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
   }
 }
