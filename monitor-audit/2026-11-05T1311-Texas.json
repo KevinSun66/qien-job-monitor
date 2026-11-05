@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T19:09:36Z",
+  "checkedAt": "2026-11-05T19:11:56Z",
+  "checkedAtLocal": "2026-11-05T13:11:56-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "412b3f0db0628f135aef2dd2529dfa41a7ce1021",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "79bbba858c70b19c0170889e5f2ee12dc38d7d7b",
+      "count": 306,
+      "updatedAt": "2026-11-05T17:17:35Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T1225-Texas.json",
+      "sha": "56c853c80b6d7e4e8e4b5fd0ce56229ffe71c22d",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "44211e789564985ef17cf94eac3557f1c926b061",
+      "currentHead": "62541caf402294162bb93915c99a25eb98c4829a",
+      "newListingCommits": 2,
+      "commits": [
+        {
+          "sha": "62d69e465b13273a47216c7367e1dc74be22f68b",
+          "createdAt": "2026-11-05T18:31:29Z",
+          "activeToInactive": 5,
+          "targetTexasMatches": 0
+        },
+        {
+          "sha": "62541caf402294162bb93915c99a25eb98c4829a",
+          "createdAt": "2026-11-05T19:03:07Z",
+          "activeToInactive": 1,
+          "targetTexasMatches": 0
+        }
+      ]
+    },
+    "upstreamSignals": 6,
+    "officialSearchSignals": 5,
+    "discoveredSignals": 11,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "excludedUpstreamSignals": [
+      "Teledyne Research Scientist — Durham, North Carolina",
+      "Global Lending Services Software Developer — non-target role/geography",
+      "Zipline Hardware Test & Prototype Technician — hardware and non-target geography",
+      "Rocket Lab Corporation Business Systems Engineer 1 — non-target role/geography",
+      "RTX Software Engineer 1 — Massachusetts",
+      "RTX Embedded Software Security Engineer 1 — embedded and Arizona"
+    ],
+    "officialSignalsReviewed": [
+      "AT&T R-124488-1/R-124488-2 — already tracked; replacement requisition/search index exists, but direct official URLs returned 404 while the official search result still lists Dallas, so no verified status change",
+      "Kyndryl R-66739 — already recorded and rejected for unrestricted present/future work authorization requirement",
+      "Striveworks 8002515003 — official application remains open but US citizenship/security-clearance requirement confirms existing citizenship rejection",
+      "CleanSlate Associate AI/ML Engineer — already recorded in verification queue; no new evidence resolves start date, OPT/STEM OPT, compensation or Ryan-upgrade gates",
+      "Trinity Industries 2600865 — official page remains closed; existing closed-watch record already reflects this"
+    ],
+    "notes": "No duplicate record was added. Ambiguous search-index/direct-page disagreement was not treated as an opening or closure."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies the location, post-May-2027 timing, zero-starting experience, OPT/STEM OPT, role-scope, exclusion and Ryan-upgrade rules."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-change",
+    "dallasPage": "not-attempted-no-change",
+    "austinPage": "not-attempted-no-change",
+    "archives": "not-attempted-no-change",
+    "audit": "staged-awaiting-read-back",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T18:25:37Z",
+    "evidence": {}
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": null
+}
