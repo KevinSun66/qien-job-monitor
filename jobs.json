@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T03:37:08Z",
+  "updatedAt": "2026-11-05T04:42:16Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11339,6 +11339,54 @@
       "archiveUrl": "job-archive/myriad360/8930382002/job-description.md",
       "archivedAt": "2026-11-05T03:37:08Z",
       "rejectionReason": null
+    },
+    {
+      "company": "Element Solutions",
+      "tier": "B",
+      "area": "Remote · Continental United States",
+      "market": "Texas-eligible remote, but citizenship hard fail",
+      "title": "Junior Data Engineer",
+      "jobId": "88f248fb-459a-4d4e-8f6a-80e1671bf86e",
+      "url": "https://jobs.lever.co/elementsolutions/88f248fb-459a-4d4e-8f6a-80e1671bf86e",
+      "status": "citizenship-rejected",
+      "applicationStatus": "not-applied",
+      "found": "2026-11-04",
+      "discoveredDate": "2026-11-04",
+      "discoveredAt": "2026-11-05T04:42:16Z",
+      "firstSeen": "2026-11-04",
+      "lastChecked": "2026-11-04",
+      "lastCheckedAt": "2026-11-05T04:42:16Z",
+      "employment": "Full-time · Direct hire · Remote · 0–2 years",
+      "gradYear": "Early career; not a 2027 campus cohort and no post-May-2027 start window stated",
+      "ngCompatibility": "Experience-compatible, but work-authorization hard fail",
+      "match": "Data Engineering direction · 0–2 years",
+      "assessment": "Official Lever JD confirms junior data engineering work across pipelines, automated processes, Python/SQL/Java, ETL/ELT, APIs, validation, testing, cloud platforms, Git and CI/CD. It accepts 0–2 years and may count internships, academic projects and practical training. However, the official minimum requirements explicitly require U.S. citizenship or Permanent Resident status because of government-related work, with possible Public Trust or security-clearance requirements. This is incompatible with F-1 OPT/STEM OPT. The $75,000–$95,000 range also does not clearly improve on Ryan.",
+      "visa": "Hard rejection: official JD requires U.S. citizen or Permanent Resident; possible Public Trust/security clearance.",
+      "officialLocations": [
+        "Remote",
+        "Continental United States"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Official Lever page was open and readable on 2026-11-04.",
+      "source": "Official Element Solutions Lever JD",
+      "verificationFlags": [
+        "citizenship-rejected",
+        "permanent-resident-only-rejected",
+        "security-clearance-risk",
+        "opportunity-cost-rejected"
+      ],
+      "finalPriority": "排除 · 身份硬冲突，不投、不通知",
+      "roleTrack": "Data Engineering / ETL / Data Platform",
+      "seniorityGap": "None · 0–2 years accepted",
+      "technicalGrowth": "76/100 · foundational pipelines and cloud data engineering",
+      "brandPlatform": "62/100 · small government/digital consulting firm",
+      "ryanUpgrade": "No · compensation overlaps or underperforms Ryan and work authorization is incompatible",
+      "compensation": "Official likely range $75,000–$95,000; benefits may include health, dental, vision, life, 401(k), and PTO",
+      "officePerks": "Remote-first; must live in Continental US",
+      "whyRyan": "Ryan provides compatible initial OPT employment, known Dallas location, production multi-agent AI ownership, and stronger known first-year total compensation.",
+      "archiveUrl": "job-archive/element-solutions/88f248fb-459a-4d4e-8f6a-80e1671bf86e/job-description.md",
+      "archivedAt": "2026-11-05T04:42:16Z",
+      "rejectionReason": "Official JD requires U.S. citizenship or Permanent Resident status; F-1 OPT/STEM OPT is not eligible."
     }
   ],
   "monitorAudit": [
