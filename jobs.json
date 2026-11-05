@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T15:27:11Z",
+  "updatedAt": "2026-11-05T16:14:40Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11560,6 +11560,57 @@
       "applicationStatus": "not-applied",
       "archiveUrl": "job-archive/cvs-health/R1074805/job-description.md",
       "archiveLabel": "Official JD summary"
+    },
+    {
+      "company": "CleanSlate Technology Group",
+      "tier": "B+",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Associate AI/ML Engineer",
+      "url": "https://recruiting.paylocity.com/recruiting/jobs/All/45e9cbe6-eeec-4d28-8a08-b5e03788f3b7/CleanSlate-Technology-Group",
+      "status": "start-date-visa-compensation-opportunity-cost-verification",
+      "applicationStatus": "not-applied",
+      "found": "2026-11-05",
+      "discoveredDate": "2026-11-05",
+      "discoveredAt": "2026-11-05T16:14:15Z",
+      "firstSeen": "2026-11-05",
+      "lastChecked": "2026-11-05",
+      "lastCheckedAt": "2026-11-05T10:14:15-06:00",
+      "employment": "Full-time · Austin · work arrangement not confirmed in accessible employer board",
+      "gradYear": "Entry-level/associate; not a named 2027 campus cohort and start date is not stated",
+      "ngCompatibility": "Experience-compatible: foundational experience may come from internships, coursework, research or personal projects; no one-year-or-higher minimum is stated.",
+      "match": "High technical relevance · production GenAI, agent-based solutions, testing/evaluation, responsible AI and cloud delivery",
+      "assessment": "CleanSlate Technology Group官方Careers页链接到Paylocity当前职位板，当前公开职位捕获列出Austin的Associate AI/ML Engineer。岗位支持生成式AI与agent-based client solutions，包含开发、集成、评估、生产交付、责任AI及代码评审；基础经验可由课程、研究、实习或个人项目构成，没有1年以上最低经验门槛。但官方静态职位板未暴露精确requisition ID/详情页，薪资、OPT/STEM OPT、2027年5月后入职与工作安排均未确认；公司平台和总回报也尚不能证明相对Ryan明显升级，因此仅保留核验，不进入表2。",
+      "visa": "No role-level OPT/STEM OPT, E-Verify/I-983, unrestricted-work-authorization or sponsorship language found. Employer confirmation required.",
+      "compensation": "Not disclosed",
+      "officialLocations": [
+        "Austin, TX"
+      ],
+      "locationListComplete": true,
+      "officialPostedDate": "Public job captures report late October 2026; exact employer-posted timestamp is not exposed in the accessible static Paylocity board.",
+      "officialStatus": "Employer careers page states linked Paylocity roles are current; current indexed captures list the role as open. Verified 2026-11-05 at 10:14:15 CST.",
+      "source": "CleanSlate Technology Group official careers page and employer-linked Paylocity board; detailed current posting captures from ASU Career Services and employer-board indexers",
+      "verificationFlags": [
+        "exact-requisition-url-verification",
+        "start-date-verification",
+        "visa-verification",
+        "compensation-verification",
+        "work-arrangement-verification",
+        "opportunity-cost-verification"
+      ],
+      "finalPriority": "内部核验 · 不进入表2、不通知",
+      "roleTrack": "Applied AI/ML / Generative AI / Agentic AI / Consulting Delivery",
+      "seniorityGap": "None identified; foundational experience from coursework, research, internships or projects is accepted.",
+      "technicalGrowth": "89/100 · real client AI/ML delivery, evaluation and production exposure",
+      "brandPlatform": "70/100 · focused consulting firm and AWS Premier Tier Partner; scale advantage over Ryan not established",
+      "ryanUpgrade": "Not established · compensation, 2027 timing, work authorization and platform advantage are unknown.",
+      "officePerks": "Austin; exact onsite/hybrid arrangement not confirmed from accessible employer board.",
+      "whyRyan": "Ryan offers a signed Dallas role, known post-graduation employment, approximately $90K first-year cash, bonus/equity and production multi-agent AI ownership. CleanSlate must verify timing, OPT/STEM OPT, compensation and platform upside before it can qualify as an upgrade.",
+      "careersUrl": "https://www.cleanslatetg.com/careers/",
+      "archiveUrl": "job-archive/cleanslate/associate-ai-ml-engineer-austin/job-description.md",
+      "archiveLabel": "JD 归档",
+      "archivedAt": "2026-11-05T16:14:15Z",
+      "rejectionReason": null
     }
   ],
   "monitorAudit": [
