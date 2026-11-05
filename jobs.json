@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T17:17:35Z",
+  "updatedAt": "2026-11-05T22:04:53Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11661,6 +11661,45 @@
       "archiveLabel": "JD 归档",
       "archivedAt": "2026-11-05T17:17:17Z",
       "rejectionReason": null
+    },
+    {
+      "company": "JPMorgan Chase",
+      "tier": "S",
+      "area": "Plano, TX",
+      "market": "DFW",
+      "title": "Data Scientist [Multiple Positions Available] (210802051)",
+      "employment": "Full-time · Predictive Science · Consumer & Community Banking",
+      "gradYear": "Experienced position; not identified as a 2027 new-graduate or campus role",
+      "match": "Relevant data science/ML scope; hard experience mismatch",
+      "ngCompatibility": "Rejected — official JD explicitly requires 3 years of experience",
+      "assessment": "Official JPMorgan Chase Candidate Experience result is open for a Plano Data Scientist role. Duties include technical leadership, design reviews, coding/modeling standards, scalable analytical methods, data pipelines, cloud architecture, MLOps, geospatial analytics, sampling design and ML/AI on large datasets. The official JD explicitly requires three years of relevant analytical, technical-leadership and project-leadership experience, which exceeds the monitor's 0–2 year rule and fails the requirement that minimum experience not begin at one year or more. The application deadline is 2026-11-12 and the posting is not a 2027 campus program.",
+      "visa": "Official readable result does not state OPT/STEM OPT, sponsorship, unrestricted-authorization, citizenship or permanent-resident restrictions. Unverified, but the hard experience rejection is independently dispositive.",
+      "found": "2026-11-05",
+      "discoveredDate": "2026-11-05",
+      "discoveredAt": "2026-11-05T22:04:53Z",
+      "firstSeen": "2026-11-05",
+      "lastChecked": "2026-11-05",
+      "lastCheckedAt": "2026-11-05T22:04:53Z",
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802051",
+      "officialSource": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802051",
+      "status": "experience-start-date-rejected",
+      "finalPriority": "已核实排除 · 不进入表2",
+      "roleTrack": "Data Science / Predictive Science / ML / MLOps",
+      "technicalGrowth": "High scope, but experienced technical-leadership expectations",
+      "brandPlatform": "S-tier financial-services platform",
+      "ryanUpgrade": "Not actionable: explicit 3-year minimum makes Qien ineligible; compensation is not disclosed, so no verified upgrade over Ryan can be established.",
+      "compensation": "Not disclosed in the readable official result",
+      "officePerks": "Plano office; work arrangement and benefits not stated in the readable official result",
+      "jobId": "210802051",
+      "source": "JPMorgan Chase official Candidate Experience page/search result",
+      "officialStatus": "Open on official JPMorgan Chase Candidate Experience result; posted 2026-10-22; apply before 2026-11-12 04:55 (timezone not stated)",
+      "verificationFlags": [],
+      "archiveUrl": "job-archive/jpmorgan-chase/210802051/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-11-05T22:04:53Z",
+      "applicationStatus": "not-applied",
+      "rejectionReason": "Official JD requires three years of experience; not a 2027 new-graduate/campus role",
+      "deadline": "2026-11-12T04:55:00 (timezone not stated)"
     }
   ],
   "monitorAudit": [
