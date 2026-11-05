@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T16:14:40Z",
+  "updatedAt": "2026-11-05T17:17:35Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11610,6 +11610,56 @@
       "archiveUrl": "job-archive/cleanslate/associate-ai-ml-engineer-austin/job-description.md",
       "archiveLabel": "JD 归档",
       "archivedAt": "2026-11-05T16:14:15Z",
+      "rejectionReason": null
+    },
+    {
+      "company": "Itron",
+      "tier": "A-",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "AI Solutions Architect Associate (JR102937)",
+      "jobId": "JR102937",
+      "url": "https://itron.wd5.myworkdayjobs.com/en-US/Early_Careers/job/AI-Solutions-Architect-Associate_JR102937-1",
+      "status": "start-date-visa-compensation-opportunity-cost-verification",
+      "applicationStatus": "not-applied",
+      "found": "2026-11-05",
+      "discoveredDate": "2026-11-05",
+      "discoveredAt": "2026-11-05T17:17:17Z",
+      "firstSeen": "2026-11-05",
+      "lastChecked": "2026-11-05",
+      "lastCheckedAt": "2026-11-05T11:17:17-06:00",
+      "employment": "Full-time · Hybrid · Austin-connected schedule",
+      "gradYear": "Official Early Careers posting; no graduation cohort or post-May-2027 start date stated",
+      "ngCompatibility": "No numeric one-year-or-higher minimum stated. Official requirements ask for a relevant bachelor's or equivalent and general experience that may include technology, analytics, automation, HR technology or AI solutions.",
+      "match": "Relevant enterprise GenAI enablement · copilots, conversational agents, automation, testing, governance and knowledge-grounded experiences",
+      "assessment": "Itron官方Early Careers页面显示职位开放。岗位在HR AI Enablement团队，覆盖Copilot/对话代理、流程自动化、知识型AI体验、prompt和test scenario、验证评估、使用监控及Responsible AI治理。官方未给出数字化最低年限，因此不按经验排除；但职责更偏业务解决方案配置与enablement，生产ML工程深度尚不如Ryan已知的多智能体AI职责。官方未披露2027年5月后入职、OPT/STEM OPT或薪资，当前无法证明整体明显升级，仅保留核验。",
+      "visa": "Official posting does not disclose F-1 OPT/STEM OPT, E-Verify/I-983, unrestricted-work-authorization language or sponsorship policy. Employer confirmation required.",
+      "compensation": "Not disclosed by the official posting; third-party estimates are not treated as official.",
+      "officialLocations": [
+        "United States of America, Texas, Austin"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Open / Apply on official Itron Early Careers Workday page at 2026-11-05T11:17:17-06:00.",
+      "source": "Itron official Early Careers Workday JD",
+      "verificationFlags": [
+        "start-date-verification",
+        "visa-verification",
+        "compensation-verification",
+        "technical-depth-verification",
+        "opportunity-cost-verification"
+      ],
+      "finalPriority": "内部核验 · 不进入表2、不通知",
+      "roleTrack": "Enterprise GenAI Enablement / Copilot / Conversational Agents / Responsible AI",
+      "seniorityGap": "No numeric minimum identified; role is labeled Associate and listed under Early Careers.",
+      "technicalGrowth": "78/100 · practical GenAI enablement and governance, but limited evidence of core ML engineering ownership",
+      "brandPlatform": "83/100 · public global energy and water technology company",
+      "ryanUpgrade": "Not established · compensation, 2027 timing, work authorization and engineering depth are unknown.",
+      "officePerks": "Austin hybrid; exact office-day cadence not stated.",
+      "whyRyan": "Ryan provides a signed Dallas role, known post-graduation employment, approximately $90K first-year cash, bonus/equity and production multi-agent AI ownership. Itron must verify timing, OPT/STEM OPT, pay and engineering depth before it can qualify as an upgrade.",
+      "careersUrl": "https://itron.wd5.myworkdayjobs.com/en-US/Early_Careers",
+      "archiveUrl": "job-archive/itron/JR102937/job-description.md",
+      "archiveLabel": "JD 归档",
+      "archivedAt": "2026-11-05T17:17:17Z",
       "rejectionReason": null
     }
   ],
