@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T13:07:35Z",
+  "updatedAt": "2026-11-05T15:27:11Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11525,6 +11525,41 @@
       "archiveTextUrl": "job-archive/paylocity/49063/job-description.md",
       "archivedAt": "2026-11-05T13:07:35Z",
       "archiveNote": "Paraphrased official JD snapshot with status, location, experience, compensation, duties, and unresolved gates."
+    },
+    {
+      "company": "CVS Health",
+      "tier": "A+ · 经验门槛排除",
+      "area": "Farmers Branch / Dallas, TX or Scottsdale, AZ",
+      "market": "Dallas",
+      "title": "AI Engineer - GenAI (R1074805)",
+      "employment": "Full-time · Hybrid · on-site 2 days/week",
+      "gradYear": "Not a zero-experience role; official minimums begin at 1–2+ years",
+      "match": "Excellent GenAI/agentic AI scope, but mandatory experience minimums fail",
+      "ngCompatibility": "Rejected. Official Required Qualifications require 2+ years across core ML/AI, Python, SQL, deep learning and model development, plus several 1+ year requirements.",
+      "assessment": "CVS Health官方职位页显示开放，预计2026-11-16关闭。职责覆盖RAG、tool-calling agents、agent memory、多智能体工作流、向量与图检索、Python/SQL/PySpark数据管线、计算机视觉、云集成、生产监控及AI评估；薪资$72,100–$144,200并可获奖金或短期激励。技术方向高度相关且薪资上限可能高于Ryan，但官方硬性要求多项2+年及1+年经验，没有零经验入口，按规则排除。",
+      "visa": "Official role posting does not disclose OPT/STEM OPT or sponsorship terms; experience gate already fails.",
+      "found": "2026-11-05",
+      "url": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/AI-Engineer---GenAI_R1074805",
+      "status": "experience-rejected",
+      "finalPriority": "不投 · 官方多项最低1–2+年经验",
+      "roleTrack": "Applied GenAI / Agentic AI / RAG / ML Engineering",
+      "seniorityGap": "Hard fail · 2+ years core requirements and 1+ year specialized requirements",
+      "technicalGrowth": "Very high, but ineligible",
+      "brandPlatform": "Large healthcare and insurance platform",
+      "ryanUpgrade": "Potential technical and compensation upgrade, but mandatory experience gate fails",
+      "compensation": "$72,100–$144,200 base plus eligible incentive",
+      "officePerks": "Farmers Branch/Dallas hybrid, on-site 2 days per week",
+      "jobId": "R1074805",
+      "officialSource": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/AI-Engineer---GenAI_R1074805",
+      "officialStatus": "Open / Apply on official CVS Health Workday page at 2026-11-05T09:26:46-06:00; anticipated close 2026-11-16",
+      "lastChecked": "2026-11-05",
+      "lastCheckedAt": "2026-11-05T09:26:46-06:00",
+      "verificationFlags": [
+        "minimum-experience-hard-fail"
+      ],
+      "applicationStatus": "not-applied",
+      "archiveUrl": "job-archive/cvs-health/R1074805/job-description.md",
+      "archiveLabel": "Official JD summary"
     }
   ],
   "monitorAudit": [
