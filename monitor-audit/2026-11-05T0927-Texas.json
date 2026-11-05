@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T15:25:07Z",
+  "checkedAt": "2026-11-05T15:27:44Z",
+  "checkedAtLocal": "2026-11-05T09:27:44-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "cdbf1c3c9e1239b3e7b36a393fc44523f2d4ed22",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "632f43df267bd74accd6d40d3aedcb3937317f8a",
+      "count": 303,
+      "updatedAt": "2026-11-05T13:07:35Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T0828-Texas.json",
+      "sha": "86adc893cda9d9c774b450a7dae7a3156090d319",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "e60e13d6517a315925585db5b857206efc5c63be",
+      "currentHead": "3f59a28cfee6b831273007f1ea5fb86bca8652d6",
+      "newListingCommits": 2,
+      "commits": [
+        {
+          "sha": "bb4783138c8649cdc29f297cced571c9dffeace2",
+          "createdAt": "2026-11-05T14:31:48Z",
+          "activeToInactive": 3,
+          "targetTexasMatches": 0
+        },
+        {
+          "sha": "3f59a28cfee6b831273007f1ea5fb86bca8652d6",
+          "createdAt": "2026-11-05T15:02:02Z",
+          "activeToInactive": 4,
+          "targetTexasMatches": 0
+        }
+      ]
+    },
+    "upstreamSignals": 7,
+    "officialSearchSignals": 1,
+    "discoveredSignals": 8,
+    "verifiedNewCandidates": 1,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 1,
+    "newRecords": [
+      {
+        "company": "CVS Health",
+        "jobId": "R1074805",
+        "title": "AI Engineer - GenAI",
+        "location": "Farmers Branch / Dallas, TX",
+        "officialStatus": "open",
+        "decision": "experience-rejected",
+        "reason": "Official required qualifications impose multiple 2+ year and 1+ year minimums; no zero-experience entry path."
+      }
+    ],
+    "excludedUpstreamSignals": [
+      "Lowe's Associate Analyst-Digital - Launchpad — non-Texas",
+      "State Employees' Credit Union Associate Credit Review Data Scientist — non-Texas",
+      "Capital Health IT Data Engineer 1 — non-Texas",
+      "WisdomTree AI Solutions Analyst — non-Texas",
+      "Block Data Scientist - Payments — non-Texas",
+      "Amentum Junior Software Engineer — non-Texas",
+      "Cambridge Consultants Graduate Software Engineer — UK"
+    ],
+    "notes": "Official searches also surfaced Kyndryl R-66739, GlobalFoundries JR-2604163, NorthMark R13431 and Striveworks 8002515003, all already recorded, plus Trellix JR0037659, an older 5+ year role. No duplicate records were added."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "CVS Health R1074805 is a real open Dallas-area Applied GenAI role and was archived, but its mandatory experience minimums begin at one and two years. It is excluded before start-date and visa evaluation and is not a Ryan-upgrade recommendation."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-pending-read-back",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T14:29:28Z",
+    "evidence": {
+      "archiveCommit": "700a1d40e07933fd2ee9591bfea8eccbaa6b4c29",
+      "archiveBlobSha": "563213539f9e1abcb817b3599f4acfdd4ddc4512",
+      "archiveReadBack": true,
+      "jobsCommit": "678f32e260fc7b3c3e5ac0a04f66dde0d0b1a595",
+      "jobsBlobSha": "1253f8e4c96d9945578882bf30cce381bbe161bf",
+      "jobsReadBack": true,
+      "stagedCommit": null,
+      "stagedBlobSha": null,
+      "stagedReadBack": false
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": null
+}
