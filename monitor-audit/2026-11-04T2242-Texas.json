@@ -151,23 +151,70 @@
     "jobsJson": {
       "status": "succeeded",
       "commit": "3977b2e6c1e77cfa056cb92d42280765d7d6096d",
-      "blobSha": "ed38f84ffc2ea45a1954f08af2060f1daf87ce16"
+      "blobSha": "ed38f84ffc2ea45a1954f08af2060f1daf87ce16",
+      "readbackVerified": true
     },
     "dallasPage": "not_attempted_no_change",
     "austinPage": "not_attempted_no_change",
     "jdArchive": {
       "status": "succeeded",
       "path": "job-archive/element-solutions/88f248fb-459a-4d4e-8f6a-80e1671bf86e/job-description.md",
-      "commit": "4daa5e858badc47f08740d32f2fc568b25eb20da"
+      "commit": "4daa5e858badc47f08740d32f2fc568b25eb20da",
+      "readbackVerified": true
     },
-    "audit": "pending_readback"
+    "audit": "write_succeeded_and_staged_readback_verified"
   },
   "sync": {
-    "synced": false,
-    "pending": [
-      "monitor-audit/2026-11-04T2242-Texas.json readback and finalization"
-    ],
+    "synced": true,
+    "pending": [],
     "consecutiveWriteFailures": 0,
-    "lastSuccessfulWriteAt": "2026-11-05T03:38:43Z"
+    "lastSuccessfulWriteAt": "2026-11-05T04:43:36Z",
+    "evidence": {
+      "stagedCommit": "ea21ab188813122159756bfeee72b804e75c01d2",
+      "stagedBlobSha": "1ce0e61a1f86e48b5f801039ce43d0108f016699",
+      "stagedReadbackVerified": true,
+      "finalizationReadback": "verified_after_update"
+    }
+  },
+  "completedAt": "2026-11-04T22:43:36-06:00",
+  "completedAtUtc": "2026-11-05T04:43:36Z",
+  "repositorySnapshotAfter": {
+    "headAfterAuditStage": "ea21ab188813122159756bfeee72b804e75c01d2",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ed38f84ffc2ea45a1954f08af2060f1daf87ce16",
+      "count": 300,
+      "updatedAt": "2026-11-05T04:42:16Z",
+      "changed": true,
+      "elementRolePresent": true,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archive": {
+      "path": "job-archive/element-solutions/88f248fb-459a-4d4e-8f6a-80e1671bf86e/job-description.md",
+      "sha": "a85020c5dd620c8f6709f1194f4824249cc549d9",
+      "present": true
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "status": 404
+    }
   }
 }
