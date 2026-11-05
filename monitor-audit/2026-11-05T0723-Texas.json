@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T13:23:09Z",
+  "checkedAt": "2026-11-05T13:23:42Z",
+  "checkedAtLocal": "2026-11-05T07:23:42-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "31246bb703ad2958482721c98089fa9c7db5f1b3",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "632f43df267bd74accd6d40d3aedcb3937317f8a",
+      "count": 303,
+      "updatedAt": "2026-11-05T13:07:35Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T0707-Texas.json",
+      "sha": "6fe06f1d5dc3d3f47d6d921a04b010537fc530d4",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    },
+    "paylocityArchive": {
+      "path": "job-archive/paylocity/49063/job-description.md",
+      "sha": "32c555dc734114a0909a3eeaad4d7277a486eda8"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "cbef57249b35897d48217bc1a63a05b55fd04d4c",
+      "currentHead": "cbef57249b35897d48217bc1a63a05b55fd04d4c",
+      "newListingCommits": 0
+    },
+    "discoveredSignals": 0,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "notes": "No new upstream or repository changes since the immediately preceding completed run. Paylocity 49063 remains in start-date/visa/Texas-remote verification status and was not duplicated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role to process."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-change",
+    "dallasPage": "not-attempted-no-change",
+    "austinPage": "not-attempted-no-change",
+    "archives": "not-attempted-no-change",
+    "audit": "staged",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T13:09:10Z"
+  }
+}
