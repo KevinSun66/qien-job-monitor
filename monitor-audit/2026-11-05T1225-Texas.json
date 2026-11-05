@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T18:24:14Z",
+  "checkedAt": "2026-11-05T18:25:06Z",
+  "checkedAtLocal": "2026-11-05T12:25:06-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "fbeeeaa40065ee0e00c2e4bca65b5babf391d8b8",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "79bbba858c70b19c0170889e5f2ee12dc38d7d7b",
+      "count": 306,
+      "updatedAt": "2026-11-05T17:17:35Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T1118-Texas.json",
+      "sha": "1cd326693d045c5cac25929744062fcf43f1efa9",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "72cbba9eec192642c84e3ef53ba554b356a4fbce",
+      "currentHead": "44211e789564985ef17cf94eac3557f1c926b061",
+      "newListingCommits": 2,
+      "commits": [
+        {
+          "sha": "ae113e51a07331fd1914b2cf988feff78d4477ab",
+          "createdAt": "2026-11-05T17:31:18Z",
+          "activeToInactive": 3,
+          "targetTexasMatches": 0
+        },
+        {
+          "sha": "44211e789564985ef17cf94eac3557f1c926b061",
+          "createdAt": "2026-11-05T18:01:29Z",
+          "activeToInactive": 2,
+          "targetTexasMatches": 0
+        }
+      ]
+    },
+    "upstreamSignals": 5,
+    "officialSearchSignals": 0,
+    "discoveredSignals": 5,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "excludedUpstreamSignals": [
+      "National Laboratory of the Rockies Postdoctoral Researcher — Colorado and postdoctoral",
+      "Jabil AI and Data Solutions Developer — Florida",
+      "Versant Data Analyst — non-target",
+      "Clearway Energy Market Optimization & Trading Analyst — non-target",
+      "Fortinet Early Careers Software Development Engineer — non-target"
+    ],
+    "notes": "Official search results were already recorded (RSM JR122103, Samsung R118191) or clearly senior/out of geography. No duplicate record was added."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies the location, post-May-2027 timing, zero-starting experience, OPT/STEM OPT, role-scope, exclusion and Ryan-upgrade rules."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-change",
+    "dallasPage": "not-attempted-no-change",
+    "austinPage": "not-attempted-no-change",
+    "archives": "not-attempted-no-change",
+    "audit": "staged-pending-read-back",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T17:18:37Z",
+    "evidence": {
+      "stagedCommit": null,
+      "stagedBlobSha": null,
+      "stagedReadBack": false
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": null
+}
