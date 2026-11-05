@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T06:44:10Z",
+  "updatedAt": "2026-11-05T07:50:31Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11432,6 +11432,58 @@
       "archiveLabel": "JD 归档",
       "archivedAt": "2026-11-05T06:44:10Z",
       "rejectionReason": "Advanced role seeks significant industrial ML exposure and prefers a master's degree or higher; current posting closes before Qien's May 2027 graduation and does not state a post-May-2027 start."
+    },
+    {
+      "company": "PAM Health",
+      "tier": "B+",
+      "area": "Plano, TX",
+      "market": "DFW",
+      "title": "AI Engineer | PAM Health Corporate",
+      "jobId": "2026-91855",
+      "url": "https://careers-pamhealth.icims.com/jobs/91855/job?mobile=true&needsRedirect=false",
+      "status": "start-date-visa-compensation-opportunity-cost-verification",
+      "applicationStatus": "not-applied",
+      "found": "2026-11-05",
+      "discoveredDate": "2026-11-05",
+      "discoveredAt": "2026-11-05T07:50:31Z",
+      "firstSeen": "2026-11-05T07:50:31Z",
+      "lastChecked": "2026-11-05",
+      "lastCheckedAt": "2026-11-05T07:50:31Z",
+      "employment": "Full-time · Onsite · Junior through Senior range",
+      "gradYear": "Not a campus/new-grad cohort; post-May-2027 start not stated",
+      "ngCompatibility": "Potentially experience-compatible: official JD spans Junior to Senior and states no numeric minimum, but requires proven Python software-engineering and hands-on AI/LLM/agent deployment experience",
+      "match": "High technical relevance · Python agents, LLM/RAG, cloud deployment, EHR integration and HIPAA",
+      "minimumQualifications": "Bachelor's in CS, Software Engineering, Data Science, AI or related field (or equivalent practical/professional experience); proven Python software-engineering experience; hands-on AI application, LLM or autonomous-agent build/test/deployment experience; no numeric minimum years stated.",
+      "assessment": "The official PAM Health iCIMS page is open in Plano and displayed Apply. The role builds AI agents and Python automation workflows with LangChain, Pydantic AI, Google ADK or OpenAI Agents SDK, RAG, cloud infrastructure and EHR integrations. It explicitly spans Junior through Senior and does not impose a numeric years-of-experience floor, so it is not rejected on experience. However, it is not a 2027 campus role and the official JD does not state a post-May-2027 start, OPT/STEM OPT policy or compensation. Without those facts, and with Ryan already offering known Dallas employment and production multi-agent AI ownership, a clear overall upgrade is not established.",
+      "visa": "Official JD does not disclose F-1 OPT/STEM OPT, E-Verify/I-983, unrestricted work-authorization language or future sponsorship policy. Employer confirmation required.",
+      "compensation": "Not disclosed by employer; third-party estimates are not treated as official.",
+      "officialLocations": [
+        "US-TX-Plano"
+      ],
+      "locationListComplete": true,
+      "officialPostedDate": "Official iCIMS page does not expose a posting date. Upstream record was reactivated on 2026-11-05.",
+      "officialStatus": "Open on 2026-11-05 at 01:50 CT; official iCIMS page displayed Apply.",
+      "source": "PAM Health official iCIMS JD; SimplifyJobs reactivation commit 8ff67fe273d575d8420da73d593fb2794ad772dc",
+      "upstreamRecordId": "81f6102b-b17c-4792-8d73-f5f5b8783ac2",
+      "upstreamReactivatedCommit": "8ff67fe273d575d8420da73d593fb2794ad772dc",
+      "verificationFlags": [
+        "start-date-verification",
+        "visa-verification",
+        "compensation-verification",
+        "opportunity-cost-verification"
+      ],
+      "finalPriority": "内部核验 · 不进入表2、不通知",
+      "roleTrack": "Applied GenAI / AI Agents / RAG / Healthcare Automation",
+      "seniorityGap": "No numeric minimum; junior scope is explicitly included, but hands-on build/deployment experience is required.",
+      "technicalGrowth": "91/100 · genuine agentic AI, LLM/RAG, cloud integration and production compliance work",
+      "brandPlatform": "72/100 · mid-sized post-acute healthcare provider",
+      "ryanUpgrade": "Not established · compensation, 2027 timing and work authorization are unknown; brand/platform advantage over Ryan is unclear.",
+      "officePerks": "Plano onsite; PAM Health references benefits and education advancement but the JD does not state compensation or detailed package terms.",
+      "whyRyan": "Ryan offers a signed Dallas role, known post-graduation employment, approximately $90K first-year cash and production multi-agent AI ownership. PAM Health must verify timing, OPT/STEM OPT and compensation before it can be compared as an upgrade.",
+      "archiveUrl": "job-archive/pam-health/2026-91855/job-description.md",
+      "archiveLabel": "JD 归档",
+      "archivedAt": "2026-11-05T07:50:31Z",
+      "rejectionReason": null
     }
   ],
   "monitorAudit": [
