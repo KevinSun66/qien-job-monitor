@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T22:03:10Z",
+  "checkedAt": "2026-11-05T22:05:43Z",
+  "checkedAtLocal": "2026-11-05T16:05:43-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d773fced3f3cfb2e49b1cb8dfa9c2db6c1ed55e8",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "79bbba858c70b19c0170889e5f2ee12dc38d7d7b",
+      "count": 306,
+      "updatedAt": "2026-11-05T17:17:35Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T1422-Texas.json",
+      "sha": "5ba864aa23cd7a9ec4d35e70f4bcc2c2be3a0af0",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "c9be57444c69dbcc51aab01f3182874d1293b646",
+      "currentHead": "f9f78b94314c0e0a7e68528cce29113c26f92f4d",
+      "newListingCommits": 4,
+      "commits": [
+        {
+          "sha": "e85227582da405b1c064d32d8bf87cdb806ece99",
+          "createdAt": "2026-11-05T20:31:19Z",
+          "activeToInactive": 0,
+          "targetTexasMatches": 0,
+          "notes": "No listing diff returned"
+        },
+        {
+          "sha": "0528626d1876ed3eb71cfda562423377e3cdb19c",
+          "createdAt": "2026-11-05T21:01:50Z",
+          "activeToInactive": 0,
+          "targetTexasMatches": 0,
+          "notes": "No listing diff returned"
+        },
+        {
+          "sha": "f4529bb3d4f4c466cbb0b737bccd041c6b6dd7dd",
+          "createdAt": "2026-11-05T21:32:58Z",
+          "activeToInactive": 3,
+          "targetTexasMatches": 0
+        },
+        {
+          "sha": "f9f78b94314c0e0a7e68528cce29113c26f92f4d",
+          "createdAt": "2026-11-05T22:01:07Z",
+          "activeToInactive": 3,
+          "targetTexasMatches": 0
+        }
+      ]
+    },
+    "upstreamSignals": 6,
+    "officialSearchSignals": 11,
+    "discoveredSignals": 17,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 1,
+    "excludedUpstreamSignals": [
+      "Babel Street Data Warehouse Software Engineer — Somerville, Massachusetts; citizenship required",
+      "Allied Solutions Data Integration Analyst I — Carmel, Indiana",
+      "Turner & Townsend Operations and Data Assistant — non-target",
+      "Domino's Technology Rotation Program — no verified Dallas/Austin Applied AI/ML/DS match",
+      "AVEVA R&D Software Engineer — Cambridge, United Kingdom",
+      "Keysight Software Engineer-Semiconductor Technology — semiconductor/general software, non-target"
+    ],
+    "officialSignalsReviewed": [
+      "JPMorgan Chase Data Scientist 210802051 — new verified Plano official opening; rejected because the JD requires 3 years and is not a 2027 campus role",
+      "ServiceLink 2026-3625, Kyndryl R-66739/R-68529, GlobalFoundries JR-2604163, Striveworks 8002515003 and other current Texas hits — already recorded; existing experience, visa, direction or eligibility decisions unchanged",
+      "Internship-only results were excluded from this full-time monitor"
+    ],
+    "notes": "One new official Plano role was archived as a hard experience rejection to prevent repeat review. No duplicate actionable record was added."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies the location, post-May-2027 timing, zero-starting experience, OPT/STEM OPT, role-scope, exclusion and Ryan-upgrade rules."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-table-change",
+    "austinPage": "not-attempted-no-table-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-awaiting-read-back",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T22:04:53Z",
+    "evidence": {
+      "archiveCommit": "6e07a4ea74700bfc85b6e7581e490d0557d140d5",
+      "archiveBlobSha": "ffcb1ab2e28c570cda677a84526af6ac24413b39",
+      "archiveReadBack": true,
+      "jobsCommit": "2cc8d3146cfecca891fd77435dfd23e7ba8ec007",
+      "jobsBlobSha": "8dd11dbd65e8f2d83c00db8f25f31e155ee93001",
+      "jobsReadBack": true
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": null
+}
