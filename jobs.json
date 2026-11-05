@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T23:42:02Z",
+  "updatedAt": "2026-11-05T03:37:08Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11289,6 +11289,56 @@
       "archiveLabel": "JD 归档",
       "archivedAt": "2026-11-04T12:42:56Z",
       "applicationStatus": "not-applied"
+    },
+    {
+      "company": "Myriad360",
+      "tier": "B+",
+      "area": "United States / Remote eligibility verification",
+      "market": "Texas-eligible remote verification",
+      "title": "Junior AI and Automation Engineer (8930382002)",
+      "jobId": "8930382002",
+      "url": "https://boards.greenhouse.io/myriad360/jobs/8930382002",
+      "status": "location-start-date-visa-opportunity-cost-verification",
+      "applicationStatus": "not-applied",
+      "found": "2026-11-04",
+      "discoveredDate": "2026-11-04",
+      "discoveredAt": "2026-11-05T03:37:08Z",
+      "firstSeen": "2026-11-04",
+      "lastChecked": "2026-11-04",
+      "lastCheckedAt": "2026-11-05T03:37:08Z",
+      "employment": "Full-time · Junior · 0–2 years · up to 10% travel",
+      "gradYear": "Not a 2027 campus cohort; post-May-2027 start window not stated",
+      "ngCompatibility": "Experience-compatible (0–2 years; internships, coursework and personal projects count), but May 2027 start compatibility is unverified",
+      "match": "High technical relevance · GPTs, agents, workflow automation, RAG/MCP exposure",
+      "assessment": "Myriad360's AI & Automation team role builds and supports GPTs, AI agents, workflow automations, APIs/webhooks, internal knowledge sources and retrieval testing using Microsoft Power Platform, ChatGPT Enterprise, StackAI, Zapier, Azure and Copilot Studio. The role is a strong skills match and accepts 0–2 years, but it is not a 2027 campus role. Texas long-term remote eligibility, a post-May-2027 start, and OPT/STEM OPT remain unverified. The NYC reference base of $85,000 is only slightly above Ryan's $83,000 base and does not establish a clear total-compensation, platform, or growth upgrade over the signed Ryan offer.",
+      "visa": "Application asks whether sponsorship is needed now or in the future; no OPT/STEM OPT or sponsorship policy is stated. Employer confirmation required.",
+      "officialLocations": [
+        "United States"
+      ],
+      "locationListComplete": false,
+      "officialStatus": "Company careers index listed the role with an Apply link on 2026-11-04; Greenhouse requisition 8930382002 and upstream active record were current.",
+      "source": "Myriad360 company careers index + official Greenhouse application URL + SimplifyJobs commit 48b0f1c4979397900484db23860eb2b6af6b65ca",
+      "upstreamRecordId": "7b528d54-ffd1-46d0-b619-21281f247993",
+      "upstreamDiscoveredCommit": "48b0f1c4979397900484db23860eb2b6af6b65ca",
+      "verificationFlags": [
+        "location-verification",
+        "start-date-verification",
+        "visa-verification",
+        "opportunity-cost-verification"
+      ],
+      "finalPriority": "内部核验 · 不进入表2、不通知",
+      "roleTrack": "Applied GenAI / AI agents / enterprise automation",
+      "seniorityGap": "None on experience; graduation/start timing unresolved",
+      "technicalGrowth": "86/100 · relevant GenAI/agents/automation stack, but internal tools scope",
+      "brandPlatform": "72/100 · mid-sized systems integrator",
+      "ryanUpgrade": "Not established · $85K NYC reference only slightly above Ryan base; bonus/equity/platform advantage not shown",
+      "compensation": "NYC base reference $85,000; other geographies may vary; incentive compensation and benefits mentioned but amounts not disclosed",
+      "officePerks": "United States location; discovery source says Remote in USA; up to 10% travel; Texas remote eligibility needs confirmation",
+      "whyRyan": "Ryan offers known Dallas location, signed employment, production multi-agent AI ownership, approximately $90K first-year cash, bonus and equity; Myriad360 does not yet show a clear combined upgrade.",
+      "careersUrl": "https://www.myriad360.com/careers",
+      "archiveUrl": "job-archive/myriad360/8930382002/job-description.md",
+      "archivedAt": "2026-11-05T03:37:08Z",
+      "rejectionReason": null
     }
   ],
   "monitorAudit": [
