@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-11-05T01:50:31-06:00",
+  "checkedAtUtc": "2026-11-05T07:50:31Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible remote"
+    ],
+    "startDate": "after 2027-05",
+    "experience": "0-2 years; minimum cannot require 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only and restrictive sponsorship language",
+    "excludedFunctions": [
+      "hardware",
+      "chip",
+      "embedded",
+      "firmware"
+    ],
+    "companyExclusions": [
+      "Texas Instruments",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist Dallas return offer ($83k base, ~90k first year, production multi-agent AI, 5% bonus/equity)"
+  },
+  "repositorySnapshotBefore": {
+    "head": "ca81c592fe76ac3802dc02e4c8d64de5dd6c761a",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "2aa5eecbf99263c6ea0f0a8acb66611d33e69e8f",
+      "count": 301,
+      "updatedAt": "2026-11-05T06:44:10Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIds": [
+      "112338",
+      "200677912-0157",
+      "R1002940",
+      "R172085"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T0044-Texas.json",
+      "sha": "2dbec33e88a0385d1b37da89f4ac95eb1daed55c",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-05T06:45:48Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "status": 404,
+      "interpretation": "No workflows directory; no Pages deployment workflow was treated as job collection."
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "2b330a0838cb65edd0238c7a044e3015fff8f1b5",
+      "currentHead": "8ff67fe273d575d8420da73d593fb2794ad772dc",
+      "commitsReviewed": [
+        "76eb6b38dd1cb7dc8a179cfc9e380371d20498b4",
+        "8ff67fe273d575d8420da73d593fb2794ad772dc"
+      ],
+      "readmeCommitsObserved": [
+        "773d7aafe1960c15a4ad1eef5556617711f2d146",
+        "9616af391e42f10f1b0dbb1ce4515cb2be8fb85e"
+      ],
+      "listingsDataCommitsReviewed": 2,
+      "relevantTexasEvents": 1,
+      "note": "PAM Health AI Engineer in Plano changed from inactive to active. Other changes were non-target or senior/hardware/non-Texas records."
+    },
+    "webSearch": {
+      "queriesPerformed": 8,
+      "officialPagesDirectlyVerified": 1,
+      "newVerifiedCandidates": 1,
+      "candidateReview": [
+        {
+          "company": "PAM Health",
+          "jobId": "2026-91855",
+          "upstreamRecordId": "81f6102b-b17c-4792-8d73-f5f5b8783ac2",
+          "title": "AI Engineer | PAM Health Corporate",
+          "result": "reactivated-start-date-visa-compensation-opportunity-cost-verification",
+          "reason": "Official iCIMS page displayed Apply in Plano. JD spans Junior through Senior with no numeric minimum and covers production AI agents/LLM/RAG, but post-May-2027 start, OPT/STEM OPT, compensation and a clear Ryan upgrade are unverified."
+        },
+        {
+          "company": "Jobgether",
+          "title": "Associate Machine Learning Engineer",
+          "result": "unverified-anonymous-partner-not-added",
+          "reason": "Listing is posted on behalf of an unnamed partner; no employer official JD or work-authorization/start-date facts could be verified."
+        },
+        {
+          "company": "Waabi",
+          "result": "rejected-not-added",
+          "reason": "Fresh Dallas results were Research Scientist or Senior/Staff roles; no verified zero-experience entry role."
+        },
+        {
+          "company": "CesiumAstro",
+          "result": "rejected-not-added",
+          "reason": "Austin ML opening is Senior; entry openings are hardware/mission roles outside scope."
+        },
+        {
+          "company": "CSC Generation",
+          "result": "rejected-not-added",
+          "reason": "Austin ML openings are Senior/Staff."
+        }
+      ]
+    }
+  },
+  "screening": {
+    "verifiedNewJobs": 0,
+    "verifiedStatusChanges": 1,
+    "qualifiedJobs": 0,
+    "hardRejectedJobs": 0,
+    "verificationOnlyJobs": 1,
+    "notificationEligibleJobs": 0,
+    "duplicateNotificationsSuppressed": 0,
+    "conclusion": "PAM Health R2026-91855 reactivated and is technically relevant, but mandatory timing, OPT/STEM OPT, compensation and Ryan-upgrade facts remain unverified. It was archived internally and not added to the actionable table."
+  },
+  "changes": {
+    "jobsDataChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusChanged": false,
+    "jdArchiveChanged": true
+  },
+  "writes": {
+    "jobsJson": {
+      "status": "succeeded",
+      "commit": "34b92752b3115664f96d711576b3d4f5ae4911b9",
+      "blobSha": "ee18a66cf56dcc080cb30cda42c0b56d6cb0552f",
+      "readbackVerified": true
+    },
+    "dallasPage": "not_attempted_no_change",
+    "austinPage": "not_attempted_no_change",
+    "jdArchive": {
+      "status": "succeeded",
+      "path": "job-archive/pam-health/2026-91855/job-description.md",
+      "commit": "4f56bd956bd0f714cd9efa4aaa2a7a9753678606",
+      "blobSha": "287c892e3f1b7c8be7982f3eb6d09a67d4042d8c",
+      "readbackVerified": true
+    },
+    "audit": "staged_write_pending_readback"
+  },
+  "sync": {
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-05T0150-Texas.json finalization/readback"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-11-05T06:45:48Z"
+  },
+  "completedAt": null,
+  "completedAtUtc": null,
+  "repositorySnapshotAfter": null
+}
