@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T16:12:51Z",
+  "checkedAt": "2026-11-05T16:15:25Z",
+  "checkedAtLocal": "2026-11-05T10:15:25-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "b2b937257e247aec63d57981cec8be16cdf8814b",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "1253f8e4c96d9945578882bf30cce381bbe161bf",
+      "count": 304,
+      "updatedAt": "2026-11-05T15:27:11Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T0927-Texas.json",
+      "sha": "ad0211c26c445690f05e8432b249523a062e50f4",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "3f59a28cfee6b831273007f1ea5fb86bca8652d6",
+      "currentHead": "3fac118f82a9564b6d1bdb39847ba73fbb783350",
+      "newListingCommits": 2,
+      "commits": [
+        {
+          "sha": "dea55f2075031d3f6aaa3f025902c47cfc2ae2c7",
+          "createdAt": "2026-11-05T15:31:25Z",
+          "changedRecords": 7,
+          "targetTexasSignals": 0
+        },
+        {
+          "sha": "3fac118f82a9564b6d1bdb39847ba73fbb783350",
+          "createdAt": "2026-11-05T16:01:18Z",
+          "changedRecords": 14,
+          "targetTexasSignals": 1
+        }
+      ]
+    },
+    "upstreamSignals": 21,
+    "officialSearchSignals": 1,
+    "discoveredSignals": 22,
+    "verifiedNewCandidates": 1,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "newRecords": [
+      {
+        "company": "CleanSlate Technology Group",
+        "title": "Associate AI/ML Engineer",
+        "location": "Austin, TX",
+        "officialStatus": "listed as current on employer-linked Paylocity board via current indexed captures",
+        "decision": "verification",
+        "unresolved": [
+          "exact requisition URL/ID",
+          "post-May-2027 start",
+          "OPT/STEM OPT",
+          "compensation",
+          "work arrangement",
+          "Ryan upgrade"
+        ]
+      }
+    ],
+    "relevantUpstreamNotes": [
+      "Goldman Sachs 171569 toggled false→true→false across the two commits; official role 171569 is New York, not Dallas/Austin.",
+      "Micron JR116832 is Richardson hardware/HBM architecture and is excluded by scope; the exact official requisition could not be independently resolved, so no record was created.",
+      "All remaining additions and status changes were outside Texas, outside Applied AI/ML/Data Science, or both."
+    ],
+    "notes": "Official searches returned already-recorded Kyndryl R-66739, GlobalFoundries JR-2604163, CVS R1074805, SambaNova 6224938004 and Striveworks 8002515003. No duplicates were added."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "CleanSlate is experience- and scope-compatible, but start date, F-1 OPT/STEM OPT, compensation, work arrangement and comparative value versus Ryan remain unverified. It stays out of the recommendation table and is not notified."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-pending-read-back",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T15:28:21Z",
+    "evidence": {
+      "archiveCommit": "edbf43e3b8524f0a03998b0ed799aa21ed0c8ac0",
+      "archiveBlobSha": "166c5bf6181834340f9c1e38941f41cc9f43e657",
+      "archiveReadBack": true,
+      "jobsCommit": "040e57ba3417b3685f50ad418f06e01bbea6234d",
+      "jobsBlobSha": "4a4ee8d07ba15039027b1a0c0a39b565d47c3525",
+      "jobsReadBack": true,
+      "stagedCommit": null,
+      "stagedBlobSha": null,
+      "stagedReadBack": false
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": null
+}
