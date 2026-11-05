@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T13:06:07Z",
+  "checkedAt": "2026-11-05T13:07:35Z",
+  "checkedAtLocal": "2026-11-05T07:07:35-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "4c0ffebc782ecc6e8269e6e3385a035e617e5198",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ee18a66cf56dcc080cb30cda42c0b56d6cb0552f",
+      "count": 302,
+      "updatedAt": "2026-11-05T07:50:31Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T0533-Texas.json",
+      "sha": "d071bf98f9a2f558b9e0d66be0eadc7bb07accf8",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "ec945f659d02b07fd956ffd04aa5c4fb263793a6",
+      "currentHead": "cbef57249b35897d48217bc1a63a05b55fd04d4c",
+      "listingCommitsReviewed": [
+        "6ed9cfd5eb6344bfbc82288b090e2a06ff7a0cd0",
+        "ddd336762084e5e63cf42e3d6ec3936383f86a8b",
+        "eda56885dac45af61a71aa66245f190ae7e1f3e2",
+        "cbef57249b35897d48217bc1a63a05b55fd04d4c"
+      ],
+      "readmeCommitsObserved": [
+        "e1fe775b527e15f65733a33106a06e67c37aedf3",
+        "066b8bfd29a7b0f735244737a23a5a42c21dc815",
+        "a3a26d370a1bb439cb05cf40f1cfc709515e88f0"
+      ],
+      "additions": 0,
+      "statusTransitions": 3,
+      "oldInactiveRemovals": 1,
+      "targetAreaRelevantEvents": 0
+    },
+    "webSearch": {
+      "queriesPerformed": 3,
+      "newSignalsReviewed": 1,
+      "verifiedNewCandidates": 1
+    },
+    "candidateReview": [
+      {
+        "company": "Paylocity",
+        "title": "Associate Machine Learning Engineer",
+        "jobId": "49063",
+        "officialUrl": "https://www.paylocity.com/company/careers/all-listings.job.49063/",
+        "officialStatus": "open/indexed with Apply Now",
+        "officialStatusVerifiedAt": "2026-11-05T13:07:35Z",
+        "location": "Fully remote within the United States; Texas residence not separately excluded but still marked for confirmation",
+        "experience": "0–2 years; internships, academic research, capstone projects accepted as preferred evidence",
+        "education": "Bachelor's degree in a quantitative or technical field",
+        "duties": "ML infrastructure, ML/data pipelines, model deployment, AWS/Databricks/Spark, CI/CD, monitoring and reliability",
+        "compensation": "$106,900–$152,700 base",
+        "workAuthorization": "JD does not disclose F-1 OPT/STEM OPT or sponsorship terms",
+        "startDate": "not disclosed; post-May-2027 compatibility unverified",
+        "ryanComparison": "Potential clear compensation and ML-platform upgrade over Ryan",
+        "decision": "verified-new-archived-pending-gates",
+        "notificationDecision": "not-notified-unverified",
+        "verificationFlags": [
+          "start-date-verification",
+          "visa-verification",
+          "texas-remote-verification"
+        ]
+      }
+    ]
+  },
+  "screening": {
+    "discoveredSignals": 1,
+    "verifiedNewCandidates": 1,
+    "verifiedStatusChanges": 0,
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "benchmark": "Ryan Associate Data Scientist Dallas return offer: $83k base, approximately $90k first year, production multi-agent AI, 5% bonus/equity",
+    "result": "Paylocity is a verified real new opening with strong upside, but it does not yet satisfy the required post-May-2027 start and F-1 OPT/STEM OPT verification gates."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "writeEvidence": {
+    "archive": {
+      "path": "job-archive/paylocity/49063/job-description.md",
+      "commit": "15e3c1f531c416a2b7949829ad175c22f3f559a5",
+      "blobSha": "32c555dc734114a0909a3eeaad4d7277a486eda8",
+      "readBack": true
+    },
+    "jobs": {
+      "path": "jobs.json",
+      "commit": "46cfafe76d640b74c7785b9a132ef6cdd34c1a2d",
+      "blobSha": "632f43df267bd74accd6d40d3aedcb3937317f8a",
+      "count": 303,
+      "readBack": true
+    },
+    "pages": {
+      "dallas": "unchanged",
+      "austin": "unchanged"
+    }
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-change",
+    "austinPage": "not-attempted-no-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T11:34:29Z"
+  }
+}
