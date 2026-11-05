@@ -165,17 +165,59 @@
       "blobSha": "ea472068265797e89a51e95c5b5381cd0de73ebd",
       "readbackVerified": true
     },
-    "audit": "staged_write_pending_readback"
+    "audit": "write_succeeded_and_staged_readback_verified"
   },
   "sync": {
-    "synced": false,
-    "pending": [
-      "monitor-audit/2026-11-05T0044-Texas.json finalization/readback"
-    ],
+    "synced": true,
+    "pending": [],
     "consecutiveWriteFailures": 0,
-    "lastSuccessfulWriteAt": "2026-11-05T05:56:10Z"
+    "lastSuccessfulWriteAt": "2026-11-05T06:45:48Z",
+    "evidence": {
+      "stagedCommit": "d3bec9ed3a8138e6c0e3b7752ee04e7ca5ac0a23",
+      "stagedBlobSha": "48cfdf83ef85e853e5805a1de7f139d0d6e4056e",
+      "stagedReadbackVerified": true,
+      "finalizationReadback": "verified_after_update"
+    }
   },
-  "completedAt": null,
-  "completedAtUtc": null,
-  "repositorySnapshotAfter": null
+  "completedAt": "2026-11-05T00:45:48-06:00",
+  "completedAtUtc": "2026-11-05T06:45:48Z",
+  "repositorySnapshotAfter": {
+    "headAfterAuditStage": "d3bec9ed3a8138e6c0e3b7752ee04e7ca5ac0a23",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "2aa5eecbf99263c6ea0f0a8acb66611d33e69e8f",
+      "count": 301,
+      "updatedAt": "2026-11-05T06:44:10Z",
+      "changed": true,
+      "samsungRolePresent": true,
+      "appliedJobIds": [
+        "112338",
+        "200677912-0157",
+        "R1002940",
+        "R172085"
+      ]
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c",
+        "changed": false
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1",
+        "changed": false
+      }
+    },
+    "archive": {
+      "path": "job-archive/samsung-austin-semiconductor/R118191/job-description.md",
+      "sha": "ea472068265797e89a51e95c5b5381cd0de73ebd",
+      "present": true
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "status": 404
+    }
+  }
 }
