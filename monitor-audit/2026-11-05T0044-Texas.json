@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-11-05T00:44:10-06:00",
+  "checkedAtUtc": "2026-11-05T06:44:10Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible remote"
+    ],
+    "startDate": "after 2027-05",
+    "experience": "0-2 years; minimum cannot require 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only and restrictive sponsorship language",
+    "excludedFunctions": [
+      "hardware",
+      "chip",
+      "embedded",
+      "firmware"
+    ],
+    "companyExclusions": [
+      "Texas Instruments",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist Dallas return offer ($83k base, ~90k first year, production multi-agent AI, 5% bonus/equity)"
+  },
+  "repositorySnapshotBefore": {
+    "head": "d390ca6c83af4bfd896a6034120983098848adbf",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ed38f84ffc2ea45a1954f08af2060f1daf87ce16",
+      "count": 300,
+      "updatedAt": "2026-11-05T04:42:16Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIds": [
+      "112338",
+      "200677912-0157",
+      "R1002940",
+      "R172085"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-04T2355-Texas.json",
+      "sha": "331fb7c5e451719284ebff41aa427ae232f9bd40",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-05T05:56:10Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "status": 404,
+      "interpretation": "No workflows directory; no Pages deployment workflow was treated as job collection."
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "51be192b45021ab757d96ee5d5c14c0ee498b66c",
+      "currentHead": "2b330a0838cb65edd0238c7a044e3015fff8f1b5",
+      "commitsReviewed": [
+        "6c4dc72c3b34989ba9eb593c336437794a970e00",
+        "2b330a0838cb65edd0238c7a044e3015fff8f1b5"
+      ],
+      "readmeCommitsObserved": [
+        "321d18673ed6fd3d5804db552929ba29aec228e2",
+        "57327aca9bf934db33e012d2ed2e23188a8e0ba8"
+      ],
+      "listingsDataCommitsReviewed": 2,
+      "relevantTexasEvents": 0,
+      "note": "One California RTX embedded role became inactive. The later cleanup removed stale/non-target records and changed non-Texas hardware statuses; no Dallas/Austin/verified Texas-remote Applied AI/ML/DS event was present."
+    },
+    "webSearch": {
+      "queriesPerformed": 9,
+      "newVerifiedCandidates": 1,
+      "candidateReview": [
+        {
+          "company": "Samsung Austin Semiconductor",
+          "jobId": "R118191",
+          "title": "Machine Learning and Optimization Engineer",
+          "result": "newly-verified-repost-experience-start-date-rejected",
+          "reason": "Official Workday page is open in Austin and shows a 2027-01-02 deadline. The advanced role seeks significant industrial ML exposure and prefers a master's degree or higher; it is not a 2027 new-grad cohort and does not establish a post-May-2027 start."
+        },
+        {
+          "company": "Guidehouse",
+          "jobId": "42293",
+          "title": "Databricks Data Scientist",
+          "result": "rejected-not-added",
+          "reason": "Official JD requires 3-8 years of relevant data science/ML/advanced analytics experience."
+        },
+        {
+          "company": "SHI",
+          "jobId": "JR3021",
+          "title": "Solutions Engineer – Google AI",
+          "result": "rejected-not-added",
+          "reason": "Official JD requires 3-5 years in a similar role, 5+ years in technical cloud/AI and 3+ years of Cloud/AI presales consulting."
+        },
+        {
+          "company": "Q2",
+          "jobId": "REQ-12438",
+          "title": "Machine Learning Engineer",
+          "result": "rejected-not-added",
+          "reason": "Official result requires 5-8 years."
+        },
+        {
+          "company": "Visa",
+          "result": "rejected-not-added",
+          "reason": "Austin results were Senior Consultant/Senior Manager level."
+        },
+        {
+          "company": "Waabi",
+          "result": "rejected-not-added",
+          "reason": "Dallas results were Research Scientist or Senior/Staff roles, not verified zero-experience entry roles."
+        },
+        {
+          "company": "Amazon",
+          "jobId": "10593521",
+          "title": "Software Development Engineer Intern, Machine Learning/Automated Reasoning – Summer 2027",
+          "result": "rejected-not-added",
+          "reason": "Internship, while the monitor is for full-time post-graduation roles."
+        }
+      ]
+    }
+  },
+  "screening": {
+    "verifiedNewJobs": 1,
+    "verifiedStatusChanges": 0,
+    "qualifiedJobs": 0,
+    "hardRejectedJobs": 1,
+    "notificationEligibleJobs": 0,
+    "duplicateNotificationsSuppressed": 0,
+    "conclusion": "Samsung R118191 was verified and archived as a current repost, but it fails the experience and post-May-2027 timing gates. No actionable role clearly improved on Ryan."
+  },
+  "changes": {
+    "jobsDataChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusChanged": false,
+    "jdArchiveChanged": true
+  },
+  "writes": {
+    "jobsJson": {
+      "status": "succeeded",
+      "commit": "db7816c67eaf8ca3d9ba830c20cab5a698f27ea8",
+      "blobSha": "2aa5eecbf99263c6ea0f0a8acb66611d33e69e8f",
+      "readbackVerified": true
+    },
+    "dallasPage": "not_attempted_no_change",
+    "austinPage": "not_attempted_no_change",
+    "jdArchive": {
+      "status": "succeeded",
+      "path": "job-archive/samsung-austin-semiconductor/R118191/job-description.md",
+      "commit": "d7791eed48617c22d44b0994f994e783f25b73eb",
+      "blobSha": "ea472068265797e89a51e95c5b5381cd0de73ebd",
+      "readbackVerified": true
+    },
+    "audit": "staged_write_pending_readback"
+  },
+  "sync": {
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-05T0044-Texas.json finalization/readback"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-11-05T05:56:10Z"
+  },
+  "completedAt": null,
+  "completedAtUtc": null,
+  "repositorySnapshotAfter": null
+}
