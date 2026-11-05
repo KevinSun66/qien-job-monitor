@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "checkedAt": "2026-11-04T19:35:57-06:00",
+  "checkedAtUtc": "2026-11-05T01:35:57Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "criteria": {
+    "locations": [
+      "Dallas/DFW",
+      "Austin",
+      "verified Texas-eligible remote"
+    ],
+    "startDate": "after 2027-05",
+    "experience": "0-2 years; minimum cannot require 1+ years",
+    "workAuthorization": "F-1 OPT/STEM OPT compatible; reject citizen/green-card-only and restrictive sponsorship language",
+    "excludedFunctions": [
+      "hardware",
+      "chip",
+      "embedded",
+      "firmware"
+    ],
+    "companyExclusions": [
+      "Texas Instruments",
+      "D3V Technology Solutions (paused)"
+    ],
+    "benchmark": "Ryan Associate Data Scientist Dallas return offer ($83k base, ~90k first year, production multi-agent AI, 5% bonus/equity)"
+  },
+  "repositorySnapshotBefore": {
+    "head": "913662841372bdf7143595586a56cc49f9d75b71",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "a731534a0e3920f9f3306e6fd518a0390ac66d13",
+      "count": 298,
+      "updatedAt": "2026-11-04T23:42:02Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIds": [
+      "112338",
+      "200677912-0157",
+      "R1002940",
+      "R172085"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-04T1837-Texas.json",
+      "sha": "293457f81957bed4f280132057ac1cd3b5e48671",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "status": 404,
+      "interpretation": "No workflows directory; no Pages deployment workflow was treated as job collection."
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "source": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "0c5c86570c2d7a537fa2f40104a7fbdde9b3cc6c",
+      "currentHead": "e3c356e566bc8f60e13c646e232996991b466c3b",
+      "commitsReviewed": [
+        "f4de0f3bd5ff43fae05e7e388c501f7fa7ed98a3",
+        "b75192760ee9d16d4d2890b52cf7469e0276a874",
+        "61daf7a63f58b19574c8a384749238e86748ee27",
+        "e3c356e566bc8f60e13c646e232996991b466c3b"
+      ],
+      "listingsDataCommitsReviewed": 2,
+      "readmeCommitsReviewed": 2,
+      "latestListingsCommit": "61daf7a63f58b19574c8a384749238e86748ee27",
+      "changedRecordsReviewed": 4,
+      "relevantTexasEvents": 0,
+      "notes": [
+        "Comcast Junior Full Stack Developer removed in Colorado.",
+        "Sainsbury's Trading Assistant removed in the UK.",
+        "Super Micro Computer Product Engineer became inactive in San Jose, California.",
+        "AeroVironment Electrical Engineer I became inactive in Petaluma, California."
+      ]
+    },
+    "webSearch": {
+      "queriesPerformed": 4,
+      "officialOrIndexedCandidatesReviewed": 7,
+      "candidateReview": [
+        {
+          "company": "Striveworks",
+          "jobId": "8002515003",
+          "result": "duplicate-unchanged",
+          "reason": "Official Greenhouse page remains open; active Secret clearance requirement preserves citizenship/security-clearance rejection."
+        },
+        {
+          "company": "RSM",
+          "jobId": "JR122103",
+          "result": "duplicate-unchanged",
+          "reason": "Official Workday result remains indexed; existing F-1/sponsorship hard rejection remains applicable."
+        },
+        {
+          "company": "Applied Materials",
+          "jobId": "R2627684",
+          "result": "duplicate-unchanged",
+          "reason": "Official page remains open with November 30, 2026 deadline; existing opportunity-cost rejection and 2027/OPT caveats remain unchanged."
+        },
+        {
+          "company": "Avride",
+          "result": "duplicate-unchanged",
+          "reason": "Current Austin board results are existing records with experience, sponsorship, or direction rejections."
+        },
+        {
+          "company": "SHI International",
+          "jobId": "JR3649",
+          "result": "duplicate-unchanged",
+          "reason": "Official posting still requires 1-2 years and remains below the Ryan upgrade threshold."
+        },
+        {
+          "company": "AT&T",
+          "jobId": "R-126111",
+          "result": "rejected-not-added",
+          "reason": "Lead Data/AI Engineering is not an entry-level 0-2 year role."
+        },
+        {
+          "company": "Amazon",
+          "result": "no-new-qualified-result",
+          "reason": "No newly verified Dallas/Austin full-time Applied AI/ML/DS role compatible with May 2027 graduation was found."
+        }
+      ]
+    }
+  },
+  "screening": {
+    "verifiedNewJobs": 0,
+    "verifiedStatusChanges": 0,
+    "qualifiedJobs": 0,
+    "notificationEligibleJobs": 0,
+    "duplicateNotificationsSuppressed": 0,
+    "conclusion": "No verified new or changed role met all eligibility rules and clearly improved on the Ryan benchmark."
+  },
+  "changes": {
+    "jobsDataChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "applicationStatusChanged": false,
+    "jdArchiveChanged": false
+  },
+  "writes": {
+    "jobsJson": "not_attempted_no_change",
+    "dallasPage": "not_attempted_no_change",
+    "austinPage": "not_attempted_no_change",
+    "jdArchive": "not_attempted_no_change",
+    "audit": "pending_readback"
+  },
+  "sync": {
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-04T1935-Texas.json readback and finalization"
+    ],
+    "consecutiveWriteFailures": 0,
+    "lastSuccessfulWriteAt": "2026-11-05T00:38:25Z"
+  }
+}
