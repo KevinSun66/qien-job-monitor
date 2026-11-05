@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T10:14:09Z",
+  "checkedAt": "2026-11-05T10:16:02Z",
+  "checkedAtLocal": "2026-11-05T04:16:02-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "8368fa3b3a83f4b23e2ee6cce79a7f13f69b0e90",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ee18a66cf56dcc080cb30cda42c0b56d6cb0552f",
+      "count": 302,
+      "updatedAt": "2026-11-05T07:50:31Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T0344-Texas.json",
+      "sha": "13624da1aedd8a35393f901f0d6ebbbc13339a64",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "008a238a6678125201d6bfeb15f2ed49a3c81db3",
+      "currentHead": "bdcb280d564eb7a92ba5539794ef3244d6e2ae98",
+      "listingCommitsReviewed": [
+        "bdcb280d564eb7a92ba5539794ef3244d6e2ae98"
+      ],
+      "readmeCommitsObserved": [
+        "c15c0b36affc6668000714744f68bcfb4404772e"
+      ],
+      "additions": 4,
+      "statusTransitions": 3,
+      "oldInactiveRemovals": 1,
+      "targetAreaRelevantEvents": 0,
+      "notes": "Additions and status events were outside Texas or hardware/robot-operator/research-residency roles."
+    },
+    "webSearch": {
+      "queriesPerformed": 2,
+      "newSignalsReviewed": 1,
+      "verifiedNewCandidates": 0
+    },
+    "candidateReview": [
+      {
+        "company": "Paylocity",
+        "title": "Associate Machine Learning Engineer",
+        "jobId": "49063",
+        "indexedUrl": "https://www.paylocity.com/company/careers/product-technology.job.49063/",
+        "officialStatus": "conflicting/unverified: exact detail URL currently redirects to Product & Technology list; current visible list does not show the role, while fresh official search index reports a Nov. 2 posting in the all-jobs list",
+        "location": "Fully Remote, US in indexed official JD; Texas residence not separately excluded",
+        "experience": "0–2 years; internships, research and capstone preferred",
+        "duties": "ML pipelines, model deployment, AWS/Databricks/Spark, CI/CD, ML platform infrastructure",
+        "compensation": "$106,900–$152,700 base in indexed official JD",
+        "workAuthorization": "not disclosed",
+        "startDate": "not disclosed",
+        "decision": "status-start-date-visa-verification-not-added",
+        "reasons": [
+          "current open/application status not verified",
+          "2027 post-May start compatibility not stated",
+          "F-1 OPT/STEM OPT policy not stated"
+        ],
+        "ryanComparison": "Potential clear compensation and ML-platform upgrade if reopened/verified."
+      }
+    ]
+  },
+  "screening": {
+    "discoveredSignals": 1,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "benchmark": "Ryan Associate Data Scientist Dallas return offer: $83k base, approximately $90k first year, production multi-agent AI, 5% bonus/equity",
+    "result": "No verified, currently open role met all required gates. Paylocity remains an audit-only verification signal."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-verified-change",
+    "dallasPage": "not-attempted-no-change",
+    "austinPage": "not-attempted-no-change",
+    "archives": "not-attempted-no-verified-change",
+    "audit": "staged",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T09:45:12Z"
+  }
+}
