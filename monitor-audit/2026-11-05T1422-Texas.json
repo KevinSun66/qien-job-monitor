@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-05T20:21:14Z",
+  "checkedAt": "2026-11-05T20:22:36Z",
+  "checkedAtLocal": "2026-11-05T14:22:36-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "66203064cfe280b9f4e6d077a7446f7c81746fe4",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "79bbba858c70b19c0170889e5f2ee12dc38d7d7b",
+      "count": 306,
+      "updatedAt": "2026-11-05T17:17:35Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T1311-Texas.json",
+      "sha": "f6969b35aa0dce06081316df48b2d45cdb2bff42",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "62541caf402294162bb93915c99a25eb98c4829a",
+      "currentHead": "c9be57444c69dbcc51aab01f3182874d1293b646",
+      "newListingCommits": 2,
+      "commits": [
+        {
+          "sha": "a2892173f5bebfbb97967f7b5a4ba47523f55868",
+          "createdAt": "2026-11-05T19:33:28Z",
+          "activeToInactive": 4,
+          "targetTexasMatches": 0
+        },
+        {
+          "sha": "c9be57444c69dbcc51aab01f3182874d1293b646",
+          "createdAt": "2026-11-05T20:01:21Z",
+          "activeToInactive": 0,
+          "targetTexasMatches": 0,
+          "notes": "No listing diff returned"
+        }
+      ]
+    },
+    "upstreamSignals": 4,
+    "officialSearchSignals": 9,
+    "discoveredSignals": 13,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "excludedUpstreamSignals": [
+      "RWS Speech AI Evaluation Specialist - Vietnamese — non-target geography/contract scope",
+      "Parsons Data Scientist 1 (R186422) — Washington, DC",
+      "Vanasse Hangen Brustlin Transportation Safety Analyst — non-target",
+      "Exelixis Associate AI and Agentic Engineer (JR7184) — Alameda, California"
+    ],
+    "officialSignalsReviewed": [
+      "Kyndryl R-66739 — already recorded; unrestricted present/future work authorization requirement preserves F-1 hard rejection",
+      "Applied Materials R2627684 — already recorded; official page remains indexed but existing opportunity-cost rejection is unchanged",
+      "Striveworks 8002515003 — already recorded; US-citizenship/security-clearance requirement preserves rejection",
+      "MyFunded Futures 4390595009 — exact URL redirects to company board error state; board lists 8 other openings, so existing closed status is confirmed",
+      "GlobalFoundries JR-2604163, RSM JR122103 and SHI JR3649 — already recorded with unchanged direction, visa or experience/opportunity-cost exclusions"
+    ],
+    "notes": "All current Texas search hits were existing records. No duplicate record was added and no unverified search-index signal was treated as an opening."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies the location, post-May-2027 timing, zero-starting experience, OPT/STEM OPT, role-scope, exclusion and Ryan-upgrade rules."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-change",
+    "dallasPage": "not-attempted-no-change",
+    "austinPage": "not-attempted-no-change",
+    "archives": "not-attempted-no-change",
+    "audit": "staged-awaiting-read-back",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-05T19:12:38Z",
+    "evidence": {}
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": null
+}
