@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T07:19:37Z",
+  "checkedAt": "2026-11-06T07:20:42Z",
+  "checkedAtLocal": "2026-11-06T01:20:42-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "585d43c97b7510f8114c22f230afb94e020d14f1",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "13aaeaa32d7a44ac264436d46f6d86a10554eaba",
+      "count": 315,
+      "updatedAt": "2026-11-06T05:21:53Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-06T0036-Texas.json",
+      "sha": "b97393edadba164fba2fdcb224e8d561a89095ce",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "a0a264167e3b0a747295b31dd9d35929f03e3f78",
+      "currentHead": "f7ff9ba3c347a3ca082444d8ec4b9e4174e39089",
+      "newListingCommits": 1,
+      "commits": [
+        {
+          "sha": "f7ff9ba3c347a3ca082444d8ec4b9e4174e39089",
+          "currentSignals": 0,
+          "notes": "Listing and README refresh produced no independently verified new Texas entry-level Applied AI/ML/Data Science candidate"
+        }
+      ],
+      "compare": {
+        "files": [
+          ".github/scripts/listings.json",
+          "README.md"
+        ],
+        "additions": 20,
+        "deletions": 48
+      }
+    },
+    "upstreamSignals": 0,
+    "officialSearchSignals": 11,
+    "discoveredSignals": 11,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "Applied Materials Data Scientist New College Grad R2627684 — official Austin page remains open; existing opportunity-cost-rejected record unchanged",
+      "Kyndryl Associate AI Engineer R-66739 — official Dallas/Frisco page remains visible; existing record unchanged",
+      "GlobalFoundries JR-2604163 and JR-2602829 — matched existing hardware/systems-direction or start-date records; no verified status change",
+      "ServiceLink AI Engineer 2026-3625 — official Plano page remains open with 2+ years and no present/future sponsorship; existing experience-visa-rejected record unchanged",
+      "RSM AI Machine Learning Engineer JR122103 — matched existing explicit F-1 visa rejection record",
+      "Applied Materials R2619452 and R2627400 — existing data-engineering/opportunity-cost or BI-direction exclusions",
+      "Xome/Notify Machine Learning Engineer I search result refers to an August 2026 closed window and was not treated as a current opening",
+      "No official candidate met zero-minimum experience, May-2027 start, Texas location, OPT/STEM OPT and Ryan-upgrade gates together"
+    ],
+    "notes": "No verified new role or status change. jobs.json and recommendation pages were not modified."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies every hard requirement or clearly improves on Ryan."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "not-attempted-no-new-verified-archive",
+    "audit": "staged-write-pending-read-back-and-finalization",
+    "synced": false,
+    "pending": [
+      "Read back staged audit, finalize synced state, and read back final audit"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T06:37:10Z",
+    "evidence": {
+      "baselineReadBack": true
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "585d43c97b7510f8114c22f230afb94e020d14f1",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "13aaeaa32d7a44ac264436d46f6d86a10554eaba",
+      "count": 315,
+      "updatedAt": "2026-11-06T05:21:53Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    },
+    "headCommitBeforeFinalization": null
+  }
+}
