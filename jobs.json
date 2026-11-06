@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T18:51:54Z",
+  "updatedAt": "2026-11-06T21:41:56Z",
   "jobs": [
     {
       "company": "IBM",
@@ -12352,6 +12352,49 @@
       "archiveUrl": "job-archive/sambanova/6240725004/job-description.md",
       "archiveLabel": "JD 归档摘要",
       "archivedAt": "2026-11-06T18:51:54Z",
+      "applicationStatus": "not-applied",
+      "rejectionReason": null
+    },
+    {
+      "company": "Waabi",
+      "tier": "S- · 高价值待核验",
+      "area": "Dallas, TX / Remote US & Canada / Phoenix / Pittsburgh / San Francisco / Toronto",
+      "market": "DFW",
+      "title": "Research Engineer — Autonomy & Algorithms (b8498714-0bac-43bc-9483-f2e280547ebe)",
+      "employment": "Full-time · Hybrid · Remote US & Canada / Dallas",
+      "gradYear": "Bachelor’s accepted; applied research project experience required; no numeric professional-year minimum stated",
+      "match": "Exceptional Applied ML research-to-production and compensation fit; start date and immigration support unresolved",
+      "ngCompatibility": "No numeric professional-year minimum; bachelor’s accepted; senior engineers are also welcome, so exact leveling for a May 2027 graduate requires confirmation.",
+      "assessment": "Waabi’s official Lever page is open and lists Dallas plus Remote US & Canada. The role prototypes and deploys deep-learning, computer-vision and self-driving algorithms using real-world data and simulation; duties cover perception, motion forecasting, planning, traffic modeling, sensor simulation, large datasets and production integration. Required qualifications accept a bachelor’s degree and applied-research project experience with no numeric full-time-year minimum. Official US base pay is $122,000–$215,000 plus equity and annual bonus, a clear potential upgrade over Ryan. The JD does not state a post-May-2027 start date or role-level F-1 OPT/STEM OPT policy; exact entry-level leveling is also not guaranteed. Keep out of Table 2 and do not notify until start timing and work authorization are confirmed.",
+      "visa": "Visa verification: the official JD states no role-level OPT/STEM OPT or sponsorship rule. Do not infer acceptance or rejection.",
+      "found": "2026-11-06",
+      "discoveredDate": "2026-11-06",
+      "discoveredAt": "2026-11-06T21:41:56Z",
+      "firstSeen": "2026-11-06",
+      "lastChecked": "2026-11-06",
+      "lastCheckedAt": "2026-11-06T21:41:56Z",
+      "url": "https://jobs.lever.co/waabi/b8498714-0bac-43bc-9483-f2e280547ebe",
+      "officialSource": "https://jobs.lever.co/waabi/b8498714-0bac-43bc-9483-f2e280547ebe",
+      "status": "level-start-date-visa-verification",
+      "finalPriority": "高价值待核验 · 暂不进入表2、不通知",
+      "roleTrack": "Applied ML Research / Deep Learning / Computer Vision / Autonomous Driving / Production ML",
+      "technicalGrowth": "98/100 potential · research-to-production ML, perception, forecasting, planning and simulation",
+      "brandPlatform": "94/100",
+      "ryanUpgrade": "Potentially major upgrade in Applied ML depth, research platform and compensation, conditional on entry-level leveling, post-May-2027 start and F-1 OPT/STEM OPT compatibility.",
+      "compensation": "$122,000–$215,000 US base + equity + annual performance bonus (official)",
+      "officePerks": "Dallas or Remote US/Canada; hybrid; unlimited vacation; health benefits; equity; flexible hours and WFH support",
+      "jobId": "b8498714-0bac-43bc-9483-f2e280547ebe",
+      "source": "Waabi official Lever JD, verified 2026-11-06",
+      "officialStatus": "Official Lever page displayed Apply and full JD on 2026-11-06.",
+      "minimumExperience": "No numeric minimum years; experience on applied research projects required.",
+      "verificationFlags": [
+        "level-verification",
+        "start-date-verification",
+        "visa-verification"
+      ],
+      "archiveUrl": "job-archive/waabi/b8498714-0bac-43bc-9483-f2e280547ebe/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-11-06T21:41:56Z",
       "applicationStatus": "not-applied",
       "rejectionReason": null
     }
