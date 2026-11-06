@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T22:57:48Z",
+  "checkedAt": "2026-11-06T22:59:46Z",
+  "checkedAtLocal": "2026-11-06T16:59:46-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "2db02e381e5c5cb577ceb1745711e69cc4b7450a",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "9e5ecc8270bbcda595f733512840df403fc9bb61",
+      "count": 325,
+      "updatedAt": "2026-11-06T21:41:56Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-06T1540-Texas.json",
+      "sha": "f197d7b253fe70201537e81ab6d770931df9b245",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-06T21:43:27Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "previousHead": "a4fb042ad754ba338843f9169296ab2138b48704",
+      "currentHead": "f308ef1b0c27c4475ba001ec633380212ab87587",
+      "newCommits": 4,
+      "texasSignals": 0,
+      "notes": "Large refresh removed stale rows and regenerated README, but Texas differences were only age-label changes for existing Amazon, CLEAR, Meta and CesiumAstro rows; no substantive in-scope Texas addition/removal."
+    },
+    "upstreamSignals": 0,
+    "officialCandidateSignals": 12,
+    "discoveredSignals": 12,
+    "verifiedNewCandidates": 1,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "pendingVerificationCandidates": 1,
+    "relevantSignalsReviewed": [
+      "CSC Generation bd47a148-9869-43d5-be5f-bc9d3e31cb7f was verified open on the official Lever JD and application. The Austin hybrid role covers causal inference, contextual bandits, policy learning, counterfactual evaluation and production ML.",
+      "The official US JD states no numeric minimum years, but the Senior title and expected breadth create a level-verification gate. No official compensation or post-May-2027 start is stated. The application allows applicants to disclose H-1B transfer/full sponsorship need, but initial OPT/STEM compatibility remains unconfirmed. It was archived as pending and not promoted or notified.",
+      "Kyndryl R-66739, AT&T R-126111, Toyota 10337827/10338143, GM JR-202620418, Itron JR102937 and Waabi signals matched existing records and were not duplicated.",
+      "Striveworks 7713741003 requires US citizenship and active Secret clearance. KLA 2642125 is an internship. Apptronik principal and Visa senior roles are outside the 0–2 year scope."
+    ],
+    "notes": "One real official candidate was added as pending verification. No role cleared all notification gates."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 1,
+    "notificationCandidates": 0,
+    "result": "CSC Generation is unverified for 0–2-year leveling, post-May-2027 start, compensation and F-1 OPT/STEM OPT; no notification is warranted."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 1,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-pending-final-read-back",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T22:58:53Z",
+    "evidence": {
+      "jobsCommit": "0cc824963f617cf810656c40c3a1799d2dc45635",
+      "jobsBlobSha": "b073f5ea77e15a798aafca4df3c4d17b1e46348b",
+      "jobsReadBack": true,
+      "archiveCommit": "6000c466be61def07e123a98c8a554e0feace629",
+      "archiveBlobSha": "c4a6a74d005e7aabf407722bb11ce2fc16d98678",
+      "archiveReadBack": true
+    }
+  },
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "6000c466be61def07e123a98c8a554e0feace629",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "b073f5ea77e15a798aafca4df3c4d17b1e46348b",
+      "count": 326,
+      "updatedAt": "2026-11-06T22:58:53Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "archives": [
+      {
+        "path": "job-archive/csc-generation/bd47a148-9869-43d5-be5f-bc9d3e31cb7f/job-description.md",
+        "sha": "c4a6a74d005e7aabf407722bb11ce2fc16d98678"
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
