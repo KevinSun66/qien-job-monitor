@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T21:40:43Z",
+  "checkedAt": "2026-11-06T21:42:46Z",
+  "checkedAtLocal": "2026-11-06T15:42:46-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "87f149ff4daab9a129e7550ceb6113298c9a9854",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "9431fa0532b6f84220a8c251c255043c14244217",
+      "count": 324,
+      "updatedAt": "2026-11-06T18:51:54Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-06T1504-Texas.json",
+      "sha": "94f60bc55441dd54b5c739b0bdc44ff0c0f757c0",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-06T21:08:02Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "previousHead": "259f02d582626d38b37ccabeedd951ebda1b2e93",
+      "currentHead": "a4fb042ad754ba338843f9169296ab2138b48704",
+      "newCommits": 6,
+      "texasSignals": 0,
+      "notes": "Only age-label refreshes affected two existing Austin SambaNova rows; no substantive Texas listing addition/removal in the upstream diff."
+    },
+    "upstreamSignals": 0,
+    "officialCandidateSignals": 13,
+    "discoveredSignals": 13,
+    "verifiedNewCandidates": 1,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "pendingVerificationCandidates": 1,
+    "relevantSignalsReviewed": [
+      "Waabi Research Engineer b8498714-0bac-43bc-9483-f2e280547ebe was verified on the official Lever page as open, full-time, Dallas/Remote US, bachelor’s accepted, with no numeric minimum professional-year requirement. Applied ML duties cover deep learning, computer vision, perception, forecasting, planning, simulation and production deployment; official US base pay is $122,000–$215,000 plus equity and annual bonus.",
+      "Waabi remains pending because the JD does not confirm entry-level leveling for a May 2027 graduate, a post-May-2027 start date, or F-1 OPT/STEM OPT compatibility. It was archived but not promoted to Table 2 and not notified.",
+      "RSM JR122103, CVS R1074805, AT&T R-126111, UT Austin R_00049413, JCI WD30262592 and other surfaced official signals matched existing rejected records and were not duplicated.",
+      "Shield AI open-level autonomy roles were not added because current application/export-control and exact leveling evidence did not establish a verified zero-experience, OPT/STEM-compatible opportunity. Apptronik CoRL talent intake is not a specific verified requisition."
+    ],
+    "notes": "One real high-value candidate was added as pending verification with an official-JD archive. No role cleared all notification gates."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 1,
+    "notificationCandidates": 0,
+    "result": "Waabi is a high-value pending candidate but lacks verified 2027 start and OPT/STEM compatibility; no user notification is warranted under the strict rules."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 1,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-pending-final-read-back",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T21:41:56Z",
+    "evidence": {
+      "jobsCommit": "33d0a450ee2092776ae9e8cd0ea2a4db9e270a71",
+      "jobsBlobSha": "9e5ecc8270bbcda595f733512840df403fc9bb61",
+      "jobsReadBack": true,
+      "archiveCommit": "5aac9f2b492e2e99d2afbb50ead8dea07d129e5e",
+      "archiveBlobSha": "ffe4c2cd3653851dbb12170b62db827f293d2010",
+      "archiveReadBack": true
+    }
+  },
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "5aac9f2b492e2e99d2afbb50ead8dea07d129e5e",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "9e5ecc8270bbcda595f733512840df403fc9bb61",
+      "count": 325,
+      "updatedAt": "2026-11-06T21:41:56Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "archives": [
+      {
+        "path": "job-archive/waabi/b8498714-0bac-43bc-9483-f2e280547ebe/job-description.md",
+        "sha": "ffe4c2cd3653851dbb12170b62db827f293d2010"
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
