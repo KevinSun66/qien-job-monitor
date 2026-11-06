@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T21:04:59Z",
+  "checkedAt": "2026-11-06T21:07:23Z",
+  "checkedAtLocal": "2026-11-06T15:07:23-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "3a937e8e6408edcf5513e1b97d2b27eca5323d7d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "9431fa0532b6f84220a8c251c255043c14244217",
+      "count": 324,
+      "updatedAt": "2026-11-06T18:51:54Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-06T1320-Texas.json",
+      "sha": "36b7e4a41865347c4d0450e6ab06486c4c9d3fd2",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-06T19:22:25Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "previousHead": "259f02d582626d38b37ccabeedd951ebda1b2e93",
+      "currentHead": "dev (5 commits ahead at check time)",
+      "newCommits": 5,
+      "texasSignals": 0,
+      "notes": "README/listings refresh changed age labels for two existing Austin SambaNova rows from 9d to 10d; no substantive Texas listing addition, removal, or eligibility change."
+    },
+    "upstreamSignals": 0,
+    "officialCandidateSignals": 12,
+    "discoveredSignals": 12,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "SambaNova 6240725004 and 6224938004 remained existing records; no verified official status or eligibility change was recovered.",
+      "Procore R0019007 remained openly indexed on the official careers site with Austin/US-remote location, production LLM agentic workflow duties, no numeric minimum-years statement, and $140,960–$193,820 base; post-May-2027 start and OPT/STEM OPT remain unresolved, so no promotion or notification was made.",
+      "Fresh third-party Dallas/Plano/Irving signals for PNC, Luminant/Vistra, JPMorgan and Toyota did not yield a new exact official requisition meeting the monitor gates. Toyota 10338143 was already archived as experience-and-visa rejected.",
+      "Applied Materials R2627409 is a Summer 2027 internship rather than the required full-time role and was not added. CCI Systems, Allied Consultants, GM and Apple search signals matched prior review conclusions or lacked a new verified zero-minimum full-time eligible requisition."
+    ],
+    "notes": "No verified new record or status change. Unverified, duplicate, internship, experience-ineligible, visa-ineligible, or non-upgrade signals were not written to job data."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No newly verified role cleared all gates; no user notification is warranted."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "not-attempted-no-archive-change",
+    "audit": "staged-pending-final-read-back",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T19:22:25Z",
+    "evidence": {}
+  },
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "3a937e8e6408edcf5513e1b97d2b27eca5323d7d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "9431fa0532b6f84220a8c251c255043c14244217",
+      "count": 324,
+      "updatedAt": "2026-11-06T18:51:54Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
