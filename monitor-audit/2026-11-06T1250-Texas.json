@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T18:50:31Z",
+  "checkedAt": "2026-11-06T18:52:47Z",
+  "checkedAtLocal": "2026-11-06T12:52:47-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "a6a7c585ce95e6cd3be6c691ae7e812bf959c47a",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "0e97c2787aed864c66960145a7c8b931f628b4d3",
+      "count": 323,
+      "updatedAt": "2026-11-06T16:22:49Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-06T1111-Texas.json",
+      "sha": "21938ebf88b8799639b1a9c730f2dd7eccfaa607",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-06T17:13:39Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "previousHead": "5346a4b0af777bbcb91cf57475a9bb45af84527b",
+      "currentHead": "bbab1263ed9d83637d18d4fad7999f9a5b75487c",
+      "newCommits": 6,
+      "incrementalTexasSignals": 0,
+      "notes": "The only Texas line in the diff was a README age counter for SambaNova 6240725004, not a newly added listing. Reviewing that current active row exposed a previously unarchived, non-duplicate Austin New Grad ML role."
+    },
+    "upstreamSignals": 1,
+    "officialCandidateSignals": 1,
+    "discoveredSignals": 1,
+    "verifiedNewCandidates": 1,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "pendingVerificationCandidates": 1,
+    "relevantSignalsReviewed": [
+      "SambaNova 6240725004 — newly detected non-duplicate Machine Learning Engineer - New Grad, Austin/San Jose, active in the upstream current snapshot and linked to the official employer careers URL.",
+      "Employer-supplied posting text describes LLM speculative-decoding training, model-efficiency methods, agentic tool use/retrieval/planning, evaluation, reinforcement learning/post-training and production collaboration; B.S. accepted and no numeric professional-year minimum stated.",
+      "Reported base range is $131,200–$196,800 plus equity/benefits, making it a potentially clear Ryan upgrade.",
+      "The official SambaNova URL resolved, but its embedded Greenhouse JD body was not directly readable in this run. Post-May-2027 start timing and role-level F-1 OPT/STEM OPT policy were also not stated. The role was archived as pending and was not added to Table 2 or notified."
+    ],
+    "notes": "One true new record was added for auditability, with explicit source and verification boundaries. It remains unverified for the three gates required before recommendation."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 1,
+    "notificationCandidates": 0,
+    "result": "No role cleared exact official-JD read-back, post-May-2027 start and F-1 OPT/STEM OPT compatibility. SambaNova 6240725004 is high-potential but must not be notified yet."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 1,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-pending-final-read-back",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T17:13:39Z",
+    "evidence": {
+      "jobsCommit": "1a3fdb15ed4bfce74a91fd9b5246b5b0e31aaf5c",
+      "jobsBlobSha": "9431fa0532b6f84220a8c251c255043c14244217",
+      "jobsReadBack": true,
+      "archiveCommit": "ef66fa4b16e9d7047107957e7c421ff7ff95de31",
+      "archiveBlobSha": "9a9dd3e104e1ef28c1d761699b557d53d5893b2f",
+      "archiveReadBack": true
+    }
+  },
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "ef66fa4b16e9d7047107957e7c421ff7ff95de31",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "9431fa0532b6f84220a8c251c255043c14244217",
+      "count": 324,
+      "updatedAt": "2026-11-06T18:51:54Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "archives": [
+      {
+        "path": "job-archive/sambanova/6240725004/job-description.md",
+        "sha": "9a9dd3e104e1ef28c1d761699b557d53d5893b2f"
+      }
+    ],
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
