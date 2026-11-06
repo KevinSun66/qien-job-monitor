@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T14:50:21Z",
+  "checkedAt": "2026-11-06T14:53:36Z",
+  "checkedAtLocal": "2026-11-06T08:53:36-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "c3564c712e06f10ed43ee6593e149598140bef97",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "8ae8a65418ddc2d57bcc8e66034c9d9105e46315",
+      "count": 318,
+      "updatedAt": "2026-11-06T13:54:40Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-06T0754-Texas.json",
+      "sha": "6e3df97015fac145b63dd3d997ef9e138fdb9649",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-06T13:56:22Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "previousHead": "4f5fcc209dffabeaaa1a334e4d9d8892369e50bd",
+      "currentHead": "8e390c3bc467e4ae0af106f8bdba921628c342b0",
+      "newCommits": 4,
+      "listingCommits": [
+        "8f0bf8453fa40942194bec09d807c0d59656db09",
+        "e6d7512c898fcfd962fbab54a3302bffb554e864"
+      ],
+      "removedRecords": 24,
+      "texasSignals": 0,
+      "notes": "Two listing updates removed 24 stale records; none had Dallas, Austin or other monitored Texas locations. Two AI/ML/Data removals were outside Texas. Two README commits were regeneration only."
+    },
+    "upstreamSignals": 24,
+    "officialCandidateSignals": 1,
+    "discoveredSignals": 25,
+    "verifiedNewCandidates": 1,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 1,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "AT&T Lead Data/AI Engineering R-126111 — official cached AT&T JD covered Databricks applications, production AI/ML, ETL/data pipelines, Snowflake/Azure/ADLS, MLOps, governance and responsible AI in Dallas.",
+      "Official JD required 5+ years related experience and lead/advanced data or AI engineering experience; this fails the zero-minimum experience rule.",
+      "Official Workday detail page displayed 'The page you are looking for doesn’t exist' at 2026-11-06 08:52:38 CST; the official AT&T job page returned 404 and the original end date was 2026-11-06, so the role was archived as closed.",
+      "Brunswick 8821383002, CVS R1074805, UT Austin R_00049413 and Striveworks 8002515003 matched existing records and retained their existing decisions.",
+      "No candidate met zero-minimum experience, post-May-2027 start, OPT/STEM OPT, monitored Texas location and clear Ryan-upgrade gates together."
+    ],
+    "notes": "One new official role was added only as a closed and experience-rejected deduplication record with an independent JD archive. No recommendation page changed."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies every hard requirement or clearly improves on Ryan. AT&T R-126111 is closed and requires 5+ years."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 1,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-succeeded-awaiting-finalization",
+    "synced": false,
+    "pending": [
+      "Finalize this audit after read-back verification and verify the resulting main head."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T14:53:36Z",
+    "evidence": {
+      "jobsCommit": "b4b389bfa60a95eef09bd7605ae314af4cde9d8d",
+      "jobsBlobSha": "e2f23cfee940c680edae7c62bf80db2f9b140325",
+      "jobsReadBack": true,
+      "archiveCommit": "ff7d219712f9709bccd910fa5fceb59af0498acc",
+      "archiveBlobSha": "f2d0b678bb4e8e5bf8863fe8e83d4eb7f35e7172",
+      "archiveReadBack": true
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "ff7d219712f9709bccd910fa5fceb59af0498acc",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "e2f23cfee940c680edae7c62bf80db2f9b140325",
+      "count": 319,
+      "updatedAt": "2026-11-06T14:52:38Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "archive": {
+      "path": "job-archive/att/R-126111/job-description.md",
+      "sha": "f2d0b678bb4e8e5bf8863fe8e83d4eb7f35e7172"
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
