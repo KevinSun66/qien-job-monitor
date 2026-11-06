@@ -100,23 +100,24 @@
     "dallasPage": "not-attempted-no-page-change",
     "austinPage": "not-attempted-no-page-change",
     "archives": "succeeded-and-read-back",
-    "audit": "staged-awaiting-read-back",
-    "synced": false,
-    "pending": [
-      "audit-finalization"
-    ],
-    "lastSuccessfulWriteAt": "2026-11-06T00:19:41Z",
+    "audit": "succeeded-and-read-back",
+    "synced": true,
+    "pending": [],
+    "lastSuccessfulWriteAt": "2026-11-06T00:21:55Z",
     "evidence": {
       "archiveCommit": "3cd3811e7999c4447c106c95c07434442e85dca9",
       "archiveBlobSha": "e77a0abacefe9ea2a783603acee666c77b92d084",
       "archiveReadBack": true,
       "jobsCommit": "faa25c8020f5535cfdd1568819bce489b31956dd",
       "jobsBlobSha": "98c4fadeab8cd29eb8588649f731347ec5479eca",
-      "jobsReadBack": true
+      "jobsReadBack": true,
+      "stagedCommit": "9acd0416dafe5ab755e088e950a0a9f926f71d90",
+      "stagedBlobSha": "ab8bb73cdbd94b2f0fc029aa5fe846a064691dc5",
+      "stagedReadBack": true
     }
   },
-  "completedAt": null,
-  "completedAtLocal": null,
+  "completedAt": "2026-11-06T00:21:55Z",
+  "completedAtLocal": "2026-11-05T18:21:55-06:00",
   "repositorySnapshotAfter": {
     "headCommitBeforeAudit": "faa25c8020f5535cfdd1568819bce489b31956dd",
     "jobs": {
@@ -145,6 +146,7 @@
       "path": ".github/workflows",
       "exists": false,
       "result": "404/absent"
-    }
+    },
+    "headCommitBeforeFinalization": "9acd0416dafe5ab755e088e950a0a9f926f71d90"
   }
 }
