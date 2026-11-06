@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T10:43:57Z",
+  "updatedAt": "2026-11-06T11:29:03Z",
   "jobs": [
     {
       "company": "IBM",
@@ -12073,6 +12073,45 @@
       ],
       "applicationStatus": "not-applied",
       "archiveUrl": "job-archive/toyota/10338143/job-description.md",
+      "archiveLabel": "Official JD summary"
+    },
+    {
+      "company": "Capgemini",
+      "tier": "A · 经验门槛排除",
+      "area": "Dallas, TX + Houston / Atlanta / Nashville",
+      "market": "DFW",
+      "title": "AI Engineer - Data Scientist (1450526733)",
+      "employment": "Full-time · Permanent · Hybrid",
+      "gradYear": "Experienced role; official minimum 5+ years Data Science/ML/AI/Advanced Analytics",
+      "match": "Strong GenAI and agentic-AI scope, but mandatory 5+ year minimum fails",
+      "ngCompatibility": "Rejected. Official JD requires at least 5+ years of relevant experience.",
+      "assessment": "Capgemini官方职位页显示开放，Dallas为四个hybrid地点之一。职责包括GenAI与Predictive AI模型、NLP/计算机视觉/分类/回归/聚类、REST API与鉴权集成、AI agents与agentic workflows、RAG/LLM应用、MLOps、云平台以及数据管线/湖/仓。官方明确要求至少5+年Data Science、Machine Learning、AI或Advanced Analytics经验，并期望GPT、Claude、Stable Diffusion、LangChain、TensorFlow及生产部署经验。最低经验从5年起，超过0–2年且最低不能要求1年以上的硬门槛，仅归档去重。",
+      "visa": "Official page reviewed this run does not state a role-specific F-1 OPT/STEM OPT or sponsorship decision. Experience gate already fails.",
+      "found": "2026-11-06",
+      "discoveredDate": "2026-11-06",
+      "discoveredAt": "2026-11-06T11:29:03Z",
+      "url": "https://careers.capgemini.com/job/Chicago-AI-Engineer-Data-Scientist-ND/1450526733/",
+      "status": "experience-rejected",
+      "finalPriority": "不投 · 官方最低5+年相关经验",
+      "roleTrack": "Generative AI / Predictive AI / Agentic AI / MLOps / Data Science",
+      "seniorityGap": "Hard fail · 5+ years minimum",
+      "technicalGrowth": "Strong enterprise GenAI scope, but inaccessible at current seniority",
+      "brandPlatform": "Global technology consulting and services platform",
+      "ryanUpgrade": "Not assessed after mandatory experience failure",
+      "compensation": "$76,730–$150,800 base reported with the official-derived listing; eligibility decision does not depend on compensation",
+      "officePerks": "Hybrid in Dallas, Houston, Atlanta or Nashville",
+      "jobId": "1450526733",
+      "officialSource": "https://careers.capgemini.com/job/Chicago-AI-Engineer-Data-Scientist-ND/1450526733/",
+      "officialStatus": "Open on official Capgemini careers page at 2026-11-06T05:29:03-06:00",
+      "lastChecked": "2026-11-06",
+      "lastCheckedAt": "2026-11-06T05:29:03-06:00",
+      "verificationFlags": [
+        "minimum-experience-hard-fail",
+        "visa-unresolved-no-impact",
+        "start-date-unresolved-no-impact"
+      ],
+      "applicationStatus": "not-applied",
+      "archiveUrl": "job-archive/capgemini/1450526733/job-description.md",
       "archiveLabel": "Official JD summary"
     }
   ],
