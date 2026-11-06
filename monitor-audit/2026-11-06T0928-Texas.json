@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T15:26:21Z",
+  "checkedAt": "2026-11-06T15:30:04Z",
+  "checkedAtLocal": "2026-11-06T09:30:04-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "1e5ec5891981dd2f5827aa4608464450c48a8387",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "e2f23cfee940c680edae7c62bf80db2f9b140325",
+      "count": 319,
+      "updatedAt": "2026-11-06T14:52:38Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-06T0852-Texas.json",
+      "sha": "8e6a7dc2bf27759d015e7c42a15c5a4e7c5ef965",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-06T14:54:14Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "previousHead": "8e390c3bc467e4ae0af106f8bdba921628c342b0",
+      "currentHead": "7c8d70775a80dbf9683d8ffbfb0c8a86188c7bf1",
+      "newCommits": 2,
+      "listingCommit": "e914e47b0670ff8bcc765fa342ad5b220731b830",
+      "removedRecords": 2,
+      "texasSignals": 0,
+      "notes": "Two stale non-Texas records were removed; the README commit was regeneration only."
+    },
+    "upstreamSignals": 2,
+    "officialCandidateSignals": 4,
+    "discoveredSignals": 6,
+    "verifiedNewCandidates": 4,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 3,
+    "pendingVerificationCandidates": 1,
+    "relevantSignalsReviewed": [
+      "Procore R0019007 — official pages open; Austin/Remote US, full-time, 50%+ travel, production LLM agentic workflows and data pipelines, $140,960–$193,820 base plus possible equity/bonus; no numeric 1+ year minimum.",
+      "Procore remains pending because post-May-2027 start, F-1 OPT/STEM OPT and new-graduate compatibility are not stated; despite clear Ryan-upgrade potential, it is not added to the recommendation page or notified.",
+      "Toyota 10333980 — official Plano role open, but requires 5+ years and explicitly excludes F-1 OPT/STEM OPT/CPT; experience-visa rejected.",
+      "Vizient 35504R — official Irving/Chicago Senior AI/ML role open with production LLM/agentic/RAG scope and $102,400–$179,000 base, but requires 5+ years; experience-rejected.",
+      "Hitachi Vantara R0149791 — official Dallas virtual Sr. Data Scientist role open with $110,000–$120,000 base, but requires 5+ years; experience-rejected.",
+      "AT&T R-126111, Brunswick 8821383002, Toyota 10338143 and Striveworks roles matched existing records and were not duplicated."
+    ],
+    "notes": "Four official new records were added with independent JD archives. One remains internal verification; three are hard experience/visa exclusions. No recommendation page changed."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 1,
+    "notificationCandidates": 0,
+    "result": "No role is fully verified across post-May-2027 timing, zero-minimum experience, OPT/STEM OPT, Texas location and clear Ryan-upgrade gates. Procore has clear upside but unresolved timing, work authorization and new-graduate compatibility."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 4,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-succeeded-awaiting-finalization",
+    "synced": false,
+    "pending": [
+      "Finalize this audit after read-back verification and verify the resulting main head."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T15:30:04Z",
+    "evidence": {
+      "jobsCommit": "5d66d87d8eb22807be3954b26d855a0123e8b020",
+      "jobsBlobSha": "c4a12a2e8faa9d73ed8d7e140d98dfd8404fcb28",
+      "jobsReadBack": true,
+      "archives": [
+        {
+          "path": "job-archive/toyota/10333980/job-description.md",
+          "commit": "4ad1f3548147fe6851402ed3d21e70b8a5848c0c",
+          "sha": "61b68e7e6a86b71ce62f2e1484d5850986481a04"
+        },
+        {
+          "path": "job-archive/vizient/35504R/job-description.md",
+          "commit": "3fa20f7fd6486f84e7d5e595686fd3fc9b8e113e",
+          "sha": "1c08f8a6daf9505b7d55e01c8cd6a89faad53da0"
+        },
+        {
+          "path": "job-archive/hitachi-vantara/R0149791/job-description.md",
+          "commit": "6df30f47851ede1b1c551a4547f941f9b3016a89",
+          "sha": "a00b9f087bf44654a4956363b0935016887725a9"
+        },
+        {
+          "path": "job-archive/procore/R0019007/job-description.md",
+          "commit": "a4325d9334d824ccf91b9749b88c3808a6ecd858",
+          "sha": "c4e5842efb230c24472f185d6cdded5fb09f9ddc"
+        }
+      ],
+      "archivesReadBack": true
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "a4325d9334d824ccf91b9749b88c3808a6ecd858",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "c4a12a2e8faa9d73ed8d7e140d98dfd8404fcb28",
+      "count": 323,
+      "updatedAt": "2026-11-06T15:28:19Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "archives": [
+      {
+        "path": "job-archive/toyota/10333980/job-description.md",
+        "sha": "61b68e7e6a86b71ce62f2e1484d5850986481a04"
+      },
+      {
+        "path": "job-archive/vizient/35504R/job-description.md",
+        "sha": "1c08f8a6daf9505b7d55e01c8cd6a89faad53da0"
+      },
+      {
+        "path": "job-archive/hitachi-vantara/R0149791/job-description.md",
+        "sha": "a00b9f087bf44654a4956363b0935016887725a9"
+      },
+      {
+        "path": "job-archive/procore/R0019007/job-description.md",
+        "sha": "c4e5842efb230c24472f185d6cdded5fb09f9ddc"
+      }
+    ],
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
