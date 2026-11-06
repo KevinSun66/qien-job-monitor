@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T08:30:06Z",
+  "checkedAt": "2026-11-06T08:31:08Z",
+  "checkedAtLocal": "2026-11-06T02:31:08-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "3ce3815ed7f233698f9f4c3ad9742710d711e8b2",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "13aaeaa32d7a44ac264436d46f6d86a10554eaba",
+      "count": 315,
+      "updatedAt": "2026-11-06T05:21:53Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-06T0120-Texas.json",
+      "sha": "dd58e92b90656e72e5ba8bacef079012cb63bcfa",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "f7ff9ba3c347a3ca082444d8ec4b9e4174e39089",
+      "currentHead": "05e984ae4f4267d9c97454e92c77c41001b41aab",
+      "newListingCommits": 2,
+      "commits": [
+        {
+          "sha": "20d9859a406be3b67ec2e924b4a0bb29d8505880",
+          "currentSignals": 0
+        },
+        {
+          "sha": "05e984ae4f4267d9c97454e92c77c41001b41aab",
+          "currentSignals": 1,
+          "notes": "Dallas Salesforce Software Engineer College Grad surfaced in generated README review; generic software role, not Applied AI/ML/Data Science"
+        }
+      ],
+      "compare": {
+        "files": [
+          ".github/scripts/listings.json",
+          "README.md"
+        ],
+        "additions": 68,
+        "deletions": 26
+      }
+    },
+    "upstreamSignals": 1,
+    "officialSearchSignals": 10,
+    "discoveredSignals": 11,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "Salesforce Software Engineer College Grad with Dallas among six locations — generic software engineering signal without a verified Applied AI/ML/Data Science track; outside monitor direction",
+      "Brunswick Group AI Engineer 8821383002 — official Dallas page remains open; matched existing start-date/visa/seniority verification record",
+      "Kyndryl Associate AI Engineer R-66739 — official Dallas/Frisco page remains visible and still requires unrestricted present/future work authorization; existing rejection unchanged",
+      "JPMorgan 210802051 and 210800587 — official Plano roles require 3 years and 1–3 years respectively; outside minimum-experience rule",
+      "JPMorgan Lead Applied AI & ML Engineer 210804405, AT&T R-126111, Way Staff Data Scientist and Hitachi R0149791 — senior/lead scope",
+      "Brillio R01572719 — matched the prior run's contingent-worker/opportunity-cost rejection",
+      "Toyota 10338143 — official Plano page requires 5+ years and explicitly excludes F-1 OPT/STEM OPT; outside scope",
+      "No official candidate met zero-minimum experience, May-2027 start, Texas location, OPT/STEM OPT and Ryan-upgrade gates together"
+    ],
+    "notes": "No verified new role or status change. jobs.json and recommendation pages were not modified."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies every hard requirement or clearly improves on Ryan."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "not-attempted-no-new-verified-archive",
+    "audit": "staged-write-pending-read-back-and-finalization",
+    "synced": false,
+    "pending": [
+      "Read back staged audit, finalize synced state, and read back final audit"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T07:21:20Z",
+    "evidence": {
+      "baselineReadBack": true
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "3ce3815ed7f233698f9f4c3ad9742710d711e8b2",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "13aaeaa32d7a44ac264436d46f6d86a10554eaba",
+      "count": 315,
+      "updatedAt": "2026-11-06T05:21:53Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    },
+    "headCommitBeforeFinalization": null
+  }
+}
