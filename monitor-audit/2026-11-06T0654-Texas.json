@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T12:53:02Z",
+  "checkedAt": "2026-11-06T12:55:02Z",
+  "checkedAtLocal": "2026-11-06T06:55:02-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "2dc9d9743ec4ee097884d8b5fadf85c8b6085182",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "33d954d9bbde8896d39a5a6347a9182c5e4baa5c",
+      "count": 318,
+      "updatedAt": "2026-11-06T11:29:03Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-06T0529-Texas.json",
+      "sha": "032a4371f937dcff55dab250fdc0388252d003ed",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "previousHead": "da6ddbfa2e07c1ca63b594be8da543ee157a3ce8",
+      "currentHead": "93692981c55dbf25aa4d3e0811bd120f1108f8ba",
+      "newCommits": 5,
+      "commits": [
+        {
+          "sha": "0215fc69cd88f220db53ce8c5f85cf52bcd2f466",
+          "currentSignals": 1,
+          "notes": "Toyota 10325071 active to inactive; one non-Texas hardware addition"
+        },
+        {
+          "sha": "f025d93ed646837eccb4b855be170eb38bb0bcbc",
+          "currentSignals": 0,
+          "notes": "README regeneration"
+        },
+        {
+          "sha": "f0b37a5104e2d34a6897edf4c85bd5edfd8d7a84",
+          "currentSignals": 0,
+          "notes": "No listing-file diff"
+        },
+        {
+          "sha": "a25086f3eeab34478642a3adb79f22e6a52906bb",
+          "currentSignals": 0,
+          "notes": "Non-Texas inactive transitions"
+        },
+        {
+          "sha": "93692981c55dbf25aa4d3e0811bd120f1108f8ba",
+          "currentSignals": 0,
+          "notes": "README regeneration"
+        }
+      ],
+      "compare": {
+        "files": [
+          ".github/scripts/listings.json",
+          "README.md"
+        ],
+        "additions": 38,
+        "deletions": 18,
+        "notes": "Only in-scope signal was Toyota 10325071 changing active to inactive; new RTX role was Iowa hardware."
+      }
+    },
+    "upstreamSignals": 1,
+    "officialSearchSignals": 10,
+    "discoveredSignals": 11,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 1,
+    "newlyExcludedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "Toyota Financial Services Software Engineer Early Career Professional 10325071 — Simplify changed active to inactive in commit 0215fc69; official search still showed full JD, Apply and an end date of November 6, 2026, while direct page text was unreadable; source status updated but closure not confirmed.",
+      "Toyota 10325071 remains visa-rejected because its official JD explicitly excludes F-1 OPT, STEM OPT and CPT; it is general cloud-native financial-services SWE rather than an Applied AI/ML upgrade.",
+      "Integra FEC 5083082008, Kyndryl R-66739, MyFunded Futures 4390595009, Crowe R-71006, GlobalFoundries roles and Asure Software matched existing records.",
+      "D3V remained excluded by the user company list; FoxEyes and other third-party-only signals lacked an independently verified qualifying official JD.",
+      "No official candidate met zero-minimum experience, May-2027 start, Texas location, OPT/STEM OPT and Ryan-upgrade gates together."
+    ],
+    "notes": "One verified upstream source-status change was recorded on an existing excluded job. No official closure was asserted and no recommendation page changed."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies every hard requirement or clearly improves on Ryan. Toyota 10325071 remains a work-authorization and direction exclusion."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 0,
+    "statusChanges": 1
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "not-attempted-no-archive-change",
+    "audit": "staged-awaiting-read-back-and-finalization",
+    "synced": false,
+    "pending": [
+      "finalize-audit-after-read-back"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T11:30:36Z",
+    "evidence": {
+      "jobsCommit": "11e0767915b212405a1d4b4358ab531f6f04bcaa",
+      "jobsBlobSha": "7ad1197c6bc583c0b87feaa058bdd7353ca4ca8f",
+      "jobsReadBack": true
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "11e0767915b212405a1d4b4358ab531f6f04bcaa",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "7ad1197c6bc583c0b87feaa058bdd7353ca4ca8f",
+      "count": 318,
+      "updatedAt": "2026-11-06T12:54:36Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
