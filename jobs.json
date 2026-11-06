@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T04:37:54Z",
+  "updatedAt": "2026-11-06T05:21:53Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11953,6 +11953,47 @@
       ],
       "applicationStatus": "not-applied",
       "archiveUrl": "job-archive/doordash/6103225/job-description.md",
+      "archiveLabel": "Official JD summary"
+    },
+    {
+      "company": "Brillio",
+      "tier": "B · 雇用形式与机会成本排除",
+      "area": "Dallas / Frisco, TX",
+      "market": "DFW",
+      "title": "Data Acquisition Analyst (Japanese, French) — R01572719",
+      "employment": "Contingent Worker · Hybrid",
+      "gradYear": "No minimum years stated; May 2027 start compatibility not disclosed",
+      "match": "AI training-data support, but not a full-time role and compensation is below Ryan",
+      "ngCompatibility": "Rejected. Official Lever JD classifies the role as Contingent Worker; monitor scope requires full-time employment.",
+      "assessment": "Brillio官方Lever页面开放并可申请，JD写明每周2天在Frisco、其余远程。职责包括为诈骗/深伪检测训练数据打标、数据清洗验证、Python/Node处理、API/数据库/网页抓取数据集成，以及协助数据科学家开展建模和实验。日语与法语是首要语言要求，时薪$30–$35。该岗位明确为Contingent Worker而非Full-time，且折算薪酬低于Ryan $83,000 base / 约$90,000首年基准，按雇用形式与机会成本硬排除，仅归档去重。",
+      "visa": "Official JD does not state OPT/STEM OPT or sponsorship policy. Employment-type gate already fails, so no recommendation is made.",
+      "found": "2026-11-05",
+      "discoveredDate": "2026-11-05",
+      "discoveredAt": "2026-11-06T05:21:53Z",
+      "url": "https://jobs.lever.co/brillio-2/0663c1d8-d32a-4f52-a0ce-71fb6b5f0966",
+      "status": "employment-type-opportunity-cost-rejected",
+      "finalPriority": "不投 · 非全职Contingent Worker，且$30–$35/小时低于Ryan",
+      "roleTrack": "AI training data acquisition / Data quality / Data science support",
+      "seniorityGap": "No explicit minimum years; employment type is the hard fail",
+      "technicalGrowth": "Support-oriented data labeling, cleaning and acquisition rather than production Applied AI ownership",
+      "brandPlatform": "AI & Data Engineering consulting delivery",
+      "ryanUpgrade": "No · non-full-time employment, lower compensation, and weaker Applied AI ownership",
+      "compensation": "$30–$35 per hour",
+      "officePerks": "Hybrid · 2 days per week in Frisco, remainder remote",
+      "jobId": "R01572719",
+      "sourceId": "0663c1d8-d32a-4f52-a0ce-71fb6b5f0966",
+      "officialSource": "https://jobs.lever.co/brillio-2/0663c1d8-d32a-4f52-a0ce-71fb6b5f0966",
+      "officialStatus": "Open with active application link on official Brillio Lever page at 2026-11-05T23:21:53-06:00",
+      "lastChecked": "2026-11-05",
+      "lastCheckedAt": "2026-11-05T23:21:53-06:00",
+      "verificationFlags": [
+        "employment-type-hard-fail",
+        "ryan-opportunity-cost-fail",
+        "visa-unresolved-no-impact",
+        "start-date-unresolved-no-impact"
+      ],
+      "applicationStatus": "not-applied",
+      "archiveUrl": "job-archive/brillio/R01572719/job-description.md",
       "archiveLabel": "Official JD summary"
     }
   ],
