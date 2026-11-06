@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T01:49:16Z",
+  "checkedAt": "2026-11-06T01:53:38Z",
+  "checkedAtLocal": "2026-11-05T19:53:38-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9daaccfd333795fe3e42ca026d37e1e34bb5eeea",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "98c4fadeab8cd29eb8588649f731347ec5479eca",
+      "count": 308,
+      "updatedAt": "2026-11-06T00:19:41Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T1821-Texas.json",
+      "sha": "2386083b322915f3ec34f134b236b9277b8645d4",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "a57d630a31dd38d6f136aa19d8d9e320e7067972",
+      "currentHead": "bbb4e00a52c920c16ae5298ae06b2fb74c33b60e",
+      "newListingCommits": 3,
+      "commits": [
+        {
+          "sha": "020e73f",
+          "currentSignals": 0,
+          "notes": "GitHub commit stats total 0; no files changed"
+        },
+        {
+          "sha": "5fd61da",
+          "currentSignals": 0,
+          "notes": "GitHub commit stats total 0; no files changed"
+        },
+        {
+          "sha": "bbb4e00a52c920c16ae5298ae06b2fb74c33b60e",
+          "currentSignals": 2,
+          "notes": "Qualtrics Seattle and Ulta Beauty Illinois transitioned active-to-inactive; bulk removal of already-inactive rows treated as cleanup"
+        }
+      ]
+    },
+    "upstreamSignals": 2,
+    "officialSearchSignals": 8,
+    "discoveredSignals": 10,
+    "verifiedNewCandidates": 1,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 1,
+    "pendingVerificationCandidates": 1,
+    "relevantSignalsReviewed": [
+      "Capital One Principal Associate, Data Scientist - Financial Services R1004709 — official Plano page open; applied data science/ML responsibilities and sponsorship consideration verified; bachelor's route requires 5 years and master's/MBA route requires 3 years data analytics, so experience-rejected and archived",
+      "TRS AI Research & Data Analytics Associate req1475 — Austin fellowship signal; official posting could not be independently retrieved in this run, while indexed details indicate a current closing date and an already-awarded recent degree requirement incompatible with Qien's May 2027 graduation; no record created",
+      "Striveworks Junior Machine Learning Engineer 8002515003 — existing Austin record; official citizenship and security-clearance requirement remains disqualifying",
+      "MyFunded Futures Junior Machine Learning Engineer 4390595009 — existing Plano signal; exact official status and remaining eligibility gates were not newly resolved, so no change",
+      "GM early-career Data Engineer Austin — official work-authorization language rejects OPT/STEM OPT/CPT; existing exclusion unaffected",
+      "Qualtrics Software Development Engineer I - Data Platform — official Seattle location; outside target geography",
+      "Ulta Beauty Analyst, Strategic Analytics — official Bolingbrook, Illinois location; outside target geography",
+      "Apple, Applied Materials, Google and Resideo search signals were outside Texas scope, hardware-aligned, or internships; no full-time qualifying candidate"
+    ],
+    "notes": "Only the verified Capital One experience exclusion changed repository data. Pages were not changed because no fully qualified recommendation or verified status change affected the Dallas/Austin displayed candidate sets."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 1,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies every hard requirement or clearly improves on the Ryan return-offer benchmark. Capital One R1004709 fails the mandatory experience gate."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 1
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-write-pending-read-back-and-finalization",
+    "synced": false,
+    "pending": [
+      "Read back staged audit, finalize synced state, and read back final audit"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T01:53:10Z",
+    "evidence": {
+      "archiveCommit": "ba58b0615671c858ec7bb79bbee81fe5371a5a98",
+      "archiveBlobSha": "cd18b8cf77a5f5820059ba916cd1a7ea8f6a1109",
+      "archiveReadBack": true,
+      "jobsCommit": "bcbba3eb0f064ac3ea8793fe65c728b281369502",
+      "jobsBlobSha": "1ba6165eef9c5c0563c1f21c20bbb078c9cc55e6",
+      "jobsReadBack": true
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "bcbba3eb0f064ac3ea8793fe65c728b281369502",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "1ba6165eef9c5c0563c1f21c20bbb078c9cc55e6",
+      "count": 309,
+      "updatedAt": "2026-11-06T01:52:35Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    },
+    "headCommitBeforeFinalization": null
+  }
+}
