@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T19:20:50Z",
+  "checkedAt": "2026-11-06T19:21:53Z",
+  "checkedAtLocal": "2026-11-06T13:21:53-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "8da0c92f1cf070d098a5d2e9dcffd92f951fc939",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "9431fa0532b6f84220a8c251c255043c14244217",
+      "count": 324,
+      "updatedAt": "2026-11-06T18:51:54Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-06T1250-Texas.json",
+      "sha": "8a065c68516c367218362753ff21527865d4034f",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-06T18:53:26Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "previousHead": "bbab1263ed9d83637d18d4fad7999f9a5b75487c",
+      "currentHead": "259f02d582626d38b37ccabeedd951ebda1b2e93",
+      "newCommits": 2,
+      "texasSignals": 0,
+      "notes": "One listings refresh and one README regeneration; no Dallas/Austin/DFW Texas line changed."
+    },
+    "upstreamSignals": 0,
+    "officialCandidateSignals": 10,
+    "discoveredSignals": 10,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "GlobalFoundries JR-2604163, CVS R1074805, Kyndryl R-66739, SHI JR3649, Thatch 5461158008 and current SambaNova/CleanSlate roles matched existing records and were not duplicated.",
+      "A newly indexed CCI Systems Applied AI Engineer signal listed Austin/Dallas and production LLM/RAG/Azure work, but the indexed minimum is 3+ years. No official employer JD or exact requisition identifier was recovered, so it was not added to jobs.json; in any case it fails the monitor's zero-minimum experience gate.",
+      "Allied Consultants AI Apprentice was visible only through third-party indexing without a verified official requisition, full-time terms or work-authorization details; no record was added.",
+      "SambaNova 6240725004 remains pending exact official embedded-JD read-back, post-May-2027 start and F-1 OPT/STEM OPT policy. No promotion or notification was made."
+    ],
+    "notes": "No verified new record or status change. Unverified/experience-ineligible signals were not written to job data."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No newly verified role cleared all gates; no user notification is warranted."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "not-attempted-no-archive-change",
+    "audit": "staged-pending-final-read-back",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T18:53:26Z",
+    "evidence": {}
+  },
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "8da0c92f1cf070d098a5d2e9dcffd92f951fc939",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "9431fa0532b6f84220a8c251c255043c14244217",
+      "count": 324,
+      "updatedAt": "2026-11-06T18:51:54Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
