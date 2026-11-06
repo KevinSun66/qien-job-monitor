@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T11:29:03Z",
+  "updatedAt": "2026-11-06T12:54:36Z",
   "jobs": [
     {
       "company": "IBM",
@@ -2288,9 +2288,9 @@
       "firstSeen": "2026-10-02",
       "firstNotifiedDate": "2026-10-02",
       "officialPostedDate": "2026-09-20",
-      "lastChecked": "2026-10-26",
-      "lastCheckedAt": "2026-10-26T22:37:38Z",
-      "officialStatus": "SimplifyJobs changed the record from inactive to active in commit 024ff453deeda86086baab404db3c22789e1ebe8. On 2026-10-26 the exact Toyota requisition was not returned by public search, so official reopening is not independently confirmed. The existing explicit F-1 OPT/STEM OPT exclusion remains unchanged.",
+      "lastChecked": "2026-11-06",
+      "lastCheckedAt": "2026-11-06T06:54:36-06:00",
+      "officialStatus": "SimplifyJobs changed the record from active to inactive in commit 0215fc69cd88f220db53ce8c5f85cf52bcd2f466. On 2026-11-06 the exact Toyota official Workday result remained searchable with the full JD and an Apply label and showed an end date of November 6, 2026; direct page text could not be independently read, so closure is not confirmed. Existing F-1 OPT/STEM OPT exclusion remains unchanged.",
       "source": "Toyota official Workday requisition plus complete mirrored JD; authorization language cross-checked against Toyota's identical Early Career Professional posting",
       "url": "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Software-Engineer--Early-Career-Professional-_10325071",
       "status": "visa-rejected",
@@ -2303,10 +2303,10 @@
       "compensation": "Not reliably verified.",
       "officePerks": "Plano; exact hybrid cadence not verified.",
       "jobId": "10325071",
-      "previousSourceStatus": "inactive",
-      "sourceStatus": "active",
-      "sourceStatusChangedAt": "2026-10-26T22:37:38Z",
-      "sourceStatusCommit": "024ff453deeda86086baab404db3c22789e1ebe8",
+      "previousSourceStatus": "active",
+      "sourceStatus": "inactive",
+      "sourceStatusChangedAt": "2026-11-06T06:54:36-06:00",
+      "sourceStatusCommit": "0215fc69cd88f220db53ce8c5f85cf52bcd2f466",
       "verificationFlags": [
         "status-verification"
       ]
