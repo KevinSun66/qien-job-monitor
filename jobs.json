@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T22:04:53Z",
+  "updatedAt": "2026-11-06T00:19:41Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11700,6 +11700,47 @@
       "applicationStatus": "not-applied",
       "rejectionReason": "Official JD requires three years of experience; not a 2027 new-graduate/campus role",
       "deadline": "2026-11-12T04:55:00 (timezone not stated)"
+    },
+    {
+      "company": "Horizon3.ai",
+      "tier": "A+",
+      "area": "Remote - US · Texas not excluded in reviewed JD",
+      "market": "Texas Remote",
+      "title": "Research Staff, Adversarial Intelligence",
+      "employment": "Full-time · Remote US · P1 (Entry) or P2 (Developing)",
+      "gradYear": "Entry-compatible; no minimum professional years stated; not a 2027 campus requisition",
+      "match": "High technical potential · agentic AI + cybersecurity research",
+      "ngCompatibility": "Possible · official text allows P1 Entry and junior researchers; post-May-2027 start is not disclosed",
+      "assessment": "新发现的Horizon3.ai Adversarial Intelligence Frontier Lab研究岗位，覆盖AI agents、LLM/agentic reasoning、autonomous pentesting、attack-path reasoning、AI safety/security、实验设计和研究原型。岗位可按P1 Entry或P2 Developing招聘，没有最低全职经验年限，薪资$145,000–$170,000 base并含stock-option equity，技术与薪资均有明显超过Ryan的潜力。官方职位不是2027 Campus requisition，未披露2027年5月后入职窗口，也未披露F-1 OPT/STEM OPT或sponsorship政策；在两项硬条件确认前仅保留为表外待核验，不进入表2、不通知。",
+      "visa": "Visa verification · reviewed JD does not disclose F-1 OPT/STEM OPT, sponsorship, citizenship, permanent-resident or unrestricted-work-authorization requirements.",
+      "found": "2026-11-05",
+      "firstSeen": "2026-11-05",
+      "discoveredAt": "2026-11-06T00:19:41Z",
+      "lastChecked": "2026-11-05",
+      "lastCheckedAt": "2026-11-06T00:19:41Z",
+      "source": "SimplifyJobs active listing + official Horizon3 Ashby application URL + employer Adversarial Intelligence Frontier Lab page",
+      "url": "https://jobs.ashbyhq.com/horizon3ai/6134d6f9-4b78-47e9-a57a-93636bc4b666/application?embed=true",
+      "status": "start-date-visa-verification",
+      "finalPriority": "待核验 · 暂不进入表2",
+      "roleTrack": "Agentic AI Research / AI Security / LLM Agents / Autonomous Pentesting",
+      "technicalGrowth": "98/100",
+      "brandPlatform": "90/100",
+      "ryanUpgrade": "Potentially material: $145K–$170K base + equity and frontier agentic-AI/security research, contingent on post-May-2027 start and OPT/STEM OPT compatibility",
+      "compensation": "$145,000–$170,000 base + stock-option equity (reviewed JD text)",
+      "officePerks": "Fully remote US; up to 5% travel; health, vision, dental, flexible vacation and parental leave",
+      "jobId": "6134d6f9-4b78-47e9-a57a-93636bc4b666",
+      "strategyPriority": "表外核验 · 入职时间/签证",
+      "verificationFlags": [
+        "start-date-verification",
+        "visa-verification"
+      ],
+      "upstreamRecordId": "eff77924-3a66-4e74-97fe-a82c3f014f68",
+      "upstreamCommit": "a57d630a31dd38d6f136aa19d8d9e320e7067972",
+      "officialStatus": "Active upstream record with official Ashby application URL; official Ashby page was not directly readable by the monitoring search client, so exact apply-state confirmation remains limited.",
+      "archiveUrl": "job-archive/horizon3-ai/6134d6f9-4b78-47e9-a57a-93636bc4b666/job-description.md",
+      "archiveLabel": "JD核验记录",
+      "archivedAt": "2026-11-06T00:19:41Z",
+      "rejectionReason": null
     }
   ],
   "monitorAudit": [
