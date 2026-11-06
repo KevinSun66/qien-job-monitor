@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T00:19:41Z",
+  "updatedAt": "2026-11-06T01:52:35Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11741,6 +11741,42 @@
       "archiveLabel": "JD核验记录",
       "archivedAt": "2026-11-06T00:19:41Z",
       "rejectionReason": null
+    },
+    {
+      "company": "Capital One",
+      "tier": "A+ · 经验门槛排除",
+      "area": "Plano, TX",
+      "market": "DFW",
+      "title": "Principal Associate, Data Scientist - Financial Services (R1004709)",
+      "employment": "Full-time · Principal Associate · Data Science",
+      "gradYear": "Not a zero-experience role; bachelor's route requires 5 years and master's/MBA route requires 3 years data analytics",
+      "match": "Strong applied data science and compensation, but mandatory experience gate fails",
+      "ngCompatibility": "Rejected. Official Basic Qualifications require 5 years of data analytics with a bachelor's degree or 3 years with a master's/MBA.",
+      "assessment": "Capital One官方职位页于2026-11-05显示开放。岗位与数据科学、机器学习建模、AWS、Spark及模型开发全生命周期相关，Plano薪资$147,100–$167,900，另可能有绩效现金奖金和/或LTI；但官方最低资格为量化本科加5年数据分析经验，或量化硕士/定量MBA加3年经验，超过0–2年且最低不能要求1年以上的硬门槛，因此仅归档去重，不进入Dallas推荐页、不通知。",
+      "visa": "官方明确写明将考虑为合格的新申请人提供employment authorization sponsorship；经验门槛已先行失败。",
+      "found": "2026-11-05",
+      "officialPostedDate": "2026-11-05",
+      "url": "https://www.capitalonecareers.com/job/plano/principal-associate-data-scientist-financial-services/1732/102902768896",
+      "status": "experience-rejected",
+      "finalPriority": "不投 · 官方最低3–5年数据分析经验",
+      "roleTrack": "Applied Data Science / Machine Learning / Model Development",
+      "seniorityGap": "Hard fail · 3 years minimum with master's/MBA or 5 years with bachelor's",
+      "technicalGrowth": "High, but inaccessible at current seniority",
+      "brandPlatform": "Fortune 200 financial services and data platform",
+      "ryanUpgrade": "Clear compensation upgrade, but mandatory experience gate fails",
+      "compensation": "Plano base $147,100–$167,900 plus possible performance bonus and/or LTI",
+      "officePerks": "Plano, Texas; work mode not disclosed in official JD",
+      "jobId": "R1004709",
+      "officialSource": "https://www.capitalonecareers.com/job/plano/principal-associate-data-scientist-financial-services/1732/102902768896",
+      "officialStatus": "Open on official Capital One Careers page at 2026-11-05T19:52:35-06:00",
+      "lastChecked": "2026-11-05",
+      "lastCheckedAt": "2026-11-05T19:52:35-06:00",
+      "verificationFlags": [
+        "minimum-experience-hard-fail"
+      ],
+      "applicationStatus": "not-applied",
+      "archiveUrl": "job-archive/capital-one/R1004709/job-description.md",
+      "archiveLabel": "Official JD summary"
     }
   ],
   "monitorAudit": [
