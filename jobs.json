@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T05:21:53Z",
+  "updatedAt": "2026-11-06T09:09:54Z",
   "jobs": [
     {
       "company": "IBM",
@@ -11994,6 +11994,46 @@
       ],
       "applicationStatus": "not-applied",
       "archiveUrl": "job-archive/brillio/R01572719/job-description.md",
+      "archiveLabel": "Official JD summary"
+    },
+    {
+      "company": "Onbe",
+      "tier": "A · 经验与方向排除",
+      "area": "Plano, TX",
+      "market": "DFW",
+      "title": "Software Development Engineer - AI Focus (4709179006)",
+      "employment": "Hybrid · 2 days/week in Plano",
+      "gradYear": "Experienced role; official minimum 5+ years professional software engineering",
+      "match": "AI coding-agent workflow is relevant, but mandatory senior experience and Java modernization scope fail",
+      "ngCompatibility": "Rejected. Official qualifications require 5+ years of professional software engineering experience.",
+      "assessment": "Onbe官方Greenhouse页面开放并可申请。岗位使用Claude Code等AI编码代理完成Java 21+/Spring Boot 3微服务现代化、测试、文档与故障排查，同时负责REST API、Azure、Docker/Kubernetes、CI/CD和生产运维。官方明确要求5+年专业软件工程经验及大量Java、Spring、微服务迁移、数据库、云与部署经验，超过0–2年且最低不能要求1年以上的硬门槛；核心仍是资深Java平台现代化而非零经验Applied AI/ML/Data Science，仅归档去重。",
+      "visa": "Application asks whether current or future employment-visa sponsorship will be required; role-level OPT/STEM OPT decision policy is not stated. Experience gate already fails.",
+      "found": "2026-11-06",
+      "discoveredDate": "2026-11-06",
+      "discoveredAt": "2026-11-06T09:09:54Z",
+      "url": "https://job-boards.greenhouse.io/onbe/jobs/4709179006",
+      "status": "experience-direction-rejected",
+      "finalPriority": "不投 · 官方最低5+年专业软件工程经验",
+      "roleTrack": "AI-assisted Software Engineering / Java Microservices Modernization",
+      "seniorityGap": "Hard fail · 5+ years professional software engineering",
+      "technicalGrowth": "Strong production engineering, but not an entry-level Applied AI/ML ownership role",
+      "brandPlatform": "Fintech payments platform",
+      "ryanUpgrade": "Not assessed after mandatory experience failure",
+      "compensation": "$119,070–$150,000 base plus annual bonus eligibility",
+      "officePerks": "Plano hybrid · 2 days/week onsite; unlimited PTO and 401(k) matching stated",
+      "jobId": "4709179006",
+      "officialSource": "https://job-boards.greenhouse.io/onbe/jobs/4709179006",
+      "officialStatus": "Open with active application form on official Onbe Greenhouse page at 2026-11-06T03:09:54-06:00",
+      "lastChecked": "2026-11-06",
+      "lastCheckedAt": "2026-11-06T03:09:54-06:00",
+      "verificationFlags": [
+        "minimum-experience-hard-fail",
+        "direction-fail",
+        "visa-unresolved-no-impact",
+        "start-date-unresolved-no-impact"
+      ],
+      "applicationStatus": "not-applied",
+      "archiveUrl": "job-archive/onbe/4709179006/job-description.md",
       "archiveLabel": "Official JD summary"
     }
   ],
