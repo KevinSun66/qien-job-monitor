@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T16:20:21Z",
+  "checkedAt": "2026-11-06T16:23:40Z",
+  "checkedAtLocal": "2026-11-06T10:23:40-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "f8d4140f7d76a43a6dc28031ae118513ac249289",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "c4a12a2e8faa9d73ed8d7e140d98dfd8404fcb28",
+      "count": 323,
+      "updatedAt": "2026-11-06T15:28:19Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-06T0928-Texas.json",
+      "sha": "b7c4fa42efcedd1f29a26be2f7ab2e2773685800",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-06T15:30:46Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "previousHead": "7c8d70775a80dbf9683d8ffbfb0c8a86188c7bf1",
+      "currentHead": "2a8173fbf1f96aa6680070468e03a4ee4bd87345",
+      "newCommits": 4,
+      "texasSignals": 2,
+      "notes": "New Texas signals were Base Power Failure Analysis Technician (hardware; excluded) and Charles Schwab Associate Software Development & Engineering (general software; outside Applied AI/ML/Data Science scope). README-only regeneration did not create an additional job signal."
+    },
+    "upstreamSignals": 2,
+    "officialCandidateSignals": 8,
+    "discoveredSignals": 10,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 1,
+    "newlyExcludedCandidates": 1,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "Apple 200691639-0157 — official page remains open but now redirects the same requisition to Senior Applied AI Engineer, Apple Ads; official minimum is 7+ years. Reclassified from pending verification to experience-rejected.",
+      "Procore R0019007 — official listing remains open for Austin/Remote US and still has no numeric experience floor; post-May-2027 start and OPT/STEM OPT remain unresolved, so no notification.",
+      "CleanSlate 4615513 — exact official Paylocity page remains open in Austin, full-time, with production GenAI/agent responsibilities; start date, OPT/STEM OPT, compensation and Ryan-upgrade gates remain unresolved.",
+      "Itron JR102937 — official early-career Austin role remains open; no numeric year minimum shown, but start date, OPT/STEM OPT, compensation and Ryan-upgrade gates remain unresolved.",
+      "Wise Graduate Analyst — official page remains open with September 2027 start and $104,000 salary, but product analytics scope is not a clear Applied AI/ML upgrade over Ryan and visa remains unresolved.",
+      "Isembard FDE — official Dallas posting remains open and accepts graduate engineers, but work includes 30–50% factory-site embedding; visa, start date and compensation remain unresolved.",
+      "Paylocity 49063 and SambaNova 6224938004 official landing pages did not expose a verifiable current requisition in this run; no status change was asserted.",
+      "Fresh official-source search results for Gartner 113311, SHI JR3649, ClickHouse, Focused Energy and Striveworks matched existing records and were not duplicated."
+    ],
+    "notes": "One verified status/seniority change was recorded. No newly verified role cleared all timing, experience, work-authorization, role-scope and Ryan-upgrade gates."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No fully verified qualifying role. The only verified change was an Apple requisition becoming explicitly senior with a 7+ year minimum."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 0,
+    "statusChanges": 1
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-pending-final-read-back",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T15:30:46Z",
+    "evidence": {
+      "jobsCommit": "e542198aa3ff34197b1246f724814d24609cb309",
+      "jobsBlobSha": "0e97c2787aed864c66960145a7c8b931f628b4d3",
+      "jobsReadBack": true,
+      "archiveCommit": "82a0210da147bd27d985331ce3e137bea44138d1",
+      "archiveBlobSha": "baf6e0872bc728d9da5f27bff98d8cdad0b0d558",
+      "archiveReadBack": true
+    }
+  },
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "82a0210da147bd27d985331ce3e137bea44138d1",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "0e97c2787aed864c66960145a7c8b931f628b4d3",
+      "count": 323,
+      "updatedAt": "2026-11-06T16:22:49Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
