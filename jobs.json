@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T21:41:56Z",
+  "updatedAt": "2026-11-06T22:58:53Z",
   "jobs": [
     {
       "company": "IBM",
@@ -12395,6 +12395,50 @@
       "archiveUrl": "job-archive/waabi/b8498714-0bac-43bc-9483-f2e280547ebe/job-description.md",
       "archiveLabel": "JD 归档摘要",
       "archivedAt": "2026-11-06T21:41:56Z",
+      "applicationStatus": "not-applied",
+      "rejectionReason": null
+    },
+    {
+      "company": "CSC Generation",
+      "tier": "A · 高价值但高级别待核验",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Senior Machine Learning Engineer, Causal & Decision Systems (bd47a148-9869-43d5-be5f-bc9d3e31cb7f)",
+      "employment": "Full-time · Hybrid · Austin",
+      "gradYear": "Senior title; official US JD gives no numeric minimum years or degree requirement",
+      "match": "Strong causal ML / decision systems fit; seniority, start date, compensation and OPT/STEM details unresolved",
+      "ngCompatibility": "Official US JD has no numeric minimum-year statement, but the Senior title and breadth of expected production experience make entry-level leveling unverified.",
+      "assessment": "CSC Generation’s official Lever page is open for a hybrid Austin role reporting to the CTO. The work covers causal and heterogeneous treatment-effect modeling, uncertainty calibration, contextual bandits, active learning, sequential decision-making, policy learning, constrained optimization, counterfactual/off-policy evaluation, experimentation and production ML deployment. This is a strong technical-potential upgrade over Ryan, but the Senior title conflicts with the monitor’s intended 0–2 year path even though the official US JD does not state a numeric minimum. The JD does not publish compensation or a post-May-2027 start date. The official application asks whether the applicant requires an H-1B transfer or full H-1B sponsorship, so sponsorship need is accepted for disclosure but role-level OPT/STEM eligibility is not confirmed. Keep out of Table 2 and do not notify until seniority/experience, 2027 start, compensation and OPT/STEM compatibility are verified.",
+      "visa": "Visa verification: official application offers Yes—H-1B transfer, Yes—full H-1B sponsorship, and No choices. This is not a citizen/green-card-only posting, but it does not explicitly confirm initial OPT/STEM OPT.",
+      "found": "2026-11-06",
+      "discoveredDate": "2026-11-06",
+      "discoveredAt": "2026-11-06T22:58:53Z",
+      "firstSeen": "2026-11-06",
+      "lastChecked": "2026-11-06",
+      "lastCheckedAt": "2026-11-06T22:58:53Z",
+      "url": "https://jobs.lever.co/cscgeneration-2/bd47a148-9869-43d5-be5f-bc9d3e31cb7f",
+      "officialSource": "https://jobs.lever.co/cscgeneration-2/bd47a148-9869-43d5-be5f-bc9d3e31cb7f",
+      "status": "seniority-start-date-visa-compensation-verification",
+      "finalPriority": "高价值但高级别待核验 · 暂不进入表2、不通知",
+      "roleTrack": "Causal ML / Decision Systems / Contextual Bandits / Reinforcement Learning / Production ML",
+      "technicalGrowth": "97/100 potential · causal inference, decision systems, bandits, policy learning and production ML",
+      "brandPlatform": "84/100",
+      "ryanUpgrade": "Potentially major technical upgrade, conditional on a genuine 0–2 year entry path, post-May-2027 start, acceptable compensation and F-1 OPT/STEM OPT compatibility.",
+      "compensation": "Not stated in official US JD; verification required",
+      "officePerks": "Austin hybrid; PTO, 401(k) match, medical/dental/vision and portfolio-brand discounts",
+      "jobId": "bd47a148-9869-43d5-be5f-bc9d3e31cb7f",
+      "source": "CSC Generation official Lever JD and official Lever application, verified 2026-11-06",
+      "officialStatus": "Official Lever page and application displayed Apply on 2026-11-06.",
+      "minimumExperience": "No numeric minimum stated in official US JD; Senior title and experience across several advanced ML areas create a level-verification gate.",
+      "verificationFlags": [
+        "seniority-verification",
+        "start-date-verification",
+        "visa-verification",
+        "compensation-verification"
+      ],
+      "archiveUrl": "job-archive/csc-generation/bd47a148-9869-43d5-be5f-bc9d3e31cb7f/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-11-06T22:58:53Z",
       "applicationStatus": "not-applied",
       "rejectionReason": null
     }
