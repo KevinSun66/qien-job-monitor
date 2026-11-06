@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T02:09:18Z",
+  "checkedAt": "2026-11-06T02:12:11Z",
+  "checkedAtLocal": "2026-11-05T20:12:11-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "8eceba2faeb7ed5f8dcf6d500a7b3b2fc9b2bbfa",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "1ba6165eef9c5c0563c1f21c20bbb078c9cc55e6",
+      "count": 309,
+      "updatedAt": "2026-11-06T01:52:35Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T1953-Texas.json",
+      "sha": "8f75bf969a2f86b26503ed9ab7b5950b39fffd0e",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "bbb4e00a52c920c16ae5298ae06b2fb74c33b60e",
+      "currentHead": "60741c20abc726a4a3a1ae2efe5958c50b9b64d8",
+      "newListingCommits": 1,
+      "commits": [
+        {
+          "sha": "60741c20abc726a4a3a1ae2efe5958c50b9b64d8",
+          "currentSignals": 3,
+          "notes": "Apple AMS Lab Operations, Goaly Founding Senior AI Researcher and Tyson Foods Data Engineer I moved active-to-inactive; none is a qualifying Texas target. One already-inactive Walmart row was cleanup."
+        }
+      ]
+    },
+    "upstreamSignals": 3,
+    "officialSearchSignals": 9,
+    "discoveredSignals": 12,
+    "verifiedNewCandidates": 3,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 2,
+    "pendingVerificationCandidates": 1,
+    "relevantSignalsReviewed": [
+      "Brunswick Group AI Engineer 8821383002 — official Dallas application open; LLM, fine-tuning, evaluation and production Python scope with $130K-$180K base; no numeric minimum years, but Campus/New Grad status, post-May-2027 start and OPT/STEM OPT policy remain unverified, so archived as pending and not recommended",
+      "Level Applied AI Engineer 473dba32-2fe2-43ca-8bd4-9aa41c249760 — official Austin page open; production agentic AI scope but explicit 7+ years professional engineering and 1+ year agentic-system experience, so experience-rejected",
+      "Focused Energy Machine Learning Engineer 2c7ec9b0-751c-4913-98ce-bcbeaf3f308c — official Austin page open; scientific ML and digital-twin scope but master's or PhD is mandatory, so degree-rejected",
+      "ServiceLink AI Engineer 2026-3625 — existing experience-and-visa exclusion; official Plano page still states 2+ years and no present or future sponsorship",
+      "Striveworks Junior ML Engineer 8002515003 — existing citizenship exclusion; official Austin page still requires US citizenship and a security clearance",
+      "RSM AI Machine Learning Engineer JR122103 — existing F-1 sponsorship exclusion; no new status change",
+      "Capital One R1004709 — existing experience exclusion added in the immediately preceding verified run; official page remains open",
+      "Level and Focused Energy roles were not placed on recommendation pages because hard gates fail; Brunswick remains table-external pending verification",
+      "Apple AMS Lab Operations, Goaly Founding Senior AI Researcher and Tyson Foods Data Engineer I upstream closures do not change the Texas recommendation set"
+    ],
+    "notes": "Three real official Texas openings absent from jobs.json were archived and added for deduplication. One remains pending; two are hard exclusions. No displayed recommendation changed."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 1,
+    "notificationCandidates": 0,
+    "result": "No fully verified new or changed role satisfies every hard requirement and clearly improves on Ryan. Brunswick Group has potential but lacks verified 2027 start, OPT/STEM OPT and entry-level compatibility."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 3
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-write-pending-read-back-and-finalization",
+    "synced": false,
+    "pending": [
+      "Read back staged audit, finalize synced state, and read back final audit"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T02:11:51Z",
+    "evidence": {
+      "archiveCommits": {
+        "brunswick": "5ceadb03bd4565c4a0b86287c5d4596f1b0d2911",
+        "level": "546687a492c564350d5349ca02268a998f01726c",
+        "focusedEnergy": "98d0be3fa22f2d4b6ad70e4c47c2650558d63d7b"
+      },
+      "archiveBlobShas": {
+        "brunswick": "320b2ca153184dd18894b34e34989f0935293bda",
+        "level": "53c65128aa235ffa24f76604b5553c7935f5bb16",
+        "focusedEnergy": "6801e4e1b9f07b5084c27d73f24d5d72330996f8"
+      },
+      "archivesReadBack": true,
+      "jobsCommit": "67c91667bf796ae0ccf865e6545c15a0b83b6f4f",
+      "jobsBlobSha": "70fb5c7eb96d08aef5702f575c7d6d43e470e08d",
+      "jobsReadBack": true
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "67c91667bf796ae0ccf865e6545c15a0b83b6f4f",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "70fb5c7eb96d08aef5702f575c7d6d43e470e08d",
+      "count": 312,
+      "updatedAt": "2026-11-06T02:10:40Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    },
+    "headCommitBeforeFinalization": null
+  }
+}
