@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T03:48:43Z",
+  "checkedAt": "2026-11-06T03:49:55Z",
+  "checkedAtLocal": "2026-11-05T21:49:55-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "b70376a331b5a370eed60d924c09b42a3775c583",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "70fb5c7eb96d08aef5702f575c7d6d43e470e08d",
+      "count": 312,
+      "updatedAt": "2026-11-06T02:10:40Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T2012-Texas.json",
+      "sha": "1fd95190d61874b0c889dff1047e193a0264fb10",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "60741c20abc726a4a3a1ae2efe5958c50b9b64d8",
+      "currentHead": "75f8a81f4d2caef30019672ed9243a33881301a1",
+      "newListingCommits": 3,
+      "commits": [
+        {
+          "sha": "28ff13153aa6bddce890577c40515c9ea19ab89d",
+          "currentSignals": 3,
+          "notes": "JCDecaux London hardware apprentice and Qualtrics Seattle SDE closed; Keysight California semiconductor software reopened"
+        },
+        {
+          "sha": "400702ff5464c344214f90cdc04db5bcd572baa4",
+          "currentSignals": 5,
+          "notes": "MBDA UK electronics, Fireworks AI California new-grad research and TSC Massachusetts SDE closed; Goldman Sachs non-Texas quant and AMD Canada systems validation reopened"
+        },
+        {
+          "sha": "75f8a81f4d2caef30019672ed9243a33881301a1",
+          "currentSignals": 3,
+          "notes": "Base Power Austin hardware technician, Goaly senior applied AI and RTX McKinney RF test systems engineer closed; all excluded by direction, seniority or citizenship/hardware scope"
+        }
+      ]
+    },
+    "upstreamSignals": 11,
+    "officialSearchSignals": 10,
+    "discoveredSignals": 21,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "pendingVerificationCandidates": 1,
+    "relevantSignalsReviewed": [
+      "Amazon Data Engineer I, Secure Third Party Tools S3T 10598162 — fresh Austin third-party signal with $101.3K-$160K range and a stated 1+ year data-engineering minimum; direct Amazon official page could not be independently retrieved in this run, so no repository record or eligibility assertion was created",
+      "Amazon Data Scientist OTS Data ANCHOR 10589280 — official Austin page open but requires 3+ years data scientist and querying experience; outside the experience limit",
+      "Amazon Machine Learning Engineer AWS Analytics Engineering 10553986 — official page open but Seattle location and 3+ years professional software development; outside target geography and experience scope",
+      "AT&T Lead Data/AI Engineering R-126111 — Dallas lead-level role, $158.2K-$237.4K, outside entry-level scope and on the user company exclusion list",
+      "Steadily Principal Machine Learning Engineer — Austin principal role; outside entry-level scope",
+      "RTX RF Test Systems Engineer I 01886691 and Base Power Hardware Test Technician — Texas hardware/test roles excluded by direction",
+      "Fireworks AI Member of Technical Staff New Grad Research closure — California location; no Texas record affected",
+      "Existing Brunswick, Level and Focused Energy records from the prior run remain unchanged; no newly verified qualification or status evidence",
+      "Four explicit applications and both Dallas/Austin displayed candidate sets remain unchanged"
+    ],
+    "notes": "No verified new Texas role or status change met the data-mutation standard. Unverified aggregator evidence was reviewed but not promoted into jobs.json."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 1,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies every hard requirement and clearly improves on Ryan. The only fresh Austin signal could not be verified directly from the employer and also appears to require 1+ year experience."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "not-attempted-no-verified-new-record",
+    "audit": "staged-write-pending-read-back-and-finalization",
+    "synced": false,
+    "pending": [
+      "Read back staged audit, finalize synced state, and read back final audit"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T02:12:57Z",
+    "evidence": {}
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "b70376a331b5a370eed60d924c09b42a3775c583",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "70fb5c7eb96d08aef5702f575c7d6d43e470e08d",
+      "count": 312,
+      "updatedAt": "2026-11-06T02:10:40Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    },
+    "headCommitBeforeFinalization": null
+  }
+}
