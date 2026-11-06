@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T09:09:54Z",
+  "updatedAt": "2026-11-06T10:43:57Z",
   "jobs": [
     {
       "company": "IBM",
@@ -12034,6 +12034,45 @@
       ],
       "applicationStatus": "not-applied",
       "archiveUrl": "job-archive/onbe/4709179006/job-description.md",
+      "archiveLabel": "Official JD summary"
+    },
+    {
+      "company": "Toyota Motor North America",
+      "tier": "A+ · 经验与工作授权排除",
+      "area": "Plano, TX",
+      "market": "DFW",
+      "title": "Senior Engineer - Data Science (10338143)",
+      "employment": "Full-time",
+      "gradYear": "Experienced role; official minimum 5+ years hands-on data science/ML and 3+ years Python/SQL workflows",
+      "match": "Strong applied data science and AI scope, but mandatory senior experience and F-1 exclusion fail",
+      "ngCompatibility": "Rejected. Official qualifications require 5+ years, and the work-authorization notice explicitly excludes F-1 OPT/STEM OPT/CPT.",
+      "assessment": "Toyota官方Workday页面显示职位开放，地点为Plano，申请截止日显示2026-11-13。岗位属于Supply Chain Digital Innovations，职责包括Python/SQL/Databricks数据准备、特征工程、建模与评分，统计学习、预测、优化、异常检测、NLP/GenAI，模型验证、可解释性、监控及生产集成。官方明确要求5+年现代数据科学/机器学习实操、5+年端到端DS/ML方案以及3+年Python/SQL工作流经验；同时明确不接受F-1 OPT、F-1 STEM OPT或F-1 CPT。按经验与工作授权双重硬门槛排除，仅归档去重。",
+      "visa": "Official JD explicitly says the role does not support or accept F-1 OPT, F-1 STEM OPT or F-1 CPT, now or in the future.",
+      "found": "2026-11-06",
+      "discoveredDate": "2026-11-06",
+      "discoveredAt": "2026-11-06T10:43:57Z",
+      "url": "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Senior-Engineer---Data-Science_10338143",
+      "status": "experience-visa-rejected",
+      "finalPriority": "不投 · 官方最低5+年且明确排除F-1 OPT/STEM OPT",
+      "roleTrack": "Supply Chain Data Science / Applied ML / Forecasting / Optimization / Generative AI",
+      "seniorityGap": "Hard fail · 5+ years data science/ML and 3+ years Python/SQL minimums",
+      "technicalGrowth": "Broad production data science scope, but inaccessible at current seniority",
+      "brandPlatform": "Global automotive and supply-chain platform",
+      "ryanUpgrade": "Not assessed after mandatory experience and work-authorization failures",
+      "compensation": "Not disclosed in the official JD excerpt verified this run",
+      "officePerks": "Plano headquarters; work arrangement and benefits not relied on for eligibility",
+      "jobId": "10338143",
+      "officialSource": "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/Senior-Engineer---Data-Science_10338143",
+      "officialStatus": "Open on official Toyota Workday page at 2026-11-06T04:43:57-06:00; end date shown as November 13, 2026",
+      "lastChecked": "2026-11-06",
+      "lastCheckedAt": "2026-11-06T04:43:57-06:00",
+      "deadline": "2026-11-13",
+      "verificationFlags": [
+        "minimum-experience-hard-fail",
+        "f1-opt-stem-opt-hard-fail"
+      ],
+      "applicationStatus": "not-applied",
+      "archiveUrl": "job-archive/toyota/10338143/job-description.md",
       "archiveLabel": "Official JD summary"
     }
   ],
