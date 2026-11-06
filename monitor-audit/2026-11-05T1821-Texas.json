@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T00:17:21Z",
+  "checkedAt": "2026-11-06T00:21:08Z",
+  "checkedAtLocal": "2026-11-05T18:21:08-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "e49de93c5c416eb01030da69b7437589d92ca5fb",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "8dd11dbd65e8f2d83c00db8f25f31e155ee93001",
+      "count": 307,
+      "updatedAt": "2026-11-05T22:04:53Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T1732-Texas.json",
+      "sha": "c846f6c6476cccc4d9b573b00045503b35c717df",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "bb455f2ab684f73396e6e1301c313ab707264306",
+      "currentHead": "a57d630a31dd38d6f136aa19d8d9e320e7067972",
+      "newListingCommits": 2,
+      "commits": [
+        {
+          "sha": "e60ba3ff7435617e3163c080bb11d5bb255de1ae",
+          "currentSignals": 21,
+          "notes": "16 new active records and 5 live status transitions; stale already-inactive removals excluded from the signal count"
+        },
+        {
+          "sha": "a57d630a31dd38d6f136aa19d8d9e320e7067972",
+          "currentSignals": 22,
+          "notes": "14 new active records and 8 live status transitions"
+        }
+      ]
+    },
+    "upstreamSignals": 43,
+    "officialSearchSignals": 8,
+    "discoveredSignals": 51,
+    "verifiedNewCandidates": 1,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "pendingVerificationCandidates": 1,
+    "relevantSignalsReviewed": [
+      "Horizon3.ai Research Staff, Adversarial Intelligence — new active US-remote P1/P2 role; entry-compatible, $145K-$170K base plus equity, agentic AI/security research; post-May-2027 start and OPT/STEM OPT policy not disclosed",
+      "neurohire.ai Software AI Engineer — US remote, master's and 0-1 year, but official page was not directly readable; compensation, post-May-2027 start, work authorization and Ryan-upgrade value remain unverified, so no repository record was created",
+      "L3Harris Associate Systems Engineering 45787 — Plano upstream false-to-true; existing direction-rejected record, exact official page could not be independently read in this run, so no official status change was asserted",
+      "Intel Memory Design Engineer and Amazon ASIC Formal Verification Engineer I — Austin hardware/chip roles; excluded by scope",
+      "Goldman Sachs 171569 — official page is New York, not Dallas; Dallas Engineering 171568 existing record unaffected",
+      "Microsoft CEAI 1970393556914839 — official page open but role is Redmond, Washington; outside target geography",
+      "John Deere Data & Analytics Development Program II — Moline/Des Moines, outside target geography",
+      "Computershare Graduate AI Engineer 13282 — Bristol, United Kingdom; official deadline November 5, 2026 and outside target geography"
+    ],
+    "notes": "Bulk deletion of already-inactive historical upstream rows was dataset cleanup and was not treated as a current job-status event. One real new high-potential role was archived and added only as a table-external verification record; no duplicate recommendation was produced."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 1,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies every hard requirement. Horizon3.ai could materially beat Ryan on technical scope and compensation, but post-May-2027 start and F-1 OPT/STEM OPT compatibility are not verified."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 1
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-awaiting-read-back",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T00:19:41Z",
+    "evidence": {
+      "archiveCommit": "3cd3811e7999c4447c106c95c07434442e85dca9",
+      "archiveBlobSha": "e77a0abacefe9ea2a783603acee666c77b92d084",
+      "archiveReadBack": true,
+      "jobsCommit": "faa25c8020f5535cfdd1568819bce489b31956dd",
+      "jobsBlobSha": "98c4fadeab8cd29eb8588649f731347ec5479eca",
+      "jobsReadBack": true
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "faa25c8020f5535cfdd1568819bce489b31956dd",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "98c4fadeab8cd29eb8588649f731347ec5479eca",
+      "count": 308,
+      "updatedAt": "2026-11-06T00:19:41Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
