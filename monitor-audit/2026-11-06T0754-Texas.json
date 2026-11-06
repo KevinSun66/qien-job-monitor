@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T13:51:35Z",
+  "checkedAt": "2026-11-06T13:55:40Z",
+  "checkedAtLocal": "2026-11-06T07:55:40-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "2b287e3dc48048904c33349715f579459e8d3752",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "7ad1197c6bc583c0b87feaa058bdd7353ca4ca8f",
+      "count": 318,
+      "updatedAt": "2026-11-06T12:54:36Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-06T0654-Texas.json",
+      "sha": "8f00fc835455e934f6fca590038bb637b150efb8",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "previousHead": "93692981c55dbf25aa4d3e0811bd120f1108f8ba",
+      "currentHead": "4f5fcc209dffabeaaa1a334e4d9d8892369e50bd",
+      "newCommits": 4,
+      "notes": "Listing changes were non-Texas or out of scope: UK nuclear graduate, Virginia shipbuilding, California hardware and flight-software status transitions; README regeneration had no independent job signal."
+    },
+    "upstreamSignals": 4,
+    "officialCandidateSignals": 1,
+    "discoveredSignals": 5,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusOrDataChanges": 1,
+    "newlyExcludedCandidates": 0,
+    "pendingVerificationCandidates": 1,
+    "relevantSignalsReviewed": [
+      "CleanSlate Technology Group Associate AI/ML Engineer — official employer careers page linked to Paylocity; exact official posting 4615513 was open with an active Apply link.",
+      "Official posting confirmed Austin, Full-time, Delivery department, posted 2026-10-26, and foundational experience compatible with internships, coursework, research or personal projects; no one-year-or-higher minimum.",
+      "Official posting did not state a post-May-2027 start date, F-1 OPT/STEM OPT compatibility, compensation or onsite/hybrid arrangement.",
+      "Because timing, work authorization, compensation and a clear platform/total-reward advantage over Ryan remain unverified, the role stays internal verification only and is not added to Dallas/Austin recommendation tables.",
+      "Previously applied job IDs and statuses were preserved. No other verified candidate met every hard requirement and the Ryan-upgrade threshold."
+    ],
+    "notes": "One existing pending record and its JD archive were upgraded from employer-board/indexer evidence to the exact official Paylocity posting. No record was added or deleted."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 1,
+    "notificationCandidates": 0,
+    "result": "No verified role satisfies every hard requirement and clearly improves on Ryan. CleanSlate 4615513 remains pending on start date, OPT/STEM OPT, compensation, work arrangement and opportunity cost."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 0,
+    "statusChanges": 0,
+    "verifiedDataChanges": 1
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-succeeded-awaiting-finalization",
+    "synced": false,
+    "pending": [
+      "Finalize this audit after read-back verification and verify the resulting main head."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T13:55:40Z",
+    "evidence": {
+      "jobsCommit": "5cd81e3503dbbd68b594a6e2b211f041ade1b680",
+      "jobsBlobSha": "8ae8a65418ddc2d57bcc8e66034c9d9105e46315",
+      "jobsReadBack": true,
+      "archiveCommit": "f14a161bd271c23820f1dfd45e4e7d68f77b75ff",
+      "archiveBlobSha": "4d71cec913db1c86f173d02ffb8e71831676e97d",
+      "archiveReadBack": true
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "f14a161bd271c23820f1dfd45e4e7d68f77b75ff",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "8ae8a65418ddc2d57bcc8e66034c9d9105e46315",
+      "count": 318,
+      "updatedAt": "2026-11-06T13:54:40Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "archive": {
+      "path": "job-archive/cleanslate/associate-ai-ml-engineer-austin/job-description.md",
+      "sha": "4d71cec913db1c86f173d02ffb8e71831676e97d"
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
