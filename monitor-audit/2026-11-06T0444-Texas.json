@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T10:42:02Z",
+  "checkedAt": "2026-11-06T10:44:50Z",
+  "checkedAtLocal": "2026-11-06T04:44:50-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "0d5ec532a545ffbd06166b3736de3b7482a0734e",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "0067a2006760a4fbf76581ef6231f9e91a9032c0",
+      "count": 316,
+      "updatedAt": "2026-11-06T09:09:54Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-06T0310-Texas.json",
+      "sha": "f768c4621fcd84e08f1aef01122298db0ea263f6",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "9e90aeae75892eb8dad709ddd79b4985889182ad",
+      "currentHead": "8abc5e6d8710abc7e92384ba75655ba4a02ea04e",
+      "newListingCommits": 3,
+      "commits": [
+        {
+          "sha": "85b606e11dbce430732569259c2f190358497d09",
+          "currentSignals": 0
+        },
+        {
+          "sha": "47b4c987873a02b795b8073590e45967e9cff48f",
+          "currentSignals": 0
+        },
+        {
+          "sha": "8abc5e6d8710abc7e92384ba75655ba4a02ea04e",
+          "currentSignals": 0
+        }
+      ],
+      "compare": {
+        "files": [
+          "README.md",
+          "data/listings.json"
+        ],
+        "additions": 56,
+        "deletions": 123,
+        "notes": "Aggregate range included generated README churn; no added Texas Applied AI/ML/Data Science role surfaced in the readable listing delta."
+      }
+    },
+    "upstreamSignals": 0,
+    "officialSearchSignals": 10,
+    "discoveredSignals": 10,
+    "verifiedNewCandidates": 1,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 1,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "Toyota Senior Engineer - Data Science 10338143 — official Plano Workday page open through November 13, 2026; mandatory 5+ years and explicit F-1 OPT/STEM OPT/CPT exclusion; archived as experience-visa-rejected.",
+      "Striveworks Junior Machine Learning Engineer 8002515003 — official Austin Greenhouse page open and 0–2 years, but US citizenship and Secret-clearance eligibility are mandatory; matched existing citizenship-rejected record.",
+      "MyFunded Futures 4390595009 and Samsung R118191 — matched existing rejection records; no independent status change confirmed.",
+      "Toyota 10338143 was absent from jobs.json; CSC Generation, Waabi and Capital One results were senior/staff/lead roles.",
+      "No official candidate met zero-minimum experience, May-2027 start, Texas location, OPT/STEM OPT and Ryan-upgrade gates together."
+    ],
+    "notes": "One real official Plano Data Science opening absent from jobs.json was added only as a verified experience/work-authorization exclusion for deduplication. No recommendation page changed."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies every hard requirement or clearly improves on Ryan. Toyota 10338143 fails both the experience and F-1 work-authorization gates."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 1
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-awaiting-read-back-and-finalization",
+    "synced": false,
+    "pending": [
+      "finalize-audit-after-read-back"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T09:11:17Z",
+    "evidence": {
+      "archiveCommit": "d8713ba96085928d8ee804cab900af044b19de49",
+      "archiveBlobSha": "a44903bf53988b8a0c6a5204601682e58f1097dd",
+      "archiveReadBack": true,
+      "jobsCommit": "25cb436ddbbba5575c5e4dc5ed40687fb2f8018d",
+      "jobsBlobSha": "91ac74441016311854e793a5a0d9e6664654b600",
+      "jobsReadBack": true
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "25cb436ddbbba5575c5e4dc5ed40687fb2f8018d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "91ac74441016311854e793a5a0d9e6664654b600",
+      "count": 317,
+      "updatedAt": "2026-11-06T10:43:57Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
