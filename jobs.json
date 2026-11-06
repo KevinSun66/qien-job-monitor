@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T16:22:49Z",
+  "updatedAt": "2026-11-06T18:51:54Z",
   "jobs": [
     {
       "company": "IBM",
@@ -12309,6 +12309,51 @@
       "applicationStatus": "not-applied",
       "archiveUrl": "job-archive/procore/R0019007/job-description.md",
       "archiveLabel": "Official JD summary"
+    },
+    {
+      "company": "SambaNova Systems",
+      "tier": "S- · 高价值待核验",
+      "area": "Austin, TX / San Jose, CA",
+      "market": "Austin",
+      "title": "Machine Learning Engineer – New Grad (6240725004)",
+      "employment": "Full-time · New Grad · In-office listing",
+      "gradYear": "New Grad; B.S. in CS, EE, Mathematics or related field; no numeric professional-year minimum stated",
+      "match": "Exceptional Applied ML / LLM / agentic AI fit; official embedded JD, start date and immigration support require final verification",
+      "ngCompatibility": "New Grad with no stated minimum professional-year count; B.S. accepted, while M.S./Ph.D. is preferred rather than required.",
+      "assessment": "A newly active SambaNova requisition links to the employer’s official careers URL for Austin and San Jose. Employer-supplied JD copies describe training and evaluating LLM speculative-decoding models, quantization/distillation/sparsity, agentic tool use, retrieval, long-context reasoning, rigorous evaluation, reinforcement learning and production collaboration with compiler/runtime teams. Base pay is $131,200–$196,800 plus equity/benefits, a clear potential upgrade over Ryan. The official SambaNova careers URL resolves, but its embedded Greenhouse JD was not directly readable in this run; the posting does not state a post-May-2027 start or role-level F-1 OPT/STEM OPT policy. Keep out of Table 2 and do not notify until official JD text, 2027 start timing and work authorization are confirmed.",
+      "visa": "Visa verification: no role-level OPT/STEM OPT or sponsorship statement was recovered. SambaNova’s application flow for another contemporaneous New Grad role asks about present/future immigration assistance without stating automatic rejection; do not infer acceptance or rejection.",
+      "found": "2026-11-06",
+      "discoveredDate": "2026-11-06",
+      "discoveredAt": "2026-11-06T18:51:54Z",
+      "firstSeen": "2026-11-06",
+      "lastChecked": "2026-11-06",
+      "lastCheckedAt": "2026-11-06T18:51:54Z",
+      "url": "https://sambanova.ai/company/careers/job-openings?gh_jid=6240725004",
+      "officialSource": "https://sambanova.ai/company/careers/job-openings?gh_jid=6240725004",
+      "status": "official-jd-start-date-visa-verification",
+      "finalPriority": "高价值待核验 · 暂不进入表2、不通知",
+      "roleTrack": "Applied ML / LLM Training & Inference / Agentic AI / Model Efficiency / RL & Post-training",
+      "technicalGrowth": "99/100 potential · model training, inference efficiency, agentic systems, evaluation and post-training",
+      "brandPlatform": "94/100",
+      "ryanUpgrade": "Potentially major upgrade in technical depth, AI platform and compensation, conditional on exact official JD, post-May-2027 start and F-1 OPT/STEM OPT compatibility.",
+      "compensation": "$131,200–$196,800 base + equity/benefits (employer-supplied posting text; official embedded JD read-back pending)",
+      "officePerks": "Austin/San Jose; in-office listing; benefits include equity and extensive medical/well-being coverage according to employer-supplied posting text.",
+      "jobId": "6240725004",
+      "sourceListingId": "20eef2b5-2b76-436c-be94-9a14b28c9a90",
+      "source": "SambaNova official careers URL; SimplifyJobs dev listing; employer-supplied Greenhouse copies indexed 2026-11-03/04",
+      "officialStatus": "Official SambaNova careers URL resolved on 2026-11-06. SimplifyJobs listed the requisition active; the embedded Greenhouse job content was not directly readable in this run, so exact official-JD verification remains pending.",
+      "officialPostedDate": "2026-11-03",
+      "minimumExperience": "No numeric minimum years stated in employer-supplied posting text.",
+      "verificationFlags": [
+        "official-jd-verification",
+        "start-date-verification",
+        "visa-verification"
+      ],
+      "archiveUrl": "job-archive/sambanova/6240725004/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-11-06T18:51:54Z",
+      "applicationStatus": "not-applied",
+      "rejectionReason": null
     }
   ],
   "monitorAudit": [
