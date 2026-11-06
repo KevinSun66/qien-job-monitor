@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "monitor": "Qien Texas Applied AI/ML/Data Science",
   "startedAt": "2026-11-06T19:20:50Z",
-  "checkedAt": "2026-11-06T19:21:53Z",
-  "checkedAtLocal": "2026-11-06T13:21:53-06:00",
+  "checkedAt": "2026-11-06T19:22:25Z",
+  "checkedAtLocal": "2026-11-06T13:22:25-06:00",
   "repository": "KevinSun66/qien-job-monitor",
   "branch": "main",
   "repositorySnapshotBefore": {
@@ -89,13 +89,15 @@
     "dallasPage": "not-attempted-no-page-change",
     "austinPage": "not-attempted-no-page-change",
     "archives": "not-attempted-no-archive-change",
-    "audit": "staged-pending-final-read-back",
-    "synced": false,
-    "pending": [
-      "finalize and read back this audit file"
-    ],
-    "lastSuccessfulWriteAt": "2026-11-06T18:53:26Z",
-    "evidence": {}
+    "audit": "succeeded-and-read-back",
+    "synced": true,
+    "pending": [],
+    "lastSuccessfulWriteAt": "2026-11-06T19:22:25Z",
+    "evidence": {
+      "stagedAuditCommit": "950c5f4e46ddb8e9472ac040ba7a36efe2d970a4",
+      "stagedAuditBlobSha": "c4c4939ac411719373928b58c745bc3f6fb08b58",
+      "stagedAuditReadBack": true
+    }
   },
   "repositorySnapshotAfter": {
     "headCommitBeforeAudit": "8da0c92f1cf070d098a5d2e9dcffd92f951fc939",
@@ -125,6 +127,9 @@
       "path": ".github/workflows",
       "exists": false,
       "result": "404/absent"
-    }
-  }
+    },
+    "headCommitBeforeFinalization": "950c5f4e46ddb8e9472ac040ba7a36efe2d970a4"
+  },
+  "completedAt": "2026-11-06T19:22:25Z",
+  "completedAtLocal": "2026-11-06T13:22:25-06:00"
 }
