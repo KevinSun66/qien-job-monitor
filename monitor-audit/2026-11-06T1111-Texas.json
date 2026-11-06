@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T17:11:53Z",
+  "checkedAt": "2026-11-06T17:13:02Z",
+  "checkedAtLocal": "2026-11-06T11:13:02-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "b4d610a4d12ba8288ea5137279d330423ab3d69b",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "0e97c2787aed864c66960145a7c8b931f628b4d3",
+      "count": 323,
+      "updatedAt": "2026-11-06T16:22:49Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-06T1020-Texas.json",
+      "sha": "6d20ee40a75bbd5ff6c8f5348592f70bf97278fc",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-06T16:24:21Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "previousHead": "2a8173fbf1f96aa6680070468e03a4ee4bd87345",
+      "currentHead": "5346a4b0af777bbcb91cf57475a9bb45af84527b",
+      "newCommits": 2,
+      "texasSignals": 0,
+      "notes": "Two listings.json refresh commits contained no Dallas/Austin/DFW Texas signal."
+    },
+    "upstreamSignals": 0,
+    "officialCandidateSignals": 12,
+    "discoveredSignals": 12,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "Apple 200687919-0157 — official Austin Machine Learning Engineer page remains open and ongoing; minimum qualifications still provide a quantitative-education path without a numeric 1+ year floor. Post-May-2027 start and OPT/STEM OPT remain unresolved; no status change asserted.",
+      "Itron JR102937 — official Early Careers Austin AI Solutions Architect Associate listing remains open; no numeric minimum years shown. Start date, work authorization, compensation and Ryan-upgrade gates remain unresolved.",
+      "Procore R0019007 — official Austin/Remote US Forward Deployment Engineer listing remains open with production LLM/agentic workflow scope and $140,960–$193,820 base; no numeric year floor shown. Post-May-2027 start and OPT/STEM OPT remain unresolved.",
+      "CleanSlate 4615513 — existing exact official Paylocity role remains the monitored Associate AI/ML Engineer; no new verified status change was found in this run.",
+      "Apple 200691639-0157 — current official search continues to identify Senior Applied AI Engineer; the prior run already archived the explicit 7+ years minimum, so it was not duplicated.",
+      "Avride motion-planning ML, Steadily senior ML, ClickHouse 5+ years, Striveworks staff ML, Scaffold senior ML and webAI staff ML were either known records or senior/specialized roles and did not meet the zero-minimum/new-graduate gate.",
+      "Fresh Apple and official job-board results did not surface a new Dallas/Austin role that cleared timing, experience, OPT/STEM OPT, role-scope and Ryan-upgrade checks."
+    ],
+    "notes": "No verified new role or status change. Existing unresolved roles were not promoted or notified."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No new fully verified qualifying role and no verified status change."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "not-attempted-no-archive-change",
+    "audit": "staged-pending-final-read-back",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T16:24:21Z",
+    "evidence": {}
+  },
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "b4d610a4d12ba8288ea5137279d330423ab3d69b",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "0e97c2787aed864c66960145a7c8b931f628b4d3",
+      "count": 323,
+      "updatedAt": "2026-11-06T16:22:49Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
