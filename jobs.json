@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T13:54:40Z",
+  "updatedAt": "2026-11-06T14:52:38Z",
   "jobs": [
     {
       "company": "IBM",
@@ -12114,6 +12114,47 @@
       ],
       "applicationStatus": "not-applied",
       "archiveUrl": "job-archive/capgemini/1450526733/job-description.md",
+      "archiveLabel": "Official JD summary"
+    },
+    {
+      "company": "AT&T",
+      "tier": "A+ · 已关闭且经验门槛排除",
+      "area": "Dallas, TX",
+      "market": "DFW",
+      "title": "Lead Data/AI Engineering (R-126111)",
+      "employment": "Full-time · Regular · Onsite 5 days/week",
+      "gradYear": "Experienced lead role; official minimum 5+ years related experience",
+      "match": "Strong enterprise Data/AI engineering scope, but mandatory 5+ year minimum and current closure fail",
+      "ngCompatibility": "Rejected. Official JD requires 5+ years of related experience and demonstrated lead/advanced data or AI engineering experience.",
+      "assessment": "AT&T官方职位资料显示该岗位于Dallas，负责生产级Databricks应用、AI/ML解决方案、ETL与大规模数据管线、Snowflake/Azure/ADLS集成、MLOps、治理和责任AI；薪资$158,200–$237,400。官方JD明确要求5+年相关经验并要求Lead或advanced data/AI engineer经历，超过0–2年且最低经验不能要求1年以上的硬门槛。官方Workday详情页在2026-11-06复核时明确显示页面不存在，AT&T职位页也返回404，且原截止日为2026-11-06，因此按已关闭并经验不符归档去重。",
+      "visa": "Official JD did not state role-level OPT/STEM OPT or sponsorship terms. Experience and closure gates already fail.",
+      "found": "2026-11-06",
+      "discoveredDate": "2026-11-06",
+      "discoveredAt": "2026-11-06T14:52:38Z",
+      "url": "https://att.wd1.myworkdayjobs.com/ATTGeneral/job/Dallas-Texas/Lead-Data-AI-Engineering_R-126111",
+      "status": "closed-experience-rejected",
+      "finalPriority": "不投 · 官方最低5+年且职位已撤下",
+      "roleTrack": "Enterprise Data/AI Engineering / Databricks / MLOps / Data Pipelines",
+      "seniorityGap": "Hard fail · 5+ years related experience and lead-level delivery",
+      "technicalGrowth": "Strong enterprise production Data/AI scope, but inaccessible at current seniority",
+      "brandPlatform": "Large telecommunications and enterprise data platform",
+      "ryanUpgrade": "Not assessed after mandatory experience and closure failures",
+      "compensation": "$158,200–$237,400 base",
+      "officePerks": "Dallas onsite 5 days/week; no relocation",
+      "jobId": "R-126111",
+      "sourceId": "R-126111",
+      "officialSource": "https://www.att.jobs/job/dallas/lead-data-ai-engineering/117/102598157344",
+      "officialStatus": "Closed/removed: official AT&T Workday detail page displayed 'The page you are looking for doesn’t exist' and AT&T job page returned 404 at 2026-11-06T08:52:38-06:00; original end date was 2026-11-06",
+      "officialPostedDate": "2026-10-29",
+      "deadline": "2026-11-06",
+      "lastChecked": "2026-11-06",
+      "lastCheckedAt": "2026-11-06T08:52:38-06:00",
+      "verificationFlags": [
+        "minimum-experience-hard-fail",
+        "official-page-removed"
+      ],
+      "applicationStatus": "not-applied",
+      "archiveUrl": "job-archive/att/R-126111/job-description.md",
       "archiveLabel": "Official JD summary"
     }
   ],
