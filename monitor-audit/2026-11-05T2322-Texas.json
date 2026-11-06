@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-06T05:20:31Z",
+  "checkedAt": "2026-11-06T05:22:47Z",
+  "checkedAtLocal": "2026-11-05T23:22:47-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "621a483f8f7b716d4c87128d7db5b067441b8e5b",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "698fde290c7c994f469e8e228a906246dd1f5be8",
+      "count": 314,
+      "updatedAt": "2026-11-06T04:37:54Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-05T2238-Texas.json",
+      "sha": "9878dc74599aff457bfd947326da9aeadd7aea58",
+      "synced": true,
+      "pending": []
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "93c198813e9f6f49df38ac4b6e39555c07519e15",
+      "currentHead": "32a044e6aeebaf98ea9a2c316dc7d8c28d2f58af",
+      "newListingCommits": 1,
+      "commits": [
+        {
+          "sha": "32a044e6aeebaf98ea9a2c316dc7d8c28d2f58af",
+          "currentSignals": 0,
+          "notes": "GitHub compare returned no changed files; no new listing signal"
+        }
+      ]
+    },
+    "upstreamSignals": 0,
+    "officialSearchSignals": 11,
+    "discoveredSignals": 11,
+    "verifiedNewCandidates": 1,
+    "verifiedStatusChanges": 0,
+    "newlyExcludedCandidates": 1,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "Brillio Data Acquisition Analyst R01572719 — official Lever page open; Dallas/Frisco hybrid, Contingent Worker, $30-$35/hour, Japanese/French top priorities; archived as employment-type-opportunity-cost-rejected",
+      "Striveworks Junior Machine Learning Engineer 8002515003 — official Austin listing remains visible; existing citizenship-rejected record unchanged",
+      "CleanSlate Associate AI/ML Engineer — matched existing start-date/visa/compensation/opportunity-cost verification record",
+      "Hippo Insurance 8859178002 and DoorDash 6103225 — matched records added in the prior run; no status change",
+      "Avride, Amazon and Way signals were existing, experienced, hardware-adjacent or otherwise outside current eligibility rules",
+      "Indeed-only DATARA and FoxEyes signals were not treated as verified official openings and were not added",
+      "The sole new upstream listing commit contained no changed files and produced no job signal"
+    ],
+    "notes": "One real official DFW data-science-support opening absent from jobs.json was archived and added only as a verified full-time/opportunity-cost exclusion for deduplication. No recommendation page changed."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or changed role satisfies every hard requirement or clearly improves on Ryan. The only new official opening is a contingent worker role with compensation below the Ryan baseline."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 1
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-write-pending-read-back-and-finalization",
+    "synced": false,
+    "pending": [
+      "Read back staged audit, finalize synced state, and read back final audit"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-06T05:22:24Z",
+    "evidence": {
+      "archiveCommit": "56f8c8f1d83ff67839c649c0560af6ab8f0dc4ac",
+      "archiveBlobSha": "099f5a64783b58e1e51b5efc11e3509f6dd64410",
+      "archiveReadBack": true,
+      "jobsCommit": "86e6dfc00e6a324f83c2a22b62261f1d95b66f55",
+      "jobsBlobSha": "13aaeaa32d7a44ac264436d46f6d86a10554eaba",
+      "jobsReadBack": true
+    }
+  },
+  "completedAt": null,
+  "completedAtLocal": null,
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "86e6dfc00e6a324f83c2a22b62261f1d95b66f55",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "13aaeaa32d7a44ac264436d46f6d86a10554eaba",
+      "count": 315,
+      "updatedAt": "2026-11-06T05:21:53Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    },
+    "headCommitBeforeFinalization": null
+  }
+}
