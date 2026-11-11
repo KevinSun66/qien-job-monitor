@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "monitor": "Qien Texas Applied AI/ML/Data Science",
   "startedAt": "2026-11-11T10:09:02Z",
-  "checkedAt": "2026-11-11T10:10:24Z",
-  "checkedAtLocal": "2026-11-11T04:10:24-06:00",
+  "checkedAt": "2026-11-11T10:10:59Z",
+  "checkedAtLocal": "2026-11-11T04:10:59-06:00",
   "repository": "KevinSun66/qien-job-monitor",
   "branch": "main",
   "repositorySnapshotBefore": {
@@ -92,12 +92,10 @@
     "dallasPage": "not-attempted-no-page-change",
     "austinPage": "not-attempted-no-page-change",
     "archives": "succeeded-and-read-back",
-    "audit": "staged-pending-final-read-back",
-    "synced": false,
-    "pending": [
-      "finalize and read back this audit file"
-    ],
-    "lastSuccessfulWriteAt": "2026-11-11T10:10:08Z",
+    "audit": "succeeded-and-read-back",
+    "synced": true,
+    "pending": [],
+    "lastSuccessfulWriteAt": "2026-11-11T10:10:59Z",
     "evidence": {
       "jobsCommit": "2704cc09a930b957f09d2ea480bbffb3343fd42f",
       "jobsBlobSha": "eaba563365fd66f5ff4e61eb4f0fc1e5854c79a7",
@@ -105,7 +103,10 @@
       "archiveCommit": "6a740475addc375fb1a2594041318c5fce1abb3a",
       "archivePath": "job-archive/liberty-mutual/618519224159/job-description.md",
       "archiveBlobSha": "aba483bcae9a32e99d0b21e2af9d5a1b081878ad",
-      "archiveReadBack": true
+      "archiveReadBack": true,
+      "stagedAuditCommit": "275e0f91a78751c022ff8e17f51e54e732e8fe40",
+      "stagedAuditBlobSha": "f207d6505ecffa3759b3b98e5d131b763e1bb5a7",
+      "stagedAuditReadBack": true
     }
   },
   "repositorySnapshotAfter": {
@@ -143,6 +144,8 @@
       "path": ".github/workflows",
       "exists": false,
       "result": "404/absent"
-    }
-  }
+    },
+    "headCommitBeforeFinalization": "275e0f91a78751c022ff8e17f51e54e732e8fe40"
+  },
+  "completedAt": "2026-11-11T10:10:59Z"
 }
