@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-11T16:12:23Z",
+  "checkedAt": "2026-11-11T16:16:02Z",
+  "checkedAtLocal": "2026-11-11T10:16:02-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "df797ca0536da17cfb48870cf8531ef7cba9e724",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "62233afdf531ec34d2582986ca2206f5c4b51cc3",
+      "count": 331,
+      "updatedAt": "2026-11-11T15:13:41Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T0911-Texas.json",
+      "sha": "a14d4cbb132e62b4e924b76df7a2f46b47ff018c",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-11T15:15:26Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "previousHead": "569a26a48b20c00c9507cb239e8a2ee0a344c5a4",
+      "currentHead": "0d5c02f227a9963ac5f25e225aa19fb1dcc87875",
+      "newCommitsSincePreviousRun": 4,
+      "changedFiles": [
+        ".github/scripts/listings.json",
+        "README.md"
+      ],
+      "newTexasCandidateSignals": 1,
+      "notes": "The two new listings refreshes and two README refreshes surfaced Wise Graduate Data Scientist in Austin."
+    },
+    "officialSignalsReviewed": 5,
+    "discoveredSignals": 2,
+    "verifiedNewCandidates": 1,
+    "verifiedStatusChanges": 0,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "Wise vacancy 4490 Graduate Data Scientist was verified open on the official careers page with an active Apply link, Austin location, September 6, 2027 start, 2026/2027 STEM graduate window, no minimum professional years, product data-science and production-ML responsibilities, and $114,000 salary plus RSUs.",
+      "Wise's official U.S. graduate-program page describes U.S. roles as open to anyone eligible to work in the United States and a hybrid working model. The role requires work eligibility without sponsorship; post-completion OPT is employment authorization without an employer visa petition. E-Verify/I-983 support for the STEM extension remains a recruiting confirmation item, not an explicit citizenship/green-card exclusion.",
+      "Applied Materials R2627684, Adobe R172085 and Apple 200694181 were duplicates of existing records. Existing SambaNova Austin new-grad roles were also already archived.",
+      "Fresh Dallas/Austin searches produced no additional verified eligible role or status change."
+    ],
+    "notes": "One new qualified Austin graduate Data Scientist role was added. No existing job status changed."
+  },
+  "screening": {
+    "qualifiedCandidates": 1,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 1,
+    "result": "Wise Graduate Data Scientist qualifies for immediate application and is a clear Ryan upgrade."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 1,
+    "statusChanges": 0,
+    "addedJobIds": [
+      "744000160933600"
+    ]
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-awaiting-finalization",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T16:15:50Z",
+    "evidence": {
+      "archiveCommit": "5dc429e1e3447ffcee168181be01f4c2a98240eb",
+      "archiveBlobSha": "d4b5878e6b6afab4a208c99d763af95de0e9666d",
+      "archiveReadBack": true,
+      "jobsCommit": "8467ee609eec6beec883339d16d020320db9f5d5",
+      "jobsBlobSha": "6231b3ecd7a081ff24293346d09be3070a9c81f3",
+      "jobsReadBack": true
+    }
+  },
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "8467ee609eec6beec883339d16d020320db9f5d5",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "6231b3ecd7a081ff24293346d09be3070a9c81f3",
+      "count": 332,
+      "updatedAt": "2026-11-11T16:14:26Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "statusChanges": [],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "completedAt": null
+}
