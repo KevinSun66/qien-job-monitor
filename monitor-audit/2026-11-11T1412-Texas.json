@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-11T20:12:30Z",
+  "checkedAt": "2026-11-11T20:14:08Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "427afe51654ea945c71fa983a312db7ff3930342",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "fbfdb298b92301eb3d3e88a34b112fe26b9c9583",
+      "count": 334,
+      "updatedAt": "2026-11-11T19:26:33Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T1325-Texas.json",
+      "sha": "5ac029bd46cab36af471e63194885b1ef1428656",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-11T19:27:27Z"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "head": "1fd707936a422d4428f3c5ad001136633ac95dc7",
+      "listingCommits": [
+        "52b2b4113f590a2ea09ba272d5a9adef837efbc6",
+        "ebf7e56639ba7572cccaa6f071141be0d6e02a96"
+      ],
+      "activeToInactiveFlips": 10
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README",
+      "Targeted DFW/Austin public employer and ATS searches"
+    ],
+    "observations": [
+      {
+        "id": "JR-2604055",
+        "result": "Existing Richardson/Santa Clara GlobalFoundries record. Simplify switched to inactive; Built In reports removal on November 11. Official Workday detail yielded no readable text and its job endpoint could not be verified. Closure unconfirmed.",
+        "source": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---California---Santa-Clara/AI-Software-Engineer--2027-New-College-Graduate-_JR-2604055"
+      },
+      {
+        "id": "14fefcf2-720f-4333-8bcc-ff3ba62d3b8e",
+        "result": "Official AHEAD application lists Chicago; outside target."
+      },
+      {
+        "id": "6183016004",
+        "result": "West Monroe official detail unavailable in this check; no evidence of Dallas for this requisition."
+      },
+      {
+        "id": "8002515003",
+        "result": "Existing Striveworks Austin exclusion confirmed: employer page shows application form and citizenship requirement."
+      },
+      {
+        "id": "REF082565W-1",
+        "result": "Visa Austin search result was stale and direct official page did not expose readable current JD; not added."
+      }
+    ],
+    "coverage": "Incremental review and targeted official checks, not a full ATS crawl.",
+    "newVerifiedListings": 0,
+    "verifiedStatusChanges": 0,
+    "unconfirmedStatusSignals": 1
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No new verified role meets all gates and clearly improves on Ryan."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "archivesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0,
+    "applicationStatusesChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "archives": "not-attempted-no-archive-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "audit": "not-attempted-at-preparation",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T19:27:27Z"
+  }
+}
