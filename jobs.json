@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T15:13:41Z",
+  "updatedAt": "2026-11-11T16:14:26Z",
   "jobs": [
     {
       "company": "IBM",
@@ -12653,6 +12653,54 @@
       "archiveUrl": "job-archive/amazon/10555421/job-description.md",
       "archiveLabel": "JD 归档摘要",
       "applicationStatus": "not-applied"
+    },
+    {
+      "company": "Wise",
+      "tier": "S-",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Graduate Data Scientist",
+      "jobId": "744000160933600",
+      "officialVacancyId": "4490",
+      "url": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+      "status": "current",
+      "found": "2026-11-11",
+      "discoveredDate": "2026-11-11",
+      "discoveredAt": "2026-11-11T16:14:26Z",
+      "firstSeen": "2026-11-11",
+      "lastChecked": "2026-11-11",
+      "lastCheckedAt": "2026-11-11T16:14:26Z",
+      "employment": "Full-time · 2027 Graduate Program · Hybrid",
+      "gradYear": "Bachelor's or master's graduate in 2026 or 2027; fixed start September 6, 2027",
+      "startDate": "2027-09-06",
+      "match": "Very High · 96/100",
+      "ngCompatibility": "Excellent: true graduate role, no minimum professional-year requirement, September 2027 start",
+      "assessment": "Official Wise JD is open and targets 2026/2027 bachelor's or master's STEM graduates. It requires ML/CS fundamentals, Python, SQL, probability/statistics and a self-started project; professional ML experience is optional. Responsibilities include customer-impacting product data science, production-proven ML solutions and experimentation with state-of-the-art algorithms across teams such as Marketing, Treasury and Fraud. The September 6, 2027 start follows Qien's May graduation.",
+      "visa": "The official role requires eligibility to work in Austin without sponsorship, and Wise's U.S. graduate page says programs are open to anyone eligible to work in the United States. Qien's post-completion OPT EAD is work authorization without an employer visa petition. Wise does not promise visa sponsorship; confirm the hiring entity's E-Verify enrollment and I-983 support before relying on the STEM OPT extension.",
+      "compensation": "$114,000 annual salary + RSUs (official)",
+      "officePerks": "Austin office onboarding; U.S. graduate program uses a hybrid model; annual self-development budget; pet-friendly office; paid 6-week sabbatical after four years",
+      "officialLocations": [
+        "Austin, TX"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Official Wise page displayed Apply and the full JD on 2026-11-11.",
+      "source": "Wise official careers vacancy 4490; Wise official graduate-program page",
+      "verificationFlags": [
+        "stem-opt-everify-i983-confirmation"
+      ],
+      "finalPriority": "立即投 · 2027 Graduate Data Scientist · 薪资与产品ML平台明显高于Ryan",
+      "roleTrack": "Product Data Science / Applied Machine Learning / FinTech",
+      "technicalGrowth": "96/100",
+      "brandPlatform": "93/100",
+      "ryanUpgrade": "Clear upgrade: $114,000 base plus RSUs versus Ryan $83,000 base/~$90,000 first year, with direct product data science and production ML at global fintech scale.",
+      "whyRyan": "Wise offers about $31,000 more base pay, RSUs, a dedicated graduate academy and direct product ML/data-science ownership. Austin relocation is the main tradeoff.",
+      "careersUrl": "https://wise.jobs/jobs",
+      "sourceListingId": "58592855-2044-4be6-8626-a6671a22102c",
+      "sourcePostedAt": "2026-11-10T17:23:55Z",
+      "applicationStatus": "not-applied",
+      "archiveUrl": "job-archive/wise/744000160933600/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-11-11T16:14:26Z"
     }
   ],
   "monitorAudit": [
