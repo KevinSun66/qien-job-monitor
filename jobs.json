@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T19:26:33Z",
+  "updatedAt": "2026-11-11T21:21:25Z",
   "jobs": [
     {
       "company": "IBM",
@@ -12766,6 +12766,39 @@
       "archiveUrl": "job-archive/general-motors/JR-202616534/job-description.md",
       "archiveLabel": "JD 归档摘要",
       "archivedAt": "2026-11-11T19:26:33Z",
+      "applicationStatus": "not-applied"
+    },
+    {
+      "company": "HID / ASSA ABLOY",
+      "area": "Austin, TX or Palm Beach Garden, FL",
+      "market": "Austin",
+      "title": "AI Scientist - Computer Vision & Biometrics",
+      "jobId": "51362",
+      "url": "https://assaabloy.jobs2web.com/job/Austin-AI-Scientist-TX-78753/1441539933/?ats=successfactors",
+      "status": "education-rejected",
+      "employment": "Mid-senior level per employer listing",
+      "gradYear": "Relevant PhD required; no fixed start date disclosed.",
+      "ngCompatibility": "Published 0–4 years; no minimum of one year, but required PhD rules out bachelor's entry.",
+      "assessment": "Builds and deploys deep-learning models for biometric recognition, identity verification and image/video analysis.",
+      "visa": "Immigration sponsorship unavailable; role-specific OPT/STEM OPT acceptance not disclosed.",
+      "compensation": "No numerical salary disclosed.",
+      "ryanUpgrade": "Not actionable given the PhD requirement; pay upgrade unverified.",
+      "officialLocations": [
+        "Austin, TX",
+        "Palm Beach Garden, FL"
+      ],
+      "officialStatus": "Employer JD showed Apply now; its link redirected to recruiting homepage. Actual application acceptance unconfirmed.",
+      "finalPriority": "排除 · 要求相关博士学位",
+      "roleTrack": "Applied AI / Computer Vision / Biometrics",
+      "found": "2026-11-11",
+      "firstSeen": "2026-11-11T21:21:25Z",
+      "discoveredAt": "2026-11-11T21:21:25Z",
+      "lastCheckedAt": "2026-11-11T21:21:25Z",
+      "lastChecked": "2026-11-11",
+      "source": "ASSA ABLOY official careers",
+      "archiveUrl": "job-archive/hid-global/51362/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-11-11T21:21:25Z",
       "applicationStatus": "not-applied"
     }
   ],
