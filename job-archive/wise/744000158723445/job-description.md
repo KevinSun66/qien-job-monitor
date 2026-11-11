@@ -29,3 +29,10 @@
 ## Monitor decision
 
 **visa-verification / pending-verification.** The September 2027 start, Austin location, $104,000 base, RSUs, graduate eligibility, experimentation work, and data platform exposure could form a meaningful compensation/platform upgrade over Ryan. However, the role is product analytics rather than production ML engineering, and the official authorization wording does not establish whether Wise accepts initial F-1 OPT, supports STEM OPT/I-983, or requires unrestricted long-term authorization. It is not placed in Table 2 and must not trigger an application alert until the role-level authorization path is verified.
+
+## Official status recheck — 2026-11-11
+
+- **Checked:** 2026-11-11 04:04:53 CT
+- **Result:** Closed / expired.
+- **Evidence:** The official Wise role page explicitly displayed: “This vacancy has now expired.”
+- **Monitor action:** The role is marked closed. Its unverified OPT/STEM OPT path and product-analytics-versus-Ryan comparison remain historical context only; it will not enter Table 2 or be recommended again.
