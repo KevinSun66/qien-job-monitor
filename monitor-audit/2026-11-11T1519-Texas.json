@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-11T21:19:54Z",
+  "checkedAt": "2026-11-11T21:22:06Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d01d8f244f807b1984d01f77005dc893a00a1631",
+    "jobs": {
+      "sha": "fbfdb298b92301eb3d3e88a34b112fe26b9c9583",
+      "count": 334
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T1412-Texas.json",
+      "sha": "c08655082972b71f9ba711e3931392c4d23aeb88",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-11T20:14:24Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "base": "1fd707936a422d4428f3c5ad001136633ac95dc7",
+      "head": "afcad324df4715850b6a048f1aabe625aee366e1",
+      "newCommits": 2,
+      "changedFiles": []
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README",
+      "Targeted Dallas/Austin employer and ATS searches"
+    ],
+    "notes": [
+      "Wise, Self Financial, Vistra, JPMorgan graduate program, Adobe, and existing SambaNova ML postings deduplicated. Vistra direct JD unreadable in this check; no verified status change.",
+      "SambaNova AI Performance signal led to a generic careers page; exact JD unverified. UT Austin Biostatistician I official URL inaccessible in this check."
+    ],
+    "coverage": "Incremental, not an exhaustive employer ATS crawl.",
+    "newVerifiedScreeningRecords": 1,
+    "newVerifiedOpenEligibleListings": 0,
+    "verifiedStatusChanges": 0
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "excluded": 1,
+    "decision": {
+      "id": "51362",
+      "url": "https://assaabloy.jobs2web.com/job/Austin-AI-Scientist-TX-78753/1441539933/?ats=successfactors",
+      "result": "Official HID JD verifies Austin, applied computer vision duties and a required PhD. Published experience range 0–4 years. No sponsorship stated; OPT/STEM OPT acceptance not established. Apply link returned to recruiting homepage; application acceptance unconfirmed."
+    }
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "archivesChanged": true,
+    "addedRecords": 1,
+    "deletedRecords": 0,
+    "statusChanges": 0,
+    "applicationStatusesChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "archives": "succeeded-and-read-back",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "audit": "not-attempted-at-preparation",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T21:21:40Z",
+    "evidence": {
+      "jobsCommit": "2610ba8582d571f0da6de8f5c8eec4667069f404",
+      "jobsBlob": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "archiveCommit": "a2c6e977e6eb6350e50eb4e4e5cc07e5f3408271",
+      "archiveBlob": "5ae93571ee3a8f6a6b52e2a77b684680f0c6b397",
+      "allPriorJobRecordsUnchanged": true
+    }
+  },
+  "repositorySnapshotAfter": {
+    "jobsSha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+    "jobsCount": 335
+  }
+}
