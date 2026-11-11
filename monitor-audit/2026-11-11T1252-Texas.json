@@ -73,18 +73,18 @@
     "archives": "succeeded-and-read-back",
     "dallasPage": "not-attempted",
     "austinPage": "not-attempted",
-    "audit": "not-attempted-at-preparation",
-    "synced": false,
-    "pending": [
-      "audit-finalization"
-    ],
-    "lastSuccessfulWriteAt": "2026-11-11T18:53:51Z",
+    "audit": "succeeded-and-read-back",
+    "synced": true,
+    "pending": [],
+    "lastSuccessfulWriteAt": "2026-11-11T18:54:16Z",
     "evidence": {
       "jobsCommit": "ecc1e6197c4f7e31443248148314b39397951b01",
       "jobsBlob": "5978f0b176e0b39b96d9d3f9604012c33489efb3",
       "archiveCommit": "fff739de2be59295ed32589124362bc0501172c4",
       "archiveBlob": "d94e6e69cc7975fd991139fe5095b77e6d3078c1",
-      "allPriorJobRecordsUnchanged": true
+      "allPriorJobRecordsUnchanged": true,
+      "verifiedAuditCommit": "99a6512fa3d36ed3555b22e6594398f3889bd88e",
+      "verifiedAuditBlob": "21b5c834b0b8552d462f9404f4c2e182932b2409"
     }
   },
   "repositorySnapshotAfter": {
