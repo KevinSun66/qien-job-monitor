@@ -73,3 +73,10 @@ Starting Day 1, Amazon lists EAP, Mental Health Support, Medical Advice Line, an
 
 ---
 Archived for Qien's 2027 full-time application tracker from the user-provided 2-page Amazon.jobs PDF.
+
+## Official status recheck — 2026-11-11
+
+- **Checked:** 2026-11-11 04:04:53 CT
+- **Result:** Closed / no longer listed.
+- **Evidence:** The original official Amazon job URL returned HTTP 404. Amazon's official exact-ID search for 10506956 returned no listing.
+- **Monitor action:** The historical JD and application record are preserved. The role will not be recommended again.
