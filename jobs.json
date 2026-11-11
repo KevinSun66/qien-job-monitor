@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T18:53:36Z",
+  "updatedAt": "2026-11-11T19:26:33Z",
   "jobs": [
     {
       "company": "IBM",
@@ -12732,6 +12732,40 @@
       "archiveUrl": "job-archive/self-financial/6252143004/job-description.md",
       "archiveLabel": "JD 归档摘要",
       "archivedAt": "2026-11-11T18:53:36Z",
+      "applicationStatus": "not-applied"
+    },
+    {
+      "company": "General Motors",
+      "area": "Austin, TX (also Warren, MI)",
+      "market": "Austin",
+      "title": "Data Scientist",
+      "jobId": "JR-202616534",
+      "url": "https://search-careers.gm.com/en/jobs/jr-202616534/data-scientist/",
+      "status": "experience-visa-rejected",
+      "employment": "Full-time · L6 · Hybrid",
+      "gradYear": "Experienced hire; no cohort start date stated.",
+      "ngCompatibility": "Official minimum is 3+ years, plus a relevant advanced degree or equivalent additional experience.",
+      "assessment": "Leads software product workstreams in AI/ML and data science for Sales, Brand and Dealer. Independently fails experience and work authorization gates.",
+      "visa": "GM excludes immigration arrangements requiring employer support and explicitly names OPT and STEM OPT.",
+      "compensation": "Not disclosed on official careers page.",
+      "ryanUpgrade": "Ineligible; no confirmed pay comparison.",
+      "officialLocations": [
+        "Austin, TX",
+        "Warren, MI"
+      ],
+      "officialStatus": "Full GM careers JD and Apply Now link visible; direct Workday form not independently verified.",
+      "finalPriority": "排除 · 3+ 年经验且不提供 OPT/STEM OPT 所需雇主支持",
+      "roleTrack": "Applied AI / ML / Data Science",
+      "found": "2026-11-11",
+      "firstSeen": "2026-11-11T19:26:33Z",
+      "discoveredAt": "2026-11-11T19:26:33Z",
+      "lastCheckedAt": "2026-11-11T19:26:33Z",
+      "lastChecked": "2026-11-11",
+      "officialPostedDate": "2026-10-14",
+      "source": "General Motors official careers",
+      "archiveUrl": "job-archive/general-motors/JR-202616534/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-11-11T19:26:33Z",
       "applicationStatus": "not-applied"
     }
   ],
