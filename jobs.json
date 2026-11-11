@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T12:24:16Z",
+  "updatedAt": "2026-11-11T13:32:27Z",
   "jobs": [
     {
       "company": "IBM",
@@ -12571,6 +12571,43 @@
       "ryanUpgrade": "Apple's brand is attractive, but the 3–5 year minimum makes the role ineligible and not an actionable Ryan alternative.",
       "rejectionReason": "Official minimum requires at least 3–5 years of relevant experience.",
       "archiveUrl": "job-archive/apple/200681260-0157/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "applicationStatus": "not-applied"
+    },
+    {
+      "company": "Amazon",
+      "tier": "S",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Applied Scientist, AI Security",
+      "jobId": "10556410",
+      "url": "https://www.amazon.jobs/en/jobs/10556410/applied-scientist-ai-security",
+      "status": "experience-rejected",
+      "found": "2026-11-11",
+      "discoveredDate": "2026-11-11",
+      "discoveredAt": "2026-11-11T13:32:27Z",
+      "firstSeen": "2026-11-11",
+      "lastChecked": "2026-11-11",
+      "lastCheckedAt": "2026-11-11T13:32:27Z",
+      "employment": "Full-time · Applied Science",
+      "gradYear": "Experienced role; 3+ years plus advanced-degree experience required",
+      "match": "Excellent agentic AI/ML scope; experience hard rejection",
+      "ngCompatibility": "Incompatible: official minimum begins at 3+ years and requires PhD or master's plus 4+ years",
+      "assessment": "The official Amazon JD is active and covers LLM- and agentic-AI systems for source-code and cloud-configuration security, vulnerability detection, model evaluation and production deployment. It requires 3+ years building models for business applications and a PhD or master's plus 4+ years of related experience. This exceeds the monitor's 0–2 year gate. Preserve as an experience rejection; do not place in Table 2 or notify.",
+      "visa": "The reviewed official JD did not disclose OPT/STEM OPT or sponsorship terms. Experience independently disqualifies the role.",
+      "compensation": "$142,800–$193,200 Austin base + sign-on payments + RSUs (official)",
+      "officialLocations": [
+        "Austin, TX"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Official Amazon page displayed Apply now and the full JD on 2026-11-11; posted September 22, 2026.",
+      "source": "Amazon official careers, verified 2026-11-11",
+      "verificationFlags": [],
+      "finalPriority": "发现后排除 · 最低3+年经验",
+      "roleTrack": "Applied Science / Agentic AI / LLM Security / Production ML",
+      "ryanUpgrade": "Technical scope, compensation and platform could exceed Ryan, but the 3+ year and advanced-degree minimum makes the role ineligible and non-actionable.",
+      "rejectionReason": "Official minimum requires 3+ years building models and a PhD or master's plus 4+ years of relevant experience.",
+      "archiveUrl": "job-archive/amazon/10556410/job-description.md",
       "archiveLabel": "JD 归档摘要",
       "applicationStatus": "not-applied"
     }
