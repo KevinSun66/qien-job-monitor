@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-11T11:17:08Z",
+  "checkedAt": "2026-11-11T11:19:12Z",
+  "checkedAtLocal": "2026-11-11T05:19:12-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "5b1d0a7e175fa40b7175eb1f12075faa6311053d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "eaba563365fd66f5ff4e61eb4f0fc1e5854c79a7",
+      "count": 326,
+      "updatedAt": "2026-11-11T10:09:37Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T0409-Texas.json",
+      "sha": "d47ffec0990c30957c074af04fb1426590a698be",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-11T10:10:59Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "comparisonBase": "d38627abaf6e098210a0d61a2785ca6f1d092a49",
+      "aheadBy": 9,
+      "changedFiles": [
+        ".github/scripts/listings.json",
+        "README.md"
+      ],
+      "newCommitsSincePreviousRun": 4,
+      "newTexasCandidateSignals": 0,
+      "notes": "The additional upstream commits did not contain a verified new Dallas/Austin Applied AI/ML/Data Science candidate."
+    },
+    "officialSignalsReviewed": 6,
+    "discoveredSignals": 5,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "Applied Materials R2627684 appeared in an official search index as an Austin new-college-grad data role, but the current official Workday URL displayed 'The page you are looking for doesn't exist.' It was rejected as not open and was not added.",
+      "Self Financial search signals used inconsistent titles, including Data Scientist and Staff Data Scientist, and did not yield a verified new official entry-level opening.",
+      "Micron JR115682 is in Boise, Idaho and failed the Dallas/Austin geography gate.",
+      "Bot Auto 5371947008 is in Houston and failed the Dallas/Austin geography gate.",
+      "Quora's remote new-grad MLE signal was a duplicate of an existing start-date-rejected record.",
+      "Hippo Insurance and Striveworks signals were duplicates of existing experience- or clearance-rejected records."
+    ],
+    "notes": "No official, currently open role satisfied every location, start-date, experience, work-authorization, role-scope, exclusion-list, and Ryan-upgrade gate."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified addition or status change. Applied Materials R2627684 was confirmed unavailable on the official career site."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "not-attempted-no-verified-archive-change",
+    "audit": "staged-awaiting-read-back",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T10:10:59Z",
+    "evidence": {}
+  },
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "5b1d0a7e175fa40b7175eb1f12075faa6311053d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "eaba563365fd66f5ff4e61eb4f0fc1e5854c79a7",
+      "count": 326,
+      "updatedAt": "2026-11-11T10:09:37Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "statusChanges": [],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "completedAt": null
+}
