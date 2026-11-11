@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-11T12:22:23Z",
+  "checkedAt": "2026-11-11T12:25:45Z",
+  "checkedAtLocal": "2026-11-11T06:25:45-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9749616c352f836cab02c4c16894b5453aed0102",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "eaba563365fd66f5ff4e61eb4f0fc1e5854c79a7",
+      "count": 326,
+      "updatedAt": "2026-11-11T10:09:37Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T0517-Texas.json",
+      "sha": "32ac8fc5bebbe30476989e5ba92bb077810ed49d",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-11T11:19:57Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "comparisonBase": "d38627abaf6e098210a0d61a2785ca6f1d092a49",
+      "aheadBy": 12,
+      "newCommitsSincePreviousRun": 3,
+      "changedFiles": [
+        ".github/scripts/listings.json",
+        "README.md"
+      ],
+      "newTexasCandidateSignals": 1,
+      "notes": "The current upstream diff and fresh official searches were reviewed; Amazon 10581072 was the actionable new Texas signal but failed the start-date gate."
+    },
+    "officialSignalsReviewed": 9,
+    "discoveredSignals": 6,
+    "verifiedNewCandidates": 3,
+    "verifiedStatusChanges": 0,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "Amazon AWS 10581072 is an active Austin early-career Solutions Architect cohort with AI/ML exposure and $121,500 starting pay, but its mandatory January 25, 2027 start is before Qien's May 2027 graduation. Added as start-date-rejected.",
+      "Apple 200694181-0157 is an active Austin Applied Scientist role. The official JD requires a master's degree and 3+ years of Applied Scientist, ML or Data Scientist experience. Added as experience-rejected.",
+      "Apple 200681260-0157 is an active Austin Strategic Data Solutions Data Scientist role. The official JD requires at least 3–5 years of related experience. Added as experience-rejected.",
+      "Kyndryl R-66870, R-66739 and R-68529 were duplicates of existing records; their visa/rejection/verification decisions remain unchanged.",
+      "Apple 200676435-0157 was an existing 3+ year experience rejection.",
+      "Micron Boise, Bot Auto Houston, senior AWS/Hitachi roles and the Gartner internship failed geography, seniority or full-time-post-graduation scope."
+    ],
+    "notes": "Three real new official roles were archived only as verified hard rejections. No role satisfied every eligibility gate or warranted a Ryan-upgrade notification."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No qualified candidate. Amazon 10581072 fails the post-May-2027 start gate; Apple 200694181-0157 and 200681260-0157 fail the 0–2 year experience gate."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 3,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-awaiting-read-back",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T11:19:57Z",
+    "evidence": {
+      "archiveCommits": [
+        "13b4d647f99b1acf1868a85585646c95b0a7c149",
+        "65658d18f5a6e08d2f00dc610f0c98921942cb57",
+        "3bf9290e968e8c9dcd9a00e0c951d2e9095dc6d7"
+      ],
+      "archivePaths": [
+        "job-archive/amazon/10581072/job-description.md",
+        "job-archive/apple/200694181-0157/job-description.md",
+        "job-archive/apple/200681260-0157/job-description.md"
+      ],
+      "archiveBlobShas": [
+        "b4338fda08ac60969b313e7e44e2237290299d87",
+        "f168ebd2702536a5d7d2c9f48926815b6bdea82c",
+        "ced79891014d9bc276f136b590c18940b9169ed4"
+      ],
+      "archiveReadBack": true,
+      "jobsCommit": "00717824bcb7357d8132623de48b79a300b35e97",
+      "jobsBlobSha": "c2043fa4c018a5a4e121e112d0184d88c30d591a",
+      "jobsReadBack": true
+    }
+  },
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "00717824bcb7357d8132623de48b79a300b35e97",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "c2043fa4c018a5a4e121e112d0184d88c30d591a",
+      "count": 329,
+      "updatedAt": "2026-11-11T12:24:16Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "addedJobIds": [
+      "10581072",
+      "200694181-0157",
+      "200681260-0157"
+    ],
+    "statusChanges": [],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "completedAt": null
+}
