@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-11T10:02:50Z",
+  "checkedAt": "2026-11-11T10:06:08Z",
+  "checkedAtLocal": "2026-11-11T04:06:08-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "91fa4bce9a4ab830d6c3575300d41e59b19c7855",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "86647f6f8b7a541eb02d462f5f84772a97d3d7a6",
+      "count": 326,
+      "updatedAt": "2026-11-11T09:00:03Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T0258-Texas.json",
+      "sha": "80cefad009e83f1ba9a77ae1cced469431408f9f",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-11T09:02:30Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "previousHead": "d38627abaf6e098210a0d61a2785ca6f1d092a49",
+      "currentHead": "dev (5 commits ahead at check time)",
+      "newCommits": 5,
+      "newTexasCandidateSignals": 0,
+      "notes": "The five upstream commits added or refreshed rows, but no new Dallas/Austin Applied AI/ML/Data Science candidate cleared the location and role-scope prefilter. Kyndryl R-66870 remained the already-recorded Texas AI-data row."
+    },
+    "officialRolesRechecked": 8,
+    "discoveredSignals": 0,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 4,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "Wise 744000158723445: official page explicitly says the vacancy has expired.",
+      "Amazon AWS 10506956: original official page returned 404 and official exact-ID search returned no listing.",
+      "Home Depot / BlackLocus Req194426: original official page returned 404; current official BlackLocus page and exact search no longer list the requisition.",
+      "McKinsey 112338: original official URL resolves only to generic job search and official exact-ID search no longer returns the Dallas requisition; a similarly titled London role is a different requisition 113797.",
+      "Goldman Sachs 171568 remained active with Apply on the official page.",
+      "Liberty Mutual 618519224159 remained visible on the official page.",
+      "Apple 200677912-0157 remained reachable but the page requires JavaScript for full content; no verified status change was recorded.",
+      "NVIDIA JR2026477 remained reachable but the official page had no readable body in this check; no verified status change was recorded."
+    ],
+    "notes": "No new qualified or notification-worthy candidate was found. Four existing records had verified closure/status changes."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 2,
+    "result": "No new role cleared all gates. Two previously applied/high-value records (Amazon 10506956 and McKinsey 112338) are now closed; Home Depot Req194426 and Wise 744000158723445 were pending-verification records and are also closed."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 0,
+    "statusChanges": 4
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-pending-final-read-back",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T10:05:48Z",
+    "evidence": {
+      "jobsCommit": "007fbed7821a9d7a7d1fdb8aa89e644f1d9e7e5e",
+      "jobsBlobSha": "cee2b0b08a4395b9e812fa1857bbe3dda00f436c",
+      "jobsReadBack": true,
+      "archiveCommits": [
+        "51447b21f441447abb8a0d7f8b2d9e03c5769c39",
+        "8b5d3646cb148802afd69921c7327beebca38623",
+        "24790cdccc11cf22488acc551d1bb629d5413381",
+        "8ea3d17e55787a14d9439dcd13c5e218979e4373"
+      ],
+      "archiveBlobShas": {
+        "job-archive/amazon-10506956-solutions-architect-awsi-2027.md": "9fc55ee3af4858ff69e16ed6bb028415cd11233b",
+        "job-archive/home-depot/Req194426/job-description.md": "b693f13886a1cec39af1d1cf83d5b7f6ff3b6f47",
+        "job-archive/mckinsey/112338/job-description.md": "53e2e22e94dfcca419b266c97c150d5ddc69c32e",
+        "job-archive/wise/744000158723445/job-description.md": "1bc47bd5dde9d4f2c6bfb53cc78e0796c2cf7158"
+      },
+      "archivesReadBack": true
+    }
+  },
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "8ea3d17e55787a14d9439dcd13c5e218979e4373",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "cee2b0b08a4395b9e812fa1857bbe3dda00f436c",
+      "count": 326,
+      "updatedAt": "2026-11-11T10:04:53Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "statusChanges": [
+      {
+        "jobId": "10506956",
+        "from": "current",
+        "to": "closed"
+      },
+      {
+        "jobId": "Req194426",
+        "from": "ng-verification",
+        "to": "closed"
+      },
+      {
+        "jobId": "112338",
+        "from": "current",
+        "to": "closed",
+        "applicationStatus": "applied"
+      },
+      {
+        "jobId": "744000158723445",
+        "from": "visa-verification",
+        "to": "closed",
+        "applicationStatus": "not-applied"
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
