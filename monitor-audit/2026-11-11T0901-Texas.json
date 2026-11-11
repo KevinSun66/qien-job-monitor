@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-11T15:01:52Z",
+  "checkedAt": "2026-11-11T15:03:56Z",
+  "checkedAtLocal": "2026-11-11T09:03:56-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9285648c698818e1a571b36281981ba55b0a1ca0",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "0452c48d7c0871cdaffa4ec2c0bb1775a470a950",
+      "count": 330,
+      "updatedAt": "2026-11-11T13:32:27Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T0730-Texas.json",
+      "sha": "dd40075cd7276f58a98272882fb6827e577a96e2",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-11T13:33:58Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "comparisonBase": "d38627abaf6e098210a0d61a2785ca6f1d092a49",
+      "aheadBy": 22,
+      "previousUpstreamHead": "bc29e97bafb4221f89425a6f24dad67a299b63c4",
+      "newCommitsSincePreviousHead": 6,
+      "changedFiles": [
+        ".github/scripts/listings.json",
+        "README.md"
+      ],
+      "newTexasCandidateSignals": 0,
+      "notes": "The six additional commits contained listing churn and removals but did not surface a new verified Dallas/Austin early-career Applied AI/ML/Data Science candidate."
+    },
+    "officialSignalsReviewed": 8,
+    "discoveredSignals": 4,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 0,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "Apple 200681260-0157, 200677912-0157, 200654431-0157 and 200694181-0157 remained visible in official Austin search results; all were existing records with applied or experience-rejected status.",
+      "Amazon 10556410 and 10589280 remained open official Austin results and were duplicates of existing experience-rejected records.",
+      "Amazon graduate-program pages did not expose a new Dallas/Austin post-May-2027 AI/ML/Data Science opening.",
+      "Fresh Workday, Greenhouse and Lever searches produced no verified new eligible Dallas/Austin entry-level role."
+    ],
+    "notes": "No verified addition or status change was found. Existing application statuses and JD archives remain unchanged."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No qualified or newly verifiable candidate."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "not-attempted-no-verified-archive-change",
+    "audit": "staged-awaiting-read-back",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T13:33:58Z",
+    "evidence": {}
+  },
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "9285648c698818e1a571b36281981ba55b0a1ca0",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "0452c48d7c0871cdaffa4ec2c0bb1775a470a950",
+      "count": 330,
+      "updatedAt": "2026-11-11T13:32:27Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "statusChanges": [],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "completedAt": null
+}
