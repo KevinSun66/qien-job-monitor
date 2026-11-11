@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T16:14:26Z",
+  "updatedAt": "2026-11-11T18:53:36Z",
   "jobs": [
     {
       "company": "IBM",
@@ -12701,6 +12701,38 @@
       "archiveUrl": "job-archive/wise/744000160933600/job-description.md",
       "archiveLabel": "JD 归档摘要",
       "archivedAt": "2026-11-11T16:14:26Z"
+    },
+    {
+      "company": "Self Financial",
+      "area": "Austin, TX",
+      "market": "Austin",
+      "title": "Data Scientist",
+      "jobId": "6252143004",
+      "url": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+      "status": "citizenship-rejected",
+      "employment": "Entry-level · Austin hybrid or remote per JD",
+      "gradYear": "Relevant bachelor's or master's degree, including applicants graduating soon; no fixed start date disclosed.",
+      "ngCompatibility": "Official JD states 0–2 years and accepts predictive modeling experience from coursework, internships or projects.",
+      "roleTrack": "Applied Data Science / Credit Risk / Production Predictive Models",
+      "assessment": "Build, test and validate Python models for lending and credit decisions and help deploy and monitor them. Official authorization restriction independently excludes this role.",
+      "visa": "Official JD limits consideration to U.S. citizens and permanent residents; no visa sponsorship now or in the future. F-1 OPT/STEM OPT does not meet this requirement.",
+      "compensation": "Base not disclosed; performance bonus and stock options listed.",
+      "ryanUpgrade": "Not actionable under the work authorization requirement; no confirmed compensation upgrade.",
+      "finalPriority": "排除 · 仅限美国公民或永久居民",
+      "officialLocations": [
+        "Austin, TX"
+      ],
+      "officialStatus": "Official Greenhouse page showed Apply and application form.",
+      "source": "Self Financial official Greenhouse; discovery via ML_Newgrad_2027",
+      "found": "2026-11-11",
+      "firstSeen": "2026-11-11T18:53:36Z",
+      "discoveredAt": "2026-11-11T18:53:36Z",
+      "lastCheckedAt": "2026-11-11T18:53:36Z",
+      "lastChecked": "2026-11-11",
+      "archiveUrl": "job-archive/self-financial/6252143004/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "archivedAt": "2026-11-11T18:53:36Z",
+      "applicationStatus": "not-applied"
     }
   ],
   "monitorAudit": [
