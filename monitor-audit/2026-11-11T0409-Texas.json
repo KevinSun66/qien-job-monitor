@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-11T10:09:02Z",
+  "checkedAt": "2026-11-11T10:10:24Z",
+  "checkedAtLocal": "2026-11-11T04:10:24-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "330a9c77c43b5b9e3e50a4e13ae28d8027a74bfe",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "cee2b0b08a4395b9e812fa1857bbe3dda00f436c",
+      "count": 326,
+      "updatedAt": "2026-11-11T10:04:53Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T0402-Texas.json",
+      "sha": "2b2dd5b10652e02bf16d231151770a61e7f551e0",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-11T10:06:52Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "comparisonBase": "d38627abaf6e098210a0d61a2785ca6f1d092a49",
+      "aheadBy": 5,
+      "changedFiles": [
+        ".github/scripts/listings.json",
+        "README.md"
+      ],
+      "newTexasCandidateSignals": 0,
+      "notes": "The upstream diff was unchanged from the immediately preceding run; no new Dallas/Austin Applied AI/ML/Data Science candidate appeared."
+    },
+    "officialSignalsReviewed": 6,
+    "discoveredSignals": 4,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 1,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "Liberty Mutual 618519224159 / 2026-122765 remained open with Apply Now. The official JD confirmed Plano, hybrid work, September 2027, 0–2 years, permanent U.S. work authorization, and typical starting pay of $66,000–$76,000.",
+      "Goldman Sachs 171568 remained visible as the 2027 Dallas Engineering New Analyst role.",
+      "Quora remote new-grad MLE and Hippo Insurance Data Scientist were duplicates of existing records; their prior start-date and experience rejections remain unchanged.",
+      "Micron JR115682 is in Boise, Idaho and failed the Dallas/Austin geography gate.",
+      "Bot Auto 5371947008 is in Houston and failed the Dallas/Austin geography gate.",
+      "Striveworks 8002515003 remained an existing Austin record with an active Secret clearance requirement."
+    ],
+    "notes": "One existing eligibility record changed from verification to a verified work-authorization and opportunity-cost rejection. No new qualified candidate was found."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "Liberty Mutual fits the 0–2 year and September 2027 timing gates, but fails the F-1 OPT/STEM OPT authorization gate and is below the Ryan compensation baseline."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 0,
+    "statusChanges": 1
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-pending-final-read-back",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T10:10:08Z",
+    "evidence": {
+      "jobsCommit": "2704cc09a930b957f09d2ea480bbffb3343fd42f",
+      "jobsBlobSha": "eaba563365fd66f5ff4e61eb4f0fc1e5854c79a7",
+      "jobsReadBack": true,
+      "archiveCommit": "6a740475addc375fb1a2594041318c5fce1abb3a",
+      "archivePath": "job-archive/liberty-mutual/618519224159/job-description.md",
+      "archiveBlobSha": "aba483bcae9a32e99d0b21e2af9d5a1b081878ad",
+      "archiveReadBack": true
+    }
+  },
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "6a740475addc375fb1a2594041318c5fce1abb3a",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "eaba563365fd66f5ff4e61eb4f0fc1e5854c79a7",
+      "count": 326,
+      "updatedAt": "2026-11-11T10:09:37Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "statusChanges": [
+      {
+        "jobId": "618519224159",
+        "from": "ng-verification",
+        "to": "visa-opportunity-cost-rejected"
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
