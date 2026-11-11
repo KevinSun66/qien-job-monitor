@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T13:32:27Z",
+  "updatedAt": "2026-11-11T15:13:41Z",
   "jobs": [
     {
       "company": "IBM",
@@ -12608,6 +12608,49 @@
       "ryanUpgrade": "Technical scope, compensation and platform could exceed Ryan, but the 3+ year and advanced-degree minimum makes the role ineligible and non-actionable.",
       "rejectionReason": "Official minimum requires 3+ years building models and a PhD or master's plus 4+ years of relevant experience.",
       "archiveUrl": "job-archive/amazon/10556410/job-description.md",
+      "archiveLabel": "JD 归档摘要",
+      "applicationStatus": "not-applied"
+    },
+    {
+      "company": "Amazon Web Services",
+      "tier": "S",
+      "area": "Austin, TX (also Sunnyvale, CA; Seattle, WA; New York, NY)",
+      "market": "Austin",
+      "title": "Principal Applied Scientist, Humorphic Labs",
+      "jobId": "10555421",
+      "url": "https://www.amazon.jobs/en/jobs/10555421/principal-applied-scientist-humorphic-labs",
+      "status": "seniority-rejected",
+      "found": "2026-11-11",
+      "discoveredDate": "2026-11-11",
+      "discoveredAt": "2026-11-11T15:13:41Z",
+      "firstSeen": "2026-11-11",
+      "lastChecked": "2026-11-11",
+      "lastCheckedAt": "2026-11-11T15:13:41Z",
+      "employment": "Full-time · Principal Applied Science",
+      "gradYear": "Principal-level experienced role; not an early-career requisition",
+      "match": "Exceptional agentic-AI scope and compensation · seniority hard rejection",
+      "ngCompatibility": "Incompatible: Principal role requires ownership of scientific strategy, leadership across engineering/product, independent consequential decisions and mentoring senior scientists",
+      "assessment": "The official Amazon JD is active and covers agentic and multimodal AI systems, human–AI collaboration, evaluation, experiments and production adoption. The role requires owning the scientific agenda, leading complex work across engineering and product, making independent decisions in consequential ambiguous settings, and mentoring scientists and engineers. These mandatory Principal-level requirements are incompatible with the monitor's 0–2 year entry-level window. Preserve as a seniority rejection; do not place in Table 2 or notify.",
+      "visa": "The reviewed official JD did not disclose OPT/STEM OPT or sponsorship terms. Seniority independently disqualifies the role.",
+      "compensation": "$198,900–$269,000 Austin base + sign-on payments + RSUs (official)",
+      "officialLocations": [
+        "Austin, TX",
+        "Sunnyvale, CA",
+        "Seattle, WA",
+        "New York, NY"
+      ],
+      "locationListComplete": true,
+      "officialStatus": "Official Amazon page displayed the current full JD and the role remained listed in Amazon official search on 2026-11-11.",
+      "source": "Amazon official careers, verified 2026-11-11",
+      "verificationFlags": [],
+      "finalPriority": "发现后排除 · Principal 级别与强制科研领导职责",
+      "roleTrack": "Principal Applied Science / Agentic AI / Multimodal AI / Human-AI Collaboration",
+      "seniorityGap": "Hard fail · Principal scope with scientific-strategy ownership and senior mentoring",
+      "technicalGrowth": "Very high but inaccessible under seniority rule",
+      "brandPlatform": "S",
+      "ryanUpgrade": "Technical scope, compensation and platform exceed Ryan, but Principal-level responsibilities make the role ineligible and non-actionable.",
+      "rejectionReason": "Mandatory Principal-level scientific ownership, cross-functional leadership, independent consequential decisions and senior mentoring are incompatible with a 0–2 year candidate.",
+      "archiveUrl": "job-archive/amazon/10555421/job-description.md",
       "archiveLabel": "JD 归档摘要",
       "applicationStatus": "not-applied"
     }
