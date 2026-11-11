@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T09:00:03Z",
+  "updatedAt": "2026-11-11T10:04:53Z",
   "jobs": [
     {
       "company": "IBM",
@@ -881,11 +881,11 @@
       "postedDate": "2026-08-20",
       "firstSeen": "2026-09-29",
       "firstNotifiedDate": "2026-09-29",
-      "lastChecked": "2026-09-29",
+      "lastChecked": "2026-11-11",
       "source": "The Home Depot official careers page; surfaced in Zapply new-grad data-science repository",
       "url": "https://careers.homedepot.com/job/23923861/associate-data-scientist-blacklocus-remote/",
-      "status": "ng-verification",
-      "finalPriority": "及时核实 · 先确认可在 2027 年 5–8 月毕业后入职及 F-1 OPT；确认后可升级为“可以投”并进入表2",
+      "status": "closed",
+      "finalPriority": "关闭 · 既有待核验记录保留，不进入表2、不重复推荐",
       "roleTrack": "Product Data Science / ML Modeling / Recommendation / Search / NLP / Optimization",
       "seniorityGap": "Low on stated minimums · 0 years required; 3+ years is preferred only",
       "technicalGrowth": "93/100 · large datasets, applied modeling, recommendation/search/NLP and business deployment",
@@ -900,7 +900,11 @@
       "whyRyan": "The role is more directly product data science/ML and may allow Qien to remain in Plano while accessing a larger consumer-data platform. It is a true upgrade only if the team accepts a post-May-2027 start, accepts OPT/STEM OPT and the offer is not below Ryan's known package.",
       "targetRoles": "Associate Data Scientist / Product Data Scientist / Applied ML / Recommendation & Search",
       "careersUrl": "https://careers.homedepot.com/our-companies/blacklocus/",
-      "reviewedAt": "2026-09-29"
+      "reviewedAt": "2026-09-29",
+      "previousStatus": "ng-verification",
+      "lastCheckedAt": "2026-11-11T10:04:53Z",
+      "closedAt": "2026-11-11T10:04:53Z",
+      "officialStatus": "The Home Depot official job URL returned 404 on 2026-11-11; current BlackLocus official page no longer listed Req194426 and exact-title/ID search found no active requisition."
     },
     {
       "company": "Infosys",
@@ -1030,13 +1034,13 @@
       "firstArchived": "2026-09-29",
       "firstNotifiedDate": "2026-09-29",
       "officialPostedDate": "Not displayed",
-      "lastChecked": "2026-10-03",
-      "lastCheckedAt": "2026-10-04T04:21:57Z",
-      "officialStatus": "Amazon official role page and Apply now active on 2026-10-03",
+      "lastChecked": "2026-11-11",
+      "lastCheckedAt": "2026-11-11T10:04:53Z",
+      "officialStatus": "Official Amazon job URL returned 404 on 2026-11-11; Amazon's official exact-ID search returned no listing. Requisition treated as closed.",
       "source": "Amazon Jobs official JD; surfaced by targeted official-careers backfill",
       "url": "https://www.amazon.jobs/en/jobs/10506956/solutions-architect-awsi-2027",
-      "status": "current",
-      "finalPriority": "可以投 · 只接受 2027-07-06 cohort；申请前确认 OPT 与六个月后的地点安排",
+      "status": "closed",
+      "finalPriority": "表3历史申请/高价值记录 · 官方 requisition 已撤下；保留JD与申请记录，不重复推荐",
       "roleTrack": "AWS Solutions Architecture / Cloud Engineering / AI-enabled Customer Solutions",
       "seniorityGap": "None · early-career cohort; coursework and projects accepted",
       "technicalGrowth": "87/100 · AWS architecture, strategic customer solutions and possible ML workloads; not a guaranteed hands-on Applied AI build role",
@@ -1055,7 +1059,9 @@
       "targetRoles": "Solutions Architect / Cloud AI / ML Solutions / Customer Engineering",
       "careersUrl": "https://www.amazon.jobs/",
       "seedAppliedAt": "2026-10-01T02:37:00-05:00",
-      "seedAppliedDisplay": "2026-10-01"
+      "seedAppliedDisplay": "2026-10-01",
+      "previousStatus": "current",
+      "closedAt": "2026-11-11T10:04:53Z"
     },
     {
       "company": "Apple",
@@ -6881,8 +6887,8 @@
       "firstSeen": "2026-10-08",
       "source": "用户上传McKinsey官方五页PDF（2026-10-08）",
       "url": "https://www.mckinsey.com/careers/search-jobs/jobs/datascientist-quantumblackaibymckinsey-112338",
-      "status": "current",
-      "finalPriority": "表3 · 已投递 · 等待回复；签证资格待核实",
+      "status": "closed",
+      "finalPriority": "表3 · 已投递 · 官方 requisition 已撤下；保留原始JD与申请记录",
       "roleTrack": "Data Science / Applied ML / GenAI / Agentic AI / Analytics Consulting",
       "technicalGrowth": "高 · ML、Agentic AI、MLOps、客户场景交付",
       "brandPlatform": "高 · McKinsey QuantumBlack",
@@ -6899,8 +6905,12 @@
       "archiveLabel": "JD PDF 快照（官方原版·5页）",
       "archiveSource": "用户上传 McKinsey Jobs _ Careers _ McKinsey & Company(1).pdf，5页，页面打印时间2026-10-08 16:55",
       "archiveNote": "原始5页PDF已永久归档至GitHub；同时保留结构化文本JD。",
-      "lastChecked": "2026-10-08",
-      "seedAppliedAt": "2026-10-08"
+      "lastChecked": "2026-11-11",
+      "seedAppliedAt": "2026-10-08",
+      "previousStatus": "current",
+      "lastCheckedAt": "2026-11-11T10:04:53Z",
+      "closedAt": "2026-11-11T10:04:53Z",
+      "officialStatus": "McKinsey official URL now resolves only to the generic job-search page, and official exact-ID search no longer returns requisition 112338; treated as closed on 2026-11-11."
     },
     {
       "company": "Cognizant",
@@ -10433,13 +10443,13 @@
       "externalReference": "6f23869d-b6ec-4015-9c2a-d0d149050e69",
       "url": "https://wise.jobs/job/graduate-analyst-in-austin-jid-4438",
       "applicationUrl": "https://jobs.smartrecruiters.com/Wise/744000158723445-graduate-analyst",
-      "status": "visa-verification",
+      "status": "closed",
       "found": "2026-10-30",
       "discoveredDate": "2026-10-30",
       "discoveredAt": "2026-10-30T15:48:46Z",
       "firstSeen": "2026-10-30T15:48:46Z",
-      "lastChecked": "2026-10-30",
-      "lastCheckedAt": "2026-10-30T15:48:46Z",
+      "lastChecked": "2026-11-11",
+      "lastCheckedAt": "2026-11-11T10:04:53Z",
       "employment": "Full-time · 2027 Graduate Program · Austin",
       "gradYear": "Degree completed by September 2027 start date",
       "match": "Strong graduate product analytics, experimentation and data-platform fit; exact OPT/STEM OPT eligibility remains unverified",
@@ -10453,14 +10463,14 @@
       ],
       "locationListComplete": true,
       "officialPostedDate": "Added to the monitored upstream source on 2026-10-30; official page does not display a posting date.",
-      "officialStatus": "Open on 2026-10-30 at 10:47 CT; official Wise page displays Apply and redirects to the SmartRecruiters application.",
+      "officialStatus": "Official Wise role page explicitly displayed 'This vacancy has now expired' on 2026-11-11.",
       "source": "Wise official role page, official Austin benefits page, and SmartRecruiters application redirect",
       "verificationFlags": [
         "visa-verification",
         "stem-opt-i983-verification",
         "product-analytics-vs-applied-ml-comparison"
       ],
-      "finalPriority": "待核验 · 2027 Austin 与薪资已确认；先确认 OPT/STEM OPT 和 I-983",
+      "finalPriority": "关闭 · 官方页面明确已过期；保留JD归档，不进入表2、不重复推荐",
       "roleTrack": "Product Analytics / Experimentation / Data Modeling / AI-Assisted Analytics",
       "seniorityGap": "None · official graduate pathway with coursework/project experience accepted",
       "technicalGrowth": "Strong experimentation, product discovery and modern analytics-engineering exposure; limited evidence of production model development",
@@ -10469,7 +10479,9 @@
       "archiveUrl": "job-archive/wise/744000158723445/job-description.md",
       "archiveLabel": "JD 归档",
       "archivedAt": "2026-10-30T15:48:46Z",
-      "applicationStatus": "not-applied"
+      "applicationStatus": "not-applied",
+      "previousStatus": "visa-verification",
+      "closedAt": "2026-11-11T10:04:53Z"
     },
     {
       "tier": "B",
