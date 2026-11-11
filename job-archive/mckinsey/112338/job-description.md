@@ -44,3 +44,10 @@ U.S. new-joiner base range **$121,600–$125,000**, across all listed offices; a
 ## Preservation note
 
 The original official five-page PDF supplied by the user is preserved byte-for-byte as [job-description.pdf](job-description.pdf). The PDF shows capture time 2026-10-08 16:55. This structured text snapshot is retained alongside the original PDF. Application confirmed by the user on 2026-10-08; exact submission time is not supplied.
+
+## Official status recheck — 2026-11-11
+
+- **Checked:** 2026-11-11 04:04:53 CT
+- **Result:** Closed / original requisition no longer listed.
+- **Evidence:** The official URL for requisition 112338 now resolves only to McKinsey's generic job-search page. An official exact-ID search no longer returns 112338; the current similarly titled result is a different London requisition (113797).
+- **Monitor action:** Qien's applied status and the original five-page official PDF remain preserved. The closure does not alter the application record.
