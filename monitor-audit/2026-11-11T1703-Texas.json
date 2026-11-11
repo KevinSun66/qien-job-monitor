@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-11T23:03:57Z",
+  "checkedAt": "2026-11-11T23:05:42Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "ec873e97025e812e1d9315c36deafc991cc7ace4",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T1519-Texas.json",
+      "sha": "8527bdebbdac8be7a21055c7efe9c32fec488bd2",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-11T21:22:22Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "afcad324df4715850b6a048f1aabe625aee366e1",
+      "head": "a79000877d9a10ed4aeb2f7ff6507f276553cd3e",
+      "netListingDiff": {
+        "additions": 18,
+        "deletions": 713
+      }
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README",
+      "Targeted Dallas/Austin public employer searches"
+    ],
+    "observations": [
+      {
+        "id": "P25-394914-1",
+        "source": "https://careers.fedex.com/ai-engineer-i/job/P25-394914-1",
+        "result": "One new target-market signal. Indexed employer JD described regular full-time Plano Applied AI/ML with academic projects/internships as the experience minimum. Direct official page returned 404; active application, post-May 2027 start and role-level OPT/STEM OPT support were not verified. The readable Memphis requisition was a different job. No jobs record added."
+      },
+      {
+        "id": "3177934",
+        "source": "https://amazon.jobs/en/jobs/3177934/software-development-engineer-2026-us",
+        "result": "Existing record: Simplify flipped inactive, but the official non-www detail showed the JD and Apply now. The www detail returned 404 and Apply led to an inaccessible sign-in redirect. Official closure not verified; no status change."
+      },
+      {
+        "id": "181853",
+        "result": "Vanguard Dallas entry-level application engineer surfaced in search; direct official page lacked readable content. Target applied AI scope and opening not established."
+      },
+      {
+        "id": "3165034",
+        "result": "Existing HP experience exclusion; direct official page lacked readable content."
+      }
+    ],
+    "coverage": "Incremental source and selected public careers checks, not a full ATS crawl.",
+    "newTargetSignals": 1,
+    "newVerifiedListings": 0,
+    "verifiedStatusChanges": 0
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No new role passed all official verification, eligibility and Ryan-upgrade gates."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "archives": "not-attempted-no-archive-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "audit": "not-attempted-at-preparation",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T21:22:22Z"
+  }
+}
