@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-11T23:51:32Z",
+  "checkedAt": "2026-11-11T23:53:13Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "3b2cd2d9eff02d4a8bd1ac6683b3f84b0e1b62a9",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T1703-Texas.json",
+      "sha": "280f54b9e50b1899a0a8c968fda5e8a4d9fecb98",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-11T23:05:58Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "a79000877d9a10ed4aeb2f7ff6507f276553cd3e",
+      "head": "fc00981a8a06b0838c9f8bc229884acf3547a42d",
+      "listingCommit": "1ad81b0829240c5a2d0e96341942431df88b19da",
+      "listingLineDiff": {
+        "additions": 457,
+        "deletions": 138
+      }
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README",
+      "Targeted Dallas/Austin employer searches"
+    ],
+    "coverage": "Incremental and targeted; not a full ATS crawl.",
+    "observations": [
+      {
+        "id": "6255478004",
+        "result": "New Austin Self Financial associate software signal; exact official JD not readable and current employer board did not list it. No verified applied AI scope or opening. Did not borrow terms from another requisition."
+      },
+      {
+        "id": "8360595",
+        "result": "Upstart national-remote signal; exact employer page could not be verified. Other Applied Scientist results had distinct IDs; Texas eligibility and exact requirements not confirmed."
+      },
+      {
+        "id": "10602663",
+        "result": "New Austin Amazon post-silicon validation signal; hardware scope excluded at discovery."
+      },
+      {
+        "id": "JR-202623950",
+        "result": "New Austin GM senior signal from public search; official JD requires 5+ years and declines immigration support including OPT/STEM OPT arrangements requiring employer assistance. Out of early-career scope."
+      },
+      {
+        "id": "10558915",
+        "result": "Amazon Annapurna requisition is already user-declined. Official results describe silicon-enabling software, including drivers, runtimes and compilers. No status change or repeat recommendation."
+      },
+      {
+        "id": "R173462",
+        "result": "Adobe data scientist discovery lists San Jose only; no Austin/DFW placement verified."
+      },
+      {
+        "id": "Lightcast-1087",
+        "result": "Official employer board lists Moscow, Idaho, on site. Outside scope."
+      }
+    ],
+    "newVerifiedInScopeListings": 0,
+    "verifiedStatusChanges": 0
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No new role met all official verification, eligibility and Ryan-upgrade gates."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "archives": "not-attempted-no-archive-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "audit": "not-attempted-at-preparation",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T23:05:58Z"
+  }
+}
