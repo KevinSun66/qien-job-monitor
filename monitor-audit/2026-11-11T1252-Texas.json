@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-11T18:52:30Z",
+  "checkedAt": "2026-11-11T18:54:15Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "b0f1d821073c14e63b57be5bac25781bac3d653e",
+    "jobs": {
+      "sha": "6231b3ecd7a081ff24293346d09be3070a9c81f3",
+      "count": 332
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T1205-Texas.json",
+      "sha": "92b32bd8d276c93dc2360b44cb92b2edf41568d6",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-11T18:08:36Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on accessible main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "head": "90e7e2b6c41f8884e0386ad75091a8cec3fb7e29",
+      "commitsAhead": 2,
+      "onlyListingDelta": "Salesforce JR367622-1 (Chicago) active to inactive; outside scope."
+    },
+    "otherSource": "Tar-ive/ML_Newgrad_2027 README and targeted public careers searches; existing Wise, SambaNova, Applied Materials and Kyndryl results deduplicated. Kyndryl Workday direct pages had no readable text and did not establish a status change.",
+    "coverage": "Incremental and targeted, not a complete employer ATS crawl.",
+    "newVerifiedListings": 1,
+    "verifiedStatusChanges": 0
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "excluded": 1,
+    "decision": {
+      "id": "6252143004",
+      "company": "Self Financial",
+      "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+      "result": "Official JD and Apply form verified. Austin, 0–2 years and credit-risk predictive modeling; explicit U.S. citizenship or permanent residency restriction. No fixed start date or salary disclosed."
+    }
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "addedRecords": 1,
+    "deletedRecords": 0,
+    "statusChanges": 0,
+    "applicationStatusesChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "archives": "succeeded-and-read-back",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "audit": "not-attempted-at-preparation",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T18:53:51Z",
+    "evidence": {
+      "jobsCommit": "ecc1e6197c4f7e31443248148314b39397951b01",
+      "jobsBlob": "5978f0b176e0b39b96d9d3f9604012c33489efb3",
+      "archiveCommit": "fff739de2be59295ed32589124362bc0501172c4",
+      "archiveBlob": "d94e6e69cc7975fd991139fe5095b77e6d3078c1",
+      "allPriorJobRecordsUnchanged": true
+    }
+  },
+  "repositorySnapshotAfter": {
+    "jobsCount": 333,
+    "jobsSha": "5978f0b176e0b39b96d9d3f9604012c33489efb3"
+  }
+}
