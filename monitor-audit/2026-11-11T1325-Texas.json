@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-11T19:25:26Z",
+  "checkedAt": "2026-11-11T19:27:12Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "6de721f5607c2872bbc745931bdf8c38b16f0269",
+    "jobs": {
+      "sha": "5978f0b176e0b39b96d9d3f9604012c33489efb3",
+      "count": 333
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T1252-Texas.json",
+      "sha": "2ceab7d67849e405efb05ee232b8f07c4ed893ce",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-11T18:54:29Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "listingCommit": "ad6bfdf5e60affb5f5dcde79d87ad56b6e3cc64d",
+      "changes": "6 active-to-inactive flips; Austin GlobalFoundries JR-2604136 is hardware; no eligible listing in diff."
+    },
+    "otherSources": "ML_Newgrad_2027 README and targeted Dallas/Austin official careers searches. Wise, Self Financial, SambaNova and Apple model-quality results deduplicated; Applied Materials already screened. Incremental scan, not an exhaustive ATS crawl.",
+    "newVerifiedListings": 1,
+    "verifiedStatusChanges": 0
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "excluded": 1,
+    "decision": {
+      "id": "JR-202616534",
+      "url": "https://search-careers.gm.com/en/jobs/jr-202616534/data-scientist/",
+      "result": "Official JD and Apply Now link verified. Workday form unreadable; no claim that the form was independently verified. Minimum 3+ years and explicit OPT/STEM OPT employer-support restriction. No fixed start or salary in official JD."
+    }
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "archivesChanged": true,
+    "addedRecords": 1,
+    "deletedRecords": 0,
+    "statusChanges": 0,
+    "applicationStatusesChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "archives": "succeeded-and-read-back",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "audit": "not-attempted-at-preparation",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T19:26:47Z",
+    "evidence": {
+      "jobsCommit": "bbfbf45e07e2b2c3e9ca8736e2dede49afb9a5b1",
+      "jobsBlob": "fbfdb298b92301eb3d3e88a34b112fe26b9c9583",
+      "archiveCommit": "81575cc5b02a865eecc2e45b91afe0baa50c2f43",
+      "archiveBlob": "996b507cf9bd3bf0fa32480185189f1e1b168c80",
+      "allPriorJobRecordsUnchanged": true
+    }
+  },
+  "repositorySnapshotAfter": {
+    "jobsSha": "fbfdb298b92301eb3d3e88a34b112fe26b9c9583",
+    "jobsCount": 334
+  }
+}
