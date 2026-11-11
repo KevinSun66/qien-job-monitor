@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-11T18:05:24Z",
+  "checkedAt": "2026-11-11T18:08:25Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "aff67e344990c11085b30f98206335948696ba20",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "6231b3ecd7a081ff24293346d09be3070a9c81f3",
+      "count": 332,
+      "updatedAt": "2026-11-11T16:14:26Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T1012-Texas.json",
+      "sha": "21f381515263d7c825a3680aab60ff2f2487f805",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-11T16:17:05Z"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "previousHead": "0d5c02f227a9963ac5f25e225aa19fb1dcc87875",
+      "currentHead": "962ce9e80616699c083a6484c24e1bf41d6df01b",
+      "newCommitsSincePreviousRun": 6,
+      "netListingDiff": "6 lines added, 6 removed; visible patches were active-to-inactive flips. Two refresh commits exposed no patch."
+    },
+    "newListingsDiscovered": 0,
+    "officialRequisitionsRechecked": 4,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "JR-2604100",
+        "url": "https://globalfoundries.wd1.myworkdayjobs.com/external/job/usa---texas---austin/software-engineer--2027-new-college-graduate-_jr-2604100",
+        "result": "Known Austin/Santa Clara record. Upstream active-to-inactive; official direct page yielded no readable JD and the older official index did not establish current status. No confirmed closure."
+      },
+      {
+        "id": "4490",
+        "url": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Already notified. Official Apply link remains visible. No new confirmation of employer acceptance of OPT or STEM OPT requirements; do not repeat notification."
+      },
+      {
+        "id": "6240725004",
+        "url": "https://sambanova.ai/company/careers/job-openings?gh_jid=6240725004",
+        "result": "Existing record. Official careers page did not expose the exact JD in readable output; direct ATS retrieval did not verify start date or work authorization."
+      },
+      {
+        "id": "4615513",
+        "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Existing CleanSlate record; official Austin Applied AI/ML delivery role still has Apply link; no newly confirmed post-May 2027 start or OPT/STEM OPT compatibility."
+      }
+    ],
+    "coverage": "Incremental source diff and targeted public careers/JD checks; not a full employer ATS crawl."
+  },
+  "screening": {
+    "qualifiedNewCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No new fully verified role meeting all gates and clearly improving on Ryan."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "not-attempted-no-archive-change",
+    "audit": "not-attempted-at-preparation",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T16:17:05Z"
+  }
+}
