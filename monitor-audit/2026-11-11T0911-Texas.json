@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-11T15:11:41Z",
+  "checkedAt": "2026-11-11T15:14:40Z",
+  "checkedAtLocal": "2026-11-11T09:14:40-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "572dfab731d57c942d15103f0b1184b6113702b8",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "0452c48d7c0871cdaffa4ec2c0bb1775a470a950",
+      "count": 330,
+      "updatedAt": "2026-11-11T13:32:27Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T0901-Texas.json",
+      "sha": "7bbaef6d6fbaf2c100fb340c8e6e836e835307e4",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-11T15:04:36Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "comparisonBase": "d38627abaf6e098210a0d61a2785ca6f1d092a49",
+      "aheadBy": 22,
+      "changedSincePreviousRun": false,
+      "changedFiles": [
+        ".github/scripts/listings.json",
+        "README.md"
+      ],
+      "newTexasCandidateSignals": 0,
+      "notes": "The upstream dev comparison remained unchanged from the 09:01 CT run."
+    },
+    "officialSignalsReviewed": 7,
+    "discoveredSignals": 3,
+    "verifiedNewCandidates": 1,
+    "verifiedStatusChanges": 0,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "Amazon 10555421 Principal Applied Scientist, Humorphic Labs was verified open in Austin and added as a seniority-rejected archive record because the mandatory Principal-level scientific ownership, leadership and mentoring scope is incompatible with 0–2 years.",
+      "Amazon 10597866 Applied Scientist - GenAI, Trust and Store Integrity Science is open in Seattle only and requires a PhD or a master's plus 4+ years; it is outside the target geography and experience window.",
+      "Amazon 10600616 Data Scientist I, NEST is open in Bellevue and requires 2+ years of data-science or quantitative experience plus multiple 1+ year requirements; it is outside the target geography and fails the zero-start rule.",
+      "Apple 200694181 and Amazon 10556410/10589280 were duplicate Austin experience-rejected records already present in jobs.json.",
+      "Apple 200694378 was outside Dallas/Austin. Fresh official and ATS searches produced no new eligible Dallas/Austin entry-level Applied AI/ML/Data Science role."
+    ],
+    "notes": "One newly verified Austin role was archived only as an ineligible seniority rejection. No eligible or Ryan-upgrade notification candidate was found."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No qualified notification candidate. Amazon 10555421 was verified and archived as seniority-rejected."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 1,
+    "statusChanges": 0,
+    "addedJobIds": [
+      "10555421"
+    ]
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-awaiting-finalization",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T15:14:16Z",
+    "evidence": {
+      "archiveCommit": "5c90ac292324ac8c7b5b39594d8108bfbc843c3e",
+      "archiveBlobSha": "60173a477a0d1f58b4e4dcdd5c9d460e91f409da",
+      "archiveReadBack": true,
+      "jobsCommit": "743713e37a4fa1a7ae6c3b335b64cc13efcf6d09",
+      "jobsBlobSha": "62233afdf531ec34d2582986ca2206f5c4b51cc3",
+      "jobsReadBack": true
+    }
+  },
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "743713e37a4fa1a7ae6c3b335b64cc13efcf6d09",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "62233afdf531ec34d2582986ca2206f5c4b51cc3",
+      "count": 331,
+      "updatedAt": "2026-11-11T15:13:41Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "statusChanges": [],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "completedAt": null
+}
