@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-11T08:58:18Z",
+  "checkedAt": "2026-11-11T09:00:54Z",
+  "checkedAtLocal": "2026-11-11T03:00:54-06:00",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "16721a64f9bd8f8a6f630164a976f0995b689f62",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "b073f5ea77e15a798aafca4df3c4d17b1e46348b",
+      "count": 326,
+      "updatedAt": "2026-11-06T22:58:53Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-06T1657-Texas.json",
+      "sha": "dea3c36c96dff3c7e47ece028c9e064fed62ea58",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-06T23:00:22Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "previousHead": "f308ef1b0c27c4475ba001ec633380212ab87587",
+      "currentHead": "d38627abaf6e098210a0d61a2785ca6f1d092a49",
+      "newCommits": 341,
+      "texasSignals": 5,
+      "notes": "Substantive Texas new-grad rows included RTX 01888052, Planview 5149, Charles Schwab 129410 and Kyndryl R-66870; non-AI/general SWE, defense/export-control or duplicate signals were screened out. Other apparent differences were age/lock-state refreshes."
+    },
+    "upstreamSignals": 5,
+    "officialCandidateSignals": 12,
+    "discoveredSignals": 17,
+    "verifiedNewCandidates": 0,
+    "verifiedStatusChanges": 1,
+    "newlyExcludedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "relevantSignalsReviewed": [
+      "Kyndryl R-66870 was re-verified on the current official Workday JD. It is active, full-time in Frisco, and covers RAG, vector databases, knowledge graphs, semantic layers and production AI-data CI/CD.",
+      "The current official JD now explicitly requires unrestricted U.S. work authorization now and in the future and says Kyndryl will not sponsor employment visas. The official base is $77,000 plus possible bonus. The existing record was changed from ng-verification to visa-opportunity-cost-rejected.",
+      "Brunswick 8821383002, Striveworks 8002515003, RSM JR122103, UT Austin R_00049413, SambaNova and other AI/ML signals matched existing records and were not duplicated.",
+      "RTX 01888052 is general defense software; Planview 5149 and Schwab 129410 are general SWE; Self Financial is Staff-level; internships and hardware/embedded rows were excluded from scope."
+    ],
+    "notes": "One verified eligibility/status change was written. No newly qualified Ryan-upgrade role was found."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "pendingVerificationCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No new role cleared all gates. Kyndryl R-66870 is now a hard authorization and opportunity-cost rejection."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": true,
+    "applicationStatusesChanged": false,
+    "deletedRecords": 0,
+    "addedRecords": 0,
+    "statusChanges": 1
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted-no-page-change",
+    "austinPage": "not-attempted-no-page-change",
+    "archives": "succeeded-and-read-back",
+    "audit": "staged-pending-final-read-back",
+    "synced": false,
+    "pending": [
+      "finalize and read back this audit file"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T09:00:03Z",
+    "evidence": {
+      "jobsCommit": "c32e91ca55fabbf6ba81d8b1e521c20b85cbc405",
+      "jobsBlobSha": "86647f6f8b7a541eb02d462f5f84772a97d3d7a6",
+      "jobsReadBack": true,
+      "archiveCommit": "4bcc4cce8be0cca3ec8e5b5d0758e43f1d8b0ebb",
+      "archiveBlobSha": "1671fc0e7a61b1994330095b906df258a53b2f48",
+      "archiveReadBack": true
+    }
+  },
+  "repositorySnapshotAfter": {
+    "headCommitBeforeAudit": "4bcc4cce8be0cca3ec8e5b5d0758e43f1d8b0ebb",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "86647f6f8b7a541eb02d462f5f84772a97d3d7a6",
+      "count": 326,
+      "updatedAt": "2026-11-11T09:00:03Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "appliedJobIdsPreserved": [
+      "200677912-0157",
+      "R1002940",
+      "R172085",
+      "112338"
+    ],
+    "archives": [
+      {
+        "path": "job-archive/kyndryl/R-66870/job-description.md",
+        "sha": "1671fc0e7a61b1994330095b906df258a53b2f48"
+      }
+    ],
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404/absent"
+    }
+  }
+}
