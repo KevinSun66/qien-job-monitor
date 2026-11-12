@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T22:36:40Z",
+  "checkedAt": "2026-11-12T22:38:18Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d1b9f9d503db2697d57b7f6025fc11a411a26c3c",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T1532-Texas.json",
+      "sha": "e3a32aae0cf56b3c80a927e32dbb00014894ada2",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T21:34:05Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "head": "d1926d3f1568e2b9cc0385df93f9c86a48068331",
+      "listingCommits": [
+        "5f2cb097552132574ae66e83420b81c90f382177",
+        "bf1f476cd2f8967d78ba07ea9d5d1ea910e6d071"
+      ],
+      "result": "Inspected listing diffs showed no new additions, and no independently verified state change for a tracked target requisition."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README blob unchanged at 6013225bb33f492208fcbaf4679762f9697510ed",
+      "Targeted public discovery and employer ATS checks"
+    ],
+    "newTexasLeadsReviewed": 2,
+    "newLeadsReviewedWithoutConfirmedTexasLocation": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "4405202692",
+        "source": "https://www.linkedin.com/jobs/view/data-scientist-new-grad-at-sentilink-4405202692",
+        "result": "SentiLink Austin Data Scientist, New Grad resurfaced on an older third-party listing. No readable exact employer ATS posting or live application was verified; 2027 start and OPT/STEM OPT were not verified."
+      },
+      {
+        "id": "JR103341",
+        "source": "https://revantage.wd1.myworkdayjobs.com/en-US/Revantage/job/Sr-Associate--Data-Scientist_JR103341",
+        "result": "Revantage Dallas posting indexed from employer JD requires 3–6 years of professional experience; live application not independently confirmed. Rejected on experience."
+      },
+      {
+        "id": "R2627684",
+        "source": "https://amat.wd1.myworkdayjobs.com/en-US/external/job/AustinTX/Data-Scientist-New-College-Grad--Bachelor-s-Master-s--Austin--TX-_R2627684",
+        "result": "Existing Applied Materials Austin record. Employer branded detail returned 404 in this check, while indexed official Workday copy shows an Apply prompt and November 30 deadline. No confirmed official closure or change; duties remain logistics ETL/data engineering, and eligible start and OPT/STEM OPT are unverified. Existing Ryan decision preserved."
+      },
+      {
+        "id": "88915",
+        "source": "https://jobs.aa.com/job/Dallas-Data-Scientist-TX-75201/88915/",
+        "result": "Previously reviewed American Airlines lead; indexed qualifications reported bachelor plus two years or an advanced degree path; employer page access and 2027 start/OPT not confirmed. No verified change."
+      },
+      {
+        "id": "1ebcedcb-82ba-4d19-ac88-aa73a812dd81",
+        "source": "https://jobs.lever.co/thinkahead/1ebcedcb-82ba-4d19-ac88-aa73a812dd81",
+        "result": "AHEAD upstream inactive signal; employer ATS identifies Chicago, Illinois. Outside geography."
+      },
+      {
+        "id": "1655832",
+        "source": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-LA/Business-Analyst-I--Healthcare-Analytics_1655832",
+        "result": "Centene Business Analyst I, Healthcare Analytics upstream inactive signal for previously reviewed audit-only lead. No verified status change to an existing tracked record."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not an exhaustive scan."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T1636-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T21:34:05Z"
+  }
+}
