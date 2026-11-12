@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T19:39:41Z",
+  "checkedAt": "2026-11-12T19:40:49Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "2c287d7c55452afee6d072e5ff8e81ec7b15832d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T1304-Texas.json",
+      "sha": "0bc4a58a19e227a9a493405af2331afae50ea5fb",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T19:06:27Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "f88840553a2103da27054f22ec62eff452d21911",
+      "head": "d5ee09810a018fbbd9fd4bca568454ab822c0e83",
+      "listingCommits": [
+        "9124c7825226e30dc724cdc2f112de4410843978"
+      ],
+      "result": "Two inactive toggles only; the McKinney requisition is electrical components hardware and the other is Massachusetts."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README (same blob)",
+      "Dallas and Austin discovery indexes and targeted employer careers"
+    ],
+    "newTexasLeadsReviewed": 4,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "210806312",
+        "source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210806312",
+        "result": "Plano ChaseNet Data Scientist Associate. Employer index confirms payments analytics and an undergraduate degree with 3+ years; direct ATS yielded no readable JD. No verified application or eligible start or OPT/STEM OPT; hard experience fail."
+      },
+      {
+        "id": "968590",
+        "source": "https://jobs.utsouthwestern.edu/job/23767006/data-scientist-iii-mineral-metabolism-levi-lab-dallas-tx/",
+        "result": "Dallas UT Southwestern official JD describes biomedical research data science and requires 2 years with PhD, 4 with MS or 6 with BS. Current application intake, qualifying start and OPT/STEM OPT not established. Experience hard fail."
+      },
+      {
+        "id": "108934506",
+        "source": "https://jobs.smartrecruiters.com/BrillioInc/108934506-data-scientist-r-modeller",
+        "result": "Irving R modeling lead. Employer ATS JD specifies at least two years of R and statistical analysis; live application intake, start and OPT/STEM OPT not verified. Experience hard fail."
+      },
+      {
+        "id": "R237103",
+        "source": "https://careers.pnc.com/global/en/job/PNC1GLOBALR237103EXTERNALENGLOBAL/Data-Scientist",
+        "result": "Dallas is among the locations in a syndicated PNC JD for internal agents and automation. Copy states typically 3+ years and no employer STEM OPT participation. Exact employer requisition not accessible; no verified application or start. No inclusion."
+      },
+      {
+        "id": "JR-202620428",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202620428/data-engineer-data-software-engineering-and-cloud-platforms-early-career/",
+        "result": "Existing GM Austin early-career record. Official JD remains readable and retains immigration support restrictions. No verified status change."
+      }
+    ],
+    "coverage": "Incremental listing review and targeted employer checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory conditions and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T1339-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T19:06:27Z"
+  }
+}
