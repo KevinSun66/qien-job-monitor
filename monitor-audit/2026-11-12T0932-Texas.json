@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T15:32:46Z",
+  "checkedAt": "2026-11-12T15:33:53Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "30ebe5c956d9baca91225e975073b1f1bdb5fe39",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T0847-Texas.json",
+      "sha": "5f3a00afb009ae16a42ce3d69d398b237577c1d4",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T14:49:22Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "c18ab534b9929b2365cb792c0f4d4fcbf995cd69",
+      "head": "6f1747f55b48b1e98f914733de3cc723c17fa191",
+      "listingCommits": [
+        "5da28a78b54db3590872ee96c5ac484ca6b7d9e1",
+        "7e95e17c51789b4dac3db82e09647cc37ff90de6"
+      ],
+      "result": "Local delta screened: Varsity general software and product roles, Centene business analysis and Sidley senior software. Goldman reactivation is the New York requisition, not tracked Dallas 171568."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README (same blob)",
+      "EarlyTechRoles Austin index and targeted employer searches"
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "JR113366",
+        "source": "https://varsitybrands.wd503.myworkdayjobs.com/ExternalCareerSite/job/TX---Farmers-Branch/Software-Engineer---Early-Career_JR113366-1",
+        "result": "Indexed employer JD places it in Dallas headquarters and accepts 0–2 years including internships and projects. Platform services and APIs, primarily general software development. Employer says no present/future employment visa sponsorship; STEM OPT and post-May 2027 start not confirmed. Direct posting inaccessible or unreadable across URL variants; live opening unverified. Audit only."
+      },
+      {
+        "id": "1655832",
+        "source": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-LA/Business-Analyst-I--Healthcare-Analytics_1655832",
+        "result": "Feed lists Texas among locations but exact employer JD not verified. Business analyst title alone does not establish applied AI/ML/data science duties, start, experience or authorization."
+      },
+      {
+        "id": "R00993",
+        "source": "https://sidley.wd501.myworkdayjobs.com/US/job/Chicago/Senior-Software-Engineer_R00993",
+        "result": "Feed lists Dallas as an option for this senior software role. No verified early-career applied AI/ML/data science opening; not promoted."
+      },
+      {
+        "id": "200653674-0157",
+        "source": "https://jobs.apple.com/en-us/details/200653674-0157/data-scientist-business-process-re-engineering",
+        "result": "Existing Austin Apple record. Indexed official JD requires PhD plus at least five years or MS plus eight years. No verified change to rejection or open state."
+      },
+      {
+        "id": "R173462",
+        "source": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Data-Scientist_R173462",
+        "result": "Previously reviewed Adobe lead. Recent mirrors show San Jose and do not establish Dallas/Austin placement. No verified new eligibility."
+      }
+    ],
+    "coverage": "Incremental sources and targeted employer checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new position meets all mandatory conditions and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T0932-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T14:49:22Z"
+  }
+}
