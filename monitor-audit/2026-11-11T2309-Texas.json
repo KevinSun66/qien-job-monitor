@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T05:09:26Z",
+  "checkedAt": "2026-11-12T05:10:33Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "22e3e479dcfaab383f5a6f27d6594aa9cc96da74",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T2212-Texas.json",
+      "sha": "0e793579d234005de2b7604b5b1fd5f30d3dca24",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T04:13:46Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "51dc833cfa98e609965911af008ae6175c1e94eb",
+      "head": "7af3a838f3f974fd0c31b1e2500f96fb0b20e583",
+      "listingCommits": [
+        "7af3a838f3f974fd0c31b1e2500f96fb0b20e583",
+        "37c268fcbc61db827b2a964311274cfb4bfeb84e"
+      ],
+      "result": "Compare from previous audited head reports zero changed files; neither listing commit returned a diff."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README (same blob as prior check)",
+      "Targeted Dallas/Austin searches and official employer checks"
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "5461158008",
+        "source": "https://thatch.com/jobs/data-scientist-product-5461158008",
+        "result": "Existing Austin product analytics role still displays an application form. Prior product analytics, data modeling and dashboard experience remain required without an established zero-experience pathway. Post-May 2027 start and OPT/STEM OPT not stated; unchanged."
+      },
+      {
+        "id": "744000160933600",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing previously notified Austin graduate ML/data science role still shows Apply, September 6, 2027 start, and work eligibility without sponsorship. ATS redirect could not be read in this check; no verified closure. STEM OPT support remains unconfirmed. No status change or repeat notification."
+      },
+      {
+        "id": "R271283",
+        "source": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/R271283",
+        "result": "Previously seen Round Rock lead; direct employer ATS remains inaccessible. Official JD, current availability and eligibility not verified."
+      }
+    ],
+    "coverage": "Incremental discovery and targeted employer checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or newly eligible opening satisfies all criteria and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-11T2309-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T04:13:46Z"
+  }
+}
