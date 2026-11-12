@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T02:53:13Z",
+  "checkedAt": "2026-11-12T02:54:30Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "7fc276c950a7f51260a43453ed505852f1ef50d1",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T1923-Texas.json",
+      "sha": "d77b4eadae6e4e746e6880e8f5701cef350eee6f",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T01:25:06Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "79b6501f691f6d4157b64f8ccf0d0e4e413deb3d",
+      "head": "63bb2ebb1f8ce6f59b479306e00d53bb5795925a",
+      "listingCommits": [
+        "74a2542f8a744f1b928e26bbeb25417bd70d0bfe",
+        "0e1c5fb4830257a853a027220d5da3226f6edee2",
+        "7bb659ee8e45ff727e36742887f13d88dc985077"
+      ]
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README",
+      "Targeted Dallas/Austin employer searches"
+    ],
+    "newTexasLeadsReviewed": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "1449635100",
+        "source": "https://careers.hfsinclair.com/job/Dallas-Data-Scientist-TX-75219/1449635100/",
+        "result": "Official Dallas applied data science JD shows an Apply link and requires at least six years. Outside early-career scope; no jobs record added."
+      },
+      {
+        "id": "88915-en_US",
+        "source": "https://jobs.aa.com/job/Fort-Worth-Data-ScientistSr-Data-Scientist%2C-IT-Analytics-TX-76101/88915-en_US/",
+        "result": "Employer search index states a master's/PhD or a bachelor's plus at least two years of equivalent experience. Direct JD returned HTTP 403; application status and exact terms were not independently verified. No addition."
+      },
+      {
+        "id": "6139/6127",
+        "result": "Shield AI new-grad feed signals did not establish Dallas or Austin placement for these requisitions; no record added."
+      }
+    ],
+    "coverage": "Incremental source review and targeted careers checks, not a full ATS crawl."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes eligibility and Ryan comparison."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-at-preparation",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T01:25:06Z"
+  }
+}
