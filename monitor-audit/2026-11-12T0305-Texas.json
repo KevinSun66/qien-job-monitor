@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T09:05:51Z",
+  "checkedAt": "2026-11-12T09:06:53Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "b5766b623369c83a84816f86620a43dc45d50b94",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T0131-Texas.json",
+      "sha": "1b00e3763b2dde53fa6043e701ebbe09ff1df510",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T07:32:16Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "c33385f9ff533fdc544c40f33dcb6d8274b710be",
+      "head": "da7c615a3e800ba124b748283724edbfd9289d19",
+      "listingCommits": [
+        "da7c615a3e800ba124b748283724edbfd9289d19",
+        "27028b10122ff99b071ab54adde8ffabe2d1c8b4",
+        "0adc1ae5fbb0c05180e017b4cdca5f37a89dda15",
+        "c8ef8aed7745088bc1dcc5db5b4a7ce222328459"
+      ]
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README (same blob)",
+      "Targeted Dallas/Austin searches and official career pages"
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "188640",
+        "source": "https://higher.gs.com/roles/188640",
+        "result": "New to tracker review. Goldman Sachs Dallas employer JD confirms core full-stack development and support for Legal Division applications, APIs and workflows; AI-assisted coding is part of delivery, and RAG/model evaluation are optional experience. No numerical minimum years, but no post-May-2027 start or role-specific OPT/STEM OPT terms published. Official JD shows Apply; Oracle destination had no readable form in this check. Direction gate fails; recorded in audit only."
+      },
+      {
+        "id": "R-66870",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/kyndrylprofessionalcareers/job/dallas-usdalfri-frisco-ai-hub/data-engineer_r-66870",
+        "result": "Existing Frisco Associate Data Engineer record; indexed employer repost signal uses the same requisition. Direct employer detail rendered no readable content; no verified status or eligibility change."
+      }
+    ],
+    "coverage": "Incremental feed and targeted employer checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new role meets all mandatory conditions and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T0305-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T07:32:16Z"
+  }
+}
