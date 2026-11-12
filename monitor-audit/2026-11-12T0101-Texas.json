@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T07:01:04Z",
+  "checkedAt": "2026-11-12T07:02:09Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "8af3b15648e993cbc6fd90e9524d12f3df4cd7e3",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T2309-Texas.json",
+      "sha": "bbcdda41ac2378710524185f7b2521e8790ec0d6",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T05:10:45Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "7af3a838f3f974fd0c31b1e2500f96fb0b20e583",
+      "head": "a4bbd3783bd6a2864758ce09d50d334d28e0830e",
+      "listingCommits": [
+        "42b54cd300487a9e88a339be3b4bf8ae08f5e955",
+        "bc1dd94ee05a8e0288562cf88c84af4947543e2c",
+        "edfcf1bc0993cf96f2b72c152979485a3154e678"
+      ],
+      "result": "Visible listing changes are old inactive-record pruning and an inactive toggle for a non-tracked Panasonic software listing. No new Dallas/Austin AI/ML/Data record in the inspected diff."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README (same blob)",
+      "Targeted Dallas/Austin employer and public searches"
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "R2627684",
+        "source": "https://jobs.appliedmaterials.com/job/austin/data-scientist-new-college-grad-bachelor-s-master-s-austin-tx/95/101122186592",
+        "result": "Previously recorded Austin New College Grad Data Scientist. The company detail returns 404; Workday renders no readable JD and the application endpoint could not be read. These are downlisting signals, but current requisition closure was not independently confirmed; older indexed Apply and deadline are not fresh evidence. Preserve existing opportunity-cost rejection and application/archival data."
+      },
+      {
+        "id": "51755",
+        "source": "https://careers.na.panasonic.com/jobs/51755?icims=1&lang=en-us",
+        "result": "Upstream inactive signal for a non-tracked Software Engineer 1 record. Employer detail returned 403; no verified local applied AI/ML role or tracker status change."
+      }
+    ],
+    "coverage": "Incremental feed and targeted employer checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new position meets all mandatory criteria and shows a clear Ryan upgrade."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T0101-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T05:10:45Z"
+  }
+}
