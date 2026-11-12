@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T23:43:36Z",
+  "checkedAt": "2026-11-12T23:45:05Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "35764dd9dd286d54e57b504cf77ea12ffedf250d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T1636-Texas.json",
+      "sha": "403439e64202f35dc803f0d37ee050cd9da7b2f1",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T22:38:32Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "d1926d3f1568e2b9cc0385df93f9c86a48068331",
+      "head": "da50b325c39c0ddee8216b0fe02101dccfe0bc83",
+      "listingCommits": [
+        "972581532d082995c7592c1b9554b031ae9d4b14",
+        "3b94818cae358951466f5f6aa1b8dd217cad2a9f"
+      ],
+      "result": "One newly surfaced Austin AI/ML/Data lead in inspected upstream diffs (Senseye); Plano Abbott signal is electrical engineering; Houston additions are outside geography."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README blob b8fc9338324976be7a06403282e7b6a223b2f163",
+      "WonOfAKind/New-Grad-And-Internships-2027 AI/ML list blob 985aeafc040436c440b1fe3d658614b89eb997c5",
+      "Targeted employer and public searches"
+    ],
+    "newTexasLeadsReviewed": 2,
+    "newLeadsReviewedWithoutConfirmedTexasLocation": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 6,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "56F6BB2046",
+        "source": "https://apply.workable.com/senseye/j/56F6BB2046/apply",
+        "result": "New Simplify Austin AI Engineer lead. Employer careers page links to openings, but exact Workable JD and application could not be verified. Experience, degree eligibility, start, OPT/STEM OPT and upgrade not confirmed."
+      },
+      {
+        "id": "6224936004",
+        "source": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6224936004",
+        "result": "AI Performance Engineer New Grad; separate requisition from tracked ML infrastructure and ML roles. Third-party source lists Austin/San Jose. Employer URL redirects to the general openings page; no exact live JD, duties, eligible start or OPT/STEM OPT confirmed."
+      },
+      {
+        "id": "R172085",
+        "source": "https://careers.adobe.com/us/en/job/R172085/2027-University-Graduate-Machine-Learning-Engineer",
+        "result": "Existing Adobe closed record resurfaced with a new feed date. Employer's exact page still says filled; no reopening."
+      },
+      {
+        "id": "4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing Wise record: Austin employer JD still displays Apply, a September 6, 2027 start and graduate eligibility. STEM OPT support still unverified, and no new eligibility or status evidence."
+      },
+      {
+        "id": "6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Existing Self Financial record; official application is visible, but the JD still explicitly limits eligibility to US citizens or permanent residents."
+      },
+      {
+        "id": "R-66870",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/kyndrylearlycareers/job/dallas-usdalfri-frisco-ai-hub/data-engineer_r-66870-1",
+        "result": "Existing Frisco Kyndryl role. Indexed employer JD still requires unrestricted present and future work authorization; no new eligibility or status evidence."
+      },
+      {
+        "id": "R-66739",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/en-US/KyndrylEarlyCareers/job/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739",
+        "result": "Existing Frisco Kyndryl role. Indexed employer JD retains 0–3 years range and unrestricted present and future US work authorization; no independently verified status change."
+      },
+      {
+        "id": "40016531",
+        "source": "https://vst.wd5.myworkdayjobs.com/en-US/vistra_careers/job/Irving-Texas/Data-Scientist_40016531-1",
+        "result": "Existing Vistra Irving record resurfaced in feed. Exact-ID mirror still reports graduate degree and 1–3 years; live application not independently verified, so no status change."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; no exhaustive claim."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T1743-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T22:38:32Z"
+  }
+}
