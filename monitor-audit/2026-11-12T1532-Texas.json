@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T21:32:37Z",
+  "checkedAt": "2026-11-12T21:33:50Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d6992124915aa608a56360b2cc54e24570454d40",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T1446-Texas.json",
+      "sha": "162401f3348e03d036e4ac0394f61e4634f21415",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T20:47:07Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "fcf817531f29a3802a45a46d24f5d427423eb628",
+      "head": "5a50bbd1cb45f50dc4c02e91bacc0e5278f76e29",
+      "listingCommits": [
+        "413f9722850c992ef686f8319993dcf599a41b0e",
+        "d96cc631bb34d0d970a14adef815cc52f5b6b9f7"
+      ],
+      "result": "No new additions in inspected listing diffs; five inactive signals, none for an existing tracked target requisition."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README blob 6013225bb33f492208fcbaf4679762f9697510ed",
+      "Targeted Dallas/Austin public searches and employer detail pages"
+    ],
+    "newTexasLeadsReviewed": 0,
+    "newLeadsReviewedWithoutConfirmedTexasLocation": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "Previously closed Dallas Southwest Associate Data Scientist Direct College Hire. Third-party results resurfaced the same requisition; official employer detail returned HTTP 410 Gone. This corroborates the existing closed-watch classification; no reopening, new eligibility, or notification."
+      },
+      {
+        "id": "744000161186552",
+        "source": "https://jobs.smartrecruiters.com/Experian/744000161186552-data-scientist-fraud-risk-detection",
+        "result": "Broad United States Experian fraud data science lead. Exact employer ATS unavailable; no Dallas/Austin placement, application status, eligible start or OPT/STEM OPT verified. Syndicated copy states 1+ years professional experience, failing the established zero-minimum gate."
+      },
+      {
+        "id": "4805c6e8-8652-4c39-a2a2-727838198afb",
+        "source": "https://notify.careers/postings/4805c6e8-8652-4c39-a2a2-727838198afb",
+        "result": "Third-party Machine Learning Engineer I result timed out. No exact employer posting, target placement or eligibility verified."
+      }
+    ],
+    "coverage": "Incremental listings and targeted employer checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T1532-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T20:47:07Z"
+  }
+}
