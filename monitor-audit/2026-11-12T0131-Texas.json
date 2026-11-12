@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T07:31:16Z",
+  "checkedAt": "2026-11-12T07:32:04Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "7cd5209b6baf999a02e383dcd7b08065cd38aa5b",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T0101-Texas.json",
+      "sha": "1e9f8cf57529d9d2fe205d0784ccb557473ddcf6",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T07:02:21Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "a4bbd3783bd6a2864758ce09d50d334d28e0830e",
+      "head": "c33385f9ff533fdc544c40f33dcb6d8274b710be",
+      "listingCommits": [
+        "c33385f9ff533fdc544c40f33dcb6d8274b710be"
+      ],
+      "result": "Only inactive-record cleanup and two inactive toggles. Dallas postdoctoral requisitions R-090331/R-090331-1 already inactive and PhD-level, not new openings. Northrop toggle is Dulles, VA; Dell 296584 is manufacturing test in Franklin, MA per Dell careers index."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README (same blob)",
+      "Targeted Dallas/Austin searches and employer checks"
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "R-66739",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/en-US/KyndrylEarlyCareers/job/Dallas-USDALFRI-Frisco-AI-HUB/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739",
+        "result": "Existing rejected Frisco Associate AI Engineer. Indexed employer JD confirms AI/ML solution work and requires unrestricted US work authorization now and in the future with no employment visa sponsorship. Direct Early Careers and Professional Careers detail pages yielded no readable content; no verified open-state change, post-May 2027 start or OPT/STEM OPT support. Prior record unchanged."
+      }
+    ],
+    "coverage": "Incremental feed and targeted employer checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or newly eligible opening meets all conditions and shows a clear Ryan upgrade."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T0131-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T07:02:21Z"
+  }
+}
