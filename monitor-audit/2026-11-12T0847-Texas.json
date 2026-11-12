@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T14:47:02Z",
+  "checkedAt": "2026-11-12T14:49:06Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "909c932e70c8e1caa5b17db4fcab715dafd36f5c",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T0734-Texas.json",
+      "sha": "0832989df345cb13d65d7982dc6512047b66e3be",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T13:36:41Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "deae09c7ee70ca5c6120e42008376eb822dded8e",
+      "head": "c18ab534b9929b2365cb792c0f4d4fcbf995cd69",
+      "listingCommits": [
+        "16eb089ec5c3737c1feb51cc0a30aea6cee9a73f",
+        "ba3499dc836a3ac70964d3b63b8bdca8c766e267"
+      ],
+      "result": "Inactive cleanup and out-of-scope changes; the added Moog role is California hardware."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README blob a42ec2de21b167fe83b7162fa3827448a1278160",
+      "EarlyTechRoles Texas listings, targeted Dallas/Austin employer and public searches"
+    ],
+    "newTexasLeadsReviewed": 4,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "R121061",
+        "source": "https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/Engineer-I--Data-Engineering_R121061",
+        "result": "New to review. Indexed Samsung JD confirms Plano ETL/data engineering and a three-year post-baccalaureate minimum. Direct JD and Apply rendered no readable lines; no verified live opening, start or role-level OPT/STEM OPT. Experience hard fail; audit only."
+      },
+      {
+        "id": "JR202640038",
+        "source": "https://ace.wd5.myworkdayjobs.com/careers/job/Coppell-TX/Data-Scientist-1_JR202640038",
+        "result": "New to review. AAA exact employer detail inaccessible and Apply rendered no readable form. Mirror describes SQL/Python/R/Tableau business analytics, no numeric minimum seen, and conflicting Coppell hybrid versus Independence, Ohio attendance language. Start, official placement, work authorization and Ryan upgrade unverified."
+      },
+      {
+        "id": "R-052493",
+        "source": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/New-Grad---2027---Data-Engineering_R-052493-1/apply",
+        "result": "New to review. Mirror identifies Austin among locations and a 2027 graduate data pipelines role; it says the program cannot consider applicants who require sponsorship now or later. Official Workday application was unreadable, so opening, precise start and OPT/STEM OPT compatibility not verified."
+      },
+      {
+        "id": "743999656707257",
+        "source": "https://jobs.smartrecruiters.com/mindlance2/743999656707257",
+        "result": "New to review. Official SmartRecruiters JD identifies Frisco, zero to two years, and three-to-six-month contract-to-hire despite generic full-time label; duties are SQL Server development and administration. No verified current application, start, or OPT/STEM OPT; scope excludes contract and database administration."
+      },
+      {
+        "id": "R-66739",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/en-US/KyndrylProfessionalCareers/job/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739-2",
+        "result": "Existing Frisco record; direct official detail unreadable, no verified reopening or eligibility change."
+      },
+      {
+        "id": "R173462",
+        "source": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Data-Scientist_R173462",
+        "result": "Previously reviewed location lead; direct ATS inaccessible and official general Adobe university listings do not establish Austin for this requisition."
+      }
+    ],
+    "coverage": "Incremental sources and targeted employer checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new position meets all mandatory criteria and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T0847-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T13:36:41Z"
+  }
+}
