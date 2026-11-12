@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T10:01:52Z",
+  "checkedAt": "2026-11-12T10:03:01Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "08f0608d6afceca227676b5412645319c3ea0293",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T0305-Texas.json",
+      "sha": "9429f779458b4a5ab9f64b0068fac3dc0598a5aa",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T09:07:06Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "da7c615a3e800ba124b748283724edbfd9289d19",
+      "head": "f274ac661285dc5e155934072378e7f2498c7533",
+      "listingCommits": [
+        "e8be4157a65d1f0a541ebaf8e349348a0bdf057d"
+      ],
+      "result": "Listing delta contains old inactive cleanup and two non-target inactive toggles; no relevant Dallas/Austin addition or tracked status change."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README (same blob)",
+      "Targeted Dallas/Austin searches and employer ATS pages"
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "4618996",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4618996?utm_campaign=202610-browse&utm_medium=job-page&utm_source=jobs-board",
+        "result": "New to tracker review. CleanSlate employer ATS identifies Austin full-time and accepts foundational experience from coursework, internships or projects, without a numeric minimum. Core duties are client data pipelines, ingestion and validation rather than applied AI/ML or data science ownership. Start after May 2027 and OPT/STEM OPT not stated. JD shows Apply; application path renders an unsupported browser message, so submission availability not independently verified. Audit only."
+      },
+      {
+        "id": "4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Existing Austin Associate AI/ML Engineer record still shows Apply. Application path renders an unsupported browser message; no verified change in availability, start, work authorization, compensation or Ryan comparison."
+      },
+      {
+        "id": "46034",
+        "source": "https://careers.jacobs.com/en_US/careers/JobDetail/Junior-Data-Scientist/46034",
+        "result": "Existing citizenship-rejected Fort Worth record. Direct employer page requires a JavaScript challenge; an external copy repeats the citizenship restriction. No verified status change."
+      }
+    ],
+    "coverage": "Incremental listing review and targeted employer checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all criteria and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T0401-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T09:07:06Z"
+  }
+}
