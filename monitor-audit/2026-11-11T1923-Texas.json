@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T01:23:57Z",
+  "checkedAt": "2026-11-12T01:24:54Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "3337d68bb0d87202bc929cc6c1d5b71cc376b10f",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T1905-Texas.json",
+      "sha": "dec8c809617290ca9c116288d4d2853c3505e6ee",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T01:07:26Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "head": "79b6501f691f6d4157b64f8ccf0d0e4e413deb3d",
+      "previousHead": "79b6501f691f6d4157b64f8ccf0d0e4e413deb3d",
+      "newCommits": 0
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README",
+      "Targeted Dallas/Austin employer searches"
+    ],
+    "observations": [
+      {
+        "id": "R271283",
+        "result": "Prior Dell Round Rock lead rechecked. No readable official JD for exact requisition or verified active application; different Dell job IDs not substituted. No update."
+      },
+      {
+        "id": "JR9345",
+        "result": "Previously screened CDK lead; no new official status evidence or change to software-development scope."
+      },
+      {
+        "id": "744000160933600",
+        "result": "Wise entries in the graduate feed refer to the previously tracked Austin requisition, not a new role."
+      }
+    ],
+    "coverage": "Incremental source review and targeted employer lookups, not exhaustive ATS coverage.",
+    "newTexasLeads": 0,
+    "newVerifiedListings": 0,
+    "verifiedStatusChanges": 0
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No new verified opening passed all eligibility and Ryan-upgrade gates."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-at-preparation",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T01:07:26Z"
+  }
+}
