@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T11:09:46Z",
+  "checkedAt": "2026-11-12T11:10:30Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9be82dd8dec28e4d49db5a985b7d2158da1474ec",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T0455-Texas.json",
+      "sha": "25c9b80e2a6364d0e28bdec732787ac41c9e0d2e",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T10:56:24Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "d366679e371a83d84563f32d093f12174a54767f",
+      "head": "f02bf00170b7fd99ada295234a00ec034d6a2c25",
+      "listingCommits": [
+        "44c01cd9493db15873573ebb059f914139a2269d"
+      ],
+      "result": "Four inactive toggles, no additions. Rivian and Intel are hardware, Verdantas is San Diego, and Dallas Goldman Sachs 188640 is a previously reviewed legal software engineering role."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README (same blob)",
+      "Targeted Dallas/Austin searches and official detail pages"
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "188640",
+        "source": "https://higher.gs.com/roles/188640",
+        "result": "Previously reviewed Dallas lead. Upstream switched inactive, but official Goldman Sachs detail still displays its full JD and Apply links. Core work remains legal full-stack applications/APIs and delivery, with applied ML techniques optional. No verified closure or eligible change."
+      },
+      {
+        "id": "R2627684",
+        "source": "https://jobs.appliedmaterials.com/job/austin/data-scientist-new-college-grad-bachelor-s-master-s-austin-tx/95/101122186592",
+        "result": "Existing Austin record resurfaced in an older employer index. Direct company detail still returns 404 and Workday detail has no readable lines. Neither current opening nor definitive closure verified; preserve original decision and application/archival data."
+      }
+    ],
+    "coverage": "Incremental feed and targeted employer checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new or newly eligible opening satisfies all criteria and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T0509-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T10:56:24Z"
+  }
+}
