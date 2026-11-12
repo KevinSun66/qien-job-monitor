@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T03:09:22Z",
+  "checkedAt": "2026-11-12T03:10:58Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "219ea28738dca425b9ee988369971a05a62cec6c",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T2053-Texas.json",
+      "sha": "71b023603d6806fc4a95cadca22f881daaf938dc",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T02:54:41Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "63bb2ebb1f8ce6f59b479306e00d53bb5795925a",
+      "head": "0394bffb1c964f5817202129e6b40d56dc0f23db",
+      "listingCommits": [
+        "e9a8f112e4ef54fcba6260a76209840318a64046"
+      ]
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README",
+      "Targeted Dallas/Austin searches and employer career pages"
+    ],
+    "newTexasLeadsReviewed": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "2026-25883",
+        "source": "https://careers-kimley-horn.icims.com/jobs/25883/gis-analyst/job?in_iframe=1",
+        "result": "The identified Fort Worth Kimley-Horn posting returned HTTP 410 on direct recheck. Its indexed employer description is a GIS role in civil engineering/Power Delivery, outside the applied AI/ML/data science scope. The aggregator recency label did not verify a new open requisition."
+      },
+      {
+        "id": "R172085",
+        "source": "https://careers.adobe.com/us/en/job/ADOBUSR172085EXTERNALENUS/2027-University-Graduate-Machine-Learning-Engineer",
+        "result": "Existing applied Adobe record. Despite indexed listing signals, the live Adobe detail explicitly says filled and direct Workday detail has no readable content. No verified reopening; preserve closed status and existing application."
+      },
+      {
+        "id": "2aa92f37-7e2f-4c12-9f2c-1316e1a743a7",
+        "source": "https://jobs.ashbyhq.com/shield/2aa92f37-7e2f-4c12-9f2c-1316e1a743a7/application?embed=true",
+        "result": "Shield AI Perception listing delta gives only United States; direct employer ATS unavailable to this check. Dallas/Austin placement and requirements not verified. No addition."
+      }
+    ],
+    "coverage": "Incremental listing deltas, established sources and targeted official checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new role meeting all location, start, experience, authorization, role and Ryan-upgrade criteria. No repeated notification."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-11T2109-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T02:54:41Z"
+  }
+}
