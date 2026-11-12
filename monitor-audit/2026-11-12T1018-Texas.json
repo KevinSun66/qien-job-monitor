@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T16:18:54Z",
+  "checkedAt": "2026-11-12T16:19:54Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "8b108ee70211dd8b4c193ab4286dd4385c0fdeb6",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T0932-Texas.json",
+      "sha": "4acbb3c6b1724973d940e4c398fd2a6b03bb8a3d",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T15:34:08Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "6f1747f55b48b1e98f914733de3cc723c17fa191",
+      "head": "94c7c154b6ae53d986abd8517e7f4b7315e7fb78",
+      "listingCommits": [
+        "679e7baf878d2d4a70db833a31a8b0a537aef3ad"
+      ],
+      "result": "Austin CDK lead, previously screened Goldman Dallas lead toggled active, and an untracked Richardson RTX general-software inactive toggle. Other data/AI leads lacked target geography or were outside scope (e.g. remote PRN)."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README (same blob)",
+      "Targeted Dallas/Austin searches and employer pages"
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "JR9386",
+        "source": "https://careers.cdkglobal.com/job/associate-database-engineer-2126/",
+        "result": "New Austin CDK Associate Database Engineer lead. Employer index shows hybrid Austin, 0–2 years, platform database engineering and possible employer visa sponsorship, without role-specific STEM OPT or a post-May-2027 start. Direct employer detail 404 and exact Workday inaccessible; live application not confirmed. Database platform duties do not establish core applied AI/ML/data science or a clear Ryan upgrade."
+      },
+      {
+        "id": "4474956617",
+        "source": "https://www.linkedin.com/jobs/view/ai-ml-engineer-at-bluestone-solutions-group-4474956617",
+        "result": "Austin AI/ML engineering lead. Employer-attributed listing reports 6+ years for infrastructure/platform/MLOps or related work. No exact employer ATS verified, and experience exceeds the monitor threshold."
+      },
+      {
+        "id": "188640",
+        "source": "https://higher.gs.com/roles/188640",
+        "result": "Previously reviewed Dallas Goldman Sachs Legal Engineering Associate. Direct employer page still shows the JD and Apply after feed reactivation, so no verified state change. Core full-stack legal software scope remains outside the target."
+      }
+    ],
+    "coverage": "Incremental listing review and targeted employer checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory criteria and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T1018-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T15:34:08Z"
+  }
+}
