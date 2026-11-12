@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T01:05:43Z",
+  "checkedAt": "2026-11-12T01:07:15Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "c7def90672b4fde93db4d68eed1945b0f36967e2",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T1751-Texas.json",
+      "sha": "b11e5349cd5fde698074418103d18962b3e93e8f",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-11T23:53:27Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "base": "fc00981a8a06b0838c9f8bc229884acf3547a42d",
+      "head": "79b6501f691f6d4157b64f8ccf0d0e4e413deb3d",
+      "commitsAhead": 4,
+      "changedFiles": [
+        {
+          "filename": ".github/scripts/listings.json",
+          "status": "modified",
+          "additions": 446,
+          "deletions": 6,
+          "changes": 452,
+          "previous_filename": null
+        },
+        {
+          "filename": "README.md",
+          "status": "modified",
+          "additions": 220,
+          "deletions": 199,
+          "changes": 419,
+          "previous_filename": null
+        }
+      ],
+      "coverage": "One listing patch was available; two later refreshes did not expose individual patches. Compared net file changes and cross-checked the other sources below."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README",
+      "Targeted Dallas/Austin employer and ATS searches"
+    ],
+    "observations": [
+      {
+        "id": "R271283",
+        "source": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/R271283",
+        "result": "New Round Rock Data Science Analyst lead. Exact Dell recruiting pages were not readable. Secondary listing and a different senior Dell requisition cannot establish current opening, start date, experience requirements or OPT/STEM OPT."
+      },
+      {
+        "id": "JR9345",
+        "source": "https://careers.cdkglobal.com/job/associate-software-engineer-2127/",
+        "result": "New Austin signal, official JD accepts 0–2 years but is dealership software development on the FixedOps team; AI coding tools support the engineering workflow rather than define the role. Out of target scope."
+      },
+      {
+        "id": "JR-202616534",
+        "result": "Existing GM exclusion; no verified change."
+      },
+      {
+        "id": "d3522c8d-a2ec-498e-b8d7-02fdf5211f2c",
+        "result": "Liquid AI upstream role lists Boston; no Texas placement established."
+      }
+    ],
+    "newTexasLeadsReviewed": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "coverage": "Incremental search and selected employer checks, not exhaustive ATS coverage."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No new confirmed opening meets all eligibility, role scope and Ryan-upgrade requirements."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "archives": "not-attempted-no-archive-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "audit": "not-attempted-at-preparation",
+    "synced": false,
+    "pending": [
+      "audit-finalization"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-11T23:53:27Z"
+  }
+}
