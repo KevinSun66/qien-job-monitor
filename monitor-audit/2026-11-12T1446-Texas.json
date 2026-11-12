@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T20:46:00Z",
+  "checkedAt": "2026-11-12T20:46:51Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "3f763874c52a8407a820013d430deb42545eeb72",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T1339-Texas.json",
+      "sha": "ba09db62a879603413cea977564b40f1f13d84b1",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T19:41:06Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "d5ee09810a018fbbd9fd4bca568454ab822c0e83",
+      "head": "fcf817531f29a3802a45a46d24f5d427423eb628",
+      "listingCommits": [
+        "fcf817531f29a3802a45a46d24f5d427423eb628",
+        "c32f991c64cc48c8a833c0504243add9e6a016c2"
+      ],
+      "result": "Comparison shows one listings toggle only: Abbott 31166976 Plano electrical neuromodulation role went inactive; hardware is out of scope. No new listing additions."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README (same blob)",
+      "Dallas/Austin discovery indexes, targeted public searches and employer career pages"
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Previously notified Austin graduate role. Exact employer page still displays Apply, September 6 2027 start, and the requirement to work without sponsorship. No confirmed new STEM OPT support or status change."
+      },
+      {
+        "id": "R2627684",
+        "source": "https://jobs.appliedmaterials.com/job/austin/data-scientist-new-college-grad-bachelor-s-master-s-austin-tx/95/101122186592",
+        "result": "Previously reviewed Austin graduate role. Employer detail still returns 404; official Workday detail is unreadable. Secondary copies and the older deadline do not establish live intake; no confirmed closure or reopening."
+      },
+      {
+        "id": "R118449",
+        "source": "https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/Data-Scientist_R118449",
+        "result": "Previously tracked Austin semiconductor manufacturing data scientist. Exact official Workday page rendered no readable text; indexed listing is older. No verified change to status or prior experience rejection."
+      }
+    ],
+    "coverage": "Incremental listing review and targeted employer checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening satisfies all existing gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T1446-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T19:41:06Z"
+  }
+}
