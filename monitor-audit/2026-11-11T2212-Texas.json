@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T04:12:05Z",
+  "checkedAt": "2026-11-12T04:13:32Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "c7837f666a3ef7b3b95970e7f76a076ba011e3c2",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-11T2109-Texas.json",
+      "sha": "496a5e94f53bf214a78b903ba5bc06d86b509943",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T03:11:11Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "0394bffb1c964f5817202129e6b40d56dc0f23db",
+      "head": "51dc833cfa98e609965911af008ae6175c1e94eb",
+      "listingCommits": [
+        "51dc833cfa98e609965911af008ae6175c1e94eb",
+        "433c9b2f63675bbd7621577062e6a81a3dc6ad95"
+      ],
+      "result": "03:31 diff has no relevant Texas AI/ML/Data change; 04:01 compare returns zero changed files."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README",
+      "Targeted Dallas/Austin employer and public searches"
+    ],
+    "newTexasLeadsReviewed": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "95846",
+        "source": "https://careers.amd.com/careers-home/jobs/95846?lang=en-us",
+        "result": "Indexed employer JD identifies Austin and primary work on PC power/performance, hardware telemetry and hardware parameter tuning with low-level systems teams. No fixed minimum years in readable indexed text; it states no visa sponsorship but does not verify OPT/STEM OPT. Current application entry and post-May 2027 start not verified. Excluded by duties; no new record or JD archive from an inaccessible live posting."
+      },
+      {
+        "id": "6240725004",
+        "source": "https://sambanova.ai/company/careers/job-openings?gh_jid=6240725004",
+        "result": "Existing record. Employer landing page renders generic careers content; role-specific live ATS, post-May 2027 start and OPT/STEM OPT not confirmed. No verified status change."
+      },
+      {
+        "id": "R271283",
+        "source": "https://iawmqy.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/R271283",
+        "result": "Previously seen Round Rock lead. Feed still lists it; no readable exact official JD or verified open application."
+      }
+    ],
+    "coverage": "Incremental source review and targeted employer checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new position satisfies all criteria and shows a clear upgrade over Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-11T2212-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T03:11:11Z"
+  }
+}
