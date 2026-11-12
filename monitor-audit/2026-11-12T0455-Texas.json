@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T10:55:03Z",
+  "checkedAt": "2026-11-12T10:56:11Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "75679683b69a4695195a5f928d728c413c56388a",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T0401-Texas.json",
+      "sha": "bae604d0163b81e55d27cd6e579170b279b6bbab",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T10:03:14Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "f274ac661285dc5e155934072378e7f2498c7533",
+      "head": "d366679e371a83d84563f32d093f12174a54767f",
+      "listingCommits": [
+        "5c21e5b06efdd5483802f1be49a3cf76a391165a",
+        "fb28db4712b3422727cbcafe30bf8a392aa1fb80"
+      ],
+      "result": "Two new analyst listings are Minnesota and Toronto. Myriad360 inactive feed signal conflicts with the employer ATS. Remaining changes did not establish a tracked Texas role change."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README (same blob)",
+      "Targeted Dallas/Austin searches and employer pages"
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "req1475",
+        "source": "https://trs.texas.gov/careers/early-careers",
+        "employerATS": "https://trs.csod.com/ux/ats/careersite/5/home/requisition/1475?c=trs",
+        "result": "New Austin lead: Teacher Retirement System of Texas AI Research & Data Analytics Associate. Public recruiting copies describe AI prototyping, research and evaluation, coursework/project experience, a temporary fellowship and a November 17, 2026 closing date. Official program page requires applicants already to have completed a degree within the preceding 12 months and no longer be enrolled full time. Exact employer ATS record unavailable; opening, post-May 2027 start, OPT/STEM OPT and clear Ryan upgrade not verified. Audit only."
+      },
+      {
+        "id": "8930382002",
+        "source": "https://job-boards.greenhouse.io/myriad360/jobs/8930382002",
+        "result": "Existing Myriad360 Junior AI and Automation Engineer: upstream toggled inactive, but exact official Greenhouse page still renders a full JD and application form. Do not mark closed. Post-May 2027 start and OPT/STEM OPT still unverified; no actionable upgrade confirmed."
+      }
+    ],
+    "coverage": "Incremental listing review and targeted employer checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all criteria and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T0455-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T10:03:14Z"
+  }
+}
