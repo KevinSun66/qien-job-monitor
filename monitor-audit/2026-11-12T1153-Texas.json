@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-12T17:53:03Z",
+  "checkedAt": "2026-11-12T17:54:14Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "648b0d915adeff401f3b213cf3995f49a5799e2d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T1018-Texas.json",
+      "sha": "844258b758f22a823751559d2e2551cafa6bdd18",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T16:20:10Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "94c7c154b6ae53d986abd8517e7f4b7315e7fb78",
+      "head": "f74b9b8b3067393d85f48cd87734785b63de2d83",
+      "listingCommits": [
+        "a28145cf74dda07441017e2e108013b59bab731c",
+        "5052911b2fc47436c3859dab5e04e7012f3b3530",
+        "a239a2ab8c11c12e9b29cf191ea4b3fd9c8ff670"
+      ],
+      "result": "No new listings in the inspected deltas; five inactive changes, none verified to affect a tracked Dallas/Austin role."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README (same blob)",
+      "Targeted Dallas/Austin searches, employer career pages and local discovery indexes"
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "10598162",
+        "source": "https://www.amazon.jobs/en/jobs/10598162/data-engineer-i-secure-third-party-tools-s3t",
+        "result": "New Austin Amazon lead. Official JD lists at least one year of data engineering as a basic qualification, with work on secure datasets, ETL and infrastructure rather than applied model ownership. No post-May 2027 start or role-specific OPT/STEM OPT confirmed. JD shows Apply; submission handoff redirects to authentication and could not be independently verified. Official range $101,300–$160,000 exceeds Ryan base, but does not override the experience gate. Audit only."
+      },
+      {
+        "id": "6240725004",
+        "source": "https://sambanova.ai/company/careers/job-openings?gh_jid=6240725004",
+        "result": "Existing Austin/San Jose lead. Employer page renders general openings text without a readable role-specific posting, so no new verified open state, start or STEM OPT terms."
+      },
+      {
+        "id": "R-052493",
+        "source": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/New-Grad---2027---Data-Engineering_R-052493-1",
+        "result": "Previously reviewed Austin lead reappeared in discovery. Direct employer detail remains unavailable; no verified change."
+      }
+    ],
+    "coverage": "Incremental listing review and targeted employer checks."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory conditions and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "not-attempted-pending-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T1153-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T16:20:10Z"
+  }
+}
