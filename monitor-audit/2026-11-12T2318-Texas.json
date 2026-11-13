@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T05:18:00Z",
+  "checkedAt": "2026-11-13T05:18:37Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9e2761368952f7c74f6b58dd56eeb502147678ac",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T2216-Texas.json",
+      "sha": "5abe7579ae1c36a221612d90dc7cc208599a940e",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T04:17:34Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "392f99cf3c8b66e0557f15f0fd941bf39387ed36",
+      "head": "cc4a783bd620efd4c70c4fa6ba72cf0f04835998",
+      "listingCommits": [
+        "cc4a783bd620efd4c70c4fa6ba72cf0f04835998",
+        "785bde3e602e65fd769daaaaf3951dd5ce3c05a1"
+      ],
+      "result": "Two newer listing commits had readable metadata but no patch; comparison from previous head returned no file entries. Upstream delta coverage is incomplete."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 6abc01e28976b78b914582389137ea89e63f4561",
+      "Targeted public discovery and employer detail checks"
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "JR-202622857",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202622857/senior-ai-data-engineer-gpsc-insights-engineering/",
+        "result": "Austin official JD describes leading production data/platform engineering for supply-chain insights and requires six or more years of experience. Fails experience gate; eligible start and OPT/STEM OPT not established."
+      },
+      {
+        "id": "R1004709",
+        "source": "https://www.capitalonecareers.com/job/plano/principal-associate-data-scientist-financial-services/1732/102902768896",
+        "result": "Plano official posting displays Apply and consumer risk modeling duties. Requires bachelor's plus five years, master's/MBA plus three years, or a PhD. No qualifying bachelor's new-grad path."
+      },
+      {
+        "id": "UT-Austin-ARL-ML",
+        "source": "https://jobhunterparadise.com/jobs/17-25302_63304dc4751aee654b9f236716ac1a61",
+        "result": "Resurfaced third-party mirror matches the title and research-lab duties of previously reviewed UT Austin records; exact new requisition and open status were not established. No status change or duplicate record."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T2318-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T04:17:34Z"
+  }
+}
