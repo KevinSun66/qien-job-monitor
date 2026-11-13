@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T12:31:07Z",
+  "checkedAt": "2026-11-13T12:31:49Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d2165bd67b2fc69533e0ba50b36ae5308e5c508b",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T0536-Texas.json",
+      "sha": "7c7ff66bd923616988bd4065ab3833087123e72e",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T11:37:26Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "4b29fb9e2c0b1c5026fe3394cf0501284f14490d",
+      "head": "50428a90032d7799e95bd69e962aa512258354ea",
+      "listingCommits": [
+        "50428a90032d7799e95bd69e962aa512258354ea"
+      ],
+      "result": "One listing patch reviewed: an inactive flag for an Illinois institutional research role; no target-market addition or tracked status change."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 8734d10f0daf2a824a199f676cb05e77d6975fee",
+      "Targeted searches, ApplyBolt graduate feed, exact recruiter and employer pages"
+    ],
+    "newTexasLeadsReviewed": 2,
+    "newLeadsReviewedWithoutConfirmedTexasLocation": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "J55066",
+        "source": "https://roboticstechno.com/view_job?hr_id=3978&id=38666&mode=apply",
+        "result": "Plano Data Engineer on staffing firm's site with visible Apply. Client undisclosed; 12-month assignment centered on Azure Data Factory/Databricks ETL. OPT-EAD listed, but STEM OPT support, eligible start, zero-experience path and clear Ryan upgrade not verified."
+      },
+      {
+        "id": "J55076",
+        "source": "https://roboticstechno.com/view_job?hr_id=3772&id=38676&mode=apply",
+        "result": "Austin Senior Databricks Engineer on staffing firm's site. 12-month assignment with undisclosed client; production ETL modernization requiring hands-on legacy migration. OPT-EAD listed but no verified STEM OPT, eligible start, graduate pathway or Ryan upgrade."
+      },
+      {
+        "id": "4713471005",
+        "source": "https://job-boards.greenhouse.io/thebrattlegroup/jobs/4713471005",
+        "result": "Brattle Data and AI Engineer graduate feed lead. Official ATS confirms July 2027 start but Boston office, so outside geography."
+      },
+      {
+        "id": "4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing Wise Austin graduate listing continues to display Apply and requires eligibility to work without sponsorship. No newly verified STEM OPT support or status change."
+      }
+    ],
+    "coverage": "Incremental listings and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T0631-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T11:37:26Z"
+  }
+}
