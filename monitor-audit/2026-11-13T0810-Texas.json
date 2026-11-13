@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T14:10:00Z",
+  "checkedAt": "2026-11-13T14:10:50Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "b8af50b208d41805223f086e027d39d13f5034a1",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T0631-Texas.json",
+      "sha": "fa5282abaaaa147b74b7d348b66bc3232b29b107",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T12:31:59Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "50428a90032d7799e95bd69e962aa512258354ea",
+      "head": "d5fb8be0becbb296e9f454afa0f4dc58519c5860",
+      "listingCommits": [
+        "c85de7045a632ef9c0fcf8654ce10f337c0c8489",
+        "6abfe037b3a021a9919df7a395612a1e0287bbaf",
+        "28fbae9401f6a8df9199924ac85c2fedc067d23e",
+        "9f99bd8fecf3c711eeff3be3ce4d034e83dd255c"
+      ],
+      "result": "13:32 and 14:02 UTC patches reviewed; no new target-market listing in those patches. 12:31 and 13:02 patches unavailable; individual comparisons returned no file entries. TikTok inactive signal points to a San Jose role whose exact employer page showed an Apply link on one read; no Dallas/Austin record affected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README updated to 08ce870537ab001a74b65ae78fd430a7d8898415; inspected target market entries",
+      "Targeted employer and public searches"
+    ],
+    "newTexasLeadsReviewed": 0,
+    "newLeadsReviewedWithoutConfirmedTexasLocation": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "933ba942638f",
+        "source": "https://psstjobs.com/job/associate-data-engineer-933ba942638f/",
+        "result": "US-remote lead with undisclosed employer in search index. Aggregator URL returned 410; exact employer JD, city placement, current application, qualifying start and OPT/STEM OPT were not verified."
+      },
+      {
+        "id": "7668669015051405573",
+        "source": "https://lifeattiktok.com/search/7668669015051405573",
+        "result": "Upstream inactive signal. Employer page identifies a 2027 Ads Creative research scientist position in San Jose and showed Apply on one read. Outside the monitored geography; no status change to a tracked record."
+      },
+      {
+        "id": "aebaa49c-7687-426e-a398-b714a5760d18",
+        "source": "https://jobs.lever.co/pointb/aebaa49c-7687-426e-a398-b714a5760d18",
+        "result": "Previously reviewed Point B Dallas analytics consulting posting resurfaced; exact employer detail still returned 403 and indexed JD specifies two years of relevant experience."
+      },
+      {
+        "id": "56F6BB2046",
+        "source": "https://apply.workable.com/senseye/j/56F6BB2046/apply",
+        "result": "Previously reviewed Senseye Austin AI Engineer resurfaced in updated feed; exact official application remains inaccessible. No newly verified eligibility or status change."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T0810-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T12:31:59Z"
+  }
+}
