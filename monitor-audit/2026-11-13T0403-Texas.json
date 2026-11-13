@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T10:03:58Z",
+  "checkedAt": "2026-11-13T10:04:49Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "897fdb08bdec62357bc71c0f29fe8e21d77f29a1",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T0235-Texas.json",
+      "sha": "ba461a2eaa037328a1f376e64b9a4fcc17f7c608",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T08:36:39Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "a638df74192a6a3643e05ac307dc98ba8e0e042d",
+      "head": "822931bd28a72262387516024eebf2b84125b5f1",
+      "listingCommits": [
+        "f585375c610fceca4d0d5f51a32618d1f9fb55c1",
+        "a6a5490707135815700a6a8fdbe8cdd2df36105d",
+        "84fef3e63c6d855c1f2f3a6c480fd627871cbbc4"
+      ],
+      "result": "09:02 UTC commit patch unavailable and comparison returned no file entries. 09:32 and 10:02 patches reviewed: the added LLNL role is a postdoctoral position; Tesla Data Labeler inactive flag does not establish an in-scope opening or tracked status change."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README blob 8734d10f0daf2a824a199f676cb05e77d6975fee",
+      "Targeted Dallas/Austin public searches, employer career pages and Rice Business"
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "aebaa49c-7687-426e-a398-b714a5760d18",
+        "source": "https://jobs.lever.co/pointb/aebaa49c-7687-426e-a398-b714a5760d18",
+        "result": "Point B Dallas client-facing data and analytics consulting. Indexed employer JD requires two years of relevant experience. Direct job detail returned 403; opening not independently confirmed. Fails experience gate."
+      },
+      {
+        "id": "TRS-AI-Research-Data-Analytics-Associate",
+        "source": "https://cdo.business.rice.edu/jobs/teacher-retirement-system-of-texas-trs-ai-research-data-analytics-associate/",
+        "result": "Previously seen Austin AI research and analytics fellowship. Rice mirror describes a full-time temporary assignment and a November application window; qualifying start, exact official application and OPT/STEM OPT were not established."
+      },
+      {
+        "id": "56F6BB2046",
+        "source": "https://apply.workable.com/senseye/j/56F6BB2046/apply",
+        "result": "Previously reviewed Austin AI Engineer resurfaced on an updated feed. Exact Workable application still unavailable; no newly verified eligibility or status change."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T0403-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T08:36:39Z"
+  }
+}
