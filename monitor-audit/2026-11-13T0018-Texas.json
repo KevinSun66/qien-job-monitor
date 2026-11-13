@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T06:18:58Z",
+  "checkedAt": "2026-11-13T06:19:54Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "997407a0c2b772075432ca56cad769f430db0305",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T2318-Texas.json",
+      "sha": "d331fe5926dbe4e2b16942020b776e3be87c8438",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T05:18:49Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "cc4a783bd620efd4c70c4fa6ba72cf0f04835998",
+      "head": "3fb4739cfe727ac3759db2007bb8a9690a0b8caa",
+      "listingCommits": [
+        "7b0b7cca06c3563ad01b731cb276c23876ef8da5",
+        "732fc92769bfb89cb5a2ef48bb939ce1b2da95c6"
+      ],
+      "result": "Two listing patches reviewed; no new records. The Plano and Richardson L3Harris inactivity flags concern existing direction-rejected roles and were not confirmed as closures on employer sites."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 6abc01e28976b78b914582389137ea89e63f4561",
+      "Targeted Austin/Dallas discovery and employer career pages"
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "187343",
+        "source": "https://higher.gs.com/roles/187343",
+        "result": "Goldman Sachs Dallas AI model-validation and risk position shows Apply, but official JD requires 2–5 years. Fails experience gate."
+      },
+      {
+        "id": "Inizio-Dallas-Data-Scientist",
+        "source": "https://lensa.com/job-v1/inizio-partners/dallas-tx/data-scientist/4965b69b865da1b0358fccf601933d8d",
+        "result": "Dallas lead reports 0–3 years. Employer pages for similarly titled roles have differing qualifications and could not be tied to this exact listing. Exact employer JD, current application, start and OPT/STEM OPT not verified."
+      },
+      {
+        "id": "1437945300",
+        "source": "https://jobs.l3harris.com/job/Plano-Associate,-Systems-Engineering-TX-75074/1437945300/",
+        "result": "Existing Plano role flagged inactive by Simplify; indexed employer detail still displays Apply. No authoritative closure; existing direction rejection remains."
+      },
+      {
+        "id": "1437500700",
+        "source": "https://jobs.l3harris.com/job/Richardson-Senior-Associate,-Software-Engineer-TX-75080/1437500700/",
+        "result": "Existing Richardson role flagged inactive by Simplify; exact employer page could not be opened, though employer listing remains indexed. No confirmed closure."
+      },
+      {
+        "id": "5083082008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5083082008",
+        "result": "Existing Austin Integra FEC financial/economic consulting record. Employer ATS still shows an application and 2+ years of relevant full-time experience in qualifications. Existing Ryan disposition remains."
+      },
+      {
+        "id": "210773954",
+        "source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1002/job/210773954/",
+        "result": "Existing JPMC graduate Data & AI program listing resurfaced; exact employer page rendered no readable lines. No verified change in availability, Austin/Dallas eligibility or work authorization."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T0018-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T05:18:49Z"
+  }
+}
