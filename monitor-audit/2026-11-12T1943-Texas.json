@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T01:43:10Z",
+  "checkedAt": "2026-11-13T01:44:12Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "e78b5fb2b3f69afe51c493ce50a59e1e38ae5436",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T1838-Texas.json",
+      "sha": "dfe4be8285f5bc41c6afc185e021020c7f605935",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T00:40:27Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "ca3a29816b1df47905dd437c53abbd6f9fa4ac84",
+      "head": "a3fcec0a135e3761b9fee2ce904f882891523106",
+      "listingCommits": [
+        "689938592447ab0829c355a11757843cd0f995e3",
+        "7a86c2b0b894eff267f5a202405eb56c09b2d354"
+      ],
+      "result": "01:32 UTC listing patch reviewed: inactive flags were on non-target listings in Utah and the UK. 01:02 UTC commit returned no readable patch, and comparison returned no file entries; no complete delta coverage claimed."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at b8fc9338324976be7a06403282e7b6a223b2f163",
+      "Targeted Dallas/Austin searches and exact employer job detail checks"
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "23759465",
+        "source": "https://www.vanguardjobs.com/job/23759465/entry-level-application-engineer-dallas-2027-start-date-dallas-tx/",
+        "result": "Official Dallas job detail displays Apply Now. General application development; two years of related work experience including one year of development required. Fails the experience gate; no eligible start date or OPT/STEM OPT assumed."
+      },
+      {
+        "id": "JR-202623950",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202623950/senior-quality-data-and-ai-engineer/",
+        "result": "Official Austin posting shows an application link; production data pipelines and applied AI responsibilities, but five or more years of professional experience and explicit immigration-related employer-support exclusions. Fails experience gate."
+      },
+      {
+        "id": "4466543435",
+        "source": "https://www.linkedin.com/jobs/view/applied-ai-developer-at-adamas-energy-4466543435",
+        "result": "Dallas employer-attributed LinkedIn lead describes building AI applications, agents and automations, 0–3 years and no employer-sponsored authorization now or later. No exact first-party job detail, live application, post-May start or OPT/STEM OPT support verified."
+      },
+      {
+        "id": "4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Existing CleanSlate record. Employer ATS continues to show Apply, Austin, and foundational experience via coursework/projects/internships accepted; guided AI/ML delivery and agent development. No new confirmation of start date, OPT/STEM OPT or a clear Ryan upgrade."
+      },
+      {
+        "id": "2600865",
+        "source": "https://trinity.referrals.selectminds.com/jobs/ai-engineer-associate-13885",
+        "result": "Existing Trinity record resurfaced on a third party; the exact official posting still says the role has closed. Existing application and closed-watch status unchanged."
+      },
+      {
+        "id": "6240725004",
+        "source": "https://sambanova.ai/company/careers/job-openings?gh_jid=6240725004",
+        "result": "Existing SambaNova Austin/San Jose lead resurfaced in mirrors. Employer link returned a generic careers page and exact Greenhouse listing was inaccessible. No confirmed change in open status, start date or OPT/STEM OPT."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T1943-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T00:40:27Z"
+  }
+}
