@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T14:49:01Z",
+  "checkedAt": "2026-11-13T14:49:40Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9e652609a6ee65fc09618b54a9b5a927ab6020b3",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T0810-Texas.json",
+      "sha": "8d8f5ec2b7d0c18a9dbbda5f5749fb87aea3ce0b",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T14:11:00Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "d5fb8be0becbb296e9f454afa0f4dc58519c5860",
+      "head": "a7ba179c0c72108568fc278cede79152a800040c",
+      "listingCommits": [
+        "45121da098e8499265ca78870389c834ad917228"
+      ],
+      "result": "Reviewed latest patch; no new records in Dallas/Austin. Removed Cresta listing was US remote without an established Dallas/Austin assignment."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 08ce870537ab001a74b65ae78fd430a7d8898415",
+      "Targeted public discovery and exact employer career pages"
+    ],
+    "newTexasLeadsReviewed": 2,
+    "newLeadsReviewedWithoutConfirmedTexasLocation": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "47777",
+        "source": "https://careers.cognizant.com/global-en/jobs/47777/ai-engineer-ioa/",
+        "result": "Distinct Dallas AI Engineer (IOA) requisition. Employer page lists Apply and ML development and deployment duties, but explicitly excludes CPT/OPT participation. Not eligible."
+      },
+      {
+        "id": "00071307971",
+        "source": "https://careers.cognizant.com/emea-en/jobs/00071307971/data-ai-solutions-architect/",
+        "result": "Official Dallas or New York/New Jersey hybrid architect listing shows Apply. Data and AI architecture leadership duties; requires 15–20 years of overall relevant experience. Not eligible."
+      },
+      {
+        "id": "2026-3625",
+        "source": "https://careers-svclnk.icims.com/jobs/3625/ai-engineer%2C-data-science---information-technology/job",
+        "result": "Existing ServiceLink Plano record. Exact employer ATS still displays Apply, a 2+ years AI/ML development requirement and no present or future sponsorship. Existing disposition unchanged."
+      },
+      {
+        "id": "4970396008",
+        "source": "https://job-boards.greenhouse.io/cresta/jobs/4970396008",
+        "result": "Upstream removal of a US-remote Conversational AI Designer Associate listing; employer ATS redirects to a general job board. No exact Dallas/Austin tracked record or confirmed local opening."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T0849-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T14:11:00Z"
+  }
+}
