@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T10:06:54Z",
+  "checkedAt": "2026-11-13T10:07:31Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "7dfc14a0b0aa8da2d5dff12fbbc3960e716ebc57",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T0403-Texas.json",
+      "sha": "662860eaecf1dffc8de7fc0a02f257cf2e1275df",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T10:04:59Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "822931bd28a72262387516024eebf2b84125b5f1",
+      "head": "822931bd28a72262387516024eebf2b84125b5f1",
+      "listingCommits": [],
+      "result": "Head unchanged from previous verified audit; no newer upstream listing commit during this interval."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 8734d10f0daf2a824a199f676cb05e77d6975fee",
+      "Fresh public searches, graduate AI feed and exact employer pages"
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "JR-202621452",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202621452/staff-data-scientist-ai-engineering-productivity/",
+        "result": "GM Austin/other location staff AI engineering and productivity role. Official JD specifies 8+ years working on and 3+ years leading advanced analytics, AI/ML or operations research initiatives. Fails experience gate."
+      },
+      {
+        "id": "6240725004",
+        "source": "https://sambanova.ai/company/careers/job-openings?gh_jid=6240725004",
+        "result": "Existing SambaNova Austin/San Jose ML Engineer new graduate lead resurfaced. Exact employer URL exposed the general careers page, without readable requisition detail or confirmation of start, OPT/STEM OPT or current application."
+      },
+      {
+        "id": "6224938004",
+        "source": "https://sambanova.ai/company/careers/job-openings?gh_jid=6224938004",
+        "result": "Existing SambaNova ML Infrastructure new graduate lead; employer URL exposed general careers content. No confirmed status, start or work-authorization change."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks. Official Austin Applied Materials summer 2027 intern posting was excluded as an internship before full-time screening."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T0406-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T10:04:59Z"
+  }
+}
