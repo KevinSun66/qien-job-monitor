@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T16:05:40Z",
+  "checkedAt": "2026-11-13T16:06:28Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d0b3911cb85b4e0926c075c93940e1b138afcc3a",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T0849-Texas.json",
+      "sha": "b648094dbd5677b1bb43462d99d0075b36f6fd59",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T14:49:50Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "a7ba179c0c72108568fc278cede79152a800040c",
+      "head": "eca5c22f4b0f33cad69a5f8242f7210d59d2b23b",
+      "listingCommits": [
+        "3bad802a9adc83696b2d25dc04075dbd5cd4762f",
+        "f52ef8138f0c54f3f0a84ee5535b4c4dd3f1266b",
+        "d52390ba02c38e78e6a5011a84416433540e2662"
+      ],
+      "result": "Reviewed three listing patches. Austin Q2 software requisition surfaced; exact employer JD could not be read. Goldman inactive signal was for 171569, not Dallas 171568."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 08ce870537ab001a74b65ae78fd430a7d8898415",
+      "Targeted employer searches and Austin/Dallas data engineering feeds"
+    ],
+    "newTexasLeadsReviewed": 2,
+    "newLeadsReviewedWithoutConfirmedTexasLocation": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "4618996",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4618996",
+        "result": "New CleanSlate Austin Associate Data Engineer, distinct from existing AI/ML Engineer. Exact employer ATS has Apply and accepts coursework or projects as experience. Duties focus on guided client data pipeline development and testing. Post-May 2027 start, OPT/STEM OPT and a clear improvement over Ryan were not verified; audit-only."
+      },
+      {
+        "id": "REQ-12953",
+        "source": "https://q2ebanking.wd5.myworkdayjobs.com/Q2/job/Austin-TX/Software-Engineer_REQ-12953",
+        "result": "New Austin Q2 software lead from upstream. Exact employer listing inaccessible; AI/ML/data duties, open application, experience, start and OPT/STEM OPT not verified."
+      },
+      {
+        "id": "171568",
+        "source": "https://higher.gs.com/roles/171568",
+        "result": "Exact tracked Dallas Goldman Engineering New Analyst employer page still shows Apply. Upstream inactive signal for different ID 171569 does not verify a change to this record."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T1005-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T14:49:50Z"
+  }
+}
