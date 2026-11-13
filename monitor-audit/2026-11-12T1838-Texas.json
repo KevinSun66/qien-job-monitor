@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T00:38:52Z",
+  "checkedAt": "2026-11-13T00:40:17Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "76d8e49041fc4cca7077f16a05f5694c6ce10144",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T1743-Texas.json",
+      "sha": "1bf16c871c959e4b40f5ff827f3b8dc8a947b42c",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-12T23:45:15Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "da50b325c39c0ddee8216b0fe02101dccfe0bc83",
+      "head": "ca3a29816b1df47905dd437c53abbd6f9fa4ac84",
+      "listingCommits": [
+        "3e5fd5e4ad5079b64a839fbe549053b2bb43f34a",
+        "ca3a29816b1df47905dd437c53abbd6f9fa4ac84"
+      ],
+      "result": "00:02 UTC diff reviewed; Dallas Copart product-management lead only near scope. At 00:31 UTC commit endpoint supplied metadata without a patch, and comparison returned no file entries; no claim of complete delta coverage."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at b8fc9338324976be7a06403282e7b6a223b2f163",
+      "EarlyTechRoles Texas/Austin discovery and employer ATS checks"
+    ],
+    "newTexasLeadsReviewed": 4,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "JR202640038",
+        "source": "https://ace.wd5.myworkdayjobs.com/careers/job/Coppell-TX/Data-Scientist-1_JR202640038",
+        "result": "Coppell Data Scientist 1 surfaced through a third-party listing. Exact official job detail was inaccessible and the application endpoint provided no readable confirmation. Experience, start, OPT/STEM OPT and Ryan upgrade were not established."
+      },
+      {
+        "id": "R121061",
+        "source": "https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/Engineer-I--Data-Engineering_R121061",
+        "result": "Plano cloud ETL/data engineering. Indexed official JD specifies three years of post-baccalaureate experience and no sponsorship. Direct application content was unreadable; fails the experience gate."
+      },
+      {
+        "id": "112849",
+        "source": "https://jobs.gartner.com/jobs/job/112849-data-analyst-2026-2027-graduates/",
+        "result": "Indexed official JD lists Irving/Stamford, bachelor's, analytical academic/internship experience and some applied ML/LLM analytics. Branded page returned 404 and the Workday application was unreadable; exact opening, post-May start, OPT/STEM OPT and a clear Ryan upgrade were not verified."
+      },
+      {
+        "id": "JR112795",
+        "source": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Associate-Product-Manager_JR112795",
+        "result": "Dallas source listing for product management. Exact official JD unavailable, and search result for the similarly named San Francisco requisition is a different ID. No verified target technical duties."
+      },
+      {
+        "id": "4490",
+        "source": "https://jobs.smartrecruiters.com/Wise/744000160933600-graduate-data-scientist",
+        "result": "Previously tracked Wise Austin graduate job. Employer ATS confirms Austin work authorization without sponsorship; no evidence that resolves the outstanding STEM OPT support question or changes the existing status."
+      },
+      {
+        "id": "JR-202620428",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202620428/data-engineer-data-software-engineering-and-cloud-platforms-early-career/",
+        "result": "Existing GM Austin data engineering requisition. Employer ATS indexed language continues to exclude employer support for immigration-related authorization. No verified change."
+      },
+      {
+        "id": "210802051",
+        "source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210802051",
+        "result": "Existing JPMC role returned no readable official job detail in this check; no verified change to its prior disposition."
+      },
+      {
+        "id": "88915",
+        "source": "https://jobs.aa.com/job/Data-ScientistSr-Data-Scientist%2C-IT-Analytics/88915-en_US/",
+        "result": "Previously reviewed American Airlines requisition; live employer endpoint returned HTTP 403. No verified status, start or authorization change."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T1838-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-12T23:45:15Z"
+  }
+}
