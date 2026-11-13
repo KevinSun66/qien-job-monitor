@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T10:22:13Z",
+  "checkedAt": "2026-11-13T10:22:55Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "7b4c08cb05848bfe6ab5a54c36be41e8d3f88ac3",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T0406-Texas.json",
+      "sha": "5097171b9c20d3929c819d9f2b20d98a88133892",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T10:07:41Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "822931bd28a72262387516024eebf2b84125b5f1",
+      "head": "822931bd28a72262387516024eebf2b84125b5f1",
+      "listingCommits": [],
+      "result": "Head unchanged from the previous audit; no new upstream listing commit."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 8734d10f0daf2a824a199f676cb05e77d6975fee",
+      "Targeted employer and Austin/Dallas listings"
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "14917",
+        "source": "https://career-portal.hickspro.com/jobs/14917",
+        "result": "Irving agentic data science and statistical modeling staffing requisition. Employer recruiter detail identifies a 12-month contract and estimated November 9, 2026 start, before the required window. Experience sections are inconsistent and employer OPT/STEM OPT support not established."
+      },
+      {
+        "id": "HouseMax-Junior-AI",
+        "source": "https://www.wearedevelopers.com/jobs/ext/4608462-junior-ai-application-developer",
+        "result": "Austin junior AI applications and automation lead. Third-party copies report a one-year minimum for application or project experience. Exact employer posting, live application, qualifying start, OPT/STEM OPT and clear Ryan upgrade were not verified."
+      },
+      {
+        "id": "REQ-12438",
+        "source": "https://q2ebanking.wd5.myworkdayjobs.com/en-US/Q2/job/Machine-Learning-Engineer_REQ-12438",
+        "result": "Austin Q2 employer-indexed JD covers ML model design and requires unrestricted authorization to work for any employer; no employer visa sponsorship. Direct job detail rendered no readable lines; neither zero-experience access nor live application, qualifying start or OPT/STEM OPT verified."
+      },
+      {
+        "id": "R_00049413",
+        "source": "https://utaustin.wd1.myworkdayjobs.com/utstaff/job/AUSTIN-TX/AI-Engineer_R_00049413",
+        "result": "Existing UT Austin AI Engineer resurfaced. Indexed exact employer JD still reports a two-year minimum; live detail unreadable and no verified change."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T0422-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T10:07:41Z"
+  }
+}
