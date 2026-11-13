@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T07:33:39Z",
+  "checkedAt": "2026-11-13T07:34:32Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "5b5e29fcf510dc096066fc76bdd8bc4e3112bd92",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T0018-Texas.json",
+      "sha": "ee897796ee8d738a728c6e2955418c6b32bf4257",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T06:20:05Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "3fb4739cfe727ac3759db2007bb8a9690a0b8caa",
+      "head": "a1256fceaf8aa55f1a311c92bf4aa8bc47a98de8",
+      "listingCommits": [
+        "b4be73060da40bfdd245ca1a1b07ab90e931184e",
+        "e322c926cf727d53278615f2498f1d191a1a240e",
+        "23ae168d140355c89eba1431490f4946ec486639"
+      ],
+      "result": "Three listing patches reviewed; no added target-market AI/ML/data records. Richardson RTX inactivity signal is for a citizenship-restricted software position not already tracked under that requisition."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 6abc01e28976b78b914582389137ea89e63f4561",
+      "Targeted public searches and employer pages"
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "210806312",
+        "source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210806312",
+        "result": "ChaseNet Data Scientist in Plano. Indexed official JD describes payments analytics, pricing and portfolio insights; undergraduate path requires three or more years. Direct page unreadable, so actual application availability not confirmed."
+      },
+      {
+        "id": "EWC-6154003",
+        "source": "https://openingsfirst.com/job/6154003/data-scientist-european-wax-center-plano",
+        "result": "European Wax Center Plano lead covers business analytics and applied modeling; mirror specifies 3+ years. Application link remained on the third-party site and exact employer JD and opening were not confirmed."
+      },
+      {
+        "id": "01888052",
+        "source": "https://careers.rtx.com/global/en/job/01888052/Software-Engineer-I-Onsite",
+        "result": "Richardson RTX inactivity signal. Indexed exact employer JD requires U.S. citizenship and security clearance; excluded regardless of availability. No existing exact record to update."
+      },
+      {
+        "id": "4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing Austin Wise graduate record still shows Apply, a September 6, 2027 start and eligibility to work without sponsorship; no new evidence confirming STEM OPT support or an existing status change."
+      },
+      {
+        "id": "10338143",
+        "source": "https://careers.toyota.com/us/en/job/10338143",
+        "result": "Existing Plano Toyota record: indexed employer JD retains the five-year technical requirement. Direct branded page returned 403, so no authoritative status change confirmed."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T0133-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T06:20:05Z"
+  }
+}
