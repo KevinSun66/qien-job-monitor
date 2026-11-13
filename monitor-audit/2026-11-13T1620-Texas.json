@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T22:20:10Z",
+  "checkedAt": "2026-11-13T22:21:21Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "55b252478eaf04a04818e6f0028dc18e3dd8a7cc",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T1556-Texas.json",
+      "sha": "60bd6f5121b440cf351e7ab04b875e0ce4f86466",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T21:57:37Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "ff8e86e3289c2f609854046bd01b469a7d776aa7",
+      "head": "85a8d5deb4cc4825b30e4114b2110e23afd01ed8",
+      "listingCommits": [
+        "38117e164c444af99471ea8fcd62332999f753e3"
+      ],
+      "result": "Direct README comparison showed no added or removed rows naming the Dallas/Austin market cities checked. listings.json changed, but comparison did not expose its patch."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 15612d176a579e87274078f5e1da246d304e595e",
+      "EarlyTechRoles November 13 AI/ML feed; targeted employer and ATS checks"
+    ],
+    "newTexasLeadsReviewed": 4,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Signet-REQ_84369",
+        "source": "https://earlytechroles.com/jobs/ai-platform-engineer-i-signet-jewelers-9cf6b0b47b/",
+        "employerSource": "https://signetjewelers.wd1.myworkdayjobs.com/SignetCorporateCareers/job/Support-Center---Irving-TX/AI-Platform-Engineer-I_REQ_84369",
+        "result": "New Irving/Akron AI platform lead. Feed copy calls for 1–3 years of engineering experience, outside the accepted range. Employer Workday JD and application not readable; start and OPT/STEM OPT unverified."
+      },
+      {
+        "id": "US-Bank-2026-0027055",
+        "source": "https://earlytechroles.com/jobs/software-engineer-1-ai-ml-engineer-mlops-u-s-bank-ed81b55486/",
+        "employerSource": "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Chicago-IL/Software-engineer-1---AI-ML-Engineer--Generative-AI-_2026-0027055",
+        "result": "Newly surfaced Irving-capable MLOps requisition, distinct from the existing U.S. Bank record. Mirrors state 2–3 years relevant experience and no visa sponsorship; secondary sites disagree on open status. Employer JD/application unreadable, and post-May start and OPT/STEM OPT unverified."
+      },
+      {
+        "id": "HouseMax-Junior-AI-Application-Developer",
+        "source": "https://www.indeed.com/q-applied-ai-developer-l-austin,-tx-jobs.html",
+        "result": "New Austin full-time AI applications/automation lead. Secondary JD describes agent, RAG and internal workflow prototypes and asks for one year building applications or technical projects. Exact first-party listing, application, post-May start, OPT/STEM OPT and clear Ryan upgrade were not verified."
+      },
+      {
+        "id": "AIApply-Junior-Software-Engineer",
+        "source": "https://www.indeed.com/viewjob?jk=1600595c760c618e",
+        "result": "New Austin/remote lead, mirrored as full-time 0–2 years or projects. Duties center on general React product features, testing and production fixes. No verified first-party application, eligible start, OPT/STEM OPT arrangement, or clear overall Ryan upgrade."
+      },
+      {
+        "id": "GM-JR-202620418",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202620418/software-engineer-data-software-engineering-and-cloud-platforms-early-careers/",
+        "result": "Existing rejection. Official Austin entry-level data/cloud platform JD still excludes applicants needing OPT/STEM OPT employer immigration support. No new eligibility or status change."
+      }
+    ],
+    "coverage": "Incremental feed comparisons and targeted searches; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T1620-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T21:57:37Z"
+  }
+}
