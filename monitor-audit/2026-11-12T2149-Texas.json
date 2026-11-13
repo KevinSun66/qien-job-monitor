@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T03:49:00Z",
+  "checkedAt": "2026-11-13T03:50:01Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "4761c35746ef738507044ce012ce129349cd071b",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T2107-Texas.json",
+      "sha": "c464a226f190268aa2c03ac98926d665c4d29973",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T03:08:51Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "ac137a7a50b071f1c8b9218729ccfad61ee70940",
+      "head": "d8e364327fe5fad95c9bdf037445d3325f7a4ae2",
+      "listingCommits": [
+        "d8e364327fe5fad95c9bdf037445d3325f7a4ae2"
+      ],
+      "result": "Reviewed the new listing patch: two inactive signals, no added records, and no exact tracked target requisition status change."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 updated to blob 6abc01e28976b78b914582389137ea89e63f4561; reviewed target-market entries",
+      "Targeted Dallas/Austin public discovery and employer career pages"
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "JR0152158",
+        "source": "https://careers.mckesson.com/en/job/texas/data-scientist/733/100561182880",
+        "result": "Texas remote, Dallas referenced. Indexed employer JD requires master's plus two years or bachelor's plus four years of relevant experience (or equivalent). Employer career URL returned 404 and exact Workday detail was unreadable; eligibility and live application not established."
+      },
+      {
+        "id": "JR0154312",
+        "source": "https://careers.mckesson.com/en/job/irving/sr-data-scientist-pharmaceutical-supply-chain/733/101616439520",
+        "result": "Irving employer page shows Apply and pharmaceutical supply-chain analytics duties. JD specifies five or more years under its qualifications and seven years as typical; fails experience gate."
+      },
+      {
+        "id": "52926175EIB",
+        "source": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/Digital-Assurance---Transparency--DAT----Data---Associate---Summer-Fall-2027_52926175EIB",
+        "result": "Distinct Dallas PwC requisition from the tracked AI variant. Indexed official JD lists summer/fall 2027 and assurance, audit and client data support; live exact detail rendered no readable lines. OPT/STEM OPT and clear Ryan upgrade not established."
+      },
+      {
+        "id": "52926177EIB",
+        "source": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/Digital-Assurance---Transparency--DAT----Artificial-Intelligence---Associate---Summer-Fall-2027_52926177EIB",
+        "result": "Tracked PwC AI assurance role resurfaced. Indexed JD does not establish a change to its comparative disposition, and live detail was unreadable."
+      },
+      {
+        "id": "8859178002",
+        "source": "https://job-boards.greenhouse.io/hippo70/jobs/8859178002?gh_jid=8859178002",
+        "result": "Same ID as existing Hippo Actuarial Data Scientist record. Employer Greenhouse page shows Apply and Austin/Dallas options, but still requires at least five years; no change to existing screening."
+      },
+      {
+        "id": "6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Existing Austin Self Financial employer page shows Apply and zero-to-two years, but still explicitly limits hiring to citizens or permanent residents."
+      },
+      {
+        "id": "6240725004",
+        "source": "https://sambanova.ai/company/careers/job-openings?gh_jid=6240725004",
+        "result": "Existing SambaNova Austin/San Jose posting resurfaced in third-party lists; exact employer URL still serves a general careers page in this check. No confirmed application, start, or work-authorization change."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T2149-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T03:08:51Z"
+  }
+}
