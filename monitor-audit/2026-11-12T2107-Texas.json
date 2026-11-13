@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T03:07:31Z",
+  "checkedAt": "2026-11-13T03:08:39Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "8107de02e47570545e958fbfb370d85ddcfaa1da",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-12T1943-Texas.json",
+      "sha": "975e9ab548060e60321565146226ce69989c8129",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T01:44:22Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "a3fcec0a135e3761b9fee2ce904f882891523106",
+      "head": "ac137a7a50b071f1c8b9218729ccfad61ee70940",
+      "listingCommits": [
+        "0fb78d69995c2427a42de2495b2dd5826c0d299e",
+        "f434890a5c8ee4e926fefac94cff3ef995941d93",
+        "c0a124df29e1a584102c32abfa3c499891cbb2bd"
+      ],
+      "result": "Three listing patches reviewed. No new target-market listings identified. Goldman inactive flags are for IDs 171569 and 188640, not tracked Dallas 171568."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 updated to blob 3b3325988f256029c66bf573653b1f4b5a27ebe1; Senseye resurfaced as previously reviewed",
+      "Targeted web discovery, employer career pages and one university mirror"
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "1449635100",
+        "source": "https://careers.hfsinclair.com/job/Dallas-Data-Scientist-TX-75219/1449635100/",
+        "result": "HF Sinclair Dallas official listing displays Apply; applied modeling and production AI responsibilities, but minimum six years of hands-on applied data science, ML or AI. Fails experience gate."
+      },
+      {
+        "id": "88911",
+        "source": "https://jobs.aa.com/job/Sr-Associate-Engineer-Engineer%2C-IT-AI/88911-en_US/",
+        "result": "American Airlines Fort Worth role. Indexed employer JD specifies at least one year of full SDLC experience for associate level; employer page returned 403 when opened. Fails experience gate; application, eligible start and OPT/STEM OPT unconfirmed."
+      },
+      {
+        "id": "HCLTech-Dallas-ML-Analyst",
+        "source": "https://careers.wgu.edu/jobs/hcltech-data-analyst-machine-learning-python-dallas-tx/",
+        "result": "University mirror describes a Dallas ML/Python analyst role, with inconsistent seniority wording. No first-party job detail, live application, eligible start, OPT/STEM OPT or clear Ryan upgrade confirmed."
+      },
+      {
+        "id": "171568",
+        "source": "https://higher.gs.com/roles/171568",
+        "result": "Exact existing Dallas Goldman Engineering New Analyst posting still shows full-time graduate program and Apply. Different upstream requisition IDs do not indicate a closure; no application status changed."
+      },
+      {
+        "id": "56F6BB2046",
+        "source": "https://apply.workable.com/senseye/j/56F6BB2046/apply",
+        "result": "Previously reviewed Senseye Austin lead reappeared in secondary feed; exact official application still inaccessible. No new verified eligibility or status evidence."
+      },
+      {
+        "id": "88915",
+        "source": "https://jobs.aa.com/job/Fort-Worth-Data-ScientistSr-Data-Scientist%2C-IT-Analytics-TX-76101/88915-en_US/",
+        "result": "Previously reviewed American Airlines listing; exact employer endpoint returned HTTP 403. No verified change."
+      },
+      {
+        "id": "R-66870",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/kyndrylearlycareers/job/dallas-usdalfri-frisco-ai-hub/data-engineer_r-66870-1",
+        "result": "Existing Kyndryl Frisco role resurfaced; indexed employer language continues to require unrestricted present and future US authorization. No new verified status or eligibility evidence."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-12T2107-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T01:44:22Z"
+  }
+}
