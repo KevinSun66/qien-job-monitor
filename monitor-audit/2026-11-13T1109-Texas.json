@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T17:09:51Z",
+  "checkedAt": "2026-11-13T17:10:41Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "2381b18aa4b4ac3e0eb2e7aaac9ab081bae6cccd",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T1041-Texas.json",
+      "sha": "a2deafb00d5d2af03b88b91a389568e4cc48ca6a",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T16:42:08Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "3e22783b3aba2c140a508be2c0009cf1150240f0",
+      "head": "55f358b1787d035e7b2db911607517f0d83e06c5",
+      "listingCommits": [
+        "55f358b1787d035e7b2db911607517f0d83e06c5"
+      ],
+      "result": "Latest commit returned metadata without a readable patch; comparison returned no file entries. Target-market delta could not be verified from this feed."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 08ce870537ab001a74b65ae78fd430a7d8898415",
+      "Targeted public searches, employer career pages and graduate feed"
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 0,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Confer-McKinney-Junior-AI",
+        "source": "https://confersolutions.ai/careers/ai-engineer",
+        "result": "Official employer JD and application visible for full-time hybrid McKinney junior applied AI. Project-based requirements without stated minimum professional years; work includes building, deploying and owning client agentic software. Form asks when OPT/STEM OPT ends, which is not a commitment to accept or support them. Start after May 2027, employer STEM OPT support, compensation and clear overall improvement over Ryan were not verified; audit only."
+      },
+      {
+        "id": "Dell-Round-Rock-Analyst-Data-Science",
+        "source": "https://roleweek.com/job/analyst-data-science-dell-technologies-austin-1b1c65d1/",
+        "result": "Round Rock graduate-feed lead. Exact first-party listing or live application not found; secondary source reports removal November 12. No verified opening, eligible start, experience, or work authorization."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T1109-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T16:42:08Z"
+  }
+}
