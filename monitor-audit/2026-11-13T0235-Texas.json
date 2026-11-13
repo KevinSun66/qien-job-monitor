@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T08:35:29Z",
+  "checkedAt": "2026-11-13T08:36:29Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "19f3d369adbeba2224811b3f1d3fbf928050ae41",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T0133-Texas.json",
+      "sha": "cd4ee19a6c641860dd34961e1eca3d98f55972f9",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T07:34:43Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "a1256fceaf8aa55f1a311c92bf4aa8bc47a98de8",
+      "head": "a638df74192a6a3643e05ac307dc98ba8e0e042d",
+      "listingCommits": [
+        "b46c79fe766459b53d6cdc4cddcec68b2a2dd3ca",
+        "a638df74192a6a3643e05ac307dc98ba8e0e042d"
+      ],
+      "result": "08:02 UTC patch reviewed; new records outside named markets or nationwide without confirmed Dallas/Austin assignment. Goldman 171569 is not tracked Dallas 171568. 08:31 UTC patch unavailable; compare returned no file entries."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 6abc01e28976b78b914582389137ea89e63f4561",
+      "Targeted public discovery and exact employer pages"
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "6147057004",
+        "source": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6147057004",
+        "result": "PlayStation Austin Data Engineer. Employer application visible; production data pipelines and models, minimum three years in a similar role. Fails experience gate."
+      },
+      {
+        "id": "4944171008",
+        "source": "https://thatch.com/jobs/data-scientist-growth-marketing-4944171008",
+        "result": "Distinct Thatch Austin-eligible requisition. Employer JD focuses on growth measurement, experiments and dbt data models and requires relevant experience and independent execution, with no established zero-experience graduate route, qualifying start date or OPT/STEM OPT support."
+      },
+      {
+        "id": "JR-202622764",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202622764/senior-data-engineer",
+        "result": "GM Austin posting describes production ML for manufacturing and requires at least seven years. Fails experience gate."
+      },
+      {
+        "id": "5461158008",
+        "source": "https://thatch.com/jobs/data-scientist-product-5461158008",
+        "result": "Existing Thatch Product record. Employer detail and application remain visible; no evidence of a new graduate pathway or a status change."
+      },
+      {
+        "id": "8587038002",
+        "source": "https://job-boards.greenhouse.io/pmg/jobs/8587038002",
+        "result": "Existing PMG Dallas graduate AI/software role. Official application remains visible and asks about June 7, 2027 start. Sponsorship statement and existing Ryan comparison do not establish new eligibility or a clear upgrade."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T0235-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T07:34:43Z"
+  }
+}
