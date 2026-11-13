@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T19:25:36Z",
+  "checkedAt": "2026-11-13T19:27:02Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "b2e2473ab1683fe23b96773ccd8163b069d30ae0",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T1223-Texas.json",
+      "sha": "5b724b8af33fe46dc2e14013b3faddb30146e7a1",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T18:25:28Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "d235ebe217882fee21cc31613390a32f2e58c728",
+      "head": "cb897b4b7094b3546e580ab3605e6471ef2b689e",
+      "listingCommits": [
+        "cc288debcdd4a0436e9012709013e6cbcbc659b5",
+        "6ecf4cb98b041003fd7971df26f972844a830782"
+      ],
+      "result": "Compare confirms updates to listings.json and README; file patches were unavailable. Direct comparison of README contents found no new or changed line naming the Dallas or Austin area cities checked."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 15612d176a579e87274078f5e1da246d304e595e",
+      "Targeted Dallas/Austin entry-level job searches and first-party career/ATS pages"
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "TRS-req1475",
+        "source": "https://cdo.business.rice.edu/jobs/teacher-retirement-system-of-texas-trs-ai-research-data-analytics-associate/",
+        "employerSource": "https://trs.texas.gov/careers/apply",
+        "result": "New Austin AI research/prototyping lead. University copy lists zero required experience, recent degree and temporary full-time fellowship (maximum three years); November 17, 2026 closing listed, but no confirmed post-May 2027 start. Official employer ATS did not expose a readable requisition; open application and OPT/STEM OPT unverified. Employer general FAQ states no work visa sponsorship, which does not establish OPT treatment. No demonstrated overall upgrade."
+      },
+      {
+        "id": "Southwest-R-2026-74285",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-74285/Associate-Technical-Data-Manager-DMX",
+        "result": "New Dallas search result. Official JD and official openings index show aircraft maintenance technical data/documentation responsibilities, outside the applied AI/ML/data science scope. Excluded on duties; no conclusion about start, experience, or OPT."
+      },
+      {
+        "id": "Southwest-R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "Previously closed-watch. Official vacancy returned HTTP 410; third-party copy is historical. No verified reopening or status change."
+      },
+      {
+        "id": "Senseye-56F6BB2046",
+        "source": "https://apply.workable.com/senseye/j/56F6BB2046/",
+        "result": "Previously seen Austin clinical ML lead. Official ATS could not be verified. Secondary copy describes master's/PhD or comparable ML experience, so bachelor's entry fit, eligible start and OPT/STEM OPT remain unverified."
+      },
+      {
+        "id": "Dell-R271283",
+        "source": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/R271283",
+        "result": "Previously seen Round Rock GenAI data science lead. Secondary mirror lists a November 30 deadline, but it does not establish an open employer application. Official JD/application, eligible start and OPT/STEM OPT not verified."
+      }
+    ],
+    "coverage": "Incremental source comparison and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T1325-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T18:25:28Z"
+  }
+}
