@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T20:18:01Z",
+  "checkedAt": "2026-11-13T20:19:14Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "b2e9f4d30bd978d9f150ececa681d26830c8b273",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T1325-Texas.json",
+      "sha": "92d922e272b24e7cd1a615027bb2498554756559",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T19:27:14Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "cb897b4b7094b3546e580ab3605e6471ef2b689e",
+      "head": "69343f1f7665361996c4cd027aa3b43a339a5fad",
+      "listingCommits": [
+        "69343f1f7665361996c4cd027aa3b43a339a5fad",
+        "835e5f3c1402931c41cd3d8bf9e204a2f8932d99"
+      ],
+      "result": "Compared the README contents at the two refs; no added or removed lines named the Dallas/Austin market cities checked. The comparison reported listings.json changes but did not expose their patch."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 unchanged at 15612d176a579e87274078f5e1da246d304e595e",
+      "WonOfAKind/New-Grad-And-Internships-2027 AI/ML list blob 985aeafc040436c440b1fe3d658614b89eb997c5",
+      "ApplyBolt graduate feed and targeted employer searches"
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Pereview-Dallas-AI-Engineer",
+        "source": "https://pereviewsoftware.com/careers/",
+        "jdSource": "https://jobs.workable.com/view/5nrPq2ipU8DJVTNtdKyiWX/ai-engineer-in-dallas-at-pereview-software",
+        "result": "New to this review; Dallas employer careers index names the role. Indexed ATS description indicates applied LLM, RAG, OCR and Azure work; third-party full copies require 3+ years of Python software development. Live ATS body/application could not be read on direct fetch; no confirmed 2027 start or OPT/STEM OPT. Not eligible for publication."
+      },
+      {
+        "id": "L3Harris-Greenville-Associate-Application-Development",
+        "source": "https://www.applybolt.app/job/associate-application-development-at-l3harris-technologies-m-69e79726ba4f0a7585bbe206",
+        "result": "New feed lead, Greenville. Employer search produced different titles/levels in application development; no exact official JD, live application, qualifying applied AI/ML scope, start or work authorization verified."
+      },
+      {
+        "id": "Adobe-R172085",
+        "source": "https://careers.adobe.com/us/en/job/R172085/2027-University-Graduate-Machine-Learning-Engineer",
+        "result": "Existing closed record. Feed listed a newer posting date, but both Adobe Careers URL variants returned the filled notice on direct open. Indexed JD names Austin, applied ML and graduate degree/equivalent. No verified reopening."
+      },
+      {
+        "id": "JPMorgan-210773954",
+        "source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773954",
+        "result": "Existing Plano authorization exception watch. Feed links the same requisition, employer ATS returned no readable text, and no evidence changed the archived permanent-authorization and OPT-document restrictions."
+      },
+      {
+        "id": "GlobalFoundries-JR-2604163",
+        "source": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/AI-ML-Systems-Engineer--2027-New-College-Graduate-_JR-2604163",
+        "result": "Existing Richardson rejection. Indexed official JD describes workload characterization and performance modeling to inform hardware design, rather than the target applied AI role. Direct fetch yielded no readable body. No verified change."
+      }
+    ],
+    "coverage": "Incremental feed and employer checks, not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T1418-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T19:27:14Z"
+  }
+}
