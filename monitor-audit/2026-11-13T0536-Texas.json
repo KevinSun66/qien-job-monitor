@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-13T11:36:28Z",
+  "checkedAt": "2026-11-13T11:37:16Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "4c8eab3b6a0f333ea956e832cdfadddb2dadb952",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T0422-Texas.json",
+      "sha": "a89e1f0eba3eef9f1c5ce341e3f940cd2e93eb1f",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-13T10:23:06Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "822931bd28a72262387516024eebf2b84125b5f1",
+      "head": "4b29fb9e2c0b1c5026fe3394cf0501284f14490d",
+      "listingCommits": [
+        "181a08ea3d007f5dbca7fb44753d3409752e9704",
+        "5f0dae96adc7e543870b41c02bd326a0f7c55e2b",
+        "28af751f7dbf02d0b9eed9dcee8849f31cc0f682"
+      ],
+      "result": "Three listing patches reviewed; Shield AI additions point to Washington DC, Goldman signals do not match the tracked Dallas requisition, and the R1 RCM remote reactivation did not verify a location or status change."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 8734d10f0daf2a824a199f676cb05e77d6975fee",
+      "Targeted employer ATS and career-page checks"
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "EPE-Applied-Data-Science-III",
+        "source": "https://join.epeconsulting.com/EPE-Engineering-Jobs/jobs",
+        "result": "Electric Power Engineers lead surfaced with Austin tagging. Indexed employer board lists the title, but returned 403 on direct read. Mirror describes utility-sector data architecture, ML, and 4–5 years of relevant experience; no verified zero-experience pathway or live exact application."
+      },
+      {
+        "id": "8816124002",
+        "source": "https://job-boards.greenhouse.io/map/jobs/8816124002",
+        "result": "Existing MAP Austin record. Exact employer ATS shows Apply and 0–2 years; production marketing data pipelines. No new qualifying start date, OPT/STEM OPT, or material Ryan upgrade verified."
+      },
+      {
+        "id": "R1002940",
+        "source": "https://www.capitalonecareers.com/job/plano/senior-associate-data-scientist-applied-ai-financial-services/1732/101460825408",
+        "result": "Existing Capital One Plano Applied AI requisition still shows an Apply link and employer sponsorship consideration. Bachelor's route requires two years of analytics; no new qualifying route or status change verified. Application record preserved."
+      },
+      {
+        "id": "R260000007542",
+        "source": "https://r1rcm.wd1.myworkdayjobs.com/en-US/R1RCM/job/Remote-USA/Software-Engineer---ML-Ops--R37-_R260000007542",
+        "result": "Existing R1 RCM MLOps record reactivated in third-party feed. Exact employer detail inaccessible, and no Dallas/Austin placement or official reopening confirmed."
+      }
+    ],
+    "coverage": "Incremental source and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-verification",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T0536-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-13T10:23:06Z"
+  }
+}
