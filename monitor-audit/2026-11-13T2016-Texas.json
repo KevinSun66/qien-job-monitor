@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-14T02:16:14Z",
+  "checkedAt": "2026-11-14T02:17:05Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "c8be7abfa1f82345be2e355d263d91a438351035",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T2002-Texas.json",
+      "sha": "e382507eb670ec35f25678fa9528ff74f4443580",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-14T02:04:00Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "e4adfdd62a5c232581651a2ab1ce0b2161b316b3",
+      "head": "e4adfdd62a5c232581651a2ab1ce0b2161b316b3",
+      "listingCommits": [],
+      "result": "Feed head unchanged since the prior monitor run."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at fbfdb8d4aeda830141adc557d12120860a1ac661",
+      "Dallas/Austin public job indexes and targeted employer searches"
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 0,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "PwC-773820WD",
+        "source": "https://pwc.wd3.myworkdayjobs.com/US_Experienced_Careers/job/GA-Atlanta/AI-Engineer---Agentic-AI---Applied-Generative-AI--Senior-Associate_773820WD",
+        "result": "New Dallas/Austin-capable lead in secondary listings, SAP and applied agentic AI. Secondary linked JD requires at least three years. Official ATS returned no readable text or live Apply, so exact locations, open state, qualifying start and authorization not verified."
+      },
+      {
+        "id": "PwC-Azure-AI-Senior-Associate",
+        "source": "https://www.builtinaustin.com/job/senior-associate-azure-ai-engineer/12178676",
+        "result": "New Austin search lead, Azure applied GenAI and RAG. Secondary copy requires at least three years. Exact US employer requisition/application, start, and OPT/STEM OPT not confirmed."
+      },
+      {
+        "id": "LPL-2027-Data-Engineer",
+        "source": "https://openingsfirst.com/job/1454688/new-grad-2027-data-engineer-lpl-financial-austin",
+        "result": "Older opening first reviewed in this run; secondary feed identifies Austin as optional and describes data pipelines and AI support for a 2027 new graduate. No exact accessible employer JD or active application confirmed; Austin availability, post-May start, OPT/STEM OPT and clear Ryan upgrade not verified."
+      }
+    ],
+    "coverage": "Incremental comparison and targeted first-party checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T2016-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-14T02:04:00Z"
+  }
+}
