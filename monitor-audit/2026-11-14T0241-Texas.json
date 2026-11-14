@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-14T08:41:34Z",
+  "checkedAt": "2026-11-14T08:42:19Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "124d024ad95870d24569f59fc626519576105944",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-14T0118-Texas.json",
+      "sha": "a231ddb47ae377747ad19e6cbe33c470d97c8808",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-14T07:19:04Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "83d1b0c052dcab1cfb2c99ccdaf75477d8394743",
+      "head": "6bd56a1020c0ab94da24bc8d9cc9d293266e396d",
+      "listingCommits": [
+        "6bd56a1020c0ab94da24bc8d9cc9d293266e396d",
+        "550ad6ed89f18cf14c3628705cba1e50977068c9",
+        "ecd4ae5edd24a667d68ec62b17a17a57feaba651"
+      ],
+      "result": "Compared README snapshots and found no changed lines naming the Dallas/Austin market cities checked. The compare response did not contain the listings.json patch."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at eba4fbe03af725577a1161ce308b54827156a678",
+      "Targeted public search and first-party career pages"
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "SambaNova-6240725004",
+        "source": "https://sambanova.ai/company/careers/job-openings?gh_jid=6240725004",
+        "result": "Existing Austin/San Jose model-side new-grad ML lead. Latest secondary listings describe inference model training and report recent listing activity; employer career page still renders only the general page in this check, and direct target ATS did not confirm live JD/application. Minimum requirements, eligible start and OPT/STEM OPT not newly verified; no status change."
+      },
+      {
+        "id": "SambaNova-6224938004",
+        "source": "https://sambanova.ai/company/careers/job-openings?gh_jid=6224938004",
+        "result": "Existing Austin/San Jose ML infrastructure watch item, focused on software inference services in secondary descriptions. Employer page did not expose the specific live JD/application in this check; no new proof of post-May 2027 start, OPT/STEM OPT, or eligibility status change."
+      }
+    ],
+    "coverage": "Incremental feed comparison, local searches and first-party spot checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-14T0241-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-14T07:19:04Z"
+  }
+}
