@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-14T21:09:56Z",
+  "checkedAt": "2026-11-14T21:11:04Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "02d1d55666a01f76c40ac60ace7448d3b8949cc6",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-14T1424-Texas.json",
+      "sha": "0960d6de2bf77bb2490e4b5c413a781f32f5e937",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-14T20:25:57Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main; no repository workflow files, Pages deployment is not a job scraper."
+    },
+    "publishedPages": "Public Pages URL reads were unavailable via web retrieval; both source HTML files were verified on GitHub main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "6d509287851083754b5b345991944a5574a87a9f",
+      "head": "b0ac370ea97bdb97ecc8e59c7a644836b7ac13c1",
+      "listingCommits": [
+        "9d02ab75e6ba2b58e66e03e2a85612f11c1bbb63",
+        "9efa4fd4f120388495c4251d001338f2f9dd97ad"
+      ],
+      "result": "No added README line naming monitored Texas markets; the listings.json SHA changed but the raw content was unavailable from the connector."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 unchanged README blob cf37bc07f70df7f5c475909dd97c26f34b45871c",
+      "Targeted Dallas/Austin searches and metro feeds. Aggregators used only for discovery."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 0,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "RoboticsTechnologies-J54879",
+        "source": "https://roboticstechno.com/view_job?id=38479&mode=apply",
+        "applicationUrl": "https://roboticstechno.com/apply_now?hr_id=3487&id=38479&mode=apply",
+        "result": "New Dallas Azure Data Engineer lead. Employer JD and application page load. Data-pipeline engineering; JD lists 10+ years in its skills section and at least 5 years of pipeline engineering in detailed requirements. Excluded on experience. No confirmed post-May 2027 start or STEM OPT terms; no authorization conclusion needed for the exclusion."
+      },
+      {
+        "id": "Harvey-28b62bdc-3d36-47eb-980d-4f52455cc3f2",
+        "source": "https://jobs.ashbyhq.com/harvey/28b62bdc-3d36-47eb-980d-4f52455cc3f2",
+        "result": "New surfaced Dallas listing; the exact employer JD and apply page could not be verified. A secondary copy describes legal customer onboarding and training and a law degree. The separately accessible official San Francisco requisition was not treated as Dallas evidence. No promotion or data change."
+      }
+    ],
+    "coverage": "Incremental discovery and targeted verification; counts refer to individually documented distinct leads."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-14T1509-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-14T20:25:57Z"
+  }
+}
