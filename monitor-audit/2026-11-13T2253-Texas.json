@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-14T04:53:31Z",
+  "checkedAt": "2026-11-14T04:54:13Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9a6fb5f3af5c7cbbb466a0dcef2b4523ab128c97",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T2135-Texas.json",
+      "sha": "5945e42a480464cacf81735705d0f0b49a6a98a5",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-14T03:36:56Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "95a20201068426a5e92b5838fe7d8f7295cbca1c",
+      "head": "b45fc1b69a55d0119eb4ef264003093e75ec2878",
+      "listingCommits": [
+        "b45fc1b69a55d0119eb4ef264003093e75ec2878",
+        "4c8355254e9b59d74d23c147f93483092578bd28"
+      ],
+      "result": "README blob unchanged (afc262ad8c5c9eb90797129573cc658a3d79c1d0); compare response returned no changed-file details, so listings deltas could not be confirmed."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at ea2a85cb9881c79150df713f4021327bf16d33a6",
+      "Dallas/Austin market indexes and official employer searches"
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "FoxEyes-Plano-Junior-AI",
+        "source": "https://www.indeed.com/viewjob?jk=4fef9bb885c462b9",
+        "result": "Previously unreviewed Plano lead, computer vision/medical image software for surgical robotics. Secondary copy quotes $40–60K and another mirror marks it closed. Exact employer JD, live application, post-May 2027 start, experience and OPT/STEM OPT were not verified; no clear Ryan upgrade."
+      },
+      {
+        "id": "ERCOT-ODP",
+        "source": "https://www.ercot.com/careers/programs/odp",
+        "result": "New Austin-area development-program search result. Official program description confirms entry-level electric-grid control-room operations and operator certification, outside applied AI/ML/data science. No exact requisition verified or data amended."
+      },
+      {
+        "id": "MyFunded-Futures-4390595009",
+        "source": "https://job-boards.greenhouse.io/myfundedfutures/jobs/4390595009",
+        "result": "Known Plano junior ML role. Exact employer ATS redirects to the general board with an error; no verified reopening or change to existing rejection."
+      },
+      {
+        "id": "Wipro-Junior-FDE",
+        "source": "https://careers.wipro.com/job/Junior-Forward-Deployed-Engineer/160018-en_US/",
+        "alternateSource": "https://careers.wipro.com/job/Junior-Forward-Deployed-Engineer/160017-en_US",
+        "result": "Rechecked known program and alternate employer posting. Official description for 160017 includes Plano and asks for 0–2 years for applied AI client deployment. No confirmed post-May 2027 start or OPT/STEM OPT; no new evidence of a clear upgrade over Ryan or change to existing decision."
+      }
+    ],
+    "coverage": "Incremental feeds and targeted official-page checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-13T2253-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-14T03:36:56Z"
+  }
+}
