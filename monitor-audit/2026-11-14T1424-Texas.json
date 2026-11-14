@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-14T20:24:36Z",
+  "checkedAt": "2026-11-14T20:25:47Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "bba90797fcece576b0a7cd0bb4665457e4e47fbd",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-14T1329-Texas.json",
+      "sha": "302ffc02725e1615866072d8044762043ae09812",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-14T19:31:30Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main; no repository workflow files, Pages deployment is not a job scraper."
+    },
+    "publishedPages": "Public Pages URL reads were unavailable via web retrieval; both source HTML files were verified on GitHub main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "5c8105e5800e5411a3ff79a37e8f18f5bfb4e33f",
+      "head": "6d509287851083754b5b345991944a5574a87a9f",
+      "listingCommits": [
+        "14df00c99c23a02c219e669365ea8b733be81e97",
+        "939273ae90acb63a8ae4bc314b9550271368596d"
+      ],
+      "result": "No added README line naming target Texas markets; raw listings.json blob changed, but the connector did not return readable contents."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at cf37bc07f70df7f5c475909dd97c26f34b45871c",
+      "Targeted Dallas/Austin searches and employer sources; NGJ used for lead discovery only."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "AMD-95846",
+        "source": "https://careers.amd.com/careers-home/jobs/95846?lang=en-us",
+        "result": "New Austin data scientist lead. Indexed employer JD identifies PC power/thermal telemetry, system performance tuning and work adjacent to firmware and hardware. Outside scope regardless of title and pay. JD states no visa sponsorship without resolving role-specific OPT/STEM OPT. Post-May 2027 start and minimum years not established; indexed Apply label does not establish working application because direct web read failed."
+      },
+      {
+        "id": "ERCOT-System-Operator-Development-Program",
+        "source": "https://www.ercot.com/careers/programs/odp",
+        "result": "New adjacent Austin early-career lead. Official program description centers on grid operations, certification and control-room training, outside applied AI/ML/data science. Program page does not verify a live individual application, start date or work-authority terms."
+      },
+      {
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Existing Austin junior ML listing. Official JD and application form visible, with 0–2 years and applied ML work; explicitly requires U.S. citizenship and eligibility for a Secret clearance. No change to prior rejection."
+      }
+    ],
+    "coverage": "Incremental discovery and targeted employer verification; counts refer to the individually documented leads."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-14T1424-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-14T19:31:30Z"
+  }
+}
