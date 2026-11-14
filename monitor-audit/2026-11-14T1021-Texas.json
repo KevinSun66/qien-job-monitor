@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-14T16:21:20Z",
+  "checkedAt": "2026-11-14T16:22:45Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "543b8569668b23fb4822eaa2cdb39be3b54a87f4",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-14T0919-Texas.json",
+      "sha": "115f09727c89d0793f8c51e0dc5ae24f56462126",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-14T15:20:30Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main; no repository workflow files, Pages deployment is not a job scraper."
+    },
+    "publishedPages": "Public Pages URL reads were unavailable via web retrieval; both source HTML files were verified on GitHub main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "f48f400dc8a465bf7ff2d0d31f93530aa65afc57",
+      "head": "acfd8dd6f883cfbb86d7d92f3a1040a143688097",
+      "listingCommits": [
+        "93fbb128d128695ba74c49e832f8f94f64cc6ab7",
+        "a4231af0b2fb412287172a345c4ca7b348ec2abc"
+      ],
+      "result": "No added README line naming the monitored Texas markets; raw listings.json blob changed but connector did not render contents."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 7b090488bafd7b47eb899c380bfaaf135aba2cfd",
+      "Targeted employer and regional searches; Metaintro used for discovery only."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "FCA-892168800",
+        "source": "https://www.usajobs.gov/job/892168800",
+        "alternateAnnouncement": "https://www.usajobs.gov/job/892168600",
+        "result": "One position represented by public and alternative hiring-path announcements. Official public announcement shows accepting applications with Irving among locations. Production ML/Databricks, RAG and agent duties are relevant, but U.S. citizenship is mandatory and the lowest advertised grade requires one year of specialized experience at GS-11 equivalent. No confirmed post-May 2027 start. Excluded."
+      },
+      {
+        "id": "Brillio-108934506",
+        "source": "https://jobs.smartrecruiters.com/BrillioInc/108934506-data-scientist-r-modeller",
+        "result": "New surfaced full-time R Modeller lead. Employer ATS JD requires 2+ years each in R and statistical analysis, which exceeds the allowed minimum. Customer support and troubleshooting dominate the responsibilities. Irving metadata is secondary; current apply availability, post-May start and OPT/STEM OPT not independently confirmed. Excluded."
+      },
+      {
+        "id": "AppliedMaterials-R2627684",
+        "source": "https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/Data-Scientist-New-College-Grad--Bachelor-s-Master-s--Austin--TX-_R2627684",
+        "result": "Existing Austin rejection resurfaced. Fresh official Workday open produced no readable text; no verified status change. Standing archive describes logistics data infrastructure and no clear Ryan upgrade."
+      }
+    ],
+    "coverage": "Incremental and targeted. Counts reflect distinct leads individually documented; two FCA announcement numbers counted once."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-14T1021-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-14T15:20:30Z"
+  }
+}
