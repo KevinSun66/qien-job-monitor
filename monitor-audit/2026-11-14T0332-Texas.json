@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-14T09:32:48Z",
+  "checkedAt": "2026-11-14T09:33:28Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "7ce550e84f86dae72d07ab42ffcbd29a87780a5f",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-14T0241-Texas.json",
+      "sha": "9b48ad5f14a468a5c15339120c045eed2a7469b3",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-14T08:42:30Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "6bd56a1020c0ab94da24bc8d9cc9d293266e396d",
+      "head": "53cda9ce43d211443ad0ff0fef07ced25e778617",
+      "listingCommits": [
+        "aa1badcaf336d8d64839b4dba7365522ce35178f",
+        "2025398995f4b192660a3997ed6b34da76babbc7"
+      ],
+      "result": "README comparison found no added or removed lines naming checked Dallas/Austin market cities. listings.json patch was not returned."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at eba4fbe03af725577a1161ce308b54827156a678",
+      "Dallas/Austin market indexes and targeted employer searches"
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "SHI-JR3649",
+        "source": "https://shi.wd12.myworkdayjobs.com/shicareers/job/Austin-TX-USA/Associate-Analytics-Engineer---Data---Visualization_JR3649",
+        "result": "Existing Austin experience and opportunity-cost rejection. Indexed first-party JD covers BI/reporting/data models and asks for 1–2 years of relevant experience; direct ATS did not expose current application. No verified qualifying start, OPT/STEM OPT or material upgrade."
+      },
+      {
+        "id": "AAA-JR202640038",
+        "source": "https://ace.wd5.myworkdayjobs.com/careers/job/Coppell-TX/Data-Scientist-1_JR202640038",
+        "result": "Previously reviewed Coppell hybrid internal analytics lead. Official vacancy still inaccessible; mirrors disagree on deadline/pay and do not confirm live application, experience, 2027 start or OPT/STEM OPT. No verified change."
+      }
+    ],
+    "coverage": "Incremental feeds and targeted employer spot checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-14T0332-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-14T08:42:30Z"
+  }
+}
