@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-14T10:34:09Z",
+  "checkedAt": "2026-11-14T10:34:53Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "809eb6ecc0d7b813750d840d5abd9c0bdf882f16",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-14T0332-Texas.json",
+      "sha": "43d968fd2bbed461c1f5e15a877f0f477704f2db",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-14T09:33:40Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "53cda9ce43d211443ad0ff0fef07ced25e778617",
+      "head": "cea667f20db634f08173042d97c5d5df6ec41569",
+      "listingCommits": [
+        "fc691e767cd0253f91608bd2b797d1f8ffbda174",
+        "7e10571d035287fe293d5031d0e8e6547dd1bba6"
+      ],
+      "result": "README comparison found no added or removed lines naming checked Dallas/Austin market cities; listings.json patch unavailable."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at eba4fbe03af725577a1161ce308b54827156a678",
+      "Regional junior job searches and direct employer ATS checks"
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Arm-2026-18591",
+        "source": "https://careers.arm.com/en/job/austin/machine-learning-engineering-intern-ms-phd/33099/103250201872",
+        "result": "New Austin search lead, official posting November 13 with Apply visible. Graduate-level internship with ML compute duties; outside full-time graduate employment scope. Excluded without inferring authorization or 2027 start."
+      },
+      {
+        "id": "IEM-4327741009",
+        "source": "https://job-boards.greenhouse.io/industrialelectricmanufacturing/jobs/4327741009",
+        "result": "Existing Austin authorization rejection; first-party AI prototyping/adoption JD and application form visible. Form asks for unrestricted work authorization without present or future sponsorship; no change to recorded decision, and OPT/STEM OPT and eligible start not confirmed."
+      },
+      {
+        "id": "Applied-Materials-R2627684",
+        "source": "https://jobs.appliedmaterials.com/job/austin/data-scientist-new-college-grad-bachelor-s-master-s-austin-tx/95/101122186592",
+        "result": "Existing Austin opportunity-cost rejection. Careers URL still 404, while alternate first-party Workday URL exposes no readable JD/application. Cached description is logistics data engineering; no verified opening/closure change or new start or authorization evidence."
+      }
+    ],
+    "coverage": "Incremental feeds and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-14T0434-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-14T09:33:40Z"
+  }
+}
