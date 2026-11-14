@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-14T12:47:03Z",
+  "checkedAt": "2026-11-14T12:49:06Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "438f923bc58b14788d4b8032758cc523570009f8",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-14T0524-Texas.json",
+      "sha": "0bd5707c8c87164090c3517e9284e43bb81b964f",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-14T11:25:07Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main; no repository workflow files, Pages deployment is not a job scraper."
+    },
+    "publishedPages": "Public Pages URL reads were unavailable via web retrieval; both source HTML files were verified on GitHub main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "9b25b616ea40b6fb47c82853fae00dfe97874857",
+      "head": "6264e99acf82fa12a51aad16917d3f39c6e5e590",
+      "listingCommits": [
+        "b193e660ae38ce8dda381cf9b975e5761ad29f48",
+        "b740c3b235061394b77feb17c63e51c3fd19d55a"
+      ],
+      "result": "Compared both README snapshots; no changed line named the monitored Texas markets. Did not verify raw listings.json changes."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README current blob 61d66a17a7eb99c1e630c9dbc7fd24495502baf0; reviewed Texas lines; prior blob could not be read as a commit ref.",
+      "Targeted regional indexing (including Aplyr and Second Summit) and official employer job boards."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Senseye-56F6BB2046",
+        "source": "https://apply.workable.com/j/56F6BB2046",
+        "secondarySource": "https://www.employbl.com/jobs/ai-engineer-senseye-1874045",
+        "result": "New Austin AI Engineer lead. Employer ATS unavailable through retrieval; open status, post-May start and role-level OPT/STEM OPT not confirmed. Repost describes clinical diagnostic modeling and MS/PhD or equivalent evidence. Hold, no verified qualification or Ryan upgrade."
+      },
+      {
+        "id": "LockheedMartin-996477837890",
+        "source": "https://lockheedmartin.eightfold.ai/careers/job/996477837890",
+        "secondarySource": "https://www.olive.jobs/job/pst_1e658bdfce7c3902",
+        "result": "New Fort Worth Operations AI Engineer early-career lead. Employer ATS title resolved but complete job text and actionable application not verified. Secondary copy reports mandatory U.S. citizenship and Secret clearance; do not promote or infer sponsorship from company-level badges."
+      },
+      {
+        "id": "SelfFinancial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Existing citizen/PR rejection. Official Austin JD and application form visible; 0–2 years and predictive lending models in production; explicitly limits candidates to U.S. citizens/permanent residents. No change."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing record. Employer JD still lists Austin, September 6, 2027 start and applied ML, with no professional-year minimum; it requires work without sponsorship and does not confirm OPT/STEM OPT. Apply redirect target could not be read; no verified closure or other change."
+      },
+      {
+        "id": "Adobe-R172085",
+        "source": "https://careers.adobe.com/us/en/job/ADOBUSR172085EXTERNALENUS/2027-University-Graduate-Machine-Learning-Engineer",
+        "result": "Existing record. Adobe index lists Austin; employer JD describes production modeling, 0–2+ years and MS/PhD or equivalent. Degree equivalence, actual start, OPT/STEM OPT and live ATS application not confirmed. No change."
+      },
+      {
+        "id": "SambaNova-6240725004",
+        "source": "https://job-boards.greenhouse.io/sambanova/jobs/6240725004",
+        "result": "Existing Austin New Grad ML lead resurfaced in secondary sources. Employer ATS JD did not render; role-level OPT/STEM OPT and post-May 2027 start remain unconfirmed. No change."
+      }
+    ],
+    "coverage": "Incremental discovery and targeted verification; counts refer to distinct leads individually documented above, not total search results."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-14T0647-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-14T11:25:07Z"
+  }
+}
