@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-14T13:42:17Z",
+  "checkedAt": "2026-11-14T13:43:47Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "1b99ae7f2200dfd88a20b1571965f1867ae278ad",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-14T0647-Texas.json",
+      "sha": "d8e53fd68a256a99cd2f5e45d488dc1ea8e87608",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-14T12:49:20Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main; no repository workflow files, Pages deployment is not a job scraper."
+    },
+    "publishedPages": "Public Pages URL reads were unavailable via web retrieval; both source HTML files were verified on GitHub main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "6264e99acf82fa12a51aad16917d3f39c6e5e590",
+      "head": "dcde2feb41590d241ea68f67b6859a4adbdbecfc",
+      "listingCommits": [
+        "dcde2feb41590d241ea68f67b6859a4adbdbecfc",
+        "f6e6fe22ced8958e51eb6abc0f69d750b39a4098"
+      ],
+      "result": "README and .github/scripts/listings.json blob SHAs are identical at the prior and current refs, despite two intervening commits."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README blob unchanged: 61d66a17a7eb99c1e630c9dbc7fd24495502baf0",
+      "Targeted regional search, employer pages, Dallas Aplyr and Austin Second Summit"
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "LockheedMartin-996477853201",
+        "source": "https://lockheedmartin.eightfold.ai/careers/job/996477853201",
+        "result": "New surfaced junior A/AI Software & Systems Architect lead for the DFW market. Employer ATS returned the title but not readable JD/application. Third-party locality and remote metadata do not verify the applicable location, minimum experience, post-May-2027 start, authorization, or duties. No verified Ryan upgrade."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing Austin graduate role resurfaced via university repost. Employer JD still advertises September 6, 2027 start, bachelor/master, applied ML, and no mandatory professional years, but requires eligibility to work without sponsorship. No new OPT/STEM OPT confirmation or change to application status."
+      },
+      {
+        "id": "SambaNova-6240725004",
+        "source": "https://sambanova.ai/company/careers/job-openings?gh_jid=6240725004",
+        "result": "Existing Austin New Grad ML role resurfaced. Official employer careers shell resolved, without visible requisition text or application form. Post-May start and role-specific OPT/STEM OPT remain unconfirmed."
+      },
+      {
+        "id": "AppliedMaterials-R2627684",
+        "source": "https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/Data-Scientist-New-College-Grad--Bachelor-s-Master-s--Austin--TX-_R2627684",
+        "result": "Existing Austin opportunity-cost rejection resurfaced. Employer page did not render readable text on fresh open; indexed material does not establish a newly changed status or upgrade over Ryan's offer. Prior archive describes logistics data platforms/ETL rather than core applied modeling."
+      }
+    ],
+    "coverage": "Incremental discovery and targeted verification; counts refer to distinct leads documented here."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-14T0742-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-14T12:49:20Z"
+  }
+}
