@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-14T11:24:11Z",
+  "checkedAt": "2026-11-14T11:24:55Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "2a839af96739c74b3c2aec45426a971e9565d1f8",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-14T0434-Texas.json",
+      "sha": "5e076682bd09250ee2ad103fe1f07ca55a41ef22",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-14T10:35:05Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "cea667f20db634f08173042d97c5d5df6ec41569",
+      "head": "9b25b616ea40b6fb47c82853fae00dfe97874857",
+      "listingCommits": [
+        "71309bdd13fdd258f1ba5a6b385f2fe632294937"
+      ],
+      "result": "Compared both README snapshots; no changed line named the checked Dallas/Austin market cities. Comparison did not return the listings.json patch."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at eba4fbe03af725577a1161ce308b54827156a678",
+      "Targeted regional searches and employer ATS pages"
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "PMG-8587050002",
+        "source": "https://job-boards.greenhouse.io/pmg/jobs/8587050002",
+        "result": "Separate Dallas full-time graduate AI/software track, first reviewed here. Employer JD and form visible; full-time applied software and AI agent development, no mandatory professional year count seen. January 11, 2027 start fails the post-May requirement. No sponsorship stated; no OPT/STEM OPT confirmation."
+      },
+      {
+        "id": "Brunswick-8821383002",
+        "source": "https://job-boards.greenhouse.io/brunswickgroup/jobs/8821383002",
+        "result": "Existing Dallas verification watch. Employer JD and application visible for LLM application development; asks for hands-on experience without a numerical minimum in the text reviewed. No new confirmation of graduate eligibility, post-May start, OPT/STEM OPT or overall Ryan upgrade."
+      },
+      {
+        "id": "Graphcore-8893623002",
+        "source": "https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8893623002",
+        "result": "Existing Austin direction rejection. Employer JD and form still visible; scope is server/rack hardware validation and firmware integration. No change to decision."
+      }
+    ],
+    "coverage": "Incremental feed comparison and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-14T0524-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-14T10:35:05Z"
+  }
+}
