@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-14T06:54:45Z",
+  "checkedAt": "2026-11-14T06:55:35Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "8616d33f97ec393a8945a94d6010978ba3d6f935",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-13T2346-Texas.json",
+      "sha": "1f1acecd32d2b4991d0d49ae4260aef50265df72",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-14T05:47:46Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main"
+    }
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "246f79dfc95c432e82653f027d7afb8194969bc7",
+      "head": "4c40ed9417aacd370d1b94fb18ebac221dce27b5",
+      "listingCommits": [
+        "85ec003b4129d0fb82b66daf07d1bd878377c46a",
+        "d64363c9be78fcbe697b99b54e9cb4a6b8508e09"
+      ],
+      "result": "Direct README comparison found no changed lines naming the Dallas/Austin market cities checked. listings.json changed but the comparison did not return its patch."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 updated to eba4fbe03af725577a1161ce308b54827156a678; Texas rows checked, no new requisition identified there.",
+      "Targeted Dallas/Austin graduate, applied AI and employer searches"
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "AAFES-C1-001172-2026",
+        "source": "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&jobid=3397922&partnerid=25212&siteid=6059",
+        "result": "Official AAFES ATS displays a Dallas HQ regular full-time applied AI/data science JD and Quick Apply button. Bachelor’s path requires three years in AI deployment; alternate route requires five. Fails experience gate; qualifying start and OPT/STEM OPT not confirmed."
+      },
+      {
+        "id": "Deloitte-Agentic-AI-Healthcare",
+        "source": "https://www.themuse.com/jobs/deloitte/agentic-ai-engineer-healthcare-ai-2a44d4",
+        "result": "Newly screened secondary search result for a Dallas/Austin-capable healthcare agentic AI build. Exact live employer listing and application were not established, nor qualifying experience, start and OPT/STEM OPT. No addition."
+      },
+      {
+        "id": "Southwest-R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "Existing closed-watch lead resurfaced in a syndicated copy mentioning 2027 cohorts and entry-level data science duties. Official vacancy still returned HTTP 410 and no distinct active Dallas requisition was verified. No status change."
+      }
+    ],
+    "coverage": "Incremental comparison and targeted employer checks; not exhaustive."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-14T0054-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-14T05:47:46Z"
+  }
+}
