@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-15T17:07:19Z",
+  "checkedAt": "2026-11-15T17:09:16Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "ddbe089019ed7769b44523494fac599c5889f33f",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-15T0924-Texas.json",
+      "sha": "ed12c3fa30e51d5d9a6754fec9b9826faab766e6",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-15T15:27:25Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "Contents API 404 on readable main; no checked-in workflow at that path. Pages deployment is not a job scraping workflow."
+    },
+    "publishedPages": "Tried both live URLs; public retrieval could not access them. Verified Dallas index.html and Austin austin.html source on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "24d7165474f356d4eaa02f354f0b742b15771c81",
+      "head": "6c3a526d4285e5d2bfb88822aaa24425351d1674",
+      "listingCommits": [
+        "6c3a526d4285e5d2bfb88822aaa24425351d1674",
+        "3abebbcafcced2241d087ef7180d992446d6f04b",
+        "f6d8138a4d2a824cdcba0c1083ef5b1a5d188088",
+        "b6356bf5451877fdfc373f06b61b90dd9643a389"
+      ],
+      "result": "README 805178 characters before and after, no added lines after normalizing rolling ages. Raw list blob changed from 7f8e872345ab9dd64d9e07b63526a7e1183b6a14 to 04ff35eacbbae05203606ddba0d81cb780fafa13; connector returned no readable content, so raw differences could not be reviewed."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (560d5cf3331bb8372f546a6373d8b8b429abc8e6).",
+      "EarlyTechRoles Texas data and Austin new-grad indexes, targeted Dallas/DFW and Austin web searches, and relevant employer careers or ATS pages."
+    ],
+    "newTexasLeadsReviewed": 4,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Gartner-112849",
+        "source": "https://jobs.gartner.com/jobs/job/112849-data-analyst-2026-2027-graduates/",
+        "result": "Untracked lead. Indexed employer description names Irving or Stamford, accepts internship or academic analytics experience, and requires U.S. authorization without stating OPT/STEM OPT compatibility. Duties center on product/business analytics. Careers page returned 404; Workday provided no readable detail or open application. Post-May start and substantial improvement over Ryan not verified."
+      },
+      {
+        "id": "Samsung-R121061",
+        "source": "https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/Engineer-I--Data-Engineering_R121061",
+        "result": "Untracked lead. Indexed employer JD places the role in Plano and requires three years of experience in listed analytics, modeling and ETL skills; it exceeds the experience cap. Direct page did not render readable application content; no verified post-May start or OPT/STEM OPT terms."
+      },
+      {
+        "id": "LPL-R-052493-1",
+        "source": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/New-Grad---2027---Data-Engineering_R-052493-1",
+        "result": "Untracked lead. Discovery copy shows Austin among locations, graduate intake, and data platform/ETL duties. Employer JD was inaccessible and employer Apply endpoint had no readable content. Actual opening, precise work authorization, a post-May start and a clear upgrade over Ryan were not verified."
+      },
+      {
+        "id": "GM-JR-202621452",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202621452/staff-data-scientist-ai-engineering-productivity/",
+        "result": "Untracked search hit. Current employer JD lists Austin among locations, requires eight or more years plus leadership experience, and excludes employer assistance for OPT/STEM OPT. Staff AI/DS is ineligible under experience and work authorization; no need to infer 2027 start."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing requisition: employer JD still shows Apply and ATS posting remains readable. Austin, September 6 2027 start, no professional minimum, product ML. Authorization without sponsorship remains stated; no new STEM OPT support evidence. No verified change."
+      },
+      {
+        "id": "GM-JR-202616534",
+        "source": "https://search-careers.gm.com/es/trabajos/jr-202616534/data-scientist/",
+        "result": "Existing experience/visa rejection. English page returned 404 but another official locale renders the JD and Workday link. Three-year minimum and explicit OPT/STEM OPT employer-support exclusion remain. Conflicting availability is not verified closure."
+      },
+      {
+        "id": "PwC-52926177EIB",
+        "source": "https://pwc.wd3.myworkdayjobs.com/en-US/US_Entry_Level_Careers/job/Digital-Assurance---Transparency--DAT----Artificial-Intelligence---Associate---Summer-Fall-2027_52926177EIB",
+        "result": "Existing opportunity-cost rejection. Employer endpoint had no readable content; no new verified start, terms, application availability or role improvement."
+      },
+      {
+        "id": "Cigna-26010465",
+        "source": "https://cigna.wd5.myworkdayjobs.com/en-US/CIGNACAREERS/job/Bloomfield-CT/Technology-Development-Program--TECDP----Artificial-Intelligence-Track---Start-Date--July-12--2027_26010465",
+        "result": "Existing authorization rejection. Indexed employer JD names Austin, AI development rotation, and July 12 2027. Direct rendering unavailable; secondary closed label alone is insufficient to change the record. No new OPT/STEM OPT evidence."
+      }
+    ],
+    "coverage": "Incremental; lead counts refer to distinct requisitions documented here, and untracked does not imply a newly posted role."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-15T1107-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-15T15:27:25Z"
+  }
+}
