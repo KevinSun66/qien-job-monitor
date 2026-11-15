@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-15T23:06:37Z",
+  "checkedAt": "2026-11-15T23:08:31Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "f9160195eae90f309c681c623c47f5d1f58e65dd",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-15T1516-Texas.json",
+      "sha": "e7e2da0d6224c30bb3e7a6d2009a8869cb71f5bf",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-15T21:18:00Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable public main. No checked-in workflows found. Pages deployments do not count as job scraping."
+    },
+    "publishedPages": "Public Dallas and Austin Pages endpoints could not be retrieved; both HTML source files were verified on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "abb69e62a29563f981fd9a75b43339befdf83e04",
+      "head": "5d69262e9e4dd52a0d41885cafd866e3609cb7a3",
+      "listingCommits": [
+        "ce4d5e1b423dc58fcda59d37983d4c447dab8a9a",
+        "3fd3fd3e5ea1f4a613b3e1d3cbb6204c0dd2372f",
+        "96f6728adc31b699d1a230588c67afc57c676544",
+        "b08aaebd1c58326a346c685944346a01da331627"
+      ],
+      "result": "README changed from c9b5cd790e11b422bb3747557dc6e2e4ae060ec2 to 373a723ebca5fdea6824e550deb76bd68dfd7844, with no added monitored-metro rows after age normalization. Raw list changed to 6e7a2e82bb4a38ec6e464750fd57eb11b0ba83ae; file body was not readable through the connector."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README moved from d84b796dc128b911101797efdb7c41d315066328 to 1a7d296e3a525f3af0f65e5f0f6460f95d30ec78; local rows identified Apple CAD, Vistra and Self Financial, with repeat rows deduplicated and Arlington VA excluded.",
+      "ApplyGuy 2027 list and targeted Austin/DFW queries then official ATS/JDs."
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "nonTexasLeadsReviewed": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Apple-200694953-0157",
+        "source": "https://jobs.apple.com/en-us/details/200694953-0157/cad-automation-and-ml-engineer?team=HRDWR",
+        "result": "Employer-indexed Austin hardware listing: ML/LLM tools support chip design and silicon IP; title is not an applied AI product role under the existing scope. Direct rendering timed out. No verified open application, 2027 start or OPT/STEM OPT support. Excluded for silicon CAD focus."
+      },
+      {
+        "id": "CleanSlate-4618996",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4618996",
+        "result": "Austin Associate Data Engineer lead from ApplyGuy, with distinct requisition ID. Exact employer ATS could not be retrieved, so role details, open status, experience, post-May start and authorization cannot be confirmed. No clear Ryan upgrade verified."
+      },
+      {
+        "id": "CleanSlate-4309579",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4309579",
+        "result": "Separate Austin-eligible Data Engineer requisition. Indexed ATS text describes consulting data platforms and a 2+ year minimum. Direct employer endpoint redirected to Job Not Found. No qualifying opening or verified authorization/start."
+      },
+      {
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Existing Austin Associate AI/ML role. Official JD and Apply are visible; foundational coursework, internships or projects are accepted and client AI/ML and GenAI duties align. No confirmed 2027 start, OPT/STEM OPT provisions or improvement over Ryan; no verified status change."
+      },
+      {
+        "id": "Vistra-40016531",
+        "source": "https://vst.wd5.myworkdayjobs.com/en-US/vistra_careers/job/Irving-Texas/Data-Scientist_40016531-1",
+        "result": "Previously recorded Irving education rejection. Exact official ATS not retrievable; copy reports an advanced degree and 1–3 years. No new verified qualification or opening evidence."
+      },
+      {
+        "id": "Self-Financial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Previously recorded Austin rejection. Employer JD and application form still show credit/lending ML, 0–2 years, and express citizen/permanent-resident-only eligibility."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing Austin graduate hire. Official JD still displays Apply, September 6, 2027, no professional-years minimum, and product data science. Authorization without sponsorship remains stated; no new STEM OPT evidence or status change."
+      },
+      {
+        "id": "NewsBreak-4694899006",
+        "source": "https://job-boards.greenhouse.io/newsbreak/jobs/4694899006",
+        "result": "Employer form and AI growth new-grad JD name Mountain View, CA; outside scope."
+      },
+      {
+        "id": "Bot-Auto-5371947008",
+        "source": "https://job-boards.greenhouse.io/botauto/jobs/5371947008?gh_src=my.greenhouse.search",
+        "result": "Employer form and deep-learning new-grad JD require Houston on-site; outside Dallas/Austin."
+      }
+    ],
+    "coverage": "Incremental. Counts reflect distinct documented leads, not all hits; new leads are not necessarily newly posted."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-15T1706-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-15T21:18:00Z"
+  }
+}
