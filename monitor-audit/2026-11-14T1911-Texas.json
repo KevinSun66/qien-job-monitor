@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-15T01:11:38Z",
+  "checkedAt": "2026-11-15T01:12:47Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "7637c91a0df0798eec476cc665c1c4c5137fbd7f",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-14T1814-Texas.json",
+      "sha": "a1e644541c505c3a1dba5ad59e63163894af1823",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-15T00:15:56Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main; no repository workflow files, Pages deployment is not a job scraper."
+    },
+    "publishedPages": "Public Pages URL reads were unavailable via web retrieval; both source HTML files were verified on GitHub main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "e34e55e903f84b023c8979981ca7ad0524857b19",
+      "head": "3eda545c9c19ec3891c2c65e9ac3aba5f42dde75",
+      "listingCommits": [
+        "3eda545c9c19ec3891c2c65e9ac3aba5f42dde75",
+        "134df84743c9c27aa9a22f495b9b34a7e2717f1d"
+      ],
+      "result": "Compared prior and current refs. README and listings.json blob SHAs are unchanged."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 unchanged README blob 5bda4d369c6d78c24d1f5c3c25fefee24d657b1e",
+      "Targeted Dallas/Austin searches, metro indexes and employer sources."
+    ],
+    "newTexasLeadsReviewed": 4,
+    "existingOrPreviouslySeenLeadsRechecked": 0,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "JPMC-210806312",
+        "source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210806312",
+        "result": "New Plano payments analytics lead. Indexed employer JD puts 3+ years of general experience under required qualifications; the separate 3+ years of payments industry experience is preferred. Duties center on pricing and portfolio analytics. Excluded on experience. Live form, post-May start and OPT/STEM OPT policy not verified."
+      },
+      {
+        "id": "UTSW-968590",
+        "source": "https://utsw.taleo.net/careersection/2/jobdetail.ftl?job=968590",
+        "result": "New Dallas biomedical research analytics lead. Indexed employer JD requires six years of post-graduation experience with a bachelor's, four with a master's or two with a doctorate. Direct apply not verified. Excluded on experience; post-May start and role-specific authorization not confirmed."
+      },
+      {
+        "id": "JPMC-210800587",
+        "source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210800587",
+        "result": "New Plano Process Intelligence Analytics lead. Indexed employer JD specifies 1–3 years and applied analytics/research; not verified as a 0–2 year new-grad track. Direct site did not render a live application. Post-May start, OPT/STEM OPT and a clear upgrade over Ryan are unconfirmed."
+      },
+      {
+        "id": "JPMC-210805153",
+        "source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210805153",
+        "result": "New Plano Small Business Product senior associate lead. Indexed official JD requires 3–5 years of analytics experience and describes product analytics with AI. Excluded on experience. Direct live form, post-May start and work authorization not verified."
+      }
+    ],
+    "coverage": "Incremental and targeted; counts refer to individually documented distinct leads."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-14T1911-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-15T00:15:56Z"
+  }
+}
