@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-15T21:16:00Z",
+  "checkedAt": "2026-11-15T21:17:47Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "51cd398373140821f573b046c24c03e3d60db9e4",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-15T1431-Texas.json",
+      "sha": "24421ccb52cc1653ba3082031d358321edb30328",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-15T20:33:11Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable main. No checked-in workflow found at this path; a Pages deployment is not job scraping."
+    },
+    "publishedPages": "Both public URLs were attempted and not accessible via retrieval; Dallas and Austin main HTML sources were read."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "f9152ed9f9d2bd732cd996120f9045a7d3819790",
+      "head": "abb69e62a29563f981fd9a75b43339befdf83e04",
+      "listingCommits": [
+        "4f162d7cfca377f992da02e0ac6b693a3ba2ce22",
+        "7bf7de05666f27c2528ee3cc9987aaea873804aa"
+      ],
+      "result": "README changed from bc2e050819376a2d3e8ad1199d5a2f4bd0e8320b to c9b5cd790e11b422bb3747557dc6e2e4ae060ec2; after normalizing ages, no newly added lines in the monitored metros. Raw list SHA changed to a7bdd18a45e3812bc7373287d97585b0337b0c94; body unavailable via connector."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (d84b796dc128b911101797efdb7c41d315066328).",
+      "Dallas/DFW and Austin targeted searches and an Austin regional index; exact employer job pages where available."
+    ],
+    "newTexasLeadsReviewed": 4,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Hicks-14917",
+        "source": "https://career-portal.hickspro.com/jobs/14917",
+        "result": "Official staffing listing: Irving onsite 12-month contract for an agentic-services data scientist; listed estimated start November 9, 2026. Technical qualifications include 2+ years Python. Actual open application and OPT/STEM OPT were not established. Start and contract scope disqualify it."
+      },
+      {
+        "id": "Sony-6147057004",
+        "source": "https://careers.playstation.com/data-engineer/job/6147057004",
+        "result": "Official Austin data engineer JD with Apply link; production data pipelines and infrastructure-finance analysis require 3+ years in a similar role. No verified post-May start or OPT/STEM OPT compatibility; experience disqualifies it."
+      },
+      {
+        "id": "Thatch-4944171008",
+        "source": "https://thatch.com/jobs/data-scientist-growth-marketing-4944171008",
+        "result": "Official hiring form and JD list Austin among locations with growth experimentation, dbt, metrics and reporting. No numeric floor on current JD, but job is not designated a 2027 graduate role. No verified post-May start, OPT/STEM OPT support or clear upgrade over Ryan."
+      },
+      {
+        "id": "West-Monroe-6167515004",
+        "source": "https://www.westmonroe.com/careers/job-details-students?gh_jid=6167515004",
+        "result": "Dallas campus consulting lead. Copies show early-career data/AI consulting and list OPT in the unrestricted-authorization clause as an exclusion. Employer link and checked ATS route were unavailable, so exact live status, start and authorization cannot be verified on the official JD. No demonstrated upgrade."
+      },
+      {
+        "id": "Thatch-5461158008",
+        "source": "https://thatch.com/jobs/data-scientist-product-5461158008",
+        "result": "Existing tracked rejection. Official page shows Austin among locations and a form, product analytics and experimentation. Current text asks for relevant experience but does not quantify a years minimum; no confirmed 2027 intake, OPT/STEM OPT support, post-May start or changed hiring status."
+      },
+      {
+        "id": "Gartner-113311",
+        "source": "https://gartner.wd5.myworkdayjobs.com/en-US/Ext/job/Irving-TX/Associate-Data-Scientist---Spring-2027-Master-s-level-graduates_113311",
+        "result": "Existing Irving education/experience rejection. Indexed employer title still requires spring 2027 master's graduates, and exact ATS was unreadable. No evidence of a bachelor's exception or verified hiring-status change."
+      },
+      {
+        "id": "GM-JR-202620428",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202620428/data-engineer-data-software-engineering-and-cloud-platforms-early-career/",
+        "result": "Existing authorization rejection. Official Austin early-career data engineering posting and Apply link are visible; explicit exclusion of employer support for OPT/STEM OPT remains."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing Austin product data science role. Official JD displays Apply, post-May start on September 6, 2027, and no required professional-years minimum. Authorization without sponsorship remains stated. No new STEM OPT support or status change."
+      }
+    ],
+    "coverage": "Incremental. Counts refer to distinct documented requisitions, not all search hits or necessarily newly posted roles."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-15T1516-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-15T20:33:11Z"
+  }
+}
