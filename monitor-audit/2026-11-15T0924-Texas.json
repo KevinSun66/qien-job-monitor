@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-15T15:24:23Z",
+  "checkedAt": "2026-11-15T15:27:12Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "ad228890b1c2c096a418d1a26b3436b7765bf019",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-15T0845-Texas.json",
+      "sha": "3b4b8cef113909fc017a266bd15fbc4f475f2270",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-15T14:46:17Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API gave 404 on readable main of public repository. This is not evidence of a Pages deployment or job scraper workflow."
+    },
+    "publishedPages": "Both live Pages URLs were tried but not accessible via public retrieval. Both source files were read and verified on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "0d09fa147b51cc54118c39aab4c0999862355d2a",
+      "head": "24d7165474f356d4eaa02f354f0b742b15771c81",
+      "listingCommits": [
+        "24d7165474f356d4eaa02f354f0b742b15771c81"
+      ],
+      "result": "Both README and raw listings blob SHAs match the previous run. Raw listings returned no readable content, so comparison of the raw list is by blob SHA only."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 560d5cf3331bb8372f546a6373d8b8b429abc8e6",
+      "Targeted Dallas/DFW and Austin public searches and employer careers/ATS reads."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Ericsson-787111",
+        "source": "https://jobs.ericsson.com/careers/job/563121776618027?domain=ericsson.com",
+        "result": "New discovery in the search sample, not a qualifying candidate. Employer-indexed JD places it in Plano, specifies a 12-week AI/Data Science internship starting May 25, 2027, and explicitly excludes F-1 CPT/EAD. Direct rendering did not establish live apply status. Outside required full-time and work-authorization scope."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing tracked requisition. Employer JD and employer ATS posting both display the role and application entry points; employer redirect with tracking could not be fetched, so end-to-end form was not verified. Austin full-time, September 6 2027, graduate entry with no minimum professional years, production/product ML and $114K plus RSUs. JD states authorization without sponsorship; no new STEM OPT support confirmation. No verified change or duplicate notice."
+      },
+      {
+        "id": "Kyndryl-R-66739",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739",
+        "result": "Existing rejected application. Indexed employer JD shows Dallas/Frisco, full-time applied AI/data, and 0–3 years; direct rendering gave no readable JD or live application verification. No verified change in hiring or application status, post-May start, or OPT/STEM OPT support."
+      },
+      {
+        "id": "Applied-Materials-R2627684",
+        "source": "https://jobs.appliedmaterials.com/job/austin/data-scientist-new-college-grad-bachelor-s-master-s-austin-tx/95/101122186592",
+        "result": "Existing opportunity-cost rejection. Official branded URL returned 404 and Workday endpoint gave no readable lines; older employer index still describes Austin full-time new-grad DS/analytics and a November 30 deadline. Conflicting evidence is insufficient for a definitive status change, and post-May start and specific OPT/STEM OPT support remain unverified."
+      },
+      {
+        "id": "Emerson-26013909",
+        "source": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013909",
+        "result": "Previously logged lead. Official employer index lists Austin hybrid applied AI testing/measurement; exact requisition gave no readable details or application status. Third-party copy reports exclusion of F-1 OPT/CPT, but the employer index's nearby visa text cannot be tied definitively to this exact requisition; post-May start, formal experience, and authorization remain unverified. No change."
+      }
+    ],
+    "coverage": "Incremental discovery and targeted verification; counts reflect distinct documented leads, not all search hits."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-15T0924-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-15T14:46:17Z"
+  }
+}
