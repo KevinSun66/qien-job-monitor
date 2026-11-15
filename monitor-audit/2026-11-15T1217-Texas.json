@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-15T18:17:25Z",
+  "checkedAt": "2026-11-15T18:19:12Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "92b59b87512bb98124c7c62b434cd4aaabdbfcef",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-15T1115-Texas.json",
+      "sha": "18f098afde4c617323ff7ddb9f056641c5a27a0b",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-15T17:17:22Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable main. No checked-in workflow exists at that path. Pages deployment does not count as job scraping."
+    },
+    "publishedPages": "Attempted both published URLs; public web retrieval could not access them. Verified both source HTML files on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "6c3a526d4285e5d2bfb88822aaa24425351d1674",
+      "head": "d40e73fe1e4bb07a7fcd32cf6868b5da95129743",
+      "listingCommits": [
+        "d40e73fe1e4bb07a7fcd32cf6868b5da95129743",
+        "d47cc521c1cb0f2aa937178afd45a26b07abe600"
+      ],
+      "result": "README SHA bc2e050819376a2d3e8ad1199d5a2f4bd0e8320b and raw-list SHA 04ff35eacbbae05203606ddba0d81cb780fafa13 unchanged. Raw list body is not readable through the connector."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README changed from 560d5cf3331bb8372f546a6373d8b8b429abc8e6 to d84b796dc128b911101797efdb7c41d315066328. Diff after normalizing rolling ages found no added line naming the monitored metros.",
+      "Targeted employer ATS searches, Austin graduate list and regional discovery sources."
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "nonTexasLeadsReviewed": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "TRS-req1475",
+        "source": "https://cdo.business.rice.edu/jobs/teacher-retirement-system-of-texas-trs-ai-research-data-analytics-associate/",
+        "officialAttempt": "https://trs.csod.com/ux/ats/careersite/5/home/requisition/1475?c=trs",
+        "result": "New Austin lead. Published copy shows applied AI prototypes and analysis in a temporary full-time fellowship, a degree already awarded within the last 12 months, and November 17, 2026 deadline. Official ATS retrieval was unavailable. No verified application, post-May 2027 start, OPT/STEM OPT compatibility, or clear Ryan upgrade."
+      },
+      {
+        "id": "Atmos-JR14359",
+        "source": "https://atmosenergy.wd108.myworkdayjobs.com/en-US/External_Career_Site/job/Data-Analyst_JR14359",
+        "result": "New Dallas lead. Employer-indexed description gives a 1-year relevant minimum, a November 19, 2026 deadline, and decision support, SQL/Excel and analytical duties. Direct ATS returned no readable form. No post-May start, ongoing OPT/STEM OPT support, or clear improvement over Ryan."
+      },
+      {
+        "id": "Applied-Materials-R2627400",
+        "source": "https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/Global-Supply-Chain-Rotational-Program--Business-Intelligence-Analyst-I--New-College-Grad--Bachelor-s--Austin-TX-_R2627400",
+        "result": "Austin supply-chain business intelligence rotation. Indexed employer JD gave October 31, 2026 deadline and lists ML as a preferred skill; no current opening or post-May 2027 start and OPT/STEM OPT support verified. Scope and verified terms do not show a clear upgrade."
+      },
+      {
+        "id": "Greystar-R0200100",
+        "source": "https://jobs.greystar.com/job/michigan/associate-analytics-engineer/35302/100135538384",
+        "result": "False geographic match. Third-party listing said Dallas; full official JD with Apply lists remote Michigan, Atlanta, Charleston and Charlotte only. It accepts 0–2 years and includes applied analytics/AI, but official geography does not meet the monitor."
+      },
+      {
+        "id": "SambaNova-6240725004",
+        "source": "https://sambanova.ai/company/careers/job-openings?gh_jid=6240725004",
+        "result": "Previously logged Austin/San Jose lead. Employer careers link shows only the general page, and Greenhouse posting/API paths were unavailable via retrieval. Copies describe LLM performance and a new-grad role but do not establish official live application, post-May start or OPT/STEM OPT. No change."
+      },
+      {
+        "id": "Focused-Energy-2c7ec9b0-751c-4913-98ce-bcbeaf3f308c",
+        "source": "https://jobs.ashbyhq.com/focused/2c7ec9b0-751c-4913-98ce-bcbeaf3f308c",
+        "result": "Existing degree rejection. Indexed employer JD gives Austin and applied physics ML modeling and requires a master's or doctorate. No new official availability evidence or verified exception for bachelor's graduates."
+      },
+      {
+        "id": "Applied-Materials-R2627684",
+        "source": "https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/Data-Scientist-New-College-Grad--Bachelor-s-Master-s--Austin--TX-_R2627684",
+        "result": "Existing opportunity-cost rejection. Older employer index still shows Austin new-grad DS; direct ATS gave no readable application. No verified status change, post-May start, or OPT/STEM OPT provisions."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing Austin product data science role: official JD continues to show Apply, a September 6, 2027 start, and no minimum professional years. Authorization without sponsorship is unchanged; no new STEM OPT support or verified status change."
+      }
+    ],
+    "coverage": "Incremental; counts represent documented distinct requisitions. New leads are newly reviewed here, not necessarily freshly posted."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-15T1217-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-15T17:17:22Z"
+  }
+}
