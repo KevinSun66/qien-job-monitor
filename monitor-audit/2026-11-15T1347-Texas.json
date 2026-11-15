@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-15T19:47:55Z",
+  "checkedAt": "2026-11-15T19:49:18Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "edf7fdf32d958ef7305b2325a2a3e45a3fe5717b",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-15T1217-Texas.json",
+      "sha": "b685ccde9fb2b033aa7e3d07092cbfd58807f2fa",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-15T18:19:24Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 for the directory on readable main. Published Pages deployment is not evidence of a job scraper."
+    },
+    "publishedPages": "Both linked public Pages URLs were attempted but not retrievable; Dallas and Austin source HTML were verified on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "d40e73fe1e4bb07a7fcd32cf6868b5da95129743",
+      "head": "21954f0a1e1d906c45131cdb6a5a870c63740268",
+      "listingCommits": [
+        "21954f0a1e1d906c45131cdb6a5a870c63740268",
+        "3e3de4e5c2bbb318882a146f1e66dfcd516d0426",
+        "2112b65fc116d0bfebb8a2883a1cf2be50e6cd00"
+      ],
+      "result": "README blob bc2e050819376a2d3e8ad1199d5a2f4bd0e8320b and raw-list blob 04ff35eacbbae05203606ddba0d81cb780fafa13 both unchanged; raw list body was not readable through the connector."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (d84b796dc128b911101797efdb7c41d315066328).",
+      "Targeted Dallas/DFW and Austin role queries and regional discovery indexes, followed by official recruiting pages."
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Lockheed-Martin-996477837890",
+        "source": "https://lockheedmartin.eightfold.ai/careers/job/996477837890",
+        "result": "Untracked early-career Fort Worth Operations AI Engineer lead. Official ATS title rendered but detailed JD and live application were not readable. The mirror linked to that exact ATS cites predictive modeling and a U.S. citizenship and Secret-clearance requirement. Third-party employer-wide sponsorship badge does not establish role authorization. No verified post-May start or OPT/STEM OPT eligibility."
+      },
+      {
+        "id": "Smadex-o9Q4ld7T6n",
+        "source": "https://smadexslu.applytojob.com/apply/jobs/details/o9Q4ld7T6n",
+        "result": "Untracked Austin full-time Growth Data Scientist lead. Employer ATS displays JD and Apply form, ad performance and experimentation duties, three or more years as a data analyst/scientist, and no visa sponsorship. Experience exceeds the gate; start and specific OPT/STEM OPT support not verified."
+      },
+      {
+        "id": "Steadily-82f961e2-98d7-4175-ba91-4ee9aeaa79b0",
+        "source": "https://jobs.ashbyhq.com/steadily/82f961e2-98d7-4175-ba91-4ee9aeaa79b0/",
+        "result": "Untracked Austin full-time senior role. Employer-indexed description specifies five or more years applying ML in production and end-to-end insurance ML ownership. Live application, post-May start and OPT/STEM OPT terms were not verified; minimum experience disqualifies it."
+      },
+      {
+        "id": "Integra-FEC-5083082008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5083082008?gh_src=Simplify",
+        "result": "Existing opportunity-cost rejection. Employer ATS form and JD show Austin forensic analytics; two-plus years is listed as preferred rather than minimum. U.S. authorization for any employer and no visa sponsorship are stated. No verified post-May start, STEM OPT support or clear upgrade over Ryan. Kept existing record."
+      },
+      {
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Existing citizenship exclusion. Employer ATS form and JD show Austin 0–2 years, production ML, and explicit U.S. citizenship and clearance eligibility. No verified relevant status change."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing Austin product data science role. Employer JD and ATS posting are readable with application entry points; September 6, 2027 start, no minimum professional years, and authorization without sponsorship are unchanged. No new STEM OPT support evidence or verified status change."
+      }
+    ],
+    "coverage": "Incremental sweep; counts refer to distinct documented leads, not total search hits or newly posted roles."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-15T1347-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-15T18:19:24Z"
+  }
+}
