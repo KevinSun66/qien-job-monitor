@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-15T14:45:02Z",
+  "checkedAt": "2026-11-15T14:46:01Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9454a2ec71d7f23ee7cb109e6b3995775385d04f",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-15T0720-Texas.json",
+      "sha": "67a1a8414874649f075335419701bf6e028ba93a",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-15T13:21:11Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "404 on readable main; no repository workflow files, Pages deployment is not a job scraper."
+    },
+    "publishedPages": "Public Pages URL reads were unavailable via web retrieval; both source HTML files were verified on GitHub main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "49f1e844e8fccf4ec54d67b4c03d5e30115e33c5",
+      "head": "0d09fa147b51cc54118c39aab4c0999862355d2a",
+      "listingCommits": [
+        "d0b9d4b1b2275cd0ee18913b0db55ac111740d30",
+        "718dfef23842253267d1a66f7bd2c7766955d643",
+        "dced619f267704a5ac21f8522e9b6a39c1f74954"
+      ],
+      "result": "No added README line naming the monitored metros after normalizing ages. Raw listings.json SHA changed; connector returned no readable contents."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 560d5cf3331bb8372f546a6373d8b8b429abc8e6",
+      "Targeted searches, regional graduate indexes and Emerson careers."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 0,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Emerson-26013909",
+        "source": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013909",
+        "result": "New Austin hybrid Applied AI software lead. Employer index dated November 13, 2026 welcomes recent graduates and describes AI analysis, anomaly detection and LLM tools for measurement and test workflows. The direct employer requisition did not render readable details or a live application. A secondary copy says temporary visas including F-1 OPT/CPT are ineligible, but that text is not independently confirmed on the exact official JD. Post-May start, exact minimum experience, authorization compatibility and clear Ryan upgrade not verified; do not promote."
+      }
+    ],
+    "coverage": "Incremental discovery and targeted employer verification; counts reflect distinct leads documented."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-15T0845-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-15T13:21:11Z"
+  }
+}
