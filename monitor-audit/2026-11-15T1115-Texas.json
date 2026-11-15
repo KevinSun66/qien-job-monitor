@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-15T17:15:46Z",
+  "checkedAt": "2026-11-15T17:17:10Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "b507b4a777193e788338a521da659167960e6216",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-15T1107-Texas.json",
+      "sha": "088e4aea85dba9b308c203b5195d68595776bc3d",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-15T17:09:28Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "Contents API 404 on readable public main. No checked-in workflow files were found at this path; Pages deployment does not count as job scraping."
+    },
+    "publishedPages": "Public Dallas and Austin Pages URLs could not be accessed via web retrieval. Both HTML source pages were verified on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "6c3a526d4285e5d2bfb88822aaa24425351d1674",
+      "head": "6c3a526d4285e5d2bfb88822aaa24425351d1674",
+      "listingCommits": [],
+      "result": "Head and both README (bc2e050819376a2d3e8ad1199d5a2f4bd0e8320b) and raw list (04ff35eacbbae05203606ddba0d81cb780fafa13) blob SHAs unchanged since the previous run. Raw list body was not readable."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (560d5cf3331bb8372f546a6373d8b8b429abc8e6).",
+      "Fresh Dallas/DFW and Austin search, then employer JD and application-entry checks."
+    ],
+    "newTexasLeadsReviewed": 4,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "nonTexasLeadsReviewed": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Applied-Materials-103285557616",
+        "source": "https://jobs.appliedmaterials.com/en/job/austin/sr-data-scientist/95/103285557616",
+        "result": "Austin employer JD and Apply link are readable. Applied ML, optimization and agentic automation, but explicitly requires 4–7 years of relevant industry experience. Post-May start and OPT/STEM OPT not verified; experience alone disqualifies it."
+      },
+      {
+        "id": "PepsiCo-461870",
+        "source": "https://www.pepsicojobs.com/main/jobs/461870?lang=en-us&previousLocale=en-US",
+        "result": "Employer index identifies Plano applied statistical/ML modeling in Python and a 3+ year minimum in statistical or ML techniques. Direct retrieval gave 403, so actual open status, post-May start and authorization were not verified. Experience gate fails."
+      },
+      {
+        "id": "HEB-249745",
+        "source": "https://careers.heb.com/jobs/249745?lang=en-US",
+        "result": "Employer index shows Austin hybrid full-time retail data science and production ML; requires three years of retail data science. Direct retrieval gave 403, so opening, start and authorization were not verified. Experience gate fails."
+      },
+      {
+        "id": "Cigna-26009535",
+        "source": "https://cigna.wd5.myworkdayjobs.com/en-US/cignacareers/job/The-Cigna-Group-s-Technology-Development-Program---AI-Engineering-Track-Summer-Internship_26009535",
+        "result": "Employer-indexed JD confirms Austin among locations, applied AI/ML duties and eligibility based on coursework or projects. It is a summer internship, explicitly rules out CPT/OPT/STEM and has no verified live application in this run."
+      },
+      {
+        "id": "Cigna-26010473",
+        "source": "https://jobs.thecignagroup.com/us/en/job/26010473/Artificial-Intelligence-Innovation-Development-Program-AIIDP-Start-Date-July-12-2027",
+        "result": "Separate false geographic match; indexed employer JD lists only Raleigh, NC, with a July 12, 2027 start. Direct employer branded posting returned 410 and Workday was unreadable. Not a Texas role."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Previously recorded. Employer JD still shows Apply, Austin, September 6, 2027, product data science/ML and graduate eligibility without professional-year minimum. Authorization without sponsorship is unchanged; no new STEM OPT support or confirmed status change."
+      },
+      {
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Previously rejected. Live employer form and JD show Austin applied ML, 0–2 years, and a required U.S. citizenship and security clearance screening question. Still excluded."
+      },
+      {
+        "id": "Kyndryl-R-66739",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/en-US/kyndrylearlycareers/job/USDALFRI---Dallas-Frisco-AI-HUB-FRI/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739",
+        "result": "Previously rejected application. Employer index identifies Frisco applied AI and requires unrestricted present and future authorization without sponsorship; direct Workday was unreadable. No verified opening/status change or employer OPT/STEM OPT support. This is not evidence of the prior application rejection reason."
+      }
+    ],
+    "coverage": "Incremental; counts are distinct documented requisitions, not total search results or newly published roles."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-15T1115-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-15T17:09:28Z"
+  }
+}
