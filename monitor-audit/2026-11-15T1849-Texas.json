@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T00:49:24Z",
+  "checkedAt": "2026-11-16T00:50:51Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "14ac4a852b55e5d5a8651a53af1e1772d6d32ad4",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-15T1807-Texas.json",
+      "sha": "f92eb7a4e6368dc6755415a52f7394601862b260",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T00:08:52Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable public main. No checked-in workflows; Pages deployment is not a scraper."
+    },
+    "publishedPages": "Dallas and Austin live Pages were attempted and were not retrievable; main HTML source files were read."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "e73608ab0cfa5bd48dd5a076cdf5cbcc7f723dc6",
+      "head": "3360679fe12e30d7fb3f8a853bf6424453eafd60",
+      "listingCommits": [
+        "3360679fe12e30d7fb3f8a853bf6424453eafd60"
+      ],
+      "result": "README and listings blob SHAs unchanged (8c09c495cd65be09e7b3a26416102950fe9447e0 and 6c8e3ec98a22b45c12125b535c89ef2f1fd6e92c). Raw content remains unreadable from connector."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (1a7d296e3a525f3af0f65e5f0f6460f95d30ec78).",
+      "Targeted Dallas/DFW and Austin job search, regional listings and employer ATS/JD reads."
+    ],
+    "newTexasLeadsReviewed": 5,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Lendistry-JR100084",
+        "source": "https://lendistry.wd108.myworkdayjobs.com/en-US/Careers_Join_Us/job/Data-Scientist-I_JR100084",
+        "result": "Indexed employer JD shows Dallas onsite predictive risk and fraud modeling, requiring three or more years of hands-on experience. Direct Workday blank; actual opening, F-1 eligibility and start not verified. Experience disqualifies."
+      },
+      {
+        "id": "PMG-8587050002",
+        "source": "https://job-boards.greenhouse.io/pmg/jobs/8587050002",
+        "result": "Distinct January-start AI/SWE role, not the existing June role. Dallas official JD and application form show graduate AI software scope, internship or related experience, no sponsorship, and required availability by January 11, 2027; start date disqualifies."
+      },
+      {
+        "id": "Cloud-Big-Data-J54571",
+        "source": "https://cloudaat.com/view_job?hr_id=3524&id=38171&mode=apply",
+        "result": "Fort Worth staffing detail and application link show production ML pipelines for a client, OPT-EAD among the listed authorizations, and minimum five years relevant work. Employer STEM OPT support and 2027 start not established. Experience disqualifies."
+      },
+      {
+        "id": "JPMC-210808974",
+        "source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210808974",
+        "result": "Exact employer requisition page unreadable. Secondary copy names Plano among locations, predictive data science, three or more years and refusal of OPT documentation support. No verified employer live status or start; not qualified."
+      },
+      {
+        "id": "WhiteWater-5217853007",
+        "source": "https://job-boards.greenhouse.io/whitewatermidstream/jobs/5217853007?gh_src=a1fa219b7us",
+        "result": "Official Austin data science employer JD/form, summer internship rather than graduate full-time hire. Prior internship or equivalent is requested; a sponsorship question does not demonstrate OPT support."
+      },
+      {
+        "id": "Adobe-R172085",
+        "source": "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/XMLNAME-2027-University-Graduate---Machine-Learning-Engineer_R172085",
+        "result": "Previously recorded closed role. Alternate employer Workday path unreadable, and indexed result was several weeks old. No verified reopening or other status change."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing Austin role; official JD still shows Apply, product data science, graduate entry and September 6, 2027 start. No new STEM OPT support evidence or verified change."
+      }
+    ],
+    "coverage": "Incremental; counts reflect distinct documented requisitions, not all hits or publication dates."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-15T1849-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T00:08:52Z"
+  }
+}
