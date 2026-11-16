@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T01:29:54Z",
+  "checkedAt": "2026-11-16T01:31:17Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "118b04d3576f7dc3f4f33a2fe967de79c9774b7b",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-15T1849-Texas.json",
+      "sha": "d0c5d0c1627c0b7dbf875073469775a85f914de6",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T00:51:04Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "Contents API returned 404 on readable public main. No checked-in workflow found at this path; Pages deployment is not job scraping."
+    },
+    "publishedPages": "Both public Pages URLs were attempted, but web retrieval could not access either. Dallas and Austin source HTML files were read on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "3360679fe12e30d7fb3f8a853bf6424453eafd60",
+      "head": "9c1250e2f7f3afd5418edbed92fa97a26fbc9d64",
+      "listingCommits": [
+        "9c1250e2f7f3afd5418edbed92fa97a26fbc9d64"
+      ],
+      "result": "README and raw list blob SHAs both unchanged (8c09c495cd65be09e7b3a26416102950fe9447e0 and 6c8e3ec98a22b45c12125b535c89ef2f1fd6e92c); the raw list body was not readable via connector."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (1a7d296e3a525f3af0f65e5f0f6460f95d30ec78).",
+      "Fresh employer and regional searches for Dallas/DFW and Austin; excluded firms appearing incidentally were not investigated."
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "HF-Sinclair-1449635100",
+        "source": "https://careers.hfsinclair.com/job/Dallas-Data-Scientist-TX-75219/1449635100/",
+        "result": "New Dallas lead. Official JD has Apply and describes production data science, LLM and AI agents. It requires six or more years of relevant applied experience; start and OPT/STEM OPT terms remain unverified. Experience disqualifies."
+      },
+      {
+        "id": "American-Airlines-88911",
+        "source": "https://jobs.aa.com/job/Fort-Worth-Sr-Associate-Engineer-Engineer%2C-IT-AI-TX-76101/88911-en_US/",
+        "result": "New Fort Worth IT AI lead. Employer index describes production AI; lower tier lists 1+ years in full software lifecycle and professional/design/open-source experience, with three years listed as preferred in a separate section. Employer index gives November 26, 2026 as minimum posting duration, not a start date. Direct endpoint returned 403. Actual opening, role-specific F-1 OPT/STEM OPT compatibility, post-May 2027 start, and clear upgrade not verified."
+      },
+      {
+        "id": "American-Airlines-88910",
+        "source": "https://jobs.aa.com/job/Engineer%2C-Sr-Engineer%2C-IT-AI/88910-en_US/",
+        "result": "Separate Fort Worth IT AI lead. Employer index lists applied AI engineering, 3+ years full software lifecycle and professional experience at the lower tier, and November 28, 2026 minimum posting duration. Direct retrieval returned 403; neither visa compatibility nor start was verified. Experience disqualifies."
+      },
+      {
+        "id": "Applied-Materials-R2627684",
+        "source": "https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/Data-Scientist-New-College-Grad--Bachelor-s-Master-s--Austin--TX-_R2627684",
+        "result": "Existing Austin opportunity-cost rejection. Employer search index still shows graduate data science, but Workday returned unreadable content and the employer branding URL returned 404. No verified closure or reopening, start, or OPT/STEM OPT support."
+      },
+      {
+        "id": "Southwest-R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "Existing Dallas closed-watch record. Third-party listing resurfaced; exact employer page still returned 410 Gone. No verified reopening."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing Austin graduate position. Official JD still shows Apply, September 6, 2027 start, academic eligibility and product data science duties. Work without employer sponsorship is still stated and STEM OPT support is not newly verified. No verified change."
+      }
+    ],
+    "coverage": "Incremental. Counts are distinct documented requisitions, not every search hit or jobs asserted to be newly posted."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-15T1929-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T00:51:04Z"
+  }
+}
