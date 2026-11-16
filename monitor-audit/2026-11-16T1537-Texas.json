@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T21:37:02Z",
+  "checkedAt": "2026-11-16T21:38:12Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "2e5b4901fcadecfc628026bff8c711db8a86d208",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-16T1454-Texas.json",
+      "sha": "2d53f8616001b010b9529c22b9e3443f7900b01c",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T20:55:24Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable main; no committed workflows found. Pages deployment is not a scraper."
+    },
+    "publishedPages": "Both public Pages URLs were attempted but not retrieved; both source pages were read on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "5b57e862db68ca945e96c0220c3dd6c5f0e22f6f",
+      "head": "4484308850d5d6a2b089d4dd37992b6dbb41fcce",
+      "listingCommits": [
+        "9afe4f7b39fc6723e0749ec63fc93268d01b7931",
+        "fbc4b25b494a22010806c61a469481b6dae75327"
+      ],
+      "result": "README 005364e2633aec0d0c2ff87263f3e01ed93afcca compared with 370abfc333f3ad0bf92a8110ca40c2afdc131d68; no added monitored-metro rows after age normalization. Raw listings f029113d7e9a96dfc10e40079ddd3d2178f74e93 returned 0 characters."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (8a31aac2480925745f1a319d504811d058f8d6f1).",
+      "Fresh Dallas/DFW and Austin searches, regional boards, and exact employer/ATS follow-up."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "PMG-8587050002",
+        "source": "https://job-boards.greenhouse.io/pmg/jobs/8587050002",
+        "result": "Official Dallas AI/software graduate listing has an application form and expressly asks for January 11, 2027 availability. Separate requisition from June program. Excluded on start date; JD also does not offer sponsorship."
+      },
+      {
+        "classification": "new",
+        "id": "NODA-762b29b8",
+        "source": "https://jobs.ashbyhq.com/noda-ai/762b29b8-17cc-4a3c-b040-02b297b680dc",
+        "result": "Official indexed Austin AI/ML JD requires 3+ years in production AI/ML applications and LLM deployment/orchestration. Exact ATS did not render a usable application; qualifying start and OPT/STEM OPT not established. Excluded on experience."
+      },
+      {
+        "classification": "existing",
+        "id": "PMG-8587038002",
+        "source": "https://job-boards.greenhouse.io/pmg/jobs/8587038002",
+        "result": "Official Dallas AI/software graduate form remains present and asks for June 7, 2027 start. New-grad window matches, but no sponsorship is offered and STEM OPT support was not established; no new evidence overturns existing Ryan comparison."
+      },
+      {
+        "classification": "existing",
+        "id": "Kyndryl-R-69022",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Dallas-USDALFRI-Frisco-AI-HUB/Early-Careers-Consult-Program---Data-Operations-Associate_R-69022-2",
+        "result": "Current official Frisco ATS did not render a usable JD or form. A third-party repost does not resolve the existing activity conflict; prior work authorization and Ryan opportunity-cost rejection retained."
+      },
+      {
+        "classification": "existing",
+        "id": "Southwest-R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "Exact Dallas employer endpoint again returns 410 Gone. Already recorded as closed-watch; no reopening or new job confirmed."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official Austin posting still says expired despite active-looking mirrors; current closed status unchanged."
+      }
+    ],
+    "coverage": "Incremental; counts reflect distinct documented requisitions, not all search results."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-and-read-back",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-16T1537-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T20:55:24Z"
+  }
+}
