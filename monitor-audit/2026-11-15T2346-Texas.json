@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T05:46:17Z",
+  "checkedAt": "2026-11-16T05:47:25Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "2dc5e561d546c6fe5886b3af266373794d6a163d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-15T2306-Texas.json",
+      "sha": "d45fb4da99e35baef74eb644387990086407e161",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T05:08:17Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable public main. No checked-in workflow at this path; Pages deployment does not count as a job scraper."
+    },
+    "publishedPages": "Both published Pages URLs could not be retrieved. Dallas and Austin HTML sources read successfully from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "4991bf6c35377b744b714e1be33f3c2aca4a6544",
+      "head": "e5a9fbb30583ef8b3df2488e22a53e80ebbdecbd",
+      "listingCommits": [
+        "04906ca83f9dfa1cd80fe2044f3c2bb56144ad0a"
+      ],
+      "result": "README changed from ea1855de0c3982f6717c08882f146154d3a2d2a3 to 013e078fca9b8cf5eb6ef7596c81e73103290df2 with no added Dallas/Austin metro rows after age normalization. Raw list moved to e7afb85a5b99bd0349112ab369fe223048a91115; file body unavailable through connector."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (18631c0d6d3b225aba0cc98cdcdedb44b3634e10).",
+      "Targeted DFW and Austin searches and sampled regional indexes; official hiring portals used for shortlisted lead checks."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Conifers-5032655101",
+        "source": "https://job-boards.greenhouse.io/conifersaicareers/jobs/5032655101",
+        "result": "Dallas on-site senior agentic AI role. Indexed official JD describes production AI systems, requires 6+ years of software engineering and authorization without employer sponsorship now and in the future. Exact link redirected to a general board when opened, so live application and post-May start were not confirmed. Experience fails."
+      },
+      {
+        "id": "Expedia-R-110379",
+        "source": "https://careers.expediagroup.com/job/applied-science-intern-masters-2027-austin-san-jose-seattle/austin-tx/R-110379/",
+        "result": "Austin Applied Science internship for master's students, not a post-graduation full-time hire. Exact company page returned 410 Gone despite older employer index. No live opening or relevant OPT/STEM OPT hiring eligibility established."
+      },
+      {
+        "id": "PMG-8587038002",
+        "source": "https://job-boards.greenhouse.io/pmg/jobs/8587038002",
+        "result": "Existing Dallas opportunity-cost rejection. Official ATS shows JD and application form, June 7, 2027 start, Fall 2026–Spring 2027 graduate scope and internships/related experience. Work develops the Alli platform and AI capabilities. No sponsorship is stated and STEM OPT support was not confirmed. No new evidence of clear upgrade or relevant status change."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing Austin graduate DS/ML role. Official JD still shows Apply, September 6, 2027 start, no minimum professional years, and need to work without sponsorship. No new evidence of STEM OPT support or verified status change."
+      }
+    ],
+    "coverage": "Incremental; counts refer to distinct documented requisitions and do not imply newly posted jobs."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-15T2346-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T05:08:17Z"
+  }
+}
