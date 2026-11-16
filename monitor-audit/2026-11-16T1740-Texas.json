@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T23:40:41Z",
+  "checkedAt": "2026-11-16T23:41:45Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "fb7044f0c3f148bf05dd795b5e78ec2694e813fc",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-16T1634-Texas.json",
+      "sha": "857f7211a374092385767261a8fd51360fbd4b21",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T22:36:09Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable main. Pages deployment is not evidence of job scraping."
+    },
+    "publishedPages": "Both public Pages URLs attempted but not retrievable; both source pages on main were read."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "2d4093d23b6b057b946a112454130a5178f50f8f",
+      "head": "590efba348b8d4a5ac65c84a0469295791b75acd",
+      "listingCommits": [
+        "f2aaf2b82f09fb9a3da211d52e3c7a2b52584a51",
+        "5bd908341a69086cee7e17716d4052cd92886dc6"
+      ],
+      "result": "README b42cc839fb468b369616ce66ff1923a11f55b443 compared with 1b54427039b8b5f65a89567cc84e463158c2257b; no added monitored-metro rows after age normalization. Raw listings e5afb710f4a31a6bf03cc84c0585533abd9ba8eb returned 0 characters."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (c8029066ab297bbf0ca47edf2210cf2f695c5523).",
+      "Fresh Dallas/DFW and Austin web searches with employer and ATS follow-up."
+    ],
+    "newTexasLeadsReviewed": 4,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "GM-JR-202621452",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202621452/staff-data-scientist-ai-engineering-productivity/",
+        "result": "Official Austin-option JD for staff AI/ML work requires 8+ years of experience and 3+ leading initiatives. Employer does not offer immigration support for the role. Excluded on experience."
+      },
+      {
+        "classification": "new",
+        "id": "Visa-REF082565W",
+        "source": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/US---Austin-TX/Staff-ML-Scientist---New-College-Grad_REF082565W-2",
+        "result": "Newly screened, not newly posted. Old official index identifies an Austin graduate ML requisition; direct ATS did not render an application/JD. No current opening, 2027 timing, minimum experience or OPT/STEM OPT established."
+      },
+      {
+        "classification": "new",
+        "id": "Expedia-R-109347",
+        "source": "https://careers.expediagroup.com/job/machine-learning-scientist-ii/austin-tx/R-109347/",
+        "result": "Previously untracked lead from an older Austin ML listing. Exact official job endpoint returned HTTP 410 Gone. No live application or verified graduate eligibility; no addition."
+      },
+      {
+        "classification": "new",
+        "id": "Momentum-8614696002",
+        "source": "https://job-boards.greenhouse.io/momentumcompany3/jobs/8614696002",
+        "result": "Official Dallas full-time graduate form and graduation window confirmed. Duties focus on cybersecurity monitoring, vulnerability tracking and compliance rather than applied AI/ML/data science. No OPT/STEM OPT support confirmed. Outside role scope."
+      },
+      {
+        "classification": "existing",
+        "id": "CVS-R1074805",
+        "source": "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/AI-Engineer---GenAI_R1074805",
+        "result": "Official indexed GenAI JD requires at least two years of ML or AI deployment and production Python. Live ATS returned no usable content; existing experience rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official Austin graduate page still says expired despite older indexed application copies. Existing closed status remains."
+      }
+    ],
+    "coverage": "Incremental; counts are distinct documented leads, not all search results."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-and-read-back",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-16T1740-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T22:36:09Z"
+  }
+}
