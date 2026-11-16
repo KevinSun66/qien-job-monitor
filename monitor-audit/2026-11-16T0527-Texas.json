@@ -141,16 +141,16 @@
     "dallasPage": "not-attempted",
     "austinPage": "not-attempted",
     "archives": "not-attempted",
-    "audit": "pending-write-and-readback",
-    "synced": false,
-    "pending": [
-      "monitor-audit/2026-11-16T0527-Texas.json"
-    ],
-    "lastSuccessfulWriteAt": "2026-11-16T11:29:20Z",
+    "audit": "succeeded-and-read-back",
+    "synced": true,
+    "pending": [],
+    "lastSuccessfulWriteAt": "2026-11-16T11:30:13Z",
     "evidence": {
       "verifiedJobsCommit": "e401f91ab70117f8060b26aa07c22172310e3349",
       "verifiedJobsBlob": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
-      "wiseArchiveBlob": "d4b5878e6b6afab4a208c99d763af95de0e9666d"
+      "wiseArchiveBlob": "d4b5878e6b6afab4a208c99d763af95de0e9666d",
+      "verifiedAuditCommit": "6f1ec297ee2ad390100224b04517e0e01235803d",
+      "verifiedAuditBlob": "a3471caca4695808e1e64a2d14b63402ec6711d5"
     }
   }
 }
