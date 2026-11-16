@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T03:16:46Z",
+  "checkedAt": "2026-11-16T03:18:03Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "5050ec6725a8f1f095540ffcdb4f556038523fa4",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-15T2037-Texas.json",
+      "sha": "f2c9762fb4052ece5829f089570d62c97abe4e35",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T02:38:42Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable public main. No checked-in workflow at this path; Pages deployments do not represent job scraping."
+    },
+    "publishedPages": "Both public Pages URLs were not retrievable. Both source HTML files were read on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "631454154b29984b526ca3d447b5a1f6a542645c",
+      "head": "8b1ebff41e378d3198bda83cff3b9c68f69687b1",
+      "listingCommits": [
+        "e5d103d0d210a4c3941780b769f9f7b9bd146932"
+      ],
+      "result": "README moved from 78be6c702c86e8563b260a414480f5e375612926 to ea1855de0c3982f6717c08882f146154d3a2d2a3. No added metro rows after age normalization. Raw blob changed to 01fd17fe153920feb078276acea5ec1433a54a78; connector did not return its body."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README changed from 1a7d296e3a525f3af0f65e5f0f6460f95d30ec78 to 18631c0d6d3b225aba0cc98cdcdedb44b3634e10; no added metro rows after normalizing ages.",
+      "DFW and Austin graduate searches, regional lead pages and employer-specific JD/application entry checks."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Schwab-2026-130034",
+        "source": "https://www.schwabjobs.com/job/southlake/ai-and-data-scientist/33727/103221513440",
+        "result": "Official Southlake regular AI & Data Scientist JD and Apply link; deadline is November 16, 2026. Production AI ownership, advanced ML and technical leadership duties; requires a master's or PhD. No confirmed 2027 start or role-specific OPT/STEM OPT support. Degree gate disqualifies."
+      },
+      {
+        "id": "HF-Sinclair-1437491200",
+        "source": "https://careers.hfsinclair.com/job/Dallas-Data-Scientist%2C-Pricing-TX-75219/1437491200/",
+        "result": "Separate pricing scientist role from the six-year HF Sinclair role previously screened. Official Dallas JD and Apply link; pricing optimization, forecasting and econometric modeling. Requires three to five years depending on education. No verified post-May start or OPT/STEM OPT. Experience disqualifies."
+      },
+      {
+        "id": "Self-Financial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Existing Austin credit/lending ML record. Official JD and form still show 0–2 years, but U.S. citizens or permanent residents only; no status change."
+      },
+      {
+        "id": "GM-JR-202616534",
+        "source": "https://search-careers.gm.com/es/trabajos/jr-202616534/data-scientist/",
+        "result": "Existing experience/authorization rejection. English page returned 404; official alternate locale still shows JD with three-plus years and no immigration support for OPT/STEM OPT, plus an Apply link. Conflicting page evidence does not establish a status change."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Already tracked Austin graduate product data science role. Official Apply remains visible, September 6, 2027 start and no professional-year floor. Authorization without sponsorship still stated; no new STEM OPT confirmation."
+      }
+    ],
+    "coverage": "Incremental. Counts reflect documented distinct leads, not all search results or only newly published roles."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-15T2116-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T02:38:42Z"
+  }
+}
