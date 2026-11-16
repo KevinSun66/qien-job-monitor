@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T14:48:59Z",
+  "checkedAt": "2026-11-16T14:50:27Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "a9d618ab1b00b881f4f24bc9c7d6a9ec4ab2e3bf",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-16T0544-Texas.json",
+      "sha": "72f6a4d56f07d5af71691132920127c9cec9019e",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T11:46:00Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable public main; Pages deployment is not evidence of job scraping."
+    },
+    "publishedPages": "Both public Pages URLs were attempted but not retrievable through the web reader. Both source pages were read on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "5431f6cd0cb69103707ce5410e41553d04367373",
+      "head": "40e9d13d08691adab691253ffffe99533e173504",
+      "listingCommits": [
+        "475b3194c7ff2b279b8ee1df0b93b74961e85b37",
+        "16c5924c9041c1204650efbd5ccf821b166c109f",
+        "39f9c1e665f7837ee720991006a9d98b362bd62b",
+        "a43c415f25c9367e489639555551fe595993b183"
+      ],
+      "result": "README 2841f45925fb5e8e84960e113ab4bbe53a14b858 compared with b1e67b3e8d4795c8d9d38accd36695ee14d01558: no newly added monitored-metro rows after age normalization. Raw listings d80ef02d1a184b0ae0e728f066b8d5770747c845 returned 0 characters."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README 8a31aac2480925745f1a319d504811d058f8d6f1 compared with last run: two added Austin rows describe the same Apple requisition 200694953-0157.",
+      "Fresh Dallas/DFW and Austin search and exact employer or ATS follow-up."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Apple-200694953-0157",
+        "source": "https://jobs.apple.com/en-us/details/200694953-0157/cad-automation-and-ml-engineer?team=HRDWR",
+        "result": "Deduplicated two identical upstream rows. Official indexed Austin role develops CAD/ML tools for silicon and processor design. Live application, qualifying start, minimum experience and OPT/STEM OPT were not confirmed; excluded by hardware design duties."
+      },
+      {
+        "classification": "new",
+        "id": "TRS-req1475",
+        "source": "https://cdo.business.rice.edu/jobs/teacher-retirement-system-of-texas-trs-ai-research-data-analytics-associate/",
+        "result": "Exact employer requisition req1475 identified from employer-supplied text mirrored by Rice. Austin AI/analytics fellowship is temporary full-time, capped at three years; mirrors list an application deadline of November 17, 2026. Exact employer ATS did not render; application availability, post-May start, experience threshold and OPT/STEM OPT were not independently established. No verified improvement over Ryan."
+      },
+      {
+        "classification": "existing",
+        "id": "Southwest-R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "Dallas direct-college-hire listing recirculated by mirrors. Exact official endpoint returned HTTP 410 Gone; existing closed-watch classification already reflects nonavailability. No reopened or new requisition verified."
+      },
+      {
+        "classification": "existing",
+        "id": "UT-Austin-R_00047743",
+        "source": "https://utaustin.wd1.myworkdayjobs.com/UTstaff/job/PICKLE-RESEARCH-CAMPUS/R-D-Data-Analysis-and-Machine-Learning-Software-Engineer_R_00047743",
+        "result": "Official indexed Austin requirements include three or more years and U.S. citizenship. Direct ATS rendered no usable text; existing rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Adobe-R172085",
+        "source": "https://careers.adobe.com/us/en/job/R172085/2027-University-Graduate-Machine-Learning-Engineer",
+        "result": "Official employer career page says filled. Existing closed and applied states retained; cached Workday listing is not proof of reopening."
+      },
+      {
+        "classification": "existing",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Official Austin ATS shows application form and 0–2 years, but U.S. citizenship and Secret clearance eligibility are required. No qualifying 2027 start confirmed. Existing citizenship rejection unchanged."
+      }
+    ],
+    "coverage": "Incremental; counts are distinct documented requisitions, not all search results."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No new verified job passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-and-read-back",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-16T0848-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T11:46:00Z"
+  }
+}
