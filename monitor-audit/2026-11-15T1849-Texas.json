@@ -114,11 +114,13 @@
     "dallasPage": "not-attempted",
     "austinPage": "not-attempted",
     "archives": "not-attempted",
-    "audit": "pending-initial-write",
-    "synced": false,
-    "pending": [
-      "monitor-audit/2026-11-15T1849-Texas.json"
-    ],
-    "lastSuccessfulWriteAt": "2026-11-16T00:08:52Z"
+    "audit": "succeeded-and-read-back",
+    "synced": true,
+    "pending": [],
+    "lastSuccessfulWriteAt": "2026-11-16T00:50:52Z",
+    "evidence": {
+      "verifiedAuditCommit": "fbff5ed52b08fb82d6c752f5956bb86229bbba42",
+      "verifiedAuditBlob": "60036607a27faa34813a4256fba5f46ba0606399"
+    }
   }
 }
