@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T06:38:37Z",
+  "checkedAt": "2026-11-16T06:39:58Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "2cf688e7f3cc90ae22b4b4bf38efdb942202f665",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-15T2346-Texas.json",
+      "sha": "ad494b04882666b90fc35867b32e3de1ba1eafc9",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T05:47:42Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable public main; no checked-in workflow. Pages deployment is not job scraping."
+    },
+    "publishedPages": "Neither live Pages URL was retrievable; both source HTML files were verified on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "e5a9fbb30583ef8b3df2488e22a53e80ebbdecbd",
+      "head": "c52d35e587aa2410686d70b68a5cd2b96cd2099d",
+      "listingCommits": [
+        "d9d1208e249cff9be159e854114dd3ef5f0d0572",
+        "012115b724b13ce3d0e42d75495dce76e3aa1046"
+      ],
+      "result": "README changed from 013e078fca9b8cf5eb6ef7596c81e73103290df2 to 21abd908d6f0d5a4c1a54c116df8b53b1035e595; no added monitored-metro rows after age normalization. Raw list changed to c9f549c26b76eb7c382d5ea4763ac0e0b8fa6e8d; body was unavailable through connector."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (18631c0d6d3b225aba0cc98cdcdedb44b3634e10).",
+      "Targeted Dallas/DFW and Austin graduate and AI/data searches; employer ATS/JDs used to verify exact requisitions. Excluded companies surfacing incidentally were not investigated."
+    ],
+    "newTexasLeadsReviewed": 4,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "nonTexasLeadsReviewed": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "PBK-R101827",
+        "source": "https://pbk.wd5.myworkdayjobs.com/en-US/PBK/job/Data-Engineer_R101827",
+        "result": "Indexed employer JD lists Dallas and Austin and enterprise ETL/integration work for architecture analytics and AI. Direct Workday unreadable; no live application, qualifying experience range, 2027 start or OPT/STEM OPT support verified. No clear upgrade."
+      },
+      {
+        "id": "Texas-Mutual-R0002473",
+        "source": "https://texasmutual.wd1.myworkdayjobs.com/texas_mutual_careers/job/austin-texas/data-engineer--intermediate-_r0002473",
+        "result": "Indexed intermediate data-engineering role in Austin; exact ATS returned no readable content. Actual opening, duties at the exact site, experience, post-May start and OPT/STEM OPT support not confirmed."
+      },
+      {
+        "id": "webAI-ae55a0c3",
+        "source": "https://jobs.ashbyhq.com/webai/ae55a0c3-7c11-43f3-a158-ca9dffbf3064",
+        "result": "Indexed employer lead is full-time hybrid AI research in Austin on distributed model infrastructure. Direct page did not yield usable JD or application confirmation. Degree/experience requirements, post-May start and OPT/STEM OPT eligibility remain unverified."
+      },
+      {
+        "id": "Striveworks-7712528003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/7712528003?gh_src=remotehunt.app",
+        "result": "Distinct Austin Data Scientist role. Official JD and form show applied DS, minimum 2+ years and explicit U.S. citizenship with active Secret clearance. Start not stated; experience and citizenship disqualify."
+      },
+      {
+        "id": "Brunswick-8821383002",
+        "source": "https://job-boards.greenhouse.io/brunswickgroup/jobs/8821383002",
+        "result": "Existing Dallas verification record. Official JD and form visible, with production AI/LLM and $130K–$180K base; still no numeric threshold or verified graduate intake, post-May start, or OPT/STEM OPT support. No verified change."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing Austin graduate product data science role. Official Apply entry remains visible; September 6, 2027 start, no required professional years and work authorization without sponsorship are unchanged. No new STEM OPT support or verified status change."
+      },
+      {
+        "id": "Astera-Labs-4731594005",
+        "source": "https://job-boards.greenhouse.io/asteraearlycareer2027/jobs/4731594005",
+        "result": "Official new-grad applied AI form is visible but lists San Jose, CA, outside Dallas/Austin."
+      }
+    ],
+    "coverage": "Incremental; counts refer to distinct documented requisitions rather than all search hits or newly posted jobs."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-16T0038-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T05:47:42Z"
+  }
+}
