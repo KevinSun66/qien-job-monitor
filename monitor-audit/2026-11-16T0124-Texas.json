@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T07:24:56Z",
+  "checkedAt": "2026-11-16T07:26:19Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d1885d2f95fe5ee89c8a211dbac3b529452dabba",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-16T0038-Texas.json",
+      "sha": "fc5a7443597baae9a89b16ef48eb55e454d4c49d",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T06:40:14Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable public main. No checked-in workflows found; Pages deployment is not job scraping."
+    },
+    "publishedPages": "Public Dallas and Austin Pages URLs were tried but not retrievable. Verified both source HTML files on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "c52d35e587aa2410686d70b68a5cd2b96cd2099d",
+      "head": "f892dedf21178eb675515eb972ba8dec4953b377",
+      "listingCommits": [
+        "12b578df6feb7ffe9ab49e7c4db740ab7ba82318"
+      ],
+      "result": "README changed from 21abd908d6f0d5a4c1a54c116df8b53b1035e595 to 6150356b668eccc4ad48a869f335d90541d60988; no added monitored-metro rows after normalizing age. Raw list changed to cf3efd3605de56e092b98d7df2e9a19af3df6e1e; connector did not return its body."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (18631c0d6d3b225aba0cc98cdcdedb44b3634e10).",
+      "Fresh Dallas/DFW and Austin targeted searches and sampled regional indexes; exact employer JD/ATS verification for documented leads. Incidental excluded-company results not followed."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "Senseye-56F6BB2046",
+        "source": "https://apply.workable.com/senseye/j/56F6BB2046?gh_src=MedTech+Innovator+job+board",
+        "result": "New Austin full-time hands-on applied ML lead. Employer JD describes deep learning/data pipelines for a clinical diagnostics product, and an advanced degree or demonstrated equivalent skills. Recent graduates are welcome; the employer lists up to about three years as a plus, not a required minimum. Whether the bachelor's profile satisfies equivalence, live application submission, post-May 2027 start, OPT/STEM OPT support and overall upgrade versus Ryan were not established. Application endpoint was not retrievable."
+      },
+      {
+        "id": "Visa-REF088586W",
+        "source": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/Software-Engineer--New-College-Grad---2027--Austin--TX_REF088586W",
+        "result": "Existing visa rejection. Employer index lists Austin 2027 graduate software work, under six months of relevant experience, and permanent U.S. work authorization with no current or future sponsorship. Direct ATS unreadable; no verified change."
+      },
+      {
+        "id": "GlobalFoundries-JR-2604100",
+        "source": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/Software-Engineer--2027-New-College-Graduate-_JR-2604100",
+        "result": "Existing Austin 2027 software role under direction and visa verification. Alternate official Workday URL rendered no readable JD/application; no new evidence of status, start or OPT/STEM OPT compatibility."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing Austin product data science/ML graduate role. Official page continues to show Apply, September 6, 2027 start and no professional-year minimum. Work without sponsorship remains stated; no new STEM OPT evidence or status change."
+      }
+    ],
+    "coverage": "Incremental; counts reflect distinct documented requisitions, not all search hits or new publication dates."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-16T0124-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T06:40:14Z"
+  }
+}
