@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T19:12:24Z",
+  "checkedAt": "2026-11-16T19:13:15Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "31376afe6490685a35c32d2e74c4026e2c8419fd",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-16T1215-Texas.json",
+      "sha": "9b5340a16337dd206a8a516c46d800047cc9faee",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T18:16:27Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable public main; no committed job workflow found. Pages deployment is not a scraper."
+    },
+    "publishedPages": "Both public Pages URLs were attempted but not retrieved; both main source pages were read."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "27ae0422221e2bda32beba9ec005e0a022adcd91",
+      "head": "296decf68c7399bbe1debe94e35d4e05543f14d6",
+      "listingCommits": [
+        "4e473dd16d7223d6a0aaf0f35c260ad401650d8d",
+        "529071f6022837d817c685feec5ab651ac079d46"
+      ],
+      "result": "Compared README 78383c5eebba4476d21fad972255a824f0dda917 with 9e3a5c56f0e9a982ab48009f20d93e290742b771; no added monitored-metro rows after age normalization. Raw listings a898b624067e03ea6234854782097a40aa1667de returned 0 characters."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (8a31aac2480925745f1a319d504811d058f8d6f1).",
+      "Fresh Dallas/DFW and Austin searches and exact employer/ATS follow-up."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "UT-Dallas-32954",
+        "source": "https://jobs.utdallas.edu/postings/32954",
+        "result": "Official DFW posting shows application link and enterprise AI deployments, observability and system administration. Bachelor’s plus four years or an equivalent education/experience combination; no qualifying graduate route, start or OPT/STEM OPT confirmed. Excluded on experience."
+      },
+      {
+        "classification": "new",
+        "id": "Atmos-JR14359",
+        "source": "https://atmosenergy.wd108.myworkdayjobs.com/external_career_site/job/Texas---Dallas/Data-Analyst_JR14359",
+        "result": "Official indexed Dallas full-time JD emphasizes running existing forecasting models, reconciliation and reporting. Direct Workday did not render; no verified 2027 graduate start, live application or OPT/STEM OPT terms. No demonstrated improvement over Ryan."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official Austin vacancy still expired. No reopening despite third-party listings."
+      },
+      {
+        "classification": "existing",
+        "id": "Adobe-R172085",
+        "source": "https://careers.adobe.com/us/en/job/R172085/2027-University-Graduate-Machine-Learning-Engineer",
+        "result": "Employer page says filled; existing closed, applied and archive records remain."
+      },
+      {
+        "classification": "existing",
+        "id": "GM-JR-202620428",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202620428/data-engineer-data-software-engineering-and-cloud-platforms-early-career/",
+        "result": "Official Austin-option early career data engineering JD still lists OPT/STEM OPT among work authorization support the employer will not provide. Existing rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "SambaNova-6240725004",
+        "source": "https://job-boards.greenhouse.io/sambanovasystems/jobs/6240725004",
+        "result": "Exact ATS redirects to generic employer careers page; live application is not inferred from mirrors. Austin new-grad lead still lacks an exact employer JD, verified start and OPT/STEM OPT evidence."
+      }
+    ],
+    "coverage": "Incremental; counts are distinct documented requisitions, not all search results."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-and-read-back",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-16T1312-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T18:16:27Z"
+  }
+}
