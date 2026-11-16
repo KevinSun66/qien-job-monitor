@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T22:34:34Z",
+  "checkedAt": "2026-11-16T22:35:52Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "6ea9618a4e10cf64ba146ae094f5b0d05d199d38",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-16T1537-Texas.json",
+      "sha": "5ce2580a26a3b3a3edb2f8dd6e96fc979135fa21",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T21:38:28Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable main; no committed workflows found. Pages deployment is not a scraper."
+    },
+    "publishedPages": "Both public Pages URLs were checked but could not be retrieved. Both source pages on main were read."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "4484308850d5d6a2b089d4dd37992b6dbb41fcce",
+      "head": "2d4093d23b6b057b946a112454130a5178f50f8f",
+      "listingCommits": [
+        "68d9aad7d073f95aca742aec35c00db85cdfc368",
+        "8394f2c08b1090080ac3cda8131630cfb8f8dc8a"
+      ],
+      "result": "README 1b54427039b8b5f65a89567cc84e463158c2257b compared with 005364e2633aec0d0c2ff87263f3e01ed93afcca; no added monitored-metro rows after age normalization. Raw listings 24cdd8e98029581075515a99589bac4a95d75e81 returned 0 characters."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README changed to c8029066ab297bbf0ca47edf2210cf2f695c5523; no new monitored-metro rows after age normalization.",
+      "Fresh Dallas/DFW and Austin searches with employer and ATS follow-up."
+    ],
+    "newTexasLeadsReviewed": 4,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Cognizant-00071181091",
+        "source": "https://careers.cognizant.com/apj-en/jobs/00071181091/senior-agentic-ai-platform-engineer-with-python-on-site/",
+        "result": "Official Dallas November 16 JD is for senior agentic AI platform work and requires at least five years of software engineering. No graduate start or OPT/STEM OPT confirmed. Excluded on experience."
+      },
+      {
+        "classification": "new",
+        "id": "Schwab-2026-130034",
+        "source": "https://www.schwabjobs.com/job/southlake/ai-and-data-scientist/33727/103221513440",
+        "result": "Official Southlake careers page shows Apply and a November 16 deadline on the employer index. Requires a master's or PhD and multiple shipped ML/LLM deployments. Not a bachelor's graduate opening; qualifying start and OPT/STEM OPT not verified."
+      },
+      {
+        "classification": "new",
+        "id": "JPMorgan-CCB-Applied-AI-ML-Scientist",
+        "source": "https://roleweek.com/job/ccb-applied-ai-ml-scientist-jpmorgan-chase-dallas-fort-worth-ed871ed3/",
+        "result": "Plano/Wilmington lead, distinct from the already tracked Senior Associate title. Two mirrors specify ten years of ML engineering; exact employer JD, live application, and authorization not independently verified. No graduate recommendation."
+      },
+      {
+        "classification": "new",
+        "id": "Deloitte-AI-DS-Engineer-III-Dallas",
+        "source": "https://jobs.anitab.org/companies/deloitte-2-548ffef4-5e36-4ac1-9d45-edef2fdcac69/jobs/99965034-ai-data-science-engineer-iii",
+        "result": "Dallas listing surfaced via a third-party board. Exact matching Dallas employer requisition and live application were not verified. Other cities' similarly titled employer listings are not evidence for this one. No addition or recommendation."
+      },
+      {
+        "classification": "existing",
+        "id": "Self-Financial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Official Austin JD shows 0–2 years for data science but still explicitly limits hiring to U.S. citizens or permanent residents. Existing rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official Austin graduate posting still says expired despite live-looking mirrors. Existing closed status unchanged."
+      }
+    ],
+    "coverage": "Incremental; counts reflect distinct documented leads, not all search results."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-and-read-back",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-16T1634-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T21:38:28Z"
+  }
+}
