@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T15:46:26Z",
+  "checkedAt": "2026-11-16T15:47:43Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9ab02550d02cfaa0dd8b14e8a13bed0e29f9fe30",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-16T0848-Texas.json",
+      "sha": "e3f5035b2d3b19841c90ac3e441f9b47ccef9625",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T14:50:40Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable public main; Pages deployment is not evidence of job scraping."
+    },
+    "publishedPages": "Both public Pages URLs were attempted but not retrievable through the web reader. Both source pages were read on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "40e9d13d08691adab691253ffffe99533e173504",
+      "head": "0de6fe27e27f155a08c33975e0e4b8c7d1ab26b0",
+      "listingCommits": [
+        "a10a41d86bc896815a6afa5c45438872be8e46d7",
+        "61c17d343e21488c5bef3b42d98d23a722ca094b"
+      ],
+      "result": "Compared README e694dfabbac03c1abc182ac44666a3e707511eee with 2841f45925fb5e8e84960e113ab4bbe53a14b858; no newly added monitored-metro rows after age normalization. Raw listings 6b1af92e152bd23f36b61436c7d580b4d0cd1812 returned 0 characters."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (8a31aac2480925745f1a319d504811d058f8d6f1).",
+      "Fresh metro queries, employer boards, and exact employer/ATS follow-up for documented leads."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 6,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Bright-Vision-7wz8DPzurR",
+        "source": "https://brightvisiontechnologies.applytojob.com/apply/jobs/details/7wz8DPzurR",
+        "result": "Official Frisco/North Dallas full-time JD and application form show production AI applications and 5+ years required. EAD holders encouraged but this does not establish STEM OPT support. No graduate start; excluded on experience."
+      },
+      {
+        "classification": "new",
+        "id": "Arm-2026-18591",
+        "source": "https://careers.arm.com/job/austin/machine-learning-engineering-intern-ms-phd/33099/103250201872",
+        "result": "Official Austin November 13 posting has an Apply link. MS/PhD internship requires return to studies after placement and cannot sponsor; excluded as internship, regardless of technical fit."
+      },
+      {
+        "classification": "existing",
+        "id": "Bitdeer-826249d5dbdc",
+        "source": "https://bitdeer.breezy.hr/p/826249d5dbdc-ai-engineering-new-college-graduate-2027",
+        "result": "Previously identified 2027 graduate intake, separate from the Fresh Grad infrastructure record in jobs.json. Official JD has a no-experience new-grad path up to two years and agent/application work as a possible track, alongside other assignments. Official board lists the requisition; application deep link did not render a form. Austin/remote appears in the employer text mirrored by MIT. No post-May start or OPT/STEM OPT support confirmed, and track assignment/upgrade over Ryan not assured; no addition."
+      },
+      {
+        "classification": "existing",
+        "id": "Gartner-113311",
+        "source": "https://gartner.wd5.myworkdayjobs.com/en-US/Ext/job/Irving-TX/Associate-Data-Scientist---Spring-2027-Master-s-level-graduates_113311",
+        "result": "Official indexed Irving JD requires a master's degree or at least two years for the bachelor's route. Live ATS did not render. Existing education/experience rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Capital-One-R1002940",
+        "source": "https://www.capitalonecareers.com/job/plano/senior-associate-data-scientist-applied-ai-financial-services/1732/101460825408",
+        "result": "Official Plano JD separately requires two years of Python/Scala/R, ML, and SQL and indicates sponsorship may be considered; no qualifying 2027 start. Existing experience decision and application record retained."
+      },
+      {
+        "classification": "existing",
+        "id": "GM-JR-202616534",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202616534/data-scientist/",
+        "result": "Exact employer indexed full-time Austin L6 job resurfaced. Direct page did not verify an open application or a changed grade, requirement, or work authorization policy; existing experience/visa rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official posting still says expired. Active-looking mirrors do not establish a reopening. Existing closed state unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "HF-Sinclair-1449635100",
+        "source": "https://careers.hfsinclair.com/job/Dallas-Data-Scientist-TX-75219/1449635100/",
+        "result": "Official Dallas posting rechecked: still requires at least six years of applied data science, ML or AI. Excluded on experience; no new status change."
+      }
+    ],
+    "coverage": "Incremental; counts are distinct documented requisitions, not all search results."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No new verified job passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-and-read-back",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-16T0946-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T14:50:40Z"
+  }
+}
