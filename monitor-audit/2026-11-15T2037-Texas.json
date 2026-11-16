@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T02:37:06Z",
+  "checkedAt": "2026-11-16T02:38:29Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "e0f16c48223769df1ebb6017452c2e37b6c8f637",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-15T1929-Texas.json",
+      "sha": "d47bd1a4b1e3067ebfddf9091fd5e09e77e6f327",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T01:31:31Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable public main. No checked-in workflow found; Pages deployment does not count as job scraping."
+    },
+    "publishedPages": "Both public Pages URLs were tried but could not be retrieved. Dallas and Austin HTML source files were read on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "9c1250e2f7f3afd5418edbed92fa97a26fbc9d64",
+      "head": "631454154b29984b526ca3d447b5a1f6a542645c",
+      "listingCommits": [
+        "69616f5ca9459ea774f16f12803e60be16eda161",
+        "00afce47ee4529268ac4f41234631e4fad091b69",
+        "0bfab37b5eb534bd3788226dce63a3c38c4d38eb"
+      ],
+      "result": "README moved from 8c09c495cd65be09e7b3a26416102950fe9447e0 to 78be6c702c86e8563b260a414480f5e375612926; no new monitored-metro rows after age normalization. Raw list SHA changed to 64b36912ba07951774e09ef3e1843b9a2365982f; contents were unavailable through connector."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (1a7d296e3a525f3af0f65e5f0f6460f95d30ec78).",
+      "Targeted Dallas/DFW and Austin search and employer official JD/ATS reads. Excluded employer results were not investigated."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "GM-JR-202622857",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202622857/senior-ai-data-engineer-gpsc-insights-engineering/",
+        "result": "Official full-time Austin JD and Apply link show AI data products and ML/GenAI pipelines. Requires 6+ years and excludes employer immigration support including OPT and STEM OPT. No post-May start stated; experience and authorization disqualify."
+      },
+      {
+        "id": "Applied-Materials-R2632413",
+        "source": "https://jobs.appliedmaterials.com/job/santa-clara/applications-engineer-new-college-grad-bachelor-s-master-s-santa-clara-austin/95/102799463616",
+        "result": "Official Austin/Santa Clara new-grad JD and Apply link. Work is semiconductor chamber-matching software validation, release testing and field support; degrees specified in mechanical/electrical/chemical/materials engineering. No applied AI/ML development in the duties. December 31 is an application deadline, not the start date; no role-specific OPT/STEM OPT confirmation."
+      },
+      {
+        "id": "American-Airlines-88911",
+        "source": "https://jobs.aa.com/job/Sr-Associate-Engineer-Engineer%2C-IT-AI/88911-en_US/",
+        "result": "Rechecked alternate employer URL; direct retrieval still 403. Employer index describes Fort Worth production AI, with 1+ years lower-tier minimum. No verified live application, post-May start, OPT/STEM OPT or clear improvement over Ryan."
+      },
+      {
+        "id": "GlobalFoundries-JR-2602832",
+        "source": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/Richardson/AI-ML-Software-Engineer--2026-New-College-Graduate-_JR-2602832",
+        "result": "Existing Richardson closed-watch role. Exact 2026 graduate employer endpoint returned no readable detail or application. No verified reopening, post-May start or role-specific work authorization change."
+      },
+      {
+        "id": "Applied-Materials-R2627684",
+        "source": "https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/Data-Scientist-New-College-Grad--Bachelor-s-Master-s--Austin--TX-_R2627684",
+        "result": "Previously recorded Austin opportunity-cost rejection. Employer index remains visible but exact ATS has no readable JD/apply form; opening, post-May start and OPT/STEM OPT remain unverified."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing Austin graduate role. Official JD shows Apply, September 6, 2027 start, product data science and graduate eligibility without a professional-year floor. Without-sponsorship clause unchanged; no new STEM OPT support or verified status change."
+      }
+    ],
+    "coverage": "Incremental; counts reflect distinct documented leads, not total hits or publication dates."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-15T2037-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T01:31:31Z"
+  }
+}
