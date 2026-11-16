@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T11:27:24Z",
+  "checkedAt": "2026-11-16T11:29:04Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "a7e3c196d0824553364c810896f5d9f64e8bd3f9",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-16T0341-Texas.json",
+      "sha": "d30a7140c248bb8431137e4e762b952e9cd37dd9",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T09:43:16Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable public main; no committed workflows found. Pages deployment is not a scraper."
+    },
+    "publishedPages": "Both live URLs were attempted but not retrieved. Both source pages were read on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "5676378e654203ce8b5987a712134718b4d27c26",
+      "head": "5d9a91acc042f932e7b190cb3ce381b7acbc2be5",
+      "listingCommits": [
+        "501480c1799ed3478028f94b17c8c5b97b559000",
+        "176786bf30c99a3acf7cc6681ac368292560f8e5"
+      ],
+      "result": "README e3f3ab18a54925abc093361ba42cc3ba6ea53415 compared with previous snapshot; no added metro rows after age normalization. Listings 21495f5a5d2b46b1d518b10c5c3f90fd6af7a319; connector returned an empty body."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (18631c0d6d3b225aba0cc98cdcdedb44b3634e10).",
+      "Fresh DFW and Austin searches, regional listings and exact employer checks."
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 7,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 1,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "AMD-95846",
+        "source": "https://careers.amd.com/careers-home/jobs/95846?lang=en-us",
+        "result": "Austin. Official indexed JD focuses on client PC power/performance, hardware instrumentation and system/firmware-adjacent development. No start confirmation or OPT/STEM OPT evidence; live page returned 403. Excluded on duties."
+      },
+      {
+        "classification": "new",
+        "id": "Cigna-26010877",
+        "source": "https://jobs.thecignagroup.com/us/en/job/26010877/Graduate-AI-Machine-Learning-Engineer-Intern-TX-NJ-MO",
+        "result": "Austin is one option. Official JD: 12-week internship starting May 2027 and one year of experience may come from projects/coursework; no current or future sponsorship. Excluded as internship."
+      },
+      {
+        "classification": "new",
+        "id": "Ericsson-563121776618027",
+        "source": "https://jobs.ericsson.com/careers/job/563121776618027?domain=ericsson.com&jobPipeline=LinkedIn",
+        "result": "Employer-indexed Plano AI & Data Science internship starts May 25, 2027 and explicitly excludes F-1 CPT/EAD. Current application not verified; excluded."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Austin graduate data scientist; September 6, 2027 start, no minimum professional years, direct product ML, STEM OPT support unverified. Both Wise and exact SmartRecruiters requisition show expired; stale search snippets show Apply. Verified current → closed; exact closure time not disclosed. Application status and archived JD retained.",
+        "secondarySource": "https://jobs.smartrecruiters.com/Wise/744000160933600-graduate-data-scientist"
+      },
+      {
+        "classification": "existing",
+        "id": "Adobe-R172085",
+        "source": "https://careers.adobe.com/us/en/job/R172085/2027-University-Graduate-Machine-Learning-Engineer",
+        "result": "Official careers page says filled; directly opened Workday variants returned no usable listing, despite indexed results. Existing closed and applied statuses and archive remain."
+      },
+      {
+        "classification": "existing",
+        "id": "Applied-Materials-R2627684",
+        "source": "https://jobs.appliedmaterials.com/job/austin/data-scientist-new-college-grad-bachelor-s-master-s-austin-tx/95/101122186592",
+        "result": "Austin new-grad logistics data engineering; canonical careers URL returned 404, alternate Workday showed no text, index still displayed JD. Disappearance did not independently establish closure; remains opportunity-cost rejected; start and OPT/STEM OPT remain unconfirmed."
+      },
+      {
+        "classification": "existing",
+        "id": "Cigna-26010465",
+        "source": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Technology-Development-Program--TECDP----Artificial-Intelligence-Track---Start-Date--July-12--2027_26010465",
+        "result": "Existing Austin AI track (July 12, 2027); prior official OPT exclusion remains, live ATS did not render. No verified status change."
+      },
+      {
+        "classification": "existing",
+        "id": "Kyndryl-R-66739",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/en-US/kyndrylearlycareers/job/USDALFRI---Dallas-Frisco-AI-HUB-FRI/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739",
+        "result": "Official indexed entry-level Frisco AI role already screened. Live ATS showed no JD; no newly verified start, authorization, or availability."
+      },
+      {
+        "classification": "existing",
+        "id": "Kyndryl-R-66870",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/kyndrylearlycareers/job/dallas-usdalfri-frisco-ai-hub/data-engineer_r-66870-1",
+        "result": "Official index says Frisco office, unrestricted present and future work authorization and no sponsorship; live ATS gave no usable text. Existing data engineering rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003?gh_src=remotehunt.app",
+        "result": "Official ATS lists Austin, 0–2 years, a form and direct applied ML duties. U.S. citizenship and Secret clearance eligibility are explicit; 2027 start not established. Existing citizenship rejection unchanged."
+      }
+    ],
+    "coverage": "Incremental; counts reflect distinct documented requisitions, not all search results."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No new qualified and verified upgrade to the Ryan Associate Data Scientist return offer. Existing Wise vacancy confirmed expired."
+  },
+  "changes": {
+    "jobsJsonChanged": true,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 1
+  },
+  "githubWrites": {
+    "jobsJson": "succeeded-and-read-back",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-and-readback",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-16T0527-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T11:29:20Z",
+    "evidence": {
+      "verifiedJobsCommit": "e401f91ab70117f8060b26aa07c22172310e3349",
+      "verifiedJobsBlob": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "wiseArchiveBlob": "d4b5878e6b6afab4a208c99d763af95de0e9666d"
+    }
+  }
+}
