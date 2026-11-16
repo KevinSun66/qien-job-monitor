@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T16:55:10Z",
+  "checkedAt": "2026-11-16T16:56:20Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "ce0c8b3b7a0fb802a0fca4cb5d9aa5edb7d202f8",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-16T0946-Texas.json",
+      "sha": "a7b88b3442a339a4e496523243b042f3dbead6ed",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T15:47:55Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable public main; no committed workflow found. Pages deployment is not a job scraper."
+    },
+    "publishedPages": "Both public Pages URLs were checked but not retrieved; both main source pages were read."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "0de6fe27e27f155a08c33975e0e4b8c7d1ab26b0",
+      "head": "e28b062662b729b726daf92ba677ea9bd08127e5",
+      "listingCommits": [
+        "df32eb91766e01e0852060ddb51854584b0ccfbd",
+        "374a928d666fe0ea66eca9a9d74c8cc433bc8bb2"
+      ],
+      "result": "Compared README 41a86b704d02902500bd7e9f670bdb9584ec34fb with e694dfabbac03c1abc182ac44666a3e707511eee: no newly added monitored-metro rows after age normalization. Raw listings 92453907e426c110282cc988d8695bb8c7cabd70 returned 0 characters."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (8a31aac2480925745f1a319d504811d058f8d6f1).",
+      "Fresh metro and employer-specific queries with direct ATS follow-up for documented leads."
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 5,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "GM-JR-202622857",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202622857/senior-ai-data-engineer-gpsc-insights-engineering",
+        "result": "Official Austin JD covers production data engineering for purchasing/supply chain and requires 6+ years. Not an early-career opening; excluded on experience."
+      },
+      {
+        "classification": "new",
+        "id": "GlobalFoundries-JR-2604196",
+        "source": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/USA---Texas---Austin/Talent-Accelerator-Program--2027-New-College-Graduate-_JR-2604196-1",
+        "result": "Austin 2027 graduate program lead. Employer ATS rendered no usable body; copies describe customer/markets and product marketing rotations, not Applied AI/ML. Current application, start and OPT/STEM OPT not verified; excluded."
+      },
+      {
+        "classification": "new",
+        "id": "GlobalFoundries-JR-2604193",
+        "source": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/Field-Application-Engineer--2027-New-College-Graduate-_JR-2604193",
+        "result": "Official indexed Austin graduate JD supports customer semiconductor IC development. Direct ATS showed no usable body; live application, qualifying start and work authorization unverified. Excluded by chip-related duties."
+      },
+      {
+        "classification": "existing",
+        "id": "Self-Financial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Official Austin form, 0–2 years, modeling and risk DS duties confirmed. Explicit U.S. citizen/permanent-resident restriction; no qualifying 2027 start confirmed. Existing rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "GM-JR-202620428",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202620428/data-engineer-data-software-engineering-and-cloud-platforms-early-career/",
+        "result": "Official hybrid Austin-option early-career data engineering JD explicitly lists OPT and STEM OPT among immigration support GM will not provide. Existing visa rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Genius-Road-3444",
+        "source": "https://geniusroad.catsone.com/careers/41437/jobs/16873737-Junior-AIML-Engineer-3444",
+        "result": "Employer index still describes Austin junior ML and a 12-month contract. Direct employer page unavailable; current application, post-May start and authorization not verified. Prior screen unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Official Austin application form and 0–2 year ML duties confirmed. Requires citizenship and clearance eligibility; excluded with no change."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official Austin graduate vacancy still says expired despite third-party listings. Already closed; no change."
+      }
+    ],
+    "coverage": "Incremental; counts reflect distinct documented requisitions, not all search results."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-and-read-back",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-16T1055-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T15:47:55Z"
+  }
+}
