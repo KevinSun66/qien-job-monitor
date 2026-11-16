@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-16T09:15:36Z",
+  "checkedAt": "2026-11-16T09:16:55Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "46f43ed1bd8149f0fe9185ec63a433f8306c8d0d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "ca1230090261ae9ad25be2888bfd528c7d7a8c96",
+      "count": 335,
+      "updatedAt": "2026-11-11T21:21:25Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-16T0124-Texas.json",
+      "sha": "c1d5cc136bca44521b6caac93c76d26952a84b5a",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-16T07:26:34Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable public main. No checked-in workflow found; Pages deployment is not a scraping workflow."
+    },
+    "publishedPages": "Both public Pages endpoints were tried and not retrievable. Both source HTML files were read on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "f892dedf21178eb675515eb972ba8dec4953b377",
+      "head": "9c089d6a024bf3ec989fc7c0699681a93c0ac845",
+      "listingCommits": [
+        "9c089d6a024bf3ec989fc7c0699681a93c0ac845",
+        "62a1fc7f9fb90377729ce85cee3d893aff4a9bc6",
+        "1cfe211e3c1bd09c550934b0f3c675ae8c6f8163",
+        "fb21761ed526553da6f8b0620ceab6029def1ceb"
+      ],
+      "result": "Compared README blobs 6150356b668eccc4ad48a869f335d90541d60988 and ccf20edc0aa9c630321e8e389889ec95a4b82d2b; no added monitored-metro rows after age normalization. Raw list changed to ea8d846b49323cb74bac3b25ef46184230f4ff9f; contents not returned by connector."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (18631c0d6d3b225aba0cc98cdcdedb44b3634e10).",
+      "Fresh Dallas/DFW and Austin searches and regional listings; employer JDs or ATS pages for exact leads where retrievable."
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "id": "AMD-95846",
+        "source": "https://careers.amd.com/careers-home/jobs/95846?lang=en-us",
+        "result": "Official indexed Austin JD describes statistical/ML models and software for client PC power/performance, including low-level integration of algorithms and hardware validation. Not the requested applied AI product scope. Direct employer endpoint returned 403; no live application, post-May start, or role-specific OPT/STEM OPT support verified."
+      },
+      {
+        "id": "Virtusa-P-102906",
+        "source": "https://www.virtusa.com/careers/job-search/global/en/job/P-102906/Python-Gen-AI-Engineer",
+        "result": "Distinct Irving GenAI lead. Exact official page states position filled. Indexed JD asked for at least two years overall and substantial Python experience, exceeding the minimum experience gate. No live opening, verified post-May start or role-specific OPT/STEM OPT support."
+      },
+      {
+        "id": "Chartbeat-9020b3d3fb05cdb5",
+        "source": "https://www.indeed.com/viewjob?jk=9020b3d3fb05cdb5",
+        "officialAttempt": "https://chartbeat.com/careers/",
+        "result": "Austin data software lead surfaced in a new-grad index and third-party listing. It describes backend applications and data integration, but exact employer JD and application could not be established; company careers URL redirected away. Actual opening, experience, 2027 start, work authorization and clear Ryan upgrade not verified."
+      },
+      {
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Existing rejection. Austin official JD and form still show 0–2 years and applied ML, with mandatory U.S. citizenship and Secret-clearance eligibility. No verified relevant status change."
+      },
+      {
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Existing Austin graduate DS role. Official page still shows Apply, September 6, 2027 start, graduate entry with no professional-years minimum, and product ML. Work without sponsorship remains stated; STEM OPT support was not newly verified."
+      }
+    ],
+    "coverage": "Incremental. Counts reflect distinct documented requisitions, not all search results or newly published jobs."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening meets all mandatory gates and clearly improves on Ryan Associate Data Scientist."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-initial-write",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-16T0315-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-16T07:26:34Z"
+  }
+}
