@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T21:21:25Z",
+  "updatedAt": "2026-11-16T11:29:04Z",
   "jobs": [
     {
       "company": "IBM",
@@ -12663,13 +12663,13 @@
       "jobId": "744000160933600",
       "officialVacancyId": "4490",
       "url": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
-      "status": "current",
+      "status": "closed",
       "found": "2026-11-11",
       "discoveredDate": "2026-11-11",
       "discoveredAt": "2026-11-11T16:14:26Z",
       "firstSeen": "2026-11-11",
-      "lastChecked": "2026-11-11",
-      "lastCheckedAt": "2026-11-11T16:14:26Z",
+      "lastChecked": "2026-11-16",
+      "lastCheckedAt": "2026-11-16T11:29:04Z",
       "employment": "Full-time · 2027 Graduate Program · Hybrid",
       "gradYear": "Bachelor's or master's graduate in 2026 or 2027; fixed start September 6, 2027",
       "startDate": "2027-09-06",
@@ -12683,12 +12683,12 @@
         "Austin, TX"
       ],
       "locationListComplete": true,
-      "officialStatus": "Official Wise page displayed Apply and the full JD on 2026-11-11.",
+      "officialStatus": "2026-11-16 核验：Wise 官方招聘页（4490）和 SmartRecruiters（744000160933600）均显示该职位已过期。关闭发生的确切时间未公开。",
       "source": "Wise official careers vacancy 4490; Wise official graduate-program page",
       "verificationFlags": [
         "stem-opt-everify-i983-confirmation"
       ],
-      "finalPriority": "立即投 · 2027 Graduate Data Scientist · 薪资与产品ML平台明显高于Ryan",
+      "finalPriority": "职位已关闭 · 保留历史记录与 JD 归档",
       "roleTrack": "Product Data Science / Applied Machine Learning / FinTech",
       "technicalGrowth": "96/100",
       "brandPlatform": "93/100",
@@ -12700,7 +12700,14 @@
       "applicationStatus": "not-applied",
       "archiveUrl": "job-archive/wise/744000160933600/job-description.md",
       "archiveLabel": "JD 归档摘要",
-      "archivedAt": "2026-11-11T16:14:26Z"
+      "archivedAt": "2026-11-11T16:14:26Z",
+      "previousStatus": "current",
+      "statusChangedDate": "2026-11-16",
+      "closedAt": "2026-11-16T11:29:04Z",
+      "statusEvidence": [
+        "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "https://jobs.smartrecruiters.com/Wise/744000160933600-graduate-data-scientist"
+      ]
     },
     {
       "company": "Self Financial",
