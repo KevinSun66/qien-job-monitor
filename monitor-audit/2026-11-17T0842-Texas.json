@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-17T14:42:28Z",
+  "checkedAt": "2026-11-17T14:44:24Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "0b1f1e6ca14bedf85c91244c7b024b339a0961f5",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-17T0729-Texas.json",
+      "sha": "e82e509b7787e6a0f9c772174d57091549086c2e",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-17T13:31:12Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API 404 on otherwise readable main. No repository scraper workflow found; Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both public deployed URLs were attempted but not retrievable; Dallas and Austin source pages were read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "0ec6b50097c4e51ee2086de406100bee61659e45",
+      "head": "04d00dfc96e066ff57140a63bf61f6c1527e4f35",
+      "result": "Compared README blobs d828b7b8a1f370859b937b4fa8efb14ee335320c and 8c03fc3267180987b9813313f5e2dab39e4b904f: no added monitored-metro rows after normalizing displayed ages."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (49201360ba0d81859e7050c16af34c244b6ef2c4).",
+      "Fresh Dallas/DFW and Austin searches; Texas early-career discovery list checked against employer sources."
+    ],
+    "newTexasLeadsReviewed": 5,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Auto Club Enterprises-JR202640038",
+        "source": "https://ace.wd5.myworkdayjobs.com/careers/job/Coppell-TX/Data-Scientist-1_JR202640038/apply",
+        "result": "Coppell Data Scientist 1 syndicated lead linked to exact employer ATS. Official application returned no readable lines and direct JD was inaccessible. Syndicated description centers on internal business analytics, SQL/Python/R and Tableau, with no numeric minimum stated. E-Verify referenced there does not establish OPT/STEM OPT support; active status, graduate start and a clear Ryan upgrade are unverified."
+      },
+      {
+        "classification": "new",
+        "id": "Samsung-R121061",
+        "source": "https://sec.wd3.myworkdayjobs.com/en-US/Samsung_Careers/job/Engineer-I--Data-Engineering_R121061",
+        "result": "Exact indexed official Plano JD requires three years of experience including predictive modeling and ETL and states no sponsorship. Direct ATS not readable; exceeds the experience gate."
+      },
+      {
+        "classification": "new",
+        "id": "Toyota-10338545",
+        "source": "https://toyota.wd503.myworkdayjobs.com/tmna/job/Plano-Texas/XMLNAME-2027-TFS-Data-Science-Internship_10338545-1",
+        "result": "Exact official ATS index describes Plano data science internship, graduate-degree timing and no work-authorization support. Direct application not independently confirmed. Outside graduate full-time scope."
+      },
+      {
+        "classification": "new",
+        "id": "Neiman Marcus-1093",
+        "source": "https://neimanmarcus.upgrade.selectminds.com/neiman-marcus-group/jobs/data-scientist-i-1093",
+        "result": "Indexed employer Dallas JD names applied modeling but requires two years of progressive post-bachelor experience. Direct employer page returned HTTP 503; live state and OPT not verified. Experience excludes it."
+      },
+      {
+        "classification": "new",
+        "id": "Mindlance-743999656707257",
+        "source": "https://jobs.smartrecruiters.com/Mindlance2/743999656707257-entry-level-database-developer",
+        "result": "Official Frisco ATS JD shows 0–2 years but 3–6 months contract-to-hire and database administration/development. Excluded on employment terms and role direction."
+      },
+      {
+        "classification": "existing",
+        "id": "JPMorgan Chase-210773954",
+        "source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773954",
+        "result": "Indexed official Plano-option 2027 analyst JD describes AI/data responsibilities and refuses employment-based sponsorship and documentation support for other authorization. Direct Oracle variants did not render a current application. Prior visa-exception watch unchanged; no notification."
+      },
+      {
+        "classification": "existing",
+        "id": "Gartner-113311",
+        "source": "https://gartner.wd5.myworkdayjobs.com/en-US/Ext/job/Irving-TX/Associate-Data-Scientist---Spring-2027-Master-s-level-graduates_113311",
+        "result": "Exact indexed employer JD confirms Irving and master's or bachelor's plus two years. Historical October deadline surfaced; no current application independently verified. Existing education/experience rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Direct employer Austin vacancy still explicitly expired despite campus repost. Existing closed status unchanged."
+      }
+    ],
+    "coverage": "Counts cover distinct Texas leads retained in this incremental review."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-17T0842-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-17T13:31:12Z",
+    "evidence": {}
+  }
+}
