@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-17T07:49:32Z",
+  "checkedAt": "2026-11-17T07:50:28Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "4b77f109df5a0045dd065bc89b4e91b74d8611d1",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-17T0040-Texas.json",
+      "sha": "ec6de30df5d978b70ff316834762c9884d3a1d78",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-17T06:42:27Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable main. Pages deployment is not a job scraper."
+    },
+    "publishedPages": "Both public Pages URLs were attempted but not retrieved; both source pages were read on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "b216b8de349c500cc162c212971b19e13c5395a2",
+      "head": "95fbfb2ba32c1bcd0d5b8c59d4c1515a071a7177",
+      "listingCommits": [
+        "fa91f4eee4e4562b8e3ca917201c415bfc2053eb",
+        "081fa1db611953eaf54c4768f05d8ba6c5cdd6f2"
+      ],
+      "result": "Compared README c861a1cb14ab29c17cdc8bb13f519fb1c0a6070a with 3ac09f9fcbc759ccc55ad5912b7e718d35f2ae2f; no added monitored-metro rows after age normalization. Raw listings 3e9a64e3ca80834fb1ad93cf0d681244c6bf4abb returned 0 characters."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (49201360ba0d81859e7050c16af34c244b6ef2c4).",
+      "Fresh Dallas/DFW and Austin searches and exact employer/ATS follow-up."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Toyota-10338545",
+        "source": "https://careers.toyota.com/us/en/job/10338545/2027-TFS-Data-Science-Internship",
+        "result": "Official indexed Plano JD describes a roughly 12-week data science internship and explicitly lists F-1 OPT extension among employment support it will not provide. Direct ATS did not provide a live form. Excluded by role type and authorization."
+      },
+      {
+        "classification": "existing",
+        "id": "GlobalFoundries-JR-2604163",
+        "source": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/AI-ML-Systems-Engineer--2027-New-College-Graduate-_JR-2604163",
+        "result": "Existing Richardson graduate lead previously excluded on duties. Exact official ATS returned no readable JD or application; no verified eligibility, start, duty or status change."
+      },
+      {
+        "classification": "existing",
+        "id": "Kyndryl-R-66739",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/en-US/kyndrylearlycareers/job/USDALFRI---Dallas-Frisco-AI-HUB-FRI/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739",
+        "result": "Fresh official search index again identifies Frisco early-career AI engineering. Direct ATS returned no readable content; live opening, post-May start and OPT/STEM OPT not confirmed. Existing rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Genius-Road-3444",
+        "source": "https://geniusroad.catsone.com/careers/41437/jobs/16873737-Junior-AIML-Engineer-3444",
+        "result": "Official Austin JD still describes a 12-month contract and about one year or equivalent experience. No qualifying graduate direct hire, start or OPT/STEM OPT evidence."
+      },
+      {
+        "classification": "existing",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Official Austin form is readable and lists 0–2 years but still requires U.S. citizenship and clearance eligibility. Existing rejection unchanged."
+      }
+    ],
+    "coverage": "Incremental; counts reflect distinct documented leads."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-and-read-back",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-17T0149-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-17T06:42:27Z"
+  }
+}
