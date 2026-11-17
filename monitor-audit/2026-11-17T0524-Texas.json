@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-17T11:24:56Z",
+  "checkedAt": "2026-11-17T11:26:22Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "dd86bb91a448209ee413653dd7aac48277a1583e",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-17T0500-Texas.json",
+      "sha": "2fc020fdb3b7b3fe6f4b4faf78fcf4c7ab22f2ef",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-17T11:02:27Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API 404 on otherwise readable main. No repository scraper workflow found; Pages deployment is not job discovery."
+    },
+    "publishedPages": "Public Pages URLs could not be retrieved by web lookup; Dallas and Austin source pages on main were read."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "f074312a365ba6c475e1df402cfc39035daf0ef3",
+      "head": "eab2e9c6ea2c03439c9e4536c1ca71a29b2211b4",
+      "result": "Compared README blobs 2df371abb45a9eddc8d208821a324ef0f4a85d2d and 8d7c3d843783b1ca92b8444638c63d4ffc898f14; no newly added monitored-metro rows after normalizing displayed ages."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (49201360ba0d81859e7050c16af34c244b6ef2c4).",
+      "Fresh Dallas/DFW and Austin searches with employer or ATS checks."
+    ],
+    "newTexasLeadsReviewed": 4,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Momentum-8606824002",
+        "source": "https://job-boards.greenhouse.io/momentumcompany3/jobs/8606824002",
+        "result": "Official active application, Dallas onsite, full-time 2027 graduate cohort. BI, systems administration and employee support are core; using AI tools is auxiliary. Sponsorship question does not establish OPT/STEM OPT, and no clear upgrade over Ryan."
+      },
+      {
+        "classification": "new",
+        "id": "Momentum-8607054002",
+        "source": "https://job-boards.greenhouse.io/momentumcompany3/jobs/8607054002",
+        "result": "Official active application, Dallas onsite, full-time 2027 graduate cohort. Strategy and operations support with analytics and AI tool use; not applied AI/ML/DS ownership. Sponsorship question does not confirm OPT/STEM OPT and no clear Ryan upgrade."
+      },
+      {
+        "classification": "new",
+        "id": "Graphcore-8918300002",
+        "source": "https://job-boards.greenhouse.io/graphcore-early-careers/jobs/8918300002",
+        "result": "Austin early-career role listed on the employer board; responsibilities are hardware asset inventory, movement and supply chain logistics. Excluded hardware remit. The similarly titled AI/ML test systems graduate opening is listed in Bristol, UK."
+      },
+      {
+        "classification": "new",
+        "id": "GM-JR-202621452",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202621452/staff-data-scientist-ai-engineering-productivity/",
+        "result": "Official Austin-option Staff JD and Apply link. Requires 8+ years plus initiative leadership, and specifically excludes company immigration support including OPT and STEM OPT. Ineligible."
+      },
+      {
+        "classification": "existing",
+        "id": "Applied Materials-R2627684",
+        "source": "https://jobs.appliedmaterials.com/job/austin/data-scientist-new-college-grad-bachelor-s-master-s-austin-tx/95/101122186592",
+        "result": "Employer career page returned 404 and Workday did not render a readable application. Current acceptance could not be confirmed. Prior opportunity-cost rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "GM-JR-202616534",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202616534/data-scientist/",
+        "result": "English and Spanish employer pages returned 404 while search indexes retained the earlier L6 JD. No employer closure statement or live ATS confirmation; current acceptance unverified and existing experience/visa rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Direct official Austin vacancy still explicitly expired despite syndicated copies resurfacing. Existing closed state unchanged."
+      }
+    ],
+    "coverage": "Counts cover distinct leads retained for this incremental review."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-17T0524-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-17T11:02:27Z",
+    "evidence": {}
+  }
+}
