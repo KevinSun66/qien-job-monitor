@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-17T02:20:04Z",
+  "checkedAt": "2026-11-17T02:21:23Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "a8bf324159fbeb9412a4dce285d5e6ca1afcf946",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-16T1929-Texas.json",
+      "sha": "17edcc7d95f2b0bbfc3c1e5bddce8ada359b6037",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-17T01:31:03Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable main. A Pages deployment is not a job scraper."
+    },
+    "publishedPages": "Both public Pages URLs were attempted but not retrievable; both source pages were read on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "aecb09a269df841940d08c80c400b7019b9bae7c",
+      "head": "6a3e90253a8e4d3b50b828caca939c5c17a097e5",
+      "listingCommits": [
+        "6df32fda7636ea1ae093fad01682c65b4dd624ed",
+        "39ea2c60ff21248d50a54c130118ed036b1e052c"
+      ],
+      "result": "Compared README 202555f381a9ca3a8fbfff2da4cd47fb0241775f against b91716046b7ba8d42c1307c2d91d7bf9ace41b32; no added monitored-metro rows after age normalization. Raw listings f54513b65007b410bbbcb0bdb550258fecc81974 returned 0 characters."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (3d1326ee5fdd4c7ace90f96f3e0971bad7a037a3).",
+      "Fresh Dallas/DFW and Austin searches, official career sites, and exact ATS follow-up."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Self-Financial-6262301004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6262301004",
+        "result": "Official indexed Austin principal data science JD requires 8+ years of hands-on work and limits eligibility to U.S. citizens or permanent residents. Direct page did not establish a working application. Excluded on both hard gates."
+      },
+      {
+        "classification": "new",
+        "id": "Momentum-8608791002",
+        "source": "https://job-boards.greenhouse.io/momentumcompany3/jobs/8608791002?gh_src=4fvegecd2us",
+        "result": "Official employer board lists a Dallas full-time 2027 graduate role. JD focuses on supporting infrastructure, end users and IT uptime rather than Applied AI, ML or data science. No qualifying start or OPT/STEM OPT verified for this lead; outside role scope."
+      },
+      {
+        "classification": "existing",
+        "id": "Genius-Road-3444",
+        "source": "https://geniusroad.catsone.com/careers/41437/jobs/16873737-Junior-AIML-Engineer-3444",
+        "result": "Official Austin JD and Apply control now readable: roughly one year under supervision or equivalent internship/academic/project experience, and a 12-month onsite contract. No eligible graduate direct hire verified; no end-client start or OPT/STEM OPT confirmation. Prior exclusion unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "HF-Sinclair-1449635100",
+        "source": "https://careers.hfsinclair.com/job/Dallas-Data-Scientist-TX-75219/1449635100/",
+        "result": "Official Dallas JD still requires six years of applied DS/ML/AI experience; no change to experience screen."
+      },
+      {
+        "classification": "existing",
+        "id": "Kyndryl-R-66870",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/kyndrylprofessionalcareers/job/dallas-usdalfri-frisco-ai-hub/data-engineer_r-66870",
+        "result": "Existing Frisco early-career data engineer; direct ATS did not render an application. No new evidence changes prior work authorization or Ryan assessment."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official Austin vacancy continues to say expired despite active-looking aggregators. Existing closed state unchanged."
+      }
+    ],
+    "coverage": "Incremental; counts reflect distinct documented leads."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-and-read-back",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-16T2020-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-17T01:31:03Z"
+  }
+}
