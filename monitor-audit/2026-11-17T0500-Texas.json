@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-17T11:00:26Z",
+  "checkedAt": "2026-11-17T11:02:11Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "b01e535389528ecda680d43e231b59836e2be44e",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-17T0350-Texas.json",
+      "sha": "dd101460184881cef7c51bee877e9ec9f8d65e3d",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-17T09:51:29Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable main. Pages deployment is not a job scraper."
+    },
+    "publishedPages": "Both published URLs were attempted but not retrieved; both source pages were read on main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "04f80dd82cf195cb0858e6a4414f5ea89c7ac385",
+      "head": "f074312a365ba6c475e1df402cfc39035daf0ef3",
+      "result": "Compared README 2df371abb45a9eddc8d208821a324ef0f4a85d2d with undefined; no added monitored-metro rows after age normalization. Raw listings a5858e4b65535855c849f278f541fbc7c78b74ab returned 0 characters."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (49201360ba0d81859e7050c16af34c244b6ef2c4).",
+      "Fresh Dallas/DFW and Austin web searches and employer/ATS follow-up."
+    ],
+    "newTexasLeadsReviewed": 3,
+    "otherMetroLeadsExcluded": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "HF Sinclair-1430072400",
+        "source": "https://careers.hfsinclair.com/job/Dallas-IT-Data-Analytics-Intern-TX-75219/1430072400/",
+        "result": "Official JD and Apply link; Dallas, no experience required, analytics, automation and ML support; Summer 2027 internship for current students, not the required graduate full-time employment."
+      },
+      {
+        "classification": "new",
+        "id": "Ryan-R0020633",
+        "source": "https://ryan.wd1.myworkdayjobs.com/en-US/RyanCareers/job/AI-Engineer_R0020633-1",
+        "result": "Official indexed Dallas description identifies the work as senior AI software engineering. Direct Workday did not return readable content or confirm current applications. No qualifying start, experience or OPT eligibility verified."
+      },
+      {
+        "classification": "new",
+        "id": "Ryan-R0019979",
+        "source": "https://ryan.wd1.myworkdayjobs.com/en-US/RyanCareers/job/Plano/Full-Stack-AI-Engineer_R0019979-1",
+        "result": "Older official index names Plano and full-stack generative AI. Direct Workday did not return a readable current JD or application; current opening, experience, post-May start, OPT/STEM OPT and upgrade are unverified."
+      },
+      {
+        "classification": "non-target-location",
+        "id": "Ryan-R0020202",
+        "source": "https://ryan.wd1.myworkdayjobs.com/en-US/RyanCareers/job/Full-Stack-AI-Engineer_R0020202-1",
+        "result": "Indexed exact employer requisition confirms London, separate from Plano. Direct Workday did not render a current application."
+      },
+      {
+        "classification": "existing",
+        "id": "Myriad360-8930382002",
+        "source": "https://job-boards.greenhouse.io/myriad360/jobs/8930382002",
+        "result": "Official live ATS with Apply, U.S. remote, 0–2 years, up to 10% travel and internal AI/workflow automation. Dallas/Austin-specific placement, qualifying start, OPT/STEM OPT and clear upgrade still unverified; existing tracked status unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "MAP-8816124002",
+        "source": "https://job-boards.greenhouse.io/map/jobs/8816124002",
+        "result": "Official ATS form and 0–2 years verified; prior Ryan opportunity-cost rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official Austin vacancy still expired; existing closed status unchanged."
+      }
+    ],
+    "coverage": "Incremental; counts reflect the distinct documented leads, excluding one London lead from the Texas count."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-17T0500-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-17T09:51:29Z",
+    "evidence": {}
+  }
+}
