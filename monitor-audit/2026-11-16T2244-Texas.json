@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-17T04:44:18Z",
+  "checkedAt": "2026-11-17T04:45:55Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "319dda7ecd377c63711d1f1eff49582eb8915ea8",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-16T2133-Texas.json",
+      "sha": "9a676859c36db492b285f7cf7cdd81496796b7c9",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-17T03:34:52Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned 404 on readable main. Pages deployment is not a job scraper."
+    },
+    "publishedPages": "Both public Pages URLs were attempted but not retrieved; both source pages on main were read."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "ed3050d74d30a888cfaa54acb9c7e87e7e98f393",
+      "head": "5fb154bf681a2c4908cfc7e5506c9a1912cadf2f",
+      "listingCommits": [
+        "5fb154bf681a2c4908cfc7e5506c9a1912cadf2f",
+        "f8cdf22bbde31141b38b3c5f7297efc3783ba581"
+      ],
+      "result": "Compared README 2524755641dbe684903ff6cf8bd879ccf9682a56 against b6889f50c554c3b6bc544b5d1cd5e8732cae1f9c; no added monitored-metro rows after age normalization. Raw listings 10c222bd410a4a76639a048fc02575df5a63d4b3 returned 0 characters."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README changed to 49201360ba0d81859e7050c16af34c244b6ef2c4; no added monitored-metro rows after age normalization.",
+      "Fresh Dallas/DFW and Austin searches and employer/ATS follow-up."
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "LPL-R-052493",
+        "source": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/New-Grad---2027---Data-Engineering_R-052493-1",
+        "result": "Newly screened historical Austin-option data engineering graduate lead. Exact employer JD and application URLs did not provide a usable body. Copies describe pipelines/warehouses and no current or future sponsorship, but actual opening, post-May start, hiring entity's OPT/STEM OPT support and a clear Ryan upgrade were not verified. No addition."
+      },
+      {
+        "classification": "new",
+        "id": "Google-90752211805446854",
+        "source": "https://www.google.com/about/careers/applications/jobs/results/90752211805446854-ai-data-engineer-i/",
+        "result": "Official indexed Austin-option JD was mid-level and required five years of data processing. Direct URL renders general job search rather than an exact application; excluded by experience and current opening unverified."
+      },
+      {
+        "classification": "new",
+        "id": "GM-JR-202623950",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202623950/senior-quality-data-and-ai-engineer/",
+        "result": "Official Austin hybrid JD shows application link, requires 5+ years of professional engineering, and excludes immigration-related employer support. Excluded on experience and no verified graduate eligibility."
+      },
+      {
+        "classification": "existing",
+        "id": "Adobe-R172085",
+        "source": "https://careers.adobe.com/us/en/job/R172085/2027-University-Graduate-Machine-Learning-Engineer",
+        "result": "Official careers page still reports filled; existing closed/applied records retained and cached Workday copies not treated as reopening."
+      },
+      {
+        "classification": "existing",
+        "id": "Applied-Materials-R2627684",
+        "source": "https://jobs.appliedmaterials.com/job/austin/data-scientist-new-college-grad-bachelor-s-master-s-austin-tx/95/101122186592",
+        "result": "Employer careers URL remains 404; older Workday index does not show a current verified application. Existing opportunity-cost rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official Austin graduate vacancy still expired. No reopening confirmed."
+      }
+    ],
+    "coverage": "Incremental; counts reflect distinct documented leads."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "pending-write-and-read-back",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-16T2244-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-17T03:34:52Z"
+  }
+}
