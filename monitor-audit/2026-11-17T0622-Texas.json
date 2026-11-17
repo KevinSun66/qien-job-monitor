@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-17T12:22:00Z",
+  "checkedAt": "2026-11-17T12:23:52Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "6a69515114e82c996086a59bf52998b8bc2309ae",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-17T0524-Texas.json",
+      "sha": "1c2a4a0af2b9e6a981a354242529708bdfe2d7e9",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-17T11:26:34Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API 404 on otherwise readable main. No repository scraper workflow found; Pages deployment is not job discovery."
+    },
+    "publishedPages": "Public Pages URLs could not be retrieved by web lookup; Dallas and Austin source pages on main were read."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "eab2e9c6ea2c03439c9e4536c1ca71a29b2211b4",
+      "head": "56d45d518815b04994fb9e4bf743405df4aa2480",
+      "result": "Compared README blobs 8d7c3d843783b1ca92b8444638c63d4ffc898f14 and 731cd19677742437748a4d4d1e2528f369d436af: no added monitored-metro rows after age normalization. Raw listings 82e88af309d2b41f18a2dc4cd73171d70183b50d returned 0 characters."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (49201360ba0d81859e7050c16af34c244b6ef2c4).",
+      "Fresh Dallas/DFW and Austin search with employer or ATS checks."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 5,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Alcon-R-2026-47915",
+        "source": "https://alcon.wd5.myworkdayjobs.com/en-US/careers_alcon/job/Fort-Worth-Texas/XMLNAME-2026-Envision-R-D-Rotational-Program---Track-2_R-2026-47915",
+        "result": "Historical employer ATS index names Fort Worth, full-time July 2027 option, and possible computer vision/digital solutions rotation; assignment not guaranteed, other rotations include medical device work. Indexed deadline was July 17, 2026; current ATS did not expose a readable application. No qualifying live opening, OPT/STEM OPT or clear upgrade verified."
+      },
+      {
+        "classification": "new",
+        "id": "LPL-R-052493",
+        "source": "https://lplfinancial.wd1.myworkdayjobs.com/University/job/Fort-MillCharlotte/New-Grad---2027---Data-Engineering_R-052493-1",
+        "result": "Syndicated Austin-option 2027 data engineering lead with ETL/platform work. Apply redirect identified exact Workday requisition but did not yield a readable official JD or application. Employer early-career FAQ excludes candidates needing sponsorship now or later, and does not confirm OPT/STEM OPT. Austin assignment, open status, qualifying start and Ryan upgrade not verified."
+      },
+      {
+        "classification": "existing",
+        "id": "Adobe-R172085",
+        "source": "https://careers.adobe.com/us/en/job/R172085/photoshop",
+        "result": "Direct official Adobe page explicitly says filled despite indexed Austin-option JD. Existing closed and applied statuses unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Kyndryl-R-66739",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/en-US/kyndrylearlycareers/job/USDALFRI---Dallas-Frisco-AI-HUB-FRI/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739",
+        "result": "Exact indexed employer JD names Frisco, 0–3 years, production AI and work authorization without restriction now and later. Live Workday application not confirmed; historical application rejection unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Kyndryl-R-68529",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Dallas-USDALFRI-Frisco-AI-HUB/Forward-Deployed-Engineer_R-68529",
+        "result": "Exact indexed official Frisco AI delivery JD reappeared. Direct ATS did not supply readable current application. No qualifying start, OPT/STEM OPT or live status verified."
+      },
+      {
+        "classification": "existing",
+        "id": "Self Financial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Direct ATS shows Apply and credit/lending modeling, but explicitly limits consideration to U.S. citizens and permanent residents. Prior exclusion unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Direct employer Austin posting remains explicitly expired despite syndicated reappearance. Prior closure unchanged."
+      }
+    ],
+    "coverage": "Counts cover distinct leads retained for this incremental review."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-17T0622-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-17T11:26:34Z",
+    "evidence": {}
+  }
+}
