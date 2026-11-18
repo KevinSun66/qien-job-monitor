@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-18T11:51:33Z",
+  "checkedAt": "2026-11-18T11:53:10Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "4f94f20eb0dcd1da18d65a5ee2ca910a46c0ea1c",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-18T0426-Texas.json",
+      "sha": "58a918720e9327fda8f120f06d0b54f6ffdc89fe",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-18T10:27:10Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job scraping."
+    },
+    "publishedPages": "Both public deployment URLs attempted but not retrievable; both source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "6aaeecb4267a4d43828c6a91263cfc4f17367c2d",
+      "head": "9fa7057f4e26b3779d3ffeb3cf76ad88aa3fbc06",
+      "result": "README blob unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); upstream raw-data commits advanced."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (4fc9b238509b8e14e478bc3c4e4549c4da850162).",
+      "Dallas/DFW and Austin searches, November 18 Texas AI discovery list and direct employer ATS checks."
+    ],
+    "newTexasLeadsReviewed": 5,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Ericsson-787111",
+        "source": "https://jobs.ericsson.com/careers/job/563121776618027",
+        "result": "Exact indexed employer JD identifies Plano, applied AI/data duties, a 12-week internship starting May 25, 2027 and an explicit restriction on hiring F-1 on CPT or EAD. Direct ATS rendered no live application. Excluded."
+      },
+      {
+        "classification": "new",
+        "id": "SBT Global-3743990015227606",
+        "source": "https://jobs.smartrecruiters.com/sbtglobalinc/3743990015227606",
+        "result": "Official Plano JD covers LLM and agentic applications, but specifies a renewable one-year contract despite full-time hours metadata; no graduate start, OPT/STEM OPT or clear Ryan upgrade confirmed."
+      },
+      {
+        "classification": "new",
+        "id": "Amazon-10606386",
+        "source": "https://www.amazon.jobs/en/jobs/10606386/systems-development-engineer-aws-generative-ai-ml-servers",
+        "result": "Indexed exact employer JD requires 2+ years non-internship software development and covers AI server systems. Direct Amazon job page returned 404; excluded on minimum experience and direction, with no current application verified."
+      },
+      {
+        "classification": "new",
+        "id": "Amazon-10570327",
+        "source": "https://www.amazon.jobs/en/jobs/10570327/systems-development-engineer-aws-generative-ai-ml-servers-aws-hw-engineering",
+        "result": "Direct Austin AWS Hardware Engineering JD has a seven-year systems requirement plus two years non-internship software development. Excluded on experience and hardware scope."
+      },
+      {
+        "classification": "new",
+        "id": "SpaceX-8652235002",
+        "source": "https://job-boards.greenhouse.io/spacex/jobs/8652235002",
+        "result": "Direct Bastrop ATS shows Apply, operations/process work and 1+ years. ITAR eligibility is restricted to listed statuses or separate government authorization; no OPT/STEM OPT pathway or qualifying graduate start verified."
+      },
+      {
+        "classification": "existing",
+        "id": "SpaceX-8658737002",
+        "source": "https://job-boards.greenhouse.io/spacex/jobs/8658737002",
+        "result": "Official Bastrop LLM/agent development JD and Apply form present, with ITAR restrictions and no verified OPT/STEM OPT route or qualifying start. Existing exclusion unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "HP-3165034",
+        "source": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/AI-Data-Scientist---Enterprise-AI_3165034-1",
+        "result": "Indexed official enterprise AI role requires 3+ years; direct ATS unreadable. No verified change to prior experience exclusion."
+      },
+      {
+        "classification": "existing",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Direct Austin ATS retains 0–2 years and the U.S. citizenship and clearance eligibility requirements. Existing exclusion unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Direct employer Austin vacancy remains explicitly expired despite campus repost. Existing closed state unchanged."
+      }
+    ],
+    "coverage": "Distinct Texas leads documented this round."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-18T0551-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-18T10:27:10Z",
+    "evidence": {}
+  }
+}
