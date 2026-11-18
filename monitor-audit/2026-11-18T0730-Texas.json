@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-18T13:30:35Z",
+  "checkedAt": "2026-11-18T13:31:41Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "6c72c09ab05fc316d132df6fbc407e3f6c03f145",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-18T0654-Texas.json",
+      "sha": "545088091643f2c351249993d15fcf0ba611c469",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-18T12:56:17Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. GitHub Pages deployment is separate from job discovery."
+    },
+    "publishedPages": "Both public deployment URLs attempted but not retrievable; both source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "891c1b6c2e061928a9e7d657cd3ebee34a26a97d",
+      "head": "694dbd13a20343b917d22d79aa36ad5d09391e5c",
+      "result": "README blob unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); upstream raw-data commits advanced."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (4fc9b238509b8e14e478bc3c4e4549c4da850162).",
+      "Fresh Dallas/DFW and Austin discovery with employer follow-up. Exact Booz Allen junior posting R0247418 was excluded outside the metro count (San Antonio, TS/SCI clearance requirement). Applied existing company exclusions."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "CarMax-JR-184869",
+        "source": "https://carmax.wd1.myworkdayjobs.com/External/job/Engineer-II--AI-ML_JR-184869",
+        "result": "Exact indexed employer JD lists the Plano technology hub, production ML and agentic AI work, and a 2+ year professional minimum, exceeding the experience gate. Direct Workday provided no readable live application; no qualifying start or OPT/STEM OPT established."
+      },
+      {
+        "classification": "new",
+        "id": "Hippo-8910084002",
+        "source": "https://job-boards.greenhouse.io/hippo70/jobs/8910084002",
+        "result": "Direct official Austin JD and Apply form available. Senior business/growth/marketing analytics role requires 3–5 years; ineligible on experience."
+      },
+      {
+        "classification": "existing",
+        "id": "Hippo-8859178002",
+        "source": "https://job-boards.greenhouse.io/hippo70/jobs/8859178002",
+        "result": "Direct official job and Apply form available; insurance modeling requires 5+ years. Existing experience exclusion unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "GlobalFoundries-JR-2602832",
+        "source": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/AI-ML-Software-Engineer--2026-New-College-Graduate-_JR-2602832",
+        "result": "Exact indexed Richardson 2026 new graduate JD resurfaced. Direct Workday unreadable and no verified reopening or post-May 2027 start; closed-watch unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official Austin job page explicitly remains expired. Prior closed state unchanged."
+      }
+    ],
+    "coverage": "Distinct documented Texas leads in this incremental review."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-18T0730-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-18T12:56:17Z",
+    "evidence": {}
+  }
+}
