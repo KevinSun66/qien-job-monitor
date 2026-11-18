@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-18T09:48:35Z",
+  "checkedAt": "2026-11-18T09:50:05Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "8876f801e3b6b2b7f7a2db39d9a2e9521493a033",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-18T0302-Texas.json",
+      "sha": "1581a12d7d28880439bd7706a654b90fa7b70e8a",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-18T09:04:27Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on otherwise readable main. Pages deployment is not a job scraper."
+    },
+    "publishedPages": "Both public deployed URLs were attempted but not retrievable; Dallas and Austin source pages were read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "d3a1241056b4034d59f8e50c50d801ba5cef50bd",
+      "head": "b4bd0c30d5f27fcb2fe7360bf244f8cc8bb57cab",
+      "result": "Compared README blobs 4230bce5f0968c69437e9c4dcf5d8ecf388f2816 and 9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b: no added monitored-metro rows after normalizing displayed ages."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (4fc9b238509b8e14e478bc3c4e4549c4da850162).",
+      "Fresh Dallas/DFW and Austin searches and employer JD/ATS follow-up."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Genius Road-3444",
+        "source": "https://geniusroad.catsone.com/careers/41437/jobs/16873737-Junior-AIML-Engineer-3444",
+        "result": "Indexed exact recruiter JD describes Austin applied ML, datasets, model evaluation and approximately one year or equivalent study/project/internship, but is a 12-month contract. Direct ATS returned 404; current opening, qualifying start and OPT/STEM OPT not established. Outside permanent graduate full-time scope."
+      },
+      {
+        "classification": "new",
+        "id": "Apple-200693736-0157",
+        "source": "https://jobs.apple.com/en-us/details/200693736-0157/aiops-software-engineer-strategic-data-solutions?team=CORSV",
+        "result": "Exact indexed Austin job belongs to Strategic Data Solutions (SDS) per employer title. Excluded under existing user rule; direct employer page timed out, no live status inferred."
+      },
+      {
+        "classification": "existing",
+        "id": "GM-JR-202620428",
+        "source": "https://search-careers.gm.com/en/jobs/jr-202620428/data-engineer-data-software-engineering-and-cloud-platforms-early-career/",
+        "result": "Austin-option official early-career data engineering JD retrieved; explicitly excludes company immigration support that includes OPT/STEM OPT. Prior exclusion unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "GlobalFoundries-JR-2604163",
+        "source": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/AI-ML-Systems-Engineer--2027-New-College-Graduate-_JR-2604163",
+        "result": "Indexed exact employer Richardson 2027 new graduate listing reappeared. Direct ATS did not confirm live application. Prior direction exclusion unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Visa-REF088586W",
+        "source": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/Software-Engineer--New-College-Grad---2027--Austin--TX_REF088586W",
+        "result": "Indexed exact Austin 2027 full-time SWE JD requires permanent U.S. work authorization and offers no future sponsorship. Direct ATS unreadable; prior authorization exclusion unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Direct employer Austin page explicitly expired despite syndicated reappearance; existing closure unchanged."
+      }
+    ],
+    "coverage": "Counts cover distinct Texas leads documented in this incremental review."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-18T0348-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-18T09:04:27Z",
+    "evidence": {}
+  }
+}
