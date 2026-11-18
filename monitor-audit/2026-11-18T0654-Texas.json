@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-18T12:54:35Z",
+  "checkedAt": "2026-11-18T12:56:01Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d3e613616d0b74a66250019b3b40bc0935fbc502",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-18T0551-Texas.json",
+      "sha": "08409ea2d315cc3174906c75bbbd8ca28cd014f1",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-18T11:53:26Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. GitHub Pages deployment is separate from job discovery."
+    },
+    "publishedPages": "Both public deployment URLs attempted but not retrievable; both source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "9fa7057f4e26b3779d3ffeb3cf76ad88aa3fbc06",
+      "head": "891c1b6c2e061928a9e7d657cd3ebee34a26a97d",
+      "result": "README blob unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); upstream raw-data commits advanced."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (4fc9b238509b8e14e478bc3c4e4549c4da850162).",
+      "Fresh Dallas/DFW and Austin searches, Texas data science discovery list and employer career verification."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Auto Club Enterprises-JR202638253",
+        "source": "https://www.indeed.com/viewjob?jk=5584dd108530485d",
+        "result": "Coppell entry-level data scientist syndicated lead, distinct from previously seen JR202640038. Indeed says expired and exact employer ATS could not be found; live employer status, qualifying start and OPT/STEM OPT not verified."
+      },
+      {
+        "classification": "new",
+        "id": "Charles Schwab-2026-130034",
+        "source": "https://www.schwabjobs.com/job/southlake/ai-and-data-scientist/33727/103221513440",
+        "result": "Exact indexed employer Southlake JD describes senior end-to-end ML ownership and gives a November 16, 2026 deadline; direct employer page returned 404. No verified open graduate role; senior scope excludes it."
+      },
+      {
+        "classification": "existing",
+        "id": "Atmos Energy-JR14359",
+        "source": "https://atmosenergy.wd108.myworkdayjobs.com/en-US/External_Career_Site/job/Data-Analyst_JR14359",
+        "result": "Rechecked exact Dallas operating analytics requisition surfaced previously. Direct ATS had no readable JD/application; no new confirmation of qualifying start, authorization, open status or Ryan upgrade."
+      },
+      {
+        "classification": "existing",
+        "id": "Applied Materials-R2627684",
+        "source": "https://jobs.appliedmaterials.com/job/austin/data-scientist-new-college-grad-bachelor-s-master-s-austin-tx/95/101122186592",
+        "result": "Austin listing reappeared in search index; employer career page still returned 404. No live application or explicit new employer closure established this round, prior opportunity-cost exclusion unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official Austin vacancy still explicitly expired despite campus repost. Existing closed state unchanged."
+      }
+    ],
+    "coverage": "Distinct documented Texas leads in this incremental review."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-18T0654-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-18T11:53:26Z",
+    "evidence": {}
+  }
+}
