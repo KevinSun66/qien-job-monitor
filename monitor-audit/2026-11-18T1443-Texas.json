@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-18T20:43:26Z",
+  "checkedAt": "2026-11-18T20:44:08Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "7b7da036e490d2502ab2688e1065430b00f31dff",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-18T1312-Texas.json",
+      "sha": "d048f02f2b15802b250fa971f8e53e2418fb2f2b",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-18T19:13:49Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "840419dc79243547c43b6bad8db17077e46f9738",
+      "head": "2f98bcd27308890b9e3e292091465b1e0ee6275f",
+      "result": "README unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); raw-data commits advanced."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (2bfeefb30391a7914d9c8b3018f8accf826642c8).",
+      "Fresh Dallas/DFW and Austin searches through both search engines and exact official JD/ATS follow-up; only previously seen leads retained after deduplication."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 6,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing",
+        "id": "GlobalFoundries-JR-2604055",
+        "source": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/AI-Software-Engineer--2027-New-College-Graduate-_JR-2604055",
+        "result": "Exact indexed Richardson-option 2027 applied AI software role resurfaced. Direct Workday returned no readable live JD/application. Qualifying post-May start and OPT/STEM OPT remain unresolved; existing watch unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Applied Materials-R2627684",
+        "source": "https://jobs.appliedmaterials.com/job/austin/data-scientist-new-college-grad-bachelor-s-master-s-austin-tx/95/101122186592",
+        "result": "Austin employer listing again returned 404 despite indexed JD. No explicit new employer closure or live application verified; previous opportunity-cost exclusion unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Kyndryl-R-66739",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/en-US/kyndrylearlycareers/job/USDALFRI---Dallas-Frisco-AI-HUB-FRI/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739",
+        "result": "Exact Frisco employer listing rechecked; direct Workday did not render a usable application or verify changed eligibility. Historic rejected application preserved."
+      },
+      {
+        "classification": "existing",
+        "id": "PMG-8587050002",
+        "source": "https://job-boards.greenhouse.io/pmg/jobs/8587050002",
+        "result": "Official Dallas application still asks for January 11, 2027 start and Summer/Fall 2026 degree completion. Incompatible timing, unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Adobe-R172085",
+        "source": "https://careers.adobe.com/us/en/job/R172085/photoshop",
+        "result": "Official page explicitly says filled. Closed and applied states unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official Austin posting explicitly remains expired despite syndication. Existing closed state unchanged."
+      }
+    ],
+    "coverage": "Incremental check, not an exhaustive revalidation of every historical record."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-18T1443-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-18T19:13:49Z",
+    "evidence": {}
+  }
+}
