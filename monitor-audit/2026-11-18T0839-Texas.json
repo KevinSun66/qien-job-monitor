@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-18T14:39:39Z",
+  "checkedAt": "2026-11-18T14:41:23Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "3d92e4f9f61723973a6cbf627ba68dca7f07394f",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-18T0730-Texas.json",
+      "sha": "ce33257ef4b7c07e59d6c00a17f7056409301031",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-18T13:31:58Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. GitHub Pages deployment is separate from job discovery."
+    },
+    "publishedPages": "Both public deployment URLs attempted but not retrievable; both source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "694dbd13a20343b917d22d79aa36ad5d09391e5c",
+      "head": "9a8ba71c8f9c963de530fbf528835f925c30e204",
+      "result": "README blob unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); raw-data commits advanced."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README 4fc9b238509b8e14e478bc3c4e4549c4da850162 → 2bfeefb30391a7914d9c8b3018f8accf826642c8; compared metro Apply URLs, no new distinct metro link.",
+      "Fresh Dallas/DFW and Austin discovery, Dallas employer listings and official JD/ATS follow-up."
+    ],
+    "newTexasLeadsReviewed": 4,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Signet Jewelers-REQ_84369",
+        "source": "https://signetjewelers.wd1.myworkdayjobs.com/signetcorporatecareers/job/Support-Center---Irving-TX/AI-Platform-Engineer-I_REQ_84369",
+        "result": "Exact indexed employer Irving-option JD gives 1–3 years and AI platform/cloud enablement duties. Direct ATS application rendered no readable content. Post-May 2027 start, OPT/STEM OPT, and clear Ryan upgrade not verified."
+      },
+      {
+        "classification": "new",
+        "id": "Texas Capital-JR106383",
+        "source": "https://texascapitalbank.wd12.myworkdayjobs.com/Careers/job/Richardson-TX/AI-Engineer_JR106383/apply",
+        "result": "Richardson AI engineer lead. Syndicated JD lists 2–3 years of hands-on ML development; exact official application could not independently confirm current availability or qualifications. Not eligible for notification."
+      },
+      {
+        "classification": "new",
+        "id": "QTS-R2026-2500",
+        "source": "https://qtsdatacenters.wd5.myworkdayjobs.com/QTS/job/US-TX-Irving-DAL1/Enterprise-AI-Enablement-Engineer-II_R2026-2500-1/apply",
+        "result": "Irving enterprise AI enablement lead. Syndicated description requires 5+ years; exact employer application was unreadable. No qualifying graduate role verified."
+      },
+      {
+        "classification": "new",
+        "id": "Apple-200694953-0157",
+        "source": "https://jobs.apple.com/en-us/details/200694953-0157/cad-automation-and-ml-engineer?team=HRDWR",
+        "result": "Exact indexed Apple Austin hardware JD covers ML for silicon circuit design and transistor-level analysis. Excluded by hardware direction; direct listing did not establish live application."
+      },
+      {
+        "classification": "existing",
+        "id": "Dell-302093",
+        "source": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/302093",
+        "result": "Indexed employer JD again shows 2+ years of related professional or equivalent experience, with no confirmed qualifying pathway. No changed state verified."
+      },
+      {
+        "classification": "existing",
+        "id": "Kyndryl-R-66870",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/kyndrylprofessionalcareers/job/dallas-usdalfri-frisco-ai-hub/data-engineer_r-66870",
+        "result": "Exact Frisco requisition reappeared; direct Workday did not yield a readable application. No new evidence resolving the previous exclusion."
+      },
+      {
+        "classification": "existing",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Employer's direct Austin JD and application retain citizenship and clearance eligibility requirements; prior exclusion unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official Austin job page explicitly remains expired. Prior closed state unchanged."
+      }
+    ],
+    "coverage": "Distinct Texas leads documented in this incremental review."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-18T0839-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-18T13:31:58Z",
+    "evidence": {}
+  }
+}
