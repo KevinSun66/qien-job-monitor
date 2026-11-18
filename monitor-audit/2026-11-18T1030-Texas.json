@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-18T16:30:17Z",
+  "checkedAt": "2026-11-18T16:31:32Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "41fcf2eb6074cd4050de22dff39cc289bbaff2bb",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-18T0922-Texas.json",
+      "sha": "2c1d6e8fdddbfeecebc0bf3aa6d8552a610c908e",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-18T15:23:41Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. GitHub Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both public deployment URLs attempted but not retrievable; both source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "c6a24a5492322980c67bef209d377e0d3d3b3deb",
+      "head": "0b1be9499bb4ebdce3abcf9d7e2573e81d8e598d",
+      "result": "README blob unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); raw listings blob 02dc34ed3c6d0af1c55dc2ec60ba78a77fd1c22c returned 0 readable characters."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (2bfeefb30391a7914d9c8b3018f8accf826642c8).",
+      "Fresh Dallas/DFW and Austin discovery, graduate listing review and exact employer JD/ATS follow-up."
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "AMD-95846",
+        "source": "https://careers.amd.com/careers-home/jobs/95846?lang=en-us",
+        "result": "Exact indexed employer Austin JD centers on PC power/performance optimization, hardware parameter tuning and firmware-adjacent work, and says no visa sponsorship. Direct page returned HTTP 403; live status not asserted. Excluded on scope."
+      },
+      {
+        "classification": "new",
+        "id": "GM Financial-261128",
+        "source": "https://fa-exvu-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/261128",
+        "result": "Irving MLOps requisition surfaced in syndicated listings. Copies indicate a 2–4 year requirement. Direct Oracle application unavailable; no independently verified qualifying live position, start, or OPT/STEM OPT support."
+      },
+      {
+        "classification": "new",
+        "id": "Momentum-8608791002",
+        "source": "https://job-boards.greenhouse.io/momentumcompany3/jobs/8608791002",
+        "result": "Direct Dallas employer ATS shows Apply for 2027 graduate cohort. Core duties are IT infrastructure, end-user support and operational maintenance, outside applied AI/ML/data science. Form asks about OPT extension but does not establish acceptance or employer support. No Ryan upgrade."
+      },
+      {
+        "classification": "existing",
+        "id": "Vizient-33356R",
+        "source": "https://vizient.wd1.myworkdayjobs.com/en-US/Vizient_Careers/job/AI-ML-Engineer_33356R",
+        "result": "Exact older Irving employer index requires at least two years. Direct Workday did not confirm reopening; existing closure/experience disposition unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Vizient-35387R",
+        "source": "https://vizient.wd1.myworkdayjobs.com/Vizient_Careers/job/Irving-TX-75062-Vizient-Corporate-HQ/Associate-Software-Engineer_35387R-1",
+        "result": "Official indexed Irving JD states 0–2 years including internships/projects. Direct ATS did not verify an open application; applied AI responsibility, post-May start, OPT/STEM OPT and clear improvement remain unconfirmed."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Direct Austin employer page explicitly remains expired despite reposting. Existing closed state unchanged."
+      }
+    ],
+    "coverage": "Distinct Texas leads documented in this incremental review."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-18T1030-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-18T15:23:41Z",
+    "evidence": {}
+  }
+}
