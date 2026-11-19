@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-19T15:37:25Z",
+  "checkedAt": "2026-11-19T15:40:01Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "3d9df53fa1665db1eec173b9fe6e7897a82c2957",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-19T0838-Texas.json",
+      "sha": "5d5fe1a6d1cf921fd60d9c53798d9c008b99e5bd",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-19T14:39:17Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "b4787d753b81a6b8c3d43a8de5b5885fb9b6718f",
+      "head": "87ab8f175879fc3a8f2d42498da6d69b33fb04c6",
+      "result": "README unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); raw listing commits advanced; raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README now b18004ea3186f6187544feed42cfca26b9ae45de; metro-row comparison against 2c98379c99bfd3f33046afe6169961d104436101 found one distinct new Apply URL: JPMorgan 210810053.",
+      "Fresh Dallas/Austin discovery through both search engines; exact employer URL checks and duplicate matching."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing",
+        "id": "Brillio-FullStackAI-21202",
+        "source": "https://careers.brillio.com/job-details/?job-id=21202",
+        "result": "Employer Dallas header/Coppell onsite Full Stack AI JD matches existing role:0–2 years including projects/internships, Java/Python/Node/React, agents, cloud and production delivery. Official salary $75K–90K does not show clear improvement over signed Ryan offer.2027 start and OPT/STEM OPT not stated. Apply reaches employer privacy notice with onward Lever link; final form not verified. Existing opportunity-cost/verification exclusion preserved; no asserted new requisition."
+      },
+      {
+        "classification": "existing",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin full-time associate AI/ML JD and Apply link still readable. Foundational coursework/projects accepted; production GenAI/agent tasks under guidance. No verified post-May2027 start, OPT/STEM OPT, pay or clear Ryan upgrade. Existing verification state unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Exact employer page explicitly states vacancy expired. Fresh campus and aggregator reposts are not evidence of reopening. Existing closed state and application history preserved."
+      },
+      {
+        "classification": "new",
+        "id": "JPMorgan-210810053",
+        "source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3002/job/210810053",
+        "result": "New distinct upstream Plano Data Scientist Associate lead; not present in jobs.json. Exact official CX_3002 and CX_1001 pages inaccessible, and no exact employer JD retrieved through search. Third-party copies suggest payment analytics/GenAI and one year of self-directed big-data analytics, but these are discovery clues only. Actual open form, official experience requirement, post-May2027 start, OPT/STEM OPT and clear Ryan upgrade remain unverified. Audit-only; no eligibility or closure assertion, no job insertion or notification."
+      }
+    ],
+    "coverage": "Incremental upstream and employer check, not exhaustive revalidation of 335 historical records. Exact JPMorgan employer JD and published Pages unavailable; source pages on main verified."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-19T0937-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-19T14:39:17Z",
+    "evidence": {}
+  }
+}
