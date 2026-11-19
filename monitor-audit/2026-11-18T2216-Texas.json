@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-19T04:16:22Z",
+  "checkedAt": "2026-11-19T04:17:30Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "b558587615c398ceaf5d7207a6783a95d32e0fec",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-18T2138-Texas.json",
+      "sha": "ec08e49ee9d42a3ce0be2665cd04e2df16368f3a",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-19T03:39:42Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "b546c6e421db6442232bc4ea3fd719e36b88e6ee",
+      "head": "c95024ee5d366b6da50af1aaa6b49d64bdd808c1",
+      "result": "README unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); raw data commits advanced, raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README changed from 9116a037cc50257ee153384cf7b479bbde2e5e08 at a644edd2303a09057add67b39e11235ba91125d7 to 5b7a315b49d8fcf48f308a931b57f701769d6a38 at 98da67076afdf020d64acd6118b12a28f17a8d28. Distinct metro Apply-URL comparison found only a Wise shortlink; shortlink inaccessible, no new official requisition confirmed.",
+      "Fresh discovery with both search engines and exact employer verification."
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Dell-302093",
+        "source": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers/job/302093",
+        "result": "Newly reviewed lead, not asserted newly posted this run. Official indexed Austin JD requires 2+ years and describes UI validation, scripts/data collection, instrumentation/logs and lab support despite Applied Data Scientist title. Experience and role-fit fail. Direct Oracle had no readable lines; actual application/start/auth not confirmed. Audit only."
+      },
+      {
+        "classification": "new",
+        "id": "Planview-5040",
+        "source": "https://careers.planview.com/careers-home/jobs/5040?lang=en-us",
+        "result": "Newly reviewed lead. Official indexed Austin DS role covers optimization, simulation, predictive models and MCP/AI agents, but requires Master's and 3–7 years Python/SQL experience. Experience hard fail. Direct page 403; actual application/start/auth not confirmed. Audit only."
+      },
+      {
+        "classification": "new",
+        "id": "Qualcomm-446722177119",
+        "source": "https://qualcomm.eightfold.ai/careers/job/446722177119",
+        "result": "Newly reviewed upstream Austin-option ML Compiler lead. Exact employer URL inaccessible; similarly titled syndicated jobs have inconsistent experience levels and cannot verify exact requisition. Compiler/accelerator-oriented direction; official duties/experience/start/OPT not verified. No notification or data insertion."
+      },
+      {
+        "classification": "existing",
+        "id": "ClickHouse-b3e6d985-b540-456c-8eee-edfd79580572",
+        "source": "https://jobs.ashbyhq.com/clickhouse/b3e6d985-b540-456c-8eee-edfd79580572",
+        "result": "Official indexed production AI/ML role includes Austin/Dallas remote but explicitly requires 5+ years software engineering. Existing experience exclusion unchanged. Direct page requires JavaScript; no inferred status change."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490-744000160933600",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Both exact Wise and SmartRecruiters official pages still explicitly expired. Newly surfaced Austin/2027 shortlink is unreadable and not proof of reopening. Closed state and application history preserved."
+      }
+    ],
+    "coverage": "Incremental review, not exhaustive revalidation of 335 historical records. New counts denote newly reviewed distinct leads, not confirmed new openings."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-18T2216-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-19T03:39:42Z",
+    "evidence": {}
+  }
+}
