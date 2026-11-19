@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-19T16:43:27Z",
+  "checkedAt": "2026-11-19T16:44:27Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "6c2c86ec5df68e52805cf0951ae13983dcf1ab66",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-19T0937-Texas.json",
+      "sha": "1d6bf6b7d96d5e3bb4ea45e741114aeb3cae23fc",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-19T15:40:14Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "87ab8f175879fc3a8f2d42498da6d69b33fb04c6",
+      "head": "7128998c1e574acdd61c9cd8c772dc1d933584dc",
+      "result": "README unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); raw listing commits advanced; raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (b18004ea3186f6187544feed42cfca26b9ae45de), latest commit 3c117c60e8a2fffb92f497134c0ccc41145ef007; no new metro Apply URL.",
+      "Fresh Dallas/Austin discovery using both search engines and exact employer verification; user company exclusions preserved."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Cognizant-47777",
+        "source": "https://careers.cognizant.com/global-en/jobs/47777/ai-engineer-ioa/",
+        "result": "Newly reviewed distinct lead, not newly posted (employer date Sep10 2026) and absent from jobs.json. Official Dallas AI Engineer IOA JD is readable with Apply link; software agents/RAG/cloud ML duties and bachelor's/master's accepted, no numeric minimum years. Starts Oct/Nov2026 or Jan/Feb2027, before the required window. Employer explicitly excludes CPT/OPT participation. $65K salary shows no Ryan improvement. Rejected for timing and authorization; final application form not verified, no assertion of live requisition, audit-only."
+      },
+      {
+        "classification": "existing",
+        "id": "JPMorgan-210810053",
+        "source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3002/job/210810053",
+        "result": "Previously reviewed Plano Data Scientist Associate exact official page remains inaccessible; fresh exact-ID search did not retrieve employer JD. Official experience, live application, post-May2027 start, OPT/STEM OPT and clear Ryan upgrade unresolved. No job insertion or notification."
+      },
+      {
+        "classification": "existing",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Austin Summer2027 junior DS lead resurfaced in discovery. Exact official page remains inaccessible; no newly verified live form, STEM OPT, compensation or clear Ryan upgrade. Audit-only verification state unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin full-time associate AI/ML JD with Apply link still readable. Coursework/projects accepted for foundational Python/ML skills; production GenAI and agent component work under guidance. No verified post-May2027 start, OPT/STEM OPT, compensation or clear Ryan upgrade. Existing verification state unchanged."
+      }
+    ],
+    "coverage": "Incremental discovery and employer checks, not exhaustive revalidation of 335 historical records. Exact JPMorgan/Integra employer pages and published Pages unavailable; main source pages read."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-19T1043-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-19T15:40:14Z",
+    "evidence": {}
+  }
+}
