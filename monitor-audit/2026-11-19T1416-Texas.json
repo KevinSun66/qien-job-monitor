@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-19T20:16:20Z",
+  "checkedAt": "2026-11-19T20:17:02Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "eb9405057513d2b11c9d26ca7a41c8212ed46467",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-19T1336-Texas.json",
+      "sha": "77fa659468128cd9864091cbe299c739ee918b65",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-19T19:37:46Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "2b568058f8d5ad6bb4cd43c4b80f3de45e4d6eed",
+      "head": "424f00e5754c60d604bb4d7723e6a8c156dba9cb",
+      "result": "README unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); raw listing commits advanced; raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (b18004ea3186f6187544feed42cfca26b9ae45de), latest commit3c117c60e8a2fffb92f497134c0ccc41145ef007.",
+      "Fresh Dallas/Austin discovery using both search engines; duplicate matching and exact employer checks."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing",
+        "id": "GlobalFoundries-JR-2604458-unverified",
+        "source": "https://earlytechroles.com/jobs/analyst-data-systems-and-automation-2027-new-college-graduate-globalfo-63b8449268/",
+        "result": "Prior audit-only Austin2027 NCG Data Systems and Automation lead resurfaced; exact employer-domain/requisition search still returned only third-party copy, not verified official JD/live form. Third-party1–2 years includes academic projects/internships and salary$57.8K–97K; neither treated as official proof. Post-May2027 start,OPT/STEM OPT and clear Ryan upgrade unresolved. No new listing, data insertion or notification."
+      },
+      {
+        "classification": "existing",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin full-time associate AI/ML JD and Apply link readable. Foundational coursework/project experience accepted; GenAI/agent delivery under guidance. No verified post-May2027 start,OPT/STEM OPT,compensation or clear Ryan upgrade. Existing verification state unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Brillio-FullStackAI-21202",
+        "source": "https://careers.brillio.com/job-details/?job-id=21202",
+        "result": "Official Dallas header/Coppell onsite full-stack AI JD readable with Apply link;0–2 years includes projects/internships, production agents/cloud/full-stack duties,$75K–90K. No verified2027 start or OPT/STEM OPT; no clear improvement over signed Ryan offer. Existing opportunity-cost/verification exclusion preserved."
+      }
+    ],
+    "coverage": "Incremental discovery and three existing-lead rechecks, not exhaustive revalidation of335 historical records. Published Pages inaccessible; main source pages read. Exact GlobalFoundries official requisition and final application forms unresolved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-19T1416-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-19T19:37:46Z",
+    "evidence": {}
+  }
+}
