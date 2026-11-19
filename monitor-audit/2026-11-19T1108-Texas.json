@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-19T17:08:26Z",
+  "checkedAt": "2026-11-19T17:09:22Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "0e9ac702fc72f99e1262b1deabc22c2a50fc2c55",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-19T1043-Texas.json",
+      "sha": "1eadaf3320e5e24b54f1d6a37dc34f71676456d7",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-19T16:44:36Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "7128998c1e574acdd61c9cd8c772dc1d933584dc",
+      "head": "4049c7747eac369fc1ef1efd7071d3a8ba0d3341",
+      "result": "README unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); raw listing commits advanced; raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (b18004ea3186f6187544feed42cfca26b9ae45de), latest commit 3c117c60e8a2fffb92f497134c0ccc41145ef007; no new metro Apply URL.",
+      "Fresh Dallas/Austin discovery using both search engines and exact employer verification; excluded companies not reopened."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official exact Austin graduate page explicitly says expired. Campus reposts and indexed JD excerpts do not establish reopening. Existing closed state and application history preserved."
+      },
+      {
+        "classification": "existing",
+        "id": "SelfFinancial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Official JD and application form readable: Austin hybrid/remote,0–2 years, bachelor's/master's with coursework/projects, credit predictive models and production deployment under mentorship, $85K–110K. JD explicitly limits candidates to citizens/permanent residents; form includes F1/OPT in sponsorship question. Existing citizenship exclusion remains; 2027 start unknown, no recommendation or application change."
+      },
+      {
+        "classification": "existing",
+        "id": "AppliedMaterials-R2627684",
+        "source": "https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/Data-Scientist-New-College-Grad--Bachelor-s-Master-s--Austin--TX-_R2627684",
+        "result": "Exact official Workday page has no readable lines. Third-party removal notice does not establish employer closure; no verified live form, start or OPT change. Existing verification/opportunity-cost assessment preserved. Separately surfaced R2627409 is a student internship, not target permanent graduate employment."
+      },
+      {
+        "classification": "existing",
+        "id": "Southwest-R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "Exact official URL still returns410 Gone. Existing closed-watch state preserved; indexed repost is not reopening evidence."
+      }
+    ],
+    "coverage": "Incremental discovery and four employer rechecks, not exhaustive revalidation of335 historical records. Published Pages unavailable; main source pages verified. Applied Materials exact live state unresolved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-19T1108-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-19T16:44:36Z",
+    "evidence": {}
+  }
+}
