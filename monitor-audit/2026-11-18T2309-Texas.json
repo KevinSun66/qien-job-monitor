@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-19T05:09:16Z",
+  "checkedAt": "2026-11-19T05:10:10Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "0a402afb23dac81d53ba430783287a4c9f9f9171",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-18T2216-Texas.json",
+      "sha": "2c636955b3a9d7ea3fea30472ecaaf38dbe51e20",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-19T04:17:40Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "c95024ee5d366b6da50af1aaa6b49d64bdd808c1",
+      "head": "99a6964357515ee413e089e47c734cb1500c1ccf",
+      "result": "README unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); raw listings commits advanced; raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README changed from 5b7a315b49d8fcf48f308a931b57f701769d6a38 to 69b90d55189265d61ba16a9f09dcecc47e6366b4; comparison against 98da67076afdf020d64acd6118b12a28f17a8d28 found no new distinct metro Apply URLs.",
+      "Fresh Dallas/Austin discovery through both search engines; exact employer sources checked."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing",
+        "id": "AppliedMaterials-R2627684",
+        "source": "https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/Data-Scientist-New-College-Grad--Bachelor-s-Master-s--Austin--TX-_R2627684",
+        "result": "Official indexed full-time Austin new-grad JD remains logistics ETL/data foundations and analytics support, $80K–110K, no numeric experience floor. Direct Workday unreadable; current application, 2027 start and OPT not verified. Existing Ryan opportunity-cost exclusion preserved; no inferred closure."
+      },
+      {
+        "classification": "existing",
+        "id": "Kyndryl-R-66739",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/en-US/KyndrylEarlyCareers/job/Dallas-USDALFRI-Frisco-AI-HUB/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739",
+        "result": "Exact official indexed Frisco entry-level AI/data-engineering role matches historical requisition; direct Workday unreadable. Reposts do not establish new eligibility or status change. Existing rejection/application history preserved."
+      },
+      {
+        "classification": "existing",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Same official indexed Austin Summer-2027 junior forensic-data-science posting as prior audit, no numeric experience minimum. Direct application still inaccessible; no verified STEM OPT support or compensation/production-AI upgrade over Ryan. Audit-only lead remains unnotified."
+      },
+      {
+        "classification": "existing",
+        "id": "PMG-8587038002",
+        "source": "https://job-boards.greenhouse.io/pmg/jobs/8587038002",
+        "result": "Official full JD and application live: Dallas onsite five days/week, June 7 2027 start, Fall2026–Spring2027 graduates, internships accepted, Python/JS/cloud/AI agents. No sponsorship; OPT/STEM OPT support not explicit. Salary expectation choices are not employer salary promises. No established clear upgrade over Ryan; existing opportunity-cost exclusion unchanged."
+      }
+    ],
+    "coverage": "Incremental check, not exhaustive revalidation of all 335 historical records."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-18T2309-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-19T04:17:40Z",
+    "evidence": {}
+  }
+}
