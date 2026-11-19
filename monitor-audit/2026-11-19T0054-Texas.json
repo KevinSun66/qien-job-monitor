@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-19T06:54:26Z",
+  "checkedAt": "2026-11-19T06:55:18Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d8d3f2f30021e1974816fd404b12eb615d178aaf",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-18T2309-Texas.json",
+      "sha": "731ced307bc81a74852ac3dc5f6679aa0f61766b",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-19T05:10:21Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "99a6964357515ee413e089e47c734cb1500c1ccf",
+      "head": "7bc49ab0dd2339a2180fd658a33f629a351d26f6",
+      "result": "README unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); raw listings commits advanced, raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (69b90d55189265d61ba16a9f09dcecc47e6366b4), latest head 2c98379c99bfd3f33046afe6169961d104436101.",
+      "Fresh metro discovery through both search engines and exact official JD checks."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 0,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "SPGlobal-332351",
+        "source": "https://careers.spglobal.com/jobs/332351?lang=en-us",
+        "result": "Official indexed Dallas entry-professional JD accepts quantitative/technical/business bachelor's with hands-on AI and analytics, no numeric experience floor. Builds/evaluates prompts, agent workflows, prototypes, automation and adoption. Official base $85K–90K; does not establish clear overall upgrade over signed Ryan production-AI DS return offer. Post-May-2027 start and role-specific OPT/STEM OPT unknown; direct employer page 403 so live application unverified. Do not infer immigration policy from unrelated S&P roles. Audit only, no job data or notification."
+      },
+      {
+        "classification": "new",
+        "id": "Emerson-26013909",
+        "source": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013909",
+        "result": "Official indexed Applied AI JD header says Austin hybrid, but Job Info lists Dresden, Germany: current location unresolved. Requires Master's/PhD, broad 0–7+ hands-on years including academic work, and explicitly excludes F-1 including OPT/CPT. Responsibilities are software AI/LLM/RAG/agent workflows for test/measurement; employer sector alone is not used as hardware exclusion. Work authorization hard fail independently. Direct Oracle unreadable, live application/start/pay unverified. Audit only, no notification."
+      }
+    ],
+    "coverage": "Incremental check, not exhaustive revalidation of all 335 historical records. New leads are first reviewed here, not asserted posted during this run."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-19T0054-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-19T05:10:21Z",
+    "evidence": {}
+  }
+}
