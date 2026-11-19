@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-19T09:53:42Z",
+  "checkedAt": "2026-11-19T09:54:35Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "6bff4ac2c9d2d78816013fb0d7bfadc139d21ef0",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-19T0245-Texas.json",
+      "sha": "8aa077dc5a262bf1425a861e586003c9f98b8e47",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-19T08:46:33Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "8711e8836be64d2c355e8e8aacee11f8e4767af0",
+      "head": "9d60593c539a2f3d36ee3f7b0dfb46f80681552c",
+      "result": "README unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); raw listing commits advanced; raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (69b90d55189265d61ba16a9f09dcecc47e6366b4).",
+      "Fresh Dallas/Austin searches through both engines; exact official JD verification. No scraper created."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "webAI-346b2d54-ec61-406c-9e1e-2c2d1fed84ca",
+        "source": "https://jobs.ashbyhq.com/webai/346b2d54-ec61-406c-9e1e-2c2d1fed84ca/",
+        "result": "Official indexed Austin full-time AI Software Engineer builds ML inference engines, APIs, optimization and distributed systems. Requires 5+ software-engineering years OR equivalent university time with deep domain experience, so not treated as an unconditional professional-year floor. No verified2027 NG leveling/start, OPT/STEM OPT or compensation; direct Ashby requires JavaScript, current application not confirmed. No qualifying match or clear Ryan upgrade established. Audit only; no insertion or notification."
+      },
+      {
+        "classification": "existing",
+        "id": "Vizient-35387R",
+        "source": "https://vizient.wd1.myworkdayjobs.com/en-US/Vizient_Careers/job/Associate-Software-Engineer_35387R-1",
+        "result": "Official indexed full-time Irving option accepts0–2 years including projects; duties primarily Java/Spring/React APIs and AI-assisted coding rather than building AI/ML products. Pay $59.6K–101.2K and incentive eligible; start and OPT unverified, direct Workday unreadable. Existing direction-verification retained; no established clear upgrade over Ryan."
+      },
+      {
+        "classification": "existing",
+        "id": "PMG-8587050002",
+        "source": "https://job-boards.greenhouse.io/pmg/jobs/8587050002",
+        "result": "Official Dallas January AI/software graduate JD and application live, requires Summer–Fall2026 degree and January2027 start, no sponsorship. Incompatible with May2027 graduation; previous timing exclusion preserved."
+      }
+    ],
+    "coverage": "Incremental check, not exhaustive revalidation of335 historical records. New counts are first-reviewed leads, not necessarily newly posted."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-19T0353-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-19T08:46:33Z",
+    "evidence": {}
+  }
+}
