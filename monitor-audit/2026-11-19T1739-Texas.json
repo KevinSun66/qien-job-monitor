@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-19T23:39:44Z",
+  "checkedAt": "2026-11-19T23:40:36Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "6c44d42411b6cfa52e8e9163f3cf722778d4d8f1",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-19T1655-Texas.json",
+      "sha": "22d4c604decb447eaf9e657ea75ab176eae8ba49",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-19T22:56:31Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "4e3555b7bd5e9edbcd2d0232a29b96327b443616",
+      "head": "6576fcbb3d22e1a978ba083ff0a4b31414377028",
+      "result": "README unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); raw listing commits advanced; raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged(e9f7be56cb810b11f225994044cfe35d82a93dbe),latest commit e1f06ecdd031806358075b6c5ae34832f011da6a.",
+      "Fresh Dallas/Austin discovery through both search engines; employer evidence used to correct misleading multi-city listing."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Hearst-2027-Newsroom-AI-Fellowship",
+        "source": "https://careers.hearst.com/jobs/2027-hearst-ai-newsroom-developer-fellowship-program-san-francisco-ca-4466321009-jobs--content-and-news--",
+        "result": "Newly reviewed distinct lead absent from jobs.json, surfaced as Dallas/Austin multi-city in aggregator. Exact employer indexed JD requires relocation to San Francisco Bay Area/hybrid DevHub; Dallas/Austin are collaborating newsrooms,not verified employment locations. One-year full-time fellowship building editorial AI/tools;future permanent employment not guaranteed. Geography independently fails;start/OPT/live form/pay not verified. Audit-only rejection,no Texas listing insertion or notification."
+      },
+      {
+        "classification": "existing",
+        "id": "Vistra-40016989-unverified",
+        "source": "https://vst.wd5.myworkdayjobs.com/en-US/txu_careers/job/Irving-Texas/Data-Scientist_40016989-1",
+        "result": "Prior upstream Irving lead exact Workday page remains inaccessible; exact employer-ID search returns no official JD. Experience,degree,duties,actual opening,2027start,OPT/STEM OPT and Ryan upgrade remain unverified. Do not inherit old40016531 education rejection; audit-only unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin full-time associateAI/ML JD and Apply link readable;foundational coursework/projects accepted and production GenAI/agent components under guidance. Post-May2027start,OPT/STEM OPT,compensation and clear Ryan upgrade unverified. Existing verification state unchanged."
+      }
+    ],
+    "coverage": "Incremental discovery and employer checks,not exhaustive revalidation of335 historical records. Published Pages inaccessible;main source pages read. Hearst corrected from apparent Texas discovery to employer-confirmed non-Texas requirement;Vistra official JD unresolved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-19T1739-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-19T22:56:31Z",
+    "evidence": {}
+  }
+}
