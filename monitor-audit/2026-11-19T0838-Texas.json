@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-19T14:38:00Z",
+  "checkedAt": "2026-11-19T14:39:02Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "c586ff8ce5b1dacd470978c34114429d9ba04758",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-19T0736-Texas.json",
+      "sha": "2a1418718ea4455e07d711b9c9c660fc18af06da",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-19T13:37:56Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "64e59c09d87f25f436ae4897d3bf147d40b61ab8",
+      "head": "b4787d753b81a6b8c3d43a8de5b5885fb9b6718f",
+      "result": "README unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); raw listing commits advanced; raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (318b64fec695fe23db1d6f3550b55efcf6a65b29).",
+      "Fresh Dallas/Austin discovery using both engines; exact employer verification and duplicate matching."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing",
+        "id": "Brillio-FullStackAI-21202",
+        "source": "https://careers.brillio.com/job-details/?job-id=21202",
+        "result": "Employer Dallas header/Coppell onsite Full Stack AI JD matches existing role:0–2 years including projects/internships, Java/Python/Node/React, agents, cloud and production delivery. Official salary $75K–90K does not show clear improvement over signed Ryan offer.2027 start and OPT/STEM OPT not stated. Apply reaches employer privacy notice with onward Lever link; final form not verified. Existing opportunity-cost/verification exclusion preserved; no asserted new requisition."
+      },
+      {
+        "classification": "existing",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin full-time associate AI/ML JD and Apply link still readable. Foundational coursework/projects accepted; production GenAI/agent tasks under guidance. No verified post-May2027 start, OPT/STEM OPT, pay or clear Ryan upgrade. Existing verification state unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Previously reviewed Austin Summer2027 forensic DS lead resurfaced. Exact official page still inaccessible; no newly verified live form, STEM OPT or clear Ryan upgrade. Audit-only state unchanged."
+      }
+    ],
+    "coverage": "Incremental check, not exhaustive revalidation of335 historical records."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-19T0838-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-19T13:37:56Z",
+    "evidence": {}
+  }
+}
