@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-19T11:49:41Z",
+  "checkedAt": "2026-11-19T11:50:27Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d2a402069124c641b15478426fdc8094353c215d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-19T0414-Texas.json",
+      "sha": "2af8327c6ba389b8c8250bbd24716469109381d3",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-19T10:15:40Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "842334107c22eb97a59740df0c332bd51225e8be",
+      "head": "478c37870f759fd8b5a52d128c9850b8a71b6ce7",
+      "result": "README unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); raw listing commits advanced; raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (69b90d55189265d61ba16a9f09dcecc47e6366b4).",
+      "Fresh Dallas/Austin searches with both engines, exact employer sources and historical records compared."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing",
+        "id": "SambaNova-6224938004",
+        "source": "https://sambanova.ai/company/careers/job-openings?gh_jid=6224938004",
+        "result": "Exact official ML Infrastructure new-grad URL resolves to careers shell; embedded JD and application not readable. Fresh syndicated Austin listings duplicate existing start-date-visa-verification record. Current opening, post-May2027 start and OPT/STEM OPT not confirmed. No change or alert."
+      },
+      {
+        "classification": "existing",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official indexed Summer2027 Austin junior forensic DS lead matches prior audit; direct page inaccessible, exact indexed board includes it. No verified complete live application, STEM OPT support, compensation or clear Ryan upgrade. Remains audit-only, no notification."
+      },
+      {
+        "classification": "existing",
+        "id": "NXP-R-10066856",
+        "source": "https://nxp.wd3.myworkdayjobs.com/careers/job/Austin-Oakhill-Office/Data-Engineer---Data-Analyst_R-10066856",
+        "result": "New-looking Austin Data Engineer/Data Analyst syndication matches existing requisition and seniority-rejected record, not a new job. Exact official Workday unreadable and exact current official JD not recovered; do not replace historical experience evidence with aggregator labels or claim reopening/closure. Post-May2027 start and OPT unverified; record unchanged."
+      }
+    ],
+    "coverage": "Incremental check, not exhaustive revalidation of335 historical records."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-19T0549-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-19T10:15:40Z",
+    "evidence": {}
+  }
+}
