@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-19T19:36:27Z",
+  "checkedAt": "2026-11-19T19:37:35Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "6df677252a6e246e3c3de407af4b0fc79ee4f0c2",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-19T1230-Texas.json",
+      "sha": "6f9ef3a6fac76d5b7083a7f9e0986a4712d4ca90",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-19T18:31:31Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "ff3d4a94b85e017a4137912f12b9a4f727b8e189",
+      "head": "2b568058f8d5ad6bb4cd43c4b80f3de45e4d6eed",
+      "result": "README unchanged (9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b); raw listing commits advanced; raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged (b18004ea3186f6187544feed42cfca26b9ae45de), latest commit 3c117c60e8a2fffb92f497134c0ccc41145ef007.",
+      "Fresh Dallas/Austin discovery through both engines and employer verification; generic reposts and company-wide sponsorship history not treated as job eligibility proof."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "GlobalFoundries-JR-2604458-unverified",
+        "source": "https://earlytechroles.com/jobs/analyst-data-systems-and-automation-2027-new-college-graduate-globalfo-63b8449268/",
+        "result": "New distinct Austin2027 NCG Analyst Data Systems and Automation lead, absent from jobs.json. Third-party copies suggest software AI agents/MCP/Power Platform for supply-chain operations, bachelor's,1–2 years including academic projects/internships,$57.8K–97K. Employer LinkedIn jobs index lists Austin title, but exact Workday JD/live application not retrievable; constructed requisition URL attempt also inaccessible and not asserted canonical. No verified official experience, post-May2027 start,OPT/STEM OPT or clear Ryan upgrade. Audit-only; not rejected merely because employer makes semiconductors, no job insertion or notification."
+      },
+      {
+        "classification": "existing",
+        "id": "JPMorgan-210810053",
+        "source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210810053",
+        "result": "Exact employer indexed JD now readable through search: Plano full-time payment analytics/data products/GenAI, bachelor's/master's and1 year self-directed big-data analytics required. Direct CX_1001/CX_3002 fetch inaccessible; actual live form,2027 start,OPT/STEM OPT and compensation/clear Ryan upgrade unresolved. No eligibility or reopening assertion; audit-only remains."
+      },
+      {
+        "classification": "existing",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Previously reviewed Austin Summer2027 junior DS lead. Exact employer page still inaccessible; no verified live form,STEM OPT,compensation or clear Ryan upgrade. Audit-only unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "Senseye-56F6BB2046",
+        "source": "https://apply.workable.com/senseye/j/56F6BB2046/",
+        "result": "Existing Austin AI Engineer resurfaced in entry-level discovery. Exact employer Workable URL has no readable lines; no newly verified official degree-equivalence,live form,2027 start,OPT/STEM OPT or clear Ryan upgrade. No new listing or status assertion."
+      }
+    ],
+    "coverage": "Incremental discovery and candidate checks, not exhaustive revalidation of335 historical records. Published Pages unavailable; main source pages read. GlobalFoundries exact official requisition and several live forms unresolved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-19T1336-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-19T18:31:31Z",
+    "evidence": {}
+  }
+}
