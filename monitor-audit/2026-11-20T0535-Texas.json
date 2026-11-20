@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-20T11:35:40Z",
+  "checkedAt": "2026-11-20T11:36:23Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "c4abf9df5f3f3dede9c37cb728055bd36683f973",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-20T0430-Texas.json",
+      "sha": "795cd0b7014971c12dca105f9b01ad0cb9e8aee8",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-20T10:30:59Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "975f02248e6ffdc271df00c396de85bc6b0eacbb",
+      "head": "e4bf1c9c451c8ec3a5f1f3b979236823624a893d",
+      "result": "README unchanged(9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b);raw listing commits advanced;raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at79fd97fb947feb21cb957244ec380a1117bdeb15.",
+      "Fresh Dallas/Austin searches through both engines; no new qualifying role verified. Exact CleanSlate,Wise andVistra employer URLs rechecked."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin full-time AssociateAI/ML JD andApplylink readable. Coursework/projects accepted,no numeric minimum,productionGenAI/agentcomponents underguidance. Post-May2027start,OPT/STEM OPT,compensation andclearRyanupgrade unverified. Existingverificationstate retained."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official exactAustin graduateDS page explicitlystill expired.2027Sep6start and114K+RSUs do not override closedstatus; no reopeningproof."
+      },
+      {
+        "classification": "existing",
+        "id": "Vistra-40016989-unverified",
+        "source": "https://vst.wd5.myworkdayjobs.com/en-US/txu_careers/job/Irving-Texas/Data-Scientist_40016989-1",
+        "result": "Exact officialURL inaccessible;exactIDsearch no employerJD. Actualopenform,experience,education,duties,2027start,OPT andRyanupgrade remainunknown. Distinctfromolder40016531,no inherited rejection/closure."
+      }
+    ],
+    "coverage": "Incremental repository/source search and three employer checks,not exhaustive revalidation of335 historicalrecords. PublishedPages inaccessible;main Dallas/Austin sourcefiles read. Rawupstream listingchanges notinspected."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-20T0535-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-20T10:30:59Z",
+    "evidence": {}
+  }
+}
