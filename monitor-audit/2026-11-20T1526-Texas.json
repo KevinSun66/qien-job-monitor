@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-20T21:26:53Z",
+  "checkedAt": "2026-11-20T21:27:59Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "6bc9620c03c92e5def2121aab600775c54704c3f",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-20T1452-Texas.json",
+      "sha": "106ce9293857883b8d0b2fbaf7cdacf08f53f0d5",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-20T20:53:24Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "ea224a90f2a891837e658217615e143d8e2ee009",
+      "head": "9538cdae1be93fe38f3e9781967580f417fc176f",
+      "result": "README unchanged(9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b);raw listing commits advanced;raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README changed to908a36a37c5cbc13f47ad1e79171b87c93f54330 at650e46f101ebd10ce78550f9fa8b73a70128bae6. Metro Apply URLs compared with4463226a8ceba7304d564edc42a3b50c932c4ee3:2added,0removed. Both added leads reviewed.",
+      "Fresh metro searches using both engines and four employer checks; no fully verified qualifying role."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "newly-reviewed-unverified",
+        "id": "QuoteWell-6e8e9170-74e3-4723-9069-ac3a83442dc9",
+        "source": "https://ats.rippling.com/quotewell/jobs/6e8e9170-74e3-4723-9069-ac3a83442dc9",
+        "result": "Official Austin Applied AI Engineer JD and Apply-now control readable; employer board also lists exact role. Customer-embedded insurance AI workflows,review/attribution/override patterns,Python/TypeScript,25%travel,CEO mentorship. Advertised1-5years production software is outside strict0-2 range, not mislabeled as minimum>1. Post-May2027start,OPT/STEM OPT,compensation andclearRyanupgrade unresolved;finalapplicationnotverified. Audit-only,no notification."
+      },
+      {
+        "classification": "newly-reviewed-unverified",
+        "id": "GlobalFoundries-JR2606083",
+        "source": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/external/job/USA---Texas---Austin/AI-Enabled-Device-Modeling_JR-2606083",
+        "result": "New upstream2027AI/MLDeviceModeling link. OfficialURL inaccessible;exactofficialIDsearch noJD. Secondary copies suggestsemiconductordevicemodeling andconflictAustin/Illinois vsMalta/Essexlocations;notresolvedasofficialfacts. Actualopenform,corehardwarevssoftwareduties,location,experience,start,OPT/payunverified. Do not reject solely by employerindustry ornotify; audit-only."
+      },
+      {
+        "classification": "existing",
+        "id": "Brillio-21202",
+        "source": "https://careers.brillio.com/job-details/?job-id=21202",
+        "result": "Official Coppellonsite fullstackAIJD andApplylink readable,0-2includinginternships/projects,Java/Python/React/Node/agents,$75-90K. Post-May2027start,OPT/STEM OPT,finalapplication andclearRyanupgrade remainunverified;no statuschange."
+      },
+      {
+        "classification": "existing",
+        "id": "Southwest-R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "ExactofficialURL still410Gone. No verifiedreopening;preserveclosed-watch andapplicationhistory."
+      }
+    ],
+    "coverage": "Incremental source comparison, searches and four employer checks; not exhaustive revalidation of 335 historical records. Published Pages inaccessible; main Dallas/Austin sources read. Raw Simplify listings not inspected."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-20T1526-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-20T20:53:24Z",
+    "evidence": {}
+  }
+}
