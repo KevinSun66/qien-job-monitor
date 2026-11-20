@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-20T14:53:54Z",
+  "checkedAt": "2026-11-20T14:54:38Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "331cf64d514ec0e38b1f153adc3378e400a96c6b",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-20T0731-Texas.json",
+      "sha": "d1c5d0c3f83eaa2885a5b33a8ecd874c703436d8",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-20T13:32:42Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "683bc2a16143bf0f8f3cfc24d56d2d0cd1dcd1b3",
+      "head": "c01a81ef90b7fdb27a1f9776c23ef8e9703ac1df",
+      "result": "README unchanged(9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b);raw listing commits advanced;raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README changed to269a1afd79c8addb9cfa870a63358a5d778e1d28 at head4463226a8ceba7304d564edc42a3b50c932c4ee3. Metro Apply URLs compared againstfd13517e1995594227f7ce810ead556bc7cfbc4f:0added,0removed.",
+      "Fresh Dallas/Austin discovery through both engines; two official employer pages rechecked. No newly verified qualifying role."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Exact official Austin graduateDS page explicitly remains expired. September6,2027start and114K+RSUs do not establish reopening. Preserve closedstate."
+      },
+      {
+        "classification": "existing",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin full-time AssociateAI/ML JD andApplylink readable. Coursework/projects accepted,no numeric minimum,GenAI/agentscomponents delivered underguidance. Post-May2027start,OPT/STEM OPT,compensation andclearRyanupgrade remain unverified;retainexistingverificationstate."
+      }
+    ],
+    "coverage": "Incremental repository/source comparison andtwoemployerchecks,notexhaustiverevalidation of335historicalrecords. PublishedPages inaccessible;mainDallas/Austin sourcefilesread. Rawupstream listingsnotinspected."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-20T0853-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-20T13:32:42Z",
+    "evidence": {}
+  }
+}
