@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-20T02:31:41Z",
+  "checkedAt": "2026-11-20T02:32:38Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "abd8e612a8d618a59710800eed692519d2bd5bcc",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-19T1953-Texas.json",
+      "sha": "c1b1569872999ea9fe454e54b27004ec7350d4d2",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-20T01:54:29Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "927b1347f81602da85cb2baa58ee20943be37c67",
+      "head": "5486a796c08157e10c384831e6ad5e977fa113f8",
+      "result": "README unchanged(9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b);raw listing commits advanced;raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 head43a277fb57460f8fc50451c6fa35a7ce71af3252 and READMEaa80131c0984d946ddc553ffac5094300de390ce unchanged.",
+      "Fresh Dallas/Austin discovery through both search engines,exact employer checks and existing-record duplicate matching."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new",
+        "id": "Ferrovial-DigitalProductBuilder-AINative-unverified",
+        "source": "https://simplify.jobs/p/e6e2fa09-3672-4699-a33e-04003d2cc716/Digital-Product-Builder",
+        "result": "Newly reviewed distinct Austinhybrid software AI-assisted/agentic builder lead,absent from jobs.json. Secondarycopies report2–5years experience,prototype/MVP/API/data integrations andAI-assistedcoding,not2027NG. Official-domain title search did not retrieve exact employerJD/canonicalApply URL;actual opening,official experience,post-May2027start,OPT/STEM OPT,pay and clearRyan upgrade unverified. Secondaryminimum suggests experience mismatch but is not recorded as verified employer fact. Audit-only,no insertion or notification."
+      },
+      {
+        "classification": "existing",
+        "id": "Vistra-40016989-unverified",
+        "source": "https://vst.wd5.myworkdayjobs.com/en-US/txu_careers/job/Irving-Texas/Data-Scientist_40016989-1",
+        "result": "Exact Irving employer URL still inaccessible;exact employer-IDsearch returns noJD. Official experience,degree,duties,liveform,2027start,OPT/STEM OPT and Ryan upgrade unresolved. Older40016531 not modified;existing audit-onlystate unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin full-time associateAI/MLJD andApplylink readable. Coursework/projects accepted for foundations;productionGenAI/agent component delivery under guidance.2027start,OPT/STEM OPT,pay and clearRyan upgrade unverified. Existingverificationstate unchanged."
+      }
+    ],
+    "coverage": "Incremental discovery and candidate checks,not exhaustive revalidation of335 historical records. Published Pages inaccessible;main source pages read. Ferrovial exact employerJD/canonicalApply and Vistra officialJD unresolved;no invented requisitionID."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-19T2031-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-20T01:54:29Z",
+    "evidence": {}
+  }
+}
