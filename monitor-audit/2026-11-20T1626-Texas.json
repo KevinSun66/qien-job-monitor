@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-20T22:26:14Z",
+  "checkedAt": "2026-11-20T22:28:13Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "67beaef814652ca1eb36ff055ddf7056da6c40b9",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-20T1526-Texas.json",
+      "sha": "236fb5cd59aa53e4bf2d63f4eb003de5483fe95e",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-20T21:28:10Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "9538cdae1be93fe38f3e9781967580f417fc176f",
+      "head": "d180f96130edcf6cded0652b143c9c6204fab54d",
+      "result": "README unchanged(9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b);raw listing commits advanced;raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 908a36a37c5cbc13f47ad1e79171b87c93f54330; previously reviewed additions are not counted again.",
+      "Fresh Dallas/Austin searches using both engines and three official employer JD checks; no fully verified qualifying role."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-audit-only",
+        "id": "QuoteWell-6e8e9170-74e3-4723-9069-ac3a83442dc9",
+        "source": "https://ats.rippling.com/quotewell/jobs/6e8e9170-74e3-4723-9069-ac3a83442dc9",
+        "result": "Official Austin Applied AI Engineer JD and Apply-now control readable. Customer-embedded insurance AI workflow review/attribution/override, Python/TypeScript, CEO mentorship, 25% travel. Advertised 1-5 years production software remains outside strict 0-2 range; minimum 1 is not >1 and travel 25% is not >=50%. Post-May2027 start, OPT/STEM OPT, compensation, final application and clear Ryan upgrade unresolved. No notification or verified status change."
+      },
+      {
+        "classification": "existing-audit-only-editorial-change",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official Austin JD and application form readable. Title now Junior Data Scientist (formerly Junior Data Scientist (Summer 2027)); opening sentence explicitly says full time position starts Summer 2027. Editorial title/full-time clarification observed, not a verified eligibility/status change. R/Python/SQL, fraud investigations, finance/healthcare/crypto, retrieval/parsing/econometrics; no numeric experience minimum. No sponsorship and citizenship question citing government contracts remain; question alone is not explicit citizen-only eligibility. OPT/STEM OPT, compensation and clear Ryan upgrade unverified. No jobs row to update, no notification."
+      },
+      {
+        "classification": "existing",
+        "id": "SelfFinancial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Official Austin hybrid/remote production credit-model Data Scientist JD and application form readable; 0-2 years with BS/MS, $85-110K. Explicit US-citizen/green-card-only requirement remains present. Preserve existing citizenship-rejected result; no verified status change or notification."
+      }
+    ],
+    "coverage": "Incremental source comparison, fresh searches and three official employer checks; not exhaustive revalidation of 335 historical records. Both deployed Pages URLs attempted but inaccessible; Dallas/Austin source pages read on main. Raw Simplify listings not inspected."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-20T1626-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-20T21:28:10Z",
+    "evidence": {}
+  }
+}
