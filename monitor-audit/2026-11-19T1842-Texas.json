@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-20T00:42:18Z",
+  "checkedAt": "2026-11-20T00:43:09Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9556cad32150dc7b6ea18f5a6286bc3db489a8ed",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-19T1739-Texas.json",
+      "sha": "8829b709d4ed12bb1f05e7a44312570ddcaabd82",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-19T23:40:46Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "6576fcbb3d22e1a978ba083ff0a4b31414377028",
+      "head": "5a85bbe6bea1ebfdb2f7bd1fc1f00d32a2266a05",
+      "result": "README unchanged(9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b);raw listing commits advanced;raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README changed to aa80131c0984d946ddc553ffac5094300de390ce at43a277fb57460f8fc50451c6fa35a7ce71af3252. Metro Apply URLs compared against e1f06ecdd031806358075b6c5ae34832f011da6a;no new Dallas/Austin metro link.",
+      "Fresh Dallas/Austin discovery using both engines and exact employer checks. Existing company exclusions and applied/archive rules preserved."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing",
+        "id": "SPGlobal-332351",
+        "source": "https://careers.spglobal.com/jobs/332351?lang=en-us",
+        "result": "Exact employer indexed Dallas AssociateAI Solutions&Enablement JD continues to require indefinite US right-to-work, incompatible with time-limitedF1 OPT/STEM OPT. Bachelor's/no numeric minimum,agent-workflow/prototyping/evaluation/adoption responsibilities,$85K–90K. Direct403;live form/start unverified. Prior audit authorization rejection preserved,no job insertion or notification."
+      },
+      {
+        "classification": "existing",
+        "id": "Vistra-40016989-unverified",
+        "source": "https://vst.wd5.myworkdayjobs.com/en-US/txu_careers/job/Irving-Texas/Data-Scientist_40016989-1",
+        "result": "Exact upstream Irving employer URL remains inaccessible and employer-ID search yields no exact officialJD. Experience,degree,duties,actual opening,2027start,OPT/STEM OPT and clearRyan upgrade remain unverified. Separate from older40016531;no inherited rejection or closure assertion. Audit-only unchanged."
+      },
+      {
+        "classification": "existing",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin full-time associateAI/ML JD readable with Apply link. Coursework/project foundations accepted,productionGenAI/agent component delivery under guidance. Post-May2027start,OPT/STEM OPT,compensation and clearRyan upgrade unresolved. Existing verification state unchanged."
+      }
+    ],
+    "coverage": "Incremental upstream delta and employer checks,not exhaustive revalidation of335 historical records. Published Pages inaccessible;main source pages read. S&P requirement verified via exact employer indexedJD,Vistra exactJD unresolved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-19T1842-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-19T23:40:46Z",
+    "evidence": {}
+  }
+}
