@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-21T01:24:47Z",
+  "checkedAt": "2026-11-21T01:25:35Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d6e963c929c1b1a5f3bb062417ed83af64dd1101",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-20T1834-Texas.json",
+      "sha": "d3e78900a4ac8423b65f8d6062930b7b54939b3c",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-21T00:35:34Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "readmeSha": "9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b",
+      "result": "README unchanged from prior run; raw listings and upstream head not inspected this run."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at 70573baa6ebb25cd0c22ceb6c826382ec853c274; no source delta or duplicate new-link count.",
+      "Fresh searches using both engines; three existing official employer checks and one secondary-only lead reviewed. No verified qualifying role."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "newly-reviewed-unverified-secondary-only",
+        "id": "Virtusa-Dallas-AI-Engineer-unresolved",
+        "source": "https://www.ziprecruiter.com/c/virtusa/Job/AI-Engineer/-in-Dallas%2CTX?jid=ddefa6693514a25f",
+        "result": "Secondary Dallas AI/ML/agentic engineer copies advertise 0-2 years and full-time. Employer-domain searches did not locate a definitive official requisition/JD. Similar copies mix Dallas and Piscataway; secondary removal labels and estimated pay are not employer facts. Official identity, current application, location, post-May2027/2027 grad start, OPT/STEM OPT and Ryan upgrade all unresolved. Audit-only, no notification or jobs insertion. Not asserted newly posted."
+      },
+      {
+        "classification": "existing",
+        "id": "NorthMark-R13431",
+        "source": "https://northmark.wd108.myworkdayjobs.com/en-US/nms/job/Dallas-TX/AI-Engineer-I_R13431",
+        "result": "Official indexed Dallas AI Engineer I remains 0-2 years and mixed junior applied-AI plus SharePoint/NetDocuments administration. Direct official page has no readable lines; current application, full authorization terms, 2027 start and Ryan upgrade not reverified. Preserve existing visa-direction-opportunity-cost-rejected history; no verified reopening/status change."
+      },
+      {
+        "classification": "existing",
+        "id": "Brillio-21202",
+        "source": "https://careers.brillio.com/job-details/?job-id=21202",
+        "result": "Official Coppell onsite early-career full-stack AI JD and Apply link readable; 0-2 including internship/project experience, Java/Python/React/Node/agents, $75-90K. Post-May2027 start, OPT/STEM OPT, final application and clear Ryan upgrade still unresolved. No verified status change."
+      },
+      {
+        "classification": "existing",
+        "id": "SelfFinancial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Official Austin hybrid/remote DS JD/application readable; bachelor's/master's and 0-2 years, production credit models, $85-110K. Explicit US citizen/green-card-only restriction remains in Work Authorization section. Preserve citizenship-rejected status; no status change."
+      }
+    ],
+    "coverage": "Incremental README comparison and fresh searches; three existing official employer checks plus one unresolved secondary lead. Not exhaustive revalidation of 335 historical records. Both published Pages URLs inaccessible; main Dallas/Austin source pages read. Raw Simplify listings and upstream head not inspected. Latest audit identified from newest main commit and read directly."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-20T1924-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-21T00:35:34Z",
+    "evidence": {}
+  }
+}
