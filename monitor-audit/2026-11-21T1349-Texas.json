@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-21T19:49:45Z",
+  "checkedAt": "2026-11-21T19:50:33Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9bf7a86160a553afb4c74c7d9276f5fba918e797",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-21T1219-Texas.json",
+      "sha": "586fede0360341073867bae66ee9e629daaf2f7b",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-21T18:20:40Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "readmeSha": "9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b",
+      "result": "README unchanged from prior run; raw listings and upstream head not inspected this run."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README changed from904f8ab607a7b3794d0d11dcfeeb9f146e01373f to32188aad9437b08b973b02d851f9998dbb888706. Unique metro Apply links: added Qualcomm446722250161 (duplicate table rows counted once); removed Wise shortlink https://go.vansh.nyc/1su. Self Financial age-label change ignored. Source removal does not establish official closure.",
+      "Fresh searches using both engines; one new unverified official-link attempt and one existing official JD recheck. No fully verified eligible opening."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new-unverified",
+        "id": "Qualcomm-446722250161",
+        "source": "https://careers.qualcomm.com/careers/job/446722250161",
+        "result": "New upstream Austin DSP Applications Software Engineer link; official URL inaccessible and exact-ID official search did not yield readable JD. Same-title secondary copies conflict:ASIC design/0years versus NSP embedded stack/BS2+years. Cannot assign exact-copy details to requisition. Official duties,experience,open application,2027 start,OPT and Ryan upgrade unverified; audit-only,no jobs record,no notification."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official Austin Graduate DS page still explicitly expired. Retained2026/27BS/MS,September6 2027start,Python/SQL/ML,114K+RSUs,eligible without sponsorship;OPT not confirmed. Preserve closed status. Removed upstream1su shortlink target not resolved; do not assert identical requisition or new closure time."
+      }
+    ],
+    "coverage": "Incremental README delta against prior stored baseline,fresh searches,one new official URL attempt and one existing official JD check;not exhaustive revalidation of335records. Both published Pages inaccessible;main Dallas/Austin source pages read. Raw Simplify listings and upstream heads not inspected. Latest audit identified from newest main commit and read directly.",
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "baselineCommit": "723ea02343d61fb3cc485a650e4ac57547b76c29",
+      "baselineReadmeSha": "904f8ab607a7b3794d0d11dcfeeb9f146e01373f",
+      "readmeSha": "32188aad9437b08b973b02d851f9998dbb888706",
+      "addedUniqueMetroLinks": [
+        "https://careers.qualcomm.com/careers/job/446722250161"
+      ],
+      "removedUniqueMetroLinks": [
+        "https://go.vansh.nyc/1su"
+      ]
+    }
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-21T1349-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-21T18:20:40Z",
+    "evidence": {}
+  }
+}
