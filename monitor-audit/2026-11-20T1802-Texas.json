@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-21T00:02:10Z",
+  "checkedAt": "2026-11-21T00:03:01Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "7025f66fc2f0c849e0a004bdbd911bd5f5e60bb9",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-20T1626-Texas.json",
+      "sha": "39bf46f84eb266a1d9ed79a53f3672a4fd63815a",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-20T22:28:28Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "previousHead": "d180f96130edcf6cded0652b143c9c6204fab54d",
+      "head": "af17bad4df8355860dc2ae935d3f8bec1ec1c144",
+      "result": "README unchanged(9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b);raw listing commits advanced;raw listings not inspected."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README changed from 908a36a37c5cbc13f47ad1e79171b87c93f54330 to 70573baa6ebb25cd0c22ceb6c826382ec853c274 at f43828b9d05eca0b3d255f48ae0324799fca080a. Normalized unique Apply URLs for Dallas/Austin/DFW and statewide Texas rows: 1 added Proofpoint R14847; 1 removed Qualcomm 446718053556. Removal alone does not establish employer closure. Age-label changes not counted as new jobs.",
+      "Fresh Dallas/Austin searches using both engines and four employer checks; no fully verified qualifying role."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new-source-link-unverified",
+        "id": "Proofpoint-R14847",
+        "source": "https://proofpoint.wd5.myworkdayjobs.com/en-US/ProofpointCareers/job/Texas/AI-Engineer-II_R14847",
+        "result": "New upstream link, not asserted newly posted by employer. Official indexed JD describes full-time internal production AI applications, Python/SQL, APIs/LLMs and 1-2 years including internship/academic/substantial projects. Texas location and Texas base range $93,300-146,630 indexed. Direct official page unreadable and application not verified. Specific Dallas/Austin placement or remote policy, 2027 graduate timing/post-May2027 start, OPT/STEM OPT and actionable Ryan upgrade unresolved. Minimum 1 is not >1. Audit-only; no notification or jobs insertion."
+      },
+      {
+        "classification": "existing",
+        "id": "Brillio-21202",
+        "source": "https://careers.brillio.com/job-details/?job-id=21202",
+        "result": "Official Coppell onsite early-career Full Stack AI Engineer JD and Apply link readable; 0-2 including internships/projects, Java/Python/React/Node/agents, $75-90K. Post-May2027 start, OPT/STEM OPT, final application and clear Ryan upgrade unresolved; no verified status change."
+      },
+      {
+        "classification": "existing-unverified",
+        "id": "AppliedMaterials-R2627684",
+        "source": "https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/Data-Scientist-New-College-Grad--Bachelor-s-Master-s--Austin--TX-_R2627684",
+        "result": "Official Austin DS new-college-grad indexed result persists, but direct official page has zero readable lines. Official full JD/current application, responsibilities, experience, start and OPT remain unverified. Do not infer open status from index or reject solely by semiconductor employer; no status update."
+      },
+      {
+        "classification": "existing-unverified",
+        "id": "Wise-Graduate-Data-Scientist",
+        "source": "https://jobs.smartrecruiters.com/wise/744000160933600",
+        "result": "New searches surface conflicting secondary copies about current opening and eligible degree. Exact SmartRecruiters URL inaccessible; Wise jid-4490 also inaccessible this run. Secondary expiry/removal or open labels cannot verify reopening, degree eligibility or OPT. Preserve prior status and application history; no notification."
+      }
+    ],
+    "coverage": "Incremental normalized upstream Apply-link comparison, fresh searches and four employer checks; not exhaustive revalidation of 335 records. Both published Pages URLs attempted but inaccessible; main Dallas/Austin sources read. Raw Simplify listings not inspected. GitHub monitor-audit directory fetch unsupported; latest audit identified from newest main commit and read directly."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-20T1802-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-20T22:28:28Z",
+    "evidence": {}
+  }
+}
