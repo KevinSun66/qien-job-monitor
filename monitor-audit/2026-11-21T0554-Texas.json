@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-21T11:54:51Z",
+  "checkedAt": "2026-11-21T11:55:44Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "5485ced9d1cb7152c8883908ca5bfca9d666be5b",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-21T0454-Texas.json",
+      "sha": "587c5fa3ed34b19d4405a6cb4aab3c2bde7f6b23",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-21T10:55:34Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "readmeSha": "9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b",
+      "result": "README unchanged from prior run; raw listings and upstream head not inspected this run."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README changed from b96f6c1b01ed20d9bea2ff4818b01f6f5a050b0c (c1673f20867a8267762a0b6d9a1e0a3f4d2b8447) to42a8604bfc1b6fd8c0337153c9e1e06333d34857. Normalized unique Apply URLs for Dallas/Austin/DFW and statewideTexas:0added,2removed(ProofpointR14847,KyndrylR-66739). Source removal does not establish employer closure.",
+      "Fresh searches using both engines; newly reviewed AccentureR00372691 officialJD/Apply route plus two removed-source employer URL checks. No fully verified qualifying role."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "newly-reviewed-unverified-audit-only",
+        "id": "Accenture-R00372691",
+        "source": "https://www.accenture.com/us-en/careers/jobdetails?id=R00372691_en",
+        "result": "Official full-time EarlyCareer AI Native Analyst JD/Apply link readable; Austin and Irving among locations,related bachelor's byJun2027,foundational programming and AI-tool projects,LLM/API/agentic exposure; no numeric experience minimum. Fullstack/client delivery and AI-assisted development with training. Official no-current/future-visa-sponsorship clause does not explicitly establish OPT/STEM OPT acceptance and is not citizen-only. Post-May2027 start,travel,Texas compensation and clear Ryan upgrade unresolved. Apply route opened exact WorkdayR00372691 but zero readable lines,final application not verified. No insertion/notification; not asserted newly posted."
+      },
+      {
+        "classification": "existing-upstream-removed-unverified",
+        "id": "Proofpoint-R14847",
+        "source": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Texas/AI-Engineer-II_R14847",
+        "result": "Apply URL removed from upstream README; exact official URL inaccessible. No verified employer closure/opening. Dallas/Austin placement,post-May2027 start,OPT/STEM OPT and Ryan upgrade unresolved. Audit-only,no jobs row deletion."
+      },
+      {
+        "classification": "existing-upstream-removed-unverified",
+        "id": "Kyndryl-R-66739",
+        "source": "https://kyndryl.wd5.myworkdayjobs.com/en-US/KyndrylProfessionalCareers/job/USDALFRI---Dallas-Frisco-AI-HUB-FRI/Early-Career-Consult-Program---Associate-AI-Engineer_R-66739-2",
+        "result": "Apply URL removed from upstream README; exact official page has zero readable lines. Current application,fullJD/experience/authorization/start not newly verified. Existing rejected record preserved; source removal alone not employer closure. No application-state or archive change."
+      }
+    ],
+    "coverage": "Incremental normalized upstream Apply-link comparison,fresh searches,new official AccentureJD plus two removed-source employer URL checks; not exhaustive revalidation of335records. Both published Pages URLs inaccessible; main Dallas/Austin source pages read. Raw Simplify listings and upstream head not inspected. Latest audit identified from newest main commit and read directly."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-21T0554-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-21T10:55:34Z",
+    "evidence": {}
+  }
+}
