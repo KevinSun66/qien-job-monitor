@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-21T07:57:23Z",
+  "checkedAt": "2026-11-21T07:58:16Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "91694d1d1f31f6ae933d313013e75dea64fe5b1d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-21T0145-Texas.json",
+      "sha": "c5347099f140f6288e975d76a40d04328c22ca8b",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-21T07:46:27Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "readmeSha": "9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b",
+      "result": "README unchanged from prior run; raw listings and upstream head not inspected this run."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README unchanged at b96f6c1b01ed20d9bea2ff4818b01f6f5a050b0c; no source delta or repeated new-link count.",
+      "Fresh searches using both engines and three existing official employer checks. Correct Wise wise.jobs official domain readable this run and confirms already-recorded closure; no newly reviewed lead or fully verified qualifying role."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official Austin Graduate Data Scientist page readable and explicitly says vacancy expired. Retained JD gives bachelor's/master's2026/2027,6Sep2027start,Python/SQL/statistics/ML,$114K plusRSUs and work eligibility without sponsorship. No numeric minimum; OPT/STEM compatibility not independently confirmed. Existing jobs record already closed since Nov16; preserve closed status and exact closure time unknown. Search snippets/secondary open labels do not establish reopening."
+      },
+      {
+        "classification": "existing",
+        "id": "Brillio-21202",
+        "source": "https://careers.brillio.com/job-details/?job-id=21202",
+        "result": "Official Coppell onsite early-career full-stack AI JD/Apply link readable;0-2 including internship/project experience,Java/Python/React/Node/agents,$75-90K. Post-May2027 start,OPT/STEM OPT,final application and clear Ryan upgrade unresolved; no verified status change."
+      },
+      {
+        "classification": "existing-unverified",
+        "id": "Proofpoint-R14847",
+        "source": "https://proofpoint.wd5.myworkdayjobs.com/en-US/ProofpointCareers/job/Texas/AI-Engineer-II_R14847",
+        "result": "Exact official page fetch timed out(400 Timeout fetching). No current fullJD/application verified; prior indexed details not newly verified this run. Specific Dallas/Austin placement,post-May2027 start,OPT/STEM OPT and actionable Ryan upgrade remain unresolved. No inferred closure/opening or duplicate notification. Employer-site timeout is not a GitHub write failure."
+      }
+    ],
+    "coverage": "Incremental README checks,fresh searches and three existing employer checks; not exhaustive revalidation of335 historical records. Both published Pages URLs inaccessible; main Dallas/Austin source pages read. Raw Simplify listings and upstream head not inspected. Latest audit identified from newest main commit and read directly."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-21T0157-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-21T07:46:27Z",
+    "evidence": {}
+  }
+}
