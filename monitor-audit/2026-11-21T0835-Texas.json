@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-21T14:35:14Z",
+  "checkedAt": "2026-11-21T14:36:08Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d22e95ecf2f5e8ba061d9fd159422632972db08d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-21T0715-Texas.json",
+      "sha": "4ab1f0cddc85e30f82b8160a962c1c12e5cee8f4",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-21T13:16:24Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "readmeSha": "9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b",
+      "result": "README unchanged from prior run; raw listings and upstream head not inspected this run."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README changed from42a8604bfc1b6fd8c0337153c9e1e06333d34857(b5ae29cd51fed6169968c8f855cfaf4c191004be) to904f8ab607a7b3794d0d11dcfeeb9f146e01373f(723ea02343d61fb3cc485a650e4ac57547b76c29). Normalized metro/statewideTexas ApplyURLs:2added,0removed. Added ProofpointR14847 is previously reviewed; Wise1su shortlink has previously seen role title,employer requisition identity unresolved. Do not equate source reappearance/newshortlink with employer reopening.",
+      "Fresh searches using both engines; two previously seen role leads rechecked,including Wise official4490. No new verified eligible opening."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-source-reappeared-unverified",
+        "id": "Proofpoint-R14847",
+        "source": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Texas/AI-Engineer-II_R14847",
+        "result": "Previously reviewed exact URL reappeared upstream; officialURL inaccessible. No verified employer reopening/closure or current fullJD/application. Prior indexed details not newly verified. Dallas/Austin placement,post-May2027 start,OPT/STEM OPT and Ryan upgrade unresolved. No duplicate notification or data insertion."
+      },
+      {
+        "classification": "existing-title-new-shortlink-unverified",
+        "id": "Wise-4490-and-unresolved-shortlink1su",
+        "source": "https://go.vansh.nyc/1su",
+        "officialReference": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Upstream adds NewGrad2027 DataScientist/Austin shortlink1su; shortlink inaccessible,so cannot establish target requisition or new posting. Fresh official4490 page explicitly expired and retains2026/2027 bachelor's/master's,6Sep2027start,Python/SQL/statistics/ML,$114KplusRSUs,no-sponsorship eligibility. OPT/STEM acceptance unresolved. Preserve existing4490 closed status; do not claim shortlink is definitively4490 or infer reopening."
+      }
+    ],
+    "coverage": "Incremental normalized upstream ApplyURL comparison,fresh searches,two upstream lead checks and Wise officialJD; not exhaustive revalidation of335records. Both published Pages inaccessible; main Dallas/Austin source pages read. Raw Simplify listings and upstream head not inspected. Latest audit identified from newest main commit and read directly."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-21T0835-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-21T13:16:24Z",
+    "evidence": {}
+  }
+}
