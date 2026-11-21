@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-21T03:57:54Z",
+  "checkedAt": "2026-11-21T03:58:41Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d7895a8b461e90899e91253e4719ac01612fd710",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-20T2033-Texas.json",
+      "sha": "22112dd4b49e96166afc89613bde3d9ce6e32c5a",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-21T02:34:38Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "readmeSha": "9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b",
+      "result": "README unchanged from prior run; raw listings and upstream head not inspected this run."
+    },
+    "otherSources": [
+      "Tar-ive/ML_Newgrad_2027 README changed from 70573baa6ebb25cd0c22ceb6c826382ec853c274 to c9f57166c2dca9f5cc4a30fb733307fe024d47e2. Normalized unique Apply URLs for Dallas/Austin/DFW and statewide Texas rows compared against f43828b9d05eca0b3d255f48ae0324799fca080a: 0 added, 0 removed. Do not count age-label/editorial changes as new openings.",
+      "Fresh searches using both engines and three official employer checks. Cognizant 47777 newly reviewed in this run, not asserted newly posted; no fully verified qualifying role. Excluded-company incidental search hits were not pursued."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "newly-reviewed-excluded-audit-only",
+        "id": "Cognizant-47777",
+        "source": "https://careers.cognizant.com/apj-en/jobs/47777/ai-engineer-ioa/",
+        "result": "Official Dallas AI Engineer(IOA) JD and Apply link readable. Full-stack Python/agentic/LLM and cloud/data pipelines; bachelor's/master's, hands-on skills, no numeric experience minimum disclosed. Cohorts start Oct/Nov2026 or Jan/Feb2027, before Qien's graduation; annual salary $65K and authorization text explicitly includes CPT/OPT in unsupported programs. Fails post-May2027 start and OPT compatibility, no Ryan upgrade. Final ATS application not verified. No jobs insertion; preserve all prior Cognizant application states and do not assume this is the previously applied requisition."
+      },
+      {
+        "classification": "existing-audit-only",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official Austin Junior Data Scientist full-time Summer2027 JD/application readable; quantitative background, R/Python/SQL, fraud analytics/econometrics; no numeric experience minimum. No sponsorship and citizenship question citing contracts persist; question alone is not explicit citizen-only restriction. OPT/STEM OPT, pay and clear Ryan upgrade unresolved; no verified status change."
+      },
+      {
+        "classification": "existing-audit-only-unverified",
+        "id": "Proofpoint-R14847",
+        "source": "https://proofpoint.wd5.myworkdayjobs.com/en-US/ProofpointCareers/job/Texas/AI-Engineer-II_R14847",
+        "result": "Direct exact official page again has zero readable lines. Prior indexed AI-app/1-2-year/Texas/pay details not newly verified in this run. Current application, Dallas/Austin or remote policy, post-May2027 start, OPT/STEM OPT and actionable Ryan upgrade unresolved. No inferred opening/status change or duplicate notification."
+      }
+    ],
+    "coverage": "Incremental normalized upstream Apply-link comparison, fresh searches and three official employer checks; not exhaustive revalidation of 335 historical records. Both published Pages URLs inaccessible; main Dallas/Austin source pages read. Raw Simplify listings and upstream head not inspected. Latest audit identified from newest main commit and read directly."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-20T2157-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-21T02:34:38Z",
+    "evidence": {}
+  }
+}
