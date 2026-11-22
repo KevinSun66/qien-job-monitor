@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-22T23:28:51Z",
+  "checkedAt": "2026-11-22T23:30:03Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "7033ae187d9d727a094645c1b46ec0aad8240f61",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-22T1626-Texas.json",
+      "sha": "526af7a5bdff0239c206aa677067731c14bcf122",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-22T22:27:23Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "readmeSha": "82b5f100238b7dd1a6dfe7a0dbadfec7617e59ca",
+      "headCommit": "b6388d3ecdcbd67a43e5c8aaf4fc6c2c5dca9e71",
+      "baselineCommit": "58e92b86304d5e68f665a379deb9ee4aaa9e05a1",
+      "baselineReadmeSha": "f38f9e93ee6b0dbdf5eaf41776e0d7ce5da40a71",
+      "result": "README changed; metro unique external application links 0 added, 0 removed. Raw listings not inspected.",
+      "metroDelta": {
+        "added": [],
+        "removed": []
+      }
+    },
+    "otherSources": [
+      "Fresh web searches plus official Striveworks JD check and direct Toyota/Vistra URL attempts.",
+      "Vistra newly reviewed in this run, not established as newly published; Toyota deduplicated against existing job 10337203."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "audit-only-unverified",
+        "id": "Vistra-40016989",
+        "source": "https://vst.wd5.myworkdayjobs.com/en-US/vistra_careers/job/Irving-Texas/Data-Scientist_40016989-2",
+        "previousSource": "https://vst.wd5.myworkdayjobs.com/en-US/txu_careers/job/Irving-Texas/Data-Scientist_40016989-1",
+        "result": "Upstream replaced txu_careers suffix-1 URL with vistra_careers suffix-2 for same base requisition. Direct official JD inaccessible; exact-ID official-domain search empty. Secondary copies describe Irving full-time DS/ML analytics, master's/PhD and 1–3 years, but not used as official verification. 2027 post-May start, OPT/STEM OPT, actual opening, exact duties/experience and pay unresolved; no verified eligible addition or status change."
+      },
+      {
+        "classification": "existing-excluded-reappearance",
+        "id": "Toyota-10337203",
+        "source": "https://toyota.wd503.myworkdayjobs.com/en-US/tmna/job/Plano-North/AI-ML-Platform-Engineer_10337203",
+        "result": "Existing job 10337203 reappeared upstream under alternate Workday URL/Plano label. Exact official URL inaccessible; exact-ID official-domain search empty. Preserve existing seniority-rejected row and historical Frisco/Plano discrepancy; do not overwrite JD, location, authorization or application status without new official evidence."
+      },
+      {
+        "classification": "existing-excluded",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Official Austin hybrid/onsite Junior ML Engineer JD/application readable; BS, 0–2 years, production ML/analytics/agent pipelines, up to 25% travel, $100K–130K plus equity/bonus. Explicit US citizenship and Secret-or-above clearance eligibility required. Preserve citizenship exclusion."
+      },
+      {
+        "classification": "source-removal-only",
+        "id": "Wise-shortlink-1su",
+        "source": "https://go.vansh.nyc/1su",
+        "result": "Previously seen link removed from Tar README; no official Wise JD check performed this run. Removal alone is not new official closure evidence; preserve existing disposition."
+      }
+    ],
+    "coverage": "Both upstream READMEs compared to exact previous blob baselines; fresh web searches, one readable official JD and two inaccessible official URLs. Not exhaustive 335-record revalidation. Both deployed Pages URLs inaccessible; main Dallas/Austin sources read. Raw Simplify listings not inspected; both upstream heads inspected. No scraper created.",
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "headCommit": "d5e0a89493d2b5876fe4f3c6cba69fabeca149ae",
+      "baselineCommit": "4d69d11922fe8975787d3ab0a141c70c126be2b1",
+      "baselineReadmeSha": "51eb6db582801c63a5dacf41197a3ea59e577077",
+      "readmeSha": "8162c42617661c8ab4ed7a4c63607369a1faa375",
+      "addedUniqueMetroLinks": [
+        "https://vst.wd5.myworkdayjobs.com/en-US/vistra_careers/job/Irving-Texas/Data-Scientist_40016989-2",
+        "https://toyota.wd503.myworkdayjobs.com/en-US/tmna/job/Plano-North/AI-ML-Platform-Engineer_10337203"
+      ],
+      "removedUniqueMetroLinks": [
+        "https://vst.wd5.myworkdayjobs.com/en-US/txu_careers/job/Irving-Texas/Data-Scientist_40016989-1",
+        "https://go.vansh.nyc/1su"
+      ],
+      "result": "2 application URLs added, 2 removed; Toyota existing requisition reappeared, Vistra same base requisition changed career-site/suffix, Wise old shortlink removed. Company homepage excluded from application-link count. None establishes a new eligible opening or official closure/reopening."
+    }
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-22T1728-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-22T22:27:23Z",
+    "evidence": {}
+  }
+}
