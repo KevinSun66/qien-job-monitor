@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-22T02:49:00Z",
+  "checkedAt": "2026-11-22T02:49:51Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "c843847a44e457fb0d0f148a120d4655f8ce7a6a",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-21T1954-Texas.json",
+      "sha": "58f549d143d85bd85aab6361916445eea633f7a3",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-22T01:56:19Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "readmeSha": "98ddc3e0a427e78740f231a19347a6e47ad885a1",
+      "baselineCommit": "c2d21ceec2978bd833f309179ba0f0f17659bc5f",
+      "baselineReadmeSha": "ebb2db7e39dfb10a00122fc87da7d2b8b17fd9b7",
+      "result": "README changed but metro unique external application-link delta0added0removed. Raw listings and current head not inspected.",
+      "metroDelta": {
+        "added": [],
+        "removed": []
+      }
+    },
+    "otherSources": [
+      "Tar README unchanged at48027c32131be9ade026ef8534c1ff9c6326b3c7;no source delta or repeated new-link count.",
+      "Fresh web searches,two existing official URL checks,and one newly reviewed secondary Genius Road3444 lead. No verified eligible opening."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new-unverified",
+        "id": "GeniusRoad-3444",
+        "source": "https://www.drjobpro.com/usa/jobs/junior-aiml-engineer-3444-austin-genius-road-MWK2RMAH6XTA3LC",
+        "result": "Secondary Austin JuniorAI/ML lead;exact employer-domain3444 search no readable officialJD. Copies describe12month contract,current Austin residency,about1year or equivalent projects/internships,Python ML/data pipelines. Official full-time2027graduate/post-May start,OPT,open application,pay and Ryan upgrade unverified. Audit-only,no recommendation;secondary deadline not employer timestamp."
+      },
+      {
+        "classification": "existing-audit-only",
+        "id": "RiseInternet-9204447887026_1",
+        "source": "https://workforcenow.adp.com/job?cid=025c6b1c-d982-48ca-a361-edd0625dd097&jobId=9204447887026_1",
+        "result": "OfficialADP still inaccessible. No new evidence verifying AppliedAI duties,experience,2027start,OPT or Ryan upgrade;preserve audit-only/unverified disposition."
+      },
+      {
+        "classification": "existing-audit-only",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official Austin full-timeSummer2027JuniorDS JD/application readable;quantitative background,R/Python/SQL,no numeric minimum,fraud/econometrics. No employment visa sponsorship;citizenship question is not explicit citizen-only. OPT/STEMOPT,exact post-May start,pay and clear Ryan upgrade remain unresolved;no verified status change."
+      }
+    ],
+    "coverage": "README comparison against exact previous blob baseline,fresh searches,two existing officialURLchecks and one new secondary lead;not exhaustive335recordrevalidation. Both deployedPages inaccessible;main Dallas/Austin sources read. Raw Simplify listings,current source heads not inspected. No scraper created.",
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "baselineReadmeSha": "48027c32131be9ade026ef8534c1ff9c6326b3c7",
+      "readmeSha": "48027c32131be9ade026ef8534c1ff9c6326b3c7",
+      "addedUniqueMetroLinks": [],
+      "removedUniqueMetroLinks": []
+    }
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-21T2049-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-22T01:56:19Z",
+    "evidence": {}
+  }
+}
