@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-22T01:54:40Z",
+  "checkedAt": "2026-11-22T01:56:05Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "2fa5b1a55f29c2c9bf67fdc9c2cd2a73934a5a0e",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-21T1822-Texas.json",
+      "sha": "3255768f5cfe43ef62533ebe550c69cc42a85f01",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-22T00:23:16Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "readmeSha": "ebb2db7e39dfb10a00122fc87da7d2b8b17fd9b7",
+      "headCommit": "c2d21ceec2978bd833f309179ba0f0f17659bc5f",
+      "baselineCommit": "821e4cf04fa8b738cc0ccc640842ea43c29f5cd3",
+      "baselineReadmeSha": "9a8bbdafe9a0e21dcf0bc65f45bfff5761d2185b",
+      "result": "README delta:two new metro application URLs(Rise Internet SWE1,Amazon post-silicon validation);removed GMJR-202620418. Raw listings not inspected;removal not official closure.",
+      "metroDelta": {
+        "added": [
+          {
+            "text": "Rise Internet Software Engineer 1 Texas Irving, TX 1d",
+            "urls": [
+              "https://workforcenow.adp.com/job?cid=025c6b1c-d982-48ca-a361-edd0625dd097&jobId=9204447887026_1&utm_source=Simplify&ref=Simplify"
+            ]
+          },
+          {
+            "text": "🔥 Amazon Post-Silicon Systems Validation Engineer 1 Austin, TX 2d",
+            "urls": [
+              "https://amazon.jobs/en/jobs/10502826/post-silicon-systems-validation-engineer-i-annapurna-labs?utm_source=Simplify&ref=Simplify"
+            ]
+          }
+        ],
+        "removed": [
+          {
+            "text": "General Motors Software Engineer - Early Careers Seattle, WA Austin, TX Warren, MI 2mo",
+            "urls": [
+              "https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Austin-Texas-United-States-of-America/Software-Engineer--Data-Software-Engineering-and-Cloud-Platforms--Early-Careers_JR-202620418?utm_source=Simplify&ref=Simplify"
+            ]
+          }
+        ]
+      }
+    },
+    "otherSources": [
+      "Tar README changed3969f29b82d6f7ddb0898205dcfeca9c04420751 to48027c32131be9ade026ef8534c1ff9c6326b3c7. Unique metro delta0added,1removed(Wise1su previously seen shortlink);no closure inferred.",
+      "Fresh web search and five official role/URL checks. New2:Amazon hardware-stack duties excluded;Rise official unavailable/unverified. No eligible notification."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new-excluded",
+        "id": "Amazon-10502826",
+        "source": "https://amazon.jobs/en/jobs/10502826/post-silicon-systems-validation-engineer-i-annapurna-labs",
+        "result": "Official Austin JD/Apply readable;BS in progress,programming/projects,no numeric min,$129000. Core accelerator silicon validation/bring-up,drivers,compiler/runtime,hardware-software integration:excluded non-applied hardware infrastructure duties.2027start/OPT not pursued after duties fail. Distinct from applied Amazon AWSI application;no status modified."
+      },
+      {
+        "classification": "new-unverified",
+        "id": "RiseInternet-9204447887026_1",
+        "source": "https://workforcenow.adp.com/job?cid=025c6b1c-d982-48ca-a361-edd0625dd097&jobId=9204447887026_1",
+        "result": "New Simplify Software Engineer1 Irving/Texas link;officialADP unavailable. AppliedAI duties,fulltime,experience,2027start,OPT and Ryan upgrade unverified;no recommendation."
+      },
+      {
+        "classification": "existing",
+        "id": "GM-JR-202620418",
+        "source": "https://generalmotors.wd5.myworkdayjobs.com/en-CA/Careers_GM/job/Austin-Texas-United-States-of-America/Software-Engineer--Data-Software-Engineering-and-Cloud-Platforms--Early-Careers_JR-202620418",
+        "result": "Removed from source README;official URL inaccessible. No verified closure;preserve visa-rejected,application state and archive."
+      },
+      {
+        "classification": "existing",
+        "id": "Wise-4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "result": "Official Austin Graduate DS still explicitly expired. Retained2026/27BS/MS,September6 2027start,Python/SQL/ML,$114K+RSUs,eligible without sponsorship;OPT unconfirmed. Source shortlink removal does not establish new closure or exact identity."
+      },
+      {
+        "classification": "existing",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Official Austin0-2BSJuniorMLE JD/application readable;production ML/agent pipelines,25%travel,100-130K. Explicit UScitizen and Secret clearance eligibility remains;preserve citizenship-rejected."
+      }
+    ],
+    "coverage": "README deltas against exact prior blob baselines,fresh web search and five role/URL checks;not exhaustive335record revalidation. Both deployed Pages inaccessible;main Dallas/Austin sources read. Raw Simplify listings not inspected;Simplify head inspected,Tar head not inspected. No scraper created.",
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "baselineCommit": "43122c02b6bd04971e6cf8788fa7600d97a698f4",
+      "baselineReadmeSha": "3969f29b82d6f7ddb0898205dcfeca9c04420751",
+      "readmeSha": "48027c32131be9ade026ef8534c1ff9c6326b3c7",
+      "addedUniqueMetroLinks": [],
+      "removedUniqueMetroLinks": [
+        "https://go.vansh.nyc/1su"
+      ]
+    }
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-21T1954-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-22T00:23:16Z",
+    "evidence": {}
+  }
+}
