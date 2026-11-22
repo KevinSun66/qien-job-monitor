@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-22T09:14:49Z",
+  "checkedAt": "2026-11-22T09:15:33Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "5c37afdad64925f095c889883a0f07c0704c71c9",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-22T0242-Texas.json",
+      "sha": "7cccc54a1e05c125f5af5e2f7edd82e9d4b4007e",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-22T08:44:08Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "readmeSha": "ad7201256ad3577ff387939a153b0620722ec113",
+      "result": "README unchanged;rawlistings and currenthead not inspected."
+    },
+    "otherSources": [
+      "Tar README unchanged atb4bd2fbb2a6df89bac69032e1e528069ea2ced88;no source delta or repeatednewlink count.",
+      "Freshwebsearches and twoexistingofficialURLchecks;no newlyreviewedTexaslead or verifiedeligibleopening."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-audit-only",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "OfficialAustin fulltimeSummer2027JuniorDS JD/application readable;quantitativebackground,R/Python/SQL,no numericminimum,fraud/econometric investigations. Noemploymentvisa sponsorship;citizenshipquestion notexplicitcitizenonly. OPT/STEMOPT,exactpost-Maystart,pay and clearRyanupgrade unresolved;no verifiedstatuschange."
+      },
+      {
+        "classification": "existing",
+        "id": "Southwest-R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "ExactofficialURL stillHTTP410Gone;no currentJD/application verified. Preserveclosed-watch,applicationstate and archive;no newclosuretimestamp inferred."
+      }
+    ],
+    "coverage": "IncrementalREADMEchecks,freshwebsearches and twoexistingofficialURLchecks;not exhaustive335recordrevalidation. BothdeployedPages inaccessible;mainDallas/Austin sourcesread. RawSimplifylistings/currentupstreamheads notinspected. Noscrapercreated.",
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "baselineReadmeSha": "b4bd2fbb2a6df89bac69032e1e528069ea2ced88",
+      "readmeSha": "b4bd2fbb2a6df89bac69032e1e528069ea2ced88",
+      "addedUniqueMetroLinks": [],
+      "removedUniqueMetroLinks": []
+    }
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-22T0314-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-22T08:44:08Z",
+    "evidence": {}
+  }
+}
