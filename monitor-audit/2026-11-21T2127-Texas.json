@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-22T03:27:42Z",
+  "checkedAt": "2026-11-22T03:28:34Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "a3aafd89eaa03953844cef65ee19fbceafb8aefb",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-21T2049-Texas.json",
+      "sha": "6759aa0211acb1c1f5749241c704effb470d11a2",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-22T02:50:04Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "readmeSha": "bf0db67ac50e5341bbc32539725e90ac08be1dda",
+      "headCommit": "52e80584fc5c50e6f7b39a45fa853f62431c8153",
+      "baselineCommit": "a097b0ef1db80dca8e72711a4e9c584e03d2a112",
+      "baselineReadmeSha": "98ddc3e0a427e78740f231a19347a6e47ad885a1",
+      "result": "README changed but metro unique external application-link delta0added0removed. Raw listings not inspected.",
+      "metroDelta": {
+        "added": [],
+        "removed": []
+      }
+    },
+    "otherSources": [
+      "Tar README unchanged at48027c32131be9ade026ef8534c1ff9c6326b3c7;no source delta or repeated new-link count.",
+      "Fresh web searches and two previously seen officialURL checks;no new verified eligible opening."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-audit-only",
+        "id": "Accenture-R00372691",
+        "source": "https://www.accenture.com/us-en/careers/jobdetails?id=R00372691_en",
+        "result": "Official full-time EarlyCareer AI Native Analyst JD/Apply readable;Austin/Irving,relatedBS byJune2027,foundational programming and academic/internshipAIprojects,no numericminimum. Fullstack clientdelivery,AI-assisteddevelopment and LLM/agent exposure. No current/futurevisa sponsorship;not citizen-only but OPT/STEMOPT unresolved. Post-Maystart,travel,Texas pay,final application and clear Ryanupgrade unconfirmed;no status change."
+      },
+      {
+        "classification": "existing-audit-only",
+        "id": "Qualcomm-446722250161",
+        "source": "https://careers.qualcomm.com/careers/job/446722250161",
+        "result": "Exact officialURL remains inaccessible. Duties,experience,2027start,OPT,open application and Ryanupgrade not newly verified. Preserve audit-only/unverified disposition,no notification."
+      }
+    ],
+    "coverage": "README comparison against exact previous blob baseline,fresh searches and two existing officialURLchecks;not exhaustive335recordrevalidation. Both deployedPages inaccessible;main Dallas/Austin sources read. RawSimplify listings not inspected;Simplifyhead inspected,Tarhead not inspected. No scraper created.",
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "baselineReadmeSha": "48027c32131be9ade026ef8534c1ff9c6326b3c7",
+      "readmeSha": "48027c32131be9ade026ef8534c1ff9c6326b3c7",
+      "addedUniqueMetroLinks": [],
+      "removedUniqueMetroLinks": []
+    }
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-21T2127-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-22T02:50:04Z",
+    "evidence": {}
+  }
+}
