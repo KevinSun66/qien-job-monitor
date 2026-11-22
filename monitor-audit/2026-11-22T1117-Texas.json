@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-22T17:17:29Z",
+  "checkedAt": "2026-11-22T17:18:07Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "f88d0b7234ad3468567e661691a7e11272dc3635",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-22T1058-Texas.json",
+      "sha": "210315217063b90e4d61df01dcd1461380d70233",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-22T16:59:23Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "readmeSha": "56ddc64edaef9d482e1bda5fea9c3e5c6182a11b",
+      "baselineReadmeSha": "56ddc64edaef9d482e1bda5fea9c3e5c6182a11b",
+      "result": "README unchanged since previous audit; no README source delta. Raw listings and current upstream head not inspected."
+    },
+    "otherSources": [
+      "Both monitored upstream READMEs unchanged since previous audit.",
+      "Fresh web searches and two previously seen official JD checks; no newly reviewed Texas lead."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-excluded",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Official Austin hybrid/onsite Junior ML Engineer JD and application readable; BS, 0–2 years, Python production ML/analytics and agent pipelines. Up to 25% travel, $100K–130K base plus equity/bonus. Explicit US citizenship and eligibility/willingness to obtain Secret-or-above clearance persist. Preserve citizenship exclusion; no notification."
+      },
+      {
+        "classification": "existing-audit-only",
+        "id": "Brillio-21202",
+        "source": "https://careers.brillio.com/job-details/?job-id=21202",
+        "result": "Official Coppell onsite full-stack AI Engineer JD and Apply link readable; 0–2 years including internships/projects, Java/Python/React/Node, agentic applications/prototypes/production delivery. $75K–90K base. Post-May 2027 start, OPT/STEM OPT and final application unverified; no clear overall Ryan upgrade established. No verified job status change."
+      }
+    ],
+    "coverage": "Incremental upstream README checks, fresh web searches and two previously seen official JD checks; not exhaustive 335-record revalidation. Both deployed Pages URLs inaccessible; main Dallas/Austin sources read. Raw Simplify listings and current upstream heads not inspected. No scraper created.",
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "baselineReadmeSha": "51eb6db582801c63a5dacf41197a3ea59e577077",
+      "readmeSha": "51eb6db582801c63a5dacf41197a3ea59e577077",
+      "addedUniqueMetroLinks": [],
+      "removedUniqueMetroLinks": [],
+      "result": "README unchanged since previous audit."
+    }
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-22T1117-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-22T16:59:23Z",
+    "evidence": {}
+  }
+}
