@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-22T14:18:26Z",
+  "checkedAt": "2026-11-22T14:19:14Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "2426aa3a6115c2d83e41987a45b25bb77be7a8d1",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-22T0806-Texas.json",
+      "sha": "609ee1aaaf2563ae4709a610c8dbbb7446dbecba",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-22T14:07:57Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "readmeSha": "4c831d4efb77b488a06f959dd68a45b7d47f9fd9",
+      "baselineReadmeSha": "4c831d4efb77b488a06f959dd68a45b7d47f9fd9",
+      "result": "README unchanged since previous audit; raw listings and current upstream head not inspected."
+    },
+    "otherSources": [
+      "Both monitored upstream READMEs unchanged since previous audit.",
+      "Fresh web searches and four official JD checks; Further 8906198002 reviewed as audit-only lead, not established as newly published."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "audit-only-unverified",
+        "id": "Further-8906198002",
+        "source": "https://job-boards.greenhouse.io/furtherearlycareer/jobs/8906198002",
+        "result": "Official Dallas full-time graduate developer JD and application form readable. Fall 2026–Spring 2027 software-related bachelor's; beginner coursework, internships preferred, no numeric minimum. Form specifies June–July 2027 start, three onsite days. Client application development and AI-assisted coding; no sponsorship. OPT/STEM OPT, degree fit, core Applied AI assignment, compensation and clear Ryan upgrade unresolved. Not present among 335 job records; no verified eligible addition."
+      },
+      {
+        "classification": "existing-excluded",
+        "id": "SelfFinancial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Official Austin hybrid/remote entry-level credit-model DS JD and application readable, BS/MS, 0–2 years, Python production modeling, $85K–110K plus bonus/options. Explicit citizen/green-card-only requirement persists; preserve citizenship exclusion."
+      },
+      {
+        "classification": "existing-audit-only",
+        "id": "Accenture-R00372691",
+        "source": "https://www.accenture.com/us-en/careers/jobdetails?id=R00372691_en",
+        "result": "Official full-time Early Career AI Native Analyst JD and Apply link readable; software-related BS by June 2027, foundational programming and academic/intern AI experience without numeric minimum. Client-facing full-stack delivery, APIs and agent/LLM exposure. Final application, exact metro placement/post-May start, OPT/STEM OPT, travel, Texas pay and clear Ryan upgrade not established in this check."
+      },
+      {
+        "classification": "existing-excluded",
+        "id": "PMG-8587038002",
+        "source": "https://job-boards.greenhouse.io/pmg/jobs/8587038002",
+        "result": "Official Dallas full-time graduate AI/software JD and application readable; 2026/2027 BS/MS, internship/relevant experience, no numeric minimum. Alli marketing software/AI agents, June 7 2027 start, five onsite days; no sponsorship, OPT/STEM OPT unverified. Form salary expectations are not an employer pay offer. No evidence establishes clear Ryan upgrade; preserve opportunity-cost rejection."
+      }
+    ],
+    "coverage": "Incremental upstream README checks, fresh web searches and four official JD checks; not exhaustive 335-record revalidation. Both deployed Pages URLs inaccessible; main Dallas/Austin sources read. Raw Simplify listings and current upstream heads not inspected. No scraper created.",
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "baselineReadmeSha": "58050ae7852ec961042500beaf1e6126e0670d4f",
+      "readmeSha": "58050ae7852ec961042500beaf1e6126e0670d4f",
+      "addedUniqueMetroLinks": [],
+      "removedUniqueMetroLinks": []
+    }
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-22T0818-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-22T14:07:57Z",
+    "evidence": {}
+  }
+}
