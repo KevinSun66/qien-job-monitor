@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-23T00:19:32Z",
+  "checkedAt": "2026-11-23T00:20:32Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "126a351f7f806d9b39c8e20c75472aec75c3c3c4",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-22T1728-Texas.json",
+      "sha": "e5eaa56dfa0a0512fb5cc783dd092eaf5f9949ba",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-22T23:30:22Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "readmeSha": "28f35469d41a5399a9774fbf3d45563f5abd03bb",
+      "baselineCommit": "b6388d3ecdcbd67a43e5c8aaf4fc6c2c5dca9e71",
+      "baselineReadmeSha": "82b5f100238b7dd1a6dfe7a0dbadfec7617e59ca",
+      "result": "README changed; metro unique external application links 0 added, 0 removed. Raw listings and current upstream head not inspected.",
+      "metroDelta": {
+        "added": [],
+        "removed": []
+      }
+    },
+    "otherSources": [
+      "Tar README unchanged since previous audit.",
+      "Fresh web searches, existing Integra/Vistra official URL checks and newly reviewed UT Dallas AI Business Analyst official JD."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "audit-only-experience-start-date-role-fit-rejected",
+        "id": "UTDallas-S07368P",
+        "source": "https://jobs.utdallas.edu/postings/33327",
+        "result": "Official regular full-time Business Analyst II/AI Business Analyst JD readable with Apply link and open-until-filled status. Fort Worth or Richardson hybrid, desired January 4 2027 start, bachelor's plus 2 years related experience minimum. Core requirements/use-case documentation, stakeholder coordination and UAT, rather than Applied AI model/software engineering. H-1B sponsorship unavailable; OPT/STEM OPT not confirmed and not inferred from H-1B policy. Fails experience/start/direction gates; no clear Ryan upgrade or notification. Newly reviewed, not established as newly published."
+      },
+      {
+        "classification": "existing-audit-only",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official Austin full-time Summer 2027 Junior Data Scientist JD/application readable; quantitative background, R/Python/SQL, no numeric minimum, fraud/econometric analytics. No employment visa sponsorship; citizenship question not itself citizen-only restriction. Exact post-May start, OPT/STEM OPT, compensation and clear Ryan upgrade unresolved; no verified status change."
+      },
+      {
+        "classification": "existing-audit-only-unverified",
+        "id": "Vistra-40016989",
+        "source": "https://vst.wd5.myworkdayjobs.com/en-US/vistra_careers/job/Irving-Texas/Data-Scientist_40016989-2",
+        "result": "Exact official URL remains inaccessible. Live status, official experience/degree/duties/location, post-May 2027 start, OPT/STEM OPT and Ryan upgrade unverified. Preserve audit-only lead; no new eligible opening or state change."
+      }
+    ],
+    "coverage": "Incremental Simplify README comparison against exact previous blob baseline; Tar README unchanged; fresh web searches and three official URL checks (two readable JDs, one inaccessible). Not exhaustive 335-record revalidation. Both deployed Pages URLs inaccessible; main Dallas/Austin sources read. Raw Simplify listings and current upstream heads not inspected. No scraper created.",
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "baselineReadmeSha": "8162c42617661c8ab4ed7a4c63607369a1faa375",
+      "readmeSha": "8162c42617661c8ab4ed7a4c63607369a1faa375",
+      "addedUniqueMetroLinks": [],
+      "removedUniqueMetroLinks": [],
+      "result": "README unchanged since previous audit."
+    }
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "monitor-audit/2026-11-22T1819-Texas.json"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-22T23:30:22Z",
+    "evidence": {}
+  }
+}
