@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-23T07:55:33Z",
+  "checkedAt": "2026-11-23T07:56:53Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "138b3de6911a7c3f88775b882f9d6fba4da1b56a",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-23T0022-Texas.json",
+      "sha": "4d2075891469496fd4eee358f6c4abc6432f709f",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-23T06:23:25Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "77535b084fafdab6725f4bbe33a392fe9568d578",
+      "baselineReadmeSha": "a020a2be64b2c12dd6443ad3558e221e50233859",
+      "baselineCommit": "46f3c8eea160990966d31e299304a9d7104a50a2",
+      "headCommit": "dabe462989ad1baa2c5f99d80753dabea2521454",
+      "result": "README changed; 0 added and 0 removed unique external metro application links. Raw listings not inspected.",
+      "metroDelta": {
+        "added": [],
+        "removed": []
+      }
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "cd98faf6bbe65c8a1e02b0bf3d2614a638142d57",
+      "baselineReadmeSha": "cd98faf6bbe65c8a1e02b0bf3d2614a638142d57",
+      "result": "README blob unchanged; no README metro link delta."
+    },
+    "otherSources": [
+      "Fresh web searches, two previously seen official URL checks and one newly reviewed unverified Coppell lead."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-closed-watch",
+        "id": "Wise-744000160933600",
+        "source": "https://jobs.smartrecruiters.com/Wise/744000160933600-graduate-data-scientist",
+        "result": "Exact official ATS still explicitly states expired. Secondary campus copies do not establish reopening. Full current JD unavailable on expired ATS; no verified status change."
+      },
+      {
+        "classification": "existing-closed-watch",
+        "id": "Southwest-R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "Official original URL returns HTTP 410 Gone. No readable current JD; no reopening or other verified status change."
+      },
+      {
+        "classification": "audit-only-unverified",
+        "id": "AAA-JR202640459",
+        "source": "https://ace.wd5.myworkdayjobs.com/careers/job/Coppell-TX/Data-Scientist-1_JR202640459-1",
+        "result": "Newly reviewed this run, not asserted new across all historical audits. Secondary listing links to exact employer Workday Data Scientist 1 ID; direct official page returned zero readable lines and exact-ID primary-domain searches did not locate JD. Secondary Coppell hybrid business analytics claims cannot verify live application, experience, permanent full-time, 2027 post-May start, OPT, compensation or Ryan improvement. No notification or job-data mutation; secondary salary estimates not adopted."
+      }
+    ],
+    "coverage": "Incremental run, not exhaustive 335-record revalidation: main jobs and city source pages plus latest audit/commits read. Simplify README compared against exact preceding blob; metro application-link delta 0/0. Tar unchanged. Fresh searches and three official URL checks (Wise expired; Southwest 410; AAA zero readable lines). Both deployed Pages URLs inaccessible; workflows Contents API NOT_FOUND on readable main. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and content read-back."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-23T06:23:25Z",
+    "evidence": {}
+  }
+}
