@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-23T08:11:52Z",
+  "checkedAt": "2026-11-23T08:18:49Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "cfa95f130b660d1ed6ccf086aba1f1ba2bab3c36",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-23T0155-Texas.json",
+      "sha": "62eda746623954e4717593e15c575b528c669c94",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-23T07:57:05Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "8a354a4ed2460019d7c02ec5b78c8072a51110d9",
+      "baselineReadmeSha": "77535b084fafdab6725f4bbe33a392fe9568d578",
+      "baselineCommit": "dabe462989ad1baa2c5f99d80753dabea2521454",
+      "result": "README changed; 0 added and 0 removed unique external metro application links. Raw listings not inspected.",
+      "metroDelta": {
+        "added": [],
+        "removed": []
+      }
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "cd98faf6bbe65c8a1e02b0bf3d2614a638142d57",
+      "baselineReadmeSha": "cd98faf6bbe65c8a1e02b0bf3d2614a638142d57",
+      "result": "README blob unchanged; no README metro link delta."
+    },
+    "otherSources": [
+      "Fresh web searches and one existing official employer JD check; no new in-scope permanent graduate lead verified."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-audit-only",
+        "id": "Accenture-R00372691",
+        "source": "https://www.accenture.com/us-en/careers/jobdetails?id=R00372691_en",
+        "result": "Official full-time early-career AI Native Analyst JD and Apply link readable; Austin/Irving included. Related bachelor's by June 2027, foundational coding and AI projects/internships, no numeric minimum. Client full-stack delivery, AI coding tools, API/LLM/agent exposure. No visa sponsorship now/future; not explicit citizen-only. OPT/STEM OPT acceptance, exact post-May-2027 start, travel, Texas pay and clear Ryan improvement unresolved; final ATS not inspected. No verified status change."
+      }
+    ],
+    "coverage": "Incremental run, not exhaustive 335-record revalidation: main jobs/city sources and latest audit/commits read. Simplify changed README compared against exact preceding blob; metro application-link delta 0/0. Tar unchanged. Fresh searches and one existing official employer JD check. Both deployed Pages URLs inaccessible; .github/workflows NOT_FOUND on readable main. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and content read-back."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-23T07:57:05Z",
+    "evidence": {}
+  }
+}
