@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-23T09:49:18Z",
+  "checkedAt": "2026-11-23T09:50:01Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "96afced2e4ced2eb0c3fd8e298cb4a5a626b34a4",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-23T0211-Texas.json",
+      "sha": "becd00bc818306a401aecd53252609a6489ebfd2",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-23T08:19:02Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "0246e9aa4affa568990227dd8edb336be5cdc43e",
+      "baselineReadmeSha": "8a354a4ed2460019d7c02ec5b78c8072a51110d9",
+      "baselineCommit": "f4cb569b67c68dd9d645d0d2238f98280178790c",
+      "headCommit": "26891f347a500bf7bc5db9a7b79c249f5d9827fb",
+      "result": "README changed; 0 added and 0 removed unique external metro application links. Raw listings not inspected.",
+      "metroDelta": {
+        "added": [],
+        "removed": []
+      }
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "cd98faf6bbe65c8a1e02b0bf3d2614a638142d57",
+      "baselineReadmeSha": "cd98faf6bbe65c8a1e02b0bf3d2614a638142d57",
+      "result": "README blob unchanged; no README metro link delta."
+    },
+    "otherSources": [
+      "Fresh web searches and two existing official employer JD checks; no newly reviewed in-scope lead."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-audit-only",
+        "id": "Brillio-21202",
+        "source": "https://careers.brillio.com/job-details/?job-id=21202",
+        "result": "Official AI Engineer JD and Apply link readable: Coppell onsite, 0–2 including internships/projects; Java/Python/React/Node cloud full-stack, agent integration and production delivery, $75–90K. OPT/STEM OPT acceptance, post-May-2027 start and clear Ryan upgrade unresolved; final application not inspected. No verified status change."
+      },
+      {
+        "classification": "existing-opportunity-cost-rejected",
+        "id": "PMG-8587038002",
+        "source": "https://job-boards.greenhouse.io/pmg/jobs/8587038002",
+        "result": "Official Dallas full-time June Start graduate AI/software JD and application readable; Fall 2026–Spring 2027 BS/MS, internships/relevant experience without numeric minimum; Python/JS/Node/cloud and marketing-platform AI agents. No sponsorship; OPT acceptance and compensation/clear Ryan upgrade unresolved. No verified status change."
+      }
+    ],
+    "coverage": "Incremental run, not exhaustive 335-record revalidation: main jobs/city sources and latest audit/commits read. Simplify README compared against exact preceding blob; metro application-link delta 0/0. Tar unchanged. Fresh searches and two existing official employer JD checks. Both deployed Pages URLs inaccessible; workflows Contents API NOT_FOUND on readable main. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and content read-back."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-23T08:19:02Z",
+    "evidence": {}
+  }
+}
