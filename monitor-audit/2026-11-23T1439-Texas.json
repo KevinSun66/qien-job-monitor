@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-23T20:39:43Z",
+  "checkedAt": "2026-11-23T20:40:14Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "908fcf5b7347314b32ac109f776c30109bd4953d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-23T1345-Texas.json",
+      "sha": "50350a4e09fe122f5cb649a4cb475d888fd5bd6d",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-23T19:46:10Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "6fd33ec3d91117e339dfea146dd18f78f0ebbaa7",
+      "baselineReadmeSha": "6fd33ec3d91117e339dfea146dd18f78f0ebbaa7",
+      "result": "README blob unchanged; no README delta. Raw listings not inspected."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "19eafa15de58d758018ca06b4afd2ce7239ef6c5",
+      "baselineReadmeSha": "19eafa15de58d758018ca06b4afd2ce7239ef6c5",
+      "result": "README blob unchanged; no README delta."
+    },
+    "otherSources": [
+      "Fresh web searches and one existing official employer JD check; no newly reviewed in-scope lead."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-start-date-visa-compensation-opportunity-cost-verification",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin full-time Associate AI/ML Engineer JD/Apply link readable. Foundational Python/AI/data/Git/cloud experience from coursework, projects, research or internships; no numeric minimum. Guided production ML/GenAI/agents, testing/evaluation and client delivery. Exact post-May2027 start, OPT/STEM OPT acceptance, compensation, travel and clear Ryan upgrade unresolved; final application not inspected. No verified status change; existing row/application preserved."
+      }
+    ],
+    "coverage": "Incremental run, not exhaustive 335-record revalidation: main jobs/city sources and latest audit/commits read. Both upstream README blobs unchanged. Fresh searches and one existing official JD check. Both deployed Pages URLs inaccessible; workflows NOT_FOUND on readable main. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and content read-back."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-23T19:46:10Z",
+    "evidence": {}
+  }
+}
