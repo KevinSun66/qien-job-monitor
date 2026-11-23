@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-23T15:44:54Z",
+  "checkedAt": "2026-11-23T15:45:45Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "79eef658e62b9c47c59b380fb7274d85f700b227",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-23T0821-Texas.json",
+      "sha": "59e48f9a651891bb73bc28e6e0e320d3a2bcbd4e",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-23T14:22:32Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "de16aa33c498297292c1ab3af03951c113bebd11",
+      "baselineReadmeSha": "cb47d8d031e1e9ffdd650e6f04e175d8b119fc1e",
+      "baselineCommit": "79eac26fe8d435bfb22e8cc9e2472618a157254e",
+      "headCommit": "6fbec43427e24be76b6d90585a31234b7906eb6a",
+      "result": "README changed; complete multiline HTML rows compared: 31 metro external links each snapshot, 0 added/removed. Raw listings not inspected.",
+      "metroDelta": {
+        "added": [],
+        "removed": []
+      }
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "df5ef3964e972427e73ed972d0aec54791ea3c42",
+      "baselineReadmeSha": "cd98faf6bbe65c8a1e02b0bf3d2614a638142d57",
+      "baselineCommit": "50205649e81e87b606d478df1fcbfffa40a37559",
+      "headCommit": "09e9b2c077b8ebc7f9bed7d191125f7490865c2c",
+      "result": "README changed; complete markdown rows compared: 28 metro external links each snapshot, 0 added/removed.",
+      "metroDelta": {
+        "added": [],
+        "removed": []
+      }
+    },
+    "otherSources": [
+      "Fresh web searches and one existing official JD/application check; no newly reviewed in-scope lead."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-audit-only",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official Austin full-time Summer 2027 Junior Data Scientist JD/application readable. Quantitative background, R/Python/SQL with no numeric minimum; fraud investigations, econometric/data analysis. No employment visa sponsorship; citizenship form question alone not an explicit citizen-only restriction. Exact post-May start, OPT/STEM OPT acceptance, pay and clear Ryan improvement unresolved. No verified status change."
+      }
+    ],
+    "coverage": "Incremental run, not exhaustive 335-record revalidation: main jobs/city source pages and latest audit/commits read. Both changed upstream READMEs compared against exact previous blob baselines using complete table rows; 0/0 metro link deltas. Upstream latest commits inspected. Fresh web searches and one existing official JD/application check. Both deployed Pages URLs inaccessible; .github/workflows NOT_FOUND on readable main. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and content read-back."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-23T14:22:32Z",
+    "evidence": {}
+  }
+}
