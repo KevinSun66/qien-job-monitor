@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-23T04:46:52Z",
+  "checkedAt": "2026-11-23T04:47:46Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "f959eea60d3215223536c388306a5c384e39d068",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-22T2200-Texas.json",
+      "sha": "a9ac195d54818edceb6edd18e10ad69a21e39c47",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-23T04:02:05Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "e710dda4a5dbe853d9106921e4dacef9a9c3fd81",
+      "baselineReadmeSha": "e710dda4a5dbe853d9106921e4dacef9a9c3fd81",
+      "result": "README blob unchanged from previous audit; no README metro link delta. Raw listings not inspected."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "cd98faf6bbe65c8a1e02b0bf3d2614a638142d57",
+      "baselineReadmeSha": "cd98faf6bbe65c8a1e02b0bf3d2614a638142d57",
+      "result": "README blob unchanged from previous audit; no README metro link delta."
+    },
+    "otherSources": [
+      "Fresh general and primary-domain web searches; three previously seen official URLs rechecked and one newly reviewed primary-domain indexed JD checked."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "audit-only-ineligible-unverified-live-status",
+        "id": "SPGlobal-332351",
+        "source": "https://careers.spglobal.com/jobs/332351?lang=en-us",
+        "result": "Newly reviewed lead, not asserted newly posted or previously unreviewed across all audits. Official-domain search index: Dallas Applied AI associate, bachelor's, practical AI/data experience without numeric minimum; agents/prototypes/evaluation/adoption. Base $85–90K; indefinite US right to work required, incompatible with time-limited F-1 OPT. Post-May-2027 start and live application not verified; direct official fetch 403. No verified clear Ryan upgrade; no notification or job-data mutation."
+      },
+      {
+        "classification": "existing-citizenship-rejected",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Official Austin Junior ML Engineer JD and application readable: BS, 0–2 years, production ML/analytics/agent pipelines; hybrid onsite, travel up to 25%, base $100–130K plus equity/bonus. Explicit US citizenship and clearance eligibility required; incompatible with user status. No verified status change."
+      },
+      {
+        "classification": "existing-opportunity-cost-rejected",
+        "id": "PMG-8587038002",
+        "source": "https://job-boards.greenhouse.io/pmg/jobs/8587038002",
+        "result": "Official Dallas full-time June Start AI/software graduate JD/application readable. Fall 2026–Spring 2027 BS/MS; internships/relevant experience without numeric minimum. Python/JS/Node/cloud/AI-agent marketing platform work. No sponsorship; OPT eligibility and compensation/clear Ryan improvement unresolved. No verified status change."
+      },
+      {
+        "classification": "existing-closed-watch",
+        "id": "Wise-744000160933600",
+        "source": "https://jobs.smartrecruiters.com/Wise/744000160933600-graduate-data-scientist",
+        "result": "Exact official ATS still explicitly states job expired. Newly indexed secondary copies do not establish reopening. No verified status change."
+      }
+    ],
+    "coverage": "Incremental run: main jobs.json and both city page sources read; latest known audit confirmed by latest repository commits. Two upstream README blobs unchanged. Fresh searches, three existing official URL checks and one indexed official JD lead. Not exhaustive revalidation of 335 records or all historical audits. Both deployed Pages URLs attempted but inaccessible. Workflows Contents API NOT_FOUND on readable main; no workflow or scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify this audit commit and content read-back."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-23T04:02:05Z",
+    "evidence": {}
+  }
+}
