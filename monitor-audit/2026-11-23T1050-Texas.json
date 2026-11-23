@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-23T16:50:11Z",
+  "checkedAt": "2026-11-23T16:50:58Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "4c37546805d3ce5497d64be963f97c9537e4bb4d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-23T0944-Texas.json",
+      "sha": "5c5b4c98e8be5129a1454602f4e18b1bc438eb50",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-23T15:45:57Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "a7794ea194f302d2a59e2c7cceda4da256816f7e",
+      "baselineReadmeSha": "de16aa33c498297292c1ab3af03951c113bebd11",
+      "baselineCommit": "6fbec43427e24be76b6d90585a31234b7906eb6a",
+      "result": "Initial fetch disconnected; retry succeeded. Changed README complete HTML rows compared: 31 metro external links each, 0 added/removed. Raw listings not inspected.",
+      "metroDelta": {
+        "added": [],
+        "removed": []
+      }
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "19eafa15de58d758018ca06b4afd2ce7239ef6c5",
+      "baselineReadmeSha": "df5ef3964e972427e73ed972d0aec54791ea3c42",
+      "baselineCommit": "09e9b2c077b8ebc7f9bed7d191125f7490865c2c",
+      "result": "Changed README complete markdown rows compared: 28 to 29 metro external links, one added Integra 5487065008 link already reviewed in prior audits; not a new verified opening. No removals.",
+      "metroDelta": {
+        "added": [
+          [
+            "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+            "| **Integra FEC** | Junior Data Scientist | Austin, TX / Austin, Texas | **today** | [Apply](https://job-boards.greenhouse.io/integra/jobs/5487065008) |"
+          ]
+        ],
+        "removed": []
+      }
+    },
+    "otherSources": [
+      "Fresh web searches and two existing official JD checks, including the already-seen Integra upstream addition."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-audit-only-upstream-reappearance",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Upstream newly added link matches previously audited ID; not newly discovered or new posted date. Official Austin full-time Summer 2027 Junior DS JD/application readable; quantitative background, R/Python/SQL without numeric minimum, fraud/econometric investigations. No employment visa sponsorship; citizenship form question alone not citizen-only restriction. Exact post-May start, OPT/STEM OPT acceptance, pay and Ryan upgrade unresolved. No verified status change."
+      },
+      {
+        "classification": "existing-audit-only",
+        "id": "Brillio-21202",
+        "source": "https://careers.brillio.com/job-details/?job-id=21202",
+        "result": "Official Coppell onsite AI Engineer JD/Apply link readable: 0–2 including projects/internships; Java/Python/React/Node full-stack cloud and agents, production delivery; $75–90K. Exact post-May-2027 start, OPT/STEM OPT and clear Ryan improvement unverified. Final application not inspected; no verified status change."
+      }
+    ],
+    "coverage": "Incremental run, not exhaustive 335-record revalidation: main jobs/city sources and latest audit/commits read. Both changed upstream READMEs compared using complete rows against exact prior blobs; Simplify 0/0 delta, Tar one already-seen Integra addition. Fresh searches and two existing official JD checks. Both deployed Pages URLs inaccessible; workflows NOT_FOUND on readable main. Transient Simplify disconnection resolved by retry; no GitHub write failure. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and content read-back."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-23T15:45:57Z",
+    "evidence": {}
+  }
+}
