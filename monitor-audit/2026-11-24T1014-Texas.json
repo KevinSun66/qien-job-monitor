@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-24T16:14:53Z",
+  "checkedAt": "2026-11-24T16:15:53Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "35a773e1f1c50e48a464ed3f9a523331a3b527f0",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-24T0957-Texas.json",
+      "sha": "7ab767114e81b572d23e6155a9439730fc4bb9f1",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-24T15:58:20Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "116577e321b3c247f7a5a6b8a72f3f498bd84b4e",
+      "baselineReadmeSha": "c86f4914302a970b884a5fdc1841bf639643e2cf",
+      "baselineCommit": "c175762154263978ed744ef1416e05ff42ed8fa4",
+      "result": "Complete HTML metro rows compared:32 external links each;0 added/removed. Raw listings not inspected.",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      }
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "e0f8ba64595a4c21dfb5c47e1b392921ca4d3871",
+      "baselineReadmeSha": "e0f8ba64595a4c21dfb5c47e1b392921ca4d3871",
+      "result": "README blob unchanged;no README delta."
+    },
+    "otherSources": [
+      "Fresh searches with both engines;official URLs checked for Striveworks8002515003,webAI571ff25a,GeniusRoad16873737,Emerson26013909."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "search-lead-visa-exclusion-index-live-unverified-audit-only",
+        "id": "Emerson-26013909",
+        "source": "https://hdjq.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/26013909",
+        "result": "Official-domain search index describes Austin hybrid FT AppliedAI software in measurement-data analysis/anomaly detection/LLM workflows;MS/PhD,0–7+years through academic/intern/work/personal projects. Explicit F1includingOPT/CPT ineligible. Direct official page zero readable lines;index JobInfo additionally has Dresden location conflict. Live opening/location,post-May2027start,pay and Ryan upgrade not verified. Not in335records;no job addition or notification. Do not classify hardware solely by employer or test domain."
+      },
+      {
+        "classification": "existing-citizenship-rejection-preserved",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Official fullJD+application readable:BSrelated,0–2years,Austin hybrid/on-site,Python and multimodal ML/agentic pipelines,travel up to25%,$100–130Kbase+bonus/equity. Explicit UScitizenship+Secretclearance eligibility mandatory;F1OPT excluded despite EVerify participation. Existing rejection preserved;no new status change."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "webAI-571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "source": "https://jobs.ashbyhq.com/webai/571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "result": "Official URL inaccessible. Actual opening,fullJD/experience/location,post-May2027start,OPT/STEMOPT,pay and clear Ryan upgrade not verified. No job addition or notification."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "GeniusRoad-16873737-3444",
+        "source": "https://geniusroad.catsone.com/careers/41437/jobs/16873737-Junior-AIML-Engineer-3444",
+        "result": "Official ATS404. Secondary listing suggests Austin contract/local-resident requirement but not verified official. Current opening/fullJD,FTemploymenttype/experience,post-May2027start,OPT/STEMOPT,pay and clear Ryan upgrade unverified;no job addition or notification."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employerATS pagination. Full main jobs.json,city source pages,latest audit/commits read. Changed SimplifyREADME compared to exact prior blob:32metro links each,0added/removed;raw listings.json not inspected. TarREADME unchanged. Fresh searches with both engines,four official URLs checked;one full official JD readable. Other search leads not exhaustively reviewed. Deployed Pages inaccessible;source pages read. Workflows NOT_FOUND on readable main;Pagesdeployment not jobdiscovery. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-24T15:58:20Z",
+    "evidence": {}
+  }
+}
