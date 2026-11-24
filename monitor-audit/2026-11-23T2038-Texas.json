@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-24T02:38:22Z",
+  "checkedAt": "2026-11-24T02:39:05Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "3a5c5f1cee698d949cadee01bf8c6c6f1f210812",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-23T2006-Texas.json",
+      "sha": "1978f56de4be5606feb89c74cd7a9b4d129664ec",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-24T02:07:35Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "36bff6a26ba13edc5d3707c613a8e7dfba9e8a33",
+      "baselineReadmeSha": "36bff6a26ba13edc5d3707c613a8e7dfba9e8a33",
+      "result": "README blob unchanged;32 previously compared metro links. Raw listings not inspected."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "headCommit": "0abb9410439a63983b0167c30f7064179afabd6a",
+      "readmeSha": "fe81decdb2236fee0b6603754887e1a5be2e5724",
+      "baselineReadmeSha": "19eafa15de58d758018ca06b4afd2ce7239ef6c5",
+      "baselineCommit": "2e43c95ff907dbe3f7ff81a9840721c41c5392d3",
+      "result": "Changed README metro links compared:29 prior,27 current;0added,2removed SambaNova links. Aggregator removal does not establish official closure.",
+      "metroDelta": {
+        "added": [],
+        "removed": [
+          [
+            "https://go.vansh.nyc/1qm",
+            "| **SambaNova** | New Grad: Machine Learning Engineer | Austin, TX +2 | 13d | [Apply](https://go.vansh.nyc/1qm) |"
+          ],
+          [
+            "https://go.vansh.nyc/1qn",
+            "| **SambaNova** | New Grad: ML Infrastructure Engineer | Austin, TX +2 | 13d | [Apply](https://go.vansh.nyc/1qn) |"
+          ]
+        ]
+      }
+    },
+    "otherSources": [
+      "Fresh searches and official Self Financial full JD/application check;two existing SambaNova official career/ATS URLs checked after upstream removals."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-citizenship-rejected",
+        "id": "SelfFinancial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Official Austin Data Scientist JD/application readable;BS/MSquantitative or graduating soon,0–2professional years,Python predictive credit models/deployment/monitoring under senior mentorship,$85–110K plus options/bonus. Explicit UScitizen/permanentresident-only;F-1OPT ineligible. No verified status change."
+      },
+      {
+        "classification": "existing-upstream-removal-official-status-unverified",
+        "id": "SambaNova-6224938004",
+        "source": "https://sambanova.ai/company/careers/job-openings?gh_jid=6224938004",
+        "result": "Tar README no longer lists ML Infrastructure Engineer New Grad metro link. Existing official career URL and Greenhouse URL both show/redirect to generic Available Positions shell,without requisition-specific JD or explicit closure. Live opening/closure,experience,location,2027start and OPT cannot be verified from shell. Preserve existing record/status/application/archive;no closure inferred,no notification."
+      },
+      {
+        "classification": "existing-upstream-removal-official-status-unverified",
+        "id": "SambaNova-6240725004",
+        "source": "https://sambanova.ai/company/careers/job-openings?gh_jid=6240725004",
+        "result": "Tar README no longer lists Machine Learning Engineer New Grad metro link. Existing official career URL and Greenhouse URL both show/redirect to generic Available Positions shell,without requisition-specific JD or explicit closure. Live opening/closure,experience,location,2027start and OPT cannot be verified from shell. Preserve existing record/status/application/archive;no closure inferred,no notification."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation:main jobs/city sources and latest audit/commits read. Simplify README unchanged. Changed Tar README compared with exact prior blob:29to27metro links,0added2removed;SambaNova official pages rechecked but no closure inferred. Fresh searches and Self Financial full JD. Both deployed Pages URLs inaccessible;workflows NOT_FOUND on readable main. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-24T02:07:35Z",
+    "evidence": {}
+  }
+}
