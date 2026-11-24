@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-24T14:21:08Z",
+  "checkedAt": "2026-11-24T14:22:46Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "3be18889550d957c7f7d02d1bd60569583f9e485",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-24T0740-Texas.json",
+      "sha": "86fe61c8c78d323be1265ef97dcae35b43104263",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-24T13:42:10Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "eafa8b059567a2c350bf3a47ed09dc80c9a72cae",
+      "baselineReadmeSha": "2afa099dc0a0d3db2345acfd0a4fafe5c3c7d168",
+      "baselineCommit": "41f36586dd526fe7874807d559a530b59e58faa9",
+      "result": "Complete HTML metro rows compared:32 external links each;0 added/removed. Raw listings not inspected.",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      }
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "e0f8ba64595a4c21dfb5c47e1b392921ca4d3871",
+      "baselineReadmeSha": "dceffb9c3ab5eb6958b84857ba749de4df111ef6",
+      "baselineCommit": "4d2c170df5e86de079f720432fd87506da033e76",
+      "result": "Metro rows compared:27 external links each;0 added/removed.",
+      "metroDelta": {
+        "before": 27,
+        "after": 27,
+        "added": [],
+        "removed": []
+      }
+    },
+    "otherSources": [
+      "Fresh searches using both engines;official URLs checked for GlobalFoundries JR-2604458,Applied Materials R2627684,Wise and Southwest."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "search-lead-unverified-no-notification",
+        "id": "GlobalFoundries-JR-2604458",
+        "source": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Austin/Analyst--Data-Systems-and-Automation--2027-New-College-Graduate--_JR-2604458",
+        "result": "Official Workday reached via discovered Apply link but has zero readable lines. Secondary descriptions suggest Austin supply-chain AI agents/MCP/automation,not automatically hardware excluded merely by employer. Current official JD/opening,experience,start after May2027,OPT/STEMOPT and clear Ryan upgrade remain unverified. Not in current335 records;do not add or notify. Secondary experience/pay claims not treated as verified."
+      },
+      {
+        "classification": "existing-opportunity-cost-rejection-preserved",
+        "id": "AppliedMaterials-R2627684",
+        "source": "https://amat.wd1.myworkdayjobs.com/External/job/AustinTX/Data-Scientist-New-College-Grad--Bachelor-s-Master-s--Austin--TX-_R2627684",
+        "result": "Official Workday has zero readable lines;old branded careers URL404. Official-domain index reflects Austin logistics ETL/data platform role but does not prove live opening. Existing opportunity-cost rejection and status-verification preserved;OPT/post-May2027 and clear Ryan upgrade not verified."
+      },
+      {
+        "classification": "previously-seen-expired",
+        "id": "Wise-744000160933600",
+        "source": "https://jobs.smartrecruiters.com/Wise/744000160933600-graduate-data-scientist",
+        "result": "Official ATS explicitly says job expired. Secondary reposts do not establish reopening. No verified new status change."
+      },
+      {
+        "classification": "existing-closed-watch",
+        "id": "Southwest-R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "Official URL returns410Gone. Secondary search result is not proof of reopening. No verified new status change."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employer ATS pagination. Full main jobs.json,city source pages,latest audit/commits read;both changed upstream READMEs compared against exact prior verified blobs,0metro link additions/removals. Raw listings.json not inspected. Fresh searches and four official role checks. Deployed Pages URLs inaccessible;source pages read. Workflows NOT_FOUND on readable main. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-24T13:42:10Z",
+    "evidence": {}
+  }
+}
