@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-24T20:35:13Z",
+  "checkedAt": "2026-11-24T20:36:06Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "b1384407d0d308aff694ff318949eebb7f36495b",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-24T1317-Texas.json",
+      "sha": "fdce3ce2c38f90edb46364e7981f7320cadcd20f",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-24T19:18:28Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "0de2732938d911fe708dc8b36e68f744ef689d51",
+      "baselineReadmeSha": "079f89cdac8b8a9e676cd357506d627cf0812b12",
+      "baselineCommit": "dbe816066dcbc8f5bdcad11c207d02321b747d9d",
+      "result": "Changed README complete HTML metro rows compared:32 external links each;0 added/removed. Raw listings not inspected.",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      }
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "0cb1bd6433a2933b984b00cd3cb280593803a2ce",
+      "baselineReadmeSha": "0cb1bd6433a2933b984b00cd3cb280593803a2ce",
+      "baselineCommit": "10d14d782ac2019675e5c27dc8220ebc18080019",
+      "result": "README blob unchanged;no README delta."
+    },
+    "otherSources": [
+      "Fresh searches with both engines;official role URLs checked for Striveworks8002515003 and Wise744000160933600."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-citizenship-rejection-preserved",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Official full JD+application readable:BSrelated,0–2years,Austin hybrid/on-site,Python and multimodal ML/agentic pipelines,travel up to25%,$100–130Kbase+bonus/equity. Explicit UScitizenship+Secretclearance eligibility mandatory;F1OPT excluded despite EVerify participation. Start afterMay2027 not established;existing rejection preserved,no new status change."
+      },
+      {
+        "classification": "previously-seen-expired",
+        "id": "Wise-744000160933600",
+        "source": "https://jobs.smartrecruiters.com/Wise/744000160933600-graduate-data-scientist",
+        "result": "Official ATS explicitly says expired;no verified reopening or new status change. No notification."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employerATS pagination. Full main jobs.json,city source pages,latest audit/commits read. Changed SimplifyREADME compared to exact prior blob:32metro links each,0added/removed. TarREADME unchanged. Raw listings.json not inspected. Fresh searches with both engines,two previously seen official role checks. Other search results not exhaustively reviewed. Both deployed Pages URLs inaccessible;source pages read. Workflows NOT_FOUND on readable main;Pages deployment not jobdiscovery. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-24T19:18:28Z",
+    "evidence": {}
+  }
+}
