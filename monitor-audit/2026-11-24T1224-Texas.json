@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-24T18:24:04Z",
+  "checkedAt": "2026-11-24T18:25:14Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "dc5f9adb4940e439bd899a920cdb9a3e106ba225",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-24T1115-Texas.json",
+      "sha": "65882415f1b1178e45a29f39c7ed80fcf244826b",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-24T17:16:17Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "3ee0e2cf3452cbd247577e879f6c8c6d54154f34",
+      "baselineReadmeSha": "3ee0e2cf3452cbd247577e879f6c8c6d54154f34",
+      "baselineCommit": "dbee161d3937289b0f5c9098cab0da55e5a6e32f",
+      "result": "README blob unchanged;no README delta. Raw listings not inspected."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "0cb1bd6433a2933b984b00cd3cb280593803a2ce",
+      "baselineReadmeSha": "0cb1bd6433a2933b984b00cd3cb280593803a2ce",
+      "baselineCommit": "10d14d782ac2019675e5c27dc8220ebc18080019",
+      "result": "README blob unchanged;no README delta."
+    },
+    "otherSources": [
+      "Fresh searches with both engines;official URLs checked for GlobalFoundriesJR2605627,JR2604163,JR2606083,SouthwestR202672885,and webAI571ff25a."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "search-lead-direction-mismatch-official-unverified-audit-only",
+        "id": "GlobalFoundries-JR-2605627",
+        "source": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/Richardson/Corporate-Application-Engineer--Physical-AI--2027-New-College-Graduate-_JR-2605627",
+        "result": "Official ATS reached via discovered Apply link but zero readable lines. Secondary descriptions indicate Richardson/Austin customer application engineering for RISC-V/MIPS processors,AIaccelerators,embeddedSDKs,hardware/systemdebugging and benchmarking;direction appears outside requested softwareAppliedAI/DS scope. Official current JD/opening,employment,experience,start afterMay2027,OPT/STEMOPT,pay and Ryan upgrade not verified. Secondary descriptions not treated as verified JD;no job addition or notification."
+      },
+      {
+        "classification": "existing-direction-rejection-preserved",
+        "id": "GlobalFoundries-JR-2604163",
+        "source": "https://globalfoundries.wd1.myworkdayjobs.com/External/job/USA---Texas---Richardson/AI-ML-Systems-Engineer--2027-New-College-Graduate-_JR-2604163",
+        "result": "Official directpage zero readable lines. Official-domain index describes Richardson NCG computerarchitecture/workloadperformance/roofline/memoryhardware modeling;existing direction-rejected status preserved. No verified opening/status change;OPT/postMay2027 unverified."
+      },
+      {
+        "classification": "previously-seen-direction-excluded-official-live-unverified",
+        "id": "GlobalFoundries-JR-2606083",
+        "source": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/External/job/AI-Enabled-Device-Modeling_JR-2606083",
+        "result": "Official directpage zero readable lines;official-domain index describes semiconductor devicephysics/silicon/TCADcompactmodeling,not requestedsoftwareAppliedAIcore. Prior direction exclusion retained;live opening/fullJD/experience/start/OPT unverified;no job addition or notification."
+      },
+      {
+        "classification": "existing-closed-watch",
+        "id": "Southwest-R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "Official URL410Gone;no verified reopening/status change."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "webAI-571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "source": "https://jobs.ashbyhq.com/webai/571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "result": "Official URL inaccessible. Current opening,fullJD/experience/location,postMay2027start,OPT/STEMOPT,pay and clear Ryan upgrade unverified;no addition/notification."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employerATS pagination. Full main jobs.json,city source pages,latest audit/commits read. Both upstream README blobs unchanged from latest audit and exact commit baselines. Raw listings.json not inspected. Fresh searches with both engines,five official role URLs attempted;Workday JD bodies unreadable. Secondary descriptions used only for internal triage,not verified facts. Both deployedPages inaccessible;source pages read. Workflows NOT_FOUND on readable main;Pagesdeployment not jobdiscovery. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-24T17:16:17Z",
+    "evidence": {}
+  }
+}
