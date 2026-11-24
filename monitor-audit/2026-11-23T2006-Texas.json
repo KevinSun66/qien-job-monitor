@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-24T02:06:30Z",
+  "checkedAt": "2026-11-24T02:07:05Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "93e9e026570295c1232a9498e38634ebf53ece2d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-23T1838-Texas.json",
+      "sha": "54021eed5a49f8202fd233b7116d6ada1f701a9d",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-24T00:39:39Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "36bff6a26ba13edc5d3707c613a8e7dfba9e8a33",
+      "baselineReadmeSha": "e31dd578e0b27dd655035b14c03e8e6692cb4825",
+      "baselineCommit": "667ccc067bf8df241ba45072002b5100876647f2",
+      "result": "Changed README complete HTML rows compared:32 metro external links each,0 added/removed. Raw listings not inspected.",
+      "metroDelta": {
+        "added": [],
+        "removed": []
+      }
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "19eafa15de58d758018ca06b4afd2ce7239ef6c5",
+      "baselineReadmeSha": "19eafa15de58d758018ca06b4afd2ce7239ef6c5",
+      "result": "README blob unchanged; no README delta."
+    },
+    "otherSources": [
+      "Fresh searches with both engines; previously seen webAI official URL and Wise official career/ATS URLs rechecked."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "previously-seen-unverified-no-notification",
+        "id": "webAI-571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "source": "https://jobs.ashbyhq.com/webai/571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "result": "Official URL still inaccessible. No verified JD/opening,2027 post-May start,OPT/STEMOPT,pay or clear Ryan upgrade. Prior secondary copy remains unverified;no data addition or notification."
+      },
+      {
+        "classification": "previously-seen-closed-no-reopening",
+        "id": "Wise-744000160933600",
+        "source": "https://jobs.smartrecruiters.com/Wise/744000160933600-graduate-data-scientist",
+        "result": "Official ATS explicitly says job expired. Wise career URL4490 also opened. Fresh secondary copies conflicting on BS versus postgraduate qualification and advertising Sept6,2027/$114K do not establish reopening or current eligibility. No verified status change;no notification."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation:main jobs/city sources and latest audit/commits read. Simplify changed README complete HTML rows compared against exact prior blob:32metro links each,0/0delta. Tar unchanged. Fresh searches and two previously seen employer URL checks. Secondary copies not treated as current official openings. Both deployed Pages URLs inaccessible;workflows NOT_FOUND on readable main. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-24T00:39:39Z",
+    "evidence": {}
+  }
+}
