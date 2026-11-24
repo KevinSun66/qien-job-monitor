@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-24T06:58:28Z",
+  "checkedAt": "2026-11-24T07:04:41Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "0b436b44b62d2138e17ce24024975877d97c0dde",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-23T2343-Texas.json",
+      "sha": "8528f3b7f97d1d8afbecbddc994e374b52cbe9e8",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-24T05:44:51Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "4b47e0e19ca48fb78807f6b0a503bee2d00b5e9a",
+      "baselineReadmeSha": "ed06251956188e053cf43384b965ce8f1bbded29",
+      "baselineCommit": "9a6ced3437ffb975cf1215b9ff56f9930c7590df",
+      "result": "Changed README complete HTML rows compared:32 metro external links each,0 added/removed. Raw listings not inspected.",
+      "metroDelta": {
+        "added": [],
+        "removed": []
+      }
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "dceffb9c3ab5eb6958b84857ba749de4df111ef6",
+      "baselineReadmeSha": "dceffb9c3ab5eb6958b84857ba749de4df111ef6",
+      "result": "README blob unchanged;no README delta."
+    },
+    "otherSources": [
+      "Fresh Dallas/Austin searches;existing Self Financial official full JD/application checked."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-citizenship-rejected",
+        "id": "SelfFinancial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Official Austin Data Scientist JD/application readable;BS/MSquantitative or graduating soon,0–2professional years,Python predictive credit models/deployment/monitoring under senior mentorship,$85–110K plus options/bonus. Explicit UScitizen/permanentresident-only;F-1OPT ineligible. No verified status change."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation:main jobs/city sources and latest audit/commits read. Changed Simplify README compared with exact prior blob:32metro links each,0added/removed;raw listings not inspected. Tar README unchanged. Fresh searches and one existing official full JD/application check. Both deployed Pages URLs inaccessible;workflows NOT_FOUND on readable main. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-24T05:44:51Z",
+    "evidence": {}
+  }
+}
