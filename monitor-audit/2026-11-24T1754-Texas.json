@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-24T23:54:16Z",
+  "checkedAt": "2026-11-24T23:55:22Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "6c8fb18acd9b484c68fbcfa8eb3d5dd0cc3dc26d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-24T1625-Texas.json",
+      "sha": "cdb52f2e1c4909da271ac48496554678c102bbbf",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-24T22:26:05Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "0063501115cba746dc9da66785420d1a321ec602",
+      "baselineReadmeSha": "e36c4447818e204b4b8f3ca4c92aec49e10dae9e",
+      "baselineCommit": "809251350f6e0168e7c676b7e0fd939330a98162",
+      "currentCommit": "a7cda2636eb47b57a8ab58041a66ee3b36d39c6f",
+      "result": "Changed README complete HTML metro rows compared:32 external links each;0 added/removed. Raw listings not inspected.",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      }
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "b1e254f6b246c7b29958f736e8e367737fbe8397",
+      "baselineReadmeSha": "0cb1bd6433a2933b984b00cd3cb280593803a2ce",
+      "baselineCommit": "10d14d782ac2019675e5c27dc8220ebc18080019",
+      "result": "Changed README metro rows compared:27 external links each;0 added/removed.",
+      "metroDelta": {
+        "before": 27,
+        "after": 27,
+        "added": [],
+        "removed": []
+      }
+    },
+    "otherSources": [
+      "Fresh searches with both engines;official URLs checked for CleanSlate4615513,webAI571ff25a,and Wise744000160933600."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-verification-pending",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official JD+Apply readable:FTAustin AssociateAI/MLEngineer;foundational AI/Python/data/Git/cloud skills accepted through coursework,projects,research,internships,no numeric minimum. Guided client productionML/GenAI/agent workflow development,test/evaluation and code reviews. Specific2027postMaystart,OPT/STEMOPT,pay,travel and clear Ryan upgrade unverified. Existing verificationstatus preserved;no jobdatachange/notification."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "webAI-571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "source": "https://jobs.ashbyhq.com/webai/571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "result": "Official URL inaccessible. Actual opening,fullJD/experience/location,postMay2027start,OPT/STEMOPT,pay and clearRyanupgrade unverified;no addition/notification."
+      },
+      {
+        "classification": "previously-seen-expired",
+        "id": "Wise-744000160933600",
+        "source": "https://jobs.smartrecruiters.com/Wise/744000160933600-graduate-data-scientist",
+        "result": "Official ATS explicitly expired;secondaryreposts not proof of reopening. No verified newstatuschange."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employerATS pagination. Full main jobs.json,city sourcepages,latest audit/commits read. Both changed upstreamREADMEs compared against exactpriorverifiedblobs:32Simplify and27Tar metroexternallinks,0added/removed. Rawlistings.json notinspected. Freshsearches with both engines and three previouslyseen officialrolechecks,one fullJD readable. Othersearchresults notexhaustivelyreviewed. Both deployedPages inaccessible;sourcepages read. WorkflowsNOT_FOUND on readablemain;Pagesdeployment notjobdiscovery. No scrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-24T22:26:05Z",
+    "evidence": {}
+  }
+}
