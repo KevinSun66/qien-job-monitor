@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-24T15:57:02Z",
+  "checkedAt": "2026-11-24T15:58:08Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "441600c7ea83d18490071383260044e67b086faa",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-24T0821-Texas.json",
+      "sha": "ae53e8eca0d4904d8b1f3a0a090d4308a6297b26",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-24T14:22:57Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "c86f4914302a970b884a5fdc1841bf639643e2cf",
+      "baselineReadmeSha": "eafa8b059567a2c350bf3a47ed09dc80c9a72cae",
+      "baselineCommit": "2579d27e88b82e92d064f31d5faad49aa00a101d",
+      "currentCommit": "c175762154263978ed744ef1416e05ff42ed8fa4",
+      "result": "Complete HTML metro rows compared:32 external links each;0 added/removed. Raw listings not inspected.",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      }
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "e0f8ba64595a4c21dfb5c47e1b392921ca4d3871",
+      "baselineReadmeSha": "e0f8ba64595a4c21dfb5c47e1b392921ca4d3871",
+      "result": "README blob unchanged;no README delta."
+    },
+    "otherSources": [
+      "Fresh searches;official full JDs and application controls read for Integra FEC5487065008,SelfFinancial6252143004,Cognizant47777."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "search-lead-excluded-audit-only",
+        "id": "Cognizant-47777",
+        "source": "https://careers.cognizant.com/apj-en/jobs/47777/ai-engineer-ioa/",
+        "result": "Official JD and Apply link available. Dallas/client offices,BS/MSrelated,no numeric minimum experience;Python,agentic AI/RAG,cloudML/data pipelines. Start October/November2026 or January/February2027 fails after-May2027 requirement. Explicitly cannot support CPT/OPT participation. $65K below Ryan baseline. Not in current335 records;do not add or notify. Apply submission not attempted;no claim employer acceptance."
+      },
+      {
+        "classification": "previously-seen-verification-pending",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official fullJD+application readable:FT Austin Summer2027,quantitative background,R/Python/SQL,no numeric minimum;fraud data investigations/econometrics. No visa sponsorship;OPT/STEMOPT acceptance not established. Citizenship question alone does not establish citizen-only restriction. Salary and clear Ryan upgrade unverified. No data change or notification."
+      },
+      {
+        "classification": "existing-citizenship-rejection-preserved",
+        "id": "SelfFinancial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Official fullJD+application readable:FT Austin hybrid/remote,BS/MSquant or graduating soon,0–2years,production credit predictive modeling/deployment/monitoring with senior mentorship;$85–110K plus bonus/options. Explicit UScitizen or permanentresident only excludes F1OPT. Existing rejection preserved;no verified new status change."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employer ATS pagination. Full main jobs.json,city source pages,latest audit/commits read. Changed Simplify README compared to exact prior blob:32metro links each,0added/removed;raw listings.json not inspected. Tar README unchanged. Fresh searches and three official JD checks. Other search-result leads not fully reviewed. Deployed Pages URLs inaccessible;source pages read. Workflows NOT_FOUND on readable main;Pages deployment not job discovery. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-24T14:22:57Z",
+    "evidence": {}
+  }
+}
