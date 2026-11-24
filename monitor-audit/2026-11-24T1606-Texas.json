@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-24T22:06:50Z",
+  "checkedAt": "2026-11-24T22:07:43Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "91afc34625331ab0ea6dbbd5dc9a7d3da35d259c",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-24T1435-Texas.json",
+      "sha": "ff61678c316e3d6f616236a04b83dd9fa5c0d3e8",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-24T20:36:18Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "e36c4447818e204b4b8f3ca4c92aec49e10dae9e",
+      "baselineReadmeSha": "0de2732938d911fe708dc8b36e68f744ef689d51",
+      "baselineCommit": "a74b01355679c455134d2ab717e58dc2269e68cc",
+      "result": "Changed README complete HTML metro rows compared:32 external links each;0 added/removed. Raw listings not inspected.",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      }
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "0cb1bd6433a2933b984b00cd3cb280593803a2ce",
+      "baselineReadmeSha": "0cb1bd6433a2933b984b00cd3cb280593803a2ce",
+      "baselineCommit": "10d14d782ac2019675e5c27dc8220ebc18080019",
+      "result": "README blob unchanged;no README delta."
+    },
+    "otherSources": [
+      "Fresh searches;official JDs/application controls checked for PMG8587038002 and Further8906198002."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-opportunity-cost-rejection-preserved",
+        "id": "PMG-8587038002",
+        "source": "https://job-boards.greenhouse.io/pmg/jobs/8587038002",
+        "result": "Official JD+application readable:FTDallas AI/SoftwareEngineering graduate program,BS/MSrelated Fall2026–Spring2027,intern/relevant experience,no numeric minimum. June7,2027 start confirmed in application,5days onsite;Alli software/scalable systems/AIagents with training and mentorship. No sponsorship;OPT/STEMOPT acceptance unverified. Salary undisclosed;application salary expectations not employer pay. No verified clear Ryan upgrade;existing decision preserved."
+      },
+      {
+        "classification": "previously-seen-no-clear-upgrade",
+        "id": "Further-8906198002",
+        "source": "https://job-boards.greenhouse.io/furtherearlycareer/jobs/8906198002",
+        "result": "Official JD+application readable:FTDallas hybrid3days,BSsoftware-related Fall2026–Spring2027,beginnercoursework,no numeric minimum,June–July2027 start. Client application development/AI codingtools;direct AppliedAI/MLcore not guaranteed. $68–70Kbase below Ryan;no sponsorship,OPT/STEMOPT acceptance unverified. No job addition/notification."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employerATS pagination. Full main jobs.json,city source pages,latest audit/commits read. ChangedSimplifyREADME comparedto exactpriorblob:32metro links each,0added/removed. TarREADME unchanged. Raw listings.json not inspected. Fresh searches and two previouslyseen officialJD/application checks. Other searchresults not exhaustivelyreviewed. Both deployedPages inaccessible;sourcepages read. Workflows NOT_FOUND on readablemain;Pagesdeployment notjobdiscovery. No scrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-24T20:36:18Z",
+    "evidence": {}
+  }
+}
