@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-24T13:40:57Z",
+  "checkedAt": "2026-11-24T13:41:36Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d8b68cc4c9eb6e80e3a8a449e48f5e82ae09883a",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-24T0610-Texas.json",
+      "sha": "ecd46f866ff46493dc58f6e08a9c3f25939a82b8",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-24T12:11:20Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "2afa099dc0a0d3db2345acfd0a4fafe5c3c7d168",
+      "baselineReadmeSha": "c1135b9fa2d608d1935d9857b1b514dbbaaba6aa",
+      "baselineCommit": "fb97f52e9603faadf94577c329e5cf431c3fb559",
+      "result": "Changed README complete HTML rows compared:32 metro external links each,0 added/removed. Raw listings not inspected.",
+      "metroDelta": {
+        "added": [],
+        "removed": []
+      }
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "dceffb9c3ab5eb6958b84857ba749de4df111ef6",
+      "baselineReadmeSha": "dceffb9c3ab5eb6958b84857ba749de4df111ef6",
+      "result": "README blob unchanged;no README delta."
+    },
+    "otherSources": [
+      "Fresh searches with both engines;Genius Road employer URL checked;previously seen webAI and Southwest official URLs rechecked."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "search-lead-unverified-no-notification",
+        "id": "GeniusRoad-16873737-3444",
+        "source": "https://geniusroad.catsone.com/careers/41437/jobs/16873737-Junior-AIML-Engineer-3444",
+        "result": "Official-domain search index suggests Austin JuniorAI/MLEngineer supporting technical assignments with senior guidance,but direct employerATS URL returns404. Current opening,official fullJD/experience/employment type,2027 post-May start,OPT/STEMOPT,pay and clear Ryan upgrade unverified. Not in current335records;record audit-only,no notification or jobs.json addition."
+      },
+      {
+        "classification": "previously-seen-unverified-no-notification",
+        "id": "webAI-571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "source": "https://jobs.ashbyhq.com/webai/571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "result": "Official URL still inaccessible. Actual opening,JD/experience/location,2027post-May start,OPT/STEMOPT,pay and clear Ryan upgrade unverified;no data addition or notification."
+      },
+      {
+        "classification": "existing-closed-watch",
+        "id": "Southwest-R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "Official original URL still returns410Gone. No verified reopening/status change."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation:main jobs/city sources and latest audit/commits read. Changed Simplify README compared with exact prior blob:32metro links each,0added/removed;raw listings not inspected. Tar README unchanged. Fresh searches,one search lead employerATS404 and two previously seen official URL checks. Both deployed Pages URLs inaccessible;workflows NOT_FOUND on readable main. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-24T12:11:20Z",
+    "evidence": {}
+  }
+}
