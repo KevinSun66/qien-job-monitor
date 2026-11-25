@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-25T12:21:12Z",
+  "checkedAt": "2026-11-25T12:22:07Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "4e7c99b8ce1f06de67e870ed435f0dd4aa709e87",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-25T0541-Texas.json",
+      "sha": "26782854ea9313c5a58398efdd3fe983d8ddda65",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-25T11:42:25Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "983f6fb64a33eb51487fdef32b373fbac9b8804d",
+      "baselineReadmeSha": "983f6fb64a33eb51487fdef32b373fbac9b8804d",
+      "result": "README blob unchanged. Latest raw commit fetched twice but files and diff null. Raw changes not inspectable; do not infer no raw changes.",
+      "rawCommitAttempt": "ea2f9bf60338b2c88ced31a116605e2756bdc0b7"
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "ee44e45b4e3b89d915967b0397b6ae622251ac0e",
+      "baselineReadmeSha": "ee44e45b4e3b89d915967b0397b6ae622251ac0e",
+      "result": "README blob unchanged from latest audit."
+    },
+    "otherSources": [
+      "Fresh search for previous ServiceLink lead and Texas 2027 roles. ServiceLink corporate careers and Further official JD/form read. Both deployed city URLs attempted."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "previously-seen-unverified",
+        "id": "ServiceLink-3776",
+        "source": "https://careers-svclnk.icims.com/jobs/3776/job",
+        "result": "Prior secondary lead now identifies iCIMS3776. Official corporate careers confirms iCIMS domain, but role URL inaccessible. Secondary copies conflict on dates, compensation and experience; one requires two or more years industry/similar academic experience. Official live status, full JD, exact experience, post-May2027 start and OPT/STEM unverified. Distinct from existing AI Engineer3625; no addition, status mutation or notification."
+      },
+      {
+        "classification": "previously-seen-no-clear-upgrade",
+        "id": "Further-8906198002",
+        "source": "https://job-boards.greenhouse.io/furtherearlycareer/jobs/8906198002",
+        "result": "Official JD/form live: Dallas full-time graduate, June-July2027 start, hybrid3+days, Fall2026-Spring2027 related software BS, beginner coursework accepted, no numeric minimum. General client software development with AI coding tools; applied AI/ML core not guaranteed. Base$68–70K below Ryan. No sponsorship; OPT/STEM unconfirmed. No clear Ryan upgrade; no addition or notification."
+      }
+    ],
+    "coverage": "Incremental run, not exhaustive335-record revalidation or all employer ATS pagination. Full main jobs.json, both city source pages, latest audit/commits read. Both upstream README blobs unchanged. Latest Simplify raw commit fetched twice with null files/diff; raw delta not inspected. Fresh search results not exhaustively reviewed. Two previously-seen leads rechecked; ServiceLink role inaccessible. Both deployed city pages inaccessible; source pages read from main. Workflow directory NOT_FOUND on readable main; Pages deployment not job discovery. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-25T11:42:25Z",
+    "evidence": {}
+  }
+}
