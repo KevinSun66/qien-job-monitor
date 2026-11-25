@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-25T16:51:57Z",
+  "checkedAt": "2026-11-25T16:52:49Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "6d439f171936b08a4347a556f04fa191da6df444",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-25T0935-Texas.json",
+      "sha": "83495a198915c5fc1bdb3b9793afbc8e99540293",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-25T15:36:56Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "e0db8af4b209f2a8ed99222e2926ddd170e01d8f",
+      "baselineReadmeSha": "76c92af438ee9eb6ff3ec6702090e2d5765b2f51",
+      "baselineCommit": "c7e5aa096eb2fed81b67ff690be7114dc8c29f65",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawCommitAttempt": "d0c9a51e7c2017e2017d9defbb932fce0e9574c1",
+      "result": "README changed;32 metro links unchanged. Latest raw patch inspected:Renesas hardwareDuluthGA,NationalBankCanada seniorSWECanada,LilaSciencesPhD Cambridge/SF additions outside scope. TikTokMultimediaGraduate activefalse->true is upstream flag only,not independently verified opening/location."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "cced8a802276b1ed62ce37de9add71051b817c8c",
+      "baselineReadmeSha": "ee44e45b4e3b89d915967b0397b6ae622251ac0e",
+      "baselineCommit": "3850e4d8e04e980b2d3972a189fe47e65d54fc41",
+      "metroDelta": {
+        "before": 27,
+        "after": 27,
+        "added": [],
+        "removed": []
+      },
+      "result": "README changed;27 metro links unchanged against verified baseline blob."
+    },
+    "otherSources": [
+      "Fresh Texas2027graduate searches;SelfFinancial and Southwest official URLs rechecked;both deployedcityURLs attempted."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-citizenship-rejected",
+        "id": "SelfFinancial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Official Austin hybrid/remote JD/form live;0–2years,Pythonpredictivecreditmodels and productionmonitoring,relatedquantdegreeorgraduatingsoon,$85–110Kbonus/options. ExplicitUScitizenorpermanentresidentonly requirement persists;F1ineligible. Preserve rejection."
+      },
+      {
+        "classification": "existing-closed-watch",
+        "id": "Southwest-R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "Official roleURL410Gone;no verified reopening or newstatus change."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employerATS pagination. Full main jobs.json,both sourcepages,latest audit/commits read. Both upstream README changed but targetmetrodelta0 against verifiedbaselineblobs. Latest Simplifyrawpatch inspected,not allinterveningcommits. Freshsearchresults notexhaustively reviewed. Two existingofficialroleURLs rechecked. BothdeployedcityURLs inaccessible;main sourcepages read. Workflowdirectory NOT_FOUND onreadablemain;Pagesdeployment notjobdiscovery. No scrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-25T15:36:56Z",
+    "evidence": {}
+  }
+}
