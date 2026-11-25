@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-25T18:24:32Z",
+  "checkedAt": "2026-11-25T18:25:22Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d52d7d7ece70ee1dd6697186ac9b3c4a0eb4783b",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-25T1200-Texas.json",
+      "sha": "73d48d90718c9b1644d985f269695f17904bf8d8",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-25T18:01:07Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "8607b52c0f650619a459e5c134f74c8a54f29a07",
+      "baselineReadmeSha": "ac06fe38f11c4517ff242df93e0217636caae0ab",
+      "baselineCommit": "4c8e19edb9152f1d126e926ed86c458706c05520",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawCommitAttempt": "8fe621c6dea34be4f67c91e92663d7aabb73ef38",
+      "result": "README changed;32 metro links unchanged. Latest raw patch inspected:MD Analytics MarketResearchAssociate activefalse only;upstream flag alone not treated as verified officialclosure."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "cced8a802276b1ed62ce37de9add71051b817c8c",
+      "baselineReadmeSha": "cced8a802276b1ed62ce37de9add71051b817c8c",
+      "result": "README blob unchanged from latest audit."
+    },
+    "otherSources": [
+      "Fresh Texas2027AI/DS searches;PMG and Striveworks officialJD/form rechecks;both deployedcityURLs attempted."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-no-clear-upgrade",
+        "id": "PMG-8587038002",
+        "source": "https://job-boards.greenhouse.io/pmg/jobs/8587038002",
+        "result": "Official JD/form live:Dallas full-time graduateAI/SWE,June7,2027start,5daysonsite,Fall2026-Spring2027relatedBS/MS,internship/relevantexperience,no numericminimum. Alli software/AIagentwork. No sponsorship;OPT/STEMunconfirmed,payundisclosed,clearRyanupgrade notestablished. Preserve priorstatus;salaryexpectation choices not employerpayrange."
+      },
+      {
+        "classification": "existing-citizenship-rejected",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Official JD/form live:Austinhybrid/onsite full-timejuniorBS0–2years,PythonmultimodalML/agenticpipelines,25%travel,$100–130Kbasebonus/equity. MandatoryUScitizenship andSecretclearanceeligibility persist;F1ineligible. EVerify doesnot overridecitizenship. Preserve rejection."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employerATS pagination. Fullmain jobs.json,bothsourcepages,latest audit/commits read. Simplify README metrodelta0 against verifiedbaseline;TarREADME unchanged. Latest rawpatch inspected. Freshsearchresults notexhaustivelyreviewed. Twoexisting officialroles rechecked. BothdeployedcityURLs inaccessible;main sourcepages read. Workflowdirectory NOT_FOUND onreadablemain;Pagesdeployment notjobdiscovery. No scrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-25T18:01:07Z",
+    "evidence": {}
+  }
+}
