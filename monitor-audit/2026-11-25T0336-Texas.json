@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-25T09:36:52Z",
+  "checkedAt": "2026-11-25T09:40:16Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "5e0cfa52d2ec42abc80b966ec3f2b5262bff9fc4",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-24T2139-Texas.json",
+      "sha": "f80864c9f90e8085e04c2b506c536e8ae152b2aa",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-25T03:40:16Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "891a639920789af0929cfb9339ae0106fbfb9f76",
+      "baselineReadmeSha": "790335ef02b3a8fa54fdc707c1671ef56cb37815",
+      "baselineCommit": "b3481334d73c4b377a6336a88ddac81579b3bd07",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawCommitAttempt": "77b80635c72955c874724624bdd0cce8858de9bb",
+      "result": "README changed;32 metro links unchanged. Latest raw patch inspected: inactive Fortinet Sunnyvale and TurningPoint Florida removed; Microsoft Securing AI activefalse; Rivian hardware Tustin added. No verified target upgrade. Upstream flags alone do not establish official status."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "ee44e45b4e3b89d915967b0397b6ae622251ac0e",
+      "baselineReadmeSha": "8d2950a3c542be93f4485de85e2a65db0b354989",
+      "baselineCommit": "3927000354745f44d65e19d2d7b1d60a54001048",
+      "metroDelta": {
+        "before": 27,
+        "after": 27,
+        "added": [],
+        "removed": []
+      },
+      "result": "Baseline blob matches latest audit. README changed;27 metro links unchanged. Initial invalid cross-repository baseline ref returned404; corrected known upstream ref succeeded."
+    },
+    "otherSources": [
+      "Both search engines;official Confer,Integra,and both Wise URLs read. Both deployed city URLs inaccessible;main source pages read."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Confer-Junior-AI-Engineer",
+        "source": "https://confersolutions.ai/careers/ai-engineer",
+        "result": "Official JD and form live: full-time McKinney hybrid,junior,no numericminimum,production full-stack agent systems. OPT/STEM expiry question indicates consideration,not confirmed STEM OPT support. PostMay2027 start,pay,mentorship/platform,clear Ryan upgrade unverified. No addition/notification."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official JD/form live:full-time Austin Summer2027,no numericminimum,R/Python/SQL fraud investigations/econometrics. No visa sponsorship;OPT/STEM unconfirmed. Citizenship question alone not citizenonlyrestriction. Pay/clear Ryanupgrade unverified. No addition/notification."
+      },
+      {
+        "classification": "existing-closed-watch",
+        "id": "Wise-744000160933600-jid4490",
+        "source": "https://jobs.smartrecruiters.com/Wise/744000160933600-graduate-data-scientist",
+        "result": "Both official Wise jid4490 and SmartRecruiters explicitly expired. Recent secondary reposts not verified reopening. No statuschange."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employer ATS pagination. Fullmain jobs.json,both sourcepages,latestaudit read. Compared current upstream README metro links against verifiedbaseline blobs:0added/removed. Inspected latest Simplify rawcommit only,not every intervening rawcommit. Freshsearches and3 previouslyseen officialrole rechecks;searchresults not fullyreviewed. Live deployedcitypages inaccessible. Workflowdirectory NOT_FOUND on readablemain;Pagesdeployment notjobdiscovery. No scrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-25T03:40:16Z",
+    "evidence": {}
+  }
+}
