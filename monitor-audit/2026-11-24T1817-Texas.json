@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-25T00:17:13Z",
+  "checkedAt": "2026-11-25T00:18:09Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "a1dd5e02434680959486d8416eb9d1f5361242b7",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-24T1754-Texas.json",
+      "sha": "ad4c4f6065682df906b5c6932b73036a0e6c24ef",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-24T23:55:35Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "2c58536b9fe8cb6213cb3531952b122945acc0c8",
+      "baselineReadmeSha": "0063501115cba746dc9da66785420d1a321ec602",
+      "baselineCommit": "a7cda2636eb47b57a8ab58041a66ee3b36d39c6f",
+      "result": "Changed README complete HTML metro rows compared:32 external links each;0 added/removed. Raw listings not inspected.",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      }
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "b1e254f6b246c7b29958f736e8e367737fbe8397",
+      "baselineReadmeSha": "b1e254f6b246c7b29958f736e8e367737fbe8397",
+      "currentCommit": "e4ab17ec26f525fd1b5cde5edf000e35c580e687",
+      "result": "README blob unchanged from latest audit;no README delta."
+    },
+    "otherSources": [
+      "Fresh search;official JDs/application controls checked for ConferSolutions JuniorAIEngineer and Striveworks8002515003."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "previously-seen-incomplete-eligibility-no-clear-upgrade",
+        "id": "ConferSolutions-junior-ai-engineer",
+        "source": "https://confersolutions.ai/careers/ai-engineer",
+        "result": "Official JD+application readable:FTMcKinneyDFW hybrid,junior,no degree/jobtitle or numeric minimum;production agents/fullstack/MCP/DockerLinux with independent delivery in small founder-ledteam. Form asks months until OPT/STEMOPT ends:indicates consideration,not verified acceptance/EVerify/I983 commitment. PostMay2027start/2027campusavailability,pay,seniormentorship/platform and clear Ryan upgrade unverified. Previouslyseen;no jobaddition/notification."
+      },
+      {
+        "classification": "existing-citizenship-rejection-preserved",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Official JD+application readable:BSrelated,0–2years,Austin hybrid/on-site,Python and multimodalML/agentic pipelines,travel up to25%,$100–130Kbase+bonus/equity. Explicit UScitizenship+Secretclearance eligibility mandatory excludesF1OPT despite EVerify. PostMay2027start not established;existing rejection preserved,no newstatuschange."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employerATS pagination. Full main jobs.json,citysourcepages,latestaudit/commits read. ChangedSimplifyREADME compared against exactpriorblob:32metroexternallinks each,0added/removed. TarREADME unchanged. Rawlistings.json notinspected. Freshsearch and two previouslyseen officialJD/application checks. Othersearchresults notexhaustivelyreviewed. Both deployedPages inaccessible;sourcepages read. WorkflowsNOT_FOUND on readablemain;Pagesdeployment notjobdiscovery. No scrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-24T23:55:35Z",
+    "evidence": {}
+  }
+}
