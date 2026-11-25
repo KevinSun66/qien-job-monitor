@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-25T19:13:13Z",
+  "checkedAt": "2026-11-25T19:14:22Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9e571751ee8caf230378394c6050985db65325b6",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-25T1224-Texas.json",
+      "sha": "d48d85850a6dfb9c83cbfdb35b632b6d0852d643",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-25T18:25:32Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "a11bf92a57212b41c38af18f50c8558dafcc9c48",
+      "baselineReadmeSha": "8607b52c0f650619a459e5c134f74c8a54f29a07",
+      "baselineCommit": "31425b24f3fe272ed942935f717a2705b3fa11b9",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawCommitAttempt": "a59c0804b139b8f354ab30b1833df0250f498e78",
+      "result": "README changed;32 metro links unchanged. Latest raw patch inspected:JumpTrading MLResearchEngineer and LuxferJuniorDataEngineer activefalse only. No officialclosures inferred from upstream flags."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "cced8a802276b1ed62ce37de9add71051b817c8c",
+      "baselineReadmeSha": "cced8a802276b1ed62ce37de9add71051b817c8c",
+      "result": "README blob unchanged from latest audit."
+    },
+    "otherSources": [
+      "Fresh Texas2027AI/dataengineering searches;Further and Wise official rechecks. AAA CoppellDataScientist1 secondary lead investigated through officialapply link. BothdeployedcityURLs attempted."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new-lead-unverified",
+        "id": "AAA-AutoClubEnterprises-JR202640038",
+        "source": "https://ace.wd5.myworkdayjobs.com/careers/job/Coppell-TX/Data-Scientist-1_JR202640038/apply",
+        "result": "Secondary aggregator calls employerAAAClubAlliance but JD body saysAutoClubEnterprises and officiallink usesACEWorkday;do not conflate legalentities. Secondary saysCoppellhybrid3days,statistics/SQL/Python/R/Tableau businessanalysis,no numericminimum,mentions EVerify. Officialapply0readablelines:currentJD/opening,exactexperience,postMay2027start,OPT/STEM,pay and clearRyanupgrade unverified. EVerify alone doesnot proveSTEMOPTacceptance. Not in335records; auditonly,noaddition/notification."
+      },
+      {
+        "classification": "previously-seen-no-clear-upgrade",
+        "id": "Further-8906198002",
+        "source": "https://job-boards.greenhouse.io/furtherearlycareer/jobs/8906198002",
+        "result": "Official JD/form live:Dallasfull-timegraduate,June-July2027start,hybrid3days,Fall2026-Spring2027relatedsoftwareBS,beginnercoursework,no numericminimum. GeneralclientsoftwarewithAIcodingtools,AppliedAIcore notguaranteed. $68–70Kbase belowRyan;nosponsorship,OPT/STEM unconfirmed. No addition/notification."
+      },
+      {
+        "classification": "existing-closed-watch",
+        "id": "Wise-744000160933600",
+        "source": "https://jobs.smartrecruiters.com/Wise/744000160933600-graduate-data-scientist",
+        "result": "Official posting explicitly expired. No verified reopening/statuschange."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employerATS pagination. Fullmain jobs.json,both sourcepages,latest audit/commits read. SimplifyREADME metrodelta0 againstverifiedbaseline;TarREADMEunchanged. Latest rawpatch inspected,notallinterveningcommits. Freshsearchresults notexhaustivelyreviewed. OneAAAsecondarylead and2previous officialroleschecked;AAAofficialapply0readablelines. BothdeployedcityURLs inaccessible;main sourcepagesread. WorkflowdirectoryNOT_FOUND onreadablemain;Pagesdeploymentnotjobdiscovery. Noscrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-25T18:25:32Z",
+    "evidence": {}
+  }
+}
