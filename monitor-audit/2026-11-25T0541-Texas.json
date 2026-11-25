@@ -63,7 +63,7 @@
     "otherSources": [
       "Fresh searches using both engines. PMG and Striveworks official JD/form read. ServiceLink secondarylead searched on officialdomains;search returned corporatecareers,not targetJD."
     ],
-    "newTexasLeadsReviewed": 0,
+    "newTexasLeadsReviewed": 1,
     "existingOrPreviouslySeenLeadsRechecked": 2,
     "newVerifiedEligibleListings": 0,
     "verifiedStatusChanges": 0,
@@ -87,7 +87,7 @@
         "result": "SecondarysearchshowsPlanoDataScientist posting. Officialdomainsearch returned corporatecareersonly,not fulltargetJD/requisition. Existing335record is differentAIEngineer2026-3625 experience/visa-rejected. Do not conflate roles or infer eligibility/newstatus. No addition/notification."
       }
     ],
-    "coverage": "Incrementalrun,not exhaustive335-record revalidation or all employerATS pagination. Fullmain jobs.json,bothsourcepages,latestaudit/commits read. SimplifyREADME baselineblob verified,metrodelta0;TarREADMEunchanged. LatestSimplifyrawpatch inspected,not everyinterveningcommit. Freshsearchresults notexhaustivelyreviewed. Twoexisting officialrolesrechecked;ServiceLinknewsecondarylisting not fullyverifiedor counted as verifiednewTexaslead. BothdeployedPagesURLs attemptedbutinaccessible;main sourcepagesread. WorkflowdirectoryNOT_FOUND onreadablemain;Pagesdeploymentnotjobdiscovery. Noscrapercreated."
+    "coverage": "Incrementalrun,not exhaustive335-record revalidation or all employerATS pagination. Fullmain jobs.json,bothsourcepages,latestaudit/commits read. SimplifyREADME baselineblob verified,metrodelta0;TarREADMEunchanged. LatestSimplifyrawpatch inspected,not everyinterveningcommit. Freshsearchresults notexhaustivelyreviewed. Twoexisting officialrolesrechecked;OneServiceLinksecondarylead provisionallyreviewed,officialJDnotverified;not a verifiedeligiblelisting. BothdeployedPagesURLs attemptedbutinaccessible;main sourcepagesread. WorkflowdirectoryNOT_FOUND onreadablemain;Pagesdeploymentnotjobdiscovery. Noscrapercreated."
   },
   "screening": {
     "qualifiedCandidates": 0,
@@ -109,12 +109,13 @@
     "dallasPage": "not-attempted",
     "austinPage": "not-attempted",
     "archives": "not-attempted",
-    "audit": "verification-pending",
-    "synced": false,
-    "pending": [
-      "Verify audit commit and read back content."
-    ],
-    "lastSuccessfulWriteAt": "2026-11-25T10:46:09Z",
-    "evidence": {}
+    "audit": "succeeded-and-read-back",
+    "synced": true,
+    "pending": [],
+    "lastSuccessfulWriteAt": "2026-11-25T11:42:12Z",
+    "evidence": {
+      "verifiedAuditCommit": "90f4ba6e8293785d3a76379f06c912d7f89c471d",
+      "verifiedAuditBlob": "b38f607109616eaa0078b144ba85005ed44df1fb"
+    }
   }
 }
