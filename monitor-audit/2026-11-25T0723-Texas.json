@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-25T13:23:51Z",
+  "checkedAt": "2026-11-25T13:24:45Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "0ef4c4de8565435a45aca802ed1488d249ba7749",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-25T0621-Texas.json",
+      "sha": "f962d67d2459c1353d35d160c44982e155d88013",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-25T12:22:17Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "c342aa2a4d2f98de51bf519fe80b1034fc0b7a81",
+      "baselineReadmeSha": "983f6fb64a33eb51487fdef32b373fbac9b8804d",
+      "baselineCommit": "96140f0ca5e418642c40753c2af96d690be03897",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawCommitAttempt": "14ba46fa8d57b24da61a0985c5b0172b448f2610",
+      "result": "README changed;32 metro links unchanged. Latest raw patch inspected: removed inactive Emory AI Scientist/EngineerI Atlanta record only. Intervening raw commit53c160fc fetched twice but files/diff null; its delta remains uninspected."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "ee44e45b4e3b89d915967b0397b6ae622251ac0e",
+      "baselineReadmeSha": "ee44e45b4e3b89d915967b0397b6ae622251ac0e",
+      "result": "README blob unchanged from latest audit."
+    },
+    "otherSources": [
+      "Fresh Texas graduate/junior searches;Confer and Integra official JD and application rechecks. Both deployed city URLs attempted."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Confer-Junior-AI-Engineer",
+        "source": "https://confersolutions.ai/careers/ai-engineer",
+        "result": "Official JD/application live: full-time McKinney hybrid junior, no numeric minimum, shipped agent project required. Full-stack production agent architecture, MCP, Docker/Linux and customer delivery. Form asks OPT/STEM expiry, but formal OPT/STEM support, post-May2027 start, pay and clear Ryan upgrade unconfirmed. No addition or notification."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official JD/application live: Austin full-time Summer2027, no numeric minimum, quantitative R/Python/SQL fraud investigations and econometrics. No visa sponsorship; OPT/STEM eligibility unconfirmed. Citizenship question alone is not a citizen-only requirement. Compensation and clear Ryan upgrade unconfirmed. No addition or notification."
+      }
+    ],
+    "coverage": "Incremental run, not exhaustive335-record revalidation or all employer ATS pagination. Full main jobs.json, both city source pages, latest audit/commits read. Simplify README metro delta0 against verified baseline blob;Tar README unchanged. Latest raw patch inspected, intervening53c160fc files/diff null after two attempts. Fresh search results not exhaustively reviewed;two previously-seen official roles rechecked. Both deployed city pages inaccessible; source pages read from main. Workflow directory NOT_FOUND on readable main; Pages deployment not job discovery. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-25T12:22:17Z",
+    "evidence": {}
+  }
+}
