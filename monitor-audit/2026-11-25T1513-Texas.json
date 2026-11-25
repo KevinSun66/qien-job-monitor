@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-25T21:13:29Z",
+  "checkedAt": "2026-11-25T21:14:29Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "5c5eb05cc5602323fa79aab5801f249161d4c2b6",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-25T1446-Texas.json",
+      "sha": "80e60dce7df198e492906621c79311aa7456f213",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-25T20:47:37Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "512756f6a2dd73675f4febddde0f45280fad0d4c",
+      "baselineReadmeSha": "512756f6a2dd73675f4febddde0f45280fad0d4c",
+      "rawCommitAttempt": "d40ae98902a6aca45d14e924c2232fc74353e21b",
+      "result": "README blob unchanged. Latest rawcommit fetched twice,files/diffnull;rawdelta not inspected and no inference of no changes."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "0b5bba48874ffcf05a05fd727d9e909f70e4c096",
+      "baselineReadmeSha": "0b5bba48874ffcf05a05fd727d9e909f70e4c096",
+      "result": "README blob unchanged from latest audit."
+    },
+    "otherSources": [
+      "FreshTexasAI/DSsearch;VisaAIStudiolead investigated withbothengines andofficialURLattempt;Myriad360/webAIofficialrechecks;bothdeployedcityURLs attempted."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new-lead-unverified",
+        "id": "Visa-REF090692W",
+        "source": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Associate-Data-Engineer--AI-Studio_REF090692W",
+        "result": "New secondarylead AssociateDataEngineer,AIStudio,Austinhybridfull-time,Nov25. OfficialURLattempt inaccessible. Secondarybody:BSdegree OR3+yearsrelevantwork;separate1+yearhands-oncloudrequirement. Do not mistake OR3years as unconditionalminimum. AI/model/agentserving,runtimeconsole,governance/observability,AWS/GCP,Python/Go/Rust/C++,5–10%travel,$86.5–134.4Kbonus/equity persecondary. CurrentofficialfullJD/opening,preciseexperiencefit,2027cohort/postMay2027start,OPT/STEMandclearRyanupgrade unverified. Noaddition/notification."
+      },
+      {
+        "classification": "existing-unverified",
+        "id": "Myriad360-8930382002",
+        "source": "https://job-boards.greenhouse.io/myriad360/jobs/8930382002",
+        "result": "OfficialJD/formlive:USremote,0–2years includingcoursework/internships/projects,10%travel,internalagents/workflowautomation. NYC$85Kreference notTexaspay. Texaseligibility,postMay2027start,OPT/STEMandclearRyanupgrade unconfirmed. Preserveverificationstatus."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "webAI-571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "source": "https://jobs.ashbyhq.com/webai/571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "result": "OfficialURLinaccessible. CurrentfullJD,opening,experience,location,start,OPT/STEM,pay andclearRyanupgrade unverified. Noaddition/notification."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employerATS pagination. Fullmain jobs.json,bothsourcepages,latestaudit/commits read. BothupstreamREADME blobsunchanged. LatestSimplifyrawcommit nullfiles/diffafter2attempts;rawdelta notinspected. Freshsearchresults notexhaustivelyreviewed. OneVisa secondarylead and2previousroleschecked;VisaofficialURLinaccessible. BothdeployedcityURLs inaccessible;main sourcepagesread. WorkflowdirectoryNOT_FOUND onreadablemain;Pagesdeploymentnotjobdiscovery. Noscrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-25T20:47:37Z",
+    "evidence": {}
+  }
+}
