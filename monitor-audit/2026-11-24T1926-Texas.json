@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-25T01:26:17Z",
+  "checkedAt": "2026-11-25T01:27:13Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "4bcf7d55ffb8dc0c7ca879ac400de76a68c10f7a",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-24T1817-Texas.json",
+      "sha": "a0de77b49641c1254b98f49439621b029fe727f7",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-25T00:18:22Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "2c58536b9fe8cb6213cb3531952b122945acc0c8",
+      "baselineReadmeSha": "2c58536b9fe8cb6213cb3531952b122945acc0c8",
+      "currentCommit": "a793fa27729424a2ee29d891449cb0025302a5cc",
+      "result": "README blob unchanged. Additionally inspected raw listings patches at56ebd6e5 and2c7bcc65:one Dell role in HopkintonMA added;one BrainCo AIPlatformEngineer NewGrad active->inactive. No verified new Texas candidate from these patches.",
+      "rawPatchCommits": [
+        "56ebd6e5b3f8283bbe60a7c1ccc0fefe75ca9147",
+        "2c7bcc65549ca5e83ecc43517f2af6ec6da840d1"
+      ]
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "b1e254f6b246c7b29958f736e8e367737fbe8397",
+      "baselineReadmeSha": "b1e254f6b246c7b29958f736e8e367737fbe8397",
+      "result": "README blob unchanged;no README delta."
+    },
+    "otherSources": [
+      "Fresh search;official JDs/application controls checked for SelfFinancial6252143004 and Integra5487065008;two latest Simplify rawlisting commit patches read."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-citizenship-rejection-preserved",
+        "id": "SelfFinancial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Official JD+application readable:Austin hybrid/remote,BS/MSquant or graduatingsoon,0–2years,productioncredit predictive modeling/deployment/monitoring with seniormentorship;$85–110Kplusbonus/options. Explicit UScitizen/permanentresidentonly excludesF1OPT. Existing rejection preserved;no newstatuschange."
+      },
+      {
+        "classification": "previously-seen-verification-pending",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official JD+application readable:FTAustin Summer2027,quantitativebackground,R/Python/SQL,no numericminimum;fraud data investigations/econometrics. No sponsorship;OPT/STEMOPT acceptance and clearRyanupgrade/pay unverified. Citizenshipquestion alone not citizen-onlyrestriction. No change/notification."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employerATS pagination. Full main jobs.json,citysourcepages,latestaudit/commits read. Both upstreamREADME blobs unchanged. Two latest Simplify rawlistings commit patches inspected,not entire rawlistings history/fullfile;Dell addition is HopkintonMA,BrainCo secondary activeflag change not proof of officialclosure. Freshsearch and two previouslyseen officialJD/application checks. Othersearchresults notexhaustivelyreviewed. Both deployedPages inaccessible;sourcepages read. WorkflowsNOT_FOUND on readablemain;Pagesdeployment notjobdiscovery. No scrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-25T00:18:22Z",
+    "evidence": {}
+  }
+}
