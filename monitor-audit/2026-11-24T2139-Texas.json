@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-25T03:39:07Z",
+  "checkedAt": "2026-11-25T03:40:04Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "eaa033ab40efe3da1125243664965a5f7c6cc4a0",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-24T2106-Texas.json",
+      "sha": "1acdc5831609ec3e653e1c2f931505acc503f645",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-25T03:07:32Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "790335ef02b3a8fa54fdc707c1671ef56cb37815",
+      "baselineReadmeSha": "790335ef02b3a8fa54fdc707c1671ef56cb37815",
+      "baselineCommit": "b3481334d73c4b377a6336a88ddac81579b3bd07",
+      "result": "README blob unchanged. Latest rawlisting commit60b2e303 fetched twice but files/diff null;rawchanges not inspectable through returned commit payload. Do not infer no rawlisting changes.",
+      "rawCommitAttempt": "60b2e30342a314106e5d026b12a3b1252fc0f1bc"
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "8d2950a3c542be93f4485de85e2a65db0b354989",
+      "baselineReadmeSha": "8d2950a3c542be93f4485de85e2a65db0b354989",
+      "result": "README blob unchanged from latest audit. Search-index snippets show differing contents;direct GitHub main file is comparison source,not cached index."
+    },
+    "otherSources": [
+      "Fresh search;webAI and Southwest official URLs rechecked. Rawlisting commit retrieval attempted twice but returned no diff/files."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "previously-seen-unverified",
+        "id": "webAI-571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "source": "https://jobs.ashbyhq.com/webai/571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "result": "Official URL inaccessible. Actualopening,fullJD/experience/location,postMay2027start,OPT/STEMOPT,pay and clearRyanupgrade unverified. No addition/notification."
+      },
+      {
+        "classification": "existing-closed-watch",
+        "id": "Southwest-R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "Official URL410Gone;no verified reopening/newstatuschange."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employerATS pagination. Fullmain jobs.json,citysourcepages,latestaudit/commits read. Both upstreamREADME blobs unchanged. LatestSimplifyrawcommit60b2e303 fetched twice but files/diffnull;rawchanges notinspected,not proof of nochanges. Freshsearch and two previouslyseen officialroleURLchecks;both inaccessible/410. Search-index snippets not treatedas authoritative liveJD or reopening. Othersearchresults notexhaustivelyreviewed. Both deployedPages inaccessible;sourcepages read. WorkflowsNOT_FOUND on readablemain;Pagesdeployment notjobdiscovery. No scrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-25T03:07:32Z",
+    "evidence": {}
+  }
+}
