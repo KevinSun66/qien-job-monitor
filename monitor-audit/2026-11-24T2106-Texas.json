@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-25T03:06:16Z",
+  "checkedAt": "2026-11-25T03:07:19Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "0fc4abb3e15c104024d2f3eacb9d443f540b2101",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-24T1926-Texas.json",
+      "sha": "e6c74ccff956cc4455d3695a81b8fb7030ad0e53",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-25T01:27:26Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "790335ef02b3a8fa54fdc707c1671ef56cb37815",
+      "baselineReadmeSha": "2c58536b9fe8cb6213cb3531952b122945acc0c8",
+      "baselineCommit": "a793fa27729424a2ee29d891449cb0025302a5cc",
+      "currentCommit": "b3481334d73c4b377a6336a88ddac81579b3bd07",
+      "result": "Changed README completeHTML metro rows compared:32external links each,0added/removed. Four rawlistingpatches inspected:one Austin MetaASIC hardware lead;other additions explicit nonTexas. Secondary activeflags not official statuschanges.",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawPatchCommits": [
+        "c217e9651aa47391600d49f528bdbb9f78cf05d3",
+        "6bf5a29f501382edf851a23991eda2d5cf0a7433",
+        "4ce24f776cd41be6b047109f98ae176c8303a83c",
+        "c42374087207354c408c227b806a93550f9073d1"
+      ]
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "8d2950a3c542be93f4485de85e2a65db0b354989",
+      "baselineReadmeSha": "b1e254f6b246c7b29958f736e8e367737fbe8397",
+      "baselineCommit": "e4ab17ec26f525fd1b5cde5edf000e35c580e687",
+      "result": "Changed README metro rows compared:27external links each,0added/removed.",
+      "metroDelta": {
+        "before": 27,
+        "after": 27,
+        "added": [],
+        "removed": []
+      }
+    },
+    "otherSources": [
+      "Fresh search;Meta official URL attempted;Wise and Striveworks official role pages checked;four Simplify rawlistingcommitpatches read."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "raw-source-hardware-lead-official-unverified-audit-only",
+        "id": "Meta-1451659813754708",
+        "source": "https://www.metacareers.com/jobs/1451659813754708",
+        "result": "New secondaryrawlisting:ASIC Engineer-PerformanceArchitectureandModeling,Austin/Sunnyvale,hardwarecategory. Official URL inaccessible;no officialJD/opening/experience/start/OPT verification. Hardwareindication outside user scope;do not recommend/addjob. No inventedJD/status."
+      },
+      {
+        "classification": "previously-seen-expired",
+        "id": "Wise-744000160933600",
+        "source": "https://jobs.smartrecruiters.com/Wise/744000160933600-graduate-data-scientist",
+        "result": "Official ATS explicitly expired. University/aggregator reposts do not prove reopening. No newstatuschange/notification."
+      },
+      {
+        "classification": "existing-citizenship-rejection-preserved",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Official JD+application readable:Austin hybrid/on-site,BSrelated0–2years,Python/multimodalML/agenticpipelines,travel25%,$100–130Kbase+bonus/equity. Explicit UScitizenship+Secretclearance mandatory excludesF1OPT despiteEVerify. Existingrejection preserved,no newstatuschange."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employerATS pagination. Fullmain jobs.json,citysourcepages,latestaudit/commits read. Both changed upstreamREADMEs compared to exactpriorblobs:32Simplify/27Tar metrolinks,0added/removed. Four Simplify rawlistingcommitpatches sincepriorrun inspected,not fullrawfile;AustinMetaASIClead officialURL inaccessible,other additions nonTexas. Freshsearch and two previouslyseen officialrolechecks. Othersearchresults notexhaustivelyreviewed. Both deployedPages inaccessible;sourcepages read. WorkflowsNOT_FOUND on readablemain;Pagesdeployment notjobdiscovery. No scrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-25T01:27:26Z",
+    "evidence": {}
+  }
+}
