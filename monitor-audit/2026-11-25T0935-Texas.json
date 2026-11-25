@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-25T15:35:48Z",
+  "checkedAt": "2026-11-25T15:36:46Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "962664f3b092829b3b30a083e4d2f6ef40878928",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-25T0900-Texas.json",
+      "sha": "35fca0b6574e40b2a71e2d598b1230bfde7d11fa",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-25T15:01:55Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "76c92af438ee9eb6ff3ec6702090e2d5765b2f51",
+      "baselineReadmeSha": "e748714e664c816fcd404944ebe2cc9765b71a49",
+      "baselineCommit": "92c9f70a5227590cb34c9b413c5aa91e54537018",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawCommitAttempt": "9f313fbcafa3e8ca3902714788e3d1dda861fb96",
+      "result": "README changed;32 metro links unchanged. Latest raw patch inspected:4 Capgemini AI roles added in London UK,outside location scope;CrossCountry junior forwarddeployedSWE activefalse. Official CrossCountry URL403,closure not independently verified."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "ee44e45b4e3b89d915967b0397b6ae622251ac0e",
+      "baselineReadmeSha": "ee44e45b4e3b89d915967b0397b6ae622251ac0e",
+      "result": "README blob unchanged from latest audit."
+    },
+    "otherSources": [
+      "Fresh Texas dataengineering/juniorAI searches;Myriad360 and webAI role URLs rechecked;CrossCountry upstream flag checked against official URL."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-unverified",
+        "id": "Myriad360-8930382002",
+        "source": "https://job-boards.greenhouse.io/myriad360/jobs/8930382002",
+        "result": "Official JD/form live:USremote,0–2years including coursework/internships/projects,10%travel,internalGPTs/agents/workflowautomation,PowerPlatform/ChatGPTEnterprise/StackAI/Zapier. NYC$85K reference and bonus/commission opportunities do not establish Texas pay upgrade. Texas eligibility,postMay2027start,OPT/STEM and clear Ryanupgrade unconfirmed. Preserve status despite earlier upstreamactivefalse."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "webAI-571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "source": "https://jobs.ashbyhq.com/webai/571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "result": "Official URL inaccessible. Current fullJD,opening,experience,location,postMay2027start,OPT/STEM,pay and clearRyanupgrade unverified. No addition/notification."
+      },
+      {
+        "classification": "upstream-only-unverified-status",
+        "id": "CrossCountry-5f8a920b-77ed-4200-b37d-1f5d68c1bc21",
+        "source": "https://jobs.lever.co/crosscountry-consulting/5f8a920b-77ed-4200-b37d-1f5d68c1bc21",
+        "result": "Upstream juniorForwardDeployedSWE activefalse. Official URL403Forbidden;location/fullJD/closure unconfirmed. Not among335 existing records. No inferred closure or notification."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employerATS pagination. Full main jobs.json,both sourcepages,latest audit/commits read. Simplify README metrodelta0 against verified baseline;Tar README unchanged. Latest rawpatch inspected,not every interveningcommit. Fresh searchresults not exhaustively reviewed. Two previously-seen leads rechecked plus CrossCountry upstreamflag officialURLattempt. Both deployedcityURLs inaccessible;main sourcepages read. Workflowdirectory NOT_FOUND onreadablemain;Pagesdeployment notjobdiscovery. No scrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-25T15:01:55Z",
+    "evidence": {}
+  }
+}
