@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-25T20:46:17Z",
+  "checkedAt": "2026-11-25T20:47:27Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "4770ba08c2dc77937f48590418a010d0b8012b31",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-25T1313-Texas.json",
+      "sha": "6eaf91fee812d25ec07b6227bf5e254dce479563",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-25T19:14:33Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "512756f6a2dd73675f4febddde0f45280fad0d4c",
+      "baselineReadmeSha": "a11bf92a57212b41c38af18f50c8558dafcc9c48",
+      "baselineCommit": "c71f81e54086b218cf7c96840d523327a235e1ca",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawCommitAttempt": [
+        "c26bc1757b973635cfb4fb888875114b707f3eed",
+        "2d1ecdced9a1fef766fa8aa325b70d78fa8df65e"
+      ],
+      "result": "README changed;32 metro links unchanged. Both latest raw commit payloads returned null files/diff;raw changes not inspected,not proof of no changes."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "0b5bba48874ffcf05a05fd727d9e909f70e4c096",
+      "baselineReadmeSha": "cced8a802276b1ed62ce37de9add71051b817c8c",
+      "baselineCommit": "e7f199760bc26de3204f6e08e9bb0c2c49a53625",
+      "metroDelta": {
+        "before": 27,
+        "after": 27,
+        "added": [],
+        "removed": []
+      },
+      "result": "README changed;27 metro links unchanged against verified baselineblob."
+    },
+    "otherSources": [
+      "Freshsearch,officialdomainJPM search and210773611officialURLcheck;AAA andConfer rechecks;bothdeployedcityURLs attempted."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new-lead-unverified-experience-red-flag",
+        "id": "JPMorgan-210773611",
+        "source": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210773611",
+        "result": "Secondary AppliedAI/MLDataScientist-Data&Analytics-Associate listing givesPlano/JerseyCity,full-time,2+yearsrelatedPython/R/Scala withquantBS,LLM/agentmodels,pipelines/riskgovernance,Plano$104.5–165K. OfficialURL0readablelines;currentfullJD,opening,minimumexperience,startafterMay2027andOPT/STEM not verified. Secondary2+minimum contradicts hardexperiencegate;not qualified. No jobsaddition/notification and no transfer ofJerseyCitypaytoPlano."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "AAA-AutoClubEnterprises-JR202640038",
+        "source": "https://ace.wd5.myworkdayjobs.com/careers/job/Coppell-TX/Data-Scientist-1_JR202640038",
+        "result": "OfficialJDURL inaccessible. CurrentJD/opening,exactexperience,postMay2027start,OPT/STEM,pay and clearRyanupgrade unverified. Preserve auditonly/no notification."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Confer-Junior-AI-Engineer",
+        "source": "https://confersolutions.ai/careers/ai-engineer",
+        "result": "OfficialJD/form live:McKinneyDFWhybrid full-timejunior,no numericminimum,shippedagentprojectrequired,productionfullstackagents/MCP/DockerLinux/customerwork. OPT/STEMexpiryquestion showsconsideration but not confirmedSTEMsupport. PostMay2027start,pay,mentorship/platform and clearRyanupgrade unverified. No addition/notification."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employerATS pagination. Fullmain jobs.json,bothcitysourcepages,latestaudit/commits read. BothupstreamREADME changed,metrodelta0 againstverifiedbaselineblobs. Latest2Simplifyrawcommits nullfiles/diff;rawdelta notinspected. Freshsearchresults notexhaustivelyreviewed. OneJPMsecondarylead investigated,officialJD0lines;2previousleads rechecked. BothdeployedcityURLs inaccessible;main sourcepages read. WorkflowdirectoryNOT_FOUND onreadablemain;Pagesdeploymentnotjobdiscovery. No scrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-25T19:14:33Z",
+    "evidence": {}
+  }
+}
