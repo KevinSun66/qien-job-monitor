@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-25T22:42:39Z",
+  "checkedAt": "2026-11-25T22:44:58Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "cdbe5da2f6486afc2556dcd5def829fd52a9a540",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-25T1513-Texas.json",
+      "sha": "c1051872baf25e5d63e4cda878024baf41b17cf2",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-25T21:14:40Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "6959cbe99ca20c70119a5398d12c4911670227d8",
+      "baselineReadmeSha": "512756f6a2dd73675f4febddde0f45280fad0d4c",
+      "baselineCommit": "963be2a547f18f04d1615c4d62ffd39711e38eb1",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawCommitAttempt": "8595ec484d83f0b749a61d04ae6a1a9b64a6f7d6",
+      "result": "README changed but Dallas/Austin links unchanged (32 before/after). Latest raw patch inspected: historical removals, MD Analytics Market Research Associate and Keysight electrical hardware active true to false; no additions. Removal is not official closure evidence."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "0b5bba48874ffcf05a05fd727d9e909f70e4c096",
+      "baselineReadmeSha": "0b5bba48874ffcf05a05fd727d9e909f70e4c096",
+      "result": "README blob unchanged."
+    },
+    "otherSources": [
+      "Fresh Dallas/Austin 2027 AI engineer search and Visa REF090692W lookup; official Visa, Integra, Jerry and Praetorian URLs attempted."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "historicalSourceRemovalsInvestigated": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Visa-REF090692W",
+        "source": "https://visa.wd5.myworkdayjobs.com/en-US/visa/job/US---Austin-TX/Associate-Data-Engineer--AI-Studio_REF090692W",
+        "result": "Official URL inaccessible again. No verified official opening, complete JD, post-May-2027 start, OPT/STEM compatibility or clear Ryan upgrade. No addition/notification."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official JD and form live. Austin full-time Summer 2027; quantitative fraud/econometrics using R/Python/SQL, no numeric minimum; no sponsorship. OPT/STEM acceptance and clear compensation/platform upgrade over Ryan unconfirmed. No addition/notification."
+      },
+      {
+        "classification": "historical-source-removal-unverified",
+        "id": "Jerry-359cd829-5992-493d-9c37-be8d8c0408ca",
+        "source": "https://jobs.ashbyhq.com/jerry.ai/359cd829-5992-493d-9c37-be8d8c0408ca",
+        "result": "Removed inactive multi-location Austin Associate Applied Data Scientist from upstream raw data. Official returns JavaScript shell only; current JD/opening not verified. No matching job-ID/URL among 335 records. No closure inference or data mutation."
+      },
+      {
+        "classification": "historical-source-removal-unverified",
+        "id": "Praetorian-5386005003",
+        "source": "https://www.praetorian.com/careers/?gh_jid=5386005003#job-opening",
+        "result": "Upstream removed Austin Software Engineer previously active. Official returns generic careers page with no requisition JD; exact opening, responsibilities, experience, start, OPT and Ryan upgrade unverified. No matching job-ID/URL among 335 records. No closure inference or data mutation."
+      }
+    ],
+    "coverage": "Incremental run, not exhaustive 335-record revalidation or all employer ATS pagination. Read main jobs.json, Dallas/Austin source pages, latest audit and commits. Compared upstream README metro links and inspected latest raw patch, not every intervening raw commit. Fresh search not exhaustive. Four official role URLs attempted; Visa inaccessible, Jerry JS-only, Praetorian generic careers page. Deployed city URLs not retrievable; source pages read. .github/workflows returned NOT_FOUND on readable main; no job scraping workflow confirmed and Pages deployment is not job discovery. No scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-25T21:14:40Z",
+    "evidence": {}
+  }
+}
