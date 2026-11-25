@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-25T10:44:59Z",
+  "checkedAt": "2026-11-25T10:46:00Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "7217b77dcac5035215295a794483f78168635af2",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-25T0336-Texas.json",
+      "sha": "1f75025729e40a9b53b3caab9a465566361cbf3d",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-25T09:40:27Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "9ca4e68a7a8affd8ce40ec9f0fdc90b01508bc92",
+      "baselineReadmeSha": "891a639920789af0929cfb9339ae0106fbfb9f76",
+      "baselineCommit": "af6ab3ffa05079515eff083a2c4699c341960728",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawCommitAttempt": "6e35f1e436fc803900fae3c6f1ab5d134f68b4e5",
+      "result": "README changed;32 metro links unchanged. Latest raw patch inspected: Myriad3608930382002 activefalse conflicts with accessible official JD/application. No closure inferred. New EndeavorAir Minneapolis analyst and Formlabs Somerville hardware technician outside scope. Other upstream flags not independently treated as status changes."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "ee44e45b4e3b89d915967b0397b6ae622251ac0e",
+      "baselineReadmeSha": "ee44e45b4e3b89d915967b0397b6ae622251ac0e",
+      "result": "README blob unchanged from latest audit."
+    },
+    "otherSources": [
+      "Fresh searches using both engines;CleanSlate,SelfFinancial,Myriad360 official JD/application rechecks."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-unverified",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin full-time AssociateAI/ML JD and Apply link readable. Coursework/projects/internships accepted,no numericminimum;guided production ML/GenAI/agent delivery. PostMay2027 start,OPT/STEM,pay,travel and clear Ryanupgrade unverified. Preserve verification status."
+      },
+      {
+        "classification": "existing-rejected",
+        "id": "SelfFinancial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Official Austin hybrid/remote JD/form live;0–2years,predictive Python creditmodels and production monitoring,$85–110K bonus/options. Explicit citizenorpermanentresidentonly restriction persists;F1 ineligible. Preserve rejection."
+      },
+      {
+        "classification": "upstream-status-conflict",
+        "id": "Myriad360-8930382002",
+        "source": "https://job-boards.greenhouse.io/myriad360/jobs/8930382002",
+        "result": "Upstream activefalse but both official URL variants resolve to JD/application:USremote,0–2years includingcoursework/internships,10%travel,internal agents/workflowautomations. Officialclosure notconfirmed. ExactTexaseligibility,postMay2027start,OPT/STEM and clearRyanupgrade remainunverified;NYC$85Kreference doesnot establishupgrade. Preserve status."
+      }
+    ],
+    "coverage": "Incremental run,not exhaustive335-record revalidation or all employer ATS pagination. Full main jobs.json,both sourcepages,latest audit/commits read. SimplifyREADME baseline blob verified and metrodelta0;TarREADME unchanged. Latest rawpatch inspected,not everyintervening commit. Freshsearchresults not exhaustively reviewed. Three existing official roles rechecked. Both deployedPagesURLs attempted but inaccessible;main sourcepages read. Workflowdirectory NOT_FOUND on readablemain;Pagesdeployment notjobdiscovery. No scrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-25T09:40:27Z",
+    "evidence": {}
+  }
+}
