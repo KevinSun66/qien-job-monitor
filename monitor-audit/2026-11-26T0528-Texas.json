@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-26T11:28:14Z",
+  "checkedAt": "2026-11-26T11:29:26Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "8e7d171a4eb1b0e837448eafd26b5e8ef54fcabb",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-26T0446-Texas.json",
+      "sha": "85ef4aa286376ccb8a826bd9ab1dfd162926cac5",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-26T10:47:45Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "e02c20276a0a5fd63f4197b4b32cfb7c2f1f12d7",
+      "baselineReadmeSha": "e6e3ba6233b2977771b463ab0b7aef212129e815",
+      "baselineCommit": "62ba6a42981da181125c65028b31e890a2d85d02",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawCommitsInspected": [
+        "0a6fbe81684465ef2a43a26ab6933064142b6bc0"
+      ],
+      "result": "Metro README links unchanged,32 before/after. Latest raw patch inspected: K1 AI Engineer in Manhattan Beach, outside geography; Blackhawk inactive flag not treated as official closure."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "ecf61b4b681896f402d65473b22e01fdc271fb12",
+      "baselineReadmeSha": "ecf61b4b681896f402d65473b22e01fdc271fb12",
+      "result": "README unchanged."
+    },
+    "otherSources": [
+      "Fresh Dallas/Austin graduate ML and 0–2 AI search; investigated ambiguous IOA snippet using official Cognizant JD. Snippet 0–2 SharePoint text belongs to NorthMark, not Cognizant; no qualifications conflated."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "unrecorded-existing-posting-rejected",
+        "id": "Cognizant-47777",
+        "source": "https://careers.cognizant.com/global-en/jobs/47777/ai-engineer-ioa/",
+        "result": "Official JD and Apply now link live; posting dated Sep10, not newly posted today. Dallas offices/client locations, full-stack agentic AI/cloud/data pipelines, no numeric minimum. Start Oct/Nov2026 or Jan/Feb2027 fails post-May2027 gate; employer explicitly excludes participation in CPT/OPT. $65K annual salary below Ryan baseline. Not among335 records; audit only/no recommendation. Do not alter existing Cognizant47731 record or application history."
+      },
+      {
+        "classification": "existing-unverified",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official JD/Apply links live: Austin full-time associate, guided production GenAI/agent client delivery. Employer pay, post-May2027 start, OPT/STEM and clear Ryan upgrade remain unverified; preserve state. No new salary estimate adopted."
+      },
+      {
+        "classification": "previously-seen-not-qualified",
+        "id": "Recidiviz-4717510006",
+        "source": "https://job-boards.greenhouse.io/recidiviz/jobs/4717510006",
+        "result": "Official JD/Apply live: remote US full-time, $85K, no sponsorship,6+ months including internship/research. Core SQL/Pandas analyses, dashboards and launch support, not established Applied AI/ML engineering. Post-May2027 start/OPTSTEM unverified and no clear Ryan upgrade; no addition/notification."
+      }
+    ],
+    "coverage": "Incremental, not exhaustive335-record/all-ATS revalidation. Full main jobs.json, Dallas/Austin source pages, latest audit/commits and both upstream READMEs read. Metro links compared, latest raw patch inspected. Fresh search not exhaustive. Three official JDs checked, Cognizant fullJD/Apply link read; no application submitted. Both deployed city URLs inaccessible; main source pages readable. .github/workflows NOT_FOUND on readable main; no scraper workflow confirmed; Pages deployment is not discovery. No scraper created. Exclusions, applications and archives preserved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-26T10:47:45Z",
+    "evidence": {}
+  }
+}
