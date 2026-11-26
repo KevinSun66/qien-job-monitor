@@ -109,11 +109,13 @@
     "dallasPage": "not-attempted",
     "austinPage": "not-attempted",
     "archives": "not-attempted",
-    "audit": "write-pending-verification",
-    "synced": false,
-    "pending": [
-      "Verify audit commit and read back content."
-    ],
-    "lastSuccessfulWriteAt": "2026-11-26T15:00:19Z"
+    "audit": "succeeded-and-read-back",
+    "synced": true,
+    "pending": [],
+    "lastSuccessfulWriteAt": "2026-11-26T15:37:29Z",
+    "evidence": {
+      "verifiedAuditCommit": "2296b9d62ee7fa807e1cf3b1e2391b0c3318577d",
+      "verifiedAuditBlob": "a6bec8128010d0414fdc5238c56131d1b2abd39b"
+    }
   }
 }
