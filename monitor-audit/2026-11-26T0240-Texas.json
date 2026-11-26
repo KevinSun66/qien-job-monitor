@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-26T08:40:37Z",
+  "checkedAt": "2026-11-26T08:41:33Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "ebf5be1236962b8195309e992cec8cec08ef6e2c",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-26T0128-Texas.json",
+      "sha": "28d07df35fa0b8025f736e3e7b509f0a06028fb1",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-26T07:29:07Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "a70493585d9add225484795b70b6a2ecdb4156eb",
+      "baselineReadmeSha": "801f867b182affd27a1e80de927a820f2ca1cfd4",
+      "baselineCommit": "e2c7d6f2b68ce4867457e741ae3595baba7fe858",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawCommitsInspected": [
+        "03fc6d01dc2ab093b34f04bf5cb13dc3c2db9645",
+        "cb184a048c4eaded06589b71b6b0b3d06633ebc2"
+      ],
+      "rawCommitUnavailable": "c79437d509114a058dbd12b310093da82494669c",
+      "result": "Metro README links unchanged,32 before/after. Readable patches add Cisco SWE in North Carolina and mark Zscaler inactive; no independent employer status inferred. Newest patch null files/diff on two attempts, delta not inspected."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "ecf61b4b681896f402d65473b22e01fdc271fb12",
+      "baselineReadmeSha": "ecf61b4b681896f402d65473b22e01fdc271fb12",
+      "result": "README unchanged."
+    },
+    "otherSources": [
+      "Fresh Dallas/Austin 2027 AI and junior DS searches; official Self Financial and Myriad360 JDs/forms rechecked."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-rejection-confirmed",
+        "id": "SelfFinancial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Official JD/application live: Austin hybrid/remote, 0–2 years, Python credit models and production monitoring, $85K–$110K. Explicit citizen/permanent-resident-only rule still excludes F-1 OPT/STEM. Preserve citizenship-rejected; no notification."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Myriad360-8930382002",
+        "source": "https://job-boards.greenhouse.io/myriad360/jobs/8930382002",
+        "result": "Official JD/form live: remote US,0–2 years including coursework/projects/internships, internal agents/workflow automation/integrations, up to10% travel. NYC$85K is not Texas pay. Texas eligibility, post-May-2027 start, OPT/STEM and clear Ryan upgrade unconfirmed. Preserve verification; no addition/notification."
+      }
+    ],
+    "coverage": "Incremental, not exhaustive335-record/all-ATS revalidation. Read full main jobs.json, Dallas/Austin source pages, latest audit/commits and both upstream READMEs. Metro links compared, two new raw patches inspected; newest raw patch null files/diff twice and not inspected. Fresh search not exhaustive. Two employer JDs/forms rechecked. Both deployed city URLs inaccessible; main source pages readable. .github/workflows NOT_FOUND on readable main; no scraper workflow confirmed; Pages deployment is not discovery. No scraper created. Exclusions, applications and archives preserved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-26T07:29:07Z",
+    "evidence": {}
+  }
+}
