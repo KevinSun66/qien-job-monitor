@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-26T19:29:51Z",
+  "checkedAt": "2026-11-26T19:30:21Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "d22ffa3ede5c3488da59d60d5ba4e31f628ae426",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-26T1211-Texas.json",
+      "sha": "79cb2a4edc12aa3348b6a6b0a5a618169dffdd79",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-26T18:12:20Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "50d9c0ef7e6d359b58c97998e190f56f4d4831b9",
+      "baselineReadmeSha": "a90e90cbc8d5240c6fea04a203cdedf3e9dde49f",
+      "baselineCommit": "0762f023af1163b75134035326ff002c3b8b6d90",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "readmeCommitsInspected": [
+        "476264ac858c520510e3ce730ce2a2c4b970ea43"
+      ],
+      "rawCommitsInspected": [
+        "670ee5584a458cabfeae740e8e7150f59641ef00"
+      ],
+      "rawCommitUnavailable": "77dbcaf996907ec4d38b677ee13513a4b5f11df7",
+      "result": "32 metro apply links before/after,no additions/removals. README only age/company-label changes. Readable latest raw patch marks TikTok Applied Scientist and Synopsys ASIC Digital Design inactive; not treated as official closures. Earlier18:31 raw files/diff null on fetch and retry,uninspected."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "9ff8308e288a1c72327178a61e9d12bf03676a46",
+      "baselineReadmeSha": "9ff8308e288a1c72327178a61e9d12bf03676a46",
+      "result": "README unchanged."
+    },
+    "otherSources": [
+      "Fresh Dallas/Austin2027 applied AI/DS web searches; official Self Financial and Baasi JDs rechecked. Known Southwest and Integra reposts not treated as new roles."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-rejection-confirmed",
+        "id": "SelfFinancial-6252143004",
+        "source": "https://job-boards.greenhouse.io/selffinancial/jobs/6252143004",
+        "result": "Official Austin hybrid/remote DS JD/application live:0–2years,Python credit models,production deployment/monitoring,85K–110K. Explicit UScitizen/permanent-resident-only restriction remains incompatible with F-1 OPT/STEM. Preserve rejection/application history; no notification."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Baasi-4RV39X7V",
+        "source": "https://careers-page.com/baasi/job/4RV39X7V",
+        "result": "Official Austin ML JD with Apply link live. LoRA/QLoRA,PyTorch/HF/PEFT,versioned adapter exports,data preprocessing,backend integration and monitoring; no numeric minimum.2027 entry cohort/start,OPT/STEM support,full-time classification and quantified compensation/clear Ryan upgrade remain unconfirmed. No notification or addition."
+      }
+    ],
+    "coverage": "Incremental,not exhaustive335-record/all-ATS revalidation. Full main jobs.json,Dallas/Austin source pages,latest audit/commits and both upstream READMEs read. Simplify metro links compared; README and latest raw patch inspected; earlier18:31 raw null files/diff twice,uninspected. Tar-ive unchanged. Fresh search not exhaustive. Two official JDs readable and Apply links present; no application submitted. Both deployed city URLs inaccessible; main source pages readable. .github/workflows NOT_FOUND on readable main; no job scraper workflow confirmed; Pages deployment is not discovery. No scraper created. Company exclusions,applications and archives preserved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-26T18:12:20Z"
+  }
+}
