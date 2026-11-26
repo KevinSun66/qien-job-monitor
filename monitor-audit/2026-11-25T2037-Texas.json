@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-26T02:37:02Z",
+  "checkedAt": "2026-11-26T02:37:59Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9a80882de27cc69ba20baf227865f0acc088884b",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-25T1954-Texas.json",
+      "sha": "568c74e5d1a84527b7ee523fb903adffcf7baa70",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-26T01:55:40Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "639d6942631e3a8547756745392b1b1ecc75fe32",
+      "baselineReadmeSha": "b00119c1a20143acdeefbc4586ba825cbe48dd53",
+      "baselineCommit": "be3a5223b20f2887e20f790a946f7f1922120f38",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawCommitsInspected": [
+        "0ef4e28f24470fc79ebb5f5079a7d152dfaa6fd1",
+        "9dd28e6aecc134435714cf3a90806dd6fad1f2f7"
+      ],
+      "result": "Metro README links unchanged, 32 before/after. Raw addition is TikTok PhD research in San Jose. Other patch only SpaceX, Longitude Labs, Nutanix and PNNL inactive flags; no independently verified job status change inferred."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "2797b7a46295bd67e360a1a5b9a13fb4b6ca1a5c",
+      "baselineReadmeSha": "2797b7a46295bd67e360a1a5b9a13fb4b6ca1a5c",
+      "result": "README unchanged from latest audit."
+    },
+    "otherSources": [
+      "Fresh Texas 2027 AI/DS searches; official CleanSlate and Striveworks JD rechecks. Investigated Wise university repost against employer expired page; repost is not reopening evidence."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-unverified",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official full JD and Apply links live: Austin full-time associate, guided generative AI/agent production delivery, integrations and evaluation. Course/research/internship/project experience accepted without numeric minimum. Post-May-2027 start, OPT/STEM, pay/travel and clear Ryan upgrade unconfirmed; preserve verification status."
+      },
+      {
+        "classification": "existing-rejection-confirmed",
+        "id": "Striveworks-8002515003",
+        "source": "https://job-boards.greenhouse.io/striveworks/jobs/8002515003",
+        "result": "Official JD/form live: Austin hybrid/on-site, 0–2 years, Python ML and data pipelines/agentic systems, up to25% travel. US citizenship and Secret-or-above clearance eligibility mandatory. Preserve existing rejection, no notification."
+      },
+      {
+        "classification": "existing-closed-confirmed",
+        "id": "Wise-jid4490",
+        "source": "https://wise.jobs/job/graduate-data-scientist-in-austin-jid-4490",
+        "secondarySource": "https://celcs.untdallas.edu/jobs/wise-data-scientist-graduate/",
+        "result": "University repost advertises Nov27 expiry but employer page explicitly says vacancy expired. Preserve closed; no reopening inference. Employer historical JD permits Bachelors/Masters 2026/27, Sept6 2027 start, Austin $114K+RSU, no numeric work minimum, ML/Python/SQL and no sponsorship. University copy differs on degree restriction; employer authoritative. OPT/STEM not established; closed state blocks candidacy."
+      }
+    ],
+    "coverage": "Incremental, not exhaustive 335-record or all-ATS revalidation. Full main jobs.json, Dallas/Austin source pages, latest audit/commits and both upstream READMEs read. Simplify metro delta and two subsequent raw patches inspected; Tar-ive unchanged. Fresh search results not exhaustively investigated, no claim that every surfaced snippet was qualified or rejected. Three employer JDs reviewed; one university repost compared to employer. Both deployed city URLs inaccessible; main source pages readable. .github/workflows NOT_FOUND on readable main; no scraping workflow confirmed. Pages deployment is not job discovery. No scraper created; existing exclusions, applications and archives preserved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-26T01:55:40Z",
+    "evidence": {}
+  }
+}
