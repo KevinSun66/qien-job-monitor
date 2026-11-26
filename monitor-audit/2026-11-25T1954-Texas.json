@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-26T01:54:15Z",
+  "checkedAt": "2026-11-26T01:55:29Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "e5203e03154111f03a1756d5d7b5cd3c258b1a20",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-25T1840-Texas.json",
+      "sha": "5a7d05aab09b35af58407186e18b47a7b349e616",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-26T00:42:14Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "b00119c1a20143acdeefbc4586ba825cbe48dd53",
+      "baselineReadmeSha": "c882f6b782fd068772c36678852f811b243adcc4",
+      "baselineCommit": "a7a6c817d0343e2b6714d1da8a2cb1a2ed7eb03f",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawCommitsInspected": [
+        "8e35a0704ce274ce4d538ada7649183bccf4b42f",
+        "2fb3fb7c8f8aa5c54343365a79b8bbe7ef407a5b"
+      ],
+      "result": "Metro README links unchanged, 32 before/after. Raw addition Visa REF090196W is Denver, outside scope. Other raw changes historical removals and SpaceX/Otter inactive flags; no employer status inferred."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "2797b7a46295bd67e360a1a5b9a13fb4b6ca1a5c",
+      "baselineReadmeSha": "0b5bba48874ffcf05a05fd727d9e909f70e4c096",
+      "baselineCommit": "ed2dd23b7d3872fcc2996729845259bb3913fdb7",
+      "currentCommit": "4105c5a5213b1014b1f5a5d0b6827601164d6b50",
+      "addedUniqueApplyUrls": 20,
+      "removedUniqueApplyUrls": 11,
+      "result": "Compared unique Apply URLs, ignoring changing age labels. 20 added/11 removed; no explicit new Dallas/Austin location. Eurofins Stafford is outside geography. Capgemini location blank and Mount Sinai United States require verification; official URLs inaccessible. Remaining additions are outside geography or alternate links for same employers/roles. Source verified label is not independent qualification evidence."
+    },
+    "otherSources": [
+      "Fresh Texas 2027 AI and entry-level DS search; official Vestwell, Integra, Capgemini and Mount Sinai URLs attempted."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "additionalLocationUnverifiedLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Vestwell-8209363003",
+        "source": "https://job-boards.greenhouse.io/vestwell/jobs/8209363003",
+        "result": "Official URL inaccessible again. Full JD, actual opening, experience, 2027 start, authorization and Ryan upgrade remain unverified. No addition; historical 7983915003 unchanged."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official JD/form live: Austin full-time Summer 2027, quantitative fraud/econometric analysis, R/Python/SQL, no numeric experience minimum. Unable to sponsor; OPT/STEM acceptance not established. Citizenship question does not itself prove citizen-only restriction. Compensation and clear Ryan upgrade unconfirmed. No addition/notification."
+      },
+      {
+        "classification": "source-delta-location-unverified",
+        "id": "Capgemini-604738",
+        "source": "https://career5.successfactors.eu/careers?company=capgemitecP3&career_ns=job_listing&career_job_req_id=604738",
+        "result": "Associate Data Scientist in source with blank location. Employer URL inaccessible. Texas location, opening, JD, experience, 2027 start, OPT/STEM and Ryan upgrade not verified. No addition/notification."
+      },
+      {
+        "classification": "source-delta-location-unverified",
+        "id": "MountSinai-3044752",
+        "source": "https://ejis.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/3044752",
+        "result": "Data Scientist I, AI and Human Health, source location United States does not verify Texas/remote eligibility. Official URL inaccessible; full qualification gates and Ryan upgrade unverified. No addition/notification."
+      }
+    ],
+    "coverage": "Incremental, not exhaustive 335-record revalidation or all ATS pagination. Read full main jobs.json, Dallas/Austin source pages, latest audit/commits, both upstream READMEs. Compared Simplify metro links, inspected two subsequent raw patches; compared Tar-ive unique Apply URLs. Fresh search not exhaustive. Four employer role URLs attempted; Integra JD/form readable, others inaccessible. Both deployed city URLs inaccessible; main source pages readable. .github/workflows returned NOT_FOUND on readable main. No job scraper workflow confirmed; Pages deployment is not discovery. No scraper created. Existing exclusions, applications and archives preserved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-26T00:42:14Z",
+    "evidence": {}
+  }
+}
