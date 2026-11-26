@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-26T20:33:38Z",
+  "checkedAt": "2026-11-26T20:34:04Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9467f22b701ac7a26bdd8dd006795f0a54fdba22",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-26T1329-Texas.json",
+      "sha": "2337ee524b06613237636ef89794dbb9f742974a",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-26T19:30:56Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "50d9c0ef7e6d359b58c97998e190f56f4d4831b9",
+      "baselineReadmeSha": "50d9c0ef7e6d359b58c97998e190f56f4d4831b9",
+      "rawCommitsUnavailable": [
+        "3c745b17cbe7c1b603a947654668e1c1d3085743",
+        "d926acd1dee6eb0dc2c7e2abe074fab271800591",
+        "45f34dec3ce65d4af0dc8d768bae7be4e58df065"
+      ],
+      "result": "README unchanged from latest audit. Three newer raw commits returned null files/diff on fetch and retry; their deltas remain uninspected. No claim of raw-feed no-change."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "9ff8308e288a1c72327178a61e9d12bf03676a46",
+      "baselineReadmeSha": "9ff8308e288a1c72327178a61e9d12bf03676a46",
+      "result": "README unchanged."
+    },
+    "otherSources": [
+      "Fresh Dallas/Austin2027 applied AI/DS searches; official Confer JD/application and SambaNova pending ML requisition rechecks. Previously reviewed analyst/graduate search reposts not treated as new openings."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-unverified",
+        "id": "SambaNova-6240725004",
+        "source": "https://sambanova.ai/sambanova-available-positions/?gh_jid=6240725004",
+        "result": "Employer URL redirects to generic available-positions page; role-specific JD not exposed. Careers link followed and only generic careers content obtained. Official opening status,degree/experience,location,duties,2027start,OPT/STEM and compensation remain unverified. Preserve existing verification state; generic careers page is not proof of live requisition."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Confer-Junior-AI-Engineer",
+        "source": "https://confersolutions.ai/careers/ai-engineer",
+        "result": "Official McKinney hybrid full-time junior agentic systems JD/application live; no numeric minimum or particular degree/title. Full-stack agents,MCP,Docker/Linux production and customer delivery. Form asks OPT/STEM expiry but does not establish STEM support.2027start,pay and clear platform/growth upgrade over Ryan remain unconfirmed. No notification/addition."
+      }
+    ],
+    "coverage": "Incremental,not exhaustive335-record/all-ATS revalidation. Full main jobs.json,Dallas/Austin source pages,latest audit/commits and both upstream READMEs read. Both READMEs unchanged; three newer Simplify raw commits files/diff null twice each,uninspected. Fresh search not exhaustive. Confer official JD/application readable; SambaNova role-specific JD unavailable despite employer careers follow-up. Both deployed city URLs inaccessible; main source pages readable. .github/workflows NOT_FOUND on readable main; no job scraper workflow confirmed; Pages deployment is not discovery. No scraper created. Company exclusions,applications and archives preserved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-26T19:30:56Z"
+  }
+}
