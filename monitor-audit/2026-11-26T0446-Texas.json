@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-26T10:46:36Z",
+  "checkedAt": "2026-11-26T10:47:34Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "c965c0d2130592049289a3671939d3d5b6ec18ae",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-26T0320-Texas.json",
+      "sha": "76e1ce9a2b77b4d709b2b38b06bdea7e2ff2eb12",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-26T09:21:18Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "e6e3ba6233b2977771b463ab0b7aef212129e815",
+      "baselineReadmeSha": "a70493585d9add225484795b70b6a2ecdb4156eb",
+      "baselineCommit": "47e99a7e9fe682bade2b1e6c12f8c52c72fafc8a",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawCommitsInspected": [
+        "ee6f7d91c81f2b1708d7e42bafd6703be5735f48",
+        "e87ba571af644bb33831b0468e65f788a0cb5e63"
+      ],
+      "result": "Metro README links unchanged,32 before/after. Two latest raw patches inspected: Recidiviz US-remote Data Analyst, Framework senior hardware product manager and Honeywell Colorado hardware role. Other inactive flags not treated as employer closure. Not all intervening raw commits recovered."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "ecf61b4b681896f402d65473b22e01fdc271fb12",
+      "baselineReadmeSha": "ecf61b4b681896f402d65473b22e01fdc271fb12",
+      "result": "README unchanged."
+    },
+    "otherSources": [
+      "Fresh Dallas/Austin 2027 AI and junior DS search; official Integra, Confer and newly surfaced Recidiviz JDs inspected."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "additionalUSRemoteLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "unrecorded-remote-not-qualified",
+        "id": "Recidiviz-4717510006",
+        "source": "https://job-boards.greenhouse.io/recidiviz/jobs/4717510006",
+        "result": "Official JD/form live: full-time remote US/NYC/Oakland, fixed non-negotiable $85K, occasional state-partner/prison/parole-office travel. Minimum6 months full-time-equivalent practical data experience, internships/research count; not >1-year professional minimum. Core SQL/Pandas analysis, dashboards and launch support, not Applied AI/ML model/agent engineering. No2027 cohort/post-May start or OPT/STEM confirmation; no sponsorship. No clear Ryan upgrade. Not among335 records; audit only, no addition/notification."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official JD/form live: Austin full-time Summer2027, quantitative fraud/econometric research, R/Python/SQL; no numeric minimum. No sponsorship; OPT/STEM acceptance and clear pay/platform upgrade over Ryan unconfirmed. Preserve state."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Confer-ai-engineer",
+        "source": "https://confersolutions.ai/careers/ai-engineer",
+        "result": "Official junior full-time hybrid McKinney JD/Apply link live; hands-on production agents/full-stack/MCP/Docker/Linux, no numeric work minimum, small founder-led team. General authorization requirement does not confirm STEM support. Post-May2027 start, pay and clear Ryan upgrade unverified. No addition/notification."
+      }
+    ],
+    "coverage": "Incremental, not exhaustive335-record/all-ATS revalidation. Full main jobs.json, Dallas/Austin source pages, latest audit/commits and both upstream READMEs read. Metro links compared, two latest raw patches inspected, not every intervening raw commit. Fresh search not exhaustive. Three employer JDs checked, Recidiviz full application read. Both deployed city URLs inaccessible; main source pages readable. .github/workflows NOT_FOUND on readable main; no scraper workflow confirmed; Pages deployment is not discovery. No scraper created. Exclusions, applications and archives preserved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-26T09:21:18Z",
+    "evidence": {}
+  }
+}
