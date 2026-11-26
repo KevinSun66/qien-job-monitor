@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-26T00:40:55Z",
+  "checkedAt": "2026-11-26T00:42:04Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9a959bcbe1c52582c60821f93eef9b3c91b88b78",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-25T1719-Texas.json",
+      "sha": "06593f76495cdf4946dd42a120dd4a846131916c",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-25T23:20:17Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "c882f6b782fd068772c36678852f811b243adcc4",
+      "baselineReadmeSha": "c894b9a6eeb09731b0e4ca32fe23d691e384f73c",
+      "baselineCommit": "1e0798bb66597fd897fbb718ddb2ee4a22adc28f",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "rawCommitsInspected": [
+        "5fc6ba613bb89252fab222075707080f97d834d3",
+        "a1819738e80f600680d04b2a280dbd96019f90de",
+        "3324478947b66b59389591c0fc583599b4acf4c3"
+      ],
+      "result": "README metro links unchanged (32 before/after). Three subsequent raw patches inspected. Austin Vestwell associate SWE and US-remote Bluesight data engineer surfaced. Other additions outside geography or hardware; no employer closure/reopening inferred from upstream active flags."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "0b5bba48874ffcf05a05fd727d9e909f70e4c096",
+      "baselineReadmeSha": "0b5bba48874ffcf05a05fd727d9e909f70e4c096",
+      "result": "README unchanged."
+    },
+    "otherSources": [
+      "Fresh Texas 2027 Applied AI / junior DS search; official Myriad360 and Confer rechecks; Vestwell, Bluesight and Genius Road employer URL attempts."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "additionalUSRemoteLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "unrecorded-unverified",
+        "id": "Vestwell-8209363003",
+        "source": "https://job-boards.greenhouse.io/vestwell/jobs/8209363003",
+        "result": "New upstream Associate Software Engineer lists Austin plus other cities. Official URL inaccessible. Full duties, numeric experience, actual opening, post-May-2027 start, OPT/STEM and Ryan upgrade unverified. Different requisition from historical 7983915003 closed-at-discovery; do not change old record or infer reopening."
+      },
+      {
+        "classification": "unrecorded-remote-unverified",
+        "id": "Bluesight-8a3408a8-6909-4b66-92c1-98a5c80ba0a9",
+        "source": "https://jobs.lever.co/bluesight/8a3408a8-6909-4b66-92c1-98a5c80ba0a9",
+        "result": "Upstream Data Engineer remote USA; employer URL inaccessible. Texas eligibility, actual opening, AI/ML core duties, experience, 2027 start, OPT/STEM and Ryan upgrade unverified. No addition/notification."
+      },
+      {
+        "classification": "unrecorded-contract-not-qualified",
+        "id": "GeniusRoad-3444-16873737",
+        "source": "https://geniusroad.catsone.com/careers/41437/jobs/16873737-Junior-AIML-Engineer-3444",
+        "result": "Employer-domain search text describes Austin already-local candidates, onsite 4 days, 12-month contract, guided Python/ML/data-pipeline tasks. Approximately one year OR equivalent internship/academic/project experience, not an unconditional >1-year professional minimum. Direct official URL now returns 404 despite cached JD; live opening unverified. Permanent full-time 2027 cohort, post-May start, OPT/STEM, pay and clear Ryan upgrade not established. No addition/notification."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Myriad360-8930382002",
+        "source": "https://job-boards.greenhouse.io/myriad360/jobs/8930382002",
+        "result": "Official JD/form live: US remote, 0–2 years including coursework/internships/projects, internal AI agents/integrations/workflow automation, up to 10% travel. NYC $85K is not Texas pay. Texas-specific eligibility, post-May-2027 start, OPT/STEM and clear Ryan upgrade unconfirmed; preserve existing state."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Confer-ai-engineer",
+        "source": "https://confersolutions.ai/careers/ai-engineer",
+        "result": "Official JD/form live: McKinney hybrid full-time junior agentic software, no numeric minimum, founder-led small team. Form asks months until sponsorship needed including OPT/STEM expiry; this does not establish STEM E-Verify/I-983 support or start after May 2027. Pay and clear Ryan upgrade unconfirmed. No addition/notification."
+      }
+    ],
+    "coverage": "Incremental run, not exhaustive 335-record or all-ATS revalidation. Main jobs.json, Dallas/Austin source pages, latest audit/commits and both upstream READMEs read. Metro links compared; three subsequent raw patches inspected including newer-than-README patch. Fresh search not exhaustive. Five role URLs attempted: two readable, Vestwell/Bluesight inaccessible, Genius Road direct404 despite cached employer result. Both deployed city URLs inaccessible; source pages readable. .github/workflows NOT_FOUND on readable main; no scraping workflow confirmed, Pages deployment is not job discovery. No scraper created; exclusions/applications/archives preserved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-25T23:20:17Z",
+    "evidence": {}
+  }
+}
