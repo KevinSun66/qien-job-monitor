@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-26T16:13:12Z",
+  "checkedAt": "2026-11-26T16:13:51Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "4e0e0702b6477ddc10168db1aa45bc1d5c4f1337",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-26T0936-Texas.json",
+      "sha": "23147d6165ec7019ba912c9c4ba1770d2a8d77e9",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-26T15:37:39Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "94c4faa2ecced3f6ab7e876d99e4f5e3a170f43b",
+      "baselineReadmeSha": "94c4faa2ecced3f6ab7e876d99e4f5e3a170f43b",
+      "result": "README unchanged from latest audit. Latest raw commit and prior unavailable raw commit each returned null files/diff on fetch and retry; deltas uninspected.",
+      "rawCommitsUnavailable": [
+        "fab8d1a104a52f1a2d5335492fa3a15f6edee9c7",
+        "62ee7611c14412de0fbe7e210ae6182371d620d1"
+      ]
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "9ff8308e288a1c72327178a61e9d12bf03676a46",
+      "baselineReadmeSha": "26c819e9649cc76e79441ad19dff534942a5a1d3",
+      "baselineCommit": "b6efc05c6f4b3e4814a6a3a4ca0a49dec822ca94",
+      "latestCommit": "4dd6e8ebc9ae96bb54a0295c823c5b756b18a8fd",
+      "addedApplyLinks": 17,
+      "removedApplyLinks": 0,
+      "addedRows": [
+        "| **TikTok** | Software Engineer Graduate (Data Arch - E-commerce) - 2027 Start | Seattle, Washington, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7668582542044072245) |",
+        "| **TikTok** | Software Engineer - TikTok Search Engine | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7674029284265838853) |",
+        "| **TikTok** | Software Engineer, AI Agent | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7626968373985429765) |",
+        "| **TikTok** | Software Engineer Graduate (Ads Signal & Measurement) - 2027 Start | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7668724383120804149) |",
+        "| **TikTok** | Software Engineer Graduate (TikTok Search Data Infra) - 2027 Start | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7675829388634392837) |",
+        "| **TikTok** | Software Engineer, Pangle - SIA | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7639632990934960389) |",
+        "| **TikTok** | Software Engineer, Ads Integrity | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7231665935751940413) |",
+        "| **TikTok** | Software Engineer - Infrastructure, TikTok Search Engine | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7280570149262117179) |",
+        "| **TikTok** | Software Engineer Graduate (Data Arch - Data Ecosystem ) - 2026 (PhD) | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7527441329384147208) |",
+        "| **[Wolters Kluwer](https://www.wolterskluwer.com)** | Data Scientist | — | **5d** | [Apply](https://wk.wd3.myworkdayjobs.com/en-US/external/job/IND-Pune-Smartworks/Data-Scientist_R0061463) |",
+        "| **Amazon** | Research Scientist II | Pasadena, California, USA | **6d** | [Apply](https://account.amazon.jobs/jobs/10604692/apply) |",
+        "| **Amazon** | Software Development Engineer - ML, Prime Video Personalization, Harmonia Optimizer | Seattle, Washington, USA | **6d** | [Apply](https://www.amazon.jobs/en/jobs/10604970/software-development-engineer-ml-prime-video-personalization-harmonia-optimizer) |",
+        "| **[Vistra](https://vistracorp.com/)** | Data Scientist | Irving, TX | **7d** | [Apply](https://vst.wd5.myworkdayjobs.com/en-US/vistra_careers/job/Irving-Texas/Data-Scientist_40016989-2) |",
+        "| **Cigna** | Data Science Advisor - EviCore - Remote | United States Work at Home | 8d | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/United-States-Work-at-Home/Data-Science-Advisor---EviCore---Remote_26014035) |",
+        "| **Proofpoint** | AI Engineer | Texas, USA +6 | 10d | [Apply](https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Texas/AI-Engineer-II_R14847) |",
+        "| **Booz Allen Hamilton** | AI/ML Engineer | USA, VA, McLean (8283 Greensboro Dr Hamilton) - Direct Charge / McLean, VA / McLean, VA | 12d | [Apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/mclean-va/ai-ml-engineer_r0253445) |",
+        "| **SSC** | Generative AI Developer / Engineer/Analyst | Remote - Karnataka | 13d | [Apply](https://ssctech.wd1.myworkdayjobs.com/ssctechnologies/job/remote---karnataka/generative-ai-developer---engineer-analyst_r46242) |"
+      ],
+      "result": "17 apply links added against previous snapshot. Nine TikTok links outside Texas; other additions include restored older Vistra Irving/Proofpoint Texas links, Cigna US remote and out-of-scope locations. Restored links are not new requisitions or verified reopenings. Three relevant official Workday URLs inaccessible; no verified change."
+    },
+    "otherSources": [
+      "Fresh Dallas/Austin2027 AI/DS searches; targeted employer-domain search attempts for Vistra/Proofpoint; official Integra recheck. Secondary mirrors are not used as verified JD/open-state/work-authorization evidence."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "newRemoteLeadsAttempted": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "official-inaccessible-previously-seen",
+        "id": "Vistra-40016989-2",
+        "source": "https://vst.wd5.myworkdayjobs.com/en-US/vistra_careers/job/Irving-Texas/Data-Scientist_40016989-2",
+        "result": "Upstream link restored, official URL inaccessible. Secondary mirrors suggest Master's/PhD and1–3 years, but not verified official current requirements. Distinct from archived40016531. Do not infer eligibility/reopening or modify records."
+      },
+      {
+        "classification": "official-inaccessible-previously-seen",
+        "id": "Proofpoint-R14847",
+        "source": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Texas/AI-Engineer-II_R14847",
+        "result": "Upstream link restored, official URL inaccessible. Secondary mirror suggests internal full-stack AI EngineerII with1–2 years including academic/intern/project experience and Texas pay93,300–146,630; all remain unverified for this run. Metro eligibility,2027 start and OPT/STEM support unconfirmed. No notification or addition."
+      },
+      {
+        "classification": "official-inaccessible",
+        "id": "Cigna-26014035",
+        "source": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/United-States-Work-at-Home/Data-Science-Advisor---EviCore---Remote_26014035",
+        "result": "US-remote upstream link restored; official URL inaccessible. Experience,2027 entry cohort/start,Texas remote eligibility,authorization,duties and Ryan upgrade unverified. No notification or addition."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official Austin full-time Summer2027 JD/application live. Fraud/econometric investigations,R/Python/SQL,no numeric minimum. No sponsorship; OPT/STEM acceptance and compensation/platform upgrade over Ryan unconfirmed. Citizenship question alone does not establish citizen-only eligibility. No notification or addition."
+      }
+    ],
+    "coverage": "Incremental, not exhaustive335-record/all-ATS revalidation. Full main jobs.json, Dallas/Austin source pages, latest audit/commits and both upstream READMEs read. Simplify README unchanged; latest and previously unavailable raw commits files/diff null twice each, uninspected. Tar-ive apply-link delta compared,17 additions; no verified new Texas requisition. Three official Workday URLs inaccessible, one official JD/application rechecked. Fresh search not exhaustive. Both deployed city URLs inaccessible; main source pages readable. .github/workflows NOT_FOUND on readable main; no job scraper workflow confirmed; Pages deployment is not discovery. No scraper created. Company exclusions, applications and archives preserved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-26T15:37:39Z"
+  }
+}
