@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-26T18:11:04Z",
+  "checkedAt": "2026-11-26T18:11:44Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "7a0cd8c0053b51ba6f5c85366678f79ceb04d276",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-26T1109-Texas.json",
+      "sha": "36fe11cbb85f2f7dfcd494ec0d11c2d252c04259",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-26T17:10:29Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "a90e90cbc8d5240c6fea04a203cdedf3e9dde49f",
+      "baselineReadmeSha": "871427f15188310b63651339203a3a4eb3d6c206",
+      "baselineCommit": "808ce47c447e4eab3e14c3b29598614a0ee65109",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "readmeCommitsInspected": [
+        "0762f023af1163b75134035326ff002c3b8b6d90"
+      ],
+      "rawCommitsInspected": [
+        "718e964fe8a1c75d3d572b53758c2d856a10f4a6"
+      ],
+      "rawCommitUnavailable": "e39f53837be585b9b52dc4bc3e3b2a564c2a3199",
+      "result": "32 metro apply links before/after, no additions/removals. README patch moves four Citadel Securities roles outside target geography inactive, plus age/format updates. Readable raw patch marks11 Citadel Securities roles inactive; no official status inference. Latest raw files/diff null on fetch and retry,uninspected."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "9ff8308e288a1c72327178a61e9d12bf03676a46",
+      "baselineReadmeSha": "9ff8308e288a1c72327178a61e9d12bf03676a46",
+      "result": "README unchanged."
+    },
+    "otherSources": [
+      "Fresh Dallas/Austin2027 applied AI/DS searches; official CleanSlate/Integra JD rechecks; rediscovered Southwest mirror deduplicated against existing closed-watch requisition and official URL attempted."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-unverified",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin full-time Associate AI/ML JD with Apply link live. Coursework/projects accepted,no numeric minimum; guided production GenAI/agent development,integration and evaluation. Post-May2027 start,OPT/STEM support,pay and clear upgrade over Ryan unconfirmed. Existing verification state preserved."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official Austin full-time Summer2027 JD/application live. Fraud/econometric investigations,R/Python/SQL,no numeric minimum. No sponsorship; OPT/STEM acceptance and compensation/platform upgrade over Ryan unconfirmed. Citizenship question alone does not imply citizen-only. No notification or addition."
+      },
+      {
+        "classification": "existing-closed-watch-confirmed",
+        "id": "Southwest-R-2026-72885",
+        "source": "https://careers.southwestair.com/us/en/job/R-2026-72885/Associate-Data-Scientist-Direct-College-Hire",
+        "result": "Third-party search repost is existing Associate Data Scientist Direct College Hire. Official URL returns410 Gone. Preserve closed-watch and application/archive history; no reopening inference or notification. Historical mirror details not treated as current verified JD."
+      }
+    ],
+    "coverage": "Incremental, not exhaustive335-record/all-ATS revalidation. Full main jobs.json,Dallas/Austin source pages,latest audit/commits and both upstream READMEs read. Simplify metro links compared; README and one raw patch inspected; newest raw null files/diff twice,uninspected. Tar-ive unchanged. Fresh search not exhaustive. Two official JDs readable; existing Southwest official URL410 Gone. Both deployed city URLs inaccessible; main source pages readable. .github/workflows NOT_FOUND on readable main; no job scraper workflow confirmed; Pages deployment is not discovery. No scraper created. Company exclusions,applications and archives preserved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-26T17:10:29Z"
+  }
+}
