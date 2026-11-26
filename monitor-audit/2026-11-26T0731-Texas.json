@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-26T13:31:18Z",
+  "checkedAt": "2026-11-26T13:33:19Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "b98f7d104d1c19142df7d616da399c07cacd2d39",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-26T0630-Texas.json",
+      "sha": "a0ca132e2e0974fb1f15e2da76019712605fd86b",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-26T12:31:58Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "771927faa9e42fa7b8bb3ea3bb225588d5b0e002",
+      "baselineReadmeSha": "771927faa9e42fa7b8bb3ea3bb225588d5b0e002",
+      "result": "README unchanged. Two newer raw listings commits returned null files/diff on initial fetch and retry; their deltas remain uninspected.",
+      "rawCommitsUnavailable": [
+        "744e875b970f3dbe2b4eeae9f73a2f0de803ac6c",
+        "6f6a442cd3a335a1cd4a87b6e6a86d2ccd6cc52f"
+      ]
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "26c819e9649cc76e79441ad19dff534942a5a1d3",
+      "baselineReadmeSha": "ecf61b4b681896f402d65473b22e01fdc271fb12",
+      "baselineCommit": "bbf24d5ea3bf9be6bc526d4eed0b176006779ffe",
+      "latestCommit": "b6efc05c6f4b3e4814a6a3a4ca0a49dec822ca94",
+      "addedApplyLinks": 2,
+      "removedApplyLinks": 14,
+      "result": "Apply-link comparison adds Scout AI Sunnyvale and MITRE Huntsville; both outside target geography. Removed links include Vistra Irving and Proofpoint Texas; official Workday pages inaccessible, so removal is not treated as closure."
+    },
+    "otherSources": [
+      "Fresh Dallas/Austin 2027 applied AI and new-graduate DS web searches; CleanSlate and Baasi official JD rechecks; Vistra and Proofpoint official URL attempts."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 4,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-unverified",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin full-time Associate AI/ML JD with Apply link live; coursework/projects accepted, no numeric minimum, guided production GenAI/agent development and evaluation. Start after May2027, F-1 OPT/STEM acceptance, compensation and clear Ryan upgrade unconfirmed; preserve existing verification status."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Baasi-4RV39X7V",
+        "source": "https://careers-page.com/baasi/job/4RV39X7V",
+        "result": "Official Austin ML JD and application form live: LoRA/QLoRA, PyTorch/HF/PEFT, adapter exports, data preprocessing, backend integration and monitoring; no numeric minimum. Start2027, OPT/STEM support and compensation/Ryan upgrade unconfirmed. No addition or notification."
+      },
+      {
+        "classification": "official-inaccessible",
+        "id": "Vistra-40016989-2",
+        "source": "https://vst.wd5.myworkdayjobs.com/en-US/vistra_careers/job/Irving-Texas/Data-Scientist_40016989-2",
+        "result": "Removed upstream link; official URL inaccessible. This requisition differs from archived40016531; do not infer closure or eligibility, no data change."
+      },
+      {
+        "classification": "official-inaccessible",
+        "id": "Proofpoint-R14847",
+        "source": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Texas/AI-Engineer-II_R14847",
+        "result": "Removed upstream Texas link; official URL inaccessible. No verified status/eligibility change."
+      }
+    ],
+    "coverage": "Incremental, not exhaustive335-record/all-ATS revalidation. Full main jobs.json, Dallas/Austin source pages, latest audit/commits and both upstream READMEs read. Tar-ive Apply-link delta compared:2 additions outside geography,14 removals not treated as official closures. Simplify README unchanged; two newer raw commits null files/diff twice each, not inspected. Fresh web search not exhaustive. Two official JDs readable and two official URLs inaccessible. Both deployed city URLs inaccessible; main source pages readable. .github/workflows NOT_FOUND on readable main; no job scraper workflow confirmed; Pages deployment is not discovery. No scraper created. Company exclusions, applications and archives preserved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-26T12:31:58Z"
+  }
+}
