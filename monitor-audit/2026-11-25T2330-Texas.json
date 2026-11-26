@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-26T05:30:02Z",
+  "checkedAt": "2026-11-26T05:30:52Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "6b3ec5139e89e40b221214eb1b4b8443506df64d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-25T2307-Texas.json",
+      "sha": "7776f06cbe51fa1d7f9498983ad19af4dd6f7975",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-26T05:08:20Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "3362478b15bd2c972924f3a177a6813fb996feb6",
+      "baselineReadmeSha": "3362478b15bd2c972924f3a177a6813fb996feb6",
+      "latestRawCommitAttempt": "5b739a007f7db3650df9b40dc922924bf7806e95",
+      "result": "README blob and latest listed raw commit unchanged since previous audit. Latest raw commit fetched again; files/diff unavailable. Raw delta remains uninspected, not evidence of no changes."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "ecf61b4b681896f402d65473b22e01fdc271fb12",
+      "baselineReadmeSha": "ecf61b4b681896f402d65473b22e01fdc271fb12",
+      "result": "README unchanged."
+    },
+    "otherSources": [
+      "Fresh Dallas/Austin 2027 AI search and SambaNova requisition lookup; official SambaNova and Integra rechecks."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-unverified",
+        "id": "SambaNova-6240725004",
+        "source": "https://sambanova.ai/company/careers/job-openings?gh_jid=6240725004",
+        "result": "Employer page readable but generic Available Positions content; requisition JD/application not exposed. Followed employer careers link, still generic. Secondary listings remain insufficient to verify current opening, exact duties/experience/degree, post-May-2027 start and role-level OPT/STEM. Preserve official-JD/start/visa verification status; do not infer closure or qualification."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official JD and application live: Austin full-time Summer2027, quantitative fraud/econometric work, R/Python/SQL, no numeric experience minimum. No sponsorship; OPT/STEM acceptance and clear pay/platform upgrade over Ryan unconfirmed. No addition/notification."
+      }
+    ],
+    "coverage": "Incremental, not exhaustive 335-record/all-ATS revalidation. Full main jobs.json, Dallas/Austin source pages, latest audit/commits and both upstream READMEs read. README blobs unchanged; latest raw commit still unavailable, no delta inspected. Fresh search not exhaustive. SambaNova employer pages generic; Integra full JD/form readable. Both deployed city URLs inaccessible; main source pages readable. .github/workflows NOT_FOUND on readable main; no scraping workflow confirmed; Pages deployment is not discovery. No scraper created; exclusions, applications and archives preserved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "verification-pending",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-26T05:08:20Z",
+    "evidence": {}
+  }
+}
