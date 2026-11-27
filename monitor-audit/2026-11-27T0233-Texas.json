@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-27T08:33:54Z",
+  "checkedAt": "2026-11-27T08:34:41Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "f470a9a09143c962e99a5e5d869383c791dc6258",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-27T0156-Texas.json",
+      "sha": "e7678310fc72e2531459a529b72e76c1314028c9",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-27T07:58:22Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "fd91ade444370f8fb6d883884c8e05b9a39ebe70",
+      "baselineReadmeSha": "cdfdb83fc29c24df6f8804081fe8b8fb18e139ed",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "readmeCommitsInspected": [
+        "c69d7cf5964f3c08ba683dea1b0b1ff5d672e0fa"
+      ],
+      "rawCommitsInspected": [
+        "25bfd435336c17c260742151e7f15d9794e9c8d5"
+      ],
+      "rawCommitsUninspected": [
+        "35533e8691c947c94b94078df99b3478f42852c4",
+        "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+        "36b93182d622dacdc7be77475ce025b03f556947",
+        "ca74bdf6f83c2464bc22d859aea49ee5f0198795"
+      ],
+      "result": "32 metro apply links unchanged. README patch only age/company display updates;new raw patch adds Torch software entrylevel HuntsvilleAL,notTexas.08:02 raw files/diff null on two fetches;prior pending retained."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "d1641627e6e7115fe33befcce7c7901f3354f698",
+      "baselineReadmeSha": "d1641627e6e7115fe33befcce7c7901f3354f698",
+      "latestCommit": "69b11bf0862966bebc1f213edb2a1f8177ded54a",
+      "result": "README and latest commit unchanged."
+    },
+    "otherSources": [
+      "Fresh system1/system2 Dallas/Austin2027AI/DS searches;official CleanSlate/Integra rechecks;selfpublishing official JD investigation."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-unverified",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin full-time AssociateAI/ML JD with Apply link live; coursework/projects accepted,no numeric minimum,guided production GenAI/agent development,evaluation and deployment support. Post-May2027start,OPT/STEM,pay and clear Ryan upgrade remain unconfirmed. No notification/addition."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official Austin full-time Summer2027 JD/application live;fraud/econometric investigations,R/Python/SQL,no numeric minimum. No sponsorship;OPT/STEM acceptance,pay and clear Ryan upgrade unconfirmed. No notification/addition."
+      },
+      {
+        "classification": "newly-investigated-unverified",
+        "id": "selfpublishing-289ceb7a-3002-4bdc-ba12-45d79ce6e93f",
+        "source": "https://ats.rippling.com/selfpublishingcom-careers/jobs/289ceb7a-3002-4bdc-ba12-45d79ce6e93f",
+        "result": "Official live JD with Apply now;WestLakeHills/Austin5daysinperson,fulltime40h,90-125K. LLMAPI/agent/automation n8nZapierMake,PythonJS/APIwebhooksHubSpot,production tools and business revenue/R&D ownership. No numeric minimum but requires shipped everyday-use tools,not merely prototypes. PostMay2027start,OPT/STEM/I983/sponsorship not disclosed;2027revenuegoal is not2027graduate intake proof. Salaryrange alone not confirmed offer/clearRyanupgrade given platform,mentoring,relocation opportunity cost. No job data addition or alert."
+      }
+    ],
+    "coverage": "Incremental,not exhaustive335-record/all-ATS revalidation. Full main jobs.json,citysourcepages,latest audit/commits and upstream READMEs read;Simplify32metro links compared,newest README/raw patch inspected. One new Texas search lead officialJD investigated;two official existing JDs rechecked. Four raw upstream deltas remain uninspected;latest attempted twice. Both deployed URLs inaccessible,source pages readable. .github/workflowsNOT_FOUND on readablemain;Pages deployment is not discovery. Exclusions,applications,archives preserved;no scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "pendingVerification": [
+      "35533e8691c947c94b94078df99b3478f42852c4",
+      "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+      "36b93182d622dacdc7be77475ce025b03f556947",
+      "ca74bdf6f83c2464bc22d859aea49ee5f0198795"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-27T07:58:22Z"
+  }
+}
