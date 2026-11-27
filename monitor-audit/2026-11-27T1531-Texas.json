@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-27T21:31:20Z",
+  "checkedAt": "2026-11-27T21:31:48Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "dc7acba1d90aaf7f65e540fe53c32681b71310a5",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-27T1422-Texas.json",
+      "sha": "18ae2785917481b38403683046fa8f570fcccd8a",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-27T20:23:25Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "e7c408256a52be91a1602e18d393b60441ff5acb",
+      "baselineReadmeSha": "e7c408256a52be91a1602e18d393b60441ff5acb",
+      "latestReadmeCommit": "3caa962ca79034b038c086176f848f5cb9fdcffd",
+      "rawCommitsInspected": [],
+      "rawCommitsUninspected": [
+        "35533e8691c947c94b94078df99b3478f42852c4",
+        "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+        "36b93182d622dacdc7be77475ce025b03f556947",
+        "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+        "2481f57dbe4931e54be6720c7018963767a9d088",
+        "aaea55fd0f076c1d14a10da933f7721921db39da",
+        "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+        "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+        "312c0f79f413d46095930423c9196200f67d1e79",
+        "85ef9c08c45a76f29f347072f15232930aabeff3",
+        "f48176217cd23469563bf776474cf1a983e7f09d",
+        "61603fe2a34393ac280e70933bc24390970ddaf2",
+        "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+        "6c475490e38ea4b8a7c648eba73461808991505d",
+        "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+        "7ea9fa88c51f87104fbe990a6f0725109328d659",
+        "d2616170a73b2aa43200e231e12874e97e0b112b",
+        "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+        "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258"
+      ],
+      "result": "README unchanged. Two new raw commits20:31/21:02 fetched twice each, files/diff null. Seventeen earlier pending deltas retained."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "c478da4db6715a64099b1310d25e06ce0e794efe",
+      "baselineReadmeSha": "c478da4db6715a64099b1310d25e06ce0e794efe",
+      "latestCommit": "c490d9679c3ff94a197ee75014afd0c6220e8295",
+      "result": "README/latest commit unchanged."
+    },
+    "otherSources": [
+      "Fresh system2 Dallas/Austin newgradAI/ML searches; system1 official Lever/Greenhouse discovery; official Baasi and Confer JD/application rechecks."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Baasi-4RV39X7V",
+        "source": "https://careers-page.com/baasi/job/4RV39X7V",
+        "result": "Official Austin ML Engineer JD and Apply live. LoRA/QLoRA PyTorch/HuggingFace PEFT pipelines, versioned adapters, training monitoring/backend integration; no numeric minimum, occasional office. CUDA/ROCm usage alone is not hardware duties. PostMay2027 start, employment terms, OPT/STEM, pay and clear Ryan upgrade unverified. No record/alert."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Confer-ai-engineer",
+        "source": "https://confersolutions.ai/careers/ai-engineer",
+        "result": "Official McKinney hybrid fulltime junior JD/application live. Fullstack agents/MCP/Docker/Linux, customer production systems, shipped agent project required; no numeric minimum or specific degree. Immediate visa sponsorship and OPT/STEM expiry questions do not confirm OPT/STEM/I983 acceptance. PostMay2027 start, pay and clear Ryan upgrade unknown. No record/alert."
+      }
+    ],
+    "coverage": "Incremental, not exhaustive335-record/all-ATS revalidation. Full main jobs.json, both sourcecitypages, latest audit/commits and both upstream READMEs read. Both READMEs unchanged.19 raw deltas remain pending, two latest fetched twice without files/diff. Official search also returned internships/senior roles; these do not establish a qualifying fulltime opening. Both published city URLs inaccessible; source pages readable. .github/workflows NOT_FOUND on readable main; Pages deployment is not job discovery. Exclusions, application statuses and archives preserved; no scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back exact content."
+    ],
+    "pendingVerification": [
+      "35533e8691c947c94b94078df99b3478f42852c4",
+      "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+      "36b93182d622dacdc7be77475ce025b03f556947",
+      "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+      "2481f57dbe4931e54be6720c7018963767a9d088",
+      "aaea55fd0f076c1d14a10da933f7721921db39da",
+      "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+      "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+      "312c0f79f413d46095930423c9196200f67d1e79",
+      "85ef9c08c45a76f29f347072f15232930aabeff3",
+      "f48176217cd23469563bf776474cf1a983e7f09d",
+      "61603fe2a34393ac280e70933bc24390970ddaf2",
+      "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+      "6c475490e38ea4b8a7c648eba73461808991505d",
+      "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+      "7ea9fa88c51f87104fbe990a6f0725109328d659",
+      "d2616170a73b2aa43200e231e12874e97e0b112b",
+      "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+      "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-27T20:23:25Z",
+    "consecutiveWriteFailures": 0
+  }
+}
