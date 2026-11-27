@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-27T14:15:59Z",
+  "checkedAt": "2026-11-27T14:16:32Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "1d6347bf59f4b722ee50b948173125331f99f8c0",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-27T0721-Texas.json",
+      "sha": "b709d0fdbf4332a540eb170587f6f352e568fada",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-27T13:22:37Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "a357d4f408c2892b018605f28f38ed67d47b02f6",
+      "baselineReadmeSha": "a357d4f408c2892b018605f28f38ed67d47b02f6",
+      "rawCommitsUninspected": [
+        "35533e8691c947c94b94078df99b3478f42852c4",
+        "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+        "36b93182d622dacdc7be77475ce025b03f556947",
+        "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+        "2481f57dbe4931e54be6720c7018963767a9d088",
+        "aaea55fd0f076c1d14a10da933f7721921db39da",
+        "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+        "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+        "312c0f79f413d46095930423c9196200f67d1e79",
+        "85ef9c08c45a76f29f347072f15232930aabeff3",
+        "f48176217cd23469563bf776474cf1a983e7f09d"
+      ],
+      "result": "README unchanged. Latest14:02and13:31rawcommits each fetched twice,files/diffnull;uninspected. Nine priorpending rawdeltas retained."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "d1641627e6e7115fe33befcce7c7901f3354f698",
+      "baselineReadmeSha": "d1641627e6e7115fe33befcce7c7901f3354f698",
+      "latestCommit": "69b11bf0862966bebc1f213edb2a1f8177ded54a",
+      "result": "README and latest commit unchanged."
+    },
+    "otherSources": [
+      "Fresh system1/system2Dallas/Austin2027AI/DSsearches;officialMyriad360/selfpublishingrechecks."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-unverified",
+        "id": "Myriad360-8930382002",
+        "source": "https://job-boards.greenhouse.io/myriad360/jobs/8930382002",
+        "result": "OfficialJD/applicationlive;RemoteUS,0-2years includescoursework/intern/projects,up to10%travel. Guided GPT/agents/PowerPlatformStackAIZapier/APIwebhook/RAG internaltools.85K disclosedNYConly,notTXpay. SponsorshipquestiondoesnotconfirmOPT/STEM. PostMay2027start,Texasemploymentdetails,OPT/STEM andclearRyanupgradeunverified;existingrecordunchanged."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "selfpublishing-289ceb7a-3002-4bdc-ba12-45d79ce6e93f",
+        "source": "https://ats.rippling.com/selfpublishingcom-careers/jobs/289ceb7a-3002-4bdc-ba12-45d79ce6e93f",
+        "result": "OfficialJD/Applynowlive;WestLakeHillsAustin5daysonsite,fulltime40h,90-125K. LLMAPI/agents/n8nZapierMake/PythonJS/HubSpotbusinessautomation/R&Downership. No numericminimum butproductiontrackrecordrequired;2027revenuetargetnotgraduateintakeproof. PostMay2027start,OPT/STEM,payoffer/mentoring/platformupgradeunverified;noaddition/alert."
+      }
+    ],
+    "coverage": "Incremental,not exhaustive335-record/all-ATS revalidation. Fullmainjobs.json,sourcecitypages,latestaudit/commits andbothupstreamREADMEs read;bothREADMEsunchanged. TwoofficialpreviouslyseenJDsrechecked. Elevenupstreamrawdelta patches pending;two latestfetchedtwicewithoutdiff/files. BothdeployedURLs inaccessible,sourcepagesreadable. .github/workflowsNOT_FOUND onreadablemain;Pagesdeploymentisnotjobdiscovery. Exclusions,applications,archivespreserved;noscrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "pendingVerification": [
+      "35533e8691c947c94b94078df99b3478f42852c4",
+      "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+      "36b93182d622dacdc7be77475ce025b03f556947",
+      "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+      "2481f57dbe4931e54be6720c7018963767a9d088",
+      "aaea55fd0f076c1d14a10da933f7721921db39da",
+      "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+      "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+      "312c0f79f413d46095930423c9196200f67d1e79",
+      "85ef9c08c45a76f29f347072f15232930aabeff3",
+      "f48176217cd23469563bf776474cf1a983e7f09d"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-27T13:22:37Z"
+  }
+}
