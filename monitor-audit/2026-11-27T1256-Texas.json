@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-27T18:56:34Z",
+  "checkedAt": "2026-11-27T18:57:24Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "636608ae2f7e64305958199648463f832dc9bf48",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-27T1140-Texas.json",
+      "sha": "335e37ef9f7a43eb87f92094ecf458c25f5959a9",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-27T17:41:10Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "9f9883c3a085127bb147d785b80ccefb8b554700",
+      "baselineReadmeSha": "8954623b1978d12554994568b697f951c467359d",
+      "latestReadmeCommit": "1d2ae1af35fdb3bb30bb6b66ea893add7c6400bb",
+      "rawCommitsInspected": [
+        "6974b49088f12769a7de6c8cda5a05a042e1d091",
+        "9fd8d94fee5ffd6c5619641818030921742c72b7"
+      ],
+      "rawCommitsUninspected": [
+        "35533e8691c947c94b94078df99b3478f42852c4",
+        "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+        "36b93182d622dacdc7be77475ce025b03f556947",
+        "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+        "2481f57dbe4931e54be6720c7018963767a9d088",
+        "aaea55fd0f076c1d14a10da933f7721921db39da",
+        "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+        "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+        "312c0f79f413d46095930423c9196200f67d1e79",
+        "85ef9c08c45a76f29f347072f15232930aabeff3",
+        "f48176217cd23469563bf776474cf1a983e7f09d",
+        "61603fe2a34393ac280e70933bc24390970ddaf2",
+        "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+        "6c475490e38ea4b8a7c648eba73461808991505d",
+        "2c54db493e22df5f876f4e5d22cd1e7da2ce4910"
+      ],
+      "result": "README changed; 32 metro URLs unchanged. Raw patches only inactivate Stifel Treasury Analytics aliases and Jerry Product Manager; no target AI/ML/DS addition. Fifteen earlier unavailable deltas remain pending."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "c478da4db6715a64099b1310d25e06ce0e794efe",
+      "baselineReadmeSha": "c478da4db6715a64099b1310d25e06ce0e794efe",
+      "latestCommit": "c490d9679c3ff94a197ee75014afd0c6220e8295",
+      "result": "Correct repository Tar-ive/ML_Newgrad_2027 README/latest commit unchanged. Initial typo tarive/2027-New-Grad returned404; corrected and successfully read."
+    },
+    "otherSources": [
+      "Fresh system2 Dallas/Austin2027AI/DS searches; system1 official-source follow-up; four candidate checks."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new-to-current-jobs-json-unverified",
+        "id": "CameraMatics-8799822",
+        "source": "https://cameramatics-1639649453.teamtailor.com/jobs/8799822-ai-graduate-on-site",
+        "result": "Employer careers lists role; official Teamtailor JD/Apply visible after initial retrieval failure. Downtown Austin onsite recent graduate, quantitative/AI degree and basic programming; no numeric minimum. AI tools/models, business automation and video analytics; company hardware context alone does not imply excluded duties. Employment terms, postMay2027start, OPT/STEM, pay and clear Ryan upgrade unverified. No record/alert."
+      },
+      {
+        "classification": "new-to-current-jobs-json-unverified",
+        "id": "webAI-571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "source": "https://jobs.ashbyhq.com/webAI/571ff25a-c3ad-44f5-8f35-f4a7944899df",
+        "result": "Official employer careers lists Jr Software Developer Austin and links Ashby requisition. ATS returns JavaScript shell, not readable JD. Secondary sources describe 0–2 including internships, React/TypeScript/Tauri/Node agentic developer tools and senior review; these remain unofficial. 2027start, OPT/STEM, pay and clear Ryan upgrade unknown. H1B history is not OPT proof. No record/alert."
+      },
+      {
+        "classification": "existing-unverified",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin fulltime JD/Apply live. Foundational AI/ML/Python coursework/projects/internships accepted, no numeric minimum; guided production GenAI/agents, evaluation and integration. 2027start, OPT/STEM, pay and clear Ryan upgrade unverified. No status change/alert."
+      },
+      {
+        "classification": "existing-unverified",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official Austin fulltime Summer2027 JD/application live; quantitative background R/Python/SQL, no numeric minimum; fraud investigations/econometrics. No sponsorship stated; citizenship question is not itself citizen-only restriction. OPT/STEM, pay and clear Ryan upgrade unverified. No status change/alert."
+      }
+    ],
+    "coverage": "Incremental, not exhaustive335-record/all-ATSrevalidation. Fullmain jobs.json, bothcitysourcepages, latest audit/commits and bothcorrect upstream READMEs read. Two metro leads absent from current jobs.json; historical-audit novelty not exhaustively established, no notification. Fifteen old raw deltas pending. Published Dallas/Austin URLs inaccessible, source pages readable. .github/workflowsNOT_FOUND on readablemain; Pages deployment is not job discovery. No scraper created; exclusions/applications/JDarchives preserved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back exact content."
+    ],
+    "pendingVerification": [
+      "35533e8691c947c94b94078df99b3478f42852c4",
+      "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+      "36b93182d622dacdc7be77475ce025b03f556947",
+      "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+      "2481f57dbe4931e54be6720c7018963767a9d088",
+      "aaea55fd0f076c1d14a10da933f7721921db39da",
+      "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+      "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+      "312c0f79f413d46095930423c9196200f67d1e79",
+      "85ef9c08c45a76f29f347072f15232930aabeff3",
+      "f48176217cd23469563bf776474cf1a983e7f09d",
+      "61603fe2a34393ac280e70933bc24390970ddaf2",
+      "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+      "6c475490e38ea4b8a7c648eba73461808991505d",
+      "2c54db493e22df5f876f4e5d22cd1e7da2ce4910"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-27T17:41:10Z",
+    "consecutiveWriteFailures": 0
+  }
+}
