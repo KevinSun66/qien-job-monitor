@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-27T05:52:45Z",
+  "checkedAt": "2026-11-27T05:54:33Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "e29a0a74bf43d732c5c91fa62b017e46bee0b151",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-26T2216-Texas.json",
+      "sha": "e922e5a0cfdd0251364643dbd77b9b42b7735566",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-27T04:19:21Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "fbed391dff59e140a45ccf03949a94d7d9b9968d",
+      "baselineReadmeSha": "bd23afcbd448553a5c38a5faac46d8b29568d466",
+      "metroDelta": {
+        "before": 32,
+        "after": 32,
+        "added": [],
+        "removed": []
+      },
+      "readmeCommitsInspected": [
+        "03b680474a0b9a20c8801f014282db5c0b267d24",
+        "7785d55e5dc2008f4bf87c43770d848fda9f40ae"
+      ],
+      "rawCommitsInspected": [
+        "69afad4aff738c9a61ef7a26fd0ad25bbe6b95fc"
+      ],
+      "rawCommitsUninspected": [
+        "35533e8691c947c94b94078df99b3478f42852c4",
+        "cdc2a18b7ce40715d9d0697565041362ac14d4be"
+      ],
+      "result": "32 metro apply links unchanged. Inspected latest raw patch deactivates Citadel/OakView listings,not new Texas opportunities. Two raw patches unavailable(files/diff null);prior pending delta retained."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "d1641627e6e7115fe33befcce7c7901f3354f698",
+      "baselineReadmeSha": "6980d620a1def147a906816a651bbae9a7e93d33",
+      "latestCommit": "69b11bf0862966bebc1f213edb2a1f8177ded54a",
+      "delta": {
+        "before": 482,
+        "after": 473,
+        "added": [],
+        "removed": [
+          [
+            "https://lifeattiktok.com/search/7668582542044072245",
+            "| **TikTok** | Software Engineer Graduate (Data Arch - E-commerce) - 2027 Start | Seattle, Washington, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7668582542044072245) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7674029284265838853",
+            "| **TikTok** | Software Engineer - TikTok Search Engine | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7674029284265838853) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7626968373985429765",
+            "| **TikTok** | Software Engineer, AI Agent | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7626968373985429765) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7668724383120804149",
+            "| **TikTok** | Software Engineer Graduate (Ads Signal & Measurement) - 2027 Start | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7668724383120804149) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7675829388634392837",
+            "| **TikTok** | Software Engineer Graduate (TikTok Search Data Infra) - 2027 Start | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7675829388634392837) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7639632990934960389",
+            "| **TikTok** | Software Engineer, Pangle - SIA | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7639632990934960389) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7231665935751940413",
+            "| **TikTok** | Software Engineer, Ads Integrity | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7231665935751940413) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7280570149262117179",
+            "| **TikTok** | Software Engineer - Infrastructure, TikTok Search Engine | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7280570149262117179) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7527441329384147208",
+            "| **TikTok** | Software Engineer Graduate (Data Arch - Data Ecosystem ) - 2026 (PhD) | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7527441329384147208) |"
+          ]
+        ]
+      },
+      "result": "0 URL additions,9 removals,all Seattle/SanJose TikTok roles. Source removals are not official closure confirmations."
+    },
+    "otherSources": [
+      "Fresh system1/system2 Dallas/Austin AI/DS searches;official CleanSlate/Integra rechecks;Dallas S&P332351 and RoboticsTechnologiesJ56615/J56727 investigation."
+    ],
+    "newTexasLeadsReviewed": 3,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-unverified",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "Official Austin full-time AssociateAI/ML JD with Apply link live; coursework/projects accepted,no numeric minimum,guided production GenAI/agent development,evaluation and deployment support. Post-May2027start,OPT/STEM,pay and clear Ryan upgrade remain unconfirmed. No notification/addition."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "Official Austin full-time Summer2027 JD/application live;fraud/econometric investigations,R/Python/SQL,no numeric minimum. No sponsorship;OPT/STEM acceptance,pay and clear Ryan upgrade unconfirmed. No notification/addition."
+      },
+      {
+        "classification": "unverified-search-lead",
+        "id": "SPGlobal-332351",
+        "source": "https://spgi.wd5.myworkdayjobs.com/spgi_careers/job/Dallas-TX/Associate--AI-Solutions---Enablement_332351-1",
+        "result": "Distinct Dallas req332351 resolved from secondary apply link;official Workday returns no readable JD. Mirror says indefinite US right-to-work required,85-90K,AI workflow prototypes/evaluation/adoption,no numeric minimum. Different NYC332349official search-index text must not substitute for Dallas. Dallas actual opening/start/OPT not verified;no clear Ryan upgrade. No data addition or alert. Official careers332351 also returned403."
+      },
+      {
+        "classification": "contract-rejected",
+        "id": "RoboticsTechnologies-J56615",
+        "source": "https://roboticstechno.com/view_job?hr_id=3487&id=40215&mode=apply",
+        "result": "Official staffing JD/application live,Dallas,11-month extendable W2/1099/C2C contract;OPT-EAD explicitly included but STEM/I983 not confirmed. Python/Devin/Cursor agent workflows for application modernization,no numeric minimum. 73/hour is C2C bill rate,not employee pay. Not permanent2027graduate offer;post-May2027start/benefits/client/Ryan upgrade unverified. No data addition or alert."
+      },
+      {
+        "classification": "contract-rejected",
+        "id": "RoboticsTechnologies-J56727",
+        "source": "https://roboticstechno.com/view_job?hr_id=3487&id=40327&mode=apply",
+        "result": "Official staffing JD/application live,Dallas,10-month extendable W2/1099/C2C contract;OPT-EAD explicitly included but STEM/I983 not confirmed. Python/Devin/Cursor agent workflows for application modernization,no numeric minimum. 78/hour is C2C bill rate,not employee pay. Not permanent2027graduate offer;post-May2027start/benefits/client/Ryan upgrade unverified. No data addition or alert."
+      }
+    ],
+    "coverage": "Incremental,not exhaustive335-record/all-ATS revalidation. Full main jobs.json,source city pages,latest audit/commits read;both upstream READMEs compared against prior commit snapshots. Two official existing JDs rechecked,three distinct search lead requisitions reviewed. Two raw upstream deltas remain uninspected due null diff/files. Deployed URLs inaccessible,source pages readable. .github/workflows absent via NOT_FOUND on readablemain;Pages deployment is not job discovery. No scraper created;exclusions,applications,archives preserved."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "lastSuccessfulWriteAt": "2026-11-27T04:19:21Z",
+    "pendingVerification": [
+      "35533e8691c947c94b94078df99b3478f42852c4",
+      "cdc2a18b7ce40715d9d0697565041362ac14d4be"
+    ]
+  }
+}
