@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-27T09:28:48Z",
+  "checkedAt": "2026-11-27T09:29:20Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "17053e5d83640e48ad651a14b8df6e6d82c83175",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-27T0233-Texas.json",
+      "sha": "5097859386b72136b0c78f331ac3aac43f5b91e4",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-27T08:35:15Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "fd91ade444370f8fb6d883884c8e05b9a39ebe70",
+      "baselineReadmeSha": "fd91ade444370f8fb6d883884c8e05b9a39ebe70",
+      "result": "README unchanged. Latest09:02 rawcommit fetched twice,files/diff null;delta uninspected. Four earlier pending raw deltas retained.",
+      "rawCommitsUninspected": [
+        "35533e8691c947c94b94078df99b3478f42852c4",
+        "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+        "36b93182d622dacdc7be77475ce025b03f556947",
+        "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+        "2481f57dbe4931e54be6720c7018963767a9d088"
+      ]
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "d1641627e6e7115fe33befcce7c7901f3354f698",
+      "baselineReadmeSha": "d1641627e6e7115fe33befcce7c7901f3354f698",
+      "latestCommit": "69b11bf0862966bebc1f213edb2a1f8177ded54a",
+      "result": "README and latest commit unchanged."
+    },
+    "otherSources": [
+      "Fresh system1/system2 Dallas/Austin2027AI/DS searches;official Baasi/Confer rechecks."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Baasi-4RV39X7V",
+        "source": "https://careers-page.com/baasi/job/4RV39X7V",
+        "result": "Official AustinML JD withApply live;LoRAQLoRA/PyTorch/HuggingFacePEFT training pipelines,adapter export,monitoring,backendintegration,LinuxCUDA/ROCm. No numeric minimum;occasional office. Not excluded merely becauseGPU. Fulltime2027postMaystart,OPT/STEM,pay and clearRyanupgrade not verified;no newjob record or alert."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Confer-ai-engineer",
+        "source": "https://confersolutions.ai/careers/ai-engineer",
+        "result": "Official live fulltimejuniorMcKinneyhybridJD/application;fullstackAIagents,MCP,Docker/Linux,productiondeployment/customerwork;no numeric minimum or degree requirement. Requires shippedagentproject. Asks about immediate sponsorship and months until OPT/STEM expiry;this is not acceptance/I983 confirmation. PostMay2027start,pay,STEMsupport and clearRyanupgrade unverified;no jobrecord or alert."
+      }
+    ],
+    "coverage": "Incremental,not exhaustive335-record/all-ATS revalidation. Full main jobs.json,sourcecitypages,latest audit/commits and both upstream READMEs read;both READMEs unchanged. Fresh searches and two official previouslyseenJDrechecks. Latest rawdelta unavailabletwice;five upstream raw deltas pending. Both deployed URLs inaccessible,source pages readable. .github/workflowsNOT_FOUND on readablemain;Pages deployment is not jobdiscovery. Exclusions,applications,archives preserved;no scrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back content."
+    ],
+    "pendingVerification": [
+      "35533e8691c947c94b94078df99b3478f42852c4",
+      "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+      "36b93182d622dacdc7be77475ce025b03f556947",
+      "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+      "2481f57dbe4931e54be6720c7018963767a9d088"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-27T08:35:15Z"
+  }
+}
