@@ -106,14 +106,16 @@
     "dallasPage": "not-attempted",
     "austinPage": "not-attempted",
     "archives": "not-attempted",
-    "audit": "write-pending-verification",
-    "synced": false,
-    "pending": [
-      "Verify audit commit and read back content."
-    ],
-    "lastSuccessfulWriteAt": "2026-11-27T03:54:41Z",
+    "audit": "succeeded-and-read-back",
+    "synced": true,
+    "pending": [],
+    "lastSuccessfulWriteAt": "2026-11-27T04:19:07Z",
     "pendingVerification": [
       "Inspect Simplify raw delta cdc2a18b7ce40715d9d0697565041362ac14d4be when diff becomes available."
-    ]
+    ],
+    "evidence": {
+      "verifiedAuditCommit": "59cea75dc279c2127ee24dba70638f223302ba99",
+      "verifiedAuditBlob": "b0999a968470c88b52394611558ed997c590e168"
+    }
   }
 }
