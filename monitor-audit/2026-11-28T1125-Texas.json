@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-28T17:25:18Z",
+  "checkedAt": "2026-11-28T17:26:18Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "b5757be0d82807a622f7ed5790a93d4b80cec62d",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-28T1051-Texas.json",
+      "sha": "c8729d1c2b43168b6fe217ec28d43f373358c9fa",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-28T16:52:43Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "ecbe6bf8b69ef7439558de7c7e688b5f8f2a724a",
+      "baselineReadmeSha": "ecbe6bf8b69ef7439558de7c7e688b5f8f2a724a",
+      "latestReadmeCommit": "102316871916c1d821b9fecdefe7b492e95b7e56",
+      "latestRawCommit": "99e1e5d0490c7a8d1fa23e1253a49bfbe3a9a5c4",
+      "rawCommitsInspected": [],
+      "rawCommitsUninspected": [
+        "35533e8691c947c94b94078df99b3478f42852c4",
+        "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+        "36b93182d622dacdc7be77475ce025b03f556947",
+        "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+        "2481f57dbe4931e54be6720c7018963767a9d088",
+        "aaea55fd0f076c1d14a10da933f7721921db39da",
+        "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+        "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+        "312c0f79f413d46095930423c9196200f67d1e79",
+        "85ef9c08c45a76f29f347072f15232930aabeff3",
+        "f48176217cd23469563bf776474cf1a983e7f09d",
+        "61603fe2a34393ac280e70933bc24390970ddaf2",
+        "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+        "6c475490e38ea4b8a7c648eba73461808991505d",
+        "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+        "7ea9fa88c51f87104fbe990a6f0725109328d659",
+        "d2616170a73b2aa43200e231e12874e97e0b112b",
+        "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+        "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258",
+        "3895460b745f3807a0111935c428317f5e3d5ce2",
+        "5f654614affbd0fc4b1ae53547be882d66e0e5b9",
+        "6a6d1084f83015b25c1336aaac09f2f1f3141982",
+        "c2bb6c5f9414aba5eb3ee16ff327c22d2dc7de28",
+        "3ea093984ee0f6d8c8783af0e417cd8b0f4a7009",
+        "97197b465d12480d35df633c1449a84f83ab2015",
+        "eb995ab03995beb1b4b0a27247f2dcb5c484c7b0",
+        "e751029bcae7d743d46773a3e0394b536861e781",
+        "39a1f5cbc4d7a4ecfb7247f0c444e3e7df7d5e83",
+        "9b6f9814c44d80fc8cbabc28b1d24959832703a7",
+        "6a568f16d1f839690b49eb4df5fc4daf9d429c55",
+        "043f8f9125cddb6d7cbd1181cfc3f90ea7455559",
+        "fb989cf9d34c8a299c42a1d7b12f17f16decc005",
+        "5a6b6da9fdee1a79225726b65709513e3065c292",
+        "6a3f004ddd4c71d5f5ce0dfecb4e3babd7673c05",
+        "1015ec7a2bef52f4faa9909416687d72569696af",
+        "99e1e5d0490c7a8d1fa23e1253a49bfbe3a9a5c4"
+      ],
+      "metroDelta": {
+        "before": 33,
+        "after": 33,
+        "added": [],
+        "removed": []
+      },
+      "result": "READMEunchanged;newrawcommitnull diff/files twice,retaineduninspected."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "7c3fba23c7b5c7ac9070043ee4661370f1c7cc90",
+      "baselineReadmeSha": "39c38c9ab98f5e0f084f819054cf970be1472c86",
+      "latestCommit": "95d8afd66e2bf8144d73f96f8732d0ec66bc2578",
+      "urlDelta": {
+        "before": 490,
+        "after": 490,
+        "added": [
+          [
+            "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Research-Scientist_R173584",
+            "| **Adobe** | 2027 University Graduate - Research Scientist | San Jose, CA | **4d** | [Apply](https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Research-Scientist_R173584) |"
+          ],
+          [
+            "https://careers-mercuryinsurance.icims.com/jobs/7485/job?in_iframe=1",
+            "| **Mercury** | AI Engineer I | California, United States | **5d** | [Apply](https://careers-mercuryinsurance.icims.com/jobs/7485/job?in_iframe=1) |"
+          ],
+          [
+            "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-REMOTE/Full-Stack-AI-ML-Developer--Remote-_01890761",
+            "| **RTX (Raytheon)** | Full Stack AI/ML Developer (Remote) | US-CT-REMOTE | **7d** | [Apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-REMOTE/Full-Stack-AI-ML-Developer--Remote-_01890761) |"
+          ],
+          [
+            "https://ats.rippling.com/free-market-health/jobs/23d56451-04d9-48e8-8872-4e97c313a230",
+            "| **Free Market Health's** | AI Engineer I | Pittsburgh, PA | 9d | [Apply](https://ats.rippling.com/free-market-health/jobs/23d56451-04d9-48e8-8872-4e97c313a230) |"
+          ],
+          [
+            "https://vst.wd5.myworkdayjobs.com/en-US/vistra_careers/job/Irving-Texas/Data-Scientist_40016989-2",
+            "| **[Vistra](https://vistracorp.com/)** | Data Scientist | Irving, TX | 9d | [Apply](https://vst.wd5.myworkdayjobs.com/en-US/vistra_careers/job/Irving-Texas/Data-Scientist_40016989-2) |"
+          ],
+          [
+            "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/United-States-Work-at-Home/Data-Science-Advisor---EviCore---Remote_26014035",
+            "| **Cigna** | Data Science Advisor - EviCore - Remote | United States Work at Home | 10d | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/United-States-Work-at-Home/Data-Science-Advisor---EviCore---Remote_26014035) |"
+          ],
+          [
+            "https://careers-here.icims.com/jobs/85071/data-scientist/job",
+            "| **HERE Technologies** | Data Scientist | Chicago, IL | 10d | [Apply](https://careers-here.icims.com/jobs/85071/data-scientist/job) |"
+          ],
+          [
+            "https://careers.cdmsmith.com/jobs/4994?icims=1&lang=en-us",
+            "| **[CDM Smith](https://simplify.jobs/c/CDM-Smith)** | Artificial Intelligence/Machine Learning Developer | Fairfax, VA | 11d | [Apply](https://careers.cdmsmith.com/jobs/4994?icims=1&lang=en-us) |"
+          ],
+          [
+            "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Texas/AI-Engineer-II_R14847",
+            "| **Proofpoint** | AI Engineer | Texas, USA +6 | 12d | [Apply](https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Texas/AI-Engineer-II_R14847) |"
+          ]
+        ],
+        "removed": [
+          [
+            "https://lifeattiktok.com/search/7668582542044072245",
+            "| **TikTok** | Software Engineer Graduate (Data Arch - E-commerce) - 2027 Start | Seattle, Washington, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7668582542044072245) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7674029284265838853",
+            "| **TikTok** | Software Engineer - TikTok Search Engine | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7674029284265838853) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7626968373985429765",
+            "| **TikTok** | Software Engineer, AI Agent | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7626968373985429765) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7675829388634392837",
+            "| **TikTok** | Software Engineer Graduate (TikTok Search Data Infra) - 2027 Start | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7675829388634392837) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7668724383120804149",
+            "| **TikTok** | Software Engineer Graduate (Ads Signal & Measurement) - 2027 Start | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7668724383120804149) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7639632990934960389",
+            "| **TikTok** | Software Engineer, Pangle - SIA | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7639632990934960389) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7231665935751940413",
+            "| **TikTok** | Software Engineer, Ads Integrity | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7231665935751940413) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7280570149262117179",
+            "| **TikTok** | Software Engineer - Infrastructure, TikTok Search Engine | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7280570149262117179) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7527441329384147208",
+            "| **TikTok** | Software Engineer Graduate (Data Arch - Data Ecosystem ) - 2026 (PhD) | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7527441329384147208) |"
+          ]
+        ]
+      },
+      "result": "490URLsunchangedcount:9adds9removals. NineTikTokSeattle/SanJose rowsremoved;9previouslyseen/nonmetro/restoredrowsaddedincludingVistra40016989-2,ProofpointR14847,Cigna26014035. Source restorationnotnewjob/reopening. AdobeCA,MercuryCA,FreeMarketHealthPA,HEREChicago,CDMFairfaxandRTXCTremotesourcerowsnotverifiedTexasqualifiers."
+    },
+    "otherSources": [
+      "Fresh system2 Dallas/Austin2027AppliedAI/DSdiscovery; officialAccenture/BaasiJDs; exactVistra/ProofpointWorkdayattempts; officialCigna410; publishedcityURLs attempted."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 5,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "previously-seen-source-restored-open-unverified",
+        "id": "Vistra-40016989-2",
+        "source": "https://vst.wd5.myworkdayjobs.com/en-US/vistra_careers/job/Irving-Texas/Data-Scientist_40016989-2",
+        "result": "TariverestoresURL;officialWorkdayinaccessible. Liveopening/experience/start/OPTnotverified;notnew/reopeningproof,nojobrecord/alert."
+      },
+      {
+        "classification": "previously-seen-source-restored-open-unverified",
+        "id": "Proofpoint-R14847",
+        "source": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Texas/AI-Engineer-II_R14847",
+        "result": "TariverestoresURL;officialWorkdayinaccessible. Liveopening/experience/start/OPTnotverified;nojobrecord/alert."
+      },
+      {
+        "classification": "previously-seen-official-gone",
+        "id": "Cigna-26014035",
+        "source": "https://jobs.thecignagroup.com/us/en/job/26014035/Data-Science-Advisor-EviCore-Remote",
+        "result": "ExactofficialcareersURLstillHTTP410Gone. Upstreamrestorationnotreopening;nojobrecord/alert."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Accenture-R00372691",
+        "source": "https://www.accenture.com/us-en/careers/jobdetails?id=R00372691_en",
+        "result": "OfficialJDpageavailable. Austin/IrvingFTearlycareer,BachelorbyJune2027,academic/internexperienceaccepted,nonumericminimum;fullstack/APIdeliveryusingAIcodingtools. Priorverifiednoemploymentvisasponsorshipnow/futureisnotOPT-STEMconfirmation. PostMay2027start/Texaspay/travel/assignment/clearRyanupgraderemainunverified."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Baasi-4RV39X7V",
+        "source": "https://careers-page.com/baasi/job/4RV39X7V",
+        "result": "OfficialAustinJDavailable;LoRA/QLoRAtrainingpipelines/adapters/evaluation/backendintegration,nonumericminimum,occasionaloffice. CUDA/ROCmusealoneisnothardwarecore. FT/postMay2027start/OPT-STEM/pay/clearRyanupgradeunverified."
+      }
+    ],
+    "coverage": "Incremental,not exhaustive335-record/allATSrevalidation. Fullmainjobs.json,citysourcepages,latestaudit/commits,bothupstreamREADMEs andTariveURLdelta read.36rawupstreamdeltas and2priorcandidateverificationsretained;distinctfrompendingGitHubwrites. PublishedcityURLsinaccessible;mainsourcesreadable. .github/workflowsNOT_FOUND onreadablemain;Pagesdeploymentnotjobdiscovery. Exclusions/applicationstatuses/JDarchivespreserved;noscrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "verify-current-audit-write"
+    ],
+    "pendingVerification": [
+      "35533e8691c947c94b94078df99b3478f42852c4",
+      "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+      "36b93182d622dacdc7be77475ce025b03f556947",
+      "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+      "2481f57dbe4931e54be6720c7018963767a9d088",
+      "aaea55fd0f076c1d14a10da933f7721921db39da",
+      "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+      "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+      "312c0f79f413d46095930423c9196200f67d1e79",
+      "85ef9c08c45a76f29f347072f15232930aabeff3",
+      "f48176217cd23469563bf776474cf1a983e7f09d",
+      "61603fe2a34393ac280e70933bc24390970ddaf2",
+      "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+      "6c475490e38ea4b8a7c648eba73461808991505d",
+      "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+      "7ea9fa88c51f87104fbe990a6f0725109328d659",
+      "d2616170a73b2aa43200e231e12874e97e0b112b",
+      "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+      "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258",
+      "3895460b745f3807a0111935c428317f5e3d5ce2",
+      "5f654614affbd0fc4b1ae53547be882d66e0e5b9",
+      "6a6d1084f83015b25c1336aaac09f2f1f3141982",
+      "c2bb6c5f9414aba5eb3ee16ff327c22d2dc7de28",
+      "3ea093984ee0f6d8c8783af0e417cd8b0f4a7009",
+      "97197b465d12480d35df633c1449a84f83ab2015",
+      "eb995ab03995beb1b4b0a27247f2dcb5c484c7b0",
+      "e751029bcae7d743d46773a3e0394b536861e781",
+      "39a1f5cbc4d7a4ecfb7247f0c444e3e7df7d5e83",
+      "9b6f9814c44d80fc8cbabc28b1d24959832703a7",
+      "6a568f16d1f839690b49eb4df5fc4daf9d429c55",
+      "043f8f9125cddb6d7cbd1181cfc3f90ea7455559",
+      "fb989cf9d34c8a299c42a1d7b12f17f16decc005",
+      "5a6b6da9fdee1a79225726b65709513e3065c292",
+      "6a3f004ddd4c71d5f5ce0dfecb4e3babd7673c05",
+      "1015ec7a2bef52f4faa9909416687d72569696af",
+      "99e1e5d0490c7a8d1fa23e1253a49bfbe3a9a5c4"
+    ],
+    "pendingCandidateVerification": [
+      "Booz-R0253516 expanded locations/eligibility",
+      "Accenture-R00372691 start/OPT-STEM/Texaspay/travel/upgrade"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-28T16:52:43Z",
+    "consecutiveWriteFailures": 0
+  }
+}
