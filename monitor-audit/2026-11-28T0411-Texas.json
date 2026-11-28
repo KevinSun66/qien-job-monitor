@@ -148,11 +148,9 @@
     "dallasPage": "not-attempted",
     "austinPage": "not-attempted",
     "archives": "not-attempted",
-    "audit": "write-pending-verification",
-    "synced": false,
-    "pending": [
-      "verify-current-audit-write"
-    ],
+    "audit": "succeeded-and-read-back",
+    "synced": true,
+    "pending": [],
     "pendingVerification": [
       "35533e8691c947c94b94078df99b3478f42852c4",
       "cdc2a18b7ce40715d9d0697565041362ac14d4be",
@@ -186,7 +184,11 @@
       "Booz-R0253516 expanded locations/eligibility",
       "Accenture-R00372691 start/OPT-STEM/Texaspay/travel/upgrade"
     ],
-    "lastSuccessfulWriteAt": "2026-11-28T09:39:44Z",
-    "consecutiveWriteFailures": 0
+    "lastSuccessfulWriteAt": "2026-11-28T10:12:06Z",
+    "consecutiveWriteFailures": 0,
+    "evidence": {
+      "verifiedAuditCommit": "05afb432cd94d75ea7c49142069cad8ce7ca2cf7",
+      "verifiedAuditBlob": "95e38908924438aec00eb82cb2880b8674cd943c"
+    }
   }
 }
