@@ -265,11 +265,9 @@
     "dallasPage": "not-attempted",
     "austinPage": "not-attempted",
     "archives": "not-attempted",
-    "audit": "write-pending-verification",
-    "synced": false,
-    "pending": [
-      "verify-current-audit-write"
-    ],
+    "audit": "succeeded-and-read-back",
+    "synced": true,
+    "pending": [],
     "pendingVerification": [
       "35533e8691c947c94b94078df99b3478f42852c4",
       "cdc2a18b7ce40715d9d0697565041362ac14d4be",
@@ -302,7 +300,11 @@
       "Cushman-R336908 expanded locations/eligibility",
       "Booz-R0253516 expanded locations/eligibility"
     ],
-    "lastSuccessfulWriteAt": "2026-11-28T07:41:08Z",
-    "consecutiveWriteFailures": 0
+    "lastSuccessfulWriteAt": "2026-11-28T08:10:05Z",
+    "consecutiveWriteFailures": 0,
+    "evidence": {
+      "verifiedAuditCommit": "80fdf0230c4d5b6ca50bf16183e023d88c341c52",
+      "verifiedAuditBlob": "1d68444cdd0da6c1c821d0d0ae712cb7bc50aa45"
+    }
   }
 }
