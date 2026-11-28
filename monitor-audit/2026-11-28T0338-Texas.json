@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-28T09:38:19Z",
+  "checkedAt": "2026-11-28T09:39:29Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "ef0360b6d5b889940475f2147ac6d05b6a9d89e9",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-28T0208-Texas.json",
+      "sha": "c258a045236bd4e86eb74460948207067ffec82a",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-28T08:10:19Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "b6f21b3346741df7c044cda86b5b190e41b3180e",
+      "baselineReadmeSha": "137d8e95f6735899d533e8ef9d9003d8b8285f9d",
+      "latestReadmeCommit": "489611f899f6d1f49340b4793e378b29359fb0fc",
+      "latestRawCommit": "488a99c0c91ef5d998c9ddc3bdc3fda590f1006e",
+      "rawCommitsInspected": [
+        "b0a442d7d33c0ac72f77f058cfea48a2cbc1e266",
+        "488a99c0c91ef5d998c9ddc3bdc3fda590f1006e"
+      ],
+      "rawCommitsUninspected": [
+        "35533e8691c947c94b94078df99b3478f42852c4",
+        "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+        "36b93182d622dacdc7be77475ce025b03f556947",
+        "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+        "2481f57dbe4931e54be6720c7018963767a9d088",
+        "aaea55fd0f076c1d14a10da933f7721921db39da",
+        "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+        "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+        "312c0f79f413d46095930423c9196200f67d1e79",
+        "85ef9c08c45a76f29f347072f15232930aabeff3",
+        "f48176217cd23469563bf776474cf1a983e7f09d",
+        "61603fe2a34393ac280e70933bc24390970ddaf2",
+        "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+        "6c475490e38ea4b8a7c648eba73461808991505d",
+        "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+        "7ea9fa88c51f87104fbe990a6f0725109328d659",
+        "d2616170a73b2aa43200e231e12874e97e0b112b",
+        "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+        "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258",
+        "3895460b745f3807a0111935c428317f5e3d5ce2",
+        "5f654614affbd0fc4b1ae53547be882d66e0e5b9",
+        "6a6d1084f83015b25c1336aaac09f2f1f3141982",
+        "c2bb6c5f9414aba5eb3ee16ff327c22d2dc7de28",
+        "3ea093984ee0f6d8c8783af0e417cd8b0f4a7009",
+        "97197b465d12480d35df633c1449a84f83ab2015",
+        "eb995ab03995beb1b4b0a27247f2dcb5c484c7b0",
+        "e751029bcae7d743d46773a3e0394b536861e781"
+      ],
+      "metroDelta": {
+        "before": 33,
+        "after": 33,
+        "added": [],
+        "removed": []
+      },
+      "result": "33metroURLs unchanged. Readablepatchesremove3alreadyinactive nonmetrorecords (LegalGeneralLondon,UlineIL/WI,GooglemultiUS) and markHRT8052050inactive. No new listing. Intermediatee751029 returnednull diff/files twice,retaineduninspected."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "f206ef7a2e14874ceb281d8f83ce2dd7d0fedca7",
+      "baselineReadmeSha": "f206ef7a2e14874ceb281d8f83ce2dd7d0fedca7",
+      "latestCommit": "fbfbc04287a4f348d731fd2639936db8fbcdbb96",
+      "result": "README/latestcommit unchanged."
+    },
+    "otherSources": [
+      "Fresh system2 Dallas/Austin2027AppliedAI discovery; system1 exactCushman/Booz/GeniusRoad official verification; CushmanfullofficialJD; Workdayattempts; GeniusRoad404; publishedcityURLs attempted."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "previously-seen-direction-opportunity-cost-rejected",
+        "id": "Cushman-R336908",
+        "source": "https://careers.cushmanwakefield.com/fr/emplois/r336908/research-associate-data-centers-alternatives-practice-groups/",
+        "result": "OfficialfullJD/Applylive;Austin among9locations,hybridFT,0-2yearsinternshipsaccepted,Bachelorquant. Corepropertymarketdatacollection/validation,Excel/PowerPoint,reports/database/presentations;AIautomationonlypreferredskill.57,783.96-66,500USDposted range belowRyan. PostMay2027start/OPT/STEMunknown. Locationverificationresolved;noAppliedAIcore/clearupgrade,nojobrecord/alert."
+      },
+      {
+        "classification": "source-location-unverified",
+        "id": "Booz-R0253516",
+        "source": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Washington-DC/University--Data-Scientist_R0253516",
+        "result": "OfficialWorkdaystillinaccessible. SecondarysourcesWashingtonDChybrid,Spring/Summer2027Bachelor,academic/internexperience andSecretclearance;notindependentofficialverification. Expandedlocations/authorization/eligibilityremainpending;noTexasassumption/record/alert."
+      },
+      {
+        "classification": "discovery-contract-unverified-open",
+        "id": "GeniusRoad-3444-16873737",
+        "source": "https://geniusroad.catsone.com/careers/41437/jobs/16873737-Junior-AIML-Engineer-3444",
+        "result": "OfficialindexedJD Austin4daysonsite/alreadylocal,12monthcontract;approximately1yearor equivalentinternship/academic/projectexperience,BachelorCS,Pythonmodel/data/evaluationtasksundersupervision. DirectofficialURL404,so liveopeningnotconfirmed. PostMay2027start/OPT/STEM/payunknown;temporarycontract/localresidencerequirement andnoclearRyanupgrade. No record/alert."
+      }
+    ],
+    "resolvedCandidateVerification": [
+      "Cushman-R336908: officialAustinlocationconfirmed; coremarketreporting/lowerpayfailsupgrade."
+    ],
+    "coverage": "Incremental,not exhaustive335-record/allATSrevalidation. Fullmainjobs.json,citysourcepages,latestaudit/commits,bothupstreamREADMEs and2newreadablerawpatchesread.27rawupstreamdeltas pending,plusBoozexpandedlocations/eligibility;distinctfrompendingGitHubwrites. PublishedcityURLsinaccessible; maincitysourcesreadable. .github/workflowsNOT_FOUND onreadablemain;Pagesdeploymentnotjobdiscovery. Exclusions/applicationstatuses/JDarchivespreserved;noscrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "verify-current-audit-write"
+    ],
+    "pendingVerification": [
+      "35533e8691c947c94b94078df99b3478f42852c4",
+      "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+      "36b93182d622dacdc7be77475ce025b03f556947",
+      "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+      "2481f57dbe4931e54be6720c7018963767a9d088",
+      "aaea55fd0f076c1d14a10da933f7721921db39da",
+      "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+      "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+      "312c0f79f413d46095930423c9196200f67d1e79",
+      "85ef9c08c45a76f29f347072f15232930aabeff3",
+      "f48176217cd23469563bf776474cf1a983e7f09d",
+      "61603fe2a34393ac280e70933bc24390970ddaf2",
+      "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+      "6c475490e38ea4b8a7c648eba73461808991505d",
+      "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+      "7ea9fa88c51f87104fbe990a6f0725109328d659",
+      "d2616170a73b2aa43200e231e12874e97e0b112b",
+      "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+      "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258",
+      "3895460b745f3807a0111935c428317f5e3d5ce2",
+      "5f654614affbd0fc4b1ae53547be882d66e0e5b9",
+      "6a6d1084f83015b25c1336aaac09f2f1f3141982",
+      "c2bb6c5f9414aba5eb3ee16ff327c22d2dc7de28",
+      "3ea093984ee0f6d8c8783af0e417cd8b0f4a7009",
+      "97197b465d12480d35df633c1449a84f83ab2015",
+      "eb995ab03995beb1b4b0a27247f2dcb5c484c7b0",
+      "e751029bcae7d743d46773a3e0394b536861e781"
+    ],
+    "pendingCandidateVerification": [
+      "Booz-R0253516 expanded locations/eligibility"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-28T08:10:19Z",
+    "consecutiveWriteFailures": 0
+  }
+}
