@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-28T08:08:55Z",
+  "checkedAt": "2026-11-28T08:10:05Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "581561ad4fe70c8357506d765fce8fa9e1bd0f3f",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-28T0139-Texas.json",
+      "sha": "2e486cd9acb54ade6ab4990dee4a791a9e9c6a98",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-28T07:41:08Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "137d8e95f6735899d533e8ef9d9003d8b8285f9d",
+      "baselineReadmeSha": "137d8e95f6735899d533e8ef9d9003d8b8285f9d",
+      "latestReadmeCommit": "c12833b8585d3a7727925531847e82bcd39672ab",
+      "latestRawCommit": "eb995ab03995beb1b4b0a27247f2dcb5c484c7b0",
+      "rawCommitsInspected": [],
+      "rawCommitsUninspected": [
+        "35533e8691c947c94b94078df99b3478f42852c4",
+        "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+        "36b93182d622dacdc7be77475ce025b03f556947",
+        "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+        "2481f57dbe4931e54be6720c7018963767a9d088",
+        "aaea55fd0f076c1d14a10da933f7721921db39da",
+        "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+        "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+        "312c0f79f413d46095930423c9196200f67d1e79",
+        "85ef9c08c45a76f29f347072f15232930aabeff3",
+        "f48176217cd23469563bf776474cf1a983e7f09d",
+        "61603fe2a34393ac280e70933bc24390970ddaf2",
+        "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+        "6c475490e38ea4b8a7c648eba73461808991505d",
+        "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+        "7ea9fa88c51f87104fbe990a6f0725109328d659",
+        "d2616170a73b2aa43200e231e12874e97e0b112b",
+        "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+        "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258",
+        "3895460b745f3807a0111935c428317f5e3d5ce2",
+        "5f654614affbd0fc4b1ae53547be882d66e0e5b9",
+        "6a6d1084f83015b25c1336aaac09f2f1f3141982",
+        "c2bb6c5f9414aba5eb3ee16ff327c22d2dc7de28",
+        "3ea093984ee0f6d8c8783af0e417cd8b0f4a7009",
+        "97197b465d12480d35df633c1449a84f83ab2015",
+        "eb995ab03995beb1b4b0a27247f2dcb5c484c7b0"
+      ],
+      "metroDelta": {
+        "before": 33,
+        "after": 33,
+        "added": [],
+        "removed": []
+      },
+      "result": "README unchanged; new rawcommit returned null diff/files twice, retained uninspected."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "f206ef7a2e14874ceb281d8f83ce2dd7d0fedca7",
+      "baselineReadmeSha": "abfdf9d19bc39c6dec784d732537ade9e4525ad6",
+      "latestCommit": "fbfbc04287a4f348d731fd2639936db8fbcdbb96",
+      "urlDelta": {
+        "before": 486,
+        "after": 485,
+        "added": [
+          [
+            "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/Data-Scientist--Junior_R0251120",
+            "| **[Booz Allen](https://simplify.jobs/c/Booz-Allen)** | Junior Data Scientist | San Diego, CA | **today** | [Apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/San-Diego-CA/Data-Scientist--Junior_R0251120) |"
+          ],
+          [
+            "https://cw.wd1.myworkdayjobs.com/external/job/Denver-Colorado-USA/Research-Associate---Data-Centers--Alternatives---Practice-Groups_R336908",
+            "| **[Cushman & Wakefield](https://simplify.jobs/c/Cushman-And-Wakefield)** | Research Associate - Multiple Teams | Indianapolis, IN +8 | **today** | [Apply](https://cw.wd1.myworkdayjobs.com/external/job/Denver-Colorado-USA/Research-Associate---Data-Centers--Alternatives---Practice-Groups_R336908) |"
+          ],
+          [
+            "https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Boston-Massachusetts/Associate-Data-Scientist_JR26110981",
+            "| **[Manulife Financial](https://simplify.jobs/c/Manulife-Financial)** | Associate Data Scientist | Boston, MA +2 | **2d** | [Apply](https://manulife.wd3.myworkdayjobs.com/en-US/MFCJH_Jobs/job/Boston-Massachusetts/Associate-Data-Scientist_JR26110981) |"
+          ],
+          [
+            "https://cgg.wd103.myworkdayjobs.com/viridiencareers/job/Houston-United-States-of-America/Machine-Learning-Researcher---Seismic-Foundation-Models_JR101586",
+            "| **[Viridien](https://simplify.jobs/c/Viridien)** | Machine Learning Researcher - Seismic Foundation Models | Houston, TX | **5d** | [Apply](https://cgg.wd103.myworkdayjobs.com/viridiencareers/job/Houston-United-States-of-America/Machine-Learning-Researcher---Seismic-Foundation-Models_JR101586) |"
+          ],
+          [
+            "https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Entry-Level---Defense-Lab-Modeling-and-Simulation-Researcher_JR-202624677",
+            "| **[General Motors](https://simplify.jobs/c/General-Motors)** | Defense Modeling and Simulation Researcher | Warren, MI | **5d** | [Apply](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Entry-Level---Defense-Lab-Modeling-and-Simulation-Researcher_JR-202624677) |"
+          ],
+          [
+            "https://resurgent.wd1.myworkdayjobs.com/resurgent/job/SC---Greenville/Data-Scientist-I_R0001377",
+            "| **[Resurgent Capital Services](https://simplify.jobs/c/Resurgent-Capital-Services)** | Data Scientist 1 | Greenville, SC | **5d** | [Apply](https://resurgent.wd1.myworkdayjobs.com/resurgent/job/SC---Greenville/Data-Scientist-I_R0001377) |"
+          ],
+          [
+            "https://caci.wd1.myworkdayjobs.com/external/job/King-of-Prussia-PA-US/AI-ML-Engineer_335293",
+            "| **[CACI](https://simplify.jobs/c/CACI)** | AI/ML Engineer | Aurora, CO / King of Prussia, PA | **5d** | [Apply](https://caci.wd1.myworkdayjobs.com/external/job/King-of-Prussia-PA-US/AI-ML-Engineer_335293) |"
+          ],
+          [
+            "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Atlanta-GA/Health-Data-Scientist_R0252701",
+            "| **[Booz Allen](https://simplify.jobs/c/Booz-Allen)** | Health Data Scientist | Atlanta, GA | **today** | [Apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Atlanta-GA/Health-Data-Scientist_R0252701) |"
+          ],
+          [
+            "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Washington-DC/University--Data-Scientist_R0253516",
+            "| **[Booz Allen](https://simplify.jobs/c/Booz-Allen)** | Data Scientist | Washington, DC +13 | 8d | [Apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Washington-DC/University--Data-Scientist_R0253516) |"
+          ],
+          [
+            "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Washington-DC/University--ML-Engineer_R0253519",
+            "| **[Booz Allen](https://simplify.jobs/c/Booz-Allen)** | ML Engineer | Washington, DC / USA, DC, Washington (901 15th St NW) / Washington, DC | 8d | [Apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Washington-DC/University--ML-Engineer_R0253519) |"
+          ],
+          [
+            "https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Algorithm-Developer-Research-Engineer-II----Onsite-_01889945",
+            "| **[RTX](https://simplify.jobs/c/RTX)** | Algorithm Developer Research Engineer 2 | Richardson, TX | 9d | [Apply](https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-TX-RICHARDSON-C17--1717-Cityline-Dr--CITYLINE-C17/Algorithm-Developer-Research-Engineer-II----Onsite-_01889945) |"
+          ],
+          [
+            "https://homedepot.wd5.myworkdayjobs.com/careerdepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/Associate-Data-Scientist---Delivery-Data-Science_Req198509",
+            "| **[The Home Depot](https://simplify.jobs/c/The-Home-Depot)** | Associate Data Scientist - Delivery Data Science | Atlanta, GA | 11d | [Apply](https://homedepot.wd5.myworkdayjobs.com/careerdepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/Associate-Data-Scientist---Delivery-Data-Science_Req198509) |"
+          ]
+        ],
+        "removed": [
+          [
+            "https://lifeattiktok.com/search/7668582542044072245",
+            "| **TikTok** | Software Engineer Graduate (Data Arch - E-commerce) - 2027 Start | Seattle, Washington, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7668582542044072245) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7674029284265838853",
+            "| **TikTok** | Software Engineer - TikTok Search Engine | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7674029284265838853) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7626968373985429765",
+            "| **TikTok** | Software Engineer, AI Agent | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7626968373985429765) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7675829388634392837",
+            "| **TikTok** | Software Engineer Graduate (TikTok Search Data Infra) - 2027 Start | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7675829388634392837) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7668724383120804149",
+            "| **TikTok** | Software Engineer Graduate (Ads Signal & Measurement) - 2027 Start | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7668724383120804149) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7639632990934960389",
+            "| **TikTok** | Software Engineer, Pangle - SIA | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7639632990934960389) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7231665935751940413",
+            "| **TikTok** | Software Engineer, Ads Integrity | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7231665935751940413) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7280570149262117179",
+            "| **TikTok** | Software Engineer - Infrastructure, TikTok Search Engine | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7280570149262117179) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7527441329384147208",
+            "| **TikTok** | Software Engineer Graduate (Data Arch - Data Ecosystem ) - 2026 (PhD) | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7527441329384147208) |"
+          ],
+          [
+            "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Atlanta-GA/Health-Data-Scientist_R0252701",
+            "| **Booz Allen Hamilton** | Health Data Scientist | Atlanta, GA | **5d** | [Apply](https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Atlanta-GA/Health-Data-Scientist_R0252701) |"
+          ],
+          [
+            "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/washington-dc/university--data-scientist_r0253516",
+            "| **Booz Allen Hamilton** | University, Data Scientist | USA, DC, Washington (901 15th St NW) | 8d | [Apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/washington-dc/university--data-scientist_r0253516) |"
+          ],
+          [
+            "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/washington-dc/university--ml-engineer_r0253519",
+            "| **Booz Allen Hamilton** | University, ML Engineer | USA, DC, Washington (901 15th St NW) / Washington, DC / Washington, DC | 8d | [Apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/washington-dc/university--ml-engineer_r0253519) |"
+          ],
+          [
+            "https://bah.wd1.myworkdayjobs.com/Confidential/job/McLean-VA/University---Data-Scientist_R0252282",
+            "| **[Booz Allen](https://simplify.jobs/c/Booz-Allen)** | Data Scientist | Honolulu, HI +11 | 12d | [Apply](https://bah.wd1.myworkdayjobs.com/Confidential/job/McLean-VA/University---Data-Scientist_R0252282) |"
+          ]
+        ]
+      },
+      "result": "486to485 URLs;12added13removed. 3Booz URL/casing changes are same requisitions;9TikTok removals are nonmetro. RTX01889945Richardson already checked in earlier audits, source restoration not newjob. Manulifeofficialpage expired,Boston/Torontoindexed locations. CushmanR336908 and BoozR0253516 expandedlocations unresolved; not assumedTexas or eligible."
+    },
+    "otherSources": [
+      "Fresh system2 Dallas/Austin2027discovery; system1 officialRTX/Manulife/multilocationverification; CleanSlate/IntegraofficialJDs; Cushman/BoozWorkdayattempts; publishedcityURLs attempted."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "previously-seen-citizenship-rejected",
+        "id": "RTX-01889945",
+        "source": "https://careers.rtx.com/global/en/job/01889945/Algorithm-Developer-Research-Engineer-II-Onsite",
+        "result": "OfficialindexedJD requiresUScitizenship,TS/SCIpolygraphexistingclearanceafterday1;Richardsononsite,MasterSTEM,coursework/projectsaccepted,algorithms/sensordata/cloudML. Directpageonlynavigation,liveopeningnotindependentlyconfirmed. Failscitizenshipgate;sourceURLrestorationdoesnotreopenorcreatearecord."
+      },
+      {
+        "classification": "existing-unverified",
+        "id": "CleanSlate-4615513",
+        "source": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4615513",
+        "result": "OfficialAustinFTJD/Applylive,coursework/projects/internshipsaccepted,nonumericminimum;guidedproductionGenAI/agentcomponents/evaluation/integration. PostMay2027start,OPT/STEM,pay/travel andclearRyanupgradeunknown."
+      },
+      {
+        "classification": "existing-unverified",
+        "id": "Integra-5487065008",
+        "source": "https://job-boards.greenhouse.io/integra/jobs/5487065008",
+        "result": "OfficialAustinFTSummer2027JD/Applylive,quantR/Python/SQL,nonumericminimum,fraudeconometricsinvestigations. NosponsorstatementnotOPT/STEMconfirmation;pay/clearRyanupgradeunknown."
+      },
+      {
+        "classification": "source-out-of-scope-expired",
+        "id": "Manulife-JR26110981",
+        "source": "https://careers.manulife.com/latam/es/job/JR26110981/Associate-Data-Scientist",
+        "result": "Officialdirectpageexplicitlyexpired;officialindexedlocationsBoston/Toronto. NoTexaseligiblelisting."
+      },
+      {
+        "classification": "source-location-unverified",
+        "id": "Cushman-R336908",
+        "source": "https://cw.wd1.myworkdayjobs.com/external/job/Denver-Colorado-USA/Research-Associate---Data-Centers--Alternatives---Practice-Groups_R336908",
+        "result": "SourceIndianapolis+8,officialWorkdayinaccessible. Expandedlocations,AppliedAIcore,experience,start,OPT/paynotverified. No record/alert."
+      },
+      {
+        "classification": "source-location-unverified",
+        "id": "Booz-R0253516",
+        "source": "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/Washington-DC/University--Data-Scientist_R0253516",
+        "result": "Same requisition URLcasechange/expandedWashingtonDC+13source row;officialWorkdayinaccessible. Expandedlocations/clearance/experience/start/OPTnotverified. No record/alert."
+      }
+    ],
+    "coverage": "Incremental,not exhaustive335-record/allATSrevalidation. Fullmainjobs.json,citysourcepages,latestaudit/commits,bothupstreamREADMEs andTariveURLdelta read.26upstreamrawdeltas pending,plus2candidateexpandedlocationverifications;separatefrompendingGitHubwrites. PublishedcityURLsinaccessible; maincitysourcesreadable. .github/workflowsNOT_FOUNDonreadablemain;Pagesdeploymentnotjobdiscovery. Exclusions,applications/JDarchivespreserved;noscrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "verify-current-audit-write"
+    ],
+    "pendingVerification": [
+      "35533e8691c947c94b94078df99b3478f42852c4",
+      "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+      "36b93182d622dacdc7be77475ce025b03f556947",
+      "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+      "2481f57dbe4931e54be6720c7018963767a9d088",
+      "aaea55fd0f076c1d14a10da933f7721921db39da",
+      "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+      "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+      "312c0f79f413d46095930423c9196200f67d1e79",
+      "85ef9c08c45a76f29f347072f15232930aabeff3",
+      "f48176217cd23469563bf776474cf1a983e7f09d",
+      "61603fe2a34393ac280e70933bc24390970ddaf2",
+      "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+      "6c475490e38ea4b8a7c648eba73461808991505d",
+      "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+      "7ea9fa88c51f87104fbe990a6f0725109328d659",
+      "d2616170a73b2aa43200e231e12874e97e0b112b",
+      "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+      "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258",
+      "3895460b745f3807a0111935c428317f5e3d5ce2",
+      "5f654614affbd0fc4b1ae53547be882d66e0e5b9",
+      "6a6d1084f83015b25c1336aaac09f2f1f3141982",
+      "c2bb6c5f9414aba5eb3ee16ff327c22d2dc7de28",
+      "3ea093984ee0f6d8c8783af0e417cd8b0f4a7009",
+      "97197b465d12480d35df633c1449a84f83ab2015",
+      "eb995ab03995beb1b4b0a27247f2dcb5c484c7b0"
+    ],
+    "pendingCandidateVerification": [
+      "Cushman-R336908 expanded locations/eligibility",
+      "Booz-R0253516 expanded locations/eligibility"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-28T07:41:08Z",
+    "consecutiveWriteFailures": 0
+  }
+}
