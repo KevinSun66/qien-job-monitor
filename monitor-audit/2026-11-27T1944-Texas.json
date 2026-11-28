@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-28T01:44:04Z",
+  "checkedAt": "2026-11-28T01:44:47Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "9d3a19da5fc1104a1a1e9511f0cf1932f0516b11",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-27T1838-Texas.json",
+      "sha": "4549287bf02030424ef8f15747a1213eb4dc70b5",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-28T00:40:11Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "5e722a00345949aaf13601007db92869a367d579",
+      "baselineReadmeSha": "693bb345734b1cf7845217a3b801542eb06c1226",
+      "latestReadmeCommit": "4c8378bf6f347152d6f7b5ae0d590e81a53718d1",
+      "rawCommitsInspected": [
+        "e322ccbb315a1cb407c40c65ec8a4f1ca6e37d7a",
+        "705965992dfbb80965c4d4b4d6175bc754867cc7"
+      ],
+      "rawCommitsUninspected": [
+        "35533e8691c947c94b94078df99b3478f42852c4",
+        "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+        "36b93182d622dacdc7be77475ce025b03f556947",
+        "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+        "2481f57dbe4931e54be6720c7018963767a9d088",
+        "aaea55fd0f076c1d14a10da933f7721921db39da",
+        "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+        "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+        "312c0f79f413d46095930423c9196200f67d1e79",
+        "85ef9c08c45a76f29f347072f15232930aabeff3",
+        "f48176217cd23469563bf776474cf1a983e7f09d",
+        "61603fe2a34393ac280e70933bc24390970ddaf2",
+        "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+        "6c475490e38ea4b8a7c648eba73461808991505d",
+        "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+        "7ea9fa88c51f87104fbe990a6f0725109328d659",
+        "d2616170a73b2aa43200e231e12874e97e0b112b",
+        "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+        "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258",
+        "3895460b745f3807a0111935c428317f5e3d5ce2",
+        "5f654614affbd0fc4b1ae53547be882d66e0e5b9"
+      ],
+      "metroDelta": {
+        "before": 32,
+        "after": 33,
+        "added": [
+          [
+            "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Austin-TX-TX18/GIS-Analyst--Entry-Level--Hybrid---Austin-_R2603901?utm_source=Simplify&ref=Simplify",
+            "ICF International GIS Analyst Entry Level Austin, TX 9d"
+          ]
+        ],
+        "removed": []
+      },
+      "result": "Both new raw patches read, including S&P332351 Dallas previously seen and ICF R2603901 Austin. README32to33metroURLs,only ICF added. HPE AIautomationSpring and ViridienMLHouston outside metro scope; hardware/technician/non-target additions not qualified. Other added jobs primarily nonTexas. Source status toggles and removed old records do not establish official status."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "abfdf9d19bc39c6dec784d732537ade9e4525ad6",
+      "baselineReadmeSha": "1517f4ce99135d5eb56852cbca4a94db5630f253",
+      "latestCommit": "33edf12ac77f7d8f03c88271305f31e97719e1ab",
+      "urlDelta": {
+        "before": 481,
+        "after": 486,
+        "added": [
+          [
+            "https://lifeattiktok.com/search/7668582542044072245",
+            "| **TikTok** | Software Engineer Graduate (Data Arch - E-commerce) - 2027 Start | Seattle, Washington, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7668582542044072245) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7674029284265838853",
+            "| **TikTok** | Software Engineer - TikTok Search Engine | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7674029284265838853) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7626968373985429765",
+            "| **TikTok** | Software Engineer, AI Agent | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7626968373985429765) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7675829388634392837",
+            "| **TikTok** | Software Engineer Graduate (TikTok Search Data Infra) - 2027 Start | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7675829388634392837) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7668724383120804149",
+            "| **TikTok** | Software Engineer Graduate (Ads Signal & Measurement) - 2027 Start | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7668724383120804149) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7639632990934960389",
+            "| **TikTok** | Software Engineer, Pangle - SIA | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7639632990934960389) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7231665935751940413",
+            "| **TikTok** | Software Engineer, Ads Integrity | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7231665935751940413) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7280570149262117179",
+            "| **TikTok** | Software Engineer - Infrastructure, TikTok Search Engine | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7280570149262117179) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7527441329384147208",
+            "| **TikTok** | Software Engineer Graduate (Data Arch - Data Ecosystem ) - 2026 (PhD) | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7527441329384147208) |"
+          ]
+        ],
+        "removed": [
+          [
+            "https://wk.wd3.myworkdayjobs.com/en-US/external/job/IND-Pune-Smartworks/Data-Scientist_R0061463",
+            "| **[Wolters Kluwer](https://www.wolterskluwer.com)** | Data Scientist | — | **6d** | [Apply](https://wk.wd3.myworkdayjobs.com/en-US/external/job/IND-Pune-Smartworks/Data-Scientist_R0061463) |"
+          ],
+          [
+            "https://cvshealth.wd1.myworkdayjobs.com/en-US/cvs_health_careers/job/New-York-161-Ave-of-the-Americas/Data-Scientist---Pharmacy-Benefits_R1069422-1",
+            "| **[CVS Health](https://www.cvshealth.com/)** | Data Scientist - Pharmacy Benefits | — | **7d** | [Apply](https://cvshealth.wd1.myworkdayjobs.com/en-US/cvs_health_careers/job/New-York-161-Ave-of-the-Americas/Data-Scientist---Pharmacy-Benefits_R1069422-1) |"
+          ],
+          [
+            "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/mclean-va/ai-ml-engineer_r0253445",
+            "| **Booz Allen Hamilton** | AI/ML Engineer | USA, VA, McLean (8283 Greensboro Dr Hamilton) - Direct Charge / McLean, VA | 13d | [Apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/mclean-va/ai-ml-engineer_r0253445) |"
+          ],
+          [
+            "https://boards.greenhouse.io/spacex/jobs/8920514002?gh_jid=8920514002",
+            "| **[SpaceX](https://www.spacex.com)** | Data Scientist - Starlink | Redmond, WA | 23d | [Apply](https://boards.greenhouse.io/spacex/jobs/8920514002?gh_jid=8920514002) |"
+          ]
+        ]
+      },
+      "result": "481to486URLs;9 restored TikTok Seattle/SanJose URLs and4nonmetro removals. No new metro requisition. SourceURLdelta not official open/close proof."
+    },
+    "otherSources": [
+      "Fresh official Workday attempts ICF R2603901 and S&P332351; system2 discovery and system1 official-source followups; S&P employercareers liveopen403 but indexedofficialJD available."
+    ],
+    "newTexasLeadsReviewed": 1,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "new-to-current-jobs-json-unverified-out-of-target",
+        "id": "ICF-R2603901",
+        "source": "https://icf.wd5.myworkdayjobs.com/icfexternal_career_site/job/Austin-TX-TX18/GIS-Analyst--Entry-Level--Hybrid---Austin-_R2603901",
+        "result": "Official Workday inaccessible,official requisition not independently retrieved;liveopen unverified. Secondary Austin earlycareer GIS role:ArcGISPro/Online,geodatabases/maps,environmentalpermitting/infrastructureanalysis,fieldmaps/GPS;Bachelor byhire,no numericminimum inmirror. CoreGIS/environmentalconsulting not verified AppliedAI/MLsoftware. Nosponsor does not establish OPTacceptance.2027start,pay and clearRyanupgrade unverified;no jobrecord/alert."
+      },
+      {
+        "classification": "previously-seen-ineligible-authorization",
+        "id": "S&P-332351",
+        "source": "https://careers.spglobal.com/jobs/332351?lang=en-us",
+        "result": "Official Workday inaccessible and employercareers liveopen403. Fresh official indexedJD for Dallas332351 specifies indefinite US righttowork;F1OPT/STEM temporaryauthorization does not meet stated indefinite requirement. Bachelor quantitative/technical/business,numericminimum absent;AIprototyping/agentworkflows/M365PythonJS,eval/adoption,mentoredcapstone.85–90Kofficialindexedrange,not clearupgradeversus signedRyan baseline;postMay2027start unverified. Do not substitute NYC332349. Previouslyseen,not new actionable role;no record/alert."
+      }
+    ],
+    "coverage": "Incremental,not exhaustive335-record/all-ATSrevalidation. Fullmain jobs.json,citysourcepages,latest audit/commits andbothupstreamREADMEs read;bothnewSimplifyrawpatches inspected,21olderraw deltas pending. One new-to-current-data metroGISlead andone previouslyseenDallasAIlead checked;neither meets notificationgates. Tarive9adds4removes nonmetro. BothpublishedcityURLs inaccessible,sourcepagesreadable. .github/workflowsNOT_FOUNDonreadablemain;Pagesdeploymentnotjobdiscovery. Exclusions,applicationstatuses/JDarchivespreserved;no scrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back exact content."
+    ],
+    "pendingVerification": [
+      "35533e8691c947c94b94078df99b3478f42852c4",
+      "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+      "36b93182d622dacdc7be77475ce025b03f556947",
+      "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+      "2481f57dbe4931e54be6720c7018963767a9d088",
+      "aaea55fd0f076c1d14a10da933f7721921db39da",
+      "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+      "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+      "312c0f79f413d46095930423c9196200f67d1e79",
+      "85ef9c08c45a76f29f347072f15232930aabeff3",
+      "f48176217cd23469563bf776474cf1a983e7f09d",
+      "61603fe2a34393ac280e70933bc24390970ddaf2",
+      "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+      "6c475490e38ea4b8a7c648eba73461808991505d",
+      "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+      "7ea9fa88c51f87104fbe990a6f0725109328d659",
+      "d2616170a73b2aa43200e231e12874e97e0b112b",
+      "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+      "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258",
+      "3895460b745f3807a0111935c428317f5e3d5ce2",
+      "5f654614affbd0fc4b1ae53547be882d66e0e5b9"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-28T00:40:11Z",
+    "consecutiveWriteFailures": 0
+  }
+}
