@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-28T15:49:13Z",
+  "checkedAt": "2026-11-28T15:50:08Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "4118b71b8b4001b8b451c34e0d588b948ca2a12c",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-28T0855-Texas.json",
+      "sha": "47d3068fefd4fd5d22a65846f5cfe57c3bffca00",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-28T14:56:32Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "ecbe6bf8b69ef7439558de7c7e688b5f8f2a724a",
+      "baselineReadmeSha": "ecbe6bf8b69ef7439558de7c7e688b5f8f2a724a",
+      "latestReadmeCommit": "102316871916c1d821b9fecdefe7b492e95b7e56",
+      "latestRawCommit": "5a6b6da9fdee1a79225726b65709513e3065c292",
+      "rawCommitsInspected": [],
+      "rawCommitsUninspected": [
+        "35533e8691c947c94b94078df99b3478f42852c4",
+        "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+        "36b93182d622dacdc7be77475ce025b03f556947",
+        "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+        "2481f57dbe4931e54be6720c7018963767a9d088",
+        "aaea55fd0f076c1d14a10da933f7721921db39da",
+        "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+        "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+        "312c0f79f413d46095930423c9196200f67d1e79",
+        "85ef9c08c45a76f29f347072f15232930aabeff3",
+        "f48176217cd23469563bf776474cf1a983e7f09d",
+        "61603fe2a34393ac280e70933bc24390970ddaf2",
+        "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+        "6c475490e38ea4b8a7c648eba73461808991505d",
+        "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+        "7ea9fa88c51f87104fbe990a6f0725109328d659",
+        "d2616170a73b2aa43200e231e12874e97e0b112b",
+        "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+        "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258",
+        "3895460b745f3807a0111935c428317f5e3d5ce2",
+        "5f654614affbd0fc4b1ae53547be882d66e0e5b9",
+        "6a6d1084f83015b25c1336aaac09f2f1f3141982",
+        "c2bb6c5f9414aba5eb3ee16ff327c22d2dc7de28",
+        "3ea093984ee0f6d8c8783af0e417cd8b0f4a7009",
+        "97197b465d12480d35df633c1449a84f83ab2015",
+        "eb995ab03995beb1b4b0a27247f2dcb5c484c7b0",
+        "e751029bcae7d743d46773a3e0394b536861e781",
+        "39a1f5cbc4d7a4ecfb7247f0c444e3e7df7d5e83",
+        "9b6f9814c44d80fc8cbabc28b1d24959832703a7",
+        "6a568f16d1f839690b49eb4df5fc4daf9d429c55",
+        "043f8f9125cddb6d7cbd1181cfc3f90ea7455559",
+        "fb989cf9d34c8a299c42a1d7b12f17f16decc005",
+        "5a6b6da9fdee1a79225726b65709513e3065c292"
+      ],
+      "metroDelta": {
+        "before": 33,
+        "after": 33,
+        "added": [],
+        "removed": []
+      },
+      "result": "README unchanged;2newrawcommitsnull diff/files twiceeach,retaineduninspected;noassumedjobchange."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "39c38c9ab98f5e0f084f819054cf970be1472c86",
+      "baselineReadmeSha": "39c38c9ab98f5e0f084f819054cf970be1472c86",
+      "latestCommit": "9923365320263f708031471ad6f910d3ac00c2ee",
+      "result": "README/latestcommit unchanged."
+    },
+    "otherSources": [
+      "Fresh system2 Dallas2027AI andQuoteWell discovery; officialexactQuoteWellRipplingJD andAshby404; publishedcityURLs attempted."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 1,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "previously-seen-experience-range-unverified-eligibility",
+        "id": "QuoteWell-6e8e9170-74e3-4723-9069-ac3a83442dc9",
+        "source": "https://ats.rippling.com/quotewell/jobs/6e8e9170-74e3-4723-9069-ac3a83442dc9",
+        "result": "ExactupstreamofficialRipplingJD/Applylive,Austin. CustomerembeddedgovernedAIworkflows,insuranceagencyintegrations/review/overrides,25%travel,1-5yearsshippingproductionsoftware. Rangeoutside0-2scope,notzero-start2027newgrad. PostMay2027start,OPT/STEM,compensationandclearRyanupgradeunverified;mentorshipclaimnotaloneenoughtopassgates. OfficialAshbyalternative404;notusedasclosureevidenceforliveRipplingreq. No jobrecord/alert."
+      }
+    ],
+    "coverage": "Incremental,not exhaustive335-record/allATSrevalidation. Fullmainjobs.json,citysourcepages,latestaudit/commits,bothupstreamREADMEs read.33rawupstreamdeltas and2priorcandidateverificationsretained;distinctfrompendingGitHubwrites. PublishedcityURLsinaccessible;mainsourcesreadable. .github/workflowsNOT_FOUND onreadablemain;Pagesdeploymentnotjobdiscovery. Exclusions/applicationstatuses/JDarchivespreserved;noscrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "verify-current-audit-write"
+    ],
+    "pendingVerification": [
+      "35533e8691c947c94b94078df99b3478f42852c4",
+      "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+      "36b93182d622dacdc7be77475ce025b03f556947",
+      "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+      "2481f57dbe4931e54be6720c7018963767a9d088",
+      "aaea55fd0f076c1d14a10da933f7721921db39da",
+      "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+      "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+      "312c0f79f413d46095930423c9196200f67d1e79",
+      "85ef9c08c45a76f29f347072f15232930aabeff3",
+      "f48176217cd23469563bf776474cf1a983e7f09d",
+      "61603fe2a34393ac280e70933bc24390970ddaf2",
+      "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+      "6c475490e38ea4b8a7c648eba73461808991505d",
+      "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+      "7ea9fa88c51f87104fbe990a6f0725109328d659",
+      "d2616170a73b2aa43200e231e12874e97e0b112b",
+      "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+      "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258",
+      "3895460b745f3807a0111935c428317f5e3d5ce2",
+      "5f654614affbd0fc4b1ae53547be882d66e0e5b9",
+      "6a6d1084f83015b25c1336aaac09f2f1f3141982",
+      "c2bb6c5f9414aba5eb3ee16ff327c22d2dc7de28",
+      "3ea093984ee0f6d8c8783af0e417cd8b0f4a7009",
+      "97197b465d12480d35df633c1449a84f83ab2015",
+      "eb995ab03995beb1b4b0a27247f2dcb5c484c7b0",
+      "e751029bcae7d743d46773a3e0394b536861e781",
+      "39a1f5cbc4d7a4ecfb7247f0c444e3e7df7d5e83",
+      "9b6f9814c44d80fc8cbabc28b1d24959832703a7",
+      "6a568f16d1f839690b49eb4df5fc4daf9d429c55",
+      "043f8f9125cddb6d7cbd1181cfc3f90ea7455559",
+      "fb989cf9d34c8a299c42a1d7b12f17f16decc005",
+      "5a6b6da9fdee1a79225726b65709513e3065c292"
+    ],
+    "pendingCandidateVerification": [
+      "Booz-R0253516 expanded locations/eligibility",
+      "Accenture-R00372691 start/OPT-STEM/Texaspay/travel/upgrade"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-28T14:56:32Z",
+    "consecutiveWriteFailures": 0
+  }
+}
