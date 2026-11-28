@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-28T04:50:48Z",
+  "checkedAt": "2026-11-28T04:53:50Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "e6a9cbd5c8eeb256972beadf578723e6e15edb97",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-27T2108-Texas.json",
+      "sha": "7a7da5ded609773cc24de60b09ed19ab6c5545a4",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-28T03:09:39Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "d0a8a68c8da9ef1598137dad1ac285fc3416ca13",
+      "baselineReadmeSha": "57ba37b9e6b1f0306fc3903e4f203c0ef3d3f6ad",
+      "latestReadmeCommit": "ce9e52be1007c547e34e15b8c55c49420c08a4be",
+      "rawCommitsInspected": [
+        "2612f9b7a31e930a7c1bd88b7dbc7f2eb9a97c7b",
+        "6a48ec2c826e7ba390c164b90c02c3f1addf7699"
+      ],
+      "rawCommitsUninspected": [
+        "35533e8691c947c94b94078df99b3478f42852c4",
+        "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+        "36b93182d622dacdc7be77475ce025b03f556947",
+        "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+        "2481f57dbe4931e54be6720c7018963767a9d088",
+        "aaea55fd0f076c1d14a10da933f7721921db39da",
+        "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+        "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+        "312c0f79f413d46095930423c9196200f67d1e79",
+        "85ef9c08c45a76f29f347072f15232930aabeff3",
+        "f48176217cd23469563bf776474cf1a983e7f09d",
+        "61603fe2a34393ac280e70933bc24390970ddaf2",
+        "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+        "6c475490e38ea4b8a7c648eba73461808991505d",
+        "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+        "7ea9fa88c51f87104fbe990a6f0725109328d659",
+        "d2616170a73b2aa43200e231e12874e97e0b112b",
+        "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+        "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258",
+        "3895460b745f3807a0111935c428317f5e3d5ce2",
+        "5f654614affbd0fc4b1ae53547be882d66e0e5b9",
+        "6a6d1084f83015b25c1336aaac09f2f1f3141982"
+      ],
+      "metroDelta": {
+        "before": 33,
+        "after": 33,
+        "added": [],
+        "removed": []
+      },
+      "result": "33 metro URLs unchanged. Inspected patches: 3 nonmetro additions Trinzic/CACI and 6 nonmetro inactive flags; 3 Oregon Intel hardware additions and California SoC reactivation. 04:02 raw commit returned null diff/files twice, retained for verification."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "abfdf9d19bc39c6dec784d732537ade9e4525ad6",
+      "baselineReadmeSha": "abfdf9d19bc39c6dec784d732537ade9e4525ad6",
+      "latestCommit": "33edf12ac77f7d8f03c88271305f31e97719e1ab",
+      "result": "README and latest commit unchanged."
+    },
+    "otherSources": [
+      "Fresh system2 and system1 Dallas/Austin AI/DS 2027 discovery; official Myriad360/Baasi/HF Sinclair JDs; Senseye official Workable attempted; both published city URLs attempted."
+    ],
+    "newTexasLeadsReviewed": 2,
+    "existingOrPreviouslySeenLeadsRechecked": 2,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "existing-unverified",
+        "id": "Myriad360-8930382002",
+        "source": "https://job-boards.greenhouse.io/myriad360/jobs/8930382002",
+        "result": "Official JD/Apply live; US remote, 0-2 years including projects/internships, up to10% travel. Internal agents/RAG/integrations/PowerPlatform. $85K is NYC only; Texas compensation, postMay2027 start and OPT/STEM acceptance unverified. Sponsorship question is not OPT confirmation. No clear Ryan upgrade."
+      },
+      {
+        "classification": "previously-seen-unverified",
+        "id": "Baasi-4RV39X7V",
+        "source": "https://careers-page.com/baasi/job/4RV39X7V",
+        "result": "Official Austin JD/Apply live; LoRA/QLoRA fine-tuning pipelines, adapters, evaluation and backend integration; no numeric experience minimum, occasional office. CUDA/ROCm use alone is not hardware work. Employment type, postMay2027 start, OPT/STEM and actual compensation/upgrade unverified."
+      },
+      {
+        "classification": "discovery-experience-rejected",
+        "id": "HF-Sinclair-1449635100",
+        "source": "https://careers.hfsinclair.com/job/Dallas-Data-Scientist-TX-75219/1449635100/",
+        "result": "Official Dallas JD/Apply live; production ML/GenAI/agents, ownership/mentoring; requires six or more years. Fails experience gate; start/OPT not verified. No job record or alert."
+      },
+      {
+        "classification": "discovery-unverified",
+        "id": "Senseye-56F6BB2046",
+        "source": "https://apply.workable.com/senseye/j/56F6BB2046/",
+        "result": "Official indexed title AI Engineer, Austin health ML; direct official page returned zero readable lines. Live opening, experience minimum, postMay2027 start and OPT/STEM not verified. Third-party pay not treated as verified. No record or alert."
+      }
+    ],
+    "coverage": "Incremental scan, not exhaustive335-record/all-employer ATS revalidation. Full main jobs.json, Dallas/Austin source pages, latest audit/commits, both upstream READMEs read. 22 upstream raw patches remain uninspected (21 historical plus one current null-diff commit); separate from pending GitHub writes. Both published city URLs inaccessible. .github/workflows NOT_FOUND on readable main; Pages deployment is not job discovery. All exclusions/application statuses/JD archives preserved; no scraper created."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "verify-current-audit-write"
+    ],
+    "pendingVerification": [
+      "35533e8691c947c94b94078df99b3478f42852c4",
+      "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+      "36b93182d622dacdc7be77475ce025b03f556947",
+      "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+      "2481f57dbe4931e54be6720c7018963767a9d088",
+      "aaea55fd0f076c1d14a10da933f7721921db39da",
+      "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+      "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+      "312c0f79f413d46095930423c9196200f67d1e79",
+      "85ef9c08c45a76f29f347072f15232930aabeff3",
+      "f48176217cd23469563bf776474cf1a983e7f09d",
+      "61603fe2a34393ac280e70933bc24390970ddaf2",
+      "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+      "6c475490e38ea4b8a7c648eba73461808991505d",
+      "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+      "7ea9fa88c51f87104fbe990a6f0725109328d659",
+      "d2616170a73b2aa43200e231e12874e97e0b112b",
+      "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+      "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258",
+      "3895460b745f3807a0111935c428317f5e3d5ce2",
+      "5f654614affbd0fc4b1ae53547be882d66e0e5b9",
+      "6a6d1084f83015b25c1336aaac09f2f1f3141982"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-28T03:09:39Z",
+    "consecutiveWriteFailures": 0
+  }
+}
