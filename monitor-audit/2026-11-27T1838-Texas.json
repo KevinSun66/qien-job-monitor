@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "monitor": "Qien Texas Applied AI/ML/Data Science",
+  "startedAt": "2026-11-28T00:38:46Z",
+  "checkedAt": "2026-11-28T00:39:29Z",
+  "repository": "KevinSun66/qien-job-monitor",
+  "branch": "main",
+  "repositorySnapshotBefore": {
+    "headCommit": "fb6123cef83c3368708bdb10de7fe401e5293b2c",
+    "jobs": {
+      "path": "jobs.json",
+      "sha": "36233a5464fc1721d1a41ee2bd81e22ee1250f78",
+      "count": 335,
+      "updatedAt": "2026-11-16T11:29:04Z"
+    },
+    "pages": {
+      "dallas": {
+        "path": "index.html",
+        "sha": "971f257a9e5560f5bec0e686d4f6fc10e0b7464c"
+      },
+      "austin": {
+        "path": "austin.html",
+        "sha": "e66fd23f929add492622813acbdb373e4b3021d1"
+      }
+    },
+    "latestAudit": {
+      "path": "monitor-audit/2026-11-27T1727-Texas.json",
+      "sha": "b257f23ad0be9c982b79e02520a30ebd2b2d8449",
+      "synced": true,
+      "pending": [],
+      "lastSuccessfulWriteAt": "2026-11-27T23:28:53Z"
+    },
+    "workflows": {
+      "path": ".github/workflows",
+      "exists": false,
+      "result": "GitHub Contents API returned NOT_FOUND on readable main. Pages deployment is not job discovery."
+    },
+    "publishedPages": "Both deployed URLs attempted but not retrievable; Dallas/Austin source pages read from main."
+  },
+  "discovery": {
+    "upstream": {
+      "repository": "SimplifyJobs/New-Grad-Positions",
+      "branch": "dev",
+      "readmeSha": "693bb345734b1cf7845217a3b801542eb06c1226",
+      "baselineReadmeSha": "d641c3f7f283d086a9e2860b26ddc14b64ed65c5",
+      "latestReadmeCommit": "797f350a28152bc1f576f7c0a559f601792f58c6",
+      "rawCommitsInspected": [
+        "ee2a7c752b28c42438df144279b11b9dc89b5f21",
+        "0d9dbd18b6050d637970f2ea6e52119ed633c5d9",
+        "0dfe0bd1854eee33fbe45454b4282b7a2294edec"
+      ],
+      "rawCommitsUninspected": [
+        "35533e8691c947c94b94078df99b3478f42852c4",
+        "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+        "36b93182d622dacdc7be77475ce025b03f556947",
+        "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+        "2481f57dbe4931e54be6720c7018963767a9d088",
+        "aaea55fd0f076c1d14a10da933f7721921db39da",
+        "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+        "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+        "312c0f79f413d46095930423c9196200f67d1e79",
+        "85ef9c08c45a76f29f347072f15232930aabeff3",
+        "f48176217cd23469563bf776474cf1a983e7f09d",
+        "61603fe2a34393ac280e70933bc24390970ddaf2",
+        "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+        "6c475490e38ea4b8a7c648eba73461808991505d",
+        "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+        "7ea9fa88c51f87104fbe990a6f0725109328d659",
+        "d2616170a73b2aa43200e231e12874e97e0b112b",
+        "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+        "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258",
+        "3895460b745f3807a0111935c428317f5e3d5ce2",
+        "5f654614affbd0fc4b1ae53547be882d66e0e5b9"
+      ],
+      "result": "All three new raw patches read. SpeechmaticsUK,algo1London,neurohireCanada,JerryPaloAlto,WheelyLondon,TrinzicOH/VA/etc inclSanAntonio and non-target role/statuschanges; no metro target addition. HireHawk remote genericAssociateSWE does not establish AppliedAI or2027 target.32metro README application URLs unchanged."
+    },
+    "sourceDelta": {
+      "repository": "Tar-ive/ML_Newgrad_2027",
+      "branch": "main",
+      "readmeSha": "1517f4ce99135d5eb56852cbca4a94db5630f253",
+      "baselineReadmeSha": "c478da4db6715a64099b1310d25e06ce0e794efe",
+      "latestCommit": "ada0d04fc33e48e3d1462219ba7c481362497e17",
+      "urlDelta": {
+        "before": 472,
+        "after": 481,
+        "added": [
+          [
+            "https://apply.workable.com/intetics-2/j/0F641629EC/apply",
+            "| **[Intetics](https://simplify.jobs/c/Intetics)** | Field Researcher | Detroit, MI | **today** | [Apply](https://apply.workable.com/intetics-2/j/0F641629EC/apply) |"
+          ],
+          [
+            "https://apply.careers.microsoft.com/careers/job/1970393557053974",
+            "| **[Microsoft](https://www.microsoft.com)** | Data Scientist II - EngThrive Insights - CoreAI | Redmond, WA | **today** | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557053974) |"
+          ],
+          [
+            "https://vitaverstaffing.catsone.com/careers/5543/jobs/16876504-Data-Scientist-onsite",
+            "| **V&A** | Data Scientist (onsite) | Oklahoma City, OK | **1d** | [Apply](https://vitaverstaffing.catsone.com/careers/5543/jobs/16876504-Data-Scientist-onsite) |"
+          ],
+          [
+            "https://triforce-inc.zohorecruit.com/recruit/PortalDetail.na?iframe=true&digest=tmQIbOnWflDZ0S2pElxhAnGAUnkE7bVo.a85bxdBEmQ-&jobid=473204000030600018&widgetid=473204000000072311&embedsource=CareerSite",
+            "| **Tri -Force Consulting Services** | Junior Data Scientist | Oklahoma City, 73152, United States | **1d** | [Apply](https://triforce-inc.zohorecruit.com/recruit/PortalDetail.na?iframe=true&digest=tmQIbOnWflDZ0S2pElxhAnGAUnkE7bVo.a85bxdBEmQ-&jobid=473204000030600018&widgetid=473204000000072311&embedsource=CareerSite) |"
+          ],
+          [
+            "https://jobs.ashbyhq.com/scout-ai/ad3dd69f-f568-4a7c-abbf-280424bc63ed",
+            "| **Scoutai** | AI Engineer, AI/ML and Agent Harnessing (New Grad, 2027) | Sunnyvale, CA | **1d** | [Apply](https://jobs.ashbyhq.com/scout-ai/ad3dd69f-f568-4a7c-abbf-280424bc63ed) |"
+          ],
+          [
+            "https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Research-Scientist_R173584",
+            "| **Adobe** | 2027 University Graduate - Research Scientist | San Jose, CA | **3d** | [Apply](https://adobe.wd5.myworkdayjobs.com/en-US/external_experienced/job/San-Jose/XMLNAME-2027-University-Graduate---Research-Scientist_R173584) |"
+          ],
+          [
+            "https://go.vansh.nyc/1Lx",
+            "| **Applied Materials** | AI Engineer/Data Scientist | Santa Clara, CA | **3d** | [Apply](https://go.vansh.nyc/1Lx) |"
+          ],
+          [
+            "https://lockheedmartin.eightfold.ai/careers/job/996478147104",
+            "| **[Lockheed Martin](https://www.lockheedmartin.com)** | A/AI Machine Learning Engineering -Full Time Telework | Bethesda, MD | **3d** | [Apply](https://lockheedmartin.eightfold.ai/careers/job/996478147104) |"
+          ],
+          [
+            "https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-REMOTE/Full-Stack-AI-ML-Developer--Remote-_01890761",
+            "| **RTX (Raytheon)** | Full Stack AI/ML Developer (Remote) | US-CT-REMOTE | **6d** | [Apply](https://globalhr.wd5.myworkdayjobs.com/REC_RTX_Ext_Gateway/job/US-CT-REMOTE/Full-Stack-AI-ML-Developer--Remote-_01890761) |"
+          ],
+          [
+            "https://wk.wd3.myworkdayjobs.com/en-US/external/job/IND-Pune-Smartworks/Data-Scientist_R0061463",
+            "| **[Wolters Kluwer](https://www.wolterskluwer.com)** | Data Scientist | — | **6d** | [Apply](https://wk.wd3.myworkdayjobs.com/en-US/external/job/IND-Pune-Smartworks/Data-Scientist_R0061463) |"
+          ],
+          [
+            "https://vst.wd5.myworkdayjobs.com/en-US/vistra_careers/job/Irving-Texas/Data-Scientist_40016989-2",
+            "| **[Vistra](https://vistracorp.com/)** | Data Scientist | Irving, TX | 8d | [Apply](https://vst.wd5.myworkdayjobs.com/en-US/vistra_careers/job/Irving-Texas/Data-Scientist_40016989-2) |"
+          ],
+          [
+            "https://lockheedmartin.eightfold.ai/careers/job/996478039086",
+            "| **[Lockheed Martin](https://www.lockheedmartin.com)** | A/AI Machine Learning Engineering - junior career | Littleton, CO | 8d | [Apply](https://lockheedmartin.eightfold.ai/careers/job/996478039086) |"
+          ],
+          [
+            "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/United-States-Work-at-Home/Data-Science-Advisor---EviCore---Remote_26014035",
+            "| **Cigna** | Data Science Advisor - EviCore - Remote | United States Work at Home | 9d | [Apply](https://cigna.wd5.myworkdayjobs.com/cignacareers/job/United-States-Work-at-Home/Data-Science-Advisor---EviCore---Remote_26014035) |"
+          ],
+          [
+            "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Texas/AI-Engineer-II_R14847",
+            "| **Proofpoint** | AI Engineer | Texas, USA +6 | 11d | [Apply](https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Texas/AI-Engineer-II_R14847) |"
+          ],
+          [
+            "https://bah.wd1.myworkdayjobs.com/bah_jobs/job/mclean-va/ai-ml-engineer_r0253445",
+            "| **Booz Allen Hamilton** | AI/ML Engineer | USA, VA, McLean (8283 Greensboro Dr Hamilton) - Direct Charge / McLean, VA | 13d | [Apply](https://bah.wd1.myworkdayjobs.com/bah_jobs/job/mclean-va/ai-ml-engineer_r0253445) |"
+          ],
+          [
+            "https://lockheedmartin.eightfold.ai/careers/job/996477907742",
+            "| **[Lockheed Martin](https://www.lockheedmartin.com)** | AI Research Engineer Entry Level | Manassas, VA | 15d | [Apply](https://lockheedmartin.eightfold.ai/careers/job/996477907742) |"
+          ],
+          [
+            "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Huntsville-AL/Reinforcement-Learning-AI-Engineer_R0245112",
+            "| **Booz Allen Hamilton** | Reinforcement Learning AI Engineer | Huntsville, AL | 24d | [Apply](https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Huntsville-AL/Reinforcement-Learning-AI-Engineer_R0245112) |"
+          ],
+          [
+            "https://apply.starbucks.com/careers/job/481081162369",
+            "| **[Starbucks](https://www.starbucks.com)** | shift supervisor - Store# 67531 - S ML King Jr Pkwy and Shannon Ave | Beaumont, TX | 52d | [Apply](https://apply.starbucks.com/careers/job/481081162369) |"
+          ]
+        ],
+        "removed": [
+          [
+            "https://lifeattiktok.com/search/7668582542044072245",
+            "| **TikTok** | Software Engineer Graduate (Data Arch - E-commerce) - 2027 Start | Seattle, Washington, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7668582542044072245) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7674029284265838853",
+            "| **TikTok** | Software Engineer - TikTok Search Engine | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7674029284265838853) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7626968373985429765",
+            "| **TikTok** | Software Engineer, AI Agent | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7626968373985429765) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7668724383120804149",
+            "| **TikTok** | Software Engineer Graduate (Ads Signal & Measurement) - 2027 Start | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7668724383120804149) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7675829388634392837",
+            "| **TikTok** | Software Engineer Graduate (TikTok Search Data Infra) - 2027 Start | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7675829388634392837) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7639632990934960389",
+            "| **TikTok** | Software Engineer, Pangle - SIA | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7639632990934960389) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7231665935751940413",
+            "| **TikTok** | Software Engineer, Ads Integrity | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7231665935751940413) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7280570149262117179",
+            "| **TikTok** | Software Engineer - Infrastructure, TikTok Search Engine | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7280570149262117179) |"
+          ],
+          [
+            "https://lifeattiktok.com/search/7527441329384147208",
+            "| **TikTok** | Software Engineer Graduate (Data Arch - Data Ecosystem ) - 2026 (PhD) | San Jose, California, United States of America | **today** | [Apply](https://lifeattiktok.com/search/7527441329384147208) |"
+          ]
+        ]
+      },
+      "result": "472to481 application URLs,18added9removed.Three Texas/USremote prior leads Vistra40016989-2,ProofpointR14847,Cigna26014035 restored;not new requisitions. Other additions out-of-metro,unverified remote geographies or non-target roles (e.g.StarbucksshiftsupervisorBeaumont);removedTikTokURLsnonTexas. URL changes are not distinct new requisition counts or official open/close proof."
+    },
+    "otherSources": [
+      "Fresh official Workday attempts for Vistra/Proofpoint/Cigna; Cigna employer-careers followup; system2 and system1 official-source searches."
+    ],
+    "newTexasLeadsReviewed": 0,
+    "existingOrPreviouslySeenLeadsRechecked": 3,
+    "newVerifiedEligibleListings": 0,
+    "verifiedStatusChanges": 0,
+    "observations": [
+      {
+        "classification": "restored-source-row-previously-seen-unverified",
+        "id": "Vistra-40016989",
+        "source": "https://vst.wd5.myworkdayjobs.com/en-US/vistra_careers/job/Irving-Texas/Data-Scientist_40016989-2",
+        "result": "Official Workday inaccessible. Secondary Irving fulltime statisticalML/data pipelines/visualization,MS/PhD and1–3years. No official liveopen,experiencealternative,postMay2027start,OPT/STEM,pay or clearRyanupgrade confirmation. Different from archived40016531. Source restoration alone is not reopening;no record/alert."
+      },
+      {
+        "classification": "restored-source-row-previously-seen-unverified",
+        "id": "Proofpoint-R14847",
+        "source": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Texas/AI-Engineer-II_R14847",
+        "result": "Official Workday inaccessible;secondaryTexasAIEngineerII internalAI/fullstack lead remains unverified. Previous mirrored1–2includingacademic/internship is not newly confirmed officialminimum;postMay2027start,OPT/STEM andTexascompensation/clearRyanupgrade unresolved. Do not apply other-state pay or employerH1B history as proof. No record/alert."
+      },
+      {
+        "classification": "restored-source-row-previously-seen-not-qualified",
+        "id": "Cigna-26014035",
+        "source": "https://jobs.thecignagroup.com/us/en/job/26014035/Data-Science-Advisor-EviCore-Remote",
+        "result": "Workday inaccessible;employerCareers returns410Gone. Official indexedJD requires6–8+industryyears,BS/MS;ML/NLP/LLM/RAG,Pythonsql,productioncodeandhealthcareanalytics. Indexed107.7–179.5K does not remove seniority mismatch;no2027cohort orOPT confirmation. Restored source row doesnot establish reopening. No record/alert."
+      }
+    ],
+    "coverage": "Incremental,not exhaustive335-record/all-ATSrevalidation. Fullmain jobs.json,bothcitysourcepages,latest audit/commits andboth upstreamREADMEs read. All3newSimplifyrawpatches inspected;21olderraw deltas remain pending. TariveURLdelta18adds9removes reviewed;three restoredTexas/USremotepriorleads officially checked. Remaining nonmetro/unspecifiedremote additions not fully ATSvalidated. BothpublishedcityURLs inaccessible,sourcepagesreadable. .github/workflowsNOT_FOUNDonreadablemain;Pagesdeploymentnotjobdiscovery. Existing exclusions,applicationstatuses/JDarchives preserved;no scrapercreated."
+  },
+  "screening": {
+    "qualifiedCandidates": 0,
+    "notificationCandidates": 0,
+    "result": "No verified new opening passes all hard gates and clearly improves on the Ryan Associate Data Scientist return offer."
+  },
+  "changes": {
+    "jobsJsonChanged": false,
+    "dallasPageChanged": false,
+    "austinPageChanged": false,
+    "archivesChanged": false,
+    "applicationStatusesChanged": false,
+    "addedRecords": 0,
+    "deletedRecords": 0,
+    "statusChanges": 0
+  },
+  "githubWrites": {
+    "jobsJson": "not-attempted-no-data-change",
+    "dallasPage": "not-attempted",
+    "austinPage": "not-attempted",
+    "archives": "not-attempted",
+    "audit": "write-pending-verification",
+    "synced": false,
+    "pending": [
+      "Verify audit commit and read back exact content."
+    ],
+    "pendingVerification": [
+      "35533e8691c947c94b94078df99b3478f42852c4",
+      "cdc2a18b7ce40715d9d0697565041362ac14d4be",
+      "36b93182d622dacdc7be77475ce025b03f556947",
+      "ca74bdf6f83c2464bc22d859aea49ee5f0198795",
+      "2481f57dbe4931e54be6720c7018963767a9d088",
+      "aaea55fd0f076c1d14a10da933f7721921db39da",
+      "1cd47173bac98db8ac9d5607f8ee60f5c9f73ddf",
+      "3b7e18aba9c3d2e65b08957873d598eb589779d3",
+      "312c0f79f413d46095930423c9196200f67d1e79",
+      "85ef9c08c45a76f29f347072f15232930aabeff3",
+      "f48176217cd23469563bf776474cf1a983e7f09d",
+      "61603fe2a34393ac280e70933bc24390970ddaf2",
+      "eda06af5ce90b8d03fb1b9a0354b29908bb479ef",
+      "6c475490e38ea4b8a7c648eba73461808991505d",
+      "2c54db493e22df5f876f4e5d22cd1e7da2ce4910",
+      "7ea9fa88c51f87104fbe990a6f0725109328d659",
+      "d2616170a73b2aa43200e231e12874e97e0b112b",
+      "eef7f8a1f8c46f8aa32b059275329f50743a1b13",
+      "b463bd1567625fb6ff6ddfe73e41f7e58bfd5258",
+      "3895460b745f3807a0111935c428317f5e3d5ce2",
+      "5f654614affbd0fc4b1ae53547be882d66e0e5b9"
+    ],
+    "lastSuccessfulWriteAt": "2026-11-27T23:28:53Z",
+    "consecutiveWriteFailures": 0
+  }
+}
